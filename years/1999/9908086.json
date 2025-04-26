@@ -1,0 +1,106 @@
+{
+ "awd_id": "9908086",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Neural Network Derivatives Pricing for Electricity Commodity Markets",
+ "cfda_num": "47.041",
+ "org_code": "07010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Paul Werbos",
+ "awd_eff_date": "1999-09-01",
+ "awd_exp_date": "2000-08-31",
+ "tot_intn_awd_amt": 80000.0,
+ "awd_amount": 80000.0,
+ "awd_min_amd_letter_date": "1999-08-27",
+ "awd_max_amd_letter_date": "1999-08-27",
+ "awd_abstract_narration": "9908086\r\nOlurotimi\r\nThis research project will test a recurrent neural network approach to pricing electricity commodity derivatives. The method is based is based on the ability of dynamic recurrent neural networks to approximate properly parameterized arbitrary functionals. The network explicitly estimates financial derivative valuations. The underlying asset spot price process is not explicitly replicated, but is implicit in the estimation. This approach therefore overcomes the problems in many other approaches that focus on modeling the underlying price process. Namely, derivative pricing equations explicitly based on the underlying process for exotic contracts such as electricity are rarely found in closed form. Virtually all known real time methods for valuing electricity derivatives are extremely computationally expensive. The approach here relegates the computational expense to offline design, and should be able to generate online derivative valuations in dramatically less time than is usually done. The approach is conceptually similar to recent transform based approaches that also avoid explicit estimation of the underlying price process, but compute the derivative prices implicitly through substitutions in the transform domain. However, the desired analytical expressions do not readily emerge in those transform approaches either, leading to very high computational expense in order to implement them. The design approach presented in this proposal is completely rigorous, while admitting a computational cost barely more than typical offline neural network training. Analytical measures of performance based on recent results in stochastic recurrent neural networks are used to iteratively optimize the design in this offline stage.\r\nDescriptive statistics are extracted from electricity spot price data series, including parameters related to jumps, price spikes and process regime-switching. These quantities are used to parameterize the functional operator that generates the derivative asset prices. This approach is consistent with those few and limited cases where closed-form derivative pricing formulas have been obtained. The recurrent neural network is then trained to generate the derivative asset price functionals using an input vector that consists of a subvector of the recurrent neural network state feedback, and a subvector of the exogenous (to the recurrent neural network ) parameters. The dynamic neural network approach is suited for this application because the ideal computation of, for example, futures or forward derivative contracts at a given time requires some autonomous form of estimating quantities between the given date and the derivative maturation date.\r\nThe training data will be selected from actual electricity price series, and the trained recurrent neural network output will be compared with actual derivative (e.g. forward) prices.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "ECCS",
+ "org_div_long_name": "Division of Electrical, Communications and Cyber Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Oluseyi",
+   "pi_last_name": "Olurotimi",
+   "pi_mid_init": "O",
+   "pi_sufx_name": "",
+   "pi_full_name": "Oluseyi O Olurotimi",
+   "pi_email_addr": "seyi@erols.com",
+   "nsf_id": "000462454",
+   "pi_start_date": "1999-08-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Adaptive Data Engines, L.L.C.",
+  "inst_street_address": "1790 Verbena Street N.W.",
+  "inst_street_address_2": "",
+  "inst_city_name": "Washington",
+  "inst_state_code": "DC",
+  "inst_state_name": "District of Columbia",
+  "inst_phone_num": "",
+  "inst_zip_code": "200121049",
+  "inst_country_name": "United States",
+  "cong_dist_code": "00",
+  "st_cong_dist_code": "DC00",
+  "org_lgl_bus_name": null,
+  "org_prnt_uei_num": null,
+  "org_uei_num": null
+ },
+ "perf_inst": {
+  "perf_inst_name": "Adaptive Data Engines, L.L.C.",
+  "perf_str_addr": "1790 Verbena Street N.W.",
+  "perf_city_name": "Washington",
+  "perf_st_code": "DC",
+  "perf_st_name": "District of Columbia",
+  "perf_zip_code": "200121049",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "00",
+  "perf_st_cong_dist": "DC00",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "151800",
+   "pgm_ele_name": "CONTROL, NETWORKS, & COMP INTE"
+  },
+  {
+   "pgm_ele_code": "151900",
+   "pgm_ele_name": "INTEGRATIVE SYSTEMS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "0000",
+   "pgm_ref_txt": "UNASSIGNED"
+  },
+  {
+   "pgm_ref_code": "OTHR",
+   "pgm_ref_txt": "OTHER RESEARCH OR EDUCATION"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0199",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0199",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1999,
+   "fund_oblg_amt": 80000.0
+  }
+ ],
+ "por": null
+}

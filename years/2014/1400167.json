@@ -1,0 +1,109 @@
+{
+ "awd_id": "1400167",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Combining Optimality and Correctness in Control Systems",
+ "cfda_num": "47.041",
+ "org_code": "07030000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Robert Landers",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 349999.0,
+ "awd_amount": 349999.0,
+ "awd_min_amd_letter_date": "2014-07-17",
+ "awd_max_amd_letter_date": "2014-07-17",
+ "awd_abstract_narration": "Optimal control is an area of engineering focused at maintaining systems close to desired behaviors, while at the same optimizing certain costs. Examples include driving a vehicle along a trajectory while minimizing fuel consumption, controlling a set of thermostats in a building to follow a desired temperature profile while maintaining electricity consumption to a minimum, etc. Formal verification is an area of computer science focused at proving the correctness of system designs. The systems are computer programs and digital circuits, while correctness specifications include safety (making sure nothing bad happens) and liveness (making sure something good eventually happens). With the increasing integration of physical and digital systems into safety critical cyber physical systems, there is a need for computational tools that combine optimal control and correctness requirements. This project establishes a connection between optimal control and formal verification and impacts a large number of areas where correctness and optimality are crucial, such as air traffic control (design safe minimum-energy paths for airplanes taking off and landing in a crowded airport), vehicle autonomy (e.g., persistent surveillance for disaster relief), medical robotics (optimality and safety are fundamental in the robotic needle steering problem), etc. The education and outreach plan includes related courses at the undergraduate and graduate level, the involvement of undergraduate and high school students in research, collaborations with elementary school robotics teams, and the involvement of the Principal Investigator in high school summer internship programs.\r\n\r\nThe results of this project will include formulations and solutions to optimal control problems with correctness requirements expressed as temporal logic formulas for both finite and infinite systems, in both probabilistic and non-probabilistic setups. The systems under consideration are finite-state transition systems and Markov decisions processes, and infinite-state discrete-time (stochastic) linear systems and piecewise affine systems. Correctness is specified as formulas of Linear Temporal Logic. The optimization objectives include classical average costs per stage and quadratics over state and control variables, as well as some special costs induced by particular specifications. Central to the approach are receding-horizon implementations of the optimal control strategies. The main application area is autonomous vehicle control for search and rescue in disaster relief scenarios.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CMMI",
+ "org_div_long_name": "Division of Civil, Mechanical, and Manufacturing Innovation",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Calin",
+   "pi_last_name": "Belta",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Calin A Belta",
+   "pi_email_addr": "calin.belta@gmail.com",
+   "nsf_id": "000360411",
+   "pi_start_date": "2014-07-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Trustees of Boston University",
+  "inst_street_address": "1 SILBER WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173534365",
+  "inst_zip_code": "022151703",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "TRUSTEES OF BOSTON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "THL6A6JLE1S7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Trustees of Boston University",
+  "perf_str_addr": "110 Cummington Mall",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "022151111",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "756900",
+   "pgm_ele_name": "Dynamics, Control and System D"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "030E",
+   "pgm_ref_txt": "CONTROL SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "031E",
+   "pgm_ref_txt": "MECHATRONICS"
+  },
+  {
+   "pgm_ref_code": "034E",
+   "pgm_ref_txt": "Dynamical systems"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 349999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our goal in this project was to establish a connection between optimal and temporal logic control. By combining these two seemingly unrelated areas, our goal was to be able to optimize the behavior of a system subject to correctness constraints. Consider, for example, an autonomous vehicle involved in a persistent surveillance mission in a disaster relief application, where dynamic service requests can only be sensed locally in a neighborhood around the vehicle. The goal is to accomplish the mission while at the same time maximizing the likelihood of servicing the local requests, and possibly minimizing the energy spent during the motion. The correctness requirement can be expressed as a temporal logic formula, while the resource constraints translate to minimizing a cost over the feasible trajectories of the robot.</p>\n<p>During the four-year duration of the project,&nbsp;we considered both finite and infinite systems, in both probabilistic and non-probabilistic versions. We developed control strategies for non-deterministic transition systems using automata-games. We approached Markov decision processes (MDP) using games and dynamic programming. For discrete-time linear systems, and discrete-time piecewise affine systems, we used hierarchical approaches. First, we partitioned the space and control spaces and constructed finite abstractions. Second, we used methods for finite systems enumerated above to control the abstraction.&nbsp;</p>\n<p>We focused on specifications given as formulas of linear temporal logic (LTL) and fragments of LTL. These models and specifications are quite general and widely used for vehicle control, which is was main application area. Motivated by search and rescue operations in disaster relief scenarios, we assumed that rewards / penalties with known probabilities of occurrence and change rates can only be sensed locally in a neighborhood of the current state of the system when the system was modeled as a transition system or as a Markov decision process. For continuous-space linear and piecewise affine systems, we assumed that a desired, reference state and input trajectories are provided by the user over a finite horizon. For finite systems, we optimized &ldquo;classical&rdquo; objectives such as average reward / cost per stage and adapted objectives that reflect the semantics of the temporal logic, such as average reward / cost per cycle. For linear and piecewise affine systems, we considered quadratic costs that penalize the deviation of the states and controls from desired reference trajectories.</p>\n<p>As a result of this project, we learnt that, while producing provably correct results (i.e., system behaviors that are guaranteed to satisfy the specification), these methods are computationally expensive for continuous-time systems, and can only be applied to small dimensional systems. In the future, we will focus on optimization-based methods. Such techniques, which received a lot of attention in recent years, do not involve partitions. They use temporal logics with quantitative semantics, such as signal temporal logic (STL), and are based on mapping an optimal control problem with temporal logic constraints to an optimization problem. &nbsp;</p>\n<p>Optimal formal synthesis is a fundamental problem that impacts a large number of areas where correctness and optimality are important, such as air traffic control (design safe minimum-energy paths for airplanes taking off and landing in a crowded airport), vehicle autonomy (e.g., persistent surveillance for disaster relief), medical robotics (optimality and safety are fundamental in the robotic needle steering problem), etc. In particular, for deployment of autonomous vehicles in safety-critical applications, the results of this project help formalizing the interaction between the user and the (semi)autonomous system, therefore contributing to the area of Human - Robot Interaction (HRI).&nbsp;</p>\n<p>The research plan was integrated with an education and outreach plan that included a rich spectrum of activities for undergraduate and high-school students. Specifically, we collaborated withthe BU Academy (a small, independent, coeducational high school located in the BU, and we hosted numerous visits form high schools in the Boston area campus). We were actively involved with high school students supported by ResearchInternships in Science and Engineering (RISE) and Discovery Internships. We actively participated in the&nbsp;Technology Innovation Scholars Program (TISP) at BU. The PI was involved&nbsp;as a judge in the U.S. FIRST (a national K-12 robotics competition attractingover 500 high schools)&nbsp;&nbsp;and in the Boston VEX Robotics Competition, hosted by the BU Academy.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/13/2019<br>\n\t\t\t\t\tModified by: Calin&nbsp;A&nbsp;Belta</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOur goal in this project was to establish a connection between optimal and temporal logic control. By combining these two seemingly unrelated areas, our goal was to be able to optimize the behavior of a system subject to correctness constraints. Consider, for example, an autonomous vehicle involved in a persistent surveillance mission in a disaster relief application, where dynamic service requests can only be sensed locally in a neighborhood around the vehicle. The goal is to accomplish the mission while at the same time maximizing the likelihood of servicing the local requests, and possibly minimizing the energy spent during the motion. The correctness requirement can be expressed as a temporal logic formula, while the resource constraints translate to minimizing a cost over the feasible trajectories of the robot.\n\nDuring the four-year duration of the project, we considered both finite and infinite systems, in both probabilistic and non-probabilistic versions. We developed control strategies for non-deterministic transition systems using automata-games. We approached Markov decision processes (MDP) using games and dynamic programming. For discrete-time linear systems, and discrete-time piecewise affine systems, we used hierarchical approaches. First, we partitioned the space and control spaces and constructed finite abstractions. Second, we used methods for finite systems enumerated above to control the abstraction. \n\nWe focused on specifications given as formulas of linear temporal logic (LTL) and fragments of LTL. These models and specifications are quite general and widely used for vehicle control, which is was main application area. Motivated by search and rescue operations in disaster relief scenarios, we assumed that rewards / penalties with known probabilities of occurrence and change rates can only be sensed locally in a neighborhood of the current state of the system when the system was modeled as a transition system or as a Markov decision process. For continuous-space linear and piecewise affine systems, we assumed that a desired, reference state and input trajectories are provided by the user over a finite horizon. For finite systems, we optimized \"classical\" objectives such as average reward / cost per stage and adapted objectives that reflect the semantics of the temporal logic, such as average reward / cost per cycle. For linear and piecewise affine systems, we considered quadratic costs that penalize the deviation of the states and controls from desired reference trajectories.\n\nAs a result of this project, we learnt that, while producing provably correct results (i.e., system behaviors that are guaranteed to satisfy the specification), these methods are computationally expensive for continuous-time systems, and can only be applied to small dimensional systems. In the future, we will focus on optimization-based methods. Such techniques, which received a lot of attention in recent years, do not involve partitions. They use temporal logics with quantitative semantics, such as signal temporal logic (STL), and are based on mapping an optimal control problem with temporal logic constraints to an optimization problem.  \n\nOptimal formal synthesis is a fundamental problem that impacts a large number of areas where correctness and optimality are important, such as air traffic control (design safe minimum-energy paths for airplanes taking off and landing in a crowded airport), vehicle autonomy (e.g., persistent surveillance for disaster relief), medical robotics (optimality and safety are fundamental in the robotic needle steering problem), etc. In particular, for deployment of autonomous vehicles in safety-critical applications, the results of this project help formalizing the interaction between the user and the (semi)autonomous system, therefore contributing to the area of Human - Robot Interaction (HRI). \n\nThe research plan was integrated with an education and outreach plan that included a rich spectrum of activities for undergraduate and high-school students. Specifically, we collaborated withthe BU Academy (a small, independent, coeducational high school located in the BU, and we hosted numerous visits form high schools in the Boston area campus). We were actively involved with high school students supported by ResearchInternships in Science and Engineering (RISE) and Discovery Internships. We actively participated in the Technology Innovation Scholars Program (TISP) at BU. The PI was involved as a judge in the U.S. FIRST (a national K-12 robotics competition attractingover 500 high schools)  and in the Boston VEX Robotics Competition, hosted by the BU Academy. \n\n \n\n \n\n\t\t\t\t\tLast Modified: 12/13/2019\n\n\t\t\t\t\tSubmitted by: Calin A Belta"
+ }
+}

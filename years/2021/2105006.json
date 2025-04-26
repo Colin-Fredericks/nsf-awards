@@ -1,0 +1,109 @@
+{
+ "awd_id": "2105006",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SHF: GPU-accelerated FSM computations with advanced speculation",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2021-05-15",
+ "awd_exp_date": "2023-04-30",
+ "tot_intn_awd_amt": 174797.0,
+ "awd_amount": 190397.0,
+ "awd_min_amd_letter_date": "2021-05-06",
+ "awd_max_amd_letter_date": "2021-08-26",
+ "awd_abstract_narration": "Finite State Machine (FSM)-based computations have played critical roles in a variety of important applications, ranging from cyber security and data analytics to software engineering and hardware design. Due to the growing data volumes and limitations on computer processing power, nowadays FSM efficiency is greatly constrained, and a new dimension of efficiency optimization is desired. This project proposes a novel framework to enhance the computing efficiency of FSM-based computations on GPUs. The combination of GPU acceleration and speculative parallelization developed in the proposed framework shows promise for boosting performance of FSM computations and presents the potential to optimize even more general non-FSM computations.   \r\n\r\nThis research investigates how to build up the synergy between highly-parallel GPU architectures and FSM computations. The key idea is exploring multiple dimensions of parallelism for increasing compute utilization as well as reducing data-movement overheads. Additionally, this research designs and integrates advanced speculative parallelization into FSM computations. The advanced speculative parallelization not only enables more effective predictors on different FSMs, it also provides efficient speculative-thread scheduling. All these optimizations will be built into a framework that further explores the trade-offs between different objectives and automatically optimizes application configurations based on the given objectives. Finally, this research seeks to enlarge the applicability of the envisioned results, and it brings the preliminary exploration about a new dimension of computing efficiency for irregular computations as well as applications associated with speculative parallelization.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Junqiao",
+   "pi_last_name": "Qiu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Junqiao Qiu",
+   "pi_email_addr": "junqiaoq@mtu.edu",
+   "nsf_id": "000841560",
+   "pi_start_date": "2021-05-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Michigan Technological University",
+  "inst_street_address": "1400 TOWNSEND DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "HOUGHTON",
+  "inst_state_code": "MI",
+  "inst_state_name": "Michigan",
+  "inst_phone_num": "9064871885",
+  "inst_zip_code": "499311200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "MI01",
+  "org_lgl_bus_name": "MICHIGAN TECHNOLOGICAL UNIVERSITY",
+  "org_prnt_uei_num": "GKMSN3DA6P91",
+  "org_uei_num": "GKMSN3DA6P91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Michigan Technological University",
+  "perf_str_addr": "1400 Townsend Drive",
+  "perf_city_name": "Houghton",
+  "perf_st_code": "MI",
+  "perf_st_name": "Michigan",
+  "perf_zip_code": "499311295",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "MI01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 190397.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Finite State Machines (FSMs) serve as the fundamental and pivotal engine for numerous applications, and their significance is expected to grow even further in the realm of computing as the demand for real-time data analytics continues to surge. In recent years, there has been considerable attention given to accelerating FSM-based applications using GPUs, owing to the immense computational power of GPUs in data parallel computing. However, prior studies have identified several limitations in GPU-accelerated FSM computations, including notable overheads in data movement, suboptimal compute utilization, and a lack of support for multiple objectives.&nbsp;<span style=\"font-size: 12px;\">This research endeavors to address these limitations by thoroughly examining the characteristics of FSMs and GPU architectures. Subsequently, advanced speculative parallelization techniques are integrated into FSM computations, thereby mitigating issues related to low compute utilization, particularly in Non-deterministic Finite Automaton (NFA) computations, while simultaneously reducing the cost associated with random memory accesses. Furthermore, this research develops a comprehensive framework that facilitates multi-objective optimization, encompassing factors like latency, energy consumption, reliability, and scalability. Consequently, the framework provides automatic runtime support to meet the requirements of FSM execution.&nbsp;</span><span style=\"font-size: 12px;\">To enhance the impact of this research, we also explore applying the developed framework into real-world applications such as Motif Search in bioinformatics, as well as other irregular computations like graph computation.</span></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/13/2023<br>\n\t\t\t\t\tModified by: Junqiao&nbsp;Qiu</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nFinite State Machines (FSMs) serve as the fundamental and pivotal engine for numerous applications, and their significance is expected to grow even further in the realm of computing as the demand for real-time data analytics continues to surge. In recent years, there has been considerable attention given to accelerating FSM-based applications using GPUs, owing to the immense computational power of GPUs in data parallel computing. However, prior studies have identified several limitations in GPU-accelerated FSM computations, including notable overheads in data movement, suboptimal compute utilization, and a lack of support for multiple objectives. This research endeavors to address these limitations by thoroughly examining the characteristics of FSMs and GPU architectures. Subsequently, advanced speculative parallelization techniques are integrated into FSM computations, thereby mitigating issues related to low compute utilization, particularly in Non-deterministic Finite Automaton (NFA) computations, while simultaneously reducing the cost associated with random memory accesses. Furthermore, this research develops a comprehensive framework that facilitates multi-objective optimization, encompassing factors like latency, energy consumption, reliability, and scalability. Consequently, the framework provides automatic runtime support to meet the requirements of FSM execution. To enhance the impact of this research, we also explore applying the developed framework into real-world applications such as Motif Search in bioinformatics, as well as other irregular computations like graph computation.\n\n \n\n\t\t\t\t\tLast Modified: 09/13/2023\n\n\t\t\t\t\tSubmitted by: Junqiao Qiu"
+ }
+}

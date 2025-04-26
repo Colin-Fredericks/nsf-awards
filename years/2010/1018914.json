@@ -1,0 +1,113 @@
+{
+ "awd_id": "1018914",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "III: Small: Novel Paradigms for Automated Index Tuning",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Maria Zemankova",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2014-08-31",
+ "tot_intn_awd_amt": 499676.0,
+ "awd_amount": 499676.0,
+ "awd_min_amd_letter_date": "2010-08-05",
+ "awd_max_amd_letter_date": "2011-07-07",
+ "awd_abstract_narration": "Indexes impact crucially the performance of a database system, and hence creating the right indexes for a workload, also known as index tuning, is an important task in database administration. Automated index tuning techniques have thus become an indispensable tool for administrators. However, existing techniques target the simplified scenario of a single database hosted on a single machine, which does not match the more complex system architectures observed in practice, e.g., multi-tenant systems with virtualized databases, or shared-nothing parallel databases. This mismatch results in suboptimal tuning that underutilizes the available system resources. Moreover, the majority of techniques require the administrator to have detailed knowledge of the anticipated database workload, which is not feasible when the workload has unpredictable characteristics (e.g., workload in ad-hoc data analysis). An alternative is techniques that analyze the workload online, but such techniques assume total control of index-maintenance decisions and essentially sidestep the administrator. The proposed project develops novel index tuning techniques that address the aforementioned shortcomings. The first contribution is a new tuning paradigm that couples online workload analysis with feedback and interaction from the administrator, thus combining the best features of previous approaches. The theoretical foundation is a novel extension of previous results from the field of online optimization. Subsequently, the paradigm is specialized for databases on compute clusters and virtualized databases, two practical architectures that are not covered by previous techniques. The project will impact the education of Computer Science students in database systems and will lead to more effective tools for database administration. For further information see the project page at http://www.cs.ucsc.edu/~alkis/tuning.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Neoklis",
+   "pi_last_name": "Polyzotis",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Neoklis Polyzotis",
+   "pi_email_addr": "alkis.polyzotis@gmail.com",
+   "nsf_id": "000340492",
+   "pi_start_date": "2010-08-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Santa Cruz",
+  "inst_street_address": "1156 HIGH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "SANTA CRUZ",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8314595278",
+  "inst_zip_code": "950641077",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "CA19",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "VXUFPE4MCZH5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Santa Cruz",
+  "perf_str_addr": "1156 HIGH ST",
+  "perf_city_name": "SANTA CRUZ",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "950641077",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "CA19",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0111",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001112DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 165750.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2011,
+   "fund_oblg_amt": 333926.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project investigated novel techniques to tune the physical design of a database management system. The physical design affects crucially query performance, and its tuning is an arduous and costly task in terms of human involvement. Auto-tuning methods eliminate this manual task and can thus improve both the overall performance of the DBMS and its cost of ownership.</p>\n<p>The key research outcomes of the project can be summarized as follows:</p>\n<ul>\n<li>Semi-automatic tuning: a method that utilizes a new provably optimal tuning algorithm combined with hints from a human admin which encode his/her domain knowledge about the system.</li>\n<li>Index tuning at scale: we provide a transformation of index-tuning into a binary integer program which can then be solved efficiently using off-the-shelf solvers.</li>\n<li>Divergent tuning: if the data is served through replication, then each replica is tuned differently for a subset of the workload.</li>\n<li>Opportunistic zero-cost tuning: in systems like Hadoop, we introduce a method to use the by-products of query execution as opportunistic physical-design artifacts, and thus speed-up queries with zero cost in tuning.</li>\n<li>Multi-store tuning: a multi-store system combines a Big Data system (e.g., Hadoop) for ad-hoc analytics and a RDBMS for more structured analysis. We provide a method to co-tune the underlying stores and to use the RDBMS as an accelerator for the ad-hoc queries handled by the Big Data store.</li>\n<li><span>Fast what-if optimization: What-if optimization is a crucial component for physical-design tuning, as it enables tuning tools to reliably estimate the benefit of a physical design using the cost model of the query optimizer. We introduced methods to make what-if optimization extremely fast in order to enable tuning tools to scale to large workloads and large databases, where the number of what-if optimizations increases significantly.&nbsp;</span></li>\n</ul><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/27/2017<br>\n\t\t\t\t\tModified by: Neoklis&nbsp;Polyzotis</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project investigated novel techniques to tune the physical design of a database management system. The physical design affects crucially query performance, and its tuning is an arduous and costly task in terms of human involvement. Auto-tuning methods eliminate this manual task and can thus improve both the overall performance of the DBMS and its cost of ownership.\n\nThe key research outcomes of the project can be summarized as follows:\n\nSemi-automatic tuning: a method that utilizes a new provably optimal tuning algorithm combined with hints from a human admin which encode his/her domain knowledge about the system.\nIndex tuning at scale: we provide a transformation of index-tuning into a binary integer program which can then be solved efficiently using off-the-shelf solvers.\nDivergent tuning: if the data is served through replication, then each replica is tuned differently for a subset of the workload.\nOpportunistic zero-cost tuning: in systems like Hadoop, we introduce a method to use the by-products of query execution as opportunistic physical-design artifacts, and thus speed-up queries with zero cost in tuning.\nMulti-store tuning: a multi-store system combines a Big Data system (e.g., Hadoop) for ad-hoc analytics and a RDBMS for more structured analysis. We provide a method to co-tune the underlying stores and to use the RDBMS as an accelerator for the ad-hoc queries handled by the Big Data store.\nFast what-if optimization: What-if optimization is a crucial component for physical-design tuning, as it enables tuning tools to reliably estimate the benefit of a physical design using the cost model of the query optimizer. We introduced methods to make what-if optimization extremely fast in order to enable tuning tools to scale to large workloads and large databases, where the number of what-if optimizations increases significantly. \n\n\n\t\t\t\t\tLast Modified: 09/27/2017\n\n\t\t\t\t\tSubmitted by: Neoklis Polyzotis"
+ }
+}

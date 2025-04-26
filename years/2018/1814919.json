@@ -1,0 +1,109 @@
+{
+ "awd_id": "1814919",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: CORE: Small: Secure Computation with Minimal Interaction",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 474245.0,
+ "awd_amount": 474245.0,
+ "awd_min_amd_letter_date": "2018-09-05",
+ "awd_max_amd_letter_date": "2018-09-05",
+ "awd_abstract_narration": "Today, vast amounts of private datasets are stored by individuals and institutions on personal electronic devices and cloud servers. Many applications of tremendous societal impact can benefit from the ability to perform joint computations on these datasets. However, in the presence of malicious actors -- whether it be the entities performing the computation or external processes -- this benefit is associated with a significant risk of losing data privacy. The powerful paradigm of secure computation in cryptography aims to resolve the conflict between computation and privacy by providing a distributed mechanism for computing upon the private data of individuals, so that nothing beyond the output of the computation is revealed.\r\n\r\nFeasibility results for secure computation were established three decades ago, with an immense promise for the future. Over the years, however, secure computation has found limited real-world applicability. The primary reason for this disparity is that the protocol complexity of known solutions does not meet the demands of applications. To bring secure computation closer to real world applications, this project focuses on a fundamental metric of efficiency -- the number of required rounds of interaction between the parties -- and aims to fully resolve the round complexity of secure computation, leading to optimal protocols. To achieve this goal, the project develops new, low-overhead methods to achieve security against malicious adversaries, who may arbitrarily deviate from their prescribed strategies. To promote confident use in real world, the project develops solutions in the setting of minimal trust, where an individual does not need to trust any entity or external process beyond itself.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Abhishek",
+   "pi_last_name": "Jain",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Abhishek Jain",
+   "pi_email_addr": "abhishek@cs.jhu.edu",
+   "nsf_id": "000689400",
+   "pi_start_date": "2018-09-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Johns Hopkins University",
+  "inst_street_address": "3400 N CHARLES ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "BALTIMORE",
+  "inst_state_code": "MD",
+  "inst_state_name": "Maryland",
+  "inst_phone_num": "4439971898",
+  "inst_zip_code": "212182608",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MD07",
+  "org_lgl_bus_name": "THE JOHNS HOPKINS UNIVERSITY",
+  "org_prnt_uei_num": "GS4PNKTRNKL3",
+  "org_uei_num": "FTMTDMBR29C7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Johns Hopkins University",
+  "perf_str_addr": "3400 N CHARLES ST",
+  "perf_city_name": "Baltimore",
+  "perf_st_code": "MD",
+  "perf_st_name": "Maryland",
+  "perf_zip_code": "212182608",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MD07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 474245.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"p1\">This project concerns with the fundamental notion of secure computation and its many specialized forms such as proof systems and program obfuscation. We start by informally defining these notions:</p>\n<p class=\"p1\">1. Secure multiparty computation (MPC) allows a group of mutually distrustful parties to compute a function on their private inputs such that nothing beyond the function output is revealed even when the participants misbehave.</p>\n<p class=\"p1\">2. Proof systems allow a prover to convince a distrustful verifier about the validity of a claim. Much like mathematical proofs, we are interested in one-message proofs. SNARGs are one-message proofs where the proof size is always small irrespective of the complexity of the claim. NIZKs are one-message proofs where the proof hides the evidence used to prove the claim.</p>\n<p class=\"p1\">3. Program obfuscation is a technique of compiling a program into a new program that hides all the internal details of the original program but otherwise retains its functionality.&nbsp;<br /><br />The goal of this project was to push the frontiers of these fundamental cryptographic primitives. We start by highlighting some salient results:</p>\n<p class=\"p1\">1. The first construction of SNARGs for deterministic (and some non-deterministic) computations from well-studied cryptographic assumptions (FOCS&rsquo;21, Invited to SICOMP).&nbsp;<br />2. The first construction of NIZKs from well-studied assumptions on groups (Best paper-award at EUROCRYPT&rsquo;21).&nbsp;</p>\n<p class=\"p1\">3. The first constructions of program obfuscation for Turing machines (FOCS&rsquo;22).&nbsp;</p>\n<p class=\"p1\">4. The first round-optimal constructions of MPC with an honest majority (CRYPTO&rsquo;18, EUROCRYPT&rsquo;19).<span>&nbsp;</span></p>\n<p class=\"p1\"><span><br /></span></p>\n<p class=\"p1\">Altogether, the project resulted in the following publications.<span>&nbsp;</span></p>\n<p class=\"p1\">1)&nbsp;Round-Optimal Secure Multiparty Computation with Honest Majority. CRYPTO'18</p>\n<p class=\"p1\">2)&nbsp;Two-Round Information-Theoretic MPC with Honest Majority. EUROCRYPT'19</p>\n<p class=\"p1\">3)&nbsp;The Broadcast Message Complexity of Secure Multiparty Computation. ASIACRYPT'19</p>\n<p class=\"p1\">4)&nbsp;Non-Interactive Secure Computation from One-Way Functions. ASIACRYPT'18</p>\n<p class=\"p1\">5)&nbsp;UC-Secure Multiparty Computation from One-Way Functions using Stateless Tokens. ASIACRYPT'18</p>\n<p class=\"p1\">6)&nbsp;Founding Secure Computation on Blockchains. EUROCRYPT'19</p>\n<p class=\"p1\">7)&nbsp;Round-Optimal Secure Multiparty Computation from Minimal Assumptions. TCC'20</p>\n<p class=\"p1\">8)&nbsp;Multi-Key FHE in the Plain Model. TCC'20</p>\n<p class=\"p1\">9)&nbsp;Statistical Zaps and New Oblivious Transfer Protocols. EUROCRYPT'20</p>\n<p class=\"p1\">10)&nbsp;The Round Complexity of Secure Computation Against Covert Adversaries. SCN'20</p>\n<p class=\"p1\">11) Unbounded Multi-party Computation from Learning with Errors. EUROCRYPT 2021&nbsp;</p>\n<p class=\"p1\">12) Non-Interactive Zero Knowledge from Sub-exponential DDH. EUROCRYPT 2021</p>\n<p class=\"p1\">13) Non-Interactive Batch Arguments for NP from Standard Assumptions. CRYPTO 2021</p>\n<p class=\"p1\">14) SNARGs for P from LWE. FOCS 2021</p>\n<p class=\"p1\">15) Round-Optimal Oblivious Transfer from Trapdoor Permutations. TCC 2021</p>\n<p class=\"p1\">16) Indistinguishability Obfuscation via Mathematical Proofs of Equivalence. FOCS 2022</p>\n<p class=\"p1\">17) One-Time Programs from Commodity Hardware. TCC 2022</p>\n<p class=\"p1\">18) Succinct Zero Knowledge for Floating Point Computations. ACM CCS 2022</p>\n<p class=\"p1\">19) Pre-Constrained Encryption. ITCS 2022</p>\n<p class=\"p1\">20) Correlation Intractability and SNARGs from Sub-exponential DDH. CRYPTO 2023</p>\n<p class=\"p1\">21)&nbsp;A Note on Non-Interactive Zero-Knowledge Proofs for NP from CDH. CRYPTO 2023</p>\n<p class=\"p1\">22) zkSaaS: ZK-SNARKs as a Service. USENIX 2023</p>\n<p class=\"p1\">23)&nbsp;Set Membership Encryption and Applications. ACM CCS 2023</p>\n<p class=\"p1\">&nbsp;</p>\n<p class=\"p1\">In addition to the presentation of these works at conferences, workshops and academic institutions, we helped organize the \"DC Area Crypto Day\" for knowledge dissemination and promoting collaboration amongst academic and industry researchers.&nbsp;We recorded video lectures in cybersecurity and developed new courses on blockchains, MPC and proof systems.<span>&nbsp;</span></p><br>\n<p>\n Last Modified: 09/10/2024<br>\nModified by: Abhishek&nbsp;Jain</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project concerns with the fundamental notion of secure computation and its many specialized forms such as proof systems and program obfuscation. We start by informally defining these notions:\n\n\n1. Secure multiparty computation (MPC) allows a group of mutually distrustful parties to compute a function on their private inputs such that nothing beyond the function output is revealed even when the participants misbehave.\n\n\n2. Proof systems allow a prover to convince a distrustful verifier about the validity of a claim. Much like mathematical proofs, we are interested in one-message proofs. SNARGs are one-message proofs where the proof size is always small irrespective of the complexity of the claim. NIZKs are one-message proofs where the proof hides the evidence used to prove the claim.\n\n\n3. Program obfuscation is a technique of compiling a program into a new program that hides all the internal details of the original program but otherwise retains its functionality.\n\nThe goal of this project was to push the frontiers of these fundamental cryptographic primitives. We start by highlighting some salient results:\n\n\n1. The first construction of SNARGs for deterministic (and some non-deterministic) computations from well-studied cryptographic assumptions (FOCS21, Invited to SICOMP).\n2. The first construction of NIZKs from well-studied assumptions on groups (Best paper-award at EUROCRYPT21).\n\n\n3. The first constructions of program obfuscation for Turing machines (FOCS22).\n\n\n4. The first round-optimal constructions of MPC with an honest majority (CRYPTO18, EUROCRYPT19).\n\n\n\n\n\n\nAltogether, the project resulted in the following publications.\n\n\n1)Round-Optimal Secure Multiparty Computation with Honest Majority. CRYPTO'18\n\n\n2)Two-Round Information-Theoretic MPC with Honest Majority. EUROCRYPT'19\n\n\n3)The Broadcast Message Complexity of Secure Multiparty Computation. ASIACRYPT'19\n\n\n4)Non-Interactive Secure Computation from One-Way Functions. ASIACRYPT'18\n\n\n5)UC-Secure Multiparty Computation from One-Way Functions using Stateless Tokens. ASIACRYPT'18\n\n\n6)Founding Secure Computation on Blockchains. EUROCRYPT'19\n\n\n7)Round-Optimal Secure Multiparty Computation from Minimal Assumptions. TCC'20\n\n\n8)Multi-Key FHE in the Plain Model. TCC'20\n\n\n9)Statistical Zaps and New Oblivious Transfer Protocols. EUROCRYPT'20\n\n\n10)The Round Complexity of Secure Computation Against Covert Adversaries. SCN'20\n\n\n11) Unbounded Multi-party Computation from Learning with Errors. EUROCRYPT 2021\n\n\n12) Non-Interactive Zero Knowledge from Sub-exponential DDH. EUROCRYPT 2021\n\n\n13) Non-Interactive Batch Arguments for NP from Standard Assumptions. CRYPTO 2021\n\n\n14) SNARGs for P from LWE. FOCS 2021\n\n\n15) Round-Optimal Oblivious Transfer from Trapdoor Permutations. TCC 2021\n\n\n16) Indistinguishability Obfuscation via Mathematical Proofs of Equivalence. FOCS 2022\n\n\n17) One-Time Programs from Commodity Hardware. TCC 2022\n\n\n18) Succinct Zero Knowledge for Floating Point Computations. ACM CCS 2022\n\n\n19) Pre-Constrained Encryption. ITCS 2022\n\n\n20) Correlation Intractability and SNARGs from Sub-exponential DDH. CRYPTO 2023\n\n\n21)A Note on Non-Interactive Zero-Knowledge Proofs for NP from CDH. CRYPTO 2023\n\n\n22) zkSaaS: ZK-SNARKs as a Service. USENIX 2023\n\n\n23)Set Membership Encryption and Applications. ACM CCS 2023\n\n\n\n\n\nIn addition to the presentation of these works at conferences, workshops and academic institutions, we helped organize the \"DC Area Crypto Day\" for knowledge dissemination and promoting collaboration amongst academic and industry researchers.We recorded video lectures in cybersecurity and developed new courses on blockchains, MPC and proof systems.\t\t\t\t\tLast Modified: 09/10/2024\n\n\t\t\t\t\tSubmitted by: AbhishekJain\n"
+ }
+}

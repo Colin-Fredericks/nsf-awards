@@ -1,0 +1,102 @@
+{
+ "awd_id": "0122293",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Efficient Algorithms for Lossless Data and Image Compression",
+ "cfda_num": "47.070",
+ "org_code": "05010800",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Cozzens",
+ "awd_eff_date": "2001-07-01",
+ "awd_exp_date": "2003-06-30",
+ "tot_intn_awd_amt": 82940.0,
+ "awd_amount": 82940.0,
+ "awd_min_amd_letter_date": "2001-07-07",
+ "awd_max_amd_letter_date": "2001-07-07",
+ "awd_abstract_narration": "Proposal 122293\r\nU of Ill Urbana-Champaign\r\nPI: Bresler, Yoram\r\n\r\nIn spite of the focus in recent years on lossy compression of audio, images, and video, lossless data compression remains crucial in applications such as text files, facsimiles, software executables, and\r\nmedical imaging. Universal source coding algorithms, which deal with sources whose statistics are unknown, are of particular importance.  Universal coding methods are designed for universal performance over a broad class of possible sources. In these methods the source parameters are estimated, either implicitly or explicitly, and the sequence itself is encoded accordingly. Therefore the coding length for universal methods is g eater than the entropy; the extra coding length, called the redundancy satisfies a fundamental lower bound by Rissanen. \r\n\r\nThe focus of research in universal data compression has been on reducing redundancies. In this sense, context tree weighting (CTW) has achieved the ultimate goal for the important class of tree sources, because it\r\nhas essentially achieved Rissanen 's bound. However, in addition to low redundancies, a universal coding method must be computationally fast, and consume little memory. Neither of the two leading methods, CTW or\r\nPPM, a compression method that has been fine-tuned by various heuristics for practical use, are particularly strong performers in these respects.  Therefore, the main goal of the proposed research is to develop algorithms featuring fast computation and low memory use, while providing compression near Rissanen 's bound. \r\n\r\nLike some of the most efficient high-performance universal compression algorithms to-date, the proposed approach is based on the Burrows Wheeler transform (BWT). The BWT is an invertible transform whose output contains segments in which symbols are approximately independent identically distributed. Owing to this similarity to piecewise i.i.d. (PIID), compressing the BWT output using PIID methods yields good\r\ncompression results. However, such methods cannot achieve universal coding redundancies close to Rissanen 's bound because they require (whether implicitly or Explicitly) extra bits to encode the positions of\r\ntransitions between segments in the BWT output.  Recognizing this hidden overhead, this project proposes to take a fresh look at BWT based-methods and the relationship to the fundamental redundancy bounds.\r\nThe project will explore ways to close the gap between traditional BWT-based methods and Rissanen 's bound while retaining the computational efficiency of the BWT. A particular challenge will be to apply this approach to lossless image compression. \r\n\r\nThe resulting algorithms will have linear complexity, and be better than any current algorithm with comparable asymptotic compression performance, in terms of computation and/or memory use. Some versions of these algorithms will also have simple structure, admitting fast hardware implementations. Furthermore, this research will reveal the role of context modeling in universal lossless image compression. Since near-Rissanen redundancies with linear complexity are hard to beat, we expect a shift in the universal coding literature from compression improvement to implementation and practicality. \r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yoram",
+   "pi_last_name": "Bresler",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yoram Bresler",
+   "pi_email_addr": "ybresler@uiuc.edu",
+   "nsf_id": "000463491",
+   "pi_start_date": "2001-07-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S WRIGHT ST",
+  "perf_city_name": "URBANA",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "472000",
+   "pgm_ele_name": "SIGNAL PROCESSING SYS PROGRAM"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0101",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000102DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2001,
+   "fund_oblg_amt": 82940.0
+  }
+ ],
+ "por": null
+}

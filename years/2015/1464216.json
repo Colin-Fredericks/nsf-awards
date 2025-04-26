@@ -1,0 +1,101 @@
+{
+ "awd_id": "1464216",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SHF: A Compiler and Runtime Infrastructure for Flexible Scheduling and Scheduling-Enabled Optimizations on GPUs",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2015-03-01",
+ "awd_exp_date": "2018-02-28",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2015-02-27",
+ "awd_max_amd_letter_date": "2015-02-27",
+ "awd_abstract_narration": "Title: CRII:SHF: A Compiler and Runtime Infrastructure for Flexible Scheduling and Scheduling-Enabled Optimizations on GPUs\r\n\r\nThe computing power of a GPU (Graphics Processing Unit) lies in its abundant memory bandwidth and massive parallelism. However, its hardware thread schedulers, despite being able to quickly distribute computation to processors, often fail to capitalize on program characteristics effectively, achieving only a fraction of the GPUs' full potential. Moreover, current GPUs do not allow programmers or compilers to control thread scheduling, forfeiting important optimization opportunities at the program level. This research aims to develop a new software-level infrastructure for flexible scheduling and scheduling-enabled optimizations on GPUs. The intellectual merits of the research are two-fold: 1) It develops compiler techniques to circumvent the restrictions from the hardware thread scheduler, which enable programmers or the runtime to flexibly schedule tasks to the GPU processors; 2) It designs runtime optimizations to leverage the flexible scheduling. The project's broader significance and importance are that it provides essential support enhancing the computing efficiency of data-intensive applications in the era of GPU computing and, due to the importance of these applications, fosters sustained advances in science, engineering, humanity, and health.\r\n\r\nThe project designs a code transformation component to enable flexible scheduling. The transformation, named SM (Streaming Multiprocessor)-centric transformation, consists of two techniques. The first technique is SM-centric task selection, which breaks the mapping between tasks and thread blocks and directly associates tasks with processors. The second technique is a filling and retreating scheme, which addresses some behaviors of the hardware scheduler and flexibly controls the number of active tasks for each processor. The project also designs three types of optimizations, namely parallelism control, affinity-based scheduling, and processor partitioning, which leverage the scheduling support to optimize for parallelism, locality, and resource allocation. The project develops both static and dynamic approaches to efficiently searching for the optimal scheduling strategies adapted to address various program and input features.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Bo",
+   "pi_last_name": "Wu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Bo Wu",
+   "pi_email_addr": "bwu@mines.edu",
+   "nsf_id": "000676262",
+   "pi_start_date": "2015-02-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Colorado School of Mines",
+  "inst_street_address": "1500 ILLINOIS ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "GOLDEN",
+  "inst_state_code": "CO",
+  "inst_state_name": "Colorado",
+  "inst_phone_num": "3032733000",
+  "inst_zip_code": "804011887",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "CO07",
+  "org_lgl_bus_name": "TRUSTEES OF THE COLORADO SCHOOL OF MINES",
+  "org_prnt_uei_num": "JW2NGMP4NMA3",
+  "org_uei_num": "JW2NGMP4NMA3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Colorado School of Mines",
+  "perf_str_addr": "1500 Illinois Street",
+  "perf_city_name": "Golden",
+  "perf_st_code": "CO",
+  "perf_st_name": "Colorado",
+  "perf_zip_code": "804011887",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "CO07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project has significantly helped the PI start his career as an Assistant Professor. Through the project, the PI lead a team to work on understanding thread scheduling in Graphics Processing Units (GPUs) and building a software scheduling framework to improve performance for general purpose GPU applications.</p>\n<p>&nbsp;</p>\n<p>Specifically, the team has made three technical contributions out of this project. First, the team designed micro benchmarks to run on GPUs of different generations to observe the behaviors of the hardware thread scheduler. The experimental results for the first time revealed multiple undocumented behaviors, which educated the research community about the implementation details of the GPU hardware and served as a basis for scheduling-based optimizations. Second, the team built a software scheduler based on compiler and runtime techniques. The key idea is to circumvent the hardware scheduler and achieve flexible and efficient mapping between tasks and GPU cores. The proposed system automatically transforms the GPU applications for software-level flexible scheduling and controls the incurred runtime overhead to be negligible. The system is also platform-aware and hides the details of the hardware from the programmer, who only needs to consider the semantics of the program. Third, the team leveraged the developed framework for several novel optimizations. The team showed that the software system allows flexible and efficient preemption on GPUs, which dramatically improves co-run fairness and responsiveness. Moreover, the proposed system automatically accelerates irregular applications, which are notoriously difficult to optimize on GPUs. The project has lead to 7 papers published in major conferences and journals , 2 book chapters, and 2 paper submissions currently under review.</p>\n<p>&nbsp;</p>\n<p>The PI has committed to education and outreach activities. The PI has integrated the research outcomes into two graduate-level courses, Advanced Computer Architecture (ACA) and Advanced High Performance Computing (AHPC). In the ACA course, the PI used the developed micro benchmarks and the experimental results to teach the students the scheduling algorithms used in the GPU architecture and the opportunities for performance optimization. In the AHPC course, the PI supervised several course projects, which implemented multiple optimization techniques in the scheduling system. In total, six graduate students and two undergrad students participated in the project. Three of the students are female. The PI and his graduate students also participated in a local outreach program and gave mini-lectures about parallel computing to K-12 female students.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/29/2018<br>\n\t\t\t\t\tModified by: Bo&nbsp;Wu</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project has significantly helped the PI start his career as an Assistant Professor. Through the project, the PI lead a team to work on understanding thread scheduling in Graphics Processing Units (GPUs) and building a software scheduling framework to improve performance for general purpose GPU applications.\n\n \n\nSpecifically, the team has made three technical contributions out of this project. First, the team designed micro benchmarks to run on GPUs of different generations to observe the behaviors of the hardware thread scheduler. The experimental results for the first time revealed multiple undocumented behaviors, which educated the research community about the implementation details of the GPU hardware and served as a basis for scheduling-based optimizations. Second, the team built a software scheduler based on compiler and runtime techniques. The key idea is to circumvent the hardware scheduler and achieve flexible and efficient mapping between tasks and GPU cores. The proposed system automatically transforms the GPU applications for software-level flexible scheduling and controls the incurred runtime overhead to be negligible. The system is also platform-aware and hides the details of the hardware from the programmer, who only needs to consider the semantics of the program. Third, the team leveraged the developed framework for several novel optimizations. The team showed that the software system allows flexible and efficient preemption on GPUs, which dramatically improves co-run fairness and responsiveness. Moreover, the proposed system automatically accelerates irregular applications, which are notoriously difficult to optimize on GPUs. The project has lead to 7 papers published in major conferences and journals , 2 book chapters, and 2 paper submissions currently under review.\n\n \n\nThe PI has committed to education and outreach activities. The PI has integrated the research outcomes into two graduate-level courses, Advanced Computer Architecture (ACA) and Advanced High Performance Computing (AHPC). In the ACA course, the PI used the developed micro benchmarks and the experimental results to teach the students the scheduling algorithms used in the GPU architecture and the opportunities for performance optimization. In the AHPC course, the PI supervised several course projects, which implemented multiple optimization techniques in the scheduling system. In total, six graduate students and two undergrad students participated in the project. Three of the students are female. The PI and his graduate students also participated in a local outreach program and gave mini-lectures about parallel computing to K-12 female students.\n\n\t\t\t\t\tLast Modified: 05/29/2018\n\n\t\t\t\t\tSubmitted by: Bo Wu"
+ }
+}

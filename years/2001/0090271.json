@@ -1,0 +1,126 @@
+{
+ "awd_id": "0090271",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Collaborative Research: Adaptive Data Parallel Storage",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Xiaodong Zhang",
+ "awd_eff_date": "2001-10-01",
+ "awd_exp_date": "2004-09-30",
+ "tot_intn_awd_amt": 196756.0,
+ "awd_amount": 196756.0,
+ "awd_min_amd_letter_date": "2001-05-31",
+ "awd_max_amd_letter_date": "2003-06-11",
+ "awd_abstract_narration": "The I/O demands of scientific applications are increasing exponentially as researchers strive for greater accuracy in models and simulations of physical systems, and as more information about the world is obtained. To deal with this aspect of computation implies that one cannot ignore the I/O gap and only concentrate on processor-centric issues. As a concrete example, the size of Genbank, a nucleotide database, has been doubling every 14 months and is currently 33 GB.  In the commercial arena attention has turned to information and its location also. More and more network services, fueled by the demands of information-intensive Web applications, are shifting the focus in computer systems to I/O.\r\n\r\nWith the growing importance of data comes the need to address its management. The commodity cluster of the near future, which consists of a combination of network-attached storage, intelligent data appliances and workstations, and high-performance networks, is a highly parallel, heterogeneous computer. However, the file abstractions in use today cannot yet fully exploit either the resulting computational power or data locality.\r\n\r\nThis award examines how to improve I/O performance on such a platform for a class of important applications. UC Santa Cruz has a leading computational biology group with a 100+ node Linux cluster; the parallel sequencing codes that they use are an obvious target. Other groups have also expressed interest in this cluster; and its use will be an excellent source of applications. \r\n\r\nThere are three main research objectives. First, develop an I/O programming model that unites computation and storage. This will allow the programmer to express \"storage operations\" that can be readily parallelized. Second, build an adaptive infrastructure and develop analytic models to determine the optimal execution path, which may be parallel or sequential. Third, develop offline models to answer questions about how to allocate resources within this heterogeneous environment.\r\n\r\nThe goal in creating a new I/O interface is to associate computation and data so that code can be easily executed at the source of the data. For example, suppose we want to search for a word in a dictionary. The standard procedure would be to open the dictionary file, read it in chunks, search for instances of the word in each chunk, and close the file. This operation is sequential and processor-centric; the emphasis is on moving the data to the processor rather than a computation to the data. Instead, we propose to associate a \"search for word\" command with the dictionary in the form of a new I/O interface. Now the \"search for word\" becomes a high level abstraction for the same code described above, a single remote procedure call, or a parallel procedure (depending on the location of the dictionary). \r\n\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Tara",
+   "pi_last_name": "Madhyastha",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tara M Madhyastha",
+   "pi_email_addr": "madhyt@uw.edu",
+   "nsf_id": "000195000",
+   "pi_start_date": "2001-05-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Santa Cruz",
+  "inst_street_address": "1156 HIGH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "SANTA CRUZ",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8314595278",
+  "inst_zip_code": "950641077",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "CA19",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "VXUFPE4MCZH5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Santa Cruz",
+  "perf_str_addr": "1156 HIGH ST",
+  "perf_city_name": "SANTA CRUZ",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "950641077",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "CA19",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "408000",
+   "pgm_ele_name": "ADVANCED COMP RESEARCH PROGRAM"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0101",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "app-0101",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0102",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0102",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0103",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0103",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2001,
+   "fund_oblg_amt": 75329.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2002,
+   "fund_oblg_amt": 59660.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2003,
+   "fund_oblg_amt": 61767.0
+  }
+ ],
+ "por": null
+}

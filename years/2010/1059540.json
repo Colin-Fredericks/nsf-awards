@@ -1,0 +1,117 @@
+{
+ "awd_id": "1059540",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "EAGER: Network-Constrained Distributed Primitives",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Min Song",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2013-08-31",
+ "tot_intn_awd_amt": 181785.0,
+ "awd_amount": 197785.0,
+ "awd_min_amd_letter_date": "2010-08-26",
+ "awd_max_amd_letter_date": "2011-05-24",
+ "awd_abstract_narration": "Distributed applications require coordination between multiple nodes in a network, and they need to continue to operate correctly despite node failures.  Implementation of such applications benefits from the availability of distributed primitives for commonly used distributed operations, such as clock synchronization or consensus. While most of the past distributed applications have traditionally used wired networks, there is an emerging trend towards the use of wireless networks for distributed applications.\r\n\r\nThe focus of this interdisciplinary project is on design, analysis and implementation of distributed primitives for wireless networks. In wireless networks, the network capacity is often quite limited.  This project explores the design of efficient algorithms for distributed primitives under network capacity constraints, while exploiting wireless network capabilities such as local broadcast and physical layer adaptation. The scope of the project includes network-constrained distributed primitives for synchronization, consensus and function computation.  Expected results from the project include theoretical bounds on performance of distributed primitives under network capacity constraints, design of efficient algorithms for the primitives, and practical implementations based on insights gained from the theory. Outcomes from the project are expected to allow efficient implementation of future distributed applications in resource-constrained wireless networks. The project brings together networking and distributed systems viewpoints, and is expected to yield fundamental new insights of interest to both areas. The research outcomes from this project will be disseminated via publications in technical conferences and journals, and incorporated into distributed computing and wireless networking courses.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nitin",
+   "pi_last_name": "Vaidya",
+   "pi_mid_init": "H",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nitin H Vaidya",
+   "pi_email_addr": "nv198@georgetown.edu",
+   "nsf_id": "000101142",
+   "pi_start_date": "2010-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S WRIGHT ST",
+  "perf_city_name": "URBANA",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0111",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001112DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 73035.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2011,
+   "fund_oblg_amt": 124750.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of this project is to understand the impact of network characteristics and constraints on the performance of distributed algorithms, and design and analysis of suitable network-constrained algorithms. Of particular interest is the interaction between distributed computation and communication cost of the distributed algorithms, as well as the impact of link capacity constraints, and properties such as wireless broadcast and transmission losses, on algorithm design and performance.</p>\n<p>The project resulted in the development of several distributed algorithms, particularly for Byzantine consensus, Byzantine broadcast, and average consensus problems. The goal of Byzantine consensus and broadcast is to allow the nodes in a network to reach agreement on a valid output despite the presence of faulty nodes that may behave arbitrarily. The average consensus algorithm can be used by the nodes to compute average of the inputs at the different nodes, while performing a fully distributed computation.</p>\n<p>The project resulted in the development of algorithms for Byzantine consensus and Byzantine broadcast that take into account link capacity constraints, and development of bounds on optimal performance under link capacity constraints. The project also yielded a complete characterization of networks of directed links that can solve the Byzantine consensus problem. Additionally, several iterative Byzantine consensus algorithms were developed, which require communication only between adjacent nodes, and yet achieve Byzantine consensus. These iterative algorithms achieve scalar consensus, vector consensus, and convex consensus. We also developed communication-efficient algorithms for Byzantine broadcast and consensus that attempt to achieve low total communication cost over all network links combined. The algorithms make judicious use of error detection codes to improve efficiency.</p>\n<p>The project investigated the design of a Byzantine broadcast algorithm over a wireless channel. It also addressed the design of an average consensus algorithm over a lossy wireless broadcast channel, and showed that average consensus can be achieved using a simple iterative algorithm, which only requires each node to have the knowledge of its local topology. A software tool was also developed to simulate and visualize the state of the average consensus algorithm.</p>\n<p>The project has enhanced the understanding of the impact of communication network characteristics on the performance of distributed computations. The algorithms developed in this project have potential applications in a broad range of cyber-physical systems, particularly when tolerance of compromised or faulty nodes is required. The project provided an opportunity for graduate and undergraduate students to participate in a research activity of significant potential impact. The project outcomes were used in presentations aimed at educating the research community about the significant interactions between communication costs and distributed computations.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/24/2013<br>\n\t\t\t\t\tModified by: Nitin&nbsp;H&nbsp;Vaidya</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this project is to understand the impact of network characteristics and constraints on the performance of distributed algorithms, and design and analysis of suitable network-constrained algorithms. Of particular interest is the interaction between distributed computation and communication cost of the distributed algorithms, as well as the impact of link capacity constraints, and properties such as wireless broadcast and transmission losses, on algorithm design and performance.\n\nThe project resulted in the development of several distributed algorithms, particularly for Byzantine consensus, Byzantine broadcast, and average consensus problems. The goal of Byzantine consensus and broadcast is to allow the nodes in a network to reach agreement on a valid output despite the presence of faulty nodes that may behave arbitrarily. The average consensus algorithm can be used by the nodes to compute average of the inputs at the different nodes, while performing a fully distributed computation.\n\nThe project resulted in the development of algorithms for Byzantine consensus and Byzantine broadcast that take into account link capacity constraints, and development of bounds on optimal performance under link capacity constraints. The project also yielded a complete characterization of networks of directed links that can solve the Byzantine consensus problem. Additionally, several iterative Byzantine consensus algorithms were developed, which require communication only between adjacent nodes, and yet achieve Byzantine consensus. These iterative algorithms achieve scalar consensus, vector consensus, and convex consensus. We also developed communication-efficient algorithms for Byzantine broadcast and consensus that attempt to achieve low total communication cost over all network links combined. The algorithms make judicious use of error detection codes to improve efficiency.\n\nThe project investigated the design of a Byzantine broadcast algorithm over a wireless channel. It also addressed the design of an average consensus algorithm over a lossy wireless broadcast channel, and showed that average consensus can be achieved using a simple iterative algorithm, which only requires each node to have the knowledge of its local topology. A software tool was also developed to simulate and visualize the state of the average consensus algorithm.\n\nThe project has enhanced the understanding of the impact of communication network characteristics on the performance of distributed computations. The algorithms developed in this project have potential applications in a broad range of cyber-physical systems, particularly when tolerance of compromised or faulty nodes is required. The project provided an opportunity for graduate and undergraduate students to participate in a research activity of significant potential impact. The project outcomes were used in presentations aimed at educating the research community about the significant interactions between communication costs and distributed computations.\n\n \n\n\t\t\t\t\tLast Modified: 11/24/2013\n\n\t\t\t\t\tSubmitted by: Nitin H Vaidya"
+ }
+}

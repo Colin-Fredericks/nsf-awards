@@ -1,0 +1,101 @@
+{
+ "awd_id": "1214239",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS: Small: An Efficient Reachability Analysis Method for Large Dynamic Networks and Its Applications",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Brassil",
+ "awd_eff_date": "2012-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 350000.0,
+ "awd_amount": 350000.0,
+ "awd_min_amd_letter_date": "2012-08-17",
+ "awd_max_amd_letter_date": "2012-08-17",
+ "awd_abstract_narration": "Enterprise and campus networks are often large with many having hundreds of routers and thousands of switches which interconnect tens of thousands of hosts and servers. The IP network for an enterprise is not only charged with delivering IP packets but also blocking packets based on security and policy considerations. The set of packets that can travel from one node to another node (reachability set) is controlled by router configurations and by packet filters that guard the outgoing and incoming interfaces of routers and switches. The ability to compute reachability sets is valuable not only for troubleshooting reachability problems but also for debugging and redesigning access control lists (ACLs) in case of link/router failures or before new links/routers are deployed. At present, there is no method fast enough for online computation of reachability sets for large dynamic networks. This project will leverage a novel idea for very fast computation of reachability sets as the basis for developing a theoretical foundation for both transforming network design and configuration into a science and for developing software tools for monitoring, diagnosing, and configuring of large dynamic networks. \r\n\r\nThe objectives and activities in the project include the following: (i) Design and implementation of algorithms fast enough to compute reachability sets and answer an online reachability query in milliseconds; (ii) design and implementation of methods and algorithms to update reachability sets of large networks with dynamic changes in topology, packet filters, and forwarding tables at a frequency of once every few seconds; (iii) analysis of ?atomic packet sets? computed from configuration files of operational networks for knowledge discovery and identifying network reachability structure; (iv) design and implementation of a network-wide reachability policy language such that automated tools can be used to check that a network configuration satisfies stated policies; (v) investigation of a top-down design approach for configuring new networks with software tools used by network designers to generate packet filters from network-wide reachability policies, with ACLs generated automatically to implement the packet filters.\r\n\r\nBroader Impact:\r\nThe results of this project will contribute towards a scientific foundation for network design and management and the creation of a top-down design approach for configuring networks, which are key aspects of building more secure and reliable networks.   It will also educate undergraduate and graduate students on new concepts, formal analysis methods, and software tools for network design and configuration. In particular, the results of this project will be incorporated into the undergraduate and graduate classes being taught by the principal investigator at the University of Texas at Austin.  The investigators will actively seek out involvement by high school, undergraduate, and graduate students, especially students from under-represented minorities. The software tools to be created from the project?s research findings will be made available to other researchers under a license of the Free Software Foundation.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Simon",
+   "pi_last_name": "Lam",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Simon S Lam",
+   "pi_email_addr": "lam@cs.utexas.edu",
+   "nsf_id": "000432537",
+   "pi_start_date": "2012-08-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "ACE 2.118",
+  "perf_city_name": "Austin",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787120233",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "TX",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 350000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong><span>Atomic predicates</span></strong><span>: &nbsp;Managing a large packet network is a complex task.&nbsp; The process of forwarding packets is prone to faults from unexpected protocol interactions and configuration errors. For analysis, both forwarding tables and access control lists (ACLs) are modeled as packet filters specified by predicates. Each predicate represents a set of packets for which the predicate evaluates to true and can pass the packet filter.</span></p>\n<p><span>For a network of packet filters (i.e., predicates), the investigators conceived and defined atomic predicates and proved that atomic predicates specify the coarsest equivalence classes in the packet space.&nbsp; They designed an algorithm to compute atomic predicates and built&nbsp; a new tool,<span>&nbsp;</span><em><span>AP Verifier</span></em>. By computing reachability trees for atomic predicates instead of for individual packets, AP Verifier reduces computation &nbsp;time and space by orders of magnitudes. This is because each atomic predicate typically represents a very large number of equivalent packets in many disjoint fragments of&nbsp; the packet space. This outcome indicates that there exist large amounts of redundancy in the forwarding and ACL rules of real networks. &nbsp;</span></p>\n<p class=\"vert-spacing\"><strong><span>A general theory of packet equivalence</span></strong><span><span>&nbsp;</span></span><strong><span>for networks with</span></strong><span><strong><span>&nbsp;</span></strong></span><strong><span>&nbsp;transformers</span></strong><span>. ISPs use different types of tunnels (e.g., MPLS, IP-in-IP) to route packets. The entry and exit routers of a tunnel perform header encapsulation and de-encapsulation, respectively.&nbsp; Each transit router in a MPLS tunnel performs label switching. All of them perform packet transformations. NATs rewrite packets and are packet transformers. Thus, every packet injected into the network may possibly be transformed into other packets by a sequence of transformers. To generalize their theory to networks with packet transformers, the investigators conceived a new packet equivalence relation that formalizes the following intuition: namely, two packets are equivalent if and only if they are treated identically by every filter and by every possible sequence of one or more transformers in the network. Then, they solved two additional hard problems: (i) formulating a new definition of atomic predicates for sets of transformers and filters with a proof that they specify the coarsest equivalence classes of packets, and (ii) designing a new algorithm for computing atomic predicates for sets of transformers and filters with a proof that the algorithm terminates and, upon termination, it returns the set of atomic predicates. The new algorithm and formulas in the general theory were implemented in a new verification tool,<span>&nbsp;</span><em><span>APT</span></em><span><em>&nbsp;</em></span>(Atomic Predicates for Transformers).&nbsp; Theorems in the general theory are stated and proved as theorems in logic and may have broader applications.</span></p>\n<p><strong><span>Collaborative verification of forward and reverse reachability:</span></strong><span><span>&nbsp;</span></span><span>&nbsp;Active probes (pings and traceroutes) are widely used to measure Internet data plane reachability but&nbsp; these probes have &nbsp;limitations and biases. &nbsp;In particular, they can be used to check forward reachability but<span>&nbsp;</span><em><span>not reverse reachability</span></em>. Currently, when network operators debug reachability problems, they often ask operators of other networks for help by telephone, email, or posting on mailing lists.&nbsp;&nbsp;The investigators designed and implemented an application-layer protocol, COVE, to automate the exchange of data plane reachability information between networks that have a business relationship and thus trust each other. &nbsp;A network deploys COVE by running the protocol in a host, called its&nbsp;<em><span>local verifier</span></em>.&nbsp; The local verifiers of two networks exchange encrypted messages with each other. &nbsp;COVE was designed to improve a network&rsquo;s views of forward and reverse reachability in the Internet data plane even if COVE is partially deployed by as few as two networks connected by a link. Once there is a set of interconnected networks that deploy COVE, there is strong incentive for another network to join and for the set to accept a new member to increase every network&rsquo;s views of data plane reachability. COVE is the only protocol/tool available to date for operators of networks to collaboratively compute reverse as well as forward inter-network reachability trees for their networks&rsquo; provider and customer cones.&nbsp; </span></p>\n<p><em><strong><span>Broader impact</span></strong></em><span>s: The theorems about atomic predicates and equivalence were stated and proved as theorems in logic.&nbsp; The theorems are interesting in &nbsp;the general domain of logic.&nbsp; In a recent paper published in&nbsp; the proceedings of 2016 ACM POPL, Plotkin et al. named the equivalence relation defined by atomic predicates as the \"Yang-Lam equivalence.\" (Gordon Plotkin is a well-known logician in computer science.)&nbsp; Beyond logic, the atomic predicates idea may have potential applications for classifying and aggregating big datasets into equivalence classes, which can be stored and analyzed efficiently.</span></p>\n<p class=\"vert-spacing\"><span>&nbsp;This project has provided training and professional development for five students in the computer science Ph.D. programs of the University of Texas at &nbsp;Austin and the University of Kentucky.&nbsp; Of the three students who graduated from the University of Texas at Austin, one is a software engineer at Google, another is an assistant professor of computer engineering at UC Santa Cruz, and the third is an assistant professor of computer science at the University of Connecticut.&nbsp;</span></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/15/2016<br>\n\t\t\t\t\tModified by: Simon&nbsp;S&nbsp;Lam</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAtomic predicates:  Managing a large packet network is a complex task.  The process of forwarding packets is prone to faults from unexpected protocol interactions and configuration errors. For analysis, both forwarding tables and access control lists (ACLs) are modeled as packet filters specified by predicates. Each predicate represents a set of packets for which the predicate evaluates to true and can pass the packet filter.\n\nFor a network of packet filters (i.e., predicates), the investigators conceived and defined atomic predicates and proved that atomic predicates specify the coarsest equivalence classes in the packet space.  They designed an algorithm to compute atomic predicates and built  a new tool, AP Verifier. By computing reachability trees for atomic predicates instead of for individual packets, AP Verifier reduces computation  time and space by orders of magnitudes. This is because each atomic predicate typically represents a very large number of equivalent packets in many disjoint fragments of  the packet space. This outcome indicates that there exist large amounts of redundancy in the forwarding and ACL rules of real networks.  \nA general theory of packet equivalence for networks with  transformers. ISPs use different types of tunnels (e.g., MPLS, IP-in-IP) to route packets. The entry and exit routers of a tunnel perform header encapsulation and de-encapsulation, respectively.  Each transit router in a MPLS tunnel performs label switching. All of them perform packet transformations. NATs rewrite packets and are packet transformers. Thus, every packet injected into the network may possibly be transformed into other packets by a sequence of transformers. To generalize their theory to networks with packet transformers, the investigators conceived a new packet equivalence relation that formalizes the following intuition: namely, two packets are equivalent if and only if they are treated identically by every filter and by every possible sequence of one or more transformers in the network. Then, they solved two additional hard problems: (i) formulating a new definition of atomic predicates for sets of transformers and filters with a proof that they specify the coarsest equivalence classes of packets, and (ii) designing a new algorithm for computing atomic predicates for sets of transformers and filters with a proof that the algorithm terminates and, upon termination, it returns the set of atomic predicates. The new algorithm and formulas in the general theory were implemented in a new verification tool, APT (Atomic Predicates for Transformers).  Theorems in the general theory are stated and proved as theorems in logic and may have broader applications.\n\nCollaborative verification of forward and reverse reachability:  Active probes (pings and traceroutes) are widely used to measure Internet data plane reachability but  these probes have  limitations and biases.  In particular, they can be used to check forward reachability but not reverse reachability. Currently, when network operators debug reachability problems, they often ask operators of other networks for help by telephone, email, or posting on mailing lists.  The investigators designed and implemented an application-layer protocol, COVE, to automate the exchange of data plane reachability information between networks that have a business relationship and thus trust each other.  A network deploys COVE by running the protocol in a host, called its local verifier.  The local verifiers of two networks exchange encrypted messages with each other.  COVE was designed to improve a network?s views of forward and reverse reachability in the Internet data plane even if COVE is partially deployed by as few as two networks connected by a link. Once there is a set of interconnected networks that deploy COVE, there is strong incentive for another network to join and for the set to accept a new member to increase every network?s views of data plane reachability. COVE is the only protocol/tool available to date for operators of networks to collaboratively compute reverse as well as forward inter-network reachability trees for their networks? provider and customer cones.  \n\nBroader impacts: The theorems about atomic predicates and equivalence were stated and proved as theorems in logic.  The theorems are interesting in  the general domain of logic.  In a recent paper published in  the proceedings of 2016 ACM POPL, Plotkin et al. named the equivalence relation defined by atomic predicates as the \"Yang-Lam equivalence.\" (Gordon Plotkin is a well-known logician in computer science.)  Beyond logic, the atomic predicates idea may have potential applications for classifying and aggregating big datasets into equivalence classes, which can be stored and analyzed efficiently.\n This project has provided training and professional development for five students in the computer science Ph.D. programs of the University of Texas at  Austin and the University of Kentucky.  Of the three students who graduated from the University of Texas at Austin, one is a software engineer at Google, another is an assistant professor of computer engineering at UC Santa Cruz, and the third is an assistant professor of computer science at the University of Connecticut. \n\n \n\n\t\t\t\t\tLast Modified: 09/15/2016\n\n\t\t\t\t\tSubmitted by: Simon S Lam"
+ }
+}

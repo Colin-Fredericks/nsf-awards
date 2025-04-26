@@ -1,0 +1,105 @@
+{
+ "awd_id": "1755781",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII:RI: Adaptive and Practical Algorithms for Personalization",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rebecca Hwa",
+ "awd_eff_date": "2018-05-01",
+ "awd_exp_date": "2021-04-30",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2018-04-13",
+ "awd_max_amd_letter_date": "2018-04-13",
+ "awd_abstract_narration": "Intelligent personalization systems, such as those in news, advertising, search, online shopping, and clinical trials, are playing an increasingly important role in daily lives, bringing to us tremendous convenience as well as increasing the productivity of society. The main challenge in developing algorithmic solutions for these systems lies in the fact that only feedback for the recommended options, but not the other ones, is provided by the users. Many simple heuristics have been used in practice, and there are also some recent advances on more rigorous approaches based on the \"contextual bandit\" model, referring to an analogy with the objective to maximize the sum of rewards earned through a sequence of lever pulls where an encoding of past performance provides context. However, there is still great room for improvement in terms of both practicality and performance guarantees. This project seeks to develop more practical and adaptive contextual bandit algorithms for such systems. The success of this project requires developing new algorithmic techniques as well as mathematical tools from statistics, optimization, machine learning, and their combinations in an innovative way, which advances the theory and practice of the field of online decision making. Education is integrated into the project through curriculum development and student mentoring. Outreach activities include collaborations with other universities as well as with industry, and also organizing related workshops at top conferences. \r\n\r\nSpecifically, the project aims at designing a family of practical contextual bandit algorithms which not only enjoy some information-theoretic worst-case guarantees but can also achieve much better performance when the problem exhibits some kind of \"easiness\". First, the project systematically studies different kinds of \"easiness\" measurements and develops and analyzes specific algorithms for each of these measurements. Second, the project further considers the question of whether it is possible to have a single algorithm that is optimal against all problem instances, where optimality is in terms of the best performance among a reasonable class of algorithms. Finally, the project implements all the developed algorithms and conducts empirical evaluation on benchmark datasets, with the goal of releasing easy-to-use and publicly available software.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Haipeng",
+   "pi_last_name": "Luo",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Haipeng Luo",
+   "pi_email_addr": "haipengl@usc.edu",
+   "nsf_id": "000753101",
+   "pi_start_date": "2018-04-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "3720 S. Flower St.",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900890001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "CA37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Contextual bandit algorithms have recently seen great practical success in building personalized recommendation systems, including those for news, advertising, online shopping, and others. The term \"bandit\" refers to a classic mathematical model where the goal is to maximize rewards via a sequence of decisions, and \"contextual bandit\" further makes use of contextual information to help make better decisions. The aim of this project was to develop more practical and adaptive contextual bandit algorithms that provably perform well in different environments, ranging from the easier ones where certain structures are available, to the more difficult ones where data could be non-stationary or even adversarially corrupted.</p>\n<p>The technical outcomes of this project include the following. First, we developed multiple new bandit and contextual bandit algorithms that can automatically adapt to the structure of different problems and outperform standard algorithms designed for the worst case. The structures we considered cover many practical scenarios, such as when the data follow a fixed distribution, when a certain pre-trained reward predictor is available, or when the data variation across time is reasonably small. Among these results, one notable finding is that the optimal results for the classic bandit problem and its contextual version are sharply different, and the latter requires a set of algorithmic innovations.</p>\n<p>Second, we developed the first contextual bandit algorithm for non-stationary environments that is simultaneously optimal, efficient, and parameter-free. Each of the three properties is highly desirable in practice, and yet their combination is infamously challenging to be satisfied at the same time. Through a sequence of improvements in several works, we not only managed to achieve this goal, but also accomplished so via a black-box reduction approach that automatically turns an existing algorithm designed for stationary environments into an algorithm that can handle non-stationary data. Moreover, our approach is also general enough to be applied to more challenging problems such as reinforcement learning.</p>\n<p>The last main technical outcome is that we initiated the study of model selection for contextual bandits. Model selection centers around a key question: given many different policy classes, which one should we choose in practice to achieve the best accuracy-complexity trade-off? While the answer is well-known for supervised machine learning, it becomes highly unclear for learning with partial information feedback such as contextual bandits. Motivated by this fact, we proposed the first model selection algorithm for a special case of linear contextual bandits, allowing one to find the best feature representation among a set of nested candidates. Our work was quickly followed up by many other improvements and generalizations, further advancing our understanding for contextual bandits.</p>\n<p>Besides these technical outcomes, this project also led to one related graduate course at the University of Southern California (USC). It also contributed to the training of five graduate students, three visiting students, and one undergrade student (who won the prestigious USC achievement award partially in recognition of her work done in this project). The PI also participated in the USC's Summer High School Intensive in Next-Generation Engineering (SHINE) program and had two rising seniors from local schools to spend seven weeks of the summer working with the PI and his graduate students on the basic parts of the project.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/15/2021<br>\n\t\t\t\t\tModified by: Haipeng&nbsp;Luo</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nContextual bandit algorithms have recently seen great practical success in building personalized recommendation systems, including those for news, advertising, online shopping, and others. The term \"bandit\" refers to a classic mathematical model where the goal is to maximize rewards via a sequence of decisions, and \"contextual bandit\" further makes use of contextual information to help make better decisions. The aim of this project was to develop more practical and adaptive contextual bandit algorithms that provably perform well in different environments, ranging from the easier ones where certain structures are available, to the more difficult ones where data could be non-stationary or even adversarially corrupted.\n\nThe technical outcomes of this project include the following. First, we developed multiple new bandit and contextual bandit algorithms that can automatically adapt to the structure of different problems and outperform standard algorithms designed for the worst case. The structures we considered cover many practical scenarios, such as when the data follow a fixed distribution, when a certain pre-trained reward predictor is available, or when the data variation across time is reasonably small. Among these results, one notable finding is that the optimal results for the classic bandit problem and its contextual version are sharply different, and the latter requires a set of algorithmic innovations.\n\nSecond, we developed the first contextual bandit algorithm for non-stationary environments that is simultaneously optimal, efficient, and parameter-free. Each of the three properties is highly desirable in practice, and yet their combination is infamously challenging to be satisfied at the same time. Through a sequence of improvements in several works, we not only managed to achieve this goal, but also accomplished so via a black-box reduction approach that automatically turns an existing algorithm designed for stationary environments into an algorithm that can handle non-stationary data. Moreover, our approach is also general enough to be applied to more challenging problems such as reinforcement learning.\n\nThe last main technical outcome is that we initiated the study of model selection for contextual bandits. Model selection centers around a key question: given many different policy classes, which one should we choose in practice to achieve the best accuracy-complexity trade-off? While the answer is well-known for supervised machine learning, it becomes highly unclear for learning with partial information feedback such as contextual bandits. Motivated by this fact, we proposed the first model selection algorithm for a special case of linear contextual bandits, allowing one to find the best feature representation among a set of nested candidates. Our work was quickly followed up by many other improvements and generalizations, further advancing our understanding for contextual bandits.\n\nBesides these technical outcomes, this project also led to one related graduate course at the University of Southern California (USC). It also contributed to the training of five graduate students, three visiting students, and one undergrade student (who won the prestigious USC achievement award partially in recognition of her work done in this project). The PI also participated in the USC's Summer High School Intensive in Next-Generation Engineering (SHINE) program and had two rising seniors from local schools to spend seven weeks of the summer working with the PI and his graduate students on the basic parts of the project.\n\n\t\t\t\t\tLast Modified: 06/15/2021\n\n\t\t\t\t\tSubmitted by: Haipeng Luo"
+ }
+}

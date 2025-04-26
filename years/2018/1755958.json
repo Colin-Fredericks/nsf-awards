@@ -1,0 +1,101 @@
+{
+ "awd_id": "1755958",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: CSR: Skeletor: Building a Platform for Quantitative Workload Characterization",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Erik Brunvand",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2021-08-31",
+ "tot_intn_awd_amt": 174860.0,
+ "awd_amount": 174860.0,
+ "awd_min_amd_letter_date": "2018-02-16",
+ "awd_max_amd_letter_date": "2018-02-16",
+ "awd_abstract_narration": "Combined compute, memory, storage and networking systems are too complex to be modeled correctly. Thus, only way to determine performance of an entire system or a sub-system in the context of a whole system is to test it by applying a set of workloads under controlled conditions. The workloads should be representative of the real applications. In characterizing a system, the workloads that expose diverse system behaviors are more valuable than workloads that behave similarly. Thus, workload characterization is important. This proposal focuses on workloads for storage systems to enable storage systems performance optimization. From a systems perspective, if the behavior of the executing workload can be mapped to one or more of the known behaviors, then the system can be adapted to a configuration(s) that is best suited for that behavior. The goal of this project is to recognize the behavior of the workload to find workload archetype.\r\n \r\nThe project will research workload metrics important to measure and define rigorous archetypes parameterized by these metrics to characterize new workloads without complex, slow predictive analytics or onerous domain specification. The investigator plans to produce a workload classification schema in preparation for developing adaptive, workload-aware automated storage tuning and provisioning framework. The project has two main goals, (1) learning what to measure by creating a parameterized taxonomy of the model workloads; and (2) learning how to measure by creating a framework to infer and categorize functionally distinct workloads.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Avani",
+   "pi_last_name": "Wildani",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Avani Wildani",
+   "pi_email_addr": "avani@mathcs.emory.edu",
+   "nsf_id": "000704880",
+   "pi_start_date": "2018-02-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Emory University",
+  "inst_street_address": "201 DOWMAN DR NE",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4047272503",
+  "inst_zip_code": "303221061",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "EMORY UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "S352L5PJLMP8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Emory University",
+  "perf_str_addr": "400 Dowman Dribe",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303224250",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "026Y00",
+   "pgm_ele_name": "CRII CISE Research Initiation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 174860.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This grant supported the development of the skeletor.io metric extractor, a website that aggregated and analyzed \"workload traces\" -- statistics collected from running systems -- to better understand how large scale data storage systems. such as those at hospitals or national labs, are used.&nbsp; This work was one of the first attempts at wholesale systemization of the analysis of these workload traces.&nbsp;&nbsp;</p>\n<p><br />Several portions of this project have been performed in collaboration with, or based on problems derived from, industry partners.&nbsp;The skeletor.io metric extractor was developed in conjunction with IBM Almaden Research Center.&nbsp; IBM ARC has taken the technology and visualization from the extractor and incorporated it into analysis tools for their GPFS filesystem.&nbsp;The similarity metrics we are defining as part of our workload comparison tools have been used by Sandia National Laboratories to compare proxy applications to actual applications for provisioning infrastruture across security domains.&nbsp; In addition, the workload separation work led to identifying workload features that were important for creating application fingerprints at Sandia.&nbsp;The results derived in this grant have led to a follow-up project with Intel Labs, where they will expand on the characterization work we are doing to explore power management within the storage stack.</p>\n<p><br />The work in this project led to a new module in Emory's advanced systems course.&nbsp; In this module, students had the option of doing a project that characterized existing workloads using a variety of simple statistical analyses.&nbsp; The goal of this project was to show the high variance both between, and within workloads.&nbsp; The projects were broadly successful, and led to 2 workshop paper submissions.&nbsp;In addition, this project led to a talk at the Atlanta Science Festival, which exposed young students, including a large number of URM students, to mathematical and statistical problems without computer systems and architecture.</p>\n<p><br />Insights about workloads will, in the long term, improve our ability to archive our history.&nbsp; History is determined by what is archived and how it is labeled.&nbsp; Understanding the engineering limitations that lead to overprovisioning is an important first step towards making more decisions about what to keep intentionally, versus being forced into decisions by the limitations of the technology.</p>\n<p><br />The work in this project has had two key impacts within computer (and specifically storage) systems:&nbsp;First, we have made a strong argument that classifying storage workloads accurately involves significantly more features than previously imagined, and that using these features to separate workloads improves cache provisioning.&nbsp; The time-series based workload features we have identified in the Census project have led to follow-up work in determining why, for instance, a type of fast Fourier transform of IOs is highly relevant to classifying workloads created by deep learning pipelines.&nbsp;&nbsp;Second, we have shown that interleaved workloads are an important problem, and that decoupling such workloads is more complicated than previously thought.&nbsp; Having more of the community acknowledge that these workloads exist, that they are difficult to separate, and that separation has clear performance benefits, will ideally lead to a broader effort across the community to address multi-tenancy at the storage layer, beyond isolating tenants.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/13/2022<br>\n\t\t\t\t\tModified by: Avani&nbsp;Wildani</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2022/1755958/1755958_10530992_1647217386513_Skeletor-2020--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1755958/1755958_10530992_1647217386513_Skeletor-2020--rgov-800width.jpg\" title=\"Architecture for the Skeletor System\"><img src=\"/por/images/Reports/POR/2022/1755958/1755958_10530992_1647217386513_Skeletor-2020--rgov-66x44.jpg\" alt=\"Architecture for the Skeletor System\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">This architecture was designed and implemented throughout the course of this project.</div>\n<div class=\"imageCredit\">Emory Simbiosys</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Avani&nbsp;Wildani</div>\n<div class=\"imageTitle\">Architecture for the Skeletor System</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThis grant supported the development of the skeletor.io metric extractor, a website that aggregated and analyzed \"workload traces\" -- statistics collected from running systems -- to better understand how large scale data storage systems. such as those at hospitals or national labs, are used.  This work was one of the first attempts at wholesale systemization of the analysis of these workload traces.  \n\n\nSeveral portions of this project have been performed in collaboration with, or based on problems derived from, industry partners. The skeletor.io metric extractor was developed in conjunction with IBM Almaden Research Center.  IBM ARC has taken the technology and visualization from the extractor and incorporated it into analysis tools for their GPFS filesystem. The similarity metrics we are defining as part of our workload comparison tools have been used by Sandia National Laboratories to compare proxy applications to actual applications for provisioning infrastruture across security domains.  In addition, the workload separation work led to identifying workload features that were important for creating application fingerprints at Sandia. The results derived in this grant have led to a follow-up project with Intel Labs, where they will expand on the characterization work we are doing to explore power management within the storage stack.\n\n\nThe work in this project led to a new module in Emory's advanced systems course.  In this module, students had the option of doing a project that characterized existing workloads using a variety of simple statistical analyses.  The goal of this project was to show the high variance both between, and within workloads.  The projects were broadly successful, and led to 2 workshop paper submissions. In addition, this project led to a talk at the Atlanta Science Festival, which exposed young students, including a large number of URM students, to mathematical and statistical problems without computer systems and architecture.\n\n\nInsights about workloads will, in the long term, improve our ability to archive our history.  History is determined by what is archived and how it is labeled.  Understanding the engineering limitations that lead to overprovisioning is an important first step towards making more decisions about what to keep intentionally, versus being forced into decisions by the limitations of the technology.\n\n\nThe work in this project has had two key impacts within computer (and specifically storage) systems: First, we have made a strong argument that classifying storage workloads accurately involves significantly more features than previously imagined, and that using these features to separate workloads improves cache provisioning.  The time-series based workload features we have identified in the Census project have led to follow-up work in determining why, for instance, a type of fast Fourier transform of IOs is highly relevant to classifying workloads created by deep learning pipelines.  Second, we have shown that interleaved workloads are an important problem, and that decoupling such workloads is more complicated than previously thought.  Having more of the community acknowledge that these workloads exist, that they are difficult to separate, and that separation has clear performance benefits, will ideally lead to a broader effort across the community to address multi-tenancy at the storage layer, beyond isolating tenants.\n\n\t\t\t\t\tLast Modified: 03/13/2022\n\n\t\t\t\t\tSubmitted by: Avani Wildani"
+ }
+}

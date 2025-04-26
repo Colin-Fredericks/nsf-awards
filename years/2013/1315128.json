@@ -1,0 +1,101 @@
+{
+ "awd_id": "1315128",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "A parallel Poisson/Helmholtz solver using local boundary integral equation and random walk methods",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032924488",
+ "po_email": "jwang@nsf.gov",
+ "po_sign_block_name": "Junping Wang",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 140000.0,
+ "awd_amount": 140000.0,
+ "awd_min_amd_letter_date": "2013-09-11",
+ "awd_max_amd_letter_date": "2013-09-11",
+ "awd_abstract_narration": "The objective of this project is to develop a new type of scalable elliptic solvers with high parallel scalability, and a  fundamentally new approach in solving Poisson or modified Helmholtz equations in 3-D is proposed. The solution  of these equations constitutes a major computational cost for many computational engineer problems such as  incompressible flows by projection methods, electrostatic potential problems in molecular biology, and enforcing  divergence free constraints of magnetic field in plasma MHD simulations, etc. The approach proposed is based on  combining deterministic local boundary integral equation methods and random Brownian walk probabilistic  representations of PDE solutions, resulting in straightforward parallel non-iterative solvers for the Dirichlet-to  Neumann mappings of the elliptic PDEs, thus the complete solutions of the PDEs with the help of the FMM.  \r\n\r\nThe high performance computers nowadays use many cores in the order of hundreds of thousands designed for  parallel implementations. The challenging for algorithms designers is to develop highly scalable and parallel  methods to solve the mathematical equations coming from the representations of real world science and engineering  problems. The development of the proposed algorithm in this project is a step toward to achieving such a degree of  scalability and parallelism for problems, such as flow-structure interactions and electrostatics in computational  biology and plasmas. The idea of using both random and deterministic methods in the proposed method is  fundamentally different from traditional purely deterministic methods such as multi-grid and domain decomposition  methods, and has the potential to produce high impact in the field of scientific and engineering computing at  extreme scale.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wei",
+   "pi_last_name": "Cai",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wei Cai",
+   "pi_email_addr": "cai@smu.edu",
+   "nsf_id": "000110439",
+   "pi_start_date": "2013-09-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of North Carolina at Charlotte",
+  "inst_street_address": "9201 UNIVERSITY CITY BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHARLOTTE",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "7046871888",
+  "inst_zip_code": "282230001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NC12",
+  "org_lgl_bus_name": "UNIVERSITY OF NORTH CAROLINA AT CHARLOTTE",
+  "org_prnt_uei_num": "NEYCH3CVBTR6",
+  "org_uei_num": "JB33DT84JNA5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of North Carolina at Charlotte",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "282230001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NC12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 140000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In medical electrical impedance tomography (EIT) for breast cancer detection and VLSI microchip designs, doctors and engineers would like to find the local solution to the elliptic PDEs which govern the eletrical potentials for these applications. &nbsp;A global solution is sometimes too expensive or not needed. In this project, we have developed such local solution techniques based on random walk-on-sphere sampling of Brownian motion, which allows the realization of a local solution through the well-known Feynaman-Kac formula.</p>\n<p>The key mathemtical and computational achievement for this project are algorthms which allows accurate computation of the time and locations where the Brownian motion hits the boundary of the doamin (the physical object under study) - so called local time. Brownian motion is the mathemtical description of a pollen moving under the bombardments of surrounding water molecules, first observed by Botonist Brown in 1827, later made as a fundamental concept in modern physics in describing physical system by Einsten in 1905. The local time is the key ingredient of the above mentioned Feynman-Kac formula and the boundary data (e.g., the measurement in the EIT clinic examination) at those boundary locations are then recorded in the Feynam-Kac formula, through a statistical average weighted with the frequency of the boundary hitting of the Brownian motion, resulting in the solution at a specific location in the domain where all Brownian paths are assumed to originate from.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/25/2015<br>\n\t\t\t\t\tModified by: Wei&nbsp;Cai</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn medical electrical impedance tomography (EIT) for breast cancer detection and VLSI microchip designs, doctors and engineers would like to find the local solution to the elliptic PDEs which govern the eletrical potentials for these applications.  A global solution is sometimes too expensive or not needed. In this project, we have developed such local solution techniques based on random walk-on-sphere sampling of Brownian motion, which allows the realization of a local solution through the well-known Feynaman-Kac formula.\n\nThe key mathemtical and computational achievement for this project are algorthms which allows accurate computation of the time and locations where the Brownian motion hits the boundary of the doamin (the physical object under study) - so called local time. Brownian motion is the mathemtical description of a pollen moving under the bombardments of surrounding water molecules, first observed by Botonist Brown in 1827, later made as a fundamental concept in modern physics in describing physical system by Einsten in 1905. The local time is the key ingredient of the above mentioned Feynman-Kac formula and the boundary data (e.g., the measurement in the EIT clinic examination) at those boundary locations are then recorded in the Feynam-Kac formula, through a statistical average weighted with the frequency of the boundary hitting of the Brownian motion, resulting in the solution at a specific location in the domain where all Brownian paths are assumed to originate from.\n\n\t\t\t\t\tLast Modified: 11/25/2015\n\n\t\t\t\t\tSubmitted by: Wei Cai"
+ }
+}

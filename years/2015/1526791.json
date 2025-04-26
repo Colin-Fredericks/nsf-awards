@@ -1,0 +1,101 @@
+{
+ "awd_id": "1526791",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS: Small: A Programmable Network Data Plane for Resource Management in Datacenters",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2015-10-01",
+ "awd_exp_date": "2020-09-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2015-08-17",
+ "awd_max_amd_letter_date": "2015-08-17",
+ "awd_abstract_narration": "Datacenters have revolutionized computing, allowing small companies and research groups to harness the power of tens of thousands of computers, and large companies to provide a wide range of services to billions of users. Research on datacenter network architectures is important to meet the stringent performance requirements of many applications at acceptable cost. A key aspect of modern datacenter networks is their use of sophisticated resource management algorithms within the network, without which it would be prohibitively expensive or even impossible to accomplish many data-intensive computing tasks.  Researchers, engineers, and network operators have been developing new methods for resource management at a healthy pace over the past two decades. Much of this work requires changes to network routers, whose data planes are typically implemented in hardware. Hardware is inflexible, so researchers cannot convincingly demonstrate their new ideas, and operators cannot evaluate them in practice. The two approaches available today for programmable networks---software routers and hardware routers with programmable elements---both have drawbacks. To date, software routers have failed to deliver on performance, being at least an order of magnitude slower than hardware, whereas programmable elements in hardware routers have not been able to provide a convenient platform to express most queue management, scheduling, and control algorithms. \r\n\r\nTo address this problem, this proposal introduces Flexplane, a new way to architect a programmable network data plane capable of supporting a variety of resource management schemes. The goal is to support schemes specified in a high-level language like C++ as in a software simulator or a software router, but run them at hardware rates on real networks. The key idea is to use a centralized arbiter to emulate the behavior of an entire network with abstract packets, and reflect that behavior on to real packets sent by the endpoints over the actual network. With Flexplane, packets arrive at their destinations with the timings and headers that mimic on-path routers running the programmed schemes. \r\n\r\nBroader Impacts: Flexplane is of demonstrated interest to network infrastructure teams in companies like Facebook. The results of this research will directly benefit datacenters operated by companies like Facebook, Google, Microsoft, Amazon.com, and many other enterprises. The education plan includes the introduction of this research's findings into the undergraduate curriculum and offers undergraduates an opportunity to implement network protocols in a friendly programming environment, but have them run at high rates, a capability that was hitherto unavailable. The graduate-level education goals are to explore the limits of centralized arbitration and data-plane programmability.  The course material will be made widely available through MIT OpenCourseWare and on the MITx MOOC.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hari",
+   "pi_last_name": "Balakrishnan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hari Balakrishnan",
+   "pi_email_addr": "hari@csail.mit.edu",
+   "nsf_id": "000489957",
+   "pi_start_date": "2015-08-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 Massachusetts Ave.",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394307",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project developed multiple system architectures to perform end-host networking in novel ways in datacenters. A common theme was to rethink endpoint software design and develop high-performance, low-latency software to perform functions that were previouslyunachievable or that required network hardware.</p>\n<p><span style=\"text-decoration: underline;\"><strong>Intellectual Merits</strong></span></p>\n<ol>\n<li><em>Flexplane</em>: This project introduced Flexplane, a new way to architect a programmable network data plane capable of supporting a variety of resource management schemes. The goal was to support schemes specified in a high-level language like C++ as in software routers, but atspeeds nearly as fast as hardware. The key inventiojn is to use a centralized arbiter to emulate the behavior of an entire network with <em>abstract packets</em>, and reflect that behavior on to real packets sent by the endpoints over the actual network.<br /><br />We completed a detailed design and developed a prototype for Flexplane, and performed several experiments with network resource management schemes written in Flexplane. The experiments answered whether off-path emulation over abstract packets provide a viable platform for experimentation with network resource management schemes.&nbsp; The results showed that Flexplane provides accuracy, utility, and sufficient throughput for datacenter applications.<br /><br />Accuracy: Flexplane accurately reproduced the queue occupancies and flow completion times of many schemes already supported in commodity hardware.<br /><br />Utility: With Flexplane, users can implement a large number of schemes such as HULL, pFabric, etc. in a few dozen lines of code or less. They can use Flexplane to evaluate trade-offs between resource management schemes and to quickly tune protocol parameters for different link rates. Finally, users can experiment with real applications such as Spark and observe results that are not possible to observe in simulation, because they depend on the CPUs and network stacks of real endpoints.<br /><br />Throughput: By limiting communication between cores, Flexplane scales nearly linearly to achieve 760 Gbits/s of throughput with 10 cores, for a topology of seven racks. This is 20x faster than the RouteBricks software router while using only one-third as many cores.<br /><br /></li>\n<li><em>Flowtune</em>: We developed a new traffic control system for datacenter networks, called Flowtune&#65279;. The motivation is that rapid convergence to a desired allocation of network resources to endpoint traffic is a difficult problem. The reason is that congestion control decisions are distributed across the endpoints, which vary their offered load in response to changes in application demand and network feedback on a packet-by-packet basis. We developed a different approach for datacenter networks, flowlet control, in which congestion control decisions are made at the granularity of a flowlet, not a packet. With flowlet control, allocations have to change only when flowlets arrive or leave. We implemented this idea using a centralized allocator (conceptually similar to the Flexplane emulator) that eceives flowlet start and end notifications from endpoints. The allocator computes optimal rates using a new, fast method for network utility maximization, and updates endpoint congestion-control parameters. Experiments with Flowtune showed that it outperforms DCTCP, pFabric, sfqCoDel, and XCP on tail packet delays in various settings, converging to optimal rates within a few packets rather thanover several RTTs. Moreover, benchmarks on an EC2 deployment show afairer rate allocation than Linux&rsquo;s Cubic. A data aggregation benchmark showed 1.61&times; lower p95 coflow completion time.&nbsp; Paper at NSDI 2017.<br /><br /></li>\n<li><em>Shenango</em>: In many datacenter applications, responding to a single user request requires responses from thousands of software services. To deliver fast responses to users, it is necessary to support high request rates and microsecond-scale tail latencies (e.g., 99th percentile). This is particularly important for requests with service times of only a couple of microseconds. Networking hardware has risen to the occasion; high-speed networks today provide round-trip times (RTTs) on the order of a few microseconds.&nbsp; However, when applications run atop current operating systems and network stacks, tail latencies are in the milliseconds.<br /><br />Shenango focused on achieving three objectives: (1) microsecond-scale end-to-end tail latencies and high throughput for datacenter applications (2) CPU-efficient packing of applications on multi-core machines; and (3) high application developer productivit vias ynchronous I/O and standard programming abstractions such as lightweight threads and blocking TCP network sockets. <br /><br />To our knowledge, Shenango is the first system that can both multiplex coresand maintain low tail latency during microsecond-scale bursts in load. For example, Shenango's core allocator is fast enough to keep 99.9th percentile latency below 100 microseconds even during an extreme instantaneous shift from one to three million requests per second. Paper at NSDI 2019.</li>\n</ol>\n<p><span style=\"text-decoration: underline;\"><strong>Broader Impacts</strong></span></p>\n<p>Flexplane (https://github.com/aousterh/flexplane) and Shenango (https://github.com/shenango) are both open-sourced.</p>\n<p>Flowtune was the basis of a startup company, Flowmill, founded by Jonathan Perry. In 2020, Flowmill was acquired by Splunk.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/16/2021<br>\n\t\t\t\t\tModified by: Hari&nbsp;Balakrishnan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project developed multiple system architectures to perform end-host networking in novel ways in datacenters. A common theme was to rethink endpoint software design and develop high-performance, low-latency software to perform functions that were previouslyunachievable or that required network hardware.\n\nIntellectual Merits\n\nFlexplane: This project introduced Flexplane, a new way to architect a programmable network data plane capable of supporting a variety of resource management schemes. The goal was to support schemes specified in a high-level language like C++ as in software routers, but atspeeds nearly as fast as hardware. The key inventiojn is to use a centralized arbiter to emulate the behavior of an entire network with abstract packets, and reflect that behavior on to real packets sent by the endpoints over the actual network.\n\nWe completed a detailed design and developed a prototype for Flexplane, and performed several experiments with network resource management schemes written in Flexplane. The experiments answered whether off-path emulation over abstract packets provide a viable platform for experimentation with network resource management schemes.  The results showed that Flexplane provides accuracy, utility, and sufficient throughput for datacenter applications.\n\nAccuracy: Flexplane accurately reproduced the queue occupancies and flow completion times of many schemes already supported in commodity hardware.\n\nUtility: With Flexplane, users can implement a large number of schemes such as HULL, pFabric, etc. in a few dozen lines of code or less. They can use Flexplane to evaluate trade-offs between resource management schemes and to quickly tune protocol parameters for different link rates. Finally, users can experiment with real applications such as Spark and observe results that are not possible to observe in simulation, because they depend on the CPUs and network stacks of real endpoints.\n\nThroughput: By limiting communication between cores, Flexplane scales nearly linearly to achieve 760 Gbits/s of throughput with 10 cores, for a topology of seven racks. This is 20x faster than the RouteBricks software router while using only one-third as many cores.\n\n\nFlowtune: We developed a new traffic control system for datacenter networks, called Flowtune&#65279;. The motivation is that rapid convergence to a desired allocation of network resources to endpoint traffic is a difficult problem. The reason is that congestion control decisions are distributed across the endpoints, which vary their offered load in response to changes in application demand and network feedback on a packet-by-packet basis. We developed a different approach for datacenter networks, flowlet control, in which congestion control decisions are made at the granularity of a flowlet, not a packet. With flowlet control, allocations have to change only when flowlets arrive or leave. We implemented this idea using a centralized allocator (conceptually similar to the Flexplane emulator) that eceives flowlet start and end notifications from endpoints. The allocator computes optimal rates using a new, fast method for network utility maximization, and updates endpoint congestion-control parameters. Experiments with Flowtune showed that it outperforms DCTCP, pFabric, sfqCoDel, and XCP on tail packet delays in various settings, converging to optimal rates within a few packets rather thanover several RTTs. Moreover, benchmarks on an EC2 deployment show afairer rate allocation than Linux\u2019s Cubic. A data aggregation benchmark showed 1.61&times; lower p95 coflow completion time.  Paper at NSDI 2017.\n\n\nShenango: In many datacenter applications, responding to a single user request requires responses from thousands of software services. To deliver fast responses to users, it is necessary to support high request rates and microsecond-scale tail latencies (e.g., 99th percentile). This is particularly important for requests with service times of only a couple of microseconds. Networking hardware has risen to the occasion; high-speed networks today provide round-trip times (RTTs) on the order of a few microseconds.  However, when applications run atop current operating systems and network stacks, tail latencies are in the milliseconds.\n\nShenango focused on achieving three objectives: (1) microsecond-scale end-to-end tail latencies and high throughput for datacenter applications (2) CPU-efficient packing of applications on multi-core machines; and (3) high application developer productivit vias ynchronous I/O and standard programming abstractions such as lightweight threads and blocking TCP network sockets. \n\nTo our knowledge, Shenango is the first system that can both multiplex coresand maintain low tail latency during microsecond-scale bursts in load. For example, Shenango's core allocator is fast enough to keep 99.9th percentile latency below 100 microseconds even during an extreme instantaneous shift from one to three million requests per second. Paper at NSDI 2019.\n\n\nBroader Impacts\n\nFlexplane (https://github.com/aousterh/flexplane) and Shenango (https://github.com/shenango) are both open-sourced.\n\nFlowtune was the basis of a startup company, Flowmill, founded by Jonathan Perry. In 2020, Flowmill was acquired by Splunk.\n\n\t\t\t\t\tLast Modified: 05/16/2021\n\n\t\t\t\t\tSubmitted by: Hari Balakrishnan"
+ }
+}

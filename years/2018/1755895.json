@@ -1,0 +1,105 @@
+{
+ "awd_id": "1755895",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: RI: Towards Learning Skills from First Person Demonstrations",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924768",
+ "po_email": "jyang@nsf.gov",
+ "po_sign_block_name": "Jie Yang",
+ "awd_eff_date": "2018-03-15",
+ "awd_exp_date": "2021-01-31",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2018-03-30",
+ "awd_max_amd_letter_date": "2018-03-30",
+ "awd_abstract_narration": "Humans learn a skill from an expert's demonstrations such as playing tennis, which requires understanding subtle details of sequential actions, e.g., eye-hand coordination across swing motion. This project develops technologies to learn such skills by observing demonstrations from first-person videos. The first-person videos are highly dynamic, local, and person-biased due to severe head movements, which generates a larger variation of visual data. Analyzing the videos produced by the head-mounted camera system is challenging because state-of-the-art computer vision systems built upon third-person videos cannot be directly applied. The research team addresses these challenges by developing both hardware and computational models. The principal investigator of the project will integrate the research results into a sequence of newly designed computer vision courses in the University of Minnesota. The research team will publicly share the dataset, representation, and trained models, and organize workshops and tutorials to broader audiences in computer vision and robotics.\r\n\r\nThis research investigates problems in learning skills from first person demonstrations. This project designs a head-mounted camera system composed of a first-person camera and multiple proxemic cameras that can fully cover the space of interactions. The project also develops a new representation specific to the head-mounted camera system, called proxemic affordance map, to efficiently represent visual scene and action in 3D. The proxemic affordance map encodes 3D visual semantics in a form of 3D depth map, visual attention, and body pose, which enables measuring the correlation between action and its surroundings. This allows learning the dynamics of proxemic affordance map to model diverse physical activities, e.g., how an action will change the state of its surrounding contexts.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hyun Soo",
+   "pi_last_name": "Park",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hyun Soo Park",
+   "pi_email_addr": "hspark@umn.edu",
+   "nsf_id": "000741915",
+   "pi_start_date": "2018-03-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Minnesota-Twin Cities",
+  "inst_street_address": "2221 UNIVERSITY AVE SE STE 100",
+  "inst_street_address_2": "",
+  "inst_city_name": "MINNEAPOLIS",
+  "inst_state_code": "MN",
+  "inst_state_name": "Minnesota",
+  "inst_phone_num": "6126245599",
+  "inst_zip_code": "554143074",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MN05",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF MINNESOTA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "KABJZBBJ4B54"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Minnesota-Twin Cities",
+  "perf_str_addr": "200 Union Street SE",
+  "perf_city_name": "Minneapolis",
+  "perf_st_code": "MN",
+  "perf_st_name": "Minnesota",
+  "perf_zip_code": "554552070",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MN05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>This research program aims to develop a visual computational model that encodes the space around a person, e.g., surrounding objects, people, and scenes, using an egocentric camera. As a proof-of-concept, my team focuses on a problem of visual navigation in a novel environment by (1) designing a representation of 3D world with semantic meaning, e.g., items in a shelf, road, and (2) developing an algorithm to leverage the representation to navigate into the scene.</span></p>\n<p><span>Intellectual Merit: We develop a new computer vision theories and algorithms to learn semantics and geometry of surroundings. The key innovation is to leverage multiview images that can provide visually redundant yet geometrically distinctive signals that can supervise each other's views. We have developed various algorithms to understand egocentric scenes in the form of depth, surface normal, and semantics. We used multiple geometric insight to supervise learning the visual representation: epipolar constraint, temporal consistency, and keypoint consistency. With this high-risk-high-payoff project, we have published in top conferences in computer vision including CVPR, ECCV, and ICCV and we have been conducting the follow-up research. For instance, based on the previous work, now we are building a large multiview dataset called HUMBI for human body expressions that can be used to learn view dependent appearance from assorted people. Notable papers include:</span></p>\n<p><span>+ T. Do, K. Vuong, S. Roumeliotis, H.S. Park \"Surface Normal Estimation of Tilted Images via Spatial Rectifier\", ECCV 2020, Spotlight presentation---</span>We present a spatial rectifier to estimate surface normals of tilted (egocentric) images. Tilted images are of particular interest as more visual data are captured by arbitrarily oriented sensors such as body-/robot-mounted cameras. Existing approaches exhibit bounded performance on predicting surface normals because they were trained using gravity-aligned images. We design a spatial rectifier that is learned to transform the surface normal distribution of a tilted image to the rectified one that matches the gravity-aligned training data distribution. The resulting estimator outperforms the state-of-the-art methods including data augmentation baselines not only on ScanNet and NYUv2 but also on a new dataset called Tilt-RGBD that includes considerable roll and pitch camera motion.</p>\n<p>+ J. S. Yoon, T. Shiratori, S.-I. Yu, H. S. Park, \"Self-supervised Adaptation of High-fidelity Face Models for Monocular Performance Tracking\", CVPR 2019 Oral presentation---W<span>e propose a self-supervised domain adaptation approach to enable the animation of high-fidelity face models from a commodity (egocentric) camera. Our approach first circumvents the requirement for special input data by training a new network that can directly drive a face model just from a single 2D image. Then, we overcome the domain mismatch between lab and uncontrolled environments by performing self-supervised domain adaptation based on \"consecutive frame texture consistency\" based on the assumption that the appearance of the face is consistent over consecutive frames, avoiding the necessity of modeling the new environment such as lighting or background. Experiments show that we are able to drive a high-fidelity face model to perform complex facial motion from a cellphone camera without requiring any labeled data from the new domain.</span></p>\n<p>Broader Impact: The outcomes of the project are integrated in computer vision courses in the University of Minnesota: CSCI 5561 Introduction to Computer Vision and CSCI 5563 Multiview 3D Computer Vision. We used the datasets and codes generated from this project as course materials. PI has given talks in various settings including conferences, universities and industrial partners for dissemination. PI also disseminated the results in public settings in local communities such as Minnesota State Fair.&nbsp;</p>\n<p><span><br /></span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/07/2021<br>\n\t\t\t\t\tModified by: Hyun Soo&nbsp;Park</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2021/1755895/1755895_10536977_1617807711492_Clipboard01--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2021/1755895/1755895_10536977_1617807711492_Clipboard01--rgov-800width.jpg\" title=\"Egocentric Scene Understanding\"><img src=\"/por/images/Reports/POR/2021/1755895/1755895_10536977_1617807711492_Clipboard01--rgov-66x44.jpg\" alt=\"Egocentric Scene Understanding\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">We collect a new dataset of egocentric RGBD images to study egocentric scene understanding: predicting depths, surface normals, semantics from an egocentri image.</div>\n<div class=\"imageCredit\">Tien Do</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Hyun Soo&nbsp;Park</div>\n<div class=\"imageTitle\">Egocentric Scene Understanding</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThis research program aims to develop a visual computational model that encodes the space around a person, e.g., surrounding objects, people, and scenes, using an egocentric camera. As a proof-of-concept, my team focuses on a problem of visual navigation in a novel environment by (1) designing a representation of 3D world with semantic meaning, e.g., items in a shelf, road, and (2) developing an algorithm to leverage the representation to navigate into the scene.\n\nIntellectual Merit: We develop a new computer vision theories and algorithms to learn semantics and geometry of surroundings. The key innovation is to leverage multiview images that can provide visually redundant yet geometrically distinctive signals that can supervise each other's views. We have developed various algorithms to understand egocentric scenes in the form of depth, surface normal, and semantics. We used multiple geometric insight to supervise learning the visual representation: epipolar constraint, temporal consistency, and keypoint consistency. With this high-risk-high-payoff project, we have published in top conferences in computer vision including CVPR, ECCV, and ICCV and we have been conducting the follow-up research. For instance, based on the previous work, now we are building a large multiview dataset called HUMBI for human body expressions that can be used to learn view dependent appearance from assorted people. Notable papers include:\n\n+ T. Do, K. Vuong, S. Roumeliotis, H.S. Park \"Surface Normal Estimation of Tilted Images via Spatial Rectifier\", ECCV 2020, Spotlight presentation---We present a spatial rectifier to estimate surface normals of tilted (egocentric) images. Tilted images are of particular interest as more visual data are captured by arbitrarily oriented sensors such as body-/robot-mounted cameras. Existing approaches exhibit bounded performance on predicting surface normals because they were trained using gravity-aligned images. We design a spatial rectifier that is learned to transform the surface normal distribution of a tilted image to the rectified one that matches the gravity-aligned training data distribution. The resulting estimator outperforms the state-of-the-art methods including data augmentation baselines not only on ScanNet and NYUv2 but also on a new dataset called Tilt-RGBD that includes considerable roll and pitch camera motion.\n\n+ J. S. Yoon, T. Shiratori, S.-I. Yu, H. S. Park, \"Self-supervised Adaptation of High-fidelity Face Models for Monocular Performance Tracking\", CVPR 2019 Oral presentation---We propose a self-supervised domain adaptation approach to enable the animation of high-fidelity face models from a commodity (egocentric) camera. Our approach first circumvents the requirement for special input data by training a new network that can directly drive a face model just from a single 2D image. Then, we overcome the domain mismatch between lab and uncontrolled environments by performing self-supervised domain adaptation based on \"consecutive frame texture consistency\" based on the assumption that the appearance of the face is consistent over consecutive frames, avoiding the necessity of modeling the new environment such as lighting or background. Experiments show that we are able to drive a high-fidelity face model to perform complex facial motion from a cellphone camera without requiring any labeled data from the new domain.\n\nBroader Impact: The outcomes of the project are integrated in computer vision courses in the University of Minnesota: CSCI 5561 Introduction to Computer Vision and CSCI 5563 Multiview 3D Computer Vision. We used the datasets and codes generated from this project as course materials. PI has given talks in various settings including conferences, universities and industrial partners for dissemination. PI also disseminated the results in public settings in local communities such as Minnesota State Fair. \n\n\n\n\n\t\t\t\t\tLast Modified: 04/07/2021\n\n\t\t\t\t\tSubmitted by: Hyun Soo Park"
+ }
+}

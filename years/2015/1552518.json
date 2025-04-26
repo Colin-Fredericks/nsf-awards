@@ -1,0 +1,105 @@
+{
+ "awd_id": "1552518",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CCF AF:EAGER:ASSESSING PRACTICALITY OF A NEW FRAMEWORK FOR SOLVING CONIC OPTIMIZATION PROBLEMS BY FIRST-ORDER METHODS",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jack S. Snoeyink",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2018-02-28",
+ "tot_intn_awd_amt": 100000.0,
+ "awd_amount": 100000.0,
+ "awd_min_amd_letter_date": "2015-08-25",
+ "awd_max_amd_letter_date": "2015-08-25",
+ "awd_abstract_narration": "A key component of Analytics, the scientific process of transforming data into insight for better decisions, is Optimization, which produces the best solution satisfying given constraints -- the solution that maximizes a chosen \"objective\" function.  \r\n\r\nThe objective and constraints together form \"an optimization model.\" The difficulty of solving a model depends on the types of objective and constraint functions, and on the number of variables in the functions.  Since huge, complicated, real-world models can have many variables, the amount of computer memory needed becomes the bottleneck for solutions by classical algorithms.  Modern algorithms avoid this bottleneck by  calculating fewer structures that have to be stored in memory. For example, some modern algorithms evaluate only first derivatives of functions, whereas older algorithms also stored second derivatives in memory.  These modern algorithms are known as \"first-order methods\" (meaning, roughly, \"algorithms using only first derivatives\").  \r\n\r\nFirst-order methods can handle complicated objective functions, but it has been unknown how to handle complicated constraint functions.  The focus of the project is a new framework that allows many optimization models with complicated constraints to be easily transformed into equivalent models with only simple constraints, so that existing first-order methods can be applied. The goal of the project is to thoroughly test whether, using the new framework, important huge models that were previously unsolvable can now be solved routinely.  If so, entities relying on Analytics could benefit, in that their huge models involving complicated constraints might actually become solvable by existing first-order methods. \r\n\r\nThe new framework transforms any convex, conic optimization problem into an equivalent optimization problem whose only constraints are linear equations, one more equation than for the original problem.  Virtually any subgradient method can be applied to the equivalent problem. Moreover, for a wide class of conic optimization problems (hyperbolic programs), the objective function for the equivalent problem can be \"smoothed,\" thus allowing for application of accelerated gradient methods.  The goal of the project is to thoroughly test practicality of the new approach in applying first-order methods to solve large, general, conic optimization problems.\r\n \r\nPhD students will test this framework as part of their careers formation, in consultation with optimization experts from both academia and industry.  The result should be better analytics in business, government, healthcare and education for making decisions based on data.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "James",
+   "pi_last_name": "Renegar",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "James M Renegar",
+   "pi_email_addr": "renegar@orie.cornell.edu",
+   "nsf_id": "000362038",
+   "pi_start_date": "2015-08-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Cornell University",
+  "inst_street_address": "341 PINE TREE RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "ITHACA",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6072555014",
+  "inst_zip_code": "148502820",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "NY19",
+  "org_lgl_bus_name": "CORNELL UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G56PUALJ3KT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Cornell University",
+  "perf_str_addr": "136 Hoy Rd",
+  "perf_city_name": "Ithaca",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "148533801",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "NY19",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7933",
+   "pgm_ref_txt": "NUM, SYMBOL, & ALGEBRA COMPUT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><br />The setting of interest for the project was general convex optimization, where the goal is to compute a point which minimizes a given convex function (the \"objective function\") subject to the point lying within a given closed, convex set (the \"feasible region\"). The foremost algorithms designed for this high level of generality are subgradient methods, first introduced in the early 1960's in the Soviet Union (and unknown to researchers in the West until years later). Since then, subgradient methods have been refined for a wide variety of application areas, especially when the optimization problem to be solved has objective function which is not differentiable -- instead, it suffices for the function to be Lipschitz continuous.</p>\n<p><br />While subgradient methods are, in theory, applicable to solving convex optimization problems generally, at issue is that they typically rely on a computational operation that prohibits their use in practice when solving large-scale problems, unless the feasible region has simple structure. Let us briefly explain. Analogous to steepest descent, a subgradient method is an iterative algorithm, which at each iteration makes a step from the current iterate to the next iterate, where the step is a negative multiple of a subgradient at the current iterate (if the function is differentiable at the current iterate, this is precisely a steepest-descent step). While making a subgradient step is an operation that usually scales to problems with a vast number of variables, a subsequent operation is the issue: Specifically, if the next iterate happens to lie outside the feasible region, then the iterate is orthogonally projected onto the feasible region in order that the following subgradient step is taken from a feasible point. Unless the feasible region has simple structure, however, orthogonally projecting onto the feasible region is itself a costly optimization problem when there are many variables. Thus, traditional subgradient methods are less useful than their generality might suggest.</p>\n<p><br />The project focused on fully developing an idea of the PI, whereby a general convex optimization problem is transformed to an equivalent optimization problem with only one additional variable, and for which the feasible region is the solution set to an affine space (translate of a subspace). Here, orthogonally projecting onto the feasible region is readily accomplished by solving a system of linear equations. The PI had previously developed the idea in a few restricted settings, but the project funding allowed for the theory to be developed with complete generality, resulting in papers by the PI and a PhD student (Benjamin Grimmer) which are appearing in premiere journals and which also can be found on arXiv. (Additionally, an informative open-source Julia notebook by Grimmer can be found at GitHub (search for \"Radial-Subgradient-Method\").)</p>\n<p>For a broad range of important optimization problems, the transformation to an equivalent problem is computationally tractable, leading to the possibility of solving an optimization problem by applying a subgradient method to the equivalent problem. However, while difficult orthogonal projections are entirely avoided, it remained the fact that existing subgradient methods are often slow algorithms, requiring many iterations to obtain a good approximation to an optimal solution. A second focus of the project has thus been to develop new subgradient methods which are far superior in performance when applied to minimizing convex functions possessing special, but still quite general, structure.&nbsp;</p>\n<p><br />A new subgradient method was developed which is essentially a parallel algorithm but also can be run sequentially. The new method has provably superior performance when the function to be minimized has particular, but still quite general, structure. For example, when the new method is applied to minimize a convex, piecewise-linear function, the method essentially attains linear convergence, the first subgradient method to do so without having to rely on any information about the function that usually would be unavailable in practice.</p>\n<p><br />Towards the end of the project, it was realized that the key ideas behind the new subgradient method can be extended to many first-order methods, including accelerated gradient methods. For a first-order method, the resulting parallel algorithm attains provably faster convergence rates for important, and quite general, classes of functions. The consequent paper can be found on arXiv, and is under review for journal publication.</p>\n<p><br />Project funding has ended, but the research continues to expand.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/04/2018<br>\n\t\t\t\t\tModified by: James&nbsp;M&nbsp;Renegar</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nThe setting of interest for the project was general convex optimization, where the goal is to compute a point which minimizes a given convex function (the \"objective function\") subject to the point lying within a given closed, convex set (the \"feasible region\"). The foremost algorithms designed for this high level of generality are subgradient methods, first introduced in the early 1960's in the Soviet Union (and unknown to researchers in the West until years later). Since then, subgradient methods have been refined for a wide variety of application areas, especially when the optimization problem to be solved has objective function which is not differentiable -- instead, it suffices for the function to be Lipschitz continuous.\n\n\nWhile subgradient methods are, in theory, applicable to solving convex optimization problems generally, at issue is that they typically rely on a computational operation that prohibits their use in practice when solving large-scale problems, unless the feasible region has simple structure. Let us briefly explain. Analogous to steepest descent, a subgradient method is an iterative algorithm, which at each iteration makes a step from the current iterate to the next iterate, where the step is a negative multiple of a subgradient at the current iterate (if the function is differentiable at the current iterate, this is precisely a steepest-descent step). While making a subgradient step is an operation that usually scales to problems with a vast number of variables, a subsequent operation is the issue: Specifically, if the next iterate happens to lie outside the feasible region, then the iterate is orthogonally projected onto the feasible region in order that the following subgradient step is taken from a feasible point. Unless the feasible region has simple structure, however, orthogonally projecting onto the feasible region is itself a costly optimization problem when there are many variables. Thus, traditional subgradient methods are less useful than their generality might suggest.\n\n\nThe project focused on fully developing an idea of the PI, whereby a general convex optimization problem is transformed to an equivalent optimization problem with only one additional variable, and for which the feasible region is the solution set to an affine space (translate of a subspace). Here, orthogonally projecting onto the feasible region is readily accomplished by solving a system of linear equations. The PI had previously developed the idea in a few restricted settings, but the project funding allowed for the theory to be developed with complete generality, resulting in papers by the PI and a PhD student (Benjamin Grimmer) which are appearing in premiere journals and which also can be found on arXiv. (Additionally, an informative open-source Julia notebook by Grimmer can be found at GitHub (search for \"Radial-Subgradient-Method\").)\n\nFor a broad range of important optimization problems, the transformation to an equivalent problem is computationally tractable, leading to the possibility of solving an optimization problem by applying a subgradient method to the equivalent problem. However, while difficult orthogonal projections are entirely avoided, it remained the fact that existing subgradient methods are often slow algorithms, requiring many iterations to obtain a good approximation to an optimal solution. A second focus of the project has thus been to develop new subgradient methods which are far superior in performance when applied to minimizing convex functions possessing special, but still quite general, structure. \n\n\nA new subgradient method was developed which is essentially a parallel algorithm but also can be run sequentially. The new method has provably superior performance when the function to be minimized has particular, but still quite general, structure. For example, when the new method is applied to minimize a convex, piecewise-linear function, the method essentially attains linear convergence, the first subgradient method to do so without having to rely on any information about the function that usually would be unavailable in practice.\n\n\nTowards the end of the project, it was realized that the key ideas behind the new subgradient method can be extended to many first-order methods, including accelerated gradient methods. For a first-order method, the resulting parallel algorithm attains provably faster convergence rates for important, and quite general, classes of functions. The consequent paper can be found on arXiv, and is under review for journal publication.\n\n\nProject funding has ended, but the research continues to expand.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 05/04/2018\n\n\t\t\t\t\tSubmitted by: James M Renegar"
+ }
+}

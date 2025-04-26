@@ -1,0 +1,109 @@
+{
+ "awd_id": "1422869",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CHS: Small: Fast simulation of geometrically complex multibody systems in contact and self-contact",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Ephraim Glinert",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 484210.0,
+ "awd_amount": 484210.0,
+ "awd_min_amd_letter_date": "2014-06-25",
+ "awd_max_amd_letter_date": "2014-06-25",
+ "awd_abstract_narration": "The ability to simulate complex machinery in contact is broadly applicable to engineering practice.  It can be used for virtual training, say in the operation of heavy machinery.  Perhaps most importantly, it can be used to assemble and test complex mechanical structures in virtual reality (using a human-computer interface that includes haptic feedback).  Such virtual prototyping, as it is commonly called, greatly shortens design cycles, decreases errors, improves product safety and saves millions of dollars in R&D costs.  Applications can be found anywhere a complex structure must be designed and manufactured out of many component parts: airplanes, cars, trains, spaceships, power plants, buildings, tools, heavy equipment, etc.  In this project the PI will develop computationally efficient collision detection and contact resolution methods that can accommodate complex systems consisting of many objects that are connected by joints and undergoing contact and self-contact.  His goal is to devise algorithms that are sufficiently fast to accommodate high update rates (1,000 simulation steps per second for haptics, or more), and that scale to complex real-world mechanisms typically represented by millions of triangles, such as an internal combustion engine or an entire car engine compartment, an airplane landing gear or airplane doors, or excavator machines.  Furthermore, whereas previous fast successful industrial penalty-based methods have typically been limited to pairs of objects in contact, in this research the PI's objective is to deal with more complex and realistic situations including rigid objects, joints, friction and self-contact.\r\n\r\nFast simulation of multi-body systems in contact is challenging due to the severe computational and stability requirements imposed by complex geometry. Such simulations frequently involve distributed contact, that is to say contact involving many collision sites of varying surface areas and normal orientations that change rapidly over time.  Because it is challenging for constraint-based methods to resolve such contact stably at high update rates, the Principal Investigator will exploit industry-proven penalty methods between points and implicit functions (distance fields or voxmaps), and he will extend the approach, which has to date been limited to pairs of objects in contact, to accommodate N >= 2 objects in arbitrary contact, as well as objects connected with joints and undergoing active control.  The technical challenges include how to stably resolve and time-step distributed contact between N >= 2 objects, how to stably simulate and render 6-DOF distributed contact in the presence of constraints (joints), and how to handle self-contact and incorporate friction, all the while maintaining high update rates (or gracefully degrading them in case of extreme contact).  Because the Principal Investigator's preliminary experience suggests that the discrete nature of current algorithms is an important limitation in practice, he will also investigate continuous collision detection between points and distance fields.  Project outcomes will be transitioned to engineering practice via the PI's ongoing collaborations with a number of industrical leaders in high-tech virtual prototyping, and will advance the state of the art in computer graphics, haptics, robotics and virtual reality.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jernej",
+   "pi_last_name": "Barbic",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jernej Barbic",
+   "pi_email_addr": "jnb@usc.edu",
+   "nsf_id": "000565189",
+   "pi_start_date": "2014-06-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "3720 S. Flower St.",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900890001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "CA37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736700",
+   "pgm_ele_name": "HCC-Human-Centered Computing"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7367",
+   "pgm_ref_txt": "Cyber-Human Systems"
+  },
+  {
+   "pgm_ref_code": "7453",
+   "pgm_ref_txt": "GRAPHICS & VISUALIZATION"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 484210.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of this grant was to improve the algorithms for fast collision detection and contact of objects with complex geometry, for applications that require high update rates such as haptics and virtual reality. We investigated efficient pre-processing of models with arbitrary (non-manifold) geometry, continuous collision detection between points and signed distance fields, friction, articulated rigid objects, contact stability and efficient rendering (shadows and ray-tracing). Our work is applicable to virtual assembly of complex engineering structures such as cars and airplanes and can decrease the design and maintenance costs of complex structures.</p>\n<p>The grant produced a total of 17 publications, of which 8 were ACM SIGGRAPH papers and 3 were IEEE Transactions on Haptics papers. It also greatly improved a large free open source library for solid deformable object simulation called Vega FEM (http://run.usc.edu/vega). This library has been actively used (as opposed to merely cited) in over 50 research publications, as well as by film companies such as Weta Digital and Ziva Dynamics to make VFX effects for film. The grant trained 6 PhD students. A part of the technology produced by this grant has been commercialized by a startup company Ziva Dynamics. The PI greatly improved 2 computer graphics courses at USC, and taught them repeatedly during the award. We now list some concrete projects funded by this grant.</p>\n<div class=\"page\" title=\"Page 2\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 2\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>In our 2016 IEEE Transactions on Haptics publication, we greatly improved hard-real-time contact handling under complex collisions, by observing that contact stiffness can be spatially scaled to counter the effects of accumulated contact sampling. Compared to the standard Voxmap-Pointshell method developed at Boeing, our method handles contact much more robustly. It guarantees that the penetrations remain below a fixed given threshold, even for realistic, complex collision cases. This makes the method much more useful for virtual assembly of real structures.&nbsp;</p>\n</div>\n</div>\n</div>\n</div>\n<p>In our 2017 IEEE Transactions on Haptics publication, we designed an algorithm for fast continuous collision detection between&nbsp;points and signed distance fields, and demonstrated how to robustly use it for 6-DoF haptic rendering of contact between objects with complex geometry. Continuous collision detection is often needed in computer animation, haptics and virtual reality applications, but has previously only been investigated for polygon (triangular) geometry. We demonstrated how to robustly and continuously detect intersections between points and level sets of the signed distance field. We also gave a method to resolve continuous collisions between point clouds organized into a tree hierarchy and a signed distance field, enabling rendering of contact between rigid objects with complex geometry.&nbsp;</p>\n<div class=\"page\" title=\"Page 1\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>In our 2018 IEEE Transactions on Haptics&nbsp;publication, we gave a stable and fast method to simulate friction between rigid objects with complex geometry, in a manner suitable for 6-DoF haptic rendering applications. Simulating such frictional contact is very important in haptics. For example, friction determines whether components can be navigated past narrow clearances in virtual assembly. We gave a 6-DoF Coulomb friction haptic rendering algorithm for distributed contact between rigid objects with complex geometry.&nbsp;&nbsp;We demonstrated our algorithm on several challenging 6-DoF haptic rendering examples.&nbsp;</p>\n<p>In summary, this project demonstrated stable 6-DoF haptic rendering of complex geometry, including frictional contact.&nbsp;We think we made major progress over the course of this 5-year project. When we started the project, it took hours to pre-process the models. The haptic feedback was not stable, friction was not modeled, and more importantly, the simulations were not robust: it was easily possible to penetrate through thin features. We are now able to efficiently compute signed distance fields against arbitrary geometry (non-manifold, with cracks, duplications). We have built detailed signed distance fields for real-world geometry such as the entire car engine compartment, corresponding to a resolution of 1 mm, or the Boeing 777 landing gear with 1.7 million triangles (resolution of 2.8 mm). We feel that we reached the point where we consider the 6-DoF haptic rendering problem largely solved for rigid objects. For two rigid objects with arbitrary geometry, in a manner of minutes, we can automatically build a stable 6-DoF haptic simulation, whereby the user can arbitrarily navigate one object against the other object with the haptic device, while feeling very precise and stable 6-DoF haptic contact feedback. Our forces and torques are as good as our device, the Haption 6-DoF Virtuose can render them; and this already is arguably the most suitable haptic device to render contact between two hard mechanical objects in the world.&nbsp;</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/13/2019<br>\n\t\t\t\t\tModified by: Jernej&nbsp;Barbic</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572947858501_doorfrictionless--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572947858501_doorfrictionless--rgov-800width.jpg\" title=\"Complex geometry in contact\"><img src=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572947858501_doorfrictionless--rgov-66x44.jpg\" alt=\"Complex geometry in contact\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Manipulating the car door window motor into its place in the car door.</div>\n<div class=\"imageCredit\">Danyong Zhao, Yijing Li and Jernej Barbic</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jernej&nbsp;Barbic</div>\n<div class=\"imageTitle\">Complex geometry in contact</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572947998503_carenginemodel--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572947998503_carenginemodel--rgov-800width.jpg\" title=\"Signed distance field and pointshell\"><img src=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572947998503_carenginemodel--rgov-66x44.jpg\" alt=\"Signed distance field and pointshell\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">This image demonstrates our collision detection datastructures (insertion of car starter motor into the car door).</div>\n<div class=\"imageCredit\">Danyong Zhao, Yijing Li and Jernej Barbic</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jernej&nbsp;Barbic</div>\n<div class=\"imageTitle\">Signed distance field and pointshell</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572948162565_alpha--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572948162565_alpha--rgov-800width.jpg\" title=\"Robust alpha puzzle with stiffness scaling\"><img src=\"/por/images/Reports/POR/2019/1422869/1422869_10313160_1572948162565_alpha--rgov-66x44.jpg\" alt=\"Robust alpha puzzle with stiffness scaling\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">We made 6-DoF haptic rendering robust, so that it is impossible to \"cheat\" demos such as this \"alpha puzzle\". The image also shows our main idea, namely re-scaling the individual contact strengths based on their distribution on the Gaussian sphere.</div>\n<div class=\"imageCredit\">Hongyi Xu and Jernej Barbic</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jernej&nbsp;Barbic</div>\n<div class=\"imageTitle\">Robust alpha puzzle with stiffness scaling</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this grant was to improve the algorithms for fast collision detection and contact of objects with complex geometry, for applications that require high update rates such as haptics and virtual reality. We investigated efficient pre-processing of models with arbitrary (non-manifold) geometry, continuous collision detection between points and signed distance fields, friction, articulated rigid objects, contact stability and efficient rendering (shadows and ray-tracing). Our work is applicable to virtual assembly of complex engineering structures such as cars and airplanes and can decrease the design and maintenance costs of complex structures.\n\nThe grant produced a total of 17 publications, of which 8 were ACM SIGGRAPH papers and 3 were IEEE Transactions on Haptics papers. It also greatly improved a large free open source library for solid deformable object simulation called Vega FEM (http://run.usc.edu/vega). This library has been actively used (as opposed to merely cited) in over 50 research publications, as well as by film companies such as Weta Digital and Ziva Dynamics to make VFX effects for film. The grant trained 6 PhD students. A part of the technology produced by this grant has been commercialized by a startup company Ziva Dynamics. The PI greatly improved 2 computer graphics courses at USC, and taught them repeatedly during the award. We now list some concrete projects funded by this grant.\n\n\n\n\n\n\n\n\n\nIn our 2016 IEEE Transactions on Haptics publication, we greatly improved hard-real-time contact handling under complex collisions, by observing that contact stiffness can be spatially scaled to counter the effects of accumulated contact sampling. Compared to the standard Voxmap-Pointshell method developed at Boeing, our method handles contact much more robustly. It guarantees that the penetrations remain below a fixed given threshold, even for realistic, complex collision cases. This makes the method much more useful for virtual assembly of real structures. \n\n\n\n\n\nIn our 2017 IEEE Transactions on Haptics publication, we designed an algorithm for fast continuous collision detection between points and signed distance fields, and demonstrated how to robustly use it for 6-DoF haptic rendering of contact between objects with complex geometry. Continuous collision detection is often needed in computer animation, haptics and virtual reality applications, but has previously only been investigated for polygon (triangular) geometry. We demonstrated how to robustly and continuously detect intersections between points and level sets of the signed distance field. We also gave a method to resolve continuous collisions between point clouds organized into a tree hierarchy and a signed distance field, enabling rendering of contact between rigid objects with complex geometry. \n\n\n\n\n\nIn our 2018 IEEE Transactions on Haptics publication, we gave a stable and fast method to simulate friction between rigid objects with complex geometry, in a manner suitable for 6-DoF haptic rendering applications. Simulating such frictional contact is very important in haptics. For example, friction determines whether components can be navigated past narrow clearances in virtual assembly. We gave a 6-DoF Coulomb friction haptic rendering algorithm for distributed contact between rigid objects with complex geometry.  We demonstrated our algorithm on several challenging 6-DoF haptic rendering examples. \n\nIn summary, this project demonstrated stable 6-DoF haptic rendering of complex geometry, including frictional contact. We think we made major progress over the course of this 5-year project. When we started the project, it took hours to pre-process the models. The haptic feedback was not stable, friction was not modeled, and more importantly, the simulations were not robust: it was easily possible to penetrate through thin features. We are now able to efficiently compute signed distance fields against arbitrary geometry (non-manifold, with cracks, duplications). We have built detailed signed distance fields for real-world geometry such as the entire car engine compartment, corresponding to a resolution of 1 mm, or the Boeing 777 landing gear with 1.7 million triangles (resolution of 2.8 mm). We feel that we reached the point where we consider the 6-DoF haptic rendering problem largely solved for rigid objects. For two rigid objects with arbitrary geometry, in a manner of minutes, we can automatically build a stable 6-DoF haptic simulation, whereby the user can arbitrarily navigate one object against the other object with the haptic device, while feeling very precise and stable 6-DoF haptic contact feedback. Our forces and torques are as good as our device, the Haption 6-DoF Virtuose can render them; and this already is arguably the most suitable haptic device to render contact between two hard mechanical objects in the world. \n\n\n\n\n\n\n\n\n\n \n\n\t\t\t\t\tLast Modified: 11/13/2019\n\n\t\t\t\t\tSubmitted by: Jernej Barbic"
+ }
+}

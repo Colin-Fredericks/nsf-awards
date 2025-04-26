@@ -1,0 +1,109 @@
+{
+ "awd_id": "1440571",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research:  SI2-SSE:  Pythia Network Diagnosis Infrastructure (PuNDIT)",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rajiv Ramnath",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 231187.0,
+ "awd_amount": 231187.0,
+ "awd_min_amd_letter_date": "2014-08-14",
+ "awd_max_amd_letter_date": "2014-08-14",
+ "awd_abstract_narration": "In today's world of distributed collaborations of scientists, there are many challenges to providing effective infrastructures to couple these groups of scientists with their shared computing and storage resources. The Pythia Network Diagnostic InfrasTructure (PuNDIT) project will integrate and scale research tools and create robust code suitable for operational needs to address the difficult challenge of automating the detection and location of network problems. \r\n\r\nPuNDIT will build upon the de-facto standard perfSONAR network measurement infrastructure to gather and analyze complex real-world network topologies coupled with their corresponding network metrics to identify possible signatures of network problems from a set of symptoms. For example if the symptoms suggest a router along the path has buffers configured too small for high performance, Pythia will return a diagnosis of \"Small Buffer\". If symptoms indicate non-congestive packet-loss for a particular network segment, the user can be notified of a possible \"Bad Network Segment\". A primary goal for PuNDIT is to convert complex network metrics into easily understood diagnoses in an automated way.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Shawn",
+   "pi_last_name": "McKee",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Shawn McKee",
+   "pi_email_addr": "smckee@umich.edu",
+   "nsf_id": "000320041",
+   "pi_start_date": "2014-08-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Regents of the University of Michigan - Ann Arbor",
+  "inst_street_address": "1109 GEDDES AVE STE 3300",
+  "inst_street_address_2": "",
+  "inst_city_name": "ANN ARBOR",
+  "inst_state_code": "MI",
+  "inst_state_name": "Michigan",
+  "inst_phone_num": "7347636438",
+  "inst_zip_code": "481091015",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "MI06",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF MICHIGAN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GNJ7BBP73WE9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Michigan Ann Arbor",
+  "perf_str_addr": "450 Church Street",
+  "perf_city_name": "Ann Arbor",
+  "perf_st_code": "MI",
+  "perf_st_name": "Michigan",
+  "perf_zip_code": "481091040",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "MI06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  },
+  {
+   "pgm_ele_code": "808000",
+   "pgm_ele_name": "Campus Cyberinfrastructure"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "8005",
+   "pgm_ref_txt": "Scientific Software Elements"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 231187.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Reliable, high-performance networks are critical for many scientific fields, especially where scientists and resources are geographically distributed.&nbsp; When there are problems in the network, scientists work can slow or even halt until the location of the problem is found and the issue fixed.&nbsp;&nbsp; Unfortunately, finding the problem and its location can be extremely difficult because different parts of the network are owned and operated by different organizations.&nbsp; Problems can (and have) persisted for months or even years before being identified and fixed.</p>\n<p>&nbsp;</p>\n<p>The PuNDIT project was undertaken to help significantly reduce the time and effort it takes to locate and fix problems in the network.&nbsp; The project was built upon the de-facto standard perfSONAR network measurement infrastructure, which is deployed in Open Science Grid(OSG) and the Worldwide LHC Computing Grid(WLCG).&nbsp; The project's major goal has been to develop a system that can gather and analyze complex real-world network topologies coupled with their corresponding network metrics (delay, loss rate, etc) so that it can identify possible signatures of network problems from a set of symptoms and better localize where those problems are in the network.&nbsp; This type of information is critical to achieving quick problem resolution.</p>\n<p>&nbsp;</p>\n<p>The PuNDIT project, started in September 2014, has produced a code-base for both pundit-agents, which run on perfSONAR toolkit instances and a central PuNDIT server, which gathers, analyzes and correlates data from the agents to find and localize network problems.&nbsp;&nbsp; See the GitHub repository at&nbsp; <a href=\"https://github.com/pundit-project/pundit\">https://github.com/pundit-project/pundit</a>&nbsp; In addition a live demo of the existing system is accessible at <a href=\"http://pundit.aglt2.org:8080/\">http://pundit.aglt2.org:8080</a>&nbsp; Please see figures 1-5, which show various aspects of the web graphical user interface we developed for PuNDIT.</p>\n<p>In terms of Intellectual Merit, the project has led to some new research in the area of network monitoring and problem detection. In particular, we have developed a novel anomaly detection method that is based on timeseries analysis using contextual information (\"Detecting network performance anomalies with contextual anomaly detection\" by Dimopoulos et al., IEEE Measurement and Networking, 2017). This paper received the \"Best research paper by young authors\" award at the conference it was published.</p>\n<p>A second research contribution that resulted from the PuNDIT project is a machine learning method for the automated identification of important traffic flow clusters in a network. This information is useful when an operator tries to identify the traffic flows that will be affected by a detected performance problem. This work (\"Hierarchical IP flow clustering\" by Shadi et al., ACM SIGCOMM workshop on Big Data and Machine Learning, 2017) received the Best Paper award at the conference it was published.</p>\n<p>In terms of Broader Impact there are a few areas to note.&nbsp;&nbsp; We have successfully engaged with 10 different Universities and one National Lab to create a testbed for PuNDIT that has been very important in raising awareness of the value and usefulness of the perfSONAR data and the PuNDIT methodology of identifying and correlating problems to localize and fix them.&nbsp; As described in the proposal for this project, our goal has been to develop a system that can analyze the measurements that are collected by PerfSONAR in almost real-time, and detect, localize and diagnose various network performance problems. This goal has been largely, but not entirely, accomplished.&nbsp;&nbsp; The code and capabilities we have developed can serve as a basis for others to create a production service.&nbsp; In addition the project has produced 4 peer reviewed papers and trained 2 graduate and 1 undergraduate student.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/29/2017<br>\n\t\t\t\t\tModified by: Shawn&nbsp;Mckee</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005817089_Pundit-GUI-homepage--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005817089_Pundit-GUI-homepage--rgov-800width.jpg\" title=\"PuNDIT-Mainpage\"><img src=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005817089_Pundit-GUI-homepage--rgov-66x44.jpg\" alt=\"PuNDIT-Mainpage\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The PuNDIT graphical user interface main page</div>\n<div class=\"imageCredit\">Shawn McKee</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Shawn&nbsp;Mckee</div>\n<div class=\"imageTitle\">PuNDIT-Mainpage</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005883726_Pundit-GUI-site-problems1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005883726_Pundit-GUI-site-problems1--rgov-800width.jpg\" title=\"PuNDIT-Siteproblems-1\"><img src=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005883726_Pundit-GUI-site-problems1--rgov-66x44.jpg\" alt=\"PuNDIT-Siteproblems-1\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Example of the PuNDIT GUI site problems webpage (1 of 2)</div>\n<div class=\"imageCredit\">Shawn McKee</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Shawn&nbsp;Mckee</div>\n<div class=\"imageTitle\">PuNDIT-Siteproblems-1</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005964301_Pundit-GUI-site-problems2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005964301_Pundit-GUI-site-problems2--rgov-800width.jpg\" title=\"PuNDIT-Siteproblems-2\"><img src=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512005964301_Pundit-GUI-site-problems2--rgov-66x44.jpg\" alt=\"PuNDIT-Siteproblems-2\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Example PuNDIT GUI site problems web page (2 of 2)</div>\n<div class=\"imageCredit\">Shawn McKee</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Shawn&nbsp;Mckee</div>\n<div class=\"imageTitle\">PuNDIT-Siteproblems-2</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512006088157_Pundit-GUI-timeseries--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512006088157_Pundit-GUI-timeseries--rgov-800width.jpg\" title=\"PuNDIT-Timeseries\"><img src=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512006088157_Pundit-GUI-timeseries--rgov-66x44.jpg\" alt=\"PuNDIT-Timeseries\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Example  PuNDIT GUI time series web page</div>\n<div class=\"imageCredit\">Shawn McKee</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Shawn&nbsp;Mckee</div>\n<div class=\"imageTitle\">PuNDIT-Timeseries</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512006175130_Pundit-GUI-traceroute--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512006175130_Pundit-GUI-traceroute--rgov-800width.jpg\" title=\"PuNDIT-Traceroute\"><img src=\"/por/images/Reports/POR/2017/1440571/1440571_10332351_1512006175130_Pundit-GUI-traceroute--rgov-66x44.jpg\" alt=\"PuNDIT-Traceroute\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Example showing PuNDIT GUI traceroute web page</div>\n<div class=\"imageCredit\">Shawn McKee</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Shawn&nbsp;Mckee</div>\n<div class=\"imageTitle\">PuNDIT-Traceroute</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nReliable, high-performance networks are critical for many scientific fields, especially where scientists and resources are geographically distributed.  When there are problems in the network, scientists work can slow or even halt until the location of the problem is found and the issue fixed.   Unfortunately, finding the problem and its location can be extremely difficult because different parts of the network are owned and operated by different organizations.  Problems can (and have) persisted for months or even years before being identified and fixed.\n\n \n\nThe PuNDIT project was undertaken to help significantly reduce the time and effort it takes to locate and fix problems in the network.  The project was built upon the de-facto standard perfSONAR network measurement infrastructure, which is deployed in Open Science Grid(OSG) and the Worldwide LHC Computing Grid(WLCG).  The project's major goal has been to develop a system that can gather and analyze complex real-world network topologies coupled with their corresponding network metrics (delay, loss rate, etc) so that it can identify possible signatures of network problems from a set of symptoms and better localize where those problems are in the network.  This type of information is critical to achieving quick problem resolution.\n\n \n\nThe PuNDIT project, started in September 2014, has produced a code-base for both pundit-agents, which run on perfSONAR toolkit instances and a central PuNDIT server, which gathers, analyzes and correlates data from the agents to find and localize network problems.   See the GitHub repository at  https://github.com/pundit-project/pundit  In addition a live demo of the existing system is accessible at http://pundit.aglt2.org:8080  Please see figures 1-5, which show various aspects of the web graphical user interface we developed for PuNDIT.\n\nIn terms of Intellectual Merit, the project has led to some new research in the area of network monitoring and problem detection. In particular, we have developed a novel anomaly detection method that is based on timeseries analysis using contextual information (\"Detecting network performance anomalies with contextual anomaly detection\" by Dimopoulos et al., IEEE Measurement and Networking, 2017). This paper received the \"Best research paper by young authors\" award at the conference it was published.\n\nA second research contribution that resulted from the PuNDIT project is a machine learning method for the automated identification of important traffic flow clusters in a network. This information is useful when an operator tries to identify the traffic flows that will be affected by a detected performance problem. This work (\"Hierarchical IP flow clustering\" by Shadi et al., ACM SIGCOMM workshop on Big Data and Machine Learning, 2017) received the Best Paper award at the conference it was published.\n\nIn terms of Broader Impact there are a few areas to note.   We have successfully engaged with 10 different Universities and one National Lab to create a testbed for PuNDIT that has been very important in raising awareness of the value and usefulness of the perfSONAR data and the PuNDIT methodology of identifying and correlating problems to localize and fix them.  As described in the proposal for this project, our goal has been to develop a system that can analyze the measurements that are collected by PerfSONAR in almost real-time, and detect, localize and diagnose various network performance problems. This goal has been largely, but not entirely, accomplished.   The code and capabilities we have developed can serve as a basis for others to create a production service.  In addition the project has produced 4 peer reviewed papers and trained 2 graduate and 1 undergraduate student.\n\n \n\n\t\t\t\t\tLast Modified: 11/29/2017\n\n\t\t\t\t\tSubmitted by: Shawn Mckee"
+ }
+}

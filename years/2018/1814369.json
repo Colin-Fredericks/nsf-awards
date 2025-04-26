@@ -1,0 +1,105 @@
+{
+ "awd_id": "1814369",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NSF-BSF:  SHF: Small: Certifiable Verification of Large Neural Networks",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922585",
+ "po_email": "pprabhak@nsf.gov",
+ "po_sign_block_name": "Pavithra Prabhakar",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2022-09-30",
+ "tot_intn_awd_amt": 480924.0,
+ "awd_amount": 480924.0,
+ "awd_min_amd_letter_date": "2018-05-23",
+ "awd_max_amd_letter_date": "2018-05-23",
+ "awd_abstract_narration": "Software systems play important roles in almost every area of modern life.  In order to reduce the difficulty of developing new software, research in the field of artificial intelligence (AI) has been promoting a new model of programming: instead of having a human engineer design and code algorithms, a set of training examples are used together with machine-learning algorithms to automatically extrapolate software implementations. In classical programing, because such code is written by humans, we can persuade others that it is correct. In machine-learned systems, however, the program amounts to a highly complex mathematical formula for transforming inputs into outputs. The key difficulty, however, is that it is not possible currently to reason about correctness in such systems.\r\n\r\nThis project addresses this issue by developing an algorithm, called Reluplex, capable of proving properties of deep neural networks (DNNs) or providing counter-examples if the properties fail to hold.  The project has three main objectives. First, the investigators develop algorithmic techniques to greatly reduce the number of states that need to be explored by a verification tool.  Second, they develop a strategy for producing checkable verification proofs.  Checkable correctness proofs make it unnecessary to rely on correctness of the verification tool; one can instead rely only on the correctness of a small trusted proof-checker.  Finally, the investigators implement this approach in an open-source tool and evaluate it on real-world industrial DNNs. Given that AI components are becoming ubiquitous in safety-critical systems, such as autonomous vehicles, this research will increase trust in these systems.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Clark",
+   "pi_last_name": "Barrett",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Clark Barrett",
+   "pi_email_addr": "barrett@cs.stanford.edu",
+   "nsf_id": "000423674",
+   "pi_start_date": "2018-05-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "353 Serra Mall, Gates Bldg",
+  "perf_city_name": "Palo Alto",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943059025",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 480924.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><dd>\n<div class=\"tinyMCEContent\">\n<p>&nbsp;</p>\n<p>Manually crafting complex software is a difficult and error-prone task. To&nbsp;mitigate this difficulty, engineers have begun using machine learning&nbsp;techniques to automatically train deep neural networks, which have been shown&nbsp;to excel at image recognition, speech recognition, game playing, and many other&nbsp;tasks.&nbsp; Recently there is even a trend of incorporating them in safety-critical&nbsp;systems, e.g., as controllers in autonomous vehicles. The excellent performance&nbsp;of neural networks, combined with the relative ease of their creation (the&nbsp;engineers need only provide examples of how the desired network should behave&nbsp;to the training algorithm) have made neural networks widespread ? and this trend&nbsp;is likely to continue and intensify in the foreseeable future.</p>\n<p>Deep neural networks offer many advantages, but also pose a significant&nbsp;challenges in terms of correctness and reliability. Neural networks are&nbsp;opaque, in the sense that they lack a logical structure that humans can&nbsp;comprehend. Consequently, industry best practices such as code reviews and&nbsp;refactoring are inapplicable, and it is highly difficult for engineers to&nbsp;reason about the behavior of neural networks and guarantee their&nbsp;correctness. The state of the art in automatic verification has not bridged&nbsp;this gap, with modern tools failing to scale beyond medium-sized neural&nbsp;networks ? again, because neural networks lack the logical structure for which&nbsp;existing verification tools were designed. This situation can have dire&nbsp;consequences: for example, it has been shown that many neural networks can&nbsp;be \"fooled\" into misclassifying their inputs by slight perturbations, and such&nbsp;attacks have already been carried out in the physical world. If such errors&nbsp;were to be made by, e.g., a neural network operating in an autonomous car, the&nbsp;results could be severe. The lack of ability to reason about neural networks is&nbsp;thus a major hindrance to their real-world applicability.</p>\n<p>During the three years of the project we made significant progress towards our&nbsp;long-term research goal of improving the reliability and robustness of deep&nbsp;neural networks.&nbsp; Specifically, the collaboration between the HUJI and Stanford&nbsp;research groups has led to promising results on (i) developing verification&nbsp;techniques that leverage the special structure of DNNs to improve verification&nbsp;scalability (ii) providing correctness guarantees for verified DNNs,&nbsp;alleviating the need to blindly trust the correctness of the verifier; and&nbsp;(iii) creating an open-source, easily accessible verification tool that&nbsp;non-experts will be able to apply to real-world systems.&nbsp; We briefly discuss&nbsp;each of these below.</p>\n<p>Efficient Verification Techniques for Neural Networks</p>\n<p>As part this project, we developed a specialized divide-and-conquer technique&nbsp;for simplifying the verification process of neural networks. Intuitively, this&nbsp;approach breaks down the verification problem into a collection of verification&nbsp;sub-problems; and often, solving these sub-problems can be done more&nbsp;efficiently than solving the original problem. Additionally, we developed a&nbsp;technique that can significantly expedite the verification of neural networks&nbsp;by means of preprocessing. Intuitively, this approach seeks to simplify the DNN&nbsp;verification problem by solving a series of simple queries with short&nbsp;timeouts. Each such query that is successfully solved reduces the size of the&nbsp;DNN that later needs to be verified.&nbsp; These techniques naturally allow us to&nbsp;leverage all available computing power, by assigning each sub-problem to a&nbsp;different machine.</p>\n<p>Correctness Guarantees for Neural Network Verification</p>\n<p>We began developing techniques that would allow&nbsp;users to increase their trust in the outcome of the verification process, without necessarily&nbsp;trusting the verification tool itself. This can be accomplished through proof&nbsp;certificates: easily checkable artifacts, that attest to the correctness of the&nbsp;verification outcome. We have obtained promising preliminary results,&nbsp;generating such proof artifacts for real-world verification queries.</p>\n<p>Creating an Accessible Verification Tool</p>\n<p>As part of our collaboration in this project, we created a novel software framework,&nbsp;called Marabou, for the verification of neural networks. Marabou is a new tool,&nbsp;written from scratch, that implements a set of efficient algorithms for solving the&nbsp;DNN verification problem. It includes, for example, implementations of the&nbsp;divide-and-conquer and preprocessing approaches described above.&nbsp;&nbsp;Using Marabou, we have successfully applied DNN verification to new domains, in&nbsp;which verification has not been studied before. Specifically, we were able to&nbsp;(1) verify DNNs that control computer network systems, such as Internet&nbsp;congestion controllers; and (2) automatically simplify neural networks, i.e.,&nbsp;to reduce their sizes in a way that does not harm their accuracy.&nbsp;<br /><br /></p>\n</div>\n</dd><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/18/2023<br>\n\t\t\t\t\tModified by: Clark&nbsp;Barrett</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\n\n \n\nManually crafting complex software is a difficult and error-prone task. To mitigate this difficulty, engineers have begun using machine learning techniques to automatically train deep neural networks, which have been shown to excel at image recognition, speech recognition, game playing, and many other tasks.  Recently there is even a trend of incorporating them in safety-critical systems, e.g., as controllers in autonomous vehicles. The excellent performance of neural networks, combined with the relative ease of their creation (the engineers need only provide examples of how the desired network should behave to the training algorithm) have made neural networks widespread ? and this trend is likely to continue and intensify in the foreseeable future.\n\nDeep neural networks offer many advantages, but also pose a significant challenges in terms of correctness and reliability. Neural networks are opaque, in the sense that they lack a logical structure that humans can comprehend. Consequently, industry best practices such as code reviews and refactoring are inapplicable, and it is highly difficult for engineers to reason about the behavior of neural networks and guarantee their correctness. The state of the art in automatic verification has not bridged this gap, with modern tools failing to scale beyond medium-sized neural networks ? again, because neural networks lack the logical structure for which existing verification tools were designed. This situation can have dire consequences: for example, it has been shown that many neural networks can be \"fooled\" into misclassifying their inputs by slight perturbations, and such attacks have already been carried out in the physical world. If such errors were to be made by, e.g., a neural network operating in an autonomous car, the results could be severe. The lack of ability to reason about neural networks is thus a major hindrance to their real-world applicability.\n\nDuring the three years of the project we made significant progress towards our long-term research goal of improving the reliability and robustness of deep neural networks.  Specifically, the collaboration between the HUJI and Stanford research groups has led to promising results on (i) developing verification techniques that leverage the special structure of DNNs to improve verification scalability (ii) providing correctness guarantees for verified DNNs, alleviating the need to blindly trust the correctness of the verifier; and (iii) creating an open-source, easily accessible verification tool that non-experts will be able to apply to real-world systems.  We briefly discuss each of these below.\n\nEfficient Verification Techniques for Neural Networks\n\nAs part this project, we developed a specialized divide-and-conquer technique for simplifying the verification process of neural networks. Intuitively, this approach breaks down the verification problem into a collection of verification sub-problems; and often, solving these sub-problems can be done more efficiently than solving the original problem. Additionally, we developed a technique that can significantly expedite the verification of neural networks by means of preprocessing. Intuitively, this approach seeks to simplify the DNN verification problem by solving a series of simple queries with short timeouts. Each such query that is successfully solved reduces the size of the DNN that later needs to be verified.  These techniques naturally allow us to leverage all available computing power, by assigning each sub-problem to a different machine.\n\nCorrectness Guarantees for Neural Network Verification\n\nWe began developing techniques that would allow users to increase their trust in the outcome of the verification process, without necessarily trusting the verification tool itself. This can be accomplished through proof certificates: easily checkable artifacts, that attest to the correctness of the verification outcome. We have obtained promising preliminary results, generating such proof artifacts for real-world verification queries.\n\nCreating an Accessible Verification Tool\n\nAs part of our collaboration in this project, we created a novel software framework, called Marabou, for the verification of neural networks. Marabou is a new tool, written from scratch, that implements a set of efficient algorithms for solving the DNN verification problem. It includes, for example, implementations of the divide-and-conquer and preprocessing approaches described above.  Using Marabou, we have successfully applied DNN verification to new domains, in which verification has not been studied before. Specifically, we were able to (1) verify DNNs that control computer network systems, such as Internet congestion controllers; and (2) automatically simplify neural networks, i.e., to reduce their sizes in a way that does not harm their accuracy. \n\n\n\n\n\n\t\t\t\t\tLast Modified: 02/18/2023\n\n\t\t\t\t\tSubmitted by: Clark Barrett"
+ }
+}

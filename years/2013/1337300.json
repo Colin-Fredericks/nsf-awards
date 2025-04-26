@@ -1,0 +1,96 @@
+{
+ "awd_id": "1337300",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: DSD: Collaborative Research: NeoNexus: The Next-generation Information Processing System across Digital and Neuromorphic Computing Domains",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tao Li",
+ "awd_eff_date": "2013-09-15",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 275884.0,
+ "awd_amount": 275884.0,
+ "awd_min_amd_letter_date": "2013-09-06",
+ "awd_max_amd_letter_date": "2013-09-06",
+ "awd_abstract_narration": "The explosion of \"big data\" applications imposes severe challenges of data processing speed and scalability on traditional computer systems. The performance of traditional Von Neumann machines is greatly hindered by the increasing performance gap between CPU and memory, motivating the active research on new or alternative computing architectures. By imitating brain's naturally massive parallel architecture with closely coupled memory and computing as well as the unique analog domain operations, neuromorphic computing systems are anticipated to deliver superior speed for applications in image recognition and natural language understanding.\r\n\r\nThe objective of this research is to establish the fundamental framework and design methodology for NeoNexus -- the next-generation information processing system inspired by human neocortex. It integrates neuromorphic computing accelerators with conventional computing resources by leveraging large scale inference-based data processing and computing acceleration technique atop memristor crossbar arrays. The computation and data exchange will be carefully coordinated and supported by the innovative interconnect architecture, i.e., a hierarchical network-on-chip (NoC). The software-hardware co-design platform will be developed to address the various design challenges. The project will help computer architecture and high-performance computing communities to overcome the ever-increasing technical challenges of traditional architectures and accelerate the fusion between conventional computing technology and cognitive computing model. It will also promote the applications of artificial intelligence technology advances in modern computer architectures and motivate the inventions at both software and hardware levels. Undergraduate and graduate students involved in this research will be trained for the next-generation semiconductor industry workforce.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Qinru",
+   "pi_last_name": "Qiu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Qinru Qiu",
+   "pi_email_addr": "qiqiu@syr.edu",
+   "nsf_id": "000489809",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Syracuse University",
+  "inst_street_address": "900 S CROUSE AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "SYRACUSE",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "3154432807",
+  "inst_zip_code": "13244",
+  "inst_country_name": "United States",
+  "cong_dist_code": "22",
+  "st_cong_dist_code": "NY22",
+  "org_lgl_bus_name": "SYRACUSE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "C4BXLBC11LC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Syracuse University",
+  "perf_str_addr": "",
+  "perf_city_name": "Syracuse",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "132441200",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "22",
+  "perf_st_cong_dist": "NY22",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 275884.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this XPS project, we studied the characteristics of bio-inspired machine intelligence models and explored their implementation on massive parallel platforms.&nbsp;</p>\n<p>Three types of machine intelligence models were investigated. They include: (1) a recurrent belief propagation network for Bayesian inference. This network is trained using statistical information extracted from the training data. (2) a recurrent deep neural network. This network is trained based on standard stochastic gradient descent algorithm. (3) a biological plausible Spiking Neural Network (SNN) model. This network is trained based on Spike-timing-dependent plasticity (STDP), which is a biological process that adjusts the strength of connections between neurons.</p>\n<p>Four hardware platforms are investigates. They include: (1) Multi-core general purpose computing platform such as Xeon Phi processor and GPGPU, (2) FPGA based hardware accelerator, (3) neurosynaptic processor with programmable physical neuron cores and inter-core connections, (4) memristor based crossbar arrays.</p>\n<p>Our study reveals the intrinsic relation between an STDP learned network and a Bayesian network. We showed that the synaptic weight learned using STDP rule is highly correlated to the conditional probability of the firing of the pre-synaptic neuron given the status of the post-synaptic neuron, which is also the definition of weight of links in a Bayesian network. This indicates that the two networks are essentially similar except that one of them encode information using the rate of the spike train.</p>\n<p>We also show that asynchronous neuron activities not only simplifies hardware design, improves throughput, but also improves recall accuracy for recurrent belief propagation networks. The uncertainty in the neuron evaluation order caused by racing among neurons introduces randomness, which may bring the system out from local optimum, hence gives 5% higher recall accuracy than a system that follows fixed neuron evaluation order.</p>\n<p>To efficiently map a belief propagation network to a crossbar based memristor array, we developed a generalized sparse matrix reordering (GSMR) technique to compress its sparse connectivity matrix. The GSMR technique re-orders the rows and columns in a sparse matrix so that minimum size non-zero block cover can be achieved. The compression leads to 90% performance improvements and 44% energy reduction compared to an implementation without GSMR compression.&nbsp;</p>\n<p>We further explored techniques to map the three bio-inspired neural networks to a neurosynaptic processor, which features crossbar array based neuron cores and asynchronous network-on-chip inter-core communications. The tradeoffs among hardware cost, performance, and accuracy have been investigated. We show that in a recurrent neural network, feedback variables such as cell state has higher impact to the model accuracy than other variables, and hence should be implemented with higher precision. Our constrained-then-train approach and encoding schedule can improve the accuracy of a Long Short Term Memory from 58% to 96%.</p>\n<p>Five PhD students worked on this project. The PI and her colleagues organized the IEEE Transactions on Multi-Scale Computing Systems (TMSCS) special issue on Design and Applications of Neuromorphic Computing System and served as the guest editor. A new course on &ldquo;Machine intelligence with Deep Learning&rdquo; was prepared and offered in Fall 2017.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/20/2017<br>\n\t\t\t\t\tModified by: Qinru&nbsp;Qiu</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn this XPS project, we studied the characteristics of bio-inspired machine intelligence models and explored their implementation on massive parallel platforms. \n\nThree types of machine intelligence models were investigated. They include: (1) a recurrent belief propagation network for Bayesian inference. This network is trained using statistical information extracted from the training data. (2) a recurrent deep neural network. This network is trained based on standard stochastic gradient descent algorithm. (3) a biological plausible Spiking Neural Network (SNN) model. This network is trained based on Spike-timing-dependent plasticity (STDP), which is a biological process that adjusts the strength of connections between neurons.\n\nFour hardware platforms are investigates. They include: (1) Multi-core general purpose computing platform such as Xeon Phi processor and GPGPU, (2) FPGA based hardware accelerator, (3) neurosynaptic processor with programmable physical neuron cores and inter-core connections, (4) memristor based crossbar arrays.\n\nOur study reveals the intrinsic relation between an STDP learned network and a Bayesian network. We showed that the synaptic weight learned using STDP rule is highly correlated to the conditional probability of the firing of the pre-synaptic neuron given the status of the post-synaptic neuron, which is also the definition of weight of links in a Bayesian network. This indicates that the two networks are essentially similar except that one of them encode information using the rate of the spike train.\n\nWe also show that asynchronous neuron activities not only simplifies hardware design, improves throughput, but also improves recall accuracy for recurrent belief propagation networks. The uncertainty in the neuron evaluation order caused by racing among neurons introduces randomness, which may bring the system out from local optimum, hence gives 5% higher recall accuracy than a system that follows fixed neuron evaluation order.\n\nTo efficiently map a belief propagation network to a crossbar based memristor array, we developed a generalized sparse matrix reordering (GSMR) technique to compress its sparse connectivity matrix. The GSMR technique re-orders the rows and columns in a sparse matrix so that minimum size non-zero block cover can be achieved. The compression leads to 90% performance improvements and 44% energy reduction compared to an implementation without GSMR compression. \n\nWe further explored techniques to map the three bio-inspired neural networks to a neurosynaptic processor, which features crossbar array based neuron cores and asynchronous network-on-chip inter-core communications. The tradeoffs among hardware cost, performance, and accuracy have been investigated. We show that in a recurrent neural network, feedback variables such as cell state has higher impact to the model accuracy than other variables, and hence should be implemented with higher precision. Our constrained-then-train approach and encoding schedule can improve the accuracy of a Long Short Term Memory from 58% to 96%.\n\nFive PhD students worked on this project. The PI and her colleagues organized the IEEE Transactions on Multi-Scale Computing Systems (TMSCS) special issue on Design and Applications of Neuromorphic Computing System and served as the guest editor. A new course on \"Machine intelligence with Deep Learning\" was prepared and offered in Fall 2017. \n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/20/2017\n\n\t\t\t\t\tSubmitted by: Qinru Qiu"
+ }
+}

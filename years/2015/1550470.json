@@ -1,0 +1,117 @@
+{
+ "awd_id": "1550470",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: HAWKEYE: A Cross-Layer Resilient Architecture to Tradeoff Program Accuracy and Resilience Overheads",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2015-08-15",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 250000.0,
+ "awd_amount": 250000.0,
+ "awd_min_amd_letter_date": "2015-08-11",
+ "awd_max_amd_letter_date": "2015-08-11",
+ "awd_abstract_narration": "With semiconductor technology scaling to sub-nanometer scales, minute perturbations in lithography patterns and manufacturing processes make the computing hardware vulnerable to unpredictable deviations in functionality. Further, with increasingly strict power constraints, hardware designs are now reliant on dynamic voltage scaling between nominal and near-threshold regions, which exacerbates the reliability problem. These trends motivate the need for system resiliency without increasing power consumption. This project proposes a new method to achieve efficient resiliency, where hardware's coverage is bounded with certain guarantees, while computational efficiency is traded off at the cost of affecting program accuracy. The strategy focuses on data analytic applications since they naturally offer tradeoffs in program accuracy due to the unstructured nature of inputs, and the approximate algorithms used to solve these otherwise intractable problems. At the software level, the project is developing methods to classify crucial versus non-crucial code regions in a program: the crucial code affects program correctness and outcome, its functionality cannot be altered in any way; non-crucial code affects program accuracy, therefore it could tolerate errors. The hardware subsequently implements stronger resiliency methods (e.g., redundant execution) only for crucial code. For the non-crucial code, lightweight resiliency schemes ensure program correctness. If successful, this project will be a major step towards a new rigorous framework to reason and guarantee system resiliency alongside a program's performance, power, and accuracy of computation. \r\n\r\nThe proposed research provides for significant broader impacts related to curriculum development and student training through integration of modules in existing computer architecture and system design courses, and outreach through established REU sites and enrichment programs. The project promises transparent resiliency guarantees and this will have a major societal impact: enterprises and mission agencies will be able to reason in a quantifiable way about the resiliency versus efficiency tradeoffs in their software and hardware infrastructure. This is a crucial step forward given the increased awareness of system reliability in many application domains, such as healthcare, defense, finance, transportation, and automotive.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Omer",
+   "pi_last_name": "Khan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Omer Khan",
+   "pi_email_addr": "khan@uconn.edu",
+   "nsf_id": "000595468",
+   "pi_start_date": "2015-08-11",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Henry",
+   "pi_last_name": "Hoffmann",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Henry Hoffmann",
+   "pi_email_addr": "hankhoffmann@cs.uchicago.edu",
+   "nsf_id": "000642777",
+   "pi_start_date": "2015-08-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Connecticut",
+  "inst_street_address": "438 WHITNEY RD EXTENSION UNIT 1133",
+  "inst_street_address_2": "",
+  "inst_city_name": "STORRS",
+  "inst_state_code": "CT",
+  "inst_state_name": "Connecticut",
+  "inst_phone_num": "8604863622",
+  "inst_zip_code": "062699018",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "CT02",
+  "org_lgl_bus_name": "UNIVERSITY OF CONNECTICUT",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "WNTPS995QBM7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Connecticut",
+  "perf_str_addr": "371 Fairfield Way",
+  "perf_city_name": "Storrs",
+  "perf_st_code": "CT",
+  "perf_st_name": "Connecticut",
+  "perf_zip_code": "062694157",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "CT02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 250000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This research developed HAWKEYE architecture that introduces a new tradeoff to achieve efficient resiliency in parallel microprocessor systems, where error coverage is guaranteed at the cost of affecting program accuracy. The idea is built on the insight that code vulnerability is not always correlated to program output and hence compromising coverage in a traditional manner can affect program correctness. In other words, without understanding the code's impact on program outcomes, the program correctness and accuracy cannot be decoupled. HAWKEYE is a cross-layer approach that innovates at the hardware, software, and algorithm levels to ensure program correctness to strengthen resiliency, yet trade off accuracy for performance. We have focused on machine learning and graph algorithms that operate on real world datasets, and used in safety critical applications. We have developed a benchmark suite for parallelized graph algorithms that was published at 2015 IEEE International Symposium on Workload Characterization (IISWC 2015), and nominated as a best paper candidate. This open source benchmark suite is now used in more than 50 conference paper publications by other researchers. The University of Chicago team also developed an open source framework, GraphStone (published in 2018 IEEE International Conference on Data Engineering) to study the performance implications of graph problems for in-memory and out-of-core graph computing. These works enabled us to study the algorithmic aspects of program correctness and accuracy, and performance scaling trends in HAWKEYE's context. We characterized the graph and machine learning algorithms in the context of their performance and program accuracy implications, and published papers in 2017 IEEE International Conference on Computer Design (ICCD 2017), and 2017 IEEE Workshop on Silicon Errors in Logic - System Effects (SELSE 2017). The results indicated that much of the code can be classified as non-crucial code regions that can relax their resiliency hardness guarantees. For such code regions, HAWKEYE trades off program accuracy for high performance. However, crucial code regions must guarantee strong resiliency to ensure program correctness. Building on the ideas of classifying code regions as crucial or non-crucial, we developed the HAWKEYE software-hardware co-design framework using an open source multicore simulator, as well as prototype implementation on a real machine, Tilera TILE-Gx72. The simulated HAWKEYE framework was published at 2015 IEEE Computer Architecture Letters (CAL 2015) and 2018 ACM Transactions on Embedded Computing Systems (TECS 2018). Moreover, the TILE-Gx72 prototype of HAWKEYE was published at the 2018 IEEE Computer Architecture Letters (CAL 2018). We have successfully shown the feasibility of HAWKEYE framework to exploit the coverage--performance tradeoff in graph and machine learning algorithms, yet achieve strong resiliency guarantees.</p>\n<p>This project enabled future multicores to have higher performance with lower energy consumption and a much higher degree of reliability and resiliency to manufacturing and environmental errors, a major step forward to enable safety-critical applications ranging from machine learning to data analytics. The tools developed from this project have been released publicly (via open source software and/or conference/journal publications), and also utilized to develop laboratory assignments to modernize the computer architecture and multicore computing curriculum at UConn. We have supported the NSF sponsored REU programs at UConn, and involved undergraduates, specially women and underrepresented minorities, in our research program. Siena Biales, James Palmer and Emanuel Correa completed their REU rotations in our research group during Summer 2016. They were all funded though NSF REU site and supplemental funds. We had one REU student Adithya Nott explore privacy leakage in graph and machine learning benchmarks during Summer 2017. In Summer 2019, Brandon D'Agostino and Maia Iyer explored processor security implications for safety critical applications that were developed under the HAWKEYE project. Finally, the outcomes of this project have been regularly shared with industry partners from NXP, Intel, AMD, ARM, and IBM.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/30/2019<br>\n\t\t\t\t\tModified by: Omer&nbsp;Khan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis research developed HAWKEYE architecture that introduces a new tradeoff to achieve efficient resiliency in parallel microprocessor systems, where error coverage is guaranteed at the cost of affecting program accuracy. The idea is built on the insight that code vulnerability is not always correlated to program output and hence compromising coverage in a traditional manner can affect program correctness. In other words, without understanding the code's impact on program outcomes, the program correctness and accuracy cannot be decoupled. HAWKEYE is a cross-layer approach that innovates at the hardware, software, and algorithm levels to ensure program correctness to strengthen resiliency, yet trade off accuracy for performance. We have focused on machine learning and graph algorithms that operate on real world datasets, and used in safety critical applications. We have developed a benchmark suite for parallelized graph algorithms that was published at 2015 IEEE International Symposium on Workload Characterization (IISWC 2015), and nominated as a best paper candidate. This open source benchmark suite is now used in more than 50 conference paper publications by other researchers. The University of Chicago team also developed an open source framework, GraphStone (published in 2018 IEEE International Conference on Data Engineering) to study the performance implications of graph problems for in-memory and out-of-core graph computing. These works enabled us to study the algorithmic aspects of program correctness and accuracy, and performance scaling trends in HAWKEYE's context. We characterized the graph and machine learning algorithms in the context of their performance and program accuracy implications, and published papers in 2017 IEEE International Conference on Computer Design (ICCD 2017), and 2017 IEEE Workshop on Silicon Errors in Logic - System Effects (SELSE 2017). The results indicated that much of the code can be classified as non-crucial code regions that can relax their resiliency hardness guarantees. For such code regions, HAWKEYE trades off program accuracy for high performance. However, crucial code regions must guarantee strong resiliency to ensure program correctness. Building on the ideas of classifying code regions as crucial or non-crucial, we developed the HAWKEYE software-hardware co-design framework using an open source multicore simulator, as well as prototype implementation on a real machine, Tilera TILE-Gx72. The simulated HAWKEYE framework was published at 2015 IEEE Computer Architecture Letters (CAL 2015) and 2018 ACM Transactions on Embedded Computing Systems (TECS 2018). Moreover, the TILE-Gx72 prototype of HAWKEYE was published at the 2018 IEEE Computer Architecture Letters (CAL 2018). We have successfully shown the feasibility of HAWKEYE framework to exploit the coverage--performance tradeoff in graph and machine learning algorithms, yet achieve strong resiliency guarantees.\n\nThis project enabled future multicores to have higher performance with lower energy consumption and a much higher degree of reliability and resiliency to manufacturing and environmental errors, a major step forward to enable safety-critical applications ranging from machine learning to data analytics. The tools developed from this project have been released publicly (via open source software and/or conference/journal publications), and also utilized to develop laboratory assignments to modernize the computer architecture and multicore computing curriculum at UConn. We have supported the NSF sponsored REU programs at UConn, and involved undergraduates, specially women and underrepresented minorities, in our research program. Siena Biales, James Palmer and Emanuel Correa completed their REU rotations in our research group during Summer 2016. They were all funded though NSF REU site and supplemental funds. We had one REU student Adithya Nott explore privacy leakage in graph and machine learning benchmarks during Summer 2017. In Summer 2019, Brandon D'Agostino and Maia Iyer explored processor security implications for safety critical applications that were developed under the HAWKEYE project. Finally, the outcomes of this project have been regularly shared with industry partners from NXP, Intel, AMD, ARM, and IBM.\n\n\t\t\t\t\tLast Modified: 10/30/2019\n\n\t\t\t\t\tSubmitted by: Omer Khan"
+ }
+}

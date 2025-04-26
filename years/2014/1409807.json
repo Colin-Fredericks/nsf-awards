@@ -1,0 +1,117 @@
+{
+ "awd_id": "1409807",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Medium: Collaborative: Automated Reverse Engineering of Commodity Software",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2014-08-04",
+ "awd_max_amd_letter_date": "2015-03-06",
+ "awd_abstract_narration": "Software, including common examples such as commercial applications or embedded device firmware, is often delivered as closed-source binaries. While prior academic work has examined how to automatically discover vulnerabilities in binary software, and even how to automatically craft exploits for these vulnerabilities, the ability to answer basic security-relevant questions about closed-source software remains elusive.\r\n\r\nThis project aims to provide algorithms and tools for answering these questions. Leveraging prior work on emulator-based dynamic analyses, we propose techniques for scaling this high-fidelity analysis to capture and extract whole-system behavior in the context of embedded device firmware and closed-source applications. Using a combination of dynamic execution traces collected from this analysis platform and binary code analysis techniques, we propose techniques for automated structural analysis of binary program artifacts, decomposing system and user-level programs into logical modules through inference of high-level semantic behavior. This decomposition provides as output an automatically learned description of the interfaces and information flows between each module at a sub-program granularity. Specific activities include: (a) developing software-guided whole-system emulator for supporting sophisticated dynamic analyses for real embedded systems; (b) developing advanced, automated techniques for structurally decomposing closed-source software into its constituent modules; (c) developing automated techniques for producing high-level summaries of whole system executions and software components; and (d) developing techniques for automating the reverse engineering and fuzz testing of encrypted network protocols. The research proposed herein will have a significant impact outside of the security research community. We will incorporate the research findings of our program into our undergraduate and graduate teaching curricula, as well as in extracurricular educational efforts such as Capture-the-Flag that have broad outreach in the greater Boston and Atlanta metropolitan areas.\r\nThe close ties to industry that the collective PIs possess will facilitate transitioning the research into practical defensive tools that can be deployed into real-world systems and networks.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wenke",
+   "pi_last_name": "Lee",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wenke Lee",
+   "pi_email_addr": "wenke@cc.gatech.edu",
+   "nsf_id": "000165836",
+   "pi_start_date": "2015-03-06",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Former Principal Investigator",
+   "pi_first_name": "Tielei",
+   "pi_last_name": "Wang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tielei Wang",
+   "pi_email_addr": "twang99@mail.gatech.edu",
+   "nsf_id": "000658586",
+   "pi_start_date": "2014-08-04",
+   "pi_end_date": "2015-03-06"
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Avenue",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Cyberattacks are essentially exploits on vulnerabilities, in particular, the programming errors in software. Even the most widely used software, such as the Linux operating system and the major browsers, are riddled with security vulnerabilities. The research community has made a lot of progress in dealing with some of the most common bugs such as buffer-overflow. These are the shallow bugs in that it is (relatively) easy to identify them.</p>\n<p>This project has studied deeper security bugs in commodity software, including bad-type-casting that enables an attacker to corrupt memory, uninitialized reads that lead to kernel data leaks, and use-before-initialization that enables an attacker to control the kernel stack. This project has developed program analysis approaches that combine static checks and dynamic instrumentation to identify and mitigate these vulnerabilities. These approaches have been tested on large-scale commodity software including Linux kernel and the Chrome browser. The results show that these approaches are effective and more importantly, they can be efficiently applied either in compile-time and run-time. This project therefore significantly advances the state-of-the-art in software analysis and software security.</p>\n<p>The results of this project have been published in the top-tier security conferences including the USENIX Security Symposium, the ACM Conference on Computer and Communications Security, and the Network and Distributed System Security Symposium. In particular, the paper describing the bad-type-casting work, CAVER, won the Internet Defense Prize awarded by Facebook and USENIX in the 2015 USENIX Security Symposium. The CAVER system is now open-sourced.</p>\n<p>Three Ph.D. students completed their theses based on work in this project. They are now tenure-track assistant professors in major research universities in the US.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/19/2018<br>\n\t\t\t\t\tModified by: Wenke&nbsp;Lee</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nCyberattacks are essentially exploits on vulnerabilities, in particular, the programming errors in software. Even the most widely used software, such as the Linux operating system and the major browsers, are riddled with security vulnerabilities. The research community has made a lot of progress in dealing with some of the most common bugs such as buffer-overflow. These are the shallow bugs in that it is (relatively) easy to identify them.\n\nThis project has studied deeper security bugs in commodity software, including bad-type-casting that enables an attacker to corrupt memory, uninitialized reads that lead to kernel data leaks, and use-before-initialization that enables an attacker to control the kernel stack. This project has developed program analysis approaches that combine static checks and dynamic instrumentation to identify and mitigate these vulnerabilities. These approaches have been tested on large-scale commodity software including Linux kernel and the Chrome browser. The results show that these approaches are effective and more importantly, they can be efficiently applied either in compile-time and run-time. This project therefore significantly advances the state-of-the-art in software analysis and software security.\n\nThe results of this project have been published in the top-tier security conferences including the USENIX Security Symposium, the ACM Conference on Computer and Communications Security, and the Network and Distributed System Security Symposium. In particular, the paper describing the bad-type-casting work, CAVER, won the Internet Defense Prize awarded by Facebook and USENIX in the 2015 USENIX Security Symposium. The CAVER system is now open-sourced.\n\nThree Ph.D. students completed their theses based on work in this project. They are now tenure-track assistant professors in major research universities in the US.\n\n \n\n\t\t\t\t\tLast Modified: 03/19/2018\n\n\t\t\t\t\tSubmitted by: Wenke Lee"
+ }
+}

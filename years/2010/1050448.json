@@ -1,0 +1,101 @@
+{
+ "awd_id": "1050448",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "III: EAGER: Data Integration as a Dialogue with the User",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Frank Olken",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2012-08-31",
+ "tot_intn_awd_amt": 150000.0,
+ "awd_amount": 150000.0,
+ "awd_min_amd_letter_date": "2010-08-24",
+ "awd_max_amd_letter_date": "2010-08-24",
+ "awd_abstract_narration": "This work establishes a new approach to providing ad hoc (\"discovery\") queries requiring integration and structuring:  such queries help scientists learn possible relationships between topics, and help decision-makers or consumers explore options.  The work develops a new system and underlying architecture based on an iterative process, where the system and user engage in a dialogue until the user has answers meeting his or her information need. \r\n\r\nThe resulting system takes sources on the Web, discovers semantic relationships among them, and allows users to pose discovery queries.   It leverages existing extraction, matching, and recommendation algorithms as sources of evidence to generate hypotheses and corresponding queries, and adjusts these hypotheses based on user feedback over the query results.  Innovations include scalable models for combining features and learning to re weight hypotheses; query and source recommendation techniques; and means of generalizing tuple-based feedback to support or refute hypotheses. \r\n\r\nThe research impact is a new paradigm for data integration by end users, which scalably combines machine learning and database concepts.  The broader impact includes better discovery tools for scientific users and other users who sorely need them; improved integration of existing Web data resources; and new educational material on how networks of data can be as important as networks of systems and people.  The PI is incorporating the research concepts into courses in the University of Pennsylvania's new Market and Social Systems Engineering Program, focused on the interface between people, protocols, and systems on the Internet, especially through social and data networks, as well as markets.  More information on the project can be found on the project website at http://www.cis.upenn.edu/~zives/dialogue/",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Zachary",
+   "pi_last_name": "Ives",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Zachary Ives",
+   "pi_email_addr": "zives@cis.upenn.edu",
+   "nsf_id": "000468327",
+   "pi_start_date": "2010-08-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Pennsylvania",
+  "inst_street_address": "3451 WALNUT ST STE 440A",
+  "inst_street_address_2": "",
+  "inst_city_name": "PHILADELPHIA",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "2158987293",
+  "inst_zip_code": "191046205",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "PA03",
+  "org_lgl_bus_name": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE",
+  "org_prnt_uei_num": "GM1XX56LEP58",
+  "org_uei_num": "GM1XX56LEP58"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Pennsylvania",
+  "perf_str_addr": "3451 WALNUT ST STE 440A",
+  "perf_city_name": "PHILADELPHIA",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "191046205",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "PA03",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 150000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This EAGER exploratory grant resulted in new technologies for assisting users in answering queries across multiple databases on an as-needed basis -- an area where there is still significant debate about how much impact automated techniques can have. The grant showed that state-of-the-art techniques can indeed have significant benefit.</p>\n<p>Given a collection of databases, and a keyword query whose words span multiple pieces of information, our Q System will attempt to find &ldquo;connections&rdquo; among the data and assemble the different data items into a combined answer.&nbsp; The novelty of the Q System lies in its ability to take <em>user feedback</em> on query results, and to <em>learn</em> from this feedback and improve its answers.&nbsp; In this grant we developed new techniques to:&nbsp;</p>\n<p>(1) Use <em>active learning </em>techniques so the system will seek feedback on data it is uncertain about, rather than simply returning answers to which it assigns high scores.</p>\n<p>(2) Allow the user to specify how much to <em>generalize</em> from limited amounts of feedback &ndash; where the user&rsquo;s preferences will depend on whether the user is exploring ideas (meaning a good deal of generalization is desirable) or carefully refining answers (meaning changes should be specific to the data on which feedback was given).</p>\n<p>(3) Make the process <em>scale</em> to large amounts of data and many data sources, requiring new algorithms for sharing work across multiple queries and scaling up analysis of data whose relationships are captured in a graph structure.&nbsp;</p>\n<p>The work explored a number of issues at the intersection of machine learning and databases, and showed the promise of such techniques.&nbsp; It has resulted in three publications in top conferences (SIGMOD 2011, ICDE 2012, VLDB 2013) including a runner-up for Best Paper, two journal papers, a workshop paper, and three additional manuscripts under preparation.</p>\n<p>As broader impacts, the grant funded the majority of the training for two PhD students, one of whom will be graduating in 2013; and enabled a summer undergraduate research project.&nbsp; The PI also participated in a number of outreach efforts to engage women and underrepresented minorities from high school, and co-authored a definitive textbook on data integration.&nbsp; He also co-designed a new course on Big Data and Cloud Computing (Penn&rsquo;s MKSE 212) and in 2010 was given Penn&rsquo;s Lindback Award for Distinguished Teaching.&nbsp; Moreover, the work resulted in the development of the Q System, which is being incorporated into the <a href=\"http://www.ieeg.org\">www.ieeg.org</a> portal for data-centric neuroscience experiments.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/12/2012<br>\n\t\t\t\t\tModified by: Zachary&nbsp;Ives</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis EAGER exploratory grant resulted in new technologies for assisting users in answering queries across multiple databases on an as-needed basis -- an area where there is still significant debate about how much impact automated techniques can have. The grant showed that state-of-the-art techniques can indeed have significant benefit.\n\nGiven a collection of databases, and a keyword query whose words span multiple pieces of information, our Q System will attempt to find \"connections\" among the data and assemble the different data items into a combined answer.  The novelty of the Q System lies in its ability to take user feedback on query results, and to learn from this feedback and improve its answers.  In this grant we developed new techniques to: \n\n(1) Use active learning techniques so the system will seek feedback on data it is uncertain about, rather than simply returning answers to which it assigns high scores.\n\n(2) Allow the user to specify how much to generalize from limited amounts of feedback &ndash; where the user\u00c6s preferences will depend on whether the user is exploring ideas (meaning a good deal of generalization is desirable) or carefully refining answers (meaning changes should be specific to the data on which feedback was given).\n\n(3) Make the process scale to large amounts of data and many data sources, requiring new algorithms for sharing work across multiple queries and scaling up analysis of data whose relationships are captured in a graph structure. \n\nThe work explored a number of issues at the intersection of machine learning and databases, and showed the promise of such techniques.  It has resulted in three publications in top conferences (SIGMOD 2011, ICDE 2012, VLDB 2013) including a runner-up for Best Paper, two journal papers, a workshop paper, and three additional manuscripts under preparation.\n\nAs broader impacts, the grant funded the majority of the training for two PhD students, one of whom will be graduating in 2013; and enabled a summer undergraduate research project.  The PI also participated in a number of outreach efforts to engage women and underrepresented minorities from high school, and co-authored a definitive textbook on data integration.  He also co-designed a new course on Big Data and Cloud Computing (Penn\u00c6s MKSE 212) and in 2010 was given Penn\u00c6s Lindback Award for Distinguished Teaching.  Moreover, the work resulted in the development of the Q System, which is being incorporated into the www.ieeg.org portal for data-centric neuroscience experiments.\n\n\t\t\t\t\tLast Modified: 12/12/2012\n\n\t\t\t\t\tSubmitted by: Zachary Ives"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "awd_id": "1301924",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "SHF: Medium: Collaborative Research: Transactional Software Infrastructures: Making the Most of Hardware Transactions",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2013-06-01",
+ "awd_exp_date": "2017-05-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2013-05-16",
+ "awd_max_amd_letter_date": "2015-04-30",
+ "awd_abstract_narration": "Modern computer systems are undergoing a pervasive change. They are becoming increasingly parallel, meaning that multiple processing units, or cores, work together to carry out tasks.  To facilitate the kinds of synchronization and coordination needed to exploit these new architectures, leading hardware vendors have developed a new generation of processor architectures that provide hardware transactional memory, a synchronization structure that promises to avoid many of the well-known pitfalls and limitations of conventional approaches to synchronization.  The move to hardware transactions will bring about a fundamental positive change in the way multicore machines are programmed.\r\n\r\nThis project will redesign basic synchronization structures such as locks, memory management, and a range of concurrent data structures such as heaps, hash tables, and skip lists.  These new structures will be embodied in an open-source C++ library.  The project's goal is to create better performing, more reliable, and less expensive parallel software, scalable to larger systems, while at the same time making code simpler and more reliable.  Moreover, this project will enhance understanding of how hardware transactional memory can be used effectively, a benefit to both users and manufacturers of future processors.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Maurice",
+   "pi_last_name": "Herlihy",
+   "pi_mid_init": "P",
+   "pi_sufx_name": "",
+   "pi_full_name": "Maurice P Herlihy",
+   "pi_email_addr": "herlihy@cs.brown.edu",
+   "nsf_id": "000333742",
+   "pi_start_date": "2013-05-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Brown University",
+  "inst_street_address": "1 PROSPECT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "PROVIDENCE",
+  "inst_state_code": "RI",
+  "inst_state_name": "Rhode Island",
+  "inst_phone_num": "4018632777",
+  "inst_zip_code": "029129100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "RI01",
+  "org_lgl_bus_name": "BROWN UNIVERSITY",
+  "org_prnt_uei_num": "E3FDXZ6TBHW3",
+  "org_uei_num": "E3FDXZ6TBHW3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Brown University",
+  "perf_str_addr": "box 1929",
+  "perf_city_name": "Providence",
+  "perf_st_code": "RI",
+  "perf_st_name": "Rhode Island",
+  "perf_zip_code": "029129002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "RI01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  },
+  {
+   "pgm_ele_code": "794300",
+   "pgm_ele_name": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 390939.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 209061.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Current memory reclamation mechanisms for highly-concurrent data structures present an awkward trade-off. Techniques such as epoch-based reclamation perform well when all threads are running on dedicated processors, but the delay or failure of a single thread will prevent any other thread from reclaiming memory. Alternatives such as hazard pointers are highly robust, but they are expensive because they require a large number of memory barriers. This project developed a number of novel ways to alleviate the costs of the memory barriers associated with hazard pointers and related techniques.</p>\n<p><br />The <em>ThreadScan</em> technique is the first fully automated solution to the concurrent memory management problem that does not require full garbage collection.</p>\n<p><br />The <em>Read-Log Update</em> mechanism &nbsp;extends the popular RLU synchronization algorithm to an arbitrary number of locations in an atomic transaction, using an algorithm that mimics prior optimistic transactional locking algorithms.<br />Thrifty-malloc is a memory management algoirithm intended for embedded devices with hardware transactional-memory.</p>\n<p><span><em>QSense </em>is a hybrid technique with a fast path and a fallback path. In the common case (without process delays), a high-performing memory reclamation scheme is used (fast path). If process delays block memory reclamation through the fast path, a robust fallback path is used to guarantee progress. The fallback path uses hazard pointers, but avoids their notorious need for frequent and expensive memory fences.</span></p>\n<p>The project also developed several techniques designed to be backward-compatible with existing code that uses hazard pointers, moving cost of memory management from the principal code path to the infrequent memory reclamation path. These proposals include (1) exploiting the operating system's memory protection ability, (2) exploiting certain x86 hardware features to trigger memory barriers only when needed, and (3) a novel hardware-assisted mechanism, called a <em>hazard lookaside buffer </em>(HLB) that allows a reclaiming thread to query whether there are hazardous pointers that need to be flushed to memory.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/26/2017<br>\n\t\t\t\t\tModified by: Maurice&nbsp;Herlihy</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nCurrent memory reclamation mechanisms for highly-concurrent data structures present an awkward trade-off. Techniques such as epoch-based reclamation perform well when all threads are running on dedicated processors, but the delay or failure of a single thread will prevent any other thread from reclaiming memory. Alternatives such as hazard pointers are highly robust, but they are expensive because they require a large number of memory barriers. This project developed a number of novel ways to alleviate the costs of the memory barriers associated with hazard pointers and related techniques.\n\n\nThe ThreadScan technique is the first fully automated solution to the concurrent memory management problem that does not require full garbage collection.\n\n\nThe Read-Log Update mechanism  extends the popular RLU synchronization algorithm to an arbitrary number of locations in an atomic transaction, using an algorithm that mimics prior optimistic transactional locking algorithms.\nThrifty-malloc is a memory management algoirithm intended for embedded devices with hardware transactional-memory.\n\nQSense is a hybrid technique with a fast path and a fallback path. In the common case (without process delays), a high-performing memory reclamation scheme is used (fast path). If process delays block memory reclamation through the fast path, a robust fallback path is used to guarantee progress. The fallback path uses hazard pointers, but avoids their notorious need for frequent and expensive memory fences.\n\nThe project also developed several techniques designed to be backward-compatible with existing code that uses hazard pointers, moving cost of memory management from the principal code path to the infrequent memory reclamation path. These proposals include (1) exploiting the operating system's memory protection ability, (2) exploiting certain x86 hardware features to trigger memory barriers only when needed, and (3) a novel hardware-assisted mechanism, called a hazard lookaside buffer (HLB) that allows a reclaiming thread to query whether there are hazardous pointers that need to be flushed to memory.\n\n\t\t\t\t\tLast Modified: 08/26/2017\n\n\t\t\t\t\tSubmitted by: Maurice Herlihy"
+ }
+}

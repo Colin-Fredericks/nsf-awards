@@ -1,0 +1,101 @@
+{
+ "awd_id": "2304348",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SBIR Phase I:  Secure Image Recognition and Machine Learning Using Advanced Cryptography",
+ "cfda_num": "47.084",
+ "org_code": "15030000",
+ "po_phone": "7032928772",
+ "po_email": "patherto@nsf.gov",
+ "po_sign_block_name": "Peter Atherton",
+ "awd_eff_date": "2023-09-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 274356.0,
+ "awd_amount": 274356.0,
+ "awd_min_amd_letter_date": "2023-08-23",
+ "awd_max_amd_letter_date": "2023-08-23",
+ "awd_abstract_narration": "The broader impact/commercial potential of this Small Business Innovation Research (SBIR) Phase I project will be a significant step towards resolving the access vs. privacy dilemma of the big data era. The use of people\u2019s biometrics, internet traffic, and financial, medical, and genetic data can enable better crime prevention, targeted ads, and health innovation, but at the expense of privacy. Data may also be too sensitive to be given to third parties. The immediate impact of adopting this technology will be greater security for sensitive image data with easier access to useful inferences. The solution will shift the paradigm of institutions storing sensitive data onsite to one in which even sensitive data is stored and accessed in the cloud. With the capability of private outsourced data analysis will come a marketplace for computational tasks, including machine learning as a service, that will spur research and deliver better results to patients and clients faster and without risk of exposure.\r\n\r\nThis Small Business Innovation Research (SBIR) Phase I project will adapt existing Deep Neural Network models to use a fully homomorphic encryption scheme to perform image classification on encrypted images. The primary challenge is to reduce the computational overhead of operations on encrypted data to make the scheme practical at desired levels of accuracy and security. The proposed research and development addresses this challenge through innovation in machine learning, computational number theory, approximation theory, and computer science. The goal of the proposed research and development is to demonstrate the commercial viability of secure image recognition by achieving a reasonable level of security, accuracy, and server cost. The team will experiment in training and testing modified convolutional neural networks (CNNs) for image classification using carefully chosen activation functions and/or approximations to the testing function, and simultaneously building onto existing homomorphic encryption libraries new functionality to compute these operations homomorphically.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "TIP",
+ "org_dir_long_name": "Directorate for Technology, Innovation, and Partnerships",
+ "div_abbr": "TI",
+ "org_div_long_name": "Translational Impacts",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Rubin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Rubin",
+   "pi_email_addr": "danielrubin64@gmail.com",
+   "nsf_id": "000870559",
+   "pi_start_date": "2023-08-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "L-Infinity Labs, Inc.",
+  "inst_street_address": "378 Edmands Rd",
+  "inst_street_address_2": "",
+  "inst_city_name": "Framingham",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "7742790682",
+  "inst_zip_code": "017013068",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MA05",
+  "org_lgl_bus_name": "L-INFINITY LABS, INC.",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "US9TGN6FBWD7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "L-Infinity Labs, Inc.",
+  "perf_str_addr": "378 Edmands Rd",
+  "perf_city_name": "Framingham",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "017013068",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "537100",
+   "pgm_ele_name": "SBIR Phase I"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8027",
+   "pgm_ref_txt": "Cyber Secur - Cyberinfrastruc"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01AB2324DB",
+   "fund_name": "R&RA DRSA DEFC AAB",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 274356.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This report describes the progress of L-Infinity Labs in its project &ldquo;Secure Image Recognition and Machine Learning Using Advanced Cryptography&rdquo; funded by NSF SBIR Award 2304348.</p>\n<p>Overview</p>\n<p>L-Infinity Labs set out to use its SBIR grant to demonstrate a leap forward in privacy-preserving inference: to efficiently perform the inference of a Deep Neural Network model at the level of complexity of image classification on data encrypted with a Fully Homomorphic Encryption (FHE) scheme. This task is at the limits of what is practically achievable with current technology. Our approach to this task was radically different from other companies and researchers in this field, and was based on two advances: 1) Train the image classification model using rational functions as activation functions instead of more standard activation functions like ReLU or polynomial activations. 2) Implement a way to compute multiplicative inverses of encrypted floating-point numbers in an FHE scheme, so that the scheme is capable of computing rational functions. These tasks served as the basis of our Technical Objectives 1 and 2, respectively. Our Technical Objective 3 was to combine the two and demonstrate the inference of a rational image classification model on encrypted image data.</p>\n<p>In short, our progress on these objectives is as follows: On Technical Objective 1, we have established that rational models outperform traditional models. However, we were not able to validate the hypothesis that rational models could achieve significantly greater accuracy at reduced depth. We encountered difficulties in Technical Objective 2 in our approach to computing multiplicative inverses. In fact, we ultimately abandoned Objectives 2 and 3 altogether for reasons having to do with our business, not research difficulties.</p>\n<p>The direction of our work changed dramatically as a result of a radical change in the direction of our business. Our customer discovery process did not validate our hypothesis of the existence of a market of traditional institutions in Web2 for FHE-based privacy-preserving inference; on the contrary, we received evidence of major obstacles to the creation of such a market. With the counsel of our NSF advisors and our Program Director, L-Infinity Labs decided to begin a process of reorienting its business vision and research agenda beginning in December 2023.</p>\n<p>The result of our pivot is that we are now pursuing a far more expansive vision of building a blockchain-based Private Smart Contract Platform, essentially a general infrastructure for private outsourced computing. This direction has far better likelihood of market adoption, far better scaling and revenue potential, and has placed us in a much better position to attract funding from Venture Capital. It also implies a Research and Development plan that subsumes our original plan.</p>\n<p>Essentially we have determined a way to combine two forms of modern cryptography, FHE and Zero Knowledge Proofs (ZK), in order to achieve a critical capability to make private outsourced computing secure and efficient, which is Verifiable FHE: proof that an FHE program has been executed correctly. Today this is considered to be another &ldquo;holy-grail&rdquo; technology far out of reach of current ZK technology. Our research has revealed a way to combine certain novel techniques in the ZK literature in order to achieve a 3-4 order of magnitude improvement in proof generation time, which will make Verifiable FHE a practical reality we can achieve within about a year. Concretely, what we have been able to achieve during this grant period is we have built a prototype implementation of LatticeFold, a novel ZK folding scheme based on similar lattice cryptography as FHE. LatticeFold is ideally suited for faster proof generation for FHE operations.</p>\n<p>Our next task is to demonstrate the use of LatticeFold to prove the bootstrapping operation in Zama&rsquo;s TFHE library. Zama is an open source cryptography company building state-of-the-art FHE solutions for blockchain and AI. Their team managed to generate a Proof-of-Bootstrap in about 30 minutes (48 minutes on consumer hardware, 18 minutes on an expensive AWS configuration). If we can generate this proof in under a second, we should be able to raise a Series A round sufficient to build a team capable of launching the first version of our proposed network. We have not abandoned our original vision, though. We believe that privacy-preserving inference and other machine learning tasks with privacy will be important use cases on our platform, and we wish to carry out our original SBIR research plan, just at a later stage of our company.</p><br>\n<p>\n Last Modified: 10/11/2024<br>\nModified by: Daniel&nbsp;Rubin</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis report describes the progress of L-Infinity Labs in its project Secure Image Recognition and Machine Learning Using Advanced Cryptography funded by NSF SBIR Award 2304348.\n\n\nOverview\n\n\nL-Infinity Labs set out to use its SBIR grant to demonstrate a leap forward in privacy-preserving inference: to efficiently perform the inference of a Deep Neural Network model at the level of complexity of image classification on data encrypted with a Fully Homomorphic Encryption (FHE) scheme. This task is at the limits of what is practically achievable with current technology. Our approach to this task was radically different from other companies and researchers in this field, and was based on two advances: 1) Train the image classification model using rational functions as activation functions instead of more standard activation functions like ReLU or polynomial activations. 2) Implement a way to compute multiplicative inverses of encrypted floating-point numbers in an FHE scheme, so that the scheme is capable of computing rational functions. These tasks served as the basis of our Technical Objectives 1 and 2, respectively. Our Technical Objective 3 was to combine the two and demonstrate the inference of a rational image classification model on encrypted image data.\n\n\nIn short, our progress on these objectives is as follows: On Technical Objective 1, we have established that rational models outperform traditional models. However, we were not able to validate the hypothesis that rational models could achieve significantly greater accuracy at reduced depth. We encountered difficulties in Technical Objective 2 in our approach to computing multiplicative inverses. In fact, we ultimately abandoned Objectives 2 and 3 altogether for reasons having to do with our business, not research difficulties.\n\n\nThe direction of our work changed dramatically as a result of a radical change in the direction of our business. Our customer discovery process did not validate our hypothesis of the existence of a market of traditional institutions in Web2 for FHE-based privacy-preserving inference; on the contrary, we received evidence of major obstacles to the creation of such a market. With the counsel of our NSF advisors and our Program Director, L-Infinity Labs decided to begin a process of reorienting its business vision and research agenda beginning in December 2023.\n\n\nThe result of our pivot is that we are now pursuing a far more expansive vision of building a blockchain-based Private Smart Contract Platform, essentially a general infrastructure for private outsourced computing. This direction has far better likelihood of market adoption, far better scaling and revenue potential, and has placed us in a much better position to attract funding from Venture Capital. It also implies a Research and Development plan that subsumes our original plan.\n\n\nEssentially we have determined a way to combine two forms of modern cryptography, FHE and Zero Knowledge Proofs (ZK), in order to achieve a critical capability to make private outsourced computing secure and efficient, which is Verifiable FHE: proof that an FHE program has been executed correctly. Today this is considered to be another holy-grail technology far out of reach of current ZK technology. Our research has revealed a way to combine certain novel techniques in the ZK literature in order to achieve a 3-4 order of magnitude improvement in proof generation time, which will make Verifiable FHE a practical reality we can achieve within about a year. Concretely, what we have been able to achieve during this grant period is we have built a prototype implementation of LatticeFold, a novel ZK folding scheme based on similar lattice cryptography as FHE. LatticeFold is ideally suited for faster proof generation for FHE operations.\n\n\nOur next task is to demonstrate the use of LatticeFold to prove the bootstrapping operation in Zamas TFHE library. Zama is an open source cryptography company building state-of-the-art FHE solutions for blockchain and AI. Their team managed to generate a Proof-of-Bootstrap in about 30 minutes (48 minutes on consumer hardware, 18 minutes on an expensive AWS configuration). If we can generate this proof in under a second, we should be able to raise a Series A round sufficient to build a team capable of launching the first version of our proposed network. We have not abandoned our original vision, though. We believe that privacy-preserving inference and other machine learning tasks with privacy will be important use cases on our platform, and we wish to carry out our original SBIR research plan, just at a later stage of our company.\t\t\t\t\tLast Modified: 10/11/2024\n\n\t\t\t\t\tSubmitted by: DanielRubin\n"
+ }
+}

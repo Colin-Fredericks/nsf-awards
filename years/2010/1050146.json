@@ -1,0 +1,101 @@
+{
+ "awd_id": "1050146",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Adaptive Source Routing on GENI",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Joseph Lyles",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2013-08-31",
+ "tot_intn_awd_amt": 135000.0,
+ "awd_amount": 135000.0,
+ "awd_min_amd_letter_date": "2010-08-14",
+ "awd_max_amd_letter_date": "2010-08-14",
+ "awd_abstract_narration": "Source controlled routing, where the edges of the network have some control over the paths taken by their packets, is a promising technique to improve network reliability and path quality. However, past studies of source-controlled routing algorithms have been based on overlay networks rather than via direct control of switches or routers---despite the performance-sensitive nature of these systems.\r\n\r\nThis EAGER project is studying adaptive multipath, source-routing algorithms to improve performance for real-time applications. The experiments use GENI Alpha, which provides a unique combination of coexistence with real traffic and deep programmability, which are essential to obtain accurate results in these experiments.  Thus, the results of this project will develop novel, practical and experimentally-grounded techniques to improve reliability and path quality, and it will quantitatively demonstrate the value of experimenting on GENI infrastructure by comparing with overlay-based experiments.  Results will be disseminated through publications, presentations, and demos of the software.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Philip",
+   "pi_last_name": "Godfrey",
+   "pi_mid_init": "B",
+   "pi_sufx_name": "",
+   "pi_full_name": "Philip B Godfrey",
+   "pi_email_addr": "pbg@illinois.edu",
+   "nsf_id": "000537388",
+   "pi_start_date": "2010-08-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S WRIGHT ST",
+  "perf_city_name": "URBANA",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 135000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Many of the limitations of today&rsquo;s Internet lie in interdomain routing&mdash;the system which controls the paths that data packets take as they travel across the Internet. &nbsp;These problems include unreliability, inefficiency, and a general lack of flexibility. &nbsp;One way to address these problems is through a technique called source-controlled routing, which yields more flexible routing. &nbsp;Past proposals designed feasible, policy-compliant architectures for Internet-wide source-controlled routing but had not experimentally demonstrated how this newfound flexibility could be put to work, in the face of network dynamics and with direct control of switches and routers.<br /><br />This project funded experiments on the NSF GENI infrastructure which demonstrated the effectiveness of source-controlled routing. We implemented a prototype of pathlet routing, a future Internet routing and forwarding architecture which enables flexible policy-compliant source-controlled routing. &nbsp;On top of this substrate, we experimented with adaptive multipath source-controlled routing algorithms to improve performance for real-time applications and weather &ldquo;storms&rdquo; or attacks on the network. The GENI infrastructure made these experiments possible via a broad slate of experimental servers and OpenFlow-capable routers. &nbsp;The project produced a live demo of the developed techniques at the 9th GENI Engineering Conference (GEC9).<br /><br />A major contribution of the project was to further develop the most promising technique studied in the early phase of the project: using redundant transmission of data (across multiple paths, or to multiple servers) to reduce latency. Our initial work looked at using redundant multipath routing: by sending packets over two paths, the receiver can use whichever ones arrive first. Any problem on just one path, such as congestion, is masked. &nbsp;This technique leads to overhead (duplicated work), but intuitively, although this uses extra capacity to send duplicate packets, capacity is relatively cheap in many cases while improving latency is extremely valuable. Our theoretical and experimental results (funded in part by this project) bore this out, demonstrating that the benefits outweigh the costs in many cases. &nbsp;We applied this technique to a number of systems. &nbsp;In storage systems on Amazon EC2, our techniques yield 2x lower mean request latency and 8x lower 99.9th perecentile latency. &nbsp;Applied to the Domain Name System (DNS), a major contributor to web page load time, we obtained roughly 2x lower mean latency.<br /><br />The project enabled PhD and undergraduate students to obtain significant practical experience in systems and networking research. &nbsp;It produced publications at top venues, including ACM HotNets 2012 and ACM CoNEXT 2013. &nbsp;Techniques developed in this project have been implemented by a network acceleration startup company, and we are now preparing a software release of our own.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/17/2013<br>\n\t\t\t\t\tModified by: Philip Brighten&nbsp;Godfrey</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMany of the limitations of today\u00c6s Internet lie in interdomain routing&mdash;the system which controls the paths that data packets take as they travel across the Internet.  These problems include unreliability, inefficiency, and a general lack of flexibility.  One way to address these problems is through a technique called source-controlled routing, which yields more flexible routing.  Past proposals designed feasible, policy-compliant architectures for Internet-wide source-controlled routing but had not experimentally demonstrated how this newfound flexibility could be put to work, in the face of network dynamics and with direct control of switches and routers.\n\nThis project funded experiments on the NSF GENI infrastructure which demonstrated the effectiveness of source-controlled routing. We implemented a prototype of pathlet routing, a future Internet routing and forwarding architecture which enables flexible policy-compliant source-controlled routing.  On top of this substrate, we experimented with adaptive multipath source-controlled routing algorithms to improve performance for real-time applications and weather \"storms\" or attacks on the network. The GENI infrastructure made these experiments possible via a broad slate of experimental servers and OpenFlow-capable routers.  The project produced a live demo of the developed techniques at the 9th GENI Engineering Conference (GEC9).\n\nA major contribution of the project was to further develop the most promising technique studied in the early phase of the project: using redundant transmission of data (across multiple paths, or to multiple servers) to reduce latency. Our initial work looked at using redundant multipath routing: by sending packets over two paths, the receiver can use whichever ones arrive first. Any problem on just one path, such as congestion, is masked.  This technique leads to overhead (duplicated work), but intuitively, although this uses extra capacity to send duplicate packets, capacity is relatively cheap in many cases while improving latency is extremely valuable. Our theoretical and experimental results (funded in part by this project) bore this out, demonstrating that the benefits outweigh the costs in many cases.  We applied this technique to a number of systems.  In storage systems on Amazon EC2, our techniques yield 2x lower mean request latency and 8x lower 99.9th perecentile latency.  Applied to the Domain Name System (DNS), a major contributor to web page load time, we obtained roughly 2x lower mean latency.\n\nThe project enabled PhD and undergraduate students to obtain significant practical experience in systems and networking research.  It produced publications at top venues, including ACM HotNets 2012 and ACM CoNEXT 2013.  Techniques developed in this project have been implemented by a network acceleration startup company, and we are now preparing a software release of our own.\n\n\t\t\t\t\tLast Modified: 12/17/2013\n\n\t\t\t\t\tSubmitted by: Philip Brighten Godfrey"
+ }
+}

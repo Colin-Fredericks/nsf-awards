@@ -1,0 +1,105 @@
+{
+ "awd_id": "1320211",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: High-performance Data Plane Kernels for Software Defined Networking",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 400000.0,
+ "awd_amount": 400000.0,
+ "awd_min_amd_letter_date": "2013-08-26",
+ "awd_max_amd_letter_date": "2013-08-26",
+ "awd_abstract_narration": "As the use of elastic cloud architectures and mobile computing systems increases, the need for an additional layer of software based networking arises. The research community has proposed open standards to specify network services without coupling specifications with network interfaces, referred to as Software Defined Networking (SDN). Such a software layer can improve the performance of network routers and switches. As demands due to network security increase, aggregation of traffic from diverse applications including high performance computing will further require novel solutions for the data plane.\r\n\r\nThis project explores hardware as well as software-based solutions to optimize the SDN data plane with respect to latency, throughput, and power efficiency. The work investigates novel algorithms, data structures, and architectures that exploit state-of-the-art technologies including heterogeneous multi-processor system-on-chip architectures, multi/many-core processors, and Programmable Gate Arrays to realize flexible designs for data plane kernels and understand performance tradeoffs. Novel solutions based on hashing and data structures for large-scale IP lookup as well as parallel solutions for multi-field packet classification to support high performance will be developed. The work also develops new techniques for network virtualization and data aggregation using hybrid trees and virtual engines to achieve high performance on various platforms. The broader impact of the project includes providing a flexible and scalable solution for a high performance Internet backbone to support next generation networking.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Viktor",
+   "pi_last_name": "Prasanna",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Viktor K Prasanna",
+   "pi_email_addr": "prasanna@usc.edu",
+   "nsf_id": "000209825",
+   "pi_start_date": "2013-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "3720 S. Flower Street",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900890071",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "CA37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794200",
+   "pgm_ele_name": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 400000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span class=\"im\">Classification is a fundamental task in computer science and electrical engineering, that directly impacts the backbone of the Internet. It forms an important kernel of Software Defined Networking (SDN), that focuses on separating the control plane of the network, which decides how packets should flow through the network, from the data plane of the network, which actually moves packets. To bridge the gap between the software-based control plane and the hardware-accelerated data plane, this project developed high-level performance models for implementation of SDN data plane. Vector algorithms, online performance data collection, and hybrid data structures were utilized to simultaneously improve the scalability and throughput, reduce the processing latency, and increase the power-efficiency.<br /><br /></span><span>The project targeted state-of-the-art accelerators, multi/many-core processors as well as hybrid architectures for experimental evaluation. The multi-core packet classification achieved 13x throughput compared to the classic implementation. For heterogeneous platforms, the tasks were&nbsp;intelligently distributed between CPU and accelerator while reducing data communication overhead, that achieved 2x speed-up compared to state-of-the-art multi-core processor based design. The power-efficient implementation on state-of-the-art accelerator was able to sustain high throughput while consuming only 30% of the power compared to non-optimized design. The project also resulted in optimizations in (i) \"set-intersection\" which benefits several network processing tasks, such as Quality of Service differentiation, firewall processing, and packet/traffic classification; and (ii) reduction in \"interconnection complexity\" that decreases the communication between two consecutive stages of pipelines of parallel architectures, thus accelerating SDN and OpenFlow applications. The proposed design technique reduced interconnection complexity by 27.3% to 75.8%, and improved the throughput by 5.3% to 129% and the energy efficiency by 1.2x to 3.5x compared to the state-of-the-art.</span><span class=\"im\"><br /><br />The broader impacts of the project include the productive use of emerging class of highly parallel computer systems for next generation networking; training of graduate and undergraduate students; and dissemination of research through publications, presentations at scientific meetings and lectures. The project developed a number of optimizations exploiting the emerging class of hardware architectures with respect to scalability, latency, throughput and power. These performance optimizations are applicable to other networking applications, providing various techniques to the larger community addressing problems for the next generation Internet. The high-level abstractions in terms of hardware capability are of great interest to both hardware and software research communities, and can be used to map the solutions to other emerging fields such as data center networks and applications.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/24/2017<br>\n\t\t\t\t\tModified by: Viktor&nbsp;K&nbsp;Prasanna</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nClassification is a fundamental task in computer science and electrical engineering, that directly impacts the backbone of the Internet. It forms an important kernel of Software Defined Networking (SDN), that focuses on separating the control plane of the network, which decides how packets should flow through the network, from the data plane of the network, which actually moves packets. To bridge the gap between the software-based control plane and the hardware-accelerated data plane, this project developed high-level performance models for implementation of SDN data plane. Vector algorithms, online performance data collection, and hybrid data structures were utilized to simultaneously improve the scalability and throughput, reduce the processing latency, and increase the power-efficiency.\n\nThe project targeted state-of-the-art accelerators, multi/many-core processors as well as hybrid architectures for experimental evaluation. The multi-core packet classification achieved 13x throughput compared to the classic implementation. For heterogeneous platforms, the tasks were intelligently distributed between CPU and accelerator while reducing data communication overhead, that achieved 2x speed-up compared to state-of-the-art multi-core processor based design. The power-efficient implementation on state-of-the-art accelerator was able to sustain high throughput while consuming only 30% of the power compared to non-optimized design. The project also resulted in optimizations in (i) \"set-intersection\" which benefits several network processing tasks, such as Quality of Service differentiation, firewall processing, and packet/traffic classification; and (ii) reduction in \"interconnection complexity\" that decreases the communication between two consecutive stages of pipelines of parallel architectures, thus accelerating SDN and OpenFlow applications. The proposed design technique reduced interconnection complexity by 27.3% to 75.8%, and improved the throughput by 5.3% to 129% and the energy efficiency by 1.2x to 3.5x compared to the state-of-the-art.\n\nThe broader impacts of the project include the productive use of emerging class of highly parallel computer systems for next generation networking; training of graduate and undergraduate students; and dissemination of research through publications, presentations at scientific meetings and lectures. The project developed a number of optimizations exploiting the emerging class of hardware architectures with respect to scalability, latency, throughput and power. These performance optimizations are applicable to other networking applications, providing various techniques to the larger community addressing problems for the next generation Internet. The high-level abstractions in terms of hardware capability are of great interest to both hardware and software research communities, and can be used to map the solutions to other emerging fields such as data center networks and applications.\n\n\t\t\t\t\tLast Modified: 10/24/2017\n\n\t\t\t\t\tSubmitted by: Viktor K Prasanna"
+ }
+}

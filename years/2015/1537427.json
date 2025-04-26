@@ -1,0 +1,109 @@
+{
+ "awd_id": "1537427",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Parametric Cost Function Approximations for Robust Energy Systems Planning",
+ "cfda_num": "47.041",
+ "org_code": "07030000",
+ "po_phone": "7032922443",
+ "po_email": "gaklutke@nsf.gov",
+ "po_sign_block_name": "Georgia-Ann Klutke",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 250000.0,
+ "awd_amount": 250000.0,
+ "awd_min_amd_letter_date": "2015-08-23",
+ "awd_max_amd_letter_date": "2015-08-23",
+ "awd_abstract_narration": "The transition to a grid where an increasing portion of our energy comes from wind and solar energy is requiring that the grid operators develop a planning process that can handle a much higher level of uncertainty than is encountered today.  Current tools have been criticized as ad-hoc procedures that consist of optimizing around a deterministic forecast, leaving the grid vulnerable to unexpected variations.  Proposed \"stochastic models\" are much harder to solve, and grid operators still struggle to solve their existing deterministic models.  Existing industry practice, while ad-hoc, actually represents a simple example of a powerful class of policies called \"parametric cost function approximations.\" that has received virtually no attention from the academic literature.  This research builds on the core strategy in use today, but blends the capabilities of existing commercial optimization solvers for deterministic models with the power of machine learning algorithms.  The work will formalize existing industry practice, providing an implementable path to handling uncertainty which will provide a way for grid operators to naturally handle the steady increase in energy from wind and solar.\r\n\r\nThe research proposes an algorithmic strategy that represents a fundamental departure from the field of stochastic programming, which handles uncertainty through the solution of stochastic look-ahead policies where the future is represented using a set of sampled realizations (scenarios).  This research introduces a new class of policies called parametric cost function approximations.  These are parametrically modified deterministic optimization problems which are optimized to minimize cost and risk, just as any machine learning model is optimized to fit data.  This strategy blends the power of high-dimensional statistical learning with math programming and stochastic gradient methods, which form the basis of a feedback learning algorithm for identifying the best objective function to achieve the objectives of the ISO.  Both offline and online versions of the algorithm will be developed, so policies can be tuned in a simulator (offline) but then continually adapted in production (online).",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CMMI",
+ "org_div_long_name": "Division of Civil, Mechanical, and Manufacturing Innovation",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Warren",
+   "pi_last_name": "Powell",
+   "pi_mid_init": "B",
+   "pi_sufx_name": "",
+   "pi_full_name": "Warren B Powell",
+   "pi_email_addr": "powell@princeton.edu",
+   "nsf_id": "000235751",
+   "pi_start_date": "2015-08-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Princeton University",
+  "inst_street_address": "1 NASSAU HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "PRINCETON",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "6092583090",
+  "inst_zip_code": "085442001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "THE TRUSTEES OF PRINCETON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NJ1YPQXQG7U5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": "204 Sherrerd Hall",
+  "perf_city_name": "Princeton",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085442020",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "006Y00",
+   "pgm_ele_name": "OE Operations Engineering"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "076E",
+   "pgm_ref_txt": "SERVICE ENTERPRISE SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "078E",
+   "pgm_ref_txt": "ENTERPRISE DESIGN & LOGISTICS"
+  },
+  {
+   "pgm_ref_code": "8023",
+   "pgm_ref_txt": "Health Care Enterprise Systems"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 250000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>We use the context of a complex but realistic energy storage system (illustrated in figure 1) to manage the variability of renewables by combining the free (but uncertain) energy from a renewable source (wind, solar or a combination), the grid (unlimited energy, but at highly uncertain prices) to serve an uncertain, but relatively predictable, load of a building, community or region.&nbsp; Balancing the variability is a single storage device (or a fleet of devices managed jointly).</p>\n<p>We assume that a series of rolling forecasts are available for the energy from the renewable source.&nbsp; We create problems where the forecasts may be perfect, or highly uncertain.&nbsp; We then do our planning using a classical lookahead policy (similar to google maps planning a path to the destination), given in figure 3.&nbsp; The lookahead model factors the forecast (in red rectangle) by a parameter theta that is different depending on how many hours we are forecasting into the future.</p>\n<p>Given these parameters, the policy is easy to compute.&nbsp; The problem is determining the parameters.&nbsp; Figures 4 and 5 show the effect of varying the parameters for different numbers of hours into the future for perfect forecasts (Figure 4) and uncertain forecasts (Figure 5).&nbsp; When the forecasts are perfect, the parameters should equal 1 (as we would expect).&nbsp; But as the forecasts become uncertain, the parameters move away from 1.&nbsp; The result is improvements in the performance by 30 to 60 percent.&nbsp;</p>\n<p>The remaining research challenge is tuning these parameters.&nbsp; Figure 6 illustrates the performance of the policy while varying two parameters at a time, showing how they interact.&nbsp; The surface shows ridges that will be difficult to optimize over (especially in higher dimensions).&nbsp; Not shown is the high level of uncertainty in the evaluation of policies, which further complicates the process.&nbsp; However, parameter search is a well-known challenge which has attracted considerable attention from the research community.&nbsp; While certainly a challenge, the result will be a well-understood policy that is easy to use in practice.&nbsp;</p>\n<p>This is a general idea that can be applied to a wide range of complex problems spanning energy, transportation, health and e-commerce.&nbsp; Parameterized policies have not received much attention from the academic research literature, but are widely used in practice.&nbsp; We hope this research will draw greater attention to this powerful approach to making decisions under uncertainty.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/10/2019<br>\n\t\t\t\t\tModified by: Warren&nbsp;B&nbsp;Powell</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837530084_Figure1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837530084_Figure1--rgov-800width.jpg\" title=\"Energy storage system\"><img src=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837530084_Figure1--rgov-66x44.jpg\" alt=\"Energy storage system\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Energy system with inputs from renewable source (stochastic supply), grid (stochastic price) and load (time varying demand).</div>\n<div class=\"imageCredit\">Warren Powell</div>\n<div class=\"imagePermisssions\">Royalty-free (unrestricted use)</div>\n<div class=\"imageSubmitted\">Warren&nbsp;B&nbsp;Powell</div>\n<div class=\"imageTitle\">Energy storage system</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837821137_Figure2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837821137_Figure2--rgov-800width.jpg\" title=\"Rolling forecasts\"><img src=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837821137_Figure2--rgov-66x44.jpg\" alt=\"Rolling forecasts\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Rolling forecasts of wind (black is actual) showing the change in forecasts over time.</div>\n<div class=\"imageCredit\">Warren Powell</div>\n<div class=\"imagePermisssions\">Royalty-free (unrestricted use)</div>\n<div class=\"imageSubmitted\">Warren&nbsp;B&nbsp;Powell</div>\n<div class=\"imageTitle\">Rolling forecasts</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837922711_Figure3--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837922711_Figure3--rgov-800width.jpg\" title=\"Lookahead policy\"><img src=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549837922711_Figure3--rgov-66x44.jpg\" alt=\"Lookahead policy\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">A parameterized lookahead policy, where forecasts are factored by a tunable parameter theta to adapt to uncertainty</div>\n<div class=\"imageCredit\">Warren Powell</div>\n<div class=\"imagePermisssions\">Royalty-free (unrestricted use)</div>\n<div class=\"imageSubmitted\">Warren&nbsp;B&nbsp;Powell</div>\n<div class=\"imageTitle\">Lookahead policy</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549838159457_Figure4--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549838159457_Figure4--rgov-800width.jpg\" title=\"Effect of parameterization-Deterministic forecast\"><img src=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549838159457_Figure4--rgov-66x44.jpg\" alt=\"Effect of parameterization-Deterministic forecast\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The effect of varying the forecast factor for forecasts 1, 2, ..., 9 hours into the future, when forecasts are perfect</div>\n<div class=\"imageCredit\">Warren Powell</div>\n<div class=\"imagePermisssions\">Royalty-free (unrestricted use)</div>\n<div class=\"imageSubmitted\">Warren&nbsp;B&nbsp;Powell</div>\n<div class=\"imageTitle\">Effect of parameterization-Deterministic forecast</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549839020952_Figure5--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549839020952_Figure5--rgov-800width.jpg\" title=\"Effect of parameterization-uncertain forecast\"><img src=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549839020952_Figure5--rgov-66x44.jpg\" alt=\"Effect of parameterization-uncertain forecast\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The effect of changing the parameterization of forecasts for 1, .., 9 hours into the future when the forecast is uncertain.</div>\n<div class=\"imageCredit\">Warren Powell</div>\n<div class=\"imagePermisssions\">Royalty-free (unrestricted use)</div>\n<div class=\"imageSubmitted\">Warren&nbsp;B&nbsp;Powell</div>\n<div class=\"imageTitle\">Effect of parameterization-uncertain forecast</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549839197474_Figure6--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549839197474_Figure6--rgov-800width.jpg\" title=\"Two-dimensional response surface plots\"><img src=\"/por/images/Reports/POR/2019/1537427/1537427_10390814_1549839197474_Figure6--rgov-66x44.jpg\" alt=\"Two-dimensional response surface plots\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Each plot shows the response surface of the performance of the policy while varying the parameterizations for two different hours into the future</div>\n<div class=\"imageCredit\">Warren Powell</div>\n<div class=\"imageSubmitted\">Warren&nbsp;B&nbsp;Powell</div>\n<div class=\"imageTitle\">Two-dimensional response surface plots</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nWe use the context of a complex but realistic energy storage system (illustrated in figure 1) to manage the variability of renewables by combining the free (but uncertain) energy from a renewable source (wind, solar or a combination), the grid (unlimited energy, but at highly uncertain prices) to serve an uncertain, but relatively predictable, load of a building, community or region.  Balancing the variability is a single storage device (or a fleet of devices managed jointly).\n\nWe assume that a series of rolling forecasts are available for the energy from the renewable source.  We create problems where the forecasts may be perfect, or highly uncertain.  We then do our planning using a classical lookahead policy (similar to google maps planning a path to the destination), given in figure 3.  The lookahead model factors the forecast (in red rectangle) by a parameter theta that is different depending on how many hours we are forecasting into the future.\n\nGiven these parameters, the policy is easy to compute.  The problem is determining the parameters.  Figures 4 and 5 show the effect of varying the parameters for different numbers of hours into the future for perfect forecasts (Figure 4) and uncertain forecasts (Figure 5).  When the forecasts are perfect, the parameters should equal 1 (as we would expect).  But as the forecasts become uncertain, the parameters move away from 1.  The result is improvements in the performance by 30 to 60 percent. \n\nThe remaining research challenge is tuning these parameters.  Figure 6 illustrates the performance of the policy while varying two parameters at a time, showing how they interact.  The surface shows ridges that will be difficult to optimize over (especially in higher dimensions).  Not shown is the high level of uncertainty in the evaluation of policies, which further complicates the process.  However, parameter search is a well-known challenge which has attracted considerable attention from the research community.  While certainly a challenge, the result will be a well-understood policy that is easy to use in practice. \n\nThis is a general idea that can be applied to a wide range of complex problems spanning energy, transportation, health and e-commerce.  Parameterized policies have not received much attention from the academic research literature, but are widely used in practice.  We hope this research will draw greater attention to this powerful approach to making decisions under uncertainty.\n\n \n\n\t\t\t\t\tLast Modified: 02/10/2019\n\n\t\t\t\t\tSubmitted by: Warren B Powell"
+ }
+}

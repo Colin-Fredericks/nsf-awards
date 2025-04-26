@@ -1,0 +1,142 @@
+{
+ "awd_id": "0090217",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Synthesis of Block-recursive Codes for Deep Memory Hierarchies",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Xiaodong Zhang",
+ "awd_eff_date": "2001-06-01",
+ "awd_exp_date": "2004-05-31",
+ "tot_intn_awd_amt": 548314.0,
+ "awd_amount": 548314.0,
+ "awd_min_amd_letter_date": "2001-06-05",
+ "awd_max_amd_letter_date": "2003-04-14",
+ "awd_abstract_narration": "Modern computers have multi-level memory hierarchies in which the cost of data access may increase by an order of magnitude or more from one level to the next. On these machines, a program that touches a large amount of data runs well only if it exhibits locality - that is, if most of its references are satisfied by the highest level of the memory hierarchy. Unfortunately, many programs do not exhibit locality.\r\n\r\nFor 2-level memory hierarchies, the numerical linear algebra community has addressed the problem by implementing libraries of blocked codes such as LAPACK. For multi-level memory hierarchies, they are developing libraries of block-recursive algorithms. \r\n\r\nThe problem with any library is that it is not general-purpose - for example, the BLAS and LAPACK libraries cannot be used for obtaining good performance on finite-difference codes. This research will develop a general-purpose restructuring compiler for synthesizing block-recursive codes from standard iterative ones. The compiler is general-purpose in the sense that in principle, it can restructure any program in which dense arrays are accessed by affine array references. The technology proposed  has already been used successfully to restructure iterative codes into LAPACK-style blocked codes.\r\n\r\nThe approach to be taken consists of:\r\n\r\n--- converting the problem of generating code that touches data in a block-recursive order into the problem of generating code that walks over a certain iteration space called the product space in a block-recursive or space-filling order. This enables standard techniques from dependence analysis to be used to synthesize the appropriate restructuring transformations.\r\n\r\n- switching to an iterative code once the problem size becomes small enough. The threshold problem size at which this transition should happen may be difficult to determine analytically. In our system, the compiler will estimate this size using a simple abstraction of the underlying machine architecture. For frequently used codes however, the system will use a new approach called empirical optimization - whenever there are free cycles on the machine, our system will experiment with different threshold values, remember the best threshold value for each input size, and use that value when that code is run again.\r\n\r\n- developing a symbolic analysis technique called fractal symbolic analysis for verifying the legality of transformations on codes like LU with pivoting (since it is well-known that dependence analysis is inadequate for restructuring codes such as LU factorization with pivoting). However, it is not yet known how to synthesize the right locality-enhancing transformations from information provided by fractal symbolic analysis. Such techniques will be developed and integrated with dependence-based techniques. \r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Keshav",
+   "pi_last_name": "Pingali",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Keshav Pingali",
+   "pi_email_addr": "pingali@cs.utexas.edu",
+   "nsf_id": "000101776",
+   "pi_start_date": "2001-06-05",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Paul",
+   "pi_last_name": "Stodghill",
+   "pi_mid_init": "V",
+   "pi_sufx_name": "",
+   "pi_full_name": "Paul V Stodghill",
+   "pi_email_addr": "stodghil@cs.cornell.edu",
+   "nsf_id": "000205909",
+   "pi_start_date": "2001-06-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Cornell University",
+  "inst_street_address": "341 PINE TREE RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "ITHACA",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6072555014",
+  "inst_zip_code": "148502820",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "NY19",
+  "org_lgl_bus_name": "CORNELL UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G56PUALJ3KT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Cornell University",
+  "perf_str_addr": "341 PINE TREE RD",
+  "perf_city_name": "ITHACA",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "148502820",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "NY19",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "408000",
+   "pgm_ele_name": "ADVANCED COMP RESEARCH PROGRAM"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "4080",
+   "pgm_ref_txt": "ADVANCED COMP RESEARCH PROGRAM"
+  },
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0101",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "app-0101",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0102",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0102",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0103",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0103",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2001,
+   "fund_oblg_amt": 172824.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2002,
+   "fund_oblg_amt": 182615.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2003,
+   "fund_oblg_amt": 192875.0
+  }
+ ],
+ "por": null
+}

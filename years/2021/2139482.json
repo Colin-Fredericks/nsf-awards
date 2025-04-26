@@ -1,0 +1,101 @@
+{
+ "awd_id": "2139482",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "A control-theoretic approach to distributed optimization",
+ "cfda_num": "47.041",
+ "org_code": "07010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anthony Kuh",
+ "awd_eff_date": "2021-07-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 380003.0,
+ "awd_amount": 191791.0,
+ "awd_min_amd_letter_date": "2021-07-08",
+ "awd_max_amd_letter_date": "2021-07-08",
+ "awd_abstract_narration": "Optimization arises naturally in a variety of areas, such as managing wireless spectrum utilization, efficiently distributing power in the electrical grid, or solving machine learning problems. The scale of such applications has been steadily growing, often forcing data to be processed in different physical locations linked via a communication network. The ensuing computational task is mediated by distributed optimization algorithms that carefully orchestrate a combination of local computations and global synchronization with the other computing nodes. These distributed algorithms are critical in ensuring the safety, reliability, efficiency, and performance of large-scale systems. This project aims to develop a systematic approach for analyzing and designing such distributed algorithms. \r\n\r\nThis project will view distributed optimization algorithms as dynamical systems with feedback; decisions made at a given time affect the state of the system at future times, and therefore affect future decisions, and so on. The advantage of this viewpoint is that it allows one to leverage tools and methodology from control theory, which is a well established engineering discipline used in the design of modern safety-critical systems such as aircraft, automobiles, and industrial plants. Applying these sophisticated tools to distributed optimization algorithms will allow us to move away from conventional incremental design methods and has the potential to be highly transformative. It will lead to better distributed algorithms, but also more principled and automated design methods that can allow algorithms to be directly synthesized and specialized for the task at hand.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "ECCS",
+ "org_div_long_name": "Division of Electrical, Communications and Cyber Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Laurent",
+   "pi_last_name": "Lessard",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Laurent Lessard",
+   "pi_email_addr": "l.lessard@northeastern.edu",
+   "nsf_id": "000718272",
+   "pi_start_date": "2021-07-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Northeastern University",
+  "inst_street_address": "360 HUNTINGTON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173735600",
+  "inst_zip_code": "021155005",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "NORTHEASTERN UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HLTMVS2JZBS6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Northeastern University",
+  "perf_str_addr": "",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021155005",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "760700",
+   "pgm_ele_name": "EPCN-Energy-Power-Ctrl-Netwrks"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "092E",
+   "pgm_ref_txt": "Control systems & applications"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0119",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001920DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2019,
+   "fund_oblg_amt": 191791.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project concerned the broad field of \"distributed optimization\". In distributed optimization, a network of \"agents\" work collaboratively to solve an optimization problem. Here, the agents can be robots, drones, mobile sensors, or servers on a computer network. Each agent collects data, can perform computations, and can communicate with some of the other agents. The goal is to solve a large-scale optimization problem that involves all the agents' data, but without having to send all the data to a central computer. Algorithms that perform distributed optimization must (1) achieve consensus (all agents eventually agree on the solution) and (2) optimality (the solution the agents agree upon solves the desired optimization problem). There is a plethora of algorithms available to solve this problem, each validated and compared through a combination of theoretical guarantees and empirical studies, typically on a case-by-case basis. This project aimed to apply tools from robust control theory to unify the analysis and design of distributed optimization algorithms. Specifically, we treated the distribution of data (the global objective function to be optimized) and the communication network (which agents can communicate with one another) as bounded uncertainties characterized by integral quadratic constraints (IQCs).</p>\n<p>Our first outcome was a plug-and-play framework for evaluating the performance of distributed optimization algorithms. This allowed for the rapid and automated evaluation of the worst-case performance of different proposed algorithms under different functions and networks, all without the need for time-consuming and unreliable empirical simulations. We found that different existing algorithms performed better under different circumstances (assumptions about the functions or the communication network). We were able to quantify precisely when which algorithm should be used. The attached Fig. 1 shows how the worst-case convergence rate of different algorithms varies for a given function class as the network becomes more sparsely connected. Our automated analysis framework enables a principled and systematic approach to algorithm design. Using our analysis, we designed a new algorithm, which we called SVL, that outperformed all known algorithms for any function and network class. SVL is shown in Fig. 1 as well. SVL is also efficient, requiring only one gradient evaluation and one round of communication per iteration, which are the minimum amounts.</p>\n<p>Our second outcome was a deeper understanding of the structure of distributed optimization algorithms. As previously mentioned, distributed optimization algorithms must achieve both \"consensus\" and \"optimality\". There is a broad literature on algorithms that perform either separately, distributed consensus algorithms or centralized optimization algorithms, but little was known about how to combine them. We were able to show a striking result: given any pair of algorithms that perform distributed consensus and centralized optimization, respectively, there is a way to combine them into an algorithm that performs distributed optimization. Conversely, any distributed algorithm can be split into separate algorithms that perform consensus and optimization when used in isolation. This structural result is illustrated in Fig. 2. Our result suggests that it might be possible to leverage the established knowledge on both consensus and optimization algorithms to inform the design of the next generation of distributed optimization algorithms.</p>\n<p>The third outcome of our project extends beyond distributed optimization to a broader impact in the field of algorithm analysis and design. The ad-hoc analysis and design of algorithms isn&rsquo;t exclusive to distributed optimization; it is observed with many other algorithm types across many disciplines. The technique we pioneered to analyze distributed optimization algorithms generalizes to a variety of other iterative algorithms. Recent works have found success in using similar techniques to ours to analyze stochastic algorithms, operator splitting methods, and primal-dual algorithms. Such algorithms are widely used in other fields, such as machine learning, signal processing, and numerical analysis. Thus, there is promise that the work stemming from this project will further impact how algorithms are analyzed and designed across all engineering and applied mathematics.</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 01/29/2024<br>\nModified by: Laurent&nbsp;Lessard</p></div>\n<div class=\"porSideCol\"\n><div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2024/2139482/2139482_10633677_1706554001697_fig1--rgov-214x142.png\" original=\"/por/images/Reports/POR/2024/2139482/2139482_10633677_1706554001697_fig1--rgov-800width.png\" title=\"Worst case convergence rate of different distributed optimization algorithms\"><img src=\"/por/images/Reports/POR/2024/2139482/2139482_10633677_1706554001697_fig1--rgov-66x44.png\" alt=\"Worst case convergence rate of different distributed optimization algorithms\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Fig 1: Comparison of worst-case convergence rates of different distributed optimization algorithms as a function of graph spectral gap, certified using a robust control approach. Our proposed algorithm, SVL, provably outperforms existing algorithms.</div>\n<div class=\"imageCredit\">Laurent Lessard</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Laurent&nbsp;Lessard\n<div class=\"imageTitle\">Worst case convergence rate of different distributed optimization algorithms</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2024/2139482/2139482_10633677_1706554309916_fig2--rgov-214x142.png\" original=\"/por/images/Reports/POR/2024/2139482/2139482_10633677_1706554309916_fig2--rgov-800width.png\" title=\"Decomposition block diagram of a distributed optimization algorithm\"><img src=\"/por/images/Reports/POR/2024/2139482/2139482_10633677_1706554309916_fig2--rgov-66x44.png\" alt=\"Decomposition block diagram of a distributed optimization algorithm\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Fig 2: Block diagram showing how an arbitrary distributed optimization algorithm can be decomposed as a second-order consensus estimator in feedback with the graph Laplacian L, which is then in feedback with a centralized optimization method and the gradients of the local functions.</div>\n<div class=\"imageCredit\">Laurent Lessard</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Laurent&nbsp;Lessard\n<div class=\"imageTitle\">Decomposition block diagram of a distributed optimization algorithm</div>\n</div>\n</li></ul>\n</div>\n</div></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project concerned the broad field of \"distributed optimization\". In distributed optimization, a network of \"agents\" work collaboratively to solve an optimization problem. Here, the agents can be robots, drones, mobile sensors, or servers on a computer network. Each agent collects data, can perform computations, and can communicate with some of the other agents. The goal is to solve a large-scale optimization problem that involves all the agents' data, but without having to send all the data to a central computer. Algorithms that perform distributed optimization must (1) achieve consensus (all agents eventually agree on the solution) and (2) optimality (the solution the agents agree upon solves the desired optimization problem). There is a plethora of algorithms available to solve this problem, each validated and compared through a combination of theoretical guarantees and empirical studies, typically on a case-by-case basis. This project aimed to apply tools from robust control theory to unify the analysis and design of distributed optimization algorithms. Specifically, we treated the distribution of data (the global objective function to be optimized) and the communication network (which agents can communicate with one another) as bounded uncertainties characterized by integral quadratic constraints (IQCs).\n\n\nOur first outcome was a plug-and-play framework for evaluating the performance of distributed optimization algorithms. This allowed for the rapid and automated evaluation of the worst-case performance of different proposed algorithms under different functions and networks, all without the need for time-consuming and unreliable empirical simulations. We found that different existing algorithms performed better under different circumstances (assumptions about the functions or the communication network). We were able to quantify precisely when which algorithm should be used. The attached Fig. 1 shows how the worst-case convergence rate of different algorithms varies for a given function class as the network becomes more sparsely connected. Our automated analysis framework enables a principled and systematic approach to algorithm design. Using our analysis, we designed a new algorithm, which we called SVL, that outperformed all known algorithms for any function and network class. SVL is shown in Fig. 1 as well. SVL is also efficient, requiring only one gradient evaluation and one round of communication per iteration, which are the minimum amounts.\n\n\nOur second outcome was a deeper understanding of the structure of distributed optimization algorithms. As previously mentioned, distributed optimization algorithms must achieve both \"consensus\" and \"optimality\". There is a broad literature on algorithms that perform either separately, distributed consensus algorithms or centralized optimization algorithms, but little was known about how to combine them. We were able to show a striking result: given any pair of algorithms that perform distributed consensus and centralized optimization, respectively, there is a way to combine them into an algorithm that performs distributed optimization. Conversely, any distributed algorithm can be split into separate algorithms that perform consensus and optimization when used in isolation. This structural result is illustrated in Fig. 2. Our result suggests that it might be possible to leverage the established knowledge on both consensus and optimization algorithms to inform the design of the next generation of distributed optimization algorithms.\n\n\nThe third outcome of our project extends beyond distributed optimization to a broader impact in the field of algorithm analysis and design. The ad-hoc analysis and design of algorithms isnt exclusive to distributed optimization; it is observed with many other algorithm types across many disciplines. The technique we pioneered to analyze distributed optimization algorithms generalizes to a variety of other iterative algorithms. Recent works have found success in using similar techniques to ours to analyze stochastic algorithms, operator splitting methods, and primal-dual algorithms. Such algorithms are widely used in other fields, such as machine learning, signal processing, and numerical analysis. Thus, there is promise that the work stemming from this project will further impact how algorithms are analyzed and designed across all engineering and applied mathematics.\n\n\n\t\t\t\t\tLast Modified: 01/29/2024\n\n\t\t\t\t\tSubmitted by: LaurentLessard\n"
+ }
+}

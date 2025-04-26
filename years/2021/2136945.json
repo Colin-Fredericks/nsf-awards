@@ -1,0 +1,105 @@
+{
+ "awd_id": "2136945",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CAREER: Automated Analysis and Design of Optimization Algorithms",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2021-06-15",
+ "awd_exp_date": "2024-10-31",
+ "tot_intn_awd_amt": 467312.0,
+ "awd_amount": 274242.0,
+ "awd_min_amd_letter_date": "2021-06-08",
+ "awd_max_amd_letter_date": "2021-06-08",
+ "awd_abstract_narration": "Iterative optimization algorithms lie at the heart of modern data-intensive applications such as machine learning, computer vision, and data science. Society has become increasingly reliant on such algorithms for commerce, transportation, healthcare, emergency response, and national security. Despite their critical role in society, algorithms are typically designed and tuned using insight from experts, extensive numerical simulations, and other heuristics. This research develops a more principled understanding and approach to algorithm design that automatically accounts for sensitivity to parameter choice, robustness to noise, and other sources of uncertainty. This approach enables algorithms to be engineered in a way that guarantees performance and safety, which is similar to how airplanes, skyscrapers, and computer hardware are built.\r\n\r\nIterative algorithms may be viewed as dynamical systems with feedback. In gradient-based descent methods, for example, gradients are evaluated at each step and used to compute subsequent iterates. By treating algorithms as control systems, this research leverages tools from robust control (specifically: integral quadratic constraints, graphical methods, and semidefinite representation) to analyze and ultimately synthesize a variety of algorithms under different assumptions in an efficient, scalable, and systematic manner. This research also involves collaborative efforts in the areas of graph structure learning of gene regulatory networks and interactive machine learning, which serve to test and validate new algorithm designs.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Laurent",
+   "pi_last_name": "Lessard",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Laurent Lessard",
+   "pi_email_addr": "l.lessard@northeastern.edu",
+   "nsf_id": "000718272",
+   "pi_start_date": "2021-06-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Northeastern University",
+  "inst_street_address": "360 HUNTINGTON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173735600",
+  "inst_zip_code": "021155005",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "NORTHEASTERN UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HLTMVS2JZBS6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Northeastern University",
+  "perf_str_addr": "360 Huntington Avenue",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021155005",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "287800",
+   "pgm_ele_name": "Special Projects - CCF"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7935",
+   "pgm_ref_txt": "COMM & INFORMATION THEORY"
+  },
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0119",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001920DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2019,
+   "fund_oblg_amt": 274242.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This CAREER award concerned the broad field of gradient-based iterative algorithms, which are the most common technique for solving large-scale optimization problems. Such problems arise across all engineering and are used for training neural networks in machine learning applications. In optimization, the goal is to find values of the decision variables that minimize or maximize an &ldquo;objective function&rdquo;. In an engineering context, the objective function can be total cost in dollars or a particular performance metric. In a machine learning context, the objective is a loss function that measures the discrepancy between the problem data and the neural network predictions. The simplest algorithm is &ldquo;gradient descent&rdquo;, which updates the decision variables iteratively in whatever direction causes the best local improvement of the objective. More sophisticated methods include &ldquo;accelerated&rdquo; methods such as Heavy Ball method or Nesterov&rsquo;s Method. All iterative methods have tuning parameters, and selecting and tuning iterative algorithms is more of an art than a science. This project aimed to develop a principled framework for the analysis and synthesis of such algorithms using tools from robust control theory.</p>\r\n<p>There were two major research outcomes from this project. First, we wrote several papers that unified the analysis and design of iterative algorithms for different major classes of problems: (1) distributed optimization, (2) smooth games, (3) minimax optimization, (4) primal-dual algorithms, and (5) algorithms using inexact gradients. These works provided a roadmap for applying tools such as integral quadratic constraints (IQCs) to analyze an algorithm&rsquo;s performance. In some cases, we went a step further and designed entirely new algorithms that achieved the best-known performance. Prior to our work, these sorts of algorithms had been analyzed in an ad hoc manner through numerical simulations. Our work provided the methodology for a more principled analysis.</p>\r\n<p>In Figure 1, we compare different distributed algorithms&rsquo; worst-case convergence rate (y-axis, smaller is better) versus the spectral gap, which is a proxy for how connected the communication network is (x-axis, larger means less connected). Different existing algorithms perform differently depending on the graph and also how the algorithm is tuned. Our algorithm (SVL) outperforms all existing methods.</p>\r\n<p>In Figure 2, we compare different iterative algorithms in terms of their worst-case convergence rate (x-axis, smaller is better) and their sensitivity to additive gradient noise (y-axis, smaller is better). Every algorithm is a single dot on the plot. The gray dots show thousands of possible algorithms. The colored dots show well-known algorithms from the literature and the solid black line shows RAM, a one-parameter family of algorithms we designed that is very close to being Pareto-optimal with respect to these two performance measures. The single tuning parameter for RAM trades off performance and robustness.</p>\r\n<p>Our second research outcome was to develop a more intuitive framework for certification of algorithms based on dissipativity rather than IQCs. Dissipativity has the advantage of producing physically interpretable certificates. A chaotic system such as a nonlinear pendulum behaves in seemingly unpredictable ways, yet we know that it will eventually come to rest since total energy must dissipate. Dissipativity works the same way; we show how to identify a &ldquo;Lyapunov function,&rdquo; which describes a combination of the states of the algorithm that decreases over time. Analyzing the rate of dissipation also provides bounds on convergence rate of the algorithm. We published several papers on this topic, including an IEEE Control Systems Magazine article that give a broad-audience explanation of dissipativity for algorithm analysis.</p>\r\n<p>Our project also had education goals, one of which was curriculum development. I developed a new optimization class for undergraduates, which I taught at the University of Wisconsin-Madison. The goal was to make optimization modeling accessible to all STEM students. Within a couple years, the course was being taught to over 200 students/year across engineering and CS, and was integrated into the core CS curriculum. Course materials (lecture slides, lecture videos, Jupyter notebooks, and more) have been made publicly available and the class website is a permanent resource for optimization modeling on the internet. I have since developed a graduate version of the course that I now teach at Northeastern University.</p>\r\n<p>The project had a planned experimental component involving collaborators in different STEM fields and an outreach component involving middle and high school students. Unfortunately, these efforts did not materialize due to the pandemic, which made any sort of in-person collaboration or outreach impossible.</p>\r\n<p>The ad-hoc analysis and design of algorithms is prevalent in disciplines that span all STEM fields, and even fields such as finance or social science. Thus, there is promise that the work stemming from this project will further impact how algorithms are analyzed and designed across engineering, applied mathematics, and beyond.</p><br>\n<p>\n Last Modified: 04/24/2025<br>\nModified by: Laurent&nbsp;Lessard</p></div>\n<div class=\"porSideCol\"\n><div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2025/2136945/2136945_10530315_1745533203169_fig1--rgov-214x142.png\" original=\"/por/images/Reports/POR/2025/2136945/2136945_10530315_1745533203169_fig1--rgov-800width.png\" title=\"Figure 1\"><img src=\"/por/images/Reports/POR/2025/2136945/2136945_10530315_1745533203169_fig1--rgov-66x44.png\" alt=\"Figure 1\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Performance comparison of different distributed optimization algorithms and our algorithm (SVL).</div>\n<div class=\"imageCredit\">Laurent Lessard</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Laurent&nbsp;Lessard\n<div class=\"imageTitle\">Figure 1</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2025/2136945/2136945_10530315_1745533345917_fig2--rgov-214x142.png\" original=\"/por/images/Reports/POR/2025/2136945/2136945_10530315_1745533345917_fig2--rgov-800width.png\" title=\"Figure 2\"><img src=\"/por/images/Reports/POR/2025/2136945/2136945_10530315_1745533345917_fig2--rgov-66x44.png\" alt=\"Figure 2\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Performance-robustness trade-off for different iterative optimization algorithms in the presence of additive gradient noise.</div>\n<div class=\"imageCredit\">Laurent Lessard</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Laurent&nbsp;Lessard\n<div class=\"imageTitle\">Figure 2</div>\n</div>\n</li></ul>\n</div>\n</div></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis CAREER award concerned the broad field of gradient-based iterative algorithms, which are the most common technique for solving large-scale optimization problems. Such problems arise across all engineering and are used for training neural networks in machine learning applications. In optimization, the goal is to find values of the decision variables that minimize or maximize an objective function. In an engineering context, the objective function can be total cost in dollars or a particular performance metric. In a machine learning context, the objective is a loss function that measures the discrepancy between the problem data and the neural network predictions. The simplest algorithm is gradient descent, which updates the decision variables iteratively in whatever direction causes the best local improvement of the objective. More sophisticated methods include accelerated methods such as Heavy Ball method or Nesterovs Method. All iterative methods have tuning parameters, and selecting and tuning iterative algorithms is more of an art than a science. This project aimed to develop a principled framework for the analysis and synthesis of such algorithms using tools from robust control theory.\r\n\n\nThere were two major research outcomes from this project. First, we wrote several papers that unified the analysis and design of iterative algorithms for different major classes of problems: (1) distributed optimization, (2) smooth games, (3) minimax optimization, (4) primal-dual algorithms, and (5) algorithms using inexact gradients. These works provided a roadmap for applying tools such as integral quadratic constraints (IQCs) to analyze an algorithms performance. In some cases, we went a step further and designed entirely new algorithms that achieved the best-known performance. Prior to our work, these sorts of algorithms had been analyzed in an ad hoc manner through numerical simulations. Our work provided the methodology for a more principled analysis.\r\n\n\nIn Figure 1, we compare different distributed algorithms worst-case convergence rate (y-axis, smaller is better) versus the spectral gap, which is a proxy for how connected the communication network is (x-axis, larger means less connected). Different existing algorithms perform differently depending on the graph and also how the algorithm is tuned. Our algorithm (SVL) outperforms all existing methods.\r\n\n\nIn Figure 2, we compare different iterative algorithms in terms of their worst-case convergence rate (x-axis, smaller is better) and their sensitivity to additive gradient noise (y-axis, smaller is better). Every algorithm is a single dot on the plot. The gray dots show thousands of possible algorithms. The colored dots show well-known algorithms from the literature and the solid black line shows RAM, a one-parameter family of algorithms we designed that is very close to being Pareto-optimal with respect to these two performance measures. The single tuning parameter for RAM trades off performance and robustness.\r\n\n\nOur second research outcome was to develop a more intuitive framework for certification of algorithms based on dissipativity rather than IQCs. Dissipativity has the advantage of producing physically interpretable certificates. A chaotic system such as a nonlinear pendulum behaves in seemingly unpredictable ways, yet we know that it will eventually come to rest since total energy must dissipate. Dissipativity works the same way; we show how to identify a Lyapunov function, which describes a combination of the states of the algorithm that decreases over time. Analyzing the rate of dissipation also provides bounds on convergence rate of the algorithm. We published several papers on this topic, including an IEEE Control Systems Magazine article that give a broad-audience explanation of dissipativity for algorithm analysis.\r\n\n\nOur project also had education goals, one of which was curriculum development. I developed a new optimization class for undergraduates, which I taught at the University of Wisconsin-Madison. The goal was to make optimization modeling accessible to all STEM students. Within a couple years, the course was being taught to over 200 students/year across engineering and CS, and was integrated into the core CS curriculum. Course materials (lecture slides, lecture videos, Jupyter notebooks, and more) have been made publicly available and the class website is a permanent resource for optimization modeling on the internet. I have since developed a graduate version of the course that I now teach at Northeastern University.\r\n\n\nThe project had a planned experimental component involving collaborators in different STEM fields and an outreach component involving middle and high school students. Unfortunately, these efforts did not materialize due to the pandemic, which made any sort of in-person collaboration or outreach impossible.\r\n\n\nThe ad-hoc analysis and design of algorithms is prevalent in disciplines that span all STEM fields, and even fields such as finance or social science. Thus, there is promise that the work stemming from this project will further impact how algorithms are analyzed and designed across engineering, applied mathematics, and beyond.\t\t\t\t\tLast Modified: 04/24/2025\n\n\t\t\t\t\tSubmitted by: LaurentLessard\n"
+ }
+}

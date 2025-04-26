@@ -1,0 +1,105 @@
+{
+ "awd_id": "1823360",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRI: CI-New: Collaborative Research: NJR: A Normalized Java Resource",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2018-08-15",
+ "awd_exp_date": "2024-08-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2018-08-07",
+ "awd_max_amd_letter_date": "2023-07-10",
+ "awd_abstract_narration": "Research in programming languages and software engineering has increasingly become a \"big data\" science (\"Big Code\") is which researchers want to use large code bases to experiment with new techniques.   Specifically, Big Code will enable novel tools in areas such as security enhancers, bug finders, and code synthesizers.  This project will build a community resource of 100,000 executable Java programs together with a set of working tools and an environment for conducting such research.  This Normalized Java Resource (NJR) will lower the barrier to implementation of new tools, speed up research, and ultimately help advance research frontiers.  Additionally, NJR can be the foundation of new courses on software tools that take advantage of Big Code.  Finally, NJR can be the centerpiece of a discussion about better benchmark suites in general.  The two investigators will work with collaborators from five countries. \r\n\r\nResearchers get significant advantages from using NJR.  They can write scripts that base their new tool on NJR's already-working tools, and they can search NJR for programs with desired characteristics.  They will receive the search result as a container that they can run either locally or on a cloud service.  Additionally, they benefit from NJR's normalized representation of each Java program, which enables scalable running of tools on the entire collection.  Finally, they will find that NJR's collection of programs is diverse because of the investigators' efforts to run clone detection and near-duplicate removal.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jens",
+   "pi_last_name": "Palsberg",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jens Palsberg",
+   "pi_email_addr": "palsberg@ucla.edu",
+   "nsf_id": "000105676",
+   "pi_start_date": "2018-08-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "UCLA Computer Science Dept.",
+  "perf_str_addr": "420 Westwood Plaza, Engr. VI",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900951596",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735900",
+   "pgm_ele_name": "CCRI-CISE Cmnty Rsrch Infrstrc"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7359",
+   "pgm_ref_txt": "COMPUTING RES INFRASTRUCTURE"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 600000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"p1\"><span class=\"s1\">We worked with the entire set of Java programs on GitHub as of 2018, and&nbsp;</span>we found that we could sift through the programs and pick a subset that is useful to many researchers.&nbsp; In discussions with the community, we found that researchers need a large dataset of large programs that have long executions. Those discussions took place at a series of six workshops that we organized in 2017-2019. Those workshops got the community together and clarified for us what researchers need from a dataset. In response to the need of the community, we released the NJR-1 dataset in June 2020. The NJR-1 dataset consists of 293 large Java bytecode programs, each of which executes at least 100 unique application methods at runtime. We have 23 tools that successfully run on these programs: 14 static analysis tools, 3 decompilers, 2 dynamic analysis tools, 1 bytecode reduction tool, and 3 others. We provide scripts for how to run the tools on the dataset.&nbsp;<span class=\"s1\">We have continued to improve the webpage for NJR-1 to make&nbsp;</span>our dataset understandable, useful, and stand the test of time. The NJR-1 website as of September 2024 is https://zenodo.org/records/8015477.&nbsp; Our dataset is a good starting point for researchers to pick a subset of benchmarks that are particularly good for their projects. The fact that many popular tools all work out of the box on all the programs is a big help for getting off the ground quickly for any researcher in this area. We benefitted ourselves in projects where we needed benchmarks that satisfy additional criteria and eventually, we found large subsets of programs that were useful for us. Christian Kalhauge and Akshay Utture finished their PhDs on the topic of this award and funded by this award. Today Christian Kalhauge is an associate professor at Denmark's Technical University, while Akshay Utture works at Uber.</p><br>\n<p>\n Last Modified: 02/03/2025<br>\nModified by: Jens&nbsp;Palsberg</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nWe worked with the entire set of Java programs on GitHub as of 2018, andwe found that we could sift through the programs and pick a subset that is useful to many researchers. In discussions with the community, we found that researchers need a large dataset of large programs that have long executions. Those discussions took place at a series of six workshops that we organized in 2017-2019. Those workshops got the community together and clarified for us what researchers need from a dataset. In response to the need of the community, we released the NJR-1 dataset in June 2020. The NJR-1 dataset consists of 293 large Java bytecode programs, each of which executes at least 100 unique application methods at runtime. We have 23 tools that successfully run on these programs: 14 static analysis tools, 3 decompilers, 2 dynamic analysis tools, 1 bytecode reduction tool, and 3 others. We provide scripts for how to run the tools on the dataset.We have continued to improve the webpage for NJR-1 to makeour dataset understandable, useful, and stand the test of time. The NJR-1 website as of September 2024 is https://zenodo.org/records/8015477. Our dataset is a good starting point for researchers to pick a subset of benchmarks that are particularly good for their projects. The fact that many popular tools all work out of the box on all the programs is a big help for getting off the ground quickly for any researcher in this area. We benefitted ourselves in projects where we needed benchmarks that satisfy additional criteria and eventually, we found large subsets of programs that were useful for us. Christian Kalhauge and Akshay Utture finished their PhDs on the topic of this award and funded by this award. Today Christian Kalhauge is an associate professor at Denmark's Technical University, while Akshay Utture works at Uber.\t\t\t\t\tLast Modified: 02/03/2025\n\n\t\t\t\t\tSubmitted by: JensPalsberg\n"
+ }
+}

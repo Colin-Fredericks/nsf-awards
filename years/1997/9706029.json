@@ -1,0 +1,102 @@
+{
+ "awd_id": "9706029",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Next-generation algorithms for network layout",
+ "cfda_num": "47.070",
+ "org_code": "05050202",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Taieb Ben Znati",
+ "awd_eff_date": "1997-09-15",
+ "awd_exp_date": "2001-08-31",
+ "tot_intn_awd_amt": 259825.0,
+ "awd_amount": 259825.0,
+ "awd_min_amd_letter_date": "1997-09-23",
+ "awd_max_amd_letter_date": "1997-09-23",
+ "awd_abstract_narration": "Nearly every single major telecommunications concern in the   United States, as well as many abroad, has a group responsible  for network layout algorithms.  This is a growing trend,   spurred by the large investments needed to upgrade and expand  networks, especially in the case of ATM technology --a single   large switch can cost millions of dollars. Typically, work   focuses on individual problems as they arise, and the   resulting algorithms (whether completely heuristic or based on  thoroughly grounded techniques) heavily depend on many   particular details of the problem at hand.  A similar approach  is used by researchers at universities.  Other than completely  general optimization techniques --such as general purpose   integer programming codes or heuristics such as simulated   annealing-- which usually do not prove satisfactory, no   successful common approach exists.      However, network layout problems of all flavors do share many   common components. Our views on this matter were spurred by   our experience with practical ATM layout problems.  In ATM   network layout several interrelated subproblems arise.  There   is a transmission system subproblem: on every link enough   capacity must be installed to carry the traffic routed on it.  There is a similar switch sizing subproblem (except that   capacity is installed at nodes, not links).  There may be a   further subproblem concerning allocation of terminations at   switches, again of a similar nature.  Finally, different types  of routings may be allowed, for example, requiring   survivability.  An algorithm for a complex problem of this type  may therefore need to handle each subproblem well (in case   that subproblem is cost-dominant in a particular application)   but would also need to integrate the different components into  a coherent single unit (for example, the edge transmission   system subproblem will interact with the switch sizing  subproblem).    Network design problems can be classifed as mixed-integer   programs: the y involve variables that must take integral   values (e.g. the number of transmission systems to install in   a particular link) and also continuous variables (mainly   traffic routing decisions, which are effectively modeled   without requiring integrality). From a computational viewpoint   these problems are typically very difficult.  Purely heuristic  algorithms are notoriously unreliable in terms of the quality   of the solutions they provide.  At the other end difficult   network design problems routinely trounce high-performance   general-purpose integer programming algorithms.  See  problems \"dano3mip\" and \"danoint\" of the MIPLIB family  (http://www.caam.rice.edu/~bixby/miplib/miplib.html) and other  problems in the PI's previous work.    A final argument in favor of a general-purpose network design   algorithm, concerns one way in which network design is used   in practice.  No network planner will commit to an expenditure  of several million dollars on the basis of a single run of an   optimization algorithm, no matter how good a track record   this algorithm has.  Typically, an algorithm would be used in   the context of a study where a design tool is run repeatedly.  Here it is crucial to get fast, good-quality estimates.     The research supported by this award focuses in developing a   generic network design tool. We plan to develop several   fairly independent components of such a tool, principally:    * Fast, approximate algorithms for continuous linear programs   arising in network layout problems, in particular,   parallelizable versions thereof for a shared-memory   environment.  * General \"cutting-plane\" techniques for the mixed-integer   programs we are interested in, and  * Fast rounding heuristics to quickly obtain good feasible  solutions.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Bienstock",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Bienstock",
+   "pi_email_addr": "dano@ieor.columbia.edu",
+   "nsf_id": "000101761",
+   "pi_start_date": "1997-09-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Columbia University",
+  "inst_street_address": "615 W 131ST ST",
+  "inst_street_address_2": "MC 8741",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2128546851",
+  "inst_zip_code": "100277922",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "NY13",
+  "org_lgl_bus_name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F4N1QNPB95M4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Columbia University",
+  "perf_str_addr": "615 W 131ST ST",
+  "perf_city_name": "NEW YORK",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100277922",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "NY13",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "409700",
+   "pgm_ele_name": "NETWORKING RESEARCH"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0197",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0197",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1997,
+   "fund_oblg_amt": 259825.0
+  }
+ ],
+ "por": null
+}

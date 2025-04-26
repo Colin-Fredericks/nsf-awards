@@ -1,0 +1,98 @@
+{
+ "awd_id": "1409238",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Medium: Collaborative Research: FTFS: A Read/Write-Optimized Fractal Tree File System",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2017-10-31",
+ "tot_intn_awd_amt": 240000.0,
+ "awd_amount": 240000.0,
+ "awd_min_amd_letter_date": "2014-08-26",
+ "awd_max_amd_letter_date": "2014-08-26",
+ "awd_abstract_narration": "Modern, general-purpose file systems offer poor performance on microdata operations, such as file creation and destruction, small writes to large files, and metadata updates, yet these operations are pervasive on today's computer systems.  Underlying this problem are fundamental limitations of the data structures used to organize data on disk.  This project will explore the practical efficacy of a recently-discovered category of data structures, called write-read-optimized (WRO) data structures, which have the potential to improve microdata performance dramatically without sacrificing good performance on other types of operations.  This project will bring together a team of experts from theory and systems who can bring cutting-edge algorithmic advances into operating system (OS) designs.  To this end, the team will build a general-purpose file system for Linux, called FTFS, that uses WRO data structures.\r\n\r\nWork of this nature has the potential to eliminate the current trade-off between data locality on disk and small-write performance.  This project observes that WRO data structures, such as B^epsilon trees and fractal tree indexes, can give comparable asymptotic behavior to a B-tree for queries and bulk updates, as well as support small updates with performance close to logging.  Preliminary work demonstrates that these asymptotic benefits translate to real performance improvements - up to two orders of magnitude faster than a traditional B-tree for some operations.  Modern operating systems have certain assumptions about how file systems are designed, such as inducing extra lookups during update operations (called cryptoreads). Cryptoreads cause update operations to block on lookups, thus throttling the faster updates that WRO data structures provide. The project will investigate OS support for WRO data structures, as well as redesigning WRO data structures to support the operations of a fully-featured file system.\r\n\r\nThe ultimate goal is technology transfer and practical adoption. The effort will advance the current state of the art in file system and operating system design.  Computers are a fundamental part of our society, with desktops and laptops permeating schools and workplaces, individuals carrying at least one mobile device, and scientists driving new discovery with supercomputers. File systems are the backbone of these computing platforms, and improvements to the efficiency of a general-purpose file system can improve the efficiency of our national cyber-infrastructure, as well as reintroduce flexibility into the storage stack needed to adapt to rapidly evolving devices.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Bradley",
+   "pi_last_name": "Kuszmaul",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Bradley C Kuszmaul",
+   "pi_email_addr": "bradley@mit.edu",
+   "nsf_id": "000407994",
+   "pi_start_date": "2014-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 Massachusetts Avenue",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 189243.0
+  }
+ ],
+ "por": null
+}

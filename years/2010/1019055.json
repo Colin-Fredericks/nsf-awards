@@ -1,0 +1,102 @@
+{
+ "awd_id": "1019055",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "GDBase:  An Engine for Scalable offline Debugging",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Daniel Katz",
+ "awd_eff_date": "2009-06-30",
+ "awd_exp_date": "2012-06-30",
+ "tot_intn_awd_amt": 302142.0,
+ "awd_amount": 302142.0,
+ "awd_min_amd_letter_date": "2010-02-01",
+ "awd_max_amd_letter_date": "2010-02-01",
+ "awd_abstract_narration": "Debugging at large scale is a constant challenge in the operation of leadership class systems. While there has been substantial attention paid to parallel debugging in general in both the research and commercial arenas, most parallel debuggers rely on a visual motif for conveying information about program execution and communication. These approaches tend to be invaluable for understanding and debugging program function at tens of tasks, but are simply not suitable for finding elusive problems that occur at tens of thousands of tasks. Even if the interfaces were useable at that scale (and licenses were available), current iterations of many commercial debuggers fail to function properly beyond 2,048 cores. The challenge of debugging at large scale is exacerbated by the normal mode of operation of very large systems. These systems tend to run 24x7 in a batch mode intended to maximize system utilization and throughput. Negotiating the large blocks of time to operate a substantial fraction of the system in an interactive mode is difficult at best, and cost-prohibitive at worst.\r\n\r\n\r\nIn this project investigators will lay out the design for the GDBase debugging framework. GDBase is designed to attack three of the key problems of debugging on the largest systems.\r\n1.) Lack of Scalability - most commercial debuggers are too heavyweight to launch or provide a useable interface at many thousands of cores. GDBase has been tested to 12k cores. In our testing, the commercial DDT debugger fails after about 2k.\r\n2.) High Cost of use - GDBase runs jobs through the production batch systems with no need for long periods tying up large fractions of the machine for interactive debugging runs and no need to lower utilization through fixed time reservations that prevent other jobs from running.\r\n3.) Information overload - Rather than a graphical interface that fails to scale, or gigabytes of printf text, all debugging information is stored in a relational database that can be mined later by a number of analysis tools.\r\n\r\nThe intellectual merit of this proposal lies in the novel approach taken to tackle scalable debugging. GDBase incorporates a lightweight, offline architecture for data collection inspired by performance analysis tools, a database repository for vast quantities of debugging information and cross-run analysis, and an API to create new agents for providing a variety of interface and analysis tools. The broader impacts of this proposal are the ability to lift productivity across all domains that develop applications for large scale cyberinfrastructure. GDBase will also make large scale debugging more widely available, and will be incorporated in a range of training and education activities.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Stanzione",
+   "pi_mid_init": "",
+   "pi_sufx_name": "Jr",
+   "pi_full_name": "Daniel Stanzione",
+   "pi_email_addr": "dan@tacc.utexas.edu",
+   "nsf_id": "000193108",
+   "pi_start_date": "2010-02-01",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "110 INNER CAMPUS DR",
+  "perf_city_name": "AUSTIN",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121139",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "768400",
+   "pgm_ele_name": "CESER-Cyberinfrastructure for"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0109",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000910DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2009,
+   "fund_oblg_amt": 302142.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,93 @@
+{
+ "awd_id": "2154446",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Neural Network-Based Preconditioning of Adaptive Tabulation for Reactive Flow Applications",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": "7032927281",
+ "po_email": "hchellia@nsf.gov",
+ "po_sign_block_name": "Harsha Chelliah",
+ "awd_eff_date": "2022-08-01",
+ "awd_exp_date": "2025-07-31",
+ "tot_intn_awd_amt": 294555.0,
+ "awd_amount": 294555.0,
+ "awd_min_amd_letter_date": "2022-03-21",
+ "awd_max_amd_letter_date": "2022-03-21",
+ "awd_abstract_narration": "Combustion is the prevalent source of energy in today\u2019s world, and is projected to remain so until the year 2050. Moreover, it is the only viable option for many engineering applications (for example, space launch vehicles). Therefore, the continued study of combustion physics and development of new, more efficient, and cleaner combustion devices is a high priority in today\u2019s engineering world. Over the past five decades, combustion simulations have been invaluable to this effort, and yet they still pose a multitude of challenges. This project aims to tackle one such challenge, specifically how to quickly evaluate chemical properties. The approach proposed here is to combine machine learning methods, which can give a rough estimate of the property of interest, with previously developed tabulation methods that work by bridging the gaps between a relatively small number of evaluations. This combined approach will allow for combustion simulations that are faster, use more complex chemical models, and are more accurate. The project will involve graduate and undergraduate students and provide them with mentoring and experience that will be valuable for their future careers in academia and industry. \r\n\r\nThis research aims to improve the computational efficiency of chemical property evaluations, which comprise most of the computational cost in reactive flow simulations with detailed chemistry. The proposed approach is to use a combination of neural networks (NN) and in situ adaptive tabulation (ISAT), combining the strengths of both. Whereas NN can provide a function approximation at low memory cost, their accuracy cannot be improved without eventually overfitting the data. In contrast, ISAT can achieve any desired level of accuracy, but the size of the resulting table, and hence the computational cost, increases as the maximum allowable error is decreased. The ISAT table size scales with the Hessian of the function being approximated, and so reduction of this Hessian will also lead to a smaller table and lower computational cost. Such reduction will be achieved by using ISAT to tabulate not the full function of interest, but rather the difference between it and an NN function which approximates its Hessian. Two approaches for Hessian approximation will be developed and evaluated. In the first, a simple NN implementation will be trained to approximate the chemical function itself, and will thus approximate the Hessian only implicitly. For the second, an explicit Hessian approximation will be implemented via custom NN loss definitions based on finite differences between adjacent points. The effectiveness of the NN+ISAT combination will be tested on both partially-stirred reactor (PaSR) test cases and complex geometry reacting flow simulations. Success of the proposed methods can lead to significant speedup in reactive flow simulations, enabling the use of larger and more accurate chemical mechanisms.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Pavel",
+   "pi_last_name": "Popov",
+   "pi_mid_init": "P",
+   "pi_sufx_name": "",
+   "pi_full_name": "Pavel P Popov",
+   "pi_email_addr": "ppopov@sdsu.edu",
+   "nsf_id": "000834706",
+   "pi_start_date": "2022-03-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "San Diego State University Foundation",
+  "inst_street_address": "5250 CAMPANILE DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SAN DIEGO",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6195945731",
+  "inst_zip_code": "921821901",
+  "inst_country_name": "United States",
+  "cong_dist_code": "51",
+  "st_cong_dist_code": "CA51",
+  "org_lgl_bus_name": "SAN DIEGO STATE UNIVERSITY FOUNDATION",
+  "org_prnt_uei_num": "H59JKGFZKHL7",
+  "org_uei_num": "H59JKGFZKHL7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "San Diego State University Foundation",
+  "perf_str_addr": "5250 Campanile Drive",
+  "perf_city_name": "San Diego",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "921822190",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "51",
+  "perf_st_cong_dist": "CA51",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "140700",
+   "pgm_ele_name": "CFS-Combustion & Fire Systems"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 294555.0
+  }
+ ],
+ "por": null
+}

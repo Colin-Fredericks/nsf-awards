@@ -1,0 +1,118 @@
+{
+ "awd_id": "2311833",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Frameworks: Performance Engineering Scientific Applications with MVAPICH and TAU using Emerging Communication Primitives",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922656",
+ "po_email": "vchandol@nsf.gov",
+ "po_sign_block_name": "Varun Chandola",
+ "awd_eff_date": "2023-09-01",
+ "awd_exp_date": "2026-08-31",
+ "tot_intn_awd_amt": 400000.0,
+ "awd_amount": 400000.0,
+ "awd_min_amd_letter_date": "2023-05-03",
+ "awd_max_amd_letter_date": "2023-09-18",
+ "awd_abstract_narration": "Earthquake hazards pose potentially life-threatening risks to communities and cause significant economic damage. Numerical simulations of earthquakes on large-scale supercomputers are emerging as key to guiding the infrastructure and policy decisions as a result of earthquake modeling. These seismic and other codes including simulations involving Fast Fourier Transform (FFT) distribute the processing across a large number of compute nodes in a supercomputer. Optimizing the communication between nodes is key to achieving good performance but it is a daunting task given the scale of execution. The MVAPICH communication library that implements the Message Passing Interface (MPI) and the TAU Performance System, a profiling tool to observe the communication, will be tightly coupled to assess the performance impact of tuning these codes during execution. These libraries will share key performance parameters and optimize the communication in these applications to improve the time to solution. Performance-engineered versions of these codes will help drive the next generation of earthquake forecasting and help improve our understanding of seismic events to reduce risks to population centers and the environment.  The research will enable undergraduate and graduate curriculum advancements via research in pedagogy for High Performance Computing (HPC), Deep/Machine Learning, and Data Analytics courses. The results will also be disseminated to the collaborating organizations of the investigators to impact their HPC software applications.\r\n\r\nEmerging HPC systems---driven by many-core processors and accelerator architectures--- require innovations in existing infrastructure to deliver the best performance for science domains. The MPI 4.0 standard has also brought forward new opportunities for co-designing applications. These include partitioned point-to-point and collective operations, and neighborhood collectives. With these advances, there is a critical need to update the commonly used tools and libraries that form the basis for the NSF\u2019s HPC cyberinfrastructure. The research undertakes this challenge and pursues new performance engineering avenues---by exploiting a co-design approach using the MPI_T API---in the MVAPICH2 and TAU libraries with scientific applications. The project focuses on two popular HPC applications spanning multiple domains and representing various communication patterns - Anelastic Wave Propagation (AWP-ODC) and Highly efficient FFTs for Exascale (heFFTe). AWP-ODC is a highly scalable parallel finite-difference application with point-to-point operations that enables 3D earthquake calculations. HeFFTe, dominated by collective operations, is a massively parallel application that provides a scalable and efficient implementation of the widely used Fast Fourier Transform (FFT) operations. The research aims to investigate and develop the following innovations by co-designing MVAPICH2 and TAU libraries to scale driving science domains---including AWP-ODC and heFFTe: 1) Load-aware designs for MPI asynchronous communication, 2) Cross runtime coordination for MPI+X applications, 3) Partitioned point-to-point primitives, 4) Application-aware neighborhood collective communication, 5) Support for adaptive persistent collective communication, and 6) Coordinating communication kernels on GPUs. Integrated development and evaluation are carried out to ensure proper integration of proposed designs with the driving applications, and closely work with internal and external collaborators to facilitate wide deployment and adoption of the released software. The transformative impact of the proposed effort is to extract the performance and scalability of HPC applications in next-generation HPC architectures through intelligent performance engineering.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yifeng",
+   "pi_last_name": "Cui",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yifeng Cui",
+   "pi_email_addr": "yfcui@ucsd.edu",
+   "nsf_id": "000596662",
+   "pi_start_date": "2023-05-03",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Former Co-Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Roten",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Roten",
+   "pi_email_addr": "d1roten@sdsc.edu",
+   "nsf_id": "000693258",
+   "pi_start_date": "2023-05-03",
+   "pi_end_date": "2023-09-18"
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-San Diego",
+  "inst_street_address": "9500 GILMAN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "LA JOLLA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8585344896",
+  "inst_zip_code": "920930021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "50",
+  "st_cong_dist_code": "CA50",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "UYTTZT6G9DT1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-San Diego",
+  "perf_str_addr": "9500 GILMAN DR",
+  "perf_city_name": "LA JOLLA",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "920935004",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "50",
+  "perf_st_cong_dist": "CA50",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "077Z",
+   "pgm_ref_txt": "CSSI-1: Cyberinfr for Sustained Scientif"
+  },
+  {
+   "pgm_ref_code": "4444",
+   "pgm_ref_txt": "INTERDISCIPLINARY PROPOSALS"
+  },
+  {
+   "pgm_ref_code": "8004",
+   "pgm_ref_txt": "Software Institutes"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 400000.0
+  }
+ ],
+ "por": null
+}

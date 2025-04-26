@@ -1,0 +1,105 @@
+{
+ "awd_id": "1814654",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: The Whole Program Critical Path Approach to Parallelism",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2021-09-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2018-05-23",
+ "awd_max_amd_letter_date": "2018-05-23",
+ "awd_abstract_narration": "Multicore processors are everywhere, from the smartphones in our pockets to compute nodes in data centers.  The key to speed and energy efficiency in devices with multicore processors is in finding enough parallelism in computer programs to keep as many of the multiple cores active as possible.  Historically, both computers and people have not been very good at finding enough parallelism for multicore processors.  This leaves many cores idle, making multicore devices slow and inefficient.  This project addresses this problem by helping computers and people extract previously unconsidered parallelism, parallelism that the investigator and others have shown to exist but is hidden because it spans large portions of the whole program.  The project's novelties are new methods and tools to help computers and people extract this previously unconsidered parallelism in programs for multicore processors. The project's impacts are increased performance and energy efficiency for all multicore devices, from smartphones to data centers.\r\n\r\nPrior work by the investigator and others demonstrated the applicability and importance of considering the loop critical path in extracting scalable parallelism from loops.  Despite the successes of the loop critical path approach, it misses many opportunities, and its gains seem to have plateaued. The problem is that optimal loop-local decisions often dismiss opportunities revealed by considering the whole program critical path. To realize these opportunities, this project goes beyond loop-level optimization by applying the lessons learned in earlier critical-path-based approaches to entire programs.  This project's aim is a dramatically higher degree of parallelism realized by exploiting concurrency across loop invocations and through non-loop sections of programs.  This project's tasks include analyzing information from dynamic data dependences to expose the whole program critical path, making this information readily accessible to both compilers and programmers, and guiding new compiler transformations to create even more scalable and efficient parallel versions of programs.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "August",
+   "pi_mid_init": "I",
+   "pi_sufx_name": "",
+   "pi_full_name": "David I August",
+   "pi_email_addr": "august@cs.princeton.edu",
+   "nsf_id": "000192343",
+   "pi_start_date": "2018-05-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Princeton University",
+  "inst_street_address": "1 NASSAU HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "PRINCETON",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "6092583090",
+  "inst_zip_code": "085442001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "THE TRUSTEES OF PRINCETON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NJ1YPQXQG7U5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": "87 Prospect Avenue",
+  "perf_city_name": "Princeton",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085442020",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Multicore processors are everywhere, from the smartphones in our pockets  to compute nodes in data centers.&nbsp; The key to speed and energy  efficiency in multicore processor devices is finding enough  parallelism in computer programs to keep as many cores as productive as possible.&nbsp; Historically, both compilers and people have not  been very good at finding enough parallelism for multicore processors.&nbsp;  This lack of parallelism leaves many cores idle, making multicore devices slow and  inefficient.&nbsp;</p>\n<p>This project addresses the multicore problem by helping compilers  and people extract previously unconsidered types of parallelism.&nbsp; To this end, this project developed and released new methods and tools to extract these new types of parallelism in addition to the more established forms.&nbsp;&nbsp; The project's impacts are tools and concepts that will increase performance and energy  efficiency for all multicore devices, from smartphones to data centers.</p>\n<p>The tools released as part of this project include NOELLE (NOELLE Offers Empowering LLVM Extensions).&nbsp; LLVM is the world's leading compiler.&nbsp; The goal of NOELLE is to provide abstractions in LLVM that enable a simple implementation of complex code analyses and transformations (termed custom tools) that target broad program scopes. Custom tools built upon NOELLE include LLVM compiler passes that work at the IR level to perform sophisticated code analyses and transformations. &nbsp; Enabling these custom tools to be easily implemented and maintained requires simple and domain-independent abstractions powered by either accurate low-level code analyses or complex low-level code transformations.&nbsp; NOELLE provides abstractions with a modular design, allowing users to pay only the cost of employing the required abstractions.</p>\n<p>This project also created several NOELLE custom tools to demonstrate the power of automatic parallelization for multicore.&nbsp; These include modern implementations of the HELIX, DOALL, and DSWP automatic parallelization algorithms.&nbsp; Another custom tool developed in this work, called Perspective, automatically explores these algorithms to find the most efficient combination for a given program.&nbsp;</p>\n<p>This project also led to the development of SCAF (Speculation-Aware Collaborative Dependence Analysis Framework), a memory analysis integrated with NOELLE.&nbsp; SCAF dramatically improves memory analysis by encouraging collaboration among multiple traditional memory analyses and by finding ways to address many more problematic dependences using cheaper forms of speculation.&nbsp;&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/01/2021<br>\n\t\t\t\t\tModified by: David&nbsp;I&nbsp;August</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMulticore processors are everywhere, from the smartphones in our pockets  to compute nodes in data centers.  The key to speed and energy  efficiency in multicore processor devices is finding enough  parallelism in computer programs to keep as many cores as productive as possible.  Historically, both compilers and people have not  been very good at finding enough parallelism for multicore processors.   This lack of parallelism leaves many cores idle, making multicore devices slow and  inefficient. \n\nThis project addresses the multicore problem by helping compilers  and people extract previously unconsidered types of parallelism.  To this end, this project developed and released new methods and tools to extract these new types of parallelism in addition to the more established forms.   The project's impacts are tools and concepts that will increase performance and energy  efficiency for all multicore devices, from smartphones to data centers.\n\nThe tools released as part of this project include NOELLE (NOELLE Offers Empowering LLVM Extensions).  LLVM is the world's leading compiler.  The goal of NOELLE is to provide abstractions in LLVM that enable a simple implementation of complex code analyses and transformations (termed custom tools) that target broad program scopes. Custom tools built upon NOELLE include LLVM compiler passes that work at the IR level to perform sophisticated code analyses and transformations.   Enabling these custom tools to be easily implemented and maintained requires simple and domain-independent abstractions powered by either accurate low-level code analyses or complex low-level code transformations.  NOELLE provides abstractions with a modular design, allowing users to pay only the cost of employing the required abstractions.\n\nThis project also created several NOELLE custom tools to demonstrate the power of automatic parallelization for multicore.  These include modern implementations of the HELIX, DOALL, and DSWP automatic parallelization algorithms.  Another custom tool developed in this work, called Perspective, automatically explores these algorithms to find the most efficient combination for a given program. \n\nThis project also led to the development of SCAF (Speculation-Aware Collaborative Dependence Analysis Framework), a memory analysis integrated with NOELLE.  SCAF dramatically improves memory analysis by encouraging collaboration among multiple traditional memory analyses and by finding ways to address many more problematic dependences using cheaper forms of speculation.  \n\n\t\t\t\t\tLast Modified: 12/01/2021\n\n\t\t\t\t\tSubmitted by: David I August"
+ }
+}

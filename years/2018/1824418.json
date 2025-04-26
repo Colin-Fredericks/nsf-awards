@@ -1,0 +1,96 @@
+{
+ "awd_id": "1824418",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SpecEES: Collaborative Research: Leveraging Randomization and Human Behavior for Efficient Large-Scale Distributed Spectrum Access",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Murat Torlak",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 174765.0,
+ "awd_amount": 174765.0,
+ "awd_min_amd_letter_date": "2018-09-17",
+ "awd_max_amd_letter_date": "2018-09-17",
+ "awd_abstract_narration": "An explosion of low-cost wireless devices promises new applications and services in diverse domains, including health, transportation, energy, manufacturing, and entertainment. This project focuses on developing energy and spectrum-efficient, distributed multi-access strategies for dynamic and large-scale wireless networks under the stringent energy and delay requirements that are expected in emerging applications. This work will enable the development of a multitude of technologies that can improve the life of society-at-large. For example, this work can support the next generation of communication technologies for large-scale Internet of Things (IoT) applications and autonomous vehicle applications. Moreover, education is a core component of this project. New theories and algorithms developed in this project are integrated into the graduate-level courses at the three universities. Undergraduate and graduate students are involved in the project through the undergrad capstone and masters graduation projects at the Ohio State University.\r\n\r\nThis project explores the fundamental energy and spectrum-efficiency tradeoff of distributed spectrum access methods, and develops adaptive and correlated strategies that embrace and control randomness with efficiency guarantees for dynamic users with delay-sensitive traffic. In addition, the design incorporates humans into the loop by observing how humans react in simple multi-access games, providing simple human behavior models and simple human-perceived quality metrics, and by designing methods that can adapt to unexpected events or actions. A combined analysis and implementation approach of this project exploits high-dimensionality in the system while also overcoming difficulties for large-scale implementation and testing. In particular, the project develops mean-field techniques and analyses for large-scale spectrum access. Novel real-world experimentation strategies developed in this project emulate large-scale system operation in a small testbed by utilizing the simplification due to our randomized solutions and the integration of the aforementioned mean-field methods.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Neely",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael Neely",
+   "pi_email_addr": "mikejneely@gmail.com",
+   "nsf_id": "000228307",
+   "pi_start_date": "2018-09-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "3740 McClintock Ave EEB 520",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900890001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "CA37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "059Y00",
+   "pgm_ele_name": "SpecEES Spectrum Efficiency, E"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 174765.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"p1\">This project investigated efficient methods for operating wireless<span>&nbsp;</span>multiple access (MAC) systems. Such systems support a large number of wireless users who want to send data to an access point. Data rates are limited by the available bandwidth and by and the number of users who compete for channel resources. Partitioning the bandwidth into a large number of separate channels can help multiple users simultaneously achieve high data rates. How should the users be scheduled? Which channels should be used? How can efficiency be achieved when users randomly arrive and leave the system? How can algorithms adapt to time-varying loads and channel qualities? How can large systems be mathematically analyzed?&nbsp;</p>\n<p class=\"p1\">One result of this project was a collection of decentralized MAC algorithms<span>&nbsp;</span>that can be used for randomly arriving users. The algorithms embrace and control randomness and redundancy.&nbsp; A user who wants to send a packet of data sends multiple copies over a random subset of the channels, without knowing how many other users there are or what they are doing. This method leverages a soliton distribution that was shown in prior work by others to have desirable mathematical properties. The technique ensures that, with high probability, each channel has either at most one user (with no interferers), or the number of interferers is small enough for the messages to be disentangled based on redundant information from other channels. Our algorithms put this together with age-based and congestion-based scheduling techniques. The resulting algorithms are decentralized and provide near-optimal throughput using a variety of simple and elegant feedback messages from the access point. This work was a finalist for best paper award at the WiOpt 2021 conference, and the journal version was invited for fast-track publication in the IEEE Transactions on Networking 2022.&nbsp;</p>\n<p class=\"p1\">This project also developed an impossibility result that proves there is a<span>&nbsp;</span>fundamental learning time required of any wireless algorithm that provides near-optimal throughput-utility.&nbsp; This establishes a tradeoff between learning time and network performance. The result was a finalist for best paper award at the INFOCOM 2021 conference, and was invited for fast-track journal publication in the IEEE Transactions on Networking 2022.&nbsp; This project also developed algorithms with optimal adaptation time for more general stochastic renewal systems. This extends treatment of fixed-timeslot systems (where all packet transmissions take one unit of time) to frame-based systems with variable frame sizes.</p>\n<p class=\"p1\">This project also conducted MAC-game competitions over 8 semesters in the graduate data networks course at USC.&nbsp; Each semester, students designed their own algorithms for wireless access. Each algorithm was paired for competition against each other algorithm.&nbsp; It was observed that algorithms that utilized randomness and that made attempts to fairly share channel resources performed better than those that did not.&nbsp; A single algorithm called 4-state won the competition every semester.&nbsp; It also came in first place in a larger tournament that included all human-designed algorithms from the first 7 semesters. Mathematical properties of 4-state were developed. Extended game-theoretic methods were developed for resource competition when different players have different sets of information to inform their decisions.&nbsp;</p>\n<p class=\"p1\">The project also developed a technique that enables mathematical analysis<span>&nbsp;</span>of multi-channel multiple access systems when each user can be in one of 3 states (idle/waiting/transmitting).&nbsp; The combined state space grows exponentially in the number of users. Therefore, quantitative analysis for large networks seems daunting. The project used reversibility and Fourier techniques to overcome this large-system challenge.&nbsp; Exact throughput and blocking probabilities were calculated efficiently, without an exponential complexity explosion.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 03/11/2024<br>\nModified by: Michael&nbsp;Neely</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project investigated efficient methods for operating wirelessmultiple access (MAC) systems. Such systems support a large number of wireless users who want to send data to an access point. Data rates are limited by the available bandwidth and by and the number of users who compete for channel resources. Partitioning the bandwidth into a large number of separate channels can help multiple users simultaneously achieve high data rates. How should the users be scheduled? Which channels should be used? How can efficiency be achieved when users randomly arrive and leave the system? How can algorithms adapt to time-varying loads and channel qualities? How can large systems be mathematically analyzed?\n\n\nOne result of this project was a collection of decentralized MAC algorithmsthat can be used for randomly arriving users. The algorithms embrace and control randomness and redundancy. A user who wants to send a packet of data sends multiple copies over a random subset of the channels, without knowing how many other users there are or what they are doing. This method leverages a soliton distribution that was shown in prior work by others to have desirable mathematical properties. The technique ensures that, with high probability, each channel has either at most one user (with no interferers), or the number of interferers is small enough for the messages to be disentangled based on redundant information from other channels. Our algorithms put this together with age-based and congestion-based scheduling techniques. The resulting algorithms are decentralized and provide near-optimal throughput using a variety of simple and elegant feedback messages from the access point. This work was a finalist for best paper award at the WiOpt 2021 conference, and the journal version was invited for fast-track publication in the IEEE Transactions on Networking 2022.\n\n\nThis project also developed an impossibility result that proves there is afundamental learning time required of any wireless algorithm that provides near-optimal throughput-utility. This establishes a tradeoff between learning time and network performance. The result was a finalist for best paper award at the INFOCOM 2021 conference, and was invited for fast-track journal publication in the IEEE Transactions on Networking 2022. This project also developed algorithms with optimal adaptation time for more general stochastic renewal systems. This extends treatment of fixed-timeslot systems (where all packet transmissions take one unit of time) to frame-based systems with variable frame sizes.\n\n\nThis project also conducted MAC-game competitions over 8 semesters in the graduate data networks course at USC. Each semester, students designed their own algorithms for wireless access. Each algorithm was paired for competition against each other algorithm. It was observed that algorithms that utilized randomness and that made attempts to fairly share channel resources performed better than those that did not. A single algorithm called 4-state won the competition every semester. It also came in first place in a larger tournament that included all human-designed algorithms from the first 7 semesters. Mathematical properties of 4-state were developed. Extended game-theoretic methods were developed for resource competition when different players have different sets of information to inform their decisions.\n\n\nThe project also developed a technique that enables mathematical analysisof multi-channel multiple access systems when each user can be in one of 3 states (idle/waiting/transmitting). The combined state space grows exponentially in the number of users. Therefore, quantitative analysis for large networks seems daunting. The project used reversibility and Fourier techniques to overcome this large-system challenge. Exact throughput and blocking probabilities were calculated efficiently, without an exponential complexity explosion.\n\n\n\t\t\t\t\tLast Modified: 03/11/2024\n\n\t\t\t\t\tSubmitted by: MichaelNeely\n"
+ }
+}

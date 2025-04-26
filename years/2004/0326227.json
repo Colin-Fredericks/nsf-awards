@@ -1,0 +1,142 @@
+{
+ "awd_id": "0326227",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "ITR:  Software Design Rules",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2003-10-01",
+ "awd_exp_date": "2007-09-30",
+ "tot_intn_awd_amt": 1299972.0,
+ "awd_amount": 1299972.0,
+ "awd_min_amd_letter_date": "2003-10-03",
+ "awd_max_amd_letter_date": "2005-10-18",
+ "awd_abstract_narration": "ABSTRACT\r\n0326227\r\nMonica Lam\r\nStanford U\r\n\r\nSoftware reliability is one of the most important problems in computer science. A single operating system\r\nerror can crash a machine. A single security hole can compromise the integrity of an entire system or, as\r\nsoftware and its errors is replicated, the integrity of entire networks. This proposal focuses on practical\r\ntechniques to prevent such software errors. Its approach is based on the insight that software is governed\r\nby many design rules, from general ones that programs should not overrun their buffers, to application   specific rules such as a begin-transaction must be invoked before a commit-transaction in a database,\r\nand low-level rules, such as the input strings to strncpy should not overlap. Unlike specifications such as\r\nloop invariants, pre-conditions and post-conditions that pertain to particular lines of code, design rules are\r\nmore powerful, succinct, and are applicable to large amounts of code in the program. While design rules are\r\npervasive, in practice they are neither well documented nor automatically enforced, yet programmers need\r\nto understand and obey them to write correct programs.\r\nIntellectual Merit. The goal of this work is to make design rules first-class objects. They should be\r\nexplicitly part of program design, form a core part of the intellectual framework of system implementors, and be effectively supported by techniques that have teeth. This proposal provides a comprehensive approach to reach these goals. It is expected to make the following major contributions:\r\n1. General theory of design rules in software development. It will provide a deeper understanding of how\r\nsoftware is governed by design rules, what these rules are, and how they can be used in practice. The\r\nintent is to teach this concept to all computer science students.\r\n2. Automatic design rule inference. Real systems have thousands of design rules, buried in millions of\r\nlines of code. Expecting programmers to reliably specify all rules is unrealistic. Depending on them to\r\ndo so is dangerous since an omitted rule will not be checked. This research will develop techniques to\r\nautomatically extract design rules from code. It uses the fact that the same rule is obeyed many times\r\nin a program, allowing it to be inferred by observing regularities in the program's static and dynamic\r\nbehavior. The challenge in the approach is inferring subtle patterns from noisy behavior. This research\r\nwill develop a general theory of design rule extraction.\r\n3. Programming tools for design rules. This research will develop practical tools that automatically extract\r\ndesign rules, check programs for design-rule violations, and also enforce design rules in programs.\r\nWhile the work will support general-purpose software, it will also pay particular attention to tools for\r\ndetecting both security and non-deterministic errors (such as race conditions).\r\n4. Fundamental static program analysis. Design-rule conformance testing requires sophisticated program\r\nanalysis. This research is expected to advance the state of the art in program analyses of contextsensitive\r\npointer aliases and object invariants.\r\n5. Software model checking of design rules. Some rules require deeper analysis than static analysis can\r\nprovide. This research will support such rules by developing a software model checker that checks\r\nactual implementation code (rather than an abstracted specification of it) against programmer-supplied\r\ninvariants or other implementations.\r\n6. Testing based on design rules. This research intends to improve testing by leveraging expressed and\r\nextracted design rules to guide test coverage, test selection and test generation.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Monica",
+   "pi_last_name": "Lam",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Monica S Lam",
+   "pi_email_addr": "lam@cs.stanford.edu",
+   "nsf_id": "000214922",
+   "pi_start_date": "2003-10-03",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Dawson",
+   "pi_last_name": "Engler",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Dawson R Engler",
+   "pi_email_addr": "engler@csl.stanford.edu",
+   "nsf_id": "000485661",
+   "pi_start_date": "2003-10-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "450 JANE STANFORD WAY",
+  "perf_city_name": "STANFORD",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943052004",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "168700",
+   "pgm_ele_name": "ITR MEDIUM (GROUP) GRANTS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1658",
+   "pgm_ref_txt": "SOFTWARE"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0104",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0104",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0106",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0106",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2004,
+   "fund_oblg_amt": 345928.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 479175.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2006,
+   "fund_oblg_amt": 474869.0
+  }
+ ],
+ "por": null
+}

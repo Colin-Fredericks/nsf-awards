@@ -1,0 +1,109 @@
+{
+ "awd_id": "1435281",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: A Novel Approach to Application Specific Instruction Processor  Synthesis from Polychronous Specifications",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-08-15",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 79999.0,
+ "awd_amount": 79999.0,
+ "awd_min_amd_letter_date": "2014-08-15",
+ "awd_max_amd_letter_date": "2014-08-15",
+ "awd_abstract_narration": "Complex embedded systems contain a multitude of sensors, actuators, and a number of  micro-controllers or embedded processors, which require complex multi-threaded  programming with synchronizations that are conditional. The task of implementing such software manually is error-prone leading to crucial errors, and hence require expensive validation.  Due to inherent difficulties of post-implementation verification, this project takes the approach of synthesizing systems that are correct by construction. This project uses a polychronous data-flow specification language which lends itself  naturally to multithreaded software synthesis. The theory and tools developed in this project will enable software/hardware synthesis from the same specification which could have a significant impact for a wide array of safety-critical embedded systems.\r\n\r\nThis project provides a new semantics to polychronous specification languages in the form of conditional partial orders, and utilizes this semantics to develop algorithms for application specific processor synthesis. To synthesize the processor, the investigators identify the instruction sets required, and optimize their implementations, while the synthesis of the micro-code programs to implement the functionalities are derived by schedule synthesis.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sandeep",
+   "pi_last_name": "Shukla",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sandeep K Shukla",
+   "pi_email_addr": "shukla@vt.edu",
+   "nsf_id": "000165850",
+   "pi_start_date": "2014-08-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Virginia Polytechnic Institute and State University",
+  "inst_street_address": "300 TURNER ST NW",
+  "inst_street_address_2": "STE 4200",
+  "inst_city_name": "BLACKSBURG",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "5402315281",
+  "inst_zip_code": "240603359",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "VA09",
+  "org_lgl_bus_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+  "org_prnt_uei_num": "X6KEFGLHSJX7",
+  "org_uei_num": "QDE5UHE5XD16"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Virginia Tech",
+  "perf_str_addr": "900 N Glebe Road",
+  "perf_city_name": "Arlington",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "222031816",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "08",
+  "perf_st_cong_dist": "VA08",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7945",
+   "pgm_ref_txt": "DES AUTO FOR MICRO & NANO SYST"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 79999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project originated with an idea that for embedded systems hardware and software can be co-synthesized from a single formal specification. The specification language chosen was MRICDF (Multi-rate Instantaneously Connected Data Flow Models) which is polychronous like another similar language SIGNAL from France. MRICDF was defined as a visual as well as textual language by a prior project funded by the US Air Force. In this language a distributed set of nodes called actors compute functions and communicate the results of computation to other components instantaneously. Original SIGNAL was invented to express control algorithms as data flow networks where synchronization is implicit. This provides flexibility to implement the computation as sequential software, multi-threaded software or distributed software. However, to ensure that the semantics of the implementation matches that of the intended specification, a compile time check called clock calculus needs &nbsp;to be carried out. Our main innovation in MRICDF was a completely different logical calculus based on computation of prime implicates in a propositional theory.</p>\n<p>Powered by this innovation, we realized that a different interpretation of MRICDF specifications in the form of partial order structures, we can synthesize hardware that can be mapped to reconfigurable fabric.</p>\n<p>So in our first work in this project we showed how to achieve hardware synthesis from MRICDF and then went onto find co-optimization of hardware and software synthesis from MRICDF.</p>\n<p>Even though the original plan was to continue this cooptimization technique and demonstrate the efficacy on FPGA, various changes in the personnel and the move of the PI from the United States to India, and involvement of the PI with an automotive research labs (Toyota), and shifting of the student involved in the project to another faculty with expertise in automotive embedded systems, the trajectory shifted quite a bit.</p>\n<p>Given the Toyota embedded system platform, initially, an MRICDF based co-synthesis of the embedded software distributed over multitude of processors on the automotive bus was attempted. However, the scale and scope of &nbsp;a modern day automotive became difficult to manage with our formalism. So we moved towards embedded software design and optimization with Toyota while the student supported by the project continued her work. Since the embedded software design and synthesis is related to the original goals, and since technology transfer became a real possibility -- we chose this path.</p>\n<p>With Toyota, our work became quite successful. Two US patents on automotive embedded software design methodologies have been awarded co-authored with the Toyota researchers.</p>\n<p>An invited paper at premier conference on contract based design methodology we were working with was presented.</p>\n<p>The PhD student worked with Toyota Information Technology labs in California for two consecutive summers. A number of papers on scheduling communication on various types of modern automotive buses have been accepted and written for some top conferences such as ECRTS, and RTSS.</p>\n<p>Two initial students who were partially supported by this grant had graduated in the early months of the project but they were funded a few months on this project. One of them is now a scientist at the US Air Force Labs in Rome, NY, and another is an engineer at Mathworks. The student who worked the most on this project is expected to defend her thesis early 2018. In the current summer she is at the GM Labs in Michigan.</p>\n<p>Overall, the project, even though it went to a slightly different trajectory than planned - has been successful especially in technology transfer. &nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/10/2017<br>\n\t\t\t\t\tModified by: Sandeep&nbsp;K&nbsp;Shukla</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project originated with an idea that for embedded systems hardware and software can be co-synthesized from a single formal specification. The specification language chosen was MRICDF (Multi-rate Instantaneously Connected Data Flow Models) which is polychronous like another similar language SIGNAL from France. MRICDF was defined as a visual as well as textual language by a prior project funded by the US Air Force. In this language a distributed set of nodes called actors compute functions and communicate the results of computation to other components instantaneously. Original SIGNAL was invented to express control algorithms as data flow networks where synchronization is implicit. This provides flexibility to implement the computation as sequential software, multi-threaded software or distributed software. However, to ensure that the semantics of the implementation matches that of the intended specification, a compile time check called clock calculus needs  to be carried out. Our main innovation in MRICDF was a completely different logical calculus based on computation of prime implicates in a propositional theory.\n\nPowered by this innovation, we realized that a different interpretation of MRICDF specifications in the form of partial order structures, we can synthesize hardware that can be mapped to reconfigurable fabric.\n\nSo in our first work in this project we showed how to achieve hardware synthesis from MRICDF and then went onto find co-optimization of hardware and software synthesis from MRICDF.\n\nEven though the original plan was to continue this cooptimization technique and demonstrate the efficacy on FPGA, various changes in the personnel and the move of the PI from the United States to India, and involvement of the PI with an automotive research labs (Toyota), and shifting of the student involved in the project to another faculty with expertise in automotive embedded systems, the trajectory shifted quite a bit.\n\nGiven the Toyota embedded system platform, initially, an MRICDF based co-synthesis of the embedded software distributed over multitude of processors on the automotive bus was attempted. However, the scale and scope of  a modern day automotive became difficult to manage with our formalism. So we moved towards embedded software design and optimization with Toyota while the student supported by the project continued her work. Since the embedded software design and synthesis is related to the original goals, and since technology transfer became a real possibility -- we chose this path.\n\nWith Toyota, our work became quite successful. Two US patents on automotive embedded software design methodologies have been awarded co-authored with the Toyota researchers.\n\nAn invited paper at premier conference on contract based design methodology we were working with was presented.\n\nThe PhD student worked with Toyota Information Technology labs in California for two consecutive summers. A number of papers on scheduling communication on various types of modern automotive buses have been accepted and written for some top conferences such as ECRTS, and RTSS.\n\nTwo initial students who were partially supported by this grant had graduated in the early months of the project but they were funded a few months on this project. One of them is now a scientist at the US Air Force Labs in Rome, NY, and another is an engineer at Mathworks. The student who worked the most on this project is expected to defend her thesis early 2018. In the current summer she is at the GM Labs in Michigan.\n\nOverall, the project, even though it went to a slightly different trajectory than planned - has been successful especially in technology transfer.  \n\n\t\t\t\t\tLast Modified: 06/10/2017\n\n\t\t\t\t\tSubmitted by: Sandeep K Shukla"
+ }
+}

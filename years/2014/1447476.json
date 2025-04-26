@@ -1,0 +1,117 @@
+{
+ "awd_id": "1447476",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "BIGDATA: F: DKA: Collaborative Research: Structured Nearest Neighbor Search in High Dimensions",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032927347",
+ "po_email": "sspengle@nsf.gov",
+ "po_sign_block_name": "Sylvia Spengler",
+ "awd_eff_date": "2015-09-15",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2014-09-10",
+ "awd_max_amd_letter_date": "2014-09-10",
+ "awd_abstract_narration": "A fundamental problem in the analysis of large datasets consists of finding one or more data items that are as similar as possible to an input query. This situation occurs, for example, when a user wants to identify a product captured in a photo. The corresponding computational problem, called Nearest Neighbor (NN) Search, has attracted a large body of research, with several algorithms having significant impact. Yet the state of the art in NN suffers from important theoretical and practical limitations. In particular, it does not provide a natural way to exploit data *structure* that is present in many applications. For example, although the identity of a depicted object does not change when one varies the lighting or the position of the object, the current NN algorithms will treat the resulting images as completely different from each other and thus will mis-identify the object. To overcome this difficulty, in this project the PIs will develop new efficient algorithms that incorporate problem structure into NN search. The PIs expect that such methods will produce substantially better results for many massive data analysis tasks.\r\n\r\nTo ensure that the work is grounded in an important application, the PIs will focus on computer vision, an area where Internet-scale datasets are having a substantial impact. NN search is vital for computer vision, and in fact many senior computer vision researchers view improved NN techniques as their top algorithmic priority. Image and video have significant structure, often spatial in nature, which algorithmic techniques such as graph cuts have been able to exploit with considerable success. The proposed work will formulate new variants of NN search that make use of additional structure, and will design efficient algorithms to solve these problems over large datasets. In particular, the PIs will investigate three structured NN problem formulations. Simultaneous nearest-neighbor queries involves multiple queries where the answers should be compatible with each other. Nearest-neighbor under transformations considers distances that are invariant to a variety of image transformations. Nearest-neighbors for subspaces involves searching a set of linear or affine subspaces for the one that comes closest to a query point.  Broader impacts of the project include graduate training in both algorithms and image processing.\r\n\r\nFor further information see the project web site at: http://cs.brown.edu/~pff/SNN/",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Piotr",
+   "pi_last_name": "Indyk",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Piotr Indyk",
+   "pi_email_addr": "indyk@mit.edu",
+   "nsf_id": "000488958",
+   "pi_start_date": "2014-09-10",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "William",
+   "pi_last_name": "Freeman",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "William Freeman",
+   "pi_email_addr": "wtf@ai.mit.edu",
+   "nsf_id": "000418387",
+   "pi_start_date": "2014-09-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 Massachusetts Avenue",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394307",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "808300",
+   "pgm_ele_name": "Big Data Science &Engineering"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "8083",
+   "pgm_ref_txt": "Big Data Science &Engineering"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The focus of the project was to develop efficient algorithms for structured nearest neighbor search. The basic nearest neighbor problem is defined as follows: given a database of points in a multidimensional geometric space, devise a data structure that, given any query point, quickly finds its nearest neighbor in the database. This is a basic geometric problem with a remarkable number of applications in a variety of fields, such as machine learning, databases, natural language processing and computer vision. For example, searching for a similar image&nbsp; is often performed by extracting a&nbsp; set of&nbsp; numerical features from all&nbsp; images, and searching for feature vectors that are closest to a given one.</p>\n<p>Yet the state of the art in NN suffers from important theoretical and practical limitations. In particular, it does not provide a natural way to exploit structures, such as compatibility constraints, that are present in many applications</p>\n<p>The project has resulted in the development of several novel algorithms for structured and regular similarity search, as well as multiple vision/machine methods that use similarity search as a key subroutine. Specific contributions include:<br /><br />ALGORITHMS:</p>\n<ul>\n<li>FALCONN, a fast algorithm for nearest neighbor search in high dimensions. Available at https://github.com/FALCONN-LIB/FALCONN</li>\n<li>Robust variants of the nearest neighbor problem, where some of the coordinates can be arbitrarily corrupted</li>\n<li>Efficient algorithms for the simultaneous nearest neighbor problems, which exploits compatibility constraints between solutions to multiple searches</li>\n<li>Approximate compression algorithms for high-dimensional pointsets which preserve the distances between the points, as well as the distances to their nearest neighbors</li>\n<li>Data dependent data structures for regular nearest-neighbors and their limitations</li>\n<li>Connections to sub-linear time algorithms, including solving the set cover in sub-linear space</li>\n</ul>\n<p><br />METHODS:<br /><br /></p>\n<ul>\n<li>&nbsp;Best buddies similarity for robust template matching</li>\n<li>&nbsp;Visual deprojection: probabilistic recovery of collapsed dimensions</li>\n<li>&nbsp;Learning and using the \"arrow of time\" in videos</li>\n<li>&nbsp;Turning corners into cameras: principles and methods</li>\n</ul>\n<p><br />We published these findings in top computer vision, machine learning and algorithms venues. In addition, we have presented the material in various invited poster and oral presentations.<br /><br />Impact per study:<br /><br />1. Best buddies similarity (BBS):<br /><br />Image template matching is a classic computer vision problem, and BBS is a new, robust solution for complex images that outperforms commonly-used approaches such as normalized cross-correlation, histogram matching and earth mover's distance.<br /><br />2. Visual Deprojection:<br /><br />This is the first work that explores the general problem of collapsed dimension recovery in visual data. We show that it is possible to recover many details of images/videos from their spatial projections, a surprising finding with implications in several imaging domains such as non-line-of-sight imaging and tomography.<br /><br />3. Learning the Arrow of Time:<br /><br />We present the first data-driven method to learn and use the arrow of time from video recordings. The method identifies parts of the video that most reveal the direction of time, and can also detect temporally-reversed films, a special case of video forensics.<br /><br />4. Corner Cameras:<br /><br />This is the first work showing that walls, and other obstructions with edges, can be exploited as naturally-occurring \"cameras\" that reveal hidden scenes behind them. This work has impact for public safety and autonomous driving.<br /><br />5. FALCONN, a software implementation of a near neighbor search algorithm:<br /><br />Our implementation provides a state-of-the-art code for the near neighbor search problem.<br /><br />6. Simultaneous nearest neighbor and robust nearest neighbor:<br /><br />Our results significantly expanded the set of nearest neighbor search formulations that are supported by efficient algorithms.<br /><br />7. Metric compression:<br /><br />Our metric compression method is the first to offer both state-of-the-art performance and strong theoretical guarantees.<br /><br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/11/2020<br>\n\t\t\t\t\tModified by: Piotr&nbsp;Indyk</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe focus of the project was to develop efficient algorithms for structured nearest neighbor search. The basic nearest neighbor problem is defined as follows: given a database of points in a multidimensional geometric space, devise a data structure that, given any query point, quickly finds its nearest neighbor in the database. This is a basic geometric problem with a remarkable number of applications in a variety of fields, such as machine learning, databases, natural language processing and computer vision. For example, searching for a similar image  is often performed by extracting a  set of  numerical features from all  images, and searching for feature vectors that are closest to a given one.\n\nYet the state of the art in NN suffers from important theoretical and practical limitations. In particular, it does not provide a natural way to exploit structures, such as compatibility constraints, that are present in many applications\n\nThe project has resulted in the development of several novel algorithms for structured and regular similarity search, as well as multiple vision/machine methods that use similarity search as a key subroutine. Specific contributions include:\n\nALGORITHMS:\n\nFALCONN, a fast algorithm for nearest neighbor search in high dimensions. Available at https://github.com/FALCONN-LIB/FALCONN\nRobust variants of the nearest neighbor problem, where some of the coordinates can be arbitrarily corrupted\nEfficient algorithms for the simultaneous nearest neighbor problems, which exploits compatibility constraints between solutions to multiple searches\nApproximate compression algorithms for high-dimensional pointsets which preserve the distances between the points, as well as the distances to their nearest neighbors\nData dependent data structures for regular nearest-neighbors and their limitations\nConnections to sub-linear time algorithms, including solving the set cover in sub-linear space\n\n\n\nMETHODS:\n\n\n\n Best buddies similarity for robust template matching\n Visual deprojection: probabilistic recovery of collapsed dimensions\n Learning and using the \"arrow of time\" in videos\n Turning corners into cameras: principles and methods\n\n\n\nWe published these findings in top computer vision, machine learning and algorithms venues. In addition, we have presented the material in various invited poster and oral presentations.\n\nImpact per study:\n\n1. Best buddies similarity (BBS):\n\nImage template matching is a classic computer vision problem, and BBS is a new, robust solution for complex images that outperforms commonly-used approaches such as normalized cross-correlation, histogram matching and earth mover's distance.\n\n2. Visual Deprojection:\n\nThis is the first work that explores the general problem of collapsed dimension recovery in visual data. We show that it is possible to recover many details of images/videos from their spatial projections, a surprising finding with implications in several imaging domains such as non-line-of-sight imaging and tomography.\n\n3. Learning the Arrow of Time:\n\nWe present the first data-driven method to learn and use the arrow of time from video recordings. The method identifies parts of the video that most reveal the direction of time, and can also detect temporally-reversed films, a special case of video forensics.\n\n4. Corner Cameras:\n\nThis is the first work showing that walls, and other obstructions with edges, can be exploited as naturally-occurring \"cameras\" that reveal hidden scenes behind them. This work has impact for public safety and autonomous driving.\n\n5. FALCONN, a software implementation of a near neighbor search algorithm:\n\nOur implementation provides a state-of-the-art code for the near neighbor search problem.\n\n6. Simultaneous nearest neighbor and robust nearest neighbor:\n\nOur results significantly expanded the set of nearest neighbor search formulations that are supported by efficient algorithms.\n\n7. Metric compression:\n\nOur metric compression method is the first to offer both state-of-the-art performance and strong theoretical guarantees.\n\n\n\n\n\t\t\t\t\tLast Modified: 01/11/2020\n\n\t\t\t\t\tSubmitted by: Piotr Indyk"
+ }
+}

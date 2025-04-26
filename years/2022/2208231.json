@@ -1,0 +1,98 @@
+{
+ "awd_id": "2208231",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Efficient Hybridizable Discontinuous Galerkin Methods for Phase Field Fluid Models",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032922113",
+ "po_email": "ygorb@nsf.gov",
+ "po_sign_block_name": "Yuliya Gorb",
+ "awd_eff_date": "2022-08-15",
+ "awd_exp_date": "2023-01-31",
+ "tot_intn_awd_amt": 152848.0,
+ "awd_amount": 152848.0,
+ "awd_min_amd_letter_date": "2022-08-03",
+ "awd_max_amd_letter_date": "2022-08-03",
+ "awd_abstract_narration": "Multiphase flow  is ubiquitous in natural phenomena and industrial applications.  Common examples include wave-breaking and sloshing, contaminant transport in aquifers, oil recovery in petroleum engineering, drug delivery in blood flow,  gas-particle flow in combustion reactors,  exhaust management in Polymer Electrolyte Membrane fuel cell technology, and so forth.   The diffuse interface fluid models have become increasingly popular in the numerical modeling of interfacial phenomena associated with multiphase flows. They are able to capture  smooth transitions of fluid interface, and simulations can be carried out on a fixed grid without explicit interface tracking.   A particular challenge in solving diffuse interface models is that the diffusive interface of small width often exhibits instability such as  bubble merging or splitting. Traditional high order methods  are prone to  spurious oscillations around diffusive interfaces  which can pollute the numerical solution beyond the interface region and even cause blow-up of the code  due to negative viscosity, density or mobility.  The aim of this project is to develop high order numerical methods that can accurately capture moving interfaces of multiphase flow.\r\n\r\nReal-world applications see both diffusion dominated flows and advection dominated flows. The investigator first develops and  analyzes provably superconvergent hybridizable discontinuous Galerkin methods (HDG) for solving diffuse interface fluid models in the diffusion-dominated regime. The key idea in the design is to approximate solution variables by higher order polynomials than those for the numerical traces and gradient variables,  and to explore local projection based stabilization. The PI then  designs stabilized high order  HDG methods effected with the Scalar Auxiliary Variable (SAV) time-stepping schemes for advection-dominated flows. The methods  stabilize advection   in the  nonlinear fourth order advection-diffusion  equation while preserve the underlying energy laws.   The stabilized SAV-HDG algorithms enable diffuse interface methods to accurately capture sharp fronts and unstable interfaces in the advection-dominated regime, and allow efficient  parallel computation of smaller systems at each time step.  Finally the PI develops and implements fast nonlinear HDG multigrid  solvers for diffuse interface fluid models.  The practical solvers will further address the lack of efficient iterative solvers/preconditioners for HDG methods Graduate students participate in the work of this project.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daozhi",
+   "pi_last_name": "Han",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daozhi Han",
+   "pi_email_addr": "daozhiha@buffalo.edu",
+   "nsf_id": "000764294",
+   "pi_start_date": "2022-08-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Missouri University of Science and Technology",
+  "inst_street_address": "300 W. 12TH STREET",
+  "inst_street_address_2": "202 CENTENNIAL HALL",
+  "inst_city_name": "ROLLA",
+  "inst_state_code": "MO",
+  "inst_state_name": "Missouri",
+  "inst_phone_num": "5733414134",
+  "inst_zip_code": "654091330",
+  "inst_country_name": "United States",
+  "cong_dist_code": "08",
+  "st_cong_dist_code": "MO08",
+  "org_lgl_bus_name": "UNIVERSITY OF MISSOURI SYSTEM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "Y6MGH342N169"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Missouri University of Science and Technology",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MO",
+  "perf_st_name": "Missouri",
+  "perf_zip_code": "654096506",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "08",
+  "perf_st_cong_dist": "MO08",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 0.0
+  }
+ ],
+ "por": null
+}

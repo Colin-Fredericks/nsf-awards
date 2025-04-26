@@ -1,0 +1,112 @@
+{
+ "awd_id": "1337224",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research:XPS:CLCCA: Performance Portable Abstractions for Large-Scale Irregular Computations",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2013-09-15",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 449911.0,
+ "awd_amount": 449911.0,
+ "awd_min_amd_letter_date": "2013-09-09",
+ "awd_max_amd_letter_date": "2013-09-09",
+ "awd_abstract_narration": "Ongoing technology trends are accelerating scientific discovery by allowing researchers to generate enormous quantities of data, in domains ranging from computational biology to social networks.  There is an urgent need to make it easy and fast to extract useful content from this data using appropriate abstractions and parallel runtimes.  Work conducted under this project aims to make \"big data\" computing more readily available to applications with dynamic structure and irregular dependencies, thereby enabling advances in scientific computing in general and computational biology in particular.\r\n\r\nThis project extends the state of the art in scientific computing by developing programming abstractions to expose -- and run-time optimizations to exploit -- the parallelism available in large, irregular applications.  Parallelism is essential for the extraction of useful information from ever increasing volumes of scientific data, but the irregularity of data structure and access in many problem domains makes efficient parallelization difficult. At the level of the programming model, the project addresses the challenge of irregularity by identifying design patterns for important new classes of applications -- in particular, those that use trees and graphs for data representation and access but demonstrate some structure in the traversal.  At the level of the run-time system, it is developing computational engines that support and exploit the new patterns, leveraging the structure exposed to automatically and dynamically map computational tasks to hardware nodes.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sandhya",
+   "pi_last_name": "Dwarkadas",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sandhya Dwarkadas",
+   "pi_email_addr": "sandhya@virginia.edu",
+   "nsf_id": "000368396",
+   "pi_start_date": "2013-09-09",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Scott",
+   "pi_mid_init": "L",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael L Scott",
+   "pi_email_addr": "scott@cs.rochester.edu",
+   "nsf_id": "000343030",
+   "pi_start_date": "2013-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Rochester",
+  "inst_street_address": "910 GENESEE ST",
+  "inst_street_address_2": "STE 200",
+  "inst_city_name": "ROCHESTER",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "5852754031",
+  "inst_zip_code": "146113847",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "NY25",
+  "org_lgl_bus_name": "UNIVERSITY OF ROCHESTER",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F27KDXZMF9Y8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Rochester",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "146270140",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "NY25",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "164000",
+   "pgm_ele_name": "Information Technology Researc"
+  },
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 449911.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Parallelism is essential for the extraction of useful information from ever increasing volumes of scientific data, but the irregularity of data structures and access patterns in many problem domains makes efficient parallelization difficult.&nbsp; At the level of the programming model, the project addressed the challenge of irregularity by identifying design patterns for important new classes of applications -- in particular, those that use trees and graphs for data representation but demonstrate some structure in the traversal.&nbsp; At the level of the run-time system, the project developed techniques to significantly improve parallel system efficiency and programmer productivity without compromising performance.</p>\n<p>To make as effective use as possible of modern multiprocessors and clusters, techniques were developed to co-locate application tasks that share significant amounts of data, thereby minimizing communication costs.&nbsp; Related techniques were developed to automatically control the level of parallelism in each application.&nbsp; Both of these mechanisms leverage the performance monitoring features of modern processors to effect their adaptations without programmer or user intervention.&nbsp; For systems that share hardware resources across independent applications, the project also developed driver software that guarantees fair access to extremely fast parallel I/O devices.</p>\n<p>In the area of speculative execution, techniques were developed to maximize the effectiveness of hardware transactional memory (HTM), which allows groups of instructions to be executed as a single indivisible operation.&nbsp; One such technique uses HTM as a prefetching mechanism that allows an application to maximize performance when an operation for which it is waiting finally completes; another technique minimizes data structure indirection, thereby reducing the odds of spurious HTM failures.&nbsp; Several new concurrent data structures were also developed, together with techniques that leverage emerging memory technologies to maintain the consistency of structured data across power outages and other system failures.</p>\n<p>Ongoing technology trends are accelerating scientific discovery by allowing researchers to generate enormous quantities of data, in domains ranging from computational biology to social networks.&nbsp; Work conducted under this project helps make \"big data\" computing more readily available to applications with dynamic structure and irregular dependencies, thereby enabling advances in scientific computing in general and computational biology in particular.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/10/2017<br>\n\t\t\t\t\tModified by: Michael&nbsp;L&nbsp;Scott</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nParallelism is essential for the extraction of useful information from ever increasing volumes of scientific data, but the irregularity of data structures and access patterns in many problem domains makes efficient parallelization difficult.  At the level of the programming model, the project addressed the challenge of irregularity by identifying design patterns for important new classes of applications -- in particular, those that use trees and graphs for data representation but demonstrate some structure in the traversal.  At the level of the run-time system, the project developed techniques to significantly improve parallel system efficiency and programmer productivity without compromising performance.\n\nTo make as effective use as possible of modern multiprocessors and clusters, techniques were developed to co-locate application tasks that share significant amounts of data, thereby minimizing communication costs.  Related techniques were developed to automatically control the level of parallelism in each application.  Both of these mechanisms leverage the performance monitoring features of modern processors to effect their adaptations without programmer or user intervention.  For systems that share hardware resources across independent applications, the project also developed driver software that guarantees fair access to extremely fast parallel I/O devices.\n\nIn the area of speculative execution, techniques were developed to maximize the effectiveness of hardware transactional memory (HTM), which allows groups of instructions to be executed as a single indivisible operation.  One such technique uses HTM as a prefetching mechanism that allows an application to maximize performance when an operation for which it is waiting finally completes; another technique minimizes data structure indirection, thereby reducing the odds of spurious HTM failures.  Several new concurrent data structures were also developed, together with techniques that leverage emerging memory technologies to maintain the consistency of structured data across power outages and other system failures.\n\nOngoing technology trends are accelerating scientific discovery by allowing researchers to generate enormous quantities of data, in domains ranging from computational biology to social networks.  Work conducted under this project helps make \"big data\" computing more readily available to applications with dynamic structure and irregular dependencies, thereby enabling advances in scientific computing in general and computational biology in particular.\n\n\t\t\t\t\tLast Modified: 12/10/2017\n\n\t\t\t\t\tSubmitted by: Michael L Scott"
+ }
+}

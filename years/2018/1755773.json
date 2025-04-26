@@ -1,0 +1,105 @@
+{
+ "awd_id": "1755773",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: CIF: Model-based Compression of Biological Sequences",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2018-03-15",
+ "awd_exp_date": "2022-02-28",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2018-03-07",
+ "awd_max_amd_letter_date": "2018-03-07",
+ "awd_abstract_narration": "With the increasingly widespread use of high-throughput genome sequencing, the amount of biological sequence data is growing at a rate much faster than the decrease in the cost of storage media. To avoid saturating available storage capacity, such data must be compressed at a high ratio. Biological sequences are created over the course of evolution by mutation processes, including substitution, insertion, deletion, and duplication. While these processes shape the statistical properties of genomic sequences and play a critical role in determining which compression approaches will provide improved performance, they are not taken into account by current methods. The goal of this project is to provide a principled approach to biological data compression by developing and leveraging mutation models that approximate the generation process of genomic sequences.\r\n\r\nThe main research thrusts of the project are: 1) determining the fundamental limits of the compressibility of biological sequences; and 2) developing and evaluating encoding and decoding algorithms that approach these limits. Identifying the limits of compression relies on developing combinatorial and stochastic string-editing models that represent sequence generation through genomic mutations. These models are then studied from an information-theoretic point of view to determine their combinatorial and stochastic capacities, thus providing bounds on the compressibility of genomic sequences. The second thrust leverages the statistical properties arising from mutation models, such as repeat structures, to develop efficient compression tools. In addition to improving compression methods, the success of these research directions will enhance our understanding of complex sequence generation processes, enable the generation of faithful synthetic data, and facilitate the quantitative study of the role of mutations in generating novel biological functions.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Farzad",
+   "pi_last_name": "Farnoud",
+   "pi_mid_init": "H",
+   "pi_sufx_name": "",
+   "pi_full_name": "Farzad H Farnoud",
+   "pi_email_addr": "ffh8x@virginia.edu",
+   "nsf_id": "000754674",
+   "pi_start_date": "2018-03-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Virginia Main Campus",
+  "inst_street_address": "1001 EMMET ST N",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHARLOTTESVILLE",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "4349244270",
+  "inst_zip_code": "229034833",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "VA05",
+  "org_lgl_bus_name": "RECTOR & VISITORS OF THE UNIVERSITY OF VIRGINIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JJG6HU8PA4S5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "The Rector and Visitors of the University of Virginia",
+  "perf_str_addr": "351 McCormick Road",
+  "perf_city_name": "Charlottesville",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "229044743",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "VA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779700",
+   "pgm_ele_name": "Comm & Information Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7935",
+   "pgm_ref_txt": "COMM & INFORMATION THEORY"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><div id=\"lipsum\">\n<p>With the expanding use of high-throughput genome sequencing, the volume of biological sequence data is growing rapidly. This growth highlights the need for efficient and scalable data compression tools that can facilitate the storage and dissemination of large volumes of genomic data. This project aimed to achieve two objectives: i) establish a framework to determine the fundamental limits on the compressibility of biological sequences, and ii) develop and analyze scalable data compression methods.</p>\n<p>The compressibility of data depends on its entropy, which measures the level of uncertainty and is inversely related to predictability. Data with frequent repeating patterns is low-entropy and highly compressible, whereas the size of data with high randomness cannot be significantly reduced. Probabilistic models of how the data is generated are needed to determine its entropy. Biological sequences are created over the course of evolution by stochastic mutation processes, including substitutions, insertions, deletions, and duplications. This project developed probabilistic models describing such generation processes and, by leveraging stochastic approximation, established bounds on the entropy of the resulting sequences, making progress toward the first objective. The developed models and analysis methods were also utilized to study bioinformatics problems such as estimating mutation rates, identifying circular repeats, and determining the time required for specific sequences to emerge due to random mutations.</p>\n<p>With respect to the second goal, the project studies data compression through deduplication as an effective and scalable approach. Deduplication refers to reducing the size of data by identifying and eliminating identical or similar segments. The results of the project represent the first information-theoretic analysis of deduplication of approximate repeats, which occur in genomic data due to mutations. The models, however, are more broadly applicable and may describe, for example, logs and edited documents. We analyze a range of existing deduplication algorithms under a model that allows random substitutions in repeated blocks to simulate differences and edits. Through probabilistic analysis, we determine how capable these methods are of compressing the data as a function of the model parameters. Furthermore, we describe novel deduplication algorithms that are more versatile and evaluate their performance on synthetic and real data.</p>\n<p>The results of the project have been published in more than ten conference and journal papers in leading venues in information theory and bioinformatics. The project has also provided opportunities for training multiple graduate and undergraduate research assistants. These students have performed sophisticated probabilistic analysis, algorithm design, implementation, and performance evaluation, and have presented their research results at national conferences. Finally, the work in this project has contributed to the development of educational material, namely, a course titled &ldquo;Mathematics of Information,&rdquo; which focuses on the mathematical foundations of technologies that have powered the information age. The course material is publicly available on its website.</p>\n</div><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/12/2023<br>\n\t\t\t\t\tModified by: Farzad&nbsp;F&nbsp;Hassanzadeh</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nWith the expanding use of high-throughput genome sequencing, the volume of biological sequence data is growing rapidly. This growth highlights the need for efficient and scalable data compression tools that can facilitate the storage and dissemination of large volumes of genomic data. This project aimed to achieve two objectives: i) establish a framework to determine the fundamental limits on the compressibility of biological sequences, and ii) develop and analyze scalable data compression methods.\n\nThe compressibility of data depends on its entropy, which measures the level of uncertainty and is inversely related to predictability. Data with frequent repeating patterns is low-entropy and highly compressible, whereas the size of data with high randomness cannot be significantly reduced. Probabilistic models of how the data is generated are needed to determine its entropy. Biological sequences are created over the course of evolution by stochastic mutation processes, including substitutions, insertions, deletions, and duplications. This project developed probabilistic models describing such generation processes and, by leveraging stochastic approximation, established bounds on the entropy of the resulting sequences, making progress toward the first objective. The developed models and analysis methods were also utilized to study bioinformatics problems such as estimating mutation rates, identifying circular repeats, and determining the time required for specific sequences to emerge due to random mutations.\n\nWith respect to the second goal, the project studies data compression through deduplication as an effective and scalable approach. Deduplication refers to reducing the size of data by identifying and eliminating identical or similar segments. The results of the project represent the first information-theoretic analysis of deduplication of approximate repeats, which occur in genomic data due to mutations. The models, however, are more broadly applicable and may describe, for example, logs and edited documents. We analyze a range of existing deduplication algorithms under a model that allows random substitutions in repeated blocks to simulate differences and edits. Through probabilistic analysis, we determine how capable these methods are of compressing the data as a function of the model parameters. Furthermore, we describe novel deduplication algorithms that are more versatile and evaluate their performance on synthetic and real data.\n\nThe results of the project have been published in more than ten conference and journal papers in leading venues in information theory and bioinformatics. The project has also provided opportunities for training multiple graduate and undergraduate research assistants. These students have performed sophisticated probabilistic analysis, algorithm design, implementation, and performance evaluation, and have presented their research results at national conferences. Finally, the work in this project has contributed to the development of educational material, namely, a course titled \"Mathematics of Information,\" which focuses on the mathematical foundations of technologies that have powered the information age. The course material is publicly available on its website.\n\n\n\t\t\t\t\tLast Modified: 04/12/2023\n\n\t\t\t\t\tSubmitted by: Farzad F Hassanzadeh"
+ }
+}

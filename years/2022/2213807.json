@@ -1,0 +1,101 @@
+{
+ "awd_id": "2213807",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: CCRI: Planning-C: Accelerated Infrastructure for Simulating Future Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Damian Dechev",
+ "awd_eff_date": "2022-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 50000.0,
+ "awd_amount": 50000.0,
+ "awd_min_amd_letter_date": "2022-07-08",
+ "awd_max_amd_letter_date": "2022-07-08",
+ "awd_abstract_narration": "Software-based simulation is the backbone of computer architecture research and development. The project novelty is the identification of the following problems with these methodologies: (1) The use of on-premise servers for running simulations suffers from the high operation and embodied energy costs. Although simulation performance has always been a primary engineering focus of software-based simulators, energy consumption and environmental impacts of detailed hardware simulation have mainly been ignored. (2) Detailed software-based simulations have different run-time characteristics than baremetal applications. Such differences make the general-purpose servers with default server configurations extremely inefficient for running detailed simulations. (3) Lastly, full-system simulation environments have steep learning curves that further steepen as the hardware and software stacks to be simulated become more complex. The project\u2019s impacts are to bring the CISE community's attention to the energy waste at the onpremise simulation clusters and provide a foundation for minimizing the energy and carbon footprint of future hardware evaluation.\r\n\r\nThe investigators\u2019 goal is to create a cloud-based community infrastructure for running simulations. This community infrastructure eliminates the need for funding agencies such as NSF to invest in on-premise servers and significantly reduce the end-to-end carbon footprint of simulations. More specifically, investigators extensively analyze the source code and run-time of the popular architectural simulators to understand their characteristics as a software program that needs to be efficiently executed on real hardware. The investigators use the profiling results to tune system parameters and provide a highly optimized environment for running architectural simulations. They enhance the proposed cloud infrastructure with hardware accelerators that further improve popular architectural simulators' energy efficiency and performance. The infrastructure follows a marketplace model for sharing and using simulation models and setups developed by other researchers to reduce the learning curve of detailed simulations.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mohammad",
+   "pi_last_name": "Alian",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mohammad Alian",
+   "pi_email_addr": "malian@cornell.edu",
+   "nsf_id": "000845363",
+   "pi_start_date": "2022-07-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Kansas Center for Research Inc",
+  "inst_street_address": "2385 IRVING HILL RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "LAWRENCE",
+  "inst_state_code": "KS",
+  "inst_state_name": "Kansas",
+  "inst_phone_num": "7858643441",
+  "inst_zip_code": "660457563",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "KS01",
+  "org_lgl_bus_name": "UNIVERSITY OF KANSAS CENTER FOR RESEARCH INC",
+  "org_prnt_uei_num": "SSUJB3GSH8A5",
+  "org_uei_num": "SSUJB3GSH8A5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Kansas Center for Research Inc",
+  "perf_str_addr": "2385 IRVING HILL RD",
+  "perf_city_name": "Lawrence",
+  "perf_st_code": "KS",
+  "perf_st_name": "Kansas",
+  "perf_zip_code": "660457552",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "KS01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735900",
+   "pgm_ele_name": "CCRI-CISE Cmnty Rsrch Infrstrc"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7359",
+   "pgm_ref_txt": "COMPUTING RES INFRASTRUCTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 50000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Software-based architectural simulation is extensively employed in the early phases of hardware design. However, utilizing these simulators poses various challenges, ranging from a steep learning curve to sluggish performance. In this project, we dedicated time to thoroughly assess gem5, a leading architectural simulator, with the objective of accelerating its speed and mitigating the steep learning curve. The results of this investigation have been published in the 2023 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS). Notably, our study reveals that running gem5 on low-power ARM cores with an optimized memory hierarchy configuration can achieve significantly higher simulation speeds and substantially lower simulation energy consumption compared to running it on a high-end server-class CPU.</p>\n<p>Additionally, the Principal Investigator (PI) conducted interviews with researchers in both industry and academia, yielding the following insights:</p>\n<ol>\n<li>\n<p>In academia, architectural simulators are utilized not only for research purposes but also for educational endeavors. However, a significant challenge lies in the reciprocal relationship between learning computer architecture and using architectural simulators effectively.</p>\n</li>\n<li>\n<p>The slow speed of architectural simulators is a concern not only for academic researchers but also for industry researchers.</p>\n</li>\n<li>\n<p>Accuracy is a paramount concern for industry researchers working with architectural simulators.</p>\n</li>\n<li>\n<p>The absence of a standardized methodology for evaluating large-scale applications on current software-based architectural simulators is a notable issue.</p>\n</li>\n</ol>\n<p>To disseminate these findings within the computer architecture community, PI Alian presented these key points at the gem5 workshop co-located with the International Symposium on Computer Architecture (ISCA) in June 2023.</p>\n<p>The outcomes of this project enabled PI Alian to gain valuable insights and become involved in two related projects, leading to two NSF grants:</p>\n<ol>\n<li><strong>NSF Award 2327971: Collaborative Research: EAGER: AI-Assisted Just-in-Time Scaffolding Framework for Exploring Modern Computer Design</strong></li>\n</ol>\n<p>Recognizing the challenges in using architectural simulators for education, this project aims to employ AI scaffolding methods to reduce the learning curve of architectural simulators and facilitate their seamless integration into educational settings.</p>\n<ol>\n<li><strong>NSF Award 2311891: Collaborative Research: Frameworks: Advancing Computer Hardware and Systems' Research Capability, Reproducibility, and Sustainability with the gem5 Simulator Ecosystem</strong></li>\n</ol>\n<p>Acknowledging the lack of a methodology for evaluating large-scale applications and the slow speed of simulations using architectural simulators, this project aims to overhaul gem5, a state-of-the-art architectural simulator with broad community support, to address these challenges and enhance its overall capabilities.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/16/2023<br>\n\t\t\t\t\tModified by: Mohammad&nbsp;Alian</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSoftware-based architectural simulation is extensively employed in the early phases of hardware design. However, utilizing these simulators poses various challenges, ranging from a steep learning curve to sluggish performance. In this project, we dedicated time to thoroughly assess gem5, a leading architectural simulator, with the objective of accelerating its speed and mitigating the steep learning curve. The results of this investigation have been published in the 2023 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS). Notably, our study reveals that running gem5 on low-power ARM cores with an optimized memory hierarchy configuration can achieve significantly higher simulation speeds and substantially lower simulation energy consumption compared to running it on a high-end server-class CPU.\n\nAdditionally, the Principal Investigator (PI) conducted interviews with researchers in both industry and academia, yielding the following insights:\n\n\n\nIn academia, architectural simulators are utilized not only for research purposes but also for educational endeavors. However, a significant challenge lies in the reciprocal relationship between learning computer architecture and using architectural simulators effectively.\n\n\n\nThe slow speed of architectural simulators is a concern not only for academic researchers but also for industry researchers.\n\n\n\nAccuracy is a paramount concern for industry researchers working with architectural simulators.\n\n\n\nThe absence of a standardized methodology for evaluating large-scale applications on current software-based architectural simulators is a notable issue.\n\n\n\nTo disseminate these findings within the computer architecture community, PI Alian presented these key points at the gem5 workshop co-located with the International Symposium on Computer Architecture (ISCA) in June 2023.\n\nThe outcomes of this project enabled PI Alian to gain valuable insights and become involved in two related projects, leading to two NSF grants:\n\nNSF Award 2327971: Collaborative Research: EAGER: AI-Assisted Just-in-Time Scaffolding Framework for Exploring Modern Computer Design\n\n\nRecognizing the challenges in using architectural simulators for education, this project aims to employ AI scaffolding methods to reduce the learning curve of architectural simulators and facilitate their seamless integration into educational settings.\n\nNSF Award 2311891: Collaborative Research: Frameworks: Advancing Computer Hardware and Systems' Research Capability, Reproducibility, and Sustainability with the gem5 Simulator Ecosystem\n\n\nAcknowledging the lack of a methodology for evaluating large-scale applications and the slow speed of simulations using architectural simulators, this project aims to overhaul gem5, a state-of-the-art architectural simulator with broad community support, to address these challenges and enhance its overall capabilities.\n\n \n\n\t\t\t\t\tLast Modified: 10/16/2023\n\n\t\t\t\t\tSubmitted by: Mohammad Alian"
+ }
+}

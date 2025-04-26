@@ -1,0 +1,96 @@
+{
+ "awd_id": "1522518",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "I-Corps:  Capturing Field Data for Mobile Applications",
+ "cfda_num": "47.084",
+ "org_code": "15030000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Steven Konsek",
+ "awd_eff_date": "2015-02-15",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 50000.0,
+ "awd_amount": 50000.0,
+ "awd_min_amd_letter_date": "2015-02-10",
+ "awd_max_amd_letter_date": "2015-02-10",
+ "awd_abstract_narration": "Mobile applications are prevalent and are increasingly being used for business activities. Because the mobile user environment is not directly under the control of the companies developing such applications, it is difficult for them to observe, reproduce, investigate, and fix failures that occur in the field. Further, mobile environments can be heterogeneous and may lead to different kinds of issues in the application behavior, making it harder to investigate these issues and possible failures associated with them. Delays in addressing these failures lead to high cost in terms of customer support and loss of reputation on the application store due to bad reviews from dis-satisfied customers.  This I-Corps team proposes a novel approach that captures the runtime behavior of a mobile application in the field and makes it available to the developer.\r\n\r\nThe goal from this project is to complete the customer validation to develop a proof-of-concept technique and tool for capturing field data relevant to the mobile application. The technique will collect this field data, which consists of different runtime states of the application on specific mobile environments and the sequences of actions leading to such states. This information would be reported in a visual format to allow developers to identify commonalities and differences between the runtime behavior obtained from\r\ndifferent environments. Although the exact details of this technique might change based on interaction with potential customers, it has essential ingredients to support the testing and maintenance activities for the mobile application.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "TIP",
+ "org_dir_long_name": "Directorate for Technology, Innovation, and Partnerships",
+ "div_abbr": "TI",
+ "org_div_long_name": "Translational Impacts",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alessandro",
+   "pi_last_name": "Orso",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alessandro Orso",
+   "pi_email_addr": "orso@cc.gatech.edu",
+   "nsf_id": "000489660",
+   "pi_start_date": "2015-02-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Ave NW",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "802300",
+   "pgm_ele_name": "I-Corps"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 50000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Mobile applications are extremely popular and are now being used for critical business activities.&nbsp;However, since the mobile user environment is not directly under the control of the companies developing such applications, it is difficult for them to observe, reproduce, investigate, and fix failures that occur in the field. Delays in addressing these failures leads to high cost in terms of customer support and loss of reputation on the application store due to bad reviews from dissatisfied customers. The intuition behind this project was to prevent such undesirable cases with improved testing and debugging of such applications.</p>\n<p>The primary goal of this project was to assess the commercial viability of capturing field data for mobile applications for the purposes of improving quality assurance activities for such applications. Specifically, we aimed to assess the usefulness of application runtime data in testing and debugging scenarios. Our approach was planned to be based on customer discovery performed as a part of the project, guided with instructions received by the program instructors during the i-Corps workshops.</p>\n<p>Through the customer discovery interviews, we learnt that mobile developers were already using monitoring tools for collecting failures (e.g., crashes) from the field. Thus, we did not find a burning need for newer tools in this arena. However, in the process we learned that most testing was performed manually, which made the process time consuming and error-prone. There exist frameworks (such as Google's Espresso and the open source Appium toolkit) for writing automated test cases and alleviate or eliminate some of the problems with manual testing. However, QA testers still need expertise and considerable amount of time to develop test scripts using these frameworks. We therefore realized the need for a tool to help developers and testers effortlessly generate test cases in the mobile environment. &nbsp;</p>\n<p>In the later part of this project, we focused on this idea. We developed a technique for helping testers easily create platform independent test scripts for their app and automatically run the generated test scripts on multiple devices and operating system versions. One distinctive feature of our technique is that it allows for adding oracles to the tests in a visual and intuitive way. We implemented our technique in a freely available tool called Barista. Our preliminary evaluation of Barista shows that it can be useful and effective in practice and that it improves the state of the art.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/13/2017<br>\n\t\t\t\t\tModified by: Alessandro&nbsp;Orso</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMobile applications are extremely popular and are now being used for critical business activities. However, since the mobile user environment is not directly under the control of the companies developing such applications, it is difficult for them to observe, reproduce, investigate, and fix failures that occur in the field. Delays in addressing these failures leads to high cost in terms of customer support and loss of reputation on the application store due to bad reviews from dissatisfied customers. The intuition behind this project was to prevent such undesirable cases with improved testing and debugging of such applications.\n\nThe primary goal of this project was to assess the commercial viability of capturing field data for mobile applications for the purposes of improving quality assurance activities for such applications. Specifically, we aimed to assess the usefulness of application runtime data in testing and debugging scenarios. Our approach was planned to be based on customer discovery performed as a part of the project, guided with instructions received by the program instructors during the i-Corps workshops.\n\nThrough the customer discovery interviews, we learnt that mobile developers were already using monitoring tools for collecting failures (e.g., crashes) from the field. Thus, we did not find a burning need for newer tools in this arena. However, in the process we learned that most testing was performed manually, which made the process time consuming and error-prone. There exist frameworks (such as Google's Espresso and the open source Appium toolkit) for writing automated test cases and alleviate or eliminate some of the problems with manual testing. However, QA testers still need expertise and considerable amount of time to develop test scripts using these frameworks. We therefore realized the need for a tool to help developers and testers effortlessly generate test cases in the mobile environment.  \n\nIn the later part of this project, we focused on this idea. We developed a technique for helping testers easily create platform independent test scripts for their app and automatically run the generated test scripts on multiple devices and operating system versions. One distinctive feature of our technique is that it allows for adding oracles to the tests in a visual and intuitive way. We implemented our technique in a freely available tool called Barista. Our preliminary evaluation of Barista shows that it can be useful and effective in practice and that it improves the state of the art.\n\n \n\n\t\t\t\t\tLast Modified: 02/13/2017\n\n\t\t\t\t\tSubmitted by: Alessandro Orso"
+ }
+}

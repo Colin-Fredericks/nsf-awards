@@ -1,0 +1,130 @@
+{
+ "awd_id": "2428039",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "ATD: Multifaceted Large Trajectory Model for Individual and Group Anomalous Behavior Detection from Spatiotemporal Data",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032922175",
+ "po_email": "lzikatan@nsf.gov",
+ "po_sign_block_name": "Ludmil T. Zikatanov",
+ "awd_eff_date": "2024-09-01",
+ "awd_exp_date": "2027-08-31",
+ "tot_intn_awd_amt": 330000.0,
+ "awd_amount": 330000.0,
+ "awd_min_amd_letter_date": "2024-08-14",
+ "awd_max_amd_letter_date": "2024-08-14",
+ "awd_abstract_narration": "This project will develop new AI-based techniques to detect anomalous behavior of individuals and groups based on their GPS locations. Most everyone with a cell phone generates data on their location multiple times per day, and this data is gathered by commercial companies for sale to advertisers. Besides advertising, this data can be used to discover behavior that is different from normal. This abnormal behavior can indicate that a person is starting to suffer from a mental disability like Alzheimer\u2019s disease, and early detection can lead to early treatment when it is most effective. Anomalous behavior can also indicate that a person or group is planning or carrying out an illegal or terrorist act. The investigators will develop new AI algorithms for detecting anomalous location behavior of both individuals and groups, which will be the main innovation of this research. The investigators are aware of the sensitivity of location data, and they have been frequent innovators of techniques for protecting location privacy. In the course of this research, the investigators will not attempt to identify any individuals nor groups from their location data.\r\n \r\nThe goal of this project is to detect anomalous behavior of individuals and groups based on their GPS location trajectories. The investigators will develop a temporal graph neural network (GNN) to discover behavior that differs from normal. Given that a GNN requires constant-length vector inputs, the first step will be to encode GPS trajectories and their context. This is a challenge, because raw trajectories are represented with varying numbers of time-stamped latitude/longitude points. The trajectory encoding will also include the context of the trajectory in terms of which roads were used, which locations were visited, and which points of interest were nearby the visits. Using an LSTM recurrent neural network, the context-rich trajectories will be represented dynamically as the input trajectories change over time. This novel, multifaceted representation of trajectories will provide the rich context that is necessary to classify normal and abnormal location behavior. After embedding the trajectories, the investigators will train a dynamic GNN to characterize location behavior of normal individuals as well as the location behavior of groups of individuals. The graph will change over time as the embedded trajectories change with time. The trained GNN will be the main component of the investigators\u2019 dynamic graph anomaly detection (DGAD) approach. DGAD will take the time-evolving graphs from the GNNs and predict the next graph in the temporal sequence. If the predicted graph deviates significantly from the actual computed graph, this indicates a possible anomaly. Significantly, the anomaly can appear as a deviation from an individual\u2019s embedded trajectory (i.e. a node attribute on the graph) or as a structural deviation of the graph (e.g. the edges connecting groups of individuals). In this way, the DGAD will find anomalous behavior of both individuals and groups, which is the project\u2019s main innovation.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "John",
+   "pi_last_name": "Krumm",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "John C Krumm",
+   "pi_email_addr": "jkrumm@usc.edu",
+   "nsf_id": "000957952",
+   "pi_start_date": "2024-08-14",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Cyrus",
+   "pi_last_name": "Shahabi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Cyrus Shahabi",
+   "pi_email_addr": "shahabi@usc.edu",
+   "nsf_id": "000346776",
+   "pi_start_date": "2024-08-14",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Yue",
+   "pi_last_name": "Zhao",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yue Zhao",
+   "pi_email_addr": "yzhao010@usc.edu",
+   "nsf_id": "000949396",
+   "pi_start_date": "2024-08-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "941 Bloom Walk",
+  "perf_city_name": "LOS ANGELES",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900890781",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "CA37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "046Y00",
+   "pgm_ele_name": "ATD-Algorithms for Threat Dete"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "6877",
+   "pgm_ref_txt": "ALGORITHMS IN THREAT DETECTION"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425RB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 330000.0
+  }
+ ],
+ "por": null
+}

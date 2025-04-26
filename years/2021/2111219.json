@@ -1,0 +1,101 @@
+{
+ "awd_id": "2111219",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Parallel Space-Time Solvers for Systems of Partial Differential Equations",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032922113",
+ "po_email": "ygorb@nsf.gov",
+ "po_sign_block_name": "Yuliya Gorb",
+ "awd_eff_date": "2021-07-01",
+ "awd_exp_date": "2024-06-30",
+ "tot_intn_awd_amt": 97540.0,
+ "awd_amount": 97540.0,
+ "awd_min_amd_letter_date": "2021-06-30",
+ "awd_max_amd_letter_date": "2021-06-30",
+ "awd_abstract_narration": "Computer simulations and the mathematical methods supporting these are central to the modern study of engineering, biology, chemistry, physics, and other fields. Many simulations are computationally costly and require the large resources of modern supercomputers. New mathematical methods are urgently needed to efficiently utilize next generation supercomputers with millions to billions of processors.  This project will develop new parallel-in-time algebraic multigrid methods for complex physical systems specifically designed for next generation computers.  These new methods will add a new dimension of parallel scalability (time) and promise dramatically faster simulations in many important application areas, such as the gas and fluid dynamics problems considered (e.g., with relevance to wind turbines and viscoelastic flow). Graduate students will be involved and trained, and open source code will be developed.\r\n\r\nThis project will develop fast, parallel, and flexible space-time solvers for systems of partial differential equations (PDEs). The project will focus on algebraic multigrid (AMG) within block preconditioning traditionally appropriate for large adaptively refined spatial systems. These techniques will be extended to general space-time systems with a flexible approach that allows for adaptive space-time refinement. This adaptivity helps to accurately resolve lower dimensional features such as shocks at a fraction of the cost and storage of uniform refinement. Furthermore, the project will produce new practical AMG theory for non-SPD (symmetric positive definite) problems as well as solvers for adaptively refined space-time discretizations for a variety of parabolic and hyperbolic PDEs including the Euler and Navier-Stokes equations and Cahn-Hilliard system. The project will design, analyze, and tune parallel AMG solvers that are robust, efficient, and fast over a wide range of PDEs and parameters and will contribute to the widely used packages MFEM and hypre. The solvers will be developed and tested for applications in wind turbines, as well the high Weissenberg number problem in viscoelastic flows.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "James",
+   "pi_last_name": "Brannick",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "James J Brannick",
+   "pi_email_addr": "brannick@psu.edu",
+   "nsf_id": "000445849",
+   "pi_start_date": "2021-06-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Pennsylvania State Univ University Park",
+  "inst_street_address": "201 OLD MAIN",
+  "inst_street_address_2": "",
+  "inst_city_name": "UNIVERSITY PARK",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "8148651372",
+  "inst_zip_code": "168021503",
+  "inst_country_name": "United States",
+  "cong_dist_code": "15",
+  "st_cong_dist_code": "PA15",
+  "org_lgl_bus_name": "THE PENNSYLVANIA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NPM2J7MSCF61"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Pennsylvania State Univ University Park",
+  "perf_str_addr": "",
+  "perf_city_name": "University Park",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "168014819",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "15",
+  "perf_st_cong_dist": "PA15",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 97540.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project has developed various new iterative solvers for space-time discretizations of time-dependent systems of partial differential equations based on the reduction-based AMG (rAMG) and block preconditioning frameworks. &nbsp; The new rAMG solvers that the team has developed are based on the local approximate ideal restriction that has been successful for a variety of nonsymmetric problems, e.g., for highly advective flows where fast multigrid solvers are notoriously difficult to design and implement, combined with root node coarsening to allow for low grid and operator complexities. &nbsp;The resulting AMG solvers and block preconditioners are (to the best of our knowledge) the first approaches that are effective for nonsymmetic flow problems as well as symmetric diffusion systems and, hence, have potential to solve much larger problem classes than current AMG approaches. &nbsp;</p>\n<p>The intellectual merit of this project derived from the several distinct mathematical and theoretical advances that were made in the reduction based AMG field and the subsequent integration of these advances into new and improved multigrid algorithms that are widely used in industry and national labs for solving large-scale multi-physics scientific computing applications in a variety of areas. &nbsp;Notably, on the theoretical side a new reduction-based AMG solver was designed and analyzed, leading to the first AMG method that is effective for nonsymmtric flow systems as well as symmetric diffusion problems.</p>\n<p>The project's broader impact was realized through the application of the new reduction based solvers to other coupled PDE systems, e.g., the Naview Stokes equations that are widely used to model fluids and gasses. &nbsp; The project also partially supported research of two Ph.D. students, one at Penn State and another at University of New Mexico. &nbsp;The students had opportunities to visit collaborators at national labs and to attend a variety of conferences focusing on multilevel methods to present their research, e.g., the Copper Mountain Conferences on Iteraive Methods. &nbsp; &nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 08/02/2024<br>\nModified by: James&nbsp;J&nbsp;Brannick</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThe project has developed various new iterative solvers for space-time discretizations of time-dependent systems of partial differential equations based on the reduction-based AMG (rAMG) and block preconditioning frameworks.  The new rAMG solvers that the team has developed are based on the local approximate ideal restriction that has been successful for a variety of nonsymmetric problems, e.g., for highly advective flows where fast multigrid solvers are notoriously difficult to design and implement, combined with root node coarsening to allow for low grid and operator complexities. The resulting AMG solvers and block preconditioners are (to the best of our knowledge) the first approaches that are effective for nonsymmetic flow problems as well as symmetric diffusion systems and, hence, have potential to solve much larger problem classes than current AMG approaches. \n\n\nThe intellectual merit of this project derived from the several distinct mathematical and theoretical advances that were made in the reduction based AMG field and the subsequent integration of these advances into new and improved multigrid algorithms that are widely used in industry and national labs for solving large-scale multi-physics scientific computing applications in a variety of areas. Notably, on the theoretical side a new reduction-based AMG solver was designed and analyzed, leading to the first AMG method that is effective for nonsymmtric flow systems as well as symmetric diffusion problems.\n\n\nThe project's broader impact was realized through the application of the new reduction based solvers to other coupled PDE systems, e.g., the Naview Stokes equations that are widely used to model fluids and gasses.  The project also partially supported research of two Ph.D. students, one at Penn State and another at University of New Mexico. The students had opportunities to visit collaborators at national labs and to attend a variety of conferences focusing on multilevel methods to present their research, e.g., the Copper Mountain Conferences on Iteraive Methods.  \n\n\n\n\n\n\t\t\t\t\tLast Modified: 08/02/2024\n\n\t\t\t\t\tSubmitted by: JamesJBrannick\n"
+ }
+}

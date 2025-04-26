@@ -1,0 +1,101 @@
+{
+ "awd_id": "1422338",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Software Infrastructure for Online Analytics",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 468727.0,
+ "awd_amount": 468727.0,
+ "awd_min_amd_letter_date": "2014-08-07",
+ "awd_max_amd_letter_date": "2014-08-07",
+ "awd_abstract_narration": "Complex analytics frameworks -- distributed systems that continuously extract information from large, often dynamic data sources -- sit at the core of a large class of increasingly important applications, ranging from information retrieval and search, to large-scale scientific data analyses. A common feature of many of these frameworks is their offline nature -- the underlying models are only periodically updated, typically through expensive computations, in an offline manner (e.g.,  update their recommender system models weekly to monthly). In contrast, many emerging applications (e.g., sentiment analysis and personalization) require online analytics, often relying on expensive computational methods. These applications are constantly running (i.e., they do not start and stop at prescribed times), they are required to respond to real-time queries even if the answer is approximate, they operate on currently available data as opposed to collecting all possible data, and they must adapt to available computational resources. A coherent software system targeted specifically to this important class of online learning applications would significantly enhance the state-of-the-art. This project aims to develop a software infrastructure comprising application programming interfaces (APIs), runtime systems, and domain-specific optimizations for scalable online analytics. This work has broad and deep impact on applications in domains ranging from commercial to scientific data analyses. In commercial domains, such systems would be used to analyze real time data feeds from social networks, economic transactions, and other dynamic information sources. In scientific domains, such systems could be used to analyze data from astrophysical observations, high-throughput instrumentation, and densely sensed environments.\r\n\r\nScalable analytics are among the most important current challenges facing large-scale distributed systems. To address these challenges, the project has the following specific aims: (i) development of suitable domain-specific abstractions, along with an API for specification of analytics dataflows; (ii) support for dynamic updates and user-interaction geared towards scalable analytics applications; (iii) development of a runtime system infrastructure for scheduling, resource management, performance, and fault tolerance; (iv) development of a kernel library of online versions of important analytics operations; and (v) validation through exemplar applications. Each of these goals represent significant intellectual challenges from theoretical and systems-building viewpoints.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ananth",
+   "pi_last_name": "Grama",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ananth Grama",
+   "pi_email_addr": "ayg@cs.purdue.edu",
+   "nsf_id": "000319590",
+   "pi_start_date": "2014-08-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "305 N. University Street",
+  "perf_city_name": "West Lafayette",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479072107",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 468727.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Large scale data analytics is at the core of a wide variety of applications -- consuming significant fractions of current compute resources. In this project, we focused on the problem of enabling efficient analytics on current distributed/ cloud deployments. Specifically, we developed novel abstractions and programming interfaces for analytics operations, scheduling and resource management techniques for large cloud deployments, a number of commonly used analytics kernels in our software framework, and complete applications as validation testbeds.</p>\n<p>Our programming interfaces are motivated by the fact that current (data) stream processing applications are severely impacted by bottlenecks along intermediate data/ compute paths. To address this problem, we developed a number of techniques, including lightweight traffic shaping (reducing traffic along constricted paths), efficient resource management, and adaptive group communication techniques. We demonstrated that these techniques result in over 200% improvement in performance of common operations such as stochastic gradient descent (SGD) optimization solvers used in machine learning applications.</p>\n<p>Scheduling analytics applications on current cloud infrastructure poses additional challenges when jobs have service guarantees associated with them (these are typically coded into service level agreements, or SLAs). The key challenge is to accurately estimate service requirements, to schedule for maximizing system utilization and throughput, while satisfying all service guarantees. In current systems, service level requests are vastly overestimated due to dynamic application needs that are hard to accurately estimate. We have developed scheduling techniques for real-world dynamic data center environments that guarantee specified service levels, while opportunistically scheduling tasks around these guaranteed service tasks. We developed detailed proofs and techniques for ensuring service guarantees, fairness, and maximizing resource utilization. We show that in realistic cloud settings, our technique reduces resource requirement by over 30%. This is a very significant reduction in cloud computing cycles. Our techniques are currently being integrated into Hadoop, a commonly used cloud programming environment, and will be in its next release. Our schedulers will power literally millions of compute cores, running a diverse class of applications.</p>\n<p>We have also shown how our software stack can be leveraged in a number of common compute kernels. These include graph analytics applications, optimization techniques for use in machine learning, and training of deep neural networks. In each case, we demonstrate significant improvement over state of the art.</p>\n<p>Our models and methods have been comprehensively validated in the context of diverse applications -- ranging from neural networks to network analytics. Our contributions typically involve novel problem formulations, and in other cases, represent significant improvement over existing solutions for critical applications.</p>\n<p>Overall, the project has resulted in novel models, methods, and system software, with tremendous real-world impact on broad application classes.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/02/2018<br>\n\t\t\t\t\tModified by: Ananth&nbsp;Grama</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nLarge scale data analytics is at the core of a wide variety of applications -- consuming significant fractions of current compute resources. In this project, we focused on the problem of enabling efficient analytics on current distributed/ cloud deployments. Specifically, we developed novel abstractions and programming interfaces for analytics operations, scheduling and resource management techniques for large cloud deployments, a number of commonly used analytics kernels in our software framework, and complete applications as validation testbeds.\n\nOur programming interfaces are motivated by the fact that current (data) stream processing applications are severely impacted by bottlenecks along intermediate data/ compute paths. To address this problem, we developed a number of techniques, including lightweight traffic shaping (reducing traffic along constricted paths), efficient resource management, and adaptive group communication techniques. We demonstrated that these techniques result in over 200% improvement in performance of common operations such as stochastic gradient descent (SGD) optimization solvers used in machine learning applications.\n\nScheduling analytics applications on current cloud infrastructure poses additional challenges when jobs have service guarantees associated with them (these are typically coded into service level agreements, or SLAs). The key challenge is to accurately estimate service requirements, to schedule for maximizing system utilization and throughput, while satisfying all service guarantees. In current systems, service level requests are vastly overestimated due to dynamic application needs that are hard to accurately estimate. We have developed scheduling techniques for real-world dynamic data center environments that guarantee specified service levels, while opportunistically scheduling tasks around these guaranteed service tasks. We developed detailed proofs and techniques for ensuring service guarantees, fairness, and maximizing resource utilization. We show that in realistic cloud settings, our technique reduces resource requirement by over 30%. This is a very significant reduction in cloud computing cycles. Our techniques are currently being integrated into Hadoop, a commonly used cloud programming environment, and will be in its next release. Our schedulers will power literally millions of compute cores, running a diverse class of applications.\n\nWe have also shown how our software stack can be leveraged in a number of common compute kernels. These include graph analytics applications, optimization techniques for use in machine learning, and training of deep neural networks. In each case, we demonstrate significant improvement over state of the art.\n\nOur models and methods have been comprehensively validated in the context of diverse applications -- ranging from neural networks to network analytics. Our contributions typically involve novel problem formulations, and in other cases, represent significant improvement over existing solutions for critical applications.\n\nOverall, the project has resulted in novel models, methods, and system software, with tremendous real-world impact on broad application classes.\n\n\t\t\t\t\tLast Modified: 08/02/2018\n\n\t\t\t\t\tSubmitted by: Ananth Grama"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "awd_id": "2310131",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: SaTC: TTP: Small: DeFake: Deploying a Tool for Robust Deepfake Detection",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925147",
+ "po_email": "dmassey@nsf.gov",
+ "po_sign_block_name": "Daniel F. Massey",
+ "awd_eff_date": "2022-10-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 114234.0,
+ "awd_amount": 113859.0,
+ "awd_min_amd_letter_date": "2023-01-17",
+ "awd_max_amd_letter_date": "2023-07-21",
+ "awd_abstract_narration": "Deepfakes \u2013 videos that are generated or manipulated by artificial intelligence \u2013 pose a major threat for spreading disinformation, threatening blackmail, and new forms of phishing. They are already widely used in creating non-consensual pornography, and have begun to be used to undermine governments and elections. Even the threat of deepfakes has cast doubts on the authenticity of videos in the news. Journalists, who have a key role in verifying information, especially need help to deal with ever-improving deepfake technology. Recent results on detecting deepfakes are promising, with close to 100% accuracy in lab tests, but few systems are available for real-world use. It is critical to move beyond accuracy on curated datasets and address the needs of journalists who could benefit from these advances.\r\n\r\nThe objective of this transition-to-practice project is to develop the DeFake tool, a system that utilizes advanced machine learning to help journalists detect deepfakes in a way that is robust, intuitive, and provides results that are explainable to the general public. To meet this objective, the project team is engaged in four main tasks: (1) Making the tool robust to new types of deepfakes, and having it show users why a video is fake; (2) Protecting the tool from adversarial examples \u2013 small perturbations to a video that are specially crafted to fool detection systems; (3) Working with journalists to understand what they need from the tool, and building an online community to discuss deepfakes and their detection; and (4) Integrating advances from the other tasks into a stable, efficient, and useful tool, and actively disseminating this tool to journalists. The project team is also leveraging visually interesting deepfakes to develop engaging education and outreach efforts, such as a museum-style exhibit on deepfake detection meant for broad audiences of all ages.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Andrea",
+   "pi_last_name": "Hickerson",
+   "pi_mid_init": "E",
+   "pi_sufx_name": "",
+   "pi_full_name": "Andrea E Hickerson",
+   "pi_email_addr": "andreah@olemiss.edu",
+   "nsf_id": "000831848",
+   "pi_start_date": "2023-01-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Mississippi",
+  "inst_street_address": "113 FALKNER",
+  "inst_street_address_2": "",
+  "inst_city_name": "UNIVERSITY",
+  "inst_state_code": "MS",
+  "inst_state_name": "Mississippi",
+  "inst_phone_num": "6629157482",
+  "inst_zip_code": "386779704",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "MS01",
+  "org_lgl_bus_name": "THE UNIVERSITY OF MISSISSIPPI",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G1THVER8BNL4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "UNIVERSITY OF MISSISSIPPI",
+  "perf_str_addr": "113 FALKNER",
+  "perf_city_name": "University",
+  "perf_st_code": "MS",
+  "perf_st_name": "Mississippi",
+  "perf_zip_code": "386779704",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "MS01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 113859.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The main goal of this project is to develop and disseminate a deepfake detection tool -- DeFake -- that is usable by journalists and other fact-checking practitioners.</p>\r\n<p>&nbsp;</p>\r\n<p>We have implemented a significantly improved backend data storage and organization to support user-friendly data display. The preprocessing pipeline is now able to provide EXIF and C2PA metadata, alongside relevant quality assessment attributes like face size, compression, and blur of the extracted faces. The videos are now split into scenes to retain contextual and temporal consistency for the detection runs.</p>\r\n<p>On the front-end, the framework was updated to use NextJS. The interface underwent major updates to incorporate greater modularity and a more consistent design language. Capabilities to handle multiple workbenches were added, alongside a richer presentation of preprocessing results which now show the data quality, metadata, and break down the selection of evaluation intervals into intuitive selection of multiple scene segments. Furthermore, the analytic selection interface has been updated to be more dynamic, and have the ability to be filtered through tags as well as fuzzy searching mechanisms.</p>\r\n<p>&nbsp;</p>\r\n<p>Through collaboration with intelligence analysts, it became clear that their top priority was a comprehensive and explainable solution for digital media forensics as a whole. This echoed some comments we had gotten from journalists early in this project. To address this, we began designing a <em>digital media forensics ontology</em>, which could eventually be used to organize the vast range of analytics and potentially support an all-inclusive tool. We performed an initial user study on the use of an ontology-based interface for analytic selection and report writing.</p>\r\n<p>&nbsp;</p>\r\n<p>Based on these findings, we proposed a new project on building a comprehensive media forensics tool that builds on our ontology idea. This project is now funded, NSF Award No. 2429835.</p>\r\n<p>&nbsp;</p>\r\n<p>The project has enabled the PIs to train multiple students and a research scientist in an interdisciplinary project involving journalism, AI, and security. The students and the research scientist in turn have been training numerous REU, capstone, and class students on their project with the help of the PIs. Additionally, our interviews and studies with journalists have provided the participants with more exposure to deepfakes as a potential issue that they may need to face in their work, as well as the ways that detection tools and other media verification tools could be useful to help them to understand whether or not a piece of audiovisual content has been manipulated.</p>\r\n<p>&nbsp;</p>\r\n<p>University of Mississippi&rsquo;s PI Hickerson has led a project collecting and analyzing news about deepfakes, and they have also been partners with us on Understanding Journalists' Needs for Deepfake Detection Tools.&nbsp; She is currently collaborating with Dr. Schwartz on a research project specifically focusing on visual journalists, trying to understand what they understand about deepfakes, whether they have been exposed to generative AI tools and under which conditions, and what they would want in terms of deepfake detection. Additionally, PI Hickerson has been collaborating with Dr. Schwartz and Sohrawardi on the &ldquo;We DeFake&rdquo; community, specifically on developing a &ldquo;press center&rdquo; that can help promote the app and social network. PI Hickerson was supported by two UM graduate students, Nicole Merlo and Naima Ferdous.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 02/10/2025<br>\nModified by: Andrea&nbsp;E&nbsp;Hickerson</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThe main goal of this project is to develop and disseminate a deepfake detection tool -- DeFake -- that is usable by journalists and other fact-checking practitioners.\r\n\n\n\r\n\n\nWe have implemented a significantly improved backend data storage and organization to support user-friendly data display. The preprocessing pipeline is now able to provide EXIF and C2PA metadata, alongside relevant quality assessment attributes like face size, compression, and blur of the extracted faces. The videos are now split into scenes to retain contextual and temporal consistency for the detection runs.\r\n\n\nOn the front-end, the framework was updated to use NextJS. The interface underwent major updates to incorporate greater modularity and a more consistent design language. Capabilities to handle multiple workbenches were added, alongside a richer presentation of preprocessing results which now show the data quality, metadata, and break down the selection of evaluation intervals into intuitive selection of multiple scene segments. Furthermore, the analytic selection interface has been updated to be more dynamic, and have the ability to be filtered through tags as well as fuzzy searching mechanisms.\r\n\n\n\r\n\n\nThrough collaboration with intelligence analysts, it became clear that their top priority was a comprehensive and explainable solution for digital media forensics as a whole. This echoed some comments we had gotten from journalists early in this project. To address this, we began designing a digital media forensics ontology, which could eventually be used to organize the vast range of analytics and potentially support an all-inclusive tool. We performed an initial user study on the use of an ontology-based interface for analytic selection and report writing.\r\n\n\n\r\n\n\nBased on these findings, we proposed a new project on building a comprehensive media forensics tool that builds on our ontology idea. This project is now funded, NSF Award No. 2429835.\r\n\n\n\r\n\n\nThe project has enabled the PIs to train multiple students and a research scientist in an interdisciplinary project involving journalism, AI, and security. The students and the research scientist in turn have been training numerous REU, capstone, and class students on their project with the help of the PIs. Additionally, our interviews and studies with journalists have provided the participants with more exposure to deepfakes as a potential issue that they may need to face in their work, as well as the ways that detection tools and other media verification tools could be useful to help them to understand whether or not a piece of audiovisual content has been manipulated.\r\n\n\n\r\n\n\nUniversity of Mississippis PI Hickerson has led a project collecting and analyzing news about deepfakes, and they have also been partners with us on Understanding Journalists' Needs for Deepfake Detection Tools. She is currently collaborating with Dr. Schwartz on a research project specifically focusing on visual journalists, trying to understand what they understand about deepfakes, whether they have been exposed to generative AI tools and under which conditions, and what they would want in terms of deepfake detection. Additionally, PI Hickerson has been collaborating with Dr. Schwartz and Sohrawardi on the We DeFake community, specifically on developing a press center that can help promote the app and social network. PI Hickerson was supported by two UM graduate students, Nicole Merlo and Naima Ferdous.\r\n\n\n\r\n\n\n\r\n\n\n\t\t\t\t\tLast Modified: 02/10/2025\n\n\t\t\t\t\tSubmitted by: AndreaEHickerson\n"
+ }
+}

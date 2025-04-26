@@ -1,0 +1,109 @@
+{
+ "awd_id": "1529415",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Portable, Secure Emulation for Digital Preservation",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032927347",
+ "po_email": "sspengle@nsf.gov",
+ "po_sign_block_name": "Sylvia Spengler",
+ "awd_eff_date": "2015-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 205563.0,
+ "awd_amount": 205563.0,
+ "awd_min_amd_letter_date": "2015-07-29",
+ "awd_max_amd_letter_date": "2015-07-29",
+ "awd_abstract_narration": "The objective of this project is to enable archives and libraries to securely deliver born-digital materials to networked patrons. Examples of such materials include commercial and academic publications such as interactive CDROMs as well as the archived materials of citizens.  Archives are increasingly accepting disk drives or even entire computers, yet access to such materials requires the use of obsolete software designed for archaic platforms.  Further, access to these materials may be restricted to authorized researchers. This project will project will make it possible to deliver such materials over the Internet while retaining institutional control.  This will provide further access to materials, many of which may be products of Federally funded research.\r\n\r\nThis project will develop and evaluate viable emulator architectures supporting remote access to born-digital materials while addressing three major issues: (1) portability and maintenance of emulator platforms, (2) principled control of required system software, and (3) principled control of digital artifacts.  The definition of \"principled control\" may vary with the materials being accessed -- from copyright control, to secure access to sensitive materials.  This project will weave together existing technologies (e.g. trusted platform modules) in potentially novel ways to solve a pressing societal problem.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Geoffrey",
+   "pi_last_name": "Brown",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Geoffrey M Brown",
+   "pi_email_addr": "geobrown@indiana.edu",
+   "nsf_id": "000258883",
+   "pi_start_date": "2015-07-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Indiana University",
+  "inst_street_address": "107 S INDIANA AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BLOOMINGTON",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "3172783473",
+  "inst_zip_code": "474057000",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "IN09",
+  "org_lgl_bus_name": "TRUSTEES OF INDIANA UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YH86RTW2YVJ4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Indiana University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "474057000",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "IN09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  },
+  {
+   "pgm_ele_code": "741400",
+   "pgm_ele_name": "NSF Public Access Initiative"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7364",
+   "pgm_ref_txt": "INFO INTEGRATION & INFORMATICS"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 205563.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><!-- \t\t@page { margin: 0.79in } \t\tp { margin-bottom: 0.1in; line-height: 115% } \t -->\n<p><span style=\"color: #000000;\"><span style=\"font-family: Georgia, serif;\"><span style=\"font-size: small;\">The primary objective of this project was to enable libraries and archives to securely deliver born-digital materials to networked patrons. Our focus is upon the development of secure emulators, for materials dependent upon obsolete software, in which the core emulator is an application on a patron's workstation that interacts with an institutional server, that controls access to restricted materials.</span></span></span></p>\n<p><span style=\"color: #000000;\"><span style=\"font-family: Georgia, serif;\"><span style=\"font-size: small;\">We can logically divide our work into three major components:</span></span></span></p>\n<ol>\n<li>The \tcore emulator which is responsible for maintaining any secrets and \tconfidential materials obtained from a server.</li>\n<li>The \tserver which is responsible for providing, to authenticated \temulators, access to restricted materials.</li>\n<li>The \tmechanisms for keeping secrets safe.</li>\n</ol><ol> </ol>\n<p><span style=\"color: #000000;\"><span style=\"font-family: Georgia, serif;\"><span style=\"font-size: small;\">The fundamental security model is illustrated in Figure 1 (security model).  A secure emulator executing on a client machine establishes a trust relationship with an institutional server (1).  The underlying hardware mechanisms, in our case SGX extensions, guarantee that known emulator software is executing in a secure &ldquo;enclave&rdquo;.  Once this trust relationship has been established, the emulator may transfer materials to a secure file system accessible to only the emulator (2). Note that cached copies may be subject to limitations imposed by the institution.</span></span></span></p>\n<p><span style=\"color: #000000;\"><span style=\"font-family: Georgia, serif;\"><span style=\"font-size: small;\">The work on this project consisted of two major thrusts &ndash; the development of a realistic example that enabled evaluation of the key technologies required for a portable and secure emulator, and porting an existing, but still important, emulator for classic Macintosh programs to a secure emulation environment. For our initial thrust, we chose to port a gameboy emulator to a secure environment. This choice was dictated by several considerations &ndash; the application should require secure remote access to digital artifacts (in this case game ROM images), the application should require local secure file storage, and the application should broadly exercise user interface libraries (e.g. video, audio, and user input).&nbsp; The second thrust of the project was porting Basilisk, an emulator for classic Macintosh applications.&nbsp; This second thrust exposed limitations of the underlying hardware security mechanisms and associated software libraries.&nbsp; In particular for applications requiring significant I/O.</span></span></span></p>\n<p><span style=\"color: #000000;\"><span style=\"font-family: Georgia, serif;\"><span style=\"font-size: small;\">The key outcome of this project was the demonstration of a novel technique for sharing protected materials with users accessing them on unsecured workstations.   The work was presented to the digital preservation community at a key preservation conference.  All of the code developed is available through a public website.  The project enabled the engagement of undergraduates in research and supported a PhD student who subsequently applied the lessons learned in a related industrial project.</span></span></span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/12/2018<br>\n\t\t\t\t\tModified by: Geoffrey&nbsp;M&nbsp;Brown</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2018/1529415/1529415_10381187_1533560855533_security_model--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2018/1529415/1529415_10381187_1533560855533_security_model--rgov-800width.jpg\" title=\"Security Model\"><img src=\"/por/images/Reports/POR/2018/1529415/1529415_10381187_1533560855533_security_model--rgov-66x44.jpg\" alt=\"Security Model\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Security model illustrating the information flow between a library or archive and a possibly insecure client machine.</div>\n<div class=\"imageCredit\">Zahra Tarkhani</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Geoffrey&nbsp;M&nbsp;Brown</div>\n<div class=\"imageTitle\">Security Model</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\n\nThe primary objective of this project was to enable libraries and archives to securely deliver born-digital materials to networked patrons. Our focus is upon the development of secure emulators, for materials dependent upon obsolete software, in which the core emulator is an application on a patron's workstation that interacts with an institutional server, that controls access to restricted materials.\n\nWe can logically divide our work into three major components:\n\nThe \tcore emulator which is responsible for maintaining any secrets and \tconfidential materials obtained from a server.\nThe \tserver which is responsible for providing, to authenticated \temulators, access to restricted materials.\nThe \tmechanisms for keeping secrets safe.\n \n\nThe fundamental security model is illustrated in Figure 1 (security model).  A secure emulator executing on a client machine establishes a trust relationship with an institutional server (1).  The underlying hardware mechanisms, in our case SGX extensions, guarantee that known emulator software is executing in a secure \"enclave\".  Once this trust relationship has been established, the emulator may transfer materials to a secure file system accessible to only the emulator (2). Note that cached copies may be subject to limitations imposed by the institution.\n\nThe work on this project consisted of two major thrusts &ndash; the development of a realistic example that enabled evaluation of the key technologies required for a portable and secure emulator, and porting an existing, but still important, emulator for classic Macintosh programs to a secure emulation environment. For our initial thrust, we chose to port a gameboy emulator to a secure environment. This choice was dictated by several considerations &ndash; the application should require secure remote access to digital artifacts (in this case game ROM images), the application should require local secure file storage, and the application should broadly exercise user interface libraries (e.g. video, audio, and user input).  The second thrust of the project was porting Basilisk, an emulator for classic Macintosh applications.  This second thrust exposed limitations of the underlying hardware security mechanisms and associated software libraries.  In particular for applications requiring significant I/O.\n\nThe key outcome of this project was the demonstration of a novel technique for sharing protected materials with users accessing them on unsecured workstations.   The work was presented to the digital preservation community at a key preservation conference.  All of the code developed is available through a public website.  The project enabled the engagement of undergraduates in research and supported a PhD student who subsequently applied the lessons learned in a related industrial project.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 08/12/2018\n\n\t\t\t\t\tSubmitted by: Geoffrey M Brown"
+ }
+}

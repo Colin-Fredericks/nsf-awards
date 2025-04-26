@@ -1,0 +1,113 @@
+{
+ "awd_id": "1422501",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Privacy Preserving Outlier Detection and Recognition",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Shannon Beck",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2019-09-30",
+ "tot_intn_awd_amt": 508474.0,
+ "awd_amount": 508474.0,
+ "awd_min_amd_letter_date": "2014-09-09",
+ "awd_max_amd_letter_date": "2014-09-09",
+ "awd_abstract_narration": "Big data analytics can revolutionize innovation and productivity across diverse domains. However, this requires sharing or joint analysis of data, which is often inhibited due to privacy and security concerns. While techniques have been developed to enable the safe use of data for analysis, none of these work for the critical task of outlier detection. Outlier detection is one of the most fundamental data analysis tasks, useful in applications as far ranging as homeland security, to medical informatics, to financial fraud. However, when the data is fragmented and cannot be collected together, it is impossible even to appropriately identify outliers, much less explain them. This project aims to fill this gap, and enable the secure identification and explanation of outliers without breaching the privacy of the data owners, the data custodians, or the data subjects. The potential to advance science through the discovery and analysis of exceptions can have unparalleled impact and significantly help in widening co-operation, thus preventing loss through data isolation.\r\n\r\nThe project develops strong definitions for private outlier detection encompassing both process privacy and result privacy. A suite of privacy-preserving tools and techniques are then developed to enable outlier detection across different data ownership models, over a variety of multi-modal datasets, while supporting differing tradeoffs of privacy, efficiency, and utility. The research improves our scientific understanding of secure computation, data outsourcing and distributed data analysis. The project also cultivates the integration of research and education, by providing opportunities for research by undergraduates at an early stage.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jaideep",
+   "pi_last_name": "Vaidya",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jaideep S Vaidya",
+   "pi_email_addr": "jsvaidya@rbs.rutgers.edu",
+   "nsf_id": "000291426",
+   "pi_start_date": "2014-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rutgers University Newark",
+  "inst_street_address": "123 WASHINGTON ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEWARK",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "9739720283",
+  "inst_zip_code": "071023026",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NJ10",
+  "org_lgl_bus_name": "RUTGERS, THE STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "T3NGNR66YK89"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rutgers University Newark",
+  "perf_str_addr": "1 Washington Park",
+  "perf_city_name": "Newark",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "071023122",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NJ10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9178",
+   "pgm_ref_txt": "UNDERGRADUATE EDUCATION"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 508474.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Outlier detection is one of the most fundamental data analysis tasks, and is useful in applications as far ranging as homeland security, to medical informatics, to financial fraud. However, many applications of outlier detection such as detecting suspicious behavior for counter-terrorism or anti-fraud purposes also raise privacy concerns. Furthermore, when the data is fragmented and cannot be collected together due to privacy or security reasons, it is impossible even to appropriately identify outliers, much less explain them. This project studied the problem of performing outlier/anomaly analysis while preserving privacy.</p>\n<p>Through the span of the project we have created several privacy-preserving solutions with varying tradeoffs of privacy and efficiency to perform outlier analysis. We formalized privacy in the context of attribute value frequency (AVF) based outlier detection and developed techniques to perform AVF based outlier detection for categorical data when the data is centralized and when the data is either horizontally or vertically distributed. We conclusively demonstrate that differential privacy (the de facto model for privacy used today) is inherently incapable of accurately and privately detecting all outliers in a database or even of identifying outliers with respect to a database if the existence of records within the database needs to be protected. We develop a new notion of privacy, called Sensitive Privacy to protect the vast majority of records that are or could be normal, while still enabling accurate identification of records that are anomalous. Sensitive Privacy appropriately relaxes the notion of Differential Privacy in a way that can still protect records that are considered normal under data-dependent anomaly definitions. We have developed appropriate constructions to achieve Sensitive Privacy for common outlier detection models.</p>\n<p>Solutions have also been developed for several related problems such as secure linkage which is necessary when data is vertically partitioned to enable joint analysis, ways to measure the privacy risk of frequent itemset disclosure, and techniques that allow private search of databases based on query records. Synthetic data generation techniques based on random decision trees have been developed to generate synthetic data that is similar in character to the underlying data while preserving privacy, and used in the biomedical context as well as to generate executable business process from high level design specification. As such, the solutions developed are broadly applicable to a variety of applications and areas.</p>\n<p>From the perspective of intellectual merit, our research has advanced the state of the art in methods and techniques for privacy-preserving outlier analysis and improved the scientific understanding of privacy in this context. The results of our project have the potential to advance science through the discovery and analysis of exceptions. Furthermore, they will aid in widening co-operation between organizations and preventing loss through data isolation, thus having significant broader impact. Several students have been trained through the project, and education and dissemination activities have been carried out at both the undergraduate and graduate level. Privacy issues regarding outlier analytics and online social networks were also discussed in a science and technology summer camp held for middle and high school students, thus providing a pathway through which the work could be disseminated to the public and a way to train high school students on areas relating to privacy.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/10/2019<br>\n\t\t\t\t\tModified by: Jaideep&nbsp;Vaidya</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1422501/1422501_10341460_1575471190745_DPVsSPsynData--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1422501/1422501_10341460_1575471190745_DPVsSPsynData--rgov-800width.jpg\" title=\"Contrasting Sensitive Privacy with Differential Privacy for Anomaly Identification\"><img src=\"/por/images/Reports/POR/2019/1422501/1422501_10341460_1575471190745_DPVsSPsynData--rgov-66x44.jpg\" alt=\"Contrasting Sensitive Privacy with Differential Privacy for Anomaly Identification\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">(a) gives the density plot of the distribution of the example data. z1 and z2 axes give the coordinate of a point (record); (b) and (c) resp. show the accuracy for private anomaly identification via sensitive privacy and DP mechanisms; (d) and (e) resp. show the level of privacy achieved.</div>\n<div class=\"imageCredit\">Hafiz Asif</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jaideep&nbsp;Vaidya</div>\n<div class=\"imageTitle\">Contrasting Sensitive Privacy with Differential Privacy for Anomaly Identification</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nOutlier detection is one of the most fundamental data analysis tasks, and is useful in applications as far ranging as homeland security, to medical informatics, to financial fraud. However, many applications of outlier detection such as detecting suspicious behavior for counter-terrorism or anti-fraud purposes also raise privacy concerns. Furthermore, when the data is fragmented and cannot be collected together due to privacy or security reasons, it is impossible even to appropriately identify outliers, much less explain them. This project studied the problem of performing outlier/anomaly analysis while preserving privacy.\n\nThrough the span of the project we have created several privacy-preserving solutions with varying tradeoffs of privacy and efficiency to perform outlier analysis. We formalized privacy in the context of attribute value frequency (AVF) based outlier detection and developed techniques to perform AVF based outlier detection for categorical data when the data is centralized and when the data is either horizontally or vertically distributed. We conclusively demonstrate that differential privacy (the de facto model for privacy used today) is inherently incapable of accurately and privately detecting all outliers in a database or even of identifying outliers with respect to a database if the existence of records within the database needs to be protected. We develop a new notion of privacy, called Sensitive Privacy to protect the vast majority of records that are or could be normal, while still enabling accurate identification of records that are anomalous. Sensitive Privacy appropriately relaxes the notion of Differential Privacy in a way that can still protect records that are considered normal under data-dependent anomaly definitions. We have developed appropriate constructions to achieve Sensitive Privacy for common outlier detection models.\n\nSolutions have also been developed for several related problems such as secure linkage which is necessary when data is vertically partitioned to enable joint analysis, ways to measure the privacy risk of frequent itemset disclosure, and techniques that allow private search of databases based on query records. Synthetic data generation techniques based on random decision trees have been developed to generate synthetic data that is similar in character to the underlying data while preserving privacy, and used in the biomedical context as well as to generate executable business process from high level design specification. As such, the solutions developed are broadly applicable to a variety of applications and areas.\n\nFrom the perspective of intellectual merit, our research has advanced the state of the art in methods and techniques for privacy-preserving outlier analysis and improved the scientific understanding of privacy in this context. The results of our project have the potential to advance science through the discovery and analysis of exceptions. Furthermore, they will aid in widening co-operation between organizations and preventing loss through data isolation, thus having significant broader impact. Several students have been trained through the project, and education and dissemination activities have been carried out at both the undergraduate and graduate level. Privacy issues regarding outlier analytics and online social networks were also discussed in a science and technology summer camp held for middle and high school students, thus providing a pathway through which the work could be disseminated to the public and a way to train high school students on areas relating to privacy. \n\n\t\t\t\t\tLast Modified: 12/10/2019\n\n\t\t\t\t\tSubmitted by: Jaideep Vaidya"
+ }
+}

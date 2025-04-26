@@ -1,0 +1,125 @@
+{
+ "awd_id": "1811920",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Efficient Monte Carlo Algorithms for Bayesian Inference",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032927299",
+ "po_email": "yzeng@nsf.gov",
+ "po_sign_block_name": "Yong Zeng",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 200000.0,
+ "awd_amount": 200000.0,
+ "awd_min_amd_letter_date": "2018-08-02",
+ "awd_max_amd_letter_date": "2020-05-05",
+ "awd_abstract_narration": "Data sets arising from current applications of statistics and machine learning are of very large size and require large models for their analysis. Bayesian inference and global optimization are two powerful methods for learning from such data, but the large size of the data sets and the resulting computational difficulties greatly limit the applicability of these methods.  The research in this project aims to increase computational efficiency of these methods, thereby substantially expanding their usefulness for the analysis of large data sets. The methods and algorithms from this research will be implemented on modern distributed computing platforms and made freely available for the scientific community. The results will have wide applications in statistics and machine learning.\r\n\r\nSpecifically, the use of mini-batches in Markov Chain Monte Carlo (MCMC) will be investigated. MCMC is perhaps the most widely used computational approach for Bayesian statistical inference. Since each step in the simulation of the Markov chain requires the scanning of all the observations, for a large data set this computation is prohibitive. On the other hand, in the area of machine learning researchers have found that stochastic optimization techniques, which examine only a mini-batch of data points at a time, can deliver excellent performance. In this project, a framework for unifying mini-batch based MCMC and global optimization will be developed. It is showed that simulation from of a tempered version of the posterior distribution can be approximated by a MCMC process with Metropolis-Hasting updates that depend only on mini-batches. This approach will be combined with eqi-energy sampling to achieve a unified simulation and global optimization methodology. This framework will allow us to improve the performance of both MCMC methods and non-convex global optimization methods.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wing Hung",
+   "pi_last_name": "Wong",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wing Hung Wong",
+   "pi_email_addr": "whwong@stanford.edu",
+   "nsf_id": "000441379",
+   "pi_start_date": "2018-08-02",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "390 Serra Mall",
+  "perf_city_name": "Stanford",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943054000",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "CA",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "126900",
+   "pgm_ele_name": "STATISTICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0119",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001920DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0120",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 66318.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2019,
+   "fund_oblg_amt": 66703.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 66979.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Bayesian inference is an approach to statistics in which information about an unknown parameters is summarized by a probability distribution (called the posterior distribution) of the parameter conditional on the observed data. To understand this information or to utilize it in decision making, one can try to use Monte Carlo algorithms to simulate values of the parameter from the posterior distribution. A main outcome of this project is the design of new Monte Carlo algorithms that are more efficient (i.e. give the answer with less computation time) than existing ones for big data applications.</p>\n<p>A second major outcome of this project is the development of a deep-learning approach, called roundtrip modeling, to deal with several fundamental statistical problems such as density estimation and causal inference. Although deep-learning methods have been applied to many problems arising from machine learning and artificial intelligence, its application in more traditional statistical problems such as density estimation and causal inference have not been fully explored. Our results represent promising initial progress in this direction.</p>\n<p>Advances in science, technology, health science and public policy are increasingly data driven. The results from this project have the potential to enhance our ability to analyze and to draw proper conclusions from empirical data.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/02/2022<br>\n\t\t\t\t\tModified by: Wing Hung&nbsp;Wong</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nBayesian inference is an approach to statistics in which information about an unknown parameters is summarized by a probability distribution (called the posterior distribution) of the parameter conditional on the observed data. To understand this information or to utilize it in decision making, one can try to use Monte Carlo algorithms to simulate values of the parameter from the posterior distribution. A main outcome of this project is the design of new Monte Carlo algorithms that are more efficient (i.e. give the answer with less computation time) than existing ones for big data applications.\n\nA second major outcome of this project is the development of a deep-learning approach, called roundtrip modeling, to deal with several fundamental statistical problems such as density estimation and causal inference. Although deep-learning methods have been applied to many problems arising from machine learning and artificial intelligence, its application in more traditional statistical problems such as density estimation and causal inference have not been fully explored. Our results represent promising initial progress in this direction.\n\nAdvances in science, technology, health science and public policy are increasingly data driven. The results from this project have the potential to enhance our ability to analyze and to draw proper conclusions from empirical data.\n\n \n\n\t\t\t\t\tLast Modified: 09/02/2022\n\n\t\t\t\t\tSubmitted by: Wing Hung Wong"
+ }
+}

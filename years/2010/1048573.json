@@ -1,0 +1,101 @@
+{
+ "awd_id": "1048573",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER:  IIS (G&V):Scalable High-Fidelity Solids Simulation",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Lawrence Rosenblum",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2012-08-31",
+ "tot_intn_awd_amt": 100000.0,
+ "awd_amount": 100000.0,
+ "awd_min_amd_letter_date": "2010-08-06",
+ "awd_max_amd_letter_date": "2010-08-06",
+ "awd_abstract_narration": "Abstract\r\n\r\nFundamental changes in the underlying algorithms of physical simulation are needed to bring about the orders of magnitude improvement in performance required to bring physical simulation to resource-constrained applications such as real-time games or surgical training. This research is investigating three issues: frame-rate simulation, asynchronous evolution, and multilevel solvers. The approach to frame-rate simulation consists of ensuring stability by careful energy management principles to address both stability and damping. Paying special attention to the amount of artificial damping in the system enables one to avoid excessively damped simulations, a problem that limits the time step size possible with existing techniques. Such a frame-rate simulator enables the next step: developing an asynchronous evolution scheme that allows small time steps to be taken in regions of high-frequency motion and large time steps to be taken elsewhere. Other attempts at developing asynchronous schemes have difficulty with excessive damping when taking large time-steps. This research is investigating an asynchronous method around the proposed frame-rate simulator in order to alleviate this problem, as the amount of damping can be explicitly controlled. Finally, to reduce the cost of a single time step, we are using multilevel methods to reduce the time spent solving large linear systems typical of physical simulation. \r\n\r\nMultilevel methods have a long history, but they are new to the physical simulation community. Finding suitable coarsening and refinement operators are key to multilevel methods and, although difficult to formulate, have the potential to create asymptotic improvements in the convergence rates of solving these systems. The methods being investigated represent a radically different approach from current techniques and this exploratory research is seeking to demonstrate the feasibility of this potentially transformative change.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ron",
+   "pi_last_name": "Fedkiw",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ron Fedkiw",
+   "pi_email_addr": "fedkiw@cs.stanford.edu",
+   "nsf_id": "000172187",
+   "pi_start_date": "2010-08-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "450 JANE STANFORD WAY",
+  "perf_city_name": "STANFORD",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943052004",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "745300",
+   "pgm_ele_name": "GRAPHICS & VISUALIZATION"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>(1) We worked to improve the real time simulation of deformable solids. The main goal was to allow for very large time steps in particular one time step per frame. Normally this leads to large instabilities which are addressed in the literature with an inordinate amount of nonphysical damping. Instead, we monitored the energy loss or gain and came up with a novel algorithm for correcting these gains and losses automatically for any numerical method. Thus other researchers&nbsp;can readily use our algorithm. Notably, unlike variational schemes, our method allows one to include damping to regularize the deformation independent of the mesh.</p>\n<p>(2) Similarly, we designed an energy correction method for smoke simulation so that one could also take quite large time steps and obtain nice results.</p>\n<p>(3) We designed a new numerical method for simulating thin rigid bodies made only of two dimensional triangles with no thickness. In particular, this required a proximity based algorithm for contact resolution, as well as a new method for continuous collision detection (CCD) and resolution.</p>\n<p>(4) From a software perspective, we built an interactive system for both rigid bodies and smoke simulation. This allows the user to sit at the computer and run simulations, while viewing them in openGL, and clicking on and interacting with various objects with the mouse.</p>\n<p>(5) We ported our PhysBAM code to the Android tablet, and can now run smoke and rigid body simulations on tablets and cell phones. This past summer we implemented a real time 3D interactive rigid body simulation engine on the tablet.</p>\n<p>&nbsp;</p>\n<p>The participants are working towards their Ph.D., so the work on the project leads towards making them better researchers. It also provides skills they can use in the technical work force, such as algorithm design and implementation. We had 8 undergraduate students work with us over the summer on these simulation codes - 5 from under-represented group. 9 more undergraduates worked with us this past summer 2012.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/13/2012<br>\n\t\t\t\t\tModified by: Ronald&nbsp;Fedkiw</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n(1) We worked to improve the real time simulation of deformable solids. The main goal was to allow for very large time steps in particular one time step per frame. Normally this leads to large instabilities which are addressed in the literature with an inordinate amount of nonphysical damping. Instead, we monitored the energy loss or gain and came up with a novel algorithm for correcting these gains and losses automatically for any numerical method. Thus other researchers can readily use our algorithm. Notably, unlike variational schemes, our method allows one to include damping to regularize the deformation independent of the mesh.\n\n(2) Similarly, we designed an energy correction method for smoke simulation so that one could also take quite large time steps and obtain nice results.\n\n(3) We designed a new numerical method for simulating thin rigid bodies made only of two dimensional triangles with no thickness. In particular, this required a proximity based algorithm for contact resolution, as well as a new method for continuous collision detection (CCD) and resolution.\n\n(4) From a software perspective, we built an interactive system for both rigid bodies and smoke simulation. This allows the user to sit at the computer and run simulations, while viewing them in openGL, and clicking on and interacting with various objects with the mouse.\n\n(5) We ported our PhysBAM code to the Android tablet, and can now run smoke and rigid body simulations on tablets and cell phones. This past summer we implemented a real time 3D interactive rigid body simulation engine on the tablet.\n\n \n\nThe participants are working towards their Ph.D., so the work on the project leads towards making them better researchers. It also provides skills they can use in the technical work force, such as algorithm design and implementation. We had 8 undergraduate students work with us over the summer on these simulation codes - 5 from under-represented group. 9 more undergraduates worked with us this past summer 2012.\n\n\t\t\t\t\tLast Modified: 10/13/2012\n\n\t\t\t\t\tSubmitted by: Ronald Fedkiw"
+ }
+}

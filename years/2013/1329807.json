@@ -1,0 +1,101 @@
+{
+ "awd_id": "1329807",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CPS: Breakthrough: Scalable Component-Based Model Revision of Cyber-Physical Systems with Separation of Concerns",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "David Corman",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 445719.0,
+ "awd_amount": 445719.0,
+ "awd_min_amd_letter_date": "2013-09-09",
+ "awd_max_amd_letter_date": "2013-09-09",
+ "awd_abstract_narration": "This project develops algorithms for revising a given model for a cyber-physical system while ensuring that the revised model is correct-by-construction and is realizable in the constraints imposed by the cyber-physical system. It specializes these algorithms in the context of fault-tolerance (with the theory of separation of concerns) and in the context of timed models (with the role of fairness). The project identifies constraints imposed by the inability to revise some or all physical components and ensure that they are satisfied during revision. It specializes model revision algorithms in two contexts: fault-tolerance and role of fairness during revision.  Regarding fault-tolerance, it develops the theory of separation of concerns for cyber-physical systems. This work bridges the gap between fault-tolerance components, control theory and model revision. Regarding fairness, it develops efficient algorithms for revision by using abstraction to model continuous behaviors with discrete behaviors that utilize fairness. \r\n\r\nOne broad impact of this project is to advance the fundamental science and technology of cyber-physical systems by developing systematic methods that ensure system correctness during maintenance where the system is revised due to changing requirements and/or environment.  The algorithms from this project will provide techniques for providing assurance in automotive and aeronautical systems. In the context where fault-tolerance properties are added, the proposed activities also have the potential to identify missing specifications early and thereby reduce the cost of designing corresponding systems.  The proposed activities facilitate in educating graduate students about different tasks involved in providing assurance via component based models and via model revision.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sandeep",
+   "pi_last_name": "Kulkarni",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sandeep S Kulkarni",
+   "pi_email_addr": "sandeep@cse.msu.edu",
+   "nsf_id": "000275940",
+   "pi_start_date": "2013-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Michigan State University",
+  "inst_street_address": "426 AUDITORIUM RD RM 2",
+  "inst_street_address_2": "",
+  "inst_city_name": "EAST LANSING",
+  "inst_state_code": "MI",
+  "inst_state_name": "Michigan",
+  "inst_phone_num": "5173555040",
+  "inst_zip_code": "488242600",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MI07",
+  "org_lgl_bus_name": "MICHIGAN STATE UNIVERSITY",
+  "org_prnt_uei_num": "VJKZC4D1JN36",
+  "org_uei_num": "R28EKN92ZTZ9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Michigan State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MI",
+  "perf_st_name": "Michigan",
+  "perf_zip_code": "488241046",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MI07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7918",
+   "pgm_ref_txt": "CYBER-PHYSICAL SYSTEMS (CPS)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 445719.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project focuses on automated model revision for cyber-physical systems. Model revision refers to the need for revising a given system/model due to changes in requirements and/or changes in environment. This project develops algorithms for model revision that ensure that the revised model is realizable in the given cyber-physical system.</p>\n<p>&nbsp;</p>\n<p>In this work, we focused on repair by focusing on the difference between computational and physical components. We focused on four types of interactions between components cyber-cyber, cyber-physical, physical-cyber and physical-physical. We evaluated implications of the different types of interactions. For example, physical components are difficult to change and hence in c-p interactions, the responsibility of repair lies mainly in the cyber components. Likewise, interactions that are initiated by the physical components can be difficult to prevent. Hence, a repair algorithm identified how to accommodate them. Our algorithms mainly handled c-p interactions during the repair process. We have developed new case studies for validating our algorithm, including examples of railroad systems, road intersection and applications in automotive technology.</p>\n<p>To deal with these constraints, we have developed an algorithm for lazy repair. The problem of lazy repair first focuses on revising the program so that it satisfies the property at hand. However, during this process, it ignores any realizability constraints (such as p-c constraints, c-p constraints, and p-p constraints). It also attempts to design the revised program to be maximal. In other words, it attempts to ensure that all possible useful behaviors are maintained in the revised program. Subsequently, in the second step, it focuses on satisfying the realizability constraints so that the program works correctly in the underlying system. We have also shown that this approach is useful in adding fault-tolerance to distributed programs. In fact, for many case studies, we showed that this approach is more efficient than the previous cautious repair approach where realizabilty constraints are always satisfied.</p>\n<p>&nbsp;</p>\n<p>We have also developed a new compositional algorithm. This aims to use composed structure of the CPS to ensure that time for resolving deadlocks is reduced. To develop this algorithm, we used automated tools to analyze what resources are held at what point during computation of a multithreaded program. We utilized this and SAT/SMT/MAXSAT solvers to determine whether a deadlock exists. If it does, we identify truth assignment to determine which lock statement(s) should be changed to trylock statement(s) and vice versa. We ensure that the revised program is free from deadlocks, livelocks and deadlivelocks.</p>\n<p>&nbsp;</p>\n<p>We focused on automated development of self-stabilizing protocols from their specification. One interesting observation in this context was that if we specify the structure of the system in terms of its components, our work made it possible to identify how to design the resulting program to be self-stabilizing so that starting from an arbitrary state, it converges to a legitimate state.</p>\n<p>&nbsp;</p>\n<p>In this context, we have developed the concept of collaborative stabilization. Collaborative stabilization focuses on treating environment as a first-class entity during the repair process. We have shown how this differs from traditional stabilization as well as all other types of stabilization that have been considered earlier. We have developed two additional applications of collaborative stabilization in the context of CPS. We have also developed algorithms for other types of fault-tolerance, namely masking fault-tolerance and nonmasking fault-tolerance.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>We have also developed a tool for automated generation of fault-impacted UPPAAL models. We have developed new case studies for the same. This tool begins with a SystemC TLM model of the given system. It utilizes an existing tool STATE that translates it into UPPAAL. We focused on revising this model so that we can add the impact of faults to that model. We consider faults such as transient faults, byzantine faults, stuck at faults, timing faults and so on. The generated model is a new UPPAAL model that can be evaluated to determine if it satisfies the desired fault-tolerance properties.</p>\n<p>&nbsp;</p>\n<p>We also focused on developing algorithms for model slicing of UPPAAL. In this work, by focusing on the property being verified, we revise the given UPPAAL model so as to reduce the state space required for verification. We were able to show that this reduces the overall time for verification by an order of magnitude.</p>\n<p>&nbsp;</p>\n<p>This project has supported the education and training of several graduate students and postdocs including Mohammad Roohitavaf, Vidhya Tekeen Valapil, Duong Nguyen, Jingshu Chen, Ling Zhu, Reza Hajishey, and Yiyan Lin. Of these, Ling, Reza and Yiyan are working in US industry and Jingshu is working in an academic institution in USA.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/13/2017<br>\n\t\t\t\t\tModified by: Sandeep&nbsp;S&nbsp;Kulkarni</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project focuses on automated model revision for cyber-physical systems. Model revision refers to the need for revising a given system/model due to changes in requirements and/or changes in environment. This project develops algorithms for model revision that ensure that the revised model is realizable in the given cyber-physical system.\n\n \n\nIn this work, we focused on repair by focusing on the difference between computational and physical components. We focused on four types of interactions between components cyber-cyber, cyber-physical, physical-cyber and physical-physical. We evaluated implications of the different types of interactions. For example, physical components are difficult to change and hence in c-p interactions, the responsibility of repair lies mainly in the cyber components. Likewise, interactions that are initiated by the physical components can be difficult to prevent. Hence, a repair algorithm identified how to accommodate them. Our algorithms mainly handled c-p interactions during the repair process. We have developed new case studies for validating our algorithm, including examples of railroad systems, road intersection and applications in automotive technology.\n\nTo deal with these constraints, we have developed an algorithm for lazy repair. The problem of lazy repair first focuses on revising the program so that it satisfies the property at hand. However, during this process, it ignores any realizability constraints (such as p-c constraints, c-p constraints, and p-p constraints). It also attempts to design the revised program to be maximal. In other words, it attempts to ensure that all possible useful behaviors are maintained in the revised program. Subsequently, in the second step, it focuses on satisfying the realizability constraints so that the program works correctly in the underlying system. We have also shown that this approach is useful in adding fault-tolerance to distributed programs. In fact, for many case studies, we showed that this approach is more efficient than the previous cautious repair approach where realizabilty constraints are always satisfied.\n\n \n\nWe have also developed a new compositional algorithm. This aims to use composed structure of the CPS to ensure that time for resolving deadlocks is reduced. To develop this algorithm, we used automated tools to analyze what resources are held at what point during computation of a multithreaded program. We utilized this and SAT/SMT/MAXSAT solvers to determine whether a deadlock exists. If it does, we identify truth assignment to determine which lock statement(s) should be changed to trylock statement(s) and vice versa. We ensure that the revised program is free from deadlocks, livelocks and deadlivelocks.\n\n \n\nWe focused on automated development of self-stabilizing protocols from their specification. One interesting observation in this context was that if we specify the structure of the system in terms of its components, our work made it possible to identify how to design the resulting program to be self-stabilizing so that starting from an arbitrary state, it converges to a legitimate state.\n\n \n\nIn this context, we have developed the concept of collaborative stabilization. Collaborative stabilization focuses on treating environment as a first-class entity during the repair process. We have shown how this differs from traditional stabilization as well as all other types of stabilization that have been considered earlier. We have developed two additional applications of collaborative stabilization in the context of CPS. We have also developed algorithms for other types of fault-tolerance, namely masking fault-tolerance and nonmasking fault-tolerance.\n\n \n\n \n\nWe have also developed a tool for automated generation of fault-impacted UPPAAL models. We have developed new case studies for the same. This tool begins with a SystemC TLM model of the given system. It utilizes an existing tool STATE that translates it into UPPAAL. We focused on revising this model so that we can add the impact of faults to that model. We consider faults such as transient faults, byzantine faults, stuck at faults, timing faults and so on. The generated model is a new UPPAAL model that can be evaluated to determine if it satisfies the desired fault-tolerance properties.\n\n \n\nWe also focused on developing algorithms for model slicing of UPPAAL. In this work, by focusing on the property being verified, we revise the given UPPAAL model so as to reduce the state space required for verification. We were able to show that this reduces the overall time for verification by an order of magnitude.\n\n \n\nThis project has supported the education and training of several graduate students and postdocs including Mohammad Roohitavaf, Vidhya Tekeen Valapil, Duong Nguyen, Jingshu Chen, Ling Zhu, Reza Hajishey, and Yiyan Lin. Of these, Ling, Reza and Yiyan are working in US industry and Jingshu is working in an academic institution in USA.\n\n \n\n\t\t\t\t\tLast Modified: 12/13/2017\n\n\t\t\t\t\tSubmitted by: Sandeep S Kulkarni"
+ }
+}

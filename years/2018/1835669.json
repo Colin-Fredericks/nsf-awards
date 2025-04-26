@@ -1,0 +1,110 @@
+{
+ "awd_id": "1835669",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Framework: Software: NSCI: Collaborative Research: Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy Systems",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922656",
+ "po_email": "vchandol@nsf.gov",
+ "po_sign_block_name": "Varun Chandola",
+ "awd_eff_date": "2018-11-01",
+ "awd_exp_date": "2022-10-31",
+ "tot_intn_awd_amt": 150000.0,
+ "awd_amount": 150000.0,
+ "awd_min_amd_letter_date": "2018-09-12",
+ "awd_max_amd_letter_date": "2018-09-12",
+ "awd_abstract_narration": "Modern high performance computing (HPC) applications generate massive amounts of data. However, the performance improvement of disk based storage systems has been much slower than that of memory, creating a significant Input/Output (I/O) performance gap. To reduce the performance gap, storage subsystems are under extensive changes, adopting new technologies and adding more layers into the memory/storage hierarchy. With a deeper memory hierarchy, the data movement complexity of memory systems is increased significantly, making it harder to utilize the potential of the deep memory and storage hierarchy (DMSH) design. As we move towards the exascale era, I/O bottleneck is a must to solve performance bottleneck facing the HPC community. DMSHs with multiple levels of memory/storage layers offer a feasible solution but are very complex to use  effectively. Ideally, the presence of multiple layers of storage should be transparent to applications without having to sacrifice I/O performance. There is a need to enhance and extend current software systems to support data access and movement transparently and effectively under DMSHs. Hierarchical Data Format (HDF) technologies are a set of current I/O solutions addressing the problems in organizing, accessing, analyzing, and preserving data. HDF5 library is widely popular within the scientific community. Among the high level I/O libraries used in DOE labs, HDF5 is the undeniable leader with 99% of the share. HDF5 addresses the I/O bottleneck by hiding the complexity of performing coordinated I/O to single, shared files, and by encapsulating general purpose optimizations. While HDF technologies, like other existing I/O middleware, are not designed to support DMSHs, its wide popularity and its middleware nature make HDF5 an ideal candidate to enable, manage, and supervise I/O buffering under DMSHs. This project proposes the development of Hermes, a heterogeneous aware, multi tiered, dynamic, and distributed I/O buffering system that \r\nwill significantly accelerate I/O performance. \r\n\r\nThis project  proposes to extend HDF technologies with the Hermes design. Hermes is new, and the enhancement of HDF5 is new. The deliveries of this research include an enhanced HDF5 library, a set of extended HDF technologies, and a group of general I/O buffering and memory system optimization mechanisms and methods. We believe that the combination of DMSH I/O buffering and HDF technologies is a reachable practical solution that can efficiently support scientific discovery. Hermes will advance HDF5 core technology by developing new buffering algorithms and mechanisms to support 1) vertical and horizontal buffering in DMSHs: here vertical means access data to/from different levels locally and horizontal means spread/gather data across remote compute nodes; 2) selective buffering via HDF5: here selective means some memory layer, e.g. NVMe, only for selected data; 3) dynamic buffering via online system profiling: the buffering schema can be changed dynamically based on messaging traffic; 4) adaptive buffering via Reinforcement Learning: by learning the application's access pattern, we can adaptprefetching algorithms and cache replacement policies at runtime. The development Hermes will be translated into high quality dependable software and will be released with the core HDF5 library.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jian",
+   "pi_last_name": "Peng",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jian Peng",
+   "pi_email_addr": "jianpeng@illinois.edu",
+   "nsf_id": "000727711",
+   "pi_start_date": "2018-09-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S. Wright St.",
+  "perf_city_name": "Urbana",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "077Z",
+   "pgm_ref_txt": "CSSI-1: Cyberinfr for Sustained Scientif"
+  },
+  {
+   "pgm_ref_code": "7925",
+   "pgm_ref_txt": "LARGE PROJECT"
+  },
+  {
+   "pgm_ref_code": "8004",
+   "pgm_ref_txt": "Software Institutes"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 150000.0
+  }
+ ],
+ "por": null
+}

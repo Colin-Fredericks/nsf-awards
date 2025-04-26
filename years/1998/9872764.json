@@ -1,0 +1,122 @@
+{
+ "awd_id": "9872764",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "WebTP: A User-Centered Web Transfer Protocol",
+ "cfda_num": "47.070",
+ "org_code": "05050200",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Mari Maeda",
+ "awd_eff_date": "1998-10-01",
+ "awd_exp_date": "2002-09-30",
+ "tot_intn_awd_amt": 1150413.0,
+ "awd_amount": 1150413.0,
+ "awd_min_amd_letter_date": "1998-09-25",
+ "awd_max_amd_letter_date": "2001-04-19",
+ "awd_abstract_narration": "The World Wide Web is now a critical communication infrastructure for\r\nsociety. However, the foundations on which the Web is built are largely ad\r\nhoc and haphazard, with a protocol framework consisting of the hypertext\r\ntransport protocol (HTTP) layered on top of the Internet's universal\r\nreliable delivery protocol-the transmission control protocol (TCP).\r\nConsequently, the performance of HTTP over TCP suffers from a number of\r\ndeficiencies that are all rooted in the fact that TCP's byte-stream\r\nsemantics are often at odds with user goals and the performance\r\ncapabilities of end clients and servers.\r\n\r\nSeveral ad hoc remedies have been proposed earlier to compensate for these\r\ndeficiencies, e.g. parallel connections, persistent connections, and ACK\r\npacing. However, all these solutions are overly constrained by the\r\npresumption of backward compatibility. We believe that the time has come to\r\nadopt a holistic and integrated approach embodied in a new transport\r\nprotocol tailored specifically for the Web. Herein, we propose a set of\r\nresearch tasks to study, design, implement, test and evaluate our new ``Web\r\nTransport Protocol\" or WebTP.\r\n\r\nOur approach is based on a conceptual model of user validation, application\r\nsemantics, network and client states, and a flexible protocol that reflects\r\nthis syntax and semantics. The conceptual model emphasizes the interaction\r\nbetween document structure, network state, and user preferences. Our\r\nresearch prototype will leverage the well-established and highly successful\r\ncongestion control framework of TCP and vastly improve upon the existingWeb\r\nprotocols by bringing user requirements into the design loop. To do so, we\r\nwill apply the principles of Application Level Framing (ALF) to the design\r\nof WebTP. ALF says that to optimize communication paths within the\r\napplication and across the network, an application's semantics (i.e. its\r\nuser requirements) should be explicitly reflected in the design of its\r\nnetwork protocol. Although ALF has been adopted in modern protocols like\r\nthe Real-time transport protocol (RTP), paradoxically it has not been\r\nsystematically applied to previously existing applications like the Web.\r\n\r\nWe will study the following questions:\r\n\r\n* How do we best structure the ALF-based Web protocol in terms of\r\ncongestion control algorithms, loss recovery schemes, packet framing\r\nmethodology, header formats, toolkit APIs, and so forth? How do these\r\ndesign decisions impact network performance, user satisfaction, protocol\r\ncomplexity, and server load?\r\n\r\n* How then does the client elicit user preferences in the least obtrusive\r\nfashion?\r\n\r\n* How does the receiver (client) learn of the content structure of a\r\nserver's Web data and combine that structure with its estimate of network\r\nstate and user preferences to control selective transmission via WebTP?\r\n\r\n* How should functionality and state information be distributed among the\r\nsource (server or proxy), client, and user and what are the design and\r\nperformance tradeoffs? How does WebTP scale with increased speed and faster\r\nclients?\r\n\r\nOur approach to these questions draws upon network engineering and\r\ncommunication theory, signal processing and stochastic control.  We will\r\nuse existing network emulation infrastructure from the the INDEX Project to\r\ncomprehensively test and evaluate WebTP. This project holds the potential\r\nto dramatically impact the way we think about Web transport and will\r\nfurther contribute a design methodology, an actual protocol architecture,\r\nand performance analysis and results. We believe that our versions of WebTP\r\nwill demonstrate dramatic improvements and pave the way for further\r\ndevelopments.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jean",
+   "pi_last_name": "Walrand",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jean Walrand",
+   "pi_email_addr": "wlr@eecs.berkeley.edu",
+   "nsf_id": "000072397",
+   "pi_start_date": "1998-09-25",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Steven",
+   "pi_last_name": "McCanne",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Steven McCanne",
+   "pi_email_addr": "mccanne@eecs.berkeley.edu",
+   "nsf_id": "000464465",
+   "pi_start_date": "1998-09-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "1608 4TH ST STE 201",
+  "perf_city_name": "BERKELEY",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947101749",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "108300",
+   "pgm_ele_name": "DOMAIN NAME FUNDS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "4095",
+   "pgm_ref_txt": "SPECIAL PROJECTS IN NET RESEAR"
+  },
+  {
+   "pgm_ref_code": "9145",
+   "pgm_ref_txt": "SPECIAL PROGRAMS-RESERVE"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0198",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0198",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1998,
+   "fund_oblg_amt": 1150413.0
+  }
+ ],
+ "por": null
+}

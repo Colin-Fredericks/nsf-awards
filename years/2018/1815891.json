@@ -1,0 +1,105 @@
+{
+ "awd_id": "1815891",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Collaborative Research: Real-Time Computing Infrastructure for Integrated CPU-GPU SoC Platforms",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Alexander Jones",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2022-08-31",
+ "tot_intn_awd_amt": 220000.0,
+ "awd_amount": 220000.0,
+ "awd_min_amd_letter_date": "2018-06-19",
+ "awd_max_amd_letter_date": "2018-06-19",
+ "awd_abstract_narration": "Autonomous cars and drones demand high computational performance to process massive amount of real-time data while also keeping their size, weight, power and cost to an acceptable level. Graphics processing unit (GPU) is specially designed hardware to efficiently process such large data. Therefore, it is increasingly being integrated in new generations of computer chips. Unfortunately, such integrated chips often exhibit unpredictable timing behaviors due to unregulated use of shared hardware resources that can prevent timely execution of critical tasks. This project will create a new real-time computing infrastructure for GPU integrated computer chips to provide predictable timing and high-performance.\r\n\r\nThe project will create new resource management algorithms, task models, real-time synchronization protocols, and schedulability analysis methodologies for GPU integrated computing platforms that significantly improve time predictability and efficiency, and reduce analysis pessimism, compared to the state-of-the art. The project has three research objectives. The first objective is to develop software mechanisms to bound worst-case memory interference to controllable limits with minimal programmer intervention. The second objective is to maximize system resource utilization without sacrificing timing predictability of critical real-time tasks. The third objective is to develop modeling and analysis methodologies for the proposed computing infrastructure.\r\n\r\nThe project has several direct economic and societal impacts. This research will greatly improve temporal predictability and efficiency of GPU integrated computing platforms, which are used for safety-critical cyber-physical systems---particularly in automotive and aviation industries. Considering the market size of automotive industry and the high certification cost in aviation industry, the expected improvements of the project can be translated into multi-billion-dollar saving. The research outcomes will be disseminated via public code repositories and integrated into graduate and undergraduate courses. In particular, autonomous car and drone testbeds will be used to increase student engagement in the classes.\r\n\r\nResearch artifacts, such as source code of modified Linux kernel, user-level library, and tools will be publicly available via open-source repositories at https://github.com/CSL-KU/igpu-rm for the duration of the project and beyond. Research findings will be reported via scientific journals and conferences.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Lui",
+   "pi_last_name": "Sha",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Lui Sha",
+   "pi_email_addr": "lrs@illinois.edu",
+   "nsf_id": "000222870",
+   "pi_start_date": "2018-06-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "University of Illinois",
+  "perf_city_name": "Champaign",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618011454",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 220000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Intelligent cyber-physical systems (CPS), such as autonomous cars and unmanned aerial vehicles, demand high computing performance to process massive amounts of real-time data. On the other hand, they also must meet stringent size, weight, power and cost constraints. Graphics processing units (GPUs) are well suited for high-performance parallel processing of large data. As such, most modern embedded processors integrate a GPU along with multiple CPU cores to meet the performance and efficiency requirements. However, these integrated CPU-GPU processors also bring serious challenges in terms of time predictability because contention on the shared resources between the CPU and GPU can greatly impact the execution timing of the critical time-sensitive programs running on the system, which is particularly problematic for many safety-critical CPS.</p>\n<p>&nbsp;</p>\n<p>The project was motivated by a case study in which a deep neural network based AI controller failed to steer the car in time due to shared resource contention on the computing platform. The project focused on integrated CPU-GPU computing platforms with multiple CPU cores and a single GPU, all of which share a common memory subsystem, as it is representative of most common embedded computing platforms. This project was aimed at developing technologies to address the time predictability challenge of these integrated CPU-GPU SoC based computing platforms.</p>\n<p>&nbsp;</p>\n<p>The main intellectual contributions of the project are as follows. First, the project developed a new class of denial-of-service attacks that are specially engineered to cause severe contention on certain shared memory resources on integrated computing platforms. From a series of experimental studies using the attacks, the project's findings greatly enhanced the research community's understanding of the impacts of shared resource contention and the limitations of the existing mitigation mechanisms. One of the papers received an outstanding paper award at a premier conference, indicating the significance of the work. Second, the project developed a number of new and enhanced software techniques that can be deployed on commodity platforms to minimize and mitigate shared resource contention. By combining new OS-level scheduling mechanisms and both software and hardware-level shared resource throttling mechanisms together, the project was able to provide stronger isolation guarantees to both CPU and GPU intensive time-sensitive applications. The developed scheduling framework is also easy to analyze and deploy.</p>\n<p>&nbsp;</p>\n<p>In terms of broader impacts, the PIs published and presented the research findings of this project at quality conferences, journals, and workshops. Two papers received prestigious paper awards from top venues. Some results&nbsp; were also featured in internet media. The results of this project formed the basis of the dissertations of two PhD students and one MS student. Most artifacts developed in the project were already released via public github repositories as open-source.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/08/2023<br>\n\t\t\t\t\tModified by: Lui&nbsp;Sha</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIntelligent cyber-physical systems (CPS), such as autonomous cars and unmanned aerial vehicles, demand high computing performance to process massive amounts of real-time data. On the other hand, they also must meet stringent size, weight, power and cost constraints. Graphics processing units (GPUs) are well suited for high-performance parallel processing of large data. As such, most modern embedded processors integrate a GPU along with multiple CPU cores to meet the performance and efficiency requirements. However, these integrated CPU-GPU processors also bring serious challenges in terms of time predictability because contention on the shared resources between the CPU and GPU can greatly impact the execution timing of the critical time-sensitive programs running on the system, which is particularly problematic for many safety-critical CPS.\n\n \n\nThe project was motivated by a case study in which a deep neural network based AI controller failed to steer the car in time due to shared resource contention on the computing platform. The project focused on integrated CPU-GPU computing platforms with multiple CPU cores and a single GPU, all of which share a common memory subsystem, as it is representative of most common embedded computing platforms. This project was aimed at developing technologies to address the time predictability challenge of these integrated CPU-GPU SoC based computing platforms.\n\n \n\nThe main intellectual contributions of the project are as follows. First, the project developed a new class of denial-of-service attacks that are specially engineered to cause severe contention on certain shared memory resources on integrated computing platforms. From a series of experimental studies using the attacks, the project's findings greatly enhanced the research community's understanding of the impacts of shared resource contention and the limitations of the existing mitigation mechanisms. One of the papers received an outstanding paper award at a premier conference, indicating the significance of the work. Second, the project developed a number of new and enhanced software techniques that can be deployed on commodity platforms to minimize and mitigate shared resource contention. By combining new OS-level scheduling mechanisms and both software and hardware-level shared resource throttling mechanisms together, the project was able to provide stronger isolation guarantees to both CPU and GPU intensive time-sensitive applications. The developed scheduling framework is also easy to analyze and deploy.\n\n \n\nIn terms of broader impacts, the PIs published and presented the research findings of this project at quality conferences, journals, and workshops. Two papers received prestigious paper awards from top venues. Some results  were also featured in internet media. The results of this project formed the basis of the dissertations of two PhD students and one MS student. Most artifacts developed in the project were already released via public github repositories as open-source.\n\n \n\n\t\t\t\t\tLast Modified: 02/08/2023\n\n\t\t\t\t\tSubmitted by: Lui Sha"
+ }
+}

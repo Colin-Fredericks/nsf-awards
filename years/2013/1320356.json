@@ -1,0 +1,121 @@
+{
+ "awd_id": "1320356",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: A Practical Data Dependence Profiler for Program Characterization and Optimization",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 384143.0,
+ "awd_amount": 400143.0,
+ "awd_min_amd_letter_date": "2013-09-09",
+ "awd_max_amd_letter_date": "2016-07-12",
+ "awd_abstract_narration": "Society relies on an ever broadening array of computer systems for productivity, communication, entertainment, safety, and health. Systems capable of processing at faster rates and with greater efficiency are necessary to sustain the pace of innovation. A key part of achieving this goal is the development of tools and techniques that make it easier to build sophisticated software with a desired set of requirements.  One aspect of these tools, the focus of this work, is data dependence profiling. A data dependence profiler (DDP) conveys to a programmer, compiler, or other program analysis tool the likelihood of a data dependence between two arbitrary memory operations while the program is running. DDPs are critical since compilers and programmers often do not know or cannot determine all such relationships simply by analyzing the source code; hence, DDPs provide important information for further optimization and tuning.\r\n\r\nThis project focuses on the design of a fast practical DDP that works effectively for a wide range of applications and for a wide range of program analysis needs.  The first goal is speed: that the DDP impose only a small slowdown, the target being a factor of two.  A second goal is to maintain accuracy: bounding the uncertainty and imprecision inherent in profiling, and providing information about the accuracy with the profiler feedback. The third goal is integration of the DDP into a feedback-directed optimization framework, to explore and understand its capabilities.\r\n\r\nIf the goals of the project are met, DDPs are expected to become more widely integrated into program development tools in support of existing technology and enabling new technologies that ultimately will benefit society.  Open source distribution of the tools developed by the project strengthens and extends the available open-source software infrastructure relied upon by both academia and industry.  The project integrates education with research through involvement of graduate, undergraduate, and high school students.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "James",
+   "pi_last_name": "Tuck",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "III",
+   "pi_full_name": "James M Tuck",
+   "pi_email_addr": "jtuck@ncsu.edu",
+   "nsf_id": "000498662",
+   "pi_start_date": "2013-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "North Carolina State University",
+  "inst_street_address": "2601 WOLF VILLAGE WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "RALEIGH",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9195152444",
+  "inst_zip_code": "276950001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "NC02",
+  "org_lgl_bus_name": "NORTH CAROLINA STATE UNIVERSITY",
+  "org_prnt_uei_num": "U3NVH931QJJ3",
+  "org_uei_num": "U3NVH931QJJ3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "North Carolina State University",
+  "perf_str_addr": "Department of ECE, 3066 EB II, C",
+  "perf_city_name": "Raleigh",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "276957911",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "NC02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9178",
+   "pgm_ref_txt": "UNDERGRADUATE EDUCATION"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0116",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001617DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 384143.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2016,
+   "fund_oblg_amt": 16000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p dir=\"ltr\">Computer programs use sophisticated logic and data structures to carry out their work. &nbsp;As the program runs, it produces intermediate results that are stored in memory and re-used later when needed. &nbsp;Data dependence profiling is the problem of identifying which parts of a program depend on which data. Capturing this information efficiently and with high accuracy can be valuable feedback to programmers and automated tools that help improve software either manually or automatically. &nbsp;Conventional approaches to data dependence profiling incur high-performance overheads, making them difficult to deploy and use. This project aims to make dependence profilers practical.</p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">This project explored alternative designs that trade-off performance for accuracy, with the overarching goal of finding higher performance alternatives with minimal impact on accuracy. A key to achieving this result is the use of novel data structures that make it possible to evaluate the presence of dependences in bulk using an approximation without sacrificing much accuracy. Specifically, a set-based profiler based on Bloom filters was explored and developed that offers a better performance and accuracy trade-off than any other profiler we have compared against. The conventional wisdom is that dependence profiling is slow, but the results demonstrate that this need not be the case. Integration of this new approach into software development toolchains may enable far more efficient dependence profiling than in the past, opening the door to new kinds of tools that more aggressively optimize in the presence of hard-to-analyze memory dependences. The results and benefits of this technique are documented in two masters theses and in the source code that has been released on the project website and open source repository on GitHub.com.</p>\n<p>This project also&nbsp;<span class=\"gmail-gr_ gmail-gr_27 gmail-gr-alert gmail-gr_gramm gmail-gr_inline_cards gmail-gr_run_anim gmail-Grammar gmail-multiReplace\">led</span>&nbsp;to the discovery of a new code optimization technique for automatic vectorization that can achieve a significant performance improvement over the state-of-the-art. The new technique enhances a vectorization algorithm known as Superword Level Parallelism (SLP).&nbsp; SLP requires detection of isomorphic instructions, that is instructions that perform the same operation, like an addition, but on different data. If such isomorphic instructions are detected, they can be grouped together into a single instruction. A key challenge of SLP is identifying which instructions should be grouped, as picking the wrong ones can lead to significant performance loss. This project discovered a new hierarchical approach&nbsp;that does a better job finding long sequences of vectorizable instructions than previous approaches. The results of this discovery were published in a peer-reviewed conference.</p>\n<p dir=\"ltr\">Over the course of this project, many students were trained in the art of compiler design and optimization techniques. In total, it partially or fully supported 4 undergraduate students, 2 Ph.D. students, 1 Ph.D. thesis, 3 MS students and their theses, and 5 additional M.S.-level graduate students who volunteered or carried out independent studies associated with the project.&nbsp;</p>\n<p dir=\"ltr\">&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/01/2019<br>\n\t\t\t\t\tModified by: James&nbsp;M&nbsp;Tuck</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "Computer programs use sophisticated logic and data structures to carry out their work.  As the program runs, it produces intermediate results that are stored in memory and re-used later when needed.  Data dependence profiling is the problem of identifying which parts of a program depend on which data. Capturing this information efficiently and with high accuracy can be valuable feedback to programmers and automated tools that help improve software either manually or automatically.  Conventional approaches to data dependence profiling incur high-performance overheads, making them difficult to deploy and use. This project aims to make dependence profilers practical.\n \nThis project explored alternative designs that trade-off performance for accuracy, with the overarching goal of finding higher performance alternatives with minimal impact on accuracy. A key to achieving this result is the use of novel data structures that make it possible to evaluate the presence of dependences in bulk using an approximation without sacrificing much accuracy. Specifically, a set-based profiler based on Bloom filters was explored and developed that offers a better performance and accuracy trade-off than any other profiler we have compared against. The conventional wisdom is that dependence profiling is slow, but the results demonstrate that this need not be the case. Integration of this new approach into software development toolchains may enable far more efficient dependence profiling than in the past, opening the door to new kinds of tools that more aggressively optimize in the presence of hard-to-analyze memory dependences. The results and benefits of this technique are documented in two masters theses and in the source code that has been released on the project website and open source repository on GitHub.com.\n\nThis project also led to the discovery of a new code optimization technique for automatic vectorization that can achieve a significant performance improvement over the state-of-the-art. The new technique enhances a vectorization algorithm known as Superword Level Parallelism (SLP).  SLP requires detection of isomorphic instructions, that is instructions that perform the same operation, like an addition, but on different data. If such isomorphic instructions are detected, they can be grouped together into a single instruction. A key challenge of SLP is identifying which instructions should be grouped, as picking the wrong ones can lead to significant performance loss. This project discovered a new hierarchical approach that does a better job finding long sequences of vectorizable instructions than previous approaches. The results of this discovery were published in a peer-reviewed conference.\nOver the course of this project, many students were trained in the art of compiler design and optimization techniques. In total, it partially or fully supported 4 undergraduate students, 2 Ph.D. students, 1 Ph.D. thesis, 3 MS students and their theses, and 5 additional M.S.-level graduate students who volunteered or carried out independent studies associated with the project. \n \n\n\t\t\t\t\tLast Modified: 02/01/2019\n\n\t\t\t\t\tSubmitted by: James M Tuck"
+ }
+}

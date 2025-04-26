@@ -1,0 +1,117 @@
+{
+ "awd_id": "1349100",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CCF: SHF: EAGER:Collaborative:Asynchronous Algorithms for Exascale Computing Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 90000.0,
+ "awd_amount": 90000.0,
+ "awd_min_amd_letter_date": "2013-07-31",
+ "awd_max_amd_letter_date": "2013-07-31",
+ "awd_abstract_narration": "Future computing systems will allow computations to be performed simultaneously with massive parallelization. However, current practices in scientific simulations cannot utilize the maximum potential of these machines. This is fundamentally due to the need for data synchronization across computing cores, which may cause up to 80% idling of the machines, and there is a need for new methods to overcome this inefficiency.\r\n\r\nThis research is to develop a new framework for high performance computing where synchronization across the processing elements is relaxed. This will eliminate the overhead associated with extreme parallelism and potentially lay the foundation for  simulations at scale. The framework is based on asynchronous model of computation for high performance computing to better utilize future  systems.  The price to pay for asynchrony is poor predictability of the code, resulting in uncertainty in the calculations. The central theme of this project is to accurately quantify this induced uncertainty and develop techniques to mitigate it. Specific research thrusts include: i) study of numerical stability, consistency and accuracy of widely used numerical algorithms, in the context of fluid-flow, under asynchronous conditions; ii) development of new schemes which can maintain its accuracy under asynchronous conditions; iii) determination of efficient implementations of the resulting algorithms on current and future systems. These research goals are addressed in a dynamical systems framework. The behavior of asynchronous numerical algorithms is modeled as Markov jump systems. Issues related to consistency, numerical stability and error control is addressed by using tools for analysis and design of Markov jump systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Raktim",
+   "pi_last_name": "Bhattacharya",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Raktim Bhattacharya",
+   "pi_email_addr": "raktim@tamu.edu",
+   "nsf_id": "000382724",
+   "pi_start_date": "2013-07-31",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Diego",
+   "pi_last_name": "Donzis",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Diego A Donzis",
+   "pi_email_addr": "donzis@tamu.edu",
+   "nsf_id": "000543975",
+   "pi_start_date": "2013-07-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Texas A&M Engineering Experiment Station",
+  "inst_street_address": "3124 TAMU",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE STATION",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "9798626777",
+  "inst_zip_code": "778433124",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "TX10",
+  "org_lgl_bus_name": "TEXAS A&M ENGINEERING EXPERIMENT STATION",
+  "org_prnt_uei_num": "QD1MX6N5YTN4",
+  "org_uei_num": "QD1MX6N5YTN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Texas Engineering Experiment Station",
+  "perf_str_addr": "3470 TAMU",
+  "perf_city_name": "College Station",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "778433577",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "TX10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794200",
+   "pgm_ele_name": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 90000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Currently, massively parallel computing systems are being built to study multi-physics, multi-scale problems. For these machines to be of practical use, we must rethink how numerical algorithms are designed. Conventional algorithms rely on communication between multiple cores to synchronize intermediate computations. Unfortunately, the communication speed is far below the computation speed and becomes a major bottle neck for massively parallel systems, which could have tens of thousads of cores. This becomes critical for tightly coupled problems&nbsp;&nbsp;for example in turbulence flow simulations at high Reynolds numbers and n-body simulations. Failing to address these issues with extreme parallelism will delay improvements in our understanding of these phenomena and prevent us a from solving important problems for science, and ultimately society.&nbsp;</p>\n<p>In this research we tried to break the conventional thinking of synchronized numerical algorithms. We focussed on asynchronous numerical algorithms where the computations in one core did not wait for synchronization and proceeded with computation with the latest available data from neighbouring cores. This overcomes the communication bottleneck, but makes the behaviour of the algorithm unpredictable in general.</p>\n<p>The main contribution of this research is a new theoretical foundation for analysis of asynchronous numerical algorithms, based on tools from systems and control theory, that provide conditions for stability, error bounds and predictability of the asynchronous algorithms. With these tools, we can quickly solve a complex problem in massively parallel machines, with quantifiable error in the solution. This research enables a theoretically supported tradeoff between accuracy and speed of computation. We also provide conditions when the asynchronous and synchronous algorithm provide the same solution.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/01/2015<br>\n\t\t\t\t\tModified by: Raktim&nbsp;Bhattacharya</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nCurrently, massively parallel computing systems are being built to study multi-physics, multi-scale problems. For these machines to be of practical use, we must rethink how numerical algorithms are designed. Conventional algorithms rely on communication between multiple cores to synchronize intermediate computations. Unfortunately, the communication speed is far below the computation speed and becomes a major bottle neck for massively parallel systems, which could have tens of thousads of cores. This becomes critical for tightly coupled problems  for example in turbulence flow simulations at high Reynolds numbers and n-body simulations. Failing to address these issues with extreme parallelism will delay improvements in our understanding of these phenomena and prevent us a from solving important problems for science, and ultimately society. \n\nIn this research we tried to break the conventional thinking of synchronized numerical algorithms. We focussed on asynchronous numerical algorithms where the computations in one core did not wait for synchronization and proceeded with computation with the latest available data from neighbouring cores. This overcomes the communication bottleneck, but makes the behaviour of the algorithm unpredictable in general.\n\nThe main contribution of this research is a new theoretical foundation for analysis of asynchronous numerical algorithms, based on tools from systems and control theory, that provide conditions for stability, error bounds and predictability of the asynchronous algorithms. With these tools, we can quickly solve a complex problem in massively parallel machines, with quantifiable error in the solution. This research enables a theoretically supported tradeoff between accuracy and speed of computation. We also provide conditions when the asynchronous and synchronous algorithm provide the same solution.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 12/01/2015\n\n\t\t\t\t\tSubmitted by: Raktim Bhattacharya"
+ }
+}

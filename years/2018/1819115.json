@@ -1,0 +1,101 @@
+{
+ "awd_id": "1819115",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Reduced-Order and Low-Rank Methods for Parameter-Dependent Partial Differential Equations",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-01-31",
+ "tot_intn_awd_amt": 200000.0,
+ "awd_amount": 200000.0,
+ "awd_min_amd_letter_date": "2018-07-16",
+ "awd_max_amd_letter_date": "2018-07-16",
+ "awd_abstract_narration": "The goal of this study is to develop new computer algorithms to be used to simulate engineering models and physical phenomena, with the aim of predicting behavior of systems in the physical world.  Examples of the use of these techniques include modeling of the flow of pollutants in groundwater, assessing the stability of structures such as airplane wings in the face of stresses such as high temperatures or pressures, and simulating the effects of magnetic fields on performance of semiconductors or reactions in nuclear fusion.  Such algorithms help engineers and scientists to make good decisions about construction and use of new technology, but they are only practically useful if demonstrated to be efficient (that is, use modest amounts of computer time and memory) and accurate.  The aim of this work is to advance the development of efficient algorithms of this type and to demonstrate their utility for models of transient phenomena such as fluid flows and stability of physical structures.\r\n\r\nThe technical goals of the project are to study solution algorithms for parameter-dependent partial differential equations by constructing approximate solutions of low-rank structure.  Parameterized problems of this type arise when underlying terms figuring in the differential operators of the system depend on a set of unknown or random parameters.  Examples include unknown permeabilities in models of diffusion or velocity fields that are affected by temperatures.  In this scenario, the solutions sought also depend on parameters, but they can often be approximated well in a space of low dimension, i.e., solutions for all parameter values can be represented as a linear combination of a small finite set of functions.  Such a reduced representation offers the prospect of significant reduction of costs required to compute solutions.  The project will explore the utility this approach for two types of problems: (i) dynamical systems, for which the dependence on time requires new methods to develop reduced-order models that are accurate over long time periods, and (ii) eigenvalue problems, with emphasis on techniques for stability analysis of dynamical systems.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Howard",
+   "pi_last_name": "Elman",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Howard C Elman",
+   "pi_email_addr": "elman@cs.umd.edu",
+   "nsf_id": "000173151",
+   "pi_start_date": "2018-07-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Maryland, College Park",
+  "inst_street_address": "3112 LEE BUILDING",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE PARK",
+  "inst_state_code": "MD",
+  "inst_state_name": "Maryland",
+  "inst_phone_num": "3014056269",
+  "inst_zip_code": "207425100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "MD04",
+  "org_lgl_bus_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+  "org_prnt_uei_num": "NPU8ULVAAS23",
+  "org_uei_num": "NPU8ULVAAS23"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Maryland College Park",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MD",
+  "perf_st_name": "Maryland",
+  "perf_zip_code": "207423255",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "MD",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 200000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The focus of this project was on the development and analysis of efficient computational algorithms for solving the equations used to model physical phenomena such as fluid flows, electromagnetic phenomena and properties of structures.&nbsp; These partial differential equations (PDEs) often depend on uncertain parameters such as viscosity of fluids or porosity of media and understanding of the physics requires accurate (high-resolution) solutions that must be obtained for many examples of parameter values.&nbsp; These requirements lead to high computational costs, in both computer runtimes and memory requirements.&nbsp; Our aim has been to reduce these costs by representing solutions in low-dimensional spaces and constructing algorithms that take advantage of these lower-dimensional variants of the problems.</p>\n<p><strong>Intellectual merit.&nbsp; </strong>We pursued these aims by constructing <em>low-rank</em> approximations to solutions of parameter-dependent PDEs, where the solution sets are represented by matrices or tensors. This is a fundamental approach for reducing costs of solving such problems, which in turn facilitates simulation of dynamical systems in a cost-effective manner.<br /><br />In work with a graduate student, Tengfei Su, we developed an efficient algorithm for computing low-rank approximations to discrete solutions of parameter-dependent eigenvalue problems using a stochastic version of inverse iteration.and we showed that low-rank tensor approximations can be used to efficiently compute accurate discrete solutions to time-dependent and parameter-dependent Navier-Stokes equations using ``all-in-one'' treatment of time discretization].This work was part of Su's thesis, which also contained the first results establishing ``textbook'' (grid-independent) convergence bounds&nbsp; or low-rank variants of multigrid methods. <br /><br />In a collaboration with Kookjin Lee and Bedrich Sousedik we developed low-rank efficient variants of Newton-Krylov methods for nonlinear problems and demonstrated their utility for solving the parameter-dependent Navier-Stokes equations.&nbsp;&nbsp; In a study with Kookjin Lee, Catherine Powell, and Dongeun Lee,&nbsp; we developed a rank-adaptive variant of alternating energy minimization methods that builds solutions to parameter-dependent&nbsp; PDEs by iteratively&nbsp; computing rank-one&nbsp; solution&nbsp; components.</p>\n<p>In work with graduate student Jiaxing Liang and Tonatiuh Sanchez-Vizuet, we showed that the costs of Monte Carlo simulation of the equilibrium of a plasma in a model of fusion devices, the Grad-Shafranov equation, can be reduced significantly, by factors up to 30, using surrogate approximate solutions based on stochastic collocation methods.</p>\n<p>Compared to costs for performing simulations with full (unreduced) models, cost savings for simulations are reduced in all these cases.Typical savings for simulations with 10,000 samples, are upwards of 75%.&nbsp; Results for low-rank all-in-one treatment of time reduce storage requirements to less than 10\\% of those needed for full models.<br /><br />During the term of the grant, two graduate students, Quan Bui and Tengfei Su, completed doctoral dissertations.&nbsp; Su is now a quantitative analyst at Wells Fargo Bank, and Bui has a postdoctoral position at Lawrence Livermore National Laboratory. <br /><br /><strong>Broader Impact.</strong> These techniques are of broad use in mathematical modeling, with applications in fluid dynamics for multiphase flows, electromagnetics, simulations of plasma dynamics, and structural analysis; parameterization is used in such settings for modeling of uncertain or varying quantities such as permeabilities, resistivities or material properties.&nbsp; The impact of this work derives from the enhanced efficiency, with both respect to computation time and storage requirements, associated with low-rank computations. Reduction of costs significantly enhances the utility of simulation in these domains to enable both enhanced spatial resolution and improved treatment of long transient simulations.<br /><br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/29/2022<br>\n\t\t\t\t\tModified by: Howard&nbsp;C&nbsp;Elman</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe focus of this project was on the development and analysis of efficient computational algorithms for solving the equations used to model physical phenomena such as fluid flows, electromagnetic phenomena and properties of structures.  These partial differential equations (PDEs) often depend on uncertain parameters such as viscosity of fluids or porosity of media and understanding of the physics requires accurate (high-resolution) solutions that must be obtained for many examples of parameter values.  These requirements lead to high computational costs, in both computer runtimes and memory requirements.  Our aim has been to reduce these costs by representing solutions in low-dimensional spaces and constructing algorithms that take advantage of these lower-dimensional variants of the problems.\n\nIntellectual merit.  We pursued these aims by constructing low-rank approximations to solutions of parameter-dependent PDEs, where the solution sets are represented by matrices or tensors. This is a fundamental approach for reducing costs of solving such problems, which in turn facilitates simulation of dynamical systems in a cost-effective manner.\n\nIn work with a graduate student, Tengfei Su, we developed an efficient algorithm for computing low-rank approximations to discrete solutions of parameter-dependent eigenvalue problems using a stochastic version of inverse iteration.and we showed that low-rank tensor approximations can be used to efficiently compute accurate discrete solutions to time-dependent and parameter-dependent Navier-Stokes equations using ``all-in-one'' treatment of time discretization].This work was part of Su's thesis, which also contained the first results establishing ``textbook'' (grid-independent) convergence bounds  or low-rank variants of multigrid methods. \n\nIn a collaboration with Kookjin Lee and Bedrich Sousedik we developed low-rank efficient variants of Newton-Krylov methods for nonlinear problems and demonstrated their utility for solving the parameter-dependent Navier-Stokes equations.   In a study with Kookjin Lee, Catherine Powell, and Dongeun Lee,  we developed a rank-adaptive variant of alternating energy minimization methods that builds solutions to parameter-dependent  PDEs by iteratively  computing rank-one  solution  components.\n\nIn work with graduate student Jiaxing Liang and Tonatiuh Sanchez-Vizuet, we showed that the costs of Monte Carlo simulation of the equilibrium of a plasma in a model of fusion devices, the Grad-Shafranov equation, can be reduced significantly, by factors up to 30, using surrogate approximate solutions based on stochastic collocation methods.\n\nCompared to costs for performing simulations with full (unreduced) models, cost savings for simulations are reduced in all these cases.Typical savings for simulations with 10,000 samples, are upwards of 75%.  Results for low-rank all-in-one treatment of time reduce storage requirements to less than 10\\% of those needed for full models.\n\nDuring the term of the grant, two graduate students, Quan Bui and Tengfei Su, completed doctoral dissertations.  Su is now a quantitative analyst at Wells Fargo Bank, and Bui has a postdoctoral position at Lawrence Livermore National Laboratory. \n\nBroader Impact. These techniques are of broad use in mathematical modeling, with applications in fluid dynamics for multiphase flows, electromagnetics, simulations of plasma dynamics, and structural analysis; parameterization is used in such settings for modeling of uncertain or varying quantities such as permeabilities, resistivities or material properties.  The impact of this work derives from the enhanced efficiency, with both respect to computation time and storage requirements, associated with low-rank computations. Reduction of costs significantly enhances the utility of simulation in these domains to enable both enhanced spatial resolution and improved treatment of long transient simulations.\n\n\n\n\n\t\t\t\t\tLast Modified: 03/29/2022\n\n\t\t\t\t\tSubmitted by: Howard C Elman"
+ }
+}

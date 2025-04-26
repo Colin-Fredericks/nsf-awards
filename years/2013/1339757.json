@@ -1,0 +1,109 @@
+{
+ "awd_id": "1339757",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SI2-SSE:  Collaborative Research:  Software Elements for Transfer and Analysis of Large-Scale Scientific Data",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rob Beverly",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 400000.0,
+ "awd_amount": 400000.0,
+ "awd_min_amd_letter_date": "2013-08-29",
+ "awd_max_amd_letter_date": "2013-08-29",
+ "awd_abstract_narration": "As science has become increasingly data-driven, and as data volumes and velocity are increasing,  scientific advance in many areas will  only be feasible if critical `big-data' problems are addressed  - and even more importantly,  software tools embedding these solutions are readily available to the scientists. Particularly, the major challenge being faced by current data-intensive scientific research efforts    is that while the dataset sizes continue to grow rapidly, neither among network bandwidths,   memory capacity of parallel machines,   memory access speeds,    and disk bandwidths are increasing at the same rate.\r\n\r\nBuilding on top of recent research at Ohio State University, which includes work on automatic data virtualization, indexing methods for scientific data,   and a novel bit-vectors based sampling method, the goal of this project is to fully develop, disseminate, deploy, and support  robust  software elements addressing challenges in data transfers and analysis.   The prototypes that have been already developed at Ohio State are being extended into two  robust   software elements: \r\n\r\nSoftware Element 1:   GridPFTP (Grid Partial-File Transport Protocol):   An Extention to GridFTP: an extention of GridFTP that allows users to specify a subset of the file to be transferred, avoiding unnecessary transfer of the entire file.\r\nSoftware Element 2: Parallel Readers  for NetCDF and HDF5 for Paraview and VTK:  Data subsetting and sampling tools for  NetCDF and  HDF5 that perform data selection and  sampling at  the I/O level, and in parallel.\r\n\r\nThis project impacts a number of scientific areas,   i.e., any area that involves   big (and growing) dataset sizes and  need for data transfers and/or visualization.  This project also contributes to computer science research in `big data',  including scientific (array-based)  databases,  and visualization.  Another contribution will be towards preparation  of the broad science and engineering research community  for big data handling and analytics.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Gagan",
+   "pi_last_name": "Agrawal",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gagan Agrawal",
+   "pi_email_addr": "gagrawal@uga.edu",
+   "nsf_id": "000230838",
+   "pi_start_date": "2013-08-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101277",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "287800",
+   "pgm_ele_name": "Special Projects - CCF"
+  },
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "8005",
+   "pgm_ref_txt": "Scientific Software Elements"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 400000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project has focused on the challenge of users interacting with scientific (array) data.&nbsp; The state of the art in this area has been quite limited, unlike dealing with relational data. In the case of relational data, Relational Database Management Systems&nbsp;&nbsp; (RDBMSs) have been common for the last 4 decades. However, scientists have been dealing with array data by writing their own low-level programs or scripts -- a process that is time consuming and prone to bugs.</p>\n<p>&nbsp;</p>\n<p>This project has developed a series of tools to help address the problem. Our initial work has demonstrated how simple selection, projection, and aggregation queries could be executed on array data. Next, we considered the problem of joining across multiple arrays. In the process, we used an indexing&nbsp;&nbsp; mechanism, bitmaps, to speedup the project. We also defined a variant of joins for scientific data, which considers the problem of noise in the data, and/or the fact that users are often interest in close matches, and not perfect ones.&nbsp;&nbsp; Efficient algorithms for this task were developed.&nbsp; Finally, we considered the problem of window-based aggregations.</p>\n<p>&nbsp;</p>\n<p>We have extensively worked together with the climate group at Argonne. Our implementations have been customized for their needs and a graphical interface has been developed to support the intended users of this group. The tool is currently in production use. This project has also contributed towards human resource development. One student supported through this grant graduates in 2014 and another is graduating in summer 2018.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/30/2018<br>\n\t\t\t\t\tModified by: Gagan&nbsp;Agrawal</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project has focused on the challenge of users interacting with scientific (array) data.  The state of the art in this area has been quite limited, unlike dealing with relational data. In the case of relational data, Relational Database Management Systems   (RDBMSs) have been common for the last 4 decades. However, scientists have been dealing with array data by writing their own low-level programs or scripts -- a process that is time consuming and prone to bugs.\n\n \n\nThis project has developed a series of tools to help address the problem. Our initial work has demonstrated how simple selection, projection, and aggregation queries could be executed on array data. Next, we considered the problem of joining across multiple arrays. In the process, we used an indexing   mechanism, bitmaps, to speedup the project. We also defined a variant of joins for scientific data, which considers the problem of noise in the data, and/or the fact that users are often interest in close matches, and not perfect ones.   Efficient algorithms for this task were developed.  Finally, we considered the problem of window-based aggregations.\n\n \n\nWe have extensively worked together with the climate group at Argonne. Our implementations have been customized for their needs and a graphical interface has been developed to support the intended users of this group. The tool is currently in production use. This project has also contributed towards human resource development. One student supported through this grant graduates in 2014 and another is graduating in summer 2018.\n\n\t\t\t\t\tLast Modified: 05/30/2018\n\n\t\t\t\t\tSubmitted by: Gagan Agrawal"
+ }
+}

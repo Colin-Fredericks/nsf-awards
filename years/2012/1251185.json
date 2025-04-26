@@ -1,0 +1,105 @@
+{
+ "awd_id": "1251185",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: A Study of the Limitations of High Performance Code Generation in Vectorizing Compilers",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2012-10-01",
+ "awd_exp_date": "2014-09-30",
+ "tot_intn_awd_amt": 83376.0,
+ "awd_amount": 83376.0,
+ "awd_min_amd_letter_date": "2012-09-26",
+ "awd_max_amd_letter_date": "2012-09-26",
+ "awd_abstract_narration": "Most modern microprocessors support some form of vector operations that allow the same operation to be applied to small vectors of arguments simultaneously.  Studies have shown that use of these instructions can improve the performance of many scientific codes by a factor of 2 or more.  Unfortunately, the state of the art in autovectorization falls far short of this goal, only achieving improvements of 20-30% on the same codes.\r\n\r\nWhile studies have shown that current autovectorizing compilers do not identify all of the opportunities for vectorization, little is known about why they fail to do so.  The PI will study the problem of mapping between high-level idealized vector code and the idiosyncratic vector instructions found on real hardware.  The PI plans to use the Spiral code generation and autotuning system to generate a large set of test cases for evaluating how well existing autovectorizing compilers manage such mappings.  This research will make it possible to develop better autovectorizing compilers by identifying the program transformations that are required to generate vectorized code for real hardware. The performance benefits of such compilers will improve the performance of applications ranging from multimedia software to scientific computing.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Franz",
+   "pi_last_name": "Franchetti",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Franz Franchetti",
+   "pi_email_addr": "franzf@ece.cmu.edu",
+   "nsf_id": "000209896",
+   "pi_start_date": "2012-09-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "5000 Forbes Avenue",
+  "perf_city_name": "Pittsburgh",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133815",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7329",
+   "pgm_ref_txt": "COMPILERS"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 83376.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>SIMD instruction sets (single instruction, multiple data) like Intel&rsquo;s SSE and AVX, ARM&rsquo;s NEON, and PowerPC&rsquo;s AltiVec are pervasive in current microprocessors, and add tremendously to the performance potential and energy efficiency of these processors. Unfortunately, automatic vectorization&mdash;generating vector instructions from standard C or FORTRAN source code&mdash;is challenging. This issue has been researched extensively in the context of traditional vector computers, and then again in the context of graphics cards and now SIMD instruction sets. Compilers have become good in extracting SIMD operations from well-formed code. However, there are gaps in compiler vectorization.</p>\n<p><strong>Intellectual merit.</strong> Our research in this project shows that there remains a costly and unnecessary gap in automatic vectorization. Humans are able to provide much better vector implementations for a wide range of algorithms than the best vectorising compilers are able to produce. However, combining a vectorising compiler with our automatic performance tuning and code generation system SPIRAL (a system that can automatically generate code variants and try them out) leads to compiler-vectorized code on par with the best human vectorised code for the best found examples. This shows that there is no inherent barrier that prevents compilers from producing the best possible vectorised code. The problem we identified is that the compiler is unable to find the necessary code transformations&mdash;transformations that humans do intuitively and that the code generation and autotuning system SPIRAL is able to automatically perform.</p>\n<p><strong>Broader impact.</strong> Our research shows that SIMD vector instructions are an important component of modern microprocessors that lead to good performance and power efficiency. Research in compiler vectorization has the potential to overcome the current gap, despite the already expended research effort. We believe that current SIMD extensions are sufficiently different from vectorization targets researched in the past, and thus more research is warranted. The results of this project are used in graduate teaching at Carnegie Mellon University.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/30/2015<br>\n\t\t\t\t\tModified by: Franz&nbsp;Franchetti</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSIMD instruction sets (single instruction, multiple data) like Intel\u00c6s SSE and AVX, ARM\u00c6s NEON, and PowerPC\u00c6s AltiVec are pervasive in current microprocessors, and add tremendously to the performance potential and energy efficiency of these processors. Unfortunately, automatic vectorization&mdash;generating vector instructions from standard C or FORTRAN source code&mdash;is challenging. This issue has been researched extensively in the context of traditional vector computers, and then again in the context of graphics cards and now SIMD instruction sets. Compilers have become good in extracting SIMD operations from well-formed code. However, there are gaps in compiler vectorization.\n\nIntellectual merit. Our research in this project shows that there remains a costly and unnecessary gap in automatic vectorization. Humans are able to provide much better vector implementations for a wide range of algorithms than the best vectorising compilers are able to produce. However, combining a vectorising compiler with our automatic performance tuning and code generation system SPIRAL (a system that can automatically generate code variants and try them out) leads to compiler-vectorized code on par with the best human vectorised code for the best found examples. This shows that there is no inherent barrier that prevents compilers from producing the best possible vectorised code. The problem we identified is that the compiler is unable to find the necessary code transformations&mdash;transformations that humans do intuitively and that the code generation and autotuning system SPIRAL is able to automatically perform.\n\nBroader impact. Our research shows that SIMD vector instructions are an important component of modern microprocessors that lead to good performance and power efficiency. Research in compiler vectorization has the potential to overcome the current gap, despite the already expended research effort. We believe that current SIMD extensions are sufficiently different from vectorization targets researched in the past, and thus more research is warranted. The results of this project are used in graduate teaching at Carnegie Mellon University.\n\n\t\t\t\t\tLast Modified: 06/30/2015\n\n\t\t\t\t\tSubmitted by: Franz Franchetti"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "1329650",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CPS: Frontiers: Collaborative Research: ROSELINE: Enabling Robust, Secure, and Efficient Knowledge of Time Across the System Stack",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "David Corman",
+ "awd_eff_date": "2014-06-15",
+ "awd_exp_date": "2020-05-31",
+ "tot_intn_awd_amt": 544726.0,
+ "awd_amount": 544726.0,
+ "awd_min_amd_letter_date": "2014-06-13",
+ "awd_max_amd_letter_date": "2014-06-13",
+ "awd_abstract_narration": "Accurate and reliable knowledge of time is fundamental to cyber-physical systems for sensing, control, performance, and energy efficient integration of computing and communications. This statement underlies the proposal. Emerging CPS applications depend on precise knowledge of time to infer location and control communication. There is a diversity of semantics used to describe time, and quality of time varies as we move up and down the system stack. System designs tend to overcompensate for these uncertainties and the result is systems that may be over designed, inefficient, and fragile.\r\n\r\nThe intellectual merit derives from the new and fundamental concept of time and the holistic measure of quality of time (QoT) that captures metrics including resolution, accuracy, and stability. The proposal builds a system stack (\"ROSELINE\") that enables new ways for clock hardware, operating system, network services, and applications to learn, maintain and exchange information about time, influence component behavior, and robustly adapt to dynamic QoT requirements, as well as to benign and adversarial changes in operating conditions. Application areas that will benefit from Quality of Time will include: smart grad, networked and coordinated control of aerospace systems, underwater sensing, and industrial automation.\r\n\r\nThe broader impact of the proposal is due to the foundational nature of the work which builds a robust and tunable quality of time that can be applied across a broad spectrum of applications that pervade modern life. The proposal will also provide valuable opportunities to integrate research and education in graduate, undergraduate, and K-12 classrooms. There will be extensive outreach through publications, open sourcing of software, and participation in activities such as the Los Angeles Computing Circle for pre-college students.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Joao",
+   "pi_last_name": "Hespanha",
+   "pi_mid_init": "P",
+   "pi_sufx_name": "",
+   "pi_full_name": "Joao P Hespanha",
+   "pi_email_addr": "hespanha@ece.ucsb.edu",
+   "nsf_id": "000111915",
+   "pi_start_date": "2014-06-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Santa Barbara",
+  "inst_street_address": "3227 CHEADLE HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "SANTA BARBARA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8058934188",
+  "inst_zip_code": "931060001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "24",
+  "st_cong_dist_code": "CA24",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SANTA BARBARA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G9QBQDH39DF4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Santa Barbara",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "931069560",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "24",
+  "perf_st_cong_dist": "CA24",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "791800",
+   "pgm_ele_name": "CPS-Cyber-Physical Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7918",
+   "pgm_ref_txt": "CYBER-PHYSICAL SYSTEMS (CPS)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 544726.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"Normal1\">Inexpensive computation and ubiquitous embedded sensing, actuation, and communication provide tremendous opportunities for societal impact, but also great challenges in the design of feedback systems that operate over digital networks, because the traditional design methodologies for feedback control systems are not adequate when sensor data arrives from multiple sources, asynchronously, delayed, possibly corrupted, and &mdash; especially important for this project &mdash; the different entities that participate in a control system do not share a common clock.</p>\n<p class=\"Normal1\">Significant performance gains can be gained by allowing distributed systems to use timestamps that specify the time at which a particular sensor measured the state (or a portion of it) or the time at which an actuator performed an action. However, in practice, three types of errors afflict timestamps:</p>\n<p class=\"Normal1\">1.<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>Delays between the time at which the hardware collects the data and the time at which the timestamp is generated (often by software);</p>\n<p class=\"Normal1\">2.<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>Mismatches between the local clock of the sensor that timestamps the data and an absolute time reference;</p>\n<p class=\"Normal1\">3.<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>Mismatches between the local clock of a controller node that processes the data and the absolute time reference.</p>\n<p class=\"Normal1\">All these errors limit the system&rsquo;s ability to have an accurate and unified notion of time and we use the term <em>Quality of Time (QoT)</em> to generically characterize how well one can localize time events with respect to an absolute time reference.</p>\n<p class=\"Normal1\">A key goal of this project was to (i) investigate the impact of QoT in the stability and performance of networked control systems and (ii) characterize the tradeoffs between control performance, message rates (related to communication bandwidth), network delays, and QoT. This worked enabled synergetic system designs, in which control applications make effective use of information about QoT by adapting to it.</p>\n<p class=\"Normal1\">We focused our research on theoretical results regarding</p>\n<p class=\"Normal1\">1.<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>Fundamental limitations deriving from QoT: In this area, we discover fundamental limitations on how much clock-mismatch and clock fluctuations can be tolerated within a feedback control loop. These fundamental limitations, determine the key trade-off parameters for tuning QoT in feedback control applications.</p>\n<p class=\"Normal1\">2.<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>Robustness of stability with respect to QoT: We studies the robustness of specific feedback controllers to the parameters that define QoT. Specifically, we developed methodologies to discover ranges for clock offsets, jitter, etc. for which one can guarantee pre-specified levels of performance in the presence of degraded QoT. These tools can be used not only for analysis, but also for the design of feedback controllers that achieve the best possible performance for a given level of QoT.</p>\n<p class=\"Normal1\">3.<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>Distributed synchronization: We developed provably correct algorithms to synchronize the clock of different systems connected by wired or wireless networks, based on message passing protocols. For such algorithms, we studied the tradeoff between the number of messages exchanged and QoT that can be achieved as well as the impact of stochastic noise and malicious attacks on the QoT.</p>\n<p class=\"Normal1\">In collaboration with our partners, we also developed testbeds aimed at validating our results in an experimental setting, where we achieved up to three microseconds time synchronization accuracy and 30 cm localization error.&nbsp;</p>\n<p class=\"Normal1\"><span>We designed a distributed real-time wide-area oscillation estimation approach that is robust to GPS clock spoofing on PMUs and their associated Phasor Data Concentrators that can tolerate up to one third of the compromised measurements. It can be implemented in a completely decentralized architecture and in a completely asynchronous way. This work drew attention from Industry and National laboratories.</span>&nbsp;</p>\n<p class=\"Normal1\"><span>In the education front, we have introduced in a freshman undergraduate class concepts from real-time programming and projects that highlight the importance of synchronizing computation with events that take place in the physical world. We have also developed </span><span>a project-based learning engineering program for high school students built around fundamental concepts in programming, robotics, and control. The students complete increasingly sophisticated projects that exposed them to large solution spaces where creativity and exploration lead to unique solutions.</span></p>\n<p><span>We published our results in high visibility technical journals and conferences and gave technical talks about our research at the several colleges and universities in the US.</span></p>\n<p class=\"Normal1\">&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/13/2020<br>\n\t\t\t\t\tModified by: Joao&nbsp;P&nbsp;Hespanha</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "Inexpensive computation and ubiquitous embedded sensing, actuation, and communication provide tremendous opportunities for societal impact, but also great challenges in the design of feedback systems that operate over digital networks, because the traditional design methodologies for feedback control systems are not adequate when sensor data arrives from multiple sources, asynchronously, delayed, possibly corrupted, and &mdash; especially important for this project &mdash; the different entities that participate in a control system do not share a common clock.\nSignificant performance gains can be gained by allowing distributed systems to use timestamps that specify the time at which a particular sensor measured the state (or a portion of it) or the time at which an actuator performed an action. However, in practice, three types of errors afflict timestamps:\n1.     Delays between the time at which the hardware collects the data and the time at which the timestamp is generated (often by software);\n2.     Mismatches between the local clock of the sensor that timestamps the data and an absolute time reference;\n3.     Mismatches between the local clock of a controller node that processes the data and the absolute time reference.\nAll these errors limit the system\u2019s ability to have an accurate and unified notion of time and we use the term Quality of Time (QoT) to generically characterize how well one can localize time events with respect to an absolute time reference.\nA key goal of this project was to (i) investigate the impact of QoT in the stability and performance of networked control systems and (ii) characterize the tradeoffs between control performance, message rates (related to communication bandwidth), network delays, and QoT. This worked enabled synergetic system designs, in which control applications make effective use of information about QoT by adapting to it.\nWe focused our research on theoretical results regarding\n1.     Fundamental limitations deriving from QoT: In this area, we discover fundamental limitations on how much clock-mismatch and clock fluctuations can be tolerated within a feedback control loop. These fundamental limitations, determine the key trade-off parameters for tuning QoT in feedback control applications.\n2.     Robustness of stability with respect to QoT: We studies the robustness of specific feedback controllers to the parameters that define QoT. Specifically, we developed methodologies to discover ranges for clock offsets, jitter, etc. for which one can guarantee pre-specified levels of performance in the presence of degraded QoT. These tools can be used not only for analysis, but also for the design of feedback controllers that achieve the best possible performance for a given level of QoT.\n3.     Distributed synchronization: We developed provably correct algorithms to synchronize the clock of different systems connected by wired or wireless networks, based on message passing protocols. For such algorithms, we studied the tradeoff between the number of messages exchanged and QoT that can be achieved as well as the impact of stochastic noise and malicious attacks on the QoT.\nIn collaboration with our partners, we also developed testbeds aimed at validating our results in an experimental setting, where we achieved up to three microseconds time synchronization accuracy and 30 cm localization error. \nWe designed a distributed real-time wide-area oscillation estimation approach that is robust to GPS clock spoofing on PMUs and their associated Phasor Data Concentrators that can tolerate up to one third of the compromised measurements. It can be implemented in a completely decentralized architecture and in a completely asynchronous way. This work drew attention from Industry and National laboratories. \nIn the education front, we have introduced in a freshman undergraduate class concepts from real-time programming and projects that highlight the importance of synchronizing computation with events that take place in the physical world. We have also developed a project-based learning engineering program for high school students built around fundamental concepts in programming, robotics, and control. The students complete increasingly sophisticated projects that exposed them to large solution spaces where creativity and exploration lead to unique solutions.\n\nWe published our results in high visibility technical journals and conferences and gave technical talks about our research at the several colleges and universities in the US.\n \n\n\t\t\t\t\tLast Modified: 08/13/2020\n\n\t\t\t\t\tSubmitted by: Joao P Hespanha"
+ }
+}

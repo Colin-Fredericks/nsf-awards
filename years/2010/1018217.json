@@ -1,0 +1,101 @@
+{
+ "awd_id": "1018217",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TC:  Small:  Mining Operating System Semantics:  Techniques and Applications",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jeremy Epstein",
+ "awd_eff_date": "2010-08-01",
+ "awd_exp_date": "2014-07-31",
+ "tot_intn_awd_amt": 427000.0,
+ "awd_amount": 427000.0,
+ "awd_min_amd_letter_date": "2010-07-23",
+ "awd_max_amd_letter_date": "2010-07-23",
+ "awd_abstract_narration": "The knowledge about operating system semantics is the foundation for many security applications, including virtual machine introspection, malware detection and analysis, computer forensics, etc. However, the existing techniques for extracting operating system semantics fall short. They perform static analysis on the OS source code, and thus cannot be applied to the closed-source operating systems. The source-code analysis also suffers from the WYSINWYX (i.e., What You See Is Not What You eXecute) problem.  Furthermore, the obtained semantics knowledge can be easily compromised by various kernel attacks. With such an unsound foundation, the functionality and trustworthiness of these security applications become questionable.\r\n\r\nTo fortify this foundation, the PI aims to build a binary-centric and robust analysis framework for extracting operating system semantics. It is binary-centric, because it can extract semantics information from the binary code of an OS kernel. Consequently, the WYSINWYX problem can be solved and the semantics barrier of closed-source operating systems can be overcome. It is robust, because it can capture the invariants in OS-level semantics. So trustworthy semantics knowledge can be derived from these invariants, and various forgery attacks can be detected. Then with this framework, further research will be conducted to investigate how the functionality and robustness of various security applications can be strengthen.  The proposed tasks will lead to the release of prototype systems and the development of education materials for undergraduate and graduate courses and for professional training sessions.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Heng",
+   "pi_last_name": "Yin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Heng Yin",
+   "pi_email_addr": "heng@cs.ucr.edu",
+   "nsf_id": "000546221",
+   "pi_start_date": "2010-07-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Syracuse University",
+  "inst_street_address": "900 S CROUSE AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "SYRACUSE",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "3154432807",
+  "inst_zip_code": "13244",
+  "inst_country_name": "United States",
+  "cong_dist_code": "22",
+  "st_cong_dist_code": "NY22",
+  "org_lgl_bus_name": "SYRACUSE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "C4BXLBC11LC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Syracuse University",
+  "perf_str_addr": "900 S CROUSE AVE",
+  "perf_city_name": "SYRACUSE",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "13244",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "22",
+  "perf_st_cong_dist": "NY22",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779500",
+   "pgm_ele_name": "TRUSTWORTHY COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 427000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Understanding the inner-workings of an operating system (OS) is crucial for computer security. In particular, the knowledge about OS-level semantics is the <em>foundation</em> for many security applications,including virtual machine introspection, malware detection and analysis, computer forensics, etc. All these security applications depend on the correctness and trustworthiness of the OS-level semantics. This is especially important when the OS is compromised and the attacker has the privilege to manipulate these semantic values.</p>\n<p>This accomplished project provided answers to&nbsp;the following questions. These questions become more challenging when we do not have access to the source code of the operating system under study (e.g., Windows).</p>\n<ol>\n<li>How trustworthy are the semantic values in kernel data structures when the OS kernel is compromised?&nbsp;</li>\n<li>Even when the OS kernel is compromised, can we still extract semantic information as complete as possible?</li>\n<li>Other than the semantic values in kernel data structures, what other semantic information can we leverage to improve computer security?</li>\n</ol>\n<p>To answer the first research question, we conducted a systematic study on two widely used operating systems: Windows XP Service Pack 3 and Ubuntu 10.04. We devised a new fuzzing technique to automatically mutate the semantic values located in kernel data structures and observe the consequences of these manipulations. Our study shows that most of the semantic values are not trustworthy at all, as they can be arbitrarily manipulated without causing the system to misbehave. We further developed a proof-of-concept kernel rootkit to demonstrate that it can successfully evade all the security tools tested in our experiments, including recently proposed robust signature schemes. Our study motivates revisiting of existing security solutions and calls for more effective defense against kernel-level threats.</p>\n<p>To answer the second research question, we proposed a new memory analysis technique to construct a nearly complete kernel data structure graph even when these kernel data structures may have been manipulated by the attacker. To achieve high robustness, we only rely on strong pointer constraints in kernel data structures and perform graphical probabilistic inference on these pointer constraints in a global scope. In this way, even if some of the pointers have been compromised, we can still recover the original data structures with high confidence. Our experimental study on Windows XP and Windows 7 demonstrated high accuracy (98%) and high coverage (95%), and our synthetic attack simulation showed that even when 80% deterministic pointers are removed, our detection rate remains the same, thanks to our global inference scheme.</p>\n<p>Last but not least, we explored OS-level semantics other than those in kernel data structures to improve computer security. To name a few, we developed a technique to construct a system-wide control-flow integrity policy directly from the OS binary, for the purpose of detecting and analyzing control-flow hijacking attacks; we proposed a memory-exclusive fingerprinting technique to precisely identify the family and version of a given OS by quickly locating the main kernel code pages and computing code hashes; and we developed a new Virtual Machine Introspection technique (DroidScope) for dynamic malware analysis in Android platform, whose core idea is to seamlessly reconstruct both OS and Dalvik level semantic views.&nbsp;</p>\n<p>All these findings have been published in leading conferences and journals, such as USENIX Security Symposium, Network and Distributed System Symposium, Dependable Systems and Networks, Annual Computer Security Application Conference, Transactions on Cloud computing, etc.</p>\n<p>Other than publications, some of these research efforts have also been released as source code for publ...",
+  "por_txt_cntn": "\nUnderstanding the inner-workings of an operating system (OS) is crucial for computer security. In particular, the knowledge about OS-level semantics is the foundation for many security applications,including virtual machine introspection, malware detection and analysis, computer forensics, etc. All these security applications depend on the correctness and trustworthiness of the OS-level semantics. This is especially important when the OS is compromised and the attacker has the privilege to manipulate these semantic values.\n\nThis accomplished project provided answers to the following questions. These questions become more challenging when we do not have access to the source code of the operating system under study (e.g., Windows).\n\nHow trustworthy are the semantic values in kernel data structures when the OS kernel is compromised? \nEven when the OS kernel is compromised, can we still extract semantic information as complete as possible?\nOther than the semantic values in kernel data structures, what other semantic information can we leverage to improve computer security?\n\n\nTo answer the first research question, we conducted a systematic study on two widely used operating systems: Windows XP Service Pack 3 and Ubuntu 10.04. We devised a new fuzzing technique to automatically mutate the semantic values located in kernel data structures and observe the consequences of these manipulations. Our study shows that most of the semantic values are not trustworthy at all, as they can be arbitrarily manipulated without causing the system to misbehave. We further developed a proof-of-concept kernel rootkit to demonstrate that it can successfully evade all the security tools tested in our experiments, including recently proposed robust signature schemes. Our study motivates revisiting of existing security solutions and calls for more effective defense against kernel-level threats.\n\nTo answer the second research question, we proposed a new memory analysis technique to construct a nearly complete kernel data structure graph even when these kernel data structures may have been manipulated by the attacker. To achieve high robustness, we only rely on strong pointer constraints in kernel data structures and perform graphical probabilistic inference on these pointer constraints in a global scope. In this way, even if some of the pointers have been compromised, we can still recover the original data structures with high confidence. Our experimental study on Windows XP and Windows 7 demonstrated high accuracy (98%) and high coverage (95%), and our synthetic attack simulation showed that even when 80% deterministic pointers are removed, our detection rate remains the same, thanks to our global inference scheme.\n\nLast but not least, we explored OS-level semantics other than those in kernel data structures to improve computer security. To name a few, we developed a technique to construct a system-wide control-flow integrity policy directly from the OS binary, for the purpose of detecting and analyzing control-flow hijacking attacks; we proposed a memory-exclusive fingerprinting technique to precisely identify the family and version of a given OS by quickly locating the main kernel code pages and computing code hashes; and we developed a new Virtual Machine Introspection technique (DroidScope) for dynamic malware analysis in Android platform, whose core idea is to seamlessly reconstruct both OS and Dalvik level semantic views. \n\nAll these findings have been published in leading conferences and journals, such as USENIX Security Symposium, Network and Distributed System Symposium, Dependable Systems and Networks, Annual Computer Security Application Conference, Transactions on Cloud computing, etc.\n\nOther than publications, some of these research efforts have also been released as source code for public downloads. In particular, DECAF is released as a whole-system dynamic binary analysis platform. DroidScope is released as a branch of DECAF. \n\nThis researc..."
+ }
+}

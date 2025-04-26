@@ -1,0 +1,114 @@
+{
+ "awd_id": "2348304",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SaTC: Enforcing Expressive Security Policies using Trusted Execution Environments",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Karen Karavanic",
+ "awd_eff_date": "2024-04-15",
+ "awd_exp_date": "2026-03-31",
+ "tot_intn_awd_amt": 174999.0,
+ "awd_amount": 194999.0,
+ "awd_min_amd_letter_date": "2024-04-12",
+ "awd_max_amd_letter_date": "2024-06-13",
+ "awd_abstract_narration": "Recent advances in secure hardware architectures\u2014such as the Intel SGX and ARM TrustZone\u2014offer a great potential to build security-critical applications operating on sensitive data such as passwords, credit cards, etc. They support enclaves \u2014 secure memory regions that enable isolated execution of those parts of the applications that use the sensitive data. Enclaves can enforce a variety of security policies such as always erasing sensitive data after use. However, using enclaves requires greater programming expertise and this limits their wide-spread adoption.  This effort advances the state-of-the-art for building secure systems by automatically placing the security-critical parts of an application inside enclaves, reducing the challenges for the programmer.  We will implement this system to support modern application platforms that often distribute application processing across multiple platforms, for example, an application that runs on an Automatic Teller Machine (ATM) and also on data center servers in the cloud to which the ATM is connected.  This project includes education and mentorship of undergraduate and graduate students.\r\n\u00a0\r\nLanguage-based security mechanisms\u2014such as the security type systems for information-flow control\u2014 can express and enforce security requirements at the application-level. However, the security guarantees enforced by the language-based security mechanisms break down in the presence of powerful\r\nlow-level attackers that are not bound by the language-level abstractions, for example, attackers that are capable of injecting arbitrary code to extract secrets. Trusted Execution Environments (TEEs)\u2014such as Intel SGX, AMD SEV, ARM TrustZone, and Sanctum \u2014 offer strong architectural protection mechanisms for isolated execution and remote code attestation. To this end, they provide isolated regions of memory, referred to as enclaves, that offer confidentiality even in the presence of a privileged kernel-level attacker. Our work aims to enforce expressive security policies using secure TEE enclaves. First, we propose to build a compiler for LLVM intermediate representation that automatically infers enclave regions and enforces application-specific security against powerful attackers. The inferred enclave regions will then be translated to machine-specific TEE instructions. We plan to support multiple backends (e.g., Intel SGX and ARM TrustZone). Second, we propose to build DFLATE, a system with distributed enclaves that offers robust confidentiality and integrity guarantees with respect to an expressive security specification. Notably, DFLATE supports security policies that involves principal groups (e.g., reading a secret requires the permission of both Alice and Bob). We propose a novel approach to use advanced cryptographic techniques such as threshold encryption and ring signatures to implement such group-level policies.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Anitha",
+   "pi_last_name": "Gollamudi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Anitha Gollamudi",
+   "pi_email_addr": "anitha_gollamudi@uml.edu",
+   "nsf_id": "000923318",
+   "pi_start_date": "2024-04-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Massachusetts Lowell",
+  "inst_street_address": "220 PAWTUCKET ST STE 400",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOWELL",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "9789344170",
+  "inst_zip_code": "018543573",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "MA03",
+  "org_lgl_bus_name": "UNIVERSITY OF MASSACHUSETTS LOWELL",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LTNVSTJ3R6D5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Massachusetts Lowell",
+  "perf_str_addr": "600 SUFFOLK ST STE 212",
+  "perf_city_name": "LOWELL",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "018543624",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "MA03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  },
+  {
+   "pgm_ref_code": "9178",
+   "pgm_ref_txt": "UNDERGRADUATE EDUCATION"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  },
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 194999.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1815840",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Data Stream Algorithms with Application to Linear Algebra",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922182",
+ "po_email": "pbrass@nsf.gov",
+ "po_sign_block_name": "Peter Brass",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2023-05-31",
+ "tot_intn_awd_amt": 433978.0,
+ "awd_amount": 433978.0,
+ "awd_min_amd_letter_date": "2018-05-21",
+ "awd_max_amd_letter_date": "2018-05-21",
+ "awd_abstract_narration": "Many important problems in machine learning, scientific computing, and statistics benefit from fast procedures for solving numerical linear algebra problems. At the same time, many large-scale datasets, such as internet search logs, network traffic, and sensor network data, have been studied in data-stream literature. Surprisingly, a number of fast procedures used in numerical linear algebra have been made possible by exploiting tools that were originally developed in the data-stream literature. These developments are based on a technique called sketching, which is a tool for quickly compressing a problem to a smaller version of itself, for which one can then afford to run a much slower procedure on the smaller problem. A major goal of this project is to study foundational problems in the data-stream domain, and develop their connections to problems in numerical linear algebra. The algorithms developed here will be accessible to graduate and undergraduate students from computer science, machine learning, and mathematics, and the investigator plans to integrate the results of the project into a graduate course on algorithms for big data, as well as undergraduate algorithms courses. The investigator is actively working with underrepresented minority and undergraduate researchers on topics directly related to this project.\r\n\r\nThe first main thrust of this project is to develop new techniques for fundamental problems in data streams where the goal is to use minimal amount of memory while running algorithms over one pass on a data stream. Such problems include statistical problems - such as estimating the variance, moments, most frequent items, heavy hitters - for many of which optimal memory bounds are still unknown. Another challenge in this domain is that of processing massive streams for real-world graphs, such as geometric intersection graphs, which arise in cellular networks and scheduling theory. By studying a breadth of problems in different corners of data streams, the investigator plans to develop new techniques and build unexpected applications. The second main thrust of the project is to develop new algorithms and hardness results for fundamental problems in numerical linear algebra, connecting such problems to the study of data streams. CountSketch, which is a low-memory heavy hitters algorithm, paved the way for obtaining time-optimal algorithms for regression. This project will continue to push forward such connections, for example, by studying CountSketch in the context of tensors, which is a new application domain. The project will also investigate many deterministic (instead of randomized) data stream algorithms, and understanding their role in linear algebra. A major goal is to understand the limitations of speedups to linear algebra problems. One particular problem of interest here is to obtain low rank approximation with spectral norms.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "Woodruff",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "David Woodruff",
+   "pi_email_addr": "dwoodruf@andrew.cmu.edu",
+   "nsf_id": "000758460",
+   "pi_start_date": "2018-05-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie Mellon University",
+  "perf_str_addr": "5000 Forbes Avenue",
+  "perf_city_name": "Pittsburgh",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133890",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 433978.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Numerous connections between data streams and randomized numerical linear algebra were created, and fundamental results in both areas were developed.</p>\n<p>&nbsp;</p>\n<p>For data stream algorithms, new algorithms for estimating matrix norms were given, with provably smaller bounds on their memory, also in the multi-pass setting. In the related sliding window model, when data stream elements can expire, improved memory bounds for statistical and numerical linear algebra tasks were given. Algorithms for distributed stream sampling were given, both with and without replacement, as well as algorithms which perform multiple adaptive samples non-adaptively via sketching techniques. Improved algorithms for moment estimation for worst case as well as randomly ordered streams, as well as &ldquo;projected&rdquo; streams, which are those formed after choosing subsets of features, were developed. Also, moment estimation algorithms were given in the situation for which one wants to never underestimate or never overestimate the value. Pseudo-deterministic algorithms, which use randomness but almost always output the same answer, were also developed. Learning-augmented algorithms were designed for triangle counting, where a machine learning oracle can be trained to help improve upon the complexity of worst-case algorithms. New models of adversarial robustness were proposed in data streams and beyond, where an adversary could have access to the outputs of previous queries or even to the entire internal state of the algorithm. Novel algorithms were proposed in such models.</p>\n<p>&nbsp;</p>\n<p>Besides data stream algorithms, data stream lower bounds in many cases were established showing the near-optimality of the developed algorithms. New lower bound techniques in communication were developed, including to the fundamental set disjointness problem, which has found multiple applications. Lower bound techniques with novel notions of information complexity, specifically tied to the data stream model, were given. Extensions to classical communication lower bounds such as noisy Boolean hidden matching were given, with applications to data stream lower bounds.</p>\n<p>&nbsp;</p>\n<p>For randomized numerical linear algebra, faster algorithms for conditional sparse regression, least squares regression, robust regression, and logistic regression were given. Also, for the low rank approximation problem, very fast algorithms for structured matrices such as distance and positive semidefinite matrices were given. Other algorithms for recovering latent low rank structure in the presence of non-linearities, such as two-layer neural networks were given. Regarding latent structure, algorithms for learning an underlying latent simplex on data points were also developed. New sampling ideas for online and sliding window models were developed for linear algebra problems. Algorithms for column subset selection and feature selection were developed. Also, learning-augmented algorithms for low rank approximation and clustering were given. Algorithms that matched the complexity of matrix multiplication up to constant factors for elementary linear algebra tasks, such as finding a linearly independent subset, were given; these were previously suboptimal by logarithmic factors. Finally, algorithms for sampling on tensor products of matrices, for testing positive semi-definiteness of matrices, and for polynomial regression were also developed.</p>\n<p>&nbsp;</p>\n<p>There were also numerous applications of data stream techniques to diverse new areas, such as voting, all-pairs similarity search, support vector machines, geometric problems, neural networks, natural language processing, database joins, convex and non-convex optimization, distributed algorithms for clique finding, classification, trace estimation, combinatorial optimization, genomics, scientific computing models such as matrix-vector and vector-matrix-vector products, property testing, online prediction, data structures, quantum computing, and differential privacy.</p>\n<p>&nbsp;</p>\n<p>Overall, the outcomes of this grant strengthened core results in both data streams and randomized numerical linear algebra, and developed a suite of new connections and application areas for such techniques, creating a number of new areas, such as adversarial robustness, and many intriguing open questions remain.</p>\n<p>&nbsp;</p>\n<p>The results were taught in multiple iterations of the PI&rsquo;s graduate course &ldquo;Algorithms for Big Data&rdquo;, and three of the PI&rsquo;s PhD students and a postdoc were funded heavily by this award. Many results were also developed with undergraduates, CMU students in other departments, and students and colleagues at multiple universities, both domestic and abroad. The results were presented at numerous workshops and conferences, some interdisciplinary, which helped further strengthen the connections between sketching and other areas. Also, workshops and long-term programs were organized by the PI which brought in researchers from machine learning, mathematics, optimization, and statistics, to try to build new connections and applications of these algorithmic ideas.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/17/2023<br>\n\t\t\t\t\tModified by: David&nbsp;Woodruff</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nNumerous connections between data streams and randomized numerical linear algebra were created, and fundamental results in both areas were developed.\n\n \n\nFor data stream algorithms, new algorithms for estimating matrix norms were given, with provably smaller bounds on their memory, also in the multi-pass setting. In the related sliding window model, when data stream elements can expire, improved memory bounds for statistical and numerical linear algebra tasks were given. Algorithms for distributed stream sampling were given, both with and without replacement, as well as algorithms which perform multiple adaptive samples non-adaptively via sketching techniques. Improved algorithms for moment estimation for worst case as well as randomly ordered streams, as well as \"projected\" streams, which are those formed after choosing subsets of features, were developed. Also, moment estimation algorithms were given in the situation for which one wants to never underestimate or never overestimate the value. Pseudo-deterministic algorithms, which use randomness but almost always output the same answer, were also developed. Learning-augmented algorithms were designed for triangle counting, where a machine learning oracle can be trained to help improve upon the complexity of worst-case algorithms. New models of adversarial robustness were proposed in data streams and beyond, where an adversary could have access to the outputs of previous queries or even to the entire internal state of the algorithm. Novel algorithms were proposed in such models.\n\n \n\nBesides data stream algorithms, data stream lower bounds in many cases were established showing the near-optimality of the developed algorithms. New lower bound techniques in communication were developed, including to the fundamental set disjointness problem, which has found multiple applications. Lower bound techniques with novel notions of information complexity, specifically tied to the data stream model, were given. Extensions to classical communication lower bounds such as noisy Boolean hidden matching were given, with applications to data stream lower bounds.\n\n \n\nFor randomized numerical linear algebra, faster algorithms for conditional sparse regression, least squares regression, robust regression, and logistic regression were given. Also, for the low rank approximation problem, very fast algorithms for structured matrices such as distance and positive semidefinite matrices were given. Other algorithms for recovering latent low rank structure in the presence of non-linearities, such as two-layer neural networks were given. Regarding latent structure, algorithms for learning an underlying latent simplex on data points were also developed. New sampling ideas for online and sliding window models were developed for linear algebra problems. Algorithms for column subset selection and feature selection were developed. Also, learning-augmented algorithms for low rank approximation and clustering were given. Algorithms that matched the complexity of matrix multiplication up to constant factors for elementary linear algebra tasks, such as finding a linearly independent subset, were given; these were previously suboptimal by logarithmic factors. Finally, algorithms for sampling on tensor products of matrices, for testing positive semi-definiteness of matrices, and for polynomial regression were also developed.\n\n \n\nThere were also numerous applications of data stream techniques to diverse new areas, such as voting, all-pairs similarity search, support vector machines, geometric problems, neural networks, natural language processing, database joins, convex and non-convex optimization, distributed algorithms for clique finding, classification, trace estimation, combinatorial optimization, genomics, scientific computing models such as matrix-vector and vector-matrix-vector products, property testing, online prediction, data structures, quantum computing, and differential privacy.\n\n \n\nOverall, the outcomes of this grant strengthened core results in both data streams and randomized numerical linear algebra, and developed a suite of new connections and application areas for such techniques, creating a number of new areas, such as adversarial robustness, and many intriguing open questions remain.\n\n \n\nThe results were taught in multiple iterations of the PI\u2019s graduate course \"Algorithms for Big Data\", and three of the PI\u2019s PhD students and a postdoc were funded heavily by this award. Many results were also developed with undergraduates, CMU students in other departments, and students and colleagues at multiple universities, both domestic and abroad. The results were presented at numerous workshops and conferences, some interdisciplinary, which helped further strengthen the connections between sketching and other areas. Also, workshops and long-term programs were organized by the PI which brought in researchers from machine learning, mathematics, optimization, and statistics, to try to build new connections and applications of these algorithmic ideas.\n\n \n\n\t\t\t\t\tLast Modified: 06/17/2023\n\n\t\t\t\t\tSubmitted by: David Woodruff"
+ }
+}

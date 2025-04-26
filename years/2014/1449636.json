@@ -1,0 +1,105 @@
+{
+ "awd_id": "1449636",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: EAGER: Collaborative Research: Mapping Software Analysis Problems to Efficient and Accurate Constraints",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 75001.0,
+ "awd_amount": 75001.0,
+ "awd_min_amd_letter_date": "2014-07-10",
+ "awd_max_amd_letter_date": "2014-07-10",
+ "awd_abstract_narration": "Techniques for finding faults in software systems, such as crashes, security vulnerabilities, and deadlocks, have become increasingly powerful over the past two decades.  This is due in no small part to the development of efficient automated satisfiability solvers. The interest in applying these solvers to an ever wider class of software analysis applications has pushed solvers to their limits. As a result, analysis developers are currently forced to approximate analysis?s queries to make use of existing solvers.  Because of this software analyses can mistakenly diagnose an error, miss reporting a true error, and suffer unnecessarily poor performance. This research seeks to establish accuracy as an important missing dimension of solver support and its success will lead to broader and more cost-effective use of solvers to produce high-quality software.\r\n\r\nThis project is the first to systematically explore and link the accuracy requirements of a software analysis to the accuracy provided by a solver. This project does this by exploring approaches to specify the accuracy requirements of solver clients and detect, recover and report solution accuracy for integer and string constraints.  These capabilities are being implemented in an existing solver interface framework, called Green, which is applied to perform symbolic execution of Java programs, using Symbolic Pathfinder.  The project will evaluate the extent to this approach simplifies client analysis development, enables clients to use a variety of solvers - even those that do not perfectly match accuracy requirements, and improves analysis performance.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Elena",
+   "pi_last_name": "Sherman",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Elena Sherman",
+   "pi_email_addr": "elenasherman@boisestate.edu",
+   "nsf_id": "000643807",
+   "pi_start_date": "2014-07-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Boise State University",
+  "inst_street_address": "1910 UNIVERSITY DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOISE",
+  "inst_state_code": "ID",
+  "inst_state_name": "Idaho",
+  "inst_phone_num": "2084261574",
+  "inst_zip_code": "837250001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "ID02",
+  "org_lgl_bus_name": "BOISE STATE UNIVERSITY",
+  "org_prnt_uei_num": "HYWTVM5HNFM3",
+  "org_uei_num": "HYWTVM5HNFM3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Boise State University",
+  "perf_str_addr": "1910 University Dr.",
+  "perf_city_name": "Boise",
+  "perf_st_code": "ID",
+  "perf_st_name": "Idaho",
+  "perf_zip_code": "837251135",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "ID02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 75001.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Software verification is an important software development process that focuses on eliminating software defects. Program analysis is an effective software verification technique that identifies all potential defects of a program without executing the program. Program analysis does it by interpreting software code and applying mathematical reasoning to it. Commonly software analysis employs automated constraint solver tools to help with reasoning tasks. &nbsp;However, constraint solvers are general-purpose tools and thus might lack particular constructs to accurately express certain constraints that program analysis generate. The problem is that program analysis researchers might not be aware of such inaccuracies, which could negatively affect the efficiency and effectiveness of program analyses. The research supported by this award studied the discrepancies between the available constraint solver support and the constraint processing needs of the program analysis researchers. The project considered several string constraint solvers and evaluated their ability to express string constraints that arise during symbolic execution, a path-sensitive static analysis technique. The results revealed that some constraint solvers were more efficient and accurate at solving some, but not all, constraints. The program analysis researchers can use these findings to choose appropriate constraint solvers that match the constraint profile of their programs. Furthermore, the same constraint solver may offer various abstraction models for representing string constraints. The project analyzed the effect of these models on the results of probabilistic symbolic execution, a special type of symbolic execution. The data showed that the accuracy of probabilistic symbolic execution strongly depends on the underlying string model that constraint solver used. An inaccurate probabilistic symbolic execution can lead to mislabeling high priority defects as low priority ones. In addition, the project produced 175 string constraints benchmarks obtained from real-world applications. Program analysis researchers working on improving string constraints solvers used these benchmarks in their empirical evaluations.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/22/2016<br>\n\t\t\t\t\tModified by: Elena&nbsp;Sherman</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSoftware verification is an important software development process that focuses on eliminating software defects. Program analysis is an effective software verification technique that identifies all potential defects of a program without executing the program. Program analysis does it by interpreting software code and applying mathematical reasoning to it. Commonly software analysis employs automated constraint solver tools to help with reasoning tasks.  However, constraint solvers are general-purpose tools and thus might lack particular constructs to accurately express certain constraints that program analysis generate. The problem is that program analysis researchers might not be aware of such inaccuracies, which could negatively affect the efficiency and effectiveness of program analyses. The research supported by this award studied the discrepancies between the available constraint solver support and the constraint processing needs of the program analysis researchers. The project considered several string constraint solvers and evaluated their ability to express string constraints that arise during symbolic execution, a path-sensitive static analysis technique. The results revealed that some constraint solvers were more efficient and accurate at solving some, but not all, constraints. The program analysis researchers can use these findings to choose appropriate constraint solvers that match the constraint profile of their programs. Furthermore, the same constraint solver may offer various abstraction models for representing string constraints. The project analyzed the effect of these models on the results of probabilistic symbolic execution, a special type of symbolic execution. The data showed that the accuracy of probabilistic symbolic execution strongly depends on the underlying string model that constraint solver used. An inaccurate probabilistic symbolic execution can lead to mislabeling high priority defects as low priority ones. In addition, the project produced 175 string constraints benchmarks obtained from real-world applications. Program analysis researchers working on improving string constraints solvers used these benchmarks in their empirical evaluations. \n\n\t\t\t\t\tLast Modified: 11/22/2016\n\n\t\t\t\t\tSubmitted by: Elena Sherman"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1319983",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Novel Techniques for Handling Memory Model Bugs",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tao Li",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 249328.0,
+ "awd_amount": 249328.0,
+ "awd_min_amd_letter_date": "2013-08-26",
+ "awd_max_amd_letter_date": "2013-08-26",
+ "awd_abstract_narration": "With the ubiquitous availability of parallel architectures, the burden falls on programmers' shoulders to write correct parallel programs that have high performance and portability across different platforms. Unfortunately, most programmers find it a challenging task. One of the major issues that contribute to this challenge is the intricacies involved with the underlying memory consistency models that define the order of memory operations. The situation is worsened by the fact that the memory model specifications provided by public architecture vendors are often ambiguous, difficult to use, and even incorrect. This project looks at techniques to characterize, detect and avoid bugs caused by memory models. \r\n\r\nA memory model forms the fundamental basis for writing parallel programs. If a programmer is not careful about the constraints of the underlying memory model, a parallel program might end up having subtle bugs. In one scenario, the bugs might cause a program execution to have unintuitive interleaving of instructions, which eventually leads to incorrect behavior and lack of portability. In other scenarios, the bugs might cause a significant slowdown and poor scalability of the program. Unfortunately these bugs, referred to as Memory Model Bugs, receive very little attention from the research community. Therefore, this work focuses on developing new techniques to deal with these bugs. The work will first characterize different memory model bugs in real world code bases. The findings will be useful in developing hardware and compiler techniques (e.g., new hardware modules, exceptions, static analyzers, etc.) to detect as well as avoid these bugs. Finally, the work will focus on designing new software debugging tools to help programmers get rid of these subtle bugs. The research in this proposal will enable the widespread practice of parallel programming by addressing some of the hardest concurrency bugs. On one hand, it will encourage software and hardware companies to invest in new techniques for debugging and avoiding these bugs. On the other hand, it will help make C++ and Java memory models simple and robust.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Abdullah",
+   "pi_last_name": "Muzahid",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Abdullah A Muzahid",
+   "pi_email_addr": "abdullah.muzahid@tamu.edu",
+   "nsf_id": "000634302",
+   "pi_start_date": "2013-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at San Antonio",
+  "inst_street_address": "1 UTSA CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SAN ANTONIO",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "2104584340",
+  "inst_zip_code": "782491644",
+  "inst_country_name": "United States",
+  "cong_dist_code": "20",
+  "st_cong_dist_code": "TX20",
+  "org_lgl_bus_name": "THE UNIVERSITY OF TEXAS AT SAN ANTONIO",
+  "org_prnt_uei_num": "U44ZMVYU52U6",
+  "org_uei_num": "U44ZMVYU52U6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at San Antonio",
+  "perf_str_addr": "One UTSA Circle",
+  "perf_city_name": "San Antonio",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "782491664",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "20",
+  "perf_st_cong_dist": "TX20",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794100",
+   "pgm_ele_name": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7941",
+   "pgm_ref_txt": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 249328.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project explores the issues related to memory model of a parallel architecture. The research activities were carried out by PhD students under the supervision of the PI. The project looks into the following issues:</p>\n<p>- We finished a comprehensive study by analyzing the impact, prevalence and fixing strategies of sequential consistency violatin bugs in various open source software.</p>\n<p>- We desgined several hardware and software tools that can detect, expose, and characterize sequential consistency violation bugs in any arbitrary software. The hardware based tool takes advantage of the reorderings feasible in TSO machine to simplify the overall design. The software tool is designed to as a general tool that can handle any type of sequential consistency violation bugs.</p>\n<p>- We designed a novel tool based on neural hardware to diagnose software failures due to memory ordering related bugs.</p>\n<p>- We designed a lightweight toold to detect and diagnose syncrhonization related bugs of multithreaded programs.</p>\n<p>- Our tools detected new bugs in many open source programs.</p>\n<p>- The papers corresponding to those tools are available through ACM and IEEE digital library as well as our personal websites.</p>\n<p>- Minority and undergraduate students were involved in the project.</p>\n<p>- Some of the outcomes of the project were included in the relevant graduate course.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2017<br>\n\t\t\t\t\tModified by: Abdullah&nbsp;A&nbsp;Muzahid</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project explores the issues related to memory model of a parallel architecture. The research activities were carried out by PhD students under the supervision of the PI. The project looks into the following issues:\n\n- We finished a comprehensive study by analyzing the impact, prevalence and fixing strategies of sequential consistency violatin bugs in various open source software.\n\n- We desgined several hardware and software tools that can detect, expose, and characterize sequential consistency violation bugs in any arbitrary software. The hardware based tool takes advantage of the reorderings feasible in TSO machine to simplify the overall design. The software tool is designed to as a general tool that can handle any type of sequential consistency violation bugs.\n\n- We designed a novel tool based on neural hardware to diagnose software failures due to memory ordering related bugs.\n\n- We designed a lightweight toold to detect and diagnose syncrhonization related bugs of multithreaded programs.\n\n- Our tools detected new bugs in many open source programs.\n\n- The papers corresponding to those tools are available through ACM and IEEE digital library as well as our personal websites.\n\n- Minority and undergraduate students were involved in the project.\n\n- Some of the outcomes of the project were included in the relevant graduate course.\n\n\t\t\t\t\tLast Modified: 11/30/2017\n\n\t\t\t\t\tSubmitted by: Abdullah A Muzahid"
+ }
+}

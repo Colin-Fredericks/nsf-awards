@@ -1,0 +1,109 @@
+{
+ "awd_id": "1541251",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Refinement and Evaluation of a Robotic Wheelchair System",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Ephraim Glinert",
+ "awd_eff_date": "2015-05-01",
+ "awd_exp_date": "2017-04-30",
+ "tot_intn_awd_amt": 91662.0,
+ "awd_amount": 98662.0,
+ "awd_min_amd_letter_date": "2015-04-23",
+ "awd_max_amd_letter_date": "2015-05-06",
+ "awd_abstract_narration": "The interfaces used by full-time wheelchair users with ALS, quadriplegia, and similar conditions are typically single-tasking, direct control interfaces.  For example, a person with ALS with whom the PI works drives his wheelchair through a combination of head- and shoulder-activated switches, and speaks with the assistance of a computer he controls with head movements.  He cannot drive the chair and communicate at the same time, in the way that normally-abled people take for granted.  For most of us, walking is an unconscious activity; we decide where to go in the room, and then forget about it.  Adding autonomy to a powered wheelchair would allow many wheelchair users to recover some of this ability, by essentially turning the wheelchair into a robot that can take advantage of the vast body of existing software and techniques for navigating about the world.  The user of such a wheelchair would select a location on a map displayed on his/her computer, and then forget about it as the wheelchair drives itself to that location, reducing the dependence on caregivers and increasing independence.  The PI's goal in this exploratory project is to develop a low-cost, open-source electronics package that will provide this capability for a (somewhat arbitrary) total hardware cost of $500 since medical insurance will not pay for such a system so potential users must pay for it out-of-pocket and the PI is anxious to ensure that project outcomes will find their way into the lives of real wheelchair users.  Instrumenting a wheelchair in this way will have additional benefits (e.g., knowing where the wheelchair is in the home could allow a simpler and faster interface to control home automation).  And because the system will have an open software API, it will provide a common platform for researchers and developers working on assistive systems for full-time wheelchair users.\r\n\r\nTo these ends, the PI has designed and implemented a prototype electronics package for Permobil powered wheelchairs, and has tested this on a Permobil M300 powered wheelchair on loan from the ALS Association of Oregon and Southwest Washington. The electronics package is mounted underneath the seat at the front of the chair on a custom-fabricated metal plate, and includes two Hokuyo laser range-finders (one on each side), a small computer mounted on the front of the chair body behind the footrest, and custom electronics to supply power from the wheelchair batteries.  An Arduino microcontroller connected to the computer allows movement commands to be sent to the wheelchair through a Permobil I/O Module.  Integration with ROS allows the system to build maps of the environment, to use these to localize the wheelchair, and to take advantage of extensive autonomous navigation abilities. Once the wheelchair is localized within a map, the user can provide it with a goal point either via an on-screen map-based interface or by means of a Google Glass; the chair can then autonomously navigate to that point avoiding obstacles as it goes, using the standard ROS navigation system.  Preliminary trials in a cluttered office environment have been encouraging, although additional refinement of the URDF and kinematic models of the system are needed, and the localization needs to be improved by adding an IMU to the electronics package.  The intellectual merit of the current work lies in three areas: understanding the design pressures behind the envisaged electronics package, if it is to be deployed on a range of powered wheelchairs in the real world; the redesign and implementation of mapping, localization, and path-planning algorithms for this setting; and designing a system that is fault-tolerant and capable of running for months and years at a time, without intervention by trained roboticists.  Specific tasks will include: to improve and generalize the hardware and electronic design; to improve the localization algorithm; to improve the quality of wheelchair movement; to investigate replacements for the current laser range-finders; to document how to integrate everything onto a chair; and to build a number of additional kits.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "William",
+   "pi_last_name": "Smart",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "William D Smart",
+   "pi_email_addr": "smartw@oregonstate.edu",
+   "nsf_id": "000111047",
+   "pi_start_date": "2015-04-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Oregon State University",
+  "inst_street_address": "1500 SW JEFFERSON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CORVALLIS",
+  "inst_state_code": "OR",
+  "inst_state_name": "Oregon",
+  "inst_phone_num": "5417374933",
+  "inst_zip_code": "973318655",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "OR04",
+  "org_lgl_bus_name": "OREGON STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MZ4DYXE1SL98"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Oregon State University",
+  "perf_str_addr": "",
+  "perf_city_name": "Corvallis",
+  "perf_st_code": "OR",
+  "perf_st_name": "Oregon",
+  "perf_zip_code": "973318507",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "OR04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736700",
+   "pgm_ele_name": "HCC-Human-Centered Computing"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7367",
+   "pgm_ref_txt": "Cyber-Human Systems"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 98662.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of this project was to further develop a prototype electronics package that could be added to a standard power wheelchair to turn it into a self-driving wheelchair. &nbsp;The package included a number of sensors, a small computer, and a conntection to the wheelchair's electronics. &nbsp;It also included a modified version of some open-source software used by sophisticated research robots to navigate around the world.</p>\n<p>The project resulted in a new version of the electronics package that can be installed on Permobil powered wheelchairs, with only a single conntection to the on-board control electronics and another to the wheelchair batteries. &nbsp;The package was successfully mounted on both the M300 and C300 wheelchairs, and we were able to show it driving autonomously in real-world environments. &nbsp;A human, sitting in the chair, gives the system a point in the world that they want to go to on a map (learned by the wheelchair beforehand). &nbsp;The chair then plans an appropriate path to this point, and drives along it, avoiding unexpected obstacles as it goes.</p>\n<p>The software on the wheelchair is a customized version of the software we use on our advanced research robots, based on the popular open-source Robot Operating System (ROS). &nbsp;This allows us to take advantage of the most recent planning an navigation software, while allowing us to easily customize it to the specific requirements of the wheelchair.</p>\n<p>This project is an important first step towards developing a robust self-driving capability for powered wheelchairs, for people with severe motor disorders, such as quadriplegia and Amyotrophic Lateral Sclerosis (ALS, or Lou Gehrig's Disease). &nbsp;People with these, and similar, disorders often have difficulty driving their own wheelchairs. &nbsp;Giving the chair a self-driving capability will allow the wheelchair users to move about the world by simply telling the system where they want to be, using a computer menu, eye gaze, or some other approprate interface technology.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/08/2017<br>\n\t\t\t\t\tModified by: William&nbsp;D&nbsp;Smart</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2017/1541251/1541251_10360206_1502233537800_chair2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1541251/1541251_10360206_1502233537800_chair2--rgov-800width.jpg\" title=\"A self-driving wheelchair.\"><img src=\"/por/images/Reports/POR/2017/1541251/1541251_10360206_1502233537800_chair2--rgov-66x44.jpg\" alt=\"A self-driving wheelchair.\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The electronics package mounted on a standard Permobil powered wheelchair.</div>\n<div class=\"imageCredit\">Bill Smart, Oregon State University</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">William&nbsp;D&nbsp;Smart</div>\n<div class=\"imageTitle\">A self-driving wheelchair.</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this project was to further develop a prototype electronics package that could be added to a standard power wheelchair to turn it into a self-driving wheelchair.  The package included a number of sensors, a small computer, and a conntection to the wheelchair's electronics.  It also included a modified version of some open-source software used by sophisticated research robots to navigate around the world.\n\nThe project resulted in a new version of the electronics package that can be installed on Permobil powered wheelchairs, with only a single conntection to the on-board control electronics and another to the wheelchair batteries.  The package was successfully mounted on both the M300 and C300 wheelchairs, and we were able to show it driving autonomously in real-world environments.  A human, sitting in the chair, gives the system a point in the world that they want to go to on a map (learned by the wheelchair beforehand).  The chair then plans an appropriate path to this point, and drives along it, avoiding unexpected obstacles as it goes.\n\nThe software on the wheelchair is a customized version of the software we use on our advanced research robots, based on the popular open-source Robot Operating System (ROS).  This allows us to take advantage of the most recent planning an navigation software, while allowing us to easily customize it to the specific requirements of the wheelchair.\n\nThis project is an important first step towards developing a robust self-driving capability for powered wheelchairs, for people with severe motor disorders, such as quadriplegia and Amyotrophic Lateral Sclerosis (ALS, or Lou Gehrig's Disease).  People with these, and similar, disorders often have difficulty driving their own wheelchairs.  Giving the chair a self-driving capability will allow the wheelchair users to move about the world by simply telling the system where they want to be, using a computer menu, eye gaze, or some other approprate interface technology.\n\n\t\t\t\t\tLast Modified: 08/08/2017\n\n\t\t\t\t\tSubmitted by: William D Smart"
+ }
+}

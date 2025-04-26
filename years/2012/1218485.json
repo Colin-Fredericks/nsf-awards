@@ -1,0 +1,105 @@
+{
+ "awd_id": "1218485",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Advancing Operating System Interfaces to Solid-State Storage",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2012-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 487094.0,
+ "awd_amount": 487094.0,
+ "awd_min_amd_letter_date": "2012-08-13",
+ "awd_max_amd_letter_date": "2012-08-13",
+ "awd_abstract_narration": "Solid-state storage technologies, such as flash, phase-change memory\r\nand memristors promise large-capacity storage at speeds much faster\r\nthan disk. To date, mainstream use of these technologies has been as a\r\nreplacement for disks, storing a disk-oriented file system.  However,\r\nsolid-state storage is and will remain far more expensive than\r\ndisks. Thus, it will often be used as a cache or special-purpose\r\nstore, and not as the main repository of data.\r\n\r\nThis proposal develops new interfaces to solid-state storage that\r\nleverage its new features, such as access via ordinary memory\r\ninstructions, and its role in large software systems as a middle layer\r\nbetween memory and disk. It focuses on two forms of solid-state\r\nstorage: flash memory, common in solid-state drives and mobile\r\ndevices, and forthcoming storage-class memory, which compared to flash\r\npromises lower latency, better endurance, and access as memory rather\r\nthan as a device.\r\n\r\nThis research addresses important concerns about using solid-state\r\nstorage: how best to use the capabilities of these devices to improve\r\nspecific applications or use cases, such as caching; how to provide\r\naccess to internal management capabilities of solid-state storage\r\ndevices, such as address translation and garbage collection, to\r\napplications; how to remove software layers between an application and\r\nstorage to reduce latency; and how to provide reliable storage while\r\nremoving many of the layers that currently provide reliability.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Swift",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael M Swift",
+   "pi_email_addr": "swift@cs.wisc.edu",
+   "nsf_id": "000103907",
+   "pi_start_date": "2012-08-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Wisconsin-Madison",
+  "inst_street_address": "21 N PARK ST STE 6301",
+  "inst_street_address_2": "",
+  "inst_city_name": "MADISON",
+  "inst_state_code": "WI",
+  "inst_state_name": "Wisconsin",
+  "inst_phone_num": "6082623822",
+  "inst_zip_code": "537151218",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "WI02",
+  "org_lgl_bus_name": "UNIVERSITY OF WISCONSIN SYSTEM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LCLSJAGTNZQ7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Wisconsin-Madison",
+  "perf_str_addr": "1210 W Dayton St",
+  "perf_city_name": "Madison",
+  "perf_st_code": "WI",
+  "perf_st_name": "Wisconsin",
+  "perf_zip_code": "537151218",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "WI02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7354",
+   "pgm_ref_txt": "COMPUTER SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 487094.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Solid-state memory technologies, such as flash and &nbsp;non-volatile phase-change memory promise large-capacity storage at speeds much faster than disk. Mainstream use of these technologies has been as a disk replacement, accessed through a disk-oriented file system. However, this approach can increase the cost of the system by masking the inherent high performance of these new technologies through many layers of software.</p>\n<p>This project generated a new flash-memory device targeted at a common usage, which is to store frequently accessed data while leaving most data on a slower device, such as a hard disk. This work showed that by designing a new interface to flash drive that is targeted specifically at storing just frequently accessed data, the flash drive could perform much better. The proposed design was prototyped in hardware, which lead to new discoveries about the challenges in changing how flash is accessed.</p>\n<p dir=\"ltr\"><span>This project generated a new file-system architecture enabled by non-volatile memory. This design allows applications to access file data in most cases without any involvement of the operating system and at the raw speed of the memory technology. The project demonstrated how to design this system in a way that is compatible with existing software, allowing it to receive better performance. More importantly, though, this work allows new optimizations not currently possible by specializing the system for particular use cases. For example, common applications used in Internet services can access data at much lower overhead through new interfaces.</span></p>\n<p dir=\"ltr\"><span>Separately, this project developed the first-ever set of benchmark workloads for evaluating non-volatile memory systems. This enables researchers to more easily evaluate their designs and compare their results. An analysis of how programs use non-volatile memory showed several promising opportunities for further performance improvement.</span></p>\n<div><span><br /></span></div>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/27/2017<br>\n\t\t\t\t\tModified by: Michael&nbsp;M&nbsp;Swift</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSolid-state memory technologies, such as flash and  non-volatile phase-change memory promise large-capacity storage at speeds much faster than disk. Mainstream use of these technologies has been as a disk replacement, accessed through a disk-oriented file system. However, this approach can increase the cost of the system by masking the inherent high performance of these new technologies through many layers of software.\n\nThis project generated a new flash-memory device targeted at a common usage, which is to store frequently accessed data while leaving most data on a slower device, such as a hard disk. This work showed that by designing a new interface to flash drive that is targeted specifically at storing just frequently accessed data, the flash drive could perform much better. The proposed design was prototyped in hardware, which lead to new discoveries about the challenges in changing how flash is accessed.\nThis project generated a new file-system architecture enabled by non-volatile memory. This design allows applications to access file data in most cases without any involvement of the operating system and at the raw speed of the memory technology. The project demonstrated how to design this system in a way that is compatible with existing software, allowing it to receive better performance. More importantly, though, this work allows new optimizations not currently possible by specializing the system for particular use cases. For example, common applications used in Internet services can access data at much lower overhead through new interfaces.\nSeparately, this project developed the first-ever set of benchmark workloads for evaluating non-volatile memory systems. This enables researchers to more easily evaluate their designs and compare their results. An analysis of how programs use non-volatile memory showed several promising opportunities for further performance improvement.\n\n\n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/27/2017\n\n\t\t\t\t\tSubmitted by: Michael M Swift"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "awd_id": "1018271",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "SHF: Small: Collaborative Research:  Languages and Tools for Multilingual Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2010-08-15",
+ "awd_exp_date": "2013-07-31",
+ "tot_intn_awd_amt": 200026.0,
+ "awd_amount": 200026.0,
+ "awd_min_amd_letter_date": "2010-08-08",
+ "awd_max_amd_letter_date": "2013-06-27",
+ "awd_abstract_narration": "Software developers are increasingly building applications in multiple languages both to reuse existing software libraries and to leverage the languages best suited to their problems. In fact, multilingual programs are already prevalent, as essentially all programs written in Java use code written in C as well. But developing multilingual programs poses more challenges and difficulties than developing single language programs. Current programming interfaces between multiple languages tend to be tedious and unsafe; and most programming tools only support a single language. As a consequence, real-world multilingual programs are full of cross-language bugs.\r\n\r\nThis research seeks to substantially improve the correctness and development of multilingual programs. The investigators build on their prior multilingual language design (the Jeannie Java/C language), compilers (the xtc Jeannie compiler), and debuggers (the Blink Java/C debugger). Here, the investigators are designing and implementing novel approaches for validating the safety of existing multilingual interfaces and for creating safe multilingual programs. (1) The investigators are developing a framework for concisely capturing safety rules for multilingual interfaces and then automatically synthesizing the corresponding dynamic checker. (2) The investigators are exploring novel program analysis to refactor programs automatically that use unsafe multilingual interfaces into programs that use safe multilingual interfaces. If successful, the research impact will be improved correctness, efficiency, and reliability of multilingual programs.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kathryn",
+   "pi_last_name": "McKinley",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kathryn S McKinley",
+   "pi_email_addr": "mckinley@cs.utexas.edu",
+   "nsf_id": "000242564",
+   "pi_start_date": "2010-08-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "110 INNER CAMPUS DR",
+  "perf_city_name": "AUSTIN",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121139",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  },
+  {
+   "pgm_ele_code": "794300",
+   "pgm_ele_name": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0111",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001112DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 64705.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2011,
+   "fund_oblg_amt": 135321.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Technical Contributions</strong><br /><br />When developers build large-scale systems, they almost always compose<br />software written in multiple languages because they need to leverage<br />legacy code and to choose the language best suited to their<br />problems. For instance, the same program will use Java for<br />ease-of-programming, C to interface with the operating system, and<br />generate queries in SQL to interact with a backend database. <br /><br />These programs pose significant analysis, debugging, and testing<br />challenges because developers need to understand multiple languages<br />and reason about their interactions.&nbsp; The results of our project are<br />tools that improve the correctness and help developers of multilingual<br />programs.&nbsp; Specifically, we developed the following tools and<br />analyses.<br /><br />1. We developed a framework for capturing the safety rules in foreign<br />function interfaces (FFIs) through which different languages interact.<br /><br />2. We developed technology to synthesize dynamic safety analyses from<br />these safety rules. The resulting tool reports all dynamic violations<br />of the rules and thus vastly improves the correctness of multilingual<br />programs.<br /><br />3. We developed practical debugging and testing tools for multilingual<br />and concurrent programs that help developers quickly find the root<br />cause of multilingual and concurrency errors.<br /><br />We demonstrated our tools on mixed Java and C programs, mixed Python<br />and C programs, and .NET programs. We disseminated the results in<br />scholarly publications, which are available on the following webpage:<br />http://www.cs.utexas.edu/users/mckinley/papers.html<br /><br />We also made our tools publicly available for developers to use and so<br />that other programming language implementation researchers may build<br />upon them.&nbsp; The tools are available on the following webpage:<br />http://cs.nyu.edu/xtc/<br /><br /><br /><strong>Broader Technical Contributions</strong><br /><br />Programming language implementation underpins all computing<br />software. The tools we developed improve correctness, composition, and<br />debugging of large software applications that use multiple languages to<br />solve their problems. Our work therefore has broad consequences for<br />improving the correctness of large software applications in other<br />disciplines, government, and businesses, since most large software<br />systems compose languages to solve their problems.<br /><br /><br /><strong>Broader Contributions to Education and the Technology Workforce</strong><br /><br />Professor McKinley is the co-chair of CRA-Women (2011 to present),<br />which seeks to improve the participation and success of<br />under-represented minorities and women (URM+W) in computing research<br />careers.&nbsp; NCWIT analysis of patents and company demographics, as well<br />as other studies, show that a more diverse workforce leads to better<br />technology, more sales, and higher profits.&nbsp; CRA-Women has developed<br />national intervention programs with an army of volunteers to increase<br />the numbers and success of URM+W with PhDs to increase women in<br />technology leadership positions. <br /><br />This year CRA-W and the Coalition to Diversify Computing (CDC) with<br />NSF funding established the CRA Center for Evaluation of the Research<br />Pipeline, which evaluates intervention programs comparing them against<br />a national sample of computing students. This center is the first of<br />its kind in the nation and the initial results show that compared to<br />non-participants with similar experiences, participants in carefully<br />designed research experiences for undergraduates (REUs) and workshops<br />for computing graduate students improve the numbers who enroll and<br />succeed in PhD programs.&nbsp; Through her...",
+  "por_txt_cntn": "\nTechnical Contributions\n\nWhen developers build large-scale systems, they almost always compose\nsoftware written in multiple languages because they need to leverage\nlegacy code and to choose the language best suited to their\nproblems. For instance, the same program will use Java for\nease-of-programming, C to interface with the operating system, and\ngenerate queries in SQL to interact with a backend database. \n\nThese programs pose significant analysis, debugging, and testing\nchallenges because developers need to understand multiple languages\nand reason about their interactions.  The results of our project are\ntools that improve the correctness and help developers of multilingual\nprograms.  Specifically, we developed the following tools and\nanalyses.\n\n1. We developed a framework for capturing the safety rules in foreign\nfunction interfaces (FFIs) through which different languages interact.\n\n2. We developed technology to synthesize dynamic safety analyses from\nthese safety rules. The resulting tool reports all dynamic violations\nof the rules and thus vastly improves the correctness of multilingual\nprograms.\n\n3. We developed practical debugging and testing tools for multilingual\nand concurrent programs that help developers quickly find the root\ncause of multilingual and concurrency errors.\n\nWe demonstrated our tools on mixed Java and C programs, mixed Python\nand C programs, and .NET programs. We disseminated the results in\nscholarly publications, which are available on the following webpage:\nhttp://www.cs.utexas.edu/users/mckinley/papers.html\n\nWe also made our tools publicly available for developers to use and so\nthat other programming language implementation researchers may build\nupon them.  The tools are available on the following webpage:\nhttp://cs.nyu.edu/xtc/\n\n\nBroader Technical Contributions\n\nProgramming language implementation underpins all computing\nsoftware. The tools we developed improve correctness, composition, and\ndebugging of large software applications that use multiple languages to\nsolve their problems. Our work therefore has broad consequences for\nimproving the correctness of large software applications in other\ndisciplines, government, and businesses, since most large software\nsystems compose languages to solve their problems.\n\n\nBroader Contributions to Education and the Technology Workforce\n\nProfessor McKinley is the co-chair of CRA-Women (2011 to present),\nwhich seeks to improve the participation and success of\nunder-represented minorities and women (URM+W) in computing research\ncareers.  NCWIT analysis of patents and company demographics, as well\nas other studies, show that a more diverse workforce leads to better\ntechnology, more sales, and higher profits.  CRA-Women has developed\nnational intervention programs with an army of volunteers to increase\nthe numbers and success of URM+W with PhDs to increase women in\ntechnology leadership positions. \n\nThis year CRA-W and the Coalition to Diversify Computing (CDC) with\nNSF funding established the CRA Center for Evaluation of the Research\nPipeline, which evaluates intervention programs comparing them against\na national sample of computing students. This center is the first of\nits kind in the nation and the initial results show that compared to\nnon-participants with similar experiences, participants in carefully\ndesigned research experiences for undergraduates (REUs) and workshops\nfor computing graduate students improve the numbers who enroll and\nsucceed in PhD programs.  Through her efforts as a speaker, organizer,\nleader, and fund raiser for these projects, Prof. McKinley has\nimpacted the lives of 1,000s of women computing professionals.\n\nThe education impact of this particular grant was training six\ngraduate students (two women) in programming language technologies and\nthus contributing directly to the technology workforce.  Two students\nreceived their PhD during this period and we anticipate the graduation\nof the others soon. One is now a professor at GIST, Korea..."
+ }
+}

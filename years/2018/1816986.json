@@ -1,0 +1,105 @@
+{
+ "awd_id": "1816986",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RI: Small: Actively Learning From The Crowd",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032928318",
+ "po_email": "vpavlovi@nsf.gov",
+ "po_sign_block_name": "Vladimir Pavlovic",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 474322.0,
+ "awd_amount": 474322.0,
+ "awd_min_amd_letter_date": "2018-08-14",
+ "awd_max_amd_letter_date": "2018-08-14",
+ "awd_abstract_narration": "How can a large number of questions be answered from few and only partially correct responses? This problem lies at the heart of labeling large collections of unlabeled data, which are common in machine learning and data science. It also lies at the heart of learning about preferences of people and quality of items by carrying out surveys. A popular approach to address this problem is to crowdsource the labeling or learning task by paying a large number of people small amounts of money to answer questions on the internet through a crowdsourcing platform. However, the quality of the workers responses varies significantly due to different abilities of the people and difficulties of the questions. To account for the uncertainty of the responses, each question is assigned to multiple people and their responses are aggregated. However, the assignment process is often agnostic to the peoples abilities and questions difficulties, since both are unknown a priori. This project will develop algorithms that adapt to the people and questions and thereby significantly reduces the number of responses required to enable machine learning algorithms to perform well and surveys to be informative. Besides the research objectives, the researchers will pursue educational objectives by integrating parts of this project into a graduate class, promoting undergraduate research, and fostering exchange across disciplines by running an interdisciplinary machine learning seminar. \r\n\r\nThe core optimization problem in crowdsourcing is to achieve confidence in the final answers at minimal cost, by assigning only few tasks to the people (or workers). Intuitively, that can be accomplished by only posing a question to the workers best qualified to answer that question. This project will develop efficient and practical active schemes for crowdlabeling and crowdsourcing that adaptively choose which question to pose to which worker. For each algorithm, the project will prove corresponding rigorous computational and statistical problem-instance dependent performance guarantees, as opposed to worst-case performance guarantees. The theoretical results will be complemented with practical open-source implementations and experiments on real-world data.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Reinhard",
+   "pi_last_name": "Heckel",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Reinhard Heckel",
+   "pi_email_addr": "rh43@rice.edu",
+   "nsf_id": "000761013",
+   "pi_start_date": "2018-08-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "William Marsh Rice University",
+  "inst_street_address": "6100 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "Houston",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7133484820",
+  "inst_zip_code": "770051827",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "WILLIAM MARSH RICE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "K51LECU1G8N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "William Marsh Rice University",
+  "perf_str_addr": "6100 Main Street",
+  "perf_city_name": "Houston",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "770051827",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "TX09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 474322.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this award, PI Heckel and his students developed machine learning methods for learning from as few examples as possible and in particular to learn from as few human annotations as possible.</p>\n<p>Machine learning models are trained by showing them examples iteratively. During training, the loss typically decreases as desired but it can also decrease. On the theory side, we investigated situations where the loss increases and suggested mitigation strategies so that the loss decreases reliably as a function of the training examples.</p>\n<p>Machine learning models are also increasingly used in medical imaging to generate a clean image from a noisy measurement, for example in magnetic resonance imaging. For this, machine learning models are usually trained on examples of measurements and clean images. However, often such measurements are not available. We developed neural networks based methods for imaging that work without any training data and with very minimal training data. Those methods work well in challenging medical imaging situations where little training data is available.&nbsp;</p>\n<p>Finally, neural networks perform worse when they are trained for example on data from one hospital and are applied to data from another hospital. We characterized the performance drop due to such shifts in the training and test data and found that networks are quite sensitive to it. We then developed method for fine-tuning neural network at test-time on the measurement they are given to significantly improve performance. This is a potential path to more reliable medical imaging.</p><br>\n<p>\n Last Modified: 12/30/2023<br>\nModified by: Reinhard&nbsp;Heckel</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nIn this award, PI Heckel and his students developed machine learning methods for learning from as few examples as possible and in particular to learn from as few human annotations as possible.\n\n\nMachine learning models are trained by showing them examples iteratively. During training, the loss typically decreases as desired but it can also decrease. On the theory side, we investigated situations where the loss increases and suggested mitigation strategies so that the loss decreases reliably as a function of the training examples.\n\n\nMachine learning models are also increasingly used in medical imaging to generate a clean image from a noisy measurement, for example in magnetic resonance imaging. For this, machine learning models are usually trained on examples of measurements and clean images. However, often such measurements are not available. We developed neural networks based methods for imaging that work without any training data and with very minimal training data. Those methods work well in challenging medical imaging situations where little training data is available.\n\n\nFinally, neural networks perform worse when they are trained for example on data from one hospital and are applied to data from another hospital. We characterized the performance drop due to such shifts in the training and test data and found that networks are quite sensitive to it. We then developed method for fine-tuning neural network at test-time on the measurement they are given to significantly improve performance. This is a potential path to more reliable medical imaging.\t\t\t\t\tLast Modified: 12/30/2023\n\n\t\t\t\t\tSubmitted by: ReinhardHeckel\n"
+ }
+}

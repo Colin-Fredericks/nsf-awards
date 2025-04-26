@@ -1,0 +1,113 @@
+{
+ "awd_id": "1017530",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Advances in Distributed Spatial-Parallel Event-Driven HDL Simulation",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927843",
+ "po_email": "sabasu@nsf.gov",
+ "po_sign_block_name": "Sankar Basu",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2014-08-31",
+ "tot_intn_awd_amt": 448054.0,
+ "awd_amount": 448054.0,
+ "awd_min_amd_letter_date": "2010-09-02",
+ "awd_max_amd_letter_date": "2010-09-02",
+ "awd_abstract_narration": "This project proposes an efficient solution to parallel event-driven simulation of digital designs described in a hardware description language (HDL). It is based on a novel concept of spatial parallelism using accurate prediction of input and output signals of individual modules, derived from a model at a higher abstraction level. Using the predicted rather than actual signal values makes it possible to eliminate the need for communication and synchronization between the simulators. The simulation process consists of two phases: 1) Each local simulation is executed using the predicted input, so that no communication and synchronization cost is incurred for exchanging data with other local simulations. Each local simulation stores the results at periodic checkpoints and compares the computed output with the predicted output, to make the correction later, if necessary. 2) If the comparison fails, each local simulation rolls back to the nearest checkpoint to be executed with the actual inputs coming from other modules. This requires exchanging data with other simulations and introduces undesired communication and synchronization overhead. Each local simulation compares the actual input with the predicted input, and if the number of matches exceeds the predetermined threshold, the simulation is switched back to the prediction phase 1. The proposed method is applicable to massively parallel computing platforms and can work with any commercial event-driven HDL simulator.\r\n\r\n\r\nSuccessful implementation of the proposed method for parallel event-driven HDL simulation will have profound effect on the way dynamic, simulation-based verification is carried out in academia and in industry. It will benefit researchers and all sectors of industry that deal with the design of systems on chip (SoC). It will significantly increase designer productivity in developing and testing complex SoCs, shorten the time to market, lower design development cost and consumer prices. It will fuel the development of other areas of technology, such as multi-core platforms, parallel processors, etc. It will also affect EDA industry developing verification tools ? with new innovative verification tool, automated verification flow and methodology.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Maciej",
+   "pi_last_name": "Ciesielski",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Maciej Ciesielski",
+   "pi_email_addr": "ciesiel@ecs.umass.edu",
+   "nsf_id": "000209810",
+   "pi_start_date": "2010-09-02",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Massachusetts Amherst",
+  "inst_street_address": "101 COMMONWEALTH AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "AMHERST",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "4135450698",
+  "inst_zip_code": "010039252",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "MA02",
+  "org_lgl_bus_name": "UNIVERSITY OF MASSACHUSETTS",
+  "org_prnt_uei_num": "VGJHK59NMPK9",
+  "org_uei_num": "VGJHK59NMPK9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Massachusetts Amherst",
+  "perf_str_addr": "101 COMMONWEALTH AVE",
+  "perf_city_name": "AMHERST",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "010039252",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "MA02",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794500",
+   "pgm_ele_name": "DES AUTO FOR MICRO & NANO SYST"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "6863",
+   "pgm_ref_txt": "SEBML-MOORE'S LAW"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 448054.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The most widely used technique for verification of digital hardware is simulation, and because of its many advantages it will remain so for a foreseeable future. However, simulation suffers from very low runtime performance, dictated by its inherently sequential nature: applying adequate input stimulus, propagating the internal signals through the circuit in response to the stimulus, and observing the signals computed at the circuit outputs. Particularly slow is event-driven simulation, where each change in signal value of the internal signals creates a new event that needs to be propagated through the circuit.<br /><br />Distributed parallel simulation can potentially increase the simulation performance by dividing circuit into smaller modules and simulating each module separately (but in synchrony with others) on a separate processor or a processor core. Unfortunately, the event-based inter-module communication introduces a significant synchronization and communication overhead, which diminishes the potential benefit of parallel simulation. The goal of this project was to develop an efficient solution to parallel event-driven simulation of digital designs described in hardware description language (HDL) by minimizing or completely eliminating the synchronization and communication overhead. <br /><br />In this project a new approach to parallel event-driven simulation of circuits, described in hardware description language (HDL), was developed and successfully implemented. The novelty of this method is to eliminate the communication and synchronization overhead between the interacting modules by accurately predicting input stimulus to each module and apply it&nbsp; instead of the actual inpput, thus eliminating the direct interaction between the modules. The prediction relies on using models at a higher abstraction level and on simulation results from earlier simulation runs. By using the predicted, rather than actual signal values, it is possible to eliminate the communication and synchronization activity between the simulators, hence greatly improving simulation performance. Several models for automated fast prediction-based techniques have been developed in this work. Specifically, the gate-level timing simulation uses as predictor the result of functional, zero-delay gate level simulation. Another version of gate-level<br />timing simulation combines static timing analysis at the block level with dynamic timing simulation at the input-output interfaces. Similarly, simulation of register-transfer level (RTL) and functional or zero-delay gate level circuits uses high level simulation of designs described in computer language C. <br /><br />The simulation approach developed in this work is compatible with the established hardware design methodology which uses progressive refinement of the design from a higher level model to a low level model. The approach is immune to suboptimal partitioning as it exploits the inherent hierarchy present in the design.&nbsp; The improved simulation performance, confirmed by the experiments for gate-level timing simulation, is almost linear in the number of processors. The method is automated and software developed as part of this project is applicable to massively parallel computing platforms and can work with any commercial event-driven HDL simulators.<br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/22/2014<br>\n\t\t\t\t\tModified by: Maciej&nbsp;Ciesielski</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe most widely used technique for verification of digital hardware is simulation, and because of its many advantages it will remain so for a foreseeable future. However, simulation suffers from very low runtime performance, dictated by its inherently sequential nature: applying adequate input stimulus, propagating the internal signals through the circuit in response to the stimulus, and observing the signals computed at the circuit outputs. Particularly slow is event-driven simulation, where each change in signal value of the internal signals creates a new event that needs to be propagated through the circuit.\n\nDistributed parallel simulation can potentially increase the simulation performance by dividing circuit into smaller modules and simulating each module separately (but in synchrony with others) on a separate processor or a processor core. Unfortunately, the event-based inter-module communication introduces a significant synchronization and communication overhead, which diminishes the potential benefit of parallel simulation. The goal of this project was to develop an efficient solution to parallel event-driven simulation of digital designs described in hardware description language (HDL) by minimizing or completely eliminating the synchronization and communication overhead. \n\nIn this project a new approach to parallel event-driven simulation of circuits, described in hardware description language (HDL), was developed and successfully implemented. The novelty of this method is to eliminate the communication and synchronization overhead between the interacting modules by accurately predicting input stimulus to each module and apply it  instead of the actual inpput, thus eliminating the direct interaction between the modules. The prediction relies on using models at a higher abstraction level and on simulation results from earlier simulation runs. By using the predicted, rather than actual signal values, it is possible to eliminate the communication and synchronization activity between the simulators, hence greatly improving simulation performance. Several models for automated fast prediction-based techniques have been developed in this work. Specifically, the gate-level timing simulation uses as predictor the result of functional, zero-delay gate level simulation. Another version of gate-level\ntiming simulation combines static timing analysis at the block level with dynamic timing simulation at the input-output interfaces. Similarly, simulation of register-transfer level (RTL) and functional or zero-delay gate level circuits uses high level simulation of designs described in computer language C. \n\nThe simulation approach developed in this work is compatible with the established hardware design methodology which uses progressive refinement of the design from a higher level model to a low level model. The approach is immune to suboptimal partitioning as it exploits the inherent hierarchy present in the design.  The improved simulation performance, confirmed by the experiments for gate-level timing simulation, is almost linear in the number of processors. The method is automated and software developed as part of this project is applicable to massively parallel computing platforms and can work with any commercial event-driven HDL simulators.\n\n\n\n\t\t\t\t\tLast Modified: 09/22/2014\n\n\t\t\t\t\tSubmitted by: Maciej Ciesielski"
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "awd_id": "1533581",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SI2-SSE: Fast Dynamic Load Balancing Tools for Extreme Scale Systems",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Seung-Jong Park",
+ "awd_eff_date": "2015-10-01",
+ "awd_exp_date": "2020-09-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2015-07-08",
+ "awd_max_amd_letter_date": "2015-07-08",
+ "awd_abstract_narration": "Massively parallel computing combined with scalable simulation workflows that can reliably model systems of interest are central to the continued quest of scientists, engineers, and other practitioners to address advances in scientific discovery, engineering design, and medical treatment. However, to meet their potential, these methods must be able to operate efficiently and scale on massively parallel computers executing millions of processes. Reaching the goal of millions of parallel processes requires new methods in which the computational workload is extremely well balanced and interprocessor communications overheads are minimized. Attaining such parallel performance is greatly complicated in realistic simulation workflows where the models and their discrete computer representation must evolve to ensure simulation reliability, or to account for changing input streams. To address the need to obtain workload balance with controlled communications, various algorithms and associated software, referred to as load balancing procedures, have been, and continue to be, developed. To be effective in the execution of simulation workflows in which the workload evolves, the load balancing procedures must be applied dynamically at multiple points in the simulation. Current load balancing techniques demonstrate two deficiencies when applied as dynamic load balancing procedures at very large numbers of compute cores (e.g., greater than 100,000 cores): They become a major fraction of the total parallel computation (in some cases never finishing within an allocation) and they do not maintain good load balance for simulation steps that must balance based on multiple criteria.  Building on initial efforts to improve dynamic load balancing methods for adaptive unstructured mesh applications, the goal of the proposed research is to develop fast multicriteria dynamic load balancing methods that are capable of quickly producing well balanced computations, with well controlled communications, for a wide variety of applications. \r\n\r\nAn important characteristic of the dynamic load balancing procedures to be developed is generalizing the graph to account for multiple types of computational entities and interactions. The initial ideas for supporting multiple entity types came from consideration balancing finite element calculations that must consider multiple orders of mesh entities. These concepts will be refined and generalized to support multiple applications areas. An additional development will be fast hybrid dynamic load balancing methods that are combinations of \"geometric\", standard graph, and multicriteria graph methods in which the individual methods can be executed globally of at a more local level (such as at the node level). The dynamic load balancing method to be developed will be demonstrated on three applications in which the workload, and its distribution, is changing as the simulation proceeds. The applications will be adaptive mesh simulations, adaptive multiscale modeling, and massive scale free graphs. These applications will be carried out on available massively parallel computers where examples on >1 million cores will be demonstrated. A goal of the dynamic load balancing methods to be developed will be to attain scalability, and do so with controlled data movement such that the wall clock time and energy used is substantially less than that required for an equivalent accuracy non-adaptive calculation.\r\n\r\nThe software produced by this project will be made available as open source components. These developments coupled with efforts to support users in applying them in the development of new simulation tools will impact many research communities. Based on past and present efforts, the PIs fully expect that technologies developed in this project will also be integrated into future industrial software systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mark",
+   "pi_last_name": "Shephard",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mark S Shephard",
+   "pi_email_addr": "shephard@rpi.edu",
+   "nsf_id": "000157587",
+   "pi_start_date": "2015-07-08",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Cameron",
+   "pi_last_name": "Smith",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Cameron Smith",
+   "pi_email_addr": "smithc11@rpi.edu",
+   "nsf_id": "000668829",
+   "pi_start_date": "2015-07-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rensselaer Polytechnic Institute",
+  "inst_street_address": "110 8TH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "TROY",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "5182766000",
+  "inst_zip_code": "121803590",
+  "inst_country_name": "United States",
+  "cong_dist_code": "20",
+  "st_cong_dist_code": "NY20",
+  "org_lgl_bus_name": "RENSSELAER POLYTECHNIC INSTITUTE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "U5WBFKEBLMX3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rensselaer Polytechnic Institute",
+  "perf_str_addr": "110 8th street",
+  "perf_city_name": "Troy",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "121803590",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "20",
+  "perf_st_cong_dist": "NY20",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "8005",
+   "pgm_ref_txt": "Scientific Software Elements"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project developed tools that for use in massively parallel simulation workflows to improve scalability through multi-criteria dynamic load balancing, support in-memory coupling of parallel simulation codes and/or support the development of two scale particle-in-cell (PIC) simulation codes that employ unstructured meshes. Many massively parallel simulations must account for evolving systems which cause the calculations to become unbalanced as the simulation steps proceed. This leads to a loss of scalability. The ParMA and EnGPar dynamic load balancing tools have been developed to support methods to regain load balance while considering multiple criteria. ParMA and EnGPar have been integrated into several simulation codes and shown to be effective in regaining load balance and parallel computation scalability. As massively parallel computers have evolved, the relative ratio of cost of data transfer to computation when programs are coupled via files saved on secondary storage has dramatically increased. In addition, since the file system is a shared resource, this cost is highly from run to run and cannot be accurately predicted. By developing techniques to couple codes through in-memory data exchange methods, the cost of execution of code coupling is dramatically reduced. The in-memory coupling methods developed have been used to integrate the MeshAdapt adaptive mesh control procedures with several unstructured mesh analysis codes to support adaptive simulation work flows, and used to couple an edge plasma PIC code with a continuum and PIC core plasma code. The PUMIpic unstructured mesh infrastructure has been developed to the point that it is being integrated into two large scale PIC codes so they can now support much larger meshes that are distributed. &nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/14/2020<br>\n\t\t\t\t\tModified by: Mark&nbsp;S&nbsp;Shephard</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project developed tools that for use in massively parallel simulation workflows to improve scalability through multi-criteria dynamic load balancing, support in-memory coupling of parallel simulation codes and/or support the development of two scale particle-in-cell (PIC) simulation codes that employ unstructured meshes. Many massively parallel simulations must account for evolving systems which cause the calculations to become unbalanced as the simulation steps proceed. This leads to a loss of scalability. The ParMA and EnGPar dynamic load balancing tools have been developed to support methods to regain load balance while considering multiple criteria. ParMA and EnGPar have been integrated into several simulation codes and shown to be effective in regaining load balance and parallel computation scalability. As massively parallel computers have evolved, the relative ratio of cost of data transfer to computation when programs are coupled via files saved on secondary storage has dramatically increased. In addition, since the file system is a shared resource, this cost is highly from run to run and cannot be accurately predicted. By developing techniques to couple codes through in-memory data exchange methods, the cost of execution of code coupling is dramatically reduced. The in-memory coupling methods developed have been used to integrate the MeshAdapt adaptive mesh control procedures with several unstructured mesh analysis codes to support adaptive simulation work flows, and used to couple an edge plasma PIC code with a continuum and PIC core plasma code. The PUMIpic unstructured mesh infrastructure has been developed to the point that it is being integrated into two large scale PIC codes so they can now support much larger meshes that are distributed.  \n\n\t\t\t\t\tLast Modified: 11/14/2020\n\n\t\t\t\t\tSubmitted by: Mark S Shephard"
+ }
+}

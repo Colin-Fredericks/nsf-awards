@@ -1,0 +1,113 @@
+{
+ "awd_id": "1814898",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: CORE: Small: Program Analysis and Transformations for Secure Computation on the Cloud",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 483038.0,
+ "awd_amount": 483038.0,
+ "awd_min_amd_letter_date": "2018-08-10",
+ "awd_max_amd_letter_date": "2018-08-10",
+ "awd_abstract_narration": "Cloud service providers offer a wide range of data storage and computation products. Customers increasingly outsource data and computation to third-party cloud providers. However, when customers upload their data to the cloud provider, they relinquish data confidentiality. As countless recent events attest, securing data and computation is a problem of tremendous importance. This project explores whether customers can take advantage of inexpensive, efficient, and convenient cloud services, including computation, while preserving to some extent data confidentiality, and retaining efficiency. \r\n\r\nThis project builds new program analyses that mitigate the impact of data conversion, and transform programs to compute securely using these methods. This research leverages prior work on SecureMR, a system that automatically transforms a MapReduce program into one that works over encrypted data on a public cloud. This project addresses a key issue with SecureMR, namely, that a single trusted client is bound to limit scalability of highly parallel MapReduce programs. This project envisions program analyses and transformations that split work between two cloud systems, and explores key challenges in building models and analyses that guarantee confidentiality of data such that neither system can reconstruct the original plaintext input data. The project develops SecureMR-2PC, based on 2-party computation (2PC), which splits input data into shares among two clouds, to avoid leakage of aggregate data and achieve provable privacy guarantees. Additionally, the project develops novel program analysis techniques that reason about sharing protocols to improve efficiency of multi-party computation. The project builds a comprehensive benchmark suite of MapReduce programs to facilitate research on secure computation on the cloud.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ana",
+   "pi_last_name": "Milanova",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ana Milanova",
+   "pi_email_addr": "milanova@cs.rpi.edu",
+   "nsf_id": "000200571",
+   "pi_start_date": "2018-08-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rensselaer Polytechnic Institute",
+  "inst_street_address": "110 8TH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "TROY",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "5182766000",
+  "inst_zip_code": "121803590",
+  "inst_country_name": "United States",
+  "cong_dist_code": "20",
+  "st_cong_dist_code": "NY20",
+  "org_lgl_bus_name": "RENSSELAER POLYTECHNIC INSTITUTE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "U5WBFKEBLMX3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rensselaer Polytechnic Institute",
+  "perf_str_addr": "110 8th Street",
+  "perf_city_name": "Troy",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "121803590",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "20",
+  "perf_st_cong_dist": "NY20",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 483038.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project advance programming technology for secure computation. It studies two approaches: computation outsourcing of client code to an untrusted cloud system, and Multi-Party Computation (MPC), an approach that allows two or more mistrusting parties to perform computation on their private data without revealing information about their data. The key goal is to build programming technology that abstracts away cryptographic complexity --- programmers from different domains can write secure and efficient programs without commanding extensive knowledge in cryptography.</p>\n<p>The first outcome of the project is an ad-hoc computation outsourcing system for MapReduce programs using two public clouds. Results include an analysis of 87 MapReduce applications and the operations they use, and implications on security of outsourcing.</p>\n<p>The second, and most significant outcome is an MPC compiler. The compiler takes a Python-like program and translates it into an intermediate representation, MPC-IR; it then applies backend-independent optimizations and translates into either the MOTION, or MP-SPDZ backend (MOTION and MP-SPDZ are the two leading MPC frameworks.) The compiler, along with results on micro benchmarks is publicly available on Github: https://github.com/milana2/ParallelizationForMPC/tree/master.</p>\n<p>A third result is a system for program partitioning into &ldquo;public&rdquo; and &ldquo;private&rdquo; program components. &ldquo;Public&rdquo; code is inexpensive to execute (i.e., it runs efficiently), while &ldquo;private&rdquo; code executes under expensive secure computation protocols. The system has already informed designed decisions in the MPC compiler.</p>\n<p>Finally, the project has informed work on privacy-preserving machine learning in collaboration with expert colleagues at RPI. The work defines an algorithm for privacy-preserving vertical federated learning, using MPC and differential privacy, and sets directions for future research.</p>\n<p>In terms of broader impacts, nearly all the project&rsquo;s graduate researchers are members of underrepresented groups, and there is significant contribution from undergraduate researchers as well. The project provides training of researchers in compilers, systems building and Multi-Party Computation. Results have the potential to advance secure computation and privacy preserving machine learning in practice.</p><br>\n<p>\n Last Modified: 12/27/2023<br>\nModified by: Ana&nbsp;Milanova</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThe project advance programming technology for secure computation. It studies two approaches: computation outsourcing of client code to an untrusted cloud system, and Multi-Party Computation (MPC), an approach that allows two or more mistrusting parties to perform computation on their private data without revealing information about their data. The key goal is to build programming technology that abstracts away cryptographic complexity --- programmers from different domains can write secure and efficient programs without commanding extensive knowledge in cryptography.\n\n\nThe first outcome of the project is an ad-hoc computation outsourcing system for MapReduce programs using two public clouds. Results include an analysis of 87 MapReduce applications and the operations they use, and implications on security of outsourcing.\n\n\nThe second, and most significant outcome is an MPC compiler. The compiler takes a Python-like program and translates it into an intermediate representation, MPC-IR; it then applies backend-independent optimizations and translates into either the MOTION, or MP-SPDZ backend (MOTION and MP-SPDZ are the two leading MPC frameworks.) The compiler, along with results on micro benchmarks is publicly available on Github: https://github.com/milana2/ParallelizationForMPC/tree/master.\n\n\nA third result is a system for program partitioning into public and private program components. Public code is inexpensive to execute (i.e., it runs efficiently), while private code executes under expensive secure computation protocols. The system has already informed designed decisions in the MPC compiler.\n\n\nFinally, the project has informed work on privacy-preserving machine learning in collaboration with expert colleagues at RPI. The work defines an algorithm for privacy-preserving vertical federated learning, using MPC and differential privacy, and sets directions for future research.\n\n\nIn terms of broader impacts, nearly all the projects graduate researchers are members of underrepresented groups, and there is significant contribution from undergraduate researchers as well. The project provides training of researchers in compilers, systems building and Multi-Party Computation. Results have the potential to advance secure computation and privacy preserving machine learning in practice.\t\t\t\t\tLast Modified: 12/27/2023\n\n\t\t\t\t\tSubmitted by: AnaMilanova\n"
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "awd_id": "2321680",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Automated Verification and Synthesis of Input Generators in Property-Based Testing Frameworks",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922585",
+ "po_email": "pprabhak@nsf.gov",
+ "po_sign_block_name": "Pavithra Prabhakar",
+ "awd_eff_date": "2023-10-01",
+ "awd_exp_date": "2026-09-30",
+ "tot_intn_awd_amt": 597785.0,
+ "awd_amount": 597785.0,
+ "awd_min_amd_letter_date": "2023-08-08",
+ "awd_max_amd_letter_date": "2023-08-08",
+ "awd_abstract_narration": "Testing is one of the most popular and effective ways to discover bugs in software, so that they can be fixed before a system is deployed. In recent years, automated testing has emerged as an important strategy for identifying software defects. Under this paradigm, developers specify the environment in which they expect their program to execute, and the behaviors it should exhibit in that environment. Given these constraints, automated testing frameworks attempt to systematically explore a program's behaviors by executing it in randomly generated environments consistent with the developer's characterization. Any unexpected behaviors are then reported back to the developer, so that they can diagnose and repair the underlying problem. Property-based testing is a popular automated testing approach that relies on handwritten programs, called generators, to construct the environment under which a target system is tested. Since they are also programs, generators may themselves have bugs which hamper the efficacy of automated testing. On the one hand, a generator may be unsound, constructing spurious environments that are inconsistent with the developer's requirements. An unsound generator results in a poor utilization of resources, as time is wasted looking for valid inputs. On the other hand, a generator may be incomplete, failing to produce valid environments. An incomplete generator lowers the level of assurance provided by the testing framework, as potentially faulty behaviors may be unexplored. Typically, developers rely on manual inspection and postmortem analysis of test runs to assess the soundness and completeness of a generator; not surprisingly, these approaches are error-prone and difficult to scale with generator complexity. The goal of this project is to develop new techniques that enable precise reasoning about the soundness and completeness of generators. The project's novelties are the development of new specification and reasoning frameworks, expressive type systems, and synthesis algorithms, specialized for the construction and validation of generators in property-based testing frameworks. Taken together, the project's impacts are a pathway to meaningfully strengthen the assurance provided by property based testing frameworks, resulting in an overall improvement in the quality of software validated using property-based testing.\r\n\r\nThe project is comprised of three main thrusts.  The first thrust considers specification frameworks and representations for characterizing the space of inputs produced by generators that are relevant to the systems under test. New specification formalisms capable of describing completeness properties, specifications that capture effectful properties, and quantitative specifications that describe the distributions and biases used to generate candidate inputs, will be developed in this thrust.  The second thrust explores techniques for automatically verifying the correctness of user-defined generators. These approaches will focus on type-based verification techniques and will be influenced by the form and expressivity of the logical specifications developed in the first thrust. Finally, the third technical thrust investigates the complementary problem of directly synthesizing generators from the specifications developed in the first thrust, providing a correct-by-construction pathway for developers to automatically obtain high-quality generators.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Benjamin",
+   "pi_last_name": "Delaware",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Benjamin J Delaware",
+   "pi_email_addr": "bendy@purdue.edu",
+   "nsf_id": "000754848",
+   "pi_start_date": "2023-08-08",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Suresh",
+   "pi_last_name": "Jagannathan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Suresh Jagannathan",
+   "pi_email_addr": "suresh@cs.purdue.edu",
+   "nsf_id": "000181308",
+   "pi_start_date": "2023-08-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "305 N. University Street",
+  "perf_city_name": "WEST LAFAYETTE",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479072107",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 597785.0
+  }
+ ],
+ "por": null
+}

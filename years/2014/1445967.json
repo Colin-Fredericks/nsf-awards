@@ -1,0 +1,105 @@
+{
+ "awd_id": "1445967",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Collaborative: Secure and Efficient Data Provenance",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Deborah Shands",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2016-03-31",
+ "tot_intn_awd_amt": 96664.0,
+ "awd_amount": 96664.0,
+ "awd_min_amd_letter_date": "2014-06-17",
+ "awd_max_amd_letter_date": "2014-06-17",
+ "awd_abstract_narration": "Data provenance involves determining the conditions under which information was originally generated, as well as all subsequent modifications to that information and the conditions under which those modifications were performed. As systems become increasingly distributed and organizations become reliant on cloud computing for processing their data, the need to securely manage and validate the provenance of that data becomes critical.\r\n\r\nThis project develops new frameworks for evaluating secure fine-grained provenance collection and management in hosts.  The research activities examine the architectures and algorithms required to make the collection and management of trustworthy provenance feasible at scale. We provide a general architecture for collecting provenance at the kernel level and consider methods of reducing the amount of provenance generated and managed while maintaining high-fidelity provenance records.  \r\n\r\nThe project introduces a number of optimizations to enable scalable and performant provenance collection, including policy-based log reduction and provenance deduplication.  The project's main scientific contributions include (1) the development of Linux Provenance Modules that provide complete provenance mediation within the Linux kernel; (2) the design of policy-reduced provenance through the use of mandatory access control policies to reduce the number of subjects and actions that are provenance-generating events to those of interest in a system; and (3) techniques for deduplication of provenance such that minimal records for commonly occurring events can be stored and later fully reconstructed.  We will demonstrate that our approach makes provenance collection practical at scale, enabling more secure and trustworthy computing environments.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Micah",
+   "pi_last_name": "Sherr",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Micah Sherr",
+   "pi_email_addr": "msherr@cs.georgetown.edu",
+   "nsf_id": "000562040",
+   "pi_start_date": "2014-06-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgetown University",
+  "inst_street_address": "MAIN CAMPUS",
+  "inst_street_address_2": "",
+  "inst_city_name": "WASHINGTON",
+  "inst_state_code": "DC",
+  "inst_state_name": "District of Columbia",
+  "inst_phone_num": "2026250100",
+  "inst_zip_code": "20057",
+  "inst_country_name": "United States",
+  "cong_dist_code": "00",
+  "st_cong_dist_code": "DC00",
+  "org_lgl_bus_name": "GEORGETOWN UNIVERSITY",
+  "org_prnt_uei_num": "TF2CMKY1HMX9",
+  "org_uei_num": "TF2CMKY1HMX9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgetown University",
+  "perf_str_addr": "3700 Reservoir Road NW",
+  "perf_city_name": "Washington",
+  "perf_st_code": "DC",
+  "perf_st_name": "District of Columbia",
+  "perf_zip_code": "200571232",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "00",
+  "perf_st_cong_dist": "DC00",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 96664.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Data provenance involves determining the conditions under which information was originally generated, as well as all subsequent modifications to that information and the conditions under which those modifications were performed. &nbsp;As systems become increasingly distributed and organizations become reliant on cloud computing for processing their data, the need to securely manage and validate the provenance of that data becomes critical.</p>\n<p>This project developed new frameworks for evaluating secure fine-grained provenance collection and management in hosts. The research activities examined the architectures and algorithms required to make the collection and management of trustworthy provenance feasible at scale. &nbsp;Specifically, this project has produced the following research results:</p>\n<ul>\n<li><strong>Enhancements to Linux Provenance Module Framework: </strong>We enhanced the Linux operating system to efficiently collect and store provenance information. &nbsp;We additionally demonstrated how our provenance module framework can be leveraged to provide robust defenses and prevent data loss.</li>\n<li><strong>Policy-reduced Provenance:</strong> We introduced approaches to efficiently store only <em>useful</em> provenance information, significantly reducing the storage overheads of provenance collection and making such collection practical and scalable.</li>\n<li><strong>Capturing Workflow Provenance:</strong> Research activities included the development of algorithms and techniques for effectively mining database queries for provenance information without requiring changes to applications. &nbsp;We demonstrate how to apply provenance techniques to legacy applications while requiring no code changes.</li>\n<li><strong>Limits of Provenance Collection:</strong> &nbsp;We studied the theoretical underpinnings of techniques designed to thwart provenance collection, and proved that existing methods are vulnerable to practical attacks.</li>\n<li><strong>Provenance and Human-Computer Interaction: </strong>&nbsp;We introduced methods to determine the provenance of voice commands issued to personal data assistants (e.g., Siri, Google Now, and Amazon Echo). &nbsp;We demonstrated how our techniques mitigate new classes of attacks that leverage voice recognition systems to compromise machines and steal users' data.</li>\n</ul>\n<p>&nbsp;</p>\n<p><br /><span style=\"text-decoration: underline;\">Intellectual Merit:</span></p>\n<p>The project's main scientific contributions include (1) the development of Linux Provenance Modules that provide complete provenance mediation within the Linux kernel; (2) the design of policy-reduced provenance through the use of mandatory access control policies to reduce the number of subjects and actions that are provenance-generating events to those of interest in a system; and (3) techniques for deduplication of provenance such that minimal records for commonly occurring events can be stored and later fully reconstructed. &nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"text-decoration: underline;\">Broader Impacts:</span></p>\n<p>Securely collecting and managing provenance benefits organizations seeking to provide finer-grained access control mechanisms in their networks. &nbsp;Research results have been published in conferences and other peer-reviewed academic venues such as USENIX Security, the Workshop on Offensive Technologies (WOOT), Transactions on Networking, and Financial Cryptography (FC). &nbsp;Project results and methodologies have been integrated into the undergraduate and graduate network security courses at Georgetown University.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/29/2016<br>\n\t\t\t\t\tModified by: Micah&nbsp;Sherr</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nData provenance involves determining the conditions under which information was originally generated, as well as all subsequent modifications to that information and the conditions under which those modifications were performed.  As systems become increasingly distributed and organizations become reliant on cloud computing for processing their data, the need to securely manage and validate the provenance of that data becomes critical.\n\nThis project developed new frameworks for evaluating secure fine-grained provenance collection and management in hosts. The research activities examined the architectures and algorithms required to make the collection and management of trustworthy provenance feasible at scale.  Specifically, this project has produced the following research results:\n\nEnhancements to Linux Provenance Module Framework: We enhanced the Linux operating system to efficiently collect and store provenance information.  We additionally demonstrated how our provenance module framework can be leveraged to provide robust defenses and prevent data loss.\nPolicy-reduced Provenance: We introduced approaches to efficiently store only useful provenance information, significantly reducing the storage overheads of provenance collection and making such collection practical and scalable.\nCapturing Workflow Provenance: Research activities included the development of algorithms and techniques for effectively mining database queries for provenance information without requiring changes to applications.  We demonstrate how to apply provenance techniques to legacy applications while requiring no code changes.\nLimits of Provenance Collection:  We studied the theoretical underpinnings of techniques designed to thwart provenance collection, and proved that existing methods are vulnerable to practical attacks.\nProvenance and Human-Computer Interaction:  We introduced methods to determine the provenance of voice commands issued to personal data assistants (e.g., Siri, Google Now, and Amazon Echo).  We demonstrated how our techniques mitigate new classes of attacks that leverage voice recognition systems to compromise machines and steal users' data.\n\n\n \n\n\nIntellectual Merit:\n\nThe project's main scientific contributions include (1) the development of Linux Provenance Modules that provide complete provenance mediation within the Linux kernel; (2) the design of policy-reduced provenance through the use of mandatory access control policies to reduce the number of subjects and actions that are provenance-generating events to those of interest in a system; and (3) techniques for deduplication of provenance such that minimal records for commonly occurring events can be stored and later fully reconstructed.  \n\n \n\nBroader Impacts:\n\nSecurely collecting and managing provenance benefits organizations seeking to provide finer-grained access control mechanisms in their networks.  Research results have been published in conferences and other peer-reviewed academic venues such as USENIX Security, the Workshop on Offensive Technologies (WOOT), Transactions on Networking, and Financial Cryptography (FC).  Project results and methodologies have been integrated into the undergraduate and graduate network security courses at Georgetown University.\n\n \n\n\t\t\t\t\tLast Modified: 06/29/2016\n\n\t\t\t\t\tSubmitted by: Micah Sherr"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "1521303",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: XSight - A Distributed Measurement Infrastructure for Data Transfer Nodes",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032924220",
+ "po_email": "kthompso@nsf.gov",
+ "po_sign_block_name": "Kevin Thompson",
+ "awd_eff_date": "2015-03-01",
+ "awd_exp_date": "2017-02-28",
+ "tot_intn_awd_amt": 299321.0,
+ "awd_amount": 299321.0,
+ "awd_min_amd_letter_date": "2015-02-20",
+ "awd_max_amd_letter_date": "2015-02-20",
+ "awd_abstract_narration": "As the volume of research data increases, as research workflows become more dynamic and complex, and as networking capabilities expand, the benefits of effective instrumentation grow.  This project pursues the exploration of effective networking instrumentation in this new landscape.   While pursued in the context of research cyberinfrastructure, the topic is relevant to other cyberinfrastructure.\r\n\r\nSpecifically,  the XSight project explores how to effectively leverage new kernel modifications enabling TCP instrumentation installed at Data Transfer Nodes (DTNs) to:  collect flow level TCP connection performance data; correlate this performance data among DTN?s participating in large scale data transfers; and communicate with a Network Operations Center (NOC) to signal the presence of network performance problems. XSight, through its approach to near real time flow level data collection, analysis and reporting on real scientific data flow TCP performance, leads to a deeper understanding of end to end network behavior of scientific data flows. Further, the system has potential to directly lead to improvements of instrumented scientific data flows. The project targets the distributed DTN environment within the NSF-supported XSEDE environment with a light-weight data collection client deployed on the DTNs.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Christopher",
+   "pi_last_name": "Rapier",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christopher J Rapier",
+   "pi_email_addr": "rapier@psc.edu",
+   "nsf_id": "000193173",
+   "pi_start_date": "2015-02-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133815",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "808000",
+   "pgm_ele_name": "Campus Cyberinfrastructure"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 299321.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>XSight is a distributed TCP measurement infrastructure developed to monitor and analyze network performance to and from data transfer nodes (DTN). The goal of XSight is to quickly identify poorly performing TCP flows and provide network operators with actionable information. The end result being a reduction in the bottlenecks associated with transferring large data sets in the context of the scientific workflow.&nbsp;<br /><br />During this grant the XSight development team developed a system based on four intertwined components. The first is a listener agent residing on DTNs that have been instrumented with Web10G implementation of RFC 4898. This listener agent constant monitors TCP flows of interest, gathers more than 130 discrete measurements on a periodic basis, and then transfers these results to the second component, a centralized database. This database is optimized for time series data and serves as a repository for all data collected by all deployed listener agents. The database is periodically reviewed by the third component, an TCP metrics analysis agent. The agent reviews all information in the database corresponding to currently active flows. It then applies heuristic and algorithmic methods to determine if any of these flows are under performing or failing. If any flows are determined to be such it then tags those flows as being problematic. This information is then used by the fourth component, a web based user interface (UI). When activated the UI scans the database for DTN and network topology information and any flows that have been marked as problematic. It displays the network topology as a forced direct graphical map. DTNs with flows tagged as failing are highlighted for the user who can then dig down through UI to a list of these flows. The user can then access the raw TCP metric data in order to help understand the nature of the failure and effect a solution.&nbsp;<br /><br />At the conclusion of the funding period the development team was able to demonstrate a functional system as described above. This system was deployed at the Pittsburgh Supercomputing Center and collected data on more than 59,000 individual flows containing more than 800 million unique data points. However, during the course of the invesitgation it was determined that the structure of the databse is insufficiently robust to quickly respond to requests for data. This hampered the larger scale deployment of the system. The XSight team is currently working to address this problem and is seeking additional funding to advance this technology in order to support wide scale deployment.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/10/2017<br>\n\t\t\t\t\tModified by: Christopher&nbsp;J&nbsp;Rapier</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nXSight is a distributed TCP measurement infrastructure developed to monitor and analyze network performance to and from data transfer nodes (DTN). The goal of XSight is to quickly identify poorly performing TCP flows and provide network operators with actionable information. The end result being a reduction in the bottlenecks associated with transferring large data sets in the context of the scientific workflow. \n\nDuring this grant the XSight development team developed a system based on four intertwined components. The first is a listener agent residing on DTNs that have been instrumented with Web10G implementation of RFC 4898. This listener agent constant monitors TCP flows of interest, gathers more than 130 discrete measurements on a periodic basis, and then transfers these results to the second component, a centralized database. This database is optimized for time series data and serves as a repository for all data collected by all deployed listener agents. The database is periodically reviewed by the third component, an TCP metrics analysis agent. The agent reviews all information in the database corresponding to currently active flows. It then applies heuristic and algorithmic methods to determine if any of these flows are under performing or failing. If any flows are determined to be such it then tags those flows as being problematic. This information is then used by the fourth component, a web based user interface (UI). When activated the UI scans the database for DTN and network topology information and any flows that have been marked as problematic. It displays the network topology as a forced direct graphical map. DTNs with flows tagged as failing are highlighted for the user who can then dig down through UI to a list of these flows. The user can then access the raw TCP metric data in order to help understand the nature of the failure and effect a solution. \n\nAt the conclusion of the funding period the development team was able to demonstrate a functional system as described above. This system was deployed at the Pittsburgh Supercomputing Center and collected data on more than 59,000 individual flows containing more than 800 million unique data points. However, during the course of the invesitgation it was determined that the structure of the databse is insufficiently robust to quickly respond to requests for data. This hampered the larger scale deployment of the system. The XSight team is currently working to address this problem and is seeking additional funding to advance this technology in order to support wide scale deployment. \n\n\t\t\t\t\tLast Modified: 04/10/2017\n\n\t\t\t\t\tSubmitted by: Christopher J Rapier"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1528068",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Functional Reactive Cryptography",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jeremy Epstein",
+ "awd_eff_date": "2015-10-01",
+ "awd_exp_date": "2019-09-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2015-08-19",
+ "awd_max_amd_letter_date": "2015-08-19",
+ "awd_abstract_narration": "Cryptographic protocols are a fundamental tool to secure distributed computer applications, but also notoriously hard to design and analyze. With modern computer applications becoming increasingly complex, interconnected, distributed and interactive, there  is a pressing need to improve the researchers' ability to design and analyze  protocols that go well beyond the traditional problem of secure message transmission. This research investigates frameworks to improve the way cryptographic protocols are designed and analyzed, by investigating new mathematical models of computation specifically targeted to security analysis. These methods will allow security analysis of more complex applications, and also to improve public confidence in the analysis itself.  \r\n\r\nThis project explores computation models where time is only treated implicitly, through logical dependencies. Avoiding the explicit modeling of time greatly simplifies the analysis of cryptographic protocols, still capturing timing constraints that are relevant to security properties. Different communication and security models are considered, and compared to each other  via reductions, with respect to security guarantees, their ability to capture realistic attacks, and expressiveness in describing protocols of cryptographic interest. Models are evaluated by exemplifying their use in the analysis of a set of  representative case studies, including Oblivious Transfer protocols, and protocols for secure multiparty computation. These tools and techniques will help developers to more easily reason about the security of a wider range of applications, and lead to more secure and trustworthy software.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniele",
+   "pi_last_name": "Micciancio",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniele Micciancio",
+   "pi_email_addr": "daniele@cs.ucsd.edu",
+   "nsf_id": "000096967",
+   "pi_start_date": "2015-08-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-San Diego",
+  "inst_street_address": "9500 GILMAN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "LA JOLLA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8585344896",
+  "inst_zip_code": "920930021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "50",
+  "st_cong_dist_code": "CA50",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "UYTTZT6G9DT1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-San Diego",
+  "perf_str_addr": "9500 Gilman Dr",
+  "perf_city_name": "La Jolla",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "920930404",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "50",
+  "perf_st_cong_dist": "CA50",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Cryptography provides a powerful tool to secure complex applications. But cryptography is effective only to the extent that applications making use of it are properly analyzed and validated. Cryptographic applications are particularly hard to validate because they involve multiple parties (e.g., a sender and a receiver) running programs on different computers. Moreover, the application should remain secure even when executed in the presence of an adversary that deliberately tries to subvert/attack the system.<br /><br />This project explores simpler, better methods to analyze cryptographic applications. Actual cryptographic functions involve the computation, storage and transmission of messages consisting of long sequences of bits (zeros and ones). This is very precise, but the resulting level of detail makes applications very long and hard to analyze even by expert cryptographers.<br />Project outcomes include mathematical methods to analyze cryptographic functions \"symbolically\", i.e., replacing these long messages by symbols (akin to variables \"x\",\"y\" used to write algebraic expressions and computer programs), and carry out security analysis by means of simple algebraic manipulations, something similar to replacing \"x+y\" with \"y+x\", without first substituting \"x\" and \"y\" with actual values. The core finding of our research is that in many settings one can apply (or even automate) this simplified analysis even on a potential adversary attacking the system. Technically, the research shows that symbolic analysis is sound, in the sense that if there is a concrete attack (sending and receiving actual messages consisting of sequences of bits) breaking the security of an application, then there is also a symbolic attack that is equally effective. Turning this around, one concludes that if there is NO symbolic attack (as shown by performing a simple symbolic security analysis), then there is NO concrete attack, providing high assurance on the security of the system.<br /><br />The methods were applied to a number of representative cryptographic applications, including the following:<br /><br />- The use of encryption with complex key distribution schedules. For example, instead of using an encryption function Enc(k,m) to directly protect a message m using a key k, one may first encrypt a session key Enc(k,s), then expand this key into a sequence of sub-keys G(s)=[s0,s1,s2,...] using a pseudo-random generator G, and then using each of these keys to encrypt a separate message Enc(s0,m0), Enc(s1,m1), ...<br />This type of usage is common in applications like group messaging or pay-TV, where keys are continuously updated for security reasons, or different messages should be decodable by different groups of recipients.<br /><br />- Garbled Circuits. This is a technique to jointly run a program F on two input values x and y held by two separate and mutually distrustful parties. At the end of the computation, both parties learn the final outcome of the computation F(x,y), while learning nothing else about the other party's input. Consider for example two parties bidding on an item,&nbsp; and F(x,y) selecting the highest bid without revealing information about the other one. Or determining if a passenger x belongs to a no-fly list y, while keeping both the name of the passenger x and list y private. Or determining a possible match between to users' profiles (according to some well defined criterion specified by a function F), while keeping both profiles private.<br /><br />- Oblivious transfer protocols. These are protocols where a sender holds two messages (m[0] and m[1]), and a receiver holds a selection bit b (0 or 1). Upon completion, the receiver obtains only one of the two messages m[b], without getting any information about the other one. At the same time, the sender does not learn the value of b, i.e., which of the two messages was transmitted. Oblivious transfer is a classic cryptographic function, which is used as a building block by many higher level cryptographic applications, including Garbled Circuits<br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/15/2022<br>\n\t\t\t\t\tModified by: Daniele&nbsp;Micciancio</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nCryptography provides a powerful tool to secure complex applications. But cryptography is effective only to the extent that applications making use of it are properly analyzed and validated. Cryptographic applications are particularly hard to validate because they involve multiple parties (e.g., a sender and a receiver) running programs on different computers. Moreover, the application should remain secure even when executed in the presence of an adversary that deliberately tries to subvert/attack the system.\n\nThis project explores simpler, better methods to analyze cryptographic applications. Actual cryptographic functions involve the computation, storage and transmission of messages consisting of long sequences of bits (zeros and ones). This is very precise, but the resulting level of detail makes applications very long and hard to analyze even by expert cryptographers.\nProject outcomes include mathematical methods to analyze cryptographic functions \"symbolically\", i.e., replacing these long messages by symbols (akin to variables \"x\",\"y\" used to write algebraic expressions and computer programs), and carry out security analysis by means of simple algebraic manipulations, something similar to replacing \"x+y\" with \"y+x\", without first substituting \"x\" and \"y\" with actual values. The core finding of our research is that in many settings one can apply (or even automate) this simplified analysis even on a potential adversary attacking the system. Technically, the research shows that symbolic analysis is sound, in the sense that if there is a concrete attack (sending and receiving actual messages consisting of sequences of bits) breaking the security of an application, then there is also a symbolic attack that is equally effective. Turning this around, one concludes that if there is NO symbolic attack (as shown by performing a simple symbolic security analysis), then there is NO concrete attack, providing high assurance on the security of the system.\n\nThe methods were applied to a number of representative cryptographic applications, including the following:\n\n- The use of encryption with complex key distribution schedules. For example, instead of using an encryption function Enc(k,m) to directly protect a message m using a key k, one may first encrypt a session key Enc(k,s), then expand this key into a sequence of sub-keys G(s)=[s0,s1,s2,...] using a pseudo-random generator G, and then using each of these keys to encrypt a separate message Enc(s0,m0), Enc(s1,m1), ...\nThis type of usage is common in applications like group messaging or pay-TV, where keys are continuously updated for security reasons, or different messages should be decodable by different groups of recipients.\n\n- Garbled Circuits. This is a technique to jointly run a program F on two input values x and y held by two separate and mutually distrustful parties. At the end of the computation, both parties learn the final outcome of the computation F(x,y), while learning nothing else about the other party's input. Consider for example two parties bidding on an item,  and F(x,y) selecting the highest bid without revealing information about the other one. Or determining if a passenger x belongs to a no-fly list y, while keeping both the name of the passenger x and list y private. Or determining a possible match between to users' profiles (according to some well defined criterion specified by a function F), while keeping both profiles private.\n\n- Oblivious transfer protocols. These are protocols where a sender holds two messages (m[0] and m[1]), and a receiver holds a selection bit b (0 or 1). Upon completion, the receiver obtains only one of the two messages m[b], without getting any information about the other one. At the same time, the sender does not learn the value of b, i.e., which of the two messages was transmitted. Oblivious transfer is a classic cryptographic function, which is used as a building block by many higher level cryptographic applications, including Garbled Circuits\n\n\n\n\t\t\t\t\tLast Modified: 07/15/2022\n\n\t\t\t\t\tSubmitted by: Daniele Micciancio"
+ }
+}

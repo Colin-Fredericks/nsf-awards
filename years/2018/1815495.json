@@ -1,0 +1,149 @@
+{
+ "awd_id": "1815495",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: CORE: Small: Hardening Systems Against Low-Rate DDoS Attacks",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jeremy Epstein",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2021-08-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 516000.0,
+ "awd_min_amd_letter_date": "2018-08-24",
+ "awd_max_amd_letter_date": "2020-03-30",
+ "awd_abstract_narration": "Low-rate denial-of-service (LRD) attacks deny access to services by depleting some limited resource at the end host or a network device. This makes the device unable to process legitimate clients' traffic. LRD attacks are very challenging to detect and handle at the network level, since they are very low-rate. It makes the attack traffic a needle in a haystack of legitimate traffic. On the other hand, detecting LRD at the application would require changes to many applications, and would only be effective against specific attack variants. All online services are vulnerable to distributed denial-of-service (DDoS) attacks, and LRD attacks are especially challenging to handle today, because they can be launched from smaller botnets and at lower rates than flooding attacks. This project designs and builds an LRD defense, called Leader, which is application-agnostic and can handle both current and future attack variants with the same mechanism.  Leader makes all online services robust against LRD attacks by helping the services smartly manage their resources and identify and neutralize misuse attempts. This in turn improves the security of the entire Internet, as well as the security of our critical infrastructure. Where full mitigation is not possible, the planned approach raises the bar for attackers, by forcing them to recruit large botnets. The project will generate lecture modules and practical exercises to be used in current courses and shared publicly. \r\n\r\nLeader defense builds profiles that describe how external requests, clients, applications and the entire device use system resources. These profiles, called \"connection life stages\" contain information about the type and the amount of the resource used, the order in which the use occurs and the time that each chunk of resource is being held. Leader compares instantaneous profiles to baseline profiles at connection, client, application and device level to detect denial of service and identify the resources being affected. Leader further uses connection life stages to perform anomaly detection, which is used for attack diagnostics and mitigation. In rare cases when the profiles do not show anomalous use of resources, or cannot attribute it to specific connections or clients, Leader resorts to offline binary analysis of affected applications. This analysis helps understand how code paths in the application use system resources, and identify possible code changes to increase robustness to LRD attacks. Leader's combination of system, network and application-level monitoring of the patterns of resource use, and the accounting of resource usage per each external service request, is a unique, novel feature. Leader defense is implemented as an operating system (OS) module, and thus protects the deploying device against all LRD attacks at the OS and the application level.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jelena",
+   "pi_last_name": "Mirkovic",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jelena Mirkovic",
+   "pi_email_addr": "mirkovic@isi.edu",
+   "nsf_id": "000487322",
+   "pi_start_date": "2018-08-24",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Christophe",
+   "pi_last_name": "Hauser",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christophe Hauser",
+   "pi_email_addr": "christophe.hauser@dartmouth.edu",
+   "nsf_id": "000761030",
+   "pi_start_date": "2018-08-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "4676 Admiralty Way, Ste 1001",
+  "perf_city_name": "Marina del Rey",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "902926611",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "171400",
+   "pgm_ele_name": "Special Projects - CNS"
+  },
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  },
+  {
+   "pgm_ref_code": "9178",
+   "pgm_ref_txt": "UNDERGRADUATE EDUCATION"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0120",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 500000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 16000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Low-rate denial-of-service (LRD) attacks deny service at the device level (server, router, switch, middlebox), instead of exhausting the network bandwidth. These attacks use one basic mechanism to deny service. They deplete some limited resource at the service, the operating system or the firmware of a device. This makes the device unable to process legitimate clients' traffic. LRD attacks are very challenging to detect and handle at the network level since they generate very low request rate. This makes the attack traffic a needle in a haystack of legitimate traffic. On the other hand, detecting LDR at application would require changes to many applications, which would only be effective against specific attack variants.</p>\n<p>Our goal in this project was design an LDR defense, called Leader, which is application-agnostic and can handle both current and future attack variants with the same mechanism. The defense was implemented as an OS module, and thus protects the deploying device against all LDR attacks at the OS and the application level. Leader defense builds profiles that describe how external requests, clients, applications and the entire device use system resources. These profiles, which we call connection life stages -- contain information about the type and the amount of the resource used, the order in which the use occurs and the time that each chunk of resource is being held. Leader compares instantaneous profiles to baseline profiles at connection, client, application and device level to detect denial of service and identify the resources being affected. Leader further uses connection life stages to perform anomaly detection, which is used for attack diagnostics and mitigation. Leader achieves higher than 99% classification accuracy (see attached figures) and surgically stops an ongoing attack in seconds (see attached figure).</p>\n<p>In addition to Leader, we also worked on an effort we called HarmDoS, for offline analysis and patching of vulnerable binary code. The goal of Harm-DoS is to identify and mitigate a specific type of low-rate denial-of-service vulnerability, (named a hash-collision denial-of-service vulnerability) in binary programs. This vulnerability is caused by the use of a weak hash algorithm to map data into a data structure called a hash table. HarmDoS uses static binary program analysis to identify implementations of known weak hash algorithms. It then replaces the weak hash algorithm with a secure alternative. This is performed by using a binary code modification technique called static binary rewriting. This allows Harm-DoS to mitigate vulnerabilities without requiring access to the source code. We further perform verification that the resulting code retains its original functionality using symbolic execution. We gather information on how the hash function interacts with the rest of the program, for example how it receives input and yields output. and ensure that the patched code interacts with the rest of the program in the same manner.&nbsp;</p>\n<p>Please visit our project Web page to learn more about our research:</p>\n<p><span id=\"docs-internal-guid-3ef319a7-7fff-27ee-e9fd-739bff70b9d2\"> https://steel.isi.edu/Projects/Leader/<br /></span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/05/2021<br>\n\t\t\t\t\tModified by: Jelena&nbsp;Mirkovic</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478918417_leader--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478918417_leader--rgov-800width.jpg\" title=\"Leader system architecture\"><img src=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478918417_leader--rgov-66x44.jpg\" alt=\"Leader system architecture\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Leader system architecture</div>\n<div class=\"imageCredit\">Leader project</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Jelena&nbsp;Mirkovic</div>\n<div class=\"imageTitle\">Leader system architecture</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478827430_harmdosperf--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478827430_harmdosperf--rgov-800width.jpg\" title=\"HarmDoS performance\"><img src=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478827430_harmdosperf--rgov-66x44.jpg\" alt=\"HarmDoS performance\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">HarmDoS performance</div>\n<div class=\"imageCredit\">Leader project</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Jelena&nbsp;Mirkovic</div>\n<div class=\"imageTitle\">HarmDoS performance</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478540605_harmdos--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478540605_harmdos--rgov-800width.jpg\" title=\"HarmDoS system architecture\"><img src=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633478540605_harmdos--rgov-66x44.jpg\" alt=\"HarmDoS system architecture\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">HarmDoS system architecture</div>\n<div class=\"imageCredit\">Leader project</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Jelena&nbsp;Mirkovic</div>\n<div class=\"imageTitle\">HarmDoS system architecture</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633479049457_traffic--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633479049457_traffic--rgov-800width.jpg\" title=\"Leader handling an attack\"><img src=\"/por/images/Reports/POR/2021/1815495/1815495_10575776_1633479049457_traffic--rgov-66x44.jpg\" alt=\"Leader handling an attack\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Leader handling an attack</div>\n<div class=\"imageCredit\">Leader project</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Jelena&nbsp;Mirkovic</div>\n<div class=\"imageTitle\">Leader handling an attack</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nLow-rate denial-of-service (LRD) attacks deny service at the device level (server, router, switch, middlebox), instead of exhausting the network bandwidth. These attacks use one basic mechanism to deny service. They deplete some limited resource at the service, the operating system or the firmware of a device. This makes the device unable to process legitimate clients' traffic. LRD attacks are very challenging to detect and handle at the network level since they generate very low request rate. This makes the attack traffic a needle in a haystack of legitimate traffic. On the other hand, detecting LDR at application would require changes to many applications, which would only be effective against specific attack variants.\n\nOur goal in this project was design an LDR defense, called Leader, which is application-agnostic and can handle both current and future attack variants with the same mechanism. The defense was implemented as an OS module, and thus protects the deploying device against all LDR attacks at the OS and the application level. Leader defense builds profiles that describe how external requests, clients, applications and the entire device use system resources. These profiles, which we call connection life stages -- contain information about the type and the amount of the resource used, the order in which the use occurs and the time that each chunk of resource is being held. Leader compares instantaneous profiles to baseline profiles at connection, client, application and device level to detect denial of service and identify the resources being affected. Leader further uses connection life stages to perform anomaly detection, which is used for attack diagnostics and mitigation. Leader achieves higher than 99% classification accuracy (see attached figures) and surgically stops an ongoing attack in seconds (see attached figure).\n\nIn addition to Leader, we also worked on an effort we called HarmDoS, for offline analysis and patching of vulnerable binary code. The goal of Harm-DoS is to identify and mitigate a specific type of low-rate denial-of-service vulnerability, (named a hash-collision denial-of-service vulnerability) in binary programs. This vulnerability is caused by the use of a weak hash algorithm to map data into a data structure called a hash table. HarmDoS uses static binary program analysis to identify implementations of known weak hash algorithms. It then replaces the weak hash algorithm with a secure alternative. This is performed by using a binary code modification technique called static binary rewriting. This allows Harm-DoS to mitigate vulnerabilities without requiring access to the source code. We further perform verification that the resulting code retains its original functionality using symbolic execution. We gather information on how the hash function interacts with the rest of the program, for example how it receives input and yields output. and ensure that the patched code interacts with the rest of the program in the same manner. \n\nPlease visit our project Web page to learn more about our research:\n\n https://steel.isi.edu/Projects/Leader/\n\n\n\t\t\t\t\tLast Modified: 10/05/2021\n\n\t\t\t\t\tSubmitted by: Jelena Mirkovic"
+ }
+}

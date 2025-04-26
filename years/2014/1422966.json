@@ -1,0 +1,105 @@
+{
+ "awd_id": "1422966",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF: Small: Collaborative Research: Sketching and Tracking of Covariance Structures for High-dimensional Streaming Data",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Cozzens",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 75000.0,
+ "awd_amount": 75000.0,
+ "awd_min_amd_letter_date": "2014-08-22",
+ "awd_max_amd_letter_date": "2014-08-22",
+ "awd_abstract_narration": "The explosion of high-dimensional and high-rate data streams has overwhelmed the computational and storage power of traditional sensor suites, resulting in a severe mismatch between the data generation rate and processing capabilities in modern data-intensive applications: On one hand, vast amounts of data are generated ubiquitously at an unprecedented rate carrying dynamic information that are essential for decision making; on the other hand, limited by processing power and storage capacity, many sensing platforms cannot afford to capture a complete snapshot of the system or store the entire data stream. This research program provides a comprehensive framework for learning and tracking covariance structures of large-scale data streams, which has implications for a broad range of applications in network analysis, active sensing, traffic monitoring, particularly in systems where communication bandwidth, battery life, and physical limits constrain the practicality of high sample rates.\r\n \r\nBy leveraging low-dimensional covariance structures such as sparsity and low-rankness, the research introduces a novel framework for reconstructing and tracking covariance structures of high-dimensional noisy data streams in time-sensitive and resource-constrained environments via low-complexity sketching schemes, showing that a single sketch per sample suffices for accurately reconstructing the covariance matrix rather than the original data stream with minimal storage requirement. The research program develops efficient algorithms with theoretical guarantees as well as investigates the fundamental limits for inferring covariance structures from a limited number of measurements, offering a new combination of insights and techniques from information theory, signal processing and high-dimensional statistics.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yuejie",
+   "pi_last_name": "Chi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yuejie Chi",
+   "pi_email_addr": "yuejiechi@cmu.edu",
+   "nsf_id": "000627307",
+   "pi_start_date": "2014-08-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "2015 Neil Avenue",
+  "perf_city_name": "Columbus",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101277",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779700",
+   "pgm_ele_name": "Comm & Information Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7936",
+   "pgm_ref_txt": "SIGNAL PROCESSING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 75000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>&nbsp;</p>\n<div>The project&nbsp;addresses the severe mismatch between the data generation rate and processing capabilities in modern data-intensive applications: on one hand vast amounts of data are generated ubiquitously at an unprecedented rate carrying dynamic information that are essential for decision making; and on the other hand, limited by processing power and storage capacity, many sensing platforms cannot afford to capture a complete snapshot of the system or store the entire data stream. Motivated by the importance of covariance information in statistical inference, this project introduces a novel framework for reconstructing and tracking covariance structures of high-dimensional noisy data streams in time-sensitive and resource-constrained environments via low-complexity sketching schemes.</div>\n<div>&nbsp;</div>\n<div>The project develops an efficient sketching scheme that only takes a single quadratic sketch per data vector and aggregates them into linear measurements of the covariance matrix of the data stream. By taking advantage of the low-dimensional structures of the covariance matrices, convex optimization algorithms are developed to recover the covariance matrices from a near optimal number of measurements for various structures including low-rank, Toeplitz low-rank, sparse, and joint sparse and low-rank. Moreover, when a small number of measurements are further corrupted by arbitrary outliers, a robust convex optimization algorithm as well as a computationally efficient outlier-cognizant gradient descent algorithm is further developed to remove the outliers perfectly using slightly more measurements. Additionally, practical online sequential algorithms are developed to estimate and track covariance matrices and principal subspaces of high-dimensional data streams using adaptively updated sketches and alternating minimization. Finally, it is demonstrated that sketching is also sufficient for detecting and localizing change-points from high-dimensional streaming data, when the number of change-points is small and has low-complexity representations.</div>\n<div>The project provides a comprehensive framework for learning and tracking second-order statistics of large-scale data streams and random processes using sketching, which has implications for a broad range of applications in network analysis, active sensing, traffic monitoring, particularly in systems where communication bandwidth, battery life, and physical limits constrain the practicality of high sample rates.</div>\n<div>This collaborative project provides cross-university opportunities for students training with a multi-facet emphasis on expertise in convex optimization, statistical signal processing, information theory, and machine learning. A new graduate-level course on high-dimensional data analysis is developed at OSU. In particular, this project has involved several underrepresented and women students in STEM, and engaged undergraduate students in research.</div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/19/2016<br>\n\t\t\t\t\tModified by: Yuejie&nbsp;Chi</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n \nThe project addresses the severe mismatch between the data generation rate and processing capabilities in modern data-intensive applications: on one hand vast amounts of data are generated ubiquitously at an unprecedented rate carrying dynamic information that are essential for decision making; and on the other hand, limited by processing power and storage capacity, many sensing platforms cannot afford to capture a complete snapshot of the system or store the entire data stream. Motivated by the importance of covariance information in statistical inference, this project introduces a novel framework for reconstructing and tracking covariance structures of high-dimensional noisy data streams in time-sensitive and resource-constrained environments via low-complexity sketching schemes.\n \nThe project develops an efficient sketching scheme that only takes a single quadratic sketch per data vector and aggregates them into linear measurements of the covariance matrix of the data stream. By taking advantage of the low-dimensional structures of the covariance matrices, convex optimization algorithms are developed to recover the covariance matrices from a near optimal number of measurements for various structures including low-rank, Toeplitz low-rank, sparse, and joint sparse and low-rank. Moreover, when a small number of measurements are further corrupted by arbitrary outliers, a robust convex optimization algorithm as well as a computationally efficient outlier-cognizant gradient descent algorithm is further developed to remove the outliers perfectly using slightly more measurements. Additionally, practical online sequential algorithms are developed to estimate and track covariance matrices and principal subspaces of high-dimensional data streams using adaptively updated sketches and alternating minimization. Finally, it is demonstrated that sketching is also sufficient for detecting and localizing change-points from high-dimensional streaming data, when the number of change-points is small and has low-complexity representations.\nThe project provides a comprehensive framework for learning and tracking second-order statistics of large-scale data streams and random processes using sketching, which has implications for a broad range of applications in network analysis, active sensing, traffic monitoring, particularly in systems where communication bandwidth, battery life, and physical limits constrain the practicality of high sample rates.\nThis collaborative project provides cross-university opportunities for students training with a multi-facet emphasis on expertise in convex optimization, statistical signal processing, information theory, and machine learning. A new graduate-level course on high-dimensional data analysis is developed at OSU. In particular, this project has involved several underrepresented and women students in STEM, and engaged undergraduate students in research.\n\n \n\n\t\t\t\t\tLast Modified: 09/19/2016\n\n\t\t\t\t\tSubmitted by: Yuejie Chi"
+ }
+}

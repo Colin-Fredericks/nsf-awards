@@ -1,0 +1,102 @@
+{
+ "awd_id": "2325184",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "eMB:  Collaborative Research: Discovery and calibration of stochastic chemical reaction network models",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032927523",
+ "po_email": "zfeng@nsf.gov",
+ "po_sign_block_name": "Zhilan Feng",
+ "awd_eff_date": "2023-09-01",
+ "awd_exp_date": "2026-08-31",
+ "tot_intn_awd_amt": 375000.0,
+ "awd_amount": 375000.0,
+ "awd_min_amd_letter_date": "2023-08-22",
+ "awd_max_amd_letter_date": "2024-01-17",
+ "awd_abstract_narration": "Mathematical models are a widely used tool for improving our understanding, ability to predict, and ability to control the behavior of biological systems. Such models are often encoded as chemical reaction networks (CRNs), involving large collections of reactions that describe how constituents of the system, such as proteins, change their states over time. CRN model components are often only partially known, and thus methods which mix theoretical physics-based models for known components, with techniques that estimate unknown components and their dynamics from experimental data, can improve their predictive capabilities. This is the domain of Scientific Machine Learning (SciML). This project will develop new SciML methods for constructing, simulating, and analyzing CRN models that include randomness in the evolution of protein states, an important feature to accurately predict the behavior of chemical systems within individual biological cells. The new methods will be applied to problems in systems and synthetic biology (the understanding of native, and the development of novel, cellular systems), but will also be applicable across a wide range of fields involving CRNs (including epidemiology, physical chemistry, and pharmacology). Via their incorporation into widely used open source software libraries of the SciML organization, the methods will be freely available for use by any researcher studying problems across science and engineering. Training opportunities will be provided for a postdoctoral scholar and an undergraduate researcher, who will gain experience working in interdisciplinary teams, developing SciML methods, integrating these methods into open source software, and applying the new software to study biological systems.\r\n\r\nThis project extends the mathematical understanding of discrete stochastic derivative estimators to facilitate scaling Scientific Machine Learning (SciML) training techniques to chemical reaction networks (CRNs). One distinct difficulty in extending SciML to cellular systems is their proneness to noisy behaviors, as they are modeled as discrete stochastic jump processes via stochastic simulation algorithms such as the Gillespie method. Such processes are problematic for many SciML workflows which critically depend on automatic differentiation (AD) to scale training techniques. This is because there previously existed no general method for applying AD to them in an unbiased manner with low variance estimators. This project builds on a recent extension of AD to discrete stochastic processes which is capable of generating unbiased low variance derivative estimators. The rigorous connection between the generated stochastic process for the derivative estimator and the derivative probability evolution given by the sensitivity equations will be proven, thus establishing a firm theoretical underpinning for the unbiasedness and variance of the derivative estimator in the context of CRNs. The feasibility to deploy discrete stochastic AD (DSAD) on cellular models to perform model calibration will be demonstrated, and SciML universal differential equation methods for model discovery will be generalized to the theory-based data-driven discovery of missing reactions in CRNs. Finally, the applicability of these methods will be demonstrated on a range of cellular systems (including the B-cell antigen receptor signaling system, the \u03c3V lysozyme stress response system, and a mixed feedback oscillator).\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alan",
+   "pi_last_name": "Edelman",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alan S Edelman",
+   "pi_email_addr": "EDELMAN@MATH.MIT.EDU",
+   "nsf_id": "000142969",
+   "pi_start_date": "2023-08-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "733400",
+   "pgm_ele_name": "MATHEMATICAL BIOLOGY"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "068Z",
+   "pgm_ref_txt": "URoL-Understanding Rules of Life"
+  },
+  {
+   "pgm_ref_code": "079Z",
+   "pgm_ref_txt": "Machine Learning Theory"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 375000.0
+  }
+ ],
+ "por": null
+}

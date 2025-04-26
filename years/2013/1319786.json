@@ -1,0 +1,109 @@
+{
+ "awd_id": "1319786",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: CDSChecker: Model-Checking Concurrent Data Structures under the C11/C++11 Memory Model",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 399997.0,
+ "awd_amount": 399997.0,
+ "awd_min_amd_letter_date": "2013-07-31",
+ "awd_max_amd_letter_date": "2013-07-31",
+ "awd_abstract_narration": "Society has long relied on increasing computing power to drive\r\ntechnological development. Continuing this trend in the multi-core era\r\nwill require a large scale migration to parallel software.  As an\r\nacknowledgment of the new importance of parallelism in software\r\ndevelopment, the 2011 C and C++ standards extended C and C++ with\r\nlanguage support for low-level atomic operations to allow developers\r\nto write portable efficient concurrent data structures.\r\nUnfortunately, implementing concurrent data structures is extremely\r\ndifficult to do correctly. Despite the difficulties, we expect that\r\nthe potential performance benefits will lure many developers, both\r\nexperts and others, to attempt to develop customized concurrent data\r\nstructures.  Without tool support, this will inevitably lead to\r\npotentially costly failures in deployed software.\r\n\r\nThis project will explore techniques for efficiently model checking\r\nconcurrent data structures under the C/C++ memory model and support\r\nfor developers to effectively use a model checker for testing and\r\ndebugging code. These techniques will be implemented in the form of a\r\nconcurrent data structure checking tool, CDSChecker, that will be\r\ndeveloped by the this project.  The project will develop efficient\r\nmodel-checking techniques for the C/C++ memory model, explore how to\r\nspecify the correct behavior of concurrent data structures, explore\r\nhow to support testing and debugging of concurrent code, and explore\r\nhow to effectively communicate information about concurrency bugs to\r\ndevelopers.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Brian",
+   "pi_last_name": "Demsky",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Brian C Demsky",
+   "pi_email_addr": "bdemsky@uci.edu",
+   "nsf_id": "000399342",
+   "pi_start_date": "2013-07-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Irvine",
+  "inst_street_address": "160 ALDRICH HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "IRVINE",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "9498247295",
+  "inst_zip_code": "926970001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "47",
+  "st_cong_dist_code": "CA47",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA IRVINE",
+  "org_prnt_uei_num": "MJC5FCYQTPE6",
+  "org_uei_num": "MJC5FCYQTPE6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Irvine",
+  "perf_str_addr": "4213 Engineering Hall",
+  "perf_city_name": "Irvine",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "926970001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "47",
+  "perf_st_cong_dist": "CA47",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794300",
+   "pgm_ele_name": "PROGRAMMING LANGUAGES"
+  },
+  {
+   "pgm_ele_code": "794400",
+   "pgm_ele_name": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 399997.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>With the wide-scale deployment of multi-core processors, software developers must write parallel software to realize the benefits of continued improvements in microprocessors. Many developers in industry have adopted a parallel programming model that uses threads to parallelize computation and concurrent data structures to coordinate and share data between threads.&nbsp;&nbsp;Recently, standardization committees extended the C and C++ language standards with support for low-level atomic operations which allow experts to craft efficient concurrent data structures that avoid the overheads of locks.&nbsp;&nbsp;The accompanying memory model provides for memory operations with weaker semantics than sequential consistency; however, using these weak atomic operations is extremely challenging, as developers must carefully reason about often subtle memory model semantics to ensure correctness.</p>\n<p>&nbsp;</p>\n<p>The project has developed new tools and techniques for exhaustively exploring the legal executions of C/C++ concurrent data structures on unit tests.&nbsp;&nbsp;The project has developed a model checking tool,&nbsp;&nbsp;CDSChecker, that has been used by both practitioners and other researchers.&nbsp;&nbsp;The CDSChecker tool helps developers find and fix difficult to expose bugs during testing instead of allowing these bugs to slip into deployed settings where will be more expensive to correct and introduce failures into critical systems that potentially incur additional costs.&nbsp;&nbsp;Several research groups have developed tools using the CDSChecker infrastructure.&nbsp;&nbsp;The project has developed a new, more scalable approach to testing concurrent software that leverages SAT solvers to avoid exploring many similar executions.&nbsp;&nbsp;It implemented this approach for both the the TSO and SC memory models in the SATCheck tool.&nbsp;&nbsp;The project has explored changes to language memory models that eliminate problematic behaviors and showed that these changes introduce minimal runtime overheads on an existing processor.&nbsp;&nbsp;These changes make it possible to develop more efficient tool support for using atomic operations and make it easier for developers to reason about code.&nbsp;&nbsp;The project has developed tools for helping developers implement data structures under the C/C++ memory model and then to specify and test those data structures.</p>\n<p>&nbsp;</p>\n<p>The broader impacts of the research includes improving the reliability of concurrent software and improving the productivity of developers who write concurrent software.&nbsp;&nbsp;Work done as part of this project has influence the C/C++ standard committee.&nbsp;&nbsp;Software developed by this project has been made freely available.&nbsp;&nbsp;Both practitioners and other researchers have used software developed by this project.&nbsp;&nbsp;The project has helped develop national software resources by mentoring MS and PhD students and undergraduate students.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/09/2019<br>\n\t\t\t\t\tModified by: Brian&nbsp;C&nbsp;Demsky</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nWith the wide-scale deployment of multi-core processors, software developers must write parallel software to realize the benefits of continued improvements in microprocessors. Many developers in industry have adopted a parallel programming model that uses threads to parallelize computation and concurrent data structures to coordinate and share data between threads.  Recently, standardization committees extended the C and C++ language standards with support for low-level atomic operations which allow experts to craft efficient concurrent data structures that avoid the overheads of locks.  The accompanying memory model provides for memory operations with weaker semantics than sequential consistency; however, using these weak atomic operations is extremely challenging, as developers must carefully reason about often subtle memory model semantics to ensure correctness.\n\n \n\nThe project has developed new tools and techniques for exhaustively exploring the legal executions of C/C++ concurrent data structures on unit tests.  The project has developed a model checking tool,  CDSChecker, that has been used by both practitioners and other researchers.  The CDSChecker tool helps developers find and fix difficult to expose bugs during testing instead of allowing these bugs to slip into deployed settings where will be more expensive to correct and introduce failures into critical systems that potentially incur additional costs.  Several research groups have developed tools using the CDSChecker infrastructure.  The project has developed a new, more scalable approach to testing concurrent software that leverages SAT solvers to avoid exploring many similar executions.  It implemented this approach for both the the TSO and SC memory models in the SATCheck tool.  The project has explored changes to language memory models that eliminate problematic behaviors and showed that these changes introduce minimal runtime overheads on an existing processor.  These changes make it possible to develop more efficient tool support for using atomic operations and make it easier for developers to reason about code.  The project has developed tools for helping developers implement data structures under the C/C++ memory model and then to specify and test those data structures.\n\n \n\nThe broader impacts of the research includes improving the reliability of concurrent software and improving the productivity of developers who write concurrent software.  Work done as part of this project has influence the C/C++ standard committee.  Software developed by this project has been made freely available.  Both practitioners and other researchers have used software developed by this project.  The project has helped develop national software resources by mentoring MS and PhD students and undergraduate students.\n\n \n\n\t\t\t\t\tLast Modified: 01/09/2019\n\n\t\t\t\t\tSubmitted by: Brian C Demsky"
+ }
+}

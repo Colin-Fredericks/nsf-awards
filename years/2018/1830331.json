@@ -1,0 +1,101 @@
+{
+ "awd_id": "1830331",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NRI: FND: COLLAB: Distributed Bayesian Learning and Safe Control for Autonomous Wildfire Detection",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032928950",
+ "po_email": "rwachter@nsf.gov",
+ "po_sign_block_name": "Ralph Wachter",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2021-09-30",
+ "tot_intn_awd_amt": 75000.0,
+ "awd_amount": 75000.0,
+ "awd_min_amd_letter_date": "2018-09-09",
+ "awd_max_amd_letter_date": "2018-09-09",
+ "awd_abstract_narration": "Wildfires destroy millions of hectares of forest, sensitive ecological systems, and human infrastructure. A critical aspect of mitigating wildfire-related damages is early fire detection, well before initiating fires grow to disastrous proportions. Current practices are based on expensive assets, such as satellites, watchtowers, and remote-piloted aircraft, that require constant human supervision, limiting their use to high-risk or high-value areas. This project aims to take advantage of the hyperconvergence of computation, storage, sensing, and communication in small unmanned aerial vehicles (UAVs) to realize large-scale mapping of environmental factors such as temperature, vegetation, pressure, and chemical concentration that contribute to fire initiation. UAV teams that recharge autonomously and communicate intermittently among each other and with static sensors is a compelling research objective that will aid firefighters with continuous real-time surveillance and early detection of ensuing fires.\r\n\r\nThis proposal offers three fundamental innovations to address the scientific challenges associated with autonomous, collaborative environmental monitoring. First, a new Satisfiability Modulo Optimal Control framework is proposed to handle mixed continuous flight dynamics and discrete constraints and ensure collision avoidance, persistent communication, and autonomous recharging for UAV navigation. Second, a distributed systems architecture using new uncertainty-weighted models will be developed to enable cooperative mapping across a heterogeneous team of UAVs and static sensors and avoid bandwidth-intensive data streaming. Lastly, a new Bayesian learning and inference approach is proposed to generate multi-modal (e.g., thermal, semantic, geometric, chemical) maps of real-time environmental conditions with adaptive accuracy and uncertainty quantification. This project with its focus on multi-robot teams benefits, e.g., conservation management and search-and-rescue operations. Both applications demand robot coordination, cooperation, and autonomy, including multi-modal mapping, collaborative inference over heterogeneous networks, and multi-objective navigation with safety, communication, and energy constraints.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Baris",
+   "pi_last_name": "Aksanli",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Baris Aksanli",
+   "pi_email_addr": "baksanli@sdsu.edu",
+   "nsf_id": "000733290",
+   "pi_start_date": "2018-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "San Diego State University Foundation",
+  "inst_street_address": "5250 CAMPANILE DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SAN DIEGO",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6195945731",
+  "inst_zip_code": "921821901",
+  "inst_country_name": "United States",
+  "cong_dist_code": "51",
+  "st_cong_dist_code": "CA51",
+  "org_lgl_bus_name": "SAN DIEGO STATE UNIVERSITY FOUNDATION",
+  "org_prnt_uei_num": "H59JKGFZKHL7",
+  "org_uei_num": "H59JKGFZKHL7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "San Diego State University",
+  "perf_str_addr": "5500 Campanile Drive",
+  "perf_city_name": "San Diego",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "921822190",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "51",
+  "perf_st_cong_dist": "CA51",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "801300",
+   "pgm_ele_name": "NRI-National Robotics Initiati"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8086",
+   "pgm_ref_txt": "Natl Robotics Initiative (NRI)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 75000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This is a collaborative project with NSF #1830399 (with the University of California San Diego). The main goal is to develop distributed learning mechanisms to efficiently control a swarm of unmanned vehicles to detect wildfires early. Our project develops robust agent/sensor placement mechanisms to aid in achieving autonomous wildfire detection by reducing uncertainty in the environment. The sensors or agents in an environment might break or malfunction, decreasing the monitoring capabilities of the overall system. Our research constructs a multi-objective optimization framework that considers not only optimal area coverage, but also robustness. Placing the sensors in a more robust manner increases the probability that the system will continue working correctly and efficiently, even though there is a broken or malfunctioning sensor. A more robust sensor coverage ultimately contributes to uncertainty reduction in the environment, helping autonomous wildfire detection.&nbsp;Our framework increases system robustness by up to 50% compared to coverage-only approaches with 200% higher probability of monitoring the entire environment. We also consider scalability issues of large environments where there are hundreds of possible sensor locations. We develop efficient and accurate heuristics to obtain&nbsp;robust sensor placement solutions for these large environments. Our heuristics can find a solution 400x faster than conventional solvers while only being 5.5% less optimal.</p>\n<p>The work done in this project <span>was disseminated through two conference papers in IEEE Sensors 2020 and 2021 (best paper nomination in 2020), a journal paper in IEEE Sensors Journal, and an invited talk in IEEE Sensors 2021 conference.&nbsp;</span>The project provided training and professional development opportunities to two JDP (Joint Doctoral Program between San Diego State University, SDSU, and the University of California San Diego, UCSD) students in the Electrical and Computer Engineering (ECE) Departments of SDSU and UCSD. The project also created collaboration opportunities between SDSU and UCSD students, where&nbsp;joint presentations and posters were presented in SDSU Student Research Symposium.</p>\n<p>Educational activities included curriculum enrichment for multiple undergraduate and graduate courses at SDSU and UCSD, and developing a joint lecture and a series of hands-on workshops in collaboration with the IEEE Student Chapter at SDSU and HKN Student Group at UCSD.&nbsp;These workshops included modules of robot localization and mapping, robot motion planning, optimization, and reinforcement learning for control. All workshop materials were publicly shared with the students through GitHub. These events contributed towards strengthening the relationships between these student organizations and creating new learning opportunities for undergraduate and graduate students in both universities.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/18/2022<br>\n\t\t\t\t\tModified by: Baris&nbsp;Aksanli</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis is a collaborative project with NSF #1830399 (with the University of California San Diego). The main goal is to develop distributed learning mechanisms to efficiently control a swarm of unmanned vehicles to detect wildfires early. Our project develops robust agent/sensor placement mechanisms to aid in achieving autonomous wildfire detection by reducing uncertainty in the environment. The sensors or agents in an environment might break or malfunction, decreasing the monitoring capabilities of the overall system. Our research constructs a multi-objective optimization framework that considers not only optimal area coverage, but also robustness. Placing the sensors in a more robust manner increases the probability that the system will continue working correctly and efficiently, even though there is a broken or malfunctioning sensor. A more robust sensor coverage ultimately contributes to uncertainty reduction in the environment, helping autonomous wildfire detection. Our framework increases system robustness by up to 50% compared to coverage-only approaches with 200% higher probability of monitoring the entire environment. We also consider scalability issues of large environments where there are hundreds of possible sensor locations. We develop efficient and accurate heuristics to obtain robust sensor placement solutions for these large environments. Our heuristics can find a solution 400x faster than conventional solvers while only being 5.5% less optimal.\n\nThe work done in this project was disseminated through two conference papers in IEEE Sensors 2020 and 2021 (best paper nomination in 2020), a journal paper in IEEE Sensors Journal, and an invited talk in IEEE Sensors 2021 conference. The project provided training and professional development opportunities to two JDP (Joint Doctoral Program between San Diego State University, SDSU, and the University of California San Diego, UCSD) students in the Electrical and Computer Engineering (ECE) Departments of SDSU and UCSD. The project also created collaboration opportunities between SDSU and UCSD students, where joint presentations and posters were presented in SDSU Student Research Symposium.\n\nEducational activities included curriculum enrichment for multiple undergraduate and graduate courses at SDSU and UCSD, and developing a joint lecture and a series of hands-on workshops in collaboration with the IEEE Student Chapter at SDSU and HKN Student Group at UCSD. These workshops included modules of robot localization and mapping, robot motion planning, optimization, and reinforcement learning for control. All workshop materials were publicly shared with the students through GitHub. These events contributed towards strengthening the relationships between these student organizations and creating new learning opportunities for undergraduate and graduate students in both universities. \n\n\t\t\t\t\tLast Modified: 01/18/2022\n\n\t\t\t\t\tSubmitted by: Baris Aksanli"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "awd_id": "1017454",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF: SMALL:  Distributed Statistical Inference of Dynamic Systems with Sensor Networks",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Cozzens",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2014-08-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2010-08-23",
+ "awd_max_amd_letter_date": "2010-08-23",
+ "awd_abstract_narration": "Abstract\r\n\r\nSensor networks are interactive collections of distributed devices that interface the virtual and physical worlds. Among the tasks needed to implement these interfaces is the inference of properties of the physical world using observations collected by the network. Inference tasks cover a vast range, particular examples being estimation of rainfall in an orchard, or tracking the surface salinity of the ocean. \r\nThis project develops an integrated framework for distributed statistical inference of dynamic processes using sensor networks. The ultimate goal is to impact on the numerous activities that stand to benefit from the development of sensor networks, including economic sectors like manufacture, agriculture, and environmental management. \r\nFurther impact is expected from the incorporation of research results in undergraduate classes.\r\n\r\nThis project advances the use of prices to mediate the incorporation of global knowledge into local estimates. Many problems in dynamic statistical inference require solution of optimization problems, prompting formulations whereby estimates are viewed as economic outputs to be maximized. The global optimization that would result from the action of a centralized agent is regarded as a social resource optimization problem. Local estimates computed by individual sensors are the result of selfish actions of market agents. Prices are introduced to align social and agents? interest. While these ideas have been successfully pursued in static environments, this project pursues them in dynamic settings. The research cuts horizontally across different dynamic statistical inference problems and is vertically organized into: \r\n(i) Determination of convergence properties of price mediation algorithms. (ii) Resolution of memory growth problems through manipulation of price structures. (iii) Practical considerations including robustness, convergence speed, and communication effects (iv) Integration with learning algorithms for problems with incomplete model information.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alejandro",
+   "pi_last_name": "Ribeiro",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alejandro Ribeiro",
+   "pi_email_addr": "aribeiro@seas.upenn.edu",
+   "nsf_id": "000514675",
+   "pi_start_date": "2010-08-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Pennsylvania",
+  "inst_street_address": "3451 WALNUT ST STE 440A",
+  "inst_street_address_2": "",
+  "inst_city_name": "PHILADELPHIA",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "2158987293",
+  "inst_zip_code": "191046205",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "PA03",
+  "org_lgl_bus_name": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE",
+  "org_prnt_uei_num": "GM1XX56LEP58",
+  "org_uei_num": "GM1XX56LEP58"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Pennsylvania",
+  "perf_str_addr": "3451 WALNUT ST STE 440A",
+  "perf_city_name": "PHILADELPHIA",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "191046205",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "PA03",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "793800",
+   "pgm_ele_name": "SENSOR NETWORKS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><br />As we keep expanding our ability to acquire data the need to aggregate information collected at different devices in a single stream becomes ever more pressing. This project has advanced the state of the art in building algorithms to facilitate the aggregation of information in distributed networks composed of either cooperative or strategic agents:<br /><br /><strong>Cooperative agents.</strong> Algorithms have been developed to coordinate groups of sensors tasked with performing statistical estimation and optimization tasks. Of particular note are the development of methods to handle dynamic estimation problems and methods with convergence times smaller than existing alternatives. The latter include a distributed linearized version of the alternating direction method of multipliers (ADMM) as well as the introduction of accelerated dual descent (ADD). Distributed linearized ADMM uses a quadratic approximation to simplify the computations needed at each algorithmic step. ADD is a family of methods that rely on distributed approximations to Newton steps. These methods can be proven to have quadratic convergence phases and to perform well in practice.<br /><br /><strong>Strategic agents.</strong> Information aggregation problems where coordination is not enforced by rules but rather goaded by game incentives have also been considered. In this arena we have developed the Bayesian quadratic network game (QNG) filter that can be used to compute equilibrium strategies by agents of a distributed networks when game utilities are quadratic and agent signals are Gaussian. The QNG filter does not work in more complicated settings. In this situations our work has been about the characterization of asymptotic system properties. General imitation, consensus, and information aggregations results have been derived for submodular games.<br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/21/2014<br>\n\t\t\t\t\tModified by: Alejandro&nbsp;Ribeiro</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nAs we keep expanding our ability to acquire data the need to aggregate information collected at different devices in a single stream becomes ever more pressing. This project has advanced the state of the art in building algorithms to facilitate the aggregation of information in distributed networks composed of either cooperative or strategic agents:\n\nCooperative agents. Algorithms have been developed to coordinate groups of sensors tasked with performing statistical estimation and optimization tasks. Of particular note are the development of methods to handle dynamic estimation problems and methods with convergence times smaller than existing alternatives. The latter include a distributed linearized version of the alternating direction method of multipliers (ADMM) as well as the introduction of accelerated dual descent (ADD). Distributed linearized ADMM uses a quadratic approximation to simplify the computations needed at each algorithmic step. ADD is a family of methods that rely on distributed approximations to Newton steps. These methods can be proven to have quadratic convergence phases and to perform well in practice.\n\nStrategic agents. Information aggregation problems where coordination is not enforced by rules but rather goaded by game incentives have also been considered. In this arena we have developed the Bayesian quadratic network game (QNG) filter that can be used to compute equilibrium strategies by agents of a distributed networks when game utilities are quadratic and agent signals are Gaussian. The QNG filter does not work in more complicated settings. In this situations our work has been about the characterization of asymptotic system properties. General imitation, consensus, and information aggregations results have been derived for submodular games.\n\n\n\n\t\t\t\t\tLast Modified: 10/21/2014\n\n\t\t\t\t\tSubmitted by: Alejandro Ribeiro"
+ }
+}

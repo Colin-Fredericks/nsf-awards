@@ -1,0 +1,105 @@
+{
+ "awd_id": "1314885",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Option: Medium: Collaborative: Authenticated Ciphers",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Shannon Beck",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 233101.0,
+ "awd_amount": 233101.0,
+ "awd_min_amd_letter_date": "2013-09-06",
+ "awd_max_amd_letter_date": "2013-09-06",
+ "awd_abstract_narration": "OpenSSH reveals excerpts from encrypted login sessions. TLS (HTTPS) reveals encrypted PayPal account cookies. DTLS is no better. EAXprime allows instantaneous forgeries. RFID security has been broken again and again. All of these failures of confidentiality and integrity are failures of authenticated ciphers: algorithms that promise to encrypt and authenticate messages using a shared secret key.\r\n\r\nIt is easy to blame many of these security problems on a lack of education: much stronger authenticated ciphers have been in the literature for many years. However, in many cases these stronger authenticated ciphers fail to meet the performance requirements of the applications. Performance is exactly the motivation for RC4 in WEP; EAXprime in the \"Smart Grid\"; HB in RFID; and \"IPsec\" continuing to support unauthenticated encryption.\r\n\r\nThis project is building a new generation of authenticated ciphers that improve efficiency without compromising security and that improve security without compromising efficiency. This work spans seven main topics: more efficient ciphers; more efficient MACs; more efficient forgery rejection; improved protection against side channels; improved protection against misuse and bad luck; improved quantitative security; and improved security proofs. The ultimate objective is to obtain the best possible security subject to a variety of performance constraints specified by cryptographic users.\r\n\r\nThe high-security high-performance authenticated ciphers produced in this project will be directly and straightforwardly usable in cryptographic applications, avoiding the disasters in current applications and finally bringing secure secret-key cryptography from theory to practice.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Phillip",
+   "pi_last_name": "Rogaway",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Phillip Rogaway",
+   "pi_email_addr": "rogaway@cs.ucdavis.edu",
+   "nsf_id": "000470189",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Davis",
+  "inst_street_address": "1850 RESEARCH PARK DR STE 300",
+  "inst_street_address_2": "",
+  "inst_city_name": "DAVIS",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5307547700",
+  "inst_zip_code": "956186153",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "CA04",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, DAVIS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "TX2DAGQPENZ5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Davis",
+  "perf_str_addr": "One Shields Ave",
+  "perf_city_name": "Davis",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "956165270",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "CA04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 233101.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><div>\n<p><strong></strong>Authenticated encryption is used to simultaneously protect the <em>confidentiality</em> of some information and the <em>authenticity</em> of it. &nbsp;The former aim is that only the intended recipient should understand what was said. The latter aim means that the recipient of a piece of information should be able to determine, with certitude, where it came from.&nbsp; This pair of assurances are central to achieving security on the Internet. The are made possible by assuming that the sender and the receiver share some common key -- something like a high-quality password.</p>\n<p>Authenticated encryption emerged around 2000. At that point cryptographers began to recognize that the separate goals of privacy and authenticity could be profitably combined. By lumping them together we could get two advantages. The first is lowered cost: cryptographers discovered that it can be faster (or otherwise cheaper) to achieve a lumped-together privacy-and-authenticity than if we try to separately achieve privacy and authenticity. The second advantage is improved ease-of-use. By creating tools that guarantee more, and that better achieve the aspirational aims of users, problems of mechanism-misuse, which have plagued applied cryptography for decades, could be ameliorated.</p>\n</div>\n<p>As work on authenticated encryption progressed, a third advantage of the conception emerged: that practical problems which were formally invisible began to come into focus.&nbsp; Some of these new problems are variants on the original conception of authenticated encryption. For example, one could ask about achieving authenticated encryption that works when the transmission is conceptually unending, as when one streams a long video over the Internet. Or one could investigate authenticated encryption that works as well as possible even when the user messes up in manner that we know from experience to be common.</p>\n<p>The purpose of our research was to put forward some useful new kinds of authenticated encryption and to give a give a pragmatic but rigorous exploration of the costs of achieving each. To make this concrete, let us describe a single flavor of authenticated encryption that we invented and then achieved. Our notion of <em>robust </em>authenticated-encryption (RAE) unifies a variety of previous tools: block ciphers, tweakable block ciphers, wide-block and narrow-block block ciphers, format-preserving encryption, nonce-based authenticated encryption, and misuse-resistant authenticated-encryption.&nbsp; They all become special cases of a single definition.</p>\n<p>To encrypt with an RAE scheme, you feed in a key of any length, a plaintext (an input) of any length, some <em>associated data</em> (a non-secret value used to enable uncorrelated encryption operations with a single key), and a number L, the <em>expansion</em>, which can be any number, zero or more.&nbsp; What you get out is a <em>ciphertext</em> that is exactly L bits longer than the plaintext. The security notion for RAE captures that the encryption operation is reversible but, apart from that, behaves as though the output were uniformly random among all L-bit-expanding functions.</p>\n<p>While realizing RAE is tricky, we have been able to do so in a way that's about as efficient as one could reasonably hope for: the scheme we call AEZ runs at about the same speed as much weaker, off-the-shelf ways to encrypt (modes like \"counter mode\"). At the same time, we prove, under a formalized assumption, that AEZ does what we want it to do.&nbsp; In other words, the security benefit of RAE seems to come at almost no computational cost compared to what we are used to. The name \"AEZ\" is meant to suggest authenticated-encryption (AE) and ease of correct use (EZ).</p>\n<p>The above is one example of how we pushed the understanding of authenticated encryption under this project. Other investigations involved \"streaming\" authenticated encryption and authenticated encryption that aims to resist the attack of an adversary trying to steal the key that makes encryption work.</p>\n<p>Taken together, the findings of Bernstein, Gaj, Krovetz, and Rogaway illuminate the landscape of efficiency/security tradeoffs for authenticated encryption. That understanding enables improved privacy and security in a digital world.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/21/2019<br>\n\t\t\t\t\tModified by: Phillip&nbsp;Rogaway</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nAuthenticated encryption is used to simultaneously protect the confidentiality of some information and the authenticity of it.  The former aim is that only the intended recipient should understand what was said. The latter aim means that the recipient of a piece of information should be able to determine, with certitude, where it came from.  This pair of assurances are central to achieving security on the Internet. The are made possible by assuming that the sender and the receiver share some common key -- something like a high-quality password.\n\nAuthenticated encryption emerged around 2000. At that point cryptographers began to recognize that the separate goals of privacy and authenticity could be profitably combined. By lumping them together we could get two advantages. The first is lowered cost: cryptographers discovered that it can be faster (or otherwise cheaper) to achieve a lumped-together privacy-and-authenticity than if we try to separately achieve privacy and authenticity. The second advantage is improved ease-of-use. By creating tools that guarantee more, and that better achieve the aspirational aims of users, problems of mechanism-misuse, which have plagued applied cryptography for decades, could be ameliorated.\n\n\nAs work on authenticated encryption progressed, a third advantage of the conception emerged: that practical problems which were formally invisible began to come into focus.  Some of these new problems are variants on the original conception of authenticated encryption. For example, one could ask about achieving authenticated encryption that works when the transmission is conceptually unending, as when one streams a long video over the Internet. Or one could investigate authenticated encryption that works as well as possible even when the user messes up in manner that we know from experience to be common.\n\nThe purpose of our research was to put forward some useful new kinds of authenticated encryption and to give a give a pragmatic but rigorous exploration of the costs of achieving each. To make this concrete, let us describe a single flavor of authenticated encryption that we invented and then achieved. Our notion of robust authenticated-encryption (RAE) unifies a variety of previous tools: block ciphers, tweakable block ciphers, wide-block and narrow-block block ciphers, format-preserving encryption, nonce-based authenticated encryption, and misuse-resistant authenticated-encryption.  They all become special cases of a single definition.\n\nTo encrypt with an RAE scheme, you feed in a key of any length, a plaintext (an input) of any length, some associated data (a non-secret value used to enable uncorrelated encryption operations with a single key), and a number L, the expansion, which can be any number, zero or more.  What you get out is a ciphertext that is exactly L bits longer than the plaintext. The security notion for RAE captures that the encryption operation is reversible but, apart from that, behaves as though the output were uniformly random among all L-bit-expanding functions.\n\nWhile realizing RAE is tricky, we have been able to do so in a way that's about as efficient as one could reasonably hope for: the scheme we call AEZ runs at about the same speed as much weaker, off-the-shelf ways to encrypt (modes like \"counter mode\"). At the same time, we prove, under a formalized assumption, that AEZ does what we want it to do.  In other words, the security benefit of RAE seems to come at almost no computational cost compared to what we are used to. The name \"AEZ\" is meant to suggest authenticated-encryption (AE) and ease of correct use (EZ).\n\nThe above is one example of how we pushed the understanding of authenticated encryption under this project. Other investigations involved \"streaming\" authenticated encryption and authenticated encryption that aims to resist the attack of an adversary trying to steal the key that makes encryption work.\n\nTaken together, the findings of Bernstein, Gaj, Krovetz, and Rogaway illuminate the landscape of efficiency/security tradeoffs for authenticated encryption. That understanding enables improved privacy and security in a digital world.\n\n\t\t\t\t\tLast Modified: 06/21/2019\n\n\t\t\t\t\tSubmitted by: Phillip Rogaway"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1541043",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EarthCube IA: Collaborative Proposal: Optimal Data Layout for Scalable Geophysical Analysis in a Data-intensive Environment",
+ "cfda_num": "47.050",
+ "org_code": "06010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Eva Zanzerkia",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 332941.0,
+ "awd_amount": 332941.0,
+ "awd_min_amd_letter_date": "2015-09-08",
+ "awd_max_amd_letter_date": "2015-09-08",
+ "awd_abstract_narration": "Steady advance in remote sensing, satellite imaging, and computing technology has enabled scientists to study geophysical phenomena of unprecedented resolutions and complexity. Earth observation data generated from space-based satellites or ground-based radar and radiometer facilities are typically time-varying, and multivariate, and can take tera- or even peta-bytes of space to preserve and process. The common practice is to choose and transfer subsets of data from multiple data archive servers to local machines and then conduct data analysis tasks. However, this approach becomes increasingly unsustainable with an exponential growth of observation data size. It becomes an increasing severe problem that scientists can gain detailed observation data but lack suitable and scalable analysis capabilities to study the full extent of data. The team will work closely to develop, evaluate,and deploy the computer infrastructure to improve the performance and scalability of geophysical analysis for scientific discovery and education. By making the system available to other researchers, it will facilitate the development of new scalable solutions.Interactive geosciences applications will be used as an effective means to promote students interest in science and engineering studies, and to attract and retain students for geosciences community growth.\r\n\r\nThis research develops new techniques in support of scalable geophysical analysis in a data-intensive environment. The innovation and the basis of our technique approach are to develop an optimal data layout algorithm for indexing and placing massive heterogeneous observation data across distributed devices of a cluster. The new data layout is tailored to the spatial-temporal characteristics of Earth observation data, and can directly account for advanced compute techniques, including non-volatile storage resources and GPU- and Manycore-based computing nodes, and support high-throughput and high-resolution exploration of large-scale data. The long-term goal is to study theory and technology that enable scalable data management and analysis for the geosciences community.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "GEO",
+ "org_dir_long_name": "Directorate for Geosciences",
+ "div_abbr": "RISE",
+ "org_div_long_name": "Integrative and Collaborative Education and Research (ICER)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hongfeng",
+   "pi_last_name": "Yu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hongfeng Yu",
+   "pi_email_addr": "yu@cse.unl.edu",
+   "nsf_id": "000621545",
+   "pi_start_date": "2015-09-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Nebraska-Lincoln",
+  "inst_street_address": "2200 VINE ST # 830861",
+  "inst_street_address_2": "",
+  "inst_city_name": "LINCOLN",
+  "inst_state_code": "NE",
+  "inst_state_name": "Nebraska",
+  "inst_phone_num": "4024723171",
+  "inst_zip_code": "685032427",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NE01",
+  "org_lgl_bus_name": "BOARD OF REGENTS OF THE UNIVERSITY OF NEBRASKA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HTQ6K6NJFHA6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Nebraska-Lincoln",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NE",
+  "perf_st_name": "Nebraska",
+  "perf_zip_code": "685880430",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NE01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "807400",
+   "pgm_ele_name": "EarthCube"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 332941.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Earth Science data obtained from diverse sources have been routinely leveraged by scientists to study various phenomena. The principal data sources include observations and model simulation outputs. These data are characterized by spatiotemporal heterogeneity originating from different instrument design specifications and/or computational model requirements that are preserved in data generation processes. Such inherent heterogeneity poses several challenges in exploring and analyzing geoscience data. In this project, we have developed optimal data layout solutions for indexing and placing massive heterogeneous observation data across distributed devices of a cluster. The new data layout is tailored to the spatiotemporal characteristics of Earth Science data, and is able to readily facilitate advanced compute techniques and support scalable geophysical analysis for the geoscience communities. We have made the following main contributions.</p>\n<p>(1) We evaluated the existing representative loosely coupled approaches (exemplified by Spark and Hadoop) and tightly coupled approaches (exemplified by SciDB) for large-scale geophysical analysis operations.</p>\n<p>(2) We developed a unified data model and an indexing method, named the SpatioTemporal Adaptive-Resolution Encoding (STARE), for diverse, heterogeneous Earth datasets and, thus, for spatiotemporal co-alignment and co-location of data chunk in a distributed environment. With the generality of unifying at least the three popular geospatial data models, i.e. Grid, Swath, and Point, used in current Earth Science data products, data preparation time for interactive analysis of diverse datasets can be drastically reduced, achieving unparalleled variety scaling.</p>\n<p>(3) We integrated our innovations on data modeling and indexing in a prototype distributed platform capable of supporting rapid response visual analytics with a high-level graphical browser user interface.</p>\n<p>(4) We have presented new and effective implementations of representative analysis operations, including connected component labeling and feature extraction and tracking, that have achieved scalable performance for large geophysical data in our new distributed environment.</p>\n<p>(5) We have studied to make our STARE indexing and optimal distributed data layout techniques become more deployable and practical for geoscientists through SciDB, the scientific database management system, as well as HDF/NetCDF, the standard data file formats.</p>\n<p>We disseminated these new techniques through peer-reviewed journal and conference papers in premier venues. We have employed part of our innovations in a prototype platform <a href=\"http://odl.unl.edu\">http://odl.unl.edu</a> in support of interactive visual analytics for large-scale heterogeneous Earth Science data. The project has partially supported graduate students and research fellows to train them on conducting cutting-edge research, writing technical papers, and giving presentations.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/23/2019<br>\n\t\t\t\t\tModified by: Hongfeng&nbsp;Yu</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nEarth Science data obtained from diverse sources have been routinely leveraged by scientists to study various phenomena. The principal data sources include observations and model simulation outputs. These data are characterized by spatiotemporal heterogeneity originating from different instrument design specifications and/or computational model requirements that are preserved in data generation processes. Such inherent heterogeneity poses several challenges in exploring and analyzing geoscience data. In this project, we have developed optimal data layout solutions for indexing and placing massive heterogeneous observation data across distributed devices of a cluster. The new data layout is tailored to the spatiotemporal characteristics of Earth Science data, and is able to readily facilitate advanced compute techniques and support scalable geophysical analysis for the geoscience communities. We have made the following main contributions.\n\n(1) We evaluated the existing representative loosely coupled approaches (exemplified by Spark and Hadoop) and tightly coupled approaches (exemplified by SciDB) for large-scale geophysical analysis operations.\n\n(2) We developed a unified data model and an indexing method, named the SpatioTemporal Adaptive-Resolution Encoding (STARE), for diverse, heterogeneous Earth datasets and, thus, for spatiotemporal co-alignment and co-location of data chunk in a distributed environment. With the generality of unifying at least the three popular geospatial data models, i.e. Grid, Swath, and Point, used in current Earth Science data products, data preparation time for interactive analysis of diverse datasets can be drastically reduced, achieving unparalleled variety scaling.\n\n(3) We integrated our innovations on data modeling and indexing in a prototype distributed platform capable of supporting rapid response visual analytics with a high-level graphical browser user interface.\n\n(4) We have presented new and effective implementations of representative analysis operations, including connected component labeling and feature extraction and tracking, that have achieved scalable performance for large geophysical data in our new distributed environment.\n\n(5) We have studied to make our STARE indexing and optimal distributed data layout techniques become more deployable and practical for geoscientists through SciDB, the scientific database management system, as well as HDF/NetCDF, the standard data file formats.\n\nWe disseminated these new techniques through peer-reviewed journal and conference papers in premier venues. We have employed part of our innovations in a prototype platform http://odl.unl.edu in support of interactive visual analytics for large-scale heterogeneous Earth Science data. The project has partially supported graduate students and research fellows to train them on conducting cutting-edge research, writing technical papers, and giving presentations.\n\n \n\n\t\t\t\t\tLast Modified: 12/23/2019\n\n\t\t\t\t\tSubmitted by: Hongfeng Yu"
+ }
+}

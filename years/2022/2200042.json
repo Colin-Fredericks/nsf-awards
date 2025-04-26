@@ -1,0 +1,101 @@
+{
+ "awd_id": "2200042",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: CNS Core: Small: From Capture to Consumption: System Challenges in Pervasive 360-Degree Video Sharing",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jason Hallstrom",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 249999.0,
+ "awd_amount": 238545.0,
+ "awd_min_amd_letter_date": "2021-11-30",
+ "awd_max_amd_letter_date": "2021-11-30",
+ "awd_abstract_narration": "360-degree video allows users to explore a recorded scene at any angle from the camera position. This greater flexibility provided by the 360-degree video format has led to its increased popularity. However, widespread adoption has slowed because of the large amounts of resources required by the format. This work proposes methods to improve efficiency at each stage of the 360-degree video sharing path, from video capture at the sender side to consumption at the receiver side. \r\n\r\nThe project addresses these challenges via four research thrusts. The first thrust explores approaches for generating high-quality frames during real-time stitching of multiple videos captured using commodity lenses. The proposed approach applies gradient decent to refine an initial rough stitching. The second thrust investigates mechanisms to spatially adapt content to be uploaded based on the available bandwidth. The third thrust aims to optimize the fine-grained representation of omnidirectional content to achieve high projection efficiency and view efficiency. The last thrust uses edge computing techniques to optimize the look-ahead window size on the receiver side to allow bandwidth-efficient content downloading.\r\n\r\nThe techniques developed during the course of the project will allow users to enjoy more efficient 360-degree video streaming applications. These techniques are not only applicable to 360-degree video streaming but will also have applications in future generations of virtual reality (VR) technologies. The project will also motivate general student interest in computer science research, directly train students during the course of the project\u2019s research, and contribute to curriculum development. \r\n\r\nThe project will produce publications, code, data, and other research artifacts. All such artifacts will be made available publicly through the URLs http://www.cs.gmu.edu/~sqchen/ and http://www.cs.binghamton.edu/~yaoliu/ during the course of the project and remain available for at least five years after completion of the project. The code will be open sourced and will also be made available at code hosting website, e.g., GitHub.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yao",
+   "pi_last_name": "Liu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yao Liu",
+   "pi_email_addr": "yao.liu@rutgers.edu",
+   "nsf_id": "000663678",
+   "pi_start_date": "2021-11-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rutgers University New Brunswick",
+  "inst_street_address": "3 RUTGERS PLZ",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW BRUNSWICK",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "8489320150",
+  "inst_zip_code": "089018559",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "RUTGERS, THE STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "M1LVPE5GLSD9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rutgers University New Brunswick",
+  "perf_str_addr": "33 Knightsbridge Road",
+  "perf_city_name": "Piscataway",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "088543925",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "NJ06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 238545.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Immersive applications, such as 360-degree video and virtual reality/augmented reality (VR/AR) streaming, promise to be the next killer applications on the Internet in various areas, including transportation, manufacturing, education and entertainment, public safety, and emergency responses, etc. However, generating, processing, delivering, and consuming such immersive content pose unprecedented challenges in the current practice due to a number of obstacles, ranging from high bandwidth demand to the high computing cost.&nbsp;</p>\r\n<p>This award has enabled research that explored these critical problems, leading to the design and implementation of various novel and effective solutions to address them. To improve the quality of videos stitched from frames captured from multiple video cameras, we have designed a learning-based dual-fisheye video stitching method that can gradually improve the alignment accuracy when processing 360-degree videos recorded live. To more efficiently generate and process spherical content that is widely used in VR/AR applications, we have explored new designs based on spherical autoencoder and spherical super-resolution to speed up the content processing. To address the high network bandwidth requirements, we have designed and implemented a system that performs edge-based video delivery to clients with salience-aware super-resolution. This system efficiently uses the edge computing resources by applying deep-learning-based super-resolution to selected areas on the video frame that are more likely to attract the user's attention, while the remaining areas in the same video frame are upscaled via the simple and efficient bicubic interpolation.&nbsp;</p>\r\n<p>The research supported by this award has resulted in peer-reviewed publications at conferences, workshops, and journal, including ACM Multimedia Conference (MM), ACM Multimedia Systems Conference (MMSys), ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), etc. We have presented our results at various international conferences and workshops. Two PhD students were supported partially by this award. They worked closely with the PI on research activities and participated in regular research meetings and mentoring sessions. Through their participation in this project, they received comprehensive training and gained invaluable research experience.&nbsp;</p>\r\n<p>Artifacts produced from the project, including software code and dataset, have been made publicly available on the PI's research group's GitHub organization: https://github.com/symmru.</p><br>\n<p>\n Last Modified: 01/27/2025<br>\nModified by: Yao&nbsp;Liu</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nImmersive applications, such as 360-degree video and virtual reality/augmented reality (VR/AR) streaming, promise to be the next killer applications on the Internet in various areas, including transportation, manufacturing, education and entertainment, public safety, and emergency responses, etc. However, generating, processing, delivering, and consuming such immersive content pose unprecedented challenges in the current practice due to a number of obstacles, ranging from high bandwidth demand to the high computing cost.\r\n\n\nThis award has enabled research that explored these critical problems, leading to the design and implementation of various novel and effective solutions to address them. To improve the quality of videos stitched from frames captured from multiple video cameras, we have designed a learning-based dual-fisheye video stitching method that can gradually improve the alignment accuracy when processing 360-degree videos recorded live. To more efficiently generate and process spherical content that is widely used in VR/AR applications, we have explored new designs based on spherical autoencoder and spherical super-resolution to speed up the content processing. To address the high network bandwidth requirements, we have designed and implemented a system that performs edge-based video delivery to clients with salience-aware super-resolution. This system efficiently uses the edge computing resources by applying deep-learning-based super-resolution to selected areas on the video frame that are more likely to attract the user's attention, while the remaining areas in the same video frame are upscaled via the simple and efficient bicubic interpolation.\r\n\n\nThe research supported by this award has resulted in peer-reviewed publications at conferences, workshops, and journal, including ACM Multimedia Conference (MM), ACM Multimedia Systems Conference (MMSys), ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), etc. We have presented our results at various international conferences and workshops. Two PhD students were supported partially by this award. They worked closely with the PI on research activities and participated in regular research meetings and mentoring sessions. Through their participation in this project, they received comprehensive training and gained invaluable research experience.\r\n\n\nArtifacts produced from the project, including software code and dataset, have been made publicly available on the PI's research group's GitHub organization: https://github.com/symmru.\t\t\t\t\tLast Modified: 01/27/2025\n\n\t\t\t\t\tSubmitted by: YaoLiu\n"
+ }
+}

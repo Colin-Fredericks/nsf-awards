@@ -1,0 +1,105 @@
+{
+ "awd_id": "1525936",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:  Small:   Driving Learning for Program Verification",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 463706.0,
+ "awd_amount": 463706.0,
+ "awd_min_amd_letter_date": "2015-06-24",
+ "awd_max_amd_letter_date": "2015-06-24",
+ "awd_abstract_narration": "Program verification has broad applications, from ensuring safety of mission-critical software to improving program robustness and programmer productivity. Automatic program verification techniques employ various forms of learning to enhance scalability on large programs. These include deductive learning in modern logic-based solvers and learning from counterexamples in abstraction refinement procedures. Modular verification is essential for scaling verification to large software, and concurrent program verification is critical due to the wide prevalence of multi-core hardware. \r\n\r\nThis project develops techniques for learning inductive invariants for modular verification in a teacher-learner setting. The research objectives include studying suitable languages of invariants at procedure boundaries, identifying requirements for progress in learning, and developing effective techniques for guiding the learner. The project also addresses verification of concurrent programs, where learning over different event sequences is performed by dynamic and predictive analysis over program traces. The goal is to drive the learning toward unexplored program behaviors by automatically generating test inputs. The research objectives include studying new trace abstractions and coverage metrics for concurrent programs, and developing techniques for coverage-guided test generation. The methods for driving learning include directed testing to target specific scenarios relevant for learning. Beyond these specific contributions, the results will provide insights on applying machine learning techniques in combination with static and dynamic analysis for advancing program verification. The project includes development of educational material, tools, and benchmarks that will be made publicly available.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Aarti",
+   "pi_last_name": "Gupta",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Aarti Gupta",
+   "pi_email_addr": "aartig@princeton.edu",
+   "nsf_id": "000689816",
+   "pi_start_date": "2015-06-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Princeton University",
+  "inst_street_address": "1 NASSAU HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "PRINCETON",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "6092583090",
+  "inst_zip_code": "085442001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "THE TRUSTEES OF PRINCETON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NJ1YPQXQG7U5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": "87 Prospect Avenue",
+  "perf_city_name": "Princeton",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085442020",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 463706.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Program verification has broad applications, from ensuring safety of mission-critical software to improving program robustness and programmer productivity. Automatic program verification techniques employ various forms of learning -- in logic solvers, in algorithmic verification procedures, on program data. This project investigated the use of learning frameworks in different applications, where effective techniques are used to guide the learner to improve performance and scalability of verification.</p>\n<p>The first set of results are in learning <em>inductive invariants</em> for various applications. An important application is to prove whether a given program always terminates, or finding a situation where it does not terminate. The project contributed techniques for guided guessing of invariant candidates, which were then checked by a standard verifier. This is an instance of syntax-guided synthesis of invariants, where the learner proposed candidates using a grammar based on the syntax of the program. This significantly improved performance in comparison to existing tools. Another challenging application is in finding invariants to prove correctness of programs with multiple loops and arrays. A series of new techniques were proposed to enhance the grammars with data (from program executions) and other generalizations to find quantified invariants (whereas existing tools generate quantifier-free invariants). Another instance of a grammar-based approach was used for synthesis of new lemmas to automate induction on algebraic data types in a theorem-prover.</p>\n<p>The second set of results are in applying learning to improve <em>modular</em> verification, where verification is performed on smaller components instead of on a large monolithic model. One application is in generating procedure summaries to verify interprocedural recursive programs. Here, lemmas of a special form are learned that relate the summaries of procedures on call paths in the program. This allows handling of mutually recursive procedures (on which current methods perform poorly). Another set of applications targets relational programs, where copies of the same program or different programs are composed together. Here, new techniques were developed for lazy self-composition for security verification, and for leveraging symmetry in verifying k-copies of programs. New techniques were also developed for modular hardware verification, where a low-level implementation is verified against a high-level specification. A common practice is to manually provide environment invariants so that checking is done on only consistent states in the implementation. Instead, these environment environments were discovered automatically in a new approach that uses counterexamples to equivalence and grammars that leverage insights based on separation of control and data state in hardware designs.</p>\n<p>The third set of results are in applications in <em>security</em> <em>verification</em> and <em>network verification</em>, some of which involved concurrent and distributed programs. The project contributed a novel trace-based analysis approach for diagnosing malware attacks. This uses low-level memory access traces from normal runs and from malicious runs of the program to automatically identify the memory accesses that are specific to attacks, and then relates them to the program source code using a localization method. This combines the scalability of statistical methods for detecting malware attacks in traces with the diagnosis capabilities of static/dynamic program analysis.</p>\n<p>For verifying distributed network configurations, the first technique developed logic-based models of the configurations and the network topology. The novelty is that these logic models capture the stable states to which the network forwarding converges due to routing protocols such as OSPF, BGP, and static routes. Then queries on these models are solved by an SMT (Satisfiability Modulo Theory) solver to check a wide range of properties such as reachability between nodes, isolation among nodes, black holes, functional equivalence of routers, and fault-tolerance. To further improve the scalability of SMT-based verification, the second technique developed a new logic-based theory of network control plane equivalence, which is used to derive sound network abstractions that provide significant compression in size while preserving correctness of many properties of interest.</p>\n<p>Overall, the key outcomes of this project include twelve research papers published in leading conferences (CAV, VMCAI, FMCAD, CP, SIGCOMM). Five prototype tools have been made publicly available, along with new benchmark examples. The material was disseminated at conference presentations, two invited talks, and an in-depth tutorial at a winter school.</p>\n<p>Among the educational outcomes, the project provided partial support for the PhD research of two graduate students and mentorship for one post-doctoral fellow. The project also contributed to development of a new graduate-level course by the PI on automated software verification, which attracts graduate students (from the areas of programming languages, networks, computer architecture, systems, machine learning) as well as undergraduate students.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/29/2019<br>\n\t\t\t\t\tModified by: Aarti&nbsp;Gupta</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nProgram verification has broad applications, from ensuring safety of mission-critical software to improving program robustness and programmer productivity. Automatic program verification techniques employ various forms of learning -- in logic solvers, in algorithmic verification procedures, on program data. This project investigated the use of learning frameworks in different applications, where effective techniques are used to guide the learner to improve performance and scalability of verification.\n\nThe first set of results are in learning inductive invariants for various applications. An important application is to prove whether a given program always terminates, or finding a situation where it does not terminate. The project contributed techniques for guided guessing of invariant candidates, which were then checked by a standard verifier. This is an instance of syntax-guided synthesis of invariants, where the learner proposed candidates using a grammar based on the syntax of the program. This significantly improved performance in comparison to existing tools. Another challenging application is in finding invariants to prove correctness of programs with multiple loops and arrays. A series of new techniques were proposed to enhance the grammars with data (from program executions) and other generalizations to find quantified invariants (whereas existing tools generate quantifier-free invariants). Another instance of a grammar-based approach was used for synthesis of new lemmas to automate induction on algebraic data types in a theorem-prover.\n\nThe second set of results are in applying learning to improve modular verification, where verification is performed on smaller components instead of on a large monolithic model. One application is in generating procedure summaries to verify interprocedural recursive programs. Here, lemmas of a special form are learned that relate the summaries of procedures on call paths in the program. This allows handling of mutually recursive procedures (on which current methods perform poorly). Another set of applications targets relational programs, where copies of the same program or different programs are composed together. Here, new techniques were developed for lazy self-composition for security verification, and for leveraging symmetry in verifying k-copies of programs. New techniques were also developed for modular hardware verification, where a low-level implementation is verified against a high-level specification. A common practice is to manually provide environment invariants so that checking is done on only consistent states in the implementation. Instead, these environment environments were discovered automatically in a new approach that uses counterexamples to equivalence and grammars that leverage insights based on separation of control and data state in hardware designs.\n\nThe third set of results are in applications in security verification and network verification, some of which involved concurrent and distributed programs. The project contributed a novel trace-based analysis approach for diagnosing malware attacks. This uses low-level memory access traces from normal runs and from malicious runs of the program to automatically identify the memory accesses that are specific to attacks, and then relates them to the program source code using a localization method. This combines the scalability of statistical methods for detecting malware attacks in traces with the diagnosis capabilities of static/dynamic program analysis.\n\nFor verifying distributed network configurations, the first technique developed logic-based models of the configurations and the network topology. The novelty is that these logic models capture the stable states to which the network forwarding converges due to routing protocols such as OSPF, BGP, and static routes. Then queries on these models are solved by an SMT (Satisfiability Modulo Theory) solver to check a wide range of properties such as reachability between nodes, isolation among nodes, black holes, functional equivalence of routers, and fault-tolerance. To further improve the scalability of SMT-based verification, the second technique developed a new logic-based theory of network control plane equivalence, which is used to derive sound network abstractions that provide significant compression in size while preserving correctness of many properties of interest.\n\nOverall, the key outcomes of this project include twelve research papers published in leading conferences (CAV, VMCAI, FMCAD, CP, SIGCOMM). Five prototype tools have been made publicly available, along with new benchmark examples. The material was disseminated at conference presentations, two invited talks, and an in-depth tutorial at a winter school.\n\nAmong the educational outcomes, the project provided partial support for the PhD research of two graduate students and mentorship for one post-doctoral fellow. The project also contributed to development of a new graduate-level course by the PI on automated software verification, which attracts graduate students (from the areas of programming languages, networks, computer architecture, systems, machine learning) as well as undergraduate students.\n\n \n\n\t\t\t\t\tLast Modified: 11/29/2019\n\n\t\t\t\t\tSubmitted by: Aarti Gupta"
+ }
+}

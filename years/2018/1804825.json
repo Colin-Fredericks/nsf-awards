@@ -1,0 +1,96 @@
+{
+ "awd_id": "1804825",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Consistent models for large eddy simulation on anisotropic grids",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": "7032927030",
+ "po_email": "rjoslin@nsf.gov",
+ "po_sign_block_name": "Ron Joslin",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2022-05-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2018-05-15",
+ "awd_max_amd_letter_date": "2018-05-15",
+ "awd_abstract_narration": "Turbulence is an important phenomenon in many natural and man-made systems. Our ability to make accurate predictions of turbulent flows is important in a wide range of scientific and engineering disciplines, including atmospheric flows, aerospace, naval, automotive, wind and nuclear energy, etc. In all these fields, we rely on supercomputers to 'simulate' turbulence in order to predict tomorrow's weather, the lift and drag of a future airplane design, and so on. These types of turbulence simulations solve a set of mathematical equations on a grid of smaller cells. In the vast majority of applications, these cells are anisotropic, i.e., they have different lengths in different directions. In contrast, the vast majority of the underlying mathematical and physical theory upon which these turbulence simulations are based was developed for the assumption of isotropic (i.e., perfectly cubic) cells. This project is aimed at reconciling this gap, which is expected to lead to more accurate and trustworthy turbulence simulations across the wide range of disciplines in which they are used.\r\n\r\nThe goal of this project is to develop models for turbulence-resolving simulations (mainly, large eddy simulations) that behave consistently and accurately on anisotropic grids. Consistency is defined here as having the right behavior in the limits of increasing anisotropies, while accuracy is defined as making effective and efficient use of the given grid resolution. Models of both eddy-viscosity and tensorial forms will be considered. A key component of the project is to perform a comprehensive and conclusive assessment of how different grid anisotropies affect the accuracy, and to communicate this to developers and practitioners in the field. This should raise awareness and hopefully stimulate further work throughout the field, beyond the planned model developments in the present project. The assessment will be performed on multiple canonical flows, including channel flow, a temporally developing mixing layer, and a transitional boundary layer. Crucially, the assessment will be performed using three different numerical codes, to ensure the robustness of the findings and avoid code-specific conclusions.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Johan",
+   "pi_last_name": "Larsson",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Johan Larsson",
+   "pi_email_addr": "jola@umd.edu",
+   "nsf_id": "000642070",
+   "pi_start_date": "2018-05-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Maryland, College Park",
+  "inst_street_address": "3112 LEE BUILDING",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE PARK",
+  "inst_state_code": "MD",
+  "inst_state_name": "Maryland",
+  "inst_phone_num": "3014056269",
+  "inst_zip_code": "207425100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "MD04",
+  "org_lgl_bus_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+  "org_prnt_uei_num": "NPU8ULVAAS23",
+  "org_uei_num": "NPU8ULVAAS23"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Maryland College Park",
+  "perf_str_addr": "3112 Lee Bldg 7809 Regents Drive",
+  "perf_city_name": "College Park",
+  "perf_st_code": "MD",
+  "perf_st_name": "Maryland",
+  "perf_zip_code": "207425141",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "MD04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "144300",
+   "pgm_ele_name": "FD-Fluid Dynamics"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>This project was aimed at developing subgrid models for large eddy simulation (LES) of turbulent flows that behave consistently and accurately on anisotropic grids.&nbsp;</span>The basic motivation behind the project was the dichotomy between how most LES models were derived (with implicitly assumed isotropy of the filter-width and/or grid) and how they are generally applied in practice (essentially always on highly anisotropic grids).</p>\n<p>The first step of the project was a comprehensive assessment of several existing LES subgrid models and how they are affected by grid anisotropy. This was done by creating a sequence of grids with both \"pancake\"- and \"pencil\"-like cells (i.e., refined in 1 or 2 directions, respectively), ranging from fully isotropic grids to rather extreme anisotropy. This was done both for forced isotropic turbulence and for turbulent channel flow. Some key cases were computed using two different codes. The assessment was published as Schumann et al (AIAA Journal, 2020), with the main conclusion that no existing subgrid model is truly robust to the grid anisotropy.</p>\n<p>Following this conclusion, work continued along two separate paths. In one path, a new subgrid model was developed specifically with robustness to anisotropy as the main objective. This model was tested on the same flows, and found to be a slight improvement over the existing state-of-the-art. In a second path, the conclusion that all subgrid models are affected by grid anisotropy implies that the LES community needs to focus more on how the grids are generated. Specifically, a new approach to grid-adaptation in LES was developed, that attempts to find both the optimal size and the optimal anisotropy of the LES grid. This was published as Toosi and Larsson (Computers and Fluids, 2020).</p>\n<p>The technical impact of the work is the increased knowledge about how anisotropic grids affect the accuracy and reliability of a large eddy simulation of turbulence, and how this can be improved through better subgrid models and (primarily) adaptive approaches to grid-generation. This will be particularly important in practical applications where grids with particularly strong anisotropies are frequently used.</p>\n<p>The project helped support the development of a brief teaching module on the effect of grid anisotropy in LES, which was used in a continuing education course during the period of the project; it will be used again in planned similar events during the immediate future.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/02/2022<br>\n\t\t\t\t\tModified by: Johan&nbsp;Larsson</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project was aimed at developing subgrid models for large eddy simulation (LES) of turbulent flows that behave consistently and accurately on anisotropic grids. The basic motivation behind the project was the dichotomy between how most LES models were derived (with implicitly assumed isotropy of the filter-width and/or grid) and how they are generally applied in practice (essentially always on highly anisotropic grids).\n\nThe first step of the project was a comprehensive assessment of several existing LES subgrid models and how they are affected by grid anisotropy. This was done by creating a sequence of grids with both \"pancake\"- and \"pencil\"-like cells (i.e., refined in 1 or 2 directions, respectively), ranging from fully isotropic grids to rather extreme anisotropy. This was done both for forced isotropic turbulence and for turbulent channel flow. Some key cases were computed using two different codes. The assessment was published as Schumann et al (AIAA Journal, 2020), with the main conclusion that no existing subgrid model is truly robust to the grid anisotropy.\n\nFollowing this conclusion, work continued along two separate paths. In one path, a new subgrid model was developed specifically with robustness to anisotropy as the main objective. This model was tested on the same flows, and found to be a slight improvement over the existing state-of-the-art. In a second path, the conclusion that all subgrid models are affected by grid anisotropy implies that the LES community needs to focus more on how the grids are generated. Specifically, a new approach to grid-adaptation in LES was developed, that attempts to find both the optimal size and the optimal anisotropy of the LES grid. This was published as Toosi and Larsson (Computers and Fluids, 2020).\n\nThe technical impact of the work is the increased knowledge about how anisotropic grids affect the accuracy and reliability of a large eddy simulation of turbulence, and how this can be improved through better subgrid models and (primarily) adaptive approaches to grid-generation. This will be particularly important in practical applications where grids with particularly strong anisotropies are frequently used.\n\nThe project helped support the development of a brief teaching module on the effect of grid anisotropy in LES, which was used in a continuing education course during the period of the project; it will be used again in planned similar events during the immediate future.\n\n\t\t\t\t\tLast Modified: 09/02/2022\n\n\t\t\t\t\tSubmitted by: Johan Larsson"
+ }
+}

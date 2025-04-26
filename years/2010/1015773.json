@@ -1,0 +1,109 @@
+{
+ "awd_id": "1015773",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "EAPSI:  Automated Refactoring of Legacy Java Frameworks to Annotation Types",
+ "cfda_num": "47.079",
+ "org_code": "01090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anne Emig",
+ "awd_eff_date": "2010-06-01",
+ "awd_exp_date": "2011-05-31",
+ "tot_intn_awd_amt": 5617.0,
+ "awd_amount": 5617.0,
+ "awd_min_amd_letter_date": "2010-06-04",
+ "awd_max_amd_letter_date": "2010-06-04",
+ "awd_abstract_narration": null,
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OISE",
+ "org_div_long_name": "Office of International Science and Engineering",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Raffi",
+   "pi_last_name": "Khatchadourian",
+   "pi_mid_init": "T",
+   "pi_sufx_name": "",
+   "pi_full_name": "Raffi T Khatchadourian",
+   "pi_email_addr": "",
+   "nsf_id": "000549474",
+   "pi_start_date": "2010-06-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Khatchadourian          Raffi          T",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "Columbus",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "",
+  "inst_zip_code": "432355552",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "Khatchadourian          Raffi          T",
+  "perf_str_addr": "",
+  "perf_city_name": "Columbus",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432355552",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "731600",
+   "pgm_ele_name": "EAPSI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5921",
+   "pgm_ref_txt": "JAPAN"
+  },
+  {
+   "pgm_ref_code": "5978",
+   "pgm_ref_txt": "EAST ASIA AND PACIFIC PROGRAM"
+  },
+  {
+   "pgm_ref_code": "7316",
+   "pgm_ref_txt": "EAPSI"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 5617.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>My current research deals with issues related to evolving the source code of large and complex software systems. For my JSPS summer project, Mr. Masuhara and I have specifically focused on software evolution issues for programs written in Aspect-Oriented programming languages. Aspect-Oriented programming languages help software developers encapsulate source code that would normally be scattered and tangled throughout many software modules due to the nature of the software&rsquo;s requirements. Such languages facilitate so-called localized reasoning of programs as developers need only to look at a single location of the software system to understand code that affects many parts of the system. This kind of reasoning allows developers to easily change code that, for example, enforces systemwide policies in a single location. On the same note, developers can reason about the core functionality of their systems without concerning themselves with code that affects the entire system.</p>\n<p>Although building software systems using an Aspect-Oriented programming language can be beneficial to developers in many ways, such systems have potential for new problems unique to these languages. A key construct that allows code to be situated in a single location but affect many system modules is a query-like expression called a pointcut. Pointcuts specify well-defined locations in the execution of the program where the code is to be executed. However, as the source code changes and as new functionality is added to the system, pointcuts may become invalidated. That is, they may fail to capture or inadvertently capture new places in the program&rsquo;s execution. Worse, these errors may go silently undetected in large and complex software systems. The result is that the software product may not function correctly, and the root of the problem may be difficult to discover.</p>\n<p>Dr. Masuhara and I have created an approach that detects pointcuts that may have become invalidated as software changes. These possibly invalidated pointcuts are subsequently presented to the developer. Along with the pointcut, we associate a degree of confidence, called the change confidence, that we have in the pointcut becoming invalidated given a particular change to the program. Pointcuts with a high change confidence value are presented in the programer&rsquo;s development environment with more emphasis than pointcuts with a lower change confidence value. This ensures that the developer is only alerted when there is a high probability of the pointcut being invalidated. Our approach will enable developers to discover problematic pointcuts early in the development process so that they may be fixed before causing the software to malfunction.</p>\n<p>Under the program, we have completed a publically available prototype implementation of a tool that realizes our approach. The tool's source code can be downloaded at&nbsp;http://code.google.com/a/eclipselabs.org/p/fraglight.&nbsp;It works as a plug-in to a popular integrated developer&rsquo;s environment (programmers&rsquo; workbench, software that helps developers write programs). We have designed and executed a thorough evaluation to assess the usefulness of our tool in real-world situations. This entailed collecting historical data pertaining to how developers change Aspect-Oriented software from a variety of sources. Particularly, we collected and analyzed data that suggests which program changes lead to invalidated pointcuts in real-world software. Not only do these results have potential to helpi developers evolve software written in Aspect-Oriented programming languages, the tool may also foster future research in this area.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/31/2011<br>\n\t\t\t\t\tModified by: Raffi&nbsp;T&nbsp;Khatchadourian</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMy current research deals with issues related to evolving the source code of large and complex software systems. For my JSPS summer project, Mr. Masuhara and I have specifically focused on software evolution issues for programs written in Aspect-Oriented programming languages. Aspect-Oriented programming languages help software developers encapsulate source code that would normally be scattered and tangled throughout many software modules due to the nature of the software\u2019s requirements. Such languages facilitate so-called localized reasoning of programs as developers need only to look at a single location of the software system to understand code that affects many parts of the system. This kind of reasoning allows developers to easily change code that, for example, enforces systemwide policies in a single location. On the same note, developers can reason about the core functionality of their systems without concerning themselves with code that affects the entire system.\n\nAlthough building software systems using an Aspect-Oriented programming language can be beneficial to developers in many ways, such systems have potential for new problems unique to these languages. A key construct that allows code to be situated in a single location but affect many system modules is a query-like expression called a pointcut. Pointcuts specify well-defined locations in the execution of the program where the code is to be executed. However, as the source code changes and as new functionality is added to the system, pointcuts may become invalidated. That is, they may fail to capture or inadvertently capture new places in the program\u2019s execution. Worse, these errors may go silently undetected in large and complex software systems. The result is that the software product may not function correctly, and the root of the problem may be difficult to discover.\n\nDr. Masuhara and I have created an approach that detects pointcuts that may have become invalidated as software changes. These possibly invalidated pointcuts are subsequently presented to the developer. Along with the pointcut, we associate a degree of confidence, called the change confidence, that we have in the pointcut becoming invalidated given a particular change to the program. Pointcuts with a high change confidence value are presented in the programer\u2019s development environment with more emphasis than pointcuts with a lower change confidence value. This ensures that the developer is only alerted when there is a high probability of the pointcut being invalidated. Our approach will enable developers to discover problematic pointcuts early in the development process so that they may be fixed before causing the software to malfunction.\n\nUnder the program, we have completed a publically available prototype implementation of a tool that realizes our approach. The tool's source code can be downloaded at http://code.google.com/a/eclipselabs.org/p/fraglight. It works as a plug-in to a popular integrated developer\u2019s environment (programmers\u2019 workbench, software that helps developers write programs). We have designed and executed a thorough evaluation to assess the usefulness of our tool in real-world situations. This entailed collecting historical data pertaining to how developers change Aspect-Oriented software from a variety of sources. Particularly, we collected and analyzed data that suggests which program changes lead to invalidated pointcuts in real-world software. Not only do these results have potential to helpi developers evolve software written in Aspect-Oriented programming languages, the tool may also foster future research in this area.\n\n \n\n\t\t\t\t\tLast Modified: 08/31/2011\n\n\t\t\t\t\tSubmitted by: Raffi T Khatchadourian"
+ }
+}

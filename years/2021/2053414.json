@@ -1,0 +1,105 @@
+{
+ "awd_id": "2053414",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Fusing Massive Disparate Data and Fast Surrogate Models for Probabilistic Quantification of Uncertain Hazards",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032927299",
+ "po_email": "yzeng@nsf.gov",
+ "po_sign_block_name": "Yong Zeng",
+ "awd_eff_date": "2021-07-01",
+ "awd_exp_date": "2024-06-30",
+ "tot_intn_awd_amt": 50000.0,
+ "awd_amount": 50000.0,
+ "awd_min_amd_letter_date": "2021-03-11",
+ "awd_max_amd_letter_date": "2021-05-21",
+ "awd_abstract_narration": "Mitigating the impact of natural hazards, such as volcanic eruptions, earthquakes, or infectious diseases, rests on our ability to accurately quantify hazard risks in advance of their occurrence. This project will tackle this challenge and develop a new computationally feasible framework to integrate disparate field observations and computer simulations.  The new framework will deliver substantial upgrades in computational efficiency for natural hazard quantification. One testbed will be the 2018 eruption of the Kilauea Volcano in Hawaii, which injured 23 people and destroyed more than 700 dwellings. For this event, extensive field observations from disparate sources, such as radar satellites, global navigation satellite system receivers, borehole tiltmeters, and seismometers, as well as large-scale computer simulations, will be used to analyze methods for volcanic hazard quantification. The methods developed in the project will be implemented in open-source software available to a wide community of scientists and engineers. The project is complemented by training for both graduate and undergraduate students.\r\n                                                                            \r\nThe first major roadblock for precisely quantifying uncertain natural hazards is the computational scalability of computer simulations, as they often require the numerical solution of partial differential equations on massive spatio-temporal domains with multi-dimensional input. This challenge will be overcome by developing Gaussian process (GP) emulators as a computationally feasible surrogate model to approximate outcomes of computer experiments. This approach is appealing because it not only includes parallel predictions with linear computational order with respect to the number of coordinates, but it also leverages the correlation between coordinates to enable fast predictive sampling. The second computational challenge is in fusing disparate data from multiple sources to calibrate physical models. The project will address this challenge by quantifying uncertainty in data processing and estimating the discrepancy between the physical model and reality to allow for data integration. While this project focuses on applications in natural hazard quantification, the new GP emulator, computational tools for model calibration, and data integration methods will more generally extend the applicability of data science and machine learning algorithms.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Paul",
+   "pi_last_name": "Segall",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Paul Segall",
+   "pi_email_addr": "segall@stanford.edu",
+   "nsf_id": "000277380",
+   "pi_start_date": "2021-03-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "397 Panama Mall, Rm. 360",
+  "perf_city_name": "Stanford",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943052004",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806900",
+   "pgm_ele_name": "CDS&E-MSS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "079Z",
+   "pgm_ref_txt": "Machine Learning Theory"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 50000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Estimation of spatially and temporally varying fields is an important problem in Geophysics.&nbsp; One class of problems important in earthquake science is estimating the spatio-temporal variation of fault creep (slow, aseismic slip) on a two-dimensional fault surface.&nbsp; The state of the art has been to expand the slip distribution with appropriate spatial basis functions.&nbsp; The coefficients in this expansion are estimated via Kalman filtering, where the state evolution process is stochastic in nature. &nbsp;Specifically, we have adopted a prior in which the slip-rate is a constant plus a random walk.&nbsp; That is the slip accelerations follow a white noise process.&nbsp; Hyper-parameters that regularize the problem in both space and time are estimated by maximum likelihood.&nbsp;</p>\n<p>&nbsp;</p>\n<p>This work implemented a more efficient method by modeling the latent factor processes by discretized multivariate Ornstein-Uhlenbeck processes that contain distinct correlation and variance parameters in each process. We show the model extends the dynamic mode decomposition estimation with a symmetric factor loading matrix by the inclusion of the noise model. Second, we integrate the Kalman filter into a new expectation-maximization algorithm, where the estimation of correlation, variance parameters, and factor loading matrix has a closed-form expression in each iteration. This estimation is more stable and scalable than direct numerical optimization of many parameters. Third, we develop a new approach for estimating the number of factors by fitting residual variances to the noise variance of the measurement</p><br>\n<p>\n Last Modified: 08/29/2024<br>\nModified by: Paul&nbsp;Segall</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nEstimation of spatially and temporally varying fields is an important problem in Geophysics. One class of problems important in earthquake science is estimating the spatio-temporal variation of fault creep (slow, aseismic slip) on a two-dimensional fault surface. The state of the art has been to expand the slip distribution with appropriate spatial basis functions. The coefficients in this expansion are estimated via Kalman filtering, where the state evolution process is stochastic in nature. Specifically, we have adopted a prior in which the slip-rate is a constant plus a random walk. That is the slip accelerations follow a white noise process. Hyper-parameters that regularize the problem in both space and time are estimated by maximum likelihood.\n\n\n\n\n\nThis work implemented a more efficient method by modeling the latent factor processes by discretized multivariate Ornstein-Uhlenbeck processes that contain distinct correlation and variance parameters in each process. We show the model extends the dynamic mode decomposition estimation with a symmetric factor loading matrix by the inclusion of the noise model. Second, we integrate the Kalman filter into a new expectation-maximization algorithm, where the estimation of correlation, variance parameters, and factor loading matrix has a closed-form expression in each iteration. This estimation is more stable and scalable than direct numerical optimization of many parameters. Third, we develop a new approach for estimating the number of factors by fitting residual variances to the noise variance of the measurement\t\t\t\t\tLast Modified: 08/29/2024\n\n\t\t\t\t\tSubmitted by: PaulSegall\n"
+ }
+}

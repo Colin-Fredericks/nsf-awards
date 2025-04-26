@@ -1,0 +1,150 @@
+{
+ "awd_id": "0515241",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Foundations of Geometric and Metric Databases",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Dmitri Maslov",
+ "awd_eff_date": "2005-09-01",
+ "awd_exp_date": "2009-08-31",
+ "tot_intn_awd_amt": 0.0,
+ "awd_amount": 305996.0,
+ "awd_min_amd_letter_date": "2005-09-06",
+ "awd_max_amd_letter_date": "2008-04-24",
+ "awd_abstract_narration": "ABSTRACT\r\nNumerous applications involve the storage and retrieval of spatial and metric data from databases.  Efficiency of the algorithms and underlying representations is the key to effectively using such databases.  This research addresses efficiency issues from the perspective of applications in spatial and metric databases involving queries such as nearest neighbor finding.  The goal is to speed up operations that arise in applications in computer graphics, geographic information systems (GIS), and computer vision that make use of large databases. The applications that are considered include the fast computation of point cloud models as well the efficient representation of data such as terrains via triangulations of the underlying surface.  The implementation of such data in a distributed environment is also studied.\r\n\r\nIn this project we are investigating three related topics.  First is computing k nearest neighbor joins for point cloud models in computer graphics applications.  In particular, rather than computing the k nearest neighbors for each data point, we reuse the set of neighbors of the points for which we have already performed the task.  The approach is to exploit the concept of locality of a given object q (e.g., a point, a block containing a query point, or an arbitrary object) in a search hierarchy defined to be the set of blocks which could contain the k nearest neighbors of q.  We investigate this in the context of moving object databases where the query object is in motion while the remaining objects in the database are stationary (e.g., gas stations, buildings, restaurants, etc.).  The goal is to determine the region that must be searched to find the k nearest neighbors of an object or objects whose motion is restricted to a particular region of space.  We are devising efficient (possibly optimal) methods to compute the locality based on our incremental nearest neighbor algorithm. We explore computation of the Hausdorff distance that is used in computer vision and computer graphics. \r\nSecond is an investigation of distributed spatial indexes for applications in P2P networks.  The approach is to apply our incremental nearest neighbor algorithm in such an environment.  We also extend CHORD method to provide key-based lookup service in a distributed spatial index in conjunction with a larger variety of spatial indexes.  Additionally, we study the relationship of the CAN key-based lookup service to a quadtree. \r\nThird is in indexing triangulations.  Triangulations are usually represented using a variant of an adjacency structure that stores the topological relations between the triangles.  Finding the actual triangle that contains the query point requires the imposition of an index on the collection of triangles.  We are devising a mathematical model that helps evaluate the efficiency of using a bucketing method based on the PM2 quadtree to store the triangulation.  The model uses geometric probability.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hanan",
+   "pi_last_name": "Samet",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hanan Samet",
+   "pi_email_addr": "hjs@umd.edu",
+   "nsf_id": "000445634",
+   "pi_start_date": "2005-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Maryland, College Park",
+  "inst_street_address": "3112 LEE BUILDING",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE PARK",
+  "inst_state_code": "MD",
+  "inst_state_name": "Maryland",
+  "inst_phone_num": "3014056269",
+  "inst_zip_code": "207425100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "MD04",
+  "org_lgl_bus_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+  "org_prnt_uei_num": "NPU8ULVAAS23",
+  "org_uei_num": "NPU8ULVAAS23"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Maryland, College Park",
+  "perf_str_addr": "3112 LEE BUILDING",
+  "perf_city_name": "COLLEGE PARK",
+  "perf_st_code": "MD",
+  "perf_st_name": "Maryland",
+  "perf_zip_code": "207425100",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "MD04",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "286500",
+   "pgm_ele_name": "NUMERIC, SYMBOLIC & GEO COMPUT"
+  },
+  {
+   "pgm_ele_code": "685500",
+   "pgm_ele_name": "INFORMATION & KNOWLEDGE MANAGE"
+  },
+  {
+   "pgm_ele_code": "722800",
+   "pgm_ele_name": "DATA AND APPLICATIONS SECURITY"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0106",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0106",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0107",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0107",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0108",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000809DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 99996.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2006,
+   "fund_oblg_amt": 100000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2007,
+   "fund_oblg_amt": 100000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2008,
+   "fund_oblg_amt": 6000.0
+  }
+ ],
+ "por": null
+}

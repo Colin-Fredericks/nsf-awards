@@ -1,0 +1,105 @@
+{
+ "awd_id": "1819257",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Parallel, Adaptive Cartesian Grid Algorithms for Natural Hazards Modeling",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032922948",
+ "po_email": "slevine@nsf.gov",
+ "po_sign_block_name": "Stacey Levine",
+ "awd_eff_date": "2018-07-01",
+ "awd_exp_date": "2023-06-30",
+ "tot_intn_awd_amt": 315587.0,
+ "awd_amount": 315587.0,
+ "awd_min_amd_letter_date": "2018-06-25",
+ "awd_max_amd_letter_date": "2018-06-25",
+ "awd_abstract_narration": "Geophysical hazards such as flooding, tsunamis, debris flows, landslides, storm surges and potential dam failures threaten communities across the United States and globally.  This project develops computational tools that can efficiently simulate these hazards, enabling a diverse group of researchers and emergency planners to develop hazard maps of areas most likely to be impacted by these disasters.  For efficiency, the computational framework uses adaptive, \"depth-averaged\" mathematical models that only require two dimensional planar grids, rather than  fully three dimensional meshes.  A primary goal of the project is to correct our depth-averaged model to capture localized waves that may spill over flood barriers or overtop harbor breakwaters.   These correction terms will give  current users of the computational framework critical additional capabilities for modeling shallow geophysical hazards and allow them to create more robust hazard maps.  The computational tools can also take full advantage of emerging hardware trends available on desktop workstations, moderate sized compute clusters, as well as massively parallel computing facilities available at NSF funded supercomputing sites.  The project also provides users with tools for visualizing results using open source software such as the Google Earth browser.  Ultimately, computational modeling can aid responders in predicting how to distribute emergency resources in the event of unavoidable hazards and serve to inform developers, legislative representatives, and citizenry of potential risks in their communities.\r\n\r\nThe research will focus on the implementation of a direct solver for variable coefficient elliptic problems on adaptively refined quad-tree meshes.  The targeted solver is the Hierarchical Poincare Steklov (HPS) solver, developed by A. Gillman and P. Martinsson.  Satisfying four crucial properties, this solver (1) has the ease of use of matrix-free methods, (2) can solve nearby systems quickly, (3) has optimal O(N) efficiency, and (4) provides parameters that can be tuned to reduce computational cost in proportion to accuracy requirements.   Furthermore, the method uses low rank approximations to compress dense matrices and accelerate matrix computations.   In the proposed work, the PI will modify the original HPS solver for use with second order, finite volume schemes and implement the solver in ForestClaw, the parallel, patch-based Cartesian adaptive quad-tree code.  The PI will also report on the scalability and parallel efficiency of the implementation of the HPS method. Two technical challenges that will arise are to develop effective procedures for merging Dirichlet-to-Neumann maps across processor boundaries and incrementally updating the solver factorization for dynamically evolving meshes.  The targeted application is the solution to the Serre-Green Naghdi equations for modeling dispersive corrections to the shallow water wave equations.  These corrections will be included in the GeoClaw extension of ForestClaw.  GeoClaw (D. George, R. J. LeVeque, M. J. Berger) is a widely used software package for solving depth-averaged flow equations. The addition of these correction terms to the GeoClaw extension will provide GeoClaw users with critical capabilities for modeling  tsunamis, flooding, debris flows, storm surges and other shallow geophysical flows.  Ultimately, the proposed solver can be used within the ForestClaw framework as a general purpose elliptic solver for a variety of physical flow phenomena.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Donna",
+   "pi_last_name": "Calhoun",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Donna Calhoun",
+   "pi_email_addr": "donnacalhoun@boisestate.edu",
+   "nsf_id": "000619771",
+   "pi_start_date": "2018-06-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Boise State University",
+  "inst_street_address": "1910 UNIVERSITY DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOISE",
+  "inst_state_code": "ID",
+  "inst_state_name": "Idaho",
+  "inst_phone_num": "2084261574",
+  "inst_zip_code": "837250001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "ID02",
+  "org_lgl_bus_name": "BOISE STATE UNIVERSITY",
+  "org_prnt_uei_num": "HYWTVM5HNFM3",
+  "org_uei_num": "HYWTVM5HNFM3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Boise State University",
+  "perf_str_addr": "1910 University Drive",
+  "perf_city_name": "Boise",
+  "perf_st_code": "ID",
+  "perf_st_name": "Idaho",
+  "perf_zip_code": "837251135",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "ID02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 315587.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of the present research is to develop a matrix-free direct solver for adaptively refined Cartesian meshes. &nbsp; The algorithm we have used is based on the Hierarchical Poincar&eacute;-Steklov (HPS) &nbsp;algorithm originally developed by A. Gilmann and G. Martinsson (SIAM Journal of Scientific Computing, 2014). &nbsp; &nbsp;Our solver is able to take advantage locally of fast direct solvers from linear algebra libraries (FISHPACK, PETSc, LAPACK) but still solve on a hierarchy of meshes. &nbsp;A chief outcome is EllipticForest (Damyn Chipman, Boise State University), a standalone software package for solving elliptic problems on an adaptive quadtree whose leaves are local Cartesian meshes. EllipticForest can be used to solve two dimensional &nbsp;constant and variable coefficient elliptic problems on quadtree meshes and &nbsp;is the first solver to use the HPS method in combination with the widely used meshing library p4est (C. Burstedde, L. Wilcox et al., SIAM Journal on Scientific Computing, 2011) . EllipticForest has an interface to ForestClaw (D. Calhoun and C. Burstedde), a solver &nbsp;library for time dependent problems on dynamically adapted quadtree meshes generated by p4est.</p>\n<p>Large scale computations are widely used for simulating natural hazards such as earthquakes, tsunamis, volcanic eruptions and wildfire propagation. &nbsp; The physical domains for these problems are large, while the phenomena being studied may be relatively localized. For example, the 2010 Fukushima earthquake and subsequent tsunami started off the coast of Japan, but the tsunami was felt hours later as far away as Hawaii and the coast of California. &nbsp;Adaptive mesh refinement &nbsp;has proven to be an efficient method for simulating tsunami flows. While tsunamis can be effectivelyl modeled using the hyperbolic shallow water wave equations, dispersive effects which are missing from the standard depth averaged models can become important as the tsunami arrives at coast areas. &nbsp;To add dispersive corrections to the standard shallow water model, we developed a Serre-Green-Naghdi (SGN) solver within ForestClaw. The solver has been verified for several benchmark problems. &nbsp;The Serre-Green-Naghdi model we use relies on an elliptic solve to stabilize higher order dispersive correction terms (D. Lannes and F. Marche, JCP, 2015). &nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/19/2023<br>\n\t\t\t\t\tModified by: Donna&nbsp;Calhoun</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768804850_tsunami.001--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768804850_tsunami.001--rgov-800width.jpg\" title=\"Realistic 1d tsunami model (slide 1)\"><img src=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768804850_tsunami.001--rgov-66x44.jpg\" alt=\"Realistic 1d tsunami model (slide 1)\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Description of 1d tsunami example with realistic dimensions (slide 1)</div>\n<div class=\"imageCredit\">D. Calhoun</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Donna&nbsp;Calhoun</div>\n<div class=\"imageTitle\">Realistic 1d tsunami model (slide 1)</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768900226_tsunami.002--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768900226_tsunami.002--rgov-800width.jpg\" title=\"Realistic 1d tsunami model (slide 2)\"><img src=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768900226_tsunami.002--rgov-66x44.jpg\" alt=\"Realistic 1d tsunami model (slide 2)\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Comparison of 1d results between four models.</div>\n<div class=\"imageCredit\">D. Calhoun</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Donna&nbsp;Calhoun</div>\n<div class=\"imageTitle\">Realistic 1d tsunami model (slide 2)</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768981590_tsunami.003--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768981590_tsunami.003--rgov-800width.jpg\" title=\"Realistic 1d tsunami model (slide 3)\"><img src=\"/por/images/Reports/POR/2023/1819257/1819257_10552694_1689768981590_tsunami.003--rgov-66x44.jpg\" alt=\"Realistic 1d tsunami model (slide 3)\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Realistic 1d tsunami model implemented using adaptive mesh from ForestClaw.</div>\n<div class=\"imageCredit\">D. Calhoun</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Donna&nbsp;Calhoun</div>\n<div class=\"imageTitle\">Realistic 1d tsunami model (slide 3)</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThe goal of the present research is to develop a matrix-free direct solver for adaptively refined Cartesian meshes.   The algorithm we have used is based on the Hierarchical Poincar&eacute;-Steklov (HPS)  algorithm originally developed by A. Gilmann and G. Martinsson (SIAM Journal of Scientific Computing, 2014).    Our solver is able to take advantage locally of fast direct solvers from linear algebra libraries (FISHPACK, PETSc, LAPACK) but still solve on a hierarchy of meshes.  A chief outcome is EllipticForest (Damyn Chipman, Boise State University), a standalone software package for solving elliptic problems on an adaptive quadtree whose leaves are local Cartesian meshes. EllipticForest can be used to solve two dimensional  constant and variable coefficient elliptic problems on quadtree meshes and  is the first solver to use the HPS method in combination with the widely used meshing library p4est (C. Burstedde, L. Wilcox et al., SIAM Journal on Scientific Computing, 2011) . EllipticForest has an interface to ForestClaw (D. Calhoun and C. Burstedde), a solver  library for time dependent problems on dynamically adapted quadtree meshes generated by p4est.\n\nLarge scale computations are widely used for simulating natural hazards such as earthquakes, tsunamis, volcanic eruptions and wildfire propagation.   The physical domains for these problems are large, while the phenomena being studied may be relatively localized. For example, the 2010 Fukushima earthquake and subsequent tsunami started off the coast of Japan, but the tsunami was felt hours later as far away as Hawaii and the coast of California.  Adaptive mesh refinement  has proven to be an efficient method for simulating tsunami flows. While tsunamis can be effectivelyl modeled using the hyperbolic shallow water wave equations, dispersive effects which are missing from the standard depth averaged models can become important as the tsunami arrives at coast areas.  To add dispersive corrections to the standard shallow water model, we developed a Serre-Green-Naghdi (SGN) solver within ForestClaw. The solver has been verified for several benchmark problems.  The Serre-Green-Naghdi model we use relies on an elliptic solve to stabilize higher order dispersive correction terms (D. Lannes and F. Marche, JCP, 2015).  \n\n \n\n\t\t\t\t\tLast Modified: 07/19/2023\n\n\t\t\t\t\tSubmitted by: Donna Calhoun"
+ }
+}

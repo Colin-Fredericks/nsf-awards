@@ -1,0 +1,109 @@
+{
+ "awd_id": "1524680",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "STARSS: Small: Collaborative: Practical and Scalable Security Verification of Security-Aware Hardware Architectures",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2015-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 166667.0,
+ "awd_amount": 166667.0,
+ "awd_min_amd_letter_date": "2015-08-20",
+ "awd_max_amd_letter_date": "2015-08-20",
+ "awd_abstract_narration": "Computers form the backbone of any modern society, and often process large amounts of sensitive and private information.  To help secure the software, and the sensitive data, a number of secure hardware-software and processor architectures have been proposed.  These architectures incorporate novel protection and defense mechanisms directly in the hardware where they cannot be modified or bypassed, unlike software protections.  However, due to lack of practical and scalable security verification tools and methodologies, very few of the proposed hardware security architectures have been commercially deployed.  This project develops a security verification methodology that is applicable to different hardware-software security architectures. \r\n\r\nThis project develops security invariants and methodology that hardware architects can deploy to check the security properties of their architectures in a scalable and semi-automated manner. The methodology is applied to verify hardware-enhanced isolation architectures and architectures that minimize the attack surface in cloud computing.  Verification of a secure cache's resistance to cache side channel attacks is also investigated. Researchers and designers will have a new method to systematically check their designs, and show to others the conditions under which they work.  Hardware manufacturers will gain assurance to actually implement these security architectures in real products.  In turn, customers will gain assurance about the secure hardware that protects their computations running on their devices or virtual machines running on remote cloud servers. Security architectures are important to customers and hardware manufacturers, however, security verification is needed to make them a reality.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jakub",
+   "pi_last_name": "Szefer",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jakub Szefer",
+   "pi_email_addr": "jakub.szefer@northwestern.edu",
+   "nsf_id": "000519676",
+   "pi_start_date": "2015-08-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Yale University",
+  "inst_street_address": "150 MUNSON ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW HAVEN",
+  "inst_state_code": "CT",
+  "inst_state_name": "Connecticut",
+  "inst_phone_num": "2037854689",
+  "inst_zip_code": "065113572",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "CT03",
+  "org_lgl_bus_name": "YALE UNIV",
+  "org_prnt_uei_num": "FL6GV84CKN57",
+  "org_uei_num": "FL6GV84CKN57"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Yale University",
+  "perf_str_addr": "10 Hillhouse Avenue",
+  "perf_city_name": "New Haven",
+  "perf_st_code": "CT",
+  "perf_st_name": "Connecticut",
+  "perf_zip_code": "065116814",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "CT03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8226",
+   "pgm_ref_txt": "SaTC: STARSS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 166667.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project developed a security verification framework, called SecChisel, that can be used to check, at design time, that a processor architecture can maintain confidentiality of secrets, such as cryptographic keys.&nbsp; The framework uses the so-called information flow tracking approach, at compile time, to track how information flows in an architecture.&nbsp; By introducing new security tags in the hardware description of the processor, the framework is able to check if sensitive information, such as cryptographic keys, may leak out to outside of the processor and thus leak information.&nbsp; The framework was implemented in Chisel language, which is used to realize the now popular, open-source RISC-V processor.&nbsp; In addition, it leveraged a SAT solver for the actual information flow checking.&nbsp; As RISC-V architecture and processors become integral to many consumer electronics, this project allows for checking RISC-V designs based on Chisel and can thus improve security of many products.&nbsp; Further, the project also focused on verification of a secure cache's resistance to cache side-channel attacks.&nbsp; A new method was proposed for checking security of processor caches using a three-step model, which can in future be realize in Computation Tree Logic. With the security verification framework for whole processors and the cache verification model, this research has shown how to improve and check security of processor designs.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/28/2019<br>\n\t\t\t\t\tModified by: Jakub&nbsp;Szefer</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691195390_ScreenShot2019-01-28at10.56.32AM--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691195390_ScreenShot2019-01-28at10.56.32AM--rgov-800width.jpg\" title=\"Computation tree based on a cache controller state machine.\"><img src=\"/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691195390_ScreenShot2019-01-28at10.56.32AM--rgov-66x44.jpg\" alt=\"Computation tree based on a cache controller state machine.\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">An image of a simplified, sample cache controller Kripke structure showing a computation tree based on a cache controller state machine.</div>\n<div class=\"imageCredit\">Shuwen Deng and Wenjie Xiong and Jakub Szefer</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jakub&nbsp;Szefer</div>\n<div class=\"imageTitle\">Computation tree based on a cache controller state machine.</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691720909_ScreenShot2019-01-28at11.07.01AM--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691720909_ScreenShot2019-01-28at11.07.01AM--rgov-800width.jpg\" title=\"Overview of the SecChisel framework.\"><img src=\"/por/images/Reports/POR/2019/1524680/1524680_10390085_1548691720909_ScreenShot2019-01-28at11.07.01AM--rgov-66x44.jpg\" alt=\"Overview of the SecChisel framework.\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Overview of the SecChisel framework showing steps in the security verification process.</div>\n<div class=\"imageCredit\">Shuwen Deng and Wenjie Xiong and Jakub Szefer</div>\n<div class=\"imageSubmitted\">Jakub&nbsp;Szefer</div>\n<div class=\"imageTitle\">Overview of the SecChisel framework.</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThis project developed a security verification framework, called SecChisel, that can be used to check, at design time, that a processor architecture can maintain confidentiality of secrets, such as cryptographic keys.  The framework uses the so-called information flow tracking approach, at compile time, to track how information flows in an architecture.  By introducing new security tags in the hardware description of the processor, the framework is able to check if sensitive information, such as cryptographic keys, may leak out to outside of the processor and thus leak information.  The framework was implemented in Chisel language, which is used to realize the now popular, open-source RISC-V processor.  In addition, it leveraged a SAT solver for the actual information flow checking.  As RISC-V architecture and processors become integral to many consumer electronics, this project allows for checking RISC-V designs based on Chisel and can thus improve security of many products.  Further, the project also focused on verification of a secure cache's resistance to cache side-channel attacks.  A new method was proposed for checking security of processor caches using a three-step model, which can in future be realize in Computation Tree Logic. With the security verification framework for whole processors and the cache verification model, this research has shown how to improve and check security of processor designs.\n\n\t\t\t\t\tLast Modified: 01/28/2019\n\n\t\t\t\t\tSubmitted by: Jakub Szefer"
+ }
+}

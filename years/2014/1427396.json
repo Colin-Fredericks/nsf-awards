@@ -1,0 +1,101 @@
+{
+ "awd_id": "1427396",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NRI: Collaborative Research: Human-Centered Modeling and Control of Cooperative Manipulation with Bimanual Robots",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Reid Simmons",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2017-07-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2014-08-10",
+ "awd_max_amd_letter_date": "2014-08-10",
+ "awd_abstract_narration": "This proposal addresses modeling and control aspects of human-robot interaction by considering constraints imposed by an individual's physiology. The project is motivated by increasing demand for automation in unstructured environments that require high-level cognitive processing and complex decision-making which cannot yet be fully automated. By taking human-centric approach, data-driven musculoskeletal models are incorporated into the robot interaction model to account for differences of individuals. \r\n\r\nEach cooperative activity is divided into action primitives requiring different control strategies while estimating human intent from various sensors. The framework is based on theory of hybrid systems that provides provable safety and stability criteria. The outcome of this research will facilitate methodology for safer and more reliable human-robot interaction and advance state-of-the-art in human movement analysis and control theory. The broader impacts of this research will be realized through new insights into understanding of human intent and haptic cooperation applicable to general human-machine interaction. With increasing interest in service robotics safe and reliable interaction will be the key to successful introduction of robots in human-occupied environments. The potential economic impact of robots engaged in services and manufacturing alongside humans are significant due to increased productivity and reduced costs. Another emerging area is rehabilitation and assistive robotics. The developed data-driven musculoskeletal models will also be applicable to quantification of physical impairments and estimation of muscular stress in healthcare and ergonomics. This interdisciplinary research provides excellent opportunities for undergraduate and graduate students to be engaged in analytical challenges, laboratory demonstrations of theoretical results, and experimental evaluations.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Oussama",
+   "pi_last_name": "Khatib",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Oussama Khatib",
+   "pi_email_addr": "khatib@cs.stanford.edu",
+   "nsf_id": "000472345",
+   "pi_start_date": "2014-08-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "",
+  "perf_city_name": "Stanford",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943056025",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "CA",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "801300",
+   "pgm_ele_name": "NRI-National Robotics Initiati"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8086",
+   "pgm_ref_txt": "Natl Robotics Initiative (NRI)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 600000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p id=\"docs-internal-guid-693dd482-26d9-d4e7-1c6b-3fe7e680c61a\" dir=\"ltr\"><span>Model-free robot control strategies for human-robot interaction can not explicitly obtain physical constraints imposed by human physiology, which greatly limits their ability to adapt to the diverse interaction styles humans use. In contrast, model-based approaches provide detailed priors about what human actions are possible for a given human pose. In addition, model-features generalize across a wide variety of human body structures, poses, and performed motor tasks. Our project focused on developing such detailed human models, and on using them to inform collaborative manipulation between robots and humans.</span></p>\n<p dir=\"ltr\"><span>To realize model-based human-robot collaboration, we developed a family of detailed magnetic resonance imaging (MRI) and ultrasound imaging based dynamic human musculoskeletal models. We developed algorithms that used the models to reconstruct as well as predict human motion for complex manipulation tasks. In particular, to obtain information that could help optimize robot control strategies related to gain adjustment, trajectory generation, and error reduction. We also developed computationally efficient parametric model-variation algorithms to efficiently capture variations in physiology across humans. This included differences in kinematics, such as range of motion and reachability, as well as dynamics and muscle distribution and contribution to tasks. We tuned our models using data collected from motion capture, Microsoft Kinect, force plate, electromyography (EMG), acoustic myography (AMG), and robot joint motion.</span></p>\n<p dir=\"ltr\"><span>Moving from human models to robots, we divided our robotics initiatives into three goal areas. First, we developed action primitives for robots, which allow autonomous operation for grasping, handoff, and object placement. Next, we developed human intent estimation methods that use dynamically consistent algorithms and probabilistic methods to determine potential future actions. We also developed methods to combine this with visual, tactile, and spoken communication channels between robots and humans to simplify interaction. Finally, we studied how human ergonomics and posture influenced human force generation ability and muscular effort, which can inform how robots should behave during collaborative behavior.</span></p>\n<p dir=\"ltr\"><span>Finally, we conducted several human subject experiments interacting with the Baxter Robot, the Kuka LWR robot, the Kinova Jaco robot, and the Kuka IIWA robot. We realized fluid and safe human-robot collaboration. Our models helped analyze collaborative manipulation motion and force patterns and adjust robot responses to help reduce human effort.</span></p>\n<p dir=\"ltr\"><span>This project provided an outstanding opportunity for the students to collaborate in a multi-disciplinary research. During the course of the project, we engaged two postdoctoral scholars as well as several undergraduate students who contributed to the design of control strategies, experimental design, data collection and analysis, and medical imaging segmentation. The project was featured at various official events at the participating Universities to K-12 students and their parents, incoming undergraduate and graduate students, and various visitors from industry and academia. The results of this research were presented at several international venues, such as IROS, EMBC, ISER, ISRR and other conferences.</span></p>\n<p dir=\"ltr\"><span>The results of this research provide new insights into human-robot interaction that are relevant for close collaboration of human and robots in manufacturing environment, service robotics, and assistive robotics. By incorporating individual&rsquo;s constraints and ergonomic requirements, more efficient and safe cooperation between human and robot can be achieved. The developed methodologies for data-driven musculoskeletal modeling can be adopted in health sciences, in particular for evaluation of musculoskeletal injuries in healthcare and sports medicine, for estimation of muscular stress in manufacturing, sports, exercise and other activities to reduce injury and to optimize performance.</span></p>\n<p id=\"docs-internal-guid-693dd482-26c3-efd5-8e83-7b4e81b2b415\" dir=\"ltr\">&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/16/2017<br>\n\t\t\t\t\tModified by: Oussama&nbsp;Khatib</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185271576_Fig7--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185271576_Fig7--rgov-800width.jpg\" title=\"Model based human robot collaborative manipulation\"><img src=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185271576_Fig7--rgov-66x44.jpg\" alt=\"Model based human robot collaborative manipulation\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Human musculoskeletal models help understand human motion and force control strategies. They allow human-robot collaborative skill transfer using parameterized control models. These skills are captures in manipulation primitives for complex contact control tasks.</div>\n<div class=\"imageCredit\">O. Khatib</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Oussama&nbsp;Khatib</div>\n<div class=\"imageTitle\">Model based human robot collaborative manipulation</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184793678_Fig3--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184793678_Fig3--rgov-800width.jpg\" title=\"Optimal Handover for Different Goal Poses\"><img src=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184793678_Fig3--rgov-66x44.jpg\" alt=\"Optimal Handover for Different Goal Poses\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The different goal poses in our experiment lead to different optimal handover configurations for the robot, each selected to minimize expected total cost at the handover time and at that particular goal. The chart averages the expected total (handoff + goal) ergonomic costs for each of three metrics</div>\n<div class=\"imageCredit\">R. Bajcsy</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Oussama&nbsp;Khatib</div>\n<div class=\"imageTitle\">Optimal Handover for Different Goal Poses</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184865604_Fig4--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184865604_Fig4--rgov-800width.jpg\" title=\"Example of kinematic and dynamics recovery in sit-to-stand motion\"><img src=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184865604_Fig4--rgov-66x44.jpg\" alt=\"Example of kinematic and dynamics recovery in sit-to-stand motion\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">(A) Left side shows full dynamic model, while right side shows reduced model. (B) Comparison of recovered contact wrenches (left) and respective log-error (right) for an individual during dynamic standing.</div>\n<div class=\"imageCredit\">R. Bajcsy</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Oussama&nbsp;Khatib</div>\n<div class=\"imageTitle\">Example of kinematic and dynamics recovery in sit-to-stand motion</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185053908_Fig5--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185053908_Fig5--rgov-800width.jpg\" title=\"Bone segmentation results from MRI\"><img src=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185053908_Fig5--rgov-66x44.jpg\" alt=\"Bone segmentation results from MRI\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Preliminary bone segmentation results from MRI data show significant morphological variation across subjects that cannot be modeled in existing frameworks.</div>\n<div class=\"imageCredit\">R. Bajcsy and O. Khatib</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Oussama&nbsp;Khatib</div>\n<div class=\"imageTitle\">Bone segmentation results from MRI</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185143445_Fig6--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185143445_Fig6--rgov-800width.jpg\" title=\"MRI based muscle modeling\"><img src=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508185143445_Fig6--rgov-66x44.jpg\" alt=\"MRI based muscle modeling\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">We are using a segmented MRI muscle data to build methodology for semi-automatic mapping of reference subject to a new target subject to speed up muscle and bone segmentation.</div>\n<div class=\"imageCredit\">R. Bajcsy and O. Khatib</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Oussama&nbsp;Khatib</div>\n<div class=\"imageTitle\">MRI based muscle modeling</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184721491_Fig2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184721491_Fig2--rgov-800width.jpg\" title=\"Case Study with Goal - Reducing Total Cost\"><img src=\"/por/images/Reports/POR/2017/1427396/1427396_10330948_1508184721491_Fig2--rgov-66x44.jpg\" alt=\"Case Study with Goal - Reducing Total Cost\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">A comparison between maximizing the number of feasible human grasping configurations Q at the handover and goal (top), minimizing the average ergonomic total cost (middle), and minimizing expected total cost (bottom).</div>\n<div class=\"imageCredit\">R. Bajcsy</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Oussama&nbsp;Khatib</div>\n<div class=\"imageTitle\">Case Study with Goal - Reducing Total Cost</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "Model-free robot control strategies for human-robot interaction can not explicitly obtain physical constraints imposed by human physiology, which greatly limits their ability to adapt to the diverse interaction styles humans use. In contrast, model-based approaches provide detailed priors about what human actions are possible for a given human pose. In addition, model-features generalize across a wide variety of human body structures, poses, and performed motor tasks. Our project focused on developing such detailed human models, and on using them to inform collaborative manipulation between robots and humans.\nTo realize model-based human-robot collaboration, we developed a family of detailed magnetic resonance imaging (MRI) and ultrasound imaging based dynamic human musculoskeletal models. We developed algorithms that used the models to reconstruct as well as predict human motion for complex manipulation tasks. In particular, to obtain information that could help optimize robot control strategies related to gain adjustment, trajectory generation, and error reduction. We also developed computationally efficient parametric model-variation algorithms to efficiently capture variations in physiology across humans. This included differences in kinematics, such as range of motion and reachability, as well as dynamics and muscle distribution and contribution to tasks. We tuned our models using data collected from motion capture, Microsoft Kinect, force plate, electromyography (EMG), acoustic myography (AMG), and robot joint motion.\nMoving from human models to robots, we divided our robotics initiatives into three goal areas. First, we developed action primitives for robots, which allow autonomous operation for grasping, handoff, and object placement. Next, we developed human intent estimation methods that use dynamically consistent algorithms and probabilistic methods to determine potential future actions. We also developed methods to combine this with visual, tactile, and spoken communication channels between robots and humans to simplify interaction. Finally, we studied how human ergonomics and posture influenced human force generation ability and muscular effort, which can inform how robots should behave during collaborative behavior.\nFinally, we conducted several human subject experiments interacting with the Baxter Robot, the Kuka LWR robot, the Kinova Jaco robot, and the Kuka IIWA robot. We realized fluid and safe human-robot collaboration. Our models helped analyze collaborative manipulation motion and force patterns and adjust robot responses to help reduce human effort.\nThis project provided an outstanding opportunity for the students to collaborate in a multi-disciplinary research. During the course of the project, we engaged two postdoctoral scholars as well as several undergraduate students who contributed to the design of control strategies, experimental design, data collection and analysis, and medical imaging segmentation. The project was featured at various official events at the participating Universities to K-12 students and their parents, incoming undergraduate and graduate students, and various visitors from industry and academia. The results of this research were presented at several international venues, such as IROS, EMBC, ISER, ISRR and other conferences.\nThe results of this research provide new insights into human-robot interaction that are relevant for close collaboration of human and robots in manufacturing environment, service robotics, and assistive robotics. By incorporating individual?s constraints and ergonomic requirements, more efficient and safe cooperation between human and robot can be achieved. The developed methodologies for data-driven musculoskeletal modeling can be adopted in health sciences, in particular for evaluation of musculoskeletal injuries in healthcare and sports medicine, for estimation of muscular stress in manufacturing, sports, exercise and other activities to reduce injury and to optimize performance.\n \n\n\t\t\t\t\tLast Modified: 10/16/2017\n\n\t\t\t\t\tSubmitted by: Oussama Khatib"
+ }
+}

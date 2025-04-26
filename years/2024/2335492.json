@@ -1,0 +1,102 @@
+{
+ "awd_id": "2335492",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: HCC: Small: Discretization-Free Geometry Processing",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032927215",
+ "po_email": "tleen@nsf.gov",
+ "po_sign_block_name": "Todd Leen",
+ "awd_eff_date": "2024-09-15",
+ "awd_exp_date": "2027-08-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2024-09-04",
+ "awd_max_amd_letter_date": "2024-09-04",
+ "awd_abstract_narration": "There are uncountably many possible shapes in the world, and computers cannot store, represent, and display them all. Instead, one typically discretizes a shape. This means that a shape is constructed of many smaller, simpler sub-shapes, for example, triangles. A computer can easily store a triangle by storing the locations of each of its corners; a large complex shape can then be represented as a collection of triangles. Traditional discretization approaches like this\u2014named discretization because they turn a shape into a discrete collection of triangles\u2014are powerful in their simplicity, but they have critical drawbacks. Finding a discretization of a shape in terms of triangles is a difficult and computationally-intensive process, and it is easy to accidentally create an invalid collection of triangles (for example, because it has holes) that is invalid for computational use. Moreover, such a discretization will always be a mere approximation of a true shape, and computations performed on these discretizations can suffer from artifacts introduced by the discretization process. Finally, discretizations are often hard to use in modern machine learning applications based on neural networks, because the discretization process is hard to differentiate, an integral step of training a neural network. This project will overcome these problems by developing discretization-free methods for processing shapes on computers. New methods for the animation of computer graphics characters will be developed that circumvent the traditional step of discretizing the interior of a character before an animation can be computed. The project will also develop discretization-free interpolation methods\u2014when information is given at certain points on a shape (for example, climate readings on isolated weather stations), these methods will be able to interpolate this data over an entire shape for visualization and computation purposes. Lastly, the project will develop discretization-free representations of vector fields, which model data such as hair on a character, wind on the surface of the planet, or electric fields. The primary outcome of this research will be the development of discretization-free methods that will enable smart geometry methods of the future. Furthermore, these awards will fund the education of graduate students at the Massachusetts Institute of Technology and the University of Southern California.\r\n\r\nA broad variety of mathematical, engineering, and application-oriented challenges will be tackled in the course of carrying out this research.  In particular, design of robust algorithms for geometry processing requires solution of partial differential equations (PDEs) as well as PDE-constrained optimization problems on curved domains, with nonlinear objective terms and constraints coupling together multiple unknown functions.  The key hypothesis in this work is that neural function representations are well-suited to geometry processing applications, since they are smooth, capable of representing a broad variety of functions, easily differentiable, and compatible with modern machine learning representations, but they will need to be tailored to the needs of this application by making them conform to input geometries and constraints of geometry processing problems.  To accomplish this broad goal, the project is divided into three thrusts reflecting applications described in the previous paragraph.  As a model problem for animation problems, custom fields will be used  to optimize for skinning weights on volumes, a key computational challenge in pipelines for 3D deformation.  Extending to cage-based animation, more complex constraints will then be added to the neural fields for geometry processing by considering the problem of optimizing for generalized barycentric coordinates, whose reproduction property is not well-captured by standard machine learning architectures.  Finally, non-scalar problems in geometry processing such as frame field design and geometric flows will be considered for which conventional mesh-based algorithms are numerically stiff.  Each thrust of the project centers around practical open problems in computer graphics.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Justin",
+   "pi_last_name": "Solomon",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Justin M Solomon",
+   "pi_email_addr": "jsolomon@mit.edu",
+   "nsf_id": "000680985",
+   "pi_start_date": "2024-09-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736700",
+   "pgm_ele_name": "HCC-Human-Centered Computing"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7367",
+   "pgm_ref_txt": "Cyber-Human Systems"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": null
+}

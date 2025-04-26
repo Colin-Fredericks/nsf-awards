@@ -1,0 +1,105 @@
+{
+ "awd_id": "1422172",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small:  AC powered digital circuits",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927843",
+ "po_email": "sabasu@nsf.gov",
+ "po_sign_block_name": "Sankar Basu",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2020-06-30",
+ "tot_intn_awd_amt": 445714.0,
+ "awd_amount": 445713.0,
+ "awd_min_amd_letter_date": "2014-07-09",
+ "awd_max_amd_letter_date": "2019-03-14",
+ "awd_abstract_narration": "The RFID chips are at the core of the tags typically attached to commercial items in the marketplace - although they can have a lot more uses. The main goal of this project is to reduce the cost of RFID chips by eliminating most of the circuitry needed for managing the recovered power on the chip. This technique has potential to reduce the chip cost by about one-third. Another variant of this technology permits tags to operate at high efficiency, and thus at low RF or magnetic power levels. The research also has potential to increase the range at which the RFID tag can be powered.  A successful outcome will open new market opportunities to use RFID technology. \r\n\r\nThe main technique employed in this project is to directly operate the circuits from recovered wireless power. A new chip design technique has been identified for doing this and will be exploited and further explored in this project. At the core of this proposal is a new circuit structure, one that permits digital and some analog operations to be performed from an AC, rather than DC, power supply.  Unlike previous AC powered circuit concepts the proposed method can be powered from RF sources up to approximately the unity gain frequency of the device technology at that operating voltage. This circuit structure is likely to work well at next generation RFID frequencies in the 860 to 960 MHz range as well. Demonstrations at the level of complete RFID tags are planned.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Paul",
+   "pi_last_name": "Franzon",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Paul D Franzon",
+   "pi_email_addr": "paulf@ncsu.edu",
+   "nsf_id": "000201838",
+   "pi_start_date": "2014-07-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "North Carolina State University",
+  "inst_street_address": "2601 WOLF VILLAGE WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "RALEIGH",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9195152444",
+  "inst_zip_code": "276950001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "NC02",
+  "org_lgl_bus_name": "NORTH CAROLINA STATE UNIVERSITY",
+  "org_prnt_uei_num": "U3NVH931QJJ3",
+  "org_uei_num": "U3NVH931QJJ3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "NCSU",
+  "perf_str_addr": "2410 Campus Shore Dr",
+  "perf_city_name": "Raleigh",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "276957911",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "NC02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7945",
+   "pgm_ref_txt": "DES AUTO FOR MICRO & NANO SYST"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 445713.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The underlying idea of that effort was that digital circuits could be operated from small (RF) (AC) supplies.&nbsp; Operation at the circuit level is briefly explained as follows (Figure 1).&nbsp; During the evaluation phase the supply transistors are on, and the core logic operates as normal.&nbsp; Outside this phase the supply transistors are off, and the analog voltage is stored on the parasitic capacitor C_s, which is just the natural parasitic capacitance of the circuit.&nbsp; When applied to RFID, the beauty of this concept is that it obviates the need for a lot of analog components, e.g. charge pumps, capacitors, etc.&nbsp; Instead the design can be implemented largely with foundry standard digital standard cells combined with a handful of new standard cells.&nbsp;&nbsp; This brings several advantages.</p>\n<ul>\n<li>Significant size reduction.&nbsp; Our most recent 55 nm implementation (Figure 2) is 26x smaller than a typical commercial part.</li>\n<li>Mostly implemented with foundry or third party standard cells.&nbsp; Only a few additional cells are required.&nbsp; Automated place and route tools can be used.</li>\n<li>Reduced complexity of technology porting.&nbsp; Because only a few new cells are required, over the foundry standard ones it&rsquo;s relatively easy to port the design to a different technology. &nbsp;In contrast, conventional RFID requires significant redesign.</li>\n</ul>\n<p>Figure 3 shows the layout of the most recent implementation and measurement showing compliance with the Gen2 UHF RFID standard.</p>\n<p>The advantages above led us to two potential commercial advantages:</p>\n<ul>\n<li>The cost of the chip used in an RFID tag could be reduced to around 0.05 cents through a combination of small size and node scaling.&nbsp; However, such low cost can be achieved only in large volumes, which in turn requires substantial investment - tens of millions of dollars.&nbsp; It&rsquo;s difficult to raise that sort of money.</li>\n<li>Node portability.&nbsp; Unlike a conventional RFID chip, these are easy to port to new technologies.&nbsp; Why not leverage that feature so as to incorporate an RFID capability into every high value chip?&nbsp; E.g. CPU, GPU, FPGA, AI chip, etc.&nbsp; This would enable each part to be tracked during its life cycle, thus leading to identification of falsely recycled parts, grey market parts and counterfeits.&nbsp; That is, create an IP market for the concept, one that requires a lot less investment.</li>\n</ul>\n<p>The intellectual merit impacts of the prior research results were as follows:</p>\n<ul>\n<li>The demonstration of the AC power concept in the context of Gen2 UHF RFID.&nbsp; Three demonstrations were built, (1) a circuit demonstrator in 130 nm CMOS, (2) a fully custom sub-threshold version in the same technology, and (3) a 55 nm version using standard cells.&nbsp; The concepts have been shown to work.&nbsp; Measured waveforms showing compliant Gen2 RFID operation are shown in Figure 3. </li>\n<li>The invention of key concepts that enabled this application, including an algorithm to distribute a few power supply cells amongst many logic cells, the design of a data retention flip-flop (the Gen2 UHF standard has extended periods with no incident energy, and the design and architecture of power limiter cells.&nbsp; A one-write only NVM was also designed but not implemented due to lack of time.</li>\n</ul>\n<p>&nbsp; The broader impact impacts of the lead-in project were as following:</p>\n<ul>\n<li>The identification of two markets for this technology, the one described above, and a second as a key enabler for fully automatic markets. (The Amazon Go style of automated market that relies on machine vision is reported to have too high error rates for such a low margin business).</li>\n<li>The graduation of two PhD students, Wenxu Zhao and Kirti Bhanushali.</li>\n<li>The continued development of an advanced graduate digital circuits course, ECE 733 Digital Electronics, including an introduction to this research and continued expansion of a beyond CMOS section.</li>\n<li>The continued development of the NCSU PDK.&nbsp; These PDK are widely used by Universities to teach VLSI courses and industry to show results without needing a commercially licensed kit (commercial kits can in general not be used in classes).&nbsp; We continue to develop the 15 nm PDK.&nbsp; The metric is downloads &ndash; currently 4482 of the V1.4 of the 45 PDK and 1109 of V1.2 of the 15 PDK.&nbsp; </li>\n<li>The involvement of two NCSU funded REU in early stages of this work.</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/18/2020<br>\n\t\t\t\t\tModified by: Paul&nbsp;D&nbsp;Franzon</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774657813_Figure1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774657813_Figure1--rgov-800width.jpg\" title=\"Figure 1\"><img src=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774657813_Figure1--rgov-66x44.jpg\" alt=\"Figure 1\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">(a) RF only concept of operations (b) waveforms</div>\n<div class=\"imageCredit\">NCSU</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Paul&nbsp;D&nbsp;Franzon</div>\n<div class=\"imageTitle\">Figure 1</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774843003_Figure2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774843003_Figure2--rgov-800width.jpg\" title=\"Figure 2\"><img src=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774843003_Figure2--rgov-66x44.jpg\" alt=\"Figure 2\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">(a) 55 nm RFID chip as fabricated; (b) RFID chip shownas singulated from (a); and (c) Commercial Monza R6 RFID die.</div>\n<div class=\"imageCredit\">NCSU, IEEE</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Paul&nbsp;D&nbsp;Franzon</div>\n<div class=\"imageTitle\">Figure 2</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774974263_Figure3--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774974263_Figure3--rgov-800width.jpg\" title=\"Figure 3\"><img src=\"/por/images/Reports/POR/2020/1422172/1422172_10317067_1597774974263_Figure3--rgov-66x44.jpg\" alt=\"Figure 3\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">(a) Layout of 55 nm Gen2 RFID; (b) Measurement results showing compliance with standard.</div>\n<div class=\"imageCredit\">NCSU</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Paul&nbsp;D&nbsp;Franzon</div>\n<div class=\"imageTitle\">Figure 3</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThe underlying idea of that effort was that digital circuits could be operated from small (RF) (AC) supplies.  Operation at the circuit level is briefly explained as follows (Figure 1).  During the evaluation phase the supply transistors are on, and the core logic operates as normal.  Outside this phase the supply transistors are off, and the analog voltage is stored on the parasitic capacitor C_s, which is just the natural parasitic capacitance of the circuit.  When applied to RFID, the beauty of this concept is that it obviates the need for a lot of analog components, e.g. charge pumps, capacitors, etc.  Instead the design can be implemented largely with foundry standard digital standard cells combined with a handful of new standard cells.   This brings several advantages.\n\nSignificant size reduction.  Our most recent 55 nm implementation (Figure 2) is 26x smaller than a typical commercial part.\nMostly implemented with foundry or third party standard cells.  Only a few additional cells are required.  Automated place and route tools can be used.\nReduced complexity of technology porting.  Because only a few new cells are required, over the foundry standard ones it\u2019s relatively easy to port the design to a different technology.  In contrast, conventional RFID requires significant redesign.\n\n\nFigure 3 shows the layout of the most recent implementation and measurement showing compliance with the Gen2 UHF RFID standard.\n\nThe advantages above led us to two potential commercial advantages:\n\nThe cost of the chip used in an RFID tag could be reduced to around 0.05 cents through a combination of small size and node scaling.  However, such low cost can be achieved only in large volumes, which in turn requires substantial investment - tens of millions of dollars.  It\u2019s difficult to raise that sort of money.\nNode portability.  Unlike a conventional RFID chip, these are easy to port to new technologies.  Why not leverage that feature so as to incorporate an RFID capability into every high value chip?  E.g. CPU, GPU, FPGA, AI chip, etc.  This would enable each part to be tracked during its life cycle, thus leading to identification of falsely recycled parts, grey market parts and counterfeits.  That is, create an IP market for the concept, one that requires a lot less investment.\n\n\nThe intellectual merit impacts of the prior research results were as follows:\n\nThe demonstration of the AC power concept in the context of Gen2 UHF RFID.  Three demonstrations were built, (1) a circuit demonstrator in 130 nm CMOS, (2) a fully custom sub-threshold version in the same technology, and (3) a 55 nm version using standard cells.  The concepts have been shown to work.  Measured waveforms showing compliant Gen2 RFID operation are shown in Figure 3. \nThe invention of key concepts that enabled this application, including an algorithm to distribute a few power supply cells amongst many logic cells, the design of a data retention flip-flop (the Gen2 UHF standard has extended periods with no incident energy, and the design and architecture of power limiter cells.  A one-write only NVM was also designed but not implemented due to lack of time.\n\n\n  The broader impact impacts of the lead-in project were as following:\n\nThe identification of two markets for this technology, the one described above, and a second as a key enabler for fully automatic markets. (The Amazon Go style of automated market that relies on machine vision is reported to have too high error rates for such a low margin business).\nThe graduation of two PhD students, Wenxu Zhao and Kirti Bhanushali.\nThe continued development of an advanced graduate digital circuits course, ECE 733 Digital Electronics, including an introduction to this research and continued expansion of a beyond CMOS section.\nThe continued development of the NCSU PDK.  These PDK are widely used by Universities to teach VLSI courses and industry to show results without needing a commercially licensed kit (commercial kits can in general not be used in classes).  We continue to develop the 15 nm PDK.  The metric is downloads &ndash; currently 4482 of the V1.4 of the 45 PDK and 1109 of V1.2 of the 15 PDK.  \nThe involvement of two NCSU funded REU in early stages of this work.\n\n\n \n\n \n\n\t\t\t\t\tLast Modified: 08/18/2020\n\n\t\t\t\t\tSubmitted by: Paul D Franzon"
+ }
+}

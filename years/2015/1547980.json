@@ -1,0 +1,105 @@
+{
+ "awd_id": "1547980",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Architecture Support for Advancing PGAS (ASAP)",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2015-08-15",
+ "awd_exp_date": "2017-07-31",
+ "tot_intn_awd_amt": 229983.0,
+ "awd_amount": 229983.0,
+ "awd_min_amd_letter_date": "2015-08-05",
+ "awd_max_amd_letter_date": "2015-08-05",
+ "awd_abstract_narration": "Architectures of parallel computers and modern manycore processor chips, that contain tens and eventually hundreds of processors, are becoming quite complex for the programmers.  Efficient programming of those systems is very important to achieve high-speed of processing while reducing power.  To do so, programmers must ensure that:  1. the work in the program is broken into as many parallel activities as possible for fast processing; 2. data is located close to the processing cores that will manipulate them to avoid making the data travel long in the system thereby losing more time and wasting energy. Programming models are abstractions that provide the programmer with an easy-to-use logical view that hides the complexity of the underlying systems, while facilitating efficient programming. These are two conflicting requirements and while the current de facto programming methods can offer efficiency in the majority of the cases, they are not easy to use.  The so called, PGAS or the Partitioned Global Address Space programming model has the promise of striking a balance between efficiency and ease-of-use.  However, help is needed from the hardware particularly in simplifying and speeding up the process of finding where the data to be processed is physically located. This work is to investigate hardware solutions for this problem under the PGAS programming model.  The outcome will improve productivity of domain scientists, thereby reducing the time from conceiving an application problem till the solution is attained, which in the long run can mean more rapid discoveries and innovations, as well reduction in the cost of developing the next generation software.     \r\nThe PIs propose to investigate a general hardware support for address translation for the PGAS programming model.  PGAS strikes a balance between the locality-aware, but explicit, message-passing model (e.g. MPI) and the easy-to-use, but locality-agnostic, shared memory model (e.g. OpenMP).  However, the PGAS rich memory model comes at a performance cost which can hinder its potential for scalability and performance. Current implementations can be orders of magnitude slower in accessing local shared space as compared to accessing their private space.  Compiler optimizations only handle special cases and hand-tuning renders the PGAS ease-of-use advantage worthless.  The proposed hardware solution can facilitate high-performance execution for out-of-the-box (i.e. non-hand-tuned) PGAS applications.   The PIs are creating PAGS memory model translation architectural support, which can navigate the PGAS memory model converting PGAS shared  references to system's virtual addresses efficiently on-the-fly. This eliminates the need for hand-tuning, while maintaining the performance and productivity of PGAS languages. The hardware support will be available to the compiler through instruction set extensions.  A tool set integrating and adapting existing micro-architecture simulators with compiler and a run-time system will be used as the main testbed and distributed over a cluster for extensive experimentation.  At the end of the project the PIs expect to  release tools and the benchmarks utilized under this project.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Tarek",
+   "pi_last_name": "El-Ghazawi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tarek El-Ghazawi",
+   "pi_email_addr": "tarek@gwu.edu",
+   "nsf_id": "000239088",
+   "pi_start_date": "2015-08-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "George Washington University",
+  "inst_street_address": "1918 F ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "WASHINGTON",
+  "inst_state_code": "DC",
+  "inst_state_name": "District of Columbia",
+  "inst_phone_num": "2029940728",
+  "inst_zip_code": "200520042",
+  "inst_country_name": "United States",
+  "cong_dist_code": "00",
+  "st_cong_dist_code": "DC00",
+  "org_lgl_bus_name": "GEORGE WASHINGTON UNIVERSITY (THE)",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "ECR5E2LU5BL6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "George Washington University",
+  "perf_str_addr": "800 22 ST NW",
+  "perf_city_name": "Washington",
+  "perf_st_code": "DC",
+  "perf_st_name": "District of Columbia",
+  "perf_zip_code": "200520066",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "00",
+  "perf_st_cong_dist": "DC00",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 229983.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Although the PGAS shared memory programming model offers significant productivity improvements for the parallel programmer, the model&rsquo;s performance can degrade due to the overhead associated with accessing and traversing the shared memory space. Automatic compiler optimizations may mitigate this overhead, but they are often insufficient to provide competitive performance, especially for complex codes, and they are likely to introduce costly software operations including additional memory accesses.</p>\n<p>This project focused on a major impediment to the widespread adoption of PGAS languages: supporting the user-friendly memory model of the PGAS abstraction, which is associated with heavy overhead. The core idea was to come up with architectural innovations that can be leveraged by compilers via extensions to the instruction set that define pertinent lightweight operations. This way, application developers can get high performance for their PGAS programs out-of-the-box, without having to worry about non-productive and laborious hand optimizations of their code.</p>\n<p>We designed a novel processor hardware extension that can provide a transparent mechanism to reduce or eliminate the PGAS shared memory access overhead without creating an additional burden on the programmer. Using two prototype compilers (modified Berkeley UPC compiler and modified Cray Chapel compiler), we demonstrated that the proposed instruction set extension is easily exploitable by compilers. It is important to note that the performance improvement of using the hardware instructions can surpass that of manually optimized code for two reasons. First, programmers have a tendency to focus manual optimization efforts on the shared pointers accessed from inner loops. Second, it is not always possible to manually optimize all shared pointers in the code (e.g., due to complex or random access patterns). Experimental validation was conducted with both FPGA hardware prototypes and the gem5 full-system architecture simulator using seven major kernels. These included the five kernels of the well-accepted NAS Parallel Benchmark suite, matrix multiplication, and a 2D Sobel edge detection benchmark. The results were consistently comparable to manually optimized code without the programmer overhead of hand tuning. Unmodified code compiled with our prototype compilers (using the proposed hardware support) achieved up to a 5.5X performance gain over the same code compiled with full compiler optimizations running without our hardware support. In addition, implementation of the new hardware functionality was shown to require a minimal increase in the overall chip area usage.</p>\n<p>&nbsp;</p>\n<p>In sum, following contributions are made as part of this project</p>\n<p>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Designed a novel architecture that reduce the performance overheads caused by PGAS abstractions while fully maintaining programmability,</p>\n<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Created an architecture support co-design tool that integrates PGAS compilers, runtime systems and architectures to support end-to-end investigations</p>\n<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prototyped the proposed hardware implementation using FPGAs and simulated using industry standard full-system simulator gem5,</p>\n<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Adapted compilers of two PGAS languages UPC and Chapel to leverage the hardware via ISA extensions</p>\n<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thoroughly analyzed performance and cost using a variety of benchmarks including the NAS Parallel Benchmarks showing several folds of improvements</p>\n<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developed and published a software tool to leverage HPC resources to run multiple hardware simulations efficiently.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/21/2017<br>\n\t\t\t\t\tModified by: Tarek&nbsp;A&nbsp;El-Ghazawi</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAlthough the PGAS shared memory programming model offers significant productivity improvements for the parallel programmer, the model?s performance can degrade due to the overhead associated with accessing and traversing the shared memory space. Automatic compiler optimizations may mitigate this overhead, but they are often insufficient to provide competitive performance, especially for complex codes, and they are likely to introduce costly software operations including additional memory accesses.\n\nThis project focused on a major impediment to the widespread adoption of PGAS languages: supporting the user-friendly memory model of the PGAS abstraction, which is associated with heavy overhead. The core idea was to come up with architectural innovations that can be leveraged by compilers via extensions to the instruction set that define pertinent lightweight operations. This way, application developers can get high performance for their PGAS programs out-of-the-box, without having to worry about non-productive and laborious hand optimizations of their code.\n\nWe designed a novel processor hardware extension that can provide a transparent mechanism to reduce or eliminate the PGAS shared memory access overhead without creating an additional burden on the programmer. Using two prototype compilers (modified Berkeley UPC compiler and modified Cray Chapel compiler), we demonstrated that the proposed instruction set extension is easily exploitable by compilers. It is important to note that the performance improvement of using the hardware instructions can surpass that of manually optimized code for two reasons. First, programmers have a tendency to focus manual optimization efforts on the shared pointers accessed from inner loops. Second, it is not always possible to manually optimize all shared pointers in the code (e.g., due to complex or random access patterns). Experimental validation was conducted with both FPGA hardware prototypes and the gem5 full-system architecture simulator using seven major kernels. These included the five kernels of the well-accepted NAS Parallel Benchmark suite, matrix multiplication, and a 2D Sobel edge detection benchmark. The results were consistently comparable to manually optimized code without the programmer overhead of hand tuning. Unmodified code compiled with our prototype compilers (using the proposed hardware support) achieved up to a 5.5X performance gain over the same code compiled with full compiler optimizations running without our hardware support. In addition, implementation of the new hardware functionality was shown to require a minimal increase in the overall chip area usage.\n\n \n\nIn sum, following contributions are made as part of this project\n\n -          Designed a novel architecture that reduce the performance overheads caused by PGAS abstractions while fully maintaining programmability,\n\n-          Created an architecture support co-design tool that integrates PGAS compilers, runtime systems and architectures to support end-to-end investigations\n\n-          Prototyped the proposed hardware implementation using FPGAs and simulated using industry standard full-system simulator gem5,\n\n-          Adapted compilers of two PGAS languages UPC and Chapel to leverage the hardware via ISA extensions\n\n-          Thoroughly analyzed performance and cost using a variety of benchmarks including the NAS Parallel Benchmarks showing several folds of improvements\n\n-          Developed and published a software tool to leverage HPC resources to run multiple hardware simulations efficiently.\n\n\t\t\t\t\tLast Modified: 11/21/2017\n\n\t\t\t\t\tSubmitted by: Tarek A El-Ghazawi"
+ }
+}

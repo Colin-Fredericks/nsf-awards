@@ -1,0 +1,101 @@
+{
+ "awd_id": "1513734",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS: Medium: Collaborative Research: DEFIND: DEclarative Formal Interative Network Design",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2015-10-01",
+ "awd_exp_date": "2021-09-30",
+ "tot_intn_awd_amt": 399999.0,
+ "awd_amount": 399999.0,
+ "awd_min_amd_letter_date": "2015-08-21",
+ "awd_max_amd_letter_date": "2015-08-21",
+ "awd_abstract_narration": "Networks are complex systems that unfortunately are ridden with errors, which may lead to disruption of services with grave consequences. One approach to eliminating errors is to construct a formal model of the network and verify the correctness properties. However, extracting models from existing networks is often beyond what network operators can do.  To lower the complexity of network design and verification, an alternative approach is to use high-level abstract domain specific languages (DSLs) to define networks. For instance, in the context of Software Defined Networks (SDN), researchers have developed Frenetic, Pyretic, NetKAT network programming languages.  These DSLs are often backed by formal semantics, which provide some correctness guarantees of programs (networks) written in them.  However, DSLs have yet to make inroads into practical network deployments.  One key barrier to adoption is that these languages tend to be used in silos, decoupled from the process of designing, implementing, and deploying the networks.  To address these challenges, this research proposes DEFIND, a platform that enables iterative network design and unifies the entire toolchain of specifying, implementing, deploying, verifying and debugging networks.\r\n\r\nThe proposed research includes the following three tightly connected tasks that comprise DEFIND. All three tasks use the Network Datalog declarative networking language, as the unified intermediary language. The first research task develops static analysis techniques to analyze the correctness properties of network protocols. When properties do not hold, DEFIND provides meaningful feedback to aid program debugging.  The second research task leverages dynamic provenance tracking to generate counter-examples and suggest potential fixes when static analysis in the first research task cannot provide conclusive results.  The final task provides a new API for programming networks, whereby a network operator specifies the desired functionality of the network using example behavior. DEFIND aims to automatically generate network specifications from these examples. Results from the first two tasks are applied to refine examples and generate correct network specifications.\r\n\r\nThe broader impact of this proposal lies in the development of a unifying framework that combines both formal analysis and implementation of network protocols during design, analysis, and implementation phase. DEFIND aims to enable network operators, even if they are not trained in programming, to directly design and configure new network protocols. The PIs will co-teach a research seminar that investigates the application of formal methods and programming techniques in the domain of network protocol design.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wenchao",
+   "pi_last_name": "Zhou",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wenchao Zhou",
+   "pi_email_addr": "wzhou@cs.georgetown.edu",
+   "nsf_id": "000636942",
+   "pi_start_date": "2015-08-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgetown University",
+  "inst_street_address": "MAIN CAMPUS",
+  "inst_street_address_2": "",
+  "inst_city_name": "WASHINGTON",
+  "inst_state_code": "DC",
+  "inst_state_name": "District of Columbia",
+  "inst_phone_num": "2026250100",
+  "inst_zip_code": "20057",
+  "inst_country_name": "United States",
+  "cong_dist_code": "00",
+  "st_cong_dist_code": "DC00",
+  "org_lgl_bus_name": "GEORGETOWN UNIVERSITY",
+  "org_prnt_uei_num": "TF2CMKY1HMX9",
+  "org_uei_num": "TF2CMKY1HMX9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgetown University",
+  "perf_str_addr": "37th and O St N W",
+  "perf_city_name": "Washington",
+  "perf_st_code": "DC",
+  "perf_st_name": "District of Columbia",
+  "perf_zip_code": "200571789",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "00",
+  "perf_st_cong_dist": "DC00",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 399999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The overall goal of the project is to develop a platform that enables iterative network design and unifies the entire toolchain of specifying, implementing, deploying, verifying and debugging networks. Within this overall goal, we have three key subgoals: (1) use of static analysis to reason about protocol correctness, (2) dynamic provenance tracking to identify errors that static analysis may not be able to find, and finally, (3) example driven network programming.</p>\n<p><strong>Subgoal 1. Static analysis of protocol correctness.</strong> To ensure the correctness of testing an ensemble of network policies, we propose a formal correctness definition for scheduling ensembles of tests. We develop an efficient algorithm that provably generates correct scheduling plans. Based on these formal foundations, we develop a test scheduling framework called Mikado. Mikado takes as input an ensemble of test traffic traces generated by various third-party tools. It then generates an efficient and correct schedule of the test traces. Mikado can reduce the end-to-end testing time by up to 90% and can schedule tests for thousands of network policies in large networks with 1000+ nodes within three minutes. This work was presented at NSDI 2018.</p>\n<p>To efficiently statically verify stateful networks, one has to carefully consider tradeoff between the expressiveness of the policy, the type of networks (models) to be verified, and the complexity of the verification problem. Our work NetSMC simplifies the network semantic model where only one network packet is processed by the network functions at a time. We evaluate NetSMC on a number of network policies and topologies and compared it against existing network verification tool VMN. Our custom verification tool is much more efficient than VMN, and than if we were to use SMT solvers as a black box. This work was presented at NSDI 2020.</p>\n<p><strong>Subgoal 2. Provenance-based tracking and analysis.</strong> We explore techniques to dynamically compress distributed provenance. Logically, the compression is achieved by grouping equivalent provenance graphs and maintaining only one concrete copy for each equivalence class. We statically analyze the programs of a target application to allow for quick detection of provenance equivalence at runtime. Our experimental results demonstrate that our distributed provenance compression technique leads to orders of magnitude storage reduction and noticeable query latency improvement over alternative approaches. This work was presented at SIGMOD 2017.</p>\n<p>We further introduce privacy-preserving network provenance (PPNP), a distributed provenance scheme that supports the richness of network provenance while providing strong privacy guarantees over confidential data. We propose a cryptographic approach to preserve the confidentiality of provenance (sub)graphs while allowing authorized nodes to query and access the parts that are visible to them. The PPNP scheme leverages a cryptographic primitive called Searchable Symmetric Encryption (SSE) and allows privacy-preserving retrieval of a labeled (sub)graphs of an encrypted graph. We formally analyze the proposed PPNP scheme and construct a proof-of-concept implementation which we call PrivProv. Our results demonstrate that PrivProv achieves strong confidentiality guarantees with a negligible increase in latency and low bandwidth overhead. This work was presented at VLDB 2017.</p>\n<p>We also consider the extension of provenance query capabilities to support more complex, for example, probabilistic data. We observe that, in many data-intensive applications, there has been a paradigm shift towards probabilistic and statistical reasoning. Probabilistic logic programming (PLP) languages are increasingly used to supporting developing these applications. We develop a prototype system called P3 (Provenance for Probabilistic logic Programs) for explaining and analyzing probabilistic computations. Our evaluation on several application scenarios (a visual question answering application and a mutual trust calculation in social networks) demonstrates that the system can support a wide-range of provenance queries that provides explanations for the results of learning tasks. This work was presented at EDBT 2020, and won the best paper award.</p>\n<p><strong>Subgoal 3. Example-driven programming. </strong>We explore the field of example-driven program synthesis. More specifically, we develop Facon, a new tool that enables us to automatically generate programs in arbitrary DSLs, based on input/output examples. Since input/output examples apply to any network protocols, this approach can be generalized, hence enabling us to migrate legacy networks to new DSLs, or to transform one DSL to another. Facon is successfully able to synthesize various software-defined networking controllers and distributed routing programs from example traces. Moreover, when given incomplete examples, Facon actively poses only a few additional queries to converge to the correct target program.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/24/2021<br>\n\t\t\t\t\tModified by: Wenchao&nbsp;Zhou</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe overall goal of the project is to develop a platform that enables iterative network design and unifies the entire toolchain of specifying, implementing, deploying, verifying and debugging networks. Within this overall goal, we have three key subgoals: (1) use of static analysis to reason about protocol correctness, (2) dynamic provenance tracking to identify errors that static analysis may not be able to find, and finally, (3) example driven network programming.\n\nSubgoal 1. Static analysis of protocol correctness. To ensure the correctness of testing an ensemble of network policies, we propose a formal correctness definition for scheduling ensembles of tests. We develop an efficient algorithm that provably generates correct scheduling plans. Based on these formal foundations, we develop a test scheduling framework called Mikado. Mikado takes as input an ensemble of test traffic traces generated by various third-party tools. It then generates an efficient and correct schedule of the test traces. Mikado can reduce the end-to-end testing time by up to 90% and can schedule tests for thousands of network policies in large networks with 1000+ nodes within three minutes. This work was presented at NSDI 2018.\n\nTo efficiently statically verify stateful networks, one has to carefully consider tradeoff between the expressiveness of the policy, the type of networks (models) to be verified, and the complexity of the verification problem. Our work NetSMC simplifies the network semantic model where only one network packet is processed by the network functions at a time. We evaluate NetSMC on a number of network policies and topologies and compared it against existing network verification tool VMN. Our custom verification tool is much more efficient than VMN, and than if we were to use SMT solvers as a black box. This work was presented at NSDI 2020.\n\nSubgoal 2. Provenance-based tracking and analysis. We explore techniques to dynamically compress distributed provenance. Logically, the compression is achieved by grouping equivalent provenance graphs and maintaining only one concrete copy for each equivalence class. We statically analyze the programs of a target application to allow for quick detection of provenance equivalence at runtime. Our experimental results demonstrate that our distributed provenance compression technique leads to orders of magnitude storage reduction and noticeable query latency improvement over alternative approaches. This work was presented at SIGMOD 2017.\n\nWe further introduce privacy-preserving network provenance (PPNP), a distributed provenance scheme that supports the richness of network provenance while providing strong privacy guarantees over confidential data. We propose a cryptographic approach to preserve the confidentiality of provenance (sub)graphs while allowing authorized nodes to query and access the parts that are visible to them. The PPNP scheme leverages a cryptographic primitive called Searchable Symmetric Encryption (SSE) and allows privacy-preserving retrieval of a labeled (sub)graphs of an encrypted graph. We formally analyze the proposed PPNP scheme and construct a proof-of-concept implementation which we call PrivProv. Our results demonstrate that PrivProv achieves strong confidentiality guarantees with a negligible increase in latency and low bandwidth overhead. This work was presented at VLDB 2017.\n\nWe also consider the extension of provenance query capabilities to support more complex, for example, probabilistic data. We observe that, in many data-intensive applications, there has been a paradigm shift towards probabilistic and statistical reasoning. Probabilistic logic programming (PLP) languages are increasingly used to supporting developing these applications. We develop a prototype system called P3 (Provenance for Probabilistic logic Programs) for explaining and analyzing probabilistic computations. Our evaluation on several application scenarios (a visual question answering application and a mutual trust calculation in social networks) demonstrates that the system can support a wide-range of provenance queries that provides explanations for the results of learning tasks. This work was presented at EDBT 2020, and won the best paper award.\n\nSubgoal 3. Example-driven programming. We explore the field of example-driven program synthesis. More specifically, we develop Facon, a new tool that enables us to automatically generate programs in arbitrary DSLs, based on input/output examples. Since input/output examples apply to any network protocols, this approach can be generalized, hence enabling us to migrate legacy networks to new DSLs, or to transform one DSL to another. Facon is successfully able to synthesize various software-defined networking controllers and distributed routing programs from example traces. Moreover, when given incomplete examples, Facon actively poses only a few additional queries to converge to the correct target program.\n\n \n\n\t\t\t\t\tLast Modified: 06/24/2021\n\n\t\t\t\t\tSubmitted by: Wenchao Zhou"
+ }
+}

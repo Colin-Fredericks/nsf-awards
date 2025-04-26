@@ -1,0 +1,112 @@
+{
+ "awd_id": "1358118",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SI2-SSE: Collaborative Research: Lagrangian Coherent Structures for Accurate Flow Structure Analysis",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Daniel Katz",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2014-12-31",
+ "tot_intn_awd_amt": 120478.0,
+ "awd_amount": 120478.0,
+ "awd_min_amd_letter_date": "2013-09-13",
+ "awd_max_amd_letter_date": "2013-09-13",
+ "awd_abstract_narration": "The Lagrangian Coherent Structures (LCS) software elements developed by this project will provide a valuable tool set for fluid mechanics research to extract new discoveries from the vast and growing body of computational and experimental fluid mechanics data. The computation of LCS enables a systematic approach to accurately characterize transport phenomena in complex systems that pose insurmountable challenges to traditional Eulerian approaches. Prior, ah hoc implementations of LCS have already helped in important, real-world challenges including, tracking pollutants in the ocean, developing novel diagnoses and therapies for cardiovascular disease, and helping airplanes to avoid turbulence. We will produce an open LCS software system to provide a modular, extensible and flexible infrastructure to broaden the community of scientists and engineers that benefit from LCS, in problems ranging from fluid dynamics to general dynamical systems. Prof. Shadden will lead the LCS algorithm design and numerical analysis, and Prof. Hart will oversee the package's architectural design and the efficient parallel implementation of its elements.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Shawn",
+   "pi_last_name": "Shadden",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Shawn C Shadden",
+   "pi_email_addr": "shadden@berkeley.edu",
+   "nsf_id": "000564472",
+   "pi_start_date": "2013-09-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947045940",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "125300",
+   "pgm_ele_name": "OFFICE OF MULTIDISCIPLINARY AC"
+  },
+  {
+   "pgm_ele_code": "163000",
+   "pgm_ele_name": "Mechanics of Materials and Str"
+  },
+  {
+   "pgm_ele_code": "747800",
+   "pgm_ele_name": "DYNAMICAL SYSTEMS"
+  },
+  {
+   "pgm_ele_code": "755200",
+   "pgm_ele_name": "COFFES"
+  },
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 120474.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Technologies to measure and compute fluid mechanics have grown tremendously in recent years, providing accurate flow field information for increasing complex applications. How to properly digest and interpret such data is a nontrivial task however. In many applications, interest lies in understanding the&nbsp;<em>governing structures</em> that&nbsp;manifest the flow behavior. For this, the computation of <em>Lagrangian coherent structures </em>(LCS) has recently proven to be an effective method to characterize and understand the complexity of unsteady fluid transport. The aim of this project was to provide software elements to compute and visualize LCS in a variety of applications, while maintaing a modular infrastructure amenable to further customization and technological advances.</p>\n<div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><span>The first major outcome of this project was development of a basic software&nbsp;<em>pipeline</em> for LCS computation written in C++ and using functionality from the&nbsp;popular Visualization ToolKit (VTK), which provides a broad collection of open-source libraries for 3D computer graphics, image processing and visualization. While several codes to compute LCS exist, many are not flexible at the \"front-end\" or \"back-end\", but instead are tailored to a specific application type. The u</span>se of VTK enabled us to handle velocity data stored by several file formats and grid types commonly used in the fluid mechanics community, which provided flexibility at the \"front-end\" of our pipeline to support a variety of applications. Secondly, several open-source programs for visualizing scientific data are built on VTK--mostly notably Paraview. Our use of the VTK architecture enabled us to integrate software elements with Paraview through the development of custom filters. This provided flexibility at the \"back-end\" for the tools developed to be used in conjunction with an existing data visualization and flow characterization framework familiar to many users.&nbsp;</p>\n<p>The second major outcome of this project was development of new integration techniques that lie at the heart of LCS computation. The computation of LCS typically starts from velocity field data for a fluid (obtained by measurement or computation). This data is used to numerically integrate particle trajectories, which in turn are used to compute the deformation gradient of the flow, and LCS are then defined or visualized from the deformation gradient field. In this project we developed methods and numerical schemes for the accurate and efficient computation of particle path and deformation gradient field information. The development of these schemes coincided with advancements in LCS theory, which necessitated these new methods. &nbsp;</p>\n<p>The third major outcome of this project was development of ridge detection software elements for extracting LCS from scalar or tensor field data. In a typical LCS application, a scalar field (commonly the FTLE field) or tensor field (commonly the Cauchy-Green tensor) is derived from the deformation gradient and LCS are identified<em> visually</em>. For several reasons, it may be desirable to numerically extract the LCS surfaces based on specific criteria related to the scalar or tensor field. We developed two approaches for this purpose. The first was a local approach based on a marching ridges algorithm. The second was a global approach based on a hierarchical&nbsp; watershed method. Each method proved to have advantages and disadvantages. &nbsp;&nbsp;</p>\n<p>Software elements related to this project have been, or are being, made open-source.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/28/2015<br>\n\t\t\t\t\tModified by: Shawn&nbsp;C&nbsp;Shadden</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nTechnologies to measure and compute fluid mechanics have grown tremendously in recent years, providing accurate flow field information for increasing complex applications. How to properly digest and interpret such data is a nontrivial task however. In many applications, interest lies in understanding the governing structures that manifest the flow behavior. For this, the computation of Lagrangian coherent structures (LCS) has recently proven to be an effective method to characterize and understand the complexity of unsteady fluid transport. The aim of this project was to provide software elements to compute and visualize LCS in a variety of applications, while maintaing a modular infrastructure amenable to further customization and technological advances.\n\n\n\n\nThe first major outcome of this project was development of a basic software pipeline for LCS computation written in C++ and using functionality from the popular Visualization ToolKit (VTK), which provides a broad collection of open-source libraries for 3D computer graphics, image processing and visualization. While several codes to compute LCS exist, many are not flexible at the \"front-end\" or \"back-end\", but instead are tailored to a specific application type. The use of VTK enabled us to handle velocity data stored by several file formats and grid types commonly used in the fluid mechanics community, which provided flexibility at the \"front-end\" of our pipeline to support a variety of applications. Secondly, several open-source programs for visualizing scientific data are built on VTK--mostly notably Paraview. Our use of the VTK architecture enabled us to integrate software elements with Paraview through the development of custom filters. This provided flexibility at the \"back-end\" for the tools developed to be used in conjunction with an existing data visualization and flow characterization framework familiar to many users. \n\nThe second major outcome of this project was development of new integration techniques that lie at the heart of LCS computation. The computation of LCS typically starts from velocity field data for a fluid (obtained by measurement or computation). This data is used to numerically integrate particle trajectories, which in turn are used to compute the deformation gradient of the flow, and LCS are then defined or visualized from the deformation gradient field. In this project we developed methods and numerical schemes for the accurate and efficient computation of particle path and deformation gradient field information. The development of these schemes coincided with advancements in LCS theory, which necessitated these new methods.  \n\nThe third major outcome of this project was development of ridge detection software elements for extracting LCS from scalar or tensor field data. In a typical LCS application, a scalar field (commonly the FTLE field) or tensor field (commonly the Cauchy-Green tensor) is derived from the deformation gradient and LCS are identified visually. For several reasons, it may be desirable to numerically extract the LCS surfaces based on specific criteria related to the scalar or tensor field. We developed two approaches for this purpose. The first was a local approach based on a marching ridges algorithm. The second was a global approach based on a hierarchical  watershed method. Each method proved to have advantages and disadvantages.   \n\nSoftware elements related to this project have been, or are being, made open-source. \n\n \n\n \n\n\n\n\n \n\n\t\t\t\t\tLast Modified: 05/28/2015\n\n\t\t\t\t\tSubmitted by: Shawn C Shadden"
+ }
+}

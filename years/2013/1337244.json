@@ -1,0 +1,96 @@
+{
+ "awd_id": "1337244",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: SDA: Collaborative Research: A Scalable and Distributed System Framework for Compute-Intensive and Data-Parallel Applications",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tevfik Kosar",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 375000.0,
+ "awd_amount": 375000.0,
+ "awd_min_amd_letter_date": "2013-08-22",
+ "awd_max_amd_letter_date": "2013-08-22",
+ "awd_abstract_narration": "Whereas traditional high-performance computing (HPC) applications are computationally intensive, recent HPC applications require more data-intensive analysis and visualization to extract knowledge. In many cases, these applications execute the same computational algorithm as in the past (e.g., parallel search or parallel rendering) but now must do so for significantly larger data sets. For example, the life sciences, along with the cross-cutting area of scientific visualization, constitute an emerging category of HPC applications that not only perform sophisticated calculations but also ingest a sea of data. Running these new HPC data-parallel applications on today's computing platforms imposes new challenges and demands additional functionality.\r\n\r\nHowever, today's HPC platforms still adopt a compute-centric model and do not handle these new challenges well. Such a model often moves a large amount of data to various parallel computational processes. Consequently, long CPU wait times for I/O to complete and enormous data-movement overhead become major stumbling blocks to high performance and scalability. This project encompasses the creation of a scalable cross-layer software framework to enable both computationally intensive and data-intensive parallel HPC applications to run on distributed file systems. This framework consists of two interwoven research tasks: (1) an adaptive, data locality-aware, middleware system that dynamically schedules compute processes to access local data by monitoring physical data locations and (2) a framework that captures the computation and data I/O processing relationship from parallel applications and coordinates the scheduling of the corresponding process and I/O execution for maximum parallel efficiency. The success of this project contributes enhanced productivity and return on investment on HPC resources via the elimination of both CPU wait time and network transfer of frequently accessed data in scientific applications. An open-source, sustainable, and reusable software framework is delivered to speed-up the discovery and innovation process in areas such as bioinformatics, climate, high-energy physics, cosmology, astrophysics, and chromodynamics. The synergy in the two proposing institutions, Virginia Tech and the University of Central Florida, and their collaborating DOE national laboratories, will catalyze new and beneficial perspectives in the graduate education of students and prepare a 21st-century workforce in HPC.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jun",
+   "pi_last_name": "Wang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jun Wang",
+   "pi_email_addr": "Jun.Wang@ucf.edu",
+   "nsf_id": "000277527",
+   "pi_start_date": "2013-08-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "The University of Central Florida Board of Trustees",
+  "inst_street_address": "4000 CENTRAL FLORIDA BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "ORLANDO",
+  "inst_state_code": "FL",
+  "inst_state_name": "Florida",
+  "inst_phone_num": "4078230387",
+  "inst_zip_code": "328168005",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "FL10",
+  "org_lgl_bus_name": "THE UNIVERSITY OF CENTRAL FLORIDA BOARD OF TRUSTEES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RD7MXJV7DKT9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Central Florida",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "FL",
+  "perf_st_name": "Florida",
+  "perf_zip_code": "328162362",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "FL10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 375000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Many scientists are exploring the possibilities of deploying applications with large scale of data on cloud computing platforms such as Amazon EC2 and Windows Azure. Recently, the successful deployment of eScience applications on clouds motivates us to deploy HPC analytics applications to the cloud, especially MapReduce enabled. The reason behind this lies in a fact that eScience applications and HPC analytics applications share some important features: terascale or peta-scale data size and high cost to run on single or several supercomputers or large platforms. However, HPC analytics applications bear some distinct characteristics such as complex data access patterns, interest locality, and which pose new challenges to its adoption of clouds.</p>\n<p>&nbsp;</p>\n<p>Apart from the applications, which deal with information retrieval and processing over the Internet (For example Google Search Application), scientific applications are also following the same trend of generating and processing petabytes of data. These applications come from a diverse range of fields such as Cosmology, Bioinformatics, Geology, Medicine, Astronomy, etc. If we assume that one physicist will run one simulation per day for a five day work week, then the approximate savings per year would be $19,100 per physicist. Since this unified storage framework avoids many unnecessary data transfer and guarantees minimum data movement, we estimate this unified framework could save millions of dollars of physicists&rsquo; labor in Los Alamos National Lab.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/05/2018<br>\n\t\t\t\t\tModified by: Jun&nbsp;Wang</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMany scientists are exploring the possibilities of deploying applications with large scale of data on cloud computing platforms such as Amazon EC2 and Windows Azure. Recently, the successful deployment of eScience applications on clouds motivates us to deploy HPC analytics applications to the cloud, especially MapReduce enabled. The reason behind this lies in a fact that eScience applications and HPC analytics applications share some important features: terascale or peta-scale data size and high cost to run on single or several supercomputers or large platforms. However, HPC analytics applications bear some distinct characteristics such as complex data access patterns, interest locality, and which pose new challenges to its adoption of clouds.\n\n \n\nApart from the applications, which deal with information retrieval and processing over the Internet (For example Google Search Application), scientific applications are also following the same trend of generating and processing petabytes of data. These applications come from a diverse range of fields such as Cosmology, Bioinformatics, Geology, Medicine, Astronomy, etc. If we assume that one physicist will run one simulation per day for a five day work week, then the approximate savings per year would be $19,100 per physicist. Since this unified storage framework avoids many unnecessary data transfer and guarantees minimum data movement, we estimate this unified framework could save millions of dollars of physicists? labor in Los Alamos National Lab.\n\n \n\n\t\t\t\t\tLast Modified: 09/05/2018\n\n\t\t\t\t\tSubmitted by: Jun Wang"
+ }
+}

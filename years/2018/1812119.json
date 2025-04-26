@@ -1,0 +1,96 @@
+{
+ "awd_id": "1812119",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Statistical Inference for Networks with Complex Topological Structures",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Gabor Szekely",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2021-07-31",
+ "tot_intn_awd_amt": 150000.0,
+ "awd_amount": 150000.0,
+ "awd_min_amd_letter_date": "2018-07-03",
+ "awd_max_amd_letter_date": "2018-07-03",
+ "awd_abstract_narration": "Understanding the structure of networks is critical to understanding and predicting application phenomena involving networks, such as the resilience of insurgent and terrorist networks and the impact of disease-transmission networks on epidemics. In the past decade, tremendous progress has been made on statistical inference for networks with simple topological features, such as the number of connections in networks and the propensities of network members to form connections. However, statistical inference for networks with complex topological features, such as various forms of network closure that are believed to be crucial, remains underdeveloped, because complex topological features raise challenging conceptual, theoretical, and computational issues. This project addresses fundamental questions underpinning statistical inference for such networks. The statistical models and methods that are developed will be made publicly available in the form of R packages.\r\n\r\nThis research project is concerned with the foundations of statistical inference for networks with complex topological features.  It starts with a question that is at the heart of statistical inference: What does it mean to observe more data from the same source? The conventional answer is that more data are observed by observing a larger and larger network. Some interesting insights have emerged by studying growing networks. Among them is that models with complex topological features may depend on the size of the network and that using the same model, with the same parameters, for small and large networks may not be meaningful.  Despite such insights, the question of how to model a wide range of complex topological features and how to conduct sound statistical inference remains unanswered. This project attempts to provide answers and is based on the following idea: If models with complex topological features depend on the size of the network, then statistical inference should be based on networks of the same order of magnitude. In other words, statistical inference should be based on replication. At least two forms of replication are possible: replication based on a single network consisting of many subnetworks or many networks of the same order of magnitude, i.e., the size of the largest network is a constant multiple of the size of the smallest network. Such network data, called multilevel network data, has important applications; examples include networks of armed forces consisting of units and subunits and school networks consisting of schools and school classes. Multilevel network data offer outstanding opportunities for modeling, methods, and theory. This project will take advantage of these opportunities to elaborate novel multilevel network models capturing complex topological features in networks, overlapping subsets of nodes, and temporal networks.  Statistical theory will take advantage of the replicative nature of multilevel network data, which provides a path to the first general statistical theory for networks with complex topological features.  Statistical computing will take advantage of the conditional independence structure of multilevel network models and will develop large-scale parallel computing procedures.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Schweinberger",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael Schweinberger",
+   "pi_email_addr": "mus47@psu.edu",
+   "nsf_id": "000670734",
+   "pi_start_date": "2018-07-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "William Marsh Rice University",
+  "inst_street_address": "6100 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "Houston",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7133484820",
+  "inst_zip_code": "770051827",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "WILLIAM MARSH RICE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "K51LECU1G8N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "William Marsh Rice University",
+  "perf_str_addr": "6100 Main St.",
+  "perf_city_name": "Houston",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "772511892",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "18",
+  "perf_st_cong_dist": "TX18",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "126900",
+   "pgm_ele_name": "STATISTICS"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 150000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Intellectual Merit:<br /><br />NSF award DMS-1812119 supported research on network data with additional structure. The importance of additional structure arises from the fact that network data are dependent data without independent replications. Indeed, scientists have argued since the 1950s that connections depend on other connections: e.g., the phenomenon that \"a friend of a friend is a friend\" suggests that friendships are dependent. In applications, population probability models are, more often than not, learned from a single observation of a population network or subnetworks sampled from a population network. That raises an important question: What can be learned about a connected world where connections depend on other connections, without having the benefit of independent observations from the same source? <br /><br />The research supported by NSF award DMS-1812119 was based on the insight that additional structure facilitates scalable learning about a connected world. In practice, there are many forms of additional structure, such as multilevel, spatial, or temporal structure. The research supported by NSF award DMS-1812119 focused on a simple form of multilevel structure: populations consisting of non-overlapping or overlapping subpopulations. Subpopulation structure helps construct models with local dependence, which respect the local nature of networks. More than that, additional structure facilitates scalable learning about a connected world, because learning algorithms can take advantage of subpopulation structure to perform local computing on subnetworks of population networks, facilitating large-scale computing on multi-core computers or computing clusters. Last, but not least, by controlling the dependence among connections, subpopulation structure facilitates concentration-of-measure results and therefore provides theoretical guarantees for scalable learning. As a result, the research supported by NSF award DMS-1812119 demonstrated that additional structure facilitates scalable learning about a connected world, without having the benefit of independent observations from the same source. It has made practical, computational, and theoretical contributions, published in leading journals in statistics and network science.<br /><br />Broader Impacts: Science<br /><br />In practice, learning from network data requires statistical software packages. Based on the number of downloads of R packages, the most popular branch of R packages for network data are R packages for exponential-family random graph models, which can be viewed as generalized linear models (GLMs) for dependent network data. Despite the popularity of the mentioned R packages among data scientists, questions have been raised about what can be learned from dependent network data based on GLMs for dependent network data. NSF award DMS-1812119 contributed constructive answers to those questions, showing that scalable learning is facilitated by additional structure. In addition to providing answers to fundamental questions, NSF award DMS-1812119 contributed two R packages, hergm and mlergm, which take advantage of additional structure in the form of subpopulation structure. In so doing, the PI's team has provided critical support for the statistical software community that creates and builds R packages for dependent network data, and the data science community that uses them to understand a connected world and make model-based predictions of real-world phenomena, such as the spread of infectious diseases through populations by way of contact.<br /><br />Broader Impacts: Society<br /><br />NSF award DMS-1812119 helped increase the data science workforce directly and indirectly. First, it directly increased the data science workforce by training two graduate students in the Department of Statistics at Rice University. Second, it indirectly increased the data science work force, because one of the two graduate students supported by NSF award DMS-1812119 accepted a position as a tenure-track Assistant Professor in a Department of Statistics at an R1 research university in the U.S. and has been training the next generation of data scientists since 2020. As a consequence, NSF award DMS-1812119 acted as a force multiplier, increasing the data science workforce directly and indirectly.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/01/2021<br>\n\t\t\t\t\tModified by: Michael&nbsp;Schweinberger</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIntellectual Merit:\n\nNSF award DMS-1812119 supported research on network data with additional structure. The importance of additional structure arises from the fact that network data are dependent data without independent replications. Indeed, scientists have argued since the 1950s that connections depend on other connections: e.g., the phenomenon that \"a friend of a friend is a friend\" suggests that friendships are dependent. In applications, population probability models are, more often than not, learned from a single observation of a population network or subnetworks sampled from a population network. That raises an important question: What can be learned about a connected world where connections depend on other connections, without having the benefit of independent observations from the same source? \n\nThe research supported by NSF award DMS-1812119 was based on the insight that additional structure facilitates scalable learning about a connected world. In practice, there are many forms of additional structure, such as multilevel, spatial, or temporal structure. The research supported by NSF award DMS-1812119 focused on a simple form of multilevel structure: populations consisting of non-overlapping or overlapping subpopulations. Subpopulation structure helps construct models with local dependence, which respect the local nature of networks. More than that, additional structure facilitates scalable learning about a connected world, because learning algorithms can take advantage of subpopulation structure to perform local computing on subnetworks of population networks, facilitating large-scale computing on multi-core computers or computing clusters. Last, but not least, by controlling the dependence among connections, subpopulation structure facilitates concentration-of-measure results and therefore provides theoretical guarantees for scalable learning. As a result, the research supported by NSF award DMS-1812119 demonstrated that additional structure facilitates scalable learning about a connected world, without having the benefit of independent observations from the same source. It has made practical, computational, and theoretical contributions, published in leading journals in statistics and network science.\n\nBroader Impacts: Science\n\nIn practice, learning from network data requires statistical software packages. Based on the number of downloads of R packages, the most popular branch of R packages for network data are R packages for exponential-family random graph models, which can be viewed as generalized linear models (GLMs) for dependent network data. Despite the popularity of the mentioned R packages among data scientists, questions have been raised about what can be learned from dependent network data based on GLMs for dependent network data. NSF award DMS-1812119 contributed constructive answers to those questions, showing that scalable learning is facilitated by additional structure. In addition to providing answers to fundamental questions, NSF award DMS-1812119 contributed two R packages, hergm and mlergm, which take advantage of additional structure in the form of subpopulation structure. In so doing, the PI's team has provided critical support for the statistical software community that creates and builds R packages for dependent network data, and the data science community that uses them to understand a connected world and make model-based predictions of real-world phenomena, such as the spread of infectious diseases through populations by way of contact.\n\nBroader Impacts: Society\n\nNSF award DMS-1812119 helped increase the data science workforce directly and indirectly. First, it directly increased the data science workforce by training two graduate students in the Department of Statistics at Rice University. Second, it indirectly increased the data science work force, because one of the two graduate students supported by NSF award DMS-1812119 accepted a position as a tenure-track Assistant Professor in a Department of Statistics at an R1 research university in the U.S. and has been training the next generation of data scientists since 2020. As a consequence, NSF award DMS-1812119 acted as a force multiplier, increasing the data science workforce directly and indirectly.\n\n\t\t\t\t\tLast Modified: 09/01/2021\n\n\t\t\t\t\tSubmitted by: Michael Schweinberger"
+ }
+}

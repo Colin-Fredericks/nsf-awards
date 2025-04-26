@@ -1,0 +1,113 @@
+{
+ "awd_id": "1016577",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Multiscale Algorithms for Wave Propagation",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032924488",
+ "po_email": "jwang@nsf.gov",
+ "po_sign_block_name": "Junping Wang",
+ "awd_eff_date": "2010-08-01",
+ "awd_exp_date": "2013-07-31",
+ "tot_intn_awd_amt": 274098.0,
+ "awd_amount": 274098.0,
+ "awd_min_amd_letter_date": "2010-07-06",
+ "awd_max_amd_letter_date": "2010-07-06",
+ "awd_abstract_narration": "Most scientific processes and their related mathematical models have important features in a wide range of time and length scales. Some typical examples related to the computation of waves are propagation and scattering of high frequency waves and interaction of the wave field with complex media.  Discretizing these problems directly at the finest scale and solving the resulting systems with standard numerical algorithms inevitably leads to an enormous computational problem with unacceptable long computation times and large memory requirements. Building on our previous experience in multiscale algorithms, we plan to design, implement, and analyze novel algorithms for problems in high frequency wave propagation and related fields. Such problems are challenging since many well-known techniques, such as multigrid and standard fast multipole methods have limited efficiency. We will focus on the following three topics: (1) high frequency acoustic and electromagnetic scattering, (2) Gaussian beam methods for high frequency wave and Schrodinger equations, and (3) homogenization of complex media with multiple reiterated scales.\r\n\r\nThe overarching theme of the research presented in this proposal is to exploit the geometric structures and asymptotic features of a variety of multiscale problems. The proposed research will have direct impact in several application fields. These algorithms will help us to solve large scale complicated scattering problems on the scales of thousands of wavelengths as in antenna design for wireless communication. We will also better understand wave propagation in composite materials with applications in exploration seismology. On the education side, the development of modern numerical algorithms and softwares requires researchers to understand different aspects of computational mathematics. We plan to use this grant to support two graduate students. \r\nThis will not only help training a new generation of researchers who master algorithmic design, mathematical analysis, and software development, but also promote the awareness and interests in computational mathematics among undergraduates and underrepresented groups. We will work with researchers from industrial and government laboratories to disseminate ideas and deliver operational softwares for challenging applications.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Bjorn",
+   "pi_last_name": "Engquist",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Bjorn Engquist",
+   "pi_email_addr": "engquist@math.utexas.edu",
+   "nsf_id": "000455499",
+   "pi_start_date": "2010-07-06",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Lexing",
+   "pi_last_name": "Ying",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Lexing Ying",
+   "pi_email_addr": "lexing@math.stanford.edu",
+   "nsf_id": "000148894",
+   "pi_start_date": "2010-07-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "110 INNER CAMPUS DR",
+  "perf_city_name": "AUSTIN",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121139",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 274098.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><div class=\"page\" title=\"Page 2\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><span>During this project, we have made two fundamental contributions in the field of high frequency wave computation. First, we have d</span>eveloped the sweeping preconditioners for time-harmonic wave equations. This is the first ever linear complexity algorithm for solving such equations for a sufficiently general setting. We have implemented this preconditioner for different equations (such as Helmholtz equation, Maxwell's equations, linear elasticity equation), different discretizations (finte difference, finite element, spectral element discretizations), and different computational model (sequential and parallel). The sweeping preconditioner has a wide range of applications in acoustic, seismic, and EM wave propagation, and has been recently included in the software developement of several major oil companies.</p>\n<p>Second, we have developed a fast algorithm for reiterated homogenization. Nature material often involve structures from different scales and reiterated homogenization is a very natural model for these materials. The algorithm developed by us is the first efficient and practical algorithm for computing the effective coefficient (or material property) for materials with multiple structures.&nbsp;</p>\n<p>Several students and postdocs have been actively involved in these two projects. One will start a tenure-track position in Georgia Tech, one is now on the reserach staff of a major national lab, and another one has a successful career in a major software company.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/20/2013<br>\n\t\t\t\t\tModified by: Lexing&nbsp;Ying</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\n\n\nDuring this project, we have made two fundamental contributions in the field of high frequency wave computation. First, we have developed the sweeping preconditioners for time-harmonic wave equations. This is the first ever linear complexity algorithm for solving such equations for a sufficiently general setting. We have implemented this preconditioner for different equations (such as Helmholtz equation, Maxwell's equations, linear elasticity equation), different discretizations (finte difference, finite element, spectral element discretizations), and different computational model (sequential and parallel). The sweeping preconditioner has a wide range of applications in acoustic, seismic, and EM wave propagation, and has been recently included in the software developement of several major oil companies.\n\nSecond, we have developed a fast algorithm for reiterated homogenization. Nature material often involve structures from different scales and reiterated homogenization is a very natural model for these materials. The algorithm developed by us is the first efficient and practical algorithm for computing the effective coefficient (or material property) for materials with multiple structures. \n\nSeveral students and postdocs have been actively involved in these two projects. One will start a tenure-track position in Georgia Tech, one is now on the reserach staff of a major national lab, and another one has a successful career in a major software company.\n\n \n\n \n\n\n\n\n\t\t\t\t\tLast Modified: 10/20/2013\n\n\t\t\t\t\tSubmitted by: Lexing Ying"
+ }
+}

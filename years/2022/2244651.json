@@ -1,0 +1,105 @@
+{
+ "awd_id": "2244651",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CHS: Small: Towards Next-Generation Large-Scale Nonlinear Deformable Simulation",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Ephraim Glinert",
+ "awd_eff_date": "2022-08-15",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 357328.0,
+ "awd_amount": 59178.0,
+ "awd_min_amd_letter_date": "2022-09-13",
+ "awd_max_amd_letter_date": "2022-09-13",
+ "awd_abstract_narration": "Using a digital computer to accurately simulate soft objects that deform under external interactions is a fundamental problem in a wide range of scientific and engineering fields.  For example, without being able to deliver a faithful force-displacement response, virtual surgical training is hardly effective and provides users with misleading experiences.  In the past decade, the number of simulation degrees of freedom (DOFs) for deformable models has increased from hundreds to hundreds-of-thousands and even millions.  Computing hardware that has become more and more powerful has contributed significantly to this development, but unfortunately it is unlikely that in the future computer simulation will continue to benefit dramatically from increased processor frequency.  Indeed, in the last few years the chip industry has already moved the emphasis from a faster processor clock to multi-core architectures.  On the other hand, with the widespread adoption of advanced acquisition devices/techniques, the complexity and scale of the data that can be handled by computers have grown exponentially, and large-scale geometries are becoming ubiquitous in modern 3D data processing.  This new era of data explosion imposes unprecedented challenges on deformable simulation.  Existing methods typically use one-stop solvers that calculate all the unknown DOFs of a system, but that is computationally intensive due to the underlying high-dimensional numerical integration.  Even with state-of-the-art hardware, deformable simulation can still take hours, days, or even weeks for massive scenarios.  \r\n\r\nClearly, conventional simulation methodologies fail to well accommodate distributed computing resource allocation, and become more and more cumbersome with bigger and bigger datasets.  This calls for rebranded algorithmic frameworks and dedicated numerical procedures for large-scale geometrically-complex and nonlinear deformable models that empower next-generation graphics applications.  Motivated by these grand challenges, this project systematically investigates a collection of theoretical advancements, computational techniques, and numerical implementations that push the frontier of large-scale nonlinear deformable models to \"post Moore's law.\"  Specifically, the intellectual merit of the research will comprise the following aspects:\r\no   The project will devise a theoretically grounded domain decomposition based parallel deformable simulator.  By weakening inter-domain linkages, the domain-level computations become independent and parallelizable.  The coupling mechanism will be generalized and enriched so that non-conforming and overlapping domain decompositions are made possible.  This includes an in-depth optimization of the domain tessellation under specified hardware configurations.  Simulation reusability will be further enhanced through a novel technique called cellular domains.\r\no   The project will deepen the current understanding of large-scale model reduction and re-forge this useful tool in the context of parallel computing.  In particular, how to utilize power iteration to obtain the spectral analysis will be explored.  Furthermore, geometry-based reduction directly dictates reduced DOFs and has a more robust simulation even under imposed extreme constraints.\r\no   A well-argued computational theory is less practicable unless encapsulated by a set of carefully engineered implementations.  Accordingly, the project will also design customized numerical procedures paired with proposed algorithmic techniques, and the entire simulation framework will be fine-tuned at the system level, solver level, and sub-solver level by leveraging unique data patterns, numerical behaviors, and problem structures of domain decomposed deformable models.\r\no   As a testbed platform, the project will develop a novel real-time human tongue motion visualization system.  Over 8% of U.S. children have a communication or swallowing disorder.  Built upon the new deformation solver, an ultrasound-imaging-driven real-time human tongue visualization system will be developed to assist doctors and speech therapists to better understand the pathological mechanism behind this disease and plan more effective subject-specific medical/physical treatments.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yin",
+   "pi_last_name": "Yang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yin Yang",
+   "pi_email_addr": "yin.yang@utah.edu",
+   "nsf_id": "000663449",
+   "pi_start_date": "2022-09-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Utah",
+  "inst_street_address": "201 PRESIDENTS CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SALT LAKE CITY",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8015816903",
+  "inst_zip_code": "841129049",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "UT01",
+  "org_lgl_bus_name": "UNIVERSITY OF UTAH",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LL8GLEVH6MG3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Utah",
+  "perf_str_addr": "201 PRESIDENTS CIR",
+  "perf_city_name": "SALT LAKE CITY",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "841129049",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "UT01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736700",
+   "pgm_ele_name": "HCC-Human-Centered Computing"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7367",
+   "pgm_ref_txt": "Cyber-Human Systems"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01001718DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2017,
+   "fund_oblg_amt": 59178.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project aims to develop a next-generation simulation algorithm that fully leverages the latest development of parallel hardware such as multicore CPU and GPU. The key idea is to convert a one-stop, expensive, and sequential solve at each simulation time step to several less expensive and more parallelizable iterations.&nbsp;</p>\n<p>This project results in over 10 SIGGRAPH and SIGGRAPH Asia publications. A collection of novel numerical methods has been developed in this project including GPU-based first-order descent method, mixed Jacobi and Gauss&ndash;Seidel method (via hybrid coloring schemes), second-order element-by-element descent method, multigrid method, aggregated Jacobi method. It also explores the combination of interior point method with non-Newton iteration and its efficient implementation on the GPU, making simulation orders-of-magnitude faster than the existing barrier method for robust collision/contact processing. &nbsp;</p>\n<p>We believe direct solvers, which have been used by scientific community for years may be replaced by novel numerical solutions developed in this project. Fast and scalable simulation enables endless possibilities and generates broader impacts in other areas. For instance, the affine body dynamics developed in this project paves the new path to close the sim-to-real gap. The subspace preconditioned multi-domain cloth simulation enables the next-generation digital fashion via vivid cloth simulation effects. Another important impact is efficient, parallelizable simulators are critical infrastructure for data synthesis, on which large-scale deep learning models are built. Numerical methods developed by this project will become an effective tool for this purpose, and generate impactful benefits to the society.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 12/27/2023<br>\nModified by: Yin&nbsp;Yang</p></div>\n<div class=\"porSideCol\"\n><div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721021608_mpm--rgov-214x142.png\" original=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721021608_mpm--rgov-800width.png\" title=\"Large-scale MPM\"><img src=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721021608_mpm--rgov-66x44.png\" alt=\"Large-scale MPM\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">This project benefits simulation methods beyound FEM. This shows a large-scale MPM simulation of millions of bodies using distributed computing.</div>\n<div class=\"imageCredit\">Yin Yang</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Yin&nbsp;Yang\n<div class=\"imageTitle\">Large-scale MPM</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720755930_cloth--rgov-214x142.png\" original=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720755930_cloth--rgov-800width.png\" title=\"High-resolution cloth simulation\"><img src=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720755930_cloth--rgov-66x44.png\" alt=\"High-resolution cloth simulation\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Combing domain decomposition, GPU, and subspace, this project pushes the limit of cloth animation.</div>\n<div class=\"imageCredit\">Yin Yang</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Yin&nbsp;Yang\n<div class=\"imageTitle\">High-resolution cloth simulation</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720875911_abd--rgov-214x142.png\" original=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720875911_abd--rgov-800width.png\" title=\"Affine body dynamics\"><img src=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720875911_abd--rgov-66x44.png\" alt=\"Affine body dynamics\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">ABD has the potential to replace existing rigid body simulation engines. It is efficient, robust, and scalable.</div>\n<div class=\"imageCredit\">Yin Yang</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Yin&nbsp;Yang\n<div class=\"imageTitle\">Affine body dynamics</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721130236_bubble--rgov-214x142.png\" original=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721130236_bubble--rgov-800width.png\" title=\"Bubble simulation\"><img src=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721130236_bubble--rgov-66x44.png\" alt=\"Bubble simulation\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">We simulation bubble dynamics using power PIC with accurate control over the volume of the bubbles.</div>\n<div class=\"imageCredit\">Yin Yang</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Yin&nbsp;Yang\n<div class=\"imageTitle\">Bubble simulation</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721239757_halloween--rgov-214x142.png\" original=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721239757_halloween--rgov-800width.png\" title=\"GPU projective dynamics yields interesting animation in real-time\"><img src=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703721239757_halloween--rgov-66x44.png\" alt=\"GPU projective dynamics yields interesting animation in real-time\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Our method push the performance of elastic simulation at a new level. Interesting animation can be easily produced with interpenetration-free guarantee.</div>\n<div class=\"imageCredit\">Yin Yang</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Yin&nbsp;Yang\n<div class=\"imageTitle\">GPU projective dynamics yields interesting animation in real-time</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720628536_perelement_descent_method--rgov-214x142.png\" original=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720628536_perelement_descent_method--rgov-800width.png\" title=\"Per element GPU descent method for deformable simulation.\"><img src=\"/por/images/Reports/POR/2023/2244651/2244651_10516191_1703720628536_perelement_descent_method--rgov-66x44.png\" alt=\"Per element GPU descent method for deformable simulation.\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">We propose a new GPU-based algorithm for generic finite element simulation using the interior-point method.</div>\n<div class=\"imageCredit\">Yin Yang</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Yin&nbsp;Yang\n<div class=\"imageTitle\">Per element GPU descent method for deformable simulation.</div>\n</div>\n</li></ul>\n</div>\n</div></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project aims to develop a next-generation simulation algorithm that fully leverages the latest development of parallel hardware such as multicore CPU and GPU. The key idea is to convert a one-stop, expensive, and sequential solve at each simulation time step to several less expensive and more parallelizable iterations.\n\n\nThis project results in over 10 SIGGRAPH and SIGGRAPH Asia publications. A collection of novel numerical methods has been developed in this project including GPU-based first-order descent method, mixed Jacobi and GaussSeidel method (via hybrid coloring schemes), second-order element-by-element descent method, multigrid method, aggregated Jacobi method. It also explores the combination of interior point method with non-Newton iteration and its efficient implementation on the GPU, making simulation orders-of-magnitude faster than the existing barrier method for robust collision/contact processing. \n\n\nWe believe direct solvers, which have been used by scientific community for years may be replaced by novel numerical solutions developed in this project. Fast and scalable simulation enables endless possibilities and generates broader impacts in other areas. For instance, the affine body dynamics developed in this project paves the new path to close the sim-to-real gap. The subspace preconditioned multi-domain cloth simulation enables the next-generation digital fashion via vivid cloth simulation effects. Another important impact is efficient, parallelizable simulators are critical infrastructure for data synthesis, on which large-scale deep learning models are built. Numerical methods developed by this project will become an effective tool for this purpose, and generate impactful benefits to the society.\n\n\n\t\t\t\t\tLast Modified: 12/27/2023\n\n\t\t\t\t\tSubmitted by: YinYang\n"
+ }
+}

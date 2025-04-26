@@ -1,0 +1,105 @@
+{
+ "awd_id": "1829560",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Causal Discovery in the Presence of Measurement Error Theory and Practical Algorithms",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rebecca Hwa",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2020-07-31",
+ "tot_intn_awd_amt": 39999.0,
+ "awd_amount": 39999.0,
+ "awd_min_amd_letter_date": "2018-07-19",
+ "awd_max_amd_letter_date": "2018-07-19",
+ "awd_abstract_narration": "The discovery of cause-and-effect relationships is a fundamental notion in science. To find such causal relationships, traditional methods based on interventions or randomized experiments are usually expensive or even impossible. Causal discovery aims to find the underlying causal structure or model from purely observational data and has many applications in various disciplines. Despite its successes on a number of real problems, the presence of measurement error in the observed data can produce serious mistakes in the output of various causal discovery methods. Given the ubiquity of measurement error caused by instruments or proxies used in the measuring process, this problem has been recognized as one of the main obstacles to reliable causal discovery. It is still unknown to what extent the causal structure for relevant variables can be identified in the presence of measurement error, let alone how to develop practical algorithms to solve this problem. This project aims to fill the void. It will investigate what information of the causal model of interest can be recovered from observed data and what assumptions one has to make to achieve successful recovery of the causal information. Based on such theoretical results, the project will then investigate efficient estimation procedures. \r\n \r\nThe project will establish theoretical identifiability results for the underlying, true causal structure and, in light of such results, develop practical causal discovery algorithms. Preliminary results show theoretically how measurement error changes the (conditional) independence and dependence relationships in the data, i.e., how the (conditional) independence and independence relations between the observed variables are different from those between the measurement-error-free variables. Based on the preliminary results, several research tasks will be carried out. First, classical causal discovery often assumes a linear-Gaussian model for the data, in which the causal relations are linear and the variables are jointly Gaussian. This project will establish the conditions under which the underlying causal model is identifiable up to an equivalence class or only partially identifiable. Second, this study will investigate how the identifiability of underlying causal structure in the presence of measurement error can actually benefit from the non-Gaussian noise assumption. Third, this study will develop statistically more efficient estimation procedures, by extending the GES method, by exploiting suitable sparsity constraints, or by extending the A* Bayesian network learning procedure. Finally, the above ideas will be extended to deal with related models in causality or statistics, including other contamination models, nonlinear causal models, and Markov networks.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Changhe",
+   "pi_last_name": "Yuan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Changhe Yuan",
+   "pi_email_addr": "changhe.yuan@qc.cuny.edu",
+   "nsf_id": "000211592",
+   "pi_start_date": "2018-07-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "CUNY Queens College",
+  "inst_street_address": "6530 KISSENA BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "FLUSHING",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "7189975400",
+  "inst_zip_code": "113671575",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "NY06",
+  "org_lgl_bus_name": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "EJABWGUJM228"
+ },
+ "perf_inst": {
+  "perf_inst_name": "CUNY Queens College",
+  "perf_str_addr": "56-30 Kissena Blvd",
+  "perf_city_name": "Flushing",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "113671575",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "NY06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 39999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of causal discovery is to find the underlying causal relations among different variables by analyzing observed data. Causal discovery has been an important research area in artificial intelligence,&nbsp;because interventions or controlled experiments are often impossible or unethical or simply too expensive. In many cases, a directed acyclic graph (DAG) is assumed to be able to represent the underlying causal structure.&nbsp; Constraint-based methods for causal discovery (Spirtes2000), which make use of conditional independence relations among the variables, can recover a Markov equivalent class (MEC) of DAGs from the observed data. However, these methods rely on<br /><br />The PC algorithm (Spirtes1993) and FCI (Spirtes2000) are traditional causal discovery algorithms, and their results are asymptotically correct under the assumption&nbsp;that two variables are directly causally related if and only if they are not conditionally independent given any subset of the remaining variables. PC also assumes causal sufficiency, that is, there are no unobserved common causal variables (known as latent confounders). FCI also makes use of conditional independence relations to recover causal information and can handle latent confounders.&nbsp;GES (Chickering2002) is a greedy two-phase search algorithm in the space of MECs that optimizes a model fitting score, such as Bayesian Information Criterion (BIC) (Schwarz1978).&nbsp;It first starts with a graph with no edge,&nbsp;and keeps adding one edge at a time if it improves the score most, until no edge can be added to further improve score.&nbsp;Then it checks all edges to eliminate some if they further improve score. Recently, the SAT-based method (SAT) has gained much attention for its superb performance in causal discovery (Hyttinen2013, Hyttinen2014).&nbsp;It treats causal discovery as a constraint optimization problem, encodes conditional independence and dependence&nbsp;as Boolean variables and formula, and tackles causal discovery with the Boolean satisfiability solver.&nbsp;In fact, this constraint optimization can also be seen as a score-based method, where the score is a particular combination of all the constraints to be satisfied. This way, SAT is a special case of score-based exhaustive search. It works very well on small-scale problems (less than 8 variables). NOTEARS (XZheng2018) formulates structure learning as a purely continuous optimization problem over real matrices that avoids the combinatorial constraints, achieved by a smooth characterization of acyclicity,&nbsp;and impressively implemented in 60 lines of Python code.</p>\n<p>In contrast, there exist a set of methods for Bayesian network learning, aiming at finding the best Bayesian network from the given data. A* is an efficient score-based exhaustive search algorithm that finds the optimal topological ordering&nbsp;by following the shortest path in the order graph (Yuan2013), instead of the permutation space as in the SP algorithm.&nbsp;Each node in the order graph is a subset of variables.&nbsp;&nbsp;A* uses heuristic to prune some branches in the order graph to cut down computation.&nbsp;&nbsp;&nbsp;We note that&nbsp;the DAGs learned by Bayesian network learning methods mentioned above do not necessarily have a causal interpretation. For instance, suppose that we are given enough data for two variables which are jointly Gaussian. Such methods will output a directed edge between them, while the direction may be arbitrary.&nbsp; In this case we cannot distinguish different causal structures in the same equivalence class, which share the same (conditional) independence relationships. Generally speaking, this set of methods outputs an arbitrary DAG in this MEC, which, nevertheless, give a compact representation of the joint distribution. In order for the output to have a causal interpretation, one may apply some procedures to generate the MEC from the output DAG (Meek1995a), as an additional post-processing step.&nbsp;<br /><br />In this work, we made the following contributions in this work. First, we present examples and corresponding analyses to show the potential risk of using commonly used causal discovery methods, such as PC and GES, for causal discovery, because of the rather strong assumptions they re-quire. We further emphasize the necessity of optimal ex- haustive search method for the benefit of avoiding local solutions on finite data;</p>\n<p>Second, adopting A* as the search method, we show that exhaustive search requires milder assumptions on data to guarantee its asymptotic correctness.</p>\n<p>Lastly, we extend A* and develop our approximation method (called Triplet A*) for better scalability. This Triplet method is rather general and can be used to scale up other exhaustive search methods as well. Experiments show that our method is better than baseline methods and can handle linear Gaussian and non-Gaussian networks.</p>\n<p>Our results shed light on the understanding of the computational efficiency and optimality of the finite-sample behavior of those causal discovery algorithms. We have finished an initial design and implementation of the generalized A* algorithm. We are currently making further improvements to the algorithm and evaluating it against other competing methods.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/26/2020<br>\n\t\t\t\t\tModified by: Changhe&nbsp;Yuan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of causal discovery is to find the underlying causal relations among different variables by analyzing observed data. Causal discovery has been an important research area in artificial intelligence, because interventions or controlled experiments are often impossible or unethical or simply too expensive. In many cases, a directed acyclic graph (DAG) is assumed to be able to represent the underlying causal structure.  Constraint-based methods for causal discovery (Spirtes2000), which make use of conditional independence relations among the variables, can recover a Markov equivalent class (MEC) of DAGs from the observed data. However, these methods rely on\n\nThe PC algorithm (Spirtes1993) and FCI (Spirtes2000) are traditional causal discovery algorithms, and their results are asymptotically correct under the assumption that two variables are directly causally related if and only if they are not conditionally independent given any subset of the remaining variables. PC also assumes causal sufficiency, that is, there are no unobserved common causal variables (known as latent confounders). FCI also makes use of conditional independence relations to recover causal information and can handle latent confounders. GES (Chickering2002) is a greedy two-phase search algorithm in the space of MECs that optimizes a model fitting score, such as Bayesian Information Criterion (BIC) (Schwarz1978). It first starts with a graph with no edge, and keeps adding one edge at a time if it improves the score most, until no edge can be added to further improve score. Then it checks all edges to eliminate some if they further improve score. Recently, the SAT-based method (SAT) has gained much attention for its superb performance in causal discovery (Hyttinen2013, Hyttinen2014). It treats causal discovery as a constraint optimization problem, encodes conditional independence and dependence as Boolean variables and formula, and tackles causal discovery with the Boolean satisfiability solver. In fact, this constraint optimization can also be seen as a score-based method, where the score is a particular combination of all the constraints to be satisfied. This way, SAT is a special case of score-based exhaustive search. It works very well on small-scale problems (less than 8 variables). NOTEARS (XZheng2018) formulates structure learning as a purely continuous optimization problem over real matrices that avoids the combinatorial constraints, achieved by a smooth characterization of acyclicity, and impressively implemented in 60 lines of Python code.\n\nIn contrast, there exist a set of methods for Bayesian network learning, aiming at finding the best Bayesian network from the given data. A* is an efficient score-based exhaustive search algorithm that finds the optimal topological ordering by following the shortest path in the order graph (Yuan2013), instead of the permutation space as in the SP algorithm. Each node in the order graph is a subset of variables.  A* uses heuristic to prune some branches in the order graph to cut down computation.   We note that the DAGs learned by Bayesian network learning methods mentioned above do not necessarily have a causal interpretation. For instance, suppose that we are given enough data for two variables which are jointly Gaussian. Such methods will output a directed edge between them, while the direction may be arbitrary.  In this case we cannot distinguish different causal structures in the same equivalence class, which share the same (conditional) independence relationships. Generally speaking, this set of methods outputs an arbitrary DAG in this MEC, which, nevertheless, give a compact representation of the joint distribution. In order for the output to have a causal interpretation, one may apply some procedures to generate the MEC from the output DAG (Meek1995a), as an additional post-processing step. \n\nIn this work, we made the following contributions in this work. First, we present examples and corresponding analyses to show the potential risk of using commonly used causal discovery methods, such as PC and GES, for causal discovery, because of the rather strong assumptions they re-quire. We further emphasize the necessity of optimal ex- haustive search method for the benefit of avoiding local solutions on finite data;\n\nSecond, adopting A* as the search method, we show that exhaustive search requires milder assumptions on data to guarantee its asymptotic correctness.\n\nLastly, we extend A* and develop our approximation method (called Triplet A*) for better scalability. This Triplet method is rather general and can be used to scale up other exhaustive search methods as well. Experiments show that our method is better than baseline methods and can handle linear Gaussian and non-Gaussian networks.\n\nOur results shed light on the understanding of the computational efficiency and optimality of the finite-sample behavior of those causal discovery algorithms. We have finished an initial design and implementation of the generalized A* algorithm. We are currently making further improvements to the algorithm and evaluating it against other competing methods.\n\n\t\t\t\t\tLast Modified: 11/26/2020\n\n\t\t\t\t\tSubmitted by: Changhe Yuan"
+ }
+}

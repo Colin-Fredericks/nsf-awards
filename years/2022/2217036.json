@@ -1,0 +1,113 @@
+{
+ "awd_id": "2217036",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: PPoSS: A Full-stack Approach to Declarative Analytics at Scale",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2022-10-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 166232.0,
+ "awd_amount": 166232.0,
+ "awd_min_amd_letter_date": "2022-07-12",
+ "awd_max_amd_letter_date": "2023-08-30",
+ "awd_abstract_narration": "Declarative programming languages permit users to define a problem's rules and goals, and the structure of a valid solution, automating the mechanics of computation within their implementations. Such expressive programming systems provide an opportunity for non-experts to immediately scale their analytic tasks to massive datasets, leveraging AI-based programming. The project's novelties are a set of techniques, integrating novel optimizations across the full computation stack, that deliver orders-of-magnitude scalability enhancements to declarative programming. The project's impacts are centered on permitting non-specialists to scale sophisticated deductive inference algorithms to the next generation of cloud-based clusters and supercomputers.\r\n\r\nLinguistically, the project's approach is based on a key semantic extension to Datalog to support indexing for structured inductive data. While algebraic data is supported in currently existing Datalog engines (e.g., Souffle), the project\u2019s novel approach also materializes indices for all such ADTs, enabling orders-of-magnitude algorithmic improvements in runtimes of queries over algebraic data. Operationally, the project advances state-of-the-art implementation strategies based on parallel relational algebra, which enables off-the-shelf data parallelism that rapidly scales to many-core clusters and supercomputers via MPI. The project seeks to integrate each of these technologies to scale key applications---including program analysis and security auditing---and demonstrate their application to large datasets enabled via the project\u2019s unique synthesis of these technologies.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Thomas",
+   "pi_last_name": "Gilray",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Thomas Gilray",
+   "pi_email_addr": "thomas.gilray@wsu.edu",
+   "nsf_id": "000810632",
+   "pi_start_date": "2022-07-12",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Sidharth",
+   "pi_last_name": "kumar",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sidharth kumar",
+   "pi_email_addr": "sidharth@uic.edu",
+   "nsf_id": "000807599",
+   "pi_start_date": "2022-07-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Alabama at Birmingham",
+  "inst_street_address": "701 S 20TH STREET",
+  "inst_street_address_2": "",
+  "inst_city_name": "BIRMINGHAM",
+  "inst_state_code": "AL",
+  "inst_state_name": "Alabama",
+  "inst_phone_num": "2059345266",
+  "inst_zip_code": "352940001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "AL07",
+  "org_lgl_bus_name": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YND4PLMC9AN7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Alabama at Birmingham",
+  "perf_str_addr": "1720 2nd Avenue South",
+  "perf_city_name": "Birmingham",
+  "perf_st_code": "AL",
+  "perf_st_name": "Alabama",
+  "perf_zip_code": "352940001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "AL07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "042Y00",
+   "pgm_ele_name": "PPoSS-PP of Scalable Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 166232.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-35172a08-7fff-aa43-c7b7-ef5cb0d31638\"> </span></p>\r\n<p dir=\"ltr\"><span>Our PPoSS planning project has advanced research in high-performance logical reasoning and deductive analytics through several key innovations. The research demonstrated that complex logical reasoning could be efficiently executed on supercomputing systems---very large clusters. Our approach uses a specialized compiler that transforms high-level logical specifications into optimized low-level parallel relational algebra (RA) kernels, parallel operations on large tables of data, that enable us to extract data-parallelism from logical problems using coprocessors, such as graphics cards (GPUs). Our team created high-performance cluster-based and GPU-based RA kernels, enabling efficient execution of Datalog programs, a symbolic-AI programming language, on multi-node systems and coprocessors. Our novel extensions to the Bruck communication algorithm significantly improved all-to-all communication performance on supercomputers, critical for parallel fixed-point computations involving relational algebra kernels and unstructured data. The project also innovated recursive aggregation techniques that extended Datalog's traditional semantics to support lattice-based monotonicity in a parallel manner, a key expressivity enhancement for many applications, such as analyzing code.</span></p>\r\n<p>&nbsp;</p>\r\n<p dir=\"ltr\"><span>Our research has also produced several practical tools, including a web-based visualization of the Bruck algorithm for education and a scalable profiling framework for large-scale applications. Most significantly, we have released a practical data-parallel Datalog system as open-source software that can be immediately leveraged by others working on data-parallel analytics or by domain scientists (available on GitHub under harp-lab/slog-lang1). Experiments on Argonne National Laboratory's Theta, Polaris, and thetaGPU systems have validated the effectiveness of our new techniques. These advances enable more efficient analytics across important domains including analysis and auditing of software, security vulnerability detection, business analytics, semantic-web reasoning, and social-media pattern analysis. Beyond technical achievements, the planning project impacted classes taught at the University of Alabama at Birmingham and successfully assembled a diverse research team spanning high-performance computing, programming languages, data analytics, and GPU programming, laying the groundwork for successfully winning PPoSS-large funding and being in a position to execute effectively on that follow-on project.</span></p><br>\n<p>\n Last Modified: 01/29/2025<br>\nModified by: Sidharth&nbsp;kumar</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\n \r\n\n\nOur PPoSS planning project has advanced research in high-performance logical reasoning and deductive analytics through several key innovations. The research demonstrated that complex logical reasoning could be efficiently executed on supercomputing systems---very large clusters. Our approach uses a specialized compiler that transforms high-level logical specifications into optimized low-level parallel relational algebra (RA) kernels, parallel operations on large tables of data, that enable us to extract data-parallelism from logical problems using coprocessors, such as graphics cards (GPUs). Our team created high-performance cluster-based and GPU-based RA kernels, enabling efficient execution of Datalog programs, a symbolic-AI programming language, on multi-node systems and coprocessors. Our novel extensions to the Bruck communication algorithm significantly improved all-to-all communication performance on supercomputers, critical for parallel fixed-point computations involving relational algebra kernels and unstructured data. The project also innovated recursive aggregation techniques that extended Datalog's traditional semantics to support lattice-based monotonicity in a parallel manner, a key expressivity enhancement for many applications, such as analyzing code.\r\n\n\n\r\n\n\nOur research has also produced several practical tools, including a web-based visualization of the Bruck algorithm for education and a scalable profiling framework for large-scale applications. Most significantly, we have released a practical data-parallel Datalog system as open-source software that can be immediately leveraged by others working on data-parallel analytics or by domain scientists (available on GitHub under harp-lab/slog-lang1). Experiments on Argonne National Laboratory's Theta, Polaris, and thetaGPU systems have validated the effectiveness of our new techniques. These advances enable more efficient analytics across important domains including analysis and auditing of software, security vulnerability detection, business analytics, semantic-web reasoning, and social-media pattern analysis. Beyond technical achievements, the planning project impacted classes taught at the University of Alabama at Birmingham and successfully assembled a diverse research team spanning high-performance computing, programming languages, data analytics, and GPU programming, laying the groundwork for successfully winning PPoSS-large funding and being in a position to execute effectively on that follow-on project.\t\t\t\t\tLast Modified: 01/29/2025\n\n\t\t\t\t\tSubmitted by: Sidharthkumar\n"
+ }
+}

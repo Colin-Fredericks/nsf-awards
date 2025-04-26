@@ -1,0 +1,101 @@
+{
+ "awd_id": "1418677",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Krylov Multigrid Methods for Eigenvalues and Linear Equations",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 180000.0,
+ "awd_amount": 180000.0,
+ "awd_min_amd_letter_date": "2014-07-27",
+ "awd_max_amd_letter_date": "2014-07-27",
+ "awd_abstract_narration": "The characteristic values (eigenvalues) associated with a matrix are important throughout science. For an airplane, eigenvalues give the natural frequencies of vibration, and thus knowledge of eigenvalues can be used to prevent destructive resonance.  Eigenvalues are computed for buildings in earthquake zones for similar purposes, and eigenvalues are employed in a wide variety of other contexts as well, for example in finding the energy levels of atoms and molecules.  As mathematical models become more accurate and sophisticated, it becomes necessary to compute eigenvalues of ever larger matrices, requiring increasing computational time. The plan for this project is to take advantage of different sizes of matrices that are developed by placing different size grids on the domain of the problem. By doing much of the work on a smaller matrix, there is potential to substantially reduce the computational expense. Another application of eigenvalues is to improve convergence of systems of linear equations. This project will look at how eigenvalues from a grid with fewer points can effectively speed up the convergence for an iterative linear equations solver on a grid with many points. This project has potential impact in many areas of science, since many scientific applications lead to partial differential equations that are solved with grid-based eigenvalue problems.\r\n\r\nNew methods are studied for large eigenvalue problems and systems of linear equations. The methods combine multigrid with Krylov iterations in order to solve difficult problems. Regular multigrid methods are for differential equations that are solved on a grid, and they cycle through different grid sizes. They struggle for some problems (such as indefinite or too nonsymmetric). The proposed methods are more robust in that they can be effective in situations where regular multigrid fails. For eigenvalue problems, a method is proposed that computes eigenvalues on a coarse grid and improves them on the fine grid. An Arnoldi-type method is used that, unlike standard Arnoldi methods, can accept initial approximate eigenvectors. It is planned to develop and test this approach including for multiple grid levels. Also needed is analysis to explain why fine grid convergence unexpectedly matches that of regular Arnoldi. Near-Krylov theory will be developed for this. Iterative linear equations solvers suffer slow convergence when there are small eigenvalues. The plan is to use approximate eigenvectors from the coarse grid to essentially remove eigenvalues and improve the convergence. This approach can be used on preconditioned systems including with multigrid preconditioning. There is potential to very significantly improve computations for difficult eigenvalue problems and linear equations.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ronald",
+   "pi_last_name": "Morgan",
+   "pi_mid_init": "B",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ronald B Morgan",
+   "pi_email_addr": "Ronald_Morgan@baylor.edu",
+   "nsf_id": "000346865",
+   "pi_start_date": "2014-07-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Baylor University",
+  "inst_street_address": "700 S UNIVERSITY PARKS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "WACO",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "2547103817",
+  "inst_zip_code": "767061003",
+  "inst_country_name": "United States",
+  "cong_dist_code": "17",
+  "st_cong_dist_code": "TX17",
+  "org_lgl_bus_name": "BAYLOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "C6T9BYG5EYX5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Baylor University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "767987360",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "17",
+  "perf_st_cong_dist": "TX17",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 180000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our grant centered on solving scientific problems faster by developing better methods for large linear algebra problems.&nbsp; Scientists such as engineers and physicists often attempt to model a real-world situation by setting up partial differential equations.&nbsp; Then they generally transform these differential equations to a linear algebra problem, but that may be large and expensive to solve.&nbsp; So improvement in solution of linear algebra problems such as large systems of linear equations and large eigenvalue problems can enable scientists to better model the real world.&nbsp;</p>\n<p>Iterative methods for linear algebra problems get more expensive in two ways as the problem gets larger.&nbsp; First, dealing with a larger matrix makes every iteration more expensive and second, the larger problem generally becomes more difficult, so more iterations are required.&nbsp; In this grant, we gave methods to do much of the work with a smaller matrix and thus greatly reduce expense.&nbsp; Because of being Krylov based, these methods can be used in more situations than traditional multigrid.&nbsp; Also, near-Krylov theory was developed explaining why these new methods work as well as they do.&nbsp; A paper called &ldquo;Two-grid and multiple-grid Arnoldi for eigenvalues&rdquo; has been accepted by the SIAM Journal on Scientific Computing.&nbsp; It shows how different grid levels and thus different size matrices can be used for eigenvalue problems.&nbsp; For some problems the computational time is reduced by an order of magnitude. &nbsp;Another paper, &ldquo;Two-Grid Deflated Krylov Methods for Linear Equations&rdquo;, has been submitted and speeds up solving linear equations with different grid levels and also removal of eigenvalues. &nbsp;The grant also assisted with other projects and the development of several new ideas.</p>\n<p>In summary, this grant work has taken a step in improving certain tough scientific computations.&nbsp; Also, the research will continue and hopefully lead to further advances.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/24/2018<br>\n\t\t\t\t\tModified by: Ronald&nbsp;B&nbsp;Morgan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOur grant centered on solving scientific problems faster by developing better methods for large linear algebra problems.  Scientists such as engineers and physicists often attempt to model a real-world situation by setting up partial differential equations.  Then they generally transform these differential equations to a linear algebra problem, but that may be large and expensive to solve.  So improvement in solution of linear algebra problems such as large systems of linear equations and large eigenvalue problems can enable scientists to better model the real world. \n\nIterative methods for linear algebra problems get more expensive in two ways as the problem gets larger.  First, dealing with a larger matrix makes every iteration more expensive and second, the larger problem generally becomes more difficult, so more iterations are required.  In this grant, we gave methods to do much of the work with a smaller matrix and thus greatly reduce expense.  Because of being Krylov based, these methods can be used in more situations than traditional multigrid.  Also, near-Krylov theory was developed explaining why these new methods work as well as they do.  A paper called \"Two-grid and multiple-grid Arnoldi for eigenvalues\" has been accepted by the SIAM Journal on Scientific Computing.  It shows how different grid levels and thus different size matrices can be used for eigenvalue problems.  For some problems the computational time is reduced by an order of magnitude.  Another paper, \"Two-Grid Deflated Krylov Methods for Linear Equations\", has been submitted and speeds up solving linear equations with different grid levels and also removal of eigenvalues.  The grant also assisted with other projects and the development of several new ideas.\n\nIn summary, this grant work has taken a step in improving certain tough scientific computations.  Also, the research will continue and hopefully lead to further advances. \n\n \n\n\t\t\t\t\tLast Modified: 09/24/2018\n\n\t\t\t\t\tSubmitted by: Ronald B Morgan"
+ }
+}

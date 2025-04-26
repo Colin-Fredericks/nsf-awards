@@ -1,0 +1,118 @@
+{
+ "awd_id": "0312851",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "ITR:  Optimal Diffusion Mechanisms for Fast and Robust TCP Congestion Control",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jie Wu",
+ "awd_eff_date": "2003-09-15",
+ "awd_exp_date": "2007-08-31",
+ "tot_intn_awd_amt": 349978.0,
+ "awd_amount": 349978.0,
+ "awd_min_amd_letter_date": "2003-09-12",
+ "awd_max_amd_letter_date": "2003-09-12",
+ "awd_abstract_narration": "Random Early Detection (RED), introduced in the early 90's emerged as the first significant Active Queue Management (AQM) designed to coexist with TCP - a concept that revolutionized congestion control of the Internet. Although numerous improvements on RED have been proposed recently, such as Adaptive RED, SRED, REM, and BLUE, many of the fundamental weaknesses inherent in all of these AQM protocols have not been overcome, including over-parameterization, design and implementation complexity, and the lack of robustness to varying traffic mixtures. \r\n\r\nThe proposed research focuses on developing a new generation of active congestion control mechanisms based on the concept of optimal error diffusion discovered in signal processing and extensively used today in this field. Notably a duality exists between the mechanisms in packet marking or dropping with that of optimal dithering and quantization in signal processing. More precisely, (binary) quantization is analogous to packet marking where the average queue length, used as the input to RED, is quantized to \"on\" (marking) or \"off\" (no marking). The quantization (marking) error is then diffused over to subsequent quantization (marking) operations. Optimal quantization or dithering is attained with the so-called error diffusion filter, which, when applied to the AQM problem leads to remarkably efficient congestion control mechanisms coined here as Diffusion Early Marking (DEM). Unlike many AQM systems, random variable generation is not required as error diffusion attains optimal (pseudo-random) dithering, and more importantly DEM only requires a single control parameter which is designed based on the estimation of active flows or on other network statistics measuring congestion. As such, the proposed methods rely on cross level interactions for improved AQM performance. Expectation maximization (EM) algorithms and other simpler statistical methods applied on ECN markings, for instance, promise to provide adequate and robust estimates of congestion. \r\n\r\nThe mechanisms in DEM thus allow it to maintain a stable average queue length with a varying number of flows. Preliminary results on the design and optimization of DEM are remarkably promising. There are however, numerous open problems that need to be addressed prior to its implementation including: (a) methods for the optimal design of parameters controlling rate and queue-length based packet drop mechanisms, (b) fast and robust estimation of the number of active flows and network congestion based on packet header information and/or queue dynamics, (c) diffusion mechanisms for networks with mixed traffic including web mice and elephants, (d) development of DEM differentiated service mechanisms. \r\n\r\nThe major contribution of the proposed research is on the application of the rich theories of quantization and robust estimation to the design of novel and robust AQM mechanisms that rely on cross-layer information. The new AQM mechanisms, in concert with the estimation framework to be developed, promise to adequately control the congestion of networks with various traffic mixtures and non-stationary traffic dynamics. \r\n\r\nAn important aspect of the proposed work is the testing of DEM routers with real traffic in an experimental and scalable testbed. The availability of this testbed will be valuable in providing students with a deeper understanding of difficult network concepts, such as congestion control and active queue management, and allowing then to gain hands-on experience in network traffic management and control.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Gonzalo",
+   "pi_last_name": "Arce",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gonzalo R Arce",
+   "pi_email_addr": "arce@udel.edu",
+   "nsf_id": "000355622",
+   "pi_start_date": "2003-09-12",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "Mills",
+   "pi_mid_init": "L",
+   "pi_sufx_name": "",
+   "pi_full_name": "David L Mills",
+   "pi_email_addr": "mills@udel.edu",
+   "nsf_id": "000326418",
+   "pi_start_date": "2003-09-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Delaware",
+  "inst_street_address": "550 S COLLEGE AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEWARK",
+  "inst_state_code": "DE",
+  "inst_state_name": "Delaware",
+  "inst_phone_num": "3028312136",
+  "inst_zip_code": "197131324",
+  "inst_country_name": "United States",
+  "cong_dist_code": "00",
+  "st_cong_dist_code": "DE00",
+  "org_lgl_bus_name": "UNIVERSITY OF DELAWARE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "T72NHKM259N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Delaware",
+  "perf_str_addr": "550 S COLLEGE AVE",
+  "perf_city_name": "NEWARK",
+  "perf_st_code": "DE",
+  "perf_st_name": "Delaware",
+  "perf_zip_code": "197131324",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "00",
+  "perf_st_cong_dist": "DE00",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "168600",
+   "pgm_ele_name": "ITR SMALL GRANTS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1656",
+   "pgm_ref_txt": "LARGE SCALE NETWORKING"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0103",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0103",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2003,
+   "fund_oblg_amt": 349978.0
+  }
+ ],
+ "por": null
+}

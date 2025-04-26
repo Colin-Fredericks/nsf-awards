@@ -1,0 +1,121 @@
+{
+ "awd_id": "1421503",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Revisiting Assumptions of Regression Testing",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2014-12-01",
+ "awd_exp_date": "2019-11-30",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 462000.0,
+ "awd_min_amd_letter_date": "2014-07-31",
+ "awd_max_amd_letter_date": "2016-05-10",
+ "awd_abstract_narration": "Regression testing is important as it checks that changes to software do not break previously working functionality.  However, regression testing is expensive as it requires executing a large number of tests and inspecting their failed runs.  To speed up regression testing, researchers have proposed many techniques, including test selection (which, given a set of tests and software changes, selects a subset of tests that are affected by the changes) and test-suite reduction (which identifies what tests can be removed from a test suite without substantially reducing its fault-detection capability).  While some of those techniques have been successful in practice, there is a lot of opportunity to further improve regression testing by alleviating the assumptions upon which the existing techniques are built.\r\n\r\nSpecifically, this project improves regression testing by revisiting these six assumptions: (1) tests are not deterministic (but depend on timing, environment, or concurrency), (2) code histories are not linear (but convoluted graphs of branches and merges), (3) test selection is relevant not only for large projects (but developers manually select tests even for small projects), (4) test-suite reduction can decrease fault-detection capability in one version (but can decrease even more in future versions), (5) tests depend not only on code (but also on non-code artifacts), and (6) tests depend not only on manually written artifacts (but also on automatically generated artifacts).  The broader impacts of improving regression testing are to increase the speed of software development and improve the quality of developed software.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Darko",
+   "pi_last_name": "Marinov",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Darko Marinov",
+   "pi_email_addr": "marinov@illinois.edu",
+   "nsf_id": "000095315",
+   "pi_start_date": "2014-07-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618012302",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0116",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001617DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 450000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2016,
+   "fund_oblg_amt": 12000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Regression testing is a software development activity that checks whether changes to software break previously working functionality. Regression testing is an important activity to increase software quality and developer productivity. However, regression testing is expensive because it requires executing a large number of tests and inspecting their failed runs. To speed up regression testing, researchers had proposed many techniques, including (1) regression test selection (RTS) -- given a set of tests and software changes, RTS selects a subset of tests that are affected by the changes; and (2) test-suite reduction (TSR) -- given a set of tests, TSR removes some tests that appear redundant with respect to the others. The goal of this project was to substantially improve regression testing.</p>\n<p>This project not only developed several new techniques and tools that can speed up regression testing but also initiated research on two emerging topics. One, this project has initiated academic study of what are now widely called \"flaky tests\", i.e., tests that can non-deterministically pass or fail even for the same test scenario (the same code under test and the same inputs readily controllable by testers). Flaky tests are detrimental to software development in general and regression testing in particular because failures of flaky tests do not indicate bugs in the most recent code changes. Two, this project had initially focused on regression testing done when developers run their tests locally, i.e., on their own laptops or desktops, but an increasingly popular approach is to run tests in the continuous integration (CI) systems in the cloud, so this project has initiated study on regression-testing techniques for CI.</p>\n<p>The grant partially supported (1) over 35 papers (primarily in main technical tracks of top software engineering and software testing conferences, with some additional tool, workshop, and journal papers); (2) three papers that won ACM SIGSOFT Distinguished Paper awards (ISSTA 2015, ASE 2016, ESEC/FSE 2017); (3) public release of several testing tools and datasets (some linked from http://mir.cs.illinois.edu page on software and data); and (4) training of over a dozen graduate students (including four PhD theses and one MS thesis) and several undergraduate students (some of whom co-authored papers or contributed to open-source code), either directly supported by the award or collaborating on the project. The broader impacts also include reporting numerous bugs and fixes to various open-source projects. In brief, the project provided improvements in both efficiency and reliability of regression testing.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/25/2020<br>\n\t\t\t\t\tModified by: Darko&nbsp;Marinov</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nRegression testing is a software development activity that checks whether changes to software break previously working functionality. Regression testing is an important activity to increase software quality and developer productivity. However, regression testing is expensive because it requires executing a large number of tests and inspecting their failed runs. To speed up regression testing, researchers had proposed many techniques, including (1) regression test selection (RTS) -- given a set of tests and software changes, RTS selects a subset of tests that are affected by the changes; and (2) test-suite reduction (TSR) -- given a set of tests, TSR removes some tests that appear redundant with respect to the others. The goal of this project was to substantially improve regression testing.\n\nThis project not only developed several new techniques and tools that can speed up regression testing but also initiated research on two emerging topics. One, this project has initiated academic study of what are now widely called \"flaky tests\", i.e., tests that can non-deterministically pass or fail even for the same test scenario (the same code under test and the same inputs readily controllable by testers). Flaky tests are detrimental to software development in general and regression testing in particular because failures of flaky tests do not indicate bugs in the most recent code changes. Two, this project had initially focused on regression testing done when developers run their tests locally, i.e., on their own laptops or desktops, but an increasingly popular approach is to run tests in the continuous integration (CI) systems in the cloud, so this project has initiated study on regression-testing techniques for CI.\n\nThe grant partially supported (1) over 35 papers (primarily in main technical tracks of top software engineering and software testing conferences, with some additional tool, workshop, and journal papers); (2) three papers that won ACM SIGSOFT Distinguished Paper awards (ISSTA 2015, ASE 2016, ESEC/FSE 2017); (3) public release of several testing tools and datasets (some linked from http://mir.cs.illinois.edu page on software and data); and (4) training of over a dozen graduate students (including four PhD theses and one MS thesis) and several undergraduate students (some of whom co-authored papers or contributed to open-source code), either directly supported by the award or collaborating on the project. The broader impacts also include reporting numerous bugs and fixes to various open-source projects. In brief, the project provided improvements in both efficiency and reliability of regression testing.\n\n\t\t\t\t\tLast Modified: 03/25/2020\n\n\t\t\t\t\tSubmitted by: Darko Marinov"
+ }
+}

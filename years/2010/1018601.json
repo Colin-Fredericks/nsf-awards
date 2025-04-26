@@ -1,0 +1,109 @@
+{
+ "awd_id": "1018601",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "ATS for Systems Programming with Theorem Proving",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2010-10-01",
+ "awd_exp_date": "2014-09-30",
+ "tot_intn_awd_amt": 449935.0,
+ "awd_amount": 449935.0,
+ "awd_min_amd_letter_date": "2010-07-31",
+ "awd_max_amd_letter_date": "2010-07-31",
+ "awd_abstract_narration": "Building software is often a process of great complexity.  In this day and age, safe and reliable software is a rare oddity and software failure is a norm rather than an exception.  How can safe and reliable software be built in a manner that is practical and cost-effective? This project addresses the issue by focusing on building trustworthy low-level systems that is verifiably safe and reliable. Instead of solely relying on testing to ensure safety and reliability, the novel approach taken in the project provides the programmer with a formal means to construct proofs demonstrating correctness properties of actual implementation that can be verified independently. This is often referred to as combining programming with theorem-proving.\r\n\r\nATS is a programming language equipped with a highly expressive type system rooted in the framework Applied Type System. In particular, both dependent types and linear types are available in ATS. The development of ATS has now reached a point where advanced types can be effectively employed to support the construction of safe and efficient code. Continuing this progress naturally directs us to investigate how the paradigm of combining programming with theorem-proving as is advocated in ATS can be exploited to raise code quality in low-level systems programming.  The project is expected to yield significant contributions to the understanding of type theory and its application to the design and implementation of low-level systems. In particular, advanced type theory (involving dependent types and linear types) is to be developed to facilitate the use of types in capturing programming invariants.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hongwei",
+   "pi_last_name": "Xi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hongwei Xi",
+   "pi_email_addr": "hwxi@cs.bu.edu",
+   "nsf_id": "000205582",
+   "pi_start_date": "2010-07-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Trustees of Boston University",
+  "inst_street_address": "1 SILBER WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173534365",
+  "inst_zip_code": "022151703",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "TRUSTEES OF BOSTON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "THL6A6JLE1S7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Trustees of Boston University",
+  "perf_str_addr": "1 SILBER WAY",
+  "perf_city_name": "BOSTON",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "022151703",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794400",
+   "pgm_ele_name": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9215",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 449935.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>With (partial) support from this grant, we were able to design and implement ATS/Postiats (that is, ATS2), which can be seen as a complete overhaul of ATS/Anairiats (that is, ATS1). We were also able to evaluate ATS2 in the context of building a real-time operating system (RTOS).</p>\n<p>The design and implementation of ATS2 officially started in March, 2011, and it took about 2 years and 6 months for the first version of ATS2 to be ready for public release. As of now, there have already been more than a dozen official releases of ATS2 made to the public.</p>\n<p>The current released version of ATS2 is nearly entirely written in ATS1, consisting of more than 150K lines of code for its compiler portion and more than 50K lines of code for its library portion. The advanced template system in ATS2 makes it possible to effectively apply functional style of programing to implementing low-level systems while requiring no support of run-time garbage collection (GC).</p>\n<p>Under the supervision of the PI (Hongwei Xi), Matthew Danish implemented in ATS1 several modules of the Terrier RTOS, including its scheduler and memory management system. He then ported these modules to ATS2. In addition, he made the primary effort in writing/publishing/presenting various papers about applying advanced type theory to implementing low-level systems.</p>\n<p>Also, there are strong interests in ATS among people outside Boston University. For instance, the following two cases generated some very good publicity for ATS:</p>\n<p>ATS2 was used by a third party (Chris Double) to provide a fix for the infamous Heartbleed security bug.</p>\n<p>ATS2 was planned to be used by a third party (Kiwamu Okabe) in the Metasepi project for a re-implementation of NetBSD.</p>\n<p>The PI (Hongwei Xi) has been using ATS2 as the primary programming language in teaching several CS courses (CS320, CS511 and CS520)&nbsp; at Boston University, allowing both graduate and undergraduate students to learn the state-of-art of program verification in the context of practical programming.</p>\n<p>There are many forms of support for learning/using ATS on-line.</p>\n<p>Here is the official website for the ATS programming language:</p>\n<p>http://ats-lang.org/</p>\n<p>There is also an active forum for the users of ATS:</p>\n<p>https://groups.google.com/forum/?fromgroups#!forum/ats-lang-users</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/27/2014<br>\n\t\t\t\t\tModified by: Hongwei&nbsp;Xi</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nWith (partial) support from this grant, we were able to design and implement ATS/Postiats (that is, ATS2), which can be seen as a complete overhaul of ATS/Anairiats (that is, ATS1). We were also able to evaluate ATS2 in the context of building a real-time operating system (RTOS).\n\nThe design and implementation of ATS2 officially started in March, 2011, and it took about 2 years and 6 months for the first version of ATS2 to be ready for public release. As of now, there have already been more than a dozen official releases of ATS2 made to the public.\n\nThe current released version of ATS2 is nearly entirely written in ATS1, consisting of more than 150K lines of code for its compiler portion and more than 50K lines of code for its library portion. The advanced template system in ATS2 makes it possible to effectively apply functional style of programing to implementing low-level systems while requiring no support of run-time garbage collection (GC).\n\nUnder the supervision of the PI (Hongwei Xi), Matthew Danish implemented in ATS1 several modules of the Terrier RTOS, including its scheduler and memory management system. He then ported these modules to ATS2. In addition, he made the primary effort in writing/publishing/presenting various papers about applying advanced type theory to implementing low-level systems.\n\nAlso, there are strong interests in ATS among people outside Boston University. For instance, the following two cases generated some very good publicity for ATS:\n\nATS2 was used by a third party (Chris Double) to provide a fix for the infamous Heartbleed security bug.\n\nATS2 was planned to be used by a third party (Kiwamu Okabe) in the Metasepi project for a re-implementation of NetBSD.\n\nThe PI (Hongwei Xi) has been using ATS2 as the primary programming language in teaching several CS courses (CS320, CS511 and CS520)  at Boston University, allowing both graduate and undergraduate students to learn the state-of-art of program verification in the context of practical programming.\n\nThere are many forms of support for learning/using ATS on-line.\n\nHere is the official website for the ATS programming language:\n\nhttp://ats-lang.org/\n\nThere is also an active forum for the users of ATS:\n\nhttps://groups.google.com/forum/?fromgroups#!forum/ats-lang-users\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 12/27/2014\n\n\t\t\t\t\tSubmitted by: Hongwei Xi"
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "awd_id": "2001333",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CDS&E: Efficient Uncertainty Analysis in Multi-physics Phase Field Models of Microstructure Evolution",
+ "cfda_num": "47.049",
+ "org_code": "03070000",
+ "po_phone": "7032924942",
+ "po_email": "dhess@nsf.gov",
+ "po_sign_block_name": "Daryl Hess",
+ "awd_eff_date": "2021-01-01",
+ "awd_exp_date": "2024-12-31",
+ "tot_intn_awd_amt": 460000.0,
+ "awd_amount": 460000.0,
+ "awd_min_amd_letter_date": "2020-12-21",
+ "awd_max_amd_letter_date": "2023-11-29",
+ "awd_abstract_narration": "Nontechnical Summary\r\n\r\nMaterials design has been accelerated under the Materials-Genome Initiative by simulating materials with many possible input parameters (composition, processing, etc.) in order to predict those combinations that will yield desired properties, for example, more efficient thermoelectrics for cooling applications.  In any such design cycle, there are uncertainties in the inputs, and it is important to understand how these uncertainties propagate to uncertainties in the output properties.  For complex computations, uncertainty propagation has traditionally been estimated with random (\"Monte-Carlo\") sampling, but when each calculation takes substantial computer time, such sampling becomes prohibitively expensive.  A major outcome of this project is the development and public release of efficient software to propagate uncertainty across computational materials-science calculations.  While the focus will be on simulations of the evolution of materials microstructures, the proposed framework will be applicable to a wide range of materials-science-relevant modeling tools. Activities will also be conducted to increase the impact of the project.  These include the generation of an extensive library of 2D and 3D microstructures that can be used as model systems to teach and develop new frameworks for microstructure informatics, the creation of a microstructure-zoo citizen-science platform to assist in labeling and annotating synthetic microstructures created in this project, and the creation of interdisciplinary training tools for uncertainty quantification in computational materials science.  This award will also support the training of two graduate students at the interface of materials science and statistical analysis.\r\n\r\n\r\nTechnical Summary\r\n\r\nThe objective of this research is to create sequentially optimal sampling policies for the propagation of uncertainty from model inputs to model outputs. The problem considered here is that of conducting accurate and efficient uncertainty propagation when faced with computationally expensive models, specifically phase-field models of microstructure evolution in thermoelectrics and other materials.  Expensive in this research refers to models for which resources will only permit order 10 model evaluations prior to the need to make a decision informed by the uncertainty analysis. Such models are prevalent in many fields, though the focus here will be on computational materials-science applications.  Specifically, in this project, the research team will demonstrate the efficient propagation of uncertainty across CALPHAD-Phase Field Model chains that attempt to describe the microstructure evolution of materials under chemical and elastic driving forces. These models tend to be highly non-regular in that the model output can differ qualitatively depending on the region in the input/parameter space being sampled.  Moreover, they are computationally expensive, with full three-dimensional realizations of the simulations requiring upwards of 10,000 CPU-hours. In addition, the input/parameter space is often high dimensional, with more than 20 stochastic input conditions and model parameters. One of the main features of this uncertainty propagation framework is that it is non-intrusive, as it works on the input space of the models. Thus, the only information needed is the joint probability distribution of the input parameters, which makes the framework widely applicable, beyond the specific test problem(s) used to develop it.  The framework is capable of reweighting previously executed model evaluations in order to maximize efficiency for uncertainty propagation with negligible additional computational expense.  The PIs will release uncertainty-propagation and phase-field code through a Github repository under open licenses.  They will set up a public Materials Models and Data Management System (MMDMS) to make the phase-field and DFT data they generate in the course of this research widely available and coordinate with other data repositories.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMR",
+ "org_div_long_name": "Division Of Materials Research",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Raymundo",
+   "pi_last_name": "Arroyave",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Raymundo Arroyave",
+   "pi_email_addr": "rarroyave@tamu.edu",
+   "nsf_id": "000095307",
+   "pi_start_date": "2020-12-21",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Douglas",
+   "pi_last_name": "Allaire",
+   "pi_mid_init": "L",
+   "pi_sufx_name": "",
+   "pi_full_name": "Douglas L Allaire",
+   "pi_email_addr": "dallaire@tamu.edu",
+   "nsf_id": "000645088",
+   "pi_start_date": "2020-12-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Texas A&M Engineering Experiment Station",
+  "inst_street_address": "3124 TAMU",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE STATION",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "9798626777",
+  "inst_zip_code": "778433124",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "TX10",
+  "org_lgl_bus_name": "TEXAS A&M ENGINEERING EXPERIMENT STATION",
+  "org_prnt_uei_num": "QD1MX6N5YTN4",
+  "org_uei_num": "QD1MX6N5YTN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Texas A&M Engineering Experiment Station",
+  "perf_str_addr": "RDMD 216",
+  "perf_city_name": "College Station",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "778454645",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "TX10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "176500",
+   "pgm_ele_name": "CONDENSED MATTER & MAT THEORY"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "054Z",
+   "pgm_ref_txt": "(MGI) Materials Genome Initiative"
+  },
+  {
+   "pgm_ref_code": "8084",
+   "pgm_ref_txt": "CDS&E"
+  },
+  {
+   "pgm_ref_code": "8396",
+   "pgm_ref_txt": "Clean Energy Technology"
+  },
+  {
+   "pgm_ref_code": "8611",
+   "pgm_ref_txt": "Energy Efficiency and End Use"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 301620.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 158380.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"p1\">Our project set out to develop new computational techniques that help scientists better understand and predict how materials behave, even when some of the key input details are uncertain. Because modern materials research increasingly relies on detailed computer simulations, it is essential to know not only what the models predict but also how confident we can be in those predictions. This is especially important when simulations are very complex and expensive to run.</p>\r\n<p class=\"p2\">&nbsp;One of the primary challenges in computational materials science is that traditional methods for analyzing uncertainty&mdash;like running thousands of simulations using random sampling&mdash;are often impractical when each simulation takes a long time. To overcome this, our team developed an efficient framework that can quantify and propagate uncertainty in multi-physics phase field models. These models help simulate the evolution of a material&rsquo;s microstructure, which in turn affects properties such as strength, conductivity, and thermal behavior.</p>\r\n<p class=\"p2\">&nbsp;A key outcome of our work is a general-purpose, data-driven framework that links a material&rsquo;s internal structure to its overall properties. By focusing on microstructure, we established both forward (predicting properties from a given structure) and inverse (designing a structure to achieve desired properties) relationships. This approach is not only applicable to the specific materials studied in our project but can also be adapted for other systems in materials science.</p>\r\n<p class=\"p2\">&nbsp;In one part of our work, we developed an innovative model for lanthanum cobaltite (LaCoO&#8323;), a material known for its complex &ldquo;spin crossover&rdquo; behavior. By combining a self-consistent spin-lattice model with advanced statistical techniques (including Gaussian Mixture Modeling), our framework was able to capture the subtle effects of local variations within the material. These insights have allowed us to better understand how tiny differences at the microscopic level can lead to noticeable changes in a material&rsquo;s macroscopic behavior.</p>\r\n<p class=\"p2\">&nbsp;Our research also introduced a new sample-based uncertainty propagation technique. Instead of treating all simulation samples equally, our adaptive method uses mathematical tools (like Wasserstein distance) to identify which simulation runs are most informative. This means that only the most impactful samples are run in full detail, saving valuable computational time and resources without compromising the accuracy of the predictions.</p>\r\n<p class=\"p2\">&nbsp;Another significant advancement is our development of an asynchronous Bayesian optimization framework. In many experimental and simulation settings, waiting for each experiment or simulation to finish before starting the next can be a major bottleneck. Our approach allows the process to continue &ldquo;in parallel&rdquo; by using estimated outcomes while waiting for actual results. This method greatly accelerates the overall design and discovery process, making it easier to explore a vast design space under tight time constraints.</p>\r\n<p class=\"p2\">&nbsp;Beyond these technical achievements, our project has had a broad impact on training and education. Graduate and undergraduate students received hands-on experience with high-performance computing, advanced simulation techniques, and machine learning methods. They not only deepened their understanding of materials science but also acquired skills that are transferable to many fields, from aerospace engineering to data science.</p>\r\n<p class=\"p2\">&nbsp;In summary, our project has advanced the state of the art in uncertainty quantification and efficient computational modeling. The techniques we developed enhance our ability to predict material behavior reliably, which is critical for designing next-generation materials used in energy systems, electronics, and beyond. Moreover, the methodologies and training outcomes have broader implications for science and engineering, fostering innovation and preparing the next generation of researchers to tackle complex, interdisciplinary challenges.</p>\r\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 03/15/2025<br>\nModified by: Raymundo&nbsp;Arroyave</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nOur project set out to develop new computational techniques that help scientists better understand and predict how materials behave, even when some of the key input details are uncertain. Because modern materials research increasingly relies on detailed computer simulations, it is essential to know not only what the models predict but also how confident we can be in those predictions. This is especially important when simulations are very complex and expensive to run.\r\n\n\nOne of the primary challenges in computational materials science is that traditional methods for analyzing uncertaintylike running thousands of simulations using random samplingare often impractical when each simulation takes a long time. To overcome this, our team developed an efficient framework that can quantify and propagate uncertainty in multi-physics phase field models. These models help simulate the evolution of a materials microstructure, which in turn affects properties such as strength, conductivity, and thermal behavior.\r\n\n\nA key outcome of our work is a general-purpose, data-driven framework that links a materials internal structure to its overall properties. By focusing on microstructure, we established both forward (predicting properties from a given structure) and inverse (designing a structure to achieve desired properties) relationships. This approach is not only applicable to the specific materials studied in our project but can also be adapted for other systems in materials science.\r\n\n\nIn one part of our work, we developed an innovative model for lanthanum cobaltite (LaCoO&#8323;), a material known for its complex spin crossover behavior. By combining a self-consistent spin-lattice model with advanced statistical techniques (including Gaussian Mixture Modeling), our framework was able to capture the subtle effects of local variations within the material. These insights have allowed us to better understand how tiny differences at the microscopic level can lead to noticeable changes in a materials macroscopic behavior.\r\n\n\nOur research also introduced a new sample-based uncertainty propagation technique. Instead of treating all simulation samples equally, our adaptive method uses mathematical tools (like Wasserstein distance) to identify which simulation runs are most informative. This means that only the most impactful samples are run in full detail, saving valuable computational time and resources without compromising the accuracy of the predictions.\r\n\n\nAnother significant advancement is our development of an asynchronous Bayesian optimization framework. In many experimental and simulation settings, waiting for each experiment or simulation to finish before starting the next can be a major bottleneck. Our approach allows the process to continue in parallel by using estimated outcomes while waiting for actual results. This method greatly accelerates the overall design and discovery process, making it easier to explore a vast design space under tight time constraints.\r\n\n\nBeyond these technical achievements, our project has had a broad impact on training and education. Graduate and undergraduate students received hands-on experience with high-performance computing, advanced simulation techniques, and machine learning methods. They not only deepened their understanding of materials science but also acquired skills that are transferable to many fields, from aerospace engineering to data science.\r\n\n\nIn summary, our project has advanced the state of the art in uncertainty quantification and efficient computational modeling. The techniques we developed enhance our ability to predict material behavior reliably, which is critical for designing next-generation materials used in energy systems, electronics, and beyond. Moreover, the methodologies and training outcomes have broader implications for science and engineering, fostering innovation and preparing the next generation of researchers to tackle complex, interdisciplinary challenges.\r\n\n\n\t\t\t\t\tLast Modified: 03/15/2025\n\n\t\t\t\t\tSubmitted by: RaymundoArroyave\n"
+ }
+}

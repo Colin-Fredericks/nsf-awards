@@ -1,0 +1,109 @@
+{
+ "awd_id": "1815607",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Group Theory and Representation Theory in Matrix Multiplication and Generalized DFTs",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "A. Funda Ergun",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2022-05-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2018-05-21",
+ "awd_max_amd_letter_date": "2018-05-21",
+ "awd_abstract_narration": "This project addresses faster solutions to two prominent algorithmic problems: matrix multiplication and the generalized Discrete Fourier Transform (DFT). In both cases, the challenge is to obtain fast algorithms. Matrix multiplication is a central problem in theoretical computer science, both because of its intrinsic mathematical appeal, and because improved algorithms for this fundamental problem would lead immediately to improved algorithms for a broad variety of related problems. The generalized DFT is similarly fundamental, and concerns transforming data in certain mathematically meaningful ways.  Optimally fast algorithms for both problems have been longstanding open questions.  Such algorithms would have consequences and applications both within and beyond computer science. The project explicitly aims to increase fruitful interactions between computer science and mathematics, and to integrate appropriate aspects of the research program into teaching and training of students at all levels.\r\n\r\nThe project's goal is to achieve \"nearly-linear\" time algorithms for both problems, and in the case of the DFT, nearly-linear time algorithms with respect to all finite groups. Both problems possess rich structure that is susceptible to a sophisticated mathematical treatment. The DFT inherently involves group theory and representation theory, while the project's approach to matrix multiplication employs these well-developed areas of mathematics to obtain fast matrix multiplication algorithms. A major technical goal is to develop and leverage a recent breakthrough in combinatorics (the resolution of the \"Cap Set Conjecture\") as a tool in the effort the find or construct a suitable family of groups that can yield the desired nearly-linear time algorithm for matrix multiplication.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Christopher",
+   "pi_last_name": "Umans",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christopher M Umans",
+   "pi_email_addr": "umans@cs.caltech.edu",
+   "nsf_id": "000100078",
+   "pi_start_date": "2018-05-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "California Institute of Technology",
+  "inst_street_address": "1200 E CALIFORNIA BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "PASADENA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6263956219",
+  "inst_zip_code": "911250001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "28",
+  "st_cong_dist_code": "CA28",
+  "org_lgl_bus_name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "U2JMKHNS5TG4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "California Institute of Technology",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "911250001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "28",
+  "perf_st_cong_dist": "CA28",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  },
+  {
+   "pgm_ref_code": "7927",
+   "pgm_ref_txt": "COMPLEXITY & CRYPTOGRAPHY"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project concerns efficient algorithms for two fundamental computational tasks, both algebraic in nature.</p>\n<p>The first is matrix multiplication, which lies at the core of numerous other algorithms and in many cases is the bottleneck that determines the efficiency with which those other problems can be solved. It is a prominent and longstanding open problem to find an algorithm for n-by-n matrix multiplication with an operation count that scales (nearly) quadratically in n. This project aimed to develop and advance a framework for devising matrix multiplication algorithms that brings to bear sophisticated mathematics in the domain of group-theory and representation-theory.</p>\n<p>The second fundamental task is a linear-transformation of numerical data called the Discrete Fourier Transform (DFT). This operation is ubiquitous in settings ranging from image compression to statistical analysis of data. The famous \"Fast Fourier Transform\" algorithm gives a nearly-linear time method for performing this key computation. Since the 1980's it has been an open problem to find a similarly fast algorithm for a significant generalization of the DFT, which can be defined relative to any finite group. This necessarily involves group-theory and representation-theory and so is connected by the underlying mathematics to the first topic.&nbsp;</p>\n<p>In the work funded by this award, the PI and collaborators made significant advances toward the main goal of devising a \"nearly optimal\" algorithm for matrix multiplication. This includes technical results in the domain of group theory that help delineate which finite groups within the overall framework can potentially support such a fast algorithm, as well as constructions within the framework achieving certain key milestones, and extensions of the framework to the domain of algebraic objects called Lie Groups, which opens new possibilities in the search for a fast algorithm in this group-theoretic setting.</p>\n<p>The PI also completely solved the DFT problem, which had been open since the 1980's. Namely, the PI devised a nearly-linear time algorithm that performs the generalized DFT with respect to any finite group.&nbsp;</p>\n<p>The PI also integrated advanced material from the first topic in courses offered at Caltech, and worked closely with and mentored postdocs, graduate students and undergraduate students on research projects around the main topics above. The technical achievements on this award have helped bring aspects of pure math into Computer Science and vice versa, contributing to the development of both fields. The topics of this award also formed the basis for outreach research activities in which the PI worked bi-weekly with a group a local high-school students enrolled in an advanced STEM course at their school. All of these represent broader impacts of the project.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/09/2022<br>\n\t\t\t\t\tModified by: Christopher&nbsp;M&nbsp;Umans</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project concerns efficient algorithms for two fundamental computational tasks, both algebraic in nature.\n\nThe first is matrix multiplication, which lies at the core of numerous other algorithms and in many cases is the bottleneck that determines the efficiency with which those other problems can be solved. It is a prominent and longstanding open problem to find an algorithm for n-by-n matrix multiplication with an operation count that scales (nearly) quadratically in n. This project aimed to develop and advance a framework for devising matrix multiplication algorithms that brings to bear sophisticated mathematics in the domain of group-theory and representation-theory.\n\nThe second fundamental task is a linear-transformation of numerical data called the Discrete Fourier Transform (DFT). This operation is ubiquitous in settings ranging from image compression to statistical analysis of data. The famous \"Fast Fourier Transform\" algorithm gives a nearly-linear time method for performing this key computation. Since the 1980's it has been an open problem to find a similarly fast algorithm for a significant generalization of the DFT, which can be defined relative to any finite group. This necessarily involves group-theory and representation-theory and so is connected by the underlying mathematics to the first topic. \n\nIn the work funded by this award, the PI and collaborators made significant advances toward the main goal of devising a \"nearly optimal\" algorithm for matrix multiplication. This includes technical results in the domain of group theory that help delineate which finite groups within the overall framework can potentially support such a fast algorithm, as well as constructions within the framework achieving certain key milestones, and extensions of the framework to the domain of algebraic objects called Lie Groups, which opens new possibilities in the search for a fast algorithm in this group-theoretic setting.\n\nThe PI also completely solved the DFT problem, which had been open since the 1980's. Namely, the PI devised a nearly-linear time algorithm that performs the generalized DFT with respect to any finite group. \n\nThe PI also integrated advanced material from the first topic in courses offered at Caltech, and worked closely with and mentored postdocs, graduate students and undergraduate students on research projects around the main topics above. The technical achievements on this award have helped bring aspects of pure math into Computer Science and vice versa, contributing to the development of both fields. The topics of this award also formed the basis for outreach research activities in which the PI worked bi-weekly with a group a local high-school students enrolled in an advanced STEM course at their school. All of these represent broader impacts of the project. \n\n\t\t\t\t\tLast Modified: 10/09/2022\n\n\t\t\t\t\tSubmitted by: Christopher M Umans"
+ }
+}

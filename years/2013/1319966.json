@@ -1,0 +1,121 @@
+{
+ "awd_id": "1319966",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RI: Small: Any-Angle Search",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032928074",
+ "po_email": "jdonlon@nsf.gov",
+ "po_sign_block_name": "James Donlon",
+ "awd_eff_date": "2013-08-01",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 436979.0,
+ "awd_amount": 452979.0,
+ "awd_min_amd_letter_date": "2013-08-09",
+ "awd_max_amd_letter_date": "2018-07-20",
+ "awd_abstract_narration": "In this project, the PI studies any-angle search methods. Any-angle search methods are variants of the heuristic search method A* that interleave the search with path optimizations by propagating information only along grid edges (to achieve small runtimes) but without constraining the paths to grid edges (to find short \"any-angle\" paths, namely paths whose headings can change by any angle). The objective of this project is to broaden any-angle search from a few isolated search methods to a well-understood framework and to extend its applicability. To this end, the PI is developing new any-angle search methods and analyzing their properties, which is complicated by the fact that even base properties often do not transfer from A* to them. The team will also evaluate all new and existing any-angle search methods against each other and against alternative search methods, for example, to understand how they trade off among runtime, path length and memory consumption.\r\n\r\nAny-angle search is a recent search paradigm that promises to result in a new class of powerful path-planning methods for mobile robots, including underwater and aerial vehicles. The project includes dissemination activities to raise awareness of any-angle search in artificial intelligence and robotics (such as via tutorials, open-source code and web applets) and offers research opportunities to both graduate and undergraduate students.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sven",
+   "pi_last_name": "Koenig",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sven Koenig",
+   "pi_email_addr": "svenk@uci.edu",
+   "nsf_id": "000249346",
+   "pi_start_date": "2013-08-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "3720 S. Flower St.",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900890781",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "CA37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 436979.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 16000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Path planning is important for a large number of applications in many disciplines. In this project, we developed new heuristic search methods for path planning and studied their properties, with a focus on \"any-angle\" search methods. A* (a state-of-the-art heuristic search method in artificial intelligence) is simple, efficient and guaranteed to find shortest paths formed by graph edges when used with consistent h-values. A* and similar graph search methods propagate information along graph edges and constrain paths to be formed by graph edges. A* is fast on graphs whose numbers of edges grow only linearly in the number of vertices (such as grids) because the average branching factor of its search trees is then small. However, the resulting paths are typically not true shortest paths in the continuous terrain. Optimizing the paths after the search can shorten them but often does not shorten them by much since it does not change how they circumnavigate obstacles. On the other hand, search methods on visibility graphs find shortest paths in two-dimensional (but not three-dimensional) continuous terrain. However, they are slow since the numbers of edges of visibility graphs can be quadratic in the number of their vertices. Any-angle search methods promise to combine the best of both worlds. They are variants of A* that interleave the search with path optimizations by propagating information only along grid edges (to achieve small runtimes) but without constraining the paths to grid edges (to find short \"any-angle\" paths, namely paths whose headings can change by any angle). Any-angle search methods promise to tradeoff well among runtime, path length and memory consumption, which makes them interesting for path-planning applications on robots, submarines and planes. For example, researchers have suggested that any-angle search methods can be used to calculate short three-dimensional paths for planes that avoid regions of dangerous weather. We therefore developed new any-angle search methods and compared them analytically and experimentally to existing ones, studying the trade-off of different any-angle search methods between runtime and path length. We also extended any-angle search methods from path planning to motion planning, (that is, to taking the kino-dynamic constraints of robots into account), which extends their applicability significantly for mobile robotics.</p>\n<p>We actively involved graduate and undergraduate students in our research, some of whom won awards for their research, and hosted international research visitors. We also directed some publications toward the professional community, wrote an overview paper on any-angle search and gave tutorials on the topic at conferences. We also make any-angle software publicly available on our web-page.</p>\n<p>As part of the broader impact activities of the project, we mentored graduate students who attended doctoral consortia of top artificial intelligence conferences. We also co-organized a variety of activities on artificial intelligence ethics and helped to start the AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/17/2019<br>\n\t\t\t\t\tModified by: Sven&nbsp;Koenig</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nPath planning is important for a large number of applications in many disciplines. In this project, we developed new heuristic search methods for path planning and studied their properties, with a focus on \"any-angle\" search methods. A* (a state-of-the-art heuristic search method in artificial intelligence) is simple, efficient and guaranteed to find shortest paths formed by graph edges when used with consistent h-values. A* and similar graph search methods propagate information along graph edges and constrain paths to be formed by graph edges. A* is fast on graphs whose numbers of edges grow only linearly in the number of vertices (such as grids) because the average branching factor of its search trees is then small. However, the resulting paths are typically not true shortest paths in the continuous terrain. Optimizing the paths after the search can shorten them but often does not shorten them by much since it does not change how they circumnavigate obstacles. On the other hand, search methods on visibility graphs find shortest paths in two-dimensional (but not three-dimensional) continuous terrain. However, they are slow since the numbers of edges of visibility graphs can be quadratic in the number of their vertices. Any-angle search methods promise to combine the best of both worlds. They are variants of A* that interleave the search with path optimizations by propagating information only along grid edges (to achieve small runtimes) but without constraining the paths to grid edges (to find short \"any-angle\" paths, namely paths whose headings can change by any angle). Any-angle search methods promise to tradeoff well among runtime, path length and memory consumption, which makes them interesting for path-planning applications on robots, submarines and planes. For example, researchers have suggested that any-angle search methods can be used to calculate short three-dimensional paths for planes that avoid regions of dangerous weather. We therefore developed new any-angle search methods and compared them analytically and experimentally to existing ones, studying the trade-off of different any-angle search methods between runtime and path length. We also extended any-angle search methods from path planning to motion planning, (that is, to taking the kino-dynamic constraints of robots into account), which extends their applicability significantly for mobile robotics.\n\nWe actively involved graduate and undergraduate students in our research, some of whom won awards for their research, and hosted international research visitors. We also directed some publications toward the professional community, wrote an overview paper on any-angle search and gave tutorials on the topic at conferences. We also make any-angle software publicly available on our web-page.\n\nAs part of the broader impact activities of the project, we mentored graduate students who attended doctoral consortia of top artificial intelligence conferences. We also co-organized a variety of activities on artificial intelligence ethics and helped to start the AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society.\n\n\t\t\t\t\tLast Modified: 06/17/2019\n\n\t\t\t\t\tSubmitted by: Sven Koenig"
+ }
+}

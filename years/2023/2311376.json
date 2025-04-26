@@ -1,0 +1,154 @@
+{
+ "awd_id": "2311376",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Sustainability: Atmospheric Physics Needs for Community Climate Modeling",
+ "cfda_num": "47.050, 47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922656",
+ "po_email": "vchandol@nsf.gov",
+ "po_sign_block_name": "Varun Chandola",
+ "awd_eff_date": "2023-09-15",
+ "awd_exp_date": "2025-08-31",
+ "tot_intn_awd_amt": 998699.0,
+ "awd_amount": 998699.0,
+ "awd_min_amd_letter_date": "2023-09-11",
+ "awd_max_amd_letter_date": "2023-09-11",
+ "awd_abstract_narration": "Earth System Models (ESMs) serve a range of purposes. Cutting edge ESMs are used to generate climate projections for the coming decades, but they are also used as tools by the research community to gain understanding of processes and interactions that occur within the Earth System. The cutting-edge components of ESMs continue to grow in complexity and computational expense, which is a necessary evolution for improving state-of-the-art projections of future climate, but at the same time, this reduces the ability of researchers with limited computational resources to perform targeted experiments to address their problem of interest. As such, there is an important role to be played by computationally streamlined, yet still realistic, options within ESMs. The Community Earth System Model (CESM) is an ESM that is widely used within the research community of the USA and worldwide. The aims of CESM are not only to produce cutting edge climate projections but to provide the necessary tools to the research community to gain fundamental understanding of the behavior of the Earth System. The atmospheric component of CESM (the Community Atmosphere Model, CAM) is one of the most computationally expensive components of CESM. CAM is moving toward a new framework for connecting physical parameterizations to the host model in order to simplify the implementation of new physics packages moving forward. However, this means that some physical parameterizations that can be used to build a cheaper atmospheric model for gaining fundamental understanding will be lost, unless they can be refactored to be compatible with this new framework. This work will refactor previous generations of atmospheric physics packages within CAM to allow them to remain functional within CESM and continue to be used as an important resource for researchers worldwide. This refactoring will be accompanied by the development of documentation and tutorials that will allow users to configure and set up their model simulations with their own choices of physical parameterizations that can balance complexity, with computational expense, to suit their needs. This will allow CESM to continue to support a broad and diverse user base and to provide an educational tool that can allow individuals to gain a hands-on climate modeling experience at minimal computational expense.\r\n\r\nThe Common Community Physics Package (CCPP) is a framework that is designed to facilitate the implementation of physics suites or individual parameterizations in atmospheric models. CAM is moving toward exclusive use of this framework in the near future which means that any physical parameterizations that are not refactored to be compatible with CCPP will no longer be available to the research community within CESM. This work will refactor the key components of previous generations of CAM physics (CAM4 and CAM5) to allow researchers to continue to build atmospheric configurations that are scientifically close to CAM4 and CAM5 and/or mix and match their capabilities together with newer physical parameterizations. This will ensure that these physical parameterizations remain functional within CESM, thereby retaining them as important, yet computationally streamlined, research tools for the Earth System research community. The CCPP framework contains a library of physical parameterizations that conforms to selected standards, and an infrastructure that enables connection of these parameterizations to the host model. This project will port CAM4 and CAM5 physics parameterizations to the CCPP framework. Part of this process is to implement explicit interfaces where variables passed in/out of the parameterization are defined in a variable dictionary since the parameterization can no longer access shared memory spaces between physics parameterizations (known as pbuf\u2019s in CAM) and all variables must be passed explicitly. Hence it will be clear to the user exactly what variables a parameterization is using (and if there are implicit dependencies to other parameterizations) to ultimately provide tendencies back to the host model. To accompany the implementation of these physical parameterizations within CCPP, documentation and tutorials will be developed that will allow users to configure and set up model configurations that closely resemble CAM4 or CAM5 or to mix and match different physical parameterizations to suite their purpose, thereby filling out the atmospheric model hierarchy to support a broad range of research purposes.\r\n\r\nThis award by the Office of Advanced Cyberinfrastructure is jointly supported by the Division of Atmospheric and Geospace Sciences within the Directorate for Geosciences.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Isla",
+   "pi_last_name": "Simpson",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Isla R Simpson",
+   "pi_email_addr": "islas@ucar.edu",
+   "nsf_id": "000634909",
+   "pi_start_date": "2023-09-11",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Julio",
+   "pi_last_name": "Bacmeister",
+   "pi_mid_init": "T",
+   "pi_sufx_name": "",
+   "pi_full_name": "Julio T Bacmeister",
+   "pi_email_addr": "juliob@ucar.edu",
+   "nsf_id": "000543906",
+   "pi_start_date": "2023-09-11",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Peter",
+   "pi_last_name": "Lauritzen",
+   "pi_mid_init": "H",
+   "pi_sufx_name": "",
+   "pi_full_name": "Peter H Lauritzen",
+   "pi_email_addr": "pel@ucar.edu",
+   "nsf_id": "000567101",
+   "pi_start_date": "2023-09-11",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Brian",
+   "pi_last_name": "Medeiros",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Brian Medeiros",
+   "pi_email_addr": "brianpm@ucar.edu",
+   "nsf_id": "000697726",
+   "pi_start_date": "2023-09-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University Corporation For Atmospheric Res",
+  "inst_street_address": "3090 CENTER GREEN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOULDER",
+  "inst_state_code": "CO",
+  "inst_state_name": "Colorado",
+  "inst_phone_num": "3034971000",
+  "inst_zip_code": "803012252",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "CO02",
+  "org_lgl_bus_name": "UNIVERSITY CORPORATION FOR ATMOSPHERIC RESEARCH",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YEZEE8W5JKA3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University Corporation For Atmospheric Res",
+  "perf_str_addr": "3090 CENTER GREEN DR",
+  "perf_city_name": "BOULDER",
+  "perf_st_code": "CO",
+  "perf_st_name": "Colorado",
+  "perf_zip_code": "803012252",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "CO02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "574000",
+   "pgm_ele_name": "Climate & Large-Scale Dynamics"
+  },
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "4444",
+   "pgm_ref_txt": "INTERDISCIPLINARY PROPOSALS"
+  },
+  {
+   "pgm_ref_code": "8004",
+   "pgm_ref_txt": "Software Institutes"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01AB2324DB",
+   "fund_name": "R&RA DRSA DEFC AAB",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 998699.0
+  }
+ ],
+ "por": null
+}

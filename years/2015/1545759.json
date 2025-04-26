@@ -1,0 +1,105 @@
+{
+ "awd_id": "1545759",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Economic Incentives for Correct Outsourced Computation via Rational Proofs",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2015-07-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 74400.0,
+ "awd_amount": 74400.0,
+ "awd_min_amd_letter_date": "2015-06-30",
+ "awd_max_amd_letter_date": "2015-06-30",
+ "awd_abstract_narration": "The problem of securely outsourcing data and computation has received widespread attention due to the rise of cloud computing: a paradigm where businesses lease computing resources from a service rather than maintain their own computing infrastructure.  These scenarios introduce new security problems: in particular how do we trust the integrity of data and computation that are not under our own control. This project deals with these problems by considering methods, adapted from the world of economics, to incentivize parties to behave correctly during the execution of a computation. This research could have a transformative effect on the way computations are outsourced in many scenarios where a fully malicious adversary does not need to be considered.\r\n\r\nThe proposed research serves two complementary functions: to address problems which are crucial to securing our computing infrastructure, and to advance a cross-disciplinary scientific approach.  The project explores the notion of Rational Proof, where the execution of a computational problem is rewarded with a randomized function, maximized in expectation when the computation is performed correctly. We show that current notions of Rational Proofs do not satisfy basic compositional properties for the case in which many computations are outsourced.  For some protocols in the literature we show that a fast but incorrect answer is more remunerable for the prover, by allowing him or her to solve more problems and collect more rewards.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Rosario",
+   "pi_last_name": "Gennaro",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Rosario Gennaro",
+   "pi_email_addr": "rosario@ccny.cuny.edu",
+   "nsf_id": "000634895",
+   "pi_start_date": "2015-06-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "CUNY City College",
+  "inst_street_address": "160 CONVENT AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2126505418",
+  "inst_zip_code": "100319101",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "NY13",
+  "org_lgl_bus_name": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "L952KGDMSLV5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "CCNY Center for Algorithms and Interactive Scientific Software",
+  "perf_str_addr": "160 Convent Avenue",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100319101",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "NY13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 74400.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><div class=\"tinyMCEContent\">\n<p>Verifiable Outsourced Computation is a  very active research area in Cryptography and Network Security. The goal  of this research area is to design protocols where a client can  outsource data and computations to a provider and it should be  impossible (under suitable cryptographic assumptions) for a provider to  \"cheat\", i.e. to provide incorrect results for the computations  performed over the outsourced data. &nbsp;</p>\n<p>The goal of this project is to study a different model to deal with  this problem, where \"cheating\" might actually be possible, but the  provider would have no motivation to do so. In other words while  cryptographic protocols prevent any adversary from cheating, we will  study protocols that work against rational adversaries whose motivation  is to maximize a well defined utility function.</p>\n<p>&nbsp;</p>\n<p>&nbsp;&nbsp;&nbsp; Following a full review of the literature in the field our team realized that previous work does not capture some very realistic scenarios. For example, cosider the case where a large number of \"computation problems\" are outsourced. Assume that solving each problem takes time T. Then in a time interval of length T, the honest provider can only solve and receive the reward for a single problem. On the other hand a dishonest prover, can answer up to T problems, for example by answering at random, a strategy that takes O(1) time. To assure that answering correctly is a rational strategy, we need to that at the end of the T-time interval the reward of the honest prover be larger than the reward of the dishonest one. But this is not necessarily the case: for some of the protocols in the above works we showed that a \"fast\" incorrect answer is more remunerable for the prover, by allowing him to solve more problems and collect more rewards. <br /><br />&nbsp;&nbsp;&nbsp; In response to that we developed an enhanced definition of Rational Proofs that removes the economic incentive for the strategy of fast incorrect answers, and then built protocols that achieves it for various classes of languages. In the process we extended that class of computations that admit efficient rational proofs. Moreover we have begun to explore the possibility of integrating our tools and techniques with block-chain based cryptocurrencies, in order to use the latter to build the incentives required by rational proofs. Results from this projects have been accepted in prestigious conferences in cryptography, game theory and security. One graduate student was supported by this project during his Ph.D. career.</p>\n</div><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/13/2017<br>\n\t\t\t\t\tModified by: Rosario&nbsp;Gennaro</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nVerifiable Outsourced Computation is a  very active research area in Cryptography and Network Security. The goal  of this research area is to design protocols where a client can  outsource data and computations to a provider and it should be  impossible (under suitable cryptographic assumptions) for a provider to  \"cheat\", i.e. to provide incorrect results for the computations  performed over the outsourced data.  \n\nThe goal of this project is to study a different model to deal with  this problem, where \"cheating\" might actually be possible, but the  provider would have no motivation to do so. In other words while  cryptographic protocols prevent any adversary from cheating, we will  study protocols that work against rational adversaries whose motivation  is to maximize a well defined utility function.\n\n \n\n    Following a full review of the literature in the field our team realized that previous work does not capture some very realistic scenarios. For example, cosider the case where a large number of \"computation problems\" are outsourced. Assume that solving each problem takes time T. Then in a time interval of length T, the honest provider can only solve and receive the reward for a single problem. On the other hand a dishonest prover, can answer up to T problems, for example by answering at random, a strategy that takes O(1) time. To assure that answering correctly is a rational strategy, we need to that at the end of the T-time interval the reward of the honest prover be larger than the reward of the dishonest one. But this is not necessarily the case: for some of the protocols in the above works we showed that a \"fast\" incorrect answer is more remunerable for the prover, by allowing him to solve more problems and collect more rewards. \n\n    In response to that we developed an enhanced definition of Rational Proofs that removes the economic incentive for the strategy of fast incorrect answers, and then built protocols that achieves it for various classes of languages. In the process we extended that class of computations that admit efficient rational proofs. Moreover we have begun to explore the possibility of integrating our tools and techniques with block-chain based cryptocurrencies, in order to use the latter to build the incentives required by rational proofs. Results from this projects have been accepted in prestigious conferences in cryptography, game theory and security. One graduate student was supported by this project during his Ph.D. career.\n\n\n\t\t\t\t\tLast Modified: 10/13/2017\n\n\t\t\t\t\tSubmitted by: Rosario Gennaro"
+ }
+}

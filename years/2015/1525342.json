@@ -1,0 +1,105 @@
+{
+ "awd_id": "1525342",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF:  Small:  Noise Across Computational  Settings",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tracy Kimbrel",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2015-08-06",
+ "awd_max_amd_letter_date": "2015-08-06",
+ "awd_abstract_narration": "The project will expand our understanding of noise and develop new tools for coping with, and benefiting from noise in a variety of computational settings. Settings considered under this project can be broken into three groups: (1) interactive communication; (2) circuit computation; and (3) dynamical systems when viewed as computing devices. Considering the effect of noise in each of these settings yields many interesting and important problems. At a theoretical level, the project aims to develop new schemes for error-correction when dealing with computation using unreliable components, as well as to map out the limitations of such schemes. At a practical level, the research may lead to the development of more efficient error-correcting communication schemes, and more power efficient circuits.\r\n\r\nAt a technical level, the cross-cutting theme of this proposal is using information theory to better understand the effect of noise in the different settings. Past work by the PI and others in the areas studied under this project, suggests that there will be a transfer of techniques between these different settings. The project connects several disciplines: interactive error-correction is on the cusp between traditional coding theory and communication complexity; circuit error correction is of interest within both complexity theory and computer architecture; and the study of computational aspects of noisy dynamical systems brings together theoretical computer science, dynamical systems, and theoretical physics.  Broader impacts of the project include curriculum development, broaden participation of students in theoretical areas and writing survey articles.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mark",
+   "pi_last_name": "Braverman",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mark Braverman",
+   "pi_email_addr": "mbraverm@princeton.edu",
+   "nsf_id": "000597009",
+   "pi_start_date": "2015-08-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Princeton University",
+  "inst_street_address": "1 NASSAU HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "PRINCETON",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "6092583090",
+  "inst_zip_code": "085442001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "THE TRUSTEES OF PRINCETON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NJ1YPQXQG7U5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": "87 Prospect Avenue",
+  "perf_city_name": "Princeton",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085442020",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7927",
+   "pgm_ref_txt": "COMPLEXITY & CRYPTOGRAPHY"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Intellectual merit.</strong> The proposal&rsquo;s cross-cutting focus was on noise and uncertainty as they affect various computational and communication tasks. The goal was to both design new algorithms and (more importantly) develop new proof techniques for proving impossibility results.</p>\n<p>On the algorithms side, the PI, with students and collaborators considered the fundamental problem of sorting items (such as ranking contestants or search results) using noisy comparisons. By using sports teams as an example, the weaker team may beat the stronger team &ndash; it just happens with probability less than 50% on average. In various applications where latency (and not just the total number of comparisons) is important, we would like to sort a list in only a small number of &ldquo;rounds&rdquo; in which items are compared head-to-head. We obtained new algorithms and proofs that they are optimal for the regimes with any given number of rounds. We also obtained near-optimal result for the related problem where only the top items need to be listed in a sorted order.</p>\n<p>On the communication side, we considered several problems in the area of interactive communication over noisy networks. Noise and error-correction play a very important role in modern networking applications, and their theory dates back to the works of Shannon in the 1940s. However, these theories typically address the problem of data transmission, and we are still in the process of developing the theory of error-correcting coding for interactive problems, in which a certain task requiring back-and-forth interaction needs to be performed over a noisy communication medium. Of course, one can just encode each individual message using an error-correcting code (as modern networking systems do), but this causes (provably) unnecessary slowdown in the amount of communication needed to complete the task. The PI with postdocs, students, and collaborators obtained several new coding schemes for the interactive regime. However, the most exciting result in this direction was a negative one: showing that in a large network, a highly interactive task may experience a significant slow-down, approximately logarithmic in the size of the network. This was the first non-trivial lower bound for this problem, and it nearly-matched the (surprising at the time) algorithmic result from the 1990s on error-correction for highly interactive distributed problems.</p>\n<p><strong>Broader impact. </strong>A significant impact of this project was in providing professional development opportunities for the junior personnel involved in the project. Work under the project involved at least one postdoc, four graduate students, and several undergraduate project, thesis, and summer students. Three PhD students whose work had a significant component in this project successfully graduated in 2018, and secured prestigious postdoctoral or industry research positions.</p>\n<p>A number of dissemination events were undertaken under this project. These include a 2017 plenary lecture at the Foundations of Computational Mathematics conference in Barcelona, a tutorial at a main theoretical computer science conference (2016), and a semester-long program on connections between information and computation theories at the Institut Henri Poincar&eacute; in Paris.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2018<br>\n\t\t\t\t\tModified by: Mark&nbsp;Braverman</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIntellectual merit. The proposal?s cross-cutting focus was on noise and uncertainty as they affect various computational and communication tasks. The goal was to both design new algorithms and (more importantly) develop new proof techniques for proving impossibility results.\n\nOn the algorithms side, the PI, with students and collaborators considered the fundamental problem of sorting items (such as ranking contestants or search results) using noisy comparisons. By using sports teams as an example, the weaker team may beat the stronger team &ndash; it just happens with probability less than 50% on average. In various applications where latency (and not just the total number of comparisons) is important, we would like to sort a list in only a small number of \"rounds\" in which items are compared head-to-head. We obtained new algorithms and proofs that they are optimal for the regimes with any given number of rounds. We also obtained near-optimal result for the related problem where only the top items need to be listed in a sorted order.\n\nOn the communication side, we considered several problems in the area of interactive communication over noisy networks. Noise and error-correction play a very important role in modern networking applications, and their theory dates back to the works of Shannon in the 1940s. However, these theories typically address the problem of data transmission, and we are still in the process of developing the theory of error-correcting coding for interactive problems, in which a certain task requiring back-and-forth interaction needs to be performed over a noisy communication medium. Of course, one can just encode each individual message using an error-correcting code (as modern networking systems do), but this causes (provably) unnecessary slowdown in the amount of communication needed to complete the task. The PI with postdocs, students, and collaborators obtained several new coding schemes for the interactive regime. However, the most exciting result in this direction was a negative one: showing that in a large network, a highly interactive task may experience a significant slow-down, approximately logarithmic in the size of the network. This was the first non-trivial lower bound for this problem, and it nearly-matched the (surprising at the time) algorithmic result from the 1990s on error-correction for highly interactive distributed problems.\n\nBroader impact. A significant impact of this project was in providing professional development opportunities for the junior personnel involved in the project. Work under the project involved at least one postdoc, four graduate students, and several undergraduate project, thesis, and summer students. Three PhD students whose work had a significant component in this project successfully graduated in 2018, and secured prestigious postdoctoral or industry research positions.\n\nA number of dissemination events were undertaken under this project. These include a 2017 plenary lecture at the Foundations of Computational Mathematics conference in Barcelona, a tutorial at a main theoretical computer science conference (2016), and a semester-long program on connections between information and computation theories at the Institut Henri Poincar&eacute; in Paris.\n\n \n\n\t\t\t\t\tLast Modified: 11/30/2018\n\n\t\t\t\t\tSubmitted by: Mark Braverman"
+ }
+}

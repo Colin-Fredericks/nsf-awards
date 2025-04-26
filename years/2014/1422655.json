@@ -1,0 +1,101 @@
+{
+ "awd_id": "1422655",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS: Small: Collaborative Research: Tools for Design and Analysis of Provably Correct Networking Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 147996.0,
+ "awd_amount": 147996.0,
+ "awd_min_amd_letter_date": "2014-08-26",
+ "awd_max_amd_letter_date": "2014-08-26",
+ "awd_abstract_narration": "Networking and telecommunications infrastructure relies on many different network protocols which interact to provide communication services. Software that enables telecommunications and the Internet is inherently difficult to create, given the number and complexity of network protocols, diverse heterogeneous systems, and various administrative policies that must be accommodated. This complexity significantly increases the likelihood of implementation errors, which can cause network and security vulnerabilities (e.g., the well-publicized Heartbleed bug). The project will address these issues through the creation of a new programming language that supports the synthesis of network protocols and their corresponding stack through a correct-by-construction style of programming.\r\n\r\nThis research project will investigate new transformational methods and tools for the design, analysis, construction, verification, configuration, and deployment of provably correct, safe, and efficient networking systems, rooted in the style and theory of systems programming languages. Specific objectives include (i) the investigation and analysis of abstractions present in the message layer, state machine, system interfaces, and configuration tools of network protocols, and (ii) the reification of these abstractions in a new systems programming language that supports the definition of provably correct and efficient communication stacks.\r\n\r\nThe project entails the analysis of software and hardware abstractions in modern networking and communication systems in order to support the design of programming language features. The project will identify correct by construction techniques that enable the design and synthesis of efficient systems that are immune to broad classes of vulnerabilities based on common programmer mistakes. Furthermore, the project will produce a language, compiler and runtime system accessible to a large community of researchers and engineers without requiring specialized expertise in formal methods.\r\n\r\nThis project will contribute to understanding the foundation of the design of provably correct and secure computer and networking systems. The methodology developed in the course of this project will facilitate rapid development of vulnerability-free systems and will greatly benefit researchers, industry developers, and educators. The project's results will help improve networking system safety, security, and attack resilience. The project will make a significant contribution to the broader areas of axiomatic programming, programming methodologies, and formal methods. The project's results, as well as the developed models, testbeds, and software, will be disseminated to the research community and networking industry under an open source license.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Andrew",
+   "pi_last_name": "Sutton",
+   "pi_mid_init": "N",
+   "pi_sufx_name": "",
+   "pi_full_name": "Andrew N Sutton",
+   "pi_email_addr": "asutton@uakron.edu",
+   "nsf_id": "000661951",
+   "pi_start_date": "2014-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Akron",
+  "inst_street_address": "302 BUCHTEL COMMON",
+  "inst_street_address_2": "",
+  "inst_city_name": "AKRON",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "3309722760",
+  "inst_zip_code": "443250001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "OH13",
+  "org_lgl_bus_name": "THE UNIVERSITY OF AKRON",
+  "org_prnt_uei_num": "DFNLDECWM8J8",
+  "org_uei_num": "DFNLDECWM8J8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Akron",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "443250001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "OH13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 147996.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>&nbsp;The project focused on the identification abstractions present in computer networking protocols their system design to develop computer programming languages and runtime systems that would support their provably safe specification and as-fast-as-hand-written execution in concrete systems. A significant application of this technology is in software-defined networking where protocol specifications are given as inputs to switch and router configurations to define robust and efficient forwarding and filtering applications. Much of the work was done in the context of the OpenFlow specification for software-defined switches, which defines a general-purpose flow-based architecture for implementing network protocols.</p>\n<p>The project had <span style=\"background-color: rgba(250, 214, 51, 0.25);\">several</span>&nbsp;outcomes, particularly computer software. Two significant products of the proposal are the Steve programming language and the Freeflow virtual machine. The Steve language supported many different features, including the abilities to define a subset of existing network protocols and define table-based, event-driven packet processors (e.g., switches, IP routers, firewalls). &nbsp;Steve enforced several guarantees, including safe packet decoding and forward progress of the program. Steve programs are compiled into native code and can be used by the Freeflow virtual machine. Freeflow is a small virtual machine that provides the runtime resources and facilities needed to execute Steve programs. It defines abstractions for various types of flow tables, implements language intrinsics for safe and efficient packet decoding, and maintains the control flow of programs that it runs. The Freeflow project was initially designed to support experimenting with various forms of program composition, automatic transformation, automatic parallelization, and compilation to non-commodity switching hardware.</p>\n<p>Another outcome of the project was the invention of Pip abstract packet processor and its corresponding implementation. The goal of designing Pip was to identify the smallest language that could accommodate programmable packet decoding as a basis for studying higher-level safety abstractions. In other words, pip provides a kind of minimally typed assembly language for packet processing pipelines or forwarding engines.</p>\n<p>There were several other outcomes:</p>\n<ul>\n<li>The Arbiter is an extension to the Liz research programming language and its runtime library that models a generic OpenFlow pipeline, providing several compile-time safety checks (e.g., operator safety, vendor conformance).</li>\n<li>Aetherflow is an extension of the OpenFlow model to support programmable wireless switching. The extension treats radio interfaces and MAC controllers as first-class abstractions that can be queried or modified by a switching program. The implementation was built on top of Open vSwtich.</li>\n<li>FlowSim is a web-based data plane simulator that can be used to create and step through OpenFlow style SDN programs. The intent is to help users understand the networking and system primitives involved in the configuration of forwarding infrastructure and demonstrate how it works.</li>\n</ul>\n<p>Many of these projects are reported as conference proceedings. The Steve Programming Language and Freeflow virtual machine are published Masters&rsquo; theses.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/03/2018<br>\n\t\t\t\t\tModified by: Andrew&nbsp;N&nbsp;Sutton</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n The project focused on the identification abstractions present in computer networking protocols their system design to develop computer programming languages and runtime systems that would support their provably safe specification and as-fast-as-hand-written execution in concrete systems. A significant application of this technology is in software-defined networking where protocol specifications are given as inputs to switch and router configurations to define robust and efficient forwarding and filtering applications. Much of the work was done in the context of the OpenFlow specification for software-defined switches, which defines a general-purpose flow-based architecture for implementing network protocols.\n\nThe project had several outcomes, particularly computer software. Two significant products of the proposal are the Steve programming language and the Freeflow virtual machine. The Steve language supported many different features, including the abilities to define a subset of existing network protocols and define table-based, event-driven packet processors (e.g., switches, IP routers, firewalls).  Steve enforced several guarantees, including safe packet decoding and forward progress of the program. Steve programs are compiled into native code and can be used by the Freeflow virtual machine. Freeflow is a small virtual machine that provides the runtime resources and facilities needed to execute Steve programs. It defines abstractions for various types of flow tables, implements language intrinsics for safe and efficient packet decoding, and maintains the control flow of programs that it runs. The Freeflow project was initially designed to support experimenting with various forms of program composition, automatic transformation, automatic parallelization, and compilation to non-commodity switching hardware.\n\nAnother outcome of the project was the invention of Pip abstract packet processor and its corresponding implementation. The goal of designing Pip was to identify the smallest language that could accommodate programmable packet decoding as a basis for studying higher-level safety abstractions. In other words, pip provides a kind of minimally typed assembly language for packet processing pipelines or forwarding engines.\n\nThere were several other outcomes:\n\nThe Arbiter is an extension to the Liz research programming language and its runtime library that models a generic OpenFlow pipeline, providing several compile-time safety checks (e.g., operator safety, vendor conformance).\nAetherflow is an extension of the OpenFlow model to support programmable wireless switching. The extension treats radio interfaces and MAC controllers as first-class abstractions that can be queried or modified by a switching program. The implementation was built on top of Open vSwtich.\nFlowSim is a web-based data plane simulator that can be used to create and step through OpenFlow style SDN programs. The intent is to help users understand the networking and system primitives involved in the configuration of forwarding infrastructure and demonstrate how it works.\n\n\nMany of these projects are reported as conference proceedings. The Steve Programming Language and Freeflow virtual machine are published Masters? theses.\n\n\t\t\t\t\tLast Modified: 12/03/2018\n\n\t\t\t\t\tSubmitted by: Andrew N Sutton"
+ }
+}

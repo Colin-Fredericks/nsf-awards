@@ -1,0 +1,109 @@
+{
+ "awd_id": "1019966",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Collaborative Research: High Performance Exact Linear Algebra Kernels",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Balasubramanian Kalyanasundaram",
+ "awd_eff_date": "2010-08-15",
+ "awd_exp_date": "2013-07-31",
+ "tot_intn_awd_amt": 57702.0,
+ "awd_amount": 57702.0,
+ "awd_min_amd_letter_date": "2010-08-04",
+ "awd_max_amd_letter_date": "2010-08-04",
+ "awd_abstract_narration": "This project will improve the state of the art of the implementation and optimization of algorithms for exact linear algebra computation.  With exact computation, solving systems of linear equations is advanced from limited accuracy to exact solutions.  This greatly increases the scope of accessible applications and allows matrix invariants such as rank, determinant, characteristic and minimal polynomial, and Smith and Frobenius normal forms to be computed.\r\n\r\nWe will combine a newly developed theoretical basis for block blackbox methods in linear algebra with high performance implementation, in hardware and software, of the computational kernels from which these implementations are constructed. The resulting implementations will be made publicly available in the framework of the LinBox software library. A system for automatically tuning the underlying computer algebra kernels will be developed and distributed as part of the LinBox library. The autotuning framework will benefit other computer algebra systems as well. The resulting advances for computation in finite domains, such as modular numbers and finite algebraic field extensions, will benefit many areas including cryptography and coding theory.\r\n\r\nThe project has many practical impacts as follows:\r\n\r\nExperimental mathematics will be enhanced. In experimental mathematics, symbolic computation provides for testing of conjectures. And, perhaps more importantly, data from symbolic computations can guide the formulation of  conjectures that are then candidates for formal proof. By permitting larger exact linear algebra computations, this project will increase the usefulness of such computation in mathematics.\r\n\r\nThe broadest, and perhaps most significant, outcome of this project is an ability to solve many problems which currently have no solution method at all. This project will make it possible to efficiently solve linear systems where  numerical methods fail due to ill-condition of the problem instance, yet the exact result could it be obtained is valid and meaningful despite the approximate nature of the data.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "George",
+   "pi_last_name": "Yuhasz",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "George Yuhasz",
+   "pi_email_addr": "gyuhasz@morehouse.edu",
+   "nsf_id": "000555377",
+   "pi_start_date": "2010-08-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Morehouse College",
+  "inst_street_address": "830 WESTVIEW DR SW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4706390633",
+  "inst_zip_code": "303143773",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "MOREHOUSE COLLEGE INC",
+  "org_prnt_uei_num": "KTE2MFWTKAE5",
+  "org_uei_num": "KTE2MFWTKAE5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Morehouse College",
+  "perf_str_addr": "830 WESTVIEW DR SW",
+  "perf_city_name": "ATLANTA",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303143773",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "793300",
+   "pgm_ele_name": "NUM, SYMBOL, & ALGEBRA COMPUT"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 57702.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><div class=\"page\" title=\"Page 7\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><!--StartFragment-->The Matrix Berlekamp/Massey algorithm as described by the PI in his thesis and journal publication has been integrated into the LinBox library. The implementation has been tested for accuracy in computation and is available to be used in methods based on the block Wiedemann algorithm. One such method, a non-singular Block Wiedemann solver has been written and is currently being tested for performance and robustness. Application to matrix rank computation is in progress. Preliminary results are encouraging but need to be tested and improved.</p>\n<p>After the successful testing of the non-singular solver, we can then turn attention on various related linear algebra computations and speed improvements to the algorithms. The first such computation is rank. By using the Matrix Berlekamp/Massey algorithm to compute a matrix generator with random bilinear projections, one can with high probability compute the rank of a matrix. After the generator computation, one needs to compute the degree and trailing degree of the determinant of the generator. As a result of the PI's prior work the degree is known, however the trailing degree is not. Options for computation of the trailing degree include a new method based on LU decomposition or a standard interpolation method.</p>\n<p>In addition to rank, computations such as smith normal form, determinant, singular solving and characteristic/minimum polynomial are possible using block Wiedemann methods.</p>\n<p>The Matrix Berlekamp/Massey implementation and non-singular block Wiedemann solver can be improved by tuning. Currently we do not take full advantage of all the  fast arithmetics that are available and possible. One of the main triumphs of the Matrix Berlekamp/Massey algorithm is the encoding of matrix algebra into polynomial algebra. It should be possible and advantageous to apply known methods of fast matrix arithmetic and fast polynomial arithmetic to enhance the algorithms. Over specific fields and blocking dimensions, the field and vector arithmetic can be tuned specifically for the algorithm. Finally, by imposing some restrictions, it should be possible to benefit from sub-quadratic methods based on the half-gcd algorithm.</p>\n</div>\n</div>\n</div><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/30/2013<br>\n\t\t\t\t\tModified by: George&nbsp;Yuhasz</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\n\n\nThe Matrix Berlekamp/Massey algorithm as described by the PI in his thesis and journal publication has been integrated into the LinBox library. The implementation has been tested for accuracy in computation and is available to be used in methods based on the block Wiedemann algorithm. One such method, a non-singular Block Wiedemann solver has been written and is currently being tested for performance and robustness. Application to matrix rank computation is in progress. Preliminary results are encouraging but need to be tested and improved.\n\nAfter the successful testing of the non-singular solver, we can then turn attention on various related linear algebra computations and speed improvements to the algorithms. The first such computation is rank. By using the Matrix Berlekamp/Massey algorithm to compute a matrix generator with random bilinear projections, one can with high probability compute the rank of a matrix. After the generator computation, one needs to compute the degree and trailing degree of the determinant of the generator. As a result of the PI's prior work the degree is known, however the trailing degree is not. Options for computation of the trailing degree include a new method based on LU decomposition or a standard interpolation method.\n\nIn addition to rank, computations such as smith normal form, determinant, singular solving and characteristic/minimum polynomial are possible using block Wiedemann methods.\n\nThe Matrix Berlekamp/Massey implementation and non-singular block Wiedemann solver can be improved by tuning. Currently we do not take full advantage of all the  fast arithmetics that are available and possible. One of the main triumphs of the Matrix Berlekamp/Massey algorithm is the encoding of matrix algebra into polynomial algebra. It should be possible and advantageous to apply known methods of fast matrix arithmetic and fast polynomial arithmetic to enhance the algorithms. Over specific fields and blocking dimensions, the field and vector arithmetic can be tuned specifically for the algorithm. Finally, by imposing some restrictions, it should be possible to benefit from sub-quadratic methods based on the half-gcd algorithm.\n\n\n\n\n\t\t\t\t\tLast Modified: 10/30/2013\n\n\t\t\t\t\tSubmitted by: George Yuhasz"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1314973",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Option: Medium: Collaborative: Semantic Security Monitoring for Industrial Control Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Shannon Beck",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 699368.0,
+ "awd_amount": 699368.0,
+ "awd_min_amd_letter_date": "2013-06-20",
+ "awd_max_amd_letter_date": "2013-06-20",
+ "awd_abstract_narration": "Industrial control systems differ significantly from standard, general-purpose computing environments, and they face quite different security challenges. With physical \"air gaps\" now the exception, our critical infrastructure has become vulnerable to a broad range of potential attackers. In this project we develop novel network monitoring approaches that can detect sophisticated semantic attacks: malicious actions that drive a process into an unsafe state without however exhibiting any obvious protocol-level red flags. In one thrust, we conduct a measurement-centric study of ICS network activity, aimed at developing a deep understanding of operational semantics in terms of actors, workloads, dependencies, and state changes over time. In a second thrust, we develop domain-specific behavior models that abstract from low-level protocol activity to their semantic meaning according to the current state of the processes under control. Our goal is to integrate these models into operationally viable, real-time network monitoring that reports unexpected deviations as indicators of attacks or malfunction. A separate \"Transition to Practice\" phase advances our research results into deployment-ready technology by integrating it into the open-source Bro network monitor. Overall, our work will improve security and safety of today's critical infrastructure by providing effective, unobtrusive security monitoring tailored to their specific semantics. In addition, we tie a number of educational activities to the research and involve students at all levels.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robin",
+   "pi_last_name": "Sommer",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robin Sommer",
+   "pi_email_addr": "robin@icsi.berkeley.edu",
+   "nsf_id": "000486953",
+   "pi_start_date": "2013-06-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "International Computer Science Institute",
+  "inst_street_address": "2150 SHATTUCK AVE",
+  "inst_street_address_2": "SUITE 250",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106662900",
+  "inst_zip_code": "947041345",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "INTERNATIONAL COMPUTER SCIENCE INSTITUTE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GSRMP1QCXU74"
+ },
+ "perf_inst": {
+  "perf_inst_name": "International Computer Science Institute",
+  "perf_str_addr": "1947 Center St., Ste. 600",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947041159",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 699368.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-6081f40b-7fff-b356-e2ab-7eee2cc8181b\"> </span></p>\n<p dir=\"ltr\"><span>Industrial Control Systems are the special computer systems and hardware that regulate and control physical systems in the real world. Whether it is the computer in your car that detects and responds to lane drifting, the system that controls the HVAC in your office building, or the devices that control the flow of electricity across your city, these computer systems are everywhere around us.</span></p>\n<p dir=\"ltr\"><span>&nbsp;</span>While ICSs have been an important part of our critical infrastructure and manufacturing for decades, it is only in more recent times that these devices are becoming interconnected around the world through the Internet. In the past you could count on on physical locks, gates, and fences to keep adversaries away, but in the modern world these same devices can be attacked from around the globe. And because we have built our critical infrastructure on these systems it is vitally important to protect them.</p>\n<p dir=\"ltr\">Traditional security tools form security companies have focused on your desktops, phones and commodity devices that often run Windows, Android, Mac OS, etc. These devices are not the same though as your typical computer or mobile phone, and most tools for intrusion detection don?t translate reasily to protect the networks these devices are on.</p>\n<p dir=\"ltr\">With this work we sought to better understand these systems and how they communicate to build new network intrusion detection tools that exploit some of the differences between these tools and the commodity devices you might find in your home or office. For example, these devices have very special communication protocols and patterns as they aren?t used for general purpose activities like web browsing, and we can use that predictability. And because they interact with the real world, we can look to see where they are misbehaving by comparing actual things like power readings across the grid to what reality should be if these ICS are not tampered with.</p>\n<p dir=\"ltr\">Our approach to address these challenges took three thrusts. First, we had to get real traffic data from different utility companies to start analyzing how these devices act in the real world and not just rely in engineering specifications. Simultaneously, we had to build tools to parse and understand the traffic at a deep level. With that semantic understanding in hand and the real world data, we were finally able to start developing methods to detect new kinds of attacks in novel ways.</p>\n<p dir=\"ltr\">This led to many concrete accomplishments over the life of the project. By building many of these capabilities into the Bro IDS, we released several new versions with traffic analyzers for ICS protocols such as modbus, DNP3 and Bacnet. Further, we were able to improve a new tool called Spicy that helps create protocol analyzers, making it easier for people to add other protocols to Bro in the future.</p>\n<p dir=\"ltr\">We also both discovered new types of attacks against ICS, and we developed new defenses. Using live power analysis we created a way to detect malicious or compromised computer systems in the power grid. Working with Cray and the Blue Waters project ant NCSA we developed a new proof-of-concept attack against Power Distribution Units (PDUs) that could take down a supercomputer. In collaboration with Argonne National Lab we developed something called RAINCOAT, a Moving Target Defense (MTD) using Software Defined Networking (SDN) to make it more difficult for intruders to map your network. And out of all this work we developed a new cyber-physical testbed with the international GENI project that can be used by other researchers to run experiments to defend these networks.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/19/2018<br>\n\t\t\t\t\tModified by: Robin&nbsp;Sommer</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n \nIndustrial Control Systems are the special computer systems and hardware that regulate and control physical systems in the real world. Whether it is the computer in your car that detects and responds to lane drifting, the system that controls the HVAC in your office building, or the devices that control the flow of electricity across your city, these computer systems are everywhere around us.\n While ICSs have been an important part of our critical infrastructure and manufacturing for decades, it is only in more recent times that these devices are becoming interconnected around the world through the Internet. In the past you could count on on physical locks, gates, and fences to keep adversaries away, but in the modern world these same devices can be attacked from around the globe. And because we have built our critical infrastructure on these systems it is vitally important to protect them.\nTraditional security tools form security companies have focused on your desktops, phones and commodity devices that often run Windows, Android, Mac OS, etc. These devices are not the same though as your typical computer or mobile phone, and most tools for intrusion detection don?t translate reasily to protect the networks these devices are on.\nWith this work we sought to better understand these systems and how they communicate to build new network intrusion detection tools that exploit some of the differences between these tools and the commodity devices you might find in your home or office. For example, these devices have very special communication protocols and patterns as they aren?t used for general purpose activities like web browsing, and we can use that predictability. And because they interact with the real world, we can look to see where they are misbehaving by comparing actual things like power readings across the grid to what reality should be if these ICS are not tampered with.\nOur approach to address these challenges took three thrusts. First, we had to get real traffic data from different utility companies to start analyzing how these devices act in the real world and not just rely in engineering specifications. Simultaneously, we had to build tools to parse and understand the traffic at a deep level. With that semantic understanding in hand and the real world data, we were finally able to start developing methods to detect new kinds of attacks in novel ways.\nThis led to many concrete accomplishments over the life of the project. By building many of these capabilities into the Bro IDS, we released several new versions with traffic analyzers for ICS protocols such as modbus, DNP3 and Bacnet. Further, we were able to improve a new tool called Spicy that helps create protocol analyzers, making it easier for people to add other protocols to Bro in the future.\nWe also both discovered new types of attacks against ICS, and we developed new defenses. Using live power analysis we created a way to detect malicious or compromised computer systems in the power grid. Working with Cray and the Blue Waters project ant NCSA we developed a new proof-of-concept attack against Power Distribution Units (PDUs) that could take down a supercomputer. In collaboration with Argonne National Lab we developed something called RAINCOAT, a Moving Target Defense (MTD) using Software Defined Networking (SDN) to make it more difficult for intruders to map your network. And out of all this work we developed a new cyber-physical testbed with the international GENI project that can be used by other researchers to run experiments to defend these networks.\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 12/19/2018\n\n\t\t\t\t\tSubmitted by: Robin Sommer"
+ }
+}

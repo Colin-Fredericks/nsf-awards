@@ -1,0 +1,122 @@
+{
+ "awd_id": "2403360",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "OAC Core: Enhancing Network Security by Implementing an ML Malware Detection and Classification Scheme in P4 Programmable Data Planes and SmartNICs",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922625",
+ "po_email": "jjli@nsf.gov",
+ "po_sign_block_name": "Juan Li",
+ "awd_eff_date": "2024-07-01",
+ "awd_exp_date": "2027-06-30",
+ "tot_intn_awd_amt": 599999.0,
+ "awd_amount": 599999.0,
+ "awd_min_amd_letter_date": "2024-04-17",
+ "awd_max_amd_letter_date": "2024-04-17",
+ "awd_abstract_narration": "Malware attacks represent significant threats to organizations, which use a variety of approaches to protect against them. Examples include intrusion detection systems, intrusion prevention systems, and other security systems that run on general-purpose computers. Such schemes perform \"deep packet inspection\" (DPI), a process by which a security device protecting an organization thoroughly examines incoming traffic and alerts administrators about suspicious activities. While DPI may be effective in some scenarios, it requires significant processing. Furthermore, if the organization receives a high volume of traffic from the Internet, DPI may not keep up with the traffic and may only inspect a fraction of it. Additionally, the inspection may not be conducted in real-time and may only detect the malware after the attack.\r\n\r\nThis project proposes to leverage the capability of P4 programmable data plane (PDP) switches and smartNICs to perform DPI. The project has four objectives. 1) Develop a malware detection and classification application running on PDPs, operating at line rate. The application will perform DPI of Domain Name System (DNS) packets, preventing malware from communicating with the corresponding C2 server. Traffic will be monitored in real-time, and functions commonly executed on general-purpose CPUs will be offloaded to PDPs. The plan includes analyzing DNS data, characterizing traffic patterns, and feeding such information to a machine learning (ML) algorithm. The ML algorithm will detect and classify malware according to their family (e.g., trojan, backdoor, ransomware). 2) Develop a malware detection and classification application running on a SmartNIC, for encrypted DNS packets. Research will be conducted to perform feature extraction for malware generating such packets. An ML algorithm will use the features to detect and classify the malware. 3) Develop a control application that shares threat intelligence and avoids malware propagation. As PDP switches and smartNIC detect malware, they share the threat intelligence with a centralized controller. 4) Expand the eX-IoT platform to fingerprint, store, and index newly detected and classified malware. The eX-IoT platform is a real-time platform for fingerprinting compromised devices on the Internet. The prototype running on PDPs and smart NICs will be built with open-source components available to the community, and the developed knowledge will be disseminated by synthesizing it as virtual lab libraries for courses and self-paced learning. The libraries will be distributed to colleges and universities. Finally, tutorials on malware detection and PDPs will be organized with organizations such as Internet2 and FABRIC.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jorge",
+   "pi_last_name": "Crichigno",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jorge Crichigno",
+   "pi_email_addr": "jcrichigno@cec.sc.edu",
+   "nsf_id": "000571570",
+   "pi_start_date": "2024-04-17",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Elias",
+   "pi_last_name": "Bou-Harb",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Elias Bou-Harb",
+   "pi_email_addr": "ebouharb@lsu.edu",
+   "nsf_id": "000723736",
+   "pi_start_date": "2024-04-17",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Elie",
+   "pi_last_name": "Kfoury",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Elie Kfoury",
+   "pi_email_addr": "ekfoury@email.sc.edu",
+   "nsf_id": "000953075",
+   "pi_start_date": "2024-04-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of South Carolina at Columbia",
+  "inst_street_address": "1600 HAMPTON ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBIA",
+  "inst_state_code": "SC",
+  "inst_state_name": "South Carolina",
+  "inst_phone_num": "8037777093",
+  "inst_zip_code": "292083403",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "SC06",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTH CAROLINA",
+  "org_prnt_uei_num": "Q93ZDA59ZAR5",
+  "org_uei_num": "J22LNTMEDP73"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of South Carolina at Columbia",
+  "perf_str_addr": "1600 HAMPTON ST # 414",
+  "perf_city_name": "COLUMBIA",
+  "perf_st_code": "SC",
+  "perf_st_name": "South Carolina",
+  "perf_zip_code": "292083403",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "SC06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "090Y00",
+   "pgm_ele_name": "OAC-Advanced Cyberinfrast Core"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 599999.0
+  }
+ ],
+ "por": null
+}

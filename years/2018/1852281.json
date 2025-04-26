@@ -1,0 +1,101 @@
+{
+ "awd_id": "1852281",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Efficient Simulation for Branching Processes",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Christopher Stark",
+ "awd_eff_date": "2018-07-01",
+ "awd_exp_date": "2021-08-31",
+ "tot_intn_awd_amt": 59687.0,
+ "awd_amount": 59687.0,
+ "awd_min_amd_letter_date": "2018-08-24",
+ "awd_max_amd_letter_date": "2018-08-24",
+ "awd_abstract_narration": "The analysis of a variety of problems in science and engineering, ranging from population and statistical physics models to the analysis of queueing systems, computer networks and the internet, leads to mathematical structures known as distributional equations.  In most instances, these distributional equations cannot be solved analytically, and their solutions need to be computed numerically, e.g., via stochastic simulation.  However, in many cases, traditional simulation methods require such an extraordinary number of computations that they become intractable, and therefore there is a need to develop more efficient alternatives. \r\n\r\nThe work that will be funded through this award focuses in a particular type of distributional equations, known as branching stochastic fixed-point equations (BSFPEs).  These equations appear naturally in the study of locally tree-like graphs, and are related to the analysis of weighted branching processes.  The proposed work consists in developing and analyzing new stochastic simulation methods to compute the solutions to a large class of BSFPEs.  In particular, the principal investigator will provide convergence guarantees and mechanisms to compute confidence intervals for iterative bootstrap-type algorithms, as well as develop new importance sampling algorithms for the estimation of rare events.  The new algorithms will be easy to implement by scientists and engineers working on a wide range of problems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mariana",
+   "pi_last_name": "Olvera-Cravioto",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mariana Olvera-Cravioto",
+   "pi_email_addr": "molvera@email.unc.edu",
+   "nsf_id": "000525852",
+   "pi_start_date": "2018-08-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of North Carolina at Chapel Hill",
+  "inst_street_address": "104 AIRPORT DR STE 2200",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHAPEL HILL",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9199663411",
+  "inst_zip_code": "275995023",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "NC04",
+  "org_lgl_bus_name": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL",
+  "org_prnt_uei_num": "D3LHU66KBLD5",
+  "org_uei_num": "D3LHU66KBLD5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of North Carolina at Chapel Hill",
+  "perf_str_addr": "104 AIRPORT DR STE 2200",
+  "perf_city_name": "CHAPEL HILL",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "275991350",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "NC04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806900",
+   "pgm_ele_name": "CDS&E-MSS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0116",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001617DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2016,
+   "fund_oblg_amt": 59687.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The analysis of complex networks, distributed queueing systems, opinion dynamics, and recursive algorithms, often leads to mathematical structures known as branching distributional fixed-point equations. As the term \"branching\" suggests, these equations have solutions that can be defined on potentially infinite trees that grow exponentially fast. Moreover, they rarely have analytically tractable solutions, which explains the need for numerical methods that can be used to obtain accurate approximations.&nbsp;</p>\n<p>Unfortunately, the branching nature of these equations, and of the recursions they induce, makes naive Monte Carlo methods extremely inefficient, with numerical complexities that grow exponentially in a parameter than can be in the hundreds for many applications. This exponential complexity motivates the need for more efficient methods that can be proven to converge to the desired limits and for which explicit error bounds can be derived.&nbsp;</p>\n<p>The work sponsored by this award focused on the development of efficient Monte Carlo methods for the computation of solutions to a large class of branching distributional fixed-point equations, including the linear recursion or smoothing transform, the maximum recursion or high order Lindley equation, and the discounted tree sums recursions, among others.</p>\n<p>The key outcomes of this work were the following:</p>\n<p>1. A rigorous analysis of an algorithm known as Population Dynamics, which circumvents the exponential complexity produced by the branching by appropriately resampling (bootstrapping) consecutive iterations of the fixed-point equation. One of the publications produced through this award proves the convergence in the Wasserstein metric of the Population Dynamics algorithm, and provides computable bounds for estimating the errors in the approximations it produces.</p>\n<p>2. The development of a new importance sampling estimator for the maximum of the perturbed branching random walk, which is the solution to a branching distributional fixed-point equation known as the maximum equation. This algorithm is meant to efficiently compute rare-event probabilities using an estimator that is shown to have bounded relative error and that circumvents the numerical complexity produced by the branching through the use of a so-called \"spine decomposition\".&nbsp;</p>\n<p>3. The development of a hybrid estimator that combines the importance sampling idea of the previous algorithm with the bootstrapping techniques from the Population Dynamics algorithm. The outcome is an even more efficient algorithm for computing rare event probabilities for the maximum of the perturbed branching random walk. This kind of hybrid estimator can provide future ideas for developing ad-hoc algorithms for other branching recursions.&nbsp;</p>\n<p><strong>Intellectual merit:</strong> The development of the new algorithms, as well as of the rigorous analysis of their convergence properties, contribute to the growing literature of specialized Monte Carlo methods and their statistical analysis. The tools developed for the analysis of the new algorithms have also contributed to the general theory of branching processes and branching distributional fixed-point equations, both popular topics within the probability and applied probability fields.</p>\n<p><strong>Broader impacts:</strong> The new algorithms are easy to implement and come with computable upper bounds for errors in the approximations they produce. The close connection between branching distributional fixed-point equations and many new problems in random graph theory, distributed queueing systems, opinion dynamics on social networks, and the complexity analysis of algorithms, makes the newly developped algorithms useful to a broad community of researchers.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/24/2022<br>\n\t\t\t\t\tModified by: Mariana&nbsp;Olvera-Cravioto</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe analysis of complex networks, distributed queueing systems, opinion dynamics, and recursive algorithms, often leads to mathematical structures known as branching distributional fixed-point equations. As the term \"branching\" suggests, these equations have solutions that can be defined on potentially infinite trees that grow exponentially fast. Moreover, they rarely have analytically tractable solutions, which explains the need for numerical methods that can be used to obtain accurate approximations. \n\nUnfortunately, the branching nature of these equations, and of the recursions they induce, makes naive Monte Carlo methods extremely inefficient, with numerical complexities that grow exponentially in a parameter than can be in the hundreds for many applications. This exponential complexity motivates the need for more efficient methods that can be proven to converge to the desired limits and for which explicit error bounds can be derived. \n\nThe work sponsored by this award focused on the development of efficient Monte Carlo methods for the computation of solutions to a large class of branching distributional fixed-point equations, including the linear recursion or smoothing transform, the maximum recursion or high order Lindley equation, and the discounted tree sums recursions, among others.\n\nThe key outcomes of this work were the following:\n\n1. A rigorous analysis of an algorithm known as Population Dynamics, which circumvents the exponential complexity produced by the branching by appropriately resampling (bootstrapping) consecutive iterations of the fixed-point equation. One of the publications produced through this award proves the convergence in the Wasserstein metric of the Population Dynamics algorithm, and provides computable bounds for estimating the errors in the approximations it produces.\n\n2. The development of a new importance sampling estimator for the maximum of the perturbed branching random walk, which is the solution to a branching distributional fixed-point equation known as the maximum equation. This algorithm is meant to efficiently compute rare-event probabilities using an estimator that is shown to have bounded relative error and that circumvents the numerical complexity produced by the branching through the use of a so-called \"spine decomposition\". \n\n3. The development of a hybrid estimator that combines the importance sampling idea of the previous algorithm with the bootstrapping techniques from the Population Dynamics algorithm. The outcome is an even more efficient algorithm for computing rare event probabilities for the maximum of the perturbed branching random walk. This kind of hybrid estimator can provide future ideas for developing ad-hoc algorithms for other branching recursions. \n\nIntellectual merit: The development of the new algorithms, as well as of the rigorous analysis of their convergence properties, contribute to the growing literature of specialized Monte Carlo methods and their statistical analysis. The tools developed for the analysis of the new algorithms have also contributed to the general theory of branching processes and branching distributional fixed-point equations, both popular topics within the probability and applied probability fields.\n\nBroader impacts: The new algorithms are easy to implement and come with computable upper bounds for errors in the approximations they produce. The close connection between branching distributional fixed-point equations and many new problems in random graph theory, distributed queueing systems, opinion dynamics on social networks, and the complexity analysis of algorithms, makes the newly developped algorithms useful to a broad community of researchers. \n\n\t\t\t\t\tLast Modified: 03/24/2022\n\n\t\t\t\t\tSubmitted by: Mariana Olvera-Cravioto"
+ }
+}

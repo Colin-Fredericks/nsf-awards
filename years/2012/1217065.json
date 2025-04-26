@@ -1,0 +1,113 @@
+{
+ "awd_id": "1217065",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "New Sampling Tools, with Applications to Quantum Monte Carlo and Stochastic Control",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2012-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2012-08-29",
+ "awd_max_amd_letter_date": "2013-07-05",
+ "awd_abstract_narration": "The investigator and his students develop new methods for sampling multidimensional probability densities. The idea is to achieve importance sampling by formulating high-quality proposal densities implicitly. For problems where the variables are continuous the investigator does this by first locating the modes of the density to be sampled, and then sampling by a creating a one-to-one and onto mapping from a convenient reference density onto the given probability space so that the neighborhoods of the modes have a high probability of being sampled. This map is defined implicitly by an efficient solution algorithm for a degenerate algebraic equation. Two successive samples are independent. This idea has been successfully applied by the investigator to problems in Bayesian estimation and in data assimilation, and the investigator proposes to extend it to quantum Monte Carlo and to stochastic control via path integral formulations. For problems where the variables are discrete and the previous algorithm is not applicable and where the probabilities are defined by a Hamiltonian, the investigator proposes to search for high-probability samples by first estimating a sequence of renormalized Hamiltonians via a fast algorithm developed with previous NSF support, and then sampling these Hamiltonians sequentially to find high-probability samples. In a first stage, the investigator expects to apply this second idea to the sampling of spin glasses and simple gauge fields.\r\n\r\nThe investigator and his students develop efficient algorithms for finding samples of given probability distributions. One can think of the given probability distributions as embodying a (possibly uncertain) theoretical model of a physical system, and the samples as instances of events for which the model is valid; one can then contrast these instances with (possibly uncertain) data and find out what is likely to happen given both the data and the model. This is commonly done in fields such as meteorology and economics. However, finding useful samples is typically difficult and costly in computer resources because the number of possibilities is typical colossal, but most of them turn out to be highly unlikely once data are taken into account. One wants to focus on likely instances, but in general one does not know in advance where these are. This difficulty is a major bottleneck in scientific computing. The investigator has been developing sampling methods that can find the high probability samples, even without prior knowledge, by optimizing the sampling in suitably abstract versions of the problems; he has successfully used these new methods in oceanography and geophysics, and proposes to develop them further for use in robotics, computational chemistry, and nuclear physics.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alexandre",
+   "pi_last_name": "Chorin",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alexandre J Chorin",
+   "pi_email_addr": "chorin@math.berkeley.edu",
+   "nsf_id": "000179404",
+   "pi_start_date": "2012-08-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California, Berkeley",
+  "perf_str_addr": "Mathematics Department",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947203840",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 147571.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 152429.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The starting point of the work my students, postodocs, and I have been doing is the problem of sampling.<br />Given the probability distribution of some random quantity, how does use the computer to find samples?<br />This problem arises in many fields of science, from meteorology to economics.<br />It is similar to to the following familiar problem: how to ask voters<br />(they are the samples) what they think of candidate X, so that the<br />set of voters one asks and who like her represents fairly their share of all the prospective voters.<br />In physics problems, the&nbsp;``prospective voters\" are typically very few, and one wastes a<br />lot of time asking the wrong people. In earlier years we developed a mathematical sampling method called ``implicit sampling\"<br />, which, in physics problems,<br />locates the analogs of ``prospective voters\" efficiently.<br /><br />Over the life of this grant we applied this technique to ``data assimilation\".<br />In many parts of science one encounters problems where a mathematical model exists but is unreliable,<br />&nbsp;but there are many data, i.e., measurements of what is being modeled.<br />For example, in weather forecasting the equations are unreliable because the atmosphere is<br />imperfectly understood, but weather satellites provide a lot of information. \"Data<br />assimilation\" is the process of combining the data and the models to obtain reliable estimates.<br />This is done by sampling possible states of the system and using the data to see how likely these states<br />&nbsp;are. Implicit sampling makes the process efficient by focusing on likely states from the start.<br /><br />However, predictions sometimes fail. Under this grant we developed<br />a mathematical theory that tells us precisely when the predictions of data assimilation are<br />reliable, and how to improve the odds of success. We derived criteria for deciding<br />when a data assimilation problem is intrisically so noisy that no reliable estimates can be obtained,<br />because the data and the model are too uncertain. If this happens, no computation<br />can be successful. We showed that if a data assimilation problem can be successfully solved in principle,<br />our techniques will solve it, while other methods may fail. We have also developed various<br />methods for reducing the computational cost of our methods. One conclusion from our<br />theory is that the algorithms used in data assimilation, in particular ours, are<br />already reasonably efficient, given that the problem is hard, and numerical analysis<br />alone is not likely to lead to further great improvements.<br /><br />Data assimilation requires some prior knowledge about the uncertainty in the mathematical<br />models and in the data; there is no general agreement as to where to find this prior knowledge. Our theory tells us<br />that improving the prior estimates of the uncertainty is a promising avenue to<br />improving data assimilation further. We have examined various standard ways of<br />deriving such prior estimates, and found that they can be misleading.<br />We have produced simple examples where the usual assumptions fail, and where<br />ideas analogous to implicit sampling provide a remedy.<br />This line of reseach deserves future attention.</p>\n<p>Under previous NSF support, we collaborated with other scientists to solve problems in oceanography, geophysics, and biology, using our methods. Under the grant that has just ended, we have been successful in a new direction. We used our methods to develop a faster algorithm for autonomous robots to orient themselves. This is important, because robots must respond in real time and cannot wait..</p>\n<p>Our work will have a major impact on a variety of fields of science where the models and the data are noisy, for example weather and climate forecasting, geophysics, economics, and robotics. The work was also used to...",
+  "por_txt_cntn": "\nThe starting point of the work my students, postodocs, and I have been doing is the problem of sampling.\nGiven the probability distribution of some random quantity, how does use the computer to find samples?\nThis problem arises in many fields of science, from meteorology to economics.\nIt is similar to to the following familiar problem: how to ask voters\n(they are the samples) what they think of candidate X, so that the\nset of voters one asks and who like her represents fairly their share of all the prospective voters.\nIn physics problems, the ``prospective voters\" are typically very few, and one wastes a\nlot of time asking the wrong people. In earlier years we developed a mathematical sampling method called ``implicit sampling\"\n, which, in physics problems,\nlocates the analogs of ``prospective voters\" efficiently.\n\nOver the life of this grant we applied this technique to ``data assimilation\".\nIn many parts of science one encounters problems where a mathematical model exists but is unreliable,\n but there are many data, i.e., measurements of what is being modeled.\nFor example, in weather forecasting the equations are unreliable because the atmosphere is\nimperfectly understood, but weather satellites provide a lot of information. \"Data\nassimilation\" is the process of combining the data and the models to obtain reliable estimates.\nThis is done by sampling possible states of the system and using the data to see how likely these states\n are. Implicit sampling makes the process efficient by focusing on likely states from the start.\n\nHowever, predictions sometimes fail. Under this grant we developed\na mathematical theory that tells us precisely when the predictions of data assimilation are\nreliable, and how to improve the odds of success. We derived criteria for deciding\nwhen a data assimilation problem is intrisically so noisy that no reliable estimates can be obtained,\nbecause the data and the model are too uncertain. If this happens, no computation\ncan be successful. We showed that if a data assimilation problem can be successfully solved in principle,\nour techniques will solve it, while other methods may fail. We have also developed various\nmethods for reducing the computational cost of our methods. One conclusion from our\ntheory is that the algorithms used in data assimilation, in particular ours, are\nalready reasonably efficient, given that the problem is hard, and numerical analysis\nalone is not likely to lead to further great improvements.\n\nData assimilation requires some prior knowledge about the uncertainty in the mathematical\nmodels and in the data; there is no general agreement as to where to find this prior knowledge. Our theory tells us\nthat improving the prior estimates of the uncertainty is a promising avenue to\nimproving data assimilation further. We have examined various standard ways of\nderiving such prior estimates, and found that they can be misleading.\nWe have produced simple examples where the usual assumptions fail, and where\nideas analogous to implicit sampling provide a remedy.\nThis line of reseach deserves future attention.\n\nUnder previous NSF support, we collaborated with other scientists to solve problems in oceanography, geophysics, and biology, using our methods. Under the grant that has just ended, we have been successful in a new direction. We used our methods to develop a faster algorithm for autonomous robots to orient themselves. This is important, because robots must respond in real time and cannot wait..\n\nOur work will have a major impact on a variety of fields of science where the models and the data are noisy, for example weather and climate forecasting, geophysics, economics, and robotics. The work was also used to train doctoral students and postdocs. We have worked hard to disseminate our methods and to teach other scientists to use them.\n\n \n\n\t\t\t\t\tLast Modified: 09/24/2015\n\n\t\t\t\t\tSubmitted by: Alexandre J Chorin"
+ }
+}

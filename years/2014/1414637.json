@@ -1,0 +1,109 @@
+{
+ "awd_id": "1414637",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "EAPSI: Tactile Sensor Development for Robotics Applications",
+ "cfda_num": "47.079",
+ "org_code": "01090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anne Emig",
+ "awd_eff_date": "2014-06-01",
+ "awd_exp_date": "2015-05-31",
+ "tot_intn_awd_amt": 5070.0,
+ "awd_amount": 5070.0,
+ "awd_min_amd_letter_date": "2014-05-29",
+ "awd_max_amd_letter_date": "2014-05-29",
+ "awd_abstract_narration": "Often the first attempt to grasp an object is not successful and the hand must be adjusted based on information gathered with that initial contact. The regrasping is  easier once information is available on where on the hand contact occurred. The purpose of this project is to build a robust grasping system for humanoid robots in collaboration with one of the pre-eminent robotics labs in the world, Dr. JunHo-Oh's Hubo Lab at the Korea Advanced Institute of Science and Technology. The main area of research in this project is to build a Tactile Experience Database enabling a robot with tactile sensors to leverage past experience to better incorporate current tactile sensory information into grasp planning. The database will enable the robot to use prior touch experience alongside current tactile information to better manipulate an object. For the purposes of this research, the tactile sensors will provide the sense of touch, and the Tactile Experience Database will provide the past experience. This tactile experience will allow for the creation of new robotic learning algorithms that the humanoid can use to identify and recreate previously learned grasps. \r\n\r\nIn addition, this tactile information will allow for novel regrasp algorithms. This research will allow relating the current sensor readings to the expected sensor readings and adjusting the hand based off of the difference between them. These new sensors will provide accurate information at a critical time allowing for more complicated grasping algorithms. The new sensors will also allow for new manipulation strategies. For example, a robot could make a careful exploratory contact, and then quickly shift its goal from a careful first contact to a stable grasp of the object. This NSF EAPSI award is funded in collaboration with the National Research Foundation of Korea.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OISE",
+ "org_div_long_name": "Office of International Science and Engineering",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jacob",
+   "pi_last_name": "Varley",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jacob J Varley",
+   "pi_email_addr": "",
+   "nsf_id": "000658478",
+   "pi_start_date": "2014-05-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Varley                  Jacob          J",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "New York",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "",
+  "inst_zip_code": "101281750",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NY12",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "KAIST",
+  "perf_str_addr": null,
+  "perf_city_name": "",
+  "perf_st_code": "",
+  "perf_st_name": "RI REQUIRED",
+  "perf_zip_code": "",
+  "perf_ctry_code": "KS",
+  "perf_cong_dist": "",
+  "perf_st_cong_dist": "",
+  "perf_ctry_name": "Korea, South",
+  "perf_ctry_flag": "0"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "731600",
+   "pgm_ele_name": "EAPSI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5942",
+   "pgm_ref_txt": "KOREA"
+  },
+  {
+   "pgm_ref_code": "5978",
+   "pgm_ref_txt": "EAST ASIA AND PACIFIC PROGRAM"
+  },
+  {
+   "pgm_ref_code": "7316",
+   "pgm_ref_txt": "EAPSI"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 5070.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span style=\"font-family: 'Liberation Serif', serif;\"> <span style=\"font-size: small;\">This project led to the development of a framework that enables a robotic system to learn what stable grasps look like.  This is required for a system to be able to pick up and manipulate common everyday items.  The framework has a training phase and runtime phase, so that it can learn to recognize stable grasps, and then use this knowledge to execute grasps in new environments.  In the training phase, a simulator is used to generate training grasps in situations where the full geometry of the object to be grasped is known.  In the runtime phase, the experience from the training phase is used to generate stable grasps in situations where the full geometry of the object to be interacted with is unknown, for example if it has only been viewed from a single point of view. </span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'Liberation Serif', serif;\"><span style=\"font-size: small;\"> During training, the system generates thousands of stable robotic grasps in simulation.   In simulation, the full geometry of the object to be grasped is known.  As the exact geometry of the object being manipulated is known, the true stability of a training grasp, or how well it will be able to resist external forces and torques without dropping the object is known.  The system then captures synthetic images of the fingertip and palm locations for each grasp in the simulation.  It uses these images paired with the known stability of these grasps to train a deep learning network. This training provides the system with an internal representation of what palm and fingertip locations for stable grasps looks like. </span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'Liberation Serif', serif;\"><span style=\"font-size: small;\"> After the model has been trained, it can then be used to find stable grasps in novel scenes where there is only incomplete information about the environment available.  The image of the scene is passed through the trained deep learning network, generating heatmaps showing stable fingertip and palm placement locations in the scene for different canonical grasp types.  A search can then be run over the hand configuration space to look for hand configurations where the palm and fingertips project into stable grasp positions as specified by the heatmaps.  This system works for multi-fingered robotic hands, which are more sophisticated than parallel jaw grippers.</span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'Liberation Serif', serif;\"><span style=\"font-size: small;\"> This system presents a novel architecture for transferring knowledge from a large number of grasps generated in simulation where everything about the environment was known to real world situations with incomplete sensor data.  This award has lead to the submission of a paper to the International Conference of Intelligent Robots and Systems (IROS) 2015. The paper is titled &ldquo;Generation of Multi-Fingered Robotic Grasps via Deep Learning&rdquo;.    It summarizes the work that was done during the EAPSI  program and the several months following. Also, it makes the work available to the robotics community at large.  In addition to the paper, all the source code developed by this project is available on Github, a commonly used code hosting website where source code for different projects can be downloaded or viewed for free by anyone.  I am hopeful that the code will be useful to other researchers interested in this area. </span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'Liberation Serif', serif;\"><span style=\"font-size: small;\"> This work has a broader impact on society outside of the robotics community.  <span style=\"color: #000000;\">Sensors have become cheaper and computers have become more powerful.  These cheaper sensors and more powerful computers have enabled robotic systems t...",
+  "por_txt_cntn": "\n This project led to the development of a framework that enables a robotic system to learn what stable grasps look like.  This is required for a system to be able to pick up and manipulate common everyday items.  The framework has a training phase and runtime phase, so that it can learn to recognize stable grasps, and then use this knowledge to execute grasps in new environments.  In the training phase, a simulator is used to generate training grasps in situations where the full geometry of the object to be grasped is known.  In the runtime phase, the experience from the training phase is used to generate stable grasps in situations where the full geometry of the object to be interacted with is unknown, for example if it has only been viewed from a single point of view. \n\n \n\n During training, the system generates thousands of stable robotic grasps in simulation.   In simulation, the full geometry of the object to be grasped is known.  As the exact geometry of the object being manipulated is known, the true stability of a training grasp, or how well it will be able to resist external forces and torques without dropping the object is known.  The system then captures synthetic images of the fingertip and palm locations for each grasp in the simulation.  It uses these images paired with the known stability of these grasps to train a deep learning network. This training provides the system with an internal representation of what palm and fingertip locations for stable grasps looks like. \n\n \n\n After the model has been trained, it can then be used to find stable grasps in novel scenes where there is only incomplete information about the environment available.  The image of the scene is passed through the trained deep learning network, generating heatmaps showing stable fingertip and palm placement locations in the scene for different canonical grasp types.  A search can then be run over the hand configuration space to look for hand configurations where the palm and fingertips project into stable grasp positions as specified by the heatmaps.  This system works for multi-fingered robotic hands, which are more sophisticated than parallel jaw grippers.\n\n \n\n This system presents a novel architecture for transferring knowledge from a large number of grasps generated in simulation where everything about the environment was known to real world situations with incomplete sensor data.  This award has lead to the submission of a paper to the International Conference of Intelligent Robots and Systems (IROS) 2015. The paper is titled \"Generation of Multi-Fingered Robotic Grasps via Deep Learning\".    It summarizes the work that was done during the EAPSI  program and the several months following. Also, it makes the work available to the robotics community at large.  In addition to the paper, all the source code developed by this project is available on Github, a commonly used code hosting website where source code for different projects can be downloaded or viewed for free by anyone.  I am hopeful that the code will be useful to other researchers interested in this area. \n\n \n\n This work has a broader impact on society outside of the robotics community.  Sensors have become cheaper and computers have become more powerful.  These cheaper sensors and more powerful computers have enabled robotic systems to take in more information about their environment and given them the processing power to interpret the sensor data.  It is still difficult to design systems that are able to make sense of the wealth of sensory data and effectively utilize the available computational power, as this project attempts too.  As the robotics community improves in this area, there will be more opportunities for the automation of dull and dangerous tasks in our society.\n\n \n\n\t\t\t\t\tLast Modified: 03/13/2015\n\n\t\t\t\t\tSubmitted by: Jacob J Varley"
+ }
+}

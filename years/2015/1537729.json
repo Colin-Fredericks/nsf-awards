@@ -1,0 +1,121 @@
+{
+ "awd_id": "1537729",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Robust Distributed Average Tracking for Networked Systems",
+ "cfda_num": "47.041",
+ "org_code": "07030000",
+ "po_phone": "7032925365",
+ "po_email": "jberg@nsf.gov",
+ "po_sign_block_name": "Jordan Berg",
+ "awd_eff_date": "2015-10-01",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 238829.0,
+ "awd_amount": 238829.0,
+ "awd_min_amd_letter_date": "2015-08-08",
+ "awd_max_amd_letter_date": "2015-08-08",
+ "awd_abstract_narration": "Many tasks performed by distributed dynamic systems can be thought of as occurring on a network of dynamic nodes interconnected by communication links. These tasks include sensing, estimation, control, and optimization by distributed mobile agents, such as vehicles. Implementation of these tasks often reduces to computation of the average, or weighted average, of some variable defined at each network node. Because communication across network links may be slow or expensive, it is important to spread the effort of computing this average across all the networked systems. This motivates the development of \"distributed algorithms\" that rely only on information from immediate neighbors, that is, from systems that can directly communicate with each other. While great progress has been made in distributed averaging algorithms, these rely on highly simplifying assumptions. This project will enable effective distributing averaging on a range of realistic systems, and experimentally validate the results on a network of robots. The result will apply to numerous open, physically relevant, problems.\r\n\r\nExisting distributed averaging methods rely primarily on linear local repeated averaging-type or consensus-type algorithms. These can only deal with prescribed cases, such as averaging initial conditions, or steady signals, or Laplace transformed quantities. Hence their applicability to practical applications is limited. The objective of this project is to derive a robust distributed average tracking framework based on novel nonsmooth nonlinear algorithms to enable distributed coordination of networked systems. The project will address robust distributed average tracking accounting for measurement and communication noise, different agents' varying partial observability and discrepant data quality, inherent physical dynamics, and optimization objectives. The results will fill in the gap in the distributed averaging paradigm to benefit many civilian, homeland security, and military applications involving networked systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CMMI",
+ "org_div_long_name": "Division of Civil, Mechanical, and Manufacturing Innovation",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wei",
+   "pi_last_name": "Ren",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wei Ren",
+   "pi_email_addr": "ren@ee.ucr.edu",
+   "nsf_id": "000601477",
+   "pi_start_date": "2015-08-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Riverside",
+  "inst_street_address": "200 UNIVERSTY OFC BUILDING",
+  "inst_street_address_2": "",
+  "inst_city_name": "RIVERSIDE",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "9518275535",
+  "inst_zip_code": "925210001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "39",
+  "st_cong_dist_code": "CA39",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MR5QC5FCAVH5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Riverside",
+  "perf_str_addr": "900 University Ave.",
+  "perf_city_name": "Riverside",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "925210001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "39",
+  "perf_st_cong_dist": "CA39",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "756900",
+   "pgm_ele_name": "Dynamics, Control and System D"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "030E",
+   "pgm_ref_txt": "CONTROL SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "031E",
+   "pgm_ref_txt": "MECHATRONICS"
+  },
+  {
+   "pgm_ref_code": "032E",
+   "pgm_ref_txt": "SENSORS AND ACTUATORS"
+  },
+  {
+   "pgm_ref_code": "033E",
+   "pgm_ref_txt": "Smart and responsive structures"
+  },
+  {
+   "pgm_ref_code": "034E",
+   "pgm_ref_txt": "Dynamical systems"
+  },
+  {
+   "pgm_ref_code": "8024",
+   "pgm_ref_txt": "Complex Systems"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 238829.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In many applications involving networked systems such as distributed sensing, estimation, control, and optimization, it is important to compute or estimate the (weighted) average of certain variables of interest often changing fast over time. To enable distributed coordination of networked systems, the average should be computed or estimated in a distributed manner with only local communication. Existing methods on distributed averaging primarily rely on linear local repeated averaging-type or consensus-type algorithms. They can only deal with very special cases, namely, distributed computation or estimation of the average of initial conditions, constant signals, signals with steady states, or signals with similar Laplace transforms, but not general time-varying signals as in practical applications. Hence their applicability to practical applications is rather limited. Distributed average tracking of multiple general time-varying signals via local communication poses significant challenges as the time-varying signals could be general external signals or generated by very different models. These challenges suggest that when designing distributed average tracking algorithms, the changing trend of the average be properly predicted with local information. Unfortunately, with smooth or continuous algorithms, the average that changes over time might not even be an equilibrium point of the closed-loop systems. The PI is hence motivated to design nonsmooth nonlinear algorithms to solve the distributed average tracking problem. The resulting closed-loop systems will be nonsmooth nonlinear dynamical systems.</p>\n<p>&nbsp;</p>\n<p>In this NSF funded research, a robust distributed average tracking framework is derived to enable distributed coordination of networked systems. The key outcomes include robust distributed average tracking for physical second-order agents with nonlinear dynamics, distributed estimation in multi-agent systems in presence of measurement and communication noise, distributed average tracking for double-integrator multi-agent systems with reduced requirement on velocity measurements, heterogeneous distributed average tracking using nonsmooth algorithms, distributed average tracking with optimization objectives, connection between dynamic region-following formation control and distributed average tracking, distributed average tracking of physical second-order agents with heterogeneous nonlinear dynamics without constraint on input signals, and distributed average tracking in directed unbalanced networks.</p>\n<p>&nbsp;</p>\n<p>In terms of intellectual merit, the project has addressed robust distributed average tracking in presence of measurement and communication noise, accounting for discrepant information, accounting for inherent physical dynamics, and accounting for optimization objectives as well as experimental validation on networked robotic vehicles. The project has filled in the gap in the distributed averaging paradigm and solved many open physically-relevant problems in distributed coordination of networked systems.</p>\n<p><br /> In terms of broader impacts, the research has impact on numerous civilian, homeland security, and military applications and on other fields related to networked systems. The project has educational activities including curriculum enrichment on networked systems and advising an undergraduate team participating in a yearly AUVSI SUAS competition as well as broad dissemination to the research community.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/16/2019<br>\n\t\t\t\t\tModified by: Wei&nbsp;Ren</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn many applications involving networked systems such as distributed sensing, estimation, control, and optimization, it is important to compute or estimate the (weighted) average of certain variables of interest often changing fast over time. To enable distributed coordination of networked systems, the average should be computed or estimated in a distributed manner with only local communication. Existing methods on distributed averaging primarily rely on linear local repeated averaging-type or consensus-type algorithms. They can only deal with very special cases, namely, distributed computation or estimation of the average of initial conditions, constant signals, signals with steady states, or signals with similar Laplace transforms, but not general time-varying signals as in practical applications. Hence their applicability to practical applications is rather limited. Distributed average tracking of multiple general time-varying signals via local communication poses significant challenges as the time-varying signals could be general external signals or generated by very different models. These challenges suggest that when designing distributed average tracking algorithms, the changing trend of the average be properly predicted with local information. Unfortunately, with smooth or continuous algorithms, the average that changes over time might not even be an equilibrium point of the closed-loop systems. The PI is hence motivated to design nonsmooth nonlinear algorithms to solve the distributed average tracking problem. The resulting closed-loop systems will be nonsmooth nonlinear dynamical systems.\n\n \n\nIn this NSF funded research, a robust distributed average tracking framework is derived to enable distributed coordination of networked systems. The key outcomes include robust distributed average tracking for physical second-order agents with nonlinear dynamics, distributed estimation in multi-agent systems in presence of measurement and communication noise, distributed average tracking for double-integrator multi-agent systems with reduced requirement on velocity measurements, heterogeneous distributed average tracking using nonsmooth algorithms, distributed average tracking with optimization objectives, connection between dynamic region-following formation control and distributed average tracking, distributed average tracking of physical second-order agents with heterogeneous nonlinear dynamics without constraint on input signals, and distributed average tracking in directed unbalanced networks.\n\n \n\nIn terms of intellectual merit, the project has addressed robust distributed average tracking in presence of measurement and communication noise, accounting for discrepant information, accounting for inherent physical dynamics, and accounting for optimization objectives as well as experimental validation on networked robotic vehicles. The project has filled in the gap in the distributed averaging paradigm and solved many open physically-relevant problems in distributed coordination of networked systems.\n\n\n In terms of broader impacts, the research has impact on numerous civilian, homeland security, and military applications and on other fields related to networked systems. The project has educational activities including curriculum enrichment on networked systems and advising an undergraduate team participating in a yearly AUVSI SUAS competition as well as broad dissemination to the research community.\n\n \n\n\t\t\t\t\tLast Modified: 09/16/2019\n\n\t\t\t\t\tSubmitted by: Wei Ren"
+ }
+}

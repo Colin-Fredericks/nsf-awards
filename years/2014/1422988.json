@@ -1,0 +1,117 @@
+{
+ "awd_id": "1422988",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF: Small: Status Updating Systems and Networks",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 476045.0,
+ "awd_amount": 476045.0,
+ "awd_min_amd_letter_date": "2014-08-05",
+ "awd_max_amd_letter_date": "2014-08-05",
+ "awd_abstract_narration": "Increasingly ubiquitous network connectivity has engendered applications in which sources send real-time updates of their status to interested recipients.  Examples include position, velocity and acceleration updates from nearby cars that facilitate safe maneuvers in an intelligent transportation system; forest temperature and humidity updates that can help better predict and control forest fires; and status reports gathered from the human body that enable timely detection of bodily ailments.  These applications need status updates to be as timely as possible despite limited network resources.  This project explores new timeliness metrics as a basis for the evaluation and design of status update systems.  \r\n\r\nStarting from a time-average status-age measure that applies to a broad class of systems, this project analyzes queue-theoretic system abstractions consisting of a source, service facility and monitor.  While initial conclusions have been based on queue-theoretic abstractions that are simpler than their real-world counterparts, the resulting insights are a useful starting point in understanding and designing systems that support real-time status updates.  On this basis, the project goals include the design and evaluation of (1) distributed resource sharing algorithms for simple networks of competing status updaters, (2) multiple access protocols for status-updating wireless sensors sharing a random access channel, and (3) stochastic approximation algorithms for online optimization of status update systems operating in networks. An improved understanding of the analytic fundamentals of status updating will contribute to the development and ultimate deployment of efficient and timely status updating systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Roy",
+   "pi_last_name": "Yates",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Roy D Yates",
+   "pi_email_addr": "ryates@winlab.rutgers.edu",
+   "nsf_id": "000194313",
+   "pi_start_date": "2014-08-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rutgers University New Brunswick",
+  "inst_street_address": "3 RUTGERS PLZ",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW BRUNSWICK",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "8489320150",
+  "inst_zip_code": "089018559",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "RUTGERS, THE STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "M1LVPE5GLSD9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "WINLAB, Rutgers University",
+  "perf_str_addr": "671 US 1",
+  "perf_city_name": "North Brunswick",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "089023390",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "171400",
+   "pgm_ele_name": "Special Projects - CNS"
+  },
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  },
+  {
+   "pgm_ele_code": "779700",
+   "pgm_ele_name": "Comm & Information Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7363",
+   "pgm_ref_txt": "RES IN NETWORKING TECH & SYS"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7935",
+   "pgm_ref_txt": "COMM & INFORMATION THEORY"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 476045.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Increasingly ubiquitous connectivity to communication networks and availability of portable devices have engendered applications in which sources - people and environmental sensors - send updates of their status to interested recipients. These applications need status updates at the recipients to be as timely as possible; however, this is typically constrained by limited network resources. In this project, timeliness was measured by the <em>Age of Information</em> (AoI) - how old is the freshest received update. This project explored AoI as a basis for the evaluation and design of status update systems. This project addressed three questions:</p>\n<p><strong>How should multiple updaters share network communication resources?</strong></p>\n<p>To address this question, this work compared service systems that simply queued all backlogged updates against systems that allowed preemption of either an update in service or an update in waiting. &nbsp;The performance of these systems was characterized in terms of the average ages of the updaters. This work introduced the stochastic hybrid systems (SHS) method, a systematic procedure for the analysis of age in systems with finite state.</p>\n<p><strong>How should streaming data in the form of updates be compressed without causing updates to become stale?&nbsp;</strong></p>\n<p>This question was examined using a system model in which source symbols are interpreted as status updates. However, because these source symbols must be delivered through a limited bit rate service facility, the timeliness of updates could be improved by compression of the source. This work introduced a model in which the data compression created variability in the delivery of source symbols, which in turn induces queueing delays at the service facility. In this setting, this work analyzed the achievable performance of lossless block coding algorithms. A variation on this model that adapts the codebook to match the size of the backlog was then shown to improve AoI performance.&nbsp;</p>\n<p><strong>How should a source send updates&nbsp;when the source is able to observe the state of the network?&nbsp;</strong></p>\n<p>Work in this area considered a system in which the source monitors the state of the updating process. This enables the source to use a \"just-in-time\" policy that submits a \"fresh\" update as soon as it sees that the service facility is ready to serve a new arrival; thus precluding the loss of timeliness induced by queueing. This work identified optimal submission policies when the source is constrained in the average rate of update submission. In a surprising result, it was shown that just-in-time policies can be suboptimal. An optimal policy is lazy and includes a waiting period if the prior update was delivered quickly.&nbsp;</p>\n<p>&nbsp;In addition to addressing these three primary questions, AoI was also applied to the evaluation of&nbsp;latency-sensitive networked applications, specifically, mobile cloud gaming and distributed storage.</p>\n<p>This led to a new model for mobile cloud gaming systems aimed at optimizing the timeliness of video frames based on the AoI metric. Mobile clients submit actions through an access network to a game server that generates video frames at a constant frame rate. At the mobile device, each displayed frame represents a game status update. We developed a model to characterize the frame delivery process and derived a simple formula for the average AoI in a tightly synchronized low-latency mobile gaming system in which the inter-frame period is a significant contributor to latency. We validated the model by simulation of a low-latency edge cloud gaming system. Our evaluation scenarios included single-player games as well as multi-player games in which the game processing was conducted by a combination of a centralized game server and edge-cloud renderers.</p>\n<p>We also used the AoI metric is used to examine a multicast network in which real-time status updates are sent to a group of replicated cloud servers. We showed that in order to keep the information fresh at each server, the source should terminate the transmission of the current update and start sending a new update packet as soon as the number of received acknowledgements reached a threshold. We derived the AoI-minimizing threshold that balances the likelihood of getting the latest update and the freshness of the latest update for shifted exponential link delay.&nbsp;</p>\n<p>This project promoted the professional development of PhD student Jing Zhong.&nbsp;&nbsp;Because of his work on this project, he had internship opportunities at Huawei and AT&amp;T in media content distribution networks.&nbsp;&nbsp;He completed his PhD in October 2019 and has joined Facebook as a research scientist. In addition, PhD student Mehrnaz Tavan, the primary student on the Mobile Cloud Gaming work, graduated in 2018 and is now employed as a data scientist at Ebay.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/16/2019<br>\n\t\t\t\t\tModified by: Roy&nbsp;D&nbsp;Yates</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIncreasingly ubiquitous connectivity to communication networks and availability of portable devices have engendered applications in which sources - people and environmental sensors - send updates of their status to interested recipients. These applications need status updates at the recipients to be as timely as possible; however, this is typically constrained by limited network resources. In this project, timeliness was measured by the Age of Information (AoI) - how old is the freshest received update. This project explored AoI as a basis for the evaluation and design of status update systems. This project addressed three questions:\n\nHow should multiple updaters share network communication resources?\n\nTo address this question, this work compared service systems that simply queued all backlogged updates against systems that allowed preemption of either an update in service or an update in waiting.  The performance of these systems was characterized in terms of the average ages of the updaters. This work introduced the stochastic hybrid systems (SHS) method, a systematic procedure for the analysis of age in systems with finite state.\n\nHow should streaming data in the form of updates be compressed without causing updates to become stale? \n\nThis question was examined using a system model in which source symbols are interpreted as status updates. However, because these source symbols must be delivered through a limited bit rate service facility, the timeliness of updates could be improved by compression of the source. This work introduced a model in which the data compression created variability in the delivery of source symbols, which in turn induces queueing delays at the service facility. In this setting, this work analyzed the achievable performance of lossless block coding algorithms. A variation on this model that adapts the codebook to match the size of the backlog was then shown to improve AoI performance. \n\nHow should a source send updates when the source is able to observe the state of the network? \n\nWork in this area considered a system in which the source monitors the state of the updating process. This enables the source to use a \"just-in-time\" policy that submits a \"fresh\" update as soon as it sees that the service facility is ready to serve a new arrival; thus precluding the loss of timeliness induced by queueing. This work identified optimal submission policies when the source is constrained in the average rate of update submission. In a surprising result, it was shown that just-in-time policies can be suboptimal. An optimal policy is lazy and includes a waiting period if the prior update was delivered quickly. \n\n In addition to addressing these three primary questions, AoI was also applied to the evaluation of latency-sensitive networked applications, specifically, mobile cloud gaming and distributed storage.\n\nThis led to a new model for mobile cloud gaming systems aimed at optimizing the timeliness of video frames based on the AoI metric. Mobile clients submit actions through an access network to a game server that generates video frames at a constant frame rate. At the mobile device, each displayed frame represents a game status update. We developed a model to characterize the frame delivery process and derived a simple formula for the average AoI in a tightly synchronized low-latency mobile gaming system in which the inter-frame period is a significant contributor to latency. We validated the model by simulation of a low-latency edge cloud gaming system. Our evaluation scenarios included single-player games as well as multi-player games in which the game processing was conducted by a combination of a centralized game server and edge-cloud renderers.\n\nWe also used the AoI metric is used to examine a multicast network in which real-time status updates are sent to a group of replicated cloud servers. We showed that in order to keep the information fresh at each server, the source should terminate the transmission of the current update and start sending a new update packet as soon as the number of received acknowledgements reached a threshold. We derived the AoI-minimizing threshold that balances the likelihood of getting the latest update and the freshness of the latest update for shifted exponential link delay. \n\nThis project promoted the professional development of PhD student Jing Zhong.  Because of his work on this project, he had internship opportunities at Huawei and AT&amp;T in media content distribution networks.  He completed his PhD in October 2019 and has joined Facebook as a research scientist. In addition, PhD student Mehrnaz Tavan, the primary student on the Mobile Cloud Gaming work, graduated in 2018 and is now employed as a data scientist at Ebay. \n\n \n\n\t\t\t\t\tLast Modified: 10/16/2019\n\n\t\t\t\t\tSubmitted by: Roy D Yates"
+ }
+}

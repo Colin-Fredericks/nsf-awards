@@ -1,0 +1,101 @@
+{
+ "awd_id": "1320005",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: A Node OS for High-Performance Cloud Computing",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 498299.0,
+ "awd_amount": 498299.0,
+ "awd_min_amd_letter_date": "2013-08-26",
+ "awd_max_amd_letter_date": "2013-08-26",
+ "awd_abstract_narration": "This project encompasses design, implementation, and experimental evaluation of an operating system (OS) targeted specifically for compute nodes in \"cloud\" data centers.  Cloud computing offers a chance to rethink OS design, as the goal is not a desktop system but rather an efficient building block for large clusters that support networked applications. The proposed OS acts as a \"dumb\" node in a cluster, taking commands from an external cluster manager and handing out resources to applications as appropriate. This, plus the use of relatively few devices and no graphical user interface, means it need only support a small fraction of traditional OS features. Instead the focus is on high performance with many cores, performance isolation, remote control, and tiers of service. \r\n\r\nThe operating system mechanisms explored in this project have potential to improve data center efficiency, both by improving single-node efficiency, and by making it easier to leverage underutilized nodes for batch processing and large-scale data analysis without hindering latency-sensitive applications. For greater impact, the project will release the source code of the developed OS as free, open-source software. An earlier version of the operating system that focused on enabling many-core parallelism has already been released. The new OS has potential uses for education as well for exploring higher-level cluster OS ideas. In addition, the principal investigator will leverage Berkeley's SUPERB program to bring in underrepresented undergraduate students for an 8-week summer research experience.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Eric",
+   "pi_last_name": "Brewer",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Eric A Brewer",
+   "pi_email_addr": "brewer@berkeley.edu",
+   "nsf_id": "000452332",
+   "pi_start_date": "2013-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947045940",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 498299.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Traditionally, operating systems were designed around chips that had relatively few cores, and the primary job was to multiplex processes onto these few cores.&nbsp; Modern chips can have more than 100 cores and thus there is an opportunity for a new style of operating system (OS) that can expose these cores more directly and enable true parallelism by space-partitioning the cores in addition to the traditional approach of time slicing them.</p>\n<p>We developed a new open-source OS called Akaros that implements this approach and we were able to release several versions and demonstrate the benefits of focusing on cores in this way.</p>\n<p>One big advantage is that thread scheduling can be easily optimized for each application: it can time-slice its cores however it likes and independent from other application running on nearby cores.</p>\n<p>A second advantage is that this approach enables lightweight virtual machines.&nbsp; A space-partitioned set of cores can be thought of a as a \"virtual multiprocessor\" since that set is fully dedicated to the VM and exhibits true parallelism, which also using all of the support for virtualization built into modern instruction sets.</p>\n<p>Although the new OS is a research prototype, it can run real applications and we were ablt to demonstrate both performance benefits and the value of lightweight VMs.&nbsp; &nbsp;We were also able to release a 64-bit OS after starting with a 32-bit version.</p>\n<p>The details and source code are availagle at:&nbsp;https://akaros.org</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/19/2021<br>\n\t\t\t\t\tModified by: Eric&nbsp;A&nbsp;Brewer</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nTraditionally, operating systems were designed around chips that had relatively few cores, and the primary job was to multiplex processes onto these few cores.  Modern chips can have more than 100 cores and thus there is an opportunity for a new style of operating system (OS) that can expose these cores more directly and enable true parallelism by space-partitioning the cores in addition to the traditional approach of time slicing them.\n\nWe developed a new open-source OS called Akaros that implements this approach and we were able to release several versions and demonstrate the benefits of focusing on cores in this way.\n\nOne big advantage is that thread scheduling can be easily optimized for each application: it can time-slice its cores however it likes and independent from other application running on nearby cores.\n\nA second advantage is that this approach enables lightweight virtual machines.  A space-partitioned set of cores can be thought of a as a \"virtual multiprocessor\" since that set is fully dedicated to the VM and exhibits true parallelism, which also using all of the support for virtualization built into modern instruction sets.\n\nAlthough the new OS is a research prototype, it can run real applications and we were ablt to demonstrate both performance benefits and the value of lightweight VMs.   We were also able to release a 64-bit OS after starting with a 32-bit version.\n\nThe details and source code are availagle at: https://akaros.org\n\n\t\t\t\t\tLast Modified: 04/19/2021\n\n\t\t\t\t\tSubmitted by: Eric A Brewer"
+ }
+}

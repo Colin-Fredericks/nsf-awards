@@ -1,0 +1,105 @@
+{
+ "awd_id": "1347208",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Viewpoint Tracking via Acceleration Stabilized with Computer Vision",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Ephraim Glinert",
+ "awd_eff_date": "2013-08-15",
+ "awd_exp_date": "2014-07-31",
+ "tot_intn_awd_amt": 75000.0,
+ "awd_amount": 75000.0,
+ "awd_min_amd_letter_date": "2013-08-06",
+ "awd_max_amd_letter_date": "2013-08-06",
+ "awd_abstract_narration": "This project addresses a problem which has kept virtual reality from widespread use. Some 15 years ago high-capability graphics cards in PCs reduced the cost of computing for virtual environments from hundreds-of-thousands of dollars to (today) hundreds of dollars. Low-cost head-mounted displays have just appeared. The similar advance in viewpoint tracking has not occurred; accurate, low-latency wide-area viewpoint tracking remains very costly. Virtual reality demands stereo 60 frames per second per eye and system latencies below 50 ms. This research is developing a novel system to provide accurate, low-latency viewpoint tracking to meet these requirements with consumer-cost components. The research is based upon a recently demonstrated proof-of-concept system. A standard RGB-Depth camera sits on the user's head. Pose is calculated by matching images against an environment model. A Kalman filter integrates rotational velocity and linear acceleration from a cheap high-speed inertial measurement unit (IMU) to update the pose estimate many times between frames. This not only gives low-latency pose readings, it also improves initial values for the next camera calculation. The depth images and reconstruction software are concurrently used to incrementally build/update the depth model of the environment for the camera matching. \r\n\r\nThe current research is demonstrating the system's potential. To work completely successfully, both conceptual and algorithmic advances are in process. IMU calibrations are being improved. Temperature and dynamic bias must be compensated in the calibration to improve stimation and reduce jitter. Using multiple cameras to reduce overall noise and handle difficult cases (such as blank walls) are being addressed with new algorithms and evaluated. The merging of new and modeled data is computationally expensive. The feasibility demo uses two GPUs, one for rendering; one for tracking. Ways are being invented to do it on one.  Additional future research includes tracking dynamic objects and incorporating object recognition (e.g., such as a desk or chairs) to improve estimates. Widespread access to virtual reality may well open new, unexpected creative uses of the technology. The research is inventing the proof-of-concept system forward to one that can make this exciting leap.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Frederick",
+   "pi_last_name": "Brooks, Jr",
+   "pi_mid_init": "P",
+   "pi_sufx_name": "Jr.",
+   "pi_full_name": "Frederick P Brooks, Jr",
+   "pi_email_addr": "brooks@cs.unc.edu",
+   "nsf_id": "000254881",
+   "pi_start_date": "2013-08-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of North Carolina at Chapel Hill",
+  "inst_street_address": "104 AIRPORT DR STE 2200",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHAPEL HILL",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9199663411",
+  "inst_zip_code": "275995023",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "NC04",
+  "org_lgl_bus_name": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL",
+  "org_prnt_uei_num": "D3LHU66KBLD5",
+  "org_uei_num": "D3LHU66KBLD5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of North Carolina at Chapel Hill",
+  "perf_str_addr": "201 S Columbia St",
+  "perf_city_name": "Chapel Hill",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "275993175",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "NC04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "745300",
+   "pgm_ele_name": "GRAPHICS & VISUALIZATION"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7453",
+   "pgm_ref_txt": "GRAPHICS & VISUALIZATION"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 75000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Immersive virtual reality was proposed by Ivan Sutherland in 1965, and a prototype demonstrated by him in 1968. &nbsp;Over the years, there's been lots of hype, &nbsp;lots of progress, and substantial corporate and military use. &nbsp;Until recently VR systems have been too costly to get much public use.</p>\n<p>Three things are required for a head-mounted immersive VR system: &nbsp;a binocular head-mounted visual and audio display system, a graphic computer capable of generating complex images at ~30 frames a second with end-to-end system latency of ~50 msec, and a fast system for tracking the position and pose of the two eyes. &nbsp;New head-mounted display systems such as the Oculus Rift have brought high performance and consumer prices. &nbsp;Graphics add-on cards for personal computers have brought fast performance and consumer prices for &nbsp;computational image generation.</p>\n<p>There has not heretofore been a consumer-price-level solution to the eye and limb tracking problem. &nbsp;This research investigated a two-part solution which used consumer-priced accelerometers and gyroscopes to measure linear and angular accelerations and velocities. &nbsp;These enable dead-reckoning navigation, such as that used to navigate the <em>U.S.S Nautilus </em>under the polar ice to the North Pole. &nbsp;</p>\n<p>Such navigation is subject to cumulative drift. &nbsp;For a system using consumer-grade sensors, this is a serious problem. &nbsp;This research undertook to harness computer-vision techniques to generate, over hundreds of milliseconds, high accuracy key frames which would provide benchmarks for the correction of drift.</p>\n<p>A key concept was that the system would as it ran bootstrap up the model of the visible surround from which the key frames would be generated.</p>\n<p>A running prototype of such a system, without model bootstrapping, was built and a conference paper published. &nbsp;The student doing this work for his Ph.D. thesis decided to join a company interested in doing very similar work. &nbsp;He therefore took his M.S. degree and joined the company full time, thus terminating this grant work.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/19/2014<br>\n\t\t\t\t\tModified by: Frederick&nbsp;P&nbsp;Brooks, Jr</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nImmersive virtual reality was proposed by Ivan Sutherland in 1965, and a prototype demonstrated by him in 1968.  Over the years, there's been lots of hype,  lots of progress, and substantial corporate and military use.  Until recently VR systems have been too costly to get much public use.\n\nThree things are required for a head-mounted immersive VR system:  a binocular head-mounted visual and audio display system, a graphic computer capable of generating complex images at ~30 frames a second with end-to-end system latency of ~50 msec, and a fast system for tracking the position and pose of the two eyes.  New head-mounted display systems such as the Oculus Rift have brought high performance and consumer prices.  Graphics add-on cards for personal computers have brought fast performance and consumer prices for  computational image generation.\n\nThere has not heretofore been a consumer-price-level solution to the eye and limb tracking problem.  This research investigated a two-part solution which used consumer-priced accelerometers and gyroscopes to measure linear and angular accelerations and velocities.  These enable dead-reckoning navigation, such as that used to navigate the U.S.S Nautilus under the polar ice to the North Pole.  \n\nSuch navigation is subject to cumulative drift.  For a system using consumer-grade sensors, this is a serious problem.  This research undertook to harness computer-vision techniques to generate, over hundreds of milliseconds, high accuracy key frames which would provide benchmarks for the correction of drift.\n\nA key concept was that the system would as it ran bootstrap up the model of the visible surround from which the key frames would be generated.\n\nA running prototype of such a system, without model bootstrapping, was built and a conference paper published.  The student doing this work for his Ph.D. thesis decided to join a company interested in doing very similar work.  He therefore took his M.S. degree and joined the company full time, thus terminating this grant work.\n\n\t\t\t\t\tLast Modified: 11/19/2014\n\n\t\t\t\t\tSubmitted by: Frederick P Brooks, Jr"
+ }
+}

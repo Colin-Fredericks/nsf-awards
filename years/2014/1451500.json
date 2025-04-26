@@ -1,0 +1,105 @@
+{
+ "awd_id": "1451500",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: New Optimization Methods for Machine Learning",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Weng-keen Wong",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2018-05-31",
+ "tot_intn_awd_amt": 100000.0,
+ "awd_amount": 100000.0,
+ "awd_min_amd_letter_date": "2014-08-22",
+ "awd_max_amd_letter_date": "2017-08-29",
+ "awd_abstract_narration": "This proposal explores the optimization of complicated nonlinear equations that underlie machine learning problems by reducing them to simpler easy-to-solve update rules. The learning problems include classification, regression, unsupervised learning and more. Through a method known as majorization, complicated optimization problems are handled by iteratively solving simpler problems like least-squares and traditional linear algebra operations. The proposal focuses on how to parallelize this method so that it can efficiently leverage many CPUs/GPUs simultaneously and in a distributed manner. Furthermore, by making the method stochastic, faster convergence on large or streaming data-sets becomes possible. Other variations are explored such as sparse learning where the recovered solution is forced to be compact which also leads to further efficiency.  \r\n\r\nIncreasingly, the vast majority of machine learning problems in the literature are optimized by using generic first- and second-order methods.  The approach in this proposal is designed specifically for machine learning optimization problems and uses majorization and bounding to guarantee monotonic convergence.  In preliminary work, majorization has produced faster convergence in practice as well as novel theoretical guarantees. To make the method truly viable in practice, this proposal puts forward distributed, parallel, stochastic and sparse extensions. Since such extensions may violate monotonic convergence guarantees, the proposal explores additional algorithmic and theoretical efforts to preserve guarantees while also obtaining fast algorithms. In particular, parallelization and distributed computation is performed by wrapping current state-of-the-art least squares solvers with bound majorization steps. Stochastic computation is explored using singleton, small-batch and variable-sized batch methods. Sparsity is achieved by iterating current large-scale sparse solvers like FISTA and QUIC within the bound majorization technique.  In terms of broader impact, one graduate student will be supported and will help produce downloadable tools for machine learning experts as well as practitioners.  Modules will be developed to add to the PI's existing courses in machine learning. The PI will organize a one-day workshop on majorization methods.  The proposal also provides a public project website with access to research publications, software/data downloads and schedules of upcoming events.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Tony",
+   "pi_last_name": "Jebara",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tony Jebara",
+   "pi_email_addr": "jebara@cs.columbia.edu",
+   "nsf_id": "000093679",
+   "pi_start_date": "2014-08-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Columbia University",
+  "inst_street_address": "615 W 131ST ST",
+  "inst_street_address_2": "MC 8741",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2128546851",
+  "inst_zip_code": "100277922",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "NY13",
+  "org_lgl_bus_name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F4N1QNPB95M4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Columbia University",
+  "perf_str_addr": "2960 Broadway",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100276902",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "NY13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In most machine learning systems, parameter optimization is needed to learn models from training data. The learning process is frequently accomplished via gradient descent: tweaking the parameters of the model by sliding downhill on a given cost surface. This project considered alternative approaches called majorization and variational methods.<br /><br />Through majorization, we replace the optimization at hand with a sequence of simpler problems (such as quadratic or linear sub-problems) which admit analytic solutions. This sequence of simpler problems makes guaranteed progress on the original cost function that we wanted to minimize. We applied majorization to logistic regression and more general probabilistic models by reducing the learning problem to a sequence of quadratic optimizations. This ultimately gave better models more quickly than classical gradient descent. We were also able to extend this concept to intractable probabilistic models (e.g. dense networks of variables) through a related technique called Frank-Wolfe.<br /><br />Applications of these methods included learning probabilistic graphical models that describe networks of interconnected variables such as financial variables and stocks or networks of interacting neurons (given neuronal recordings from in vivo mice). We were able to recover such networks from data and migrated them towards applications in finance and neuroscience.<br /><br />We also explored stochastic and parallel extensions of majorization methods where the training data is only available in an online/streaming setting or is distributed in files across several machines. Finally, we developed majorization for saddle-point optimization where we need to minimize cost over some variables while maximizing profit over other variables. This resulted in a novel extension of the Frank-Wolfe method to saddle-point minimax optimization. We demonstrated this approach on real data problems and provided new theoretical results to prove the convergence of Saddle-Point Frank-Wolfe.<br /><br />&nbsp;<br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/28/2018<br>\n\t\t\t\t\tModified by: Tony&nbsp;Jebara</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn most machine learning systems, parameter optimization is needed to learn models from training data. The learning process is frequently accomplished via gradient descent: tweaking the parameters of the model by sliding downhill on a given cost surface. This project considered alternative approaches called majorization and variational methods.\n\nThrough majorization, we replace the optimization at hand with a sequence of simpler problems (such as quadratic or linear sub-problems) which admit analytic solutions. This sequence of simpler problems makes guaranteed progress on the original cost function that we wanted to minimize. We applied majorization to logistic regression and more general probabilistic models by reducing the learning problem to a sequence of quadratic optimizations. This ultimately gave better models more quickly than classical gradient descent. We were also able to extend this concept to intractable probabilistic models (e.g. dense networks of variables) through a related technique called Frank-Wolfe.\n\nApplications of these methods included learning probabilistic graphical models that describe networks of interconnected variables such as financial variables and stocks or networks of interacting neurons (given neuronal recordings from in vivo mice). We were able to recover such networks from data and migrated them towards applications in finance and neuroscience.\n\nWe also explored stochastic and parallel extensions of majorization methods where the training data is only available in an online/streaming setting or is distributed in files across several machines. Finally, we developed majorization for saddle-point optimization where we need to minimize cost over some variables while maximizing profit over other variables. This resulted in a novel extension of the Frank-Wolfe method to saddle-point minimax optimization. We demonstrated this approach on real data problems and provided new theoretical results to prove the convergence of Saddle-Point Frank-Wolfe.\n\n \n\n\n\t\t\t\t\tLast Modified: 07/28/2018\n\n\t\t\t\t\tSubmitted by: Tony Jebara"
+ }
+}

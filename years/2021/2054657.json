@@ -1,0 +1,109 @@
+{
+ "awd_id": "2054657",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SaTC: Securing Containers in Multi-Tenant Environment via Augmenting Linux Control Groups",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922594",
+ "po_email": "kkaravan@nsf.gov",
+ "po_sign_block_name": "Karen Karavanic",
+ "awd_eff_date": "2020-08-16",
+ "awd_exp_date": "2024-05-31",
+ "tot_intn_awd_amt": 152097.0,
+ "awd_amount": 152097.0,
+ "awd_min_amd_letter_date": "2020-10-27",
+ "awd_max_amd_letter_date": "2020-10-27",
+ "awd_abstract_narration": "Container technology provides a lightweight operating system level virtual hosting environment. It has been broadly adopted in various computation scenarios, including edge computing, serverless computing, and commercial clouds. Containers depend on multiple building blocks in the Linux kernel for resource isolation and control. Particularly, Linux Control Groups (i.e., cgroups) are leveraged to apply resource limits and account for resource usage for containers. However, those features in the Linux kernel may not provide the same level of security guarantees as conventional virtual machines. For example, breaking the resource control of cgroups would not only cause unfair resource sharing among multiple container instances, but also significantly reduce containers\u2019 performance. This project intends to secure containers by systematically investigating security implications in cgroups and developing new defending systems to mitigate potential security threats in multi-tenant container environments. The research is expected to identify and address new security challenges in containers, and thus benefit both container service providers and customers. Educational and outreach activities include curriculum development in systems programming and cloud security, and research experience opportunities for women and minority students as well as for high school students.   \r\n\r\nThe project would systematically explore methods to break the resource rein of the existing cgroups mechanism, and comprehensively understand the security impacts on Linux containers. It develops a set of exploiting strategies to generate out-of-band workloads to escape cgroups. Novel kernel code analysis techniques are developed that use a combination of data flow, control flow and program dependency graphs to automatically uncover feasible exploitation cases available inside unprivileged containers with a set of cgroup resource controllers enabled. All potential exploits are quantitatively evaluated on multiple testbeds in realistic container environments under various attack scenarios. Specifically, a variety of real-world workloads are evaluated to understand the impact and severity of vulnerabilities. With better knowledge of the inadequacies in existing cgroup mechanism and related exploitations, the project develops lightweight defense mechanisms to secure containers and mitigate potential security threats. The proposed system is evaluated in terms of multiple aspects including performance and security.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Xing",
+   "pi_last_name": "Gao",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Xing Gao",
+   "pi_email_addr": "xgao@udel.edu",
+   "nsf_id": "000784502",
+   "pi_start_date": "2020-10-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Delaware",
+  "inst_street_address": "550 S COLLEGE AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEWARK",
+  "inst_state_code": "DE",
+  "inst_state_name": "Delaware",
+  "inst_phone_num": "3028312136",
+  "inst_zip_code": "197131324",
+  "inst_country_name": "United States",
+  "cong_dist_code": "00",
+  "st_cong_dist_code": "DE00",
+  "org_lgl_bus_name": "UNIVERSITY OF DELAWARE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "T72NHKM259N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Delaware",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "DE",
+  "perf_st_name": "Delaware",
+  "perf_zip_code": "197160099",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "00",
+  "perf_st_cong_dist": "DE00",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0120",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 152097.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-9397f221-7fff-ae6e-9f2c-b131014bfb8d\"> </span></p>\n<p dir=\"ltr\"><span>Container technology has gained significant popularity and importance across various domains including cloud computing and software development. Ensuring the security of containers is crucial, as they should provide robust isolation and protection, particularly in multi-tenant environments where multiple users share the same physical infrastructure. This project investigates security issues in Linux containers such as Docker, and aims to develop lightweight systems that enhance container security.</span></p>\n<p dir=\"ltr\"><span>In this project, we have designed, developed, and open-sourced several tools to identify and mitigate potential security issues in Linux containers. Specifically, we have created a fuzzing tool for Linux containers to automatically detect out-of-band workloads that can escape resource control. This tool generates containerized workloads and mutates sequences of system calls to breach isolation boundaries, combining traditional code coverage feedback with resource utilization measurements. The tool also supports parallel execution and is compatible with multiple container runtimes, including both native and sandboxed environments. It has successfully identified several previously unknown vulnerabilities. Additionally, we have researched potential security issues in container registries -- platforms that allow developers to publish, maintain, and manage container images. Our empirical studies on both public and private container registries have focused on the issue of typosquatting, where users inadvertently download malicious container images due to typographical errors. We have developed a lightweight tool that can be integrated into Docker CLI to mitigate the potential issues.</span></p>\n<p dir=\"ltr\"><span>We have investigated container-related security issues in various scenarios such as cloud and serverless computing. For instance, we have developed a secured container sharing system designed to enhance serverless computing performance. By incorporating multiple practical optimizations from modern caching and leveraging deep learning techniques, this system supports secure function instance sharing among different tenants while reducing container cold starts. Trace-driven experiments with serverless computing benchmarks across multiple scenarios demonstrate the system's substantial performance improvements. Furthermore, we have researched the improper use of containers and their potential security issues in the software development process, where containers are commonly used as sandboxes. Improper usage can lead to serious problems, such as privilege escalation or sensitive data leakage. To address this, we developed tools to identify security issues across various continuous integration platforms and disclosed several vulnerabilities. Moreover, we have also investigated new side-channel attacks in computer systems within multi-tenant cloud environments.</span></p>\n<p dir=\"ltr\"><span>Finally, this project has created new educational opportunities, supporting multiple Ph.D. and undergraduate students. Portions of the project have been incorporated into the curriculum at the University of Delaware. Specifically, the PI has developed hands-on labs to offer practical experience with Linux containers and their associated security issues. Additionally, the PI has given public lectures to engage a broader audience in cybersecurity research.</span></p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 08/06/2024<br>\nModified by: Xing&nbsp;Gao</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\n \n\n\nContainer technology has gained significant popularity and importance across various domains including cloud computing and software development. Ensuring the security of containers is crucial, as they should provide robust isolation and protection, particularly in multi-tenant environments where multiple users share the same physical infrastructure. This project investigates security issues in Linux containers such as Docker, and aims to develop lightweight systems that enhance container security.\n\n\nIn this project, we have designed, developed, and open-sourced several tools to identify and mitigate potential security issues in Linux containers. Specifically, we have created a fuzzing tool for Linux containers to automatically detect out-of-band workloads that can escape resource control. This tool generates containerized workloads and mutates sequences of system calls to breach isolation boundaries, combining traditional code coverage feedback with resource utilization measurements. The tool also supports parallel execution and is compatible with multiple container runtimes, including both native and sandboxed environments. It has successfully identified several previously unknown vulnerabilities. Additionally, we have researched potential security issues in container registries -- platforms that allow developers to publish, maintain, and manage container images. Our empirical studies on both public and private container registries have focused on the issue of typosquatting, where users inadvertently download malicious container images due to typographical errors. We have developed a lightweight tool that can be integrated into Docker CLI to mitigate the potential issues.\n\n\nWe have investigated container-related security issues in various scenarios such as cloud and serverless computing. For instance, we have developed a secured container sharing system designed to enhance serverless computing performance. By incorporating multiple practical optimizations from modern caching and leveraging deep learning techniques, this system supports secure function instance sharing among different tenants while reducing container cold starts. Trace-driven experiments with serverless computing benchmarks across multiple scenarios demonstrate the system's substantial performance improvements. Furthermore, we have researched the improper use of containers and their potential security issues in the software development process, where containers are commonly used as sandboxes. Improper usage can lead to serious problems, such as privilege escalation or sensitive data leakage. To address this, we developed tools to identify security issues across various continuous integration platforms and disclosed several vulnerabilities. Moreover, we have also investigated new side-channel attacks in computer systems within multi-tenant cloud environments.\n\n\nFinally, this project has created new educational opportunities, supporting multiple Ph.D. and undergraduate students. Portions of the project have been incorporated into the curriculum at the University of Delaware. Specifically, the PI has developed hands-on labs to offer practical experience with Linux containers and their associated security issues. Additionally, the PI has given public lectures to engage a broader audience in cybersecurity research.\n\n\n\t\t\t\t\tLast Modified: 08/06/2024\n\n\t\t\t\t\tSubmitted by: XingGao\n"
+ }
+}

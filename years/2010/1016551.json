@@ -1,0 +1,105 @@
+{
+ "awd_id": "1016551",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF: Small: DEDI: A New Framework for the Practice of Wireless Network Coding",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2010-09-15",
+ "awd_exp_date": "2014-08-31",
+ "tot_intn_awd_amt": 426108.0,
+ "awd_amount": 426108.0,
+ "awd_min_amd_letter_date": "2010-09-09",
+ "awd_max_amd_letter_date": "2010-09-09",
+ "awd_abstract_narration": "Network coding is touted as the foundation on which several applications related to the robust operation of both wired and wireless networks can be built. This promising technique has been missing a simple framework that can allow explaining its evolution in an arbitrary wireless network. Given an arbitrary wireless network and a network coding strategy, a question that remains to be answered is how the rank or state of the nodes in the network evolves over time. Further, if there are changes in the underlying wireless network either through changes in the PHY layer, MAC layer or due to other factors such as mobility or traffic, how does this impact the evolution of network coding over this arbitrary network? This research involves answering such questions that are of paramount importance for network practitioners. \r\n\r\nA systematic framework called DEDI, that is based on differential equations (DE) and differential inclusions (DI) which is a generalization of DEs with discontinuous right-hand sides, is developed to study the dynamics of network coding. Using both analytical methods and numerical software for solving differential equations and inclusions, the DEDI framework is used as a tool for the crosslayer design and analysis of network coding. Numerical DE and DI solvers are used to develop an open source software utility that allows analytical insights without having to resort to time consuming simulations, there by aiding the design of practical network coding. The use of DEs and DIs along with associated numerical software also offers an educational opportunity to involve both graduate students and undergraduate students by developing simple yet illustrative modules for studying the evolution of network coding.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Narayan",
+   "pi_last_name": "Mandayam",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Narayan Mandayam",
+   "pi_email_addr": "narayan@winlab.rutgers.edu",
+   "nsf_id": "000492962",
+   "pi_start_date": "2010-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rutgers University New Brunswick",
+  "inst_street_address": "3 RUTGERS PLZ",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW BRUNSWICK",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "8489320150",
+  "inst_zip_code": "089018559",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "RUTGERS, THE STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "M1LVPE5GLSD9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rutgers University New Brunswick",
+  "perf_str_addr": "3 RUTGERS PLZ",
+  "perf_city_name": "NEW BRUNSWICK",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "089018559",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "793700",
+   "pgm_ele_name": "NETWORK CODING AND INFO THEORY"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 426108.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Network coding allows coding operations on the network level, making design choices for transporting information across a network more flexible than traditional store-and-forward routing. Not only does random network coding (RNC) achieve a provable higher throughput, it also finds applications in areas where store-and-forward often fails and in areas beyond information delivery.&nbsp;The most important quantity to keep track of in RNC is the number of linearly independent coding coefficient vectors, also called the&nbsp;<em>rank</em>, that a node has received over time.&nbsp;In this project, we have identified a new analytic tool based on differential equations and differential inclusions (called DEDI) for studying the dynamics of RNC. By invoking the fluid approximation, the random rank processes can be appropriately simplified into deterministic functions of time, which are shown to intertwine in the form of a system differential equations.&nbsp;</p>\n<p>Our study has progressed in three &nbsp;directions: (1) First, we established the theoretical foundation of the DEDI approach by showing that the actual random processes indeed converge to the differential equations solutions when the number of source packets becomes sufficiently large that justifies the fluid approximation.&nbsp;The big picture view of the above findings is that it allows the use of numerical differential equation solvers and software packages to elegantly study and design random network coding in arbitrary networks. This clearly is an essential step in allowing network practitioners to incorporate network coding techniques in both wired and wireless networks. (2)&nbsp;Second, we have explored the uses of the system of differential equations in cross-layer optimization in wireless networking with some powerful demonstrations of such benefits in the context of both power control and medium access control (MAC) layer design. We have formalized the underlying theory, as well as identified a general optimization architecture where by several practical problems related to cross-layer design can be addressed.&nbsp;The big picture view of the above findings is that it allows the use of numerical differential equation solvers and software packages along with optimization tools to elegantly study and design cross-layer protocols at the physical (PHY) and MAC layer to improve random network coding performance in arbitrary heterogeneous networks. This clearly is an essential step in allowing network practitioners to incorporate resource allocation mechanisms in conjunction with network coding techniques in wireless networks. (3) &nbsp;Finally, with a view to emerging wireless network architecture and future wireless systems, as well as future internet architectures, we have studied the applicability of network coding in a heterogeneous network with multiplatform radios.&nbsp;The explosive demand for data has called for solution approaches that range from spectrally agile cognitive radios with novel spectrum sharing, to use of higher frequency spectrum as well as smaller and denser cell deployments with diverse access technologies, referred to as heterogeneous networks (HetNets). Simultaneously, advances in electronics and storage, has led to the advent of wireless devices equipped with multiple radio interfaces (e.g. WiFi, WiMAX, LTE, etc.) and the ability to store and efficiently process large amounts of data. Motivated by the convergence of HetNets and multi-platform radios, we proposed HetNetwork Coding as a means to utilize the available radio interfaces in parallel along with network coding to increase wireless data throughput. Specifically we explored the use of random linear network coding at the network layer where packets can travel through multiple interfaces and be received via multihoming. Using both simulations and experimentation with real hardware on WiFi and WiMAX platforms, we studied the s...",
+  "por_txt_cntn": "\nNetwork coding allows coding operations on the network level, making design choices for transporting information across a network more flexible than traditional store-and-forward routing. Not only does random network coding (RNC) achieve a provable higher throughput, it also finds applications in areas where store-and-forward often fails and in areas beyond information delivery. The most important quantity to keep track of in RNC is the number of linearly independent coding coefficient vectors, also called the rank, that a node has received over time. In this project, we have identified a new analytic tool based on differential equations and differential inclusions (called DEDI) for studying the dynamics of RNC. By invoking the fluid approximation, the random rank processes can be appropriately simplified into deterministic functions of time, which are shown to intertwine in the form of a system differential equations. \n\nOur study has progressed in three  directions: (1) First, we established the theoretical foundation of the DEDI approach by showing that the actual random processes indeed converge to the differential equations solutions when the number of source packets becomes sufficiently large that justifies the fluid approximation. The big picture view of the above findings is that it allows the use of numerical differential equation solvers and software packages to elegantly study and design random network coding in arbitrary networks. This clearly is an essential step in allowing network practitioners to incorporate network coding techniques in both wired and wireless networks. (2) Second, we have explored the uses of the system of differential equations in cross-layer optimization in wireless networking with some powerful demonstrations of such benefits in the context of both power control and medium access control (MAC) layer design. We have formalized the underlying theory, as well as identified a general optimization architecture where by several practical problems related to cross-layer design can be addressed. The big picture view of the above findings is that it allows the use of numerical differential equation solvers and software packages along with optimization tools to elegantly study and design cross-layer protocols at the physical (PHY) and MAC layer to improve random network coding performance in arbitrary heterogeneous networks. This clearly is an essential step in allowing network practitioners to incorporate resource allocation mechanisms in conjunction with network coding techniques in wireless networks. (3)  Finally, with a view to emerging wireless network architecture and future wireless systems, as well as future internet architectures, we have studied the applicability of network coding in a heterogeneous network with multiplatform radios. The explosive demand for data has called for solution approaches that range from spectrally agile cognitive radios with novel spectrum sharing, to use of higher frequency spectrum as well as smaller and denser cell deployments with diverse access technologies, referred to as heterogeneous networks (HetNets). Simultaneously, advances in electronics and storage, has led to the advent of wireless devices equipped with multiple radio interfaces (e.g. WiFi, WiMAX, LTE, etc.) and the ability to store and efficiently process large amounts of data. Motivated by the convergence of HetNets and multi-platform radios, we proposed HetNetwork Coding as a means to utilize the available radio interfaces in parallel along with network coding to increase wireless data throughput. Specifically we explored the use of random linear network coding at the network layer where packets can travel through multiple interfaces and be received via multihoming. Using both simulations and experimentation with real hardware on WiFi and WiMAX platforms, we studied the scaling of throughput enabled by such HetNetwork coding. We find from our simulations and experiments that the use of this metho..."
+ }
+}

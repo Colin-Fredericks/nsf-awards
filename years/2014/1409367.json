@@ -1,0 +1,113 @@
+{
+ "awd_id": "1409367",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CSR: Medium: Collaborative Research: Architecture and System Support for Power-Agile Computing",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2017-07-31",
+ "tot_intn_awd_amt": 282931.0,
+ "awd_amount": 282931.0,
+ "awd_min_amd_letter_date": "2014-07-30",
+ "awd_max_amd_letter_date": "2015-08-18",
+ "awd_abstract_narration": "Short battery lifetimes are one of the top complaints of today's smartphone users and are limiting the transformative potential of these mobile devices. Hardware components continue to offer new energy-saving features, but today's mobile operating systems are ill-prepared to utilize these new capabilities. This project investigates novel hardware-software coordination mechanisms to make use of existing and next-generation hardware energy-saving features more effectively. The focus is improving \"power agility\", a measure of a system's ability to adaptively reallocate energy between hardware components to meet the changing needs of running applications, through the introduction of new operating system interfaces and abstractions.\r\n\r\nIn contrast to previous approaches that attempt to manage energy directly, this project explores the idea of measuring and managing energy inefficiency, defined as the amount of extra energy actually used to perform a task above the minimum required for the task. Allocating inefficiency, rather than energy, addresses many of the problems with previous energy management approaches while still allowing the operating system to prioritize energy usage between tasks. By allocating inefficiency, power-agile operating systems can safely allow tasks to tune hardware components directly using userspace tuning libraries, allowing them to make cross-component tradeoffs in response to changing requirements while pursuing a wide variety of different energy management strategies. The project also integrates education with the research through a new course on power-agile computing at both of the collaborating institutions.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Geoffrey",
+   "pi_last_name": "Challen",
+   "pi_mid_init": "W",
+   "pi_sufx_name": "",
+   "pi_full_name": "Geoffrey W Challen",
+   "pi_email_addr": "challen@buffalo.edu",
+   "nsf_id": "000570687",
+   "pi_start_date": "2014-07-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "SUNY at Buffalo",
+  "inst_street_address": "520 LEE ENTRANCE STE 211",
+  "inst_street_address_2": "",
+  "inst_city_name": "AMHERST",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "7166452634",
+  "inst_zip_code": "142282577",
+  "inst_country_name": "United States",
+  "cong_dist_code": "26",
+  "st_cong_dist_code": "NY26",
+  "org_lgl_bus_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "GMZUKXFDJMA9",
+  "org_uei_num": "LMCJKRFW5R81"
+ },
+ "perf_inst": {
+  "perf_inst_name": "SUNY at Buffalo",
+  "perf_str_addr": "338 Davis Hall",
+  "perf_city_name": "Buffalo",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "142602500",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "26",
+  "perf_st_cong_dist": "NY26",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 143430.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 139501.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our work laid the foundation for improved energy and thermal management on smartphones and other modern mobile devices. We explored new algorithms for intelligently allocating energy between multiple device components that can individually make energy and performance tradeoffs. To measure the effectiveness of our approach, we invented and defined a new metric called <em>inefficiency. </em>Inefficiency&nbsp;measures the amount of energy that was consumed that did not improve performance&mdash;energy that was wasted and did not make things faster or improve the user experience. Using our measure of inefficiency, we were able to show that our new algorithms were able to both save energy and improve performance compared with current approaches. We conducted experiments both using gem5, a full-system simulator, and on actual Android smartphones.</p>\n<p>We also uncovered and investigated the substantial affect of temperature on the performance of mobile devices. Processors generate heat as they run, but also get less efficient as they get hotter. In extreme cases, the entire processor must be shut down when the temperature gets too high, to avoid permanent damage to the processor and to the entire device. On mobile devices, thermal management is also important to maintain user comfort. Mobile devices lack the considerable heat removal capabilities of larger server or desktop class computers, and also spend a great deal of time close to a users skin or body. So a temperature that would be acceptable for a server might cause injury to a user that is actively manipulating the device.</p>\n<p>Managing temperature on mobile devices requires complicate tradeoffs. Keeping the temperature low can be accomplished by running the processor slowly, but this affects performance. In contrast, running the processor at its fastest speed even for only a few seconds is typically sufficient to cause the thermal limits to be reached, at which point the entire system must pause to cool down. The external temperature also plays a role, since the surrounding thermal environment provides passive cooling. So a phone will heat up more quickly and performance worse in a hot car as opposed to outside on a cold day. We have completed a study of the effectiveness of long-term thermal management, and shown that there is benefit to considering the external temperature when determining when to run certain system tasks.</p>\n<p>Our study of temperature also exposed a previously poorly understood side effect of the device manufacturing process. The process of manufacturing transistors&mdash;the basic building block of computer processors&mdash;is inexact. Some transistors emerge better than others. And, as a result, some computer processors are better than others. Better processors manage heat better, and so can be run faster within the same thermal limits. When processors that power desktop and servers are sold, the prices incorporate this variation, since it affects how fast the processors can run.</p>\n<p>In contrast, when mobile processors are sold this variation is hidden. Instead of having the processors run at different speeds, manufacturers constrain all processors to run at the same speed but at different voltages. However, the inherent variation between the processors remains and still has an impact. Poor-quality transistors produce devices that heat up quickly and perform poorly, despite being sold at the same price and as identical devices. Our work has developed new tools allowing users to determine the quality of their device and we will continue to draw attention to these variations.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/06/2017<br>\n\t\t\t\t\tModified by: Geoffrey&nbsp;W&nbsp;Challen</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOur work laid the foundation for improved energy and thermal management on smartphones and other modern mobile devices. We explored new algorithms for intelligently allocating energy between multiple device components that can individually make energy and performance tradeoffs. To measure the effectiveness of our approach, we invented and defined a new metric called inefficiency. Inefficiency measures the amount of energy that was consumed that did not improve performance&mdash;energy that was wasted and did not make things faster or improve the user experience. Using our measure of inefficiency, we were able to show that our new algorithms were able to both save energy and improve performance compared with current approaches. We conducted experiments both using gem5, a full-system simulator, and on actual Android smartphones.\n\nWe also uncovered and investigated the substantial affect of temperature on the performance of mobile devices. Processors generate heat as they run, but also get less efficient as they get hotter. In extreme cases, the entire processor must be shut down when the temperature gets too high, to avoid permanent damage to the processor and to the entire device. On mobile devices, thermal management is also important to maintain user comfort. Mobile devices lack the considerable heat removal capabilities of larger server or desktop class computers, and also spend a great deal of time close to a users skin or body. So a temperature that would be acceptable for a server might cause injury to a user that is actively manipulating the device.\n\nManaging temperature on mobile devices requires complicate tradeoffs. Keeping the temperature low can be accomplished by running the processor slowly, but this affects performance. In contrast, running the processor at its fastest speed even for only a few seconds is typically sufficient to cause the thermal limits to be reached, at which point the entire system must pause to cool down. The external temperature also plays a role, since the surrounding thermal environment provides passive cooling. So a phone will heat up more quickly and performance worse in a hot car as opposed to outside on a cold day. We have completed a study of the effectiveness of long-term thermal management, and shown that there is benefit to considering the external temperature when determining when to run certain system tasks.\n\nOur study of temperature also exposed a previously poorly understood side effect of the device manufacturing process. The process of manufacturing transistors&mdash;the basic building block of computer processors&mdash;is inexact. Some transistors emerge better than others. And, as a result, some computer processors are better than others. Better processors manage heat better, and so can be run faster within the same thermal limits. When processors that power desktop and servers are sold, the prices incorporate this variation, since it affects how fast the processors can run.\n\nIn contrast, when mobile processors are sold this variation is hidden. Instead of having the processors run at different speeds, manufacturers constrain all processors to run at the same speed but at different voltages. However, the inherent variation between the processors remains and still has an impact. Poor-quality transistors produce devices that heat up quickly and perform poorly, despite being sold at the same price and as identical devices. Our work has developed new tools allowing users to determine the quality of their device and we will continue to draw attention to these variations.\n\n\t\t\t\t\tLast Modified: 12/06/2017\n\n\t\t\t\t\tSubmitted by: Geoffrey W Challen"
+ }
+}

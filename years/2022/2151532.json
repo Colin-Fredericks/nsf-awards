@@ -1,0 +1,101 @@
+{
+ "awd_id": "2151532",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SBIR Phase I:  AI-based system for analyzing multiparametric MRI scans for prostate lesion detection",
+ "cfda_num": "47.041, 47.084",
+ "org_code": "15030000",
+ "po_phone": "7032924392",
+ "po_email": "amonk@nsf.gov",
+ "po_sign_block_name": "Alastair Monk",
+ "awd_eff_date": "2022-03-01",
+ "awd_exp_date": "2022-08-31",
+ "tot_intn_awd_amt": 256000.0,
+ "awd_amount": 256000.0,
+ "awd_min_amd_letter_date": "2022-02-18",
+ "awd_max_amd_letter_date": "2022-02-18",
+ "awd_abstract_narration": "The broader impact/commercial potential of the Small Business Innovation Research (SBIR) Phase I project will be to improve prostate cancer diagnostics. This project proposes an artificial intelligence (AI)-based platform that overcomes current shortcomings with manual magnetic resonance imaging (MRI) assessment, currently conducted on high-quality machines with results read by expert radiologists at a few locations around the country. AI enables MRI analysis that is automated, standardized, and more accurate.  This will reduce unnecessary and invasive biopsy and/or treatment for low-risk prostate cancers, as well as physician time and effort to run and read MRIs. Furthermore, it will enable non-expert centers to accurately diagnose patients without requiring extensive testing, top-tier MRI equipment, or invasive surgery. \r\n\r\nThis Small Business Innovation Research (SBIR) Phase I project develops a novel prostate cancer diagnostic platform that leverages the power of AI-based image analysis for high sensitivity and specificity.  While prostate cancer diagnostics rely heavily on MRIs, the accuracy of these assessments depends on both expert experience and MRI quality. The machine learning solution is able to make global assessments on the likelihood of detected lesions being clinically significant (i.e., Gleason 3+4/grade group 2 or higher), better informing clinicians on appropriate treatment.  This project proposes the following technology development objectives: 1) Develop a method to measure MRI quality, 2) Create a Generative Adversarial Network (GAN) Framework to repair images from poor to higher quality, and 3) Prospectively evaluate new framework to measure the overall performance of the AI algorithm.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "TIP",
+ "org_dir_long_name": "Directorate for Technology, Innovation, and Partnerships",
+ "div_abbr": "TI",
+ "org_div_long_name": "Translational Impacts",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Thomas",
+   "pi_last_name": "Sanford",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Thomas Sanford",
+   "pi_email_addr": "tsanford808@gmail.com",
+   "nsf_id": "000863825",
+   "pi_start_date": "2022-02-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "TAURUS DIAGNOSTICS, INC",
+  "inst_street_address": "351 S WARREN ST STE 214",
+  "inst_street_address_2": "",
+  "inst_city_name": "SYRACUSE",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "4159393515",
+  "inst_zip_code": "132022121",
+  "inst_country_name": "United States",
+  "cong_dist_code": "22",
+  "st_cong_dist_code": "NY22",
+  "org_lgl_bus_name": "TAURUS DIAGNOSTICS, INC",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LWZPC598N4J6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "TAURUS DIAGNOSTICS, INC",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "132022121",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "22",
+  "perf_st_cong_dist": "NY22",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "537100",
+   "pgm_ele_name": "SBIR Phase I"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "066E",
+   "pgm_ref_txt": "INSTRUMENTATION & DIAGNOSTICS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 256000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This award funded one of the most difficult practical issues facing deployment of AI system into clinical radiology practices: the issues of variability in imaging protocols.&nbsp; One of the stated goals of the Reporting and Data Systems documents in radiology is to provide standardization of protocols. &nbsp;However, with multiple different vendors of imaging equipment and center-specific image protocols as well as patient factors (e.g. internal hardware), we found the underlying data distribution varied widely between centers and patient populations.&nbsp; Aspects of this variability fall into the general category of &lsquo;image quality&rsquo; but in our experience &lsquo;image quality&rsquo; is subjective and difficult to quantify.&nbsp; Thus, we sought to create an objective metric of image quality to allow us to build a system to diagnose images where AI systems have characteristics associated with failure of AI models and repair those images with the aim of improving the overall performance of AI systems.&nbsp;</p>\n<p>We evaluated an existing segmentation AI model on prostate MRI images, and defined good quality images as those the AI system was able to segment correctly and poor-quality images as those where the AI was not able to correctly segment the prostate.&nbsp; We trained a machine learning classifier to differentiate &lsquo;good quality&rsquo; and &lsquo;poor quality&rsquo; images defined by segmentation accuracy.&nbsp; We then trained a novel AI tool to transform &lsquo;poor quality&rsquo; into a data distribution mimicking the &lsquo;good-quality&rsquo; images.&nbsp; We found a statistically significant improvement in segmentation accuracy with this approach.&nbsp; Specifically, our test dataset consisted of images from one center where our AI model failed on nearly every sample; the average measure of overlap as measured by Dice score was 20% for the initial model.&nbsp; After using our AI image repair tool, we were able to increase this measure of overlap to 89% using the same segmentation model.&nbsp; We were able to demonstrate the power of this approach in minimizing images where AI systems fail, and we hope this approach will facility the practical incorporation of radiology AI systems into clinical practice.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/23/2023<br>\n\t\t\t\t\tModified by: Thomas&nbsp;Sanford</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis award funded one of the most difficult practical issues facing deployment of AI system into clinical radiology practices: the issues of variability in imaging protocols.  One of the stated goals of the Reporting and Data Systems documents in radiology is to provide standardization of protocols.  However, with multiple different vendors of imaging equipment and center-specific image protocols as well as patient factors (e.g. internal hardware), we found the underlying data distribution varied widely between centers and patient populations.  Aspects of this variability fall into the general category of \u2018image quality\u2019 but in our experience \u2018image quality\u2019 is subjective and difficult to quantify.  Thus, we sought to create an objective metric of image quality to allow us to build a system to diagnose images where AI systems have characteristics associated with failure of AI models and repair those images with the aim of improving the overall performance of AI systems. \n\nWe evaluated an existing segmentation AI model on prostate MRI images, and defined good quality images as those the AI system was able to segment correctly and poor-quality images as those where the AI was not able to correctly segment the prostate.  We trained a machine learning classifier to differentiate \u2018good quality\u2019 and \u2018poor quality\u2019 images defined by segmentation accuracy.  We then trained a novel AI tool to transform \u2018poor quality\u2019 into a data distribution mimicking the \u2018good-quality\u2019 images.  We found a statistically significant improvement in segmentation accuracy with this approach.  Specifically, our test dataset consisted of images from one center where our AI model failed on nearly every sample; the average measure of overlap as measured by Dice score was 20% for the initial model.  After using our AI image repair tool, we were able to increase this measure of overlap to 89% using the same segmentation model.  We were able to demonstrate the power of this approach in minimizing images where AI systems fail, and we hope this approach will facility the practical incorporation of radiology AI systems into clinical practice. \n\n \n\n \n\n\t\t\t\t\tLast Modified: 04/23/2023\n\n\t\t\t\t\tSubmitted by: Thomas Sanford"
+ }
+}

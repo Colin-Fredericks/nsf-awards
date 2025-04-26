@@ -1,0 +1,105 @@
+{
+ "awd_id": "1848596",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Adaptive Sampling of Massive Graph Streams",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Wei Ding",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2022-08-31",
+ "tot_intn_awd_amt": 200488.0,
+ "awd_amount": 200488.0,
+ "awd_min_amd_letter_date": "2018-08-16",
+ "awd_max_amd_letter_date": "2018-08-16",
+ "awd_abstract_narration": "The electronic services that underpin daily life---such as the internet, social networks, banking systems, and online retailers---continuously generate vast amounts of data concerning their operation and usage. A key analytical task for service providers is to understand the commonality between different data points, e.g. to provide friend recommendations based on patterns of social interaction, or to understand how a set of related transactions may collectively signify a bank fraud. The volume at which such data is generated presents challenges for its storage and processing. On the other hand, sampling and other data reduction techniques hinder the ability to discern patterns for forensics and other retrospective analysis.  While previous work has proposed solutions in specific instances, there is currently little general understanding of how to optimize the choice of sampling algorithm to best match the requirement of data analysis under operational resource constraints. Furthermore, while existing solutions have been tuned by their expert designers, in the absence of a general framework it is challenging for researchers in application domains to adapt these to their problems. To meet these gaps, this project establishes a new general framework for optimal sampling of streaming graph data. It will use this framework to implement a map between problem specifications and sampling algorithms in order to streamline the generation of working code for applications. The project will also develop educational materials on data stream sampling and outreach to researchers in application domains to promote applicability and usage of the results developed.\r\n\r\nThis work will develop a transformative framework for graph stream sampling and its applications that address outstanding gaps in knowledge and practice. First, while current methods frequently focus on computation of global graph properties, applications often require a representative sample for rapid or retrospective analysis without having to reprocess the entire stream, even if available. Second, current methods are typically optimized for specific subgraph targets and problems without a general ability to optimize for analysis accuracy and resource requirements. Third, it is challenging for domain researchers to generalize these results beyond the original problem because of the expert tuning required for their creation. In response, this project will develop a framework graph data stream sampling that is applicable to a wide class of application problems and settings, allows tunable trade-off between accuracy and space and time computational resources, and is implementable as a mapping between problem specification and working application code. Specifically, the work will use a novel form of weighted reservoir priority sampling to adapt the sampling and retention of edges to their evolving role in the sampled graph and with respect to analysis goals. The framework will enable time-decayed clustered subgraph sampling, and multigraph sampling to support estimation from streams of repeated edges. Analysis and evaluation in a representative variety of applications will be used to optimize computational strategies allowing flexible trade-off between accuracy and resource consumption. These results will transform usage of sampling methods by realizing the framework as a mapping between problem specification and working application code that enables domain researchers to rapidly incorporate the results of this work within their own applications.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nicholas",
+   "pi_last_name": "Duffield",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nicholas Duffield",
+   "pi_email_addr": "duffieldng@tamu.edu",
+   "nsf_id": "000658287",
+   "pi_start_date": "2018-08-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Texas A&M Engineering Experiment Station",
+  "inst_street_address": "3124 TAMU",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE STATION",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "9798626777",
+  "inst_zip_code": "778433124",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "TX10",
+  "org_lgl_bus_name": "TEXAS A&M ENGINEERING EXPERIMENT STATION",
+  "org_prnt_uei_num": "QD1MX6N5YTN4",
+  "org_uei_num": "QD1MX6N5YTN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Texas A&M Engineering Experiment Station",
+  "perf_str_addr": "",
+  "perf_city_name": "College Station",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "778454645",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "TX10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7364",
+   "pgm_ref_txt": "INFO INTEGRATION & INFORMATICS"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 200488.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Graph stream data are prevalent in many scientific, technological, and commercial settings, comprising data objects that not only carry their own information, but are related to other objects in the stream due to the underlying entities that they convey information about. For example, each transaction recorded by an online retailer, details the purchasing customer and the items purchased, and the stream of records generated by all such purchases can be mined to make recommendations for future purchase based on individual or shared preferences. Another example concerns using measurement of the metadata of internet traffic (such as the origin and destination of packets and flows as measured by routers and switches) to identify patterns of communication that may indicate networks attacks or computers that have been compromised to become members of robotic networks. More abstractly, each of these examples can be represented through a graph with nodes corresponding to the entities involved (purchasers and items, or computers) and each data element represents and edge linking two nodes (a transaction record, or a metadata record). The challenge for analysis is to efficiently identify informative sets of edges for the problem at hand against the background of high-volume high-rate data stream. The identify of relevant nodes is not known in advanced, only the pattern of edges (the subgraph motif).&nbsp;&nbsp;</p>\n<p>This project made several advances in the state of the art for this problem. It provided algorithms to efficiently sample edges from the graph stream, in a way that preferentially sampled edges that are members of subgraphs representing one or more target motifs of interest. This enables two crucial applications. First, it enables efficient and rapid monitoring of the state of the graph data. For example, a widespread coordinated denial of service network attack can manifest as a new graph linking a victim with compromised hosts, that have themselves been communication with the controller of their robotic network. Second, the sampled edges can themselves be subject to retrospective forensic analysis to help identify the ultimate origin of the attack.&nbsp;</p>\n<p>&nbsp;A key feature of the proposed method is that it only required storage of the sampled edges; their graph relationships can be examined through retrospective analysis. This represents a significant performance advantage over competing methods that needed to assign additional storage to the subgraphs, not just their constituents.</p>\n<p>The project work generalized the paradigm described above in several directions. First, it was applied to sampling subgraphs in temporal networks, in which edges are regarded as having only a limited lifetime, and subgraphs are only relevant if all their edges coincide sufficiently closely in time. Second, the underlying framework for estimating true counts of subgraphs from the samples was extended from a formulation using unbiased estimation to shrinkage estimation in which a reduction in total error is achieved by incorporating biased estimators. Other related thrusts of the work develop machine learning methods to model the underlying graph data.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/29/2022<br>\n\t\t\t\t\tModified by: Nicholas&nbsp;Duffield</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nGraph stream data are prevalent in many scientific, technological, and commercial settings, comprising data objects that not only carry their own information, but are related to other objects in the stream due to the underlying entities that they convey information about. For example, each transaction recorded by an online retailer, details the purchasing customer and the items purchased, and the stream of records generated by all such purchases can be mined to make recommendations for future purchase based on individual or shared preferences. Another example concerns using measurement of the metadata of internet traffic (such as the origin and destination of packets and flows as measured by routers and switches) to identify patterns of communication that may indicate networks attacks or computers that have been compromised to become members of robotic networks. More abstractly, each of these examples can be represented through a graph with nodes corresponding to the entities involved (purchasers and items, or computers) and each data element represents and edge linking two nodes (a transaction record, or a metadata record). The challenge for analysis is to efficiently identify informative sets of edges for the problem at hand against the background of high-volume high-rate data stream. The identify of relevant nodes is not known in advanced, only the pattern of edges (the subgraph motif).  \n\nThis project made several advances in the state of the art for this problem. It provided algorithms to efficiently sample edges from the graph stream, in a way that preferentially sampled edges that are members of subgraphs representing one or more target motifs of interest. This enables two crucial applications. First, it enables efficient and rapid monitoring of the state of the graph data. For example, a widespread coordinated denial of service network attack can manifest as a new graph linking a victim with compromised hosts, that have themselves been communication with the controller of their robotic network. Second, the sampled edges can themselves be subject to retrospective forensic analysis to help identify the ultimate origin of the attack. \n\n A key feature of the proposed method is that it only required storage of the sampled edges; their graph relationships can be examined through retrospective analysis. This represents a significant performance advantage over competing methods that needed to assign additional storage to the subgraphs, not just their constituents.\n\nThe project work generalized the paradigm described above in several directions. First, it was applied to sampling subgraphs in temporal networks, in which edges are regarded as having only a limited lifetime, and subgraphs are only relevant if all their edges coincide sufficiently closely in time. Second, the underlying framework for estimating true counts of subgraphs from the samples was extended from a formulation using unbiased estimation to shrinkage estimation in which a reduction in total error is achieved by incorporating biased estimators. Other related thrusts of the work develop machine learning methods to model the underlying graph data.\n\n \n\n\t\t\t\t\tLast Modified: 12/29/2022\n\n\t\t\t\t\tSubmitted by: Nicholas Duffield"
+ }
+}

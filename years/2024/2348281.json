@@ -1,0 +1,121 @@
+{
+ "awd_id": "2348281",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CAREER: Efficient and Reliable Data Transfer Services for Next Generation Research Networks",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922625",
+ "po_email": "jjli@nsf.gov",
+ "po_sign_block_name": "Juan Li",
+ "awd_eff_date": "2023-10-01",
+ "awd_exp_date": "2024-05-31",
+ "tot_intn_awd_amt": 529942.0,
+ "awd_amount": 14384.0,
+ "awd_min_amd_letter_date": "2023-10-19",
+ "awd_max_amd_letter_date": "2024-06-27",
+ "awd_abstract_narration": "Research networks are crucial for data intensive, distributed, and collaborative science projects as they provide high speed connectivity between research and education institutions. However, users of research networks are unable to efficiently utilize available resources as existing transfer applications suffer from scalability issues at high speeds. This project designs and develops a scalable and robust data transfer framework for next-generation research networks to improve their utilization. Enhanced network performance in research networks allows seamless execution of next generation distributed science applications, thereby paving the way for breakthrough discoveries to be made swiftly. This project also promotes collaboration between scientists at geographically separated institutions by means of reducing the time it takes to share data. In addition to research contributions, this project has strong education plan tightly integrated into its research plan. The plan involves trainings for scientists to help them better utilize advanced cyberinfrastructure resources when dealing with large scale data, game development for middle and high school students to teach networking concepts, and summer schools for high school students for underrepresented groups to teach programming and networking. \r\n\r\nAs trend towards data intensive distributed science continues, it is becoming increasingly important to develop data transfer services that can scale to next generation terabit per second networks and beyond. To achieve this goal, this project focuses four key research directions: First, it innovates a modular file transfer architecture to separate I/O operations from network transfers to enable dynamic and component specific tuning. Second, it implements Quality of Service support for delay sensitive distributed workflows to meet their stringent performance requirements. Third, it develops scalable, secure, and low overhead integrity verification for file transfers through in network caching/computing and probabilistic error checking mechanisms. Fourth, it integrates the developed algorithms to commonly used workflow management systems to increase its adoption by a broader science community.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Engin",
+   "pi_last_name": "Arslan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Engin Arslan",
+   "pi_email_addr": "heyengin@gmail.com",
+   "nsf_id": "000758403",
+   "pi_start_date": "2023-10-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Arlington",
+  "inst_street_address": "701 S NEDDERMAN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "ARLINGTON",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "8172722105",
+  "inst_zip_code": "760199800",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT ARLINGTON",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LMLUKUPJJ9N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Arlington",
+  "perf_str_addr": "701 S. NEDDERMAN DR",
+  "perf_city_name": "ARLINGTON",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "760199800",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "104500",
+   "pgm_ele_name": "CAREER: FACULTY EARLY CAR DEV"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002526DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002627DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 14383.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project produced&nbsp;a modular file transfer architecture, Marlin,&nbsp;designed to optimize the efficiency of high-performance network transfers by decoupling read, transfer, and write operations. Unlike traditional monolithic transfer applications, Marlin uses a game-theory-inspired utility function and an online gradient descent algorithm to independently tune the concurrency of each operation. This approach minimizes system overhead and ensures fairness among competing transfers while achieving high throughput. Experimental evaluations demonstrate that Marlin can outperform state-of-the-art methods, especially for small transfers and scenarios with differing I/O and network performance bottlenecks, achieving throughput gains of up to 2x. By leveraging temporary high-performance staging areas, Marlin enhances the transfer performance of short datasets, making it particularly suitable for modern high-speed research networks.</p>\r\n<p>&nbsp;</p>\r\n<p class=\"p1\">This project enhanced the efficiency and fairness of data transfers in high-performance networks, which are critical for scientific discovery across various disciplines. By optimizing data movement between geographically distributed facilities, Marlin enables researchers to quickly and reliably access, share, and analyze massive datasets generated by instruments like particle accelerators, telescopes, and genome sequencers. This efficiency can accelerate breakthroughs in fields such as physics, astronomy, and bioinformatics. Furthermore, Marlin&rsquo;s ability to reduce system overhead and improve fairness in resource allocation promotes sustainable and equitable use of shared scientific infrastructure. By enabling better utilization of high-speed research networks, this project can lower operational costs and energy consumption, fostering a more sustainable research ecosystem. Its open-source implementation can also serve as an educational tool, providing a platform for training students and researchers in advanced data transfer and network optimization techniques, thus contributing to workforce development in STEM fields.</p>\r\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 12/13/2024<br>\nModified by: Engin&nbsp;Arslan</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project produceda modular file transfer architecture, Marlin,designed to optimize the efficiency of high-performance network transfers by decoupling read, transfer, and write operations. Unlike traditional monolithic transfer applications, Marlin uses a game-theory-inspired utility function and an online gradient descent algorithm to independently tune the concurrency of each operation. This approach minimizes system overhead and ensures fairness among competing transfers while achieving high throughput. Experimental evaluations demonstrate that Marlin can outperform state-of-the-art methods, especially for small transfers and scenarios with differing I/O and network performance bottlenecks, achieving throughput gains of up to 2x. By leveraging temporary high-performance staging areas, Marlin enhances the transfer performance of short datasets, making it particularly suitable for modern high-speed research networks.\r\n\n\n\r\n\n\nThis project enhanced the efficiency and fairness of data transfers in high-performance networks, which are critical for scientific discovery across various disciplines. By optimizing data movement between geographically distributed facilities, Marlin enables researchers to quickly and reliably access, share, and analyze massive datasets generated by instruments like particle accelerators, telescopes, and genome sequencers. This efficiency can accelerate breakthroughs in fields such as physics, astronomy, and bioinformatics. Furthermore, Marlins ability to reduce system overhead and improve fairness in resource allocation promotes sustainable and equitable use of shared scientific infrastructure. By enabling better utilization of high-speed research networks, this project can lower operational costs and energy consumption, fostering a more sustainable research ecosystem. Its open-source implementation can also serve as an educational tool, providing a platform for training students and researchers in advanced data transfer and network optimization techniques, thus contributing to workforce development in STEM fields.\r\n\n\n\t\t\t\t\tLast Modified: 12/13/2024\n\n\t\t\t\t\tSubmitted by: EnginArslan\n"
+ }
+}

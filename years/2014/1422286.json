@@ -1,0 +1,101 @@
+{
+ "awd_id": "1422286",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS: Small: Collaborative Research: Research into Worst-Case Large Deviation Theory for Network Algorithmics",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 250000.0,
+ "awd_amount": 250000.0,
+ "awd_min_amd_letter_date": "2014-09-17",
+ "awd_max_amd_letter_date": "2014-09-17",
+ "awd_abstract_narration": "The design and analysis of network algorithmics, namely, techniques and principles behind the software and hardware systems running on high-speed Internet routers, has become a rich area of research. In general, network operators would like routers to deliver robust performance under a wide variety of, often unforeseen, operating conditions.  To address this need, this project takes a first look into network algorithmics solutions that can guarantee a certain level of performance, not only under typical or average parameter settings as in prior studies, but also under all admissible parameter settings. Toward this goal, PIs propose to develop a novel mathematical approach, called worst-case large deviation theory that is needed to prove such universal lower bounds on performance. \r\n\r\nThis project consists of three closely connected research threads.   First, the principal investigators (PIs) will develop solutions for distributed data streaming problems that can guarantee a certain level of performance, under all possible ways a given data set is partitioned into distributed subsets.  Second, they will develop a rich family of load-balanced switching solutions that can guarantee high throughput and reasonably low delay under all admissible traffic workloads.  Third, they will build mathematical connections between worst-case large deviation techniques they developed in the past several years for deriving such universal performance bounds in prior network algorithmics solutions, which they expect will shed light on the new mathematical problems they will encounter in the first two research threads.\r\n\r\nThis project will engage both graduate and undergraduate students through integrated classroom curriculum and research training that span multiple disciplines, from fundamental mathematics, algorithm design, to hardware implementation.  The results will be broadly disseminated through publications, invited talks, tutorials, and open-sourcing of software developed for this project in accordance with the policies of each institution.  The PIs will work closely with leading networking and systems solution providers to facilitate technology transfers.  Further, both PIs are committed to outreach efforts at their corresponding campuses to broaden the participation of under-represented groups in research and higher education.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Bill",
+   "pi_last_name": "Lin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Bill Lin",
+   "pi_email_addr": "billlin@ece.ucsd.edu",
+   "nsf_id": "000441658",
+   "pi_start_date": "2014-09-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-San Diego",
+  "inst_street_address": "9500 GILMAN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "LA JOLLA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8585344896",
+  "inst_zip_code": "920930021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "50",
+  "st_cong_dist_code": "CA50",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "UYTTZT6G9DT1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-San Diego",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "920930934",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "50",
+  "perf_st_cong_dist": "CA50",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 250000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The major goal of this project is develop scalable switch architectures that are robust under a wide variety of operating conditions. This robustness demands solutions that are well-behaved in the worst-case, not just in typical cases. In particular, we consider a class of scalable switch architectures called load-balanced switches that can scale to very high capacities by load-balancing incoming packets to a set of intermediate nodes, which are then forwarded to the final outputs. Although load-balanced switches are known to be scalable in size and speed, they have the critical problem that packet departures can be badly missequenced. This is detrimental to Internet traffic since the widely used TCP protocol falsely regards out-of-order packets as indications of congestion and packet loss. To remedy this, a large body of subsequent work has proposed a variety of modifications for ensuring packet ordering, but existing approaches tend to increase packet delay or complexity significantly in comparison to the basic load-balanced switch.</p>\n<p>In this project, we developed three new load-balanced switch architectures that retain the scalability properties of load-balanced switches, but yet can also guarantee packet ordering with easy-to-implement mechanisms. Each architecture advances the state-of-the-art in its own ways. In conjunction with these architectural developments, we also developed new mathematical machinery for the analysis of worst-case stochastic behaviors of networking solutions under arbitrary workloads, including stability analysis and the bounding of workloads. The new machinery provides a unified coherent framework for shared common mathematical structures in worst-case large deviation problems that arise in various networking problems in general. These common mathematical structures include exchangeability, Schur-convexity, convex and stochastic ordering, and negative association.</p>\n<p>In particular, we first developed a new load-balanced switch called Sprinklers. Sprinklers generalizes a technique called Uniform Frame Spreading (UFS) in which a frame of N packets for the same switch flow must first be accumulated before they are uniformly spread to the set of N intermediate nodes. This approach ensures packet ordering by ensuring that each intermediate node receives exactly the same number of packets that are destined to the same output port. That is, UFS guarantees perfect load-balancing, but the accumulation of full-frames of N packets incurs huge delays in practice (cubic delay in the worst-case). Sprinklers generalizes the UFS approach by only requiring the accumulation of small stripes rather than full frames. Packet ordering is ensured by forcing all packets within the same switch flow to traverse the same \"fat path\" through the switch (i.e., the same set of intermediate nodes where the set size is equal to the stripe size). At the core of Sprinklers are two key innovations: a randomized way to determine the \"fat path\" for each switch flow, and a way to determine its \"fatness\" roughly in proportion to the rate of the switch flow. These innovations enable Sprinklers to achieve near-perfect load-balancing under arbitrary admissible traffic.</p>\n<p>Second, we developed another load-balanced switch architecture based on packet-level randomized load-balancing. We show that the amount of packet reordering that can occur with the load-balanced switch is actually quite limited, which means that packet reordering can simply be rectified by employing reordering buffers at the switch outputs. In particular, we formally bound the worst-case amount of time that a packet has to wait in these output reordering buffers before it is guaranteed to be ready for in-order departure with high probability, and we prove that this bound is linear with respect to the switch size. This linear bound is significant because previous approaches can add quadratic or cubic delays to the load-balanced switch. In addition, we use a hash-grouping method that further reduces resequencing delays significantly. Although simple and intuitive, our evaluations show that our output packet reordering approach substantially outperforms existing designs.</p>\n<p>Finally, we developed a third design called a Safe Randomization Switch (SRS). In this work, load-balancing occurs by randomized load-balancing at the \"application-flow\" level. In particular, a well-known simple solution to the packet ordering problem is to route all packets that belong to the same application flow through the same intermediate port and hence the same path through the switch. Randomized load-balancing is achieved by randomly choosing the intermediate port based on the hashing of the packet header. This technique is commonly known as \"TCP-hashing.\" Although simple, this method of load-balancing can unfortunately lead to instability, depending on the mix of flow sizes and durations in the group of flows that gets randomly assigned to route through the same intermediate node. To remedy this, we show that TCP-hashing can be enhanced to provably guarantee both stability and packet ordering by extending the approach with safety mechanisms that can uniformly diffuse packets across the switch whenever there is a build-up of packets waiting to route through some intermediate node. Although simple and intuitive, SRS outperforms existing load-balanced switch architectures.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/30/2017<br>\n\t\t\t\t\tModified by: Bill&nbsp;Lin</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe major goal of this project is develop scalable switch architectures that are robust under a wide variety of operating conditions. This robustness demands solutions that are well-behaved in the worst-case, not just in typical cases. In particular, we consider a class of scalable switch architectures called load-balanced switches that can scale to very high capacities by load-balancing incoming packets to a set of intermediate nodes, which are then forwarded to the final outputs. Although load-balanced switches are known to be scalable in size and speed, they have the critical problem that packet departures can be badly missequenced. This is detrimental to Internet traffic since the widely used TCP protocol falsely regards out-of-order packets as indications of congestion and packet loss. To remedy this, a large body of subsequent work has proposed a variety of modifications for ensuring packet ordering, but existing approaches tend to increase packet delay or complexity significantly in comparison to the basic load-balanced switch.\n\nIn this project, we developed three new load-balanced switch architectures that retain the scalability properties of load-balanced switches, but yet can also guarantee packet ordering with easy-to-implement mechanisms. Each architecture advances the state-of-the-art in its own ways. In conjunction with these architectural developments, we also developed new mathematical machinery for the analysis of worst-case stochastic behaviors of networking solutions under arbitrary workloads, including stability analysis and the bounding of workloads. The new machinery provides a unified coherent framework for shared common mathematical structures in worst-case large deviation problems that arise in various networking problems in general. These common mathematical structures include exchangeability, Schur-convexity, convex and stochastic ordering, and negative association.\n\nIn particular, we first developed a new load-balanced switch called Sprinklers. Sprinklers generalizes a technique called Uniform Frame Spreading (UFS) in which a frame of N packets for the same switch flow must first be accumulated before they are uniformly spread to the set of N intermediate nodes. This approach ensures packet ordering by ensuring that each intermediate node receives exactly the same number of packets that are destined to the same output port. That is, UFS guarantees perfect load-balancing, but the accumulation of full-frames of N packets incurs huge delays in practice (cubic delay in the worst-case). Sprinklers generalizes the UFS approach by only requiring the accumulation of small stripes rather than full frames. Packet ordering is ensured by forcing all packets within the same switch flow to traverse the same \"fat path\" through the switch (i.e., the same set of intermediate nodes where the set size is equal to the stripe size). At the core of Sprinklers are two key innovations: a randomized way to determine the \"fat path\" for each switch flow, and a way to determine its \"fatness\" roughly in proportion to the rate of the switch flow. These innovations enable Sprinklers to achieve near-perfect load-balancing under arbitrary admissible traffic.\n\nSecond, we developed another load-balanced switch architecture based on packet-level randomized load-balancing. We show that the amount of packet reordering that can occur with the load-balanced switch is actually quite limited, which means that packet reordering can simply be rectified by employing reordering buffers at the switch outputs. In particular, we formally bound the worst-case amount of time that a packet has to wait in these output reordering buffers before it is guaranteed to be ready for in-order departure with high probability, and we prove that this bound is linear with respect to the switch size. This linear bound is significant because previous approaches can add quadratic or cubic delays to the load-balanced switch. In addition, we use a hash-grouping method that further reduces resequencing delays significantly. Although simple and intuitive, our evaluations show that our output packet reordering approach substantially outperforms existing designs.\n\nFinally, we developed a third design called a Safe Randomization Switch (SRS). In this work, load-balancing occurs by randomized load-balancing at the \"application-flow\" level. In particular, a well-known simple solution to the packet ordering problem is to route all packets that belong to the same application flow through the same intermediate port and hence the same path through the switch. Randomized load-balancing is achieved by randomly choosing the intermediate port based on the hashing of the packet header. This technique is commonly known as \"TCP-hashing.\" Although simple, this method of load-balancing can unfortunately lead to instability, depending on the mix of flow sizes and durations in the group of flows that gets randomly assigned to route through the same intermediate node. To remedy this, we show that TCP-hashing can be enhanced to provably guarantee both stability and packet ordering by extending the approach with safety mechanisms that can uniformly diffuse packets across the switch whenever there is a build-up of packets waiting to route through some intermediate node. Although simple and intuitive, SRS outperforms existing load-balanced switch architectures.\n\n\t\t\t\t\tLast Modified: 12/30/2017\n\n\t\t\t\t\tSubmitted by: Bill Lin"
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "awd_id": "1319318",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "RI: Small: Closing the Loop: Inducing High-Precision Grammars for Generating Disambiguating Paraphrases",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tatiana Korelsky",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2018-11-30",
+ "tot_intn_awd_amt": 299982.0,
+ "awd_amount": 307982.0,
+ "awd_min_amd_letter_date": "2013-08-16",
+ "awd_max_amd_letter_date": "2017-11-07",
+ "awd_abstract_narration": "This project investigates trainable methods of paraphrasing natural language sentences to effectively disambiguate their meaning, using precise, bidirectional grammars induced from corpora to \"close the loop\"' between parsing and generation.  The approach generalizes previous work on probabilistically avoiding ambiguity in natural language generation to a broad coverage setting, disambiguating only as necessary in order to better balance clarity and readability. Generating disambiguating paraphrases in a broad coverage setting makes it possible to explore ways of adapting parsers to new domains using crowd-sourced judgments of meaning similarity.  Accordingly, the project explores methods of (1) inducing OpenCCG grammars from the dependency output of parsers such as the C&C parser, (2) generating paraphrases with OpenCCG that explicitly aim to avoid likely distractor interpretations, (3) collecting meaning similarity judgments between the original sentence and paraphrases of its most likely interpretations, and (4) retraining the parser using the collected judgments. To evaluate the approach while also conducting outreach, the project involves data collection and experimentation at Ohio State's language research pod at the COSI science museum, in addition to the use of Amazon's Mechanical Turk.\r\n\r\nBy closing the loop between interpretation and generation, the project  promises to dramatically enhance the prospects for using crowd-sourcing to adapt natural language processing tools to new domains.  The project will also enable international collaborations with the University of Sydney, and help to educate the public about language science and technology, providing an inspirational example of science in action to the children who attend COSI.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "White",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael White",
+   "pi_email_addr": "mwhite@ling.ohio-state.edu",
+   "nsf_id": "000069401",
+   "pi_start_date": "2013-08-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101016",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 299982.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 8000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Crowdsourcing today plays an increasingly important role in collecting data to develop language technology components.&nbsp; However, the need to collect data with linguistic annotations continues to be an obstacle to cost effective data acquisition.&nbsp; In this project, we demonstrated important steps towards overcoming this obstacle by developing methods for using automatically generated disambiguating paraphrases to support crowdsourcing annotations of sentences with structural ambiguity.&nbsp; The main idea is illustrated in Figure 1.&nbsp; The system takes as input English sentences and runs them through an automatic parser.&nbsp; If the parser finds that a sentence has two likely interpretations, indicating a structural ambiguity, it generates a paraphrase corresponding to each interpretation (using a surface realizer) in a way that is intended to clarify the ambiguity.&nbsp; Note that while the interpretations resulting from parsing are represented in a way that requires linguistic training to understand, the generated paraphrases are in English.&nbsp; As such, it becomes possible to simply ask a crowdworker (on a platform such as Amazon Mechanical Turk, or AMT) which paraphrase is closer in meaning to the original sentence.&nbsp; Depending on which paraphrase is selected, the corresponding interpretation will then be added to the dataset as the right meaning of the sentence.&nbsp; (The figure labels the dataset as silver as it may be noisier than gold data annotated by linguistically trained annotators.)&nbsp; This dataset can then be used to retrain the parser, which can be expected to be especially helpful when the parser is to be used on language outside the domain of its original training data.</p>\n<p>Through a series of papers, the project initially demonstrated for the first time that parsers can be used to help avoid confusing ambiguities when generating text with modern statistically trained realizers.&nbsp; Then, the project augmented this approach with several additional strategies to effectively generated disambiguating paraphrases for the most frequently observed kinds of structural ambiguity.&nbsp; To demonstrate success, the project showed that the method illustrated in Figure 1 reliably reproduced expert judgments and that the resulting crowdsourced data could be used to improve parsing accuracy.&nbsp; Subsequently, researchers at the University of Washington were inspired in part by the project to crowdsource annotations in a similar spirit, using automatically generated clarification questions rather than disambiguating paraphrases per se.&nbsp; While these clarification questions tend to be simpler, they cannot address the whole range of structural ambiguities tackled by the project, suggesting that the methods could be usefully combined as part of a larger-scale effort to continually improve language technology components via conversational interaction.</p>\n<p>The project additionally supported initial experiments with a new grammar formalism, Dynamic Continuized Combinatory Categorial Grammar, that brings together theoretical advances in the treatment of quantified phrases in natural language with more computationally attractive approaches, yielding a framework for pursing the clarification of quantificational ambiguities in future work.</p>\n<p>Turning to broader impacts, the project supported the training of one undergraduate and five graduate students, including two female students who remain underrepresented in the field.&nbsp; Notably, the project also supported the development of Madly Ambiguous (http://madlyambiguous.osu.edu/), a demonstration and game for teaching the basics of structural (and other forms of linguistic) ambiguity.&nbsp; In Madly Ambiguous, the spunky Mr. Computer Head (Figure 2) narrates as users read about structural ambiguity&#894; after that, users face off against Mr. Computer Head in a game where they try to complete an ambiguous sentence (Figure 3) in a way that makes Mr. Computer Head guess the incorrect interpretation. After finishing a round of the game by informing Mr. Computer Head whether he came up with the correct interpretation (Figure 4), users may read more about how Mr. Computer Head and systems like him are trained to deal with tasks of ambiguity (Figure 2).&nbsp; Ultimately, users learn not only about structural ambiguity, but also a little bit about natural language processing tasks and their difficulty.</p>\n<p>Madly Ambiguous was initially developed for use at COSI, the Columbus science museum, but was subsequently adapted to support undergraduate teaching.&nbsp; Following a demonstration paper at the North American chapter of the Association for Computational Linguistics conference and an article in The Atlantic, it has been used with success at universities around the country and the world.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/01/2019<br>\n\t\t\t\t\tModified by: Michael&nbsp;White</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485703258_fig1-domainadapt--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485703258_fig1-domainadapt--rgov-800width.jpg\" title=\"Figure 1\"><img src=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485703258_fig1-domainadapt--rgov-66x44.jpg\" alt=\"Figure 1\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Using automatically generated paraphrases to crowdsource data for adapting parsers to new domains (see text)</div>\n<div class=\"imageCredit\">Michael White</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Michael&nbsp;White</div>\n<div class=\"imageTitle\">Figure 1</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485836011_fig2-explanation--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485836011_fig2-explanation--rgov-800width.jpg\" title=\"Figure 2\"><img src=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485836011_fig2-explanation--rgov-66x44.jpg\" alt=\"Figure 2\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The spunky Mr. Computer Head is the host of Madly Ambiguous, teaching users of all ages about structural ambiguity and why it is so difficult for computers</div>\n<div class=\"imageCredit\">Ajda Gokcen</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Michael&nbsp;White</div>\n<div class=\"imageTitle\">Figure 2</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485942164_fig3-answer--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485942164_fig3-answer--rgov-800width.jpg\" title=\"Figure 3\"><img src=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485942164_fig3-answer--rgov-66x44.jpg\" alt=\"Figure 3\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Users challenge Mr. Computer Head to guess the intended interpretation of their completion of an ambiguous sentence</div>\n<div class=\"imageCredit\">Ajda Gokcen and Michael White</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Michael&nbsp;White</div>\n<div class=\"imageTitle\">Figure 3</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485999466_fig4-check--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485999466_fig4-check--rgov-800width.jpg\" title=\"Figure 4\"><img src=\"/por/images/Reports/POR/2019/1319318/1319318_10268137_1551485999466_fig4-check--rgov-66x44.jpg\" alt=\"Figure 4\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Users complete a round of the game by informing Mr. Computer Head whether he came up with the intended interpretation</div>\n<div class=\"imageCredit\">Ajda Gokcen</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Michael&nbsp;White</div>\n<div class=\"imageTitle\">Figure 4</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nCrowdsourcing today plays an increasingly important role in collecting data to develop language technology components.  However, the need to collect data with linguistic annotations continues to be an obstacle to cost effective data acquisition.  In this project, we demonstrated important steps towards overcoming this obstacle by developing methods for using automatically generated disambiguating paraphrases to support crowdsourcing annotations of sentences with structural ambiguity.  The main idea is illustrated in Figure 1.  The system takes as input English sentences and runs them through an automatic parser.  If the parser finds that a sentence has two likely interpretations, indicating a structural ambiguity, it generates a paraphrase corresponding to each interpretation (using a surface realizer) in a way that is intended to clarify the ambiguity.  Note that while the interpretations resulting from parsing are represented in a way that requires linguistic training to understand, the generated paraphrases are in English.  As such, it becomes possible to simply ask a crowdworker (on a platform such as Amazon Mechanical Turk, or AMT) which paraphrase is closer in meaning to the original sentence.  Depending on which paraphrase is selected, the corresponding interpretation will then be added to the dataset as the right meaning of the sentence.  (The figure labels the dataset as silver as it may be noisier than gold data annotated by linguistically trained annotators.)  This dataset can then be used to retrain the parser, which can be expected to be especially helpful when the parser is to be used on language outside the domain of its original training data.\n\nThrough a series of papers, the project initially demonstrated for the first time that parsers can be used to help avoid confusing ambiguities when generating text with modern statistically trained realizers.  Then, the project augmented this approach with several additional strategies to effectively generated disambiguating paraphrases for the most frequently observed kinds of structural ambiguity.  To demonstrate success, the project showed that the method illustrated in Figure 1 reliably reproduced expert judgments and that the resulting crowdsourced data could be used to improve parsing accuracy.  Subsequently, researchers at the University of Washington were inspired in part by the project to crowdsource annotations in a similar spirit, using automatically generated clarification questions rather than disambiguating paraphrases per se.  While these clarification questions tend to be simpler, they cannot address the whole range of structural ambiguities tackled by the project, suggesting that the methods could be usefully combined as part of a larger-scale effort to continually improve language technology components via conversational interaction.\n\nThe project additionally supported initial experiments with a new grammar formalism, Dynamic Continuized Combinatory Categorial Grammar, that brings together theoretical advances in the treatment of quantified phrases in natural language with more computationally attractive approaches, yielding a framework for pursing the clarification of quantificational ambiguities in future work.\n\nTurning to broader impacts, the project supported the training of one undergraduate and five graduate students, including two female students who remain underrepresented in the field.  Notably, the project also supported the development of Madly Ambiguous (http://madlyambiguous.osu.edu/), a demonstration and game for teaching the basics of structural (and other forms of linguistic) ambiguity.  In Madly Ambiguous, the spunky Mr. Computer Head (Figure 2) narrates as users read about structural ambiguity&#894; after that, users face off against Mr. Computer Head in a game where they try to complete an ambiguous sentence (Figure 3) in a way that makes Mr. Computer Head guess the incorrect interpretation. After finishing a round of the game by informing Mr. Computer Head whether he came up with the correct interpretation (Figure 4), users may read more about how Mr. Computer Head and systems like him are trained to deal with tasks of ambiguity (Figure 2).  Ultimately, users learn not only about structural ambiguity, but also a little bit about natural language processing tasks and their difficulty.\n\nMadly Ambiguous was initially developed for use at COSI, the Columbus science museum, but was subsequently adapted to support undergraduate teaching.  Following a demonstration paper at the North American chapter of the Association for Computational Linguistics conference and an article in The Atlantic, it has been used with success at universities around the country and the world.\n\n\t\t\t\t\tLast Modified: 03/01/2019\n\n\t\t\t\t\tSubmitted by: Michael White"
+ }
+}

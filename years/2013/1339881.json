@@ -1,0 +1,109 @@
+{
+ "awd_id": "1339881",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: SI2-SSI: A Comprehensive Ray Tracing Framework for Visualization in Distributed-Memory Parallel Environments",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rajiv Ramnath",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 282225.0,
+ "awd_amount": 282225.0,
+ "awd_min_amd_letter_date": "2013-09-13",
+ "awd_max_amd_letter_date": "2013-09-13",
+ "awd_abstract_narration": "Scientific visualization plays a large role in exploring the scientific simulations that run on supercomputers; new discoveries are often made by studying renderings generated through visualization of simulation results. The standard technique for rendering geometry is rasterization and the most commonly used library for performing this is OpenGL. Many visualization programs (VisIt, Ensight, VAPOR, ParaView, VTK) use OpenGL for rendering. However, recent architectural changes on supercomputers create significant opportunities for alternate rendering techniques. The computational power available on emerging many-core architectures, such as the Intel Xeon Phi processors on TACC?s Stampede system, enable ray-tracing, a higher quality technique. Further, as the amount of geometry per node rises, ray-tracing becomes increasingly cost effective, since its computational costs are proportional to the screen size, not the geometry size. Finally, the software implementation for OpenGL can not be easily mapped to non-GPU multi-core and many-core systems, creating a significant gap; if not closed, visualization will not be possible directly on large supercomputers. This confluence of new, more capable architectures, the increase in geometry per node, and concerns about the durability of the established rendering path all motivate this   work. \r\n\r\nTo address these trends, this research uses a two-pronged approach. First, the research will replace the OpenGL pathways that are commonly used for visualization with a high-performance, open-source ray tracing engine that can interactively render on both a CPU and on accelerator architectures. This new library will support the OpenGL API and will be usable immediately by any OpenGL-based visualization package without additional code modi&#64257;cation. Second, this research will provide a direct interface to a high-performance distributed ray tracing engine so that applications can take advantage of ray tracing capabilities not easily exposed through the standard OpenGL interface, such as participating media and global illumination simulation. These features will enable the open science community to easily create photo-realistic imagery with natural lighting cues to aid in analysis and discovery. It will further expand the capacity of existing cyberinfrastructure to provide interactive visualization on standard HPC resources. \r\n\r\nThis work has the potential to revolutionize in situ visualization capabilities by unifying the (potentially hybrid) architecture that efficiently run both simulation and visualization. Communicating with underrepresented groups will be a major component of outreach efforts through the PCARP, MITE and Women in Engineering programs. In addition, the project team will disseminate this work to the general public through NSF XD program, the VisIt visualization toolkit and by exhibiting at forums such as IEEE Visualization, IEEE High Performance Graphics and ACM Supercomputing.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Charles",
+   "pi_last_name": "Hansen",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Charles D Hansen",
+   "pi_email_addr": "hansen@cs.utah.edu",
+   "nsf_id": "000265298",
+   "pi_start_date": "2013-09-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Utah",
+  "inst_street_address": "201 PRESIDENTS CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SALT LAKE CITY",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8015816903",
+  "inst_zip_code": "841129049",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "UT01",
+  "org_lgl_bus_name": "UNIVERSITY OF UTAH",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LL8GLEVH6MG3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Utah",
+  "perf_str_addr": "75 South 2000 East",
+  "perf_city_name": "Salt Lake City",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "841128930",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "UT01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "8009",
+   "pgm_ref_txt": "Scientifc Software Integration"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 282225.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span><span style=\"font-size: small;\">GraviT is a software library for the class of simulation problems where insight is derived from visualization of scientific data, i.e., data that has physical coordinates. This data is often so large that it cannot reside in the memory of a single compute node and is not scalable for rasterization software. GraviT uses ray-tracing to render visualization images.&nbsp; Ray-tracing is scalable based on the number of pixels rather than the number of geometry primatives and thus scales much better for very large datasets.</span></span></p>\n<p><span><span style=\"font-size: small;\">GraviTs design focuses on three key elements: interface, scheduler, and engine. The interface element is how users interact with GraviT. The scheduler element focuses on how to bring together GraviT functions with the appropriate pieces of data to advance the calculation of the final visualization. The engine element performs the specified operations of the GraviT functions upon the data. This design is i</span></span><span style=\"font-size: small;\">ntentionally modular: developers can opt to extend GraviT with their own implementations of interface, scheduler, or engine, and to re-use the implementations from the other areas.&nbsp;</span><span style=\"font-size: small;\">In short, GraviT provides a working system, but also one that can be easily extended.&nbsp;</span><span style=\"font-size: small;\">GraviT is intended for very computationally heavy problems, so it aims to carry out calculations in the most efficient way possible while maintaining modularity and generality. It has been shown to scale well on large-scale HPC installations such as those at the Texas Advanced Computing Center (TACC).&nbsp; This project was accomplished with collaborators from TACC and the Unversity of Oregon.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/02/2018<br>\n\t\t\t\t\tModified by: Charles&nbsp;D&nbsp;Hansen</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nGraviT is a software library for the class of simulation problems where insight is derived from visualization of scientific data, i.e., data that has physical coordinates. This data is often so large that it cannot reside in the memory of a single compute node and is not scalable for rasterization software. GraviT uses ray-tracing to render visualization images.  Ray-tracing is scalable based on the number of pixels rather than the number of geometry primatives and thus scales much better for very large datasets.\n\nGraviTs design focuses on three key elements: interface, scheduler, and engine. The interface element is how users interact with GraviT. The scheduler element focuses on how to bring together GraviT functions with the appropriate pieces of data to advance the calculation of the final visualization. The engine element performs the specified operations of the GraviT functions upon the data. This design is intentionally modular: developers can opt to extend GraviT with their own implementations of interface, scheduler, or engine, and to re-use the implementations from the other areas. In short, GraviT provides a working system, but also one that can be easily extended. GraviT is intended for very computationally heavy problems, so it aims to carry out calculations in the most efficient way possible while maintaining modularity and generality. It has been shown to scale well on large-scale HPC installations such as those at the Texas Advanced Computing Center (TACC).  This project was accomplished with collaborators from TACC and the Unversity of Oregon.\n\n\t\t\t\t\tLast Modified: 01/02/2018\n\n\t\t\t\t\tSubmitted by: Charles D Hansen"
+ }
+}

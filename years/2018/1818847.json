@@ -1,0 +1,101 @@
+{
+ "awd_id": "1818847",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Construction and Analysis of Numerical Methods for Stochastic Inverse Problems with Application to Coastal Hydrodynamics",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032922113",
+ "po_email": "ygorb@nsf.gov",
+ "po_sign_block_name": "Yuliya Gorb",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 100000.0,
+ "awd_amount": 100000.0,
+ "awd_min_amd_letter_date": "2018-07-26",
+ "awd_max_amd_letter_date": "2018-07-26",
+ "awd_abstract_narration": "As observed in past hurricanes such as Katrina (2005), Ike (2008), Sandy (2012), and the sequence of hurricanes over the 2017 season, flooding due to storm surge and rainfall causes tremendous damage to coastal communities. Preparing for future hurricane impacts requires the ability to predict characteristics of inland flooding due to surge, most importantly water levels, currents, and extent of inundation. Accurate predictions of surge require determining critical inputs to models related to the physical characteristics of coastal regions that are expensive to obtain and evolve in time. This research project focuses on quantifying and reducing uncertainties in these critical inputs using novel mathematical techniques to both extract information from existing data and aid in the design of future data collection efforts.\r\n\r\nMore specifically, this project focuses on the construction, analysis, and implementation of numerical methods for a stochastic inverse problem defined by the melding of observational data and high-fidelity mathematical models to perform scientific and engineering inference and prediction for complex physical systems. This research applies broadly to complex, time-evolving physical systems depending on high dimensional parameter spaces. Mathematical areas utilized in this research include computational measure theory, differential geometry, functional analysis, probability theory, and numerical analysis. Dissemination of results to the broader scientific community will be accomplished in part by the development and implementation of computational algorithms in public domain code that are applied to a state-of-the-art storm surge model.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Clinton",
+   "pi_last_name": "Dawson",
+   "pi_mid_init": "N",
+   "pi_sufx_name": "",
+   "pi_full_name": "Clinton N Dawson",
+   "pi_email_addr": "clint@ices.utexas.edu",
+   "nsf_id": "000369173",
+   "pi_start_date": "2018-07-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "201 East 24th St, Stop C0200",
+  "perf_city_name": "Austin",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121229",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Hurricanes over the past few decades have raised the public consciousness on the devastating impact that storm surge and rainfall has on coastal communities and critical infrastructure. The pressure has increased on the community of computational scientists studying these impacts to develop methods that are robustly reliable and produce accurate predictions. The accurate predictions of storm surge require determining many critical inputs to models related to coastal and atmospheric conditions. While we may collect significant data on some observable characteristics prior to, during, and after an extreme event such as a hurricane, many of these conditions remain hidden from direct observation. It is therefore critical to quantify and reduce, whenever possible, uncertainties in such conditions related to critical model inputs using whatever data are available.<br />This project advanced the formulation and solution of stochastic inverse problems based on rigorous measure theory to propagate uncertainties, in the forms of probability measures (often represented in their more familiar density form), between unobservable model inputs and the observable quantities of interest associated with model outputs. A major result of this project was the development of the LUQ Python module that provides a simple end-to-end workflow for data analysis, based on a machine learning pipeline, that starts from raw (i.e., noisy) time series data and learns the quantities of interest from the associated high-dimensional data clouds. The output of LUQ is a statistical sample of quantities of interest from which non-parametric densities can be both approximated and utilized within the stochastic inverse problem framework. Another major result was the updating of the BET Python library to version 3.0 to solve the stochastic inverse problems using non-parametric density estimates such as those obtained by an analysis of LUQ outputs. Coupling BET and LUQ together, we demonstrated the full workflow on a diverse set of dynamical systems models where hidden distributions of model inputs were reconstructed using noisy time series data.&nbsp;<br />Of particular importance was the successful application of this workflow to the state-of-the-art Advanced Circulation (ADCIRC) model that accurately describes coastal dynamics. Specifically, we used the BET + LUQ workflow along with ADCIRC to quantify uncertainties in wind drag parameters for a simulated extreme weather event in the western north Atlantic near the Shinnecock Inlet.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/21/2022<br>\n\t\t\t\t\tModified by: Clinton&nbsp;N&nbsp;Dawson</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nHurricanes over the past few decades have raised the public consciousness on the devastating impact that storm surge and rainfall has on coastal communities and critical infrastructure. The pressure has increased on the community of computational scientists studying these impacts to develop methods that are robustly reliable and produce accurate predictions. The accurate predictions of storm surge require determining many critical inputs to models related to coastal and atmospheric conditions. While we may collect significant data on some observable characteristics prior to, during, and after an extreme event such as a hurricane, many of these conditions remain hidden from direct observation. It is therefore critical to quantify and reduce, whenever possible, uncertainties in such conditions related to critical model inputs using whatever data are available.\nThis project advanced the formulation and solution of stochastic inverse problems based on rigorous measure theory to propagate uncertainties, in the forms of probability measures (often represented in their more familiar density form), between unobservable model inputs and the observable quantities of interest associated with model outputs. A major result of this project was the development of the LUQ Python module that provides a simple end-to-end workflow for data analysis, based on a machine learning pipeline, that starts from raw (i.e., noisy) time series data and learns the quantities of interest from the associated high-dimensional data clouds. The output of LUQ is a statistical sample of quantities of interest from which non-parametric densities can be both approximated and utilized within the stochastic inverse problem framework. Another major result was the updating of the BET Python library to version 3.0 to solve the stochastic inverse problems using non-parametric density estimates such as those obtained by an analysis of LUQ outputs. Coupling BET and LUQ together, we demonstrated the full workflow on a diverse set of dynamical systems models where hidden distributions of model inputs were reconstructed using noisy time series data. \nOf particular importance was the successful application of this workflow to the state-of-the-art Advanced Circulation (ADCIRC) model that accurately describes coastal dynamics. Specifically, we used the BET + LUQ workflow along with ADCIRC to quantify uncertainties in wind drag parameters for a simulated extreme weather event in the western north Atlantic near the Shinnecock Inlet. \n\n\t\t\t\t\tLast Modified: 11/21/2022\n\n\t\t\t\t\tSubmitted by: Clinton N Dawson"
+ }
+}

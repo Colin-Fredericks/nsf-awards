@@ -1,0 +1,105 @@
+{
+ "awd_id": "1314722",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Medium: Collaborative: The Theory and Practice of Key Derivation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Shannon Beck",
+ "awd_eff_date": "2013-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 531235.0,
+ "awd_amount": 531235.0,
+ "awd_min_amd_letter_date": "2013-06-21",
+ "awd_max_amd_letter_date": "2013-06-21",
+ "awd_abstract_narration": "Most cryptographic applications crucially rely on secret keys that are chosen randomly and are unknown to an attacker. Unfortunately, the process of deriving secret keys in practice is often difficult, error-prone and riddled with security vulnerabilities. Badly generated keys offer a prevalent source of attacks that render complex cryptographic applications completely insecure, despite their sophisticated design and rigorous mathematical analysis.  Even though key derivation plays a central role in the security landscape, it has received surprisingly little formal study within the cryptographic community, leading to a large disconnect between the theory and practice.\r\n \r\nIn this project, several important scenarios for key derivation are examined for their capability to improve security with provable guarantees, including the use of random number generators (RNGs), passwords, and biometrics.  In particular:\r\n \r\n- How RNGs are designed to properly combine the entropy gathering, randomness extraction and pseudorandom generation modules, while achieving the best possible subset of clearly defined security properties against a variety of adversarial scenarios.\r\n \r\n- How to reduce the effectiveness of ?offline dictionary attacks? when generating keys from passwords.\r\n \r\n- How biometrics can be safely reused to generate many secret keys across many applications raises several interesting questions, combining cryptographic security properties with those of error-correcting codes.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Wichs",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Wichs",
+   "pi_email_addr": "d.wichs@neu.edu",
+   "nsf_id": "000577804",
+   "pi_start_date": "2013-06-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Northeastern University",
+  "inst_street_address": "360 HUNTINGTON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173735600",
+  "inst_zip_code": "021155005",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "NORTHEASTERN UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HLTMVS2JZBS6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Northeastern University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021155005",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 531235.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>Essentially all cryptographic applications crucially rely on secret keys that are chosen randomly and are unknown to an attacker. Unfortunately, the process of deriving secret keys in practice is often difficult, error-prone and riddled with security vulnerabilities and pitfalls. Indeed, badly generated keys offer a prevalent source of attacks that render complex cryptographic applications completely insecure despite their sophisticated design and rigorous mathematical security analysis. Given the central role that key derivation plays in the security landscape, it receives surprisingly little formal study within the cryptographic community, which has correspondingly had surprisingly little influence on the process of key derivation in practice. The major goal of this project is to examine several different scenarios for key derivation, including the use of random number generators (RNGs), passwords and biometrics. In all these cases, we develop a thorough&nbsp;theoretical foundations&nbsp;and formal understanding of the required security properties and propose new methods that provide improved security with provable guarantees.</span></p>\n<p><span>We concentrate on the following areas:</span><br /><br /><span>(1) System Random Number Generators (RNGs). RNGs are an important and complex system component whose goal is to gather entropy from various sources (e.g., the timing of system calls), carefully manage the gathered pools of entropy over time, and periodically use them to output arbitrarily long strings of seemingly random bits, which can be used as cryptographic secret keys.</span><br /><br /><span>As part of our research, we found practical attacks on the Linux's RNG /dev/random, and showed the first theoretical analysis (and improvements) of Windows 8 RNG Fortuna. In addition to attacking/analyzing these existing RNG constructions, we also designed a new theoretical framework for building and rigorously analyzing RNGs, and designed several new and provably secure RNGs in our framework, which provide both qualitative and quantitative security and efficiency improvements to known RNG constructions.</span><br /><br /><br /><span>(2) Key Derivation minimizing Entropy Loss. The problem of key derivation is a fundamental cryptographic problem of how to convert an imperfect entropy source such as password into the longest possible nearly uniform cryptographic key. Previous solutions to this problem achieved this task, but at the expense of extracting a key which was noticeably shorter than the entropy of the source. In fact, some prior work even suggested that such non-trivial entropy loss is inherent to the problem. In a very surprising result, we showed that this intuition is wrong, by designing the first provably secure key derivation functions (for a large collection of cryptographic applications) which achieve almost no entropy loss. Given that many entropy sources have very little entropy to begin with, we hope that our work will likely have a significant impact in practice.</span><br /><br /><span>(3) Key Derivation from passwords. One of the main challenges of generating keys from passwords is the issue of offline dictionary attacks where an attacker searches over all possible passwords in a small dictionary. We propose new solutions that reduce the effectiveness of such attacks. One of our ideas is to introduce a semi-trusted online entity (\"helper\") that can help users derive strong cryptographic keys from passwords and prevent offline dictionary attacks, but cannot hurt the user's security if it is ever compromised. We want this helper to be able to identify incorrect password attempts without being able to mount an offline dictionary attack. We achieve this by giving the helper only a single bit of information about the password which is sufficient to identify each incorrect password guess with probability 1/2 and therefore detect if too many such guesses are made. &nbsp;</span><br /><br /><span>(4) Random Oracle with Auxiliary Input. Most practical methods for key derivation rely on the \"random oracle model\" - a framework that allows for rigorous security analysis including analyzing quantitative levels of security. However, the concrete security bounds that the random oracle promises are overly optimistic when we consider realistic attacks that may involve large amount of \"pre-computation\" before attacking a specific instance . In our work, we propose a variant of the random oracle model that takes such pre-computation into account and allows us to analyze the security level of various primitives in such settings.&nbsp;</span><br /><br /><span>Beyond the scientific impact, we believe this project will have a broader impact on society. The poor security of current key-derivation schemes is one of the most common targets of real-world attacks. We expect the results of this research to be useful in significantly improving the security landscape for companies and individuals. On a more direct level, much of the research for this project involved the participation of PhD students and postdocs and included a large mentoring and career-development component. We emphasized diversity and inclusion of under-represented minorities. The participants include a female PhD student and two female postdocs who are continuing on to a research career in academia.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/26/2018<br>\n\t\t\t\t\tModified by: Daniel&nbsp;Wichs</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nEssentially all cryptographic applications crucially rely on secret keys that are chosen randomly and are unknown to an attacker. Unfortunately, the process of deriving secret keys in practice is often difficult, error-prone and riddled with security vulnerabilities and pitfalls. Indeed, badly generated keys offer a prevalent source of attacks that render complex cryptographic applications completely insecure despite their sophisticated design and rigorous mathematical security analysis. Given the central role that key derivation plays in the security landscape, it receives surprisingly little formal study within the cryptographic community, which has correspondingly had surprisingly little influence on the process of key derivation in practice. The major goal of this project is to examine several different scenarios for key derivation, including the use of random number generators (RNGs), passwords and biometrics. In all these cases, we develop a thorough theoretical foundations and formal understanding of the required security properties and propose new methods that provide improved security with provable guarantees.\n\nWe concentrate on the following areas:\n\n(1) System Random Number Generators (RNGs). RNGs are an important and complex system component whose goal is to gather entropy from various sources (e.g., the timing of system calls), carefully manage the gathered pools of entropy over time, and periodically use them to output arbitrarily long strings of seemingly random bits, which can be used as cryptographic secret keys.\n\nAs part of our research, we found practical attacks on the Linux's RNG /dev/random, and showed the first theoretical analysis (and improvements) of Windows 8 RNG Fortuna. In addition to attacking/analyzing these existing RNG constructions, we also designed a new theoretical framework for building and rigorously analyzing RNGs, and designed several new and provably secure RNGs in our framework, which provide both qualitative and quantitative security and efficiency improvements to known RNG constructions.\n\n\n(2) Key Derivation minimizing Entropy Loss. The problem of key derivation is a fundamental cryptographic problem of how to convert an imperfect entropy source such as password into the longest possible nearly uniform cryptographic key. Previous solutions to this problem achieved this task, but at the expense of extracting a key which was noticeably shorter than the entropy of the source. In fact, some prior work even suggested that such non-trivial entropy loss is inherent to the problem. In a very surprising result, we showed that this intuition is wrong, by designing the first provably secure key derivation functions (for a large collection of cryptographic applications) which achieve almost no entropy loss. Given that many entropy sources have very little entropy to begin with, we hope that our work will likely have a significant impact in practice.\n\n(3) Key Derivation from passwords. One of the main challenges of generating keys from passwords is the issue of offline dictionary attacks where an attacker searches over all possible passwords in a small dictionary. We propose new solutions that reduce the effectiveness of such attacks. One of our ideas is to introduce a semi-trusted online entity (\"helper\") that can help users derive strong cryptographic keys from passwords and prevent offline dictionary attacks, but cannot hurt the user's security if it is ever compromised. We want this helper to be able to identify incorrect password attempts without being able to mount an offline dictionary attack. We achieve this by giving the helper only a single bit of information about the password which is sufficient to identify each incorrect password guess with probability 1/2 and therefore detect if too many such guesses are made.  \n\n(4) Random Oracle with Auxiliary Input. Most practical methods for key derivation rely on the \"random oracle model\" - a framework that allows for rigorous security analysis including analyzing quantitative levels of security. However, the concrete security bounds that the random oracle promises are overly optimistic when we consider realistic attacks that may involve large amount of \"pre-computation\" before attacking a specific instance . In our work, we propose a variant of the random oracle model that takes such pre-computation into account and allows us to analyze the security level of various primitives in such settings. \n\nBeyond the scientific impact, we believe this project will have a broader impact on society. The poor security of current key-derivation schemes is one of the most common targets of real-world attacks. We expect the results of this research to be useful in significantly improving the security landscape for companies and individuals. On a more direct level, much of the research for this project involved the participation of PhD students and postdocs and included a large mentoring and career-development component. We emphasized diversity and inclusion of under-represented minorities. The participants include a female PhD student and two female postdocs who are continuing on to a research career in academia.\n\n\t\t\t\t\tLast Modified: 10/26/2018\n\n\t\t\t\t\tSubmitted by: Daniel Wichs"
+ }
+}

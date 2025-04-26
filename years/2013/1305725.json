@@ -1,0 +1,96 @@
+{
+ "awd_id": "1305725",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Regression trees for some problems with multi-dimensional data",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Gabor Szekely",
+ "awd_eff_date": "2013-08-15",
+ "awd_exp_date": "2017-07-31",
+ "tot_intn_awd_amt": 130000.0,
+ "awd_amount": 130000.0,
+ "awd_min_amd_letter_date": "2013-08-23",
+ "awd_max_amd_letter_date": "2013-08-23",
+ "awd_abstract_narration": "The investigator develops regression tree solutions for some important problems with complex and high-dimensional data. Complexity includes missingness, censoring, mixed variable types, and correlated measurements taken at random time points. One specific problem is identification of subgroups for differential treatment effects in comparative trials involving time-varying covariates. A second problem is importance scoring and thresholding of variables and a third is detection of differential test item functioning in testing and evaluation. The main approach relies on adapting and extending the GUIDE decision tree algorithm to these problems. Expected difficulties and challenges include minimizing error rates and computational cost as well as ensuring unbiased selection of the variables used to split the nodes of the trees.\r\n\r\nThe ability to collect and generate greater amounts of data at faster speeds creates new difficulties to data analysis and interpretation. For example, the health industry is looking into using genetic information and repeated observations over time to find personalized treatments for diseases. The proposed research will extend a statistical approach based on decision trees to solve problems such as: (i) identifying subpopulations of patients who benefit more from a one treatment over another, based on repeated observations on health and other outcomes over time, (ii) identifying and ranking genetic and other variables with respect to their importance in prediction of illness and their interactions with treatments, and (iii) identifying test items in testing and evaluation that discriminates against people due to their gender, race, or socio-economic and cultural background.  A decision tree model has the unique advantage that it is easy to apply and intuitive to interpret. The latter property is crucially important to understanding and advancing the science.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wei-Yin",
+   "pi_last_name": "Loh",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wei-Yin Loh",
+   "pi_email_addr": "loh@stat.wisc.edu",
+   "nsf_id": "000465795",
+   "pi_start_date": "2013-08-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Wisconsin-Madison",
+  "inst_street_address": "21 N PARK ST STE 6301",
+  "inst_street_address_2": "",
+  "inst_city_name": "MADISON",
+  "inst_state_code": "WI",
+  "inst_state_name": "Wisconsin",
+  "inst_phone_num": "6082623822",
+  "inst_zip_code": "537151218",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "WI02",
+  "org_lgl_bus_name": "UNIVERSITY OF WISCONSIN SYSTEM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LCLSJAGTNZQ7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Wisconsin",
+  "perf_str_addr": "1300 University Avenue",
+  "perf_city_name": "Madison",
+  "perf_st_code": "WI",
+  "perf_st_name": "Wisconsin",
+  "perf_zip_code": "537061685",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "WI02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "126900",
+   "pgm_ele_name": "STATISTICS"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 130000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Precision medicine seeks to match the right patient to the right treatment. &nbsp;A major outcome of this research is an algorithm called GUIDE that analyzes a clinical trial data set to find patient subgroups, based on patient characteristics, such as demographics, medical history and genetic information, that show differential treatment effects. GUIDE was originally developed as a decision-tree method for statistical classification and prediction. &nbsp;Among existing algorithms, none other than GUIDE has all these properties: (1) no limit on the number of patient characteristics, (2) no limit on the number of treatments, (3) no need to impute missing data values or omit patients or characteristics that have missing values, (4) no limit on the number of outcome variables (e.g., the outcomes may include longitudinal measures of efficacy or time to death and number of adverse events during the trial), (5) explicit control for effects of prognostic variables, and (6) amenability for graphical presentation as a decision tree. Property (3) excludes a large majority of algorithms because of their inapplicability to data with missing values. &nbsp;Property (4) is unique to GUIDE because no other subgroup algorithm can deal with multiple outcomes, which are encountered increasingly often in the age of big data. Property (5) concerns prognostic variables which are predictive of the outcome of a disease irrespective of treatment. Examples are age, prior treatment, and disease severity at the start of the trial. Most if not all previous algorithms do not explicitly include prognostic variables in the models. As a result, prognostic effects may be confounded with treatment effects in the patient subgroups. &nbsp;Property (6) makes interpretation of the subgroups straightforward and intuitive.</p>\n<p><br />Manual identification of subgroups for differentiation treatment effects has been performed for a very long time, under the realm of post-hoc analysis. Because they were done without controlling for false positive errors, some people have recommended that they not be carried out at all. It is rather drastic, however, to stop looking for subgroups simply due to inability to control the false positive error probability. Others have developed intricate multiplicity adjustments to control the probability that require the subgroups to be pre-specified prior to data analysis. &nbsp;A second major outcome of this research is a method that allows almost unlimited search for subgroups with multiplicity control. The solution is based on calibrating the confidence intervals for treatment effects in the subgroups to account for the search. This method only works if the subgroup search is based on an explicit algorithm (such as GUIDE). It draws samples (called bootstrapping) from the data set and applies the search algorithm to each sample. &nbsp;By thus replicating the search procedure numerous times, the lengths of the confidence intervals can be appropriately calibrated to yield the desired coverage probability.</p>\n<p><br />A third major outcome of the research deals with missing value imputation. One popular method, known as \"multiple imputation\", fits a standard statistical model to the data and draws pseudo observations from it to replace the missing values. Except in very simple situations, such as data from a multivariate normal distribution with no missing values in the predictor variables, there is no statistical theory and very little empirical evidence to support the method. For estimation of a population mean or total, another way to deal with missing values is to weight the observations with weights (called propensity scores) proportional to their probability of being observed. Typically, propensity scores are estimated using a method called logistic regression but the latter requires that all the predictor variables are non-missing. As a result, missing predictor values need to be imputed beforehand. &nbsp;Because GUIDE can handle missing values in predictor variables without imputation, it was adapted to estimate propensity scores. Comparisons with multiple imputation and other methods on simulated and real data sets from the Consumer Expenditure Survey show that the GUIDE procedure is much more versatile (i.e, applicable to all situations), has much higher computational speed (seconds and minutes versus days and weeks or more), and, where all methods are applicable, has comparable estimation accuracy.</p>\n<p><br />The above results are being disseminated to the wider scientific community through journal publications, seminars, and short courses at professional meetings. Free software for the GUIDE algorithm is distributed from the website http://www.stat.wisc.edu/~loh/guide.html.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/17/2017<br>\n\t\t\t\t\tModified by: Wei-Yin&nbsp;Loh</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nPrecision medicine seeks to match the right patient to the right treatment.  A major outcome of this research is an algorithm called GUIDE that analyzes a clinical trial data set to find patient subgroups, based on patient characteristics, such as demographics, medical history and genetic information, that show differential treatment effects. GUIDE was originally developed as a decision-tree method for statistical classification and prediction.  Among existing algorithms, none other than GUIDE has all these properties: (1) no limit on the number of patient characteristics, (2) no limit on the number of treatments, (3) no need to impute missing data values or omit patients or characteristics that have missing values, (4) no limit on the number of outcome variables (e.g., the outcomes may include longitudinal measures of efficacy or time to death and number of adverse events during the trial), (5) explicit control for effects of prognostic variables, and (6) amenability for graphical presentation as a decision tree. Property (3) excludes a large majority of algorithms because of their inapplicability to data with missing values.  Property (4) is unique to GUIDE because no other subgroup algorithm can deal with multiple outcomes, which are encountered increasingly often in the age of big data. Property (5) concerns prognostic variables which are predictive of the outcome of a disease irrespective of treatment. Examples are age, prior treatment, and disease severity at the start of the trial. Most if not all previous algorithms do not explicitly include prognostic variables in the models. As a result, prognostic effects may be confounded with treatment effects in the patient subgroups.  Property (6) makes interpretation of the subgroups straightforward and intuitive.\n\n\nManual identification of subgroups for differentiation treatment effects has been performed for a very long time, under the realm of post-hoc analysis. Because they were done without controlling for false positive errors, some people have recommended that they not be carried out at all. It is rather drastic, however, to stop looking for subgroups simply due to inability to control the false positive error probability. Others have developed intricate multiplicity adjustments to control the probability that require the subgroups to be pre-specified prior to data analysis.  A second major outcome of this research is a method that allows almost unlimited search for subgroups with multiplicity control. The solution is based on calibrating the confidence intervals for treatment effects in the subgroups to account for the search. This method only works if the subgroup search is based on an explicit algorithm (such as GUIDE). It draws samples (called bootstrapping) from the data set and applies the search algorithm to each sample.  By thus replicating the search procedure numerous times, the lengths of the confidence intervals can be appropriately calibrated to yield the desired coverage probability.\n\n\nA third major outcome of the research deals with missing value imputation. One popular method, known as \"multiple imputation\", fits a standard statistical model to the data and draws pseudo observations from it to replace the missing values. Except in very simple situations, such as data from a multivariate normal distribution with no missing values in the predictor variables, there is no statistical theory and very little empirical evidence to support the method. For estimation of a population mean or total, another way to deal with missing values is to weight the observations with weights (called propensity scores) proportional to their probability of being observed. Typically, propensity scores are estimated using a method called logistic regression but the latter requires that all the predictor variables are non-missing. As a result, missing predictor values need to be imputed beforehand.  Because GUIDE can handle missing values in predictor variables without imputation, it was adapted to estimate propensity scores. Comparisons with multiple imputation and other methods on simulated and real data sets from the Consumer Expenditure Survey show that the GUIDE procedure is much more versatile (i.e, applicable to all situations), has much higher computational speed (seconds and minutes versus days and weeks or more), and, where all methods are applicable, has comparable estimation accuracy.\n\n\nThe above results are being disseminated to the wider scientific community through journal publications, seminars, and short courses at professional meetings. Free software for the GUIDE algorithm is distributed from the website http://www.stat.wisc.edu/~loh/guide.html.\n\n \n\n\t\t\t\t\tLast Modified: 08/17/2017\n\n\t\t\t\t\tSubmitted by: Wei-Yin Loh"
+ }
+}

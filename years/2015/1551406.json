@@ -1,0 +1,105 @@
+{
+ "awd_id": "1551406",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Large-Scale Bidirectional Search",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032928074",
+ "po_email": "jdonlon@nsf.gov",
+ "po_sign_block_name": "James Donlon",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 139966.0,
+ "awd_amount": 139966.0,
+ "awd_min_amd_letter_date": "2015-08-12",
+ "awd_max_amd_letter_date": "2015-08-12",
+ "awd_abstract_narration": "A large variety of real-world problems are combinatorial in nature: doubling the length of the best solution doesn't double the problem difficulty, it makes it exponentially harder. A classic approach to reducing this complexity is to look for solutions in a bidirectional manner - beginning both from the start and the goal and meeting in the middle. In theory this approach can result in an exponential reduction in the time required to find the best solution, because the two searches are each half the length of the full solution. But, in practice, bidirectional methods haven't been able to compete with the best heuristic approaches. Our work, suggests, however, that scaling the difficulty of problems solved will give the advantage back to bidirectional search approaches. The proposed exploratory research could lead to a new wave of applications of search algorithms to tasks ranging from weather prediction to robotics.\r\n\r\nThis project studies how current computational resources can be used to scale the performance of bidirectional search. This includes the full use of parallel computation and external memory, such as solid state drives. Almost all current devices support parallel computation, so high performance algorithms must exploit parallel computation. Solid state drives have different performance characteristics than traditional hard disk drives with lower latency reads, but a limited number of writes before they wear out. Large-scale heuristics, stored in external memory, can also be used to improve the performance of search. But, in external-memory bidirectional search algorithms there is a tension in how internal memory is allocated: Using it to store large heuristics can prune states and improve the quality of the search, but performance is degraded if memory is not used for other tasks like duplicate detection. Taken together, there is significant room for new research on large-scale bidirectional search algorithms. To improve the applicability and performance of large-scale bidirectional search we will (1) design and implement efficient parallel and external memory search algorithms that (2) are designed to maximize the performance and lifetime of external memory resources and (3) efficiently use external-memory resources such as large-scale heuristics to maximize performance.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nathan",
+   "pi_last_name": "Sturtevant",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nathan Sturtevant",
+   "pi_email_addr": "sturtevant@cs.du.edu",
+   "nsf_id": "000562720",
+   "pi_start_date": "2015-08-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Denver",
+  "inst_street_address": "2199 S UNIVERSITY BLVD RM 222",
+  "inst_street_address_2": "",
+  "inst_city_name": "DENVER",
+  "inst_state_code": "CO",
+  "inst_state_name": "Colorado",
+  "inst_phone_num": "3038712000",
+  "inst_zip_code": "802104711",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "CO01",
+  "org_lgl_bus_name": "UNIVERSITY OF DENVER",
+  "org_prnt_uei_num": "WCUGNQQ8DZU1",
+  "org_uei_num": "WCUGNQQ8DZU1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Denver",
+  "perf_str_addr": "2199 S. University Blvd.",
+  "perf_city_name": "Denver",
+  "perf_st_code": "CO",
+  "perf_st_name": "Colorado",
+  "perf_zip_code": "802104711",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "CO01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 139966.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>When finding a path between two points, the computer can search forward to find a path from the start to the goal. Alternately, it can search backwards, finding a path from the goal to the start. The third option is to search both forward and backwards at the same time, hoping to meet somewhere in the middle. The resarch focus of this project was on studying the third option, also known as bidirectional search.</p>\n<p><br />Although the idea of bidirectional search was proposed over 50 years ago, there were surprising gaps in our understanding of bidirectional search. In this project we formulated the first complete theory of how bidirectional search can be used to solve problems optimally. This theory allowed us to develop the first bidirectional search algorithm with strong performance guarantees. In particular, our algorithm, Near-Optimal Bidirectional Search, will never do more than twice as much work as the best alternative. All previous approaches have no such guarantees and can do arbitrarily worse than the best approach. Furthermore, we have shown that every algorithm will do at least twice as much work as the best alternative in some cases.</p>\n<p>&nbsp;</p>\n<p>We additionally showed how to scale bidirectional search to solve problems which require more RAM than is available by using disk as well. Using this approach we were able to solve larger problems than all previous approaches.</p>\n<p><br />This research has fundamentally changes the understanding of bidirectional search. For many applications of search, bidirectional search should now be re-considered, given the strong performance guarantees of our new algorithms.</p>\n<p><br />Besides the technical contributions, the work is having broader impacts through training of students who are underrepresented in Computer Science, and through dissemination of the research results to broader communities that use shortest path algorithms in practice.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2017<br>\n\t\t\t\t\tModified by: Nathan&nbsp;Sturtevant</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2017/1551406/1551406_10386987_1512025256231_BidirectionalExample--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1551406/1551406_10386987_1512025256231_BidirectionalExample--rgov-800width.jpg\" title=\"Example Bidirectional Search\"><img src=\"/por/images/Reports/POR/2017/1551406/1551406_10386987_1512025256231_BidirectionalExample--rgov-66x44.jpg\" alt=\"Example Bidirectional Search\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">This image shows an example bidirectional search with the optimal path from the start to the goal in black.</div>\n<div class=\"imageCredit\">Nathan Sturtevant</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Nathan&nbsp;Sturtevant</div>\n<div class=\"imageTitle\">Example Bidirectional Search</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nWhen finding a path between two points, the computer can search forward to find a path from the start to the goal. Alternately, it can search backwards, finding a path from the goal to the start. The third option is to search both forward and backwards at the same time, hoping to meet somewhere in the middle. The resarch focus of this project was on studying the third option, also known as bidirectional search.\n\n\nAlthough the idea of bidirectional search was proposed over 50 years ago, there were surprising gaps in our understanding of bidirectional search. In this project we formulated the first complete theory of how bidirectional search can be used to solve problems optimally. This theory allowed us to develop the first bidirectional search algorithm with strong performance guarantees. In particular, our algorithm, Near-Optimal Bidirectional Search, will never do more than twice as much work as the best alternative. All previous approaches have no such guarantees and can do arbitrarily worse than the best approach. Furthermore, we have shown that every algorithm will do at least twice as much work as the best alternative in some cases.\n\n \n\nWe additionally showed how to scale bidirectional search to solve problems which require more RAM than is available by using disk as well. Using this approach we were able to solve larger problems than all previous approaches.\n\n\nThis research has fundamentally changes the understanding of bidirectional search. For many applications of search, bidirectional search should now be re-considered, given the strong performance guarantees of our new algorithms.\n\n\nBesides the technical contributions, the work is having broader impacts through training of students who are underrepresented in Computer Science, and through dissemination of the research results to broader communities that use shortest path algorithms in practice.\n\n\t\t\t\t\tLast Modified: 11/30/2017\n\n\t\t\t\t\tSubmitted by: Nathan Sturtevant"
+ }
+}

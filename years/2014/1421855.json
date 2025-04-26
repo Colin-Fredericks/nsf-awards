@@ -1,0 +1,101 @@
+{
+ "awd_id": "1421855",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Collaborative Research: Dependable Real-Time Computing on Heterogeneous Chip Multiprocessor Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-08-15",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 269966.0,
+ "awd_amount": 269966.0,
+ "awd_min_amd_letter_date": "2014-08-05",
+ "awd_max_amd_letter_date": "2014-08-05",
+ "awd_abstract_narration": "Chip multiprocessor (CMP) systems, which provide multiple processors on a single chip, also known as multicore systems, have displaced single-processor architectures as the de facto standard model for computing platforms. This change is due to the fact that the CMPs offer superior performance and power efficiency, compared to the traditional designs. An emerging feature of the CMP era is the deployment of several different types of processing elements on the same platform, with varying computation speed and power consumption characteristics. An additional complicating factor is that a trend toward overprovisioned designs, where only a subset of the available cores can be active at any time, due to power and thermal constraints. Such heterogeneous CMPs are increasingly being deployed in systems where applications with different safety assurance (dependability) and timeliness requirements must co-exist on the same CMP. Hence, there is a growing need for an integrated framework to allocate heterogeneous hardware resources of a CMP among applications in a way that makes efficient use of the resources while assuring that the diverse safety and timeliness requirements of the applications are met.\r\n\r\nThis project aims to develop models, algorithms, and run-time management schemes for collections of applications with a mix of different timing and dependability requirements running on a shared heterogeneous CMP platform.  In particular, a central objective is to develop a sound methodology to selectively apply known hardware and software fault tolerance mechanisms (such as modular redundancy, task replication, re-execution) to such mixed-dependability applications, by considering resource, power, and timing constraints simultaneously. A second objective is to extend the framework to tackle the challenge of intermittent run-time faults that occur in bursts and can affect multiple applications at once during a bounded time window. Success in these efforts could improve the safety and reduce the development and production costs of the increasingly complex cyber-physical systems upon which we all have come to depend.  \r\n\r\nEducation and outreach activities include integration of aspects of the research into undergraduate and graduate courses at the two participating institutions, involvement of students as research assistants, and efforts to recruit student participants from under-represented demographic groups.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hakan",
+   "pi_last_name": "Aydin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hakan Aydin",
+   "pi_email_addr": "aydin@cs.gmu.edu",
+   "nsf_id": "000217315",
+   "pi_start_date": "2014-08-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "George Mason University",
+  "inst_street_address": "4400 UNIVERSITY DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "FAIRFAX",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "7039932295",
+  "inst_zip_code": "220304422",
+  "inst_country_name": "United States",
+  "cong_dist_code": "11",
+  "st_cong_dist_code": "VA11",
+  "org_lgl_bus_name": "GEORGE MASON UNIVERSITY",
+  "org_prnt_uei_num": "H4NRWLFCDF43",
+  "org_uei_num": "EADLFP7Z72E5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "George Mason University",
+  "perf_str_addr": "4400 University Drive",
+  "perf_city_name": "Fairfax",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "220304422",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "11",
+  "perf_st_cong_dist": "VA11",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 269966.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><br />Chip multiprocessors that host multiple processing units on a single chip&nbsp; have become increasingly common in the design and implementation of real-time embedded systems where meeting the timeliness requirement is critical to achieve the performance objective of the computational platform. Moreover many safety-critical systems mandate dependability&nbsp; (assurances against various faults that may occur at run-time) in addition to&nbsp; real-time operation guarantees.&nbsp; This project, overall, aimed at enhancing the theory and practice of dependable real-time embedded systems implemented upon chip multiprocessor platforms.</p>\n<p><br />As part of the project, we developed algorithms and runtime management schemes for real-time applications with different criticality and resource requirements. We also considered the heterogeneous chip multiprocesor platforms where individual processing units differ in terms of speed, performance, and power consumption characteristics. More specifically, we investigated how the activation rates (periods) can be assigned to various periodic real-time tasks to maximize the overall performance of multiprocessor real-time control systems. Then, we investigated how the number of backup copies and processing voltage and frequency levels&nbsp; can be assigned to real-time tasks to meet reliability requirements while managing energy consumption. We also explored how to tolerate transient faults and a single permanent fault of a processing core by separating primary and backup copies of tasks in terms of assigned processors in energy-efficient manner. In addition, we addressed the problem of effective allocation of real-time tasks on multiprocessor platforms, when the real-time tasks exhibit different criticality requirements. Finally, we considered allocating tasks and their backup tasks on heterogeneous dual-core systems while effectively using the power management scheme Dynamic Voltage and Frequency Scaling (DVFS).</p>\n<p><br />This project provided a strong training and education platform for graduate student researchers, who are likely to join the national workforce in advanced technology areas.&nbsp; The dependable real-time platforms that we investigated throughout the project form the core of the safety-critical computer systems. Failure to provide proper fault tolerance mechanisms may result in serious damage to infrastructures ad properties, even loss of human lives. Hence, with its contributions, the project is expected to have positive economic, environmental, and societal impacts beyond the scientific and technological innovation component.&nbsp; &nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/28/2018<br>\n\t\t\t\t\tModified by: Hakan&nbsp;Aydin</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nChip multiprocessors that host multiple processing units on a single chip  have become increasingly common in the design and implementation of real-time embedded systems where meeting the timeliness requirement is critical to achieve the performance objective of the computational platform. Moreover many safety-critical systems mandate dependability  (assurances against various faults that may occur at run-time) in addition to  real-time operation guarantees.  This project, overall, aimed at enhancing the theory and practice of dependable real-time embedded systems implemented upon chip multiprocessor platforms.\n\n\nAs part of the project, we developed algorithms and runtime management schemes for real-time applications with different criticality and resource requirements. We also considered the heterogeneous chip multiprocesor platforms where individual processing units differ in terms of speed, performance, and power consumption characteristics. More specifically, we investigated how the activation rates (periods) can be assigned to various periodic real-time tasks to maximize the overall performance of multiprocessor real-time control systems. Then, we investigated how the number of backup copies and processing voltage and frequency levels  can be assigned to real-time tasks to meet reliability requirements while managing energy consumption. We also explored how to tolerate transient faults and a single permanent fault of a processing core by separating primary and backup copies of tasks in terms of assigned processors in energy-efficient manner. In addition, we addressed the problem of effective allocation of real-time tasks on multiprocessor platforms, when the real-time tasks exhibit different criticality requirements. Finally, we considered allocating tasks and their backup tasks on heterogeneous dual-core systems while effectively using the power management scheme Dynamic Voltage and Frequency Scaling (DVFS).\n\n\nThis project provided a strong training and education platform for graduate student researchers, who are likely to join the national workforce in advanced technology areas.  The dependable real-time platforms that we investigated throughout the project form the core of the safety-critical computer systems. Failure to provide proper fault tolerance mechanisms may result in serious damage to infrastructures ad properties, even loss of human lives. Hence, with its contributions, the project is expected to have positive economic, environmental, and societal impacts beyond the scientific and technological innovation component.   \n\n\t\t\t\t\tLast Modified: 12/28/2018\n\n\t\t\t\t\tSubmitted by: Hakan Aydin"
+ }
+}

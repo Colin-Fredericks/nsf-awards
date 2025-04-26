@@ -1,0 +1,101 @@
+{
+ "awd_id": "1016828",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Adaptive Synchronization for Multicore Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2010-08-01",
+ "awd_exp_date": "2014-07-31",
+ "tot_intn_awd_amt": 250025.0,
+ "awd_amount": 250025.0,
+ "awd_min_amd_letter_date": "2010-07-20",
+ "awd_max_amd_letter_date": "2010-07-20",
+ "awd_abstract_narration": "Transactional Memory (TM) is among the most promising techniques for simplifying the development of correct parallel programs.  Dozens of different techniques have been developed to implement TM, with each appearing ideally suited to some combination of application and hardware characteristics.  Unfortunately, when the wrong algorithm is chosen for a workload, pathologically bad performance can result.  \r\n\r\nThe problem is particularly acute in programs whose behavior varies over\r\ntime: the best TM implementation for one phase of execution may be unacceptable during another phase.  This research will create new algorithms for dynamic adaptivity, so that the implementation of TM can be changed repeatedly during program execution, thereby maximizing performance during each program phase.\r\n\r\nThe research will explore both mechanism and policy.  It will create new algorithms and heuristics for selecting TM implementations.  It will also model the behavior of a wide array of TM algorithms and workloads on multiple architectures, in order to create a knowledge base suitable for guiding adaptivity.  To achieve maximum performance, the research will consider a broad set of characteristics, to include TM implementation details, bottlenecks, and overheads; risk of pathology; properties of the hardware environment; and workload requirements such as frequency of inter-thread synchronization, I/O, and nontransactional access to shared data.  This research will also develop novel static analyses and a dynamic optimization framework to avoid any overhead while providing robust, adaptive TM.  Prototypes and source code will be distributed as open-source software.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Spear",
+   "pi_mid_init": "F",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael F Spear",
+   "pi_email_addr": "spear@cse.lehigh.edu",
+   "nsf_id": "000538657",
+   "pi_start_date": "2010-07-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Lehigh University",
+  "inst_street_address": "526 BRODHEAD AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BETHLEHEM",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "6107583021",
+  "inst_zip_code": "180153008",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "PA07",
+  "org_lgl_bus_name": "LEHIGH UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "E13MDBKHLDB5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Lehigh University",
+  "perf_str_addr": "526 BRODHEAD AVE",
+  "perf_city_name": "BETHLEHEM",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "180153008",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "PA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 250025.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project entailed a comprehensive study of algorithms and mechanisms for adapting the behavior of transactional programs in response to program behavior, as well as adaptation of general-purpose transactional systems to optimize for specific platform characteristics, such as CPU type, number of cores, and operating system. &nbsp;Among the most significant outcomes were the development of an adaptive framework for transactional memory (TM) algorithms, which was integrated into the open-source RSTM library; the creation of architecture-specific TM algorithms for the ARM and x86 architectures; the creation of a transactional memcached application,which serves both as a benchmark and a vehicle for understanding the emerging specification for adding TM to C++; the release of new TM libraries for the GCC compiler, and the creation of several novel lock-free and wait-free data structures, useful both within TM implementations, and as stand-alone objects.</p>\n<p>During the course of the research, 15 research papers were published, to include 2 journal papers and 8 papers at top-tier conferences. &nbsp;The software developed in support of those papers was released as open-source,and is being used by researchers worldwide.</p>\n<p>Three Ph.D. students and three masters students were directly supported during portions of their education through this research. &nbsp;The award provided a catalyst for collaborations with The University of Rochester, The University of Delaware, AMD, TU-Dresden, and Oracle. &nbsp;The award also supported numerous outreach activities that aim to broaden the STEM pipelineby introducing elementary school children (grades K-5) to topics in computer science.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/05/2014<br>\n\t\t\t\t\tModified by: Michael&nbsp;F&nbsp;Spear</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project entailed a comprehensive study of algorithms and mechanisms for adapting the behavior of transactional programs in response to program behavior, as well as adaptation of general-purpose transactional systems to optimize for specific platform characteristics, such as CPU type, number of cores, and operating system.  Among the most significant outcomes were the development of an adaptive framework for transactional memory (TM) algorithms, which was integrated into the open-source RSTM library; the creation of architecture-specific TM algorithms for the ARM and x86 architectures; the creation of a transactional memcached application,which serves both as a benchmark and a vehicle for understanding the emerging specification for adding TM to C++; the release of new TM libraries for the GCC compiler, and the creation of several novel lock-free and wait-free data structures, useful both within TM implementations, and as stand-alone objects.\n\nDuring the course of the research, 15 research papers were published, to include 2 journal papers and 8 papers at top-tier conferences.  The software developed in support of those papers was released as open-source,and is being used by researchers worldwide.\n\nThree Ph.D. students and three masters students were directly supported during portions of their education through this research.  The award provided a catalyst for collaborations with The University of Rochester, The University of Delaware, AMD, TU-Dresden, and Oracle.  The award also supported numerous outreach activities that aim to broaden the STEM pipelineby introducing elementary school children (grades K-5) to topics in computer science.\n\n\t\t\t\t\tLast Modified: 11/05/2014\n\n\t\t\t\t\tSubmitted by: Michael F Spear"
+ }
+}

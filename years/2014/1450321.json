@@ -1,0 +1,105 @@
+{
+ "awd_id": "1450321",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF EAGER: Minimum Sobolev Norm techniques for systems of elliptic PDEs",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jack S. Snoeyink",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 50000.0,
+ "awd_amount": 50000.0,
+ "awd_min_amd_letter_date": "2014-08-19",
+ "awd_max_amd_letter_date": "2014-08-19",
+ "awd_abstract_narration": "Designing aircraft, skyscrapers, jet engines, medical imaging equipment, computer chips, communication equipment, etc., have one thing in common: they are expensive to prototype. It is significantly cheaper and faster to be able to simulate new designs on a computer before building them. However this requires the ability to rapidly solve the equations of physics, almost all of which are posed as partial differential equations. Unfortunately the current state of the art for the numerical solution of partial differential equations is just too slow to meet the majority of industrial needs.\r\n\r\nThis project is investigating a new promising numerical technique. First it uses a clever variant of the Golomb--Weinberger principle to deal with the infinite number of unknowns. Second, it picks a finite number of equations but insists that the error be exactly zero. Since there are more unknowns than equations, there are many potential solutions, and it uses the Golomb--Weinberger principle to pick the smoothest solution. Deep mathematical techniques can be used to prove that the computed solution will be close to the true solution for a very wide class of partial differential equations, wider than that for current state of the art methods, and this is what makes the project's approach so significant. Sophisticated modern numerical techniques are needed to make this into a practical approach. The initial goal of this project is a working software system for two dimensional problems, along with a detailed mathematical analysis to increase confidence in the approach.\r\n\r\nBroader impacts of this research include software development for public use and supporting and mentoring a female graduate student in this interdisciplinary field.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Shivkumar",
+   "pi_last_name": "Chandrasekaran",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Shivkumar Chandrasekaran",
+   "pi_email_addr": "shiv@ece.ucsb.edu",
+   "nsf_id": "000111884",
+   "pi_start_date": "2014-08-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Santa Barbara",
+  "inst_street_address": "3227 CHEADLE HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "SANTA BARBARA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8058934188",
+  "inst_zip_code": "931060001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "24",
+  "st_cong_dist_code": "CA24",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SANTA BARBARA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G9QBQDH39DF4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Santa Barbara",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "931069560",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "24",
+  "perf_st_cong_dist": "CA24",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7933",
+   "pgm_ref_txt": "NUM, SYMBOL, & ALGEBRA COMPUT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 50000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><dl class=\"clearing\"><dd>\n<div class=\"tinyMCEContent\">\n<p>The major goal of the project was  achieved. A new minimum Sobolev norm (MSN) variant of the finite element  method (FEM) was developed. The new algorithm was proven to be  high-order convergent for <strong>any </strong>well-posed <strong>system</strong> of linear elliptic PDEs, including variable-coefficient and singular  PDEs. This represents a major breakthrough in numerical analysis as it  is the <strong>only</strong> provably correct method that works for this entire class of PDEs.</p>\n<p>An Octave code for 2D PDEs was developed and shown to work precisely  as proven on a wide range of PDEs, ranging from Maxwell's equation to  elastic equations to linearized Navier-Stokes to variable-coefficient  fourth-order PDEs. The code was made available to the public on the  group web-site.</p>\n<p>A journal paper describing the method, the proof, the code and the  numerical experiments was successfully submitted to the premier journal  in numerical analysis, the Journal of Computational Physics, and  accepted for publication.</p>\n<p>As is not uncommon in basic research, during this period we also  found a memory leak in the standard fast construction algorithm for  hierarchically semi-separable (HSS) matrices and proposed a new fast  algorithm that is memory efficient. This was part of Kristen Lessel's  thesis work and was published in SIMAX.</p>\n<p>We also realized that fast algorithm technique can be applied to a  data clustering problem and the new proposed algorithm was accepted in  Calcolo.</p>\n<div class=\"tinyMCEContent\">\n<p>This project developed the first  all-purpose systems of linear elliptic PDE solvers and showed that the  Golomb--Weinberger principle coupled with the diagonal minimum Sobolev  norm idea is a powerful new weapon to attack some difficult problems in  numerical analysis.</p>\n<p>We anticipate that future works  will develop fast algorithms for this new class of method, probably  based on emerging new ideas in structured matrices.</p>\n<p>We also anticipate that this will open a new front on the assault on  non-linear elliptic PDE solvers, which is well-known to be a key problem  in engineering physics, especially in non-linear device simulation. We  point out that the rapid solution of elliptic PDEs is a key bottleneck  in semiconductor testing, design and fabrication, and these types of  advances will be hotly pursued.</p>\n<p>It is very likely that these ideas will also be extended to spectral  problems for elliptic operators, which in turn will have a huge impact  on hyperbolic and parabolic PDEs.</p>\n<p>It is also very likely that these ideas will be extended to integral  equations which are of the utmost importance in computational  electrimagnetics and seismology, especially for exterior problems.</p>\n<p>Broadly speaking, we have invented a new paradigm for the numerical  solution of continuous infinite dimensional problems with broad  applicability, and it is likely that this will initiate a broad new  swath of investigations.</p>\n</div>\n</div>\n</dd></dl><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2016<br>\n\t\t\t\t\tModified by: Shivkumar&nbsp;Chandrasekaran</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\n\nThe major goal of the project was  achieved. A new minimum Sobolev norm (MSN) variant of the finite element  method (FEM) was developed. The new algorithm was proven to be  high-order convergent for any well-posed system of linear elliptic PDEs, including variable-coefficient and singular  PDEs. This represents a major breakthrough in numerical analysis as it  is the only provably correct method that works for this entire class of PDEs.\n\nAn Octave code for 2D PDEs was developed and shown to work precisely  as proven on a wide range of PDEs, ranging from Maxwell's equation to  elastic equations to linearized Navier-Stokes to variable-coefficient  fourth-order PDEs. The code was made available to the public on the  group web-site.\n\nA journal paper describing the method, the proof, the code and the  numerical experiments was successfully submitted to the premier journal  in numerical analysis, the Journal of Computational Physics, and  accepted for publication.\n\nAs is not uncommon in basic research, during this period we also  found a memory leak in the standard fast construction algorithm for  hierarchically semi-separable (HSS) matrices and proposed a new fast  algorithm that is memory efficient. This was part of Kristen Lessel's  thesis work and was published in SIMAX.\n\nWe also realized that fast algorithm technique can be applied to a  data clustering problem and the new proposed algorithm was accepted in  Calcolo.\n\n\nThis project developed the first  all-purpose systems of linear elliptic PDE solvers and showed that the  Golomb--Weinberger principle coupled with the diagonal minimum Sobolev  norm idea is a powerful new weapon to attack some difficult problems in  numerical analysis.\n\nWe anticipate that future works  will develop fast algorithms for this new class of method, probably  based on emerging new ideas in structured matrices.\n\nWe also anticipate that this will open a new front on the assault on  non-linear elliptic PDE solvers, which is well-known to be a key problem  in engineering physics, especially in non-linear device simulation. We  point out that the rapid solution of elliptic PDEs is a key bottleneck  in semiconductor testing, design and fabrication, and these types of  advances will be hotly pursued.\n\nIt is very likely that these ideas will also be extended to spectral  problems for elliptic operators, which in turn will have a huge impact  on hyperbolic and parabolic PDEs.\n\nIt is also very likely that these ideas will be extended to integral  equations which are of the utmost importance in computational  electrimagnetics and seismology, especially for exterior problems.\n\nBroadly speaking, we have invented a new paradigm for the numerical  solution of continuous infinite dimensional problems with broad  applicability, and it is likely that this will initiate a broad new  swath of investigations.\n\n\n\n\n\t\t\t\t\tLast Modified: 11/30/2016\n\n\t\t\t\t\tSubmitted by: Shivkumar Chandrasekaran"
+ }
+}

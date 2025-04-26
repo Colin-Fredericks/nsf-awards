@@ -1,0 +1,105 @@
+{
+ "awd_id": "1320725",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Compiling Custom Hardware Accelerators from Graph Algorithms",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927843",
+ "po_email": "sabasu@nsf.gov",
+ "po_sign_block_name": "Sankar Basu",
+ "awd_eff_date": "2013-07-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2013-06-28",
+ "awd_max_amd_letter_date": "2013-06-28",
+ "awd_abstract_narration": "Many emerging applications in machine learning and data mining can be cast as graph computations. Efficient low-power implementations of graph computations promise disruptive capabilities for the increasingly ubiquitous embedded and mobile platforms. The project is building the GraphGen compiler to overcome the complexity and difficulty of creating graph computation hardware accelerators that are needed to meet the demanding power and performance constraints of embedded and mobile systems.  The GraphGen compiler is a general-purpose compiler (within the graph computation domain) to handle arbitrary graph applications based on varying graph structures (e.g., grid-shaped, planar, natural graphs) that may be static or dynamically changing (e.g., updated by streaming data) following different execution strategies (e.g., synchronous vs. asynchronous).  GraphGen implementation mapping makes use of reusable hardware implementation templates to allow the same graph computation specification to be efficiently mapped onto different target platforms.  Overall, the GraphGen compiler captures knowledge from both application developers (in graph specifications) and hardware designers (in the reusable implementation templates), and bridges the gap between the two camps through automatic mapping of a specification to a template to yield a highly efficient embedded implementation tuned to the application developer's design objectives.\r\n\r\nThe continued exponential increase in transistors-per-die, coupled with advances in sensors and breakthrough algorithms in machine learning and data mining, have resulted in a revolution in the embedded and mobile application space. Graph computation is an important enabling computation paradigm for many of these emerging applications. The GraphGen compiler can facilitate rapid adoption of these applications into embedded and mobile devices by allowing domain experts to automatically translate their graph computation algorithms onto efficient FPGA-accelerated embedded platforms. This new capability has the potential to spark new research in graph computation and embedded hardware architectures by providing a common design automation environment that bridges the gap between application domain experts and hardware designers, thus benefiting industry.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "James",
+   "pi_last_name": "Hoe",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "James Hoe",
+   "pi_email_addr": "jhoe@cmu.edu",
+   "nsf_id": "000464902",
+   "pi_start_date": "2013-06-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "5000 Forbes Avenue",
+  "perf_city_name": "Pittsburgh",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133815",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794500",
+   "pgm_ele_name": "DES AUTO FOR MICRO & NANO SYST"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7945",
+   "pgm_ref_txt": "DES AUTO FOR MICRO & NANO SYST"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Computations on graph-based data structures are the basis of many emerging applications in domains such as machine learning and data mining. Prior work have proposed high-level vertex-centric graph specifications. These specifications are powerful for capturing various graph-based applications, allowing application developers to specify their graph computation of interest at a high-level abstraction, without being bogged down by low-level, platform-specific performance optimization intricacies.</p>\n<p>The GraphGen framework is a domain-specific compiler that accepts graph algorithms described in a vertex-centric graph specification to target a diverse range of non-Von-Neumann accelerator platforms. The goal of GraphGen is to enable application-level and algorithm-level programmers (without specialized platform knowledge and expertise) to nevertheless be able to take advantage of the performance and energy efficiency of accelerator platforms.</p>\n<p>We successfully completed working versions of the GraphGen compiler for FPGAs and for GPUs. &nbsp; The GraphGen compilation is based on a portable Graph Execution Model (GEM) intermediate representation.&nbsp; Akin to an ISA for graph computations, GEM is a fixed low-level abstraction designed to capture arbitrary graph computations in general and to permit efficient direct support in hardware or lightweight interpretation in software. The GraphGen compilers for FPGAs and for GPUGPU share a common front-end targeting GEM. &nbsp; The GraphGen compiler back-end requires parameterized implementation templates to be created by platform specialists. &nbsp;With a common front-end and platform specific backend,&nbsp;same graph algorithm specification input can be retargeted to any GEM-enabled platform. An online demonstration of the GraphGen technology is available through the website http://www.ece.cmu.edu/coram/doku.php?id=graphgencnn.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/07/2017<br>\n\t\t\t\t\tModified by: James&nbsp;Hoe</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2017/1320725/1320725_10255033_1499437132400_graphgen--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1320725/1320725_10255033_1499437132400_graphgen--rgov-800width.jpg\" title=\"GraphGen Framework Overview\"><img src=\"/por/images/Reports/POR/2017/1320725/1320725_10255033_1499437132400_graphgen--rgov-66x44.jpg\" alt=\"GraphGen Framework Overview\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The GraphGen compiler takes graph algorithm specified using a high-level abstraction, andcompiles it down to an executable graph program. Animplementation template can be used to map an executableonto a target platform.</div>\n<div class=\"imageCredit\">James C. Hoe and Eriko Nurvitadhi</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">James&nbsp;Hoe</div>\n<div class=\"imageTitle\">GraphGen Framework Overview</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nComputations on graph-based data structures are the basis of many emerging applications in domains such as machine learning and data mining. Prior work have proposed high-level vertex-centric graph specifications. These specifications are powerful for capturing various graph-based applications, allowing application developers to specify their graph computation of interest at a high-level abstraction, without being bogged down by low-level, platform-specific performance optimization intricacies.\n\nThe GraphGen framework is a domain-specific compiler that accepts graph algorithms described in a vertex-centric graph specification to target a diverse range of non-Von-Neumann accelerator platforms. The goal of GraphGen is to enable application-level and algorithm-level programmers (without specialized platform knowledge and expertise) to nevertheless be able to take advantage of the performance and energy efficiency of accelerator platforms.\n\nWe successfully completed working versions of the GraphGen compiler for FPGAs and for GPUs.   The GraphGen compilation is based on a portable Graph Execution Model (GEM) intermediate representation.  Akin to an ISA for graph computations, GEM is a fixed low-level abstraction designed to capture arbitrary graph computations in general and to permit efficient direct support in hardware or lightweight interpretation in software. The GraphGen compilers for FPGAs and for GPUGPU share a common front-end targeting GEM.   The GraphGen compiler back-end requires parameterized implementation templates to be created by platform specialists.  With a common front-end and platform specific backend, same graph algorithm specification input can be retargeted to any GEM-enabled platform. An online demonstration of the GraphGen technology is available through the website http://www.ece.cmu.edu/coram/doku.php?id=graphgencnn.\n\n \n\n\t\t\t\t\tLast Modified: 07/07/2017\n\n\t\t\t\t\tSubmitted by: James Hoe"
+ }
+}

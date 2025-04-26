@@ -1,0 +1,102 @@
+{
+ "awd_id": "2313433",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Compositional Certified Concurrent Abstraction Layers",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2023-10-01",
+ "awd_exp_date": "2026-09-30",
+ "tot_intn_awd_amt": 540000.0,
+ "awd_amount": 540000.0,
+ "awd_min_amd_letter_date": "2023-06-08",
+ "awd_max_amd_letter_date": "2023-06-08",
+ "awd_abstract_narration": "Concurrent abstraction layers (CCAL) are ubiquitous in modern computer systems because of the pervasiveness of multithreaded programming and multicore hardware. Despite their obvious importance, concurrent abstraction layers have not been treated formally. In 2016, the investigator and his team developed CCAL---a fully mechanized programming toolkit (in Coq) for building certified concurrent abstraction layers. They also applied it to build Certified OS Kernels (CertiKOS), the world's first fully certified concurrent Operating System (OS) kernel. CCAL, however, does not support the general composition of linearizable concurrent objects. It focuses on atomicity but many concurrent libraries do not have sequential atomic specification. This significantly limits CCAL's power and applicability in verifying realistic concurrent OS kernels. This project aims to develop a novel compositional theory of linearizability and a new CCAL toolkit that addresses all of the previous shortcomings. The project's novelties also include new semantic models and formal frameworks for supporting compositional specification, abstraction, and refinement of concurrent programs. The project's impacts include a new set of technologies for building reliable concurrent operating systems, which in turn facilitates the construction of large-scale secure system infrastructures and improves the cybersecurity of our society in general.\r\n\r\nMore specifically, the project will make several related scientific contributions regarding the theory and practice of linearizability, the gold standard for reasoning about correctness of concurrent objects and supporting compositional verification of concurrent programs. First, it will contribute a novel and significantly generalized compositional theory of linearizability that goes much beyond atomicity and can support realistic threading models (containing multiple Central Processing Unit (CPU) cores, kernel/user-level threads, and hardware devices with interrupts), liveness reasoning, crash-safe concurrency, and weak consistency models. Second, basing upon these new compositional semantic models, it will develop and implement various compositional program logics to verify both the safety and progress properties of concurrent objects with support to blocking concurrency, system crashes, and weak memory models. Third, it will implement and integrate the new theory and program logics into the new CCAL toolkit and apply it to verify advanced kernel synchronization libraries and build realistic compositional concurrent OS kernels and hypervisors. On the educational side, this project will develop new courses on certified system software and formal verification. Artifacts resulting from the project will be made open source to ensure rapid dissemination of ideas.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Zhong",
+   "pi_last_name": "Shao",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Zhong Shao",
+   "pi_email_addr": "zhong.shao@yale.edu",
+   "nsf_id": "000201856",
+   "pi_start_date": "2023-06-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Yale University",
+  "inst_street_address": "150 MUNSON ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW HAVEN",
+  "inst_state_code": "CT",
+  "inst_state_name": "Connecticut",
+  "inst_phone_num": "2037854689",
+  "inst_zip_code": "065113572",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "CT03",
+  "org_lgl_bus_name": "YALE UNIV",
+  "org_prnt_uei_num": "FL6GV84CKN57",
+  "org_uei_num": "FL6GV84CKN57"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Yale University",
+  "perf_str_addr": "51 Prospect Street",
+  "perf_city_name": "NEW HAVEN",
+  "perf_st_code": "CT",
+  "perf_st_name": "Connecticut",
+  "perf_zip_code": "065118937",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "CT03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 540000.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,117 @@
+{
+ "awd_id": "2425665",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "SaTC: CORE: Medium: Collaborative: Hardening Off-the-Shelf Software Against Side Channel Attacks",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922812",
+ "po_email": "xiawang@nsf.gov",
+ "po_sign_block_name": "Xiaogang (Cliff)  Wang",
+ "awd_eff_date": "2024-01-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 122767.0,
+ "awd_min_amd_letter_date": "2024-03-19",
+ "awd_max_amd_letter_date": "2024-03-19",
+ "awd_abstract_narration": "Side channel attacks study leakage due to timing variation in software execution, resulting from contention for hardware resources. By analyzing these variations, an attacker can obtain additional information and use it to deduce the victim\u2019s secrets. As proven by Spectre and Meltdown, these side channel attacks pose a severe threat to the security of nearly all computing devices. Given that side channel protection often requires hardware redesign, something must be done in the interim to secure existing software on currently deployed hardware.  This project studies transformations on existing software in an attempt to harden it against side channel attacks. \r\n\r\nThe project consists of three main tasks. In Task 1, the project will attempt to reverse engineer various hardware structures in the processor so as to determine where attacks might occur. Next, in Task 2, the project will use the data from Task 1 to design transformations that will protect leaky software against side channels. Finally, Task 3 will develop methods to confirm that the outputs of Task 2 are indeed side channel free. While typical analysis of side channel leakage requires manual effort, Task 3 aims to develop automated tools for leakage detection, avoiding the need for manual analysis.\r\n\r\nHardware is the ultimate root of trust, the correctness of which is the foundation to the security of all software. However, unlike software, hardware security has received much less attention, from both academic and industry. Until new and secure hardware becomes available, the proposed project aims to protect existing software deployed on leaky hardware. While the project cannot hope to eliminate all leakage, it does aim to harden existing software, making leakage harder to exploit. Tools and methodologies developed by this project will be used to design safer hardware, as well as help mitigate leakage in existing software. \r\n\r\nThe project will retain all data, simulators, and code produced in a central GIT repository which will be publicly available at github.com.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Christopher",
+   "pi_last_name": "Fletcher",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christopher Fletcher",
+   "pi_email_addr": "cwfletch@illinois.edu",
+   "nsf_id": "000743178",
+   "pi_start_date": "2024-03-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "1608 4TH ST STE 201",
+  "perf_city_name": "BERKELEY",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947101749",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 44502.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 78265.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-b9902d77-7fff-cb51-05f7-491312f87483\">\n<p dir=\"ltr\"><span>Over the past decade, we have witnessed a slew of side channel attacks on computing hardware. Ranging from cache attacks in browser environments, to transient execution attacks in native code, to power analysis or EM attacks mounted in by resident software and hardware, it seems that every level of the computing stack has been affected by side channel attacks. While the problem of side channels stems from loose contacts between what is assumed by software vs. what is actually delivered by the hardware, protecting existing systems against side channels must be done in software as the underlying hardware cannot be modified. Thus, the goal of this project is to develop technology to automatically harden software against side channel attacks, as well explore the effectiveness of hardening on existing software. Avoiding the need to recompile legacy software, we aim to perform binary to binary transformations, hardening software even when its compilation chain is no longer available. Finally, in addition to protections against existing attacks, we plan to explore new attack directions, aiming to understand what can, and cannot be recovered by an attacker.</span></p>\n<br />\n<p dir=\"ltr\"><span>Through the project's lifespan, we have discovered numerous side channel issues with our current computing hardware. These have ranged from understanding how attacks extract information using well established cache channels, to the first weaponization of browser based Spectre attacks, to finally mounting Rowhammer attacks on post-quantum cryptographic implementations. Next, the project has led to the discovery of new side channel issues, such as HertzBleed, Augury, GoFetch, iLeakage, as well as others.&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>On the defensive side, this project has resulted in tools for better modeling of side channel issues, for both cryptographic code as well as general system applications.&nbsp; We prototyped a multicore processor Citadel on a Field Programmable Gate Array that is the first implementation of a speculative execution processor resistant to transient execution attacks. Citadel provides secure enclaves within which sensitive data and code can execute without privacy violations due to side channels.&nbsp; Further, we developed a flow for automatically synthesizing a security-centric interface given a processor implementation (ConjunCT, H-Houdini), and tools for automatically patching existing software to respect that interface (SynthCT, Declassiflow).</span></p>\n<br />\n<p dir=\"ltr\"><span>In addition to graduate student theses and peer-reviewed publications, this project provided research projects for high school students who are part of the MIT PRIMES outreach program. Moreover, class assignments and projects resulting from engineering artifacts developed in the course of the projects have been integrated into GATech&rsquo;s Introduction to Information Security class and UIUC&rsquo;s Advanced Security class.&nbsp; Beyond classes, the project enabled multiple conference tutorials on hardware security topics, held at top venues.&nbsp; Finally, this project has facilitated knowledge transfer and collaboration with most hardware vendors, including Intel, AMD and Apple.</span></p>\n<div><span><br /></span></div>\n</span></p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 10/31/2024<br>\nModified by: Christopher&nbsp;Fletcher</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\n\n\n\nOver the past decade, we have witnessed a slew of side channel attacks on computing hardware. Ranging from cache attacks in browser environments, to transient execution attacks in native code, to power analysis or EM attacks mounted in by resident software and hardware, it seems that every level of the computing stack has been affected by side channel attacks. While the problem of side channels stems from loose contacts between what is assumed by software vs. what is actually delivered by the hardware, protecting existing systems against side channels must be done in software as the underlying hardware cannot be modified. Thus, the goal of this project is to develop technology to automatically harden software against side channel attacks, as well explore the effectiveness of hardening on existing software. Avoiding the need to recompile legacy software, we aim to perform binary to binary transformations, hardening software even when its compilation chain is no longer available. Finally, in addition to protections against existing attacks, we plan to explore new attack directions, aiming to understand what can, and cannot be recovered by an attacker.\n\n\n\n\nThrough the project's lifespan, we have discovered numerous side channel issues with our current computing hardware. These have ranged from understanding how attacks extract information using well established cache channels, to the first weaponization of browser based Spectre attacks, to finally mounting Rowhammer attacks on post-quantum cryptographic implementations. Next, the project has led to the discovery of new side channel issues, such as HertzBleed, Augury, GoFetch, iLeakage, as well as others.\n\n\n\n\nOn the defensive side, this project has resulted in tools for better modeling of side channel issues, for both cryptographic code as well as general system applications. We prototyped a multicore processor Citadel on a Field Programmable Gate Array that is the first implementation of a speculative execution processor resistant to transient execution attacks. Citadel provides secure enclaves within which sensitive data and code can execute without privacy violations due to side channels. Further, we developed a flow for automatically synthesizing a security-centric interface given a processor implementation (ConjunCT, H-Houdini), and tools for automatically patching existing software to respect that interface (SynthCT, Declassiflow).\n\n\n\n\nIn addition to graduate student theses and peer-reviewed publications, this project provided research projects for high school students who are part of the MIT PRIMES outreach program. Moreover, class assignments and projects resulting from engineering artifacts developed in the course of the projects have been integrated into GATechs Introduction to Information Security class and UIUCs Advanced Security class. Beyond classes, the project enabled multiple conference tutorials on hardware security topics, held at top venues. Finally, this project has facilitated knowledge transfer and collaboration with most hardware vendors, including Intel, AMD and Apple.\n\n\n\n\n\n\t\t\t\t\tLast Modified: 10/31/2024\n\n\t\t\t\t\tSubmitted by: ChristopherFletcher\n"
+ }
+}

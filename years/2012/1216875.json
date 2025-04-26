@@ -1,0 +1,101 @@
+{
+ "awd_id": "1216875",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RI: Small: Learning Meaning and Grammar from Interaction, Context, and the World",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tatiana Korelsky",
+ "awd_eff_date": "2012-08-01",
+ "awd_exp_date": "2014-07-31",
+ "tot_intn_awd_amt": 150000.0,
+ "awd_amount": 150000.0,
+ "awd_min_amd_letter_date": "2012-07-19",
+ "awd_max_amd_letter_date": "2012-07-19",
+ "awd_abstract_narration": "Natural language processing  tasks like question answering or machine translation require sophisticated parsers: systems that extract grammatical dependency relations between words.  But traditional supervised methods of training parsers rely on very expensive hand-labeled datasets, and generalize poorly to new words, grammar, languages, or genres of text.  This project is pursuing three directions to significantly augment current unsupervised models of grammar induction.  First is a new mathematical model of dependency parsing that draws on linguistic intuitions of constituency.  Second is an architecture that jointly learns grammar and parts-of-speech, eliminating the need for supervised part-of-speech tags and hand-labeled datasets, and making grammar induction possible on a vast number of languages and genres. Third are ways to exploit new sources of data for unsupervised learning, including anchor text in web data, vastly expanding the scope of the problem from the small clean annotated treebanks commonly used in current work.\r\n\r\nLanguage understanding by machine is a crucial tool for our nation: machine translation makes international web sites broadly accessible, sentiment analysis helps newspapers make politics more  transparent, question answering systems help people disseminate knowledge, and information extraction helps corporations and people draw insights from vast databases of documents.  By improving the fundammental parsing technology that underlies each of these tasks, and making it possible to parse new languages and genres that have not been parsable before, this project has the power to vastly increase both the power and scope of these key applications.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Jurafsky",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel S Jurafsky",
+   "pi_email_addr": "jurafsky@stanford.edu",
+   "nsf_id": "000140878",
+   "pi_start_date": "2012-07-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "450 Serra Mall",
+  "perf_city_name": "Stanford",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943019991",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 150000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Text on the web provides an important source of information for our day-to-day life, whether from news, consumer information like credit card legal statements, or health-related or other scientific materials.&nbsp; But the amount of text on the web is overwhelming, making it difficult to find answers to complex questions or solve problems whose answers may be available in text.&nbsp; For this reasons, systems that can extract information from large sources of text, for answering questions, for summarizing, for searching, or for solving real problems are an essential technology.&nbsp; Many such technologies rely on parsing, the task of recognizing and marking up the grammatical structures in text.&nbsp; Parse structures make it possible to extract the meaning of sentences by seeing how words relate to each other.&nbsp; The traditional way to do parsing is to have humans hand-label the parse structures for thousands of sentences and then train statistical models to predict these parses.&nbsp; But labeling sentences is very expensive (requiring highly trained labelers), very expensive (because it's slow) and tends to work best only if the labeled `training' sentence comes from a very similar kind of text to the sentence being parsed.&nbsp; For this reason, it is essential to solve the difficult problem of automatically inducing grammatical structure from text, learning the structure of raw sentences.&nbsp; Having systems that can perform this \"grammar induction\" task means that we could learn from millions of sentences on the web how to parse sentences, and then compute the parse over sentences to help us extract information.</p>\n<p>&nbsp;</p>\n<p>This project developed a suite of new ways to automatically discovering grammatical structures in text.&nbsp; One set of methods we developed show how to make use of hints in the text that correlate with syntactic structures (structures that consist of noun phrases like \"the three requirements\" or verb phrases&nbsp; like \"confirm your participation\").&nbsp; For example text between certain kinds of punctuation, or text that is marked up in boldface or italics often consists of a syntactic phrase. &nbsp; The words that occur at the beginning of sentences are also likely to occur at the beginning of phrases.&nbsp; The words that occur at the end of sentences are also likely to occur at the end of phrases.&nbsp; Capitalization can be a useful cue to learn what is a phrase.&nbsp; But in addition to making use of all these cues that improve our ability to&nbsp; automatically learn syntactic structure from raw text on the web, we developed new methods for performing the induction itself.&nbsp; With these new algorithms we model the process of assigning a syntactic structure to a sentence as a problem of search: we search through all possible structures, eliminating the ones that don't fit the constraints of the sentence.&nbsp; But search, while an important method for lots of artificial intelligence tasks like parsing, is known to be very difficult for certain kinds of problems (called non-convex optimization problems).&nbsp; We showed new methods for breaking down the search problem. One way to improve search is to build on previous partial solutions, taking a partial answer to a problem and modifying it slightly.&nbsp; We show that forgetting parts of previous solutions can often result in a good place to restart a search.&nbsp; Another way to improve search is to combine multiple methods: we show a way to combine the results of previous grammar induction methods to produce an even better method. &nbsp; The results of our work are a new method for grammar induction that works significantly better than all previous such methods at learning the syntactic structure of text, one that we hope will make it easier in the future to extract meaning from raw text of any kind.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/31/2014<b...",
+  "por_txt_cntn": "\nText on the web provides an important source of information for our day-to-day life, whether from news, consumer information like credit card legal statements, or health-related or other scientific materials.  But the amount of text on the web is overwhelming, making it difficult to find answers to complex questions or solve problems whose answers may be available in text.  For this reasons, systems that can extract information from large sources of text, for answering questions, for summarizing, for searching, or for solving real problems are an essential technology.  Many such technologies rely on parsing, the task of recognizing and marking up the grammatical structures in text.  Parse structures make it possible to extract the meaning of sentences by seeing how words relate to each other.  The traditional way to do parsing is to have humans hand-label the parse structures for thousands of sentences and then train statistical models to predict these parses.  But labeling sentences is very expensive (requiring highly trained labelers), very expensive (because it's slow) and tends to work best only if the labeled `training' sentence comes from a very similar kind of text to the sentence being parsed.  For this reason, it is essential to solve the difficult problem of automatically inducing grammatical structure from text, learning the structure of raw sentences.  Having systems that can perform this \"grammar induction\" task means that we could learn from millions of sentences on the web how to parse sentences, and then compute the parse over sentences to help us extract information.\n\n \n\nThis project developed a suite of new ways to automatically discovering grammatical structures in text.  One set of methods we developed show how to make use of hints in the text that correlate with syntactic structures (structures that consist of noun phrases like \"the three requirements\" or verb phrases  like \"confirm your participation\").  For example text between certain kinds of punctuation, or text that is marked up in boldface or italics often consists of a syntactic phrase.   The words that occur at the beginning of sentences are also likely to occur at the beginning of phrases.  The words that occur at the end of sentences are also likely to occur at the end of phrases.  Capitalization can be a useful cue to learn what is a phrase.  But in addition to making use of all these cues that improve our ability to  automatically learn syntactic structure from raw text on the web, we developed new methods for performing the induction itself.  With these new algorithms we model the process of assigning a syntactic structure to a sentence as a problem of search: we search through all possible structures, eliminating the ones that don't fit the constraints of the sentence.  But search, while an important method for lots of artificial intelligence tasks like parsing, is known to be very difficult for certain kinds of problems (called non-convex optimization problems).  We showed new methods for breaking down the search problem. One way to improve search is to build on previous partial solutions, taking a partial answer to a problem and modifying it slightly.  We show that forgetting parts of previous solutions can often result in a good place to restart a search.  Another way to improve search is to combine multiple methods: we show a way to combine the results of previous grammar induction methods to produce an even better method.   The results of our work are a new method for grammar induction that works significantly better than all previous such methods at learning the syntactic structure of text, one that we hope will make it easier in the future to extract meaning from raw text of any kind.\n\n \n\n\t\t\t\t\tLast Modified: 10/31/2014\n\n\t\t\t\t\tSubmitted by: Daniel S Jurafsky"
+ }
+}

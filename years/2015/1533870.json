@@ -1,0 +1,96 @@
+{
+ "awd_id": "1533870",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS:FULL: FP: Collaborative Research: Synchrony-aware Primitives for Building Highly Auditable, Highly Scalable, Highly Available Distributed Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2021-08-31",
+ "tot_intn_awd_amt": 399999.0,
+ "awd_amount": 399999.0,
+ "awd_min_amd_letter_date": "2015-08-14",
+ "awd_max_amd_letter_date": "2015-08-14",
+ "awd_abstract_narration": "Auditability is a key property for developing highly scalable and highly available distributed systems, as it enables identifying performance bottlenecks, dependencies among events, and latent concurrency bugs.  In turn, for the auditability of a system, time is a key concept.  However, there is a gap between the theory and the practice of distributed systems in terms of the use of time. The theory of distributed systems shuns the notion of time and considers asynchronous systems whose event ordering is captured by logical clocks. The practical distributed systems employ NTP synchronized clocks to capture time but tend to use ad hoc methods. This project bridges this gap and provides synchrony-aware system primitives that support building highly auditable, highly scalable, and highly available distributed systems. The project has applications to cloud computing, distributed NewSQL databases, and globally distributed web services. The project enables other broader impacts through enhancing scientific/technological understanding via organizing academic workshops, outreaching to K-12 students, recruitment of minority groups, and distributing tools and software to the community.\r\n\r\nTo enable highly auditable systems, the project investigates lightweight and efficient designs for an augmented time (AT) primitive. AT combines the theoretical underpinnings of causality and the practicality of physical clocks by identifying how logical/vector clocks can be improved and tuned based on the availability of NTP synchronization. The principle guiding AT design will be \"uncertainty resilience\". These AT clocks enable highly auditable systems since they can efficiently provide global consistent-state snapshots without needing to wait out clock synchronization uncertainties and without requiring prior coordination.  Leveraging on these auditability primitives, the project builds support for scalable and available systems. To enable highly scalable systems, the project investigates design of synchrony-aware coordination primitives, such as barrier synchronization, mutual exclusion, leader election, and causally and totally ordered communication support. The principle guiding the design of the synchrony-aware coordination primitives is \"silent consent\". These primitives improve performance and efficiency over their asynchronous system counterparts by trading  timing information gathered from AT clocks and avoiding explicit communication needed for coordination. Finally, the project will leverage the auditability support provided by AT and will investigate the design of a monitor component that detects and corrects distributed system state corruptions. The principle guiding the design of the monitor component is \"centralized oversight and override\".",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Murat",
+   "pi_last_name": "Demirbas",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Murat Demirbas",
+   "pi_email_addr": "demirbas@buffalo.edu",
+   "nsf_id": "000282083",
+   "pi_start_date": "2015-08-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "SUNY at Buffalo",
+  "inst_street_address": "520 LEE ENTRANCE STE 211",
+  "inst_street_address_2": "",
+  "inst_city_name": "AMHERST",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "7166452634",
+  "inst_zip_code": "142282577",
+  "inst_country_name": "United States",
+  "cong_dist_code": "26",
+  "st_cong_dist_code": "NY26",
+  "org_lgl_bus_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "GMZUKXFDJMA9",
+  "org_uei_num": "LMCJKRFW5R81"
+ },
+ "perf_inst": {
+  "perf_inst_name": "SUNY at Buffalo",
+  "perf_str_addr": "338 Davis Hall",
+  "perf_city_name": "Buffalo",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "142602500",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "26",
+  "perf_st_cong_dist": "NY26",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 399999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our project's major goal is to achieve efficient auditability of distributed systems. Auditability is important because it concerns with identifying performance bottlenecks, dependencies among events, and latent concurrency bugs in distributed systems. For auditability we focused on the concept of time. There is a gap between the theory and the practice of distributed systems on the concept of time. The theory of distributed systems shuns the notion of time and considers asynchronous systems, whose event ordering is captured by logical/vector clocks. The practical distributed systems employ NTP synchronized clocks to capture time but do so in ad hoc undisciplined ways. We introduced \"hybrid logical clocks\" (HLC) that takes the best of these two worlds and avoids the disadvantages of each.<br /><br /><br />Auditability of distributed applications is a grueling task requiring careful examination of the logs from different components of the application and figuring out how these components interact with each other. Our auditability solution, Retroscope, helps with aligning/sorting these logs and searching/focusing on the interesting parts. In particular, Retroscope captures a progression of globally consistent distributed states of a system and allows users to examine these states and search for global predicates.</p>\n<p>Retroscope allows users to query and reconstruct past consistent global states of an application. Retroscope achieves this by augmenting the system with HLC and streaming HLCstamped event logs to storage and processing, where HLC timestamps are used for constructing global snapshots upon request. Retroscope exposes a rich querying interface via query language (RQL) to facilitate searching for global/nonlocal predicates across past consistent states. Retroscope performs the search by advancing through global states in small incremental steps, greatly reducing the amount of computation needed to arrive to each consistent state. Embarrassingly-parallel nature of Retroscope search algorithm allows it to use many distributed worker processes to handle a single query. We implemented Retroscope using Apache Ignite as its backbone for streaming, storage and compute. Retroscope is available as opensource from https://github.com/acharapko/retroscope-lib</p>\n<p>&nbsp;</p>\n<p>Our project also investigated synchrony-aware protocols that aim to communicate information with the passage of time. We call this silent consent approach. Done naively, silent consent can be invalidated with the occurrence of faults, such as process failure, message loss, loss of synchrony. To account for this, we identified three remedies. (1) It is possible to relax the information passed by silent consent so it is unaffected by faults. The drawback here is, would the implied information still be useful and help the protocol? (2) It is possible to use orthogonal techniques to mask the faults. The drawback here is the cost of masking the faults: would that overtake the efficiency benefits expected of silent consent? (3) It is possible to use hindsight reconciliation of faults in silent consent. The drawback here is, would this offline/eventual strategy be applicable in useful scenarios?&nbsp;</p>\n<p>As one such primitive, we designed and implemented an efficient geo-scale causally-consistent replicated key-value store, called CausalSpartan. CausalSpartan maintains a stable time such that if stable time at a node is T then all updates upto time T have been received. In turn, if we do not make updates with time greater than T visible then we can ensure causal consistency. One problem with this approach, however, is that if a write needs to be performed at a node where the physical clock is lagging then it can introduce substantial delays. This issue is made worse when a single query (such as update on a social media page) results in multiple reads and write on the data store. We demonstrated that these delays can be eliminated with HLC since HLC is a logical clock that allows itself to move forward to permit such writes immediately. With this approach, we showed that CausalSpartan can provide a significant benefit with no cost. Specifically, if clocks are perfectly synchronized, there is no overhead in CausalSpartan. CausalSpartan is available as opensource from https://github.com/roohitavaf/DKVF/wiki/Distributed-Key-value-Stores<br /><br /><br />The project helped in training of 7 graduate students at University at Buffalo and Michigan State. It has also resulted in many conference and journal publications. The research from this work has been incorporated in the classroom at graduate and undergraduate students.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/21/2022<br>\n\t\t\t\t\tModified by: Murat&nbsp;Demirbas</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOur project's major goal is to achieve efficient auditability of distributed systems. Auditability is important because it concerns with identifying performance bottlenecks, dependencies among events, and latent concurrency bugs in distributed systems. For auditability we focused on the concept of time. There is a gap between the theory and the practice of distributed systems on the concept of time. The theory of distributed systems shuns the notion of time and considers asynchronous systems, whose event ordering is captured by logical/vector clocks. The practical distributed systems employ NTP synchronized clocks to capture time but do so in ad hoc undisciplined ways. We introduced \"hybrid logical clocks\" (HLC) that takes the best of these two worlds and avoids the disadvantages of each.\n\n\nAuditability of distributed applications is a grueling task requiring careful examination of the logs from different components of the application and figuring out how these components interact with each other. Our auditability solution, Retroscope, helps with aligning/sorting these logs and searching/focusing on the interesting parts. In particular, Retroscope captures a progression of globally consistent distributed states of a system and allows users to examine these states and search for global predicates.\n\nRetroscope allows users to query and reconstruct past consistent global states of an application. Retroscope achieves this by augmenting the system with HLC and streaming HLCstamped event logs to storage and processing, where HLC timestamps are used for constructing global snapshots upon request. Retroscope exposes a rich querying interface via query language (RQL) to facilitate searching for global/nonlocal predicates across past consistent states. Retroscope performs the search by advancing through global states in small incremental steps, greatly reducing the amount of computation needed to arrive to each consistent state. Embarrassingly-parallel nature of Retroscope search algorithm allows it to use many distributed worker processes to handle a single query. We implemented Retroscope using Apache Ignite as its backbone for streaming, storage and compute. Retroscope is available as opensource from https://github.com/acharapko/retroscope-lib\n\n \n\nOur project also investigated synchrony-aware protocols that aim to communicate information with the passage of time. We call this silent consent approach. Done naively, silent consent can be invalidated with the occurrence of faults, such as process failure, message loss, loss of synchrony. To account for this, we identified three remedies. (1) It is possible to relax the information passed by silent consent so it is unaffected by faults. The drawback here is, would the implied information still be useful and help the protocol? (2) It is possible to use orthogonal techniques to mask the faults. The drawback here is the cost of masking the faults: would that overtake the efficiency benefits expected of silent consent? (3) It is possible to use hindsight reconciliation of faults in silent consent. The drawback here is, would this offline/eventual strategy be applicable in useful scenarios? \n\nAs one such primitive, we designed and implemented an efficient geo-scale causally-consistent replicated key-value store, called CausalSpartan. CausalSpartan maintains a stable time such that if stable time at a node is T then all updates upto time T have been received. In turn, if we do not make updates with time greater than T visible then we can ensure causal consistency. One problem with this approach, however, is that if a write needs to be performed at a node where the physical clock is lagging then it can introduce substantial delays. This issue is made worse when a single query (such as update on a social media page) results in multiple reads and write on the data store. We demonstrated that these delays can be eliminated with HLC since HLC is a logical clock that allows itself to move forward to permit such writes immediately. With this approach, we showed that CausalSpartan can provide a significant benefit with no cost. Specifically, if clocks are perfectly synchronized, there is no overhead in CausalSpartan. CausalSpartan is available as opensource from https://github.com/roohitavaf/DKVF/wiki/Distributed-Key-value-Stores\n\n\nThe project helped in training of 7 graduate students at University at Buffalo and Michigan State. It has also resulted in many conference and journal publications. The research from this work has been incorporated in the classroom at graduate and undergraduate students.\n\n\t\t\t\t\tLast Modified: 02/21/2022\n\n\t\t\t\t\tSubmitted by: Murat Demirbas"
+ }
+}

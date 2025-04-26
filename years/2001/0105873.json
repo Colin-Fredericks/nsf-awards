@@ -1,0 +1,102 @@
+{
+ "awd_id": "0105873",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "A Framework for Utilization-Based Absolute Delay Guarantees Using Adaptive Prefetching",
+ "cfda_num": "47.070",
+ "org_code": "05050202",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2001-09-15",
+ "awd_exp_date": "2005-08-31",
+ "tot_intn_awd_amt": 222950.0,
+ "awd_amount": 222950.0,
+ "awd_min_amd_letter_date": "2001-09-12",
+ "awd_max_amd_letter_date": "2001-09-12",
+ "awd_abstract_narration": "We propose to develop an architecture and theoretical underpinnings for providing absolute delay\r\nguarantees for HTTP traffic. HTTP traffic constitutes an overwhelming majority of all Internet\r\ntraffic today. Both network load and user-perceived end-to-end response time of web requests\r\ndepend not only on network conditions but also on the performance of web proxy caches around\r\nmajor network backbones. For example, in an HTTP-dominated network, increasing the total\r\namount of cached data may increase hit ratio and subsequently decrease both network load and\r\nnetwork delay. Hence, an architecture for end-to-end web traffic delay guarantees should explicitly\r\nconsider the effect of caching. It is the joint consideration of caching and network performance that\r\nseparates our work from prior efforts on delay guarantees. Essentially, the joint problem considers\r\ndata placement (replication) as a dimension to manipulate for affecting traffic delays. The approach\r\nis cost-effective since data storage is cheaper than network bandwidth.\r\n     The first contribution of this project is to develop a scheme for network load control that relies\r\non adaptive data prefetching. The architecture can be thought of as replacing admission control\r\nat the network boundary. In an HTTP context, while admission control would prevent a client's\r\nrequest from entering the network, data prefetching would bring the information to the client's\r\nside before it is requested, hence de ecting the request away from the backbone. While prefetching\r\nitself introduces traffic, the performance gain comes from the fact that, unlike serving live requests,\r\nprefetching can occur at a lower priority in the background without jeopardizing user-perceived\r\nnetwork performance. Hence, prefetching removes time constraints from a big chunk of HTTP\r\ntraffic which can now be served at a lower priority. Consequently, the remaining (live) HTTP\r\ntraffic will receive better service from the network.\r\n    The second main contribution of the project is a theoretical derivation of the relationship\r\nbetween network resource utilization and the satisfaction of end-to-end deadlines. Specifically, we\r\nprove that keeping network resource utilization due to live web traffic below a given threshold\r\nensures that all ow deadlines are met. We call this threshold, the overcommitment threshold .\r\nThis result allows us to associate deadlines with live web traffic and ensure their satisfaction simply\r\nby performing utilization control. The result obviates maintaining per- ow state in the network for\r\nthe purposes of satisfying absolute delay guarantees.\r\n     Merging the aforementioned contributions together, we propose to use our adaptive prefetching\r\nscheme to keep the amount of live web traffic below the overcommitment threshold. Hence, we\r\nensure the satisfaction of absolute delay guarantees while requiring neither admission control on the\r\nnetwork boundary nor per- ow state in routers. The architecture calls only for service differentiation\r\nin the network to separate live real-time web traffic from background prefetching traffic which may\r\nreceive lower priority. The project will use the PI's existing evaluation testbed for implementing\r\nand evaluating architectural prototypes.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Tarek",
+   "pi_last_name": "Abdelzaher",
+   "pi_mid_init": "F",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tarek F Abdelzaher",
+   "pi_email_addr": "zaher@cs.uiuc.edu",
+   "nsf_id": "000325165",
+   "pi_start_date": "2001-09-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Virginia Main Campus",
+  "inst_street_address": "1001 EMMET ST N",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHARLOTTESVILLE",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "4349244270",
+  "inst_zip_code": "229034833",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "VA05",
+  "org_lgl_bus_name": "RECTOR & VISITORS OF THE UNIVERSITY OF VIRGINIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JJG6HU8PA4S5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Virginia Main Campus",
+  "perf_str_addr": "1001 EMMET ST N",
+  "perf_city_name": "CHARLOTTESVILLE",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "229034833",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "VA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "409700",
+   "pgm_ele_name": "NETWORKING RESEARCH"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0101",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "app-0101",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2001,
+   "fund_oblg_amt": 222950.0
+  }
+ ],
+ "por": null
+}

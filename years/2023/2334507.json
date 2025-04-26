@@ -1,0 +1,122 @@
+{
+ "awd_id": "2334507",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: EAGER: Speeding-up large-scale simulations of atmospheric composition",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922935",
+ "po_email": "dmedhi@nsf.gov",
+ "po_sign_block_name": "Deepankar Medhi",
+ "awd_eff_date": "2024-01-01",
+ "awd_exp_date": "2025-12-31",
+ "tot_intn_awd_amt": 207394.0,
+ "awd_amount": 207394.0,
+ "awd_min_amd_letter_date": "2023-07-20",
+ "awd_max_amd_letter_date": "2023-07-20",
+ "awd_abstract_narration": "This project targets improving how fast the GEOS-Chem 3D atmospheric simulation software runs and brings together computer scientists from Washington University and atmospheric scientists from MIT and Washington University.  GEOS-Chem models the evolution of the chemical composition of the earth atmosphere, and is an essential tool in understanding climate change and what affects it.  The simulation is complex and speeding it up has been the subject of intensive efforts. In particular, to leverage the near limitless computational resources of the \u201ccloud\u201d, the simulation can be broken-up into small independent tasks that can be assigned to different processors.  The challenge is then to decide how to best distribute those tasks across processors so that the simulation completes as fast as possible.  This is the focus of this proposal.\r\n\r\nGEOS-Chem models the evolution of the earth\u2019s atmosphere using a \u201ccubed-sphere\u201d grid of the globe, with each grid element capturing an atmospheric column where complex chemical models simulate the evolution of chemical composition.  The simulation operates in discrete time steps with neighboring columns exchanging information after each time step.  Columns\u2019 computational costs vary, and peak at sunrise and sunset because of temperature differentials.  These variations need to be accounted for when distributing columns across processors to ensure loads as uniform as possible, as uneven loads significantly slow-down the simulation.  Designing task/column assignments solutions that realize this goal is the primary intellectual focus of this project.  This maps to a vector scheduling problem with the added complexity that computations and communications both affect the outcome.  Developing solutions that account for those factors across compute environments is a core technical challenge the proposal targets.\r\n\r\nTackling climate change and understanding what drives it is an enormous challenge with broad societal implications.  The ability to rapidly simulate how the earth atmosphere responds to changes in its chemical composition represents an essential tool in addressing it.  The expected contributions of the project can significantly boost our ability to explore how climate change arises and develop solutions to mitigate it, both of which can have significant economic and societal impact.  In addition, the inherently interdisciplinary nature of the effort will provide a unique training opportunity to the postdoc the project will involve, and should position them well to succeed in an inherently interdisciplinary research landscape.\r\n\r\nFindings from the project will initially be made available on the project\u2019s GitHub site at https://github.com/rochguerin/GEOS-Chem.  However, we anticipate that as, contributions mature, especially those targeting enhancements to the GEOS-Chem software, many will migrate to the main GEOS-Chem website at https://geoschem.github.io/.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Roch",
+   "pi_last_name": "Guerin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Roch Guerin",
+   "pi_email_addr": "guerin@wustl.edu",
+   "nsf_id": "000444512",
+   "pi_start_date": "2023-07-20",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Kunal",
+   "pi_last_name": "Agrawal",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kunal Agrawal",
+   "pi_email_addr": "kunal@cse.wustl.edu",
+   "nsf_id": "000555177",
+   "pi_start_date": "2023-07-20",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Randall",
+   "pi_last_name": "Martin",
+   "pi_mid_init": "V",
+   "pi_sufx_name": "",
+   "pi_full_name": "Randall V Martin",
+   "pi_email_addr": "rvmartin@wustl.edu",
+   "nsf_id": "000796464",
+   "pi_start_date": "2023-07-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Washington University",
+  "inst_street_address": "1 BROOKINGS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SAINT LOUIS",
+  "inst_state_code": "MO",
+  "inst_state_name": "Missouri",
+  "inst_phone_num": "3147474134",
+  "inst_zip_code": "631304862",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "MO01",
+  "org_lgl_bus_name": "WASHINGTON UNIVERSITY, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "L6NFUM28LQM5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Washington University",
+  "perf_str_addr": "ONE BROOKINGS DR",
+  "perf_city_name": "SAINT LOUIS",
+  "perf_st_code": "MO",
+  "perf_st_name": "Missouri",
+  "perf_zip_code": "631304862",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "MO01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "289000",
+   "pgm_ele_name": "CISE Research Resources"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01AB2324DB",
+   "fund_name": "R&RA DRSA DEFC AAB",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 207394.0
+  }
+ ],
+ "por": null
+}

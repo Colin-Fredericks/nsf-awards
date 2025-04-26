@@ -1,0 +1,113 @@
+{
+ "awd_id": "1526725",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Complexity of Distributed Storage",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tracy Kimbrel",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 416000.0,
+ "awd_amount": 416000.0,
+ "awd_min_amd_letter_date": "2015-08-17",
+ "awd_max_amd_letter_date": "2015-08-17",
+ "awd_abstract_narration": "Distributed computing systems are all around us, ranging from multiple cores in a cell phone to the Internet itself.  Distributed storage, or shared data, is a vital mechanism for communication among computing entities (\"processors\") in distributed systems and facilitates the development of correct and efficient applications.  Although shared data is a desirable abstraction, it is not generally provided in large-scale distributed systems due to physical limitations.  Instead, processors keep individual copies of the data, and communicate by sending messages to keep the copies consistent.  It is known that providing shared data with strong guarantees on how consistent the data is can be expensive -- in particular, the operations on the data can take a long time to complete.  This fact has fueled interest in more \"relaxed\" versions of the data, in the hope that operations can be implemented faster.  As an example of relaxed data, imagine data that supports read and write operations where a read operation can return a value that is not the one most recently written.\r\n\r\nDeveloping software for distributed storage systems (and indeed for most distributed systems) that is correct and efficient is challenging due to complications caused by concurrency, component failures, and variable communication delays.  Yet being able to do so will benefit society because of the ubiquity of such software.  This project takes a principled approach, based on rigorous mathematical reasoning, to find distributed algorithms for some fundamental problems that underlie distributed storage systems, with especial focus on relaxed data, and to characterize applications that can exploit the relaxations and their improved performance.\r\n\r\nProject activities will also include creating undergraduate curricular materials on distributed computing to fill existing gaps and providing research experiences for undergraduates, especially women who are woefully under-represented, to encourage more to obtain graduate degrees in computing-related field.\r\n\r\nThe technical problems to be solved include these: Find optimal implementations of various data structures that satisfy the \"linearizability\" consistency condition, where the performance metrics considered include worst-case as well as amortized time; amortized bounds are often of more use than isolated worst-case results, yet they have not been the focus of much analysis.  Discover the relationship between relaxing the specification of an object and relaxing the consistency condition.  Characterize general classes of applications that can exploit relaxed data structures or relaxed consistency conditions.  Determine the level of fault-tolerance of data types in a generic way.  Characterize patterns of churn (processors entering and leaving the system) that allow linearizable objects to be implemented in an asynchronous system subject to crash failures.  The PIs plan to apply, as a general tool, classifications of data type operations by their algebraic properties.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jennifer",
+   "pi_last_name": "Welch",
+   "pi_mid_init": "L",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jennifer L Welch",
+   "pi_email_addr": "welch@cse.tamu.edu",
+   "nsf_id": "000365769",
+   "pi_start_date": "2015-08-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Texas A&M Engineering Experiment Station",
+  "inst_street_address": "3124 TAMU",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE STATION",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "9798626777",
+  "inst_zip_code": "778433124",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "TX10",
+  "org_lgl_bus_name": "TEXAS A&M ENGINEERING EXPERIMENT STATION",
+  "org_prnt_uei_num": "QD1MX6N5YTN4",
+  "org_uei_num": "QD1MX6N5YTN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Texas Engineering Experiment Station",
+  "perf_str_addr": "3112 TAMU",
+  "perf_city_name": "College Station",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "778433112",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "TX10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7934",
+   "pgm_ref_txt": "PARAL/DISTRIBUTED ALGORITHMS"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 416000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>With the increasing reliance of society on distributed computing<br />systems, provably correct and optimally efficient algorithms for<br />implementing shared data will significantly benefit society through<br />improved distributed applications, in particular for cloud computing<br />and storage systems.&nbsp; The use of shared memory, instead of more<br />low-level techniques, contributes to better structured and<br />easier-to-verify distributed applications.&nbsp; Understanding inherent<br />limits on efficiency allows better exploration of the design space.<br /><br />Distributed storage, or shared data, is a vital mechanism for<br />communication among processors in distributed computer systems, and<br />facilitates the development of higher-level applications, such as<br />those in cloud services.&nbsp; Although shared data is a convenient<br />abstraction, it is not generally provided in large-scale distributed<br />systems.&nbsp; Instead, processors keep individual copies of the data, and<br />communicate by sending messages to keep the replicas consistent.<br /><br />Strongly consistent implementations of shared objects with strict<br />semantics are provably expensive, fueling interest in relaxing the<br />semantics of the objects and/or the consistency condition.&nbsp; <br />We identified several situations in which a relaxed version of<br />the specification of an arbitrary abstract data type is equivalent to<br />a relaxed consistency condition.&nbsp; In particular, we showed that data<br />type relaxations are a subset of consistency conditions, i.e.,<br />relaxations and some weakened consistency conditions are different<br />ways to express the same set of allowable behaviors.&nbsp; The ability to<br />use whichever model (relaxed data type specification or relaxed<br />consistency condition) is more convenient is one direct, practical<br />benefit of the correspondence.<br /><br />The notion of consensus number tells which data types can be built out<br />of which other data types in a fault-tolerant way.&nbsp; We showed how the<br />consensus number of any abstract data type in a large class can be<br />determined in a generic way; the benefit is that as new data types are<br />proposed, their consensus number can be automatically determined.&nbsp; We<br />also considered several varieties of a relaxed first-in-first-out<br />queue, which are useful for applications such as webservers and state<br />space exploration.&nbsp; We determined the consensus numbers of these kinds<br />of relaxed queues, which are outside the class considered in the work<br />just mentioned.<br /><br />Distributed systems in which processors enter and leave dynamically,<br />such as mobile ad hoc networks and data centers, are typically<br />asynchronous and crash-prone.&nbsp; We developed an algorithm to emulate a<br />shared read-write register in such systems, which is the first one to<br />allow churn to continue forever and the system size to grow without<br />bound.<br /><br />The project partially supported seven graduate students.&nbsp; One<br />completed his PhD and started as an assistant professor; two completed<br />their master's degrees, one of whom is continuing for a PhD.&nbsp; Two<br />undergraduates were supported for a summer of research.<br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/29/2018<br>\n\t\t\t\t\tModified by: Jennifer&nbsp;L&nbsp;Welch</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nWith the increasing reliance of society on distributed computing\nsystems, provably correct and optimally efficient algorithms for\nimplementing shared data will significantly benefit society through\nimproved distributed applications, in particular for cloud computing\nand storage systems.  The use of shared memory, instead of more\nlow-level techniques, contributes to better structured and\neasier-to-verify distributed applications.  Understanding inherent\nlimits on efficiency allows better exploration of the design space.\n\nDistributed storage, or shared data, is a vital mechanism for\ncommunication among processors in distributed computer systems, and\nfacilitates the development of higher-level applications, such as\nthose in cloud services.  Although shared data is a convenient\nabstraction, it is not generally provided in large-scale distributed\nsystems.  Instead, processors keep individual copies of the data, and\ncommunicate by sending messages to keep the replicas consistent.\n\nStrongly consistent implementations of shared objects with strict\nsemantics are provably expensive, fueling interest in relaxing the\nsemantics of the objects and/or the consistency condition.  \nWe identified several situations in which a relaxed version of\nthe specification of an arbitrary abstract data type is equivalent to\na relaxed consistency condition.  In particular, we showed that data\ntype relaxations are a subset of consistency conditions, i.e.,\nrelaxations and some weakened consistency conditions are different\nways to express the same set of allowable behaviors.  The ability to\nuse whichever model (relaxed data type specification or relaxed\nconsistency condition) is more convenient is one direct, practical\nbenefit of the correspondence.\n\nThe notion of consensus number tells which data types can be built out\nof which other data types in a fault-tolerant way.  We showed how the\nconsensus number of any abstract data type in a large class can be\ndetermined in a generic way; the benefit is that as new data types are\nproposed, their consensus number can be automatically determined.  We\nalso considered several varieties of a relaxed first-in-first-out\nqueue, which are useful for applications such as webservers and state\nspace exploration.  We determined the consensus numbers of these kinds\nof relaxed queues, which are outside the class considered in the work\njust mentioned.\n\nDistributed systems in which processors enter and leave dynamically,\nsuch as mobile ad hoc networks and data centers, are typically\nasynchronous and crash-prone.  We developed an algorithm to emulate a\nshared read-write register in such systems, which is the first one to\nallow churn to continue forever and the system size to grow without\nbound.\n\nThe project partially supported seven graduate students.  One\ncompleted his PhD and started as an assistant professor; two completed\ntheir master's degrees, one of whom is continuing for a PhD.  Two\nundergraduates were supported for a summer of research.\n\n\n\n\t\t\t\t\tLast Modified: 11/29/2018\n\n\t\t\t\t\tSubmitted by: Jennifer L Welch"
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "awd_id": "0113049",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "ITR/AP(MPS): Non-Equilibrium Surface Growth and the Scalability of Parallel Discrete-Event Simulations for Large Asynchronous Systems",
+ "cfda_num": "47.049",
+ "org_code": "03070000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "G. Bruce Taggart",
+ "awd_eff_date": "2001-08-15",
+ "awd_exp_date": "2005-07-31",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2001-08-27",
+ "awd_max_amd_letter_date": "2001-08-27",
+ "awd_abstract_narration": "This award is the result of a proposal submitted to the Information Technology Research initiative.  Modeling and simulation of the evolution of natural and artificial complex systems are of fundamental importance in both sciences and engineering.  In a large class of systems, the underlying dynamic is asynchronous, the \"updates\" in the local \"configurations\" of the system are discrete events in continuous time.  Examples of such systems include magnetization dynamics in condensed matter, the evolution of financial markets, call arrivals in cellular communication networks, and the spread of emerging diseases and epidemics.\r\n\r\nTo design and develop faithful and scalable parallel algorithms to simulate the evolution of large asynchronous systems is one of the most challenging areas in parallel computing.  The ultimate goal of this proposal is to better understand how the scalability of Parallel Discrete-Event Simulation (PDES) algorithms can be enhanced, to program and run PDES simulations for a few chosen applications in science and engineering, and to educate junior researchers to allow them to prepare for careers at the interface between basic sciences and information technology.  These types of PDES can be applied to an extremely wide spectrum of computational problems in science, engineering, manufacturing, biology, and economics.\r\n\r\nPDES use the concept of local random simulated time as well as a synchronization scheme.  The parallel algorithm must concurrently advance the local simulated times of each subsystem carried by a processing element (PE), without violating causality.  In a \"conservative\" PDES scheme, only those PE's which are guaranteed not to violate causality attempt the updates and increment their local time.  The rest of the PE's must idle.  In the \"optimistic\" approach the PE's do not have to idle, but since causality is not guaranteed at every update, the simulated history on certain PE's can become corrupted.  This requires a complex \"rollback\" protocol to correct erroneous computation.  Both simulation approaches lead to an evolving and fluctuating time horizon during algorithm execution.\r\n\r\nThe research will exploit a novel connection recently discovered by the PI's and collaborators between non-equilibrium surface growth phenomena and the evolution of the fluctuating time horizon of conservative schemes.  As the number of computer nodes available to a computational science and engineering problem increases to many thousands, questions of scalability of the underlying algorithms must be answered.  These questions include both how well the algorithms scale asymptotically (in the limit of an infinite number of processors) and how they approach the asymptotic limit.  Recently the PI's studied the case where each PE is connected to its nearest-neighbor PE's on regular lattice topologies, and each PE has no additional computation to perform if it is not advancing time.  This is close to a \"worst-case\" scenario for scalability of the algorithm.  Nevertheless, it was shown that the fraction of non-idling PE's is finite and bounded away from zero in the asymptotic limit of infinitely many PE's.  Hence the algorithm is scalable as the problem size and number of PE's increase.\r\n\r\nThe methodology of the PI's and collaborators used to obtain these results for PDES is the powerful machinery of non-equilibrium interface/surface physics, notably finite-size scaling and universality, applied to the fluctuating time horizon.  This research aims to extend this type of investigation.  In particular, the methods of finite-size scaling, universality, renormalization group, coarse-graining, and mean-field approaches that are commonly applied to physical surfaces will be applied to both simple model time surfaces and realistic time surfaces that arise during PDES simulations in science and engineering.  Based on the \"morphological\" properties of the time horizon, the PI's will design and develop algorithms that optimize simulation speed and data management at the same time.  \r\n\r\nThe research is interdisciplinary at the border between computer science, non-equilibrium surface physics, and the study of complex systems.  It will contribute to the engineering and fine-tuning of scalable massively parallel algorithms, while actual implementations will help to understand cooperative behavior in large asynchronous systems.  This grant also puts special emphasis on the education and training of young scientists.\r\n%%%\r\n***\r\n\r\n\r\n \r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMR",
+ "org_div_long_name": "Division Of Materials Research",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Gyorgy",
+   "pi_last_name": "Korniss",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gyorgy Korniss",
+   "pi_email_addr": "korniss@rpi.edu",
+   "nsf_id": "000246558",
+   "pi_start_date": "2001-08-27",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Mark",
+   "pi_last_name": "Novotny",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mark A Novotny",
+   "pi_email_addr": "man40@msstate.edu",
+   "nsf_id": "000401506",
+   "pi_start_date": "2001-08-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rensselaer Polytechnic Institute",
+  "inst_street_address": "110 8TH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "TROY",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "5182766000",
+  "inst_zip_code": "121803590",
+  "inst_country_name": "United States",
+  "cong_dist_code": "20",
+  "st_cong_dist_code": "NY20",
+  "org_lgl_bus_name": "RENSSELAER POLYTECHNIC INSTITUTE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "U5WBFKEBLMX3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rensselaer Polytechnic Institute",
+  "perf_str_addr": "110 8TH ST",
+  "perf_city_name": "TROY",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "121803590",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "20",
+  "perf_st_cong_dist": "NY20",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "168600",
+   "pgm_ele_name": "ITR SMALL GRANTS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9161",
+   "pgm_ref_txt": "SINGLE DIVISION/UNIVERSITY"
+  },
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0101",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000102DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2001,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": null
+}

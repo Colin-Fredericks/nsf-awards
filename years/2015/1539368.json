@@ -1,0 +1,129 @@
+{
+ "awd_id": "1539368",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CyberSEES:  Type 1:  Collaborative Research:  High-Performance Image Classification and Search Supporting Large-Scale Seafloor Biodiversity and Habitat Surveys",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "David Corman",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 48214.0,
+ "awd_amount": 48214.0,
+ "awd_min_amd_letter_date": "2015-08-26",
+ "awd_max_amd_letter_date": "2015-08-26",
+ "awd_abstract_narration": "Seafloor ecosystems are complex environments populated by a great diversity of organisms. Unfortunately, these ecosystems are increasingly threatened by direct and indirect human activities, including changes in land-use practices, coastal runoff, energy and mineral extraction, and fishing pressure. Developing effective sustainability policies to deal with these ecosystem threats requires that we first understand seafloor communities as they are today, and then track how they change over time as human activities shift and sustainability policies are modified. Recent advances in high-resolution underwater imaging offer new ways to do this. Survey ships can zigzag back and forth above a threatened region, towing a submerged camera system that repeatedly snaps pictures of the seafloor. This produces an enormous and valuable image set that captures the current state of a seafloor ecosystem. Surveys like this have been done for many threatened regions, and more are in progress. Substantial challenges remain to process these image sets. A useful characterization of a seafloor habitat requires knowing which specific types of corals, sponges, starfish, and so forth are present, how many there are, and how they are distributed throughout a region. But with each survey image set containing hundreds of thousands or millions of images, manual processing is impractical. Instead of an army of experts examining these images, computer software can scan each image and automatically recognize the color and texture of different seafloor species. Experimental classification software like this exists today in research laboratories, but the software is slow. To be useful for huge image sets, this software must be revised and optimized to run on the latest high-performance supercomputers. This is the focus of the project, which will yield new optimized classification software that can quickly sweep through enormous image sets to classify and count the species present and provide essential information about the health and biodiversity of threatened seafloor ecosystems, or any other ecosystem with a suitable image set. Then, when surveys are repeated for the same region every few years, this processing can reveal important trends that document the health of a region and the impact of new sustainability policies that aim to mitigate continuing threats to these communities.\r\n\r\nThis project leverages prior work prototyping seafloor image classification algorithms. These algorithms divide survey images into small tiles, then characterize each tile with a high-dimensionality feature vector that includes metrics on the colors and textures present in the tile, along with water temperature, salinity, and depth data collected by the survey apparatus at the moment the image was captured. Colors in the feature vector are chosen based upon a quantized hue histogram of the tile, while textures are characterized by luminance Discrete-Cosine-Transform (DCT) coefficients. A tile's feature vector is then compared against stored feature vectors for known species within a large classification library. A probability-based selection using a set of nearest-neighbor matches from the library yields a best guess for the species depicted in the image tile. This process is repeated tile after tile, image after image throughout an image survey. Classification performance is strongly a function of the classification library size and the dimensionality of feature vectors used for image tiles and library entries. This project's approach to improve classification performance uses a customized k-d-tree search data structure for the classification library, along with domain knowledge to guide and tune the classification process. The project begins with new methods to cull the tree, prior to classification, by using broad survey characteristics, such as the geographic region covered, water temperature and salinity, the sea bottom type from acoustic data, and so forth. Additional techniques optimize the construction and matching of feature vectors by using survey and library metrics to cull and weigh vector components (such as contextual color gamut and texture detail reduction, principal component analysis to combine and weigh features), reduce the nearest-neighbor set size by using k-d tree metrics on library diversity, restructure the k-d tree to improve common case search and cache performance, and parallelize the search for efficient classification across multiple threads, cores, processors, and nodes in a large compute cluster. Together these new methods are expected to substantially increase classification performance and enable efficient processing for the latest large survey image sets.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "James",
+   "pi_last_name": "Leichter",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "James J Leichter",
+   "pi_email_addr": "jleichter@ucsd.edu",
+   "nsf_id": "000066840",
+   "pi_start_date": "2015-08-26",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Malcolm",
+   "pi_last_name": "Stokes",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Malcolm D Stokes",
+   "pi_email_addr": "dstokes@mpl.ucsd.edu",
+   "nsf_id": "000490728",
+   "pi_start_date": "2015-08-26",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Grant",
+   "pi_last_name": "Deane",
+   "pi_mid_init": "B",
+   "pi_sufx_name": "",
+   "pi_full_name": "Grant B Deane",
+   "pi_email_addr": "grant@mpl.ucsd.edu",
+   "nsf_id": "000487634",
+   "pi_start_date": "2015-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-San Diego Scripps Inst of Oceanography",
+  "inst_street_address": "8622 DISCOVERY WAY # 116",
+  "inst_street_address_2": "",
+  "inst_city_name": "LA JOLLA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8585341293",
+  "inst_zip_code": "920931500",
+  "inst_country_name": "United States",
+  "cong_dist_code": "50",
+  "st_cong_dist_code": "CA50",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA SAN DIEGO",
+  "org_prnt_uei_num": "QJ8HMDK7MRM3",
+  "org_uei_num": "QJ8HMDK7MRM3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "UCSD Scripps Inst of Oceanography",
+  "perf_str_addr": "8602 La Jolla Shores Dr.",
+  "perf_city_name": "La Jolla",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "920930206",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "50",
+  "perf_st_cong_dist": "CA50",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "821100",
+   "pgm_ele_name": "CyberSEES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8231",
+   "pgm_ref_txt": "CyberSEES"
+  },
+  {
+   "pgm_ref_code": "8207",
+   "pgm_ref_txt": "CyberSEES Type 1"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 48214.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Seafloor habitats are increasingly threatened by climate change and human activities. Studying these habitats is extremely difficult because obtaining and analyzing detailed photographic and other data that captures the current state of different ocean habitats and how the habitats change over time is extremely labor and cost intensive. While large-scale photographic surveys of the seafloor are possible and in progress, the huge quantity of images and related data that the surveys produce creates a very large data set for subsequent analysis by both human-assisted and computer-based approaches.</p>\n<p>&nbsp;Prior to the work enabled by this Cybersees project, the automated analysis of images in a large seafloor survey would require years of continuous computation on a powerful desktop computer. While this computation time conceivably could be reduced by running the job repeatedly on a large number of separate supercomputer clusters, the performance would still be very poor, the computation would remain time-consuming, and the cost would be out of reach for most researchers. The timely analysis of large survey data would remain problematic, not just for marine scientists, but for anyone seeking to analyze similar large data tasks.</p>\n<p>&nbsp;This project approached this computation task by redesigning software algorithms for greater efficiency, and implementing them using modern high-performance programming techniques. The preliminary results achieved a 13,000 times improvement while using only a single 24-core cluster computer node. Even on a laptop computer, performance gains have been so substantial that we were able to use the software to classify images in the field during a recent seafloor survey. We expect further performance gains as the software techniques developed here are further refined.</p>\n<p>&nbsp;While these results substantially reduce the computation required, reading and analyzing a very large number of images from data storage still takes time, and doing so is beyond reasonable expectations for a desktop computer. Further performance gains require the use of supercomputers with large numbers of processors, high-speed networks, and high-performance file systems. Developing software for this environment was pursued in the second year of this project and yielded a substantial reduction in the time required to analyze several hundred thousand images in a photo survey.</p>\n<p>&nbsp;With the reduction in image processing time needed for each survey, new types of analyses become possible. New algorithms can be plugged into this software framework to extract further detail. Analyses can be run again and again, returning results within minutes as the algorithms and parameters are tuned to obtain optimum results. With fast analysis, researchers can develop new queries to ask new questions about species populations, spatial relationships between species, regional characteristics, and how all of these change over time as the same region is surveyed year after year.</p>\n<p>&nbsp;High-performance computation of this type is a science enabler that can contribute to a profound shift in how we study important ecosystems and track their changes. Image libraries and image-based recognition algorithms already exist in many fields, but the generic approaches used to, say, recognize simple objects sitting alone on a table are not very good at recognizing complex organic shapes, like a coral, embedded within a clutter of other plants and animals on a sea floor. To analyze this real-world imagery, new techniques are required. The direction explored by this project was to apply domain knowledge of seafloor habitats to redesign and tune image analysis algorithms to do a better job. The specifically tuned algorithms developed for seafloor imagery are unlikely to work as-is for images of other habitats, such as forests, ice flows, and deserts. However, we expect that applying domain knowledge of those habitats, together with the software structure &nbsp;that has been developed herein, can now enable similar analyses in many different environments.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/11/2019<br>\n\t\t\t\t\tModified by: Malcolm&nbsp;D&nbsp;Stokes</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSeafloor habitats are increasingly threatened by climate change and human activities. Studying these habitats is extremely difficult because obtaining and analyzing detailed photographic and other data that captures the current state of different ocean habitats and how the habitats change over time is extremely labor and cost intensive. While large-scale photographic surveys of the seafloor are possible and in progress, the huge quantity of images and related data that the surveys produce creates a very large data set for subsequent analysis by both human-assisted and computer-based approaches.\n\n Prior to the work enabled by this Cybersees project, the automated analysis of images in a large seafloor survey would require years of continuous computation on a powerful desktop computer. While this computation time conceivably could be reduced by running the job repeatedly on a large number of separate supercomputer clusters, the performance would still be very poor, the computation would remain time-consuming, and the cost would be out of reach for most researchers. The timely analysis of large survey data would remain problematic, not just for marine scientists, but for anyone seeking to analyze similar large data tasks.\n\n This project approached this computation task by redesigning software algorithms for greater efficiency, and implementing them using modern high-performance programming techniques. The preliminary results achieved a 13,000 times improvement while using only a single 24-core cluster computer node. Even on a laptop computer, performance gains have been so substantial that we were able to use the software to classify images in the field during a recent seafloor survey. We expect further performance gains as the software techniques developed here are further refined.\n\n While these results substantially reduce the computation required, reading and analyzing a very large number of images from data storage still takes time, and doing so is beyond reasonable expectations for a desktop computer. Further performance gains require the use of supercomputers with large numbers of processors, high-speed networks, and high-performance file systems. Developing software for this environment was pursued in the second year of this project and yielded a substantial reduction in the time required to analyze several hundred thousand images in a photo survey.\n\n With the reduction in image processing time needed for each survey, new types of analyses become possible. New algorithms can be plugged into this software framework to extract further detail. Analyses can be run again and again, returning results within minutes as the algorithms and parameters are tuned to obtain optimum results. With fast analysis, researchers can develop new queries to ask new questions about species populations, spatial relationships between species, regional characteristics, and how all of these change over time as the same region is surveyed year after year.\n\n High-performance computation of this type is a science enabler that can contribute to a profound shift in how we study important ecosystems and track their changes. Image libraries and image-based recognition algorithms already exist in many fields, but the generic approaches used to, say, recognize simple objects sitting alone on a table are not very good at recognizing complex organic shapes, like a coral, embedded within a clutter of other plants and animals on a sea floor. To analyze this real-world imagery, new techniques are required. The direction explored by this project was to apply domain knowledge of seafloor habitats to redesign and tune image analysis algorithms to do a better job. The specifically tuned algorithms developed for seafloor imagery are unlikely to work as-is for images of other habitats, such as forests, ice flows, and deserts. However, we expect that applying domain knowledge of those habitats, together with the software structure  that has been developed herein, can now enable similar analyses in many different environments.\n\n \n\n\t\t\t\t\tLast Modified: 10/11/2019\n\n\t\t\t\t\tSubmitted by: Malcolm D Stokes"
+ }
+}

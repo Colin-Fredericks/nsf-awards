@@ -1,0 +1,109 @@
+{
+ "awd_id": "1414950",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "EAPSI: Improving Computer Simulations of Earthquakes",
+ "cfda_num": "47.079",
+ "org_code": "01090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anne Emig",
+ "awd_eff_date": "2014-06-01",
+ "awd_exp_date": "2015-05-31",
+ "tot_intn_awd_amt": 5070.0,
+ "awd_amount": 5070.0,
+ "awd_min_amd_letter_date": "2014-05-30",
+ "awd_max_amd_letter_date": "2014-05-30",
+ "awd_abstract_narration": "Predicting earthquakes is a difficult task, due largely to a limited understanding of the complex physical processes involved. Computer simulations allow researchers to better understand such processes, but the current models are limited in terms of the problem size that they can handle.  Improving these computer models could provide insight into seismic events, such as earthquakes, and possibly aid in prediction. This project will focus on improving an existing software package for modeling Episodic Tremor and Slip (ETS) events. This research will be conducted at the Chinese Academy of Sciences in collaboration with Dr. Zongyan Cao, an expert with the Xeon Phi Coprocessor, Intel's new chip that will be used in the computer simulations.\r\n\r\nETS events occur where continental plates meet, and they are characterized by weak, long-term tremors with acute seismic events occurring periodically. A novel mathematical model has been proposed to describe ETS, and subsequent computer simulations closely match observed GPS data. This model describes a system of shearing and fluid release. As two plates slide along each other, heat is produced, ultimately causing a dehydration reaction to occur. The result is a release of high-pressure fluid, which acts as a lubricant, resulting in a slip event. Additionally, the fluid absorbs heat, and the whole system cools and returns to it's original state. The code for this chemo-mechanical oscillator model is limited in size and scale; it currently only runs in one dimension and in serial. This research seeks to develop a parallel version of the code that is capable of handling multiple dimensions and multiple time and length scales. Intel's Xeon Phi Coprocessor will be used, in part due to its ease of programmability, but also because the next generation of HPC systems will make use of accelerator technologies like the Xeon Phi. This NSF EAPSI award is funded in collaboration with the Chinese Ministry of Science and Technology.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OISE",
+ "org_div_long_name": "Office of International Science and Engineering",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Brian",
+   "pi_last_name": "Skjerven",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Brian Skjerven",
+   "pi_email_addr": "",
+   "nsf_id": "000659815",
+   "pi_start_date": "2014-05-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Skjerven                Brian",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "Minneapolis",
+  "inst_state_code": "MN",
+  "inst_state_name": "Minnesota",
+  "inst_phone_num": "",
+  "inst_zip_code": "554550291",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MN05",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "Skjerven                Brian",
+  "perf_str_addr": null,
+  "perf_city_name": "Minneapolis",
+  "perf_st_code": "MN",
+  "perf_st_name": "Minnesota",
+  "perf_zip_code": "554550291",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MN05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "731600",
+   "pgm_ele_name": "EAPSI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5978",
+   "pgm_ref_txt": "EAST ASIA AND PACIFIC PROGRAM"
+  },
+  {
+   "pgm_ref_code": "7316",
+   "pgm_ref_txt": "EAPSI"
+  },
+  {
+   "pgm_ref_code": "9200",
+   "pgm_ref_txt": "US CHINA COOP IN BASIC SCIENCE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 5070.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The primary goal of this project was to improve upon an existing software package used in modelling Episodic Tremor Slip (ETS) events.&nbsp;ETS events are observed in areas where continental plates meet. They are characterized by weak, long-term tremors, with acute seismic events occurring periodically. Recent work has shown that there exists a pattern to these events, and a model describing this phenomenon has been proposed.</p>\n<p>Prior to this project, the software used to model ETS events was limited in the size and detail of simulations it could handle; small, one-dimensional models were all that were computationally feasible. &nbsp;In order to run larger, more realistic simulations, the code needed to be adapted to make use of supercomputers.</p>\n<p>Being able to accurately model ETS events will provide valuable insight into the modelling and prediction of other seismic activity, such as earthquakes. Also, the underlying mathematical model used may describe other seismic events involving material deformation and fluid release. &nbsp;As such, it may have applications in other areas of geophysics.</p>\n<p>Overall&nbsp;the project was successful, in that we were able to create a parallel version of the existing serial code.&nbsp; To verify the code, simulations were run modelling the movement of continental plates near Washington and Oregon, and the results were compared with existing GPS data.&nbsp; The attached figure shows the GPS measurements in blue dots, along with the computational results, showing a strong agreement between the two.</p>\n<p>While we weren&rsquo;t able to use the model for larger simulations due to time constraints, the resulting software package does provide a solid base to continue working from.&nbsp; The code developed during this project makes use of an external library called ViennaCL that allows it to run a variety of computer architectures.&nbsp; While there is some loss of compute performance in doing so, it does allow a wide range of users to make use of the software developed under this project.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/02/2015<br>\n\t\t\t\t\tModified by: Brian&nbsp;Skjerven</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2015/1414950/1414950_10306208_1425287717255_GPS--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2015/1414950/1414950_10306208_1425287717255_GPS--rgov-800width.jpg\" title=\"GPS Results\"><img src=\"/por/images/Reports/POR/2015/1414950/1414950_10306208_1425287717255_GPS--rgov-66x44.jpg\" alt=\"GPS Results\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Comparison of GPS data and simulation results of continental plate movement.</div>\n<div class=\"imageCredit\">Brian Skjerven, Manolis Veveakis</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Brian&nbsp;Skjerven</div>\n<div class=\"imageTitle\">GPS Results</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThe primary goal of this project was to improve upon an existing software package used in modelling Episodic Tremor Slip (ETS) events. ETS events are observed in areas where continental plates meet. They are characterized by weak, long-term tremors, with acute seismic events occurring periodically. Recent work has shown that there exists a pattern to these events, and a model describing this phenomenon has been proposed.\n\nPrior to this project, the software used to model ETS events was limited in the size and detail of simulations it could handle; small, one-dimensional models were all that were computationally feasible.  In order to run larger, more realistic simulations, the code needed to be adapted to make use of supercomputers.\n\nBeing able to accurately model ETS events will provide valuable insight into the modelling and prediction of other seismic activity, such as earthquakes. Also, the underlying mathematical model used may describe other seismic events involving material deformation and fluid release.  As such, it may have applications in other areas of geophysics.\n\nOverall the project was successful, in that we were able to create a parallel version of the existing serial code.  To verify the code, simulations were run modelling the movement of continental plates near Washington and Oregon, and the results were compared with existing GPS data.  The attached figure shows the GPS measurements in blue dots, along with the computational results, showing a strong agreement between the two.\n\nWhile we weren\u00c6t able to use the model for larger simulations due to time constraints, the resulting software package does provide a solid base to continue working from.  The code developed during this project makes use of an external library called ViennaCL that allows it to run a variety of computer architectures.  While there is some loss of compute performance in doing so, it does allow a wide range of users to make use of the software developed under this project.\n\n \n\n\t\t\t\t\tLast Modified: 03/02/2015\n\n\t\t\t\t\tSubmitted by: Brian Skjerven"
+ }
+}

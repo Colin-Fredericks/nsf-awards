@@ -1,0 +1,126 @@
+{
+ "awd_id": "0338750",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "SP:  Very Fine-Grained Proximity Addressing",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jie Wu",
+ "awd_eff_date": "2003-09-01",
+ "awd_exp_date": "2007-08-31",
+ "tot_intn_awd_amt": 496421.0,
+ "awd_amount": 496421.0,
+ "awd_min_amd_letter_date": "2003-09-05",
+ "awd_max_amd_letter_date": "2005-06-23",
+ "awd_abstract_narration": "Today host computer systems attached to the Internet have two basic identifiers: the IP address and\r\nthe Domain Name. Neither identifier reliably indicates how systems are \"positioned\" in the Internet\r\nwith respect to each other. Two IP addresses or Domain Names may be very similar, and yet the two\r\nsystems they represent may be far apart in terms of latency or throughput. This lack of a proximity\r\n\"address\" is a serious limitation of the Internet architecture.\r\n\r\nThere have been several research projects to address this limitation. The pioneering work in this area\r\nwas IDMaps, which proposed an infrastructure service that could answer queries about proximity\r\nbetween pairs of IP addresses. A subsequent advancement proposed using Global Network\r\nPositioning (GNP)a proximity address formed from a Cartesian coordinate system super-imposed\r\non the Internet.\r\n\r\nThe primary shortcoming of these and other approaches is that they operate only at course\r\ngranularity. At less than 50ms latency (a typical east-to-west coast latency!), over-estimates of 200%\r\nand 300% are common. This is entirely inadequate for applications such as networked first person\r\nshooter games and tightly-coupled grid computing applications, both of which require latencies well\r\nbelow 50ms. Data intensive grid computing applications and peer-to-peer applications like file\r\nsharing would reduce network load significantly if participants in the same campus network or ISP\r\ncould find each other. Another shortcoming of existing approaches is that they typically require that\r\ndedicated infrastructure be deployed. While this is feasible for private corporations like Akamai,\r\nthere exists no known business model for a common public proximity service.\r\n\r\nThis project will design and implement a system for calculating proximity addresses at very-fine\r\ngranularity (microsecond latencies and gigabit throughputs) and at global scale. By necessity this\r\nsystem will be distributed (peer-to-peer), requiring that all nodes be able to serve as \"reference\r\npoints\" in the coordinate system. This is because it is impossible to represent microsecond latencies\r\nunless the reference points are within microseconds. The existence of a global fine-grained\r\nhierarchical proximity address, however, presents other tantalizing possibilities. For instance, such\r\nan address could be used as the basis for building a new type of routing overlay, which could then be\r\nused as a peer-to-peer discovery mechanism.\r\n\r\nThis project presents significant new intellectual challenges comparable to those in network routing\r\nrequired to move from flat addressing to hierarchical addressing. The research team plans to design new forms of proximity addressing that are hierarchical rather than flat, that do not focus load on a few systems,\r\nand that are simple enough that they can be auto-configured. The researchers also must design new types of P2P networks that are customized for the problem of configuring proximity addresses. These P2P\r\nnetworks must be simpler than current networks so that they can truly scale to global proportion even\r\nin the face of churn (nodes joining and leaving). This project is expected to produce broad\r\nintellectual results in the structure of hierarchical proximity addresses and how they relate to network\r\nmetrics, as well as in how to build very large and simple peer-to-peer networks.\r\n\r\nThis project will have two forms of impact. First, any distributed application that dynamically\r\ndiscovers participants, and requires that participants be nearby, will benefit from very-fine grained\r\nproximity addresses. Such applications include networked games and Grid computing. Indeed the\r\nimprovements in granularity may enable the creation of new applications. Second, the advances in\r\npeer-to-peer networking required for this project may serve as the basis for other types of peer-to-\r\npeer applications. Specifically, any peer-to-peer application that requires the discovery of nodes that\r\ncan serve a certain role (i.e., act as reference points) will benefit from the advances in scale and\r\nefficiency required for this project.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Paul",
+   "pi_last_name": "Francis",
+   "pi_mid_init": "T",
+   "pi_sufx_name": "",
+   "pi_full_name": "Paul T Francis",
+   "pi_email_addr": "francis@cs.cornell.edu",
+   "nsf_id": "000416001",
+   "pi_start_date": "2003-09-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Cornell University",
+  "inst_street_address": "341 PINE TREE RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "ITHACA",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6072555014",
+  "inst_zip_code": "148502820",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "NY19",
+  "org_lgl_bus_name": "CORNELL UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G56PUALJ3KT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Cornell University",
+  "perf_str_addr": "341 PINE TREE RD",
+  "perf_city_name": "ITHACA",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "148502820",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "NY19",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "409500",
+   "pgm_ele_name": "SPECIAL PROJECTS IN NET RESEAR"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0103",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0103",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0104",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0104",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2003,
+   "fund_oblg_amt": 193077.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2004,
+   "fund_oblg_amt": 193957.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 109387.0
+  }
+ ],
+ "por": null
+}

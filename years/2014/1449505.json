@@ -1,0 +1,105 @@
+{
+ "awd_id": "1449505",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Toward Supervised Autonomy for Robotic Systems",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Reid Simmons",
+ "awd_eff_date": "2014-08-15",
+ "awd_exp_date": "2017-07-31",
+ "tot_intn_awd_amt": 149995.0,
+ "awd_amount": 149995.0,
+ "awd_min_amd_letter_date": "2014-08-13",
+ "awd_max_amd_letter_date": "2014-08-13",
+ "awd_abstract_narration": "This project seeks to make the supervision of robotic systems operating in complex domains similar to that of humans so as to increase productivity and capabilities. The software framework resulting from this project frees supervisors from the burden of unnatural low-level commands and instead allows them to describe tasks in a structured language that has the ability to express global and local objectives across time spans. The framework then automatically computes the necessary motions to enable the robotic system accomplish the assigned tasks.  This necessitates a comprehensive treatment of planning to account for sophisticated tasks, robot dynamics, collision avoidance, robust replanning, and interactions with human supervisors. To addresses such complexity, the framework employs a novel probabilistic search with discrete abstractions and enhanced sampling capability to focus the search on the space of feasible motions that enable the robotic system to make progress toward accomplishing the assigned task. The framework also provides critical feedback information about the progress made to help supervisors adapt the specifications in response to challenges encountered during planning and execution.  This project is expected to establish a new paradigm for supervised autonomy and impact the development of research and commercial software for robotic systems. Doing so has the potential to enhance applications of robotic systems such as underwater vehicles in surveying marine wildlife, inspecting harbors and offshore platforms.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Erion",
+   "pi_last_name": "Plaku",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Erion Plaku",
+   "pi_email_addr": "plaku@cua.edu",
+   "nsf_id": "000573380",
+   "pi_start_date": "2014-08-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Catholic University of America",
+  "inst_street_address": "620 MICHIGAN AVE NE",
+  "inst_street_address_2": "",
+  "inst_city_name": "WASHINGTON",
+  "inst_state_code": "DC",
+  "inst_state_name": "District of Columbia",
+  "inst_phone_num": "2026355000",
+  "inst_zip_code": "200640001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "00",
+  "st_cong_dist_code": "DC00",
+  "org_lgl_bus_name": "CATHOLIC UNIVERSITY OF AMERICA (THE)",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "C31ES3WEAVQ5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Catholic University of America",
+  "perf_str_addr": "620 Michigan Ave NE",
+  "perf_city_name": "Washington",
+  "perf_st_code": "DC",
+  "perf_st_name": "District of Columbia",
+  "perf_zip_code": "200640001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "00",
+  "perf_st_cong_dist": "DC00",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 149995.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Robotics provides a viable venue to increase productivity and reduce operational costs in exploration, inspection, surveillance,search-and-rescue, transportation, and many other areas. &nbsp;Controlling a robotic system, however, is notoriously difficult and requires significant expertise. In order to move toward more autonomous systems, we would like to be able to describe the task at a high level and let the robot figure out the low-level details of how to best carry out the task.<br /><br />This grant developed computational methods that free human operators from the burden of unnatural low-level commands and instead allow them to describe tasks in a structured language based on Linear Temporal Logic (LTL). LTL has the ability to express tasks as sentences by combining propositions with logical connectives (and, or, not, if) and temporal connectives (next, always, eventually, until). We developed methods to analyze the task description, derive from it subtasks and their dependencies, and plan the necessary motions that enable the robot to complete each subtask, while avoiding collisions with obstacles.&nbsp;</p>\n<p><span style=\"font-size: 12px;\">The technical innovation in these approaches is a tight coupling ofplanning at a high-level abstraction in terms of subtasks that should be completed with planning at a low level in terms of the motions trequired to complete each subtask. When the high-level planner suggests a subtask, the low-level planner uses probabilistic exploration to estimate the feasibility of generating motions thatenable the robot to accomplish the subtask. The high-level plannertakes this information into account and attempts to find other subtasks or change the order of the subtasks when the feasibility estimates are low. This interplay between the high-level and the low-level planner made it possible to continually refine the subtask and generate highly-feasible motion plans to accomplish the tasks.</span></p>\n<p><br />Our methods have made it possible to plan for sophisticated missionssuch as autonomous data collection. In this setting, an underwatervehicle is required to autonomously reach several regions within aspecified time limit. Our methods take into account the limited energy resources of the vehicle, the vehicle dynamics, the time-varying ocean currents, and the obstacles in the region in order to effectively plana collision-free and dynamically-feasible trajectory whose time duration does not exceed the time limit. When the time limit makes itimpossible to reach every target, the framework seeks to reduce the penalty accrued by the target regions that are not visited. Field experiments with an Iver-2 and Bluefin-21 underwater vehicle demonstrated the capabilities of the framework, making it possible forthe underwater vehicle to autonomously visit and collect data fromseveral regions of interest.&nbsp;</p>\n<p>The grant also had a broader impact on education. High-school,undergraduate, and graduate students were exposed to and immersed in research. Several undergraduate students published papers in premiere robotics conferences and journals. Teaching modules were developed and used in Robotics and AI courses. Moreover, a robotics track was established for undergraduate students in Electrical Engineering or Computer Science.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/15/2017<br>\n\t\t\t\t\tModified by: Erion&nbsp;Plaku</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nRobotics provides a viable venue to increase productivity and reduce operational costs in exploration, inspection, surveillance,search-and-rescue, transportation, and many other areas.  Controlling a robotic system, however, is notoriously difficult and requires significant expertise. In order to move toward more autonomous systems, we would like to be able to describe the task at a high level and let the robot figure out the low-level details of how to best carry out the task.\n\nThis grant developed computational methods that free human operators from the burden of unnatural low-level commands and instead allow them to describe tasks in a structured language based on Linear Temporal Logic (LTL). LTL has the ability to express tasks as sentences by combining propositions with logical connectives (and, or, not, if) and temporal connectives (next, always, eventually, until). We developed methods to analyze the task description, derive from it subtasks and their dependencies, and plan the necessary motions that enable the robot to complete each subtask, while avoiding collisions with obstacles. \n\nThe technical innovation in these approaches is a tight coupling ofplanning at a high-level abstraction in terms of subtasks that should be completed with planning at a low level in terms of the motions trequired to complete each subtask. When the high-level planner suggests a subtask, the low-level planner uses probabilistic exploration to estimate the feasibility of generating motions thatenable the robot to accomplish the subtask. The high-level plannertakes this information into account and attempts to find other subtasks or change the order of the subtasks when the feasibility estimates are low. This interplay between the high-level and the low-level planner made it possible to continually refine the subtask and generate highly-feasible motion plans to accomplish the tasks.\n\n\nOur methods have made it possible to plan for sophisticated missionssuch as autonomous data collection. In this setting, an underwatervehicle is required to autonomously reach several regions within aspecified time limit. Our methods take into account the limited energy resources of the vehicle, the vehicle dynamics, the time-varying ocean currents, and the obstacles in the region in order to effectively plana collision-free and dynamically-feasible trajectory whose time duration does not exceed the time limit. When the time limit makes itimpossible to reach every target, the framework seeks to reduce the penalty accrued by the target regions that are not visited. Field experiments with an Iver-2 and Bluefin-21 underwater vehicle demonstrated the capabilities of the framework, making it possible forthe underwater vehicle to autonomously visit and collect data fromseveral regions of interest. \n\nThe grant also had a broader impact on education. High-school,undergraduate, and graduate students were exposed to and immersed in research. Several undergraduate students published papers in premiere robotics conferences and journals. Teaching modules were developed and used in Robotics and AI courses. Moreover, a robotics track was established for undergraduate students in Electrical Engineering or Computer Science.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/15/2017\n\n\t\t\t\t\tSubmitted by: Erion Plaku"
+ }
+}

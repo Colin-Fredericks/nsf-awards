@@ -1,0 +1,105 @@
+{
+ "awd_id": "2318724",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: SHF: Verified Audit Layers for Safe Machine Learning",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922585",
+ "po_email": "pprabhak@nsf.gov",
+ "po_sign_block_name": "Pavithra Prabhakar",
+ "awd_eff_date": "2023-03-15",
+ "awd_exp_date": "2023-11-30",
+ "tot_intn_awd_amt": 199547.0,
+ "awd_amount": 21650.0,
+ "awd_min_amd_letter_date": "2023-03-21",
+ "awd_max_amd_letter_date": "2023-05-24",
+ "awd_abstract_narration": "Existing machine learning (ML) systems have many issues related to privacy, fairness, and robustness against adversaries. Addressing these problems is the focus of a great deal of research. However, the solutions being developed are often complex, and the proofs that they are correct involve subtle mathematical arguments. These complexities make it possible for errors to arise, particularly in the translation from theoretical algorithms into executable programs. This project addresses these issues by developing machine-checked proofs of correctness for ML systems. The project's novelty is in an approach for making this feasible by proving the correctness of a smaller, simpler program called an auditor, which is designed to check and control the output of a complex ML system. The expected impact of this project is a re-usable framework for verifying these auditors, as well as educational material on constructing machine-checked proofs about randomized algorithms.\r\n\r\nThe technique of verifying an auditing algorithm has been successfully applied in other areas of verification, such as compiler correctness and security sandboxing. However, despite successes in these other domains, pursuing this approach in the context of ML systems raises new challenges. First, proofs of correctness for ML systems often involve complex probabilistic arguments, so that machine-checked libraries of results from measure-theoretic probability theory are needed. Second, specifying the behavior of these systems in a theorem prover is difficult, particularly because auditing algorithms are often higher-order, meaning that their specification is parameterized by the underlying algorithms whose behavior they are checking. The project builds on earlier experience developing a library for discrete probability theory for verifying randomized algorithms and data structures. In the course of developing the framework and verifying example auditing algorithms, the investigator addresses additional challenges about structuring these correctness proofs in a modular way, so that auditors can be re-used and composed together to enforce multiple types of correctness properties.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Joseph",
+   "pi_last_name": "Tassarotti",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Joseph D Tassarotti",
+   "pi_email_addr": "jt4767@nyu.edu",
+   "nsf_id": "000810613",
+   "pi_start_date": "2023-03-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "70 Washington St",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121019",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 21650.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Many machine learning (ML) systems are vulnerable to so-called adversarial attacks, in which attackers craft inputs to the ML system that are designed to cause it to behave in incorrect ways. A well-known class of these attacks target image classification networks by adding a tiny amount of noise to an image to cause the classifier to assign the wrong classification label. A number of auditing algorithms have been developed to ensure ML systems are not susceptible to certain forms of these attacks. However, bugs in programs implementing these algorithms can undermine the security guarantees that they are supposed to provide. Because these algorithms often involve the use of randomness, they can be difficult to implement correctly or debug.</p>\n<p><br />This project developed tools for proving the correctness of programs implementing these auditing algorithms. Specifically, the outcome of this project was the development of two program logics for reasoning about the kinds of uses of randomness that arise in auditing algorithms.</p>\n<p><br />The first program logic developed in this project is for proving the correctness of programs that involve random data with a property called negative dependence. This property tends to arise when working with collections of random variables in which, when one variable is larger, the other variables tend to be smaller. This happens, for example, when running a ML system for classification repeatedly on different, randomly altered inputs, and then counting the number of times each classification label is assigned. This kind of procedure is often done in many auditing algorithms. Negative association also arises for many other kinds of important data structures in computer science that make use of hash functions. The program logic for reasoning about negative dependence developed in this project arose from an observation that random variables that are negatively dependent behave in ways that are similar to the rules in a widely used program logic called separation logic. Based on this connection, we developed a program logic in which negative dependence is encoded using the ideas of separation logic. We showed that the resulting program logic can be used to prove properties about a number of data structures and algorithms in which negative dependence occurs. This program logic was presented in a publication in Principles of Programming Languages (POPL) 2022.</p>\n<p><br />The second program logic developed in this project was aimed at proving equivalences of randomized programs. This is an important technique in program verification because we can often simplify the analysis of a randomized program by proving that its output is equivalent to a simpler randomized program which can then be analyzed further. However, existing program logics for proving these kinds of equivalences have limitations that make them inapplicable in certain scenarios where one program makes its randomized choices much later on than another. Programs that delay generating random samples until they are needed for a computation are called lazy algorithms, whereas those that generate random samples immediately, well before they are needed, are called eager algorithms. Lazy sampling algorithms have many applications, including for sampling random values from a type of random distribution called a continuous distribution. Sampling from continuous distributions is used in many auditing algorithms, but existing implementations of these auditing algorithms use certain sampling algorithms which suffer from round-off error. Theoretical analyses of auditing algorithms have not considered the effect of this round-off error, which is a potential vulnerability that could weaken their guarantees. On the other hand, lazy algorithms for sampling from continuous distributions can be used to sample with an arbitrarily small round-off error. However, these lazy algorithms can be harder to analyze in other ways. The program logic developed in this project can be used to prove equivalences between lazy algorithms and simpler, eager versions. Proving equivalences between lazy and eager algorithms also has applications in proving security properties of cryptographic algorithms, and we applied the program logic to such examples as well. This second program logic was presented at Principles of Programming Languages (POPL) 2024.</p><br>\n<p>\n Last Modified: 03/18/2024<br>\nModified by: Joseph&nbsp;D&nbsp;Tassarotti</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nMany machine learning (ML) systems are vulnerable to so-called adversarial attacks, in which attackers craft inputs to the ML system that are designed to cause it to behave in incorrect ways. A well-known class of these attacks target image classification networks by adding a tiny amount of noise to an image to cause the classifier to assign the wrong classification label. A number of auditing algorithms have been developed to ensure ML systems are not susceptible to certain forms of these attacks. However, bugs in programs implementing these algorithms can undermine the security guarantees that they are supposed to provide. Because these algorithms often involve the use of randomness, they can be difficult to implement correctly or debug.\n\n\n\nThis project developed tools for proving the correctness of programs implementing these auditing algorithms. Specifically, the outcome of this project was the development of two program logics for reasoning about the kinds of uses of randomness that arise in auditing algorithms.\n\n\n\nThe first program logic developed in this project is for proving the correctness of programs that involve random data with a property called negative dependence. This property tends to arise when working with collections of random variables in which, when one variable is larger, the other variables tend to be smaller. This happens, for example, when running a ML system for classification repeatedly on different, randomly altered inputs, and then counting the number of times each classification label is assigned. This kind of procedure is often done in many auditing algorithms. Negative association also arises for many other kinds of important data structures in computer science that make use of hash functions. The program logic for reasoning about negative dependence developed in this project arose from an observation that random variables that are negatively dependent behave in ways that are similar to the rules in a widely used program logic called separation logic. Based on this connection, we developed a program logic in which negative dependence is encoded using the ideas of separation logic. We showed that the resulting program logic can be used to prove properties about a number of data structures and algorithms in which negative dependence occurs. This program logic was presented in a publication in Principles of Programming Languages (POPL) 2022.\n\n\n\nThe second program logic developed in this project was aimed at proving equivalences of randomized programs. This is an important technique in program verification because we can often simplify the analysis of a randomized program by proving that its output is equivalent to a simpler randomized program which can then be analyzed further. However, existing program logics for proving these kinds of equivalences have limitations that make them inapplicable in certain scenarios where one program makes its randomized choices much later on than another. Programs that delay generating random samples until they are needed for a computation are called lazy algorithms, whereas those that generate random samples immediately, well before they are needed, are called eager algorithms. Lazy sampling algorithms have many applications, including for sampling random values from a type of random distribution called a continuous distribution. Sampling from continuous distributions is used in many auditing algorithms, but existing implementations of these auditing algorithms use certain sampling algorithms which suffer from round-off error. Theoretical analyses of auditing algorithms have not considered the effect of this round-off error, which is a potential vulnerability that could weaken their guarantees. On the other hand, lazy algorithms for sampling from continuous distributions can be used to sample with an arbitrarily small round-off error. However, these lazy algorithms can be harder to analyze in other ways. The program logic developed in this project can be used to prove equivalences between lazy algorithms and simpler, eager versions. Proving equivalences between lazy and eager algorithms also has applications in proving security properties of cryptographic algorithms, and we applied the program logic to such examples as well. This second program logic was presented at Principles of Programming Languages (POPL) 2024.\t\t\t\t\tLast Modified: 03/18/2024\n\n\t\t\t\t\tSubmitted by: JosephDTassarotti\n"
+ }
+}

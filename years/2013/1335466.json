@@ -1,0 +1,120 @@
+{
+ "awd_id": "1335466",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: CLCCA: Scalable Parallelism for Irregular and Graph Applications",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2013-09-15",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 749645.0,
+ "awd_amount": 749645.0,
+ "awd_min_amd_letter_date": "2013-09-06",
+ "awd_max_amd_letter_date": "2013-09-06",
+ "awd_abstract_narration": "Irregular applications are increasing in importance to the computing industry.  For a long time they have underpinned computations of interest to the national security arm of the federal government. But now, they  underpin such questions as ad placement in social networks, and analysis of complex data-sets in medicine and science. For example, developing custom drug therapies involves analysis of how cellular pathways, known drug/patient outcomes, and a particular patient's DNA interact.  These complex big-data problems require new computational models in order to execute effectively on commodity hardware.  The defining characteristic of these applications is poor locality and massive available parallelism.  The key idea is use the available concurrency to tolerate memory latency, instead of relying on locality.  Using a highly optimized runtime system, tuned for use on commodity processors and networking hardware it has been shown that scalable performance on these applications can exceed custom supercomputer-class hardware.\r\n\r\nThe research currently being undertaken is to continue exploring and developing this latency tolerant scale-out runtime system.  The proposed research directions include exploring ways to mitigate latency for disk (SSD) access, in order to tackle petabyte-scale problems on small clusters of commodity hardware.  In addition the research will examine programmable router hardware in order to scale network aggregation into the thousand-node-plus cluster range.  Finally the research effort will focus on enhanced language semantics and compiler techniques that make it easier to implement the types of analyses and graph algorithms of interest to the scientific, business, medical, and government communities.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mark",
+   "pi_last_name": "Oskin",
+   "pi_mid_init": "H",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mark H Oskin",
+   "pi_email_addr": "oskin@cs.washington.edu",
+   "nsf_id": "000461512",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Luis",
+   "pi_last_name": "Ceze",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Luis Ceze",
+   "pi_email_addr": "luisceze@cs.washington.edu",
+   "nsf_id": "000083036",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Simon",
+   "pi_last_name": "Kahan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "Dr.",
+   "pi_full_name": "Simon Kahan",
+   "pi_email_addr": "skahan@cs.washington.edu",
+   "nsf_id": "000582921",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Washington",
+  "inst_street_address": "4333 BROOKLYN AVE NE",
+  "inst_street_address_2": "",
+  "inst_city_name": "SEATTLE",
+  "inst_state_code": "WA",
+  "inst_state_name": "Washington",
+  "inst_phone_num": "2065434043",
+  "inst_zip_code": "981951016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "WA07",
+  "org_lgl_bus_name": "UNIVERSITY OF WASHINGTON",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HD1WMN6945W6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Washington",
+  "perf_str_addr": "185 Stevens Way",
+  "perf_city_name": "Seattle",
+  "perf_st_code": "WA",
+  "perf_st_name": "Washington",
+  "perf_zip_code": "981952350",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "WA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 749645.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span style=\"text-decoration: underline;\"><strong>Overview</strong></span></p>\n<p>&nbsp;</p>\n<p>The goals of this project are to make applications that exhibit irregular parallelism and poor locality scale to large multinode clusters.&nbsp; Furthermore, these applications should be easy to write and tune.&nbsp; The infrastructure developed should be open-sourced and widely distributed and supported.&nbsp; The team has spent extensive amounts of time building and tuning the core infrastructure (Grappa). We have built a compiler that takes SQL-like queries and compiles them to execute on an in-memory database built on top of Grappa.&nbsp; The core runtime is now open sourced (BSD license).&nbsp; We also built a benchmark suite for graph analytics (GraphBench).&nbsp; The students and PIs actively promoted the effort through talks and site visits.&nbsp; We have been busy exploring new software and hardware options for distributed fine-grained threading on heterogeneous platforms.&nbsp; The core infrastructure we worked on (Grappa) has been released as open-source. The main project was published at USENIX ATC and won Best Paper.&nbsp; We also published work on high-performance distributed data storage.&nbsp; Our work demonstrates that Grappa is faster and more flexible than competing infrastructures such as GraphLab and Spark.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"text-decoration: underline;\"><strong>Websites</strong></span></p>\n<p>&nbsp;</p>\n<p>GraphBench (http://graphbench.org):&nbsp; GraphBench is not a traditional plug-and-play benchmark suite with a do-everything run script.&nbsp; Instead we provide components you can use to assemble your own evaluation strategy.&nbsp; We believe this is the right strategy given the diversity of graph frameworks out there.</p>\n<p><br />Grappa -- Scaling Data-Intensive Applications on Commodity Clusters (http://grappa.io).&nbsp; Grappa makes an entire cluster look like a single, powerful, shared-memory machine.&nbsp; By leveraging the massive amount of concurrency in large-scale data-intensive applications, Grappa can provide this useful abstraction with high performance.&nbsp; Unlike classic distributed shared memory (DSM) systems, Grappa does not require spatial locality or data reuse to perform well.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Impacts</strong></p>\n<p>&nbsp;</p>\n<p>The cluster we built for research is freely shared among any researchers that need access to a small HPC cluster.&nbsp; Efficiently computing on large graphs is a large unsolved problem in our field.&nbsp; If we can efficiently answer questions such as betweenness centrality, connected components, etc., then many interesting questions in biology, social networks, and defense become tractable. This is why we do this work.&nbsp; We have been moving \"up the stack\" in the programming language and \"down the stack\" into architecture.&nbsp; We found that developers do not want to write in C++ anymore and would prefer Python or SQL.&nbsp; Our recent efforts have been focused on making Grappa-like technology available in these languages.&nbsp; We have also been looking at heterogeneous fine-grained threading and what (if any) architecture changes are necessary.&nbsp; Our goal is a unified address space system for fine-grained threading applications that works across CPUs, GPUs, and smart-discs.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/28/2017<br>\n\t\t\t\t\tModified by: Mark&nbsp;H&nbsp;Oskin</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOverview\n\n \n\nThe goals of this project are to make applications that exhibit irregular parallelism and poor locality scale to large multinode clusters.  Furthermore, these applications should be easy to write and tune.  The infrastructure developed should be open-sourced and widely distributed and supported.  The team has spent extensive amounts of time building and tuning the core infrastructure (Grappa). We have built a compiler that takes SQL-like queries and compiles them to execute on an in-memory database built on top of Grappa.  The core runtime is now open sourced (BSD license).  We also built a benchmark suite for graph analytics (GraphBench).  The students and PIs actively promoted the effort through talks and site visits.  We have been busy exploring new software and hardware options for distributed fine-grained threading on heterogeneous platforms.  The core infrastructure we worked on (Grappa) has been released as open-source. The main project was published at USENIX ATC and won Best Paper.  We also published work on high-performance distributed data storage.  Our work demonstrates that Grappa is faster and more flexible than competing infrastructures such as GraphLab and Spark.\n\n \n\n \n\nWebsites\n\n \n\nGraphBench (http://graphbench.org):  GraphBench is not a traditional plug-and-play benchmark suite with a do-everything run script.  Instead we provide components you can use to assemble your own evaluation strategy.  We believe this is the right strategy given the diversity of graph frameworks out there.\n\n\nGrappa -- Scaling Data-Intensive Applications on Commodity Clusters (http://grappa.io).  Grappa makes an entire cluster look like a single, powerful, shared-memory machine.  By leveraging the massive amount of concurrency in large-scale data-intensive applications, Grappa can provide this useful abstraction with high performance.  Unlike classic distributed shared memory (DSM) systems, Grappa does not require spatial locality or data reuse to perform well.\n\n \n\n \n\nImpacts\n\n \n\nThe cluster we built for research is freely shared among any researchers that need access to a small HPC cluster.  Efficiently computing on large graphs is a large unsolved problem in our field.  If we can efficiently answer questions such as betweenness centrality, connected components, etc., then many interesting questions in biology, social networks, and defense become tractable. This is why we do this work.  We have been moving \"up the stack\" in the programming language and \"down the stack\" into architecture.  We found that developers do not want to write in C++ anymore and would prefer Python or SQL.  Our recent efforts have been focused on making Grappa-like technology available in these languages.  We have also been looking at heterogeneous fine-grained threading and what (if any) architecture changes are necessary.  Our goal is a unified address space system for fine-grained threading applications that works across CPUs, GPUs, and smart-discs.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/28/2017\n\n\t\t\t\t\tSubmitted by: Mark H Oskin"
+ }
+}

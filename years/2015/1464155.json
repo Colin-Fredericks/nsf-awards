@@ -1,0 +1,105 @@
+{
+ "awd_id": "1464155",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SaTC: Lockdown: Guarded Control-Flow and Data Privacy for Sensitive Data",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Deborah Shands",
+ "awd_eff_date": "2015-07-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2015-05-13",
+ "awd_max_amd_letter_date": "2015-05-13",
+ "awd_abstract_narration": "Software systems are under constant attack: extracting sensitive data from running computer systems is a prime and highly lucrative target for attackers. Yet, current defense mechanisms fail to protect confidential or private data along with the integrity and availability of the underlying system. While it is important to find and fix vulnerabilities, it is unlikely that all vulnerabilities will ever be discovered. Therefore, there is an argument to be had for stronger defense mechanisms that protect software systems even in the presence of vulnerabilities. The research in this project will improve the security of legacy and newly developed source code by enforcing both integrity and confidentiality for a well-defined sub-set of identified sensitive data. The project proposes new security policies that increase the resilience of legacy software against attacks, protecting running programs against attacker-imposed deviations and and protecting a subset of important data even if the application is compromised.\r\n\r\nThe majority of software that runs on today's systems is written in memory unsafe languages. Memory safety vulnerabilities are abundant and are often used to compromise systems. Existing techniques that retrofit memory safety on top of C/C++ often result in prohibitive overhead, are not compatible with legacy code, or only provide partial protection. Building on Code-Pointer Integrity (CPI), a compiler-based technique that enforces memory safety for code pointers, this project proposes to guard the control-flow and to enforce data confidentiality for sensitive data. Both techniques will be implemented as compiler-passes. Guarded control-flow will leverage a compiler-based static analysis to identify all data that may be used in conditional control-flow decisions. In a second step, the compiler instruments the program with guards to protect this data alongside code pointers, thereby protecting from any attacker-induced control-flow deviation. Data confidentiality will introduce a static compiler-based analysis that identifies and tags sensitive data like passwords, cryptographic keys, or authentication tokens. An instrumentation pass will then add guards to enforce confidentiality guarantees at runtime. These guards keep the subset of sensitive data private and secure from attackers. Data confidentiality enforces integrity and confidentiality even if the attacker has full memory read access. In addition, this project will develop metrics and benchmarks to evaluate the effectiveness of these security policies in the context of different programs.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mathias",
+   "pi_last_name": "Payer",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mathias Payer",
+   "pi_email_addr": "mpayer@purdue.edu",
+   "nsf_id": "000677259",
+   "pi_start_date": "2015-05-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "305 N. University Street",
+  "perf_city_name": "West Lafayette",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479072107",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Software systems are under constant attack: extracting sensitive data from running computer systems is a prime and highly lucrative target for attackers. Yet, current defense mechanisms fail to protect confidential or private data along with the integrity and availability of the underlying system. While it is important to find and fix vulnerabilities, it is unlikely that all vulnerabilities will ever be discovered. Therefore, we argue for stronger defense mechanisms that protect software systems even in the presence of vulnerabilities. The research in this proposal improves the security of legacy and newly developed source code by enforcing both integrity and confidentiality for a well-defined sub-set of identified sensitive data. The project developed two new security policies that increase the resilience of legacy software against attacks: (i) guarded control-flow that protects running programs against attacker-imposed deviations and (ii) data confidentiality that protects the subset of important data even if the application is compromised.</p>\n<p>The majority of software that runs on today's systems is written in memory unsafe languages. Memory safety vulnerabilities are abundant and often used to compromise systems. Existing techniques that retrofit memory safety on top of C/C++ often result in prohibitive overhead, are not compatible with legacy code, or only provide partial protection. Building on Code-Pointer Integrity (CPI), a compiler-based technique that enforces memory safety for code pointers, this project guards the control-flow and to enforce data confidentiality for sensitive data.</p>\n<p>To protect the control-flow of applications, we have developed a defense that enforces Control-Flow Integrity for C++ applications by ensuring integrity of vtable pointers before they are used for a virtual dispatch. Orthogonally, we have developed two mechanisms that compartmentalize software into small fault compartments for both desktop systems and embedded IoT systems.</p>\n<p>Data Confidentiality and Integrity (DCI) is a low-overhead non-control-data protection mechanism for systems software. DCI augments the C/C++ programming languages with annotations, allowing the programmer to protect selected data types. The DCI compiler and runtime system prevent illegal reads (confidentiality) and writes (integrity) to instances of these types. The programmer selects types that contain security critical information such as passwords, cryptographic keys, or identification tokens. Protecting only this critical data greatly reduces performance overhead relative to complete memory safety. All prototypes are released as open-source, including test cases and auxiliary information.</p>\n<p>In the space of defense mechanisms we have evaluated the majority of proposed Control-Flow Integrity (CFI) solutions. CFI is a hot security policy that has seen more than 40 publications in the last 10 years. We have systematized the different policies and compared them using a performance and security/effectiveness study. Lessons from this study have been integrated into both a graduate and an undergraduate class.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/26/2017<br>\n\t\t\t\t\tModified by: Mathias&nbsp;Payer</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSoftware systems are under constant attack: extracting sensitive data from running computer systems is a prime and highly lucrative target for attackers. Yet, current defense mechanisms fail to protect confidential or private data along with the integrity and availability of the underlying system. While it is important to find and fix vulnerabilities, it is unlikely that all vulnerabilities will ever be discovered. Therefore, we argue for stronger defense mechanisms that protect software systems even in the presence of vulnerabilities. The research in this proposal improves the security of legacy and newly developed source code by enforcing both integrity and confidentiality for a well-defined sub-set of identified sensitive data. The project developed two new security policies that increase the resilience of legacy software against attacks: (i) guarded control-flow that protects running programs against attacker-imposed deviations and (ii) data confidentiality that protects the subset of important data even if the application is compromised.\n\nThe majority of software that runs on today's systems is written in memory unsafe languages. Memory safety vulnerabilities are abundant and often used to compromise systems. Existing techniques that retrofit memory safety on top of C/C++ often result in prohibitive overhead, are not compatible with legacy code, or only provide partial protection. Building on Code-Pointer Integrity (CPI), a compiler-based technique that enforces memory safety for code pointers, this project guards the control-flow and to enforce data confidentiality for sensitive data.\n\nTo protect the control-flow of applications, we have developed a defense that enforces Control-Flow Integrity for C++ applications by ensuring integrity of vtable pointers before they are used for a virtual dispatch. Orthogonally, we have developed two mechanisms that compartmentalize software into small fault compartments for both desktop systems and embedded IoT systems.\n\nData Confidentiality and Integrity (DCI) is a low-overhead non-control-data protection mechanism for systems software. DCI augments the C/C++ programming languages with annotations, allowing the programmer to protect selected data types. The DCI compiler and runtime system prevent illegal reads (confidentiality) and writes (integrity) to instances of these types. The programmer selects types that contain security critical information such as passwords, cryptographic keys, or identification tokens. Protecting only this critical data greatly reduces performance overhead relative to complete memory safety. All prototypes are released as open-source, including test cases and auxiliary information.\n\nIn the space of defense mechanisms we have evaluated the majority of proposed Control-Flow Integrity (CFI) solutions. CFI is a hot security policy that has seen more than 40 publications in the last 10 years. We have systematized the different policies and compared them using a performance and security/effectiveness study. Lessons from this study have been integrated into both a graduate and an undergraduate class.\n\n\t\t\t\t\tLast Modified: 07/26/2017\n\n\t\t\t\t\tSubmitted by: Mathias Payer"
+ }
+}

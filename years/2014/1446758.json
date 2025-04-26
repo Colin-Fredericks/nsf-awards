@@ -1,0 +1,101 @@
+{
+ "awd_id": "1446758",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CPS: Synergy: Collaborative Research: Semantics of Optimization for Real Time Intelligent Embedded Systems (SORTIES)",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "David Corman",
+ "awd_eff_date": "2015-01-01",
+ "awd_exp_date": "2018-06-30",
+ "tot_intn_awd_amt": 368903.0,
+ "awd_amount": 368903.0,
+ "awd_min_amd_letter_date": "2014-08-28",
+ "awd_max_amd_letter_date": "2014-08-28",
+ "awd_abstract_narration": "Advances in technology mean that computer-controlled physical devices that currently still require human operators, such as automobiles, trains, airplanes, and medical treatment systems, could operate entirely autonomously and make rational decisions on their own. Autonomous cars and drones are a concrete and highly publicized face of this dream.  Before this dream can be realized we must address the need for safety - the guaranteed absence of undesirable behaviors emerging from autonomy. Highly publicized technology accidents such as rocket launch failures, uncontrolled exposure to radiation during treatment, aircraft automation failures and unintended automotive accelerations serve as warnings of what can happen if safety is not adequately addressed in the design of such cyber-physical systems.  One approach for safety analysis is the use of software tools that apply formal logic to prove the absence of undesired behavior in the control software of a system.  In prior work, this approach this been proven to work for simple controller software that is generated automatically by tools from abstract models like Simulink diagrams.  However, autonomous decision making requires more complex software that is able to solve optimization problems in real time. Formal verification of control software that includes such optimization algorithms remains an unmet challenge.\r\n\r\nThe project SORTIES (Semantics of Optimization for Real Time Intelligent Embedded Systems) draws upon expertise in optimization theory, control theory, and computer science to address this challenge. Beginning with the convergence properties of convex optimization algorithms, SORTIES examines how these properties can be automatically expressed as inductive invariants for the software implementation of the algorithms, and then incorporates these properties inside the source code itself as formal annotations which convey the underlying reasoning to the software engineer and to existing computer-aided verification tools.  The SORTIES goal is an open-source-semantics-carrying autocoder, which takes an optimization algorithm and its convergence properties as input, and produces annotated, verifiable code as output. The demonstration of the tool on several examples, such as a Mars lander, an aircraft avionics system, and a jet engine controller, shows that the evidence of quality produced by annotations is fully compatible with its application to truly functional products.  Project research is integrated with education through training of \"tri-lingual\" professionals, who are equally conversant in system operation, program analysis, and the theory of control and optimization.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Eric",
+   "pi_last_name": "Feron",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Eric M Feron",
+   "pi_email_addr": "eric.feron@kaust.edu.sa",
+   "nsf_id": "000490509",
+   "pi_start_date": "2014-08-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Avenue, NW",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "164000",
+   "pgm_ele_name": "Information Technology Researc"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8235",
+   "pgm_ref_txt": "CPS-Synergy"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 368903.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Embedded software is software that receives information from, and sends information to, physical systems. The conjunction of embedded software and the hardware it interacts with forms Cyber-Physical Systems. Many of the software programs written to control physical systems are imperative in nature, that is, they consist of simple procedures that result in direct orders sent to the actuators of the system. Some of these programs are progresssively replaced by declarative programs, where objectives are formulated and the cyber-physical system tries to meet these objectives. The underlying computations are there to solve an optimization problem in real-time.&nbsp;</p>\n<p>This project has established some of the bases necessary for the reliable use of optimization algorithms, especially the ellipsoid algorithm, as real-time control algorithms. In particular, numerical issues have been investigated thoroughly and have led to the development of modified algorithms with guaranteed convergence properties within a finite and fully predictable amount of time.&nbsp;</p>\n<p>The concept has been implemented by bulding a \"credible autocoder\" for convex optimization problems to be solved via the modified ellipsoid algorithm that came out of this research. This credible autocoder takes the optimization problem as input and returns a customized implementation of the ellipsoid algorithm that is specialized to the problem to be solved. The credible autocoder has been used to design model-predictive controller for simulated aerospace vehicles.</p>\n<p>This effort has led to the publication of multiple conference and journal articles, and one research monograph. The students supported by this effort went to US research laboratories and industry.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/13/2019<br>\n\t\t\t\t\tModified by: Eric&nbsp;M&nbsp;Feron</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nEmbedded software is software that receives information from, and sends information to, physical systems. The conjunction of embedded software and the hardware it interacts with forms Cyber-Physical Systems. Many of the software programs written to control physical systems are imperative in nature, that is, they consist of simple procedures that result in direct orders sent to the actuators of the system. Some of these programs are progresssively replaced by declarative programs, where objectives are formulated and the cyber-physical system tries to meet these objectives. The underlying computations are there to solve an optimization problem in real-time. \n\nThis project has established some of the bases necessary for the reliable use of optimization algorithms, especially the ellipsoid algorithm, as real-time control algorithms. In particular, numerical issues have been investigated thoroughly and have led to the development of modified algorithms with guaranteed convergence properties within a finite and fully predictable amount of time. \n\nThe concept has been implemented by bulding a \"credible autocoder\" for convex optimization problems to be solved via the modified ellipsoid algorithm that came out of this research. This credible autocoder takes the optimization problem as input and returns a customized implementation of the ellipsoid algorithm that is specialized to the problem to be solved. The credible autocoder has been used to design model-predictive controller for simulated aerospace vehicles.\n\nThis effort has led to the publication of multiple conference and journal articles, and one research monograph. The students supported by this effort went to US research laboratories and industry.\n\n\t\t\t\t\tLast Modified: 01/13/2019\n\n\t\t\t\t\tSubmitted by: Eric M Feron"
+ }
+}

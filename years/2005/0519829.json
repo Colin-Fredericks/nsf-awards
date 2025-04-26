@@ -1,0 +1,146 @@
+{
+ "awd_id": "0519829",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "NeTS-NBD: Bridging the 10 GHz / 10 Gbit Gap: Whole-system approaches for scalable networked services",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2005-08-01",
+ "awd_exp_date": "2010-07-31",
+ "tot_intn_awd_amt": 0.0,
+ "awd_amount": 612000.0,
+ "awd_min_amd_letter_date": "2005-08-08",
+ "awd_max_amd_letter_date": "2007-07-10",
+ "awd_abstract_narration": "We will soon enter an era of 10 GHz processors and 10 Gigabit networks, but will have no effective means of using that processing power to deliver that level of throughput for regular applications. This gap lays in the \"service stack,\" which includes the application-level software, the operating system, and the networking code used by networked systems (Web servers, mail servers, caching Web proxy servers, Grid services, etc). Ideally, the performance of these systems would improve correspondingly with faster CPUs, but actual improvements may be significantly lower for a variety of reasons, including operating system limitations, slower improvements in disk performance, poor use of the CPU's features, etc. This work examines the service stack from the CPU's perspective to understand how the mismatches between it and modern processor features reduce delivered performance. The ultimate goal is to develop Grid/networking applications that scale with processor speed, and to make it easier for developers to improve performance. \r\n\r\nIntellectual Merit: The principal investigators (PIs) focus on three areas:\r\n1.\tImproving the tools for finding performance problems across boundaries, such as those between programs and the operating system, and between the operating system and the device drivers for the hardware; \r\n2.\tUsing these tools to reorganize the networking code in the operating system to optimize common cases; and\r\n3.\tDeveloping a system that can automatically customize the operating system to be tailored for specific programs, without requiring the developer to manually modify the operating system's source code. \r\n\r\nThe main area of investigation will be what the PIs term cross-boundary problems, where two systems/layers that have no obvious flaws can perform poorly when used together. The performance problems generally stem from a mismatch of usage assumptions in the different layers. For example, Web servers using the \"event-driven\" design approach have shown exceptional performance and scalability on \"static\" content, such as regular files, and images. However, under such conditions, their design also requires the operating system to store a large amount of information about the program, and this information must be duplicated during certain processing steps when the server handles \"dynamic\" content, such as customized Web pages. This interaction causes their performance on dynamic content to drop, as the server gets busier. Other design assumptions in filesystems can cause all types of servers to unnecessarily block when searching for files, if other searches are in progress. This results in the CPU being underutilized for the duration of a disk access, which is a problem since CPU speeds have been growing faster than disk access times. As a result, the relative performance loss from this kind of problem will grow over time. Beyond developing a new network service stack that has higher performance and is designed to better utilize the CPU, the other focus of this work is examining the process of this kind of optimization. \r\n\r\nBroader Impact: The PIs will use summer internships both to attract traditionally under-represented groups, but also to have developers the PIs can closely observe as they use the system. The focus of the internships will be either to optimize some open-source system, like the MySQL database or the Squid Web proxy server, or to expand the tools themselves. By using developers with various levels of expertise, the PIs can gauge how the tools can reveal the most promising areas for further investigation. The PIs can also incorporate the feedback from these experiments into the interface for using these tools, not only to increase interactivity, but also to help non-experts use them.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Vivek",
+   "pi_last_name": "Pai",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Vivek Pai",
+   "pi_email_addr": "vivek@cs.princeton.edu",
+   "nsf_id": "000122168",
+   "pi_start_date": "2005-08-08",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Larry",
+   "pi_last_name": "Peterson",
+   "pi_mid_init": "L",
+   "pi_sufx_name": "",
+   "pi_full_name": "Larry L Peterson",
+   "pi_email_addr": "llp@cs.princeton.edu",
+   "nsf_id": "000406115",
+   "pi_start_date": "2005-08-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Princeton University",
+  "inst_street_address": "1 NASSAU HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "PRINCETON",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "6092583090",
+  "inst_zip_code": "085442001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "THE TRUSTEES OF PRINCETON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NJ1YPQXQG7U5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": "1 NASSAU HALL",
+  "perf_city_name": "PRINCETON",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085442001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7388",
+   "pgm_ref_txt": "NETWORKING RESEARCH (NR)"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0106",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0106",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0107",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0107",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 195000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2006,
+   "fund_oblg_amt": 212000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2007,
+   "fund_oblg_amt": 205000.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,109 @@
+{
+ "awd_id": "9002225",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Design and Implementation of A Program Unification Tool:    Experiments on Vector Concurrent Processors",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Maxine Hynson",
+ "awd_eff_date": "1990-05-15",
+ "awd_exp_date": "1993-04-30",
+ "tot_intn_awd_amt": 128094.0,
+ "awd_amount": 128094.0,
+ "awd_min_amd_letter_date": "1990-06-01",
+ "awd_max_amd_letter_date": "1991-05-01",
+ "awd_abstract_narration": "The goal of this project is to exploit a novel idea for obtaining               speedup on vector and concurrent multiprocessors.  Most, if not                 all, studies in parallelism focus on maximizing parallelism                     within a program or algorithm.  It is well known that many                      programs/algorithms do not exhibit good characteristics of                      parallelism (e.g. Monte Carlo and general simulations, numerical                computations that proceed iteratively, already existing poorly                  vectorized code, payroll programs, optimization algorithms, etc.)               Clearly, one cannot squeeze any more parallelism from within a                  program if the program does not yield itself to this, and one                   cannot take already existing code and vectorize it if the code                  does not vectorize well (unless much time and money is spent in                 redesigning and rewriting code).  Consider, for example,                        expensive oil-exploration simulations that run for several hours                on a single data set.  Simulation programs, being event based in                nature, simply do not exhibit good characteristics of                           parallelism.                                                                                                                                                    Suppose that one has a program that does not vectorize well (such               as the examples given above).  Since it is very often the case                  that the same program has to be executed several times, each time               on different data, why not create a Unified version of the                      program that executes on all the data, so that a single run of                  the unified program will achieve what a number of serial runs on                different data achieves?  The advantage is that on vector                       concurrent multiprocessors, such unified programs (1) yield                     speedup even though the original program does not, and (2)                      increase machine utilization more efficiently by exploiting the                 vector functional units heavily.                                                                                                                                A simple tool is made to transform the original program  into an                N-component vector version.  Since the different data sets have                 different effects on program behavior, issues such as path                      divergence of programs affect speedup.  Encouraging results from                pilot studies suggest that path divergence can be dealt with                    through the use of a smart scheduler.  The final tool will                      consist of a transform algorithm, a scheduler, and a decision                   support system that informs a user how to use the tool for a                    given program.  The support system will use the program graph and               machine characteristics to make its decisions.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Vernon",
+   "pi_last_name": "Rego",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Vernon J Rego",
+   "pi_email_addr": "rego@cs.purdue.edu",
+   "nsf_id": "000320040",
+   "pi_start_date": "1990-05-15",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Aditya",
+   "pi_last_name": "Mathur",
+   "pi_mid_init": "P",
+   "pi_sufx_name": "",
+   "pi_full_name": "Aditya P Mathur",
+   "pi_email_addr": "apm@cs.purdue.edu",
+   "nsf_id": "000260100",
+   "pi_start_date": "1990-05-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue Research Foundation",
+  "inst_street_address": "1281 WIN HENTSCHEL BLVD STE 2500",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "3174946200",
+  "inst_zip_code": "479064353",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE RESEARCH FOUNDATION",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "C1G1LGYJF5G5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "DATA NOT AVAILABLE",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "",
+  "perf_st_name": "RI REQUIRED",
+  "perf_zip_code": "",
+  "perf_ctry_code": "",
+  "perf_cong_dist": "",
+  "perf_st_cong_dist": "",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "0"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "408000",
+   "pgm_ele_name": "ADVANCED COMP RESEARCH PROGRAM"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1990,
+   "fund_oblg_amt": 63665.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 1991,
+   "fund_oblg_amt": 64429.0
+  }
+ ],
+ "por": null
+}

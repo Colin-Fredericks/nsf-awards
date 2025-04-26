@@ -1,0 +1,145 @@
+{
+ "awd_id": "1801446",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: CORE: Medium: Large-Scale Data Driven Anomaly Detection and Diagnosis from System Logs",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032928832",
+ "po_email": "dcosley@nsf.gov",
+ "po_sign_block_name": "Dan Cosley",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2023-07-31",
+ "tot_intn_awd_amt": 1100000.0,
+ "awd_amount": 1100000.0,
+ "awd_min_amd_letter_date": "2018-07-16",
+ "awd_max_amd_letter_date": "2021-03-10",
+ "awd_abstract_narration": "Detecting unusual and anomalous behavior in computer systems is a critical part of ensuring they are secure and trustworthy. System logs, which record actions taken by programs, are a promising source of data for such anomaly detection.  However, existing practices and tools for doing log analysis require deep expertise, as well as heavy human involvement in both defining and interpreting possible anomalies, which limits their scalability and effectiveness.  This project's goal is to improve the state of the art around log-based anomaly detection by developing a framework called DeepLog through (a) advancing natural language processing techniques to extract structured information from a wide variety of log files to support analysis across different data sources and across time, (b) developing new methods to model legitimate workflows and log event sequences over time, (c) adapting machine learning methods to identify deviations from those workflows that represent potential anomalies, and (d) creating tools for system administrators to help them diagnose possible security issues more effectively and efficiently.  The work will be integrated into a freely available software package to benefit both other researchers and practicing system administrators and used to support both classroom and research-based educational activities at the investigators' institutions.\r\n\r\nToward log parsing, the team will adapt named entity recognition methods to parse unstructured logs as well as structured logs where the structure is not pre-defined by, e.g., regular expressions, into structured key-value pairs of log event types and parameters.  This data can be seen as a multi-dimensional feature space whose contents are constrained by the execution of the underlying programs and thus reflects a hidden structure that defines the set of valid, non-anomalous execution sequences.  To help articulate this hidden structure, the team will develop long-short-term-memory (LSTM)-based neural network models that use both the key and value elements to extract semantically meaningful subsequences of program behavior from data extracted from system runs known to be normal.  Once these models are developed using known-good training data, they can be applied to anomaly detection by flagging for consideration new log entries that are unexpected given the current state of the system, logs, and model; they can also be used to infer the underlying workflows and hidden structures described earlier.  These models will be improved through that online learning methods, administrators' feedback about the seriousness of reported anomalies, and generative adversarial training models which create execution sequences that, though anomalous, hew closely to the hidden structures embedded in the logs and the LSTM-based models.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robert",
+   "pi_last_name": "Ricci",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robert Ricci",
+   "pi_email_addr": "ricci@cs.utah.edu",
+   "nsf_id": "000518706",
+   "pi_start_date": "2021-03-10",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Former Principal Investigator",
+   "pi_first_name": "Feifei",
+   "pi_last_name": "Li",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Feifei Li",
+   "pi_email_addr": "lifeifei@cs.utah.edu",
+   "nsf_id": "000598994",
+   "pi_start_date": "2018-07-16",
+   "pi_end_date": "2021-03-10"
+  },
+  {
+   "pi_role": "Former Co-Principal Investigator",
+   "pi_first_name": "Robert",
+   "pi_last_name": "Ricci",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robert Ricci",
+   "pi_email_addr": "ricci@cs.utah.edu",
+   "nsf_id": "000518706",
+   "pi_start_date": "2018-07-16",
+   "pi_end_date": "2021-03-10"
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Vivek",
+   "pi_last_name": "Srikumar",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Vivek Srikumar",
+   "pi_email_addr": "svivek@cs.utah.edu",
+   "nsf_id": "000676145",
+   "pi_start_date": "2018-07-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Utah",
+  "inst_street_address": "201 PRESIDENTS CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SALT LAKE CITY",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8015816903",
+  "inst_zip_code": "841129049",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "UT01",
+  "org_lgl_bus_name": "UNIVERSITY OF UTAH",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LL8GLEVH6MG3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Utah",
+  "perf_str_addr": "50 S. Central Campus Drive",
+  "perf_city_name": "Salt Lake City",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "841129460",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "UT01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 1100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Logfiles are some of the key tools for understanding the operation of computer systems, including the security of those systems. By themselves, logfiles are \"unstructured\" data, meaning that they require processing before they can be used for tasks like security analysis, anomaly detection, data analysis, and so on. Logfiles can be large: depending on the size and activity level of a system, they can contain thousands, millions, or even hundreds of millions of entries. For this reason, processing them manually is infeasible, and a variety of techniques have been proposed for automating the parsing of logfiles to produce \"structured\" data.<br /><br />This project has worked on several tasks relating to the processing of logfiles, including:<br /><br />* Analysis of anomalies in logfiles from a production system over a period of years<br /><br />* Development of several techniques to make parsing of logfiles and other text more robust and correct<br /><br />* Proposing a new method for evaluating automated log parsing systems that does not rely on a \"ground truth\" dataset<br /><br />* Developing an open-source software suite that implements many of the log parsing techniques proposed in the literature<br /><br />As a result of these activities, we have a better understanding of how unstructred log data can be converted to a form that is more conducive to analysis. These analyses can then be used to improve the security of computer systems by detecting attempted or successful attacks, understanding the actions of attackers, deploying defenses.</p><br>\n<p>\n Last Modified: 02/28/2024<br>\nModified by: Robert&nbsp;Ricci</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nLogfiles are some of the key tools for understanding the operation of computer systems, including the security of those systems. By themselves, logfiles are \"unstructured\" data, meaning that they require processing before they can be used for tasks like security analysis, anomaly detection, data analysis, and so on. Logfiles can be large: depending on the size and activity level of a system, they can contain thousands, millions, or even hundreds of millions of entries. For this reason, processing them manually is infeasible, and a variety of techniques have been proposed for automating the parsing of logfiles to produce \"structured\" data.\n\nThis project has worked on several tasks relating to the processing of logfiles, including:\n\n* Analysis of anomalies in logfiles from a production system over a period of years\n\n* Development of several techniques to make parsing of logfiles and other text more robust and correct\n\n* Proposing a new method for evaluating automated log parsing systems that does not rely on a \"ground truth\" dataset\n\n* Developing an open-source software suite that implements many of the log parsing techniques proposed in the literature\n\nAs a result of these activities, we have a better understanding of how unstructred log data can be converted to a form that is more conducive to analysis. These analyses can then be used to improve the security of computer systems by detecting attempted or successful attacks, understanding the actions of attackers, deploying defenses.\t\t\t\t\tLast Modified: 02/28/2024\n\n\t\t\t\t\tSubmitted by: RobertRicci\n"
+ }
+}

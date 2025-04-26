@@ -1,0 +1,114 @@
+{
+ "awd_id": "9619596",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "High Performance Computing for Large Scale Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010200",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "S. Kamal Abdali",
+ "awd_eff_date": "1997-02-15",
+ "awd_exp_date": "1999-01-31",
+ "tot_intn_awd_amt": 6500.0,
+ "awd_amount": 130000.0,
+ "awd_min_amd_letter_date": "1997-02-14",
+ "awd_max_amd_letter_date": "1997-02-14",
+ "awd_abstract_narration": "This project investigates high performance algorithms in the  areas of  model reduction algorithms for dynamical linear  systems, eigenproblem solvers, and iterative methods for sparse  nonsymmetric linear systems with one or multiple right-hand side  vectors.    The model reduction work is based on the rational Lanczos  algorithm which performs multipoint moment matching-based model  reduction with automatic point selection from a specified grid.  It uses a novel shifting strategy which exploits a mix of  imaginary and real positive scalar values that provide a  multiscale view of the frequency response of the dynamical system  being modeled.    The restriction to moment-matched reduced order models will be  relaxed in order to improve the efficiency of the model  production.  This will entail the development of new error  modeling techniques as well as the assessment of the effect of  the use of iterative methods to approximately solve the linear  systems that occur in each iteration of rational approximation  algorithms.  This will also drive the development of new  preconditioning and iterative method strategies.  A strategy for  point placement (rather than point selection from a predetermined  grid) will be developed and used in order to improve the accuracy  of the reduced order model and to drive a load balancing strategy  for the large grain parallel processing in a multilevel  parallelism implementation.    In the work on eigenproblems, technology will be transferred and  adapted from the rational Lanczos domain to Krylov-based  eigenproblem solvers.  This includes adapting the model reduction  shift strategy to yield a multilevel approach to locate  appropriate sections of the complex plane in which eigenvalues  reside.  The choice of spaces used to form the projector will  also be updated via rational Lanczos technology.  A Gershgorin  disk-based alternative to Krylov-based approaches will also be  studied.  The approach is a generalization and improvement of  work by Varga and other s.  The methods natural multilevel  parallelism will be analyzed and exploited in an experimental  implementation.    The area of nonsymmetric sparse linear system solving via  preconditioned iterative methods supports the advances in the two  areas above, and also contributes to the state-of-the-art in  numerical algorithms.  Three basic tasks will be undertaken.  The  first is to continue work on a robust parallel preconditioned  iterative method-based package for the solution of nonsymmetric  systems.  This work will build on earlier efforts on the EN-like  family of methods, partitioned row projection schemes, and an  accelerated block Stiefel iteration adapted to nonsymmetric  systems.  Preconditioners based on eigenvalue deflation,  incomplete orthogonalization, and modified Krylov methods will be  considered.    The second system linear system solving task that will be  addressed is the development and analysis of a family of block  EN-like methods for linear systems with multiple right-hand  side vectors encountered in multiple-input-multiple-output  dynamical systems and applications such as electromagnetics.    Finally, the linear system solvers above will be adapted to  the situation encountered in model reduction -- multiple  linear systems defined by a matrix pencil (A,E), and a set  of scalar shifts with associated right-hand sides.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kyle",
+   "pi_last_name": "Gallivan",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kyle A Gallivan",
+   "pi_email_addr": "kgallivan@fsu.edu",
+   "nsf_id": "000315139",
+   "pi_start_date": "1997-02-14",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Paul",
+   "pi_last_name": "Van Dooren",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Paul M Van Dooren",
+   "pi_email_addr": "vdooren@csam.ucl.ac.be",
+   "nsf_id": "000454703",
+   "pi_start_date": "1997-02-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S WRIGHT ST",
+  "perf_city_name": "URBANA",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "286500",
+   "pgm_ele_name": "NUMERIC, SYMBOLIC & GEO COMPUT"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0197",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0197",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1997,
+   "fund_oblg_amt": 6500.0
+  }
+ ],
+ "por": null
+}

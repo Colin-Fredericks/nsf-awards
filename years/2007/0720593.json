@@ -1,0 +1,154 @@
+{
+ "awd_id": "0720593",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CSR---AES:   Collaborative Research:  Novel Programming Models and Architectures to Simplify Parallel Programming",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Mohamed G. Gouda",
+ "awd_eff_date": "2007-10-01",
+ "awd_exp_date": "2011-09-30",
+ "tot_intn_awd_amt": 889895.0,
+ "awd_amount": 889895.0,
+ "awd_min_amd_letter_date": "2007-09-18",
+ "awd_max_amd_letter_date": "2009-07-30",
+ "awd_abstract_narration": "The focus of this project is on the programming of multi-core chips. \r\n\r\nThe goal of the project is to find a comprehensive parallel programming environment that can substantially simplify parallel programming for multi-cores.\r\n\r\nCurrent parallel programming approaches are typically too complicated for most programmers or do not deliver adequate performance. A major breakthrough is needed to simplify parallel programming to effectively utilize multi-core hardware. Reducing the complexity of parallel programming and enabling its widespread use has emerged as a Grand Research Challenge for the systems community. It is fundamental to the computer industry''s ability to continue innovating. \r\n\r\nThe scope of this project is to study two novel parallel programming models that either separately or in combination have the potential to provide dramatic improvements in programmer productivity. The two novel parallel programming models that may have the potential to simplify parallel programming and be accepted by large numbers of programmers are Colorama and IPOT.\r\n\r\nColorama is an architecture-supported Data Centric Synchronization (DCS) approach, and is used in explicitly parallel programs. In DCS, the programmer specifies concurrency control by associating synchronization constraints with the program data structures, typically when they are declared or allocated. These constraints determine which sets of data structures are in the same data consistency domain and, therefore, should be kept consistent with each other. At run time, when one data structure is being modified by a thread, the system automatically protects all the other data structures in the same domain from access by other threads. Compared to programming with locks and transactions, where the programmer reasons non-locally, Colorama has a significant programmability advantage: the programmer reasons locally, focusing only on what data structures should be consistent with each other; the system will automatically infer the critical sections.\r\n\r\nImplicit Parallelism with Ordered Transactions (IPOT) supports speculative threads in a sequential thread of execution. The key idea is that the programmer is allowed to specify opportunities for parallelization within the sequential thread using a set of simple yet very powerful annotations. Unlike explicit parallelism, IPOT annotations do not require the programmer or the compiler to prove the absence of data or control dependences. There is runtime architectural support to detect violations, and squash and restart threads. Unlike conventional TLS, the system can extract much more parallelism because it leverages user information. \r\n\r\nIt is possible to use these models separately or, since they are complementary, in combination  for example, by using Colorama on explicitly-parallel code where each thread is implicitly parallelized with IPOT. Both models require special hardware support in the multi-core chip.\r\n\r\nThe project teams activities address several layers of multi-core programming/architectural frameworks:\r\n\r\n1. Programming Models -- The project team will study the design issues in the specification of the Colorama, IPOT, and Unified programming models (Unified is the combination of Colorama and IPOT).\r\n2. Compilation -- The team will develop compiler technology to improve the performance and guarantee the correctness of their programming models.\r\n3. Runtime System -- Libraries and a runtime system will be developed for these models.\r\n4. Computer Architecture -- Different levels of architectural support for these models will be explored.\r\n5. Performance Monitoring and Debugging Tools -- A set of tools will be developed that allow programmers to debug, test, and tune programs written for the programming models.\r\n6. Applications -- A suite of applications will be developed that use the programming models.\r\n7. Empirical Productivity Studies -- A set of empirical programmer productivity experiments will be carried out in a course at the University of Illinois.\r\n\r\nThis work involves a collaboration between the University of Illinois and IBM Research, leveraging a large amount of existing IBM-sponsored infrastructure to release the complete software infrastructure of the programming environment that is developed by the project team.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Josep",
+   "pi_last_name": "Torrellas",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Josep Torrellas",
+   "pi_email_addr": "torrellas@cs.uiuc.edu",
+   "nsf_id": "000488177",
+   "pi_start_date": "2007-09-18",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "Padua",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "David A Padua",
+   "pi_email_addr": "padua@uiuc.edu",
+   "nsf_id": "000317715",
+   "pi_start_date": "2007-09-18",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Maria",
+   "pi_last_name": "Garzaran",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Maria J Garzaran",
+   "pi_email_addr": "garzaran@cs.uiuc.edu",
+   "nsf_id": "000297030",
+   "pi_start_date": "2007-09-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S WRIGHT ST",
+  "perf_city_name": "URBANA",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7354",
+   "pgm_ref_txt": "COMPUTER SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0107",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0107",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0108",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000809DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0109",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000910DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2007,
+   "fund_oblg_amt": 301585.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2008,
+   "fund_oblg_amt": 289908.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2009,
+   "fund_oblg_amt": 298402.0
+  }
+ ],
+ "por": null
+}

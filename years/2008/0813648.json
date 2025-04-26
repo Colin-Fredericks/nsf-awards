@@ -1,0 +1,157 @@
+{
+ "awd_id": "0813648",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Capturing subgrid structures with level set methods",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2008-07-15",
+ "awd_exp_date": "2013-06-30",
+ "tot_intn_awd_amt": 491981.0,
+ "awd_amount": 491981.0,
+ "awd_min_amd_letter_date": "2008-07-11",
+ "awd_max_amd_letter_date": "2011-11-28",
+ "awd_abstract_narration": "This project tackles important problems arising from the need to find, represent and track small structures using level set methods. A particular focus are fluid dynamics applications of the new approaches developed.  Level set methods encode surfaces using level set functions defined on Eulerian grids, and evolve them by evolving the function.  Commonly used implementations suffer from mass loss, and\r\nsmall structures can vanish over the course of a computation.    To remedy these\r\nproblems,  local mesh refinements  and  Lagrangian features have been reasonably successful, but at the expense of the method's basic simplicity and transparency.\r\nThis research introduces a new solution to the difficulty:  incorporate gradient information into the process.  Current approaches do not carry,  nor update this information. Instead (when/if needed) it is approximated from the grid function.\r\nKnowledge of  gradient information is  not  enough to allow actual simulation of subgrid scale processes, but it enables the capture and tracking of subgrid size objects. It is also expected to improve accuracy in calculating quantities (e.g.\r\nstresses) where gradients play a role. The gradient data must be updated in time, maintaining coherence between function values and derivatives,  while exploiting the extra information carried by derivatives.  This is done using characteristic\r\nproperties of the exact solutions to the underlying equation(s).   The advantage\r\nof the proposed approach is that it captures small structures,  while preserving the simplicity of a purely Eulerian approach on a regular grid.  This new method uses gradient information with a computational effort which is of the same order of magnitude as that of the current techniques that ignore gradients.\r\n\r\nIdentifying and accurately tracking small or thin structures, and the boundaries separating regions with different properties,  is fundamental in simulating many physical and biological processes, and in many other computational applications.\r\nExamples arise in:  medical imaging; image processing;  evolution of thin liquid and solid films, wafers, and fibers;  bubbly flows; droplet formation; colloids;\r\netc.    The research in this project should contribute to a better simulation of\r\nsuch processes. A very useful technology for surface tracking is provided by the\r\nlevel set method:   the key idea is to model the surface as the locus where some\r\nproperty/function changes sign,   and to move the surface advecting the function\r\n--- rather than the surface itself.  This has many advantages; e.g. it allows an easy interface with other associated calculations where the surface plays a role\r\n--- in which it is usually preferable to have the data on a regular grid,  where the surface is hard to represent directly (e.g.: the pixels used to represent an image). However, one standard difficulty with this approach is that parts of the interface may be lost when below some level of resolution.  In this research the authors investigate a new approach to ameliorating this difficulty,  by carrying in the calculation gradient information,  in addition to the level set function.\r\nUnlike prior remedies, this approach  does not  tamper with the basic simplicity of the level set method.  In many practical applications gradient information is available, but currently not fully used.  Example 1: Data structures in computer graphics store surface normals,  which are  not fully used in simulations of the object.  Equipping the data with gradients should improve the quality of further processing steps,  such as in  visualization techniques for realistic rendering.\r\nExample 2:  The dynamic range of 2-D and 3-D MRI or CT-SCAN images is high,  but current technology does not make use this gradient information. Incorporating it into the calculations should  increase the effective resolution,  thus improving the detection of tumors in infants and the identification of small anomalies.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Rodolfo",
+   "pi_last_name": "Rosales",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Rodolfo R Rosales",
+   "pi_email_addr": "rrr@math.mit.edu",
+   "nsf_id": "000449413",
+   "pi_start_date": "2008-07-11",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Benjamin",
+   "pi_last_name": "Seibold",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Benjamin Seibold",
+   "pi_email_addr": "seibold@temple.edu",
+   "nsf_id": "000093704",
+   "pi_start_date": "2008-07-11",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Former Co-Principal Investigator",
+   "pi_first_name": "Jean-Christophe",
+   "pi_last_name": "Nave",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jean-Christophe Nave",
+   "pi_email_addr": "jcnave@mit.edu",
+   "nsf_id": "000078922",
+   "pi_start_date": "2008-07-11",
+   "pi_end_date": "2011-11-28"
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "0000",
+   "pgm_ref_txt": "UNASSIGNED"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  },
+  {
+   "pgm_ref_code": "OTHR",
+   "pgm_ref_txt": "OTHER RESEARCH OR EDUCATION"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0108",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000809DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0109",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000910DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2008,
+   "fund_oblg_amt": 167611.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2009,
+   "fund_oblg_amt": 160005.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 164365.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project has led to the invention of the gradient-augmented level set method and jet schemes. These are computational approaches that allow the computational tracking of interfaces, as well as the evolution of field quantities, with high accuracy. At the same time, they are computationally efficient and very modular. Moreover, they are advantageous for the capture of small structures. The Intellectual Merit of this research is centered on&nbsp; the development of these new methods,&nbsp; their mathematical analysis, and the thorough investigation of their efficiency. In addition, level set methods and related computational approaches were applied to solve problems in various fields of engineering, materials science, and earth and planetary sciences.<br /><br />The findings in this project have Broader Impacts on many problems in science and technology in which the accurate detection, tracking, and computation of interfaces (curves and surfaces) is important, such as gas-liquid interfaces in computational fluid dynamics, phase transitions in materials, weather fronts, the motion of biological membranes, edge detection in medical imaging, flame fronts, and shock fronts in supersonic flows. One postdoctoral researcher and three graduate students were partially involved in this project, and five undergraduate students were trained in research projects. Several international collaborations were part of this project. A new seminar at MIT was created that is still running and attracts a broad audience from various institutions in the Boston area; and the Applied Mathematics and Scientific Computing seminar at Temple University was substantially supported through presentations by collaborations in this project.<br /><br />Products created in this project that go beyond journal publications are: 1) the software particleclaw that solves scalar conservation laws with high accuracy using characteristic particles; 2) two contributions of lecture notes and further course materials in the MIT Open CourseWare project; 3) two pieces of visual art that were part of the exhibition ``Everything Trembles'', shown in 2009 at the Skissernas Museum, Lund, Sweden.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/28/2013<br>\n\t\t\t\t\tModified by: Rodolfo&nbsp;R&nbsp;Rosales</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2013/0813648/0813648_10025737_1375588789793_report_2013_galsm_simulation--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2013/0813648/0813648_10025737_1375588789793_report_2013_galsm_simulation--rgov-800width.jpg\" title=\"Simulation of Partial Coalescence of Droplets on Water\"><img src=\"/por/images/Reports/POR/2013/0813648/0813648_10025737_1375588789793_report_2013_galsm_simulation--rgov-66x44.jpg\" alt=\"Simulation of Partial Coalescence of Droplets on Water\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Snapshot of two simulations of the same physical process (partial coalescence of a water droplet on a water bed), but the interface (between water and air) is tracked with two different computational methods: left = traditional method; right = more accurate approach developed in this project.</div>\n<div class=\"imageCredit\">J.-C. Nave, R. R. Rosales, B. Seibold (2009)</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Benjamin&nbsp;Seibold</div>\n<div class=\"imageTitle\">Simulation of Partial Coalescence of Droplets on Water</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThis project has led to the invention of the gradient-augmented level set method and jet schemes. These are computational approaches that allow the computational tracking of interfaces, as well as the evolution of field quantities, with high accuracy. At the same time, they are computationally efficient and very modular. Moreover, they are advantageous for the capture of small structures. The Intellectual Merit of this research is centered on  the development of these new methods,  their mathematical analysis, and the thorough investigation of their efficiency. In addition, level set methods and related computational approaches were applied to solve problems in various fields of engineering, materials science, and earth and planetary sciences.\n\nThe findings in this project have Broader Impacts on many problems in science and technology in which the accurate detection, tracking, and computation of interfaces (curves and surfaces) is important, such as gas-liquid interfaces in computational fluid dynamics, phase transitions in materials, weather fronts, the motion of biological membranes, edge detection in medical imaging, flame fronts, and shock fronts in supersonic flows. One postdoctoral researcher and three graduate students were partially involved in this project, and five undergraduate students were trained in research projects. Several international collaborations were part of this project. A new seminar at MIT was created that is still running and attracts a broad audience from various institutions in the Boston area; and the Applied Mathematics and Scientific Computing seminar at Temple University was substantially supported through presentations by collaborations in this project.\n\nProducts created in this project that go beyond journal publications are: 1) the software particleclaw that solves scalar conservation laws with high accuracy using characteristic particles; 2) two contributions of lecture notes and further course materials in the MIT Open CourseWare project; 3) two pieces of visual art that were part of the exhibition ``Everything Trembles'', shown in 2009 at the Skissernas Museum, Lund, Sweden.\n\n\t\t\t\t\tLast Modified: 09/28/2013\n\n\t\t\t\t\tSubmitted by: Rodolfo R Rosales"
+ }
+}

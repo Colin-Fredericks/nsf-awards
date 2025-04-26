@@ -1,0 +1,108 @@
+{
+ "awd_id": "1445770",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Closed-Loop Formal Verification of ICDs Using Cardiac Electrophysiological Models",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "David Corman",
+ "awd_eff_date": "2014-12-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 162122.0,
+ "awd_amount": 162122.0,
+ "awd_min_amd_letter_date": "2014-11-24",
+ "awd_max_amd_letter_date": "2018-11-30",
+ "awd_abstract_narration": "Implantable Cardiac Defibrillators (ICDs) are at the forefront of preventing sudden death in patients suffering from ventricular arrhythmias.  ICDs have evolved into complex Cyber-Physical Systems (CPS)which tightly sensing, hardware, and software to diagnose arrythmias based on electrogram signals and control cardiac excitation. These devices are life-critical, yet the Verification and Validation (V&V) techniques used for establishing their safety have remained somewhat informal, and rely largely on extensive unit testing. \r\n\r\nThere have been a number of exciting developments in formal verification technologies. This proposal introduces these techniques into the ICD verification process, and will demonstrate their suitability for application in other medical devices. The project will develop a model-based framework for ICDs, and will apply formal verification techniques, such as model checking and reachability analysis, to high-fidelity cardiac electrophysiological models that capture the electrical excitation induced by the ICD's control software.  Through extensive collaboration with FDA research staff, the proposal will demonstrate the effectiveness of formal verification technology and suitability in medical device applications.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Scott",
+   "pi_last_name": "Smolka",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Scott A Smolka",
+   "pi_email_addr": "sas@cs.stonybrook.edu",
+   "nsf_id": "000172536",
+   "pi_start_date": "2014-11-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "SUNY at Stony Brook",
+  "inst_street_address": "W5510 FRANKS MELVILLE MEMORIAL LIBRARY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STONY BROOK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6316329949",
+  "inst_zip_code": "117940001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NY01",
+  "org_lgl_bus_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "M746VC6XMNH9",
+  "org_uei_num": "M746VC6XMNH9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stony Brook University",
+  "perf_str_addr": "Department of Computer Science",
+  "perf_city_name": "Stony Brook",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "117944400",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NY01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "791800",
+   "pgm_ele_name": "CPS-Cyber-Physical Systems"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0116",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001617DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 79999.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2016,
+   "fund_oblg_amt": 82123.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of this project was to develop a framework for the formal verification of ICD control software.&nbsp; An ICD or Implantable Cardioverter Defibrillator is an implantable medical device able to perform cardioversion, defibrillation, and pacing of the heart. &nbsp;It can therefore correct most life-threatening cardiac arrhythmias.&nbsp; Some of the main outcomes of the project are the following.</p>\n<p>1) Motivated by the problem of verifying the correctness of arrhythmia-detection algorithms, we developed a formalization of these algorithms in the language of Quantitative Regular Expressions.&nbsp; QREs are a flexible formal language for specifying complex numerical queries over data streams, with provable runtime and memory consumption guarantees. &nbsp;The medical-device algorithms of interest include <em>peak detection</em> (where a peak in a cardiac signal indicates a heartbeat) and various <em>discriminators</em>, each of which uses a feature of the cardiac signal to distinguish fatal from non-fatal arrhythmias. &nbsp;Expressing these algorithms' desired output in current temporal logics, and implementing them via monitor synthesis, is cumbersome, error-prone, computationally expensive, and sometimes infeasible. &nbsp;In contrast, we show that a range of peak detectors (in both the time and wavelet domains) and various discriminators at the heart of today's arrhythmia-detection devices are easily expressible in QREs.&nbsp; The fact that one formalism (QREs) is used to describe the desired end-to-end operation of an arrhythmia detector opens the way to formal analysis and rigorous testing of these detectors' correctness and performance. &nbsp;Such analysis could alleviate the regulatory burden on device developers when modifying their algorithms. &nbsp;The performance of the peak-detection QREs is demonstrated by running them on real patient data, on which they yield results on par with those provided by a cardiologist.</p>\n<p>2) An ICD reprogramming attack seeks to alter the device's parameters to induce unnecessary shocks and, even more egregious, prevent required therapy. &nbsp;We developed a formal approach for the synthesis of ICD reprogramming attacks that are both <em>effective</em>, i.e., lead to fundamental changes in the required therapy, and <em>stealthy</em>, i.e., involve minimal changes to the nominal ICD parameters. &nbsp;We focus on the discrimination algorithm underlying Boston Scientific devices (one of the principal ICD manufacturers) and formulate the synthesis problem as one of multi-objective optimization. &nbsp;Our solution technique is based on an Optimization Modulo Theories encoding of the problem and allows us to derive device parameters that are optimal with respect to the effectiveness-stealthiness tradeoff. &nbsp;To the best of our knowledge, our work is the first to derive systematic ICD reprogramming attacks designed to maximize therapy disruption while minimizing detection.</p>\n<p>3) We developed <em>continuous Lagrangian reachability</em> (CLRT), a new algorithm for verifying the correctness/safety of a nonlinear, time-variant dynamical systems. More technically, CLRT involves&nbsp;the computation of a tight and continuous-time &ldquo;reachtube&rdquo; for the system under investigation&rsquo;s solution flows. &nbsp;CLRT employs finite strain theory to determine the deformation of the solution set over time, and we have developed simple explicit analytic formulas for the optimal metric for this deformation.&nbsp; This approach is superior to prior work, which used semi-definite programming. &nbsp; Our results on a series of benchmarks show that CLRT performs favorably compared to state-of-the-art tools such as CAPD in terms of the continuous reachtube volumes they compute.&nbsp;</p>\n<p>4) Even though Model Predictive Control (MPC) is the most commonly used insulin-control algorithm for the <em>Artificial Pancreas</em> (AP), MPC typically requires complex online optimizations, which are infeasible for computation- and power-constrained AP devices.&nbsp; MPC is also prone to state-estimation errors.&nbsp; We have recently developed a new approach to AP control based on <em>Imitation Learning</em>.&nbsp; Our approach allows us to learn neural-network-based insulin policies from MPC-computed examples.&nbsp; The insulin policies we learn in this manner are computationally efficient and, by instrumenting the MPC controller at training time with full state information, they can directly map system observations into optimal therapy decisions, thus bypassing state estimation.&nbsp; We apply Bayesian inference for learning the policies, which allows us to quantify prediction uncertainty (resulting, for instance, from patient physiological variations) and make conservative therapy decisions accordingly.&nbsp; We demonstrate that the control policies we obtain generalize well to the subjects in a patient cohort representing different model parameters and meal behaviors.</p>\n<p>5) Two Post Doctoral students, Greg Byrne and Nicola Paoletti, were supported by the award. &nbsp;&nbsp;Four high students were also involved in the project.&nbsp; Two of them participated in our research on the cyber-security of medical devices, with a focus on ICDs and pacemakers.&nbsp; To prepare for this research, they did substantial background reading on the physiology of the human heart and on ICD arrhythmia discrimination algorithms.&nbsp; One of the students, Zachary Gruber, was a co-author on an ICCPS 2019 paper on Synthesizing Stealthy Reprogramming Attacks on ICDs.&nbsp; Zach attended the April 2018 CyberCardia PI meeting at Georgia Tech, where he gave a presentation on his work.&nbsp; CyberCardia is an NSF CPS Frontier project lead by Scott Smolka, the PI on Award 1445770.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/02/2019<br>\n\t\t\t\t\tModified by: Scott&nbsp;A&nbsp;Smolka</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this project was to develop a framework for the formal verification of ICD control software.  An ICD or Implantable Cardioverter Defibrillator is an implantable medical device able to perform cardioversion, defibrillation, and pacing of the heart.  It can therefore correct most life-threatening cardiac arrhythmias.  Some of the main outcomes of the project are the following.\n\n1) Motivated by the problem of verifying the correctness of arrhythmia-detection algorithms, we developed a formalization of these algorithms in the language of Quantitative Regular Expressions.  QREs are a flexible formal language for specifying complex numerical queries over data streams, with provable runtime and memory consumption guarantees.  The medical-device algorithms of interest include peak detection (where a peak in a cardiac signal indicates a heartbeat) and various discriminators, each of which uses a feature of the cardiac signal to distinguish fatal from non-fatal arrhythmias.  Expressing these algorithms' desired output in current temporal logics, and implementing them via monitor synthesis, is cumbersome, error-prone, computationally expensive, and sometimes infeasible.  In contrast, we show that a range of peak detectors (in both the time and wavelet domains) and various discriminators at the heart of today's arrhythmia-detection devices are easily expressible in QREs.  The fact that one formalism (QREs) is used to describe the desired end-to-end operation of an arrhythmia detector opens the way to formal analysis and rigorous testing of these detectors' correctness and performance.  Such analysis could alleviate the regulatory burden on device developers when modifying their algorithms.  The performance of the peak-detection QREs is demonstrated by running them on real patient data, on which they yield results on par with those provided by a cardiologist.\n\n2) An ICD reprogramming attack seeks to alter the device's parameters to induce unnecessary shocks and, even more egregious, prevent required therapy.  We developed a formal approach for the synthesis of ICD reprogramming attacks that are both effective, i.e., lead to fundamental changes in the required therapy, and stealthy, i.e., involve minimal changes to the nominal ICD parameters.  We focus on the discrimination algorithm underlying Boston Scientific devices (one of the principal ICD manufacturers) and formulate the synthesis problem as one of multi-objective optimization.  Our solution technique is based on an Optimization Modulo Theories encoding of the problem and allows us to derive device parameters that are optimal with respect to the effectiveness-stealthiness tradeoff.  To the best of our knowledge, our work is the first to derive systematic ICD reprogramming attacks designed to maximize therapy disruption while minimizing detection.\n\n3) We developed continuous Lagrangian reachability (CLRT), a new algorithm for verifying the correctness/safety of a nonlinear, time-variant dynamical systems. More technically, CLRT involves the computation of a tight and continuous-time \"reachtube\" for the system under investigation\u2019s solution flows.  CLRT employs finite strain theory to determine the deformation of the solution set over time, and we have developed simple explicit analytic formulas for the optimal metric for this deformation.  This approach is superior to prior work, which used semi-definite programming.   Our results on a series of benchmarks show that CLRT performs favorably compared to state-of-the-art tools such as CAPD in terms of the continuous reachtube volumes they compute. \n\n4) Even though Model Predictive Control (MPC) is the most commonly used insulin-control algorithm for the Artificial Pancreas (AP), MPC typically requires complex online optimizations, which are infeasible for computation- and power-constrained AP devices.  MPC is also prone to state-estimation errors.  We have recently developed a new approach to AP control based on Imitation Learning.  Our approach allows us to learn neural-network-based insulin policies from MPC-computed examples.  The insulin policies we learn in this manner are computationally efficient and, by instrumenting the MPC controller at training time with full state information, they can directly map system observations into optimal therapy decisions, thus bypassing state estimation.  We apply Bayesian inference for learning the policies, which allows us to quantify prediction uncertainty (resulting, for instance, from patient physiological variations) and make conservative therapy decisions accordingly.  We demonstrate that the control policies we obtain generalize well to the subjects in a patient cohort representing different model parameters and meal behaviors.\n\n5) Two Post Doctoral students, Greg Byrne and Nicola Paoletti, were supported by the award.   Four high students were also involved in the project.  Two of them participated in our research on the cyber-security of medical devices, with a focus on ICDs and pacemakers.  To prepare for this research, they did substantial background reading on the physiology of the human heart and on ICD arrhythmia discrimination algorithms.  One of the students, Zachary Gruber, was a co-author on an ICCPS 2019 paper on Synthesizing Stealthy Reprogramming Attacks on ICDs.  Zach attended the April 2018 CyberCardia PI meeting at Georgia Tech, where he gave a presentation on his work.  CyberCardia is an NSF CPS Frontier project lead by Scott Smolka, the PI on Award 1445770.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 12/02/2019\n\n\t\t\t\t\tSubmitted by: Scott A Smolka"
+ }
+}

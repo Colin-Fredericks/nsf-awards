@@ -1,0 +1,96 @@
+{
+ "awd_id": "1533795",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: EXPL: SDA: Scalable Concurrency Control Techniques for Distributed Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2020-08-31",
+ "tot_intn_awd_amt": 299990.0,
+ "awd_amount": 299990.0,
+ "awd_min_amd_letter_date": "2015-08-14",
+ "awd_max_amd_letter_date": "2015-08-14",
+ "awd_abstract_narration": "Virtually all distributed computing applications, from transactions on databases to updates on social media platforms, involve concurrent operations on data objects. For these applications, concurrency control mechanisms represent significant performance overheads. These applications typically exhibit strong and persistent patterns in data access. Motivated by the importance of the problem, this project investigates the use of dynamic data- and lock-access patterns in distributed computations to significantly improve the performance of concurrency control mechanisms for scalable systems, specifically, in conventional cloud environments and key-value stores such as BigTable, HBase, and Cassandra. In contrast to conventional techniques that collocate locks with corresponding data items, this project relies on a modular lock service that decouples lock locations from corresponding data objects, and maintains lock state of all data items in a small set of storage nodes. \r\n\r\nThis design choice motivates a number of questions for this research: (i) where and when should lock states be migrated into the lock service? (ii) when should lock state be repatriated to the data store? (iii) how should the lock service be scaled out? (iv) what are fault-tolerant, low-overhead, deadlock- and livelock-free protocols for these operations? and (v) how can long-lived data access patterns be leveraged in such systems? Building on preliminary results that demonstrate the feasibility and considerable promise of the approach, the project develops algorithms, protocols, analyses, and open-source software, along with comprehensive validation in the context of a diverse set of applications.\r\n\r\nThe project will result in a novel framework for concurrency control in scalable distributed systems. The concurrency control service has a number of desirable features: (i) modularity -- the service can be instantiated at runtime, with minimal change to underlying data storage organization and access mechanisms; (ii) extensibility ? the service adapts dynamically to load and service requirements; and (iii) high performance through the use of efficient algorithms exploiting data and lock access patterns. These features are achieved through a novel mix of algorithms for lock migration and collocation, statistical models for dynamic lock and data access, protocols for lock state management, associated proofs of correctness and fairness, fault tolerance, performance, and scalability. The concurrency control service is fully validated on private as well as public clouds on a mix of applications drawn from Online Transaction Processing and Machine Learning.\r\n\r\nThe project directly impacts an important class of cloud-based applications by providing a modular and extensible lock service.  The service relieves burden on the application programmer while providing high performance and elastic throughput. Beyond this, the project includes a number of educational initiatives aimed at undergraduate and graduate education, along with outreach efforts aimed at enhancing representation of minority groups. These include development of instructional material, curricula, organization of and presentations at workshops and summer schools, and recruitment initiatives aimed at students from under-represented groups.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ananth",
+   "pi_last_name": "Grama",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ananth Grama",
+   "pi_email_addr": "ayg@cs.purdue.edu",
+   "nsf_id": "000319590",
+   "pi_start_date": "2015-08-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "305 N. University Street",
+  "perf_city_name": "West Lafayette",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479072107",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 299990.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>A significant fraction of current high-throughput applications run in cloud environments. Efficient execution of these applications at scale is an important problem, particularly, in dynamic scalable data centers. This project resulted in efficient and effective concurrency control mechanisms for real-world cloud-based applications. It formulated suitable models for resource utilization, throughput, and makespan, developed methods for optimizing these measures, realized these methods in efficient software, incorporated the software into commonly used open source frameworks, and demonstrated the software in to context of an important application -- manipulation of large graph databases.</p>\n<p>The project resulted in a number of technical insights: (i) it resulted in methods for scheduling concurrent operations on key-value stores (such as those used in Facebook, for instance) to maximize their performance; (ii) it resulted in runtime systems for scheduling stream processing applications (such as those in Spark) that mitigate the impact of stragglers on overall system efficiency; (iii) it resulted in the development of scheduling techniques and resource managers, capable of opportunistically utilizing applicated-but-unused resources to significantly enhance overall cloud resource utilization; and (iv) in development of a complete graph database system, TruenoDB, which demonstrates various elements of the project in a single important application.</p>\n<p>The project outcomes have broad and significant impact. Cloud platforms are the dominant cost and energy drivers in current compute deployments. Our work has shown that the resource utilization of current data centers can be improved by over 30% in real-world environments. This is a very significant improvement in terms of energy utilization, cost, and application measures of turn-around time. To this end, the project has direct impact on a large application base. The demonstrator application, TruenoDB graph database, can itself be used in different domains. We have demonstrated its use in systems biology (for modeling biochemical pathways) and path-planning in reaction networks for manufacturing pharmaceutical compounds.</p>\n<p>Finally, the project directly funded the graduate education of a Hispanic student, and enabled the PI to develop significant online material in Parallel Computing.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/10/2020<br>\n\t\t\t\t\tModified by: Ananth&nbsp;Grama</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nA significant fraction of current high-throughput applications run in cloud environments. Efficient execution of these applications at scale is an important problem, particularly, in dynamic scalable data centers. This project resulted in efficient and effective concurrency control mechanisms for real-world cloud-based applications. It formulated suitable models for resource utilization, throughput, and makespan, developed methods for optimizing these measures, realized these methods in efficient software, incorporated the software into commonly used open source frameworks, and demonstrated the software in to context of an important application -- manipulation of large graph databases.\n\nThe project resulted in a number of technical insights: (i) it resulted in methods for scheduling concurrent operations on key-value stores (such as those used in Facebook, for instance) to maximize their performance; (ii) it resulted in runtime systems for scheduling stream processing applications (such as those in Spark) that mitigate the impact of stragglers on overall system efficiency; (iii) it resulted in the development of scheduling techniques and resource managers, capable of opportunistically utilizing applicated-but-unused resources to significantly enhance overall cloud resource utilization; and (iv) in development of a complete graph database system, TruenoDB, which demonstrates various elements of the project in a single important application.\n\nThe project outcomes have broad and significant impact. Cloud platforms are the dominant cost and energy drivers in current compute deployments. Our work has shown that the resource utilization of current data centers can be improved by over 30% in real-world environments. This is a very significant improvement in terms of energy utilization, cost, and application measures of turn-around time. To this end, the project has direct impact on a large application base. The demonstrator application, TruenoDB graph database, can itself be used in different domains. We have demonstrated its use in systems biology (for modeling biochemical pathways) and path-planning in reaction networks for manufacturing pharmaceutical compounds.\n\nFinally, the project directly funded the graduate education of a Hispanic student, and enabled the PI to develop significant online material in Parallel Computing.\n\n\t\t\t\t\tLast Modified: 12/10/2020\n\n\t\t\t\t\tSubmitted by: Ananth Grama"
+ }
+}

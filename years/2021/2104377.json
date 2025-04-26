@@ -1,0 +1,109 @@
+{
+ "awd_id": "2104377",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CDSE: Collaborative: Cyber Infrastructure to Enable Computer Vision Applications at the Edge Using Automated Contextual Analysis",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032927116",
+ "po_email": "sghafoor@nsf.gov",
+ "po_sign_block_name": "Sheikh Ghafoor",
+ "awd_eff_date": "2021-09-01",
+ "awd_exp_date": "2024-08-31",
+ "tot_intn_awd_amt": 99990.0,
+ "awd_amount": 119874.0,
+ "awd_min_amd_letter_date": "2021-04-22",
+ "awd_max_amd_letter_date": "2021-08-27",
+ "awd_abstract_narration": "Digital cameras are deployed as network edge devices, gathering visual data for such tasks as autonomous driving, traffic analysis, and wildlife observation. Analyzing the vast amount of visual data is a challenge. Existing computer vision methods require fast computers that are beyond the computational capabilities of many edge devices. This project aims to improve the efficiency of computer vision methods so that they can run on battery-powered edge devices. Based on the visual data and complementary metadata (e.g., geographical location, local time), the project first extracts contextual information (such as a city street is expected to be busy at rush hour). The contextual information can help assist determine whether analysis results are correct. For example, a wild animal is not expected on a city street. Moreover, contextual information can improve efficiency.  Only certain pixels need to be analyzed (pixels on the road are useful for detecting cars, while pixels in the sky are not) and this can significantly reduce the amount of computation, thus enabling analysis on edge devices. This project constructs a cyberinfrastructure for three services: (1) understand contextual information to reduce the search space of analysis methods, (2) reduce computation by considering only necessary pixels, and (3) automate evaluation of analysis results based on the contextual information without human effort.\r\n\r\nUnderstanding contextual information is achieved by using background segmentation, GPS-location-dependent logic, and image depth maps.  Background analysis leverages semantic segmentation and analysis over time to identify the background pixels and then generate inference rules via a background-implies-foreground relationship. If a pixel is consistently marked by the same semantic label across a long period of time, this pixel is classified as a background pixel. The background information can infer certain types of foreground objects. For example, if the background is city streets, the foreground objects can be vehicles or pedestrians; if a bison is detected, this is likely a mistake. This project processes only the foreground pixels by adding masks to the neural network layers. Masking convolution can substantially reduce the amount of computation with no loss of accuracy and no additional training is needed. Meanwhile, hierarchical neural networks can skip sections of a model based on context. For example, pixels in the sky only need to be processed by the hierarchy nodes that classify airplanes. The project provides an online service that can accept input data and analysis programs for automatic evaluation of the programs, without human created labels. The evaluation is based on the correlations of background and foreground objects.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Vipin",
+   "pi_last_name": "Chaudhary",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Vipin Chaudhary",
+   "pi_email_addr": "vipin@case.edu",
+   "nsf_id": "000378463",
+   "pi_start_date": "2021-04-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Case Western Reserve University",
+  "inst_street_address": "10900 EUCLID AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CLEVELAND",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "2163684510",
+  "inst_zip_code": "441064901",
+  "inst_country_name": "United States",
+  "cong_dist_code": "11",
+  "st_cong_dist_code": "OH11",
+  "org_lgl_bus_name": "CASE WESTERN RESERVE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJMKEF7EJW69"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Case Western Reserve University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "441067071",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "11",
+  "perf_st_cong_dist": "OH11",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "808400",
+   "pgm_ele_name": "CDS&E"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "1504",
+   "pgm_ref_txt": "GRANT OPP FOR ACAD LIA W/INDUS"
+  },
+  {
+   "pgm_ref_code": "8084",
+   "pgm_ref_txt": "CDS&E"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 119874.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project has made significant advancements in improving the efficiency and adaptability of computer vision methods and advanced neural architectures, particularly for deployment on energy-constrained edge devices. By addressing critical challenges in computational efficiency, energy consumption, and scalability, the project has contributed to the broader field of sustainable computing.</p>\r\n<p>For convolutional neural networks (CNNs), the team developed techniques to identify and exclude unnecessary pixels during computation, significantly reducing execution time by over 20% without degrading accuracy. Unlike earlier methods that required an expensive pre-processing step, the team&rsquo;s latest approach leverages information from earlier layers of CNNs, streamlining the process and enhancing applicability across various pre-trained models. This innovation, termed \"Focused Convolution,\" has been published at a leading conference. The project also addressed the integration of contextual information, such as geographic location and local time, to optimize computer vision tasks. This approach not only improved computational efficiency by focusing on relevant pixels but also enabled automated validation of results without human intervention. These advancements collectively enable more efficient and accurate computer vision on edge devices, paving the way for broader adoption in resource-constrained environments. A dedicated cyberinfrastructure was established to benchmark low-power computer vision solutions, including hosting the 2023 IEEE Low-Power Computer Vision Challenge. This platform, deployed on Nvidia Jetson Nano devices, received 283 submissions from 34 teams tackling energy-efficient image segmentation tasks. The infrastructure, along with open-source reference solutions, provides a valuable resource for the research community and fosters innovation in sustainable computing.</p>\r\n<p>The broader impacts of this project extend across education, workforce development, and community engagement, while also promoting sustainability in computing. A central theme has been the integration of research findings into educational initiatives, including course projects and workshops. The project has been instrumental in training the next generation of scientists and engineers, with a strong emphasis on broadening participation. The team mentored a diverse group of students, including underrepresented minorities, and involved them in cutting-edge research. A high school female student co-authored a research paper and has since been accepted to study computer science at Cornell University, demonstrating the impact of these mentorship efforts. From a sustainability perspective, the project has focused on reducing the environmental footprint of computing by developing methods that optimize resource usage. By improving the efficiency of neural networks and leveraging contextual information, the project contributes to energy savings and reduced computational demands. These innovations are particularly relevant for applications involving unmanned aerial vehicles (UAVs) and other edge devices with limited energy resources.</p>\r\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 01/05/2025<br>\nModified by: Vipin&nbsp;Chaudhary</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project has made significant advancements in improving the efficiency and adaptability of computer vision methods and advanced neural architectures, particularly for deployment on energy-constrained edge devices. By addressing critical challenges in computational efficiency, energy consumption, and scalability, the project has contributed to the broader field of sustainable computing.\r\n\n\nFor convolutional neural networks (CNNs), the team developed techniques to identify and exclude unnecessary pixels during computation, significantly reducing execution time by over 20% without degrading accuracy. Unlike earlier methods that required an expensive pre-processing step, the teams latest approach leverages information from earlier layers of CNNs, streamlining the process and enhancing applicability across various pre-trained models. This innovation, termed \"Focused Convolution,\" has been published at a leading conference. The project also addressed the integration of contextual information, such as geographic location and local time, to optimize computer vision tasks. This approach not only improved computational efficiency by focusing on relevant pixels but also enabled automated validation of results without human intervention. These advancements collectively enable more efficient and accurate computer vision on edge devices, paving the way for broader adoption in resource-constrained environments. A dedicated cyberinfrastructure was established to benchmark low-power computer vision solutions, including hosting the 2023 IEEE Low-Power Computer Vision Challenge. This platform, deployed on Nvidia Jetson Nano devices, received 283 submissions from 34 teams tackling energy-efficient image segmentation tasks. The infrastructure, along with open-source reference solutions, provides a valuable resource for the research community and fosters innovation in sustainable computing.\r\n\n\nThe broader impacts of this project extend across education, workforce development, and community engagement, while also promoting sustainability in computing. A central theme has been the integration of research findings into educational initiatives, including course projects and workshops. The project has been instrumental in training the next generation of scientists and engineers, with a strong emphasis on broadening participation. The team mentored a diverse group of students, including underrepresented minorities, and involved them in cutting-edge research. A high school female student co-authored a research paper and has since been accepted to study computer science at Cornell University, demonstrating the impact of these mentorship efforts. From a sustainability perspective, the project has focused on reducing the environmental footprint of computing by developing methods that optimize resource usage. By improving the efficiency of neural networks and leveraging contextual information, the project contributes to energy savings and reduced computational demands. These innovations are particularly relevant for applications involving unmanned aerial vehicles (UAVs) and other edge devices with limited energy resources.\r\n\n\n\t\t\t\t\tLast Modified: 01/05/2025\n\n\t\t\t\t\tSubmitted by: VipinChaudhary\n"
+ }
+}

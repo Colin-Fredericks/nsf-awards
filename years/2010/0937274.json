@@ -1,0 +1,105 @@
+{
+ "awd_id": "0937274",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CCF-AF:  Abstract Medium Access Control Layers",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2010-07-01",
+ "awd_exp_date": "2015-06-30",
+ "tot_intn_awd_amt": 848200.0,
+ "awd_amount": 848200.0,
+ "awd_min_amd_letter_date": "2010-06-28",
+ "awd_max_amd_letter_date": "2010-06-28",
+ "awd_abstract_narration": "The study of algorithms and lower bounds for wireless radio networks is complicated by the diversity and complexity of assumptions about network behavior, for example, about time synchronization, device reliability and mobility, signal propagation characteristics, and transmission collisions. This project will simplify this study by defining simple abstract models for Medium Access Control (MAC) layers in wireless networks.  These layers will provide reliable local broadcast communication, with delays that are bounded by functions of the local contention. Algorithm designers should be able to develop and analyze algorithms in terms of these abstract layers, independently of the physical network behavior and the MAC layer implementation, yet obtain results that are realistic in terms of the physical networks.  Likewise, theoreticians should be able to use these layers to prove simple but meaningful lower bounds.\r\n\r\nSpecifically, the project will define and evaluate several possible abstract MAC layers, varying according to whether their guarantees are worst case or probabilistic, how they model signal propagation characteristics, and what they ensure in the presence of failures and other network changes.\r\nIt will demonstrate how these layers can be implemented in physical radio networks, using a variety of contention-management methods such as carrier-sensing, collision detection, random transmission and backoff, and network coding.  It will use these layers to study many problems in wireless networks,\r\nincluding basic problems such as neighbor discovery and regional\r\nleader election; intermediate problems such as network-wide communication, maintenance of network structures, and resource allocation; and high-level problems that arise in robot control and data-management applications.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nancy",
+   "pi_last_name": "Lynch",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nancy A Lynch",
+   "pi_email_addr": "lynch@csail.mit.edu",
+   "nsf_id": "000169435",
+   "pi_start_date": "2010-06-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "793400",
+   "pgm_ele_name": "PARAL/DISTRIBUTED ALGORITHMS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 848200.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Wireless devices are now ubiquitous, and their computation and communication capabilities are increasing rapidly.&nbsp; However, writing programs for networks of wireless devices is still difficult.&nbsp; A major reason is that wireless devices share radio communication channels, resulting in message collisions and losses.&nbsp; Strategies are needed to manage contention.<br /><br />This project has developed new abstraction layers called \"Abstract MAC Layers\", which provide the abstraction of a Reliable Local Broadcast service.&nbsp; These layers hide complexities of collision management, and thus can aid programmers in writing software for wireless networks.&nbsp; The approach is theoretical, with precise layer definitions, mathematically-defined algorithms, and rigorous analysis.<br /><br />This work began by defining a basic Abstract MAC Layer, based on a network graph.&nbsp; This layer supports message sending and delivery, plus an ``abort'' capability.&nbsp; The layer supports both reliable and unreliable communication links, based on ``Dual Graphs''.&nbsp; It guarantees two latency bounds:&nbsp; an ``acknowledgment bound'' on the time for a sender's message to be received by all of its reliable graph neighbors, and a ``progress bound'' on the time for a receiver to receive some message, when some reliable neighbor is sending.&nbsp; This work also demonstrated how such layers can be used in developing a simple algorithm for global multi message broadcast throughout a network.</p>\n<p>Later work developed a probabilistic version of the abstract MAC layer, gave an algorithm to implement it over a standard ``Radio Network'' wireless platform, and used the layer in a higher-level algorithm for global multi-message broadcast.&nbsp; Composing the two algorithms yields a global broadcast algorithm for the radio network model with costs comparable to&nbsp; the best previously-known algorithms.&nbsp; Moreover, using the abstract MAC layer greatly simplifies the design and analysis of the global broadcast algorithm.</p>\n<p>Another algorithm was developed for implementing the probabilistic abstract MAC layer over a wireless network platform that supports network coding.&nbsp; By composing algorithms at two levels, this yields an efficient algorithm for solving global broadcast over a network coding platform.</p>\n<p>These layers can provide a rather general method of designing algorithms to solve higher-level problems over wireless platforms.&nbsp; This project developed efficient algorithms to solve a variety of fundamental problems over abstract MAC layers, including neighbor discovery, leader election, and constructing Maximal Independent Sets (MISs).&nbsp; One algorithm, for multi-message global broadcast, is notable in that it is designed to work for Dual Graphs, that is, in the presence of both reliable and unreliable links.&nbsp; All these algorithms can be composed with lower-level implementations of abstract MAC layers to yield algorithms to solve problems directly over wireless platforms.</p>\n<p>Additional implementations of the layer were developed for other wireless platforms, including a new ``Bounded-Contention Coding'' platform based on additive channels.&nbsp; Notably, an efficient algorithm was developed for implementing the probabilistic layer over a radio network with unreliable communication links. This algorithm is ``scalable\", in that all costs are based on purely local parameters, such as maximum node degree, rather than global parameters like network size.&nbsp; The algorithm uses a new subproblem of ``Seed Agreement'', which enables nodes to share random numbers.<br /><br />Another efficient algorithm was developed for implementing the probabilistic layer over a ``Signal-to-Interference-and-Noise Ratio (SINR)'' platform model.&nbsp; The SINR platform is notoriously complicated to use for designing algorithms; abstract MAC layers simplify this task...",
+  "por_txt_cntn": "\nWireless devices are now ubiquitous, and their computation and communication capabilities are increasing rapidly.  However, writing programs for networks of wireless devices is still difficult.  A major reason is that wireless devices share radio communication channels, resulting in message collisions and losses.  Strategies are needed to manage contention.\n\nThis project has developed new abstraction layers called \"Abstract MAC Layers\", which provide the abstraction of a Reliable Local Broadcast service.  These layers hide complexities of collision management, and thus can aid programmers in writing software for wireless networks.  The approach is theoretical, with precise layer definitions, mathematically-defined algorithms, and rigorous analysis.\n\nThis work began by defining a basic Abstract MAC Layer, based on a network graph.  This layer supports message sending and delivery, plus an ``abort'' capability.  The layer supports both reliable and unreliable communication links, based on ``Dual Graphs''.  It guarantees two latency bounds:  an ``acknowledgment bound'' on the time for a sender's message to be received by all of its reliable graph neighbors, and a ``progress bound'' on the time for a receiver to receive some message, when some reliable neighbor is sending.  This work also demonstrated how such layers can be used in developing a simple algorithm for global multi message broadcast throughout a network.\n\nLater work developed a probabilistic version of the abstract MAC layer, gave an algorithm to implement it over a standard ``Radio Network'' wireless platform, and used the layer in a higher-level algorithm for global multi-message broadcast.  Composing the two algorithms yields a global broadcast algorithm for the radio network model with costs comparable to  the best previously-known algorithms.  Moreover, using the abstract MAC layer greatly simplifies the design and analysis of the global broadcast algorithm.\n\nAnother algorithm was developed for implementing the probabilistic abstract MAC layer over a wireless network platform that supports network coding.  By composing algorithms at two levels, this yields an efficient algorithm for solving global broadcast over a network coding platform.\n\nThese layers can provide a rather general method of designing algorithms to solve higher-level problems over wireless platforms.  This project developed efficient algorithms to solve a variety of fundamental problems over abstract MAC layers, including neighbor discovery, leader election, and constructing Maximal Independent Sets (MISs).  One algorithm, for multi-message global broadcast, is notable in that it is designed to work for Dual Graphs, that is, in the presence of both reliable and unreliable links.  All these algorithms can be composed with lower-level implementations of abstract MAC layers to yield algorithms to solve problems directly over wireless platforms.\n\nAdditional implementations of the layer were developed for other wireless platforms, including a new ``Bounded-Contention Coding'' platform based on additive channels.  Notably, an efficient algorithm was developed for implementing the probabilistic layer over a radio network with unreliable communication links. This algorithm is ``scalable\", in that all costs are based on purely local parameters, such as maximum node degree, rather than global parameters like network size.  The algorithm uses a new subproblem of ``Seed Agreement'', which enables nodes to share random numbers.\n\nAnother efficient algorithm was developed for implementing the probabilistic layer over a ``Signal-to-Interference-and-Noise Ratio (SINR)'' platform model.  The SINR platform is notoriously complicated to use for designing algorithms; abstract MAC layers simplify this task.\n\nThis project also studied the costs of solving problems directly on various wireless platform models.  For example, for standard, single graph radio networks, new and efficient algorithms were given for basic prob..."
+ }
+}

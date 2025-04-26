@@ -1,0 +1,109 @@
+{
+ "awd_id": "1418953",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Efficient high order methods for two multiscale problems",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2015-01-01",
+ "awd_exp_date": "2018-12-31",
+ "tot_intn_awd_amt": 126125.0,
+ "awd_amount": 126125.0,
+ "awd_min_amd_letter_date": "2014-12-19",
+ "awd_max_amd_letter_date": "2014-12-19",
+ "awd_abstract_narration": "Multiscale problems are ubiquitous in engineering and physics. This kind of problem involves phenomena that occur across a variety of time and length scales, which may vary in orders of magnitude. To prevent inaccurate solutions, traditional approximation methods need extremely refined meshes to resolve all the scales, which places huge demands on memory and computation time and thus limits the applications. In this project, we construct new multiscale methods to efficiently and accurately solve two model equations that are broadly used in studies of detonation, combustion and turbulence involving reactions, and nanoscale semiconductor devices. The proposed research will develop new multiscale methods to meet with the increasing demand for computational resources in multiscale problems. Reliable and efficient multiscale methods will further help predict physical phenomena in realistic applications. \r\n\r\nSpecifically, this project focuses on multiscale methods for reactive flow equations and the Schrodinger equation. In high-speed reacting flows with multispecies and multireactions, incorrect propagation of discontinuities may occur in underresolved mesh regions. Our approach is to combine a high order shock-capturing scheme such as WENO for the convection part with Harten's subcell resolution for the reaction part. The subcell treatment utilizes the flow information and is able to control the dissipation of shock-capturing schemes to avoid the spurious solutions due to the underresolved mesh. The goal is to capture the correct locations of shocks and discontinuities in high-speed reacting flows with coarse meshes in both time and space. In simulations of electron transport modeled by the Schrodinger-Poisson system, the computational cost is huge due to the high frequency oscillations of the solution. The idea is to incorporate some known structures of the solution into the base functions of Discontinuous Galerkin methods. This can be accomplished by building local solution spaces based on the semiclassical approximation WKB asymptotic, which has certain multiscale structures of the solution. We aim to construct an inexpensive and reliable solver for Schrodinger-Poisson system to simulate quantum transport of electrons in nanoscale semiconductors.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wei",
+   "pi_last_name": "Wang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wei Wang",
+   "pi_email_addr": "weiwang1@fiu.edu",
+   "nsf_id": "000583875",
+   "pi_start_date": "2014-12-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Florida International University",
+  "inst_street_address": "11200 SW 8TH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "MIAMI",
+  "inst_state_code": "FL",
+  "inst_state_name": "Florida",
+  "inst_phone_num": "3053482494",
+  "inst_zip_code": "331992516",
+  "inst_country_name": "United States",
+  "cong_dist_code": "26",
+  "st_cong_dist_code": "FL26",
+  "org_lgl_bus_name": "FLORIDA INTERNATIONAL UNIVERSITY",
+  "org_prnt_uei_num": "Q3KCVK5S9CP1",
+  "org_uei_num": "Q3KCVK5S9CP1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Florida International University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "FL",
+  "perf_st_name": "Florida",
+  "perf_zip_code": "331990001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "26",
+  "perf_st_cong_dist": "FL26",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8396",
+   "pgm_ref_txt": "Clean Energy Technology"
+  },
+  {
+   "pgm_ref_code": "8609",
+   "pgm_ref_txt": "Other Energy Research"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 126125.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The outcomes of the project are in different areas including new algorithm development, theoretical numerical analysis and practical applications.</p>\n<p>&nbsp;A high-order multiscale DG method has been developed and analyzed for a class of second order equations with applications to Schrodinger equations. This &nbsp;efficient, inexpensive and reliable solver has been successfully applied to simulate quantum transport in semi-conductor devices. It will enhance the scientific community&rsquo;s general understanding about modeling in quantum transport. The mathematical analysis will provide guidelines on the development and improvement of the DG methods for multiscale methods, and make them perform better in many application areas including computational semi-conductors yet with less computational cost.&nbsp; The construction of WENO with subcell resolution provides a robust efficient high order method for high speed reacting flows in underresolved spatial and temporal meshes. This research is important for fundamental problems of computation of turbulence involving reactions and combustions. The research of high-order particle-in-cell method provides a new hybrid Eulerian-Lagrangian method for advection dominated equations with applications to shallow water equations. The method has nice properties of high order, well-balancedness and shock-capturing. The research will have a direct impact in many geophysical flow simulations, as well as ocean and hydraulic engineering. This work is also highly multi-disciplinary and will support new interdisciplinary collaborations in the area of mathematics, physics and engineering.</p>\n<p style=\"text-align: left;\">&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/31/2019<br>\n\t\t\t\t\tModified by: Wei&nbsp;Wang</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe outcomes of the project are in different areas including new algorithm development, theoretical numerical analysis and practical applications.\n\n A high-order multiscale DG method has been developed and analyzed for a class of second order equations with applications to Schrodinger equations. This  efficient, inexpensive and reliable solver has been successfully applied to simulate quantum transport in semi-conductor devices. It will enhance the scientific community?s general understanding about modeling in quantum transport. The mathematical analysis will provide guidelines on the development and improvement of the DG methods for multiscale methods, and make them perform better in many application areas including computational semi-conductors yet with less computational cost.  The construction of WENO with subcell resolution provides a robust efficient high order method for high speed reacting flows in underresolved spatial and temporal meshes. This research is important for fundamental problems of computation of turbulence involving reactions and combustions. The research of high-order particle-in-cell method provides a new hybrid Eulerian-Lagrangian method for advection dominated equations with applications to shallow water equations. The method has nice properties of high order, well-balancedness and shock-capturing. The research will have a direct impact in many geophysical flow simulations, as well as ocean and hydraulic engineering. This work is also highly multi-disciplinary and will support new interdisciplinary collaborations in the area of mathematics, physics and engineering.\n \n\n\t\t\t\t\tLast Modified: 01/31/2019\n\n\t\t\t\t\tSubmitted by: Wei Wang"
+ }
+}

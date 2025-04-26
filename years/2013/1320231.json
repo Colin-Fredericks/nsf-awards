@@ -1,0 +1,105 @@
+{
+ "awd_id": "1320231",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Data Synchronization : Theory, Algorithms, and Practice",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rahul Shah",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 399370.0,
+ "awd_amount": 399370.0,
+ "awd_min_amd_letter_date": "2013-08-12",
+ "awd_max_amd_letter_date": "2013-08-12",
+ "awd_abstract_narration": "This project addresses the growing need for improved synchronization methods for large-scale, multi-party distributed systems.\u00a0 As users migrate information to cloud storage, cloud providers may use multiple loosely consistent replicas because of the overhead of keeping replicas synchronized at all times.\u00a0 Further, users themselves may create loosely synchronized replicas on laptops, tablets, or other devices when they are disconnected from the cloud storage.\u00a0 Periodic synchronization, or reconciliation, becomes a requirement in such settings.\r\n\r\nReconciliation has been most studied in the specific setting of two connected users, each containing a set of keys, and both desiring the union of the sets.\u00a0 The costs of these protocols is typically in terms of the size of the symmetric set difference between the two sets.\u00a0 The Principal Investigator (PI) will focus on generalizing reconciliation methods to settings where many parties communicate over a network represented by a graph.\u00a0 The new framework will aim to  encompass standard problems such as rumor spreading and network coding, as well as generalize to other objects such as sequences with other measures such as edit distance. The primary theoretical and practical challenge the PI will pursue is to develop schemes where the amount of communication necessary for object synchronization depends only on the size of the difference among objects that need to be synchronized, and not the sizes of the objects themselves.\u00a0 For example, for large databases, the synchronization cost should depend on the delta between the databases, which will generally be much smaller than the databases themselves.\u00a0 A further goal is that the framework will have practical consequences for modern cloud-based deployments, especially large-scale big data systems. Because the goals of reconciliation include both algorithmic efficiency as well as communication efficiency, the PI will work to bring ideas from both the theoretical computer science and information theory communities together in this work.\u00a0 The new algorithms and data structures developed for these problems are expected to have significant additional uses for other problems as well.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Mitzenmacher",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael Mitzenmacher",
+   "pi_email_addr": "michaelm@eecs.harvard.edu",
+   "nsf_id": "000439480",
+   "pi_start_date": "2013-08-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Harvard University",
+  "inst_street_address": "1033 MASSACHUSETTS AVE STE 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6174955501",
+  "inst_zip_code": "021385366",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MA05",
+  "org_lgl_bus_name": "PRESIDENT AND FELLOWS OF HARVARD COLLEGE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LN53LCFJFL45"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Harvard University",
+  "perf_str_addr": "33 Oxford St",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021383846",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "792600",
+   "pgm_ele_name": "ALGORITHMS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 399370.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This award focused on issues related to data reconcilation.&nbsp; As an example setting, suppose I have a distributed database, in the form of collection of values, known as keys.&nbsp; Each copy of the database starts with the same set of keys, but we allow keys to be added and deleted at local copies.&nbsp; While the copies do not need to be perfectly synchronized, over time the differences between the local copies will begin to grow, and they will need to be synchronized, or reconciled, periodically.&nbsp; In a typical case, the database may be very large, but the differences between copies will be relatively small, often several orders magnitude smaller than the actual databases.&nbsp; Can we achieve reconcilation in a computationally efficient and communication efficient manner, so that the communication required is proportional to the size of the differences, not the size of the database?</p>\n<p>The PI, in conjunction with a graduate student, pursued several subprojects in this area.&nbsp; One work introduced a new reconciliation primitive, based on reconciling \"sets of sets\". &nbsp;A natural example is in the context of graph reconciliation: &nbsp;the neighborhood of each vertex can be viewed as a set (of vertices), and a graph is then a collection corresponding to a \"set of sets\".&nbsp; Sets of sets are also a natural way to represent binary databases and document databases.&nbsp; Expanding on prior work for schemes fo reconciling sets, we found efficient reconciliation schemes for sets of sets where the overall number of differences between sets of sets are small.&nbsp;</p>\n<p>We also considered subprojects covering several additional generalization.&nbsp; For example, we considered the problem of reconciling point sets in a metric space; &nbsp;here a reconciliation is considered successful if for every point one party has, the other party has a corresponding point that is sufficiently close in the metric space. &nbsp;Instead of \"exact reconciliation\", this paradigm allows for an approximate reconciliation in a well-defined sense.&nbsp; We obtain new algorithms for reconciling point sets in a metric space.&nbsp; Another subproject dealt with the problem of directory reconciliation, where one has a directory of information to be reconciled.&nbsp; Popular tools such as rsync implement solutions to this problem;&nbsp; we have formalized it and introduced new algorithmic ideas that we hope, in the future, may lead to improved practical solutions.</p>\n<p>Finally, the grant also covered additional work for the PI on sampling and hasing related algorithms and data structures, which form the backbone of reconciliation schemes.&nbsp; In particular, the grant helped fund a postdoctoral student who, with the PI, developed new schemes for subsampling graphs in a metric space efficiently in a way that allows for novel sublinear time algorithms.&nbsp; We believe this sampling technique will serve as general tool for further sublinear time algorithms on metric graphs.&nbsp;&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/06/2018<br>\n\t\t\t\t\tModified by: Michael&nbsp;Mitzenmacher</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis award focused on issues related to data reconcilation.  As an example setting, suppose I have a distributed database, in the form of collection of values, known as keys.  Each copy of the database starts with the same set of keys, but we allow keys to be added and deleted at local copies.  While the copies do not need to be perfectly synchronized, over time the differences between the local copies will begin to grow, and they will need to be synchronized, or reconciled, periodically.  In a typical case, the database may be very large, but the differences between copies will be relatively small, often several orders magnitude smaller than the actual databases.  Can we achieve reconcilation in a computationally efficient and communication efficient manner, so that the communication required is proportional to the size of the differences, not the size of the database?\n\nThe PI, in conjunction with a graduate student, pursued several subprojects in this area.  One work introduced a new reconciliation primitive, based on reconciling \"sets of sets\".  A natural example is in the context of graph reconciliation:  the neighborhood of each vertex can be viewed as a set (of vertices), and a graph is then a collection corresponding to a \"set of sets\".  Sets of sets are also a natural way to represent binary databases and document databases.  Expanding on prior work for schemes fo reconciling sets, we found efficient reconciliation schemes for sets of sets where the overall number of differences between sets of sets are small. \n\nWe also considered subprojects covering several additional generalization.  For example, we considered the problem of reconciling point sets in a metric space;  here a reconciliation is considered successful if for every point one party has, the other party has a corresponding point that is sufficiently close in the metric space.  Instead of \"exact reconciliation\", this paradigm allows for an approximate reconciliation in a well-defined sense.  We obtain new algorithms for reconciling point sets in a metric space.  Another subproject dealt with the problem of directory reconciliation, where one has a directory of information to be reconciled.  Popular tools such as rsync implement solutions to this problem;  we have formalized it and introduced new algorithmic ideas that we hope, in the future, may lead to improved practical solutions.\n\nFinally, the grant also covered additional work for the PI on sampling and hasing related algorithms and data structures, which form the backbone of reconciliation schemes.  In particular, the grant helped fund a postdoctoral student who, with the PI, developed new schemes for subsampling graphs in a metric space efficiently in a way that allows for novel sublinear time algorithms.  We believe this sampling technique will serve as general tool for further sublinear time algorithms on metric graphs.  \n\n \n\n\t\t\t\t\tLast Modified: 10/06/2018\n\n\t\t\t\t\tSubmitted by: Michael Mitzenmacher"
+ }
+}

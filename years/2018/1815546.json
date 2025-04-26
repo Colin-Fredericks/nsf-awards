@@ -1,0 +1,109 @@
+{
+ "awd_id": "1815546",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: CORE: Small: On the Power of Preprocessing and Non-Uniformity",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 380000.0,
+ "awd_amount": 380000.0,
+ "awd_min_amd_letter_date": "2018-08-17",
+ "awd_max_amd_letter_date": "2018-08-17",
+ "awd_abstract_narration": "Today, hash functions are ubiquitous in that they are widely used in almost every cryptographic application. Thus, accurately analyzing their security is of paramount importance. Unfortunately, traditional analyses of hash functions do not take into account the ability of the attacker to perform (possibly expensive but only one-time) preprocessing attacks, which might dramatically speed up the time to repeatedly attack the respective application in real time. For example, the famous rainbow tables preprocessing attack is the most successful and practical approach to crack passwords. Motivated by this serious shortcoming, this project develops a novel theory of how to assess security of hash functions against such powerful preprocessing attacks, and designs rigorous yet practical counter-measures against them. \r\n\r\nMore specifically, traditional analyses of applications utilizing hash functions are done in the so called Random Oracle Model (ROM), where the hash function is modeled as truly random. In contrast, this project studies an extension of the traditional ROM where the attacker is allowed to obtain some arbitrary but bounded information about the hash function in question. This extension is referred to as Random Oracle Model with Auxiliary Input (AI-ROM). Security bounds in this new model provably protect against a much wider class of sophisticated attackers than the traditional ROM, including preprocessing attacks. This project develops a firm theoretical foundation of AI-ROM, including: (1) deriving tight AI-ROM security bounds for a variety of important applications of hash functions; (2) studying the effects of common countermeasures against preprocessing, such as salting and hardness amplification; (3) developing novel applications for AI-ROM, such as proofs of space; (4) extending the auxiliary-input model to other idealized models of security, such as the ideal-cipher, the random-permutation and the generic group models.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yevgeniy",
+   "pi_last_name": "Dodis",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yevgeniy Dodis",
+   "pi_email_addr": "dodis@cs.nyu.edu",
+   "nsf_id": "000122311",
+   "pi_start_date": "2018-08-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "251 Mercer Street",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121110",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 380000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Hash functions are ubiquitous in cryptography. They are widely used to build one-way functions (OWFs), collision-resistant hash functions (CRHFs), pseudorandom functions/generators (PRFs/PRGs), message authentication codes (MACs), key derivation functions (KDFs), etc. For many of these applications, we conjecture that their security can be accurately assessed by modeling the hash function used as an&nbsp; ideal random function. Traditionally, this popular heuristic is formalized in the well-known random oracle model (ROM), where the attacker is given oracle access to a given random function and can query it on a bounded number of points. Unfortunately, while leading to very intuitive and easy-to-understand security proofs for OWFs, CRHFs, PRFs, PRGs, MACs etc., the traditional ROM does not take into account the ability of the attacker to perform some (possibly expensive, but one-time) preprocessing attacks. Indeed, such attacks are widely used in practice, and we would like our applications to be secure even when preprocessing is feasible.&nbsp;</p>\n<p><br />Motivated by this shortcoming, this project developed an extension of the traditional ROM where the attacker is allowed to obtain some arbitrary but bounded information about the hash function in question. We call this model auxiliary-input random-oracle model (AI-ROM), and believe security bounds in this model protect against a much wider class of sophisticated attackers than the traditional ROM. As our major result of this work, new techniques were developed to obtain tight security bounds for various applications in AI-ROM model, including OWFs, CRHFs, PRFs, PRGs, KDFs, and MACs. We also proved that salting provably defeats preprocessing attacks, formalizing this widely used defense indeed has theoretical foundations. Finally, we extended our results to other cryptographic primitives where preprocessing attacks were known, including block ciphers and generic groups.&nbsp;</p><br>\n<p>\n Last Modified: 03/22/2024<br>\nModified by: Yevgeniy&nbsp;Dodis</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nHash functions are ubiquitous in cryptography. They are widely used to build one-way functions (OWFs), collision-resistant hash functions (CRHFs), pseudorandom functions/generators (PRFs/PRGs), message authentication codes (MACs), key derivation functions (KDFs), etc. For many of these applications, we conjecture that their security can be accurately assessed by modeling the hash function used as an ideal random function. Traditionally, this popular heuristic is formalized in the well-known random oracle model (ROM), where the attacker is given oracle access to a given random function and can query it on a bounded number of points. Unfortunately, while leading to very intuitive and easy-to-understand security proofs for OWFs, CRHFs, PRFs, PRGs, MACs etc., the traditional ROM does not take into account the ability of the attacker to perform some (possibly expensive, but one-time) preprocessing attacks. Indeed, such attacks are widely used in practice, and we would like our applications to be secure even when preprocessing is feasible.\n\n\n\nMotivated by this shortcoming, this project developed an extension of the traditional ROM where the attacker is allowed to obtain some arbitrary but bounded information about the hash function in question. We call this model auxiliary-input random-oracle model (AI-ROM), and believe security bounds in this model protect against a much wider class of sophisticated attackers than the traditional ROM. As our major result of this work, new techniques were developed to obtain tight security bounds for various applications in AI-ROM model, including OWFs, CRHFs, PRFs, PRGs, KDFs, and MACs. We also proved that salting provably defeats preprocessing attacks, formalizing this widely used defense indeed has theoretical foundations. Finally, we extended our results to other cryptographic primitives where preprocessing attacks were known, including block ciphers and generic groups.\t\t\t\t\tLast Modified: 03/22/2024\n\n\t\t\t\t\tSubmitted by: YevgeniyDodis\n"
+ }
+}

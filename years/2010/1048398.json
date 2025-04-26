@@ -1,0 +1,109 @@
+{
+ "awd_id": "1048398",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER:  Foundations of Data-Centric Concurrency Control",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2010-08-15",
+ "awd_exp_date": "2011-07-31",
+ "tot_intn_awd_amt": 110000.0,
+ "awd_amount": 110000.0,
+ "awd_min_amd_letter_date": "2010-08-17",
+ "awd_max_amd_letter_date": "2010-08-17",
+ "awd_abstract_narration": "This project investigates the foundational aspects of an alternative approach to the specification, implementation and management of concurrent activities which is referred to as data-centric synchronization.  Traditional approaches take an operational view of concurrency control, they burden the programmer with the need to identify sets of control flow paths in their program which must not interfere. This has been shown to be difficult to get right and, more often than not, to inhibit scalability to multicore systems as the code is over-synchronized.  This EAGER project explores the foundations of data-centric synchronization with an emphasis on establishing a type theoretic foundation based on the notion of ownership types.  Ownership types give programmers a simple notation for describing the shape and extent of heap-based data structures.  Thus an ownership type system can be seen as the basic mechanism for specifying the groups of data items that must be manipulated synchronously.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jan",
+   "pi_last_name": "Vitek",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jan Vitek",
+   "pi_email_addr": "j.vitek@neu.edu",
+   "nsf_id": "000290862",
+   "pi_start_date": "2010-08-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "2550 NORTHWESTERN AVE # 1100",
+  "perf_city_name": "WEST LAFAYETTE",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479061332",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794400",
+   "pgm_ele_name": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 110000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Writing correctly synchronized concurrent programs is challenging. &nbsp;Whenevertwo threads access the same memory location there is the potential for adata race and for inconsistent results. &nbsp;Traditional techniques forconcurrent programming have an operational, control-centric,flavor. Programmers must ensure that any access to a shared data location isprotected by synchronized blocks or other system-specific concurrencycontrol primitives. &nbsp;The challenge is that protecting all accesses to sharedlocations requires non-local reasoning: All control flow paths leading to amemory operation on shared data must be dominated by a synchronizationoperation. A data race may occur if the programmer forgets to synchronizeeven a single path. To make matters worse, even if every access to shared data isprotected, the program may still end up in an inconsistent state due to ahigh-level data race. This can occur when there exists aconsistency relation between multiple memory locations and the programmer'suse of synchonization fails to ensure that this relation is maintained atevery instant. Analysis of real world software defects suggests that these kinds ofraces occur frequently. Avoiding high-level data races requiresthe same kind of non-local reasoning but is further complicated by the factthat multiple locks may have to be acquired in a specific order.<br />Data-centric synchronization is a declarative approach to concurrencycontrol first. Data-centric synchronizationadvocates that instead of focusing on the flow of control, programmersshould identify sets of memory locations that share some consistencyproperty and group those locations in atomic sets &nbsp;that will be updatedatomically. Programmers need not specify where or what kind ofsynchronization operations to insert; instead, each atomic set has an associatedset of units of work, code fragments that preserve the consistency oftheir associated atomic set. Synchronization code is automatically generatedby a compiler which is free to choose where and what type of synchronizationto insert. Such a declarative approach has the benefit that it is possibleto change the concurrency-control mechanism, e.g., going from standard locksto read/write locks or even to transactional memory, without changing theprogram's source code. In a data-centric approach, the non-local reasoningthat permeates traditional approaches to synchronization is replaced by afocus on shared data. High-level data races are naturally avoided as an \\ascan protect multiple locations and multiple atomic sets can be manipulatedatomically within the same unit of work.<br />This project investigated a variant of the atomic set model, introduced a new mechanism for&nbsp;constructing atomic sets that span multiple objects and for internal objects that providestrong encapsulation for data whose concurrency is managed externally. Thenew approach obviates the need for whole-program analysis with a type systemthat guarantees that any well-typed program is atomic-set serializable,which means that all operations performed on locations that belong to an atomic setare serializable. &nbsp;To empirically evaluate the applicability of our ideas onreal-world code, we implemented the AJ &nbsp;language within the Eclipse developmentenvironment. Experiments suggest that atomic sets are promising way to write&nbsp;concurrent applications.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/09/2011<br>\n\t\t\t\t\tModified by: Jan&nbsp;Vitek</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nWriting correctly synchronized concurrent programs is challenging.  Whenevertwo threads access the same memory location there is the potential for adata race and for inconsistent results.  Traditional techniques forconcurrent programming have an operational, control-centric,flavor. Programmers must ensure that any access to a shared data location isprotected by synchronized blocks or other system-specific concurrencycontrol primitives.  The challenge is that protecting all accesses to sharedlocations requires non-local reasoning: All control flow paths leading to amemory operation on shared data must be dominated by a synchronizationoperation. A data race may occur if the programmer forgets to synchronizeeven a single path. To make matters worse, even if every access to shared data isprotected, the program may still end up in an inconsistent state due to ahigh-level data race. This can occur when there exists aconsistency relation between multiple memory locations and the programmer'suse of synchonization fails to ensure that this relation is maintained atevery instant. Analysis of real world software defects suggests that these kinds ofraces occur frequently. Avoiding high-level data races requiresthe same kind of non-local reasoning but is further complicated by the factthat multiple locks may have to be acquired in a specific order.\nData-centric synchronization is a declarative approach to concurrencycontrol first. Data-centric synchronizationadvocates that instead of focusing on the flow of control, programmersshould identify sets of memory locations that share some consistencyproperty and group those locations in atomic sets  that will be updatedatomically. Programmers need not specify where or what kind ofsynchronization operations to insert; instead, each atomic set has an associatedset of units of work, code fragments that preserve the consistency oftheir associated atomic set. Synchronization code is automatically generatedby a compiler which is free to choose where and what type of synchronizationto insert. Such a declarative approach has the benefit that it is possibleto change the concurrency-control mechanism, e.g., going from standard locksto read/write locks or even to transactional memory, without changing theprogram's source code. In a data-centric approach, the non-local reasoningthat permeates traditional approaches to synchronization is replaced by afocus on shared data. High-level data races are naturally avoided as an \\ascan protect multiple locations and multiple atomic sets can be manipulatedatomically within the same unit of work.\nThis project investigated a variant of the atomic set model, introduced a new mechanism for constructing atomic sets that span multiple objects and for internal objects that providestrong encapsulation for data whose concurrency is managed externally. Thenew approach obviates the need for whole-program analysis with a type systemthat guarantees that any well-typed program is atomic-set serializable,which means that all operations performed on locations that belong to an atomic setare serializable.  To empirically evaluate the applicability of our ideas onreal-world code, we implemented the AJ  language within the Eclipse developmentenvironment. Experiments suggest that atomic sets are promising way to write concurrent applications.\n\n\t\t\t\t\tLast Modified: 08/09/2011\n\n\t\t\t\t\tSubmitted by: Jan Vitek"
+ }
+}

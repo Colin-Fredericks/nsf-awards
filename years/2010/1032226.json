@@ -1,0 +1,101 @@
+{
+ "awd_id": "1032226",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Accommodating Network Evolution and Heterogeneity by Improving Network Transparency",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Joseph Lyles",
+ "awd_eff_date": "2010-06-01",
+ "awd_exp_date": "2012-05-31",
+ "tot_intn_awd_amt": 145449.0,
+ "awd_amount": 145449.0,
+ "awd_min_amd_letter_date": "2010-05-19",
+ "awd_max_amd_letter_date": "2010-05-19",
+ "awd_abstract_narration": "One of the core design principles of the Internet is the idea that it is sufficient for networks to implement a minimal set of functionality (the IP protocol) to allow networks to interoperate and any two nodes to communicate.  However, many recent network technologies (e.g. wireless, long-latency and frequently-disrupted links) have been difficult to integrate into the Internet for this reason. This project explores two core techniques that enable better support for unusual links: explicit path queries and end-to-end adaptation. Internet support for explicit path queries would allow end-points to learn key properties of the links used for their communication. The i-Path system from Waseda University and AIST in Japan provides the foundation for this path query mechanism. New end-to-end adaptation mechanisms would allow end-points to adapt their behavior to the capabilities or quirks of the communication path. In particular, the project is modifying two end-point systems to react to path query results: 1) TCP congestion control and retransmission and 2) multimedia streaming applications. This effort is expected to  show how such systems should adapt to the path properties, such as latency, bandwidth, loss rate, router buffering and in-network compression support. The broader impact of this work comes from showing that explicit path querying is critical for simplifying the addition of new technologies to the Internet. By lowering the bar for supporting link new technologies, this research enables a number of systems that will have significant social impact, such as sensors for elderly homecare, and delay-tolerant links to underdeveloped regions.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Srinivasan",
+   "pi_last_name": "Seshan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Srinivasan Seshan",
+   "pi_email_addr": "srini@cs.cmu.edu",
+   "nsf_id": "000202401",
+   "pi_start_date": "2010-05-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "5000 FORBES AVE",
+  "perf_city_name": "PITTSBURGH",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133815",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7914",
+   "pgm_ref_txt": "RAPID"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 145449.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>&nbsp;</p>\n<p>The goal of this project has been to explicitly support diversity at the architectural level and, thus, change the nature of the Internet's narrow waist.&nbsp; By supporting diversity at the architectural level, the network can support new applications, node types and links in a simpler, more cost effective, and internally consistent manner. The mechanisms our work adds to the network architecture are (1) exposing to the end-points the &ldquo;right&rdquo; information about the properties of each link on the path and (2) allowing end-points to explicitly manage intermediary nodes on a network path.&nbsp; The work consists of two complementary, but related thrusts:</p>\n<p>&nbsp;</p>\n<p><strong>Explicit path querying</strong>. Current Internet architectures make all links appear the same to higher layer protocols. Since this generic link requires reasonable ranges for minimum packet size, loss rates and bandwidth, some modern links fall outside the acceptable ranges. By introducing explicit path probing protocols, our design provides end-points with the specific information about the links their traffic traverses.</p>\n<p>&nbsp;</p>\n<p><strong>End-to-End adaptation. </strong>Our work has shown how explicit path querying could enable a range of end-point based solutions that allow protocols and applications to adapt to path conditions.&nbsp; The focus of our efforts was on reliable transport protocols with an emphasis on timely loss recovery.</p>\n<p>&nbsp;</p>\n<p>In the first half of our work, we modified the i-Path protocol from our Japanese collaborators to play the role of the explicit path query protocol. Prior to our work, i-Path focused on queries about the performance properties of a path. Our work extended the i-Path design to accommodate richer queries about router features supported on the path &ndash; specifically queries to identify content-aware processing of packets.</p>\n<p>&nbsp;</p>\n<p>In the second half of our work, we developed a reliable transmission algorithm that works well over paths with routers that support content-aware processing.</p>\n<p>Historically, timely loss recovery has been accomplished using techniques such as forward-error-control (FEC). Unfortunately, FEC must be carefully tuned to the properties of the path, which has proven to be quite difficult. In content-aware networks, such as Redundancy-Elimination (RE) enabled networks and content-centric network architectures, the network caches content and effectively removes duplicate transfers of the same content. This provides a tremendous opportunity to use redundancy-based reliability schemes. However, redundancy must be introduced in the right way to ensure: (a) the network can eliminate it optimally to provide the desired efficiency and (b) the impact on other applications can be controlled.</p>\n<p>&nbsp;</p>\n<p>Based on this observation, we designed Redundant Packet Transmission (RPT) -- a scheme that intelligently sends multiple copies of the same packet.&nbsp; While sending duplicates copies of a packet instead of using FEC may seem counterintuitive and high-overhead, we found that RPT on content-aware networks can effectively support a variety of time-critical applications far better than existing approaches.&nbsp; When packets are not lost, the duplicate transmissions are compressed and add little overhead to the network. In contrast when the network is congested, the loss of a packet prevents the compression of a subsequent transmission. This ensures that the receiver still gets at least one decompressed copy of the packet.</p>\n<p>&nbsp;</p>\n<p>To illustrate the benefits of RPT concretely, we built a prototype for redundant real-time video streaming (RS) in a redundancy elimination network. Our evaluation of RS (presented in an USENIX NSDI 2012 conference paper) using a combination of real-world experiments, network measurements and simulations, shows that RS achie...",
+  "por_txt_cntn": "\n \n\nThe goal of this project has been to explicitly support diversity at the architectural level and, thus, change the nature of the Internet's narrow waist.  By supporting diversity at the architectural level, the network can support new applications, node types and links in a simpler, more cost effective, and internally consistent manner. The mechanisms our work adds to the network architecture are (1) exposing to the end-points the \"right\" information about the properties of each link on the path and (2) allowing end-points to explicitly manage intermediary nodes on a network path.  The work consists of two complementary, but related thrusts:\n\n \n\nExplicit path querying. Current Internet architectures make all links appear the same to higher layer protocols. Since this generic link requires reasonable ranges for minimum packet size, loss rates and bandwidth, some modern links fall outside the acceptable ranges. By introducing explicit path probing protocols, our design provides end-points with the specific information about the links their traffic traverses.\n\n \n\nEnd-to-End adaptation. Our work has shown how explicit path querying could enable a range of end-point based solutions that allow protocols and applications to adapt to path conditions.  The focus of our efforts was on reliable transport protocols with an emphasis on timely loss recovery.\n\n \n\nIn the first half of our work, we modified the i-Path protocol from our Japanese collaborators to play the role of the explicit path query protocol. Prior to our work, i-Path focused on queries about the performance properties of a path. Our work extended the i-Path design to accommodate richer queries about router features supported on the path &ndash; specifically queries to identify content-aware processing of packets.\n\n \n\nIn the second half of our work, we developed a reliable transmission algorithm that works well over paths with routers that support content-aware processing.\n\nHistorically, timely loss recovery has been accomplished using techniques such as forward-error-control (FEC). Unfortunately, FEC must be carefully tuned to the properties of the path, which has proven to be quite difficult. In content-aware networks, such as Redundancy-Elimination (RE) enabled networks and content-centric network architectures, the network caches content and effectively removes duplicate transfers of the same content. This provides a tremendous opportunity to use redundancy-based reliability schemes. However, redundancy must be introduced in the right way to ensure: (a) the network can eliminate it optimally to provide the desired efficiency and (b) the impact on other applications can be controlled.\n\n \n\nBased on this observation, we designed Redundant Packet Transmission (RPT) -- a scheme that intelligently sends multiple copies of the same packet.  While sending duplicates copies of a packet instead of using FEC may seem counterintuitive and high-overhead, we found that RPT on content-aware networks can effectively support a variety of time-critical applications far better than existing approaches.  When packets are not lost, the duplicate transmissions are compressed and add little overhead to the network. In contrast when the network is congested, the loss of a packet prevents the compression of a subsequent transmission. This ensures that the receiver still gets at least one decompressed copy of the packet.\n\n \n\nTo illustrate the benefits of RPT concretely, we built a prototype for redundant real-time video streaming (RS) in a redundancy elimination network. Our evaluation of RS (presented in an USENIX NSDI 2012 conference paper) using a combination of real-world experiments, network measurements and simulations, shows that RS achieves far better video streaming than traditional FEC schemes. RS decreases the data loss rate by orders of magnitude more than FEC schemes applicable to live communications.  As a result, it achieves better video quality than FEC for a given bandwidth b..."
+ }
+}

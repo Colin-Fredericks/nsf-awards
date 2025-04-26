@@ -1,0 +1,101 @@
+{
+ "awd_id": "1048873",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "IIS (G&V) EAGER: Modeling and Rendering a Fibre Bundle",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Lawrence Rosenblum",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2011-12-31",
+ "tot_intn_awd_amt": 74913.0,
+ "awd_amount": 74913.0,
+ "awd_min_amd_letter_date": "2010-08-25",
+ "awd_max_amd_letter_date": "2011-04-07",
+ "awd_abstract_narration": "Abstract\r\n\r\nConsiderable work in computer graphics has gone into the realistic modeling and rendering of flames. Modeling and rendering the underlying wood combustion process has received some attention recently, but prior work has not incorporated effects of internal wood properties such as density variation (i.e. ?grain?) and pre-combustion processes such as drying. A concept called ?fiber bundles? is proposed that can realistically represent the structure of fibrous materials such as wood. Fiber bundles consist of an arbitrarily large number of almost-parallel, never-intersecting curves. Model properties at any point in space depend on (a) the curve that comes closest to that point and (b) the distance to that curve. Space is partitioned by the Voronoi volume of these curves. This is a new concept in graphical modeling and, if viable, would be transformative in the representation of both natural and synthetic fibrous materials, allowing for physically correct simulation. Significant issues arise in computing these fiber bundles and this research is designed to show that mathematical algorithms for processing fiber bundles can be developed and implemented in ways that are computationally viable in terms of both time and space efficiency.\r\n\r\nIf successful, the research can lead to improved new representation of fibrous materials. This will be applicable not only for wood combustion, but also wherever plants, plant materials, or synthetic fibers are modeled. The impact goes beyond the entertainment industry. It would, for example, provide essential predictive capabilities to design systems for fire engineering as well as for disaster planning and management.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robert",
+   "pi_last_name": "Lewis",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robert R Lewis",
+   "pi_email_addr": "bobl@tricity.wsu.edu",
+   "nsf_id": "000455042",
+   "pi_start_date": "2010-08-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Washington State University",
+  "inst_street_address": "240 FRENCH ADMINISTRATION BLDG",
+  "inst_street_address_2": "",
+  "inst_city_name": "PULLMAN",
+  "inst_state_code": "WA",
+  "inst_state_name": "Washington",
+  "inst_phone_num": "5093359661",
+  "inst_zip_code": "991640001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "WA05",
+  "org_lgl_bus_name": "WASHINGTON STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "XRJSGX384TD6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Washington State University",
+  "perf_str_addr": "240 FRENCH ADMINISTRATION BLDG",
+  "perf_city_name": "PULLMAN",
+  "perf_st_code": "WA",
+  "perf_st_name": "Washington",
+  "perf_zip_code": "991640001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "WA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736700",
+   "pgm_ele_name": "HCC-Human-Centered Computing"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 74913.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>We constantly interact with fibrous materials, both synthetic and natural: the clothes we wear, the wood we build our homes from, the paper we write on, the grain we eat. When planning new uses of these materials (and even new forms of them), it is often useful to be able to predict their behavior in advance of their creation. We'd like to know, for instance, how long a wooden staircase in a flaming building would support the weight of evacuees.<br /><br /><span>For many years, computer graphics has maintained a goal of physical realism. As most of its applications have been in the entertainment and game industries, \"physical realism\" has been defined visually: \"Does it look like wood?\".&nbsp; Making the above predictions, however, requires a model that not only looks realistic, but whose behavior can be modeled physically. In the case of fibrous materials, this means <span>modelling</span> the individual fibers.</span><br /><br />Up until now, modeling fibers has presented enormous difficulties of scale. Fiber structure happens on a scale of tens of microns (literally, the diameter of a human hair), while the structures built out of the fibrous material are measured on the scale of meters. That ratio of 1:100,000 in each dimension is daunting, even for modern hardware.<br /><br />Our work establishes a \"fiber bundle\" model that is accurate enough to model the physical behavior of fibrous materials while (ultimately) allowing us to apply it to real-world structures. The particular physical behavior we have chosen to model is combustion, but others such as decomposition (i.e. rot) or saturation are possible.<br /><br />A fiber bundle (see Figure 1) consists of a mathematical model of a collection of almost-uniformly-spaced, almost-parallel three-dimensional curves that describe the guiding centers of the fibers. These curves allow us to predict the locations of the walls (see Figure 2) of the fibers through which water and nutrients flowed in the original plant. The curves can be of arbitrary number and arbitrary length, so that the geometrically-defined (e.g. cut, sanded, and polished) surfaces that bound the structure \"slice\" a seemingly-infinite volume of fibers.<br /><br />It is the cells that make up the fiber walls that give the plant and, ultimately, the resulting structure physical rigidity. It is their destruction by (in our case) fire that causes the failure of the structure.</p>\n<p>One of the more challenging aspects of this project was developing the mathematics of branching, where some fibers form a branch while some remain on the main trunk. Figure 3 shows our results, which are at least visually convincing. Curiously, we have found the botanical literature on the geometry of this process quite sparse and somewhat contradictory and is it possible that our work may be the first such geometrical model of branching.</p>\n<p><span>Although this project was of short duration, it established the feasibility of the fiber bundle model, and we hope to subsequently apply that model to our previously-published combustion model in ongoing research.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/23/2012<br>\n\t\t\t\t\tModified by: Robert&nbsp;R&nbsp;Lewis</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2012/1048873/1048873_10031539_1330035823783_fiber_centers--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2012/1048873/1048873_10031539_1330035823783_fiber_centers--rgov-800width.jp...",
+  "por_txt_cntn": "\nWe constantly interact with fibrous materials, both synthetic and natural: the clothes we wear, the wood we build our homes from, the paper we write on, the grain we eat. When planning new uses of these materials (and even new forms of them), it is often useful to be able to predict their behavior in advance of their creation. We'd like to know, for instance, how long a wooden staircase in a flaming building would support the weight of evacuees.\n\nFor many years, computer graphics has maintained a goal of physical realism. As most of its applications have been in the entertainment and game industries, \"physical realism\" has been defined visually: \"Does it look like wood?\".  Making the above predictions, however, requires a model that not only looks realistic, but whose behavior can be modeled physically. In the case of fibrous materials, this means modelling the individual fibers.\n\nUp until now, modeling fibers has presented enormous difficulties of scale. Fiber structure happens on a scale of tens of microns (literally, the diameter of a human hair), while the structures built out of the fibrous material are measured on the scale of meters. That ratio of 1:100,000 in each dimension is daunting, even for modern hardware.\n\nOur work establishes a \"fiber bundle\" model that is accurate enough to model the physical behavior of fibrous materials while (ultimately) allowing us to apply it to real-world structures. The particular physical behavior we have chosen to model is combustion, but others such as decomposition (i.e. rot) or saturation are possible.\n\nA fiber bundle (see Figure 1) consists of a mathematical model of a collection of almost-uniformly-spaced, almost-parallel three-dimensional curves that describe the guiding centers of the fibers. These curves allow us to predict the locations of the walls (see Figure 2) of the fibers through which water and nutrients flowed in the original plant. The curves can be of arbitrary number and arbitrary length, so that the geometrically-defined (e.g. cut, sanded, and polished) surfaces that bound the structure \"slice\" a seemingly-infinite volume of fibers.\n\nIt is the cells that make up the fiber walls that give the plant and, ultimately, the resulting structure physical rigidity. It is their destruction by (in our case) fire that causes the failure of the structure.\n\nOne of the more challenging aspects of this project was developing the mathematics of branching, where some fibers form a branch while some remain on the main trunk. Figure 3 shows our results, which are at least visually convincing. Curiously, we have found the botanical literature on the geometry of this process quite sparse and somewhat contradictory and is it possible that our work may be the first such geometrical model of branching.\n\nAlthough this project was of short duration, it established the feasibility of the fiber bundle model, and we hope to subsequently apply that model to our previously-published combustion model in ongoing research.\n\n\t\t\t\t\tLast Modified: 02/23/2012\n\n\t\t\t\t\tSubmitted by: Robert R Lewis"
+ }
+}

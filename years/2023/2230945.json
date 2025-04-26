@@ -1,0 +1,93 @@
+{
+ "awd_id": "2230945",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: CNS Core: Small: A Compilation System for Mapping Deep Learning Models to Tensorized Instructions (DELITE)",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922594",
+ "po_email": "kkaravan@nsf.gov",
+ "po_sign_block_name": "Karen Karavanic",
+ "awd_eff_date": "2023-10-01",
+ "awd_exp_date": "2023-11-30",
+ "tot_intn_awd_amt": 299999.0,
+ "awd_amount": 299999.0,
+ "awd_min_amd_letter_date": "2023-07-26",
+ "awd_max_amd_letter_date": "2023-07-26",
+ "awd_abstract_narration": "As Machine Learning (ML), and especially Deep Neural Network (DNN) workloads have rapidly become prominent, many existing architectures have been enriched with instructions and/or processing capabilities targeting these workloads. Examples of these instructions include AMX instructions from Intel, Tensor cores from NVIDIA, DOT instructions from AMD, and many others. The emergence of such tensorized instructions is leading to many common and related challenges regarding how they can be used for production-level modern DNNs. The current state-of-the-art for exploiting these instruction sets for DNN workloads is very limited, with existing systems either completely lacking attention on these, not addressing global optimizations for complex DNNs, or being limited in other ways. The premise of our work is that a compilation system that is cognizant of the latest DNN trends and can optimize across different tensorized instruction sets, will provide large efficiency gains for modern ML computations. The resulting agenda will likely result in significant technical, economic, and societal impacts. From the technical side, the work impacts areas like High-Performance Computing (HPC), Compilers, and systems supporting AI/ML workloads. As DNNs are becoming an integral part of applications that most humans use, this work is poised to have a large economic and societal impact. On the education side, the research at the intersection of systems and ML will be incorporated into multiple courses and help to increase diversity at all levels in computing education and research, particularly by involving members from underrepresented groups.\r\n\r\nThis project addresses the following challenges associated with modern DNNs and recent and emerging tensorized instructions: 1) Local Instruction Selection for Dense Models -- To improve the execution efficiency of each operator, a critical first issue is selecting tensorized instructions (and associated data layouts), which will be addressed for arbitrary shapes of operators. 2) Global Optimizations for DNNs -- After local operator optimizations, each operator may prefer its own tensorized instruction and data layout, thus incurring significant data layout transformation costs during the execution of an entire DNN. This project formulates and solves a global optimization problem that chooses the right trade-off between the local operator execution and data transformation costs. 3) Optimizations for Dynamic DNNs -- This project also considers various forms of dynamism in modern DNN models including dynamic input shapes, dynamic control flows, and dynamic data structures. It proposes new optimizations such as those for effective memory management, while revisiting others like local and global instruction selection, in the presence of these forms of dynamism. 4) Mapping Sparse Models to Emerging Instructions -- This project also plans to improve the efficiency of using various types of tensorized instructions when sparsity is involved, building on top of earlier work for optimizing kernels like SpMM (and other sparse computations) on GPUs and SIMD instruction sets. 5) (Semi-) Automatic Support for New Instructions -- To minimize the optimization and programming effort, this proposal also introduces a module to automatically optimize DNN computations with new tensorized instructions or features. Besides addressing the above problems, one critical component of this project will be incorporating their implementations, together with code generation for multiple back-ends, in a reusable system. This system will take as the input the Computational Graph representation, and output Tensor and LLVM IRs, thus building around three representations widely used in the industry.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Gagan",
+   "pi_last_name": "Agrawal",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gagan Agrawal",
+   "pi_email_addr": "gagrawal@uga.edu",
+   "nsf_id": "000230838",
+   "pi_start_date": "2023-07-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "AUGUSTA UNIVERSITY RESEARCH INSTITUTE, INC.",
+  "inst_street_address": "AUGUSTA UNIVERSITY 1120 15TH STREET",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUGUSTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "7067212592",
+  "inst_zip_code": "309120001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "GA12",
+  "org_lgl_bus_name": "AUGUSTA UNIVERSITY RESEARCH INSTITUTE, INC",
+  "org_prnt_uei_num": "N4WWJC8T2593",
+  "org_uei_num": "N4WWJC8T2593"
+ },
+ "perf_inst": {
+  "perf_inst_name": "AUGUSTA UNIVERSITY",
+  "perf_str_addr": "1120 15TH ST STE",
+  "perf_city_name": "AUGUSTA",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "309120004",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "GA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 0.0
+  }
+ ],
+ "por": null
+}

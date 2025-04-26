@@ -1,0 +1,105 @@
+{
+ "awd_id": "1813123",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:Small:A Domain-Specific Language for Designing Cognitive-Science Experiments",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2022-09-30",
+ "tot_intn_awd_amt": 423575.0,
+ "awd_amount": 423575.0,
+ "awd_min_amd_letter_date": "2018-06-04",
+ "awd_max_amd_letter_date": "2018-06-04",
+ "awd_abstract_narration": "When a cognitive scientist designs an experiment, the design typically specifies factors of interest, the way that multiple factors are combined, and constraints that avoid combinations that are not interesting or that balance the frequency of combinations. Computers have enabled more sophisticated experimental designs, since a program can generate the steps for an experiment, but writing a program that correctly handles an experiment's constraints can be difficult. Worse, subtle mistakes in the program can bias the generated stimuli and invalidate the experiment's results. The project's novelties are a programming language that lets a scientist describe an experiment's design in higher level terms --- that is, higher than a general-purpose language's loops and conditionals --- and an execution engine to generate an experiment's stimuli from its description. The project's impacts are to make experiment design faster, to provide a better way for scientists to communicate their experiment designs, and to improve the reproducibility of experiments by ensuring statistical properties of the experiment's stimuli.\r\n\r\nThe key to good statistical properties for generated stimuli is to uniformly sample the space of solutions to the experiment's constraints. In a simple experiment where all factors are crossed and combinations are weighted equally, random selection is unbiased and easy to implement. The programming problem is considerably more difficult when constraints are imposed on the combinations, such as having twice as many of one kind of stimuli in a row, versus having some other kind of stimuli in a row. State-of-the-art tools, such as UNIGEN, can sample from a constrained space, but the space must be expressed as a SAT formula, which is far from the way that cognitive scientists think about their designs. The project will combine this sampling technology with tools for hosting and compiling domain-specific languages, allowing an experimenter to work in domain terms while bridging the gap between the experimenter's view and the implementation mechanics.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Matthew",
+   "pi_last_name": "Flatt",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Matthew R Flatt",
+   "pi_email_addr": "mflatt@cs.utah.edu",
+   "nsf_id": "000348159",
+   "pi_start_date": "2018-06-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Utah",
+  "inst_street_address": "201 PRESIDENTS CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SALT LAKE CITY",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8015816903",
+  "inst_zip_code": "841129049",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "UT01",
+  "org_lgl_bus_name": "UNIVERSITY OF UTAH",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LL8GLEVH6MG3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Utah",
+  "perf_str_addr": "75 South 2000 East",
+  "perf_city_name": "Salt Lake City",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "841128930",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "UT01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 423575.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Factorial experiment design is a textbook approach to experimentation<br />in cognitive science. In simple designs, instantiating one run of the<br />experiment is a simple matter of randomly permuting trials (i.e.,<br />events within an experiment run), where each trial corresponds to a<br />unique combination of factors. Random selection of permutations is<br />meant to ensure that a set of runs does not, on average, exhibit extra<br />correlations among the factors that would affect the experiment's<br />conclusions. Realistic modern experiments, however, often involve<br />additional constraints between different trials in a run of the<br />experiment. These modern designs are made possible by having computers<br />perform the complex clerical work of generating trial sequences, but<br />even so, design constraints not straightforward to implement. Merely<br />describing the design often forces experimenters to work outside of<br />textbook concepts and notation. When a design is unclear or its<br />implementation creates accidental correlations, the experiment becomes<br />unreproducible, and its conclusions become untrustworthy.<br /><br />SweetPea addresses this problem by giving experimenters an expanded<br />vocabulary and notation for describing experiments. Furthermore, a<br />SweetPea experiment specification serves as an implementation: the<br />SweetPea library consumes an experiment specification, and it<br />generates randomly selected trial sequences that can be used for runs<br />of the experiment. To the best of available technology, the trial<br />sequences are uniformly drawn from the set of all sequences that match<br />the specification, which avoids confounding correlations.<br /><br />Uniform sapling of realistic experiments turns out to be at the<br />frontier of tractable problems for modern tools. Tools have progressed<br />during SweetPea's development, and some experiments that were<br />intractable at the start of the project are now handled easily. By<br />cleanly separating the problem of specifying an experiment and the<br />problem generating valid sequences, SweetPea helps experimenters<br />specify their designs precisely, avoid sampling pitfalls when<br />possible, take advantage of advances in solver technology as they<br />become available, and make clear the threats to validity when<br />intractable constraints force a compromise in the design.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/25/2022<br>\n\t\t\t\t\tModified by: Matthew&nbsp;R&nbsp;Flatt</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nFactorial experiment design is a textbook approach to experimentation\nin cognitive science. In simple designs, instantiating one run of the\nexperiment is a simple matter of randomly permuting trials (i.e.,\nevents within an experiment run), where each trial corresponds to a\nunique combination of factors. Random selection of permutations is\nmeant to ensure that a set of runs does not, on average, exhibit extra\ncorrelations among the factors that would affect the experiment's\nconclusions. Realistic modern experiments, however, often involve\nadditional constraints between different trials in a run of the\nexperiment. These modern designs are made possible by having computers\nperform the complex clerical work of generating trial sequences, but\neven so, design constraints not straightforward to implement. Merely\ndescribing the design often forces experimenters to work outside of\ntextbook concepts and notation. When a design is unclear or its\nimplementation creates accidental correlations, the experiment becomes\nunreproducible, and its conclusions become untrustworthy.\n\nSweetPea addresses this problem by giving experimenters an expanded\nvocabulary and notation for describing experiments. Furthermore, a\nSweetPea experiment specification serves as an implementation: the\nSweetPea library consumes an experiment specification, and it\ngenerates randomly selected trial sequences that can be used for runs\nof the experiment. To the best of available technology, the trial\nsequences are uniformly drawn from the set of all sequences that match\nthe specification, which avoids confounding correlations.\n\nUniform sapling of realistic experiments turns out to be at the\nfrontier of tractable problems for modern tools. Tools have progressed\nduring SweetPea's development, and some experiments that were\nintractable at the start of the project are now handled easily. By\ncleanly separating the problem of specifying an experiment and the\nproblem generating valid sequences, SweetPea helps experimenters\nspecify their designs precisely, avoid sampling pitfalls when\npossible, take advantage of advances in solver technology as they\nbecome available, and make clear the threats to validity when\nintractable constraints force a compromise in the design.\n\n\t\t\t\t\tLast Modified: 10/25/2022\n\n\t\t\t\t\tSubmitted by: Matthew R Flatt"
+ }
+}

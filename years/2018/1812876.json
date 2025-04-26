@@ -1,0 +1,105 @@
+{
+ "awd_id": "1812876",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Collaborative Research: Resource-Guided Program Synthesis",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2021-05-31",
+ "tot_intn_awd_amt": 250000.0,
+ "awd_amount": 250000.0,
+ "awd_min_amd_letter_date": "2018-05-14",
+ "awd_max_amd_letter_date": "2018-05-14",
+ "awd_abstract_narration": "The goal of the RESYN project is to automate the development of efficient programs by advancing the state of the art in program synthesis. Program synthesis is an emerging technology for automatically generating programs from high-level descriptions of the task they must perform. For any given task, however, there are generally many programs that perform the same function, but differ in their use of computing resources, such as time, memory, or energy. Most state-of-the-art synthesis tools do not model nor analyze resource usage. By taking resource consumption of candidate programs into account during synthesis, RESYN is able to synthesize  provably efficient programs, as well as customized programs for platforms with specific resource requirements. The project involves graduate and undergraduate students in this research.\r\n\r\nTo leverage resource usage information during synthesis, the investigators combine two recent techniques: type-driven program synthesis and automated amortized resource analysis. First, they develop a novel resource-aware refinement type system, which unifies the expressive type systems at the core of the two techniques. Next, based on this type system, the investigators build a new type-driven synthesis engine, capable of pruning and prioritizing the search for programs based on their resource consumption. Finally, they evaluate the synthesis engine in three relevant application domains: server-less computing, smart contracts, and prevention of side-channel attacks. The course materials and research products developed in this project will be made freely available.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jan",
+   "pi_last_name": "Hoffmann",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jan Hoffmann",
+   "pi_email_addr": "jhoffmann@cmu.edu",
+   "nsf_id": "000636870",
+   "pi_start_date": "2018-05-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie Mellon University",
+  "perf_str_addr": "5000 Forbes Avenue",
+  "perf_city_name": "Pittsburgh",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133890",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 250000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Program synthesis is an emerging technology for automatically generating programs from high-level descriptions of the task they must perform. For any given task, however, there are generally many programs that perform the same function, but differ in their use of computing resources, such as time, memory, or energy. The RESYN project focused on incorporating a rigorous analysis of resource use into the synthesis process, so that program synthesizers can prioritize efficient programs.</p>\n<p>Under this research grant, PIs Hoffmann and Polikarpova, and their teams at Carnegie Mellon University and the University of California in San Diego have significantly advanced the state-of-the-art in both program synthesis and resource analysis.</p>\n<p>The main outcome of this project is the RESYN program synthesizer, which takes as input a specification of the desired functionality and a resource bound (i.e. a description of how much time, memory, etc this program is allowed to consume). It then only generates programs that implement the specified functionality and whose resource consumption is guaranteed to not exceed the bound. This is in contrast to similar existing synthesizers, which did not take resource consumption into account and simply returned the first program that produces the right output. The RESYN synthesizer is an important step towards automating the construction of provably correct and efficient software.</p>\n<p>Apart from creating the RESYN synthesizer, the project resulted in the following major contributions to resource analysis, resource-guided program synthesis, and quantitative program verification. 1) Liquid Resource Types: an expressive type system that combines reasoning about functional and quantitative properties of programs 2) A new technique for synthesizing worst-case inputs 3) An extension of fully automated Amortized Resource Analysis to include exponential bounds 4) The Quantum Physicist Method, which enables more precise analysis of non-monotone resources, such as memory.</p>\n<p>During the course of the project, RESYN has enjoyed a high level of visibility. It has contributed to seven publications in international conferences, including five at ACM SIGPLAN&rsquo;s top-tier conferences POPL, PLDI, and ICFP. The results from this project have been the subject of multiple invited talks and have been incorporated into the graduate courses &ldquo;Program Synthesis&rdquo; and &ldquo;Resource Analysis'' taught at UC San Diego and at Carnegie Mellon University, respectively. The project has funded multiple graduate students, as well as two undergraduates through an REU supplement.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/20/2021<br>\n\t\t\t\t\tModified by: Jan&nbsp;Hoffmann</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nProgram synthesis is an emerging technology for automatically generating programs from high-level descriptions of the task they must perform. For any given task, however, there are generally many programs that perform the same function, but differ in their use of computing resources, such as time, memory, or energy. The RESYN project focused on incorporating a rigorous analysis of resource use into the synthesis process, so that program synthesizers can prioritize efficient programs.\n\nUnder this research grant, PIs Hoffmann and Polikarpova, and their teams at Carnegie Mellon University and the University of California in San Diego have significantly advanced the state-of-the-art in both program synthesis and resource analysis.\n\nThe main outcome of this project is the RESYN program synthesizer, which takes as input a specification of the desired functionality and a resource bound (i.e. a description of how much time, memory, etc this program is allowed to consume). It then only generates programs that implement the specified functionality and whose resource consumption is guaranteed to not exceed the bound. This is in contrast to similar existing synthesizers, which did not take resource consumption into account and simply returned the first program that produces the right output. The RESYN synthesizer is an important step towards automating the construction of provably correct and efficient software.\n\nApart from creating the RESYN synthesizer, the project resulted in the following major contributions to resource analysis, resource-guided program synthesis, and quantitative program verification. 1) Liquid Resource Types: an expressive type system that combines reasoning about functional and quantitative properties of programs 2) A new technique for synthesizing worst-case inputs 3) An extension of fully automated Amortized Resource Analysis to include exponential bounds 4) The Quantum Physicist Method, which enables more precise analysis of non-monotone resources, such as memory.\n\nDuring the course of the project, RESYN has enjoyed a high level of visibility. It has contributed to seven publications in international conferences, including five at ACM SIGPLAN\u2019s top-tier conferences POPL, PLDI, and ICFP. The results from this project have been the subject of multiple invited talks and have been incorporated into the graduate courses \"Program Synthesis\" and \"Resource Analysis'' taught at UC San Diego and at Carnegie Mellon University, respectively. The project has funded multiple graduate students, as well as two undergraduates through an REU supplement.\n\n\t\t\t\t\tLast Modified: 09/20/2021\n\n\t\t\t\t\tSubmitted by: Jan Hoffmann"
+ }
+}

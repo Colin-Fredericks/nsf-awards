@@ -1,0 +1,109 @@
+{
+ "awd_id": "1038058",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Towards increasing the usage of new high-speed network services by the scientific community",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032924220",
+ "po_email": "kthompso@nsf.gov",
+ "po_sign_block_name": "Kevin Thompson",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2013-08-31",
+ "tot_intn_awd_amt": 299916.0,
+ "awd_amount": 299916.0,
+ "awd_min_amd_letter_date": "2010-05-07",
+ "awd_max_amd_letter_date": "2010-05-07",
+ "awd_abstract_narration": "Abstract\r\nProposal 1038058 \r\nTowards increasing the usage of new high-speed network\r\nservices by the scientific community\r\nPI: Malathi Veeraraghavan\r\n\r\nThe proposal is high-risk, high payoff because it is addressing a fundamental networking problem which has used \"overprovisioning\" IP as the primary way to address congestion issues.  While this approach has been (and continues to be) used with considerable success, it is only part of the solution; however, because of the embedded base of use this approach, changes to the IP stack or protocol are strongly discouraged.  This approach is particularly problematic for data applications that are characterized by long data flows and streams.  \r\n\r\nThis proposal takes a fresh look at going beyond ubiquitous IP datagram services and considers circuit/virtual circuit networking alternatives.   The effort will use the Unidata LDM application to demonstrate and implement a modified version of proposed network to show improvements in performance as well as reduction in costs.  The proposal will undertake an in-depth study of LDM and its associated Internet Data Distribution project to test the feasibility of off-loading long duration data flows from the general IP network to virtual-circuit options.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Malathi",
+   "pi_last_name": "Veeraraghavan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Malathi Veeraraghavan",
+   "pi_email_addr": "mv5g@virginia.edu",
+   "nsf_id": "000254309",
+   "pi_start_date": "2010-05-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Virginia Main Campus",
+  "inst_street_address": "1001 EMMET ST N",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHARLOTTESVILLE",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "4349244270",
+  "inst_zip_code": "229034833",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "VA05",
+  "org_lgl_bus_name": "RECTOR & VISITORS OF THE UNIVERSITY OF VIRGINIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JJG6HU8PA4S5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Virginia Main Campus",
+  "perf_str_addr": "1001 EMMET ST N",
+  "perf_city_name": "CHARLOTTESVILLE",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "229034833",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "VA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "768300",
+   "pgm_ele_name": "SOFTWARE DEVELOPEMENT FOR CI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7683",
+   "pgm_ref_txt": "SOFTWARE DEVELOPEMENT FOR CI"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7969",
+   "pgm_ref_txt": "FY 2010 Funding for PTR"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 299916.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>&nbsp;</p>\n<p>The University Corporation for Atmospheric Research (UCAR) at Boulder, CO, collects and disseminates real-time meteorology data to over 170 institutions for teaching and research. The UCAR computers receive data at 11 GB/hour, but transmit out 600 GB/hour. This is because the UCAR servers use point-to-point connections to computers at various instiutions that subscribe to data from the UCAR servers. Not all 170 institutions subscribe to all data types, and furthermore not all data subscriptions are directly from the UCAR servers; a tree structure is used, which explains why the outgoing rate is not 170 times 11 GB/hr. As an example, consider the attached image. It shows how a particular data type is distributed in a tree structure. &nbsp;</p>\n<p>&nbsp;</p>\n<p>In this project, we developed a method for multicasting the data to all receivers simultaneously instead of using point-to-point connections. Such multicasting would allow for the sending data rate to drop from 600 GB/hour to a value close to 11 GB/hour. Since some receivers may miss a few data blocks due to bit errors or other problems, and request retransmissions, the rate will be slightly larger than 11 GB/hour but significantly smaller than 600 GB/hour. The impact of this solution is to lower the amount of computing resources and link bandwidth resources needed at UCAR.</p>\n<p>&nbsp;</p>\n<p>The project outcomes are as follows:</p>\n<p>&nbsp;</p>\n<p class=\"UVA-list\">1.&nbsp; A new reliable Virtual Circuit Multicast Transport Protocol (VCMTP) was designed and prototyped. Virtual circuits offer a quality-of-service guaranteed mechanism for sending data over networks. It is in contrast to the basic IP-routed service offered over the Internet in which there are no quality of service guarantees. VC service is comparable to a next-day delivery service offered by certain shipping companies.</p>\n<p>&nbsp;</p>\n<p class=\"UVA-list\">2.&nbsp; VCMTP software was integrated into the Local Data Manager (LDM) software. The LDM software is used by UCAR for data distribution. The LDM software is currently in version 6. A new version LDM-7 that includes VCMTP is being implemented. Therefore, this project has made substantial progress towards transitioning the new technology (VCMTP) into practice.</p>\n<p>&nbsp;</p>\n<p class=\"UVA-list\">3.&nbsp; VCMTP has certain novel features, such as trading off robustness (success rate of delivering files to receivers via multicast) against throughput (data delivery rate). The intellectual merit in this new protocol design, prototyping and evaluation effort was recognized by a published conference paper. The work has been submitted to a leading journal and is currently under review for publication.</p>\n<p>&nbsp;</p>\n<p class=\"UVA-list\">4.&nbsp; A graduate student who was funded by this EAGER grant completed his PhD by successfully defending his dissertation. A minority undergraduate student supported the research effort in this project. Both are currently employed in the US Information Technology (IT) industry.</p>\n<p class=\"UVA-list\">5.&nbsp; The first step in this project was to receive the data distributed by UCAR servers and to characterize the data stream. To execute this step, our students learned statistical data analysis and the R programming language. This led the PI to offer a new course called &ldquo;From Data to Knowledge&rdquo; to our undergraduate students. It uses a case-oriented method for teaching statistics. Interesting data sets are analyzed, e.g., to predict the waiting time for the next eruption of the Old Faithful geyser at Yellowstone National Park.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/26/2013<br>\n\t\t\t\t\tModified by: Malathi&nbsp;Veeraraghavan</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galContro...",
+  "por_txt_cntn": "\n \n\nThe University Corporation for Atmospheric Research (UCAR) at Boulder, CO, collects and disseminates real-time meteorology data to over 170 institutions for teaching and research. The UCAR computers receive data at 11 GB/hour, but transmit out 600 GB/hour. This is because the UCAR servers use point-to-point connections to computers at various instiutions that subscribe to data from the UCAR servers. Not all 170 institutions subscribe to all data types, and furthermore not all data subscriptions are directly from the UCAR servers; a tree structure is used, which explains why the outgoing rate is not 170 times 11 GB/hr. As an example, consider the attached image. It shows how a particular data type is distributed in a tree structure.  \n\n \n\nIn this project, we developed a method for multicasting the data to all receivers simultaneously instead of using point-to-point connections. Such multicasting would allow for the sending data rate to drop from 600 GB/hour to a value close to 11 GB/hour. Since some receivers may miss a few data blocks due to bit errors or other problems, and request retransmissions, the rate will be slightly larger than 11 GB/hour but significantly smaller than 600 GB/hour. The impact of this solution is to lower the amount of computing resources and link bandwidth resources needed at UCAR.\n\n \n\nThe project outcomes are as follows:\n\n \n1.  A new reliable Virtual Circuit Multicast Transport Protocol (VCMTP) was designed and prototyped. Virtual circuits offer a quality-of-service guaranteed mechanism for sending data over networks. It is in contrast to the basic IP-routed service offered over the Internet in which there are no quality of service guarantees. VC service is comparable to a next-day delivery service offered by certain shipping companies.\n\n \n2.  VCMTP software was integrated into the Local Data Manager (LDM) software. The LDM software is used by UCAR for data distribution. The LDM software is currently in version 6. A new version LDM-7 that includes VCMTP is being implemented. Therefore, this project has made substantial progress towards transitioning the new technology (VCMTP) into practice.\n\n \n3.  VCMTP has certain novel features, such as trading off robustness (success rate of delivering files to receivers via multicast) against throughput (data delivery rate). The intellectual merit in this new protocol design, prototyping and evaluation effort was recognized by a published conference paper. The work has been submitted to a leading journal and is currently under review for publication.\n\n \n4.  A graduate student who was funded by this EAGER grant completed his PhD by successfully defending his dissertation. A minority undergraduate student supported the research effort in this project. Both are currently employed in the US Information Technology (IT) industry.\n5.  The first step in this project was to receive the data distributed by UCAR servers and to characterize the data stream. To execute this step, our students learned statistical data analysis and the R programming language. This led the PI to offer a new course called \"From Data to Knowledge\" to our undergraduate students. It uses a case-oriented method for teaching statistics. Interesting data sets are analyzed, e.g., to predict the waiting time for the next eruption of the Old Faithful geyser at Yellowstone National Park. \n\n \n\n\t\t\t\t\tLast Modified: 11/26/2013\n\n\t\t\t\t\tSubmitted by: Malathi Veeraraghavan"
+ }
+}

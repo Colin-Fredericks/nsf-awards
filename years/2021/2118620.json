@@ -1,0 +1,113 @@
+{
+ "awd_id": "2118620",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: PPoSS: Planning: Efficient Address Translation with Formal Guarantees for Data-Center-Scale Applications",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Damian Dechev",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 124998.0,
+ "awd_amount": 124998.0,
+ "awd_min_amd_letter_date": "2021-07-09",
+ "awd_max_amd_letter_date": "2021-07-09",
+ "awd_abstract_narration": "The investigators propose a bottom-up redesign of address translation, a critical bottleneck in the way computers organize where data is stored---whether the computer is a laptop or a massively parallel supercomputer.  Address translation gives computer systems flexibility in placing and migrating data between RAM and disk, but it incurs an additional computational cost. The project\u2019s novelty is to employ advanced techniques in data structures to accelerate address translation.  The project\u2019s impact will be to dramatically accelerate a component of all computational tasks, on all computers, from laptops to parallel supercomputers, and for computations ranging from weather simulations to machine learning.\r\n\r\nThe investigators propose a redesign of TLBs, based on the investigators\u2019 recent advances in stable, low-address-complexity hashing. This redesign includes improvements across the hardware/software stack, from the CPU, to hardware accelerators, to RDMA.  The goal of this planning project is to establish the viability of the team\u2019s approach in preparation for a full proposal to be submitted in the next phase.  The investigators are empirically evaluating tacit assumptions behind address-translation design, providing a principled theoretical foundation for end-to-end analysis and design of naming, placement, load balancing, and translation in data-center-scale applications.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Martin",
+   "pi_last_name": "Farach-Colton",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Martin Farach-Colton",
+   "pi_email_addr": "mlf9579@nyu.edu",
+   "nsf_id": "000255442",
+   "pi_start_date": "2021-07-09",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Sudarsun",
+   "pi_last_name": "Kannan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sudarsun Kannan",
+   "pi_email_addr": "sudarsun.kannan@rutgers.edu",
+   "nsf_id": "000791229",
+   "pi_start_date": "2021-07-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rutgers University New Brunswick",
+  "inst_street_address": "3 RUTGERS PLZ",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW BRUNSWICK",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "8489320150",
+  "inst_zip_code": "089018559",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "RUTGERS, THE STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "M1LVPE5GLSD9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rutgers University New Brunswick",
+  "perf_str_addr": "33 Knightsbridge Road",
+  "perf_city_name": "Piscataway",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "088548019",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "NJ06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "042Y00",
+   "pgm_ele_name": "PPoSS-PP of Scalable Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 124998.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-1c3d4ea9-7fff-7431-355c-71663985dcf1\"> </span></p>\n<p dir=\"ltr\">Virtual memory is a critical technology that makes it easier to write computer code. &nbsp;In a computer system, data can move within the memory hierarchy, say from disk to RAM or RAM to cache. &nbsp;In a virtual memory system, each item has a permanent address, called a virtual address, and a current address, called a physical address. &nbsp;The job of the virtual memory system is to translate virtual addresses into physical addresses. &nbsp;It is analogous to the cell phone system, where each individual has a permanent phone number, and the job of the phone system is to route calls to you, wherever you are.</p>\n<p dir=\"ltr\">Because every memory access that a program performs needs to have an address translation, it is critical that computers perform such tranlations quickly. &nbsp;Therefore, modern computer chips are built with a hardware accelerator called a translation lookaside buffer (TLB) whose job it is to make translations fast. &nbsp;But TLBs are power-hungry (and therefore get hot), so it is hard to make them big enough.</p>\n<p dir=\"ltr\">In this project, we demostrate how to make physical address very small, so that more of them can fit into the TLB. &nbsp;The result is that the computer can translate more addresses using the TLB. &nbsp;And the final result is that all kinds of programs will run faster, since all programs depend on fast address translation. &nbsp;</p>\n<p dir=\"ltr\"><span>In addition, this project trained several graduate and undergraduate students in cutting-edge research ideas and techniques in several areas of computer science: theory, operating systems, and architecture.</span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 01/28/2024<br>\nModified by: Martin&nbsp;Farach-Colton</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\n \n\n\nVirtual memory is a critical technology that makes it easier to write computer code. In a computer system, data can move within the memory hierarchy, say from disk to RAM or RAM to cache. In a virtual memory system, each item has a permanent address, called a virtual address, and a current address, called a physical address. The job of the virtual memory system is to translate virtual addresses into physical addresses. It is analogous to the cell phone system, where each individual has a permanent phone number, and the job of the phone system is to route calls to you, wherever you are.\n\n\nBecause every memory access that a program performs needs to have an address translation, it is critical that computers perform such tranlations quickly. Therefore, modern computer chips are built with a hardware accelerator called a translation lookaside buffer (TLB) whose job it is to make translations fast. But TLBs are power-hungry (and therefore get hot), so it is hard to make them big enough.\n\n\nIn this project, we demostrate how to make physical address very small, so that more of them can fit into the TLB. The result is that the computer can translate more addresses using the TLB. And the final result is that all kinds of programs will run faster, since all programs depend on fast address translation. \n\n\nIn addition, this project trained several graduate and undergraduate students in cutting-edge research ideas and techniques in several areas of computer science: theory, operating systems, and architecture.\n\n\n\n\n\n\t\t\t\t\tLast Modified: 01/28/2024\n\n\t\t\t\t\tSubmitted by: MartinFarach-Colton\n"
+ }
+}

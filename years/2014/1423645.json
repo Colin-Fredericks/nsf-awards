@@ -1,0 +1,105 @@
+{
+ "awd_id": "1423645",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: A Dynamic Analysis and Test Generation Framework for JavaScript and Web Applications",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2014-07-17",
+ "awd_max_amd_letter_date": "2014-07-17",
+ "awd_abstract_narration": "JavaScript is the most popular programming language for client-side\r\nweb programming. Advances in browser technologies and JavaScript\r\nengines in the recent years have fueled the use of JavaScript in Rich\r\nInternet Applications, and several mobile platforms including Android,\r\nIOS, Tizen OS, Windows 8, Blackberry, and Firefox OS, support\r\napplications written in JavaScript/HTML5. With a renewed interest in\r\nJavaScript, many complex applications such as Google docs, Gmail, and\r\na variety of games are being developed using\r\nHTML5/JavaScript. However, unlike C/C++, Java, and C#, JavaScript is\r\nsignificantly shorthanded in the tools landscape. The dynamic and\r\nreflective nature of JavaScript makes it hard to analyze it\r\nstatically.\r\n\r\nThis project investigates a dynamic analysis framework and several\r\ndynamic analysis techniques for JavaScript.  The analysis framework\r\nprovides a few useful abstractions and an API that significantly\r\nsimplifies implementation of dynamic analyses for JavaScript.  The\r\nframework works through source code instrumentation and allows\r\nimplementation of various heavy-weight dynamic analyses and test\r\ngeneration techniques.  The projects investigates and implements\r\nseveral dynamic analyses including concolic testing, pure symbolic\r\nexecution, a detector of likely type inconsistencies, and a runtime\r\nmemory profiler.  The techniques developed in this project are\r\nsuitable for analyzing and testing that web applications written in\r\nJavaScript/HTML5 are free of common correctness and performance\r\nbugs. The techniques will benefit directly web applications\r\nprogrammers, and indirectly the numerous users of mobile and web\r\napplications.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Koushik",
+   "pi_last_name": "Sen",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Koushik Sen",
+   "pi_email_addr": "ksen@eecs.berkeley.edu",
+   "nsf_id": "000490260",
+   "pi_start_date": "2014-07-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "581 Soda Hall",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947201776",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this project we built a framework, called Jalangi, for developing correctness and performance analysis tools for JavaScript.&nbsp; We focussed on developing tools for JavaScript because JavaScript is the predominant programming language for building websites and client-side internet applications, such as Gmail, Facebook.com, Twitter.com, Netflix.com, Google Docs, and Amazon.com.&nbsp; Unfortunately, JavaScript programs are prone to various programming errors which result in correctness, performance, and security issues.&nbsp; Unlike other popular programming languages, such as Java and C, JavaScript has very little tool support to analyze and to debug these programming errors.<br />We have developed a simple yet powerful framework, called Jalangi, for writing dynamic analyses (i.e. techniques that analyze an execution of a program) for JavaScript.&nbsp; Jalangi has two key features.&nbsp; First, the framework works on any modern browser, such as Chrome, Safari, Firefox, or server-side JavaScript framework such as node.js.&nbsp; Browser independence allows our dynamic analyses to have wider impact. Additionally, independence from browsers and JavaScript engines also enables us to easily maintain the framework in the face of a rapidly evolving browser landscape---we do not need to upgrade or rebuild our framework whenever there is a JavaScript engine update. Secondly, Jalangi takes care of various challenging details of JavaScript.&nbsp; One can easily implement a dynamic analysis in the Jalangi framework without worrying about the problematic issues of JavaScript.<br />Due to Jalangi's simplicity and ease-of-use, we were able to design and implement several dynamic analyses for JavaScript within a short period.&nbsp; One such analysis, called DLint, managed to find 49 programming issues in average on over 200 of the most popular websites, including visible bugs on the websites of IKEA, Hilton, eBay, and CNBC.&nbsp; These bugs sometimes led to wrong output on websites or led to serious security vulnerabilities.&nbsp; Another analysis, called JITProf, managed to improve the performance of the 15 most popular JavaScript benchmarks by up to 26.3%.&nbsp; A memory analysis tool, called MemInsight, discovered several memory bugs in Tizen apps.&nbsp; We used Jalangi to study the use of type coercions in JavaScript.&nbsp; For this we developed the tool called TypeDevil on top of Jalangi.&nbsp; We dynamically analyzed hundreds of programs, including real-world web applications and popular benchmark programs. Applying TypeDevil to widely used benchmark suites and real-world web applications revealed 15 problematic type inconsistencies, including correctness problems, performance problems, and dangerous coding practices.&nbsp; We have developed trace typing: a framework on top of Jalangi for automatically and quantitatively evaluating variations of a retrofitted type system on large code bases.&nbsp; &nbsp;Another analysis, called TRAVIOLI, was developed for visualizing data-structure traversals, for manually generating performance regression tests, and for discovering performance bugs caused by redundant traversals.&nbsp; TRAVIOLI produced fewer than 4% false positives. We were able to construct performance tests for 93.75% of the reported true traversals. TRAVIOLI also found two asymptotic performance bugs in widely used JavaScript frameworks D3 and express.&nbsp; &nbsp;We also implemented a scalable symbolic execution engine with state merging, called MultiSE, in a publicly available open-source tool. Our evaluation of MultiSE on several programs shows that MultiSE can run significantly faster than traditional symbolic execution.&nbsp; Another tool for feedback-directed instrumentation, called Crowdie, was evaluated on 10 real-world issues for which error messages and stack traces are insufficient to debug the problem. Our results showed that feedback-directed instrumentation requires 5% to 25% of the program to be instrumented, that the same crash must be observed 3 to 10 times to discover the crash path, and that feedback-directed instrumentation typically slows down execution by a factor 2x-9x compared to 8x-90x for an approach where applications are fully instrumented.&nbsp;&nbsp;<br />We published the key paper on this project at ESEC/FSE, the flagship conference of ACM SIGSOFT.&nbsp; We have released Jalangi version 1.0 and version 2.0 as open-source software.&nbsp; Jalangi has powered several research and software tool projects both in academia and industry.&nbsp; Jalangi has garnered interest from several companies, including Samsung Electronics, NTT Japan, Coverity, Mozilla, and Awake networks, a recent security startup.&nbsp; The PI has given several invited talks at conferences and workshops, including a tutorial on Jalangi at PLDI 2016.&nbsp; Two of our papers based on analyses developed on top of Jalangi have won ACM SIGSOFT Distinguished Paper Awards at ICSE 2016 and ESEC/FSE 2015.<br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/26/2018<br>\n\t\t\t\t\tModified by: Koushik&nbsp;Sen</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn this project we built a framework, called Jalangi, for developing correctness and performance analysis tools for JavaScript.  We focussed on developing tools for JavaScript because JavaScript is the predominant programming language for building websites and client-side internet applications, such as Gmail, Facebook.com, Twitter.com, Netflix.com, Google Docs, and Amazon.com.  Unfortunately, JavaScript programs are prone to various programming errors which result in correctness, performance, and security issues.  Unlike other popular programming languages, such as Java and C, JavaScript has very little tool support to analyze and to debug these programming errors.\nWe have developed a simple yet powerful framework, called Jalangi, for writing dynamic analyses (i.e. techniques that analyze an execution of a program) for JavaScript.  Jalangi has two key features.  First, the framework works on any modern browser, such as Chrome, Safari, Firefox, or server-side JavaScript framework such as node.js.  Browser independence allows our dynamic analyses to have wider impact. Additionally, independence from browsers and JavaScript engines also enables us to easily maintain the framework in the face of a rapidly evolving browser landscape---we do not need to upgrade or rebuild our framework whenever there is a JavaScript engine update. Secondly, Jalangi takes care of various challenging details of JavaScript.  One can easily implement a dynamic analysis in the Jalangi framework without worrying about the problematic issues of JavaScript.\nDue to Jalangi's simplicity and ease-of-use, we were able to design and implement several dynamic analyses for JavaScript within a short period.  One such analysis, called DLint, managed to find 49 programming issues in average on over 200 of the most popular websites, including visible bugs on the websites of IKEA, Hilton, eBay, and CNBC.  These bugs sometimes led to wrong output on websites or led to serious security vulnerabilities.  Another analysis, called JITProf, managed to improve the performance of the 15 most popular JavaScript benchmarks by up to 26.3%.  A memory analysis tool, called MemInsight, discovered several memory bugs in Tizen apps.  We used Jalangi to study the use of type coercions in JavaScript.  For this we developed the tool called TypeDevil on top of Jalangi.  We dynamically analyzed hundreds of programs, including real-world web applications and popular benchmark programs. Applying TypeDevil to widely used benchmark suites and real-world web applications revealed 15 problematic type inconsistencies, including correctness problems, performance problems, and dangerous coding practices.  We have developed trace typing: a framework on top of Jalangi for automatically and quantitatively evaluating variations of a retrofitted type system on large code bases.   Another analysis, called TRAVIOLI, was developed for visualizing data-structure traversals, for manually generating performance regression tests, and for discovering performance bugs caused by redundant traversals.  TRAVIOLI produced fewer than 4% false positives. We were able to construct performance tests for 93.75% of the reported true traversals. TRAVIOLI also found two asymptotic performance bugs in widely used JavaScript frameworks D3 and express.   We also implemented a scalable symbolic execution engine with state merging, called MultiSE, in a publicly available open-source tool. Our evaluation of MultiSE on several programs shows that MultiSE can run significantly faster than traditional symbolic execution.  Another tool for feedback-directed instrumentation, called Crowdie, was evaluated on 10 real-world issues for which error messages and stack traces are insufficient to debug the problem. Our results showed that feedback-directed instrumentation requires 5% to 25% of the program to be instrumented, that the same crash must be observed 3 to 10 times to discover the crash path, and that feedback-directed instrumentation typically slows down execution by a factor 2x-9x compared to 8x-90x for an approach where applications are fully instrumented.  \nWe published the key paper on this project at ESEC/FSE, the flagship conference of ACM SIGSOFT.  We have released Jalangi version 1.0 and version 2.0 as open-source software.  Jalangi has powered several research and software tool projects both in academia and industry.  Jalangi has garnered interest from several companies, including Samsung Electronics, NTT Japan, Coverity, Mozilla, and Awake networks, a recent security startup.  The PI has given several invited talks at conferences and workshops, including a tutorial on Jalangi at PLDI 2016.  Two of our papers based on analyses developed on top of Jalangi have won ACM SIGSOFT Distinguished Paper Awards at ICSE 2016 and ESEC/FSE 2015.\n\n\n\n\t\t\t\t\tLast Modified: 11/26/2018\n\n\t\t\t\t\tSubmitted by: Koushik Sen"
+ }
+}

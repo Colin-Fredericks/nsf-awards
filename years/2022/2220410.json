@@ -1,0 +1,110 @@
+{
+ "awd_id": "2220410",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "FMitF: Track I: Safe, Efficient Persistent Memory Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032920000",
+ "po_email": "doliveir@nsf.gov",
+ "po_sign_block_name": "Daniela Oliveira",
+ "awd_eff_date": "2022-10-01",
+ "awd_exp_date": "2026-09-30",
+ "tot_intn_awd_amt": 749999.0,
+ "awd_amount": 749999.0,
+ "awd_min_amd_letter_date": "2022-07-12",
+ "awd_max_amd_letter_date": "2023-07-18",
+ "awd_abstract_narration": "Emerging persistent-memory technologies provide the performance of current random-access computer memories while preserving data even in the presence of power outages. Unfortunately, developing software that uses persistent memory is challenging \u2013 a key challenge is ensuring that software fails consistently (called crash-consistent software) or, in other words, that software produces correct results even when the system suffers a power failure.  Crash-consistency software errors can be difficult to find during the testing phase of software development and may only be revealed when production systems lose important data. Existing software tools can only find such errors that reveal themselves during testing and cannot ensure correctness for other executions of the same piece of software.  The project's novelties are (1) the development of a verification system that can guarantee that software is crash-consistent, (2) the development of novel software that uses persistent memory, and (3) the application of the verification tools to ensure the correctness of these software. The project's broader significance and importance are: (1) the development of tools that can protect society from the harms of software errors in future persistent-memory systems and (2) training of a new generation of computer scientists to build verified systems.\r\n\r\nThis project is building the RustPM verification infrastructure for persistent-memory systems that guarantees crash-consistency.  The basic approach has two components: (1) verify that a program correctly uses flush and fence operations and (2) verify that the data-structure operations are failure-atomic.  The project is developing case studies in the domains of fast and reliable network-attached storage and efficient network middleboxes.  A key focus of these systems is to use persistent memory to enable them to survive and recover from power outages. These systems have stringent performance requirements and use log-free persistent data structures to meet these requirements.  The project is using RustPM's verification to ensure that these log-free data structures are crash-consistent.  The needs of the two systems drives the development of the RustPM verification system and serves as a platform to evaluate the flexibility of RustPM.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Brian",
+   "pi_last_name": "Demsky",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Brian C Demsky",
+   "pi_email_addr": "bdemsky@uci.edu",
+   "nsf_id": "000399342",
+   "pi_start_date": "2022-07-12",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Anton",
+   "pi_last_name": "Burtsev",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Anton Burtsev",
+   "pi_email_addr": "aburtsev@flux.utah.edu",
+   "nsf_id": "000637182",
+   "pi_start_date": "2022-07-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Irvine",
+  "inst_street_address": "160 ALDRICH HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "IRVINE",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "9498247295",
+  "inst_zip_code": "926970001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "47",
+  "st_cong_dist_code": "CA47",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA IRVINE",
+  "org_prnt_uei_num": "MJC5FCYQTPE6",
+  "org_uei_num": "MJC5FCYQTPE6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Irvine",
+  "perf_str_addr": "141 Innovation Drive STE 250",
+  "perf_city_name": "Irvine",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "926173213",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "47",
+  "perf_st_cong_dist": "CA47",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "094Y00",
+   "pgm_ele_name": "FMitF: Formal Methods in the F"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "071Z",
+   "pgm_ref_txt": "FMitF-Formal Methods in the Field"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 749999.0
+  }
+ ],
+ "por": null
+}

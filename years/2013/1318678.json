@@ -1,0 +1,105 @@
+{
+ "awd_id": "1318678",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Option: Small: Automatic Software Model Repair for Security Policies",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 448789.0,
+ "awd_amount": 448789.0,
+ "awd_min_amd_letter_date": "2013-08-19",
+ "awd_max_amd_letter_date": "2013-08-19",
+ "awd_abstract_narration": "Increasing cyber security depends on our ability to guarantee that the system will provide the expected functionality under normal circumstances as well as if the system is perturbed by some random events or security threats. Providing such guarantee is often complicated due to several factors such as changes in system requirements caused by user demands, exposure to a new threat model that was not considered (or not relevant) in the original design, or identifying bugs or vulnerabilities during a system life cycle. The purpose of the project is to develop automated techniques --that provide justifiable confidence about correctness--  to transform an existing software model into a new model that satisfies both the existing functionality and the desired security requirements. \r\n \r\nDeveloping algorithms that generate models that satisfy existing functionality and new security requirements poses new challenges due to the fact that existing trace-based properties do not suffice for several security properties. A characteristic of trace-based properties is that if a model satisfies a trace-based property and it is restricted by removing some undesired behaviors then the revised model still satisfies that trace-based property. Hence, adding a trace-based property can be achieved by removing behaviors that violate it. Since trace-based properties cannot express several security properties, this project will utilize a new formalism, hyperproperties,  that generalizes trace-based properties and can be used for modeling security requirements. In particular, a hyperproperty consists of a set of trace-based properties and to satisfy that hyperproperty it is required that the repaired program exhibit `all? behaviors in one of these properties.\r\n \r\nTo develop algorithms that justifiably provide assurance about models developed by them, this project will first focus on formalizing commonly used security requirements using hyperproperties. It will perform complexity analysis to evaluate the complexity of adding different security properties to an existing model. To mitigate cases where the complexity is high, it will develop heuristics and algorithms that (1) identify whether adding the given hyperproperty can be achieved via adding a related stronger trace-based property, and (2) identify a subset of hyperproperties where adding the given property is more efficient. This work will also result in the development of efficient algorithms and tools that utilize the complexity bottlenecks.  Thus, the results of the proposed project will enhance assurance of software systems by repairing security flaws and vulnerabilities in an automated fashion.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sandeep",
+   "pi_last_name": "Kulkarni",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sandeep S Kulkarni",
+   "pi_email_addr": "sandeep@cse.msu.edu",
+   "nsf_id": "000275940",
+   "pi_start_date": "2013-08-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Michigan State University",
+  "inst_street_address": "426 AUDITORIUM RD RM 2",
+  "inst_street_address_2": "",
+  "inst_city_name": "EAST LANSING",
+  "inst_state_code": "MI",
+  "inst_state_name": "Michigan",
+  "inst_phone_num": "5173555040",
+  "inst_zip_code": "488242600",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MI07",
+  "org_lgl_bus_name": "MICHIGAN STATE UNIVERSITY",
+  "org_prnt_uei_num": "VJKZC4D1JN36",
+  "org_uei_num": "R28EKN92ZTZ9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Michigan State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MI",
+  "perf_st_name": "Michigan",
+  "perf_zip_code": "488241226",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MI07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 448789.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The main objective of this project was to enable automated repair of existing software models to satisfy new or enhanced security requirements while preserving existing functionality.</p>\n<p>In this project, we focused on hypersafety and hyperliveness properties. Regarding hypersafety properties, we classified them in terms of a hypersafety property where k identifies the number of computations that are sufficient to detect violation and l denotes the number of states that are sufficient to detect violation of hypersafety property. We showed that the problem can be solved efficiently if k=1 and l &lt;2. However, the problem is NP-complete if k&gt;1 or (k=1 and l&gt;= 1)</p>\n<p>Regarding hyperliveness, we focused on average response time. We developed an efficient algorithm to revise an existing stabilizing program to ensure that the average response time is less than the desired threshold. Our work was based on PRISM based probabilistic analysis. One of the challenges in this work was that while it is efficient to eliminate behaviors to reduce the average response time, it is possible that the number of behaviors eliminated could be especially large. We showed that there is a tradeoff between the number of behaviors maintained in the final program and the time required for revision. Specifically, we showed that one of our algorithms is extremely efficient. However, it can cause the removal of 90+% of behaviors from the resulting program. We have shown that it is possible to revise this program so that the extra computational power can be used to increase the percentage of behaviors that are maintained in the final program.</p>\n<p>In this area, we also pursued the case where instead of adding average response time, t, we focused on adding worst response time t' where t' is greater than t. We find that there is a tradeoff between the value of t'; specifically, choosing t' to be very close to t causes the algorithm to be efficient but results in the removal of a large percentage of behaviors from the final program.</p>\n<p>We also investigated a new approach, lazy repair, for repairing existing programs. Specifically, in this case, we partitioned the repair problem into two parts: First, ignore the realizability constraints (that must be satisfied to ensure that the repaired solution can be implemented in the actual system). This makes the tasks involved in repair significantly more efficient. Second, only focus on adding those realizability constraints. We find that the overall cost of this approach is lower than a cautious repair approach where we focus on satisfying realizability constraints at all times. We are working on expanding this result for hypersafety and hyperliveness properties.</p>\n<p>We have also developed repair algorithms that utilized genetic programming. Specifically, in this work, we evaluated how GP can be used to add or remove new behaviors with the aim of reaching a program that satisfies the desired requirements. In this work, we define the fitness function in terms of violations observed with the help of a BDD-based analysis. And, the goal is to develop a program where the number of violations is 0. This analysis formed the basis of our work on adding average response time to an existing program.</p>\n<p>We introduced a novel notion of auditable restoration to deal with conflicting requirements in a practical system. Auditable Restoration allows a system to operate in two modes, a normal mode and an audited mode. A transition from normal mode to audited mode is triggered by auditable events that are specifically added to the system to deal with conflicting requirements. When such auditable events occur, the system is automatically reset to audited mode. Subsequently, when these events are cleared, a special process can automatically begin a reset operation to restore the system to normal mode. Our work is currently limited by requiring that the legitimate and audited state predicates are captured by conjunctive predicates and auditable events are immediately detectable. One of our ongoing work in this area is to generalize this by removing these constraints.</p>\n<p>We have also focused on developing algorithms for monitoring distributed applications for identifying latent bugs that can cause security errors subsequently. By latent bugs, we mean a bug that is hidden due to race conditions that are resolved in a manner that is favorable to the user. However, when such bugs exist, they could occur in a subsequent execution and an adversary can attempt to cause these bugs by trying again and again. Currently, our monitors are able to detect violation of given predicate. However, we are working on adding more complex patterns for monitoring.</p>\n<p>Finally, we intend to make all results from this work publically available. The publications are available from PI's website. If any specific information about the publication is desired, please feel free to contact the PI by email.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/01/2017<br>\n\t\t\t\t\tModified by: Sandeep&nbsp;S&nbsp;Kulkarni</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe main objective of this project was to enable automated repair of existing software models to satisfy new or enhanced security requirements while preserving existing functionality.\n\nIn this project, we focused on hypersafety and hyperliveness properties. Regarding hypersafety properties, we classified them in terms of a hypersafety property where k identifies the number of computations that are sufficient to detect violation and l denotes the number of states that are sufficient to detect violation of hypersafety property. We showed that the problem can be solved efficiently if k=1 and l &lt;2. However, the problem is NP-complete if k&gt;1 or (k=1 and l&gt;= 1)\n\nRegarding hyperliveness, we focused on average response time. We developed an efficient algorithm to revise an existing stabilizing program to ensure that the average response time is less than the desired threshold. Our work was based on PRISM based probabilistic analysis. One of the challenges in this work was that while it is efficient to eliminate behaviors to reduce the average response time, it is possible that the number of behaviors eliminated could be especially large. We showed that there is a tradeoff between the number of behaviors maintained in the final program and the time required for revision. Specifically, we showed that one of our algorithms is extremely efficient. However, it can cause the removal of 90+% of behaviors from the resulting program. We have shown that it is possible to revise this program so that the extra computational power can be used to increase the percentage of behaviors that are maintained in the final program.\n\nIn this area, we also pursued the case where instead of adding average response time, t, we focused on adding worst response time t' where t' is greater than t. We find that there is a tradeoff between the value of t'; specifically, choosing t' to be very close to t causes the algorithm to be efficient but results in the removal of a large percentage of behaviors from the final program.\n\nWe also investigated a new approach, lazy repair, for repairing existing programs. Specifically, in this case, we partitioned the repair problem into two parts: First, ignore the realizability constraints (that must be satisfied to ensure that the repaired solution can be implemented in the actual system). This makes the tasks involved in repair significantly more efficient. Second, only focus on adding those realizability constraints. We find that the overall cost of this approach is lower than a cautious repair approach where we focus on satisfying realizability constraints at all times. We are working on expanding this result for hypersafety and hyperliveness properties.\n\nWe have also developed repair algorithms that utilized genetic programming. Specifically, in this work, we evaluated how GP can be used to add or remove new behaviors with the aim of reaching a program that satisfies the desired requirements. In this work, we define the fitness function in terms of violations observed with the help of a BDD-based analysis. And, the goal is to develop a program where the number of violations is 0. This analysis formed the basis of our work on adding average response time to an existing program.\n\nWe introduced a novel notion of auditable restoration to deal with conflicting requirements in a practical system. Auditable Restoration allows a system to operate in two modes, a normal mode and an audited mode. A transition from normal mode to audited mode is triggered by auditable events that are specifically added to the system to deal with conflicting requirements. When such auditable events occur, the system is automatically reset to audited mode. Subsequently, when these events are cleared, a special process can automatically begin a reset operation to restore the system to normal mode. Our work is currently limited by requiring that the legitimate and audited state predicates are captured by conjunctive predicates and auditable events are immediately detectable. One of our ongoing work in this area is to generalize this by removing these constraints.\n\nWe have also focused on developing algorithms for monitoring distributed applications for identifying latent bugs that can cause security errors subsequently. By latent bugs, we mean a bug that is hidden due to race conditions that are resolved in a manner that is favorable to the user. However, when such bugs exist, they could occur in a subsequent execution and an adversary can attempt to cause these bugs by trying again and again. Currently, our monitors are able to detect violation of given predicate. However, we are working on adding more complex patterns for monitoring.\n\nFinally, we intend to make all results from this work publically available. The publications are available from PI's website. If any specific information about the publication is desired, please feel free to contact the PI by email. \n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/01/2017\n\n\t\t\t\t\tSubmitted by: Sandeep S Kulkarni"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "1407925",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Fast Reinforcement Learning Using Multiple Models and State Decomposition",
+ "cfda_num": "47.041",
+ "org_code": "07010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Usha Varshney",
+ "awd_eff_date": "2014-08-15",
+ "awd_exp_date": "2017-07-31",
+ "tot_intn_awd_amt": 154244.0,
+ "awd_amount": 154244.0,
+ "awd_min_amd_letter_date": "2014-08-04",
+ "awd_max_amd_letter_date": "2014-08-04",
+ "awd_abstract_narration": "This project attempts to develop better methods for Reinforcement Learning and Approximate Dynamic Programming (RLADP), in order to be able to handle decision tasks with greater complexity both in time and in space. Reinforcement learning systems are systems which can learn to maximize any measure of performance or satisfaction, based on their experience of observing their environment, acting on the environment, and receiving feedback on performance, similar to the pain or pleasure which is used to reinforce animal behavior. Current reinforcement learning methods do not learn fast enough to perform well, when their environment is too complex in space or in time. This project will develop new methods to handle that kind of complexity. The team will also have a collaboration with IBM research, and will try to address a testbed problem involving the management of a fleet of plug-in hybrid cars.\r\n\r\nComplexity in time will be handled by use of a multiple model approach, connecting various options or skills by evaluation and updating of the landmark states which mark transitions between different regions of state space. This is similar to previous work on decision blocks and modified Bellman equations previously presented at the PI's workshop on learning and adaptive systems, but otherwise is a unique, new an important direction. Complexity in space is addressed by a multiagent approach, based on a kind of spatial decomposition.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "ECCS",
+ "org_div_long_name": "Division of Electrical, Communications and Cyber Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Snehasis",
+   "pi_last_name": "Mukhopadhyay",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Snehasis Mukhopadhyay",
+   "pi_email_addr": "smukhopa@iupui.edu",
+   "nsf_id": "000118072",
+   "pi_start_date": "2014-08-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Indiana University",
+  "inst_street_address": "107 S INDIANA AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BLOOMINGTON",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "3172783473",
+  "inst_zip_code": "474057000",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "IN09",
+  "org_lgl_bus_name": "TRUSTEES OF INDIANA UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YH86RTW2YVJ4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Indiana University Purdue University Indianapolis",
+  "perf_str_addr": "LOCKEFIELD 2232; 980 INDIANA AVE",
+  "perf_city_name": "Indianapolis",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "462022915",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "IN07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "760700",
+   "pgm_ele_name": "EPCN-Energy-Power-Ctrl-Netwrks"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1653",
+   "pgm_ref_txt": "Adaptive & intelligent systems"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 154244.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Reinforcement learning refers to a set of techniques for an (artificial) agent (such as a robot) to learn optimal actions or strategies in an unknown, dynamic, environment through trial and error. Although they hold great promise towards developing intelligent autonomous devices and/or software, their slow speed of learning or convergence limits their practical applicability.</p>\n<p>This NSF funded project investigated the feasibility of speeding up the convergence of reinforcement learning algorithms by means of state decomposition, i.e., decomposing a complex problem (system) into many simple, smaller ones, and then assigning a separate learning agent to each of the sub-problems.</p>\n<p>While a decentralized approach (without any communication between the multiple agents assigned to the sub-problems) has the potential to achieve fast response, in the event the multiple sub-problems are not completely independent, the realized (learned) action may only be sub-optimal, because it ignores the interconnections between the subsystems.</p>\n<p>To address this problem, during the given project, an approach called &ldquo;selective decentralization&rdquo; was developed where each agent selectively interacts with some (but not all) of the other agents, and learns the interconnection pattern (i.e., who to communicate with) by employing multiple models, one for each possible interconnection pattern. Such selectively decentralized reinforcement learning algorithms has the potential to realize solutions that are both fast and accurate (optimal).Attached Figure 1 shows a typical response comparing completely centralized, completely decentralized, and selectively decentralized algorithms in a typical simulation study. It is clear from the figure that the response with selective decentralization is the among the fastest and most accurate responses.</p>\n<p>Similar behavior was also observed in numerous other simulation studies which have been reported in many peer-reviewed research papers published during the project.The theoretical and experimental studies clearly indicate that selectively decentralized reinforcement learning algorithms hold great promise in many complex, practical applications.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/03/2017<br>\n\t\t\t\t\tModified by: Snehasis&nbsp;Mukhopadhyay</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2017/1407925/1407925_10328137_1507053437872_Figure1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1407925/1407925_10328137_1507053437872_Figure1--rgov-800width.jpg\" title=\"Figure 1\"><img src=\"/por/images/Reports/POR/2017/1407925/1407925_10328137_1507053437872_Figure1--rgov-66x44.jpg\" alt=\"Figure 1\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">: Comparison of control performance among the centralized system, the completely decentralized system and the selectively decentralized system when the system is nonlinear and strongly coupled</div>\n<div class=\"imageCredit\">Thanh Nguyen</div>\n<div class=\"imageSubmitted\">Snehasis&nbsp;Mukhopadhyay</div>\n<div class=\"imageTitle\">Figure 1</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nReinforcement learning refers to a set of techniques for an (artificial) agent (such as a robot) to learn optimal actions or strategies in an unknown, dynamic, environment through trial and error. Although they hold great promise towards developing intelligent autonomous devices and/or software, their slow speed of learning or convergence limits their practical applicability.\n\nThis NSF funded project investigated the feasibility of speeding up the convergence of reinforcement learning algorithms by means of state decomposition, i.e., decomposing a complex problem (system) into many simple, smaller ones, and then assigning a separate learning agent to each of the sub-problems.\n\nWhile a decentralized approach (without any communication between the multiple agents assigned to the sub-problems) has the potential to achieve fast response, in the event the multiple sub-problems are not completely independent, the realized (learned) action may only be sub-optimal, because it ignores the interconnections between the subsystems.\n\nTo address this problem, during the given project, an approach called \"selective decentralization\" was developed where each agent selectively interacts with some (but not all) of the other agents, and learns the interconnection pattern (i.e., who to communicate with) by employing multiple models, one for each possible interconnection pattern. Such selectively decentralized reinforcement learning algorithms has the potential to realize solutions that are both fast and accurate (optimal).Attached Figure 1 shows a typical response comparing completely centralized, completely decentralized, and selectively decentralized algorithms in a typical simulation study. It is clear from the figure that the response with selective decentralization is the among the fastest and most accurate responses.\n\nSimilar behavior was also observed in numerous other simulation studies which have been reported in many peer-reviewed research papers published during the project.The theoretical and experimental studies clearly indicate that selectively decentralized reinforcement learning algorithms hold great promise in many complex, practical applications.\n\n\t\t\t\t\tLast Modified: 10/03/2017\n\n\t\t\t\t\tSubmitted by: Snehasis Mukhopadhyay"
+ }
+}

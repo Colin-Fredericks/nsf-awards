@@ -1,0 +1,101 @@
+{
+ "awd_id": "1331352",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "BSF:2012362:Parallel GPU Algorithms for Proximity Analysis of Freeforms",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2019-09-30",
+ "tot_intn_awd_amt": 40784.0,
+ "awd_amount": 40784.0,
+ "awd_min_amd_letter_date": "2013-09-11",
+ "awd_max_amd_letter_date": "2013-09-11",
+ "awd_abstract_narration": "This project is funded as part of the United States-Israel Collaboration in Computer Science (USICCS) program. Through this program, NSF and the United States - Israel Binational Science Foundation (BSF) jointly support collaborations among US-based researchers and Israel-based researchers. The objective of this research project is to collaboratively design efficient algorithms to compute distance structures for analyzing 3D solid models. These structures are essential building blocks for algorithms in numerous application areas, including shape analysis, segmentation, proximity queries, meshing for finite element analysis, pattern recognition, and motion planning, with wide-ranging societal and economic benefits ranging from security to drug design. \r\n\r\nThe proposed approach builds on the collaborating PIs preliminary results that introduced an algorithmic approach that combines lower-envelope methods and massively parallel Graphics Processing Unit (GPU) computations. New algorithms will be developed to compute distance structures directly from the curved surfaces defining CAD models, including the defacto industry standard of Non-Uniform Rational B-Spline (NURBS) surfaces. This problem was previously considered intractable because of the resulting high order surfaces if solved analytically. The proposed GPU-based approach will address issues of speed and robustness by analyzing the curved surfaces directly, instead of using piecewise-linear approximations of the input. The research will encompass both theoretical error analysis of worst-case error and measurement of the approximation error in practice so as to optimally address the speed versus accuracy tradeoff.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sara",
+   "pi_last_name": "McMains",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sara McMains",
+   "pi_email_addr": "mcmains@me.berkeley.edu",
+   "nsf_id": "000418560",
+   "pi_start_date": "2013-09-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947201740",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "287800",
+   "pgm_ele_name": "Special Projects - CCF"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7798",
+   "pgm_ref_txt": "SOFTWARE & HARDWARE FOUNDATION"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 40784.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The future of computing is parallel.&nbsp; The speed of the individual cores in CPUs has reached a plateau. In fact, if the prophecy of increasing compute performance known as Moore?s law had continued to be fulfilled by increasing chip speeds, the cooling requirements for a CPU would already be approaching the cooling requirements for a nuclear reactor. Thus instead of an increase in CPU speeds, we now see a steady increase in the number of cores: from dual core, to quad core, etc. Within a few years, a standard desktop computer will be massively parallel.&nbsp; The trend towards massive parallelism in CPUs has already come to pass in GPUs, the Graphics Processing Units that were traditionally used solely for display purposes, but can now be programmed for general purpose computing.</p>\n<p>Unfortunately, the algorithms implemented in the geometric modeling kernels that are the work-horses underlying modern Computer-Aided-Design (CAD) software were all developed for a serial computing model. Thus CAD systems that rely on these kernels will be unable to take advantage of the increasing power of tomorrow's computers.&nbsp; This project collaborative research project targeted the development of new massively parallel algorithms for geometric computing.</p>\n<p class=\"Paragraphfirst\">The Voronoi diagram, a fundamental construct in computational geometry, partitions space into regions that are closest to each member of a set of points or surfaces. It is useful in a wide range of application domains. Many algorithms have been proposed for constructing Voronoi diagrams of lower order objects (points, line segments, and polygons). However, Voronoi diagrams of higher order 3D objects have not been explored extensively, even though they have many applications. For example, to analyze pathways through molecular tunnels in proteins with their atoms represented by Van der Waals spheres, Voronoi diagrams of spheres are often used. However, due to the lack of robust algorithms, many applications simplify the problem so that existing codes for Voronoi diagrams of points can be used, or assume the input is in general position.</p>\n<p class=\"Paragraphfirst\">Intellectual Merit: In our work, we developed new GPU algorithms to compute 3D Voronoi diagrams of spheres. Our main contributions include:</p>\n<ul>\n<li>A novel approach to compute Voronoi cells of spheres that exploits the parallelism of the GPU by shooting intersection rays at the bisector surfaces. We sample rays from each input sphere and find the lower envelope as points on Voronoi faces.</li>\n<li>Separation of the construction of the topology (connectivity) of the Voronoi cells from the calculation of the geometry. The topology is calculated directly from the face sample points.</li>\n<li>Edge topology is correctly calculated for both general and non-general position input, including self-connected and infinite Voronoi edges.</li>\n<li>Accurate calculation of Voronoi vertices? geometry by using the samples to initialize Newton-Raphson iteration that can guarantee the accuracy of the vertices to be within a user-defined tolerance.</li>\n<li>Correct output even for spheres not in general position, handling Voronoi vertices with degree greater than four and/or Voronoi edges with degree greater than three.</li>\n</ul>\n<p class=\"Paragraphsfollowing\">Broader impacts:</p>\n<ul>\n<li>Robust calculation of Voronoi cells of thousands of input spheres representing actual protein molecules.</li>\n</ul>\n<p>This project was funded as part of the United States-Israel Collaboration in Computer Science (USICCS) program. Through this program, NSF and the United States - Israel Binational Science Foundation (BSF) jointly support collaborations among US-based researchers and Israel-based researchers. Two graduate student researchers on the US side working on this collaborative research project were trained in advanced GPU methods and mathematical techniques that underlie current and next-generation geometric modeling systems.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/15/2020<br>\n\t\t\t\t\tModified by: Sara&nbsp;Mcmains</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2020/1331352/1331352_10278118_1600159285332_bsfnsfOutcomesImage--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1331352/1331352_10278118_1600159285332_bsfnsfOutcomesImage--rgov-800width.jpg\" title=\"Example results\"><img src=\"/por/images/Reports/POR/2020/1331352/1331352_10278118_1600159285332_bsfnsfOutcomesImage--rgov-66x44.jpg\" alt=\"Example results\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">(a) Voronoi cell for non-general-position input with green Voronoi vertex equidistant from 5 spheres; visualizations of the full Voronoi diagrams for: (b) Protein ID 1crn-PQR of 642 atoms (202 C, 55 N, 64 O, 6 S, 315 H); (c) Protein ID 1bh8-PQR of 2161 atoms (680 C, 181 N, 203 O, 10 S, 1087 H)</div>\n<div class=\"imageCredit\">adapted from [Hu et al. 2017]</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Sara&nbsp;Mcmains</div>\n<div class=\"imageTitle\">Example results</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThe future of computing is parallel.  The speed of the individual cores in CPUs has reached a plateau. In fact, if the prophecy of increasing compute performance known as Moore?s law had continued to be fulfilled by increasing chip speeds, the cooling requirements for a CPU would already be approaching the cooling requirements for a nuclear reactor. Thus instead of an increase in CPU speeds, we now see a steady increase in the number of cores: from dual core, to quad core, etc. Within a few years, a standard desktop computer will be massively parallel.  The trend towards massive parallelism in CPUs has already come to pass in GPUs, the Graphics Processing Units that were traditionally used solely for display purposes, but can now be programmed for general purpose computing.\n\nUnfortunately, the algorithms implemented in the geometric modeling kernels that are the work-horses underlying modern Computer-Aided-Design (CAD) software were all developed for a serial computing model. Thus CAD systems that rely on these kernels will be unable to take advantage of the increasing power of tomorrow's computers.  This project collaborative research project targeted the development of new massively parallel algorithms for geometric computing.\nThe Voronoi diagram, a fundamental construct in computational geometry, partitions space into regions that are closest to each member of a set of points or surfaces. It is useful in a wide range of application domains. Many algorithms have been proposed for constructing Voronoi diagrams of lower order objects (points, line segments, and polygons). However, Voronoi diagrams of higher order 3D objects have not been explored extensively, even though they have many applications. For example, to analyze pathways through molecular tunnels in proteins with their atoms represented by Van der Waals spheres, Voronoi diagrams of spheres are often used. However, due to the lack of robust algorithms, many applications simplify the problem so that existing codes for Voronoi diagrams of points can be used, or assume the input is in general position.\nIntellectual Merit: In our work, we developed new GPU algorithms to compute 3D Voronoi diagrams of spheres. Our main contributions include:\n\nA novel approach to compute Voronoi cells of spheres that exploits the parallelism of the GPU by shooting intersection rays at the bisector surfaces. We sample rays from each input sphere and find the lower envelope as points on Voronoi faces.\nSeparation of the construction of the topology (connectivity) of the Voronoi cells from the calculation of the geometry. The topology is calculated directly from the face sample points.\nEdge topology is correctly calculated for both general and non-general position input, including self-connected and infinite Voronoi edges.\nAccurate calculation of Voronoi vertices? geometry by using the samples to initialize Newton-Raphson iteration that can guarantee the accuracy of the vertices to be within a user-defined tolerance.\nCorrect output even for spheres not in general position, handling Voronoi vertices with degree greater than four and/or Voronoi edges with degree greater than three.\n\nBroader impacts:\n\nRobust calculation of Voronoi cells of thousands of input spheres representing actual protein molecules.\n\n\nThis project was funded as part of the United States-Israel Collaboration in Computer Science (USICCS) program. Through this program, NSF and the United States - Israel Binational Science Foundation (BSF) jointly support collaborations among US-based researchers and Israel-based researchers. Two graduate student researchers on the US side working on this collaborative research project were trained in advanced GPU methods and mathematical techniques that underlie current and next-generation geometric modeling systems.\n\n \n\n\t\t\t\t\tLast Modified: 09/15/2020\n\n\t\t\t\t\tSubmitted by: Sara Mcmains"
+ }
+}

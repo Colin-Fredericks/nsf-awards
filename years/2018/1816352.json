@@ -1,0 +1,109 @@
+{
+ "awd_id": "1816352",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Dynamic Analysis on Code Fragments",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 485993.0,
+ "awd_amount": 485993.0,
+ "awd_min_amd_letter_date": "2018-08-23",
+ "awd_max_amd_letter_date": "2018-08-23",
+ "awd_abstract_narration": "In many software engineering environments, software developers would like to understand, test, debug and verify a relatively small fragment of code instead of the entire program. However, currently available program analysis and testing tools only work on programs that are whole, in the sense that they can be compiled and executed as a whole program. When the goal is to target only a small code fragment, it is excessively expensive and time-consuming to test and analyze the targeted code in the context of entire programs, which requires configuring a whole system, setting up the execution environment, and finding suites of test inputs that supply all the needed data values to execute the whole program.  Software development processes would be much more efficient and effective if a program property for the code fragment of interest could be checked as a standalone unit of code. This research project addresses the technical challenges in converting code fragments into testable units. If software testing and analysis could be applied successfully to code fragments, rather than whole programs, the overall process of developing correct code would be streamlined. This project focuses on dynamic program analysis, which is the analysis of computer software that is performed by executing programs in a run-time environment (as opposed to static analysis, which is analysis of the source code). The project will generate algorithms, tools, and data that can advance the state of the art of program analysis tools and software engineering practice. The results will be disseminated through conferences, classrooms, open source projects, industrial collaborations and STEM volunteer opportunities.\r\n\r\nFor dynamic program analysis to be effective, the target program must be executed with sufficient test inputs to produce interesting (e.g., incorrect or anomalous) behaviors. Dynamic analysis is made difficult by frequently huge numbers of program paths, and the large number of inputs that must be tested. Often, the tests are ineffective because they produce an overwhelming number of false positives and often fail on parts of the program that are not even relevant to the purpose of understanding, debugging or verifying the targeted code.  The project will develop an approach to take code fragments, selected or constructed from the original program, and generate compilable and executable units, using new syntactic patching techniques to enable dynamic analysis on code fragments. It will also develop a techniques to search for and select meaningful code fragments on which to operate.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wei",
+   "pi_last_name": "Le",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wei Le",
+   "pi_email_addr": "weile@iastate.edu",
+   "nsf_id": "000599868",
+   "pi_start_date": "2018-08-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Iowa State University",
+  "inst_street_address": "1350 BEARDSHEAR HALL",
+  "inst_street_address_2": "515 MORRILL ROAD",
+  "inst_city_name": "AMES",
+  "inst_state_code": "IA",
+  "inst_state_name": "Iowa",
+  "inst_phone_num": "5152945225",
+  "inst_zip_code": "500112103",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IA04",
+  "org_lgl_bus_name": "IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+  "org_prnt_uei_num": "DQDBM7FGJPC5",
+  "org_uei_num": "DQDBM7FGJPC5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Iowa State University",
+  "perf_str_addr": "",
+  "perf_city_name": "Ames",
+  "perf_st_code": "IA",
+  "perf_st_name": "Iowa",
+  "perf_zip_code": "500111079",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IA04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 485993.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Many software engineering applications require understanding and analysis of code fragments, e.g., confirming whether a segment of path reported by a static analysis tool is indeed buggy, and cleaning a patch by removing bug-irrelevant lines. In the past, program analysis techniques mostly work for complete programs and require programs under analysis to be compiled and built.</p>\n<p><br />This research developed novel program analysis techniques that can analyze code fragments and also demonstrated that the analysis of code fragments is useful for many important and practical software engineering challenges. Specifically, we developed analysis algorithms and tools to classify static warnings into true positive, likely false positive and false positive. It enables the critical bugs to be prioritized from a large number of static warnings. We also analyzed the crashes generated by fuzzing tools and used code fragment analysis to group crashes induced by the same root causes. Using this tool, developers can largely reduce the time and efforts of diagnosing fuzzing crashes. In the third application, we demonstrated that it is feasible to reproduce a failure by giving a fault location only. Here, we reconstructed a small program that captures the root cause of the bug via program analysis and code transformation.&nbsp; Finally, we developed algorithms that combine machine learning and program analysis to analyze patches of code to remove bug-irrelevant lines and address the long-standing challenge of cleaning commits and untangling the changes. Using our tool to clean the noise data located in the vulnerability dataset, our research improves the accuracy of deep learning for vulnerability detection and those tools can detect more vulnerabilities with cleaner data.</p>\n<p><br />The research has produced tools, data, papers and theses which we have disseminated through our publications. Our findings and articrafts are integrated into COM S 413/513 Program Analysis at the Iowa State University. Undergraduate students and students with a diverse background have been recruited to conduct research. We have also done industry outreach and presented our work to the practitioners such as Google and CERT where they extensively use fuzzers and static analysis tools for software assurance.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/20/2023<br>\n\t\t\t\t\tModified by: Wei&nbsp;Le</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMany software engineering applications require understanding and analysis of code fragments, e.g., confirming whether a segment of path reported by a static analysis tool is indeed buggy, and cleaning a patch by removing bug-irrelevant lines. In the past, program analysis techniques mostly work for complete programs and require programs under analysis to be compiled and built.\n\n\nThis research developed novel program analysis techniques that can analyze code fragments and also demonstrated that the analysis of code fragments is useful for many important and practical software engineering challenges. Specifically, we developed analysis algorithms and tools to classify static warnings into true positive, likely false positive and false positive. It enables the critical bugs to be prioritized from a large number of static warnings. We also analyzed the crashes generated by fuzzing tools and used code fragment analysis to group crashes induced by the same root causes. Using this tool, developers can largely reduce the time and efforts of diagnosing fuzzing crashes. In the third application, we demonstrated that it is feasible to reproduce a failure by giving a fault location only. Here, we reconstructed a small program that captures the root cause of the bug via program analysis and code transformation.  Finally, we developed algorithms that combine machine learning and program analysis to analyze patches of code to remove bug-irrelevant lines and address the long-standing challenge of cleaning commits and untangling the changes. Using our tool to clean the noise data located in the vulnerability dataset, our research improves the accuracy of deep learning for vulnerability detection and those tools can detect more vulnerabilities with cleaner data.\n\n\nThe research has produced tools, data, papers and theses which we have disseminated through our publications. Our findings and articrafts are integrated into COM S 413/513 Program Analysis at the Iowa State University. Undergraduate students and students with a diverse background have been recruited to conduct research. We have also done industry outreach and presented our work to the practitioners such as Google and CERT where they extensively use fuzzers and static analysis tools for software assurance.\n\n\t\t\t\t\tLast Modified: 09/20/2023\n\n\t\t\t\t\tSubmitted by: Wei Le"
+ }
+}

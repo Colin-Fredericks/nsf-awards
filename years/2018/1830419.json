@@ -1,0 +1,105 @@
+{
+ "awd_id": "1830419",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NRI: FND: COLLAB: Distributed, Semantically-Aware Tracking and Planning for Fleets of Robots",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032928950",
+ "po_email": "rwachter@nsf.gov",
+ "po_sign_block_name": "Ralph Wachter",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2021-09-30",
+ "tot_intn_awd_amt": 281370.0,
+ "awd_amount": 281370.0,
+ "awd_min_amd_letter_date": "2018-08-31",
+ "awd_max_amd_letter_date": "2018-08-31",
+ "awd_abstract_narration": "The ability to track, predict and reason about pedestrians and vehicles in a fast-paced dense urban environment is crucial to ensuring that autonomous vehicles can operate safely and dependably.  This project focuses on providing that capability to fleets of autonomous cars and delivery drones, allowing these autonomous systems to realize their promised societal benefits, such as the potential for greater mobility of people and goods while reducing traffic congestion and increasing safety.  This technology can moreover be customized for other applications such as large manufacturing operations and even small household robotic applications.  The methods and results from this project will be included in course curricula and in used outreach programs and events.\r\n\r\nThe project approaches this challenge in several ways: (i) combine classification algorithms from machine vision with the motion tracking of the objects from multi-target Bayesian filters into a new filtering architecture; (ii) generate new online, distributed tessellation algorithms, using tools from Voronoi-based distributed coverage control, to dynamically partition the surrounding environment in a way that leverages the innate parallelism of teams of multi-robots; (iii) use this partition to create a distributed memory architecture that has bandwidth-efficient updates and ensures data integrity in the face of system errors and malicious agents; (iv) develop semantically-aware path planning algorithms for fast, online optimization of robot motion that account for the range of possible reactionary behaviors of other objects; and (v) design an app-based interface that facilitates two-way information exchange between a human operator and the multi-robot team.  A prototype system based on these advances will be tested and evaluated in a highly instrumented laboratory environment.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Philip",
+   "pi_last_name": "Dames",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Philip M Dames",
+   "pi_email_addr": "pdames@temple.edu",
+   "nsf_id": "000753673",
+   "pi_start_date": "2018-08-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Temple University",
+  "inst_street_address": "1805 N BROAD ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "PHILADELPHIA",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "2157077547",
+  "inst_zip_code": "191226104",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "PA02",
+  "org_lgl_bus_name": "TEMPLE UNIVERSITY-OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+  "org_prnt_uei_num": "QD4MGHFDJKU1",
+  "org_uei_num": "QD4MGHFDJKU1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Temple University",
+  "perf_str_addr": "1947 N 12th St",
+  "perf_city_name": "Philadelphia",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "191226018",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "PA02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "801300",
+   "pgm_ele_name": "NRI-National Robotics Initiati"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "063Z",
+   "pgm_ref_txt": "FW-HTF Futr Wrk Hum-Tech Frntr"
+  },
+  {
+   "pgm_ref_code": "8086",
+   "pgm_ref_txt": "Natl Robotics Initiative (NRI)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 281370.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project advanced the technology necessary for robots to operate in complex, real-world environments, such as urban centers, that are filled with many different moving objects, such as pedestrians and cyclists. Our work addressed three primary questions: 1) how can an individual robot better understand its surroundings? 2) how can robots in a large fleet effectively share information with one another? and 3) how can robots use their improved understanding of the world to navigate more quickly and safely?</p>\n<p>Object Detection and Tracking: &nbsp;We created a collection of tools that allow robots to detect, identify, and track all of the many different objects in their surroundings. Starting from recent advances in computer vision, which allow robots to accurately identify objects in their surroundings, we developed the mathematics to create multi-target trackers that track both kinematic (e.g., position and velocity) and semantic (i.e., object type) data. These trackers are flexible, allowing robots to track any number of different object types, even when objects are easily mixed up with one another.</p>\n<p>Distributed Information Sharing: &nbsp;We created a new method to distribute data, such as the output of our multi-target trackers, across a large fleet of robots. The key to our method is that we spatially situate the data, meaning that only the robot(s) near an area have access to the information about that area. This allows the team as a whole to maintain a complete understanding of a large environment even though each individual robot only has a small piece of the total. It also provides each robot with access to the information it needs to operate, as what is happening very far away will have little to no impact on a robot?s decisions.</p>\n<p>Autonomous Navigation:&nbsp; We created a new controller for mobile robots that uses the information shared across the team to navigate more safely and effectively through complex, real-world environments. We did this by leveraging the new data from our multi-target trackers to guide robots to avoid people. We found that robots that use our control strategy move with a higher average speed and have fewer collisions compared to robots using existing control methods. Furthermore, we found that robots that use our controller achieve nearly the same navigation performance when placed in entirely new situations, even when the controller was learned in simulation and tested in the real world.</p>\n<p>In addition to developing these tools, we combined them all together to create working robotic systems. We initially developed and extensively tested these systems using detailed software simulations. We then validated all of these results using real ground robots navigating through different indoor and outdoor environments on Temple University campus.</p>\n<p>This project also included several educational efforts. First, the grant supported and trained 3 doctoral students, 1 master?s student, and 6 undergraduate students over the last three years. Second, the project led to the creation of a new class at Temple University on object tracking and information sharing. Third, we hosted an online workshop to engage the broader research community with these questions, bringing together both young and experienced researchers from around the world and including researchers from both academia and industry.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/27/2022<br>\n\t\t\t\t\tModified by: Philip&nbsp;M&nbsp;Dames</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643297150105_Picture3--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643297150105_Picture3--rgov-800width.jpg\" title=\"Outdoor navigation\"><img src=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643297150105_Picture3--rgov-66x44.jpg\" alt=\"Outdoor navigation\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">An example of a robot using our controller to successfully navigate through a large crowd outdoors. The blue arrows show the current velocity of each person and/or robot. The green line shows the robot's planned path towards it's goal (red circle).</div>\n<div class=\"imageCredit\">Zhanteng Xie</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Philip&nbsp;M&nbsp;Dames</div>\n<div class=\"imageTitle\">Outdoor navigation</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643297075054_Picture1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643297075054_Picture1--rgov-800width.jpg\" title=\"Indoor navigation\"><img src=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643297075054_Picture1--rgov-66x44.jpg\" alt=\"Indoor navigation\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">An example of a robot using our controller to successfully navigate through a small crowd indoors. The blue arrows show the current velocity of each person and/or robot. The green line shows the robot's planned path towards it's goal (red circle)</div>\n<div class=\"imageCredit\">Zhanteng Xie</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Philip&nbsp;M&nbsp;Dames</div>\n<div class=\"imageTitle\">Indoor navigation</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643296916079_Picture4--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643296916079_Picture4--rgov-800width.jpg\" title=\"CUV Diagram\"><img src=\"/por/images/Reports/POR/2022/1830419/1830419_10579135_1643296916079_Picture4--rgov-66x44.jpg\" alt=\"CUV Diagram\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">An example of a CUV diagram, where robots are shown as green squares and the CUV cells are shown as black polygons. The CUV cells overlap to ensure full coverage of the space even when the robot positions are uncertain.</div>\n<div class=\"imageCredit\">Jun Chen</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Philip&nbsp;M&nbsp;Dames</div>\n<div class=\"imageTitle\">CUV Diagram</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThis project advanced the technology necessary for robots to operate in complex, real-world environments, such as urban centers, that are filled with many different moving objects, such as pedestrians and cyclists. Our work addressed three primary questions: 1) how can an individual robot better understand its surroundings? 2) how can robots in a large fleet effectively share information with one another? and 3) how can robots use their improved understanding of the world to navigate more quickly and safely?\n\nObject Detection and Tracking:  We created a collection of tools that allow robots to detect, identify, and track all of the many different objects in their surroundings. Starting from recent advances in computer vision, which allow robots to accurately identify objects in their surroundings, we developed the mathematics to create multi-target trackers that track both kinematic (e.g., position and velocity) and semantic (i.e., object type) data. These trackers are flexible, allowing robots to track any number of different object types, even when objects are easily mixed up with one another.\n\nDistributed Information Sharing:  We created a new method to distribute data, such as the output of our multi-target trackers, across a large fleet of robots. The key to our method is that we spatially situate the data, meaning that only the robot(s) near an area have access to the information about that area. This allows the team as a whole to maintain a complete understanding of a large environment even though each individual robot only has a small piece of the total. It also provides each robot with access to the information it needs to operate, as what is happening very far away will have little to no impact on a robot?s decisions.\n\nAutonomous Navigation:  We created a new controller for mobile robots that uses the information shared across the team to navigate more safely and effectively through complex, real-world environments. We did this by leveraging the new data from our multi-target trackers to guide robots to avoid people. We found that robots that use our control strategy move with a higher average speed and have fewer collisions compared to robots using existing control methods. Furthermore, we found that robots that use our controller achieve nearly the same navigation performance when placed in entirely new situations, even when the controller was learned in simulation and tested in the real world.\n\nIn addition to developing these tools, we combined them all together to create working robotic systems. We initially developed and extensively tested these systems using detailed software simulations. We then validated all of these results using real ground robots navigating through different indoor and outdoor environments on Temple University campus.\n\nThis project also included several educational efforts. First, the grant supported and trained 3 doctoral students, 1 master?s student, and 6 undergraduate students over the last three years. Second, the project led to the creation of a new class at Temple University on object tracking and information sharing. Third, we hosted an online workshop to engage the broader research community with these questions, bringing together both young and experienced researchers from around the world and including researchers from both academia and industry.\n\n\t\t\t\t\tLast Modified: 01/27/2022\n\n\t\t\t\t\tSubmitted by: Philip M Dames"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1555447",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: EAGER: Fundamental High-Dimensional Algorithms",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tracy Kimbrel",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 100000.0,
+ "awd_amount": 100000.0,
+ "awd_min_amd_letter_date": "2015-08-26",
+ "awd_max_amd_letter_date": "2015-08-26",
+ "awd_abstract_narration": "High-dimensional sets and distributions are ubiquitous in science and engineering. With modern sensing and data collection methods, the bottleneck is now the analysis of such complex sets. Algorithms that work well in low-dimension often do not scale well as the dimension increases. Thus, understanding the complexity of basic problems such as optimization (the best point in a set) or integration (the total mass of a set) or learning (so as to be able to decide which points are in the set and which aren't) is critical, and is the motivation for this project.\r\n\r\nAn important method to handle data in high dimension is sampling by random walks. The PI will investigate methods to test the convergence of Geometric Random Walks \"on-the-fly.\" Such methods would significantly improve the performance of Markov chain based algorithms by providing nearly optimal empirical tests of convergence. They would allow algorithms to have complexity that is tuned to the specific input rather than the worst-case input. As an application, the PI will investigate faster rounding algorithms for high-dimensional convex bodies and log-concave distributions. The methods and techniques developed here will be of interest to researchers in probability and geometry as well as those in algorithms and complexity.\r\n\r\nThe PI proposes two specific functions to test the convergence of the ball walk in a convex body and a specific rounding algorithm. Both seem to perform well in experiments. Analyzing them rigorously presents major challenges because known techniques from probability theory are typically only able to say something about a Markov chain when it is close to its stationary distribution. The fundamental question here is: what structure does the distribution of a Markov chain have, *before* it converges?",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Santosh",
+   "pi_last_name": "Vempala",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Santosh S Vempala",
+   "pi_email_addr": "vempala@cc.gatech.edu",
+   "nsf_id": "000215458",
+   "pi_start_date": "2015-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Avenue",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project investigated new techniques for efficient sampling of high-dimensional distributions and its applications to optimization. While there has been much progress on the theoretical complexity of sampling high-dimensional convex bodies and logconcave distributions, it is only very recently that such algorithms have become practical. A new guarantee was found for stochastic convex optimization using only statistical query access to the objective function. The goal of finding a faster rounding algorithm lead to a new candidate heuristic that appears to perform well in practice, and a conjecture about logconcave distributions. The PI and his graduate student have created a publicly available sampling toolkit that incorporates statistical tests of convergence, most significantly a sliding window test to determine whether a ratio being estimated from samples has converged to its expectation. A rigorous empirical evaluation of the resulting algorithm for volume computation was published in the journal Math. Prog. (C), representing the first time that volume computation is solvable for dimension in the hundreds to thousands. The core volume algorithm was developed by the same team. The toolkit itself has been incorporated into a systems biology toolbox for analyzing high-dimensional models of metabolic networks. The PI has given lectures and tutorials on this topic, including a 3-hour tutorial at STOC 2015 and 10-hour course at the Institute Henri Poincare.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/25/2017<br>\n\t\t\t\t\tModified by: Santosh&nbsp;S&nbsp;Vempala</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project investigated new techniques for efficient sampling of high-dimensional distributions and its applications to optimization. While there has been much progress on the theoretical complexity of sampling high-dimensional convex bodies and logconcave distributions, it is only very recently that such algorithms have become practical. A new guarantee was found for stochastic convex optimization using only statistical query access to the objective function. The goal of finding a faster rounding algorithm lead to a new candidate heuristic that appears to perform well in practice, and a conjecture about logconcave distributions. The PI and his graduate student have created a publicly available sampling toolkit that incorporates statistical tests of convergence, most significantly a sliding window test to determine whether a ratio being estimated from samples has converged to its expectation. A rigorous empirical evaluation of the resulting algorithm for volume computation was published in the journal Math. Prog. (C), representing the first time that volume computation is solvable for dimension in the hundreds to thousands. The core volume algorithm was developed by the same team. The toolkit itself has been incorporated into a systems biology toolbox for analyzing high-dimensional models of metabolic networks. The PI has given lectures and tutorials on this topic, including a 3-hour tutorial at STOC 2015 and 10-hour course at the Institute Henri Poincare. \n\n\t\t\t\t\tLast Modified: 01/25/2017\n\n\t\t\t\t\tSubmitted by: Santosh S Vempala"
+ }
+}

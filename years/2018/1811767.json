@@ -1,0 +1,96 @@
+{
+ "awd_id": "1811767",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Estimation, inference and testing for large-scale directed network models",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032927299",
+ "po_email": "yzeng@nsf.gov",
+ "po_sign_block_name": "Yong Zeng",
+ "awd_eff_date": "2018-07-01",
+ "awd_exp_date": "2022-12-31",
+ "tot_intn_awd_amt": 150000.0,
+ "awd_amount": 150000.0,
+ "awd_min_amd_letter_date": "2018-05-15",
+ "awd_max_amd_letter_date": "2018-05-15",
+ "awd_abstract_narration": "Large-scale interaction networks naturally arise in many modern scientific applications. For example, in biochemistry and systems biology, amino acids in different locations of the protein sequence interact, while in computational neuroscience, connectivity networks amongst neurons in the brain naturally trigger responses to particular stimuli. This project will develop reliable and scalable algorithms for learning the underlying interaction network amongst many nodes. Due to both the scale, complexity, and the changing data technologies in the applications described above, the solutions to the challenges addressed in this project will lead both to the development of novel theory and methodology, and the implementation of new algorithms for the application domains. \r\n\r\n\r\nThe goal of the project is to address the challenge of estimation, inference and testing for large-scale network models. Given the size of the networks generated, this project presents a number of computational and statistical challenges the PI will address by focusing on two methodologies: (i) multivariate time series models; (ii) directed graphical models. The PI's prior work has developed new theory and methodology both for large-scale non-linear time series models and directed graphical models. This prior work points to a number of significant open challenges for both methodologies that this project will. These challenges include: (i) lack of sample size/statistical resources for learning complicated dependence structures; (ii) computational challenges due to non-convexity and large search-spaces for dependence models; (iii) incorporating domain knowledge and scientific experiments into the estimation methodologies; and (iv) exploiting learned networks for hypothesis testing, inference, and parameter estimation. This project will address these challenges and these contributions will lead to the development of new methods for network learning.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Garvesh",
+   "pi_last_name": "Raskutti",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Garvesh Raskutti",
+   "pi_email_addr": "raskutti@cs.wisc.edu",
+   "nsf_id": "000656511",
+   "pi_start_date": "2018-05-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Wisconsin-Madison",
+  "inst_street_address": "21 N PARK ST STE 6301",
+  "inst_street_address_2": "",
+  "inst_city_name": "MADISON",
+  "inst_state_code": "WI",
+  "inst_state_name": "Wisconsin",
+  "inst_phone_num": "6082623822",
+  "inst_zip_code": "537151218",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "WI02",
+  "org_lgl_bus_name": "UNIVERSITY OF WISCONSIN SYSTEM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LCLSJAGTNZQ7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Wisconsin-Madison",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "WI",
+  "perf_st_name": "Wisconsin",
+  "perf_zip_code": "537151218",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "WI02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "126900",
+   "pgm_ele_name": "STATISTICS"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 150000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The main outcome for this period involved developing a fast algorithm for estimating variable importance for large neural networks. This led to the paper entitled `Lazy Estimation of Variable Importance for Large Neural Networks` which appeared in International Conference of Machine Learning (ICML) 2022.</p>\n<p>The work contributes to the important ang growing area of Interpretable Machine Learning whcih provides improved interpretability for opaque black-box methods such as neural networks, random forests and others. The way we define interpretability in this context is to say that a variable has an attached \"importance\" based on how much that variable improves the prediction performance in the presence of all other variables in the model.</p>\n<p>In principle estimating variable importance can be done by removing each variable/feature of interest and re-running the algorithm. However this becomes computationally very expensive as the number of variables increase. Our approach involves using a local linear approximation when our algorithm is applied to the full model and using this approximation leads to a speed up of 5-10x and we show that we do not lose much in terms of quality/reliability.</p>\n<p>The work from this project significantly improves the speed while not significantly reducing the quality/reliability for general variable importance approaches which are used for a number of applicatons.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/01/2023<br>\n\t\t\t\t\tModified by: Garvesh&nbsp;Raskutti</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe main outcome for this period involved developing a fast algorithm for estimating variable importance for large neural networks. This led to the paper entitled `Lazy Estimation of Variable Importance for Large Neural Networks` which appeared in International Conference of Machine Learning (ICML) 2022.\n\nThe work contributes to the important ang growing area of Interpretable Machine Learning whcih provides improved interpretability for opaque black-box methods such as neural networks, random forests and others. The way we define interpretability in this context is to say that a variable has an attached \"importance\" based on how much that variable improves the prediction performance in the presence of all other variables in the model.\n\nIn principle estimating variable importance can be done by removing each variable/feature of interest and re-running the algorithm. However this becomes computationally very expensive as the number of variables increase. Our approach involves using a local linear approximation when our algorithm is applied to the full model and using this approximation leads to a speed up of 5-10x and we show that we do not lose much in terms of quality/reliability.\n\nThe work from this project significantly improves the speed while not significantly reducing the quality/reliability for general variable importance approaches which are used for a number of applicatons.\n\n\t\t\t\t\tLast Modified: 05/01/2023\n\n\t\t\t\t\tSubmitted by: Garvesh Raskutti"
+ }
+}

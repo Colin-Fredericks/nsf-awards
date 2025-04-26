@@ -1,0 +1,113 @@
+{
+ "awd_id": "2103813",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: AF: RUI: New Approaches for Space-Efficient Similarity Search",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922095",
+ "po_email": "kwimmer@nsf.gov",
+ "po_sign_block_name": "Karl Wimmer",
+ "awd_eff_date": "2021-06-15",
+ "awd_exp_date": "2024-11-30",
+ "tot_intn_awd_amt": 148707.0,
+ "awd_amount": 148707.0,
+ "awd_min_amd_letter_date": "2021-06-08",
+ "awd_max_amd_letter_date": "2021-06-08",
+ "awd_abstract_narration": "Given a large dataset, how can one find a similar item to a given query?   Preprocessing the dataset to quickly find these similar items is called \"similarity search.\"  Similarity search is a fundamental computing problem with applications in data science, machine learning, and bioinformatics.  Similarity search has been studied extensively both in theory and in practice, and the state of the art has been highly optimized.  Unfortunately, many previous techniques require a very large amount of extra storage space to help answer queries quickly.  This can be a significant limitation, as storage space is limited by the hardware being used to store the dataset.  Surprisingly, space-efficient similarity-search methods have only been studied in a few restricted settings.  This project seeks to close this gap, first by creating black-box methods that can be used for space-efficient similarity search in a far wider variety of settings, and then by extending known methods to achieve improved results.  This project will be integrated into undergraduate courses and research opportunities at Williams College.\r\n\r\nThe project seeks to solve this problem from several new directions.  First, Fiat-Naor function inversion is a cryptographic technique giving a time-space tradeoff for inverting functions.  Initial results show that Fiat-Naor inversion can be used to give a black-box result that improves the space usage of a wide variety of similarity-search algorithms. Even better, Fiat-Naor inversion can be integrated with known space-efficient similarity-search techniques to give improved query times using the same space.  Furthermore, it appears that Fiat-Naor inversion interfaces particularly well with similarity search, and that tuning Fiat-Naor inversion to similarity search can give even better bounds.  Second, the project will look at similarity search in the context of text strings.  Similarity search on text strings has a rich literature of distinctive techniques tailor-made to the case of strings, generally using trie-based data structures.  This project seeks to combine these techniques with more recent advances made in other areas (usually using hashing), to achieve better bounds.  Finally, this project is examining heuristics for edit-distance similarity search, with the goal of matching or improving the current (space-inefficient) state of the art while retaining very small space requirements.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Samuel",
+   "pi_last_name": "McCauley",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Samuel McCauley",
+   "pi_email_addr": "sam@cs.williams.edu",
+   "nsf_id": "000807480",
+   "pi_start_date": "2021-06-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Williams College",
+  "inst_street_address": "880 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "WILLIAMSTOWN",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "4135974352",
+  "inst_zip_code": "012672600",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "MA01",
+  "org_lgl_bus_name": "PRESIDENT & TRUSTEES OF WILLIAMS COLLEGE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JVZEJJ6N5EM8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Williams College",
+  "perf_str_addr": "880 Main St.",
+  "perf_city_name": "Williamstown",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "012672600",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "MA01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9229",
+   "pgm_ref_txt": "RES IN UNDERGRAD INST-RESEARCH"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  },
+  {
+   "pgm_ref_code": "7934",
+   "pgm_ref_txt": "PARAL/DISTRIBUTED ALGORITHMS"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 148707.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Similarity search is a class of fundamental data structures problems.&nbsp; In short, the goal is to preprocess a set of data to so that we can quickly find elements that are similar to a query.&nbsp; A classic example of this kind of problem is correcting misspellings: we want to find a word in a dictionary that is similar to the misspelled word.&nbsp; Classic similarity search problems have a tradeoff: the fastest algorithms require a very large amount of storage space--in fact, prohibitively large space on many systems. <br /><br />The goal of this project was to improve these tradeoffs.&nbsp; A particular focus was on using tools from cryptography.&nbsp; Cryptographic tools, such as rainbow tables, give space-time tradeoffs for solving problems with solutions that are easy to verify but hard to compute.&nbsp; Traditionally, this has been applied to the problem of decrypting encrypted messages, but it turns out that the same tools can be applied to finding the desired element in a large data structure.<br /><br />This project resulted in several published works:<br /><br />- Work on applying cryptographic techniques to high-dimensional Euclidean similarity search was presented at Euclidean Symposium on Algorithms (ESA) 2024.&nbsp; This project had two main results.&nbsp; First, it presented new theoretical bounds to obtain state of the art time-space tradeoffs for this problem. Second, it presented a very simple version of the algorithm that still achieved high quality bounds.<br /><br />&nbsp;- A followup work on applying the same cryptographic techniques to string similarity search is currently in preparation, to be submitted in February 2025.&nbsp; This project drastically improves the state of the art bounds for linear-space string similarity search data structures, and is the first to give a smooth tradeoff between the time used by the data structure and the query time.<br /><br />&nbsp;- Work on space-efficient rank and select queries (using machine-learned predictions rather than cryptography to improve performance) was published in Symposium on Experimental Algorithms (SEA) 2024; a similar project on filters was published in European Symposium on Algorithms (ESA) 2021.&nbsp; These projects assumed that data is not worst-case: instead, the data structure designer has some statistical information about the underlying data being stored.&nbsp; Using this extra information, it is possible to get space-efficient methods with performance beyond what would be possible with traditional worse-case analysis.&nbsp; Nonetheless, this work achieves good theoretical bounds: if the underlying statistical assumptions are wrong, the data structure smoothly reverts to the normal worst-case setting.&nbsp; Therefore, the extra performance comes without extra cost.&nbsp; These works featured practical code implementations, showing that the ideas lead to practical real-world speedup.<br /><br />&nbsp;- Another related line of work, on efficiently moving data through large search data structures that cannot be compressed, was published at Symposium on Parallel Algorithms and Architectures (SPAA) 2024.&nbsp; In such large-scale systems, the primary cost is moving data from one place to another.&nbsp; Our work gave new theoretical bounds on how efficiently data could be moved to answer batched queries to improve system performance.<br /><br />The project provided funding for 16 undergraduate research students, including travel for 3 undergraduate students to present their results at SEA 2024 and ESA 2021.&nbsp; Four students did theses on closely-related topics, and similarity search topics were integrated into courses at all levels of the undergraduate curriculum at Williams College.&nbsp; All results from this project are available online (both as published papers and code repositories).&nbsp; The results were disseminated at conferences, as well as at local meetings.</p><br>\n<p>\n Last Modified: 01/10/2025<br>\nModified by: Samuel&nbsp;Mccauley</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nSimilarity search is a class of fundamental data structures problems. In short, the goal is to preprocess a set of data to so that we can quickly find elements that are similar to a query. A classic example of this kind of problem is correcting misspellings: we want to find a word in a dictionary that is similar to the misspelled word. Classic similarity search problems have a tradeoff: the fastest algorithms require a very large amount of storage space--in fact, prohibitively large space on many systems. \n\nThe goal of this project was to improve these tradeoffs. A particular focus was on using tools from cryptography. Cryptographic tools, such as rainbow tables, give space-time tradeoffs for solving problems with solutions that are easy to verify but hard to compute. Traditionally, this has been applied to the problem of decrypting encrypted messages, but it turns out that the same tools can be applied to finding the desired element in a large data structure.\n\nThis project resulted in several published works:\n\n- Work on applying cryptographic techniques to high-dimensional Euclidean similarity search was presented at Euclidean Symposium on Algorithms (ESA) 2024. This project had two main results. First, it presented new theoretical bounds to obtain state of the art time-space tradeoffs for this problem. Second, it presented a very simple version of the algorithm that still achieved high quality bounds.\n\n- A followup work on applying the same cryptographic techniques to string similarity search is currently in preparation, to be submitted in February 2025. This project drastically improves the state of the art bounds for linear-space string similarity search data structures, and is the first to give a smooth tradeoff between the time used by the data structure and the query time.\n\n- Work on space-efficient rank and select queries (using machine-learned predictions rather than cryptography to improve performance) was published in Symposium on Experimental Algorithms (SEA) 2024; a similar project on filters was published in European Symposium on Algorithms (ESA) 2021. These projects assumed that data is not worst-case: instead, the data structure designer has some statistical information about the underlying data being stored. Using this extra information, it is possible to get space-efficient methods with performance beyond what would be possible with traditional worse-case analysis. Nonetheless, this work achieves good theoretical bounds: if the underlying statistical assumptions are wrong, the data structure smoothly reverts to the normal worst-case setting. Therefore, the extra performance comes without extra cost. These works featured practical code implementations, showing that the ideas lead to practical real-world speedup.\n\n- Another related line of work, on efficiently moving data through large search data structures that cannot be compressed, was published at Symposium on Parallel Algorithms and Architectures (SPAA) 2024. In such large-scale systems, the primary cost is moving data from one place to another. Our work gave new theoretical bounds on how efficiently data could be moved to answer batched queries to improve system performance.\n\nThe project provided funding for 16 undergraduate research students, including travel for 3 undergraduate students to present their results at SEA 2024 and ESA 2021. Four students did theses on closely-related topics, and similarity search topics were integrated into courses at all levels of the undergraduate curriculum at Williams College. All results from this project are available online (both as published papers and code repositories). The results were disseminated at conferences, as well as at local meetings.\t\t\t\t\tLast Modified: 01/10/2025\n\n\t\t\t\t\tSubmitted by: SamuelMccauley\n"
+ }
+}

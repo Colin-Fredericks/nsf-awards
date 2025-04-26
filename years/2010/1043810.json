@@ -1,0 +1,109 @@
+{
+ "awd_id": "1043810",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Information Needs about Software Modification during Collaborative Development Tasks",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2010-08-15",
+ "awd_exp_date": "2012-07-31",
+ "tot_intn_awd_amt": 79905.0,
+ "awd_amount": 79905.0,
+ "awd_min_amd_letter_date": "2010-08-12",
+ "awd_max_amd_letter_date": "2010-08-12",
+ "awd_abstract_narration": "The PI has two hypotheses about software engineers? information needs during code reviews. The first hypothesis is that different roles in code review, such as an author and a reviewer, lead to different information needs in terms of abstraction levels; thus, existing static and dynamic program analysis that do not distinguish the role of information producer (code author) and consumer (code reviewer) may not be effective in supporting peer reviews. The second hypothesis is that existing communication, awareness, and management support features in collaborative development tools such as an instant messenger, email, and work-flow management provide high-level, yet shallow information, as these tools lack in the ability to provide code-centric information. In order to test these hypotheses, the PI will use several empirical study methods, including focus groups, semi-structured interviews, case studies, and surveys, to acquire comprehensive and systematic understanding of engineers? information needs during peer code reviews. \r\n\r\nThe outcome of this study will guide the construction of innovative software analyses that can satisfy programmers? information needs, improving the effectiveness of peer code review tasks, ultimately improving programmer productivity and software quality. Furthermore, this study will serve as a basis for identifying what types of information at which abstraction level can best support developers in examining software modification. The findings from this study will also contribute to developing necessary program delta representations, inference algorithms, and infrastructures that will enable engineers to reason about software modification at a high level.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Miryung",
+   "pi_last_name": "Kim",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Miryung Kim",
+   "pi_email_addr": "miryung@cs.ucla.edu",
+   "nsf_id": "000676266",
+   "pi_start_date": "2010-08-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "110 INNER CAMPUS DR",
+  "perf_city_name": "AUSTIN",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121139",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794400",
+   "pgm_ele_name": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 79905.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Awareness Interests about Software Modifications</strong></p>\n<p>Our focus group and surveys with professional developers found that developers have daily information needs about code changes that affect or interfere with their code, yet it is extremely challenging for them to identify relevant events out of a large number of change-events.&nbsp; The study also found that different stakeholders often reason about software modifications at a different abstraction level and users' awareness-interests are rapidly-evolving as their tasks change. The users are left to filter out irrelevant code modifications such as the changes that do not semantically affect their own changes or to ignore insignificant changes such renaming or indentation changes from a large volume of check-in notifications. Currently, this filtering process requires substantial effort for developers to identify and analyze software modifications relevant to their tasks, focus, and interests. While these results are aligned with the findings from prior work on change impact analysis, awareness, and coordination, our study makes a unique, new contribution by producing a prioritized list of awareness interests about others' software modifications.&nbsp; The study results are reported at the 4th International Workshop on Cooperative Human Aspects of Software Engineering, co-located with the 33rd International Conference on Software Engineering (CHASE workshop at ICSE 2011).</p>\n<p><strong>Empirical Studies on Verilog Code Reviews</strong></p>\n<p>To understand the benefit of using advanced program differencing tools during peer code reviews, we designed a Verilog syntax and semantics-aware program-differencing algorithm, Vdiff, and conducted a user study with eight hardware design experts. The study found that Vdiff's syntactic change classifications is better aligned with the experts' classification of Verilog changes than an existing textual program differencing tool, <em>diff</em>. Study participants reported that Vdiff robustly recognizes re-arranged code blocks and filters out non-semantic differences and that Vdiff helps them to grasp a high level structure of design changes. This indicates that the effectiveness of code review task can be significantly improved by an advanced program differencing algorithm (Journal of Automated Software Engineering, 2012, Volume 19, Number 4, Pages 459-490, ASE Journal 2012, and the 25th IEEE/ACM International Conference on Automated Software Engineering, ASE 2010).</p>\n<p><strong>Refactoring-Aware Code Reviews</strong></p>\n<p>To understand refactoring practices, we conducted a field study at Microsoft using three complementary study methods: a survey, semi-structured interviews with professional software engineers, and quantitative analysis of version history data. The study found that the refactoring definition in practice is not confined to semantics-preserving code transformations and that developers perceive that refactoring involves substantial cost and risks. During peer code reviews, developers want to see higher-level summary of refactoring edits, such as the types and locations of refactorings (ACM SIGSOFT the 20th International Symposium on the Foundations of Software Engineering, FSE 2012).</p>\n<p>To help developers recognize refactoring edits during peer code reviews, we designed and implemented RefFinder that takes two program versions as input and automatically identifies the locations and types of refactoring edits. Its precision and recall are 79% and 95% respectively. A live demonstration of RefFinder was presented at the 18th ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2010 DEMO), and the evaluation results were presented at the 26th IEEE International Conference on Software Maintenance. (ICSM2010)</p>\n<p><strong>Empirical Studies on Refactoring Edits</strong></p>\n<p>Our analysis of open source project version hi...",
+  "por_txt_cntn": "\nAwareness Interests about Software Modifications\n\nOur focus group and surveys with professional developers found that developers have daily information needs about code changes that affect or interfere with their code, yet it is extremely challenging for them to identify relevant events out of a large number of change-events.  The study also found that different stakeholders often reason about software modifications at a different abstraction level and users' awareness-interests are rapidly-evolving as their tasks change. The users are left to filter out irrelevant code modifications such as the changes that do not semantically affect their own changes or to ignore insignificant changes such renaming or indentation changes from a large volume of check-in notifications. Currently, this filtering process requires substantial effort for developers to identify and analyze software modifications relevant to their tasks, focus, and interests. While these results are aligned with the findings from prior work on change impact analysis, awareness, and coordination, our study makes a unique, new contribution by producing a prioritized list of awareness interests about others' software modifications.  The study results are reported at the 4th International Workshop on Cooperative Human Aspects of Software Engineering, co-located with the 33rd International Conference on Software Engineering (CHASE workshop at ICSE 2011).\n\nEmpirical Studies on Verilog Code Reviews\n\nTo understand the benefit of using advanced program differencing tools during peer code reviews, we designed a Verilog syntax and semantics-aware program-differencing algorithm, Vdiff, and conducted a user study with eight hardware design experts. The study found that Vdiff's syntactic change classifications is better aligned with the experts' classification of Verilog changes than an existing textual program differencing tool, diff. Study participants reported that Vdiff robustly recognizes re-arranged code blocks and filters out non-semantic differences and that Vdiff helps them to grasp a high level structure of design changes. This indicates that the effectiveness of code review task can be significantly improved by an advanced program differencing algorithm (Journal of Automated Software Engineering, 2012, Volume 19, Number 4, Pages 459-490, ASE Journal 2012, and the 25th IEEE/ACM International Conference on Automated Software Engineering, ASE 2010).\n\nRefactoring-Aware Code Reviews\n\nTo understand refactoring practices, we conducted a field study at Microsoft using three complementary study methods: a survey, semi-structured interviews with professional software engineers, and quantitative analysis of version history data. The study found that the refactoring definition in practice is not confined to semantics-preserving code transformations and that developers perceive that refactoring involves substantial cost and risks. During peer code reviews, developers want to see higher-level summary of refactoring edits, such as the types and locations of refactorings (ACM SIGSOFT the 20th International Symposium on the Foundations of Software Engineering, FSE 2012).\n\nTo help developers recognize refactoring edits during peer code reviews, we designed and implemented RefFinder that takes two program versions as input and automatically identifies the locations and types of refactoring edits. Its precision and recall are 79% and 95% respectively. A live demonstration of RefFinder was presented at the 18th ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2010 DEMO), and the evaluation results were presented at the 26th IEEE International Conference on Software Maintenance. (ICSM2010)\n\nEmpirical Studies on Refactoring Edits\n\nOur analysis of open source project version histories show that API-level refactoring and bug fixes are correlated temporally and spatially, and refactoring serves the role of both facilitating bug fixes and introducing bugs (ACM and IEEE 33rd..."
+ }
+}

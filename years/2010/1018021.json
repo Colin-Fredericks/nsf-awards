@@ -1,0 +1,105 @@
+{
+ "awd_id": "1018021",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS-Small: Collaborative Research: Network-Wide Configuration Testing and Synthesis",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 250000.0,
+ "awd_amount": 250000.0,
+ "awd_min_amd_letter_date": "2010-07-14",
+ "awd_max_amd_letter_date": "2014-08-05",
+ "awd_abstract_narration": "The behavior of a communications network depends on the configuration\r\nof hundreds to thousands of switches, routers, firewalls, and other\r\ndevices.  For example, a campus network may have as many as 2,000\r\ninter-operating network devices and about one million lines of\r\nconfiguration; whether the network operates correctly depends for the\r\nmost part on the configuration of these devices.  Human configuration\r\nerrors are the single biggest contributor to network downtime. This\r\nproject seeks to develop techniques to make networks easier to manage\r\nby improving both configuration testing and synthesis. Testing takes\r\nas input an existing network configuration and determines whether the\r\nconfiguration is operating correctly.  Synthesis generates\r\nconfigurations automatically.  The project draws on two testing\r\ntechniques to make network configurations easier to test: differential\r\ntesting and dynamic testing.  Differential testing generates test\r\ncases to characterize the run-time behavior of two different programs;\r\nanalyzing differences in network-wide configurations can help testing\r\nby allowing test cases to focus on the smaller subset of\r\nconfigurations that change more frequently.  Differential analysis may\r\nmake testing more tractable by reducing the amount of configuration to\r\ntest.  Dynamic testing checks the correctness of a program by\r\nexecuting it; this execution can be performed in a parallel \"shadow\"\r\nnetwork, for example.  The expected results from this project include\r\ntools for network operators to test and automatically generate\r\nnetwork-wide configurations for both enterprise and ISP networks.  The\r\ntools will also be useful in graduate-level courses.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nicholas",
+   "pi_last_name": "Feamster",
+   "pi_mid_init": "G",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nicholas G Feamster",
+   "pi_email_addr": "feamster@uchicago.edu",
+   "nsf_id": "000489704",
+   "pi_start_date": "2010-07-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 NORTH AVE NW",
+  "perf_city_name": "ATLANTA",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 250000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><!--?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?-->\n<p>The behavior of a communications network depends largely on the configuration of hundreds to thousands of switches, routers, firewalls, and other devices. For example, a campus network may have as many as 2,000 inter-operating network devices and about one million lines of configuration; whether the network operates correctly, and according to the network operator&rsquo;s policy, depends for the most part on the configuration of these devices. Operators configure these devices to perform complex tasks ranging from provisioning and access control to rate limiting and load balancing by independently adjusting the network configurations of these devices. The complexity of these tasks and the low level at which operators interact with network devices make network management time-consuming, and easily one of the most significant costs of running a network today. According to many studies, human error accounts for as much as 80% of outages; the high cost of the resulting downtime emphasizes the need to develop better methods for configuring the network. To reduce these errors, this project developed new research to tackle both the synthesis and testing of network configuration.</p>\n<p>In this project, we focused on the use of Software-Defined Networking (SDN) to assist with automated network configuration synthesis and verification. Namely, we developed Kinetic, the first-ever SDN controller that could dynamically adjust network configuration in response to network events such as traffic shifts, security incidents, and network failures. The controller also has a mechanism for checking the correctness of the SDN control program against a specification of intended dynamic behavior, allowing errors to be detected&nbsp;<em>before</em>&nbsp;the program is ever deployed on a live network.</p>\n<p>Outcomes from the research included:</p>\n<ul>\n<li><!--?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?--> <span>The training of more than 100,000 students in hundreds of countries around the world, as part of programming assignments on the Kinetic SDN controller, which are included in a Coursera MOOC on SDN.</span></li>\n<li><span><!--?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?--> <span>Open-source code release of the Kinetic SDN controller software, which has an active community of contributors.</span><br /></span></li>\n</ul>\n<p>The research project has had remarkable impact, far beyond the research lab and classroom. In addition to the open-source software release and training of more than 100,000 students around the world on SDN, the controller is the basis for technology that network operators are now installing on next-generation SDN network designs in several campus, wide-area, and enterprise networks.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/14/2016<br>\n\t\t\t\t\tModified by: Nicholas&nbsp;G&nbsp;Feamster</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nThe behavior of a communications network depends largely on the configuration of hundreds to thousands of switches, routers, firewalls, and other devices. For example, a campus network may have as many as 2,000 inter-operating network devices and about one million lines of configuration; whether the network operates correctly, and according to the network operator\u00c6s policy, depends for the most part on the configuration of these devices. Operators configure these devices to perform complex tasks ranging from provisioning and access control to rate limiting and load balancing by independently adjusting the network configurations of these devices. The complexity of these tasks and the low level at which operators interact with network devices make network management time-consuming, and easily one of the most significant costs of running a network today. According to many studies, human error accounts for as much as 80% of outages; the high cost of the resulting downtime emphasizes the need to develop better methods for configuring the network. To reduce these errors, this project developed new research to tackle both the synthesis and testing of network configuration.\n\nIn this project, we focused on the use of Software-Defined Networking (SDN) to assist with automated network configuration synthesis and verification. Namely, we developed Kinetic, the first-ever SDN controller that could dynamically adjust network configuration in response to network events such as traffic shifts, security incidents, and network failures. The controller also has a mechanism for checking the correctness of the SDN control program against a specification of intended dynamic behavior, allowing errors to be detected before the program is ever deployed on a live network.\n\nOutcomes from the research included:\n\n The training of more than 100,000 students in hundreds of countries around the world, as part of programming assignments on the Kinetic SDN controller, which are included in a Coursera MOOC on SDN.\n Open-source code release of the Kinetic SDN controller software, which has an active community of contributors.\n\n\n\nThe research project has had remarkable impact, far beyond the research lab and classroom. In addition to the open-source software release and training of more than 100,000 students around the world on SDN, the controller is the basis for technology that network operators are now installing on next-generation SDN network designs in several campus, wide-area, and enterprise networks.\n\n\t\t\t\t\tLast Modified: 04/14/2016\n\n\t\t\t\t\tSubmitted by: Nicholas G Feamster"
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "awd_id": "2234257",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "SaTC: CORE: Small: Sound Automatic Exploit Generation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2023-06-15",
+ "awd_exp_date": "2026-05-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 392510.0,
+ "awd_min_amd_letter_date": "2023-06-06",
+ "awd_max_amd_letter_date": "2024-06-27",
+ "awd_abstract_narration": "Modern society relies on computer software. Security vulnerabilities in software systems pose a serious threat as vulnerabilities are increasingly exploited to leak users' confidential data, leak computer systems' privileged information, and hijack computer systems to create malicious behaviors, among others. Current techniques for detecting exploitable software vulnerabilities lack a mathematical basis in that they cannot prove soundness of detected exploits or prove the absence of classes of exploits. The project will develop techniques that can establish the presence of a class of memory-related exploitable software vulnerabilities. Thus, if a given software has such vulnerabilities, the project's techniques are guaranteed to detect them. The project targets legacy software systems for which source codes may not be fully available, and therefore targets their binary codes. The project's methodology involves translating the binary code to a model that permits relatively easier reasoning of the code's exploitable vulnerabilities. On such a model, the methodology's algorithms compute initial program values that can result in the code's exploitable vulnerabilities to manifest, if there exist such values. Each step of the methodology is mathematically proven correct in a theorem-prover, a software tool that allows mathematically proving properties of algorithms. The project's techniques will be applied to industrial-strength production software systems to detect exploitable vulnerabilities and thereby demonstrate the techniques' effectiveness. The project's results will be broadly disseminated through publications of the results in the relevant software security literature and open sourcing the project's tool implementations. \r\n\r\nSecurity vulnerabilities in software systems pose a serious threat to modern society. Existing techniques for detecting exploitable software vulnerabilities are largely non-formal. That is, current exploit detection techniques do not provably establish the presence of exploits (if they exist). The project's objective is to develop formal techniques and toolchains that can prove the presence of a class of memory corruption-related exploits, and targets legacy (binary) software systems for which source codes may not be fully available. The project formulates exploit detection as a reachability problem: computing initial program states that are provably guaranteed to reach exploitable program states in some execution of the program. The project uses program logic triples, a variant of Hoare Logic triples, that formally defines the relation between the reachability of exploit states and the preconditions which allow them to occur. This relation is then used to compute the search space of preconditions. The project's methodology involves lifting the binary code to a high-level model that is provably over-approximative in that the model subsumes programmer-intended as well as unintended code behaviors. The lifted model is then instrumented with assertions that describe a class of memory corruption-related exploits. Preconditions that populate the search space of exploit states are then computed. The methodology's steps are proven correct in a theorem prover, which enables provably establishing the presence of exploits. The project's toolchain will be applied to industrial-strength production software systems as application case studies. The project's results will be broadly disseminated through publications of the results in the relevant software security literature and open sourcing the project's tool implementations. Additionally, they will be integrated into popular Integrated Development Environments and decompilers, and into a graduate course at Virginia Tech.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Binoy",
+   "pi_last_name": "Ravindran",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Binoy Ravindran",
+   "pi_email_addr": "binoy@vt.edu",
+   "nsf_id": "000201874",
+   "pi_start_date": "2023-06-06",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Nico",
+   "pi_last_name": "Naus",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nico Naus",
+   "pi_email_addr": "niconaus@vt.edu",
+   "nsf_id": "000880237",
+   "pi_start_date": "2023-06-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Virginia Polytechnic Institute and State University",
+  "inst_street_address": "300 TURNER ST NW",
+  "inst_street_address_2": "STE 4200",
+  "inst_city_name": "BLACKSBURG",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "5402315281",
+  "inst_zip_code": "240603359",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "VA09",
+  "org_lgl_bus_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+  "org_prnt_uei_num": "X6KEFGLHSJX7",
+  "org_uei_num": "QDE5UHE5XD16"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Virginia Polytechnic Institute and State University",
+  "perf_str_addr": "300 TURNER ST NW STE 4200",
+  "perf_city_name": "BLACKSBURG",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "240616100",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "VA09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002526DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 192607.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 199903.0
+  }
+ ],
+ "por": null
+}

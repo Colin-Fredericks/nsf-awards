@@ -1,0 +1,105 @@
+{
+ "awd_id": "1017027",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: SMALL: Practical Linear Types for Safe Protocols",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2010-09-15",
+ "awd_exp_date": "2013-08-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2010-09-16",
+ "awd_max_amd_letter_date": "2010-09-16",
+ "awd_abstract_narration": "Software errors frequently arise because a component of the program does\r\nnot correctly follow a well-defined protocol for accessing some stateful\r\nresource. Common examples include programs that misuse resource handles\r\nprovided by the operating system, incorrectly deallocate the same memory\r\nor other resource multiple times, or fail to properly sequence calls to\r\na complex program module. Such protocol violations lead to software\r\ncrashes or unintended behavior, potentially with disastrous\r\nconsequences.\r\n\r\nThe project objective is to develop programming language technology to\r\nallows software developers to conveniently describe protocols over\r\nstateful resources. This technology will uncover such bugs at design\r\ntime by statically checking whether the program is appropriately\r\nfollowing the desired protocols, thereby ruling out the wide class of\r\nsoftware flaws.  The new language mechanisms will be general purpose,\r\npractical, and suitable for use in a wide variety of applications\r\nranging from memory management to traditional protocol implementation.\r\nThe researchers will create a compiler infrastructure prototype and\r\nestablish the correctness of the approach by a machine-checked proof of\r\ntype soundness.  The primary broader impact of the project is the\r\ndevelopment of technology to help eliminate such programming errors\r\nearly in the software-design life cycle to decrease the cost of building\r\ncorrect, reliable software.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Stephan",
+   "pi_last_name": "Zdancewic",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Stephan A Zdancewic",
+   "pi_email_addr": "stevez@cis.upenn.edu",
+   "nsf_id": "000220116",
+   "pi_start_date": "2010-09-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Pennsylvania",
+  "inst_street_address": "3451 WALNUT ST STE 440A",
+  "inst_street_address_2": "",
+  "inst_city_name": "PHILADELPHIA",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "2158987293",
+  "inst_zip_code": "191046205",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "PA03",
+  "org_lgl_bus_name": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE",
+  "org_prnt_uei_num": "GM1XX56LEP58",
+  "org_uei_num": "GM1XX56LEP58"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Pennsylvania",
+  "perf_str_addr": "3451 WALNUT ST STE 440A",
+  "perf_city_name": "PHILADELPHIA",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "191046205",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "PA03",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794300",
+   "pgm_ele_name": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The correctness of computer software often relies on whether certaincommunication protocols are adhered to by different components of thesystem. For example, one part of a program might need to requestaccess to a file provided by the operating system. Such a file canthen be read or written, but then must be closed by the program sothat the data can be stored properly and be available for other partsof the system. An erroneous program might inadvertently fail to closethe file, or it might try to close the file twice, either of which maycrash the program or cause the files to be unavailable to otherprocesses. Such communication patterns between the program and theoperating system constitute a protocol on file access: first open,then read and write (potentially many times), then close the file.</p>\n<p><br />This research investigated software engineering techniques, in theform of programming language type systems, that allow softwaredevelopers to specify protocols like the one in the file-systemexample explained above. The mechanisms studied, called \"polymorphiclinear types\", form a general foundation for building programs thatcan be automatically checked by a compiler to ensure that they adhereto the intended protocol.</p>\n<p><br />This research investigated both the simple case, like the file systemexample, in which the program interacts with other parts of the systemin a sequential way. &nbsp;It also investigated the more complex situationin which two parts of the program might be running concurrently. &nbsp;Thisresearch project developed the mathematical foundations for studyinglinear type systems for safe protocols, demonstrated many exampleapplications from software systems, and led to the proposal of newprogramming language features that would help software developers makeuse of this technology, thereby making it easier to develop less buggysoftware.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/01/2013<br>\n\t\t\t\t\tModified by: Stephan&nbsp;A&nbsp;Zdancewic</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe correctness of computer software often relies on whether certaincommunication protocols are adhered to by different components of thesystem. For example, one part of a program might need to requestaccess to a file provided by the operating system. Such a file canthen be read or written, but then must be closed by the program sothat the data can be stored properly and be available for other partsof the system. An erroneous program might inadvertently fail to closethe file, or it might try to close the file twice, either of which maycrash the program or cause the files to be unavailable to otherprocesses. Such communication patterns between the program and theoperating system constitute a protocol on file access: first open,then read and write (potentially many times), then close the file.\n\n\nThis research investigated software engineering techniques, in theform of programming language type systems, that allow softwaredevelopers to specify protocols like the one in the file-systemexample explained above. The mechanisms studied, called \"polymorphiclinear types\", form a general foundation for building programs thatcan be automatically checked by a compiler to ensure that they adhereto the intended protocol.\n\n\nThis research investigated both the simple case, like the file systemexample, in which the program interacts with other parts of the systemin a sequential way.  It also investigated the more complex situationin which two parts of the program might be running concurrently.  Thisresearch project developed the mathematical foundations for studyinglinear type systems for safe protocols, demonstrated many exampleapplications from software systems, and led to the proposal of newprogramming language features that would help software developers makeuse of this technology, thereby making it easier to develop less buggysoftware. \n\n \n\n\t\t\t\t\tLast Modified: 11/01/2013\n\n\t\t\t\t\tSubmitted by: Stephan A Zdancewic"
+ }
+}

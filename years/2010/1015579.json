@@ -1,0 +1,109 @@
+{
+ "awd_id": "1015579",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "EAPSI:Multi-Level Belief-Driven Control for Real-Time Cooperative Search and Tracking",
+ "cfda_num": "47.079",
+ "org_code": "01090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anne Emig",
+ "awd_eff_date": "2010-06-01",
+ "awd_exp_date": "2011-05-31",
+ "tot_intn_awd_amt": 5617.0,
+ "awd_amount": 5617.0,
+ "awd_min_amd_letter_date": "2010-07-01",
+ "awd_max_amd_letter_date": "2010-07-01",
+ "awd_abstract_narration": null,
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OISE",
+ "org_div_long_name": "Office of International Science and Engineering",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Stephen",
+   "pi_last_name": "Young",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Stephen A Young",
+   "pi_email_addr": "",
+   "nsf_id": "000551082",
+   "pi_start_date": "2010-07-01",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Young                   Stephen        A",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "Danville",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "",
+  "inst_zip_code": "245411803",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "VA05",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "Young                   Stephen        A",
+  "perf_str_addr": "",
+  "perf_city_name": "Danville",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "245411803",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "VA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "731600",
+   "pgm_ele_name": "EAPSI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5921",
+   "pgm_ref_txt": "JAPAN"
+  },
+  {
+   "pgm_ref_code": "5978",
+   "pgm_ref_txt": "EAST ASIA AND PACIFIC PROGRAM"
+  },
+  {
+   "pgm_ref_code": "7316",
+   "pgm_ref_txt": "EAPSI"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 5617.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This research seeks to enable cooperative, energy efficient, formation flight of multiple small autonomous air vehicles (UAVs). Toward that end, the research conducted during the 2010 NSF-EAPSI/JSPS summer program focused on adapting the Expanded Fuzzy Potential Method (EFPM) for obstacle avoidance to enable coordinated flight of multiple simulated UAVs. &nbsp;The EFPM has been developed and implemented on ground vehicles in the Takahashi Lab at Keio University. &nbsp;This method allows for robust, computationally efficient avoidance of multiple mobile obstacles in a two dimensional space. Currently this method has been used for avoidance of multiple, mobile obstacles supplemented with the A* algorithm for more robust path planning. Applying the EFPM to cooperative movement of multiple vehicles requires adding a new PMF that represents another vehicle as both an obstacle and a goal point. Expanding the EFPM to accommodate multiple vehicles was the primary focus of the research conducted this summer.&nbsp;</p>\n<p>The first goal of this summer research was to develop new simulations of the existing EFPM algorithm as well another popular algorithm for obstacle avoidance, the Artificial Potential Method. This was done so that valid comparisons of the performance of the algorithms could be made without being affected by the differences in data structure or programming environment. The two most important criteria for evaluating these methods were computation speed and the ability to deal with small gaps between obstacles. These are important for two reasons. First, the cooperative UAVs of interest to this research are small, lightweight, solar powered vehicles with limited computational capacity. Second, since the APM uses gradient decent of a potential field, it has an inherent susceptibility to becoming trapped in local minima. Addressing this issue requires more sophisticated representation of obstacles which increases computation load. Both the EFPM and APM simulations were developed using identical data structures and in the same programming language which mitigates performance differences that may result from non-parallel development. The APM simulation was significantly affected by the number of mobile obstacles and the APM easily became stuck in a minimum while the EFPM did not. This is a result of the gradient decent forcing the APM to move the vehicle outside the zone of influence of the obstacle while the EFPM allows attraction to a goal point to partially overcome the repulsion of an obstacle thus the simulated vehicle can navigate through the obstacles while violating the zone of influence but not the avoidance radius.</p>\n<p>After successfully completing the simulation of the EFPM, an investigation began to explore the ability of this algorithm to accommodate coordinated formation flight. This was accomplished by representing other vehicles in the fleet as both obstacle and target. Adding an additional PMF that alternates between a goal and threat PMF depending on closure rate allows coordinated flight among two vehicles.&nbsp;</p>\n<p>Initial results have been promising however there are significant issues that need to be addressed in further work. Chief among these issues is the robustness of the obstacle avoidance when in a cooperative scenario. Once these issues can be addressed, future work can address the proper way of weighting movement towards a goal point versus movement towards a cooperative vehicle. This will allow the PMF that attracts two vehicles together to be tuned based on the energy state of each vehicle, thus enabling more energy efficient intercept and formation flight as well as obstacle avoidance using a single computationally light algorithm.</p>\n<p>In addition to research activities, a significant amount of time was devoted to social and cultural experiences with members of the host lab. I found many baseball fans in my lab and enjoye...",
+  "por_txt_cntn": "\nThis research seeks to enable cooperative, energy efficient, formation flight of multiple small autonomous air vehicles (UAVs). Toward that end, the research conducted during the 2010 NSF-EAPSI/JSPS summer program focused on adapting the Expanded Fuzzy Potential Method (EFPM) for obstacle avoidance to enable coordinated flight of multiple simulated UAVs.  The EFPM has been developed and implemented on ground vehicles in the Takahashi Lab at Keio University.  This method allows for robust, computationally efficient avoidance of multiple mobile obstacles in a two dimensional space. Currently this method has been used for avoidance of multiple, mobile obstacles supplemented with the A* algorithm for more robust path planning. Applying the EFPM to cooperative movement of multiple vehicles requires adding a new PMF that represents another vehicle as both an obstacle and a goal point. Expanding the EFPM to accommodate multiple vehicles was the primary focus of the research conducted this summer. \n\nThe first goal of this summer research was to develop new simulations of the existing EFPM algorithm as well another popular algorithm for obstacle avoidance, the Artificial Potential Method. This was done so that valid comparisons of the performance of the algorithms could be made without being affected by the differences in data structure or programming environment. The two most important criteria for evaluating these methods were computation speed and the ability to deal with small gaps between obstacles. These are important for two reasons. First, the cooperative UAVs of interest to this research are small, lightweight, solar powered vehicles with limited computational capacity. Second, since the APM uses gradient decent of a potential field, it has an inherent susceptibility to becoming trapped in local minima. Addressing this issue requires more sophisticated representation of obstacles which increases computation load. Both the EFPM and APM simulations were developed using identical data structures and in the same programming language which mitigates performance differences that may result from non-parallel development. The APM simulation was significantly affected by the number of mobile obstacles and the APM easily became stuck in a minimum while the EFPM did not. This is a result of the gradient decent forcing the APM to move the vehicle outside the zone of influence of the obstacle while the EFPM allows attraction to a goal point to partially overcome the repulsion of an obstacle thus the simulated vehicle can navigate through the obstacles while violating the zone of influence but not the avoidance radius.\n\nAfter successfully completing the simulation of the EFPM, an investigation began to explore the ability of this algorithm to accommodate coordinated formation flight. This was accomplished by representing other vehicles in the fleet as both obstacle and target. Adding an additional PMF that alternates between a goal and threat PMF depending on closure rate allows coordinated flight among two vehicles. \n\nInitial results have been promising however there are significant issues that need to be addressed in further work. Chief among these issues is the robustness of the obstacle avoidance when in a cooperative scenario. Once these issues can be addressed, future work can address the proper way of weighting movement towards a goal point versus movement towards a cooperative vehicle. This will allow the PMF that attracts two vehicles together to be tuned based on the energy state of each vehicle, thus enabling more energy efficient intercept and formation flight as well as obstacle avoidance using a single computationally light algorithm.\n\nIn addition to research activities, a significant amount of time was devoted to social and cultural experiences with members of the host lab. I found many baseball fans in my lab and enjoyed the inter-lab game we played. Among the unexpected discoveries was the appreciation for blues music that..."
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1408880",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Medium: Collaborative: Retrofitting Software for Defense-in-Depth",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2014-08-20",
+ "awd_max_amd_letter_date": "2014-08-20",
+ "awd_abstract_narration": "The computer security community has long advocated the concept of building multiple layers of defense to protect a system.  Unfortunately, it has been difficult to realize this vision in the practice of software development, and software often ships with inadequate defenses, typically developed in an ad hoc fashion.\r\n\r\nDevelopers face a number of challenges when protecting a software system with multiple layers of defense. They lack holistic frameworks in which to express policies and mechanisms for different software layers, automated tools to add these defenses, and tools to prove that software enhanced with defenses has an advertised level of assurance.\r\n\r\nThis project develops new techniques to retrofit software for defense in depth. It takes a comprehensive view of the problem, with an emphasis on automated, interactive tools that developers can use to identify site-level security goals, explore the design space of adding security mechanisms, and retrofit legacy code to enforce security policies in a manner that can be machine-verified for assurance. The project develops theory and tools for formal policy language design and validation, static and dynamic code analyses, interactive tools for developers to explore the design space of security, functionality and performance tradeoffs, and methods to formally verify the correctness of program transformations to introduce defenses such as authorization, attacker containment, and auditing mechanisms.\r\n\r\nThe broader impact stems from the improved security of systems and the reduced cost of achieving better security, also education activities in the form of summer schools for graduate, undergraduate and high-school students. The tools developed will be released to the public domain, benefiting software developers in the field.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Trent",
+   "pi_last_name": "Jaeger",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Trent Jaeger",
+   "pi_email_addr": "trentj@ucr.edu",
+   "nsf_id": "000465544",
+   "pi_start_date": "2014-08-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Pennsylvania State Univ University Park",
+  "inst_street_address": "201 OLD MAIN",
+  "inst_street_address_2": "",
+  "inst_city_name": "UNIVERSITY PARK",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "8148651372",
+  "inst_zip_code": "168021503",
+  "inst_country_name": "United States",
+  "cong_dist_code": "15",
+  "st_cong_dist_code": "PA15",
+  "org_lgl_bus_name": "THE PENNSYLVANIA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NPM2J7MSCF61"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Pennsylvania State Univ University Park",
+  "perf_str_addr": "346A IST Bldg",
+  "perf_city_name": "University Park",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "168027000",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "PA",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>In this project, we developed methods that programmers can use to&nbsp;</span>retrofit their programs with security controls for containment, authorization, and auditing to satisfy explicit security goals.&nbsp; This project has included major activities on automating key tasks in retrofitting programs via privilege separation for containment, retrofitting programs with authorization hook placements to enforce desired policies, retrofitting programs automatically with auditing code, and retrofitting programs to enforce finer-grained control-flow integrity policies.&nbsp; Through this research, we have also explored methods to unify defenses to improve overall security, developed open-source mechanisms to enforce security that have been widely used, and discovered and fixed flaws in commercial systems.&nbsp; Many of our results have been published in top conferences in computer security and related domains.</p>\n<p><span>The main objectives met during the project include the following.&nbsp;</span>First, we developed new methods to automate key challenges in privilege separating programs to enable confinement, by handling general pointers (PtrSplit, ACM CCS 2017) and by balancing performance and security (PrograMander, ACM CCS 2019).&nbsp; Second, we developed new methods to automate retrofitting of programs with authorization hooks to minimize a hook placement necessary to enforce any access control policy that satisfied prescribed constraints (ESSoS 2015) and to provide a security namespace abstraction for Linux container systems (USENIX Security 2018).&nbsp; Third, we developed foundational theories for auditing based on information algebra, which combines elements of both access control and auditing to enable a uniform method to express break-the-glass policies (POST 2016), and developed new methods to retrofit programs for authorization by leveraging dynamic taint analysis (PLAS 2016).&nbsp; Fourth, we invented a technique to compute control-flow integrity policies statically that is finer-grained than prior techniques and could be implemented more efficiently (IEEE Euro S&amp;P 2016) and adapted a recent Intel PT hardware feature to enforce control-flow integrity without program modification (ASPLOS 2017).&nbsp; In the course of this CFI work, we discovered a latent flaw in Linux compiler toolchains that allows extensive modification of various types of read-only data and proposed detailed countermeasures (NDSS 2017).</p>\n<p><span>The key outcomes of this project include the novel techniques&nbsp;</span>(described above), new open-source systems, repairs and extensions for the Linux kernel, and several student theses.&nbsp; The methods for privilege separation and Linux kernel support for efficient use of the Intel PT hardware (Linux Griffin) feature have been open sourced.&nbsp; The privilege separation work has led to two collaborations, one on the DARPA GAPS program, and the Linux Griffin kernel has been used by several research groups.&nbsp; Through our efforts, the Linux compiler toolchain flaw we discovered has been fixed in both GCC and LLVM toolchains, and the Linux security namespace is under consideration for upstreaming into the mainline kernel.&nbsp; This project has resulted in five theses, include three Ph.D. theses (one to be held in January 2020) and two M.S. theses.&nbsp; The project was inspired by the Ph.D. thesis of a female student, and one of the M.S. theses was completed by a female student.&nbsp; The materials developed in this project were applied to the creation of a new Software Security course at Penn State, which is a key component of the new Cybersecurity Foundations minor.</p>\n<div><span><br /></span></div>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/26/2019<br>\n\t\t\t\t\tModified by: Trent&nbsp;Jaeger</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn this project, we developed methods that programmers can use to retrofit their programs with security controls for containment, authorization, and auditing to satisfy explicit security goals.  This project has included major activities on automating key tasks in retrofitting programs via privilege separation for containment, retrofitting programs with authorization hook placements to enforce desired policies, retrofitting programs automatically with auditing code, and retrofitting programs to enforce finer-grained control-flow integrity policies.  Through this research, we have also explored methods to unify defenses to improve overall security, developed open-source mechanisms to enforce security that have been widely used, and discovered and fixed flaws in commercial systems.  Many of our results have been published in top conferences in computer security and related domains.\n\nThe main objectives met during the project include the following. First, we developed new methods to automate key challenges in privilege separating programs to enable confinement, by handling general pointers (PtrSplit, ACM CCS 2017) and by balancing performance and security (PrograMander, ACM CCS 2019).  Second, we developed new methods to automate retrofitting of programs with authorization hooks to minimize a hook placement necessary to enforce any access control policy that satisfied prescribed constraints (ESSoS 2015) and to provide a security namespace abstraction for Linux container systems (USENIX Security 2018).  Third, we developed foundational theories for auditing based on information algebra, which combines elements of both access control and auditing to enable a uniform method to express break-the-glass policies (POST 2016), and developed new methods to retrofit programs for authorization by leveraging dynamic taint analysis (PLAS 2016).  Fourth, we invented a technique to compute control-flow integrity policies statically that is finer-grained than prior techniques and could be implemented more efficiently (IEEE Euro S&amp;P 2016) and adapted a recent Intel PT hardware feature to enforce control-flow integrity without program modification (ASPLOS 2017).  In the course of this CFI work, we discovered a latent flaw in Linux compiler toolchains that allows extensive modification of various types of read-only data and proposed detailed countermeasures (NDSS 2017).\n\nThe key outcomes of this project include the novel techniques (described above), new open-source systems, repairs and extensions for the Linux kernel, and several student theses.  The methods for privilege separation and Linux kernel support for efficient use of the Intel PT hardware (Linux Griffin) feature have been open sourced.  The privilege separation work has led to two collaborations, one on the DARPA GAPS program, and the Linux Griffin kernel has been used by several research groups.  Through our efforts, the Linux compiler toolchain flaw we discovered has been fixed in both GCC and LLVM toolchains, and the Linux security namespace is under consideration for upstreaming into the mainline kernel.  This project has resulted in five theses, include three Ph.D. theses (one to be held in January 2020) and two M.S. theses.  The project was inspired by the Ph.D. thesis of a female student, and one of the M.S. theses was completed by a female student.  The materials developed in this project were applied to the creation of a new Software Security course at Penn State, which is a key component of the new Cybersecurity Foundations minor.\n\n\n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/26/2019\n\n\t\t\t\t\tSubmitted by: Trent Jaeger"
+ }
+}

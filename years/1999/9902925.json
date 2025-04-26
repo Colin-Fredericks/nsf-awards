@@ -1,0 +1,106 @@
+{
+ "awd_id": "9902925",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "An Architecture for A Global Internet Host Distance Estimation Service",
+ "cfda_num": "47.070",
+ "org_code": "05050200",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Joseph B. Evans",
+ "awd_eff_date": "1999-05-01",
+ "awd_exp_date": "2003-04-30",
+ "tot_intn_awd_amt": 364479.0,
+ "awd_amount": 364479.0,
+ "awd_min_amd_letter_date": "1999-03-18",
+ "awd_max_amd_letter_date": "2003-08-13",
+ "awd_abstract_narration": "It is increasingly the case that a given Internet interaction could be satisfied by one of a number of Internet hosts.  Examples range from short-lived interactions such as a single web page access to any one of multiple equal-content web servers to a long-term peering relationship between two news (NNTP) servers.                 \r\n\r\nIn any such interatction, all other things being equal, it is advantageous to access the \"nearest\" choice.  By near we mean in>terms of Internet performance metrics, such as low latency or high bandwidth.  Even when all other things are not equal, such as the case where different web servers have different response times, it is still useful to include distance to each candidate host as one of several criteria for making a selection.\r\n\r\nOne approach to obtaining this distance information is for the initiating host to measure it itself, using either unicast (ping, traceroute) or multicast (expanding ring search) tools.  While these tools have a wide range of\r\nuses, their utility is generally limited by their overhead.  For instance, the cost of running a single traceroute can exceed the cost of the web page access itself.  More important still, a large number of hosts making independent and frequent measurements could have a severe impact on performance overall.  Ideally, measurements made by one system (host or router) should be made available, at low cost, to other hosts.\r\n\r\nA useful general service for the Internet would be one whereby a host could quickly and efficiently learn the distance between any two hosts.  To be widely useful, such a service should provide an answer with a delay and overhead less than those of the gains achieved by using the service.  A simple protocol for such a service (SONAR) was discussed in the IETF (Internet Engineering Task Force) as early as February 1996, and in April 1997 as a more general service called HOPS (Host Proximity Service).  Both of these efforts proposed lightweight client/server query/reply protocols along the lines of a DNS (Domain Name System) query/reply.  Both also required that the server be able to produce an answer in a very short time---preferably, though not necessarily, by using information already stored locally.\r\n\r\nThis proposal is concerned with the problem of how servers in such a SONAR/HOPS service can obtain the distance information needed to answer queries.  Specifically, we explore the following questions:\r\n- Which systems originally produce the distance information, and how is it produced?\r\n- How does the distance information get from these producing systems to the servers?\r\n- What form does the distance information take, and how is it used to produce answers for specific pairs of Internet hosts?\r\n\r\nAfter discussing basic aspects of the questions outlined above, this proposal presents a general architecture for an underlying service that provides the basic information used by a SONAR/HOPS service.  This underlying service is called IDMaps, forInternet Distance Map Service.\r\n\r\nThis work is being proposed in parallel by the PI, Sugih Jamin, and the co-PI, Lixia Zhang.  Sugih Jamin's prior research has been in Internet traffic characterization and measurement-based admission control.  Lixia Zhang has been an active participant in research on scalable reliable multicast.  The PIs will work closely with Paul Francis of NTT Software Labs and Vern Paxson of LBNL.  Paul Francis has been active on research in distributed hierarchy construction algorithms.  Vern Paxson is active in Internet performance measurement and is the PI of the NSF-funded National Internet Measurement Infrastructure (NIMI) effort.  IDMaps can be built on the NIMI substrate.  Letters from Paul Francis and Vern Paxson confirming these\r\ncollaborations are attached to this proposal.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Lixia",
+   "pi_last_name": "Zhang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Lixia Zhang",
+   "pi_email_addr": "lixia@cs.ucla.edu",
+   "nsf_id": "000442968",
+   "pi_start_date": "1999-03-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Los Angeles",
+  "perf_str_addr": "10889 WILSHIRE BLVD STE 700",
+  "perf_city_name": "LOS ANGELES",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900244200",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "192000",
+   "pgm_ele_name": "RESEARCH/TESTBEDS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "4095",
+   "pgm_ref_txt": "SPECIAL PROJECTS IN NET RESEAR"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0198",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0198",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1999,
+   "fund_oblg_amt": 364479.0
+  }
+ ],
+ "por": null
+}

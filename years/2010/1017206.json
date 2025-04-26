@@ -1,0 +1,101 @@
+{
+ "awd_id": "1017206",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: SHF: An Operating System and Programming Model for Deterministic Parallel Computation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2010-08-01",
+ "awd_exp_date": "2014-07-31",
+ "tot_intn_awd_amt": 472130.0,
+ "awd_amount": 472130.0,
+ "awd_min_amd_letter_date": "2010-07-15",
+ "awd_max_amd_letter_date": "2010-07-15",
+ "awd_abstract_narration": "The ability to run programs deterministically, so that re-execution always yields identical results, is useful for many purposes: e.g., replay debugging, intrusion analysis, fault tolerance, byzantine accountability, and timing channel control.  Running parallel programs deterministically is traditionally difficult and costly, however, especially if we wish to guarantee precise repeatability even of arbitrarily buggy or malicious software.\r\n\r\nDeterminator is a novel operating system that enforces determinism on multithreaded and multi-process computations, parallelized both across cores in one machine and across nodes in a cluster.  The kernel provides only single-threaded, ``shared-nothing'' address spaces, interacting via synchronization primitives that enforce deterministic behavior on all user-level code.  Nondeterministic inputs and observable notions of time - including clocks, timers, cycle counters, and timing-dependent internal communication channels - are accessible only via controlled I/O mechanisms, giving supervisory software precise control over how and when nondeterministic information may affect a supervised computation.  Atop this constrained kernel API, an untrusted runtime uses distributed computing techniques to emulate familiar abstractions such as Unix processes, file systems, and shared memory multithreading.\r\n\r\nBy building and evaluating this experimental OS architecture, we hope to discover: (1) whether OS-enforced deterministic execution can be made practical and performance-competitive with conventional OS environments, even for massively parallel applications; (2) how to emulate conventional nondeterministic APIs and run legacy software deterministically with few modifications; and (3) how to create new, \"naturally determinisic\" parallel programming APIs, offering powerful but easy-to-use abstractions for expressing parallelism, while guaranteeing predictable and precisely repeatable results that are independent of execution scheduling.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Bryan",
+   "pi_last_name": "Ford",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Bryan A Ford",
+   "pi_email_addr": "bryan.ford@yale.edu",
+   "nsf_id": "000518149",
+   "pi_start_date": "2010-07-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Yale University",
+  "inst_street_address": "150 MUNSON ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW HAVEN",
+  "inst_state_code": "CT",
+  "inst_state_name": "Connecticut",
+  "inst_phone_num": "2037854689",
+  "inst_zip_code": "065113572",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "CT03",
+  "org_lgl_bus_name": "YALE UNIV",
+  "org_prnt_uei_num": "FL6GV84CKN57",
+  "org_uei_num": "FL6GV84CKN57"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Yale University",
+  "perf_str_addr": "150 MUNSON ST",
+  "perf_city_name": "NEW HAVEN",
+  "perf_st_code": "CT",
+  "perf_st_name": "Connecticut",
+  "perf_zip_code": "065113572",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "CT03",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 472130.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The <a href=\"http://dedis.cs.yale.edu/2010/det/\">Determinator project at Yale</a> built an experimental multiprocessor, distributed operating system that creates an environment in which anything an application computes is exactly repeatable. Determinator consists of a microkernel and a set of user-space runtime libraries and applications. The microkernel provides a minimal API and execution environment, supporting a hierarchy of &ldquo;shared-nothing&rdquo; address spaces that can execute in parallel, but enforcing the guarantee that these spaces evolve and interact deterministically. Atop this minimal environment, Determinator's user-space runtime library uses distributed systems techniques to emulate familiar shared-state abstractions such as Unix processes, global file systems, and shared memory multithreading.</p>\n<p>A subset of Determinator comprises&nbsp;<a href=\"http://zoo.cs.yale.edu/classes/cs422/pios\">PIOS (&ldquo;Parallel Instructional Operating System&rdquo;)</a>, a teaching OS derived from and providing a course framework similar to&nbsp;<a href=\"http://pdos.csail.mit.edu/6.828/\">JOS</a>, where students fill in missing pieces of a reference skeleton. Determinator/PIOS represents a complete redesign and rewrite of the core components of JOS. To our knowledge PIOS is the first instructional OS to include and emphasize increasingly important parallel/multicore and distributed OS programming practices in an undergraduate-level OS course. It was used to teach&nbsp;<a href=\"http://zoo.cs.yale.edu/classes/cs422/\">CS422: Operating Systems</a>&nbsp;at&nbsp;<a href=\"http://www.yale.edu/\">Yale</a>&nbsp;in Spring 2010, and is&nbsp;<a href=\"https://github.com/bford/Determinator\">freely available</a>&nbsp;for use and adaptation by others.</p>\n<p>Determinator also provide the basis for the design of CertiK a&nbsp;<a href=\"http://flint.cs.yale.edu/certikos/\">CertiKOS, a certified OS kernel project</a>&nbsp;in collaboration with the&nbsp;<a href=\"http://flint.cs.yale.edu/\">FLINT research group</a>. &nbsp;CertiKOS aims to develop a small but highly modular operating system that has a machine-verifiable proof of its correctness and security properties.</p>\n<p>Finally, ideas explored in the Determinator project proved instrumental in <a href=\"https://sites.google.com/site/silbersteinmark/Home/gpufs\">GPUfs</a>, a collaboration between UT Austin, Yale, and Technion to build a high-performance file system abstraction and API usable directly from GPU code to access file systems maintained on a conventional host operating system. &nbsp;In particular, GPUfs adapted many of the weak consistency models that Determinator explored and developed for different purposes.</p>\n<p>The Determinator project yielded two top-tier conference papers including a Best Paper Award at OSDI 2010, a journal paper in ACM Transactions on Computing Systems (TOCS), one completed and one forthcoming PhD thesis, and a number of workshop papers and technical reports.</p>\n<p>Further information on Determinator, PIOS, and related projects, as well as a complete project bibliography, may be found on <a href=\"http://dedis.cs.yale.edu/2010/det/\">the Determinator project home page</a>.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/13/2014<br>\n\t\t\t\t\tModified by: Bryan&nbsp;A&nbsp;Ford</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe Determinator project at Yale built an experimental multiprocessor, distributed operating system that creates an environment in which anything an application computes is exactly repeatable. Determinator consists of a microkernel and a set of user-space runtime libraries and applications. The microkernel provides a minimal API and execution environment, supporting a hierarchy of \"shared-nothing\" address spaces that can execute in parallel, but enforcing the guarantee that these spaces evolve and interact deterministically. Atop this minimal environment, Determinator's user-space runtime library uses distributed systems techniques to emulate familiar shared-state abstractions such as Unix processes, global file systems, and shared memory multithreading.\n\nA subset of Determinator comprises PIOS (\"Parallel Instructional Operating System\"), a teaching OS derived from and providing a course framework similar to JOS, where students fill in missing pieces of a reference skeleton. Determinator/PIOS represents a complete redesign and rewrite of the core components of JOS. To our knowledge PIOS is the first instructional OS to include and emphasize increasingly important parallel/multicore and distributed OS programming practices in an undergraduate-level OS course. It was used to teach CS422: Operating Systems at Yale in Spring 2010, and is freely available for use and adaptation by others.\n\nDeterminator also provide the basis for the design of CertiK a CertiKOS, a certified OS kernel project in collaboration with the FLINT research group.  CertiKOS aims to develop a small but highly modular operating system that has a machine-verifiable proof of its correctness and security properties.\n\nFinally, ideas explored in the Determinator project proved instrumental in GPUfs, a collaboration between UT Austin, Yale, and Technion to build a high-performance file system abstraction and API usable directly from GPU code to access file systems maintained on a conventional host operating system.  In particular, GPUfs adapted many of the weak consistency models that Determinator explored and developed for different purposes.\n\nThe Determinator project yielded two top-tier conference papers including a Best Paper Award at OSDI 2010, a journal paper in ACM Transactions on Computing Systems (TOCS), one completed and one forthcoming PhD thesis, and a number of workshop papers and technical reports.\n\nFurther information on Determinator, PIOS, and related projects, as well as a complete project bibliography, may be found on the Determinator project home page.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/13/2014\n\n\t\t\t\t\tSubmitted by: Bryan A Ford"
+ }
+}

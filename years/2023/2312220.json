@@ -1,0 +1,114 @@
+{
+ "awd_id": "2312220",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Efficient, Deterministic and Formally Certified Methods for Solving Low-dimensional Linear Programs with Floating-point Precision",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2023-07-01",
+ "awd_exp_date": "2026-06-30",
+ "tot_intn_awd_amt": 540000.0,
+ "awd_amount": 540000.0,
+ "awd_min_amd_letter_date": "2023-06-14",
+ "awd_max_amd_letter_date": "2023-06-14",
+ "awd_abstract_narration": "Linear programs (LPs) are widely used in numerous domains, such as computer arithmetic, robotics, machine learning, computer vision and databases. Existing LP solvers, which have been steadily improved after decades of research, can solve several tens of thousands of constraints. These solvers focus on linear programs where the number of constraints is of the same order of magnitude as the number of variables (i.e., high-dimensional linear programs). However, in many domains, linear programs with billions of constraints but a small number of variables are common. Such linear programs are called \"low-dimensional linear programs\" (LDLPs). Unfortunately, existing LP solvers cannot solve them.  This project aims to develop efficient and deterministic methods to solve low-dimensional linear programs that can be formally verified to produce the correct solution with floating-point precision. In contrast to existing solvers for LP problems that generate real coefficients using rational arithmetic, this project's novelty lies in generating solutions with floating-point (FP) precision using ideas from computational geometry.  The project's impacts are in designing scalable LDLP solvers that can handle both linear programs that are full-rank (i.e., there exists a single solution that satisfies all constraints) and those that are not full-rank, with potentially billions of constraints. In the latter case, this project will generate a solution that satisfies the maximum number of constraints. This project will rigorously evaluate the efficacy of the LDLP solver in various domains and has the potential of expanding the use of formal methods to a wider class of applications. It will also educate practitioners, graduate and undergraduate students on foundational abstractions in computing.\r\n\r\nThis project makes the following foundational advances in designing LDLP solvers: (a) It will develop an algorithm to solve LDLPs that are full rank while also identifying the key constraints. A solution that satisfies these key constraints also satisfies all the other constraints. (b) It will develop a novel method for identifying the key constraints by constructing the convex hull in high dimensions using the geometric duality between hyperplanes and points. (c) It will develop a new LP formulation using the key constraints whose solution satisfies the maximum number of constraints in the original non-full-rank LDLP. (d) It will develop an approach to formally verify the construction of the convex hull in high dimensions, especially to handle the degenerate cases that may arise in the presence of numerical and rounding errors, and (e) it will evaluate the LDLP solver in two practical applications: (1) generating correctly rounded math libraries for elementary functions, and (2) fast training of support vector machines for machine learning.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mridul",
+   "pi_last_name": "Aanjaneya",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mridul Aanjaneya",
+   "pi_email_addr": "mridul.aanjaneya@rutgers.edu",
+   "nsf_id": "000753224",
+   "pi_start_date": "2023-06-14",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Santosh",
+   "pi_last_name": "Nagarakatte",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Santosh Nagarakatte",
+   "pi_email_addr": "santosh.nagarakatte@rutgers.edu",
+   "nsf_id": "000630570",
+   "pi_start_date": "2023-06-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rutgers University New Brunswick",
+  "inst_street_address": "3 RUTGERS PLZ",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW BRUNSWICK",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "8489320150",
+  "inst_zip_code": "089018559",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "RUTGERS, THE STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "M1LVPE5GLSD9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rutgers University New Brunswick",
+  "perf_str_addr": "3 RUTGERS PLZA",
+  "perf_city_name": "NEW BRUNSWICK",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "089018559",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 540000.0
+  }
+ ],
+ "por": null
+}

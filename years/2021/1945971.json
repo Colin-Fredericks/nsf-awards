@@ -1,0 +1,101 @@
+{
+ "awd_id": "1945971",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: IIBR Informatics: A reinforced imputation framework for accurate gene expression recovery from single-cell RNA-seq data",
+ "cfda_num": "47.074",
+ "org_code": "08080000",
+ "po_phone": "7032922224",
+ "po_email": "jweller@nsf.gov",
+ "po_sign_block_name": "Jennifer Weller",
+ "awd_eff_date": "2021-03-01",
+ "awd_exp_date": "2024-02-29",
+ "tot_intn_awd_amt": 299999.0,
+ "awd_amount": 299999.0,
+ "awd_min_amd_letter_date": "2021-02-16",
+ "awd_max_amd_letter_date": "2021-05-19",
+ "awd_abstract_narration": "Single-cell RNA-Seq (scRNA-Seq) analyses have revolutionized the methods in which researchers can investigate tissue samples of specific cell types. While single-cell sequencing technologies have provided a new frontier for researchers, they also come with a complex set of problems. One of these problems is related to the quality of gene expression estimates, which are used in numerous downstream analyses from the prediction of the cell types/trajectories to determining differentially expressed genes between cell types or tissues. The low coverage and sequencing inefficiencies can affect up to 90% of gene expression estimates for scRNA-Seq studies, and hence, are challenging to overcome. However, there are two critical problems in the way that current methods attempt to address this problem: (1) inadequate use of bulk data to compensate for low expression genes and (2) under-utilization of iterative procedures to optimize highly-connected steps for imputation of gene expression estimates.\r\n\r\nThis project will develop a novel computational framework to integrate bulk RNA-seq data into scRNA-seq data modeling and analyses, aiming at accurate gene expression estimates from the sparse scRNA-Seq data, and high quality, reliability, and precision of downstream analyses. The aim is to model particular features of the heterogeneous gene expression patterns among various cell types. Integration of bulk RNA-Seq data through de-convolution will be used to develop heterogeneous compensation distributions and probabilities. Utilization of the gamma distribution to determine empirical distribution for single-cell gene expression estimates will improve the baseline expression in a specific cell type and identify estimates of interest through the high level of noise in sequencing data, which will then be combined with compensation information from bulk RNA-Seq data to correct biases from the high noise scRNA-Seq data. Finally, the updated expression estimate will be used to iterate back through the process to provide improved results for each stage of the process.  The outcome will be a novel imputation framework that should enable scRNA-Seq expression estimates through the integration of the above three new characteristics.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "BIO",
+ "org_dir_long_name": "Directorate for Biological Sciences",
+ "div_abbr": "DBI",
+ "org_div_long_name": "Division of Biological Infrastructure",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Qin",
+   "pi_last_name": "Ma",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Qin Ma",
+   "pi_email_addr": "qin.ma@osumc.edu",
+   "nsf_id": "000703039",
+   "pi_start_date": "2021-02-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "1960 Kenny Road",
+  "perf_city_name": "Columbus",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101016",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "164Y00",
+   "pgm_ele_name": "Innovation: Bioinformatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1165",
+   "pgm_ref_txt": "ADVANCES IN BIO INFORMATICS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 299999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Project Outcomes Report</strong></p>\n<p>&nbsp;</p>\n<p>The overarching goal of the project is to mathematically model transcriptional regulatory signals and their associated co-regulation gene modules through transcriptomic profiles of single cells. Furthermore, it seeks to identify and annotate the gene signatures for each signal and estimate the level of each signal in independent tissue data. Another major goal of this project is to enhance the accuracy, efficiency, and versatility of gene imputation, cell clustering, and cell-cell interaction interpretation by integrating information from both bulk and single-cell transcriptomic data. Throughout the project period, several significant activities were undertaken. Firstly, the development and enhancement of scGNN, a specialized tool for single-cell RNA-Seq analysis, proved pivotal in overcoming challenges related to sequencing sparsity and provided insights into diverse biological systems. This was followed by the introduction of scGNN 2.0, which expanded capabilities for imputation and clustering while integrating advanced visualization features and optimization for faster performance. The primary objective of scGNN 2.0 was to refine gene expression estimates from scRNA-seq analyses using bulk RNA-seq data, achieved through the development of an iterative GNN-based scRNA-Seq imputation model. We also developed scGNN 3.0 with the implementation of a large language model to be fine-tuned for question-and-answer guidelines, automatic code generation and debugging, and interactive result interpretation. Additionally, the developed R package, IRIS-FGM, provided efficient identification of functional gene modules, compatibility with existing pipelines like Seurat, and overcame limitations of previous implementations, thus advancing scRNA-Seq analysis capabilities significantly. Lastly, we delivered scDEAL, a deep transfer learning framework for cancer drug response prediction at the single-cell level by integrating large-scale bulk cell-line data. The highlight in scDEAL involves harmonizing drug-related bulk RNA-seq data with scRNA-seq data and transferring the model trained on bulk RNA-seq data to predict drug responses in scRNA-seq. Also, scDEAL uses integrated gradient feature interpretation to infer the signature genes of drug resistance mechanisms. Overall, the collective impact of these tools in understanding diverse biological systems and complex diseases could lead to significant advancements in fundamental biology mechanisms and human health.</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 04/09/2024<br>\nModified by: Qin&nbsp;Ma</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nProject Outcomes Report\n\n\n\n\n\nThe overarching goal of the project is to mathematically model transcriptional regulatory signals and their associated co-regulation gene modules through transcriptomic profiles of single cells. Furthermore, it seeks to identify and annotate the gene signatures for each signal and estimate the level of each signal in independent tissue data. Another major goal of this project is to enhance the accuracy, efficiency, and versatility of gene imputation, cell clustering, and cell-cell interaction interpretation by integrating information from both bulk and single-cell transcriptomic data. Throughout the project period, several significant activities were undertaken. Firstly, the development and enhancement of scGNN, a specialized tool for single-cell RNA-Seq analysis, proved pivotal in overcoming challenges related to sequencing sparsity and provided insights into diverse biological systems. This was followed by the introduction of scGNN 2.0, which expanded capabilities for imputation and clustering while integrating advanced visualization features and optimization for faster performance. The primary objective of scGNN 2.0 was to refine gene expression estimates from scRNA-seq analyses using bulk RNA-seq data, achieved through the development of an iterative GNN-based scRNA-Seq imputation model. We also developed scGNN 3.0 with the implementation of a large language model to be fine-tuned for question-and-answer guidelines, automatic code generation and debugging, and interactive result interpretation. Additionally, the developed R package, IRIS-FGM, provided efficient identification of functional gene modules, compatibility with existing pipelines like Seurat, and overcame limitations of previous implementations, thus advancing scRNA-Seq analysis capabilities significantly. Lastly, we delivered scDEAL, a deep transfer learning framework for cancer drug response prediction at the single-cell level by integrating large-scale bulk cell-line data. The highlight in scDEAL involves harmonizing drug-related bulk RNA-seq data with scRNA-seq data and transferring the model trained on bulk RNA-seq data to predict drug responses in scRNA-seq. Also, scDEAL uses integrated gradient feature interpretation to infer the signature genes of drug resistance mechanisms. Overall, the collective impact of these tools in understanding diverse biological systems and complex diseases could lead to significant advancements in fundamental biology mechanisms and human health.\n\n\n\t\t\t\t\tLast Modified: 04/09/2024\n\n\t\t\t\t\tSubmitted by: QinMa\n"
+ }
+}

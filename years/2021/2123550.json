@@ -1,0 +1,109 @@
+{
+ "awd_id": "2123550",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "FMitF: Track II: FMCloak: Practitioners Using Formal Methods Without Knowing It",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 99999.0,
+ "awd_amount": 92091.0,
+ "awd_min_amd_letter_date": "2021-06-08",
+ "awd_max_amd_letter_date": "2023-12-05",
+ "awd_abstract_narration": "Engineering teams typically spend most of their time checking whether their designs function correctly and making changes when they do not.  All possible usages need to be anticipated and mapped to distinct test cases, which is generally infeasible, and the inevitable bugs and oversights result in perpetual patch and update cycles common for software.  This is less acceptable for embedded and safety critical systems such as autonomous vehicles.  The project automatically generates monitors serving as continuously vigilant observers added to the development or even the deployed system.  Monitors are defined by the critical properties to be checked, such as unsafe or unsanctioned actions, and a monitor may report or possibly mitigate the problem.   Unambiguous property definitions normally require use of an unfamiliar symbolic notation, and one of the project\u2019s novelties is to instead use pseudo-English.  The project\u2019s impacts include enabling the existing engineering workforce to supplement conventional test case generation with strong assurances about component or system properties.\r\n\r\nMonitor generation is being added to familiar development environments used by a multinational corporation\u2019s engineers, who evaluate the effect on productivity and product quality.  While the tool originally required properties to be specified in linear temporal logic (LTL), a collaboration with NASA incorporated the FRET tool to translate pseudo-English requirements to LTL.  Current enhancements include the generation of monitors with different performance, resource usage and isolation tradeoffs to suit both development and deployment, adding metric time constraints for real-time systems, and automatically synthesizing monitors to confirm state transition validity and timeliness.  Rather than require distinct tools for software, hardware and systems, a unified approach suits run-time verification of targets ranging from hardware buses to complete autonomous vehicles.  Monitor implementations are automatically analyzed for correctness in a mathematically rigorous way, which relieves engineers of that responsibility.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Cameron",
+   "pi_last_name": "Patterson",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Cameron D Patterson",
+   "pi_email_addr": "cdp@vt.edu",
+   "nsf_id": "000490833",
+   "pi_start_date": "2021-06-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Virginia Polytechnic Institute and State University",
+  "inst_street_address": "300 TURNER ST NW",
+  "inst_street_address_2": "STE 4200",
+  "inst_city_name": "BLACKSBURG",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "5402315281",
+  "inst_zip_code": "240603359",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "VA09",
+  "org_lgl_bus_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+  "org_prnt_uei_num": "X6KEFGLHSJX7",
+  "org_uei_num": "QDE5UHE5XD16"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Virginia Polytechnic Institute and State University",
+  "perf_str_addr": "1145 Perry St",
+  "perf_city_name": "Blacksburg",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "240610001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "VA09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "094Y00",
+   "pgm_ele_name": "FMitF: Formal Methods in the F"
+  },
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "071Z",
+   "pgm_ref_txt": "FMitF-Formal Methods in the Field"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 92090.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Engineers are entrusted by the public to design and build systems interacting with the physical world that work correctly, efficiently, reliably and safely under all possible circumstances. Autonomous cars and aircraft are two examples. As these systems are controlled by software and AI, this effectively means checking that the software is bug-free and thoroughly trained. While engineers routinely use mathematics to model and optimize their designs, checking for correctness usually switches from mathematics to handcrafting tests for expected input possibilities, constructing and then applying these tests to a system simulation model or prototype. Correct behavior criteria has to be manually captured in the tests, which is tedious and a possible source of error.</p>\n<p>We focus on automating observations of system behavior during testing through the synthesis of run-time monitor code. Rather than be manually constructed, the monitors continue to leverage mathematics to convert pseudo-English expressions of correct behavior into simple code structures that continuously check whether the system is following those behaviors. Complexity is the enemy of correctness. The monitors can be modeled as a mathematical object called an automata, allowing rigorous and automatic verification of each monitor's implementation. Since monitors use few resources, a large number of monitors can be used with each one looking for a correct response in a particular set of circumstances. The monitors operate independently and concurrently in simulation models and prototypes to assist development, and their lightweight aspect allows retention in deployed systems to detect faults and latent bugs. Monitors can generate alerts if a system is operating outside its desired states, and can also intervene if service life or safety might be compromised. An analogy is a flight instructor observing what a student does, pointing out that the flight is trending towards an unsafe state such as a stall, and possibly overriding the student's control inputs if the trend continues.</p>\n<p>Our perspective is that of practitioners with industrial experience in standard methodologies and environments used for software and hardware verification. We build upon what is familiar to conventionally trained embedded system engineers, with pseudo-English used to express correct behavior and monitors structured as finite state machines implemented in ANSI standard C code. Timing and functionality are separately specified, as is common in component data sheets. This allows the corresponding monitors to be specialized for observing either timing or functionality. Any mathematical notation such as linear temporal logic is a hidden intermediate form in our tools, similar to assembly code in modern computer programming. Monitors synthesized by our tools can be readily imported into popular system development frameworks. Hence verification engineers can augment conventional testing with more rigorous approaches without needing mathematical training in formal methods.</p><br>\n<p>\n Last Modified: 01/25/2024<br>\nModified by: Cameron&nbsp;D&nbsp;Patterson</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nEngineers are entrusted by the public to design and build systems interacting with the physical world that work correctly, efficiently, reliably and safely under all possible circumstances. Autonomous cars and aircraft are two examples. As these systems are controlled by software and AI, this effectively means checking that the software is bug-free and thoroughly trained. While engineers routinely use mathematics to model and optimize their designs, checking for correctness usually switches from mathematics to handcrafting tests for expected input possibilities, constructing and then applying these tests to a system simulation model or prototype. Correct behavior criteria has to be manually captured in the tests, which is tedious and a possible source of error.\n\n\nWe focus on automating observations of system behavior during testing through the synthesis of run-time monitor code. Rather than be manually constructed, the monitors continue to leverage mathematics to convert pseudo-English expressions of correct behavior into simple code structures that continuously check whether the system is following those behaviors. Complexity is the enemy of correctness. The monitors can be modeled as a mathematical object called an automata, allowing rigorous and automatic verification of each monitor's implementation. Since monitors use few resources, a large number of monitors can be used with each one looking for a correct response in a particular set of circumstances. The monitors operate independently and concurrently in simulation models and prototypes to assist development, and their lightweight aspect allows retention in deployed systems to detect faults and latent bugs. Monitors can generate alerts if a system is operating outside its desired states, and can also intervene if service life or safety might be compromised. An analogy is a flight instructor observing what a student does, pointing out that the flight is trending towards an unsafe state such as a stall, and possibly overriding the student's control inputs if the trend continues.\n\n\nOur perspective is that of practitioners with industrial experience in standard methodologies and environments used for software and hardware verification. We build upon what is familiar to conventionally trained embedded system engineers, with pseudo-English used to express correct behavior and monitors structured as finite state machines implemented in ANSI standard C code. Timing and functionality are separately specified, as is common in component data sheets. This allows the corresponding monitors to be specialized for observing either timing or functionality. Any mathematical notation such as linear temporal logic is a hidden intermediate form in our tools, similar to assembly code in modern computer programming. Monitors synthesized by our tools can be readily imported into popular system development frameworks. Hence verification engineers can augment conventional testing with more rigorous approaches without needing mathematical training in formal methods.\t\t\t\t\tLast Modified: 01/25/2024\n\n\t\t\t\t\tSubmitted by: CameronDPatterson\n"
+ }
+}

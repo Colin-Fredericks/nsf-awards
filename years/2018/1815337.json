@@ -1,0 +1,105 @@
+{
+ "awd_id": "1815337",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RI: Small: Expressive Reasoning and Learning about Actions under Uncertainty via Probabilistic Extension of Action Language",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Roger Mailler",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 363799.0,
+ "awd_amount": 363799.0,
+ "awd_min_amd_letter_date": "2018-06-18",
+ "awd_max_amd_letter_date": "2018-06-18",
+ "awd_abstract_narration": "Automated reasoning about dynamic worlds is an important capability for robust intelligent systems.  Action languages allow for the description of actions and their effects in dynamic domains in a way that is based on natural language but sufficiently formal for modeling in knowledge-based systems. Today's action languages do not easily allow such systems to account for the probability and uncertainty necessary to model human-like commonsense reasoning.  Existing action languages also assume full specification of a system in advance of one-shot execution of the logic program, which does not easily operate with continuous streams of data.  This project will develop an action language based on the mathematical foundation that combines logic and probability.  The research will join the representation and reasoning advantages of logical AI to the advantages in statistical AI to compute and learn quantitative specifications from data. The new action language will jointly address commonsense reasoning and learning about actions in uncertain dynamic domains.  Such a system allows us to scrutinize and understand the system behavior, which is vital to the design of systems that are explainable and interpretable.\r\n\r\nThe project is to design and implement a novel action language that is highly expressive for modeling various aspects of dynamic systems under uncertainty and which applies to knowledge-rich diagnosis and stream reasoning. The formalism will be built upon a recent probabilistic extension of answer set programs, called LPMLN, which incorporates the weight scheme of Markov Logic into the language of answer set programming. The formalism will enable probabilistic diagnostic reasoning and counterfactual reasoning about dynamic domains. Inference and learning methods for the probabilistic action language will be derived from the methods in logic programming and statistical relational learning. The framework will be further extended to integrate reasoning over observations given as streams of data. The methods produced will be useful for several applications that require integration of knowledge representation and other areas, such as robotics and autonomous systems.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Joohyung",
+   "pi_last_name": "Lee",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Joohyung Lee",
+   "pi_email_addr": "joolee@asu.edu",
+   "nsf_id": "000492036",
+   "pi_start_date": "2018-06-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Arizona State University",
+  "inst_street_address": "660 S MILL AVENUE STE 204",
+  "inst_street_address_2": "",
+  "inst_city_name": "TEMPE",
+  "inst_state_code": "AZ",
+  "inst_state_name": "Arizona",
+  "inst_phone_num": "4809655479",
+  "inst_zip_code": "852813670",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "AZ04",
+  "org_lgl_bus_name": "ARIZONA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NTLHJXM55KZ6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Arizona State University",
+  "perf_str_addr": "ORSPA",
+  "perf_city_name": "Tempe",
+  "perf_st_code": "AZ",
+  "perf_st_name": "Arizona",
+  "perf_zip_code": "852816011",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "AZ04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 363799.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"Default\">Declarative representation and automated reasoning about dynamic worlds are important aspects of robust intelligent systems. Although several action languages are available that are highly expressive in representing common-sense knowledge involving actions, most of them are logic-oriented and are not suitable for handling probabilistic and quantitative uncertainty, which in turn limits the application of the action languages. The goal of the project is to overcome the defects by designing and implementing a new action language on a novel foundation that combines logic and probability, and to compute it by intelligently adapting and combining knowledge representation and machine learning methods.</p>\n<p class=\"Default\">We designed and implemented the probabilistic action language pBC+, which extends the logical action language BC+ to support the concept of utility, belief states, and observation. Its probabilistic basis is LPMLN, a statistical relational extension of answer set programming language. We show how pBC+ handles various probabilistic reasoning problems associated with transition systems in a uniform way. We further extended it to embrace Markov Decision Process (MDP) and Partially Observable Decision Process (POMDP), which provides a compact and elaboration-tolerant representation of MDP and POMDP that is convenient to encode commonsense knowledge. The outcome provides a principled way to integrate commonsense reasoning and probabilistic planning in uncertain dynamic domains, which could reduce the complexity of MDP/POMDP planning by reflecting commonsense knowledge. It also allows us to scrutinize and understand the behavior of a dynamic system.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/24/2023<br>\n\t\t\t\t\tModified by: Joohyung&nbsp;Lee</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569326808_pbcplus-mdp--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569326808_pbcplus-mdp--rgov-800width.jpg\" title=\"pBC+ vs. MDP\"><img src=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569326808_pbcplus-mdp--rgov-66x44.jpg\" alt=\"pBC+ vs. MDP\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">pBC+ vs. MDP</div>\n<div class=\"imageCredit\">N/A</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Joohyung&nbsp;Lee</div>\n<div class=\"imageTitle\">pBC+ vs. MDP</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569050333_elaboration1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569050333_elaboration1--rgov-800width.jpg\" title=\"static POMDP vs. pBC+ based POMDP\"><img src=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569050333_elaboration1--rgov-66x44.jpg\" alt=\"static POMDP vs. pBC+ based POMDP\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Impact of an elaboration on policy generated</div>\n<div class=\"imageCredit\">N/A</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Joohyung&nbsp;Lee</div>\n<div class=\"imageTitle\">static POMDP vs. pBC+ based POMDP</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569539034_dt-lpmln--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569539034_dt-lpmln--rgov-800width.jpg\" title=\"DT-LPMLN example\"><img src=\"/por/images/Reports/POR/2023/1815337/1815337_10551106_1674569539034_dt-lpmln--rgov-66x44.jpg\" alt=\"DT-LPMLN example\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">DT-LPMLN example</div>\n<div class=\"imageCredit\">N/A</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Joohyung&nbsp;Lee</div>\n<div class=\"imageTitle\">DT-LPMLN example</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "Declarative representation and automated reasoning about dynamic worlds are important aspects of robust intelligent systems. Although several action languages are available that are highly expressive in representing common-sense knowledge involving actions, most of them are logic-oriented and are not suitable for handling probabilistic and quantitative uncertainty, which in turn limits the application of the action languages. The goal of the project is to overcome the defects by designing and implementing a new action language on a novel foundation that combines logic and probability, and to compute it by intelligently adapting and combining knowledge representation and machine learning methods.\nWe designed and implemented the probabilistic action language pBC+, which extends the logical action language BC+ to support the concept of utility, belief states, and observation. Its probabilistic basis is LPMLN, a statistical relational extension of answer set programming language. We show how pBC+ handles various probabilistic reasoning problems associated with transition systems in a uniform way. We further extended it to embrace Markov Decision Process (MDP) and Partially Observable Decision Process (POMDP), which provides a compact and elaboration-tolerant representation of MDP and POMDP that is convenient to encode commonsense knowledge. The outcome provides a principled way to integrate commonsense reasoning and probabilistic planning in uncertain dynamic domains, which could reduce the complexity of MDP/POMDP planning by reflecting commonsense knowledge. It also allows us to scrutinize and understand the behavior of a dynamic system.\n\n \n\n\t\t\t\t\tLast Modified: 01/24/2023\n\n\t\t\t\t\tSubmitted by: Joohyung Lee"
+ }
+}

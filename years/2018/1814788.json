@@ -1,0 +1,105 @@
+{
+ "awd_id": "1814788",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Challenges in Unconditional Pseudorandomness for Boolean Computation",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tracy Kimbrel",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2022-05-31",
+ "tot_intn_awd_amt": 350000.0,
+ "awd_amount": 350000.0,
+ "awd_min_amd_letter_date": "2018-05-23",
+ "awd_max_amd_letter_date": "2018-05-23",
+ "awd_abstract_narration": "The performance of modern computers can be measured on several axes, such as the time or memory consumed.  Another axis is the amount of randomness used, as many common algorithms (such as opinion polls) use randomness as a key resource.  However, true randomness (such as that derived from physical phenomena) can be a scarce resource, and as such significant research has explored how the use of randomness can be minimized while still efficiently solving key algorithmic problems.  One prominent algorithmic challenge is to compute the volume of geometric objects.  While this problem is simple in low dimensions, it is significantly more difficult in the higher number of dimensions often required for applications.  While randomized algorithms have been developed for (approximately) computing volumes, comparable deterministic algorithms have yet to be developed.  This project will study techniques for the design of such algorithms.  It will also promote the study of pseudorandomness in general through course design, organization of workshops, and training of undergraduate and graduate students.\r\n\r\nIn particular, this project will design pseudorandom generators, which are maps that stretch a short seed of (true) randomness to a longer output of pseudorandomness, where this output is indistinguishable from random (from the perspective of the relevant algorithm). The construction of suitable pseudorandom generators is a well-known avenue to the derandomization of algorithms.  However, existing constructions of pseudorandom generators fall short of derandomization even for simple algorithmic problems.  This project will study new paradigms for the construction of pseudorandom generators, especially for those which can derandomize algorithms for geometric problems such as (approximately) computing volumes.  This study will be facilitated by combining existing tools, such as those from communication complexity and cryptographic pseudorandomness, in novel ways.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Forbes",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael A Forbes",
+   "pi_email_addr": "miforbes@illinois.edu",
+   "nsf_id": "000653866",
+   "pi_start_date": "2018-05-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S. Wright St.",
+  "perf_city_name": "Urbana",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7927",
+   "pgm_ref_txt": "COMPLEXITY & CRYPTOGRAPHY"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 350000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project aimed to construct pseudorandom generators, which are distributions of inputs that efficient computation cannot distinguish from being truly random inputs.&nbsp; In particular, these distributions are aimed to be constructed using as little true randomness as possible, as well as being constructed explicitly by an efficient computation.&nbsp; They have numerous connections with cryptography, algorithms, and complexity theory.&nbsp; Most concretely however one can think of them as the upside of computational hardness: proving a computational task is difficult for efficient computation is essentially equivalent to the algorithmic task of efficiently producing pseudorandom distributions.<br /><br />The main intellectual merit of this project was a pseudorandom generators for a model of computation known as read-once oblivious branching programs (roBPs).&nbsp; This model is in particular important because pseudorandom generators for this model are heavily tied to the task of derandomizing space-bounded computation, a key goal in complexity theory.&nbsp; Further, such pseudorandom generators often have the properties needed for various crucial algorithmic tasks such as hashing.&nbsp; Unfortunately, while strong pseudorandom generators for roBPs have been known since the early 1990s, those results are quantitatively optimal.&nbsp; While quantitative improvements have been made for various special cases, the general case essentially has remained stuck for thirty years.<br /><br />One measure of being \"stuck\" is that existing pseudorandom generators need to know the \"order\" in which the variables of the roBPs are \"read\", and that these pseudorandom generators provably break if the variable order changes.&nbsp; As such, researchers have laid the challenge to find a pseudorandom generator that works regardless of the order of the variables, as long as the variables are read-once in an oblivious fashion.&nbsp; While previous works gave some non-trivial results, they were qualitatively very far from the results of the known-order regime solved decades ago.<br /><br />This project supported a work which broke this barrier, giving a pseudorandom generator for roBPs that works for all variable orders that almost quantitatively matches the celebrated results for the known order regime.&nbsp; More importantly, the work demonstrated the power of the existing iterated random restriction framework in this setting.&nbsp; This work has demonstrated new understanding in the theory of pseudorandom generators and had several follow-up works.<br /><br />The broader impacts of this project as felt in several ways.&nbsp; Results were disseminated via online preprint servers and conference proceedings, and seminars are given at conferences and workshops.&nbsp; In particular, a workshop presentation was given devoted to explaining the above mentioned result on pseudorandom generators for roBPs.&nbsp; Additionally, one graduate student was trained through the support of this project.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/19/2023<br>\n\t\t\t\t\tModified by: Michael&nbsp;A&nbsp;Forbes</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project aimed to construct pseudorandom generators, which are distributions of inputs that efficient computation cannot distinguish from being truly random inputs.  In particular, these distributions are aimed to be constructed using as little true randomness as possible, as well as being constructed explicitly by an efficient computation.  They have numerous connections with cryptography, algorithms, and complexity theory.  Most concretely however one can think of them as the upside of computational hardness: proving a computational task is difficult for efficient computation is essentially equivalent to the algorithmic task of efficiently producing pseudorandom distributions.\n\nThe main intellectual merit of this project was a pseudorandom generators for a model of computation known as read-once oblivious branching programs (roBPs).  This model is in particular important because pseudorandom generators for this model are heavily tied to the task of derandomizing space-bounded computation, a key goal in complexity theory.  Further, such pseudorandom generators often have the properties needed for various crucial algorithmic tasks such as hashing.  Unfortunately, while strong pseudorandom generators for roBPs have been known since the early 1990s, those results are quantitatively optimal.  While quantitative improvements have been made for various special cases, the general case essentially has remained stuck for thirty years.\n\nOne measure of being \"stuck\" is that existing pseudorandom generators need to know the \"order\" in which the variables of the roBPs are \"read\", and that these pseudorandom generators provably break if the variable order changes.  As such, researchers have laid the challenge to find a pseudorandom generator that works regardless of the order of the variables, as long as the variables are read-once in an oblivious fashion.  While previous works gave some non-trivial results, they were qualitatively very far from the results of the known-order regime solved decades ago.\n\nThis project supported a work which broke this barrier, giving a pseudorandom generator for roBPs that works for all variable orders that almost quantitatively matches the celebrated results for the known order regime.  More importantly, the work demonstrated the power of the existing iterated random restriction framework in this setting.  This work has demonstrated new understanding in the theory of pseudorandom generators and had several follow-up works.\n\nThe broader impacts of this project as felt in several ways.  Results were disseminated via online preprint servers and conference proceedings, and seminars are given at conferences and workshops.  In particular, a workshop presentation was given devoted to explaining the above mentioned result on pseudorandom generators for roBPs.  Additionally, one graduate student was trained through the support of this project.\n\n\t\t\t\t\tLast Modified: 07/19/2023\n\n\t\t\t\t\tSubmitted by: Michael A Forbes"
+ }
+}

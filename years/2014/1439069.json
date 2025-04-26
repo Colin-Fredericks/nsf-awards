@@ -1,0 +1,108 @@
+{
+ "awd_id": "1439069",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: FULL: CCA: Collaborative Research: Automatically Scalable Computation",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tao Li",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 85000.0,
+ "awd_amount": 85000.0,
+ "awd_min_amd_letter_date": "2014-08-26",
+ "awd_max_amd_letter_date": "2014-08-26",
+ "awd_abstract_narration": "The era of performance scaling by increasing the performance of\r\nindividual processors is over, having been replaced by the era of\r\nmassive parallelism via multiple cores.  Amdahl's law tells us that\r\nour ability to parallelize computation is limited by the inherently\r\nsequential portion of a computation.  This unfortunate combination\r\nof facts paints a bleak picture for the future of scalable software.\r\nThis work explores a radical new approach to parallelism with the\r\npotential to bypass Amdahl's Law. The approach used involves making\r\ninformed predictions about computation likely to happen in the\r\nfuture, proactively executing likely computations in parallel with\r\nthe actual computation, and then \"jumping forward in time\" if the\r\nactual execution stumbles upon any of the predicted computations\r\nthat have already been completed.  This research touches many areas\r\nwithin Computer Science, i.e., architecture, compilers, machine learning,\r\nsystems, and theory.  Additionally, exploiting massively parallel\r\ncomputation will produce immediate returns in multiple scientific\r\nfields that rely on computation.  The research here provides an\r\napproach to speedup on such real-world problems.\r\n\r\nThe approach used in this research views computational execution\r\nas moving a system through the enormously high dimensional space\r\nrepresented by its registers and memory of a conventional single-threaded\r\nprocessor.  It uses machine learning algorithms to observe execution\r\npatterns to make predictions about likely future states of the\r\ncomputation.  Based on these predictions, the system launches\r\npotentially large numbers of speculative threads to execute from\r\nthese likely computations, while the actual computation proceeds\r\nserially.  At strategically chosen points, the main computation\r\nqueries the speculative executions to determine if any of the\r\ncompleted computation is useful; if it is, the main thread uses the\r\nspeculative computation to immediately begin execution where the\r\nspeculative computation left off, achieving a speed-up over the\r\nserial execution.  This approach has the potential to be infinitely\r\nscalable: the more cores, memory, and communication bandwidth\r\navailable, the greater the potential for performance improvement.\r\nThe approach also scales across programs -- if the program running\r\ntoday happens upon a state encountered by a program running yesterday,\r\nthe program can reuse yesterday's computation.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jonathan",
+   "pi_last_name": "Appavoo",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jonathan Appavoo",
+   "pi_email_addr": "jappavoo@bu.edu",
+   "nsf_id": "000552443",
+   "pi_start_date": "2014-08-26",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Steven",
+   "pi_last_name": "Homer",
+   "pi_mid_init": "E",
+   "pi_sufx_name": "",
+   "pi_full_name": "Steven E Homer",
+   "pi_email_addr": "homer@bu.edu",
+   "nsf_id": "000307106",
+   "pi_start_date": "2014-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Trustees of Boston University",
+  "inst_street_address": "1 SILBER WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173534365",
+  "inst_zip_code": "022151703",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "TRUSTEES OF BOSTON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "THL6A6JLE1S7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Trustees of Boston University",
+  "perf_str_addr": "111 Cummington Street",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "022151300",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 85000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Project Outcomes</p>\n<p>For three decades, computer users have enjoyed rapid and steady increase in computer performance due to the development of faster processors, via clock scaling.&nbsp; Sadly, this scaling ground to a halt in 2003.&nbsp; Since then, newer processors have increased compute power by increasing the number of parallel compute engines.&nbsp; The implication of&nbsp; this transition is clear: if software is to run faster, we must leverage parallel computing hardware with current software.&nbsp; Simply waiting for new, parallel versions of programs is impractical: it takes too long, and in many cases, it is not known how to parallelize today's software.<br /><br />This work presents a radically new approach to the problem of parallelizing software: an architecture, the Automatically Scalable Computational Architecture (ASC), that exploits the structure inherent in computation to predict pieces of computation that might be useful in the future, proactively execute those computations (using parallel hardware resources), and then use those computations later, if the predictions turned out to be correct. Using the system's probability model, it is possible to balance expected prediction accuracy against against various costs, such as the price of electricity or the utility of other work that can be offloaded to other cores. Thus, this approach has the attractive property that it can make use of available resources in a principled way -- if there is only a single execution engine available, programs run&nbsp; exactly as they normally do; if there are a few parallel engines, programs may run a few times faster or if prediction accuracy is not sufficiently high, ASC can choose not to use them; if there are hundreds or thousands of parallel engines available and ASC has a model with high accuracy, programs may run hundreds of times faster.<br /><br />ASC is predicated on a model of computation that views program execution as a walk through the enormous state space composed of the memory and registers of a single-threaded processor.&nbsp; Each instruction execution in this model moves the system from its current point in the state space to a specific subsequent point. Proactively executing likely computation equates to predicting some state in this space that the computation is likely to encounter, executing from that state, and then storing the result of that computation in such a way that it can be efficiently found when it is later needed.<br /><br />Under this one-year grant, researchers successfully demonstrated that this approach can produce real speedup on unmodified programs. That is, for some programs, a user runs the program under the guidance of ASC, and if there are parallel resources available, the program completes more quickly than it otherwise would. They accomplished this objective by developing an optimization framework that analyzes program execution to identify places in a program that are relatively easier to predict. The prototype system then gathers samples of the program state each time it encounters one of these attractive locations. These samples serve as training data for a neural network, which can be trained on a parallel engine that would otherwise go idle or offloaded to a custom neural network accelerator. Once the network has been trained, the prototype uses the resulting model to predict likely future states and then begins executing the program from these states on other available resources. If the program ever encounters the predicted states, the program leaps forward in time to the point the parallel computation reached.&nbsp; It is this exploitation of the predicted executi...",
+  "por_txt_cntn": "\n                                           Project Outcomes\n\nFor three decades, computer users have enjoyed rapid and steady increase in computer performance due to the development of faster processors, via clock scaling.  Sadly, this scaling ground to a halt in 2003.  Since then, newer processors have increased compute power by increasing the number of parallel compute engines.  The implication of  this transition is clear: if software is to run faster, we must leverage parallel computing hardware with current software.  Simply waiting for new, parallel versions of programs is impractical: it takes too long, and in many cases, it is not known how to parallelize today's software.\n\nThis work presents a radically new approach to the problem of parallelizing software: an architecture, the Automatically Scalable Computational Architecture (ASC), that exploits the structure inherent in computation to predict pieces of computation that might be useful in the future, proactively execute those computations (using parallel hardware resources), and then use those computations later, if the predictions turned out to be correct. Using the system's probability model, it is possible to balance expected prediction accuracy against against various costs, such as the price of electricity or the utility of other work that can be offloaded to other cores. Thus, this approach has the attractive property that it can make use of available resources in a principled way -- if there is only a single execution engine available, programs run  exactly as they normally do; if there are a few parallel engines, programs may run a few times faster or if prediction accuracy is not sufficiently high, ASC can choose not to use them; if there are hundreds or thousands of parallel engines available and ASC has a model with high accuracy, programs may run hundreds of times faster.\n\nASC is predicated on a model of computation that views program execution as a walk through the enormous state space composed of the memory and registers of a single-threaded processor.  Each instruction execution in this model moves the system from its current point in the state space to a specific subsequent point. Proactively executing likely computation equates to predicting some state in this space that the computation is likely to encounter, executing from that state, and then storing the result of that computation in such a way that it can be efficiently found when it is later needed.\n\nUnder this one-year grant, researchers successfully demonstrated that this approach can produce real speedup on unmodified programs. That is, for some programs, a user runs the program under the guidance of ASC, and if there are parallel resources available, the program completes more quickly than it otherwise would. They accomplished this objective by developing an optimization framework that analyzes program execution to identify places in a program that are relatively easier to predict. The prototype system then gathers samples of the program state each time it encounters one of these attractive locations. These samples serve as training data for a neural network, which can be trained on a parallel engine that would otherwise go idle or offloaded to a custom neural network accelerator. Once the network has been trained, the prototype uses the resulting model to predict likely future states and then begins executing the program from these states on other available resources. If the program ever encounters the predicted states, the program leaps forward in time to the point the parallel computation reached.  It is this exploitation of the predicted executions leading to the \"fast-forwarding\" that produces speedup.\n\nThe prototype developed is the result of research breakthroughs in the application of optimization approaches to execution analysis, efficient representation of very large vectors of binary values, rapid program checkpoint and restart, architectural integration of neural networks, and h..."
+ }
+}

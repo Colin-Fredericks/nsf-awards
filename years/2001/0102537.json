@@ -1,0 +1,130 @@
+{
+ "awd_id": "0102537",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Robust Limited Memory Hybrid Sparse Solvers",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2001-08-15",
+ "awd_exp_date": "2006-09-30",
+ "tot_intn_awd_amt": 0.0,
+ "awd_amount": 315473.0,
+ "awd_min_amd_letter_date": "2001-08-13",
+ "awd_max_amd_letter_date": "2006-09-01",
+ "awd_abstract_narration": "Robust Limited Memory Hybrid Sparse Solvers\r\n\r\nSparse linear solvers can be broadly classified as being either 'direct' or 'iterative.' Direct solvers are based\r\non a factorization of the associated sparse matrix and are extremely robust. However, their memory requirements grow as a non-linear function of the matrix dimension because original zeroes fill-in during factorization.\r\nThe Krylov subspace (KSP) family of iterative methods are memory scalable, but their convergence\r\ncan be slow or fail altogether. This project concerns developing scalable hybrids than can be parameterized\r\nto model the range from pure iterative to pure direct methods. We propose to develop parallel algorithms\r\nand software engineering methods aimed at providing robust, limited memory hybrid solvers that satisfy the\r\ncomputational demands of a variety of applications.\r\nOn the algorithmic front, our focus is on hybrids obtained by preconditioning KSP solvers using suitable\r\nincomplete matrix factors. Such preconditioners are robust and widely applicable, but until recently they\r\nwere considered unsuitable for parallel computing. The main reason is that the sparse triangular solves for\r\napplying the preconditioner become a bottleneck due to the relatively high latency of communication. We\r\nhave recently developed a latency tolerant 'selective-inversion' scheme that overcomes this problem to yield\r\nan efficient and scalable implementation. In this project, we propose developing parallel sparse factorization\r\ntechniques that are efficient for the entire spectrum of fill-in. We will develop a new 'supernodal diagonal\r\nrow block' formulation for scalable incomplete factorization. We will also consider innovative ways of\r\ncombining symbolic (level of fill) and numeric (threshold) strategies to specify fill-in to be either retained\r\nor discarded. Additionally, our algorithmic framework enables us to provide a single, unified, extensible\r\nimplementation of hybrids for symmetric positive definite, symmetric indefinite, and nonsymmetric systems.\r\nOn the software front, we define a new 'usage model' based 'reverse engineering' process to develop a high-performance domain specific solver as a smart composite of several methods. Our premise is that the right composite solver is domain specific; substantial performance gains can be realized by selecting the right combination of underlying methods to match linear system attributes. We will obtain a uniform interface to a variety of parallel sparse solver software by developing an object-oriented sparse template library that utilizes parameterized polymorphism. Composites will be instantiated by using this template library and a scripting language that supports parallel computing using MPI.\r\nOur design goals and performance targets will be keyed to three large-scale computational science applications. The first concerns computational methods for advanced optimization; this application requires robust indefinite solvers. The second is a structural mechanics application for modeling cracks and fractures. The third application involves large sparse eigenvalue problems that arise in quantum molecular dynamics.\r\nOur project represents a concerted effort to resolve critical research issues in the area of parallel sparse\r\nmatrix computations. Our goal is to develop the next generation of sparse solvers by combining research in\r\nparallel algorithms and software engineering.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Padma",
+   "pi_last_name": "Raghavan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Padma Raghavan",
+   "pi_email_addr": "padma.raghavan@vanderbilt.edu",
+   "nsf_id": "000097691",
+   "pi_start_date": "2001-08-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Pennsylvania State Univ University Park",
+  "inst_street_address": "201 OLD MAIN",
+  "inst_street_address_2": "",
+  "inst_city_name": "UNIVERSITY PARK",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "8148651372",
+  "inst_zip_code": "168021503",
+  "inst_country_name": "United States",
+  "cong_dist_code": "15",
+  "st_cong_dist_code": "PA15",
+  "org_lgl_bus_name": "THE PENNSYLVANIA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NPM2J7MSCF61"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Pennsylvania State Univ University Park",
+  "perf_str_addr": "201 OLD MAIN",
+  "perf_city_name": "UNIVERSITY PARK",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "168021503",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "15",
+  "perf_st_cong_dist": "PA15",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "168600",
+   "pgm_ele_name": "ITR SMALL GRANTS"
+  },
+  {
+   "pgm_ele_code": "408000",
+   "pgm_ele_name": "ADVANCED COMP RESEARCH PROGRAM"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0101",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "app-0101",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0102",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0102",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0103",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0103",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2001,
+   "fund_oblg_amt": 96381.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2002,
+   "fund_oblg_amt": 99415.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2003,
+   "fund_oblg_amt": 119677.0
+  }
+ ],
+ "por": null
+}

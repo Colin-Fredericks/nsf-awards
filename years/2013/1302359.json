@@ -1,0 +1,101 @@
+{
+ "awd_id": "1302359",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Medium: Collaborative Research: The Commutativity Rule for Scalable System Software",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2013-09-09",
+ "awd_max_amd_letter_date": "2013-09-09",
+ "awd_abstract_narration": "After decades of reliable improvement, processor speeds have\r\nflattened; for the foreseeable future, computers will add processing\r\npower by adding more processors, rather than faster ones. This is a\r\ntremendous challenge for software designers. It's far too easy for\r\nsoftware using multiple processors to burn up a growing fraction of\r\navailable processing power on coordination overheads like locking,\r\nrather than actual work. That is, it's far too easy for software to\r\nnot scale: to get slower as processors are added. And an important\r\nreason for this is simply that scalability is poorly understood. Some\r\nprograms don't scale because they're badly written, but others don't\r\nscale because their goals are fundamentally impossible to accomplish\r\nin a scalable way. Programmers lack effective tools for high-level\r\nreasoning about software scalability limitations, and thus waste\r\neffort on both impossible and uninteresting tasks.\r\n\r\nWe will produce the first well-grounded and formal reasoning procedure\r\nfor scalability that is flexible enough to apply to an entire\r\noperating system. Our scalability rule links commutativity and\r\nscalability. We characterize software interfaces as more or less\r\ninherently scalable depending on the contexts in which those\r\ninterfaces commute: the more commutative an interface (that is, the\r\nmore often the order of its function calls doesn't matter), the more\r\nscalable an implementation can be. We prove that a scalable\r\nimplementation exists for any commutative context. This idea can\r\nalready guide software designers in developing easily-scalable\r\ninterfaces, but we will also provide a set of automated tools for\r\nmeasuring interface commutativity and for finding implementation\r\nscalability bottlenecks, and evaluate our ideas in a highly-scalable\r\noperating system. The resulting tools and ideas could make scalable\r\nsoftware far easier to design and program, and thus help software\r\ndesigners provide the software performance on which so much of our\r\neconomy depends.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Edward",
+   "pi_last_name": "Kohler",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Edward Kohler",
+   "pi_email_addr": "kohler@seas.harvard.edu",
+   "nsf_id": "000099226",
+   "pi_start_date": "2013-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Harvard University",
+  "inst_street_address": "1033 MASSACHUSETTS AVE STE 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6174955501",
+  "inst_zip_code": "021385366",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MA05",
+  "org_lgl_bus_name": "PRESIDENT AND FELLOWS OF HARVARD COLLEGE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LN53LCFJFL45"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Harvard University",
+  "perf_str_addr": "29 Oxford St, MD327",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021382933",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>After decades of reliable improvement, processor speeds have flattened; for the foreseeable future, computers will add processing power by adding more processors, rather than faster ones. Yet much software using multiple processors spends more time on coordination overheads than actual work! In the worst case, software gets slower as processors are added -- either because the software is badly written, or because its goals are fundamentally impossible to accomplish in a scalable way.</p>\n<p>The key to fixing this problem is understanding it. What kinds of software can be made to scale -- to run faster as more processors are added? Can scalability opportunities be identified independent of a specific piece of possibly-buggy code?</p>\n<p>This project answers this question with the Scalable Commutativity Rule: \"Whenever interface operations commute, they can be implemented in a way that scales (on hardware like today's computers).\" The interface governs how the software should behave, independent of its code. We say the interface commutes when a handful of operations can execute independent of order -- that is, when later operations can't tell what order actually occurred. Commutativity is easy to think about, but hard to precisely define. We developed a novel form of commutativity, SIM commutativity, that lets the rule apply even to the most complex software. We were able to show that given this novel form of commutativity, the rule is actually a law, true in a strict formal sense.</p>\n<p>Precise reasoning about commutativity helps software designers understand the limits of software performance. It also helps software designers find new opportunities for speed. For instance, reasoning about commutativity helped us design new database-like software systems, for both multi-core processors and multi-machine systems, that can process transactions at greatly increased rates. These systems perform better at scale precisely because they explicitly take advantage of commutativity, whereas some previous systems' designs ignored the commutativity present in their problem definitions, and thus failed in some cases to scale.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/25/2018<br>\n\t\t\t\t\tModified by: Edward&nbsp;Kohler</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAfter decades of reliable improvement, processor speeds have flattened; for the foreseeable future, computers will add processing power by adding more processors, rather than faster ones. Yet much software using multiple processors spends more time on coordination overheads than actual work! In the worst case, software gets slower as processors are added -- either because the software is badly written, or because its goals are fundamentally impossible to accomplish in a scalable way.\n\nThe key to fixing this problem is understanding it. What kinds of software can be made to scale -- to run faster as more processors are added? Can scalability opportunities be identified independent of a specific piece of possibly-buggy code?\n\nThis project answers this question with the Scalable Commutativity Rule: \"Whenever interface operations commute, they can be implemented in a way that scales (on hardware like today's computers).\" The interface governs how the software should behave, independent of its code. We say the interface commutes when a handful of operations can execute independent of order -- that is, when later operations can't tell what order actually occurred. Commutativity is easy to think about, but hard to precisely define. We developed a novel form of commutativity, SIM commutativity, that lets the rule apply even to the most complex software. We were able to show that given this novel form of commutativity, the rule is actually a law, true in a strict formal sense.\n\nPrecise reasoning about commutativity helps software designers understand the limits of software performance. It also helps software designers find new opportunities for speed. For instance, reasoning about commutativity helped us design new database-like software systems, for both multi-core processors and multi-machine systems, that can process transactions at greatly increased rates. These systems perform better at scale precisely because they explicitly take advantage of commutativity, whereas some previous systems' designs ignored the commutativity present in their problem definitions, and thus failed in some cases to scale.\n\n \n\n\t\t\t\t\tLast Modified: 09/25/2018\n\n\t\t\t\t\tSubmitted by: Edward Kohler"
+ }
+}

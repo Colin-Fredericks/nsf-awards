@@ -1,0 +1,105 @@
+{
+ "awd_id": "1408745",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Medium: A Balance of Power: Programming and Reasoning for Software-Defined Networks",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-07-01",
+ "awd_exp_date": "2019-06-30",
+ "tot_intn_awd_amt": 1004152.0,
+ "awd_amount": 1004152.0,
+ "awd_min_amd_letter_date": "2014-05-14",
+ "awd_max_amd_letter_date": "2014-05-14",
+ "awd_abstract_narration": "Computer networks use switches, routers, and other devices to process and forward traffic. In a traditional network, these devices coordinate to agree on how traffic should be forwarded. Software-defined networks (SDN) replace this distributed control with a logically centralized controller program which dictates forwarding behavior to each device by installing rules which can include instructions to send certain traffic to the controller for processing or notification. Incorrect rules can lead to the controller missing vital notifications, giving it an incorrect view of the network's state and potentially harming network functionality. On the other hand, if traffic is sent to the controller needlessly, performance can suffer.\r\n\r\nThis project is developing Flowlog, a tierless SDN programming language. A tierless language unifies the disparate layers of programming for SDNs: the controller program itself, switch forwarding rules, and the controller's internal state. Flowlog safely handles rule-management on the switches automatically, without any intervention from the programmer. This not only simplifies development, but also prevents the above bugs that can arise from manual rule-installation. Finally, Flowlog programs can interact with arbitrary other programs, even those not written in Flowlog. Since a failure in a controller program can compromise the entire network, program reliability is of central importance. Thus, Flowlog is designed to enable automatic reasoning about programs, and the project is building in support for program verification (both for a specific network and in general), differential analysis, fault-tolerance testing, and even automated repair of errant programs.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Shriram",
+   "pi_last_name": "Krishnamurthi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Shriram Krishnamurthi",
+   "pi_email_addr": "sk+17@cs.brown.edu",
+   "nsf_id": "000280993",
+   "pi_start_date": "2014-05-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Brown University",
+  "inst_street_address": "1 PROSPECT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "PROVIDENCE",
+  "inst_state_code": "RI",
+  "inst_state_name": "Rhode Island",
+  "inst_phone_num": "4018632777",
+  "inst_zip_code": "029129100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "RI01",
+  "org_lgl_bus_name": "BROWN UNIVERSITY",
+  "org_prnt_uei_num": "E3FDXZ6TBHW3",
+  "org_uei_num": "E3FDXZ6TBHW3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Brown University",
+  "perf_str_addr": "Office of Sponsored Projects",
+  "perf_city_name": "Providence",
+  "perf_st_code": "RI",
+  "perf_st_name": "Rhode Island",
+  "perf_zip_code": "029129093",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "RI01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 1004152.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The team contributed several novel results to the specific area of improving the robustness of software-defined networks, which are a critical new frontier in computer networking. This includes both traditional and novel forms of analysis to help programmers ensure their networks are functioning correctly.</p>\n<p>The team generalized their work to provide fundamental new results in the area of model-finding, which underlies not only their work but several other projects. These new results identify interesting ways to construct output in a human-meaningful way, hopefully making them more useful to the broader range of users (such as network operators) that are now seeing the output of such tools. These forms of output are designed to sit at the intersection of intellectual merit and broader impact, applying mathematically sophisticated techniques to make systems better for end-users.</p>\n<p>Due to the emphasis on human-meaingful resutls, the team also initiated a new line of work into the human factors of such \"principled\" output. The results from this study were fascinating. In particular, forms that most readers (including research reviewers) assumed would obviously be better for users &mdash; such as presenting the smallest examples &mdash; turned out to be very misleading, causing users to arrive at the wrong conclusions and therefore apply incorrect fixes, which is precisely the opposite of the intent of the research. This line of work is still preliminary but should engender much more skepticism about such tools in future, also showing the need for a cycle between new mathematical results and user studies that evaluate their effectiveness (and, in particular, potential for harm).</p>\n<p>Finally, the team has made significant progress on another important form of broader impact: education. They have not only incorporated their and related research content into programming languages courses, they have made significant progress on their innovative \"Logic for Systems\" course at Brown. This course is a bottom-up introduction to formal methods, driven by students' inherent impulse to model systems of interest. The course is extremely popular (despite its seemingly obscure content) and course evals are excellent. However, not content to rest on these, the team has begun to initiate research studies into the course's educational effectiveness.<br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/05/2019<br>\n\t\t\t\t\tModified by: Shriram&nbsp;Krishnamurthi</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe team contributed several novel results to the specific area of improving the robustness of software-defined networks, which are a critical new frontier in computer networking. This includes both traditional and novel forms of analysis to help programmers ensure their networks are functioning correctly.\n\nThe team generalized their work to provide fundamental new results in the area of model-finding, which underlies not only their work but several other projects. These new results identify interesting ways to construct output in a human-meaningful way, hopefully making them more useful to the broader range of users (such as network operators) that are now seeing the output of such tools. These forms of output are designed to sit at the intersection of intellectual merit and broader impact, applying mathematically sophisticated techniques to make systems better for end-users.\n\nDue to the emphasis on human-meaingful resutls, the team also initiated a new line of work into the human factors of such \"principled\" output. The results from this study were fascinating. In particular, forms that most readers (including research reviewers) assumed would obviously be better for users &mdash; such as presenting the smallest examples &mdash; turned out to be very misleading, causing users to arrive at the wrong conclusions and therefore apply incorrect fixes, which is precisely the opposite of the intent of the research. This line of work is still preliminary but should engender much more skepticism about such tools in future, also showing the need for a cycle between new mathematical results and user studies that evaluate their effectiveness (and, in particular, potential for harm).\n\nFinally, the team has made significant progress on another important form of broader impact: education. They have not only incorporated their and related research content into programming languages courses, they have made significant progress on their innovative \"Logic for Systems\" course at Brown. This course is a bottom-up introduction to formal methods, driven by students' inherent impulse to model systems of interest. The course is extremely popular (despite its seemingly obscure content) and course evals are excellent. However, not content to rest on these, the team has begun to initiate research studies into the course's educational effectiveness.\n\n\n\n\t\t\t\t\tLast Modified: 07/05/2019\n\n\t\t\t\t\tSubmitted by: Shriram Krishnamurthi"
+ }
+}

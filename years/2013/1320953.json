@@ -1,0 +1,105 @@
+{
+ "awd_id": "1320953",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF: Small:  Theory and Algorithms for Scalable Learning of Sparse Representations",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2013-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 499740.0,
+ "awd_amount": 499740.0,
+ "awd_min_amd_letter_date": "2013-06-24",
+ "awd_max_amd_letter_date": "2017-06-06",
+ "awd_abstract_narration": "Many applications in signal and image processing and imaging depend critically on sparse representations for natural signals or images. This research addresses the development of improved sparse representations that are directly adapted to the data, rather than being fixed a priori by general theoretical considerations. Such data-driven learning of sparse structure has been finding broad applications. The improvements over fixed representation are especially significant for high-dimensional data. This research aims to overcome limitations of the current methods by reducing the computation to enable scaling to big data problems, improving robustness and predictability of outcome, and developing a theory quantifying the expected performance and the factors affecting it. Applications are foreseen in all areas of science and engineering, including medical diagnostics, multimedia, defense, manufacturing, communications, database retrieval, and data analytics. \r\n \r\nIn particular, this research leverages a new formulation recently introduced by the PI for data-driven learning of \"sparsifying transforms\", which are relatives of analysis dictionaries. Initial results in image denoising show slightly better PSNR than with learnt synthesis dictionaries, but at orders of magnitude less computation.  Theory predicts better scaling with exemplar size, and experiments demonstrate robust convergence irrespective of initialization.  Specific objectives of this research are: (1) develop theory and scalable algorithms for learning sparsifying transforms; (2)  develop theory for joint learning of sparsifying transforms and signal recovery in compressed sensing and other inverse problems; and, (3) demonstrate key large-scale applications with real data. These applications include: (i) denoising, restoration, and compressed sensing of 3D and 4D data in magnetic resonance imaging, in computerized tomography, in microscopy, and in video; and (ii) image classification and recognition.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yoram",
+   "pi_last_name": "Bresler",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yoram Bresler",
+   "pi_email_addr": "ybresler@uiuc.edu",
+   "nsf_id": "000463491",
+   "pi_start_date": "2013-06-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618207473",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "793600",
+   "pgm_ele_name": "SIGNAL PROCESSING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7936",
+   "pgm_ref_txt": "SIGNAL PROCESSING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 499740.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The sparsity of signals and images in a certain transform domain or dictionary has been exploited in many applications in signal and image processing, including compression, denoising, and compressed sensing.These various applications used sparsifying transforms or dictionaries such as finite differences, DCT, and wavelets, all of which had a fixed, analytical form. Instead, the data-driven learning of sparse models such as the synthesis dictionary model has become popular recently. This is a powerful concept, providing dramatic improvements, especially for high-dimensional data, for which it is difficult to design effective analytical dictionaries. This research project focused on a new formulation for data-driven learning of the alternative sparsifying transform model, which offers numerous advantages over the synthesis dictionary model. The research extended the formulations, theory, and methodology of learning sparse signal representation from data, as well as enabled and demonstrated several applications, which have been infeasible before. &nbsp;In particular, by overcoming the limitations on the scalability of previous methods, this research provided tools broadly applicable to data-driven learning of sparse structure, especially for the efficient processing of large volumes of data, using light, low-energy computation.</p>\n<p>Transform learning is complementary to deep learning methods for signal modeling and solving inverse problems. First, unlike deep learning, transform learning works on a single instance without the need for training data. Hence, it is especially applicable to \"small data\" and discovery scenarios. Second, unlike deep learning which requires massive computational resources for both training and inference, transform learning is light in computational resources. And third, unlike deep learning, which is often not interpretable and not robust, transform learning is inherently interpretable and robust.</p>\n<p>This research has demonstrated promising performance for transform learning methods in sparse representation, image and video denoising, classification, and compressed sensing (MRI and CT image reconstruction) tasks. It also established several convergence guarantees for the transform learning or image reconstruction schemes, which were previously lacking for prior adaptive dictionary-based methods.</p>\n<p>&nbsp;Specific advances made in this project include the following.</p>\n<ul>\n</ul>\n<ul>\n<li>Efficient algorithms for learning sparsifying transforms with closed-form updates.</li>\n<li>A convex formulation for learning an efficient sparsifying transform</li>\n<li>An extension of the framework to learn a union of transforms instead of a single transform, enabling to better capture the diversity of features in a single natural image.</li>\n<li>A simultaneous sparsity and low-rank model to better represent natural  images in image recovery tasks. It exploits both local patch sparsity  using a learned transform, and non-local structure using low-rankness of  grouped patches.</li>\n<li>A new&nbsp; framework, where the learned sparsifying transform is an  undecimated perfect reconstruction filter bank, acting on an entire image. This linked the local properties of the patch-based prior transform  model to the global properties of a convolutional model, and provides additional flexibility in the structure of the learned transform.</li>\n<li>A method leveraging the learned filter bank formulation for automatic parameter tuning for image denoising.</li>\n<li>An extension of the batch transform learning to highly efficient on-line algorithms for learning of sparsifying transforms, which are particularly useful for big data or real-time applications. One such is a&nbsp; framework for online video denoising based on high dimensional sparsifying transform learning for spatiotemporal patches (tensors). </li>\n<li>A framework for blind compressed sensing using sparsifying transforms, where the underlying sparse signal model is a priori unknown, to simultaneously reconstruct the underlying image as well as the unknown model from a single instance of highly undersampled measurements. This was applied to develop algorithms for model-based iterative tomographic reconstruction for x-ray dose reduction, and for highly-accelerated MR imaging.</li>\n<li>To further the understanding of the relation between different Image Models and Priors for Restoration Problems, a theoretical analysis was developed and validated by numerical experiments on the effectiveness of different image models, including sparsity, groupwise sparsity, joint sparsity, and low-rankness, both in isolation, and in combination. </li>\n</ul>\n<p>The results of this project have been disseminated in journal and conference publications, and in 30 invited lectures worldwide, and are made available to the research community on the website <strong><em>Transform Learning: Representations at Scale <strong><em><a href=\"http://transformlearning.csl.illinois.edu/\">http://transformlearning.csl.illinois.edu/</a></em></strong></em></strong></p>\n<p>In addition to published materials and presentations,&nbsp; this website contains software packages implementing the various proposed methods. Since its establishment, hundreds of research groups worldwide have downloaded the software.</p>\n<p>Thanks to its broad disciplinary range including fundamental mathematics, signal processing, imaging physics, and computing, this project provided a rich training ground for the participant graduate students and a post-doctoral scholar. In particular, they were trained in research on advanced mathematical signal and image processing techniques, with applications to big-data science, resulting in 2 MS theses and 3 PhD dissertations.</p>\n<p>The research in this project has potential impact on applications in multimedia, medical diagnostics, remote sensing, defense, manufacturing, and other imaging and image and video processing applications. The technology developed in the project led to a US utility patent granted to the University of Illinois, which could help commercialize this technology.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/30/2022<br>\n\t\t\t\t\tModified by: Yoram&nbsp;Bresler</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe sparsity of signals and images in a certain transform domain or dictionary has been exploited in many applications in signal and image processing, including compression, denoising, and compressed sensing.These various applications used sparsifying transforms or dictionaries such as finite differences, DCT, and wavelets, all of which had a fixed, analytical form. Instead, the data-driven learning of sparse models such as the synthesis dictionary model has become popular recently. This is a powerful concept, providing dramatic improvements, especially for high-dimensional data, for which it is difficult to design effective analytical dictionaries. This research project focused on a new formulation for data-driven learning of the alternative sparsifying transform model, which offers numerous advantages over the synthesis dictionary model. The research extended the formulations, theory, and methodology of learning sparse signal representation from data, as well as enabled and demonstrated several applications, which have been infeasible before.  In particular, by overcoming the limitations on the scalability of previous methods, this research provided tools broadly applicable to data-driven learning of sparse structure, especially for the efficient processing of large volumes of data, using light, low-energy computation.\n\nTransform learning is complementary to deep learning methods for signal modeling and solving inverse problems. First, unlike deep learning, transform learning works on a single instance without the need for training data. Hence, it is especially applicable to \"small data\" and discovery scenarios. Second, unlike deep learning which requires massive computational resources for both training and inference, transform learning is light in computational resources. And third, unlike deep learning, which is often not interpretable and not robust, transform learning is inherently interpretable and robust.\n\nThis research has demonstrated promising performance for transform learning methods in sparse representation, image and video denoising, classification, and compressed sensing (MRI and CT image reconstruction) tasks. It also established several convergence guarantees for the transform learning or image reconstruction schemes, which were previously lacking for prior adaptive dictionary-based methods.\n\n Specific advances made in this project include the following.\n\n\n\nEfficient algorithms for learning sparsifying transforms with closed-form updates.\nA convex formulation for learning an efficient sparsifying transform\nAn extension of the framework to learn a union of transforms instead of a single transform, enabling to better capture the diversity of features in a single natural image.\nA simultaneous sparsity and low-rank model to better represent natural  images in image recovery tasks. It exploits both local patch sparsity  using a learned transform, and non-local structure using low-rankness of  grouped patches.\nA new  framework, where the learned sparsifying transform is an  undecimated perfect reconstruction filter bank, acting on an entire image. This linked the local properties of the patch-based prior transform  model to the global properties of a convolutional model, and provides additional flexibility in the structure of the learned transform.\nA method leveraging the learned filter bank formulation for automatic parameter tuning for image denoising.\nAn extension of the batch transform learning to highly efficient on-line algorithms for learning of sparsifying transforms, which are particularly useful for big data or real-time applications. One such is a  framework for online video denoising based on high dimensional sparsifying transform learning for spatiotemporal patches (tensors). \nA framework for blind compressed sensing using sparsifying transforms, where the underlying sparse signal model is a priori unknown, to simultaneously reconstruct the underlying image as well as the unknown model from a single instance of highly undersampled measurements. This was applied to develop algorithms for model-based iterative tomographic reconstruction for x-ray dose reduction, and for highly-accelerated MR imaging.\nTo further the understanding of the relation between different Image Models and Priors for Restoration Problems, a theoretical analysis was developed and validated by numerical experiments on the effectiveness of different image models, including sparsity, groupwise sparsity, joint sparsity, and low-rankness, both in isolation, and in combination. \n\n\nThe results of this project have been disseminated in journal and conference publications, and in 30 invited lectures worldwide, and are made available to the research community on the website Transform Learning: Representations at Scale http://transformlearning.csl.illinois.edu/\n\nIn addition to published materials and presentations,  this website contains software packages implementing the various proposed methods. Since its establishment, hundreds of research groups worldwide have downloaded the software.\n\nThanks to its broad disciplinary range including fundamental mathematics, signal processing, imaging physics, and computing, this project provided a rich training ground for the participant graduate students and a post-doctoral scholar. In particular, they were trained in research on advanced mathematical signal and image processing techniques, with applications to big-data science, resulting in 2 MS theses and 3 PhD dissertations.\n\nThe research in this project has potential impact on applications in multimedia, medical diagnostics, remote sensing, defense, manufacturing, and other imaging and image and video processing applications. The technology developed in the project led to a US utility patent granted to the University of Illinois, which could help commercialize this technology.\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 08/30/2022\n\n\t\t\t\t\tSubmitted by: Yoram Bresler"
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "awd_id": "2411204",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Elements: LHCb Upgrade II: Tackling the 200 Tb/s challenge",
+ "cfda_num": "47.049, 47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922656",
+ "po_email": "vchandol@nsf.gov",
+ "po_sign_block_name": "Varun Chandola",
+ "awd_eff_date": "2024-08-01",
+ "awd_exp_date": "2027-07-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2024-07-28",
+ "awd_max_amd_letter_date": "2024-07-28",
+ "awd_abstract_narration": "The Standard Model of particle physics describes all known fundamental forces except gravity. It has proven capable of describing physical phenomenon to remarkable precision. However, it fails to describe all aspects of our universe, indicating there must be other forces beyond those that we currently know about. The LHCb experiment is one of the four main experiments at the Large Hadron Collider (LHC), CERN. It specializes in detecting differences between matter and anti-matter, using a heavy type of quark called a beauty quark. Billions of quarks are produced every second in collisions at LHC, which in turn decay to other particles, producing a so-called event in our detector.  These events result in a data rate of around 40 Tb/s under current data-taking conditions. Not all this data can be saved, and the rate must be reduced in real-time by more than a factor ten. We call the algorithms used in real-time selection of events the \"trigger\". The LHCb Upgrade II experiment will run in the 2030s and will deal with a data rate of 200 Tb/s, the largest at the LHC. This rate has to be reduced by four orders of magnitude before being written out. To achieve this, the electronics present on or near the sub-detectors, called Field Programmable Gate Arrays (FPGAs), must be leveraged. Ideally machine learning (ML) algorithms would be employed on the FPGAs as these algorithms give improved performance. This is currently difficult for the LHCb experiment as the community-standard package that interfaces trained ML models to FPGA backends, hls4ml, has limited functionality for the two most prolific FPGA types used in LHCb. This project extends the functionality of hls4ml, significantly expanding the user-base. It also develops the first machine-learning based lossy compression algorithms to run on the electronics infrastructure within LHCb, with a speed on the order of tens of nano seconds, along with other algorithms to run in the LHCb Upgrade II trigger on both FPGAs and GPU architectures.\r\n \r\nThe LHCb Upgrade II experiment will run at the Large Hadron Collider at CERN from 2033-2041 and will supersede the current LHCb Upgrade I (2022-2029).  The current LHCb trigger system is unique in particle physics in that the full 40Tb/s of data produced by the experiment is fed into software, where it is processed using a GPU-based architecture which reduces the rate using a real-time event filter (trigger). The data rate of the LHCb Upgrade II experiment will be five times higher than the current rate, at 200 Tb/s. The data rate must be reduced by around four orders of magnitude before being sent to storage, and the large rates mean that data reduction must occur even before the computing farm. Without sophisticated trigger algorithms before the computing farm, many of the detector read outs will simply be thrown away, resulting in a significant loss of physics information. In recent years there has been rapid progress in fast machine learning (ML) algorithms run on FPGA accelerators present in the electronics that sit on or close to the detector readout.  Despite the obvious relevance of using ML algorithms on FPGAs to overcome LHCb's 200 Tb/s problem, the collaboration has been slow to profit from this progress.  This is in part because the community-standard package that interfaces trained ML models to FPGA backends, hls4ml, has limited functionality for the two most prolific FPGA types used in LHCb, Intel and Microchip.  One of the sub-projects on this proposal will extend the scope of hls4ml to include these backends, significantly expanding the user-base of hls4ml. This project will then develop the first low-latency ML-based lossy compression algorithms to run on the electronics infrastructure within LHCb. This will allow the collaboration to assess the validity of fast ML on FPGAs as a solution to the 200 Tb/s problem.   This project will also build on the work of the previous CSSI grant, OAC-2004645, and develop and implement reconstruction algorithms to run in the Upgrade II trigger which are tested and developed for both GPU and FPGA backends, allowing LHCb to have the flexibility to choose whichever architecture offers the most cost-effective solution in 2033.\r\n\r\nThis award by the Office of Advanced Cyberinfrastructure is jointly supported by the Division of Physics in the Mathematics and Physical Sciences Directorate.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Eluned",
+   "pi_last_name": "Smith",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Eluned Smith",
+   "pi_email_addr": "eluned@mit.edu",
+   "nsf_id": "000918162",
+   "pi_start_date": "2024-07-28",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Mike",
+   "pi_last_name": "Williams",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mike Williams",
+   "pi_email_addr": "mwill@mit.edu",
+   "nsf_id": "000630872",
+   "pi_start_date": "2024-07-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "125300",
+   "pgm_ele_name": "OFFICE OF MULTIDISCIPLINARY AC"
+  },
+  {
+   "pgm_ele_code": "755300",
+   "pgm_ele_name": "PHYSICS AT THE INFO FRONTIER"
+  },
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "075Z",
+   "pgm_ref_txt": "Artificial Intelligence (AI)"
+  },
+  {
+   "pgm_ref_code": "4444",
+   "pgm_ref_txt": "INTERDISCIPLINARY PROPOSALS"
+  },
+  {
+   "pgm_ref_code": "7569",
+   "pgm_ref_txt": "CYBERINFRASTRUCTURE/SCIENCE"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8004",
+   "pgm_ref_txt": "Software Institutes"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 600000.0
+  }
+ ],
+ "por": null
+}

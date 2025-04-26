@@ -1,0 +1,101 @@
+{
+ "awd_id": "1039657",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "FIA:  Collaborative Research: MobilityFirst: A Robust and Trustworthy Mobility-Centric Architecture for the Future Internet",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 540000.0,
+ "awd_amount": 540000.0,
+ "awd_min_amd_letter_date": "2010-08-26",
+ "awd_max_amd_letter_date": "2012-11-09",
+ "awd_abstract_narration": "This project is aimed at the design and experimental validation of a comprehensive clean-slate future Internet architecture. The proposed MobilityFirst architecture is motivated by the ongoing paradigm shift of Internet usage from today?s fixed PC/host (client)?server model to emerging mobile data services and pervasive computing applications. The major design goals of the architecture are: mobility as the norm with dynamic host and network mobility at scale; robustness with respect to intrinsic properties of the wireless medium; trustworthiness in the form of enhanced security and privacy; usability features such as support for context-aware services, evolvability, manageability and economic viability.  The key components of the MobilityFirst network design are: (1) separation of naming and addressing, implemented via a fast global dynamic name resolution service; (2) self-certifying public key network addresses to support strong authentication and security; (3) generalized delay-tolerant routing with in-network storage for packets in transit; (4) flat-label internetwork routing with public key addresses; (5) hop-by-hop transport protocols operating over segments rather than an end-to-end path; (6) a separate network management plane that provides enhanced visibility; (7) optional privacy features for user and location data; and (8) an integrated computing and storage layer to support programmability. The project?s scope includes architectural design, validation of key protocol components, testbed prototyping of the MobilityFirst architecture as a whole, and real-world protocol deployment on the GENI experimental infrastructure. The results of this project will provide architectural guidance for cellular-Internet convergence, and are expected to influence future technical standards in the networking industry.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Zhuoqing",
+   "pi_last_name": "Mao",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Zhuoqing M Mao",
+   "pi_email_addr": "zmao@umich.edu",
+   "nsf_id": "000490161",
+   "pi_start_date": "2010-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Regents of the University of Michigan - Ann Arbor",
+  "inst_street_address": "1109 GEDDES AVE STE 3300",
+  "inst_street_address_2": "",
+  "inst_city_name": "ANN ARBOR",
+  "inst_state_code": "MI",
+  "inst_state_name": "Michigan",
+  "inst_phone_num": "7347636438",
+  "inst_zip_code": "481091015",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "MI06",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF MICHIGAN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GNJ7BBP73WE9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Regents of the University of Michigan - Ann Arbor",
+  "perf_str_addr": "1109 GEDDES AVE STE 3300",
+  "perf_city_name": "ANN ARBOR",
+  "perf_st_code": "MI",
+  "perf_st_name": "Michigan",
+  "perf_zip_code": "481091015",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "MI06",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "171400",
+   "pgm_ele_name": "Special Projects - CNS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7363",
+   "pgm_ref_txt": "RES IN NETWORKING TECH & SYS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 540000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The technical accomplishments of the project are &nbsp;four-fold, addressing the key challenges of designing and deploying a future Internet network architecture (MobilityFirst) to support seamless mobility.</p>\n<p>(1) Flexible interdomain routing and high-speed, memory-efficient forwarding support:&nbsp;&nbsp;we present Caesar, a high-speed and length-agnostic forwarding engine for future border routers, performing most of the lookups within three fast memory accesses. To compress forwarding states, Caesar constructs scalable and reliable Bloom filters in Ternary Content Addressable Memory (TCAM). To guarantee correctness, Caesar detects false positives at high speed and develops a blacklisting approach to handling them. In addition, we optimize our design by introducing a hashing scheme that reduces the number of hash computations from k to log(k) per lookup based on hash coding theory. We handle routing updates while keeping filters highly utilized in address removals. &nbsp;Our evaluation shows that Caesar is more energy-efficient and less expensive (in terms of total material cost) compared to optimized IPv6 TCAM-based solutions by up to 67% and 43% respectively. In addition, the total cost of our design is approximately the same for various address lengths.</p>\n<p>(2) Intelligent Radio Resource Deallocation for Cellular Networks to support high mobility patterns:&nbsp;we proposes RadioProphet (RP), a practical system running on a handset that makes dynamic decisions to deallocate radio resources based on accurate and efficient prediction of network idle times. It makes the following contributions. &nbsp;First, RP utilizes standard online machine learning (ML) algorithms to accurately predict the network idle time, and performs resource deallocation only when the idle time is sufficiently long. &nbsp;Second, we implement RP on a real Android smartphone to demonstrate its negligible energy and CPU overhead.&nbsp;Third, we overcome critical limitations of previously proposed approaches, i.e., RadioJockey and MakeIdle / MakeActive are only applicable to background applications without user interaction, with the ideal usage scenario of RadioJockey for a single application only.&nbsp;Fourth, we conduct comprehensive measurement of RP using real-world smartphone traces (7 months from 20 users). The overall prediction accuracy is 85.9%. RP achieves radio energy saving by 59.1%, at the cost of 91.0% additional signaling overhead in LTE networks, significantly outperforming previous proposals.</p>\n<p>(3) &nbsp;A Self&shy;-Learning System for Classifying Mobile Application Traffic: &nbsp;The mobile application traffic classification support is a critical network management component of the MobilityFirst architecture, serving the purpose of traffic engineering support by effectively classifying the traffic according different application types to support network management based on mobile traffic characteristics. &nbsp;We propose FLOWR, a system that identifies flows belonging to individual apps probabilistically in real time. FLOWR extracts the key&shy;value pairs in HTTP query strings and selects the ones that are best suited to be turned into signatures that can identify apps. The generating app of each flow can be identified in real time using signature matching against an app signature database. To minimize the need for supervised learning in constructing the database, FLOWR autonomously grows the signature database leveraging on the property that flow signatures from the same app should co&shy;occur repeatedly. Using as a ground truth the apps that explicitly identify themselves in their traffic with the Doubleclick service, we show that FLOWR can accurately associate to their generating app 86&ndash;99% of flows. More specifically, FLOWR uniquely identifies the generating app of 26&ndash;30% of the flows and narrows down the generating app of another 60&ndash;65% ...",
+  "por_txt_cntn": "\nThe technical accomplishments of the project are  four-fold, addressing the key challenges of designing and deploying a future Internet network architecture (MobilityFirst) to support seamless mobility.\n\n(1) Flexible interdomain routing and high-speed, memory-efficient forwarding support:  we present Caesar, a high-speed and length-agnostic forwarding engine for future border routers, performing most of the lookups within three fast memory accesses. To compress forwarding states, Caesar constructs scalable and reliable Bloom filters in Ternary Content Addressable Memory (TCAM). To guarantee correctness, Caesar detects false positives at high speed and develops a blacklisting approach to handling them. In addition, we optimize our design by introducing a hashing scheme that reduces the number of hash computations from k to log(k) per lookup based on hash coding theory. We handle routing updates while keeping filters highly utilized in address removals.  Our evaluation shows that Caesar is more energy-efficient and less expensive (in terms of total material cost) compared to optimized IPv6 TCAM-based solutions by up to 67% and 43% respectively. In addition, the total cost of our design is approximately the same for various address lengths.\n\n(2) Intelligent Radio Resource Deallocation for Cellular Networks to support high mobility patterns: we proposes RadioProphet (RP), a practical system running on a handset that makes dynamic decisions to deallocate radio resources based on accurate and efficient prediction of network idle times. It makes the following contributions.  First, RP utilizes standard online machine learning (ML) algorithms to accurately predict the network idle time, and performs resource deallocation only when the idle time is sufficiently long.  Second, we implement RP on a real Android smartphone to demonstrate its negligible energy and CPU overhead. Third, we overcome critical limitations of previously proposed approaches, i.e., RadioJockey and MakeIdle / MakeActive are only applicable to background applications without user interaction, with the ideal usage scenario of RadioJockey for a single application only. Fourth, we conduct comprehensive measurement of RP using real-world smartphone traces (7 months from 20 users). The overall prediction accuracy is 85.9%. RP achieves radio energy saving by 59.1%, at the cost of 91.0% additional signaling overhead in LTE networks, significantly outperforming previous proposals.\n\n(3)  A Self&shy;-Learning System for Classifying Mobile Application Traffic:  The mobile application traffic classification support is a critical network management component of the MobilityFirst architecture, serving the purpose of traffic engineering support by effectively classifying the traffic according different application types to support network management based on mobile traffic characteristics.  We propose FLOWR, a system that identifies flows belonging to individual apps probabilistically in real time. FLOWR extracts the key&shy;value pairs in HTTP query strings and selects the ones that are best suited to be turned into signatures that can identify apps. The generating app of each flow can be identified in real time using signature matching against an app signature database. To minimize the need for supervised learning in constructing the database, FLOWR autonomously grows the signature database leveraging on the property that flow signatures from the same app should co&shy;occur repeatedly. Using as a ground truth the apps that explicitly identify themselves in their traffic with the Doubleclick service, we show that FLOWR can accurately associate to their generating app 86&ndash;99% of flows. More specifically, FLOWR uniquely identifies the generating app of 26&ndash;30% of the flows and narrows down the generating app of another 60&ndash;65% of the flows to 5 or fewer candidates, with a false positive rate below 1%. \n\n(4) SDN based architecture for cellular WAN design: it creates..."
+ }
+}

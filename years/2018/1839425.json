@@ -1,0 +1,96 @@
+{
+ "awd_id": "1839425",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "A Unified Manifold-Based Approach to Modeling Turbulent Combustion",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Daily",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2022-08-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2018-08-06",
+ "awd_max_amd_letter_date": "2018-08-06",
+ "awd_abstract_narration": "One of the major impediments to the development of new high-efficiency low-emissions combustion systems is the lack of reliable, affordable, predictive computational models for describing turbulent combustion. The primary challenge in developing such models is describing the relationship between combustion processes and turbulence. While a broad range of models have been developed for describing the effects of turbulence on combustion processes, no general models exist for describing the effects of combustion processes on turbulence. Current turbulence models implicitly assume that combustion heat release has no effect on turbulence, a fact contrary to observation. This project will develop a new modeling approach capable of capturing the two-way coupling between combustion processes and turbulence. In the new approach, information about the combustion processes is directly embedded into the turbulence model. The new model will be evaluated against a set of computational databases and experimental databases of laboratory-scale turbulent combustion. With the two-way coupling between combustion processes and turbulence fully captured, the new modeling approach will enable truly predictive simulations of turbulent combustion, facilitating the development of new clean combustion systems. The software implementation of the new modeling approach will also be made publicly available for use by other researchers and in industry.\r\n\r\nDespite the known influences of combustion heat release on turbulence, notably the phenomenon of counter-gradient-transport, turbulence models in reacting flows are usually adapted from the non-reacting flow community, implicitly assuming no effect of combustion heat release on turbulence. This project will develop a fundamentally new approach for Large Eddy Simulation (LES) of turbulent combustion that accounts for fully coupled interactions between turbulence and combustion. The approach relies on the conditional filtering of not only the thermochemical scalar equations but also the momentum equation with respect to one or more flame structure variables. With this approach, the modeling of turbulence is divorced from the flame dynamics, which are embedded into the conditional filtering, and simplifies closure modeling. After deriving the conditionally filtered governing equations and analyzing their budgets using data from Direct Numerical Simulation (DNS), closure models will be developed using a combination of physics-based approaches and data-based approaches. Ultimately, the unified manifold-based approach will be implemented into a computational tool, benchmarked against current modeling approaches, and validated against experimental measurements of turbulent premixed and stratified flames.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Mueller",
+   "pi_mid_init": "E",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael E Mueller",
+   "pi_email_addr": "muellerm@princeton.edu",
+   "nsf_id": "000642096",
+   "pi_start_date": "2018-08-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Princeton University",
+  "inst_street_address": "1 NASSAU HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "PRINCETON",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "6092583090",
+  "inst_zip_code": "085442001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "THE TRUSTEES OF PRINCETON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NJ1YPQXQG7U5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": "",
+  "perf_city_name": "Princeton",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085442020",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "140700",
+   "pgm_ele_name": "CFS-Combustion & Fire Systems"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>A fundamentally new approach to modeling the influence of combustion heat release on turbulent reacting flows in coarse-grained Computational Fluid Dynamics (CFD) was developed during this research project. When flames are thin and fast compared to the smallest scales of turbulence, the heat release from thin flame governs the dynamics of the turbulence. This heat release is inherently anisotropic, contrary to the small-scale isotropy typical of non-reacting turbulence, so existing turbulence models cannot predict turbulence dynamics under such conditions. In the new approach developed in this research project, the turbulence is modeled together with the combustion processes by conditioning the evolution of the turbulent flow velocity on a flame structure variable. This conditioning allows for a tight coupling between the combustion processes and the flow velocity.</p>\n<p>&nbsp;</p>\n<p>The conditional velocity equation includes many unclosed terms that require modeling, and the major effort of this research project was the development of models for these unclosed terms. The unclosed terms include turbulent mixing processes in physical space, ?flame mixing? processes in flame structure space, and the conditional pressure gradient. To model these terms, a strategy was leveraged in which the models included one non-reacting component by invoking analogies with non-reacting turbulence models and one reacting component that accounts for the direct influence of combustion heat release on the flow (i.e., flow acceleration across the flame). These terms are physically scaled such that the non-reacting contribution dominates when the flame is slow and thick compared to turbulence and the reacting contribution dominates when the flame is fast and thin compared to turbulence. The models were validated against high-fidelity databases of turbulent hydrogen/air premixed flames, one at conditions where heat release strongly affects the turbulence and one at conditions where heat release does not affect the turbulence. In all cases, the proposed closure models were shown to predict correctly both limits.</p>\n<p>&nbsp;</p>\n<p>The new modeling framework was then implemented into a CFD solver, combined with an analogous conditional model for the combustion processes, and then used to simulate a turbulent flame with strong influences of heat release on turbulence. For the first time, the new modeling framework was shown to predict so-called counter-gradient transport in turbulent combustion featuring thin, fast flames. Counter-gradient transport (mixing to maintain gradients) is a turbulent transport process induced by the flame that occurs in the opposite direction of gradient transport (mixing acts to eliminate gradients) in conventional non-reacting turbulence. No other model exists that is able to predict counter-gradient transport without a priori explicitly specifying so, so the new modeling framework represents a transformative evolution in the ability to predict generally a wide range of turbulent reacting flows. The prediction of turbulent chemically reacting flows will be critical to the development of new high-efficiency, low-emissions combustion systems with carbon-neural and zero-carbon fuels that will be essential to the decarbonized future electricity generation and transportation sectors.</p>\n<p>&nbsp;</p>\n<p>Many other multi-physics turbulent flows are characterized by fast, small-scale density changes including high-speed flows with shocks and flows featuring other types of reactions with heat release (e.g., biochemical, geochemical, atmospheric, or nuclear/thermonuclear reactions).&nbsp; Such flows are typical of applications in biological systems, earth systems science, air and water pollution, high-speed atmospheric flight, space flight, nuclear weapons, astrophysical flows, and nuclear fusion energy conversion.&nbsp; The theoretical and model developments made through this research program could be applied in these other domains where conventional turbulence models would face similar challenges to those in this research program.</p>\n<p>&nbsp;</p>\n<p>As part of this research program, two graduate students received training in turbulence and combustion modeling and physics; software development; high-performance computing; and technical communication. These graduate students were also able to present their work at conferences and share their work with the broadest community journal publications. Finally, the high-fidelity databases used for model development and validation in this work have been made publicly available via the PI?s website: ctrfl.princeton.edu/databases.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/22/2022<br>\n\t\t\t\t\tModified by: Michael&nbsp;E&nbsp;Mueller</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nA fundamentally new approach to modeling the influence of combustion heat release on turbulent reacting flows in coarse-grained Computational Fluid Dynamics (CFD) was developed during this research project. When flames are thin and fast compared to the smallest scales of turbulence, the heat release from thin flame governs the dynamics of the turbulence. This heat release is inherently anisotropic, contrary to the small-scale isotropy typical of non-reacting turbulence, so existing turbulence models cannot predict turbulence dynamics under such conditions. In the new approach developed in this research project, the turbulence is modeled together with the combustion processes by conditioning the evolution of the turbulent flow velocity on a flame structure variable. This conditioning allows for a tight coupling between the combustion processes and the flow velocity.\n\n \n\nThe conditional velocity equation includes many unclosed terms that require modeling, and the major effort of this research project was the development of models for these unclosed terms. The unclosed terms include turbulent mixing processes in physical space, ?flame mixing? processes in flame structure space, and the conditional pressure gradient. To model these terms, a strategy was leveraged in which the models included one non-reacting component by invoking analogies with non-reacting turbulence models and one reacting component that accounts for the direct influence of combustion heat release on the flow (i.e., flow acceleration across the flame). These terms are physically scaled such that the non-reacting contribution dominates when the flame is slow and thick compared to turbulence and the reacting contribution dominates when the flame is fast and thin compared to turbulence. The models were validated against high-fidelity databases of turbulent hydrogen/air premixed flames, one at conditions where heat release strongly affects the turbulence and one at conditions where heat release does not affect the turbulence. In all cases, the proposed closure models were shown to predict correctly both limits.\n\n \n\nThe new modeling framework was then implemented into a CFD solver, combined with an analogous conditional model for the combustion processes, and then used to simulate a turbulent flame with strong influences of heat release on turbulence. For the first time, the new modeling framework was shown to predict so-called counter-gradient transport in turbulent combustion featuring thin, fast flames. Counter-gradient transport (mixing to maintain gradients) is a turbulent transport process induced by the flame that occurs in the opposite direction of gradient transport (mixing acts to eliminate gradients) in conventional non-reacting turbulence. No other model exists that is able to predict counter-gradient transport without a priori explicitly specifying so, so the new modeling framework represents a transformative evolution in the ability to predict generally a wide range of turbulent reacting flows. The prediction of turbulent chemically reacting flows will be critical to the development of new high-efficiency, low-emissions combustion systems with carbon-neural and zero-carbon fuels that will be essential to the decarbonized future electricity generation and transportation sectors.\n\n \n\nMany other multi-physics turbulent flows are characterized by fast, small-scale density changes including high-speed flows with shocks and flows featuring other types of reactions with heat release (e.g., biochemical, geochemical, atmospheric, or nuclear/thermonuclear reactions).  Such flows are typical of applications in biological systems, earth systems science, air and water pollution, high-speed atmospheric flight, space flight, nuclear weapons, astrophysical flows, and nuclear fusion energy conversion.  The theoretical and model developments made through this research program could be applied in these other domains where conventional turbulence models would face similar challenges to those in this research program.\n\n \n\nAs part of this research program, two graduate students received training in turbulence and combustion modeling and physics; software development; high-performance computing; and technical communication. These graduate students were also able to present their work at conferences and share their work with the broadest community journal publications. Finally, the high-fidelity databases used for model development and validation in this work have been made publicly available via the PI?s website: ctrfl.princeton.edu/databases.\n\n \n\n\t\t\t\t\tLast Modified: 12/22/2022\n\n\t\t\t\t\tSubmitted by: Michael E Mueller"
+ }
+}

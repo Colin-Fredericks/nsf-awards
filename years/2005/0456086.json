@@ -1,0 +1,110 @@
+{
+ "awd_id": "0456086",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "The development and implementation of algorithms to investigate drop fragmentation under shear for viscoelastic liquids with surfactant",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2005-06-15",
+ "awd_exp_date": "2009-05-31",
+ "tot_intn_awd_amt": null,
+ "awd_amount": 199998.0,
+ "awd_min_amd_letter_date": "2005-05-16",
+ "awd_max_amd_letter_date": "2005-05-16",
+ "awd_abstract_narration": "The proposed research concerns the development and implementation of new algorithms for the   \r\nnumerical investigation of drop breakup under shear. The investigator has used the\r\nvolume-of-fluid (VOF) approach  to simulate Newtonian liquids, including the effect of \r\ninertia, and insoluble surfactants at low concentration.  A fixed regular grid is used. The   \r\nmotion of fluid interfaces is tracked by means of a color function,  which represents the \r\nvolume fraction  for a fluid in a grid cell.  At each time step of the numerical simulation,  \r\nthe color function is advected with the flow, and  gradients of it are  used to reconstruct   \r\nthe position of the interface and to compute the interfacial tension force.  In prior work,   \r\nthe first and second derivatives of the color function have been approximated by finite \r\ndifferences. However, since the color function is actually a step function, the use of finite\r\ndifferences for derivatives in nonlinear combinations such as curvature is problematic.  The  \r\nconventional remedy is to use a smoothed color function. This, on the other hand, requires a  \r\nlength scale of smoothing which is small relative to physical scales but still large relative\r\nto the mesh size. In practice, smoothing introduces numerical diffusion into the interfacial  \r\ntension force.  In drop breakup simulations, for instance, smoothing on the order of two or   \r\nthree times the mesh size still leads to non-convergence of satellite drop volumes with \r\nspatial mesh refinement.  The investigator has recently developed the method PROST, which is a\r\nparabolic representation of the interface in the surface tension force and which requires  no\r\nsmoothing. The interface is reconstructed from a least square fit of a paraboloid to the \r\nvalues of  the color function in a given cell and its neighbors,  and the curvature and normal\r\nare retrieved from this paraboloid. This leads to convergence of daughter drop volumes with   \r\nmesh refinement. The objective of the proposed research is to develop algorithms with the VOF\r\n- PROST framework to simulate viscoelastic liquids with surfactants, and to implement the code\r\non large-scale parallel processing systems.  The mathematical model allows the liquids to have\r\nmemory, first and second normal stress differences, and shear-thinning.  A nonlinear \r\nconstitutive model is used for soluble surfactants, with advection along the interface and    \r\nexchange with the bulk.\r\n\r\nThe breakup of liquid drops suspended in another liquid occurs in a number of chemical \r\nprocesses, such as the commercial mixing of molten plastics to form new materials in the \r\nrecycling industry.  Upon mixing, the size and distribution of the daughter drops influence   \r\nthe quality of the product, and therefore it is important to be able to control these \r\noutcomes. This is difficult to predict for a commercial mixer because of the complexity of the\r\nfluid flow, resulting in a trial and error approach. The investigator's starting point for a  \r\ntheoretical prediction is to study the deformation of a single droplet in a well-defined flow\r\nfield. Numerical algorithms are devised to track the history of drop deformation and breakup,\r\nwhich is an important contribution to the fundamental knowledge base of manufacturing \r\nprocesses that involve mixing two immiscible liquids. The success of this work depends on the\r\nphysical modeling of the liquids to compare with available experimental data, the accuracy of\r\nthe   algorithms to solve  the equations, the implementation on high-performance computing  \r\nplatforms, and established collaborations with engineers who perform controlled experiments. A\r\nbroader impact is  that the algorithms apply to a wider class of fluid-fluid systems, such as\r\nthe  processing of  physiological fluids. The participation of a postdoctoral research \r\nassociate and a graduate student is an essential educational component of the project.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yuriko",
+   "pi_last_name": "Renardy",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yuriko Renardy",
+   "pi_email_addr": "renardy@vt.edu",
+   "nsf_id": "000336202",
+   "pi_start_date": "2005-05-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Virginia Polytechnic Institute and State University",
+  "inst_street_address": "300 TURNER ST NW",
+  "inst_street_address_2": "STE 4200",
+  "inst_city_name": "BLACKSBURG",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "5402315281",
+  "inst_zip_code": "240603359",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "VA09",
+  "org_lgl_bus_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+  "org_prnt_uei_num": "X6KEFGLHSJX7",
+  "org_uei_num": "QDE5UHE5XD16"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Virginia Polytechnic Institute and State University",
+  "perf_str_addr": "300 TURNER ST NW",
+  "perf_city_name": "BLACKSBURG",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "240603359",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "VA09",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "744600",
+   "pgm_ele_name": "MATH PRIORITY SOLICITATION"
+  },
+  {
+   "pgm_ele_code": "745400",
+   "pgm_ele_name": "MSPA-INTERDISCIPLINARY"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "0000",
+   "pgm_ref_txt": "UNASSIGNED"
+  },
+  {
+   "pgm_ref_code": "7454",
+   "pgm_ref_txt": "MSPA-INTERDISCIPLINARY"
+  },
+  {
+   "pgm_ref_code": "OTHR",
+   "pgm_ref_txt": "OTHER RESEARCH OR EDUCATION"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 199998.0
+  }
+ ],
+ "por": null
+}

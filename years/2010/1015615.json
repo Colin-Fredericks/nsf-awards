@@ -1,0 +1,113 @@
+{
+ "awd_id": "1015615",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "EAPSI:  High Resolution Deterministic Approach for Hyperbolic Systems with Stiff Reaction Term",
+ "cfda_num": "47.079",
+ "org_code": "01090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anne Emig",
+ "awd_eff_date": "2010-06-01",
+ "awd_exp_date": "2011-05-31",
+ "tot_intn_awd_amt": 5617.0,
+ "awd_amount": 5617.0,
+ "awd_min_amd_letter_date": "2010-06-07",
+ "awd_max_amd_letter_date": "2010-06-07",
+ "awd_abstract_narration": null,
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OISE",
+ "org_div_long_name": "Office of International Science and Engineering",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jeremy",
+   "pi_last_name": "Dewar",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jeremy D Dewar",
+   "pi_email_addr": "",
+   "nsf_id": "000552842",
+   "pi_start_date": "2010-06-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Dewar                   Jeremy         D",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "New Orleans",
+  "inst_state_code": "LA",
+  "inst_state_name": "Louisiana",
+  "inst_phone_num": "",
+  "inst_zip_code": "701184154",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "LA02",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "Dewar                   Jeremy         D",
+  "perf_str_addr": "",
+  "perf_city_name": "New Orleans",
+  "perf_st_code": "LA",
+  "perf_st_name": "Louisiana",
+  "perf_zip_code": "701184154",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "LA02",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "731600",
+   "pgm_ele_name": "EAPSI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5978",
+   "pgm_ref_txt": "EAST ASIA AND PACIFIC PROGRAM"
+  },
+  {
+   "pgm_ref_code": "7316",
+   "pgm_ref_txt": "EAPSI"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9200",
+   "pgm_ref_txt": "US CHINA COOP IN BASIC SCIENCE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 5617.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>My research was with Dr. Shi Jin, very well-known in the field of analysis of physical problems. &nbsp;I chose him and Shanghai Jiao Tong University in order to expand my own understanding of the field of numerical methods. &nbsp;My research differed from the title above. &nbsp;My research was concerning solutions on large time and space scales for the nonlinear schroedinger equation (NLS).<br />NLS is an important equation in quantum mechanics. &nbsp;It is a very simple looking, one-line equation that contains a great deal of complexity. &nbsp;This equation describes the change in both time and space of the probabilities for any quantum system. &nbsp;(Quantum particles do not have a certain position in time or space like big objects do. &nbsp;There are only a set of probabilities that you might find the particle here, or there, at this point in time.) &nbsp;The equation describes that if I look a little bit to the right, or if I step a little bit forward in time, how do the probabilities of my quantum particles change? &nbsp;This is different than giving us the answer of 'this is the probability right now'; the equation only tells us how they will change. &nbsp;This sort of equation -- a partial differential equation -- thus does not easily let us find out 'what are the probabilities 10 minutes from now'. &nbsp;We have to set up the initial data, as in 'okay, the quantum particles I care about have [this certain state]&nbsp;to begin with' and then we slowly evolve the system forward in time by tiny time steps, looking at a discrete number of points in space, to see what the new probabilities for the particles are.<br />Looking further in time or getting better resolution by increasing the number of points in space we examine makes the problem take longer to solve. &nbsp;Taking tiny time steps (on the order of nanoseconds or smaller) means that it will take even a fast computer a rather long time (days? &nbsp;weeks?) to figure out what happens to the system '10 days later.'<br />Mathematically we can manipulate NLS to give us a new equation that gives answers for systems on a very large time and space scale. &nbsp;Via other results in mathematics we know we can assume that the system will approach a steady state in the long run, so we don't need to ask about exactly 10 days from now and instead we can use the new equation to see what the probabilities are \"a really long time from now\", when the system has settled near its equilibrium.<br />This new equation has 2 parameters we call delta and epsilon. &nbsp;Shrinking delta increases our time scale and shrinking epsilon increases our space scale. &nbsp;If we stretch the time or space scale to infinite (i.e. setting delta or epsilon to 0), the equation simplifies greatly, and we end up with other equations that we are familiar with, such as at the linear schroedinger equation (this is as opposed to nonlinear). &nbsp;There are many numerical methods for evolving the nonlinear system forward in time; I worked with one called the Time Splitting Spectral Method (TSSP). &nbsp;This approach does an accurate job when delta is large, this means near to or greater than 1, or when delta is set to 0. &nbsp;However, it fails to produce good results when delta is *close* to 0. &nbsp;(TSSP works well for all values of epsilon.) &nbsp;My research dealt with trying to find why this is the case, and hopefully a way to resolve it.<br />My initial attempt could not determine why TSSP seems ill-suited to tackle the problem for small values of delta. &nbsp;When delta is set exactly to zero, there is a simplification that seems to provide stability to the solution process. &nbsp;I am continuing research using a different approach involving splitting of the equation into its real and imaginary parts (the probabilities are defined as complex numbers which have the form of a + b * i, i being the square root of -1), using a different method (n...",
+  "por_txt_cntn": "\nMy research was with Dr. Shi Jin, very well-known in the field of analysis of physical problems.  I chose him and Shanghai Jiao Tong University in order to expand my own understanding of the field of numerical methods.  My research differed from the title above.  My research was concerning solutions on large time and space scales for the nonlinear schroedinger equation (NLS).\nNLS is an important equation in quantum mechanics.  It is a very simple looking, one-line equation that contains a great deal of complexity.  This equation describes the change in both time and space of the probabilities for any quantum system.  (Quantum particles do not have a certain position in time or space like big objects do.  There are only a set of probabilities that you might find the particle here, or there, at this point in time.)  The equation describes that if I look a little bit to the right, or if I step a little bit forward in time, how do the probabilities of my quantum particles change?  This is different than giving us the answer of 'this is the probability right now'; the equation only tells us how they will change.  This sort of equation -- a partial differential equation -- thus does not easily let us find out 'what are the probabilities 10 minutes from now'.  We have to set up the initial data, as in 'okay, the quantum particles I care about have [this certain state] to begin with' and then we slowly evolve the system forward in time by tiny time steps, looking at a discrete number of points in space, to see what the new probabilities for the particles are.\nLooking further in time or getting better resolution by increasing the number of points in space we examine makes the problem take longer to solve.  Taking tiny time steps (on the order of nanoseconds or smaller) means that it will take even a fast computer a rather long time (days?  weeks?) to figure out what happens to the system '10 days later.'\nMathematically we can manipulate NLS to give us a new equation that gives answers for systems on a very large time and space scale.  Via other results in mathematics we know we can assume that the system will approach a steady state in the long run, so we don't need to ask about exactly 10 days from now and instead we can use the new equation to see what the probabilities are \"a really long time from now\", when the system has settled near its equilibrium.\nThis new equation has 2 parameters we call delta and epsilon.  Shrinking delta increases our time scale and shrinking epsilon increases our space scale.  If we stretch the time or space scale to infinite (i.e. setting delta or epsilon to 0), the equation simplifies greatly, and we end up with other equations that we are familiar with, such as at the linear schroedinger equation (this is as opposed to nonlinear).  There are many numerical methods for evolving the nonlinear system forward in time; I worked with one called the Time Splitting Spectral Method (TSSP).  This approach does an accurate job when delta is large, this means near to or greater than 1, or when delta is set to 0.  However, it fails to produce good results when delta is *close* to 0.  (TSSP works well for all values of epsilon.)  My research dealt with trying to find why this is the case, and hopefully a way to resolve it.\nMy initial attempt could not determine why TSSP seems ill-suited to tackle the problem for small values of delta.  When delta is set exactly to zero, there is a simplification that seems to provide stability to the solution process.  I am continuing research using a different approach involving splitting of the equation into its real and imaginary parts (the probabilities are defined as complex numbers which have the form of a + b * i, i being the square root of -1), using a different method (not TSSP) to advance the solution in time.  \n\n\t\t\t\t\tLast Modified: 06/03/2011\n\n\t\t\t\t\tSubmitted by: Jeremy D Dewar"
+ }
+}

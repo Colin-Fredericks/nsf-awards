@@ -1,0 +1,101 @@
+{
+ "awd_id": "1547467",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CICI: Data Provenance: Protecting Provenance Integrity and Privacy",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rob Beverly",
+ "awd_eff_date": "2015-12-01",
+ "awd_exp_date": "2021-09-30",
+ "tot_intn_awd_amt": 499728.0,
+ "awd_amount": 499728.0,
+ "awd_min_amd_letter_date": "2015-09-15",
+ "awd_max_amd_letter_date": "2020-11-23",
+ "awd_abstract_narration": "The amount of data associated with scientific and medical analysis has grown, and in parallel, the desire to share resulting data has increased.  Similarly, as more science and medical analysis is performed by exploring large volumes of data, with numerous transformations along the way, tracking the history of a result is of increasing utility. Despite these incentives, concerns such as respecting human subject and patient privacy, maintaining intellectual property, and compliance with copyright laws remain as barriers to sharing data with its detailed provenance. By simplifying the process of safely releasing provenance metadata, the project will facilitate the sharing of data with a concomitant benefit to science and medicine.\r\n\r\nThe project creates software to tightly couple data and its accompanying provenance metadata, and sanitize the resulting provenance when it is shared. A storage overlay is developed to perform partial computation over the data as it enters the system. This allows the application of pre-configured functions to incoming data without affecting extant workload performance, by leveraging idle processing resources. The paradigm facilitates efficient content-based provenance that describes the state of the data in the system. This allows references in the provenance metadata to be strongly linked to integrity claims about the specific data inputs and outputs, even when these correspond to large data sets. When such scientific and medical data sets are combined, new privacy-violating inferences may be drawn.\r\n\r\nThe project investigates techniques that operate on sets of provenance graphs, descriptions of unsafe inferences, and ontological or probabilistic characterizations of the relationships of provenance elements. A tool is developed to transform the provenance into graphs with reduced leakage of sensitive information that are still usable for pre-defined provenance queries, and to identify which elements need auxiliary protection.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ashish",
+   "pi_last_name": "Gehani",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ashish Gehani",
+   "pi_email_addr": "ashish.gehani@sri.com",
+   "nsf_id": "000315262",
+   "pi_start_date": "2015-09-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "SRI International",
+  "inst_street_address": "333 RAVENSWOOD AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "MENLO PARK",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6097342285",
+  "inst_zip_code": "940253493",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "SRI INTERNATIONAL",
+  "org_prnt_uei_num": "SRG2J1WS9X63",
+  "org_uei_num": "SRG2J1WS9X63"
+ },
+ "perf_inst": {
+  "perf_inst_name": "SRI International",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "940253493",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "802700",
+   "pgm_ele_name": "Cybersecurity Innovation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 499728.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The primary goal of the project was the development of SPADE middleware improvements for (i) protecting the integrity of, and (ii) facilitating privacy-preserving querying of, provenance metadata. Toward the first goal, several extensions were implemented: (a) Support for flexible trust relationships between peers through public key cryptographic credentials was added. This was leveraged to upgrade network connections between provenance servers from symmetric-key- to public-key-based TLS. (b) The integrity of micro-service provenance is compromised by the kernel's audit subsystem's lack of namespace-awareness. This results in disconnects and conflated connections in inferred provenance. Support was added to address both issues. With regards to the second goal, a number of steps were taken: (c) A filter was defined that transforms provenance graphs into quantified feature vectors. The features were defined based on a combination of aspects of the provenance data model and domain schema. The vectors can serve as a substrate for differentially private provenance queries that arise when data mining crosses trust boundaries. (d) In cases where provenance databases are small, adding differential privacy noise to aggregate query responses may leave them with little utility. For such situations, a configurable transformer was developed to provide schema-specific sanitization of provenance graphs. (e) When sanitization does not suffice but prior trust relationships exist, attribute-based encryption can be used to scope access. A transformer was developed for this. (f) The query surface was extended to include commands to compute aggregate statistics over provenance graphs. Optionally, differential privacy noise can be added as well.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2021<br>\n\t\t\t\t\tModified by: Ashish&nbsp;Gehani</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe primary goal of the project was the development of SPADE middleware improvements for (i) protecting the integrity of, and (ii) facilitating privacy-preserving querying of, provenance metadata. Toward the first goal, several extensions were implemented: (a) Support for flexible trust relationships between peers through public key cryptographic credentials was added. This was leveraged to upgrade network connections between provenance servers from symmetric-key- to public-key-based TLS. (b) The integrity of micro-service provenance is compromised by the kernel's audit subsystem's lack of namespace-awareness. This results in disconnects and conflated connections in inferred provenance. Support was added to address both issues. With regards to the second goal, a number of steps were taken: (c) A filter was defined that transforms provenance graphs into quantified feature vectors. The features were defined based on a combination of aspects of the provenance data model and domain schema. The vectors can serve as a substrate for differentially private provenance queries that arise when data mining crosses trust boundaries. (d) In cases where provenance databases are small, adding differential privacy noise to aggregate query responses may leave them with little utility. For such situations, a configurable transformer was developed to provide schema-specific sanitization of provenance graphs. (e) When sanitization does not suffice but prior trust relationships exist, attribute-based encryption can be used to scope access. A transformer was developed for this. (f) The query surface was extended to include commands to compute aggregate statistics over provenance graphs. Optionally, differential privacy noise can be added as well.\n\n\t\t\t\t\tLast Modified: 11/30/2021\n\n\t\t\t\t\tSubmitted by: Ashish Gehani"
+ }
+}

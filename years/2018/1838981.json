@@ -1,0 +1,101 @@
+{
+ "awd_id": "1838981",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Type-Based Automation of Scientific Data Management",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Martin Halbert",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2020-09-30",
+ "tot_intn_awd_amt": 297796.0,
+ "awd_amount": 297796.0,
+ "awd_min_amd_letter_date": "2018-08-13",
+ "awd_max_amd_letter_date": "2018-08-13",
+ "awd_abstract_narration": "An approach to scientific data interoperability and reuse is through global, persistent, and uniquely identified data types that can be assembled to characterize research data sets.  This project proposes to identify data types using persistent identifiers (PIDs). The PIDs resolve to records that specify the way in which metadata, such as the provenance of the data, is structured and recorded.  The basic premise is that machine interpretable data is a critical goal to achieving FAIRness (findability, accessibility, interoperability, and reuse) of data as data discovery at a global scale depends on automated processing of the information in digital form.  A type based approach to data interpretability that utilizes persistent IDs at the granularity of data types can overturn the Internet and stimulate an ecosystem of new tools for FAIR data. This pilot effort involves evaluating the approach through, in part, by constructing a critical mass of use cases.\r\n\r\nThis project is supported by the National Science Foundation Public Access Initiative which is managed by the NSF Office of Advanced Cyberinfrastructure on behalf of the Foundation.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Giridhar",
+   "pi_last_name": "Manepalli",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Giridhar Manepalli",
+   "pi_email_addr": "gmanepalli@cnri.reston.va.us",
+   "nsf_id": "000635515",
+   "pi_start_date": "2018-08-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Corporation for National Research Initiatives (NRI)",
+  "inst_street_address": "1895 PRESTON WHITE DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "RESTON",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "7036208990",
+  "inst_zip_code": "201915469",
+  "inst_country_name": "United States",
+  "cong_dist_code": "11",
+  "st_cong_dist_code": "VA11",
+  "org_lgl_bus_name": "CORPORATION FOR NATIONAL RESEARCH INITIATIVES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "WQK1UGJYNMD7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Corporation for National Research Initiatives (NRI)",
+  "perf_str_addr": "1895 Preston White Drive",
+  "perf_city_name": "Reston",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "201915434",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "11",
+  "perf_st_cong_dist": "VA11",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "741400",
+   "pgm_ele_name": "NSF Public Access Initiative"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 297796.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this EAGER project, we were able to mitigate the risks and produce intellectual impact with broad applicability in the scientific data management field, as demonstrated through 1) the implementation of the \"scientific workflows\" as a sequence of operations on typed digital objects, 2) design of the novel pre-verified claims data model that enables users with limited resources to evaluate data quality attributes, and 3) the introduction of the concept of \"data readiness\" to enable discourse amongst researchers and policy makers as to when is data fit for use in data-driven science.</p>\n<p>The basic project theme was to reimagine the concept of \"data types\" for scientific data in one specific way: inform consumers what operations can be performed on data via use of types. This goal was proposed as an extension to the current approach of using types to describe only the syntax, structure, and semantics of data. The idea was that by expanding the conversation from \"what does data represent\" to \"what can be done with data\" and \"when can data be used\", it would greatly assist the ongoing movement toward cross-disciplinary science, where parties unfamiliar with the data internals may be prevalent.</p>\n<p>We based this work on the digital object architecture, and specifically the interface protocol called DOIP [1], which motivated the implementation of workflows as a sequence of operations on typed data. CNRI has been developing software that implements the architecture called \"Cordra\", which we made available to the public. The project-specific work was designed as an extension to Cordra. We anticipate this extension will have broad impact on scientific research, by helping to automate data-driven science with validity of the data and its readiness for use.</p>\n<p>Current practices around data quality focus on assertions about the quality of specific data and not on the data from which it is derived. We recognized that a better approach for evaluating the readiness of data for use in science is needed; and a part of our research was focused on this topic. Our work revealed to us a far more practical observation: when operations are applied to digital objects, the results can also be stored as digital objects (each with its own identifier and different type), thus forming a \"data synthesis trail\". This is the equivalent to having intermediate and final snapshots produced when scientific workflows are applied. The following question was pursued in this project: if a resulting digital object from a data synthesis trail is used in science, how can its readiness for use, in terms of its accuracy, completeness, and other quality attributes be evaluated effectively without also evaluating the full synthesis trail? This remains a worthwhile subject for further research.</p>\n<p>In one of the resulting research papers, we posit that there are specific questions, seven at the minimum, related to data that should be meaningfully answered before readiness of data for use can be objectively assessed. In the paper, we discuss those seven questions and provide an analytical approach for answering them.</p>\n<p>In another resulting paper, a novel data model is proposed wherein claims about data quality include proofs and also verification checks made by resourceful users, along with the source code used for such verification checks. The result is that users with limited resources only have to audit the source code, once, to validate that the verification programs are correct and have the built-in knowledge to accept the merit of the claims. Both of these papers will be made available to the public from the Cordra.org website in the next few weeks.</p>\n<p>We tied the data readiness work, the pre-verified claims data model work, and the concept of exposing operations on typed digital objects together into software called the Collab Prototype. The Collab Prototype is a software extension to Cordra that will be made available at the cordra.org website shortly for access by the public. We showcase this effort using a use case that emerged from our prior work with publicly available data [3].&nbsp;</p>\n<p>[1] Digital Object Interface Protocol: <a href=\"https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.pdf\">https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.pdf</a></p>\n<p>[2] Cordra software: <a href=\"https://www.cordra.org/\">https://www.cordra.org/</a></p>\n<p>[3] Collab Prototype demo: <a href=\"https://collab.cordra.org/collab\">https://collab.cordra.org/collab</a></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/29/2021<br>\n\t\t\t\t\tModified by: Giridhar&nbsp;Manepalli</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn this EAGER project, we were able to mitigate the risks and produce intellectual impact with broad applicability in the scientific data management field, as demonstrated through 1) the implementation of the \"scientific workflows\" as a sequence of operations on typed digital objects, 2) design of the novel pre-verified claims data model that enables users with limited resources to evaluate data quality attributes, and 3) the introduction of the concept of \"data readiness\" to enable discourse amongst researchers and policy makers as to when is data fit for use in data-driven science.\n\nThe basic project theme was to reimagine the concept of \"data types\" for scientific data in one specific way: inform consumers what operations can be performed on data via use of types. This goal was proposed as an extension to the current approach of using types to describe only the syntax, structure, and semantics of data. The idea was that by expanding the conversation from \"what does data represent\" to \"what can be done with data\" and \"when can data be used\", it would greatly assist the ongoing movement toward cross-disciplinary science, where parties unfamiliar with the data internals may be prevalent.\n\nWe based this work on the digital object architecture, and specifically the interface protocol called DOIP [1], which motivated the implementation of workflows as a sequence of operations on typed data. CNRI has been developing software that implements the architecture called \"Cordra\", which we made available to the public. The project-specific work was designed as an extension to Cordra. We anticipate this extension will have broad impact on scientific research, by helping to automate data-driven science with validity of the data and its readiness for use.\n\nCurrent practices around data quality focus on assertions about the quality of specific data and not on the data from which it is derived. We recognized that a better approach for evaluating the readiness of data for use in science is needed; and a part of our research was focused on this topic. Our work revealed to us a far more practical observation: when operations are applied to digital objects, the results can also be stored as digital objects (each with its own identifier and different type), thus forming a \"data synthesis trail\". This is the equivalent to having intermediate and final snapshots produced when scientific workflows are applied. The following question was pursued in this project: if a resulting digital object from a data synthesis trail is used in science, how can its readiness for use, in terms of its accuracy, completeness, and other quality attributes be evaluated effectively without also evaluating the full synthesis trail? This remains a worthwhile subject for further research.\n\nIn one of the resulting research papers, we posit that there are specific questions, seven at the minimum, related to data that should be meaningfully answered before readiness of data for use can be objectively assessed. In the paper, we discuss those seven questions and provide an analytical approach for answering them.\n\nIn another resulting paper, a novel data model is proposed wherein claims about data quality include proofs and also verification checks made by resourceful users, along with the source code used for such verification checks. The result is that users with limited resources only have to audit the source code, once, to validate that the verification programs are correct and have the built-in knowledge to accept the merit of the claims. Both of these papers will be made available to the public from the Cordra.org website in the next few weeks.\n\nWe tied the data readiness work, the pre-verified claims data model work, and the concept of exposing operations on typed digital objects together into software called the Collab Prototype. The Collab Prototype is a software extension to Cordra that will be made available at the cordra.org website shortly for access by the public. We showcase this effort using a use case that emerged from our prior work with publicly available data [3]. \n\n[1] Digital Object Interface Protocol: https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.pdf\n\n[2] Cordra software: https://www.cordra.org/\n\n[3] Collab Prototype demo: https://collab.cordra.org/collab\n\n \n\n\t\t\t\t\tLast Modified: 01/29/2021\n\n\t\t\t\t\tSubmitted by: Giridhar Manepalli"
+ }
+}

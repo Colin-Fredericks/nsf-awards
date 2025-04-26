@@ -1,0 +1,101 @@
+{
+ "awd_id": "2136206",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Online Optimization for Efficient Model-Based Learning",
+ "cfda_num": "47.041",
+ "org_code": "07010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anthony Kuh",
+ "awd_eff_date": "2021-07-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 445245.0,
+ "awd_min_amd_letter_date": "2021-06-24",
+ "awd_max_amd_letter_date": "2021-06-24",
+ "awd_abstract_narration": "One of the grand challenges in Artificial Intelligence (AI) and Machine Learning (ML) is building intelligent systems that can learn from data in real time. To learn from streaming data, there is need for novel approaches in online optimization and prediction. Current methods assume sequential availability of gradients (or loss), posing a practical hurdle in implementation. We propose two approaches to address this gap using model-based learning. These approaches are aimed at respectively exploiting, a distributed computing architecture (to divide the required computational effort) or a communications network (to efficiently aggregate disparate data). The collaborative online optimization algorithms and theoretic extensions introduced in this work have a broad range of applications domains such as speech recognition and computer vision, autonomous vehicles, transportation, neuroscience, and business analytics.\r\n\r\nMost of classical ML algorithms have been developed under the assumption that data sets are already available in batch form. Transitioning from offline to online learning faces a major practical hurdle in many application domains where the closed-form of the objective function is unknown to the learner. When dealing with streaming data, this black-box property leads to a natural trade-off between delays (due to data or computation) and the speed and accuracy with which a model can be identified. A distributed computing architecture provides a way to reduce delays to obtain reasonably accurate models in the necessary timescale. We propose to study fast distributed asynchronous stochastic gradient approaches for online learning in which coordination between multiple workers (processors) interacting asynchronously is carefully engineered. Improved accuracy and speed may also be jointly achieved by a network of learners receiving different streams of data. Thus, we also consider decentralized models of online learning with multiple learning agents that communicate over a network. With the ability to share predictions or estimates with other agents in a network, the collective can aggregate disparate information in a way to outperform (in terms of accuracy and speed) any individually identified model. Finally, we consider the case in which data streams have graph structure. Streaming graph structure data arises in diverse application domains such as transportation networks, social networks and other networks found in biology, where the graph captures the correlation in data. The proposal includes the development of a new graduate course aimed at providing engineering students with working knowledge on state-of-the-art distributed online optimization techniques.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "ECCS",
+ "org_div_long_name": "Division of Electrical, Communications and Cyber Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Shahin",
+   "pi_last_name": "Shahrampour",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Shahin Shahrampour",
+   "pi_email_addr": "s.shahrampour@northeastern.edu",
+   "nsf_id": "000784861",
+   "pi_start_date": "2021-06-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Northeastern University",
+  "inst_street_address": "360 HUNTINGTON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173735600",
+  "inst_zip_code": "021155005",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "NORTHEASTERN UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HLTMVS2JZBS6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Northeastern University",
+  "perf_str_addr": "360 Huntington Ave",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021155005",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "760700",
+   "pgm_ele_name": "EPCN-Energy-Power-Ctrl-Netwrks"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "092E",
+   "pgm_ref_txt": "Control systems & applications"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0119",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001920DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2019,
+   "fund_oblg_amt": 445245.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>One of the grand challenges at the interface of control, machine learning, and multi-agent systems is building intelligent systems that can learn from data in real time. Streaming datasets are pervasive in many application domains such as speech recognition, transportation, neuroscience, and business analytics. However, most of classical learning/optimization algorithms have been developed under the assumption that datasets are already available in batch form. In this framework, the learner feeds the data into an offline optimization problem to construct a model. On the other hand, the current demand for real-time data processing has shifted the focus of many researchers in science and engineering to the growing field of online optimization and learning. The shift from offline to online learning faces a major practical hurdle in many application domains where the closed-form of the objective function is unknown to the learner. In this project, we studied several problems of this nature for multi-agent systems and provided performance guarantees for each one.</p>\n<p>Our major findings are as follows: (1) We studied distributed stochastic non-convex optimization for non-smooth objective functions, which encompasses many important applications (e.g., robust phase retrieval, blind deconvolution, biconvex compressive sensing, and dictionary learning). In this framework, we proposed a distributed implementation of the stochastic subgradient method and established its finite-time global and local theoretical guarantees. (2) On non-convex optimization, we further investigated the discrete-time consensus-seeking dynamics on the Stiefel manifold and identified conditions on the network topology to ensure convergence to a global consensus state. We proved a (local) linear convergence rate to the consensus state that is on par with the well-known rate in the Euclidean space. We further extended these results to decentralized Riemannian optimization on the Stiefel manifold, where we proposed a decentralized Riemannian gradient tracking algorithm with a guaranteed finite-time convergence. Notably, this was the first decentralized algorithm with exact convergence for distributed optimization on Stiefel manifold. (3) We studied the distributed online linear quadratic regulator (LQR) problem for linear time-invariant systems with unknown dynamics. We proposed a distributed variant of the online LQR algorithm, where agents compute their system estimates during an exploration stage. Each agent then applies distributed online gradient descent on a semi-definite programming whose feasible set is based on the agent system estimate. For this problem, we established a high probability sublinear regret bound. (4) In another line of work, we addressed safe distributed online optimization over an unknown set of linear safety constraints. Our proposed algorithm was a distributed safe online gradient descent (D-Safe-OGD) with an exploration phase, where all agents estimate the constraint parameters collaboratively to build estimated feasible sets, ensuring the action selection safety during the optimization phase. We established dynamic regret bounds for convex and certain non-convex problems in terms of the path-length of the best minimizer sequence. (5) We also studied distributed networked learning with heterogeneous streams of correlated data. We analyzed the computation dynamics (associated with stochastic gradient updates) and information exchange (associated with exchanging current models with neighboring nodes) and established a finite-time convergence of the weighted ensemble average estimate.</p>\n<p>Besides the aforementioned scientific contributions, the project trained three graduate students in the general area of distributed real-time learning and optimization. Some concepts of the project were integrated into a graduate course, exposing students to cutting-edge research in distributed networked learning. One undergraduate student also gained insights into real-time data analytics through the project. In addition to publications, special conference sessions organized by the PIs facilitated the dissemination of the topic to the community.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 12/30/2023<br>\nModified by: Shahin&nbsp;Shahrampour</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nOne of the grand challenges at the interface of control, machine learning, and multi-agent systems is building intelligent systems that can learn from data in real time. Streaming datasets are pervasive in many application domains such as speech recognition, transportation, neuroscience, and business analytics. However, most of classical learning/optimization algorithms have been developed under the assumption that datasets are already available in batch form. In this framework, the learner feeds the data into an offline optimization problem to construct a model. On the other hand, the current demand for real-time data processing has shifted the focus of many researchers in science and engineering to the growing field of online optimization and learning. The shift from offline to online learning faces a major practical hurdle in many application domains where the closed-form of the objective function is unknown to the learner. In this project, we studied several problems of this nature for multi-agent systems and provided performance guarantees for each one.\n\n\nOur major findings are as follows: (1) We studied distributed stochastic non-convex optimization for non-smooth objective functions, which encompasses many important applications (e.g., robust phase retrieval, blind deconvolution, biconvex compressive sensing, and dictionary learning). In this framework, we proposed a distributed implementation of the stochastic subgradient method and established its finite-time global and local theoretical guarantees. (2) On non-convex optimization, we further investigated the discrete-time consensus-seeking dynamics on the Stiefel manifold and identified conditions on the network topology to ensure convergence to a global consensus state. We proved a (local) linear convergence rate to the consensus state that is on par with the well-known rate in the Euclidean space. We further extended these results to decentralized Riemannian optimization on the Stiefel manifold, where we proposed a decentralized Riemannian gradient tracking algorithm with a guaranteed finite-time convergence. Notably, this was the first decentralized algorithm with exact convergence for distributed optimization on Stiefel manifold. (3) We studied the distributed online linear quadratic regulator (LQR) problem for linear time-invariant systems with unknown dynamics. We proposed a distributed variant of the online LQR algorithm, where agents compute their system estimates during an exploration stage. Each agent then applies distributed online gradient descent on a semi-definite programming whose feasible set is based on the agent system estimate. For this problem, we established a high probability sublinear regret bound. (4) In another line of work, we addressed safe distributed online optimization over an unknown set of linear safety constraints. Our proposed algorithm was a distributed safe online gradient descent (D-Safe-OGD) with an exploration phase, where all agents estimate the constraint parameters collaboratively to build estimated feasible sets, ensuring the action selection safety during the optimization phase. We established dynamic regret bounds for convex and certain non-convex problems in terms of the path-length of the best minimizer sequence. (5) We also studied distributed networked learning with heterogeneous streams of correlated data. We analyzed the computation dynamics (associated with stochastic gradient updates) and information exchange (associated with exchanging current models with neighboring nodes) and established a finite-time convergence of the weighted ensemble average estimate.\n\n\nBesides the aforementioned scientific contributions, the project trained three graduate students in the general area of distributed real-time learning and optimization. Some concepts of the project were integrated into a graduate course, exposing students to cutting-edge research in distributed networked learning. One undergraduate student also gained insights into real-time data analytics through the project. In addition to publications, special conference sessions organized by the PIs facilitated the dissemination of the topic to the community.\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\tLast Modified: 12/30/2023\n\n\t\t\t\t\tSubmitted by: ShahinShahrampour\n"
+ }
+}

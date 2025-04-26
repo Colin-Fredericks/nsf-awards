@@ -1,0 +1,109 @@
+{
+ "awd_id": "1422935",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: How Much Execution Time, Energy, And Power Does an Algorithm Need?",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2014-06-15",
+ "awd_exp_date": "2019-05-31",
+ "tot_intn_awd_amt": 515375.0,
+ "awd_amount": 515375.0,
+ "awd_min_amd_letter_date": "2014-06-18",
+ "awd_max_amd_letter_date": "2018-06-27",
+ "awd_abstract_narration": "Power efficiency has emerged as the overarching design constraint for modern hybrid-core computing architectures. This research advances new models of the physical time, energy, and power needed to execute an algorithm. Such models aim to address several contemporary research questions in high-performance computing (HPC). For instance, if there is a limited amount of power available to a computer system, how should that power be allocated among various system components to most quickly or most energy-efficiently execute a given computation? Or, does anything need to change in the design of algorithms, given a user's or a system's explicit power or energy constraints?\r\n\r\nThe technical approach extends a preliminary model, referred to as the energy roofline, which the Principal Investigator (PI) and his team have developed as part of a prior project. This approach starts from first principles of algorithmic analysis that express the intrinsic concurrency and communication properties of an algorithm; and from that, it derives models of time, energy, and power using cost models informed directly by the behavior of real algorithms, software, and systems. The project considers several critical enhancements of the preliminary work, which is leading to a family of models of increasing accuracy and complexity. The research will have a broad impact on a wide range of important design issues in exascale systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Richard",
+   "pi_last_name": "Vuduc",
+   "pi_mid_init": "W",
+   "pi_sufx_name": "",
+   "pi_full_name": "Richard W Vuduc",
+   "pi_email_addr": "richie@cc.gatech.edu",
+   "nsf_id": "000080331",
+   "pi_start_date": "2014-06-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Avenue",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 515375.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Power efficiency is the overarching design constraint for modern computer systems. The primary research goal of this project has been to advance new models of the physical time, energy, and power needed to execute an algorithm. The intellectual merit of this goal has been to create a foundation for answering several contemporary research questions in the design and efficient use of high-performance computing (HPC) systems or \"supercomputers.\" For instance, if there is a limited amount of power available to a computer system, how should that power be allocated among various system components to most quickly or most energy-efficiently execute a given computation? Or, does anything need to change in the design of algorithms, given a user's or a system's explicit power or energy constraints?</p>\n<p>In its most significant demonstration, the project considered the problem of computing shortest paths in a graph (or \"network\"), which is any object of entities (vertices) linked to one another (via edges). For a state-of-the-art algorithm for this problem, there is a tuning parameter that affects the speed of the algorithm. However, the \"meaning\" of the parameter is not easily to interpret, and consequently, it had not been previously known precisely how to set the parameter to find the best setting other than by trial-and-error. In particular, the best setting depends on the specific input graph, and appeared hard to predict ahead of time.</p>\n<p>Researchers in this project showed one could do much better. First, they showed that the effect of this parameter?='s value on performance could be estimated (or \"learned\") and predicted as the algorithm runs. Secondly, they used this observation to develop a technique to control the parameter's value automatically. Thirdly, they showed that the parameter?s setting affected not just running time but also how much power (e.g., Watts) the computer system would consume as it ran. From this fact, they were able to change the problem of how to set the parameter: instead of selecting its value, one could impose a constraint on the system of the form, while running, do not use more than a certain amount of power. The automatic controller can use this constraint, which is much easier to interpret than the tuning parameter itself, to then adjust the parameter as the computation runs.</p>\n<p>The significance of this finding is that it illuminates a process for translating how to set algorithm-level tuning parameters in a controlled and systematic way, and suggests several avenues to apply this idea in many other applications where a tradeoff, such as performance and power, exists. Subsequent work in the project lays out more general mechanisms for doing so, which the team hopes to pursue in future follow-on projects.</p>\n<p>Beyond these technical innovations, the broader impacts of the project include what we believe to be the first use of energy and power as explicit metrics of consideration in algorithm design. This material is part of an online masters-level course on high-performance computing, developed as part of the Online MS in Computer Science program at Georgia Tech. (Videos only are freely available at Udacity.com and on YouTube.)</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/30/2020<br>\n\t\t\t\t\tModified by: Richard&nbsp;W&nbsp;Vuduc</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2020/1422935/1422935_10311372_1590849652519_fig0--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1422935/1422935_10311372_1590849652519_fig0--rgov-800width.jpg\" title=\"Sample experimental results\"><img src=\"/por/images/Reports/POR/2020/1422935/1422935_10311372_1590849652519_fig0--rgov-66x44.jpg\" alt=\"Sample experimental results\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Speedup (decrease in running time) vs. \"power-up\" (increase in power) for our power-tunable single-source shortest paths (SSSP) algorithm when running on a mobile GPU. Our method of \"self-tuning\" (solid lines) can both save time and reduce power, yielding an overall decrease in energy consumption.</div>\n<div class=\"imageCredit\">Karamati et al. (IPDPS'18)</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Richard&nbsp;W&nbsp;Vuduc</div>\n<div class=\"imageTitle\">Sample experimental results</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2020/1422935/1422935_10311372_1590849965605_fig1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1422935/1422935_10311372_1590849965605_fig1--rgov-800width.jpg\" title=\"CSE 6220-OMS: Intro to HPC - Lesson 3\"><img src=\"/por/images/Reports/POR/2020/1422935/1422935_10311372_1590849965605_fig1--rgov-66x44.jpg\" alt=\"CSE 6220-OMS: Intro to HPC - Lesson 3\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Broader impacts: Lessons learned in this project led to the inclusion of power and energy as explicit algorithm-design metrics in a freely available, online masters-level course on high-performance computing, part of Georgia Tech's Online MS in Computer Science program.</div>\n<div class=\"imageCredit\">Rich Vuduc (PI) / Georgia Tech / Udacity</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Richard&nbsp;W&nbsp;Vuduc</div>\n<div class=\"imageTitle\">CSE 6220-OMS: Intro to HPC - Lesson 3</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nPower efficiency is the overarching design constraint for modern computer systems. The primary research goal of this project has been to advance new models of the physical time, energy, and power needed to execute an algorithm. The intellectual merit of this goal has been to create a foundation for answering several contemporary research questions in the design and efficient use of high-performance computing (HPC) systems or \"supercomputers.\" For instance, if there is a limited amount of power available to a computer system, how should that power be allocated among various system components to most quickly or most energy-efficiently execute a given computation? Or, does anything need to change in the design of algorithms, given a user's or a system's explicit power or energy constraints?\n\nIn its most significant demonstration, the project considered the problem of computing shortest paths in a graph (or \"network\"), which is any object of entities (vertices) linked to one another (via edges). For a state-of-the-art algorithm for this problem, there is a tuning parameter that affects the speed of the algorithm. However, the \"meaning\" of the parameter is not easily to interpret, and consequently, it had not been previously known precisely how to set the parameter to find the best setting other than by trial-and-error. In particular, the best setting depends on the specific input graph, and appeared hard to predict ahead of time.\n\nResearchers in this project showed one could do much better. First, they showed that the effect of this parameter?='s value on performance could be estimated (or \"learned\") and predicted as the algorithm runs. Secondly, they used this observation to develop a technique to control the parameter's value automatically. Thirdly, they showed that the parameter?s setting affected not just running time but also how much power (e.g., Watts) the computer system would consume as it ran. From this fact, they were able to change the problem of how to set the parameter: instead of selecting its value, one could impose a constraint on the system of the form, while running, do not use more than a certain amount of power. The automatic controller can use this constraint, which is much easier to interpret than the tuning parameter itself, to then adjust the parameter as the computation runs.\n\nThe significance of this finding is that it illuminates a process for translating how to set algorithm-level tuning parameters in a controlled and systematic way, and suggests several avenues to apply this idea in many other applications where a tradeoff, such as performance and power, exists. Subsequent work in the project lays out more general mechanisms for doing so, which the team hopes to pursue in future follow-on projects.\n\nBeyond these technical innovations, the broader impacts of the project include what we believe to be the first use of energy and power as explicit metrics of consideration in algorithm design. This material is part of an online masters-level course on high-performance computing, developed as part of the Online MS in Computer Science program at Georgia Tech. (Videos only are freely available at Udacity.com and on YouTube.)\n\n\t\t\t\t\tLast Modified: 05/30/2020\n\n\t\t\t\t\tSubmitted by: Richard W Vuduc"
+ }
+}

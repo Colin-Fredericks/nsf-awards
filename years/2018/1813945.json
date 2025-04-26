@@ -1,0 +1,113 @@
+{
+ "awd_id": "1813945",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: CORE: Small: Collaborative: Techniques for Enhancing the Security and Trust of FPGAs-Based Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Karen Karavanic",
+ "awd_eff_date": "2018-08-15",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 200000.0,
+ "awd_amount": 200000.0,
+ "awd_min_amd_letter_date": "2018-08-04",
+ "awd_max_amd_letter_date": "2018-08-04",
+ "awd_abstract_narration": "Secret keys that are stored and used within physical devices can be extracted by adversaries. The attacks involve measuring the power consumption or electromagnetic radiation emanating from the chip as it carries out encryption, and then analyzing them to deduce the secret key. This project investigates techniques that self-mutate the hardware at runtime as a means of significantly reducing and ideally eliminating signal information leveraged by the adversary.\r\n\r\nThe research carried out in this project investigates side-channel leakage, particularly as it relates to signal propagation paths within the encryption engine. A hardware description of the proposed self-mutating hardware will be implemented on a field-programmable gate array (FPGA) using dynamic partial reconfiguration. Multiple instances of encryption engine components, e.g., the Advanced Encryption Standard (AES) substitution box (SBOX), will be created using implementation diversity techniques as a means of diversifying signal propagation paths, and a self-reconfiguration hardware engine will randomly choose instances to reprogram on-the-fly. Advanced differential power analysis (DPA)-type attacks will be carried out to determine the resilience of the proposed countermeasures.\r\n\r\nThe techniques, data and hardware developed in this research will be integrated into undergraduate and graduate level courses at University of New Mexico, University of Maryland Baltimore County and University of North Carolina at Charlotte, and red-team/blue-team competitions will be created. Minority and underrepresented students will be recruited to participate in funded research activities.\r\n\r\nA project repository will be created and maintained at University of North Carolina, Charlotte at the web address http://www.ece.uncc.edu/fareena/SPREAD for 5 years. The hardware description language, software, data, analysis methods and copies of the papers will be made available for download.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "James",
+   "pi_last_name": "Plusquellic",
+   "pi_mid_init": "F",
+   "pi_sufx_name": "",
+   "pi_full_name": "James F Plusquellic",
+   "pi_email_addr": "jimp@ece.unm.edu",
+   "nsf_id": "000212368",
+   "pi_start_date": "2018-08-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of New Mexico",
+  "inst_street_address": "1 UNIVERSITY OF NEW MEXICO",
+  "inst_street_address_2": "",
+  "inst_city_name": "ALBUQUERQUE",
+  "inst_state_code": "NM",
+  "inst_state_name": "New Mexico",
+  "inst_phone_num": "5052774186",
+  "inst_zip_code": "871310001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NM01",
+  "org_lgl_bus_name": "UNIVERSITY OF NEW MEXICO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F6XLTRUQJEN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of New Mexico",
+  "perf_str_addr": "1700 Lomas Blvd. NE, Suite 2200",
+  "perf_city_name": "Albuquerque",
+  "perf_st_code": "NM",
+  "perf_st_name": "New Mexico",
+  "perf_zip_code": "871310001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NM01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 200000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project aims at hardware-oriented capabilities to investigate the level of protection that can be attained by dynamic partial reconfiguration (DPR) to modify physical characteristics purposefully and fundamentally in FPGA-based systems to protect against power information extraction techniques such as differential power analysis (DPA), correlation power analysis (CPA) and other types of electromagnetic attacks. A countermeasure to DPA-type attacks is proposed that repeatedly mutates at runtime the instantiation of SBOX components to randomize the side-channel leakage of secret information. The proposed approach effectively disrupts small signal leakage by causing a device to undergo low-level circuit self-mutations as the attacker probes it. This presents a moving target for attackers, who require averaging waveforms over many trials to isolate secret-related signal components. The countermeasures are implemented in hardware and are experimentally evaluated using state-of-the-art side-channel attacks.</p>\n<p>Key outcomes of the project include:</p>\n<p>(1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Successfully developed tutorials on &ldquo;side channel attacks and countermeasures&rdquo; and delivered them at various international workshops and symposia.</p>\n<p>(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developed numerous invited talks on different topics in hardware security and trust, and delivered them at national and international forums.</p>\n<p>(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Presented several posters and hardware demos at international symposia and workshops.</p>\n<p>(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The project resulted in significant synergic achievements e.g., Outstanding Contribution award from IEEE Computer Society for Co-Founding the Hardware-Oriented Security and Trust (HOST) Symposium, HOST Program Chair position, Panel lead at HOST.</p>\n<p>(5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project is of interest to manufacturers of hardware accelerators, and their users/operators, including US government agencies.</p>\n<p>(6)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The project provides trustworthy security and privacy protection to the society in the use of electronic devices and applications that are resilient to side channel analysis.</p>\n<p>(7)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dissemination of the project&rsquo;s results done via conferences, publications, tutorials, seminars, invited talks, curriculum developments, undergraduate and graduate courses, posters and hardware demos, online material, etc.</p>\n<p>(8)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Capacity building was possible through hiring of PhD students to work on this project, and training of high school and undergraduate students through courses and seminars.</p>\n<p>(9)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Several of the challenges addressed by this research are integrated into curriculum through introduction of class projects in the regularly offered hardware security and trust courses.</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 03/19/2024<br>\nModified by: James&nbsp;F&nbsp;Plusquellic</p></div>\n<div class=\"porSideCol\"\n><div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2024/1813945/1813945_10565971_1710887078919_V_x_NP_30000_log_St_100_End_700_SBA_HW--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2024/1813945/1813945_10565971_1710887078919_V_x_NP_30000_log_St_100_End_700_SBA_HW--rgov-800width.jpg\" title=\"SPREAD Effectiveness vs Diversity Technique\"><img src=\"/por/images/Reports/POR/2024/1813945/1813945_10565971_1710887078919_V_x_NP_30000_log_St_100_End_700_SBA_HW--rgov-66x44.jpg\" alt=\"SPREAD Effectiveness vs Diversity Technique\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Comparison of average reduction in signal correlation for 4 countermeasure versions (S) of the proposed SPREAD design relative to the levels of signal correlation present in the reference (R) designs of each version,</div>\n<div class=\"imageCredit\">Jim Plusquellic</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">James&nbsp;F&nbsp;Plusquellic\n<div class=\"imageTitle\">SPREAD Effectiveness vs Diversity Technique</div>\n</div>\n</li></ul>\n</div>\n</div></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project aims at hardware-oriented capabilities to investigate the level of protection that can be attained by dynamic partial reconfiguration (DPR) to modify physical characteristics purposefully and fundamentally in FPGA-based systems to protect against power information extraction techniques such as differential power analysis (DPA), correlation power analysis (CPA) and other types of electromagnetic attacks. A countermeasure to DPA-type attacks is proposed that repeatedly mutates at runtime the instantiation of SBOX components to randomize the side-channel leakage of secret information. The proposed approach effectively disrupts small signal leakage by causing a device to undergo low-level circuit self-mutations as the attacker probes it. This presents a moving target for attackers, who require averaging waveforms over many trials to isolate secret-related signal components. The countermeasures are implemented in hardware and are experimentally evaluated using state-of-the-art side-channel attacks.\n\n\nKey outcomes of the project include:\n\n\n(1) Successfully developed tutorials on side channel attacks and countermeasures and delivered them at various international workshops and symposia.\n\n\n(2) Developed numerous invited talks on different topics in hardware security and trust, and delivered them at national and international forums.\n\n\n(3) Presented several posters and hardware demos at international symposia and workshops.\n\n\n(4) The project resulted in significant synergic achievements e.g., Outstanding Contribution award from IEEE Computer Society for Co-Founding the Hardware-Oriented Security and Trust (HOST) Symposium, HOST Program Chair position, Panel lead at HOST.\n\n\n(5) This project is of interest to manufacturers of hardware accelerators, and their users/operators, including US government agencies.\n\n\n(6) The project provides trustworthy security and privacy protection to the society in the use of electronic devices and applications that are resilient to side channel analysis.\n\n\n(7) Dissemination of the projects results done via conferences, publications, tutorials, seminars, invited talks, curriculum developments, undergraduate and graduate courses, posters and hardware demos, online material, etc.\n\n\n(8) Capacity building was possible through hiring of PhD students to work on this project, and training of high school and undergraduate students through courses and seminars.\n\n\n(9) Several of the challenges addressed by this research are integrated into curriculum through introduction of class projects in the regularly offered hardware security and trust courses.\n\n\n\t\t\t\t\tLast Modified: 03/19/2024\n\n\t\t\t\t\tSubmitted by: JamesFPlusquellic\n"
+ }
+}

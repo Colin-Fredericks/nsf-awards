@@ -1,0 +1,117 @@
+{
+ "awd_id": "1409813",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Medium: Stochastic Program Optimization",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2014-07-15",
+ "awd_exp_date": "2019-06-30",
+ "tot_intn_awd_amt": 798159.0,
+ "awd_amount": 798159.0,
+ "awd_min_amd_letter_date": "2014-07-09",
+ "awd_max_amd_letter_date": "2014-07-09",
+ "awd_abstract_narration": "Title: SHF: Medium: Stochastic Program Optimization\r\n\r\nVirtually all software today is written by a combination of man and machine.  Programmers write programs in programming languages that cannot be executed directly---these languages are designed to make the task of programming easier but cannot actually be run on a computer without a second step, where the human-written program is translated into a language that the machine can execute.  Many changes to the program are made during this translation and especially important are optimizations that improve the performance of the final program on the hardware.\r\n\r\nOptimizing programs is a very complex process as there are many tradeoffs to be made in how to best use the limited resources of the target architecture.  Traditionally this large problem is solved by breaking it into many small sub-problems, each of which focuses on a particular class of optimizations.  In this project a very different alternative will be explored, using randomized search techniques to simultaneously consider all of the factors that go into producing the fastest possible code.  Preliminary results have shown this approach can match or outperform production compilers for important short kernels; a focus of this research will be to try to scale these results up to full programs.  The intellectual merit of this work is to reconsider how to perform compiler optimizations in light of the dramatic advances in computational power over the last several decades, a period in which the basic structure of compilers has hardly changed. The broader impact will be to demonstrate novel methods based on stochastic search, for producing, with a significant degree of automation, consistently much faster low-level code than today?s compilers. Thus, instead of compiler projects requiring years to produce reliable and high performance code for new architectures, stochastic optimizers that perform even better and with higher assurance can be built much more quickly by smaller teams of people. The techniques that will be developed will also be widely disseminated through massively online course portals.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alexander",
+   "pi_last_name": "Aiken",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alexander Aiken",
+   "pi_email_addr": "aiken@cs.stanford.edu",
+   "nsf_id": "000281933",
+   "pi_start_date": "2014-07-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943054100",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "689200",
+   "pgm_ele_name": "CI REUSE"
+  },
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 798159.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>&nbsp;</p>\n<p>Programs are notoriously difficult to manipulate and transform; it is easy to turn a working program into one that doesn't work by introducing errors that are difficult to detect, and so systems that seek to automatically improve programs (by, for example, making them run faster) are generally very conservative, limited to a set of well-understood changes.</p>\n<p>In this project we explored using very aggressive techniques to transform programs, in particular by making arbitrary random changes and then checking after the fact whether there was any improvement or not.&nbsp; Most random changes will result in a worse or simply non-working program, but very rarely a change will be beneficial and make the program run faster without sacrificing correctness.&nbsp; By repeatedly making random changes up to hundreds of millions of times and retaining the changes that were improvements, much higher quality programs can be found than by using traditional methods.&nbsp; It is important to understand that this approach only scales to relatively small amounts of code (it can improve a program a few hundred lines long), but even at these small scales the technique has potential utility in real applications.</p>\n<p>Two key things are needed to make this approach work, however.&nbsp; The first is be able to actually make enough proposals to find improvements.&nbsp; This requires keeping the rate of exploration high, and techniques for achieving that were part of the research effort.&nbsp; The second essential component is the ability to verify correctness.&nbsp; We developed \"black box\" techniques that assumed nothing except that it was given two programs to be proven equal (or not).&nbsp; The core issue faced was identifying which parts of the programs corresponded and then deriving from that a set of smaller proofs that, if succesfully carried out automatically, could prove the two programs were equal.</p>\n<p>Applications of these techniques are numerous.&nbsp; For example, our verification techniques are immediately applicable to existing compilers to increase confidence in their output (by, for example, checking optimized and unoptimized versions of the same program for equivalence).&nbsp; The search techniques for optimization have also been applied successfully in deep learning, with very different kinds of programs but a similar need to obtain the best performance.&nbsp; Finally, we also used the techniques for synthesis where we were given only a description of the program's behavior in the form of input-output examples; for example, we used these techniques to synthesize the most complete formal specification of the x86 instruction set to that point.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/08/2019<br>\n\t\t\t\t\tModified by: Alexander&nbsp;Aiken</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n \n\nPrograms are notoriously difficult to manipulate and transform; it is easy to turn a working program into one that doesn't work by introducing errors that are difficult to detect, and so systems that seek to automatically improve programs (by, for example, making them run faster) are generally very conservative, limited to a set of well-understood changes.\n\nIn this project we explored using very aggressive techniques to transform programs, in particular by making arbitrary random changes and then checking after the fact whether there was any improvement or not.  Most random changes will result in a worse or simply non-working program, but very rarely a change will be beneficial and make the program run faster without sacrificing correctness.  By repeatedly making random changes up to hundreds of millions of times and retaining the changes that were improvements, much higher quality programs can be found than by using traditional methods.  It is important to understand that this approach only scales to relatively small amounts of code (it can improve a program a few hundred lines long), but even at these small scales the technique has potential utility in real applications.\n\nTwo key things are needed to make this approach work, however.  The first is be able to actually make enough proposals to find improvements.  This requires keeping the rate of exploration high, and techniques for achieving that were part of the research effort.  The second essential component is the ability to verify correctness.  We developed \"black box\" techniques that assumed nothing except that it was given two programs to be proven equal (or not).  The core issue faced was identifying which parts of the programs corresponded and then deriving from that a set of smaller proofs that, if succesfully carried out automatically, could prove the two programs were equal.\n\nApplications of these techniques are numerous.  For example, our verification techniques are immediately applicable to existing compilers to increase confidence in their output (by, for example, checking optimized and unoptimized versions of the same program for equivalence).  The search techniques for optimization have also been applied successfully in deep learning, with very different kinds of programs but a similar need to obtain the best performance.  Finally, we also used the techniques for synthesis where we were given only a description of the program's behavior in the form of input-output examples; for example, we used these techniques to synthesize the most complete formal specification of the x86 instruction set to that point.\n\n\t\t\t\t\tLast Modified: 07/08/2019\n\n\t\t\t\t\tSubmitted by: Alexander Aiken"
+ }
+}

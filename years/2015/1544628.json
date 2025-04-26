@@ -1,0 +1,101 @@
+{
+ "awd_id": "1544628",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Scalable Bayesian Inference for Interpretable Time-Series Models",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Sushil K Prasad",
+ "awd_eff_date": "2015-07-01",
+ "awd_exp_date": "2016-06-30",
+ "tot_intn_awd_amt": 74073.0,
+ "awd_amount": 74073.0,
+ "awd_min_amd_letter_date": "2015-07-07",
+ "awd_max_amd_letter_date": "2015-07-07",
+ "awd_abstract_narration": "From healthcare to retail, from governments to education, we are collecting and storing data.  These data sources provide unprecedented opportunities: healthcare data stores, originally collected for billing purposes, can be mined to better understand diseases and improve treatments; government data stores, originally collected for reporting purposes, can be mined to improve national welfare and security; retail data stores, originally collected for accounting purposes, can be used to detect complex fraud and improve the customer experience.  In particular, these large data stores allow us to understand the patterns of patients, customers, citizens, and students over time.  Probabilistic models for time-series analysis can recover patterns such as disease trajectories and purchasing needs.  However, using these data to better understand these patterns---generally collected and stored for other purposes---is challenging for several reasons.  These data are typically stored in standard relational databases and subject to complex security protections.  They are also often biased and incomplete; one can use them to discover interesting patterns but the results must be used with caution.  This proposal makes steps toward addressing these core problems.  In particular, we propose to create methods for analyzing time-series that can run efficiently on existing data management architectures and provide interpretable results that can be vetted by a domain expert for accuracy.  We apply these approaches to understanding disease progression in diabetes and psychiatric diseases through the analysis of electronic health records.  \r\n\r\nFrom a technical point of view, this work focuses on a particular probabilistic time-series model, the Hierarchical Dirichlet Process Hidden Markov Model (HDP-HMM).  Inference in this model is typically performed in a numerical computing environment using Markov Chain Monte Carlo (MCMC).  The first part of our work involves adapting the MCMC steps so that they can be run efficiently with a traditional database architectures.  Specifically, we will develop methods that do not require the data to be removed from the database by splitting the inference into computations that operate directly on the data---to be performed within the database---and computations that operate on derived statistics---to be performed in a numerical computing environment.  The second part of our work involves making models learned from sparse, high-dimensional data more interpretable.  Here we will leverage the fact that while these data stores are typically high-dimensional (tens of thousands of dimensions), these dimensions are not all independent; in fact, in most real applications there exists knowledge about how these data are structured.  We will apply these knowledge bases to create sparse models that are easier for domain experts to interpret.  While we focus on our healthcare application for this work, these techniques are relevant to a variety of applications involving time-series with high-dimensional, sparsely sampled data.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Finale",
+   "pi_last_name": "Doshi-Velez",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Finale Doshi-Velez",
+   "pi_email_addr": "finale@seas.harvard.edu",
+   "nsf_id": "000599894",
+   "pi_start_date": "2015-07-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Harvard University",
+  "inst_street_address": "1033 MASSACHUSETTS AVE STE 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6174955501",
+  "inst_zip_code": "021385366",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MA05",
+  "org_lgl_bus_name": "PRESIDENT AND FELLOWS OF HARVARD COLLEGE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LN53LCFJFL45"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Harvard SEAS",
+  "perf_str_addr": null,
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021382933",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736100",
+   "pgm_ele_name": "EDUCATION AND WORKFORCE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7231",
+   "pgm_ref_txt": "CYBERINFRASTRUCTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 74073.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>As we learn more about disease processes, we are discovering that many diseases that we consider a single disease--such as diabetes--in fact have many subtypes, while other diseases that we consider distinct--such as depression and anxiety--in fact have deep connections.&nbsp; Electronic health records, which capture longitudinal information about a patient across medical specialties, provide a unique opportunity to study distinctions within and between disease at scale.&nbsp; However, the analysis of these data is challenging: electronic health records are high dimensional, incomplete, and biased toward information that is valuable for billing.&nbsp; The goal of this work was to apply machine learning techniques to derive disease phenotypes from such messy sources.<br /><br />In particular, we focused on studying autism spectrum disorder (ASD) through the electronic health records (EHRs) of 14,000 patients at Boston Children's Hospital and 600,000 forum posts written by caregivers of children with ASD.&nbsp; Prior to this work, we had discovered three novel subtypes in ASD by analyzing the EHR data alone.&nbsp; Over this year, we developed efficient inference approaches to combine both clinician and caretaker information without requiring explicit links between patient identities in the two sources.&nbsp; This work will be published in the Journal of Machine Learning Research.<br /><br />A second area of focus this year was the preliminary work on understanding the multimodality of the solutions to our models.&nbsp; Especially when we are going to interpret the parameters of our models as disease phenotypes, it is important to consider whether there may exist another set of parameters that might explain the data equally well but lead us to very different conclusions about the underlying disease process.&nbsp; We started with the simpler question of understanding non-identifiability in non-negative matrix factorization, a closely related model, and defined all the ways in which non-identifiability may occur.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/30/2016<br>\n\t\t\t\t\tModified by: Finale&nbsp;P&nbsp;Doshi-Velez</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAs we learn more about disease processes, we are discovering that many diseases that we consider a single disease--such as diabetes--in fact have many subtypes, while other diseases that we consider distinct--such as depression and anxiety--in fact have deep connections.  Electronic health records, which capture longitudinal information about a patient across medical specialties, provide a unique opportunity to study distinctions within and between disease at scale.  However, the analysis of these data is challenging: electronic health records are high dimensional, incomplete, and biased toward information that is valuable for billing.  The goal of this work was to apply machine learning techniques to derive disease phenotypes from such messy sources.\n\nIn particular, we focused on studying autism spectrum disorder (ASD) through the electronic health records (EHRs) of 14,000 patients at Boston Children's Hospital and 600,000 forum posts written by caregivers of children with ASD.  Prior to this work, we had discovered three novel subtypes in ASD by analyzing the EHR data alone.  Over this year, we developed efficient inference approaches to combine both clinician and caretaker information without requiring explicit links between patient identities in the two sources.  This work will be published in the Journal of Machine Learning Research.\n\nA second area of focus this year was the preliminary work on understanding the multimodality of the solutions to our models.  Especially when we are going to interpret the parameters of our models as disease phenotypes, it is important to consider whether there may exist another set of parameters that might explain the data equally well but lead us to very different conclusions about the underlying disease process.  We started with the simpler question of understanding non-identifiability in non-negative matrix factorization, a closely related model, and defined all the ways in which non-identifiability may occur.\n\n\t\t\t\t\tLast Modified: 07/30/2016\n\n\t\t\t\t\tSubmitted by: Finale P Doshi-Velez"
+ }
+}

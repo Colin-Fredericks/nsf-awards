@@ -1,0 +1,101 @@
+{
+ "awd_id": "2213808",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: CCRI: Planning-C: Accelerated Infrastructure for Simulating Future Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2022-10-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 49999.0,
+ "awd_amount": 49999.0,
+ "awd_min_amd_letter_date": "2022-07-08",
+ "awd_max_amd_letter_date": "2022-07-08",
+ "awd_abstract_narration": "Software-based simulation is the backbone of computer architecture research and development. The project novelty is the identification of the following problems with these methodologies: (1) The use of on-premise servers for running simulations suffers from the high operation and embodied energy costs. Although simulation performance has always been a primary engineering focus of software-based simulators, energy consumption and environmental impacts of detailed hardware simulation have mainly been ignored. (2) Detailed software-based simulations have different run-time characteristics than baremetal applications. Such differences make the general-purpose servers with default server configurations extremely inefficient for running detailed simulations. (3) Lastly, full-system simulation environments have steep learning curves that further steepen as the hardware and software stacks to be simulated become more complex. The project\u2019s impacts are to bring the CISE community's attention to the energy waste at the onpremise simulation clusters and provide a foundation for minimizing the energy and carbon footprint of future hardware evaluation.\r\n\r\nThe investigators\u2019 goal is to create a cloud-based community infrastructure for running simulations. This community infrastructure eliminates the need for funding agencies such as NSF to invest in on-premise servers and significantly reduce the end-to-end carbon footprint of simulations. More specifically, investigators extensively analyze the source code and run-time of the popular architectural simulators to understand their characteristics as a software program that needs to be efficiently executed on real hardware. The investigators use the profiling results to tune system parameters and provide a highly optimized environment for running architectural simulations. They enhance the proposed cloud infrastructure with hardware accelerators that further improve popular architectural simulators' energy efficiency and performance. The infrastructure follows a marketplace model for sharing and using simulation models and setups developed by other researchers to reduce the learning curve of detailed simulations.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nam Sung",
+   "pi_last_name": "Kim",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nam Sung Kim",
+   "pi_email_addr": "nskim@illinois.edu",
+   "nsf_id": "000512015",
+   "pi_start_date": "2022-07-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "1901 South First Street",
+  "perf_city_name": "Champaign",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618207406",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735900",
+   "pgm_ele_name": "CCRI-CISE Cmnty Rsrch Infrstrc"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7359",
+   "pgm_ref_txt": "COMPUTING RES INFRASTRUCTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 49999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project explored fast and efficient computer architecture simulation techniques to expedite the research and development of processors, also referred to as central processing units (CPUs). Typically, running a computer architecture simulation for one particular design points often takes days, and researchers and engineers needs to run thousands or even millions of simulations for diverse design points to develop energy- and cost-efficient&nbsp; processors that power mobile phones, laptops, and datacenter servers, which incurs not only significant engineering costs to provide computing resources to run these simulations but also environmental costs or carbon footprint as these computing resources consume astronomical amounts of electricity. Specifically, we have explored three techniques, motivated by our observation that the computer architecture simulation is slow and inefficient because of their large code footprint, which has the processors running the simulation frequently access larger but slower processor memory units instead of smaller but faster processor memory units.To tackle this problem, first, we profiled the code of the most popular computer architecture simulator and found a technique to significantly reduce the code footprint, resulting in less frequent access to the larger but slower memory and faster simulations.Second, we profiled the execution behavior of the computer architecture simulator and found that there is inherent parallelism that we can exploit to parallelize the computer architecture simulation without suffering from all the challenges and inefficiencies discovered by past work.Third, we explored techniques to distribute the simulation code pieces across different processor cores running simulations to leverage the aggregate capacity of smaller but faster processor memory units.While the first technique described above offered us significant simulation speedup, we found that the two other techniques need more investigation and investment to further examine the effectiveness and optimize the techniques. With our first techniques, researchers and engineers developing processors can notably reduce the simulation time and/or computing resources.</p><br>\n<p>\n Last Modified: 01/26/2025<br>\nModified by: Nam Sung&nbsp;Kim</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project explored fast and efficient computer architecture simulation techniques to expedite the research and development of processors, also referred to as central processing units (CPUs). Typically, running a computer architecture simulation for one particular design points often takes days, and researchers and engineers needs to run thousands or even millions of simulations for diverse design points to develop energy- and cost-efficient processors that power mobile phones, laptops, and datacenter servers, which incurs not only significant engineering costs to provide computing resources to run these simulations but also environmental costs or carbon footprint as these computing resources consume astronomical amounts of electricity. Specifically, we have explored three techniques, motivated by our observation that the computer architecture simulation is slow and inefficient because of their large code footprint, which has the processors running the simulation frequently access larger but slower processor memory units instead of smaller but faster processor memory units.To tackle this problem, first, we profiled the code of the most popular computer architecture simulator and found a technique to significantly reduce the code footprint, resulting in less frequent access to the larger but slower memory and faster simulations.Second, we profiled the execution behavior of the computer architecture simulator and found that there is inherent parallelism that we can exploit to parallelize the computer architecture simulation without suffering from all the challenges and inefficiencies discovered by past work.Third, we explored techniques to distribute the simulation code pieces across different processor cores running simulations to leverage the aggregate capacity of smaller but faster processor memory units.While the first technique described above offered us significant simulation speedup, we found that the two other techniques need more investigation and investment to further examine the effectiveness and optimize the techniques. With our first techniques, researchers and engineers developing processors can notably reduce the simulation time and/or computing resources.\t\t\t\t\tLast Modified: 01/26/2025\n\n\t\t\t\t\tSubmitted by: Nam SungKim\n"
+ }
+}

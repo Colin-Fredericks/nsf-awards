@@ -1,0 +1,125 @@
+{
+ "awd_id": "1017849",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "SHF:Small:Collaborative Research: Languages and Tools for Multilingual Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2010-08-15",
+ "awd_exp_date": "2014-07-31",
+ "tot_intn_awd_amt": 299974.0,
+ "awd_amount": 299974.0,
+ "awd_min_amd_letter_date": "2010-08-08",
+ "awd_max_amd_letter_date": "2011-05-15",
+ "awd_abstract_narration": "Software developers are increasingly building applications in multiple languages both to reuse existing software libraries and to leverage the languages best suited to their problems. In fact, multilingual programs are already prevalent, as essentially all programs written in Java use code written in C as well. But developing multilingual programs poses more challenges and difficulties than developing single language programs. Current programming interfaces between multiple languages tend to be tedious and unsafe; and most programming tools only support a single language. As a consequence, real-world multilingual programs are full of cross-language bugs.\r\n\r\nThis research seeks to substantially improve the correctness and development of multilingual programs. The investigators build on their prior multilingual language design (the Jeannie Java/C language), compilers (the xtc Jeannie compiler), and debuggers (the Blink Java/C debugger). Here, the investigators are designing and implementing novel approaches for validating the safety of existing multilingual interfaces and for creating safe multilingual programs. (1) The investigators are developing a framework for concisely capturing safety rules for multilingual interfaces and then automatically synthesizing the corresponding dynamic checker. (2) The investigators are exploring novel program analysis to refactor programs automatically that use unsafe multilingual interfaces into programs that use safe multilingual interfaces. If successful, the research impact will be improved correctness, efficiency, and reliability of multilingual programs.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robert",
+   "pi_last_name": "Grimm",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robert Grimm",
+   "pi_email_addr": "rgrimm@cs.nyu.edu",
+   "nsf_id": "000104807",
+   "pi_start_date": "2010-08-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "70 WASHINGTON SQ S",
+  "perf_city_name": "NEW YORK",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121019",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  },
+  {
+   "pgm_ele_code": "794300",
+   "pgm_ele_name": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0111",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001112DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 96741.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2011,
+   "fund_oblg_amt": 203233.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>A first significant step when building programming tools (such as bug finders to identify software defects and program refactorings to improve source code) is to parse the source code (i.e., convert from human-readable format into an in-memory representation amenable to computer&nbsp;analysis and modification). This first step is rather complex for C code, which is the language of choice for critical software projects such as the Linux operating system, the Apache web server, and the Sqlite database. The problem is that C source code really mixes two different languages: the C language proper, which has well-structured constructs, and the C preprocessor. The latter&rsquo;s instructions can appear anywhere in source code and enable the combination of files (so-called file includes), the replacement of source code (so-called macros), and the selection of one out of several code fragments (so-called static conditionals). As a direct result, familiar techniques for parsing programming language source files do not apply to C.</p>\n<div>Under this award, we developed the first complete and performant set of algorithms and corresponding tool that solve this 40 year old problem and thus set the stage for better C tools. Our approach has two stages. First, a configuration-preserving preprocessor resolves includes and macros yet leaves static conditionals intact, thus preserving a program&rsquo;s source code for all configurations. To ensure completeness, we analyzed all interactions between preprocessor features and identified techniques for correctly handling them. Second, a configuration-preserving parser generates an extended in-memory representation that includes static conditionals. The parser starts copies of itself when encountering static conditionals and recombines with the copies after the conditionals. To ensure performance, we developed a simple base algorithm, which utilizes familiar techniques where possible, and then introduced four key optimizations that make it fast. We demonstrated the effectiveness of our algorithms and tool on the x86 Linux kernel. A key finding is that Linux source code makes extensive usage of all preprocessor features and also triggers all their interactions as identified by us bar one. In other words, our work lays the foundation for better C tools and, hopefully, less buggy and better structured applications.</div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/19/2014<br>\n\t\t\t\t\tModified by: Robert&nbsp;Grimm</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nA first significant step when building programming tools (such as bug finders to identify software defects and program refactorings to improve source code) is to parse the source code (i.e., convert from human-readable format into an in-memory representation amenable to computer analysis and modification). This first step is rather complex for C code, which is the language of choice for critical software projects such as the Linux operating system, the Apache web server, and the Sqlite database. The problem is that C source code really mixes two different languages: the C language proper, which has well-structured constructs, and the C preprocessor. The latter\u00c6s instructions can appear anywhere in source code and enable the combination of files (so-called file includes), the replacement of source code (so-called macros), and the selection of one out of several code fragments (so-called static conditionals). As a direct result, familiar techniques for parsing programming language source files do not apply to C.\nUnder this award, we developed the first complete and performant set of algorithms and corresponding tool that solve this 40 year old problem and thus set the stage for better C tools. Our approach has two stages. First, a configuration-preserving preprocessor resolves includes and macros yet leaves static conditionals intact, thus preserving a program\u00c6s source code for all configurations. To ensure completeness, we analyzed all interactions between preprocessor features and identified techniques for correctly handling them. Second, a configuration-preserving parser generates an extended in-memory representation that includes static conditionals. The parser starts copies of itself when encountering static conditionals and recombines with the copies after the conditionals. To ensure performance, we developed a simple base algorithm, which utilizes familiar techniques where possible, and then introduced four key optimizations that make it fast. We demonstrated the effectiveness of our algorithms and tool on the x86 Linux kernel. A key finding is that Linux source code makes extensive usage of all preprocessor features and also triggers all their interactions as identified by us bar one. In other words, our work lays the foundation for better C tools and, hopefully, less buggy and better structured applications.\n\n \n\n\t\t\t\t\tLast Modified: 10/19/2014\n\n\t\t\t\t\tSubmitted by: Robert Grimm"
+ }
+}

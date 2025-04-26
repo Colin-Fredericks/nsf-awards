@@ -1,0 +1,109 @@
+{
+ "awd_id": "1217854",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Tool Support for Verifiably-Robust Software",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2012-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 499922.0,
+ "awd_amount": 499922.0,
+ "awd_min_amd_letter_date": "2012-07-03",
+ "awd_max_amd_letter_date": "2012-07-03",
+ "awd_abstract_narration": "Society increasingly relies on software in critical roles for which crashes can have serious consequences including the loss of lives. For example, it is now commonplace for software to control the engines and brakes in our cars.  This research investigates a new approach for improving the resilience of software.  The goal is to verify that hidden bugs cannot cause programs to transition into problematic states in which they stop responding to human control or respond differently than when they were tested.  Given the scale that our society depends on software in critical roles, new approaches to improving software resilience have the potential to reduce the financial costs of software failures and even save lives.\r\n\r\nPrevious work on software resilience largely focused on extensive testing or formal verification of correctness.  This project takes a new approach - it seeks to verify that the consequences of a software error have a limited scope in time.  Precisely, it verifies that after a bounded time period after an error, the execution will reach a state in which it will respond with same behaviors seen while testing.  This property is known in the distributed systems literature as self-stabilization.  The project will combine type annotations with compiler analyses to verify that a computation is self-stabilizing.  A second thrust of the project is to explore how to compose self-stabilizing computations with stateful computations while still providing useful system level guarantees.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Brian",
+   "pi_last_name": "Demsky",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Brian C Demsky",
+   "pi_email_addr": "bdemsky@uci.edu",
+   "nsf_id": "000399342",
+   "pi_start_date": "2012-07-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Irvine",
+  "inst_street_address": "160 ALDRICH HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "IRVINE",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "9498247295",
+  "inst_zip_code": "926970001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "47",
+  "st_cong_dist_code": "CA47",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA IRVINE",
+  "org_prnt_uei_num": "MJC5FCYQTPE6",
+  "org_uei_num": "MJC5FCYQTPE6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Irvine",
+  "perf_str_addr": "4213 Engineering Hall",
+  "perf_city_name": "Irvine",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "926972625",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "47",
+  "perf_st_cong_dist": "CA47",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 499922.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Society increasingly relies on software in critical roles for which crashes can have serious consequences. &nbsp;The negative consequences of failures in these systems range from simple denial of service to legitimate users to the destruction of physical systems (with the potential for collateral damage) when their software controls fail.This project explores new approaches to improving the robustness of software systems that interact with the physical world&nbsp;to programming errors that can crashes or open the software to attack.</p>\n<p>&nbsp;</p>\n<p>The project has developed new insights to improving the robustness of software to crashes and attacks. &nbsp;One insight is that many software systems can be architected such that a trigger software bug can only affect software systems for a limited time. &nbsp;Such software systems self-stabilize and this project has developed analysis that can verify that programs self-stabilize before they are deployed. &nbsp;This work has been extended with tools that assist developers in the verification process---we have developed an inference tool that can in many cases automatically infer the necessary annotations for our checker.</p>\n<p><br />Attacks that leverage software bugs in systems that control physical infrastructure are often enabled by overly permissive network access to these devices. &nbsp;This is often done because naively restricting network communication can cause devices to fail when required communication is blocked. &nbsp;The project has developed language constructs and static analysis that characterize all communications that control software may need. &nbsp;This information is then used at runtime to block communication from attackers while ensuring that communication required by the system for correct operation is never blocked.</p>\n<p><br />The broader impacts of the research includes more robust software systems against both software bugs and attacks and an improvement in society's ability to safely rely on software systems as components of critical infrastructure. &nbsp;Software developed by the project has been made freely available. &nbsp;The project has helped develop national software resources by mentoring PhD students, undergraduate students, and even high school students.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/21/2017<br>\n\t\t\t\t\tModified by: Brian&nbsp;C&nbsp;Demsky</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSociety increasingly relies on software in critical roles for which crashes can have serious consequences.  The negative consequences of failures in these systems range from simple denial of service to legitimate users to the destruction of physical systems (with the potential for collateral damage) when their software controls fail.This project explores new approaches to improving the robustness of software systems that interact with the physical world to programming errors that can crashes or open the software to attack.\n\n \n\nThe project has developed new insights to improving the robustness of software to crashes and attacks.  One insight is that many software systems can be architected such that a trigger software bug can only affect software systems for a limited time.  Such software systems self-stabilize and this project has developed analysis that can verify that programs self-stabilize before they are deployed.  This work has been extended with tools that assist developers in the verification process---we have developed an inference tool that can in many cases automatically infer the necessary annotations for our checker.\n\n\nAttacks that leverage software bugs in systems that control physical infrastructure are often enabled by overly permissive network access to these devices.  This is often done because naively restricting network communication can cause devices to fail when required communication is blocked.  The project has developed language constructs and static analysis that characterize all communications that control software may need.  This information is then used at runtime to block communication from attackers while ensuring that communication required by the system for correct operation is never blocked.\n\n\nThe broader impacts of the research includes more robust software systems against both software bugs and attacks and an improvement in society's ability to safely rely on software systems as components of critical infrastructure.  Software developed by the project has been made freely available.  The project has helped develop national software resources by mentoring PhD students, undergraduate students, and even high school students.\n\n\t\t\t\t\tLast Modified: 12/21/2017\n\n\t\t\t\t\tSubmitted by: Brian C Demsky"
+ }
+}

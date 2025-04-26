@@ -1,0 +1,109 @@
+{
+ "awd_id": "1546373",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "BIGDATA: F: Protection of Data Privacy via Differentially Private Multiple Synthesis",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032927347",
+ "po_email": "sspengle@nsf.gov",
+ "po_sign_block_name": "Sylvia Spengler",
+ "awd_eff_date": "2016-01-01",
+ "awd_exp_date": "2019-05-31",
+ "tot_intn_awd_amt": 243503.0,
+ "awd_amount": 243503.0,
+ "awd_min_amd_letter_date": "2015-09-14",
+ "awd_max_amd_letter_date": "2015-09-14",
+ "awd_abstract_narration": "This project seeks better ways to protect individual privacy in big data without compromising the accuracy of population-level information for research and public use.  The differential privacy community has explored private release of datasets, but this has largely been within the computer science theory community and has not rigorously evaluated the practical utility of the methods.  This project develops techniques and tools to create synthetic \"surrogate datasets\" with the same structure and statistical properties as the original dataset, but satisfying differential privacy.  The work includes development of techniques to generate synthetic data amenable to statistical analysis, evaluation of the techniques in real-life big data, and to develop and release as open source tools for dataset creation.  This project brings a statistician's viewpoint to the utility question, and evaluates against both simulated data, the census record based ADULT dataset frequently used in anonymization studies, and two real datasets, one with hospital inpatient data and the other a social science study on poverty.  The work is being featured in several community outreach programs to stimulate interests in STEM careers among K-12 students.\r\n\r\nThe project builds on multiple synthesis (generating multiple datasets from posterior distribution-derived sufficient statistics).  The project is first establishing theoretical and methodological foundations, including but not limited to mathematical derivation of the global sensitivity of the sufficient statistics in commonly used statistical models, establishment of a theory that guarantees individual privacy protection in released data, and establishment of large-sample inferential theories on the synthetic data.  Probability theory, stochastic process, asymptotic theory, Bayesian modelling and computing, and missing data analysis techniques are heavily employed.  To ensure scalability to Big Data, sufficient statistics whose scalar components do not increase as the number of data items increases are being investigated.  The developed method is evaluated by simulation studies and applications to real life data sets (including social/financial data and health care data) benchmarked against current methodologies for releasing individual-level data. Finally, open-source software is being developed for release on the Comprehensive R Archive Network that produces a synthetic dataset matching the schema of the original data, as well as certain statistics to explain disclosure risk and support analysis of data utility.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Fang",
+   "pi_last_name": "Liu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Fang Liu",
+   "pi_email_addr": "Fang.Liu.131@nd.edu",
+   "nsf_id": "000606444",
+   "pi_start_date": "2015-09-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Notre Dame",
+  "inst_street_address": "940 GRACE HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "NOTRE DAME",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "5746317432",
+  "inst_zip_code": "465565708",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "IN02",
+  "org_lgl_bus_name": "UNIVERSITY OF NOTRE DAME DU LAC",
+  "org_prnt_uei_num": "FPU6XGFXMBE9",
+  "org_uei_num": "FPU6XGFXMBE9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Notre Dame",
+  "perf_str_addr": "940 Grace Hall",
+  "perf_city_name": "Notre Dame",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "465565708",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "IN02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "808300",
+   "pgm_ele_name": "Big Data Science &Engineering"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "8083",
+   "pgm_ref_txt": "Big Data Science &Engineering"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 243503.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project leverages differential privacy and establishes an original framework to integrate the differential privacy concept with data synthesis, statistical modelling and inferences. With this NSF award, we have proposed several general methodologies (MODIPS, STEPS, CIPHER, DP-ERGM) to generate differentially private synthetic data that protect the privacy of the individuals in the original data while preserving the population-level information.&nbsp; We have also proposed the generalized Gaussian mechanism that extends the Laplace and Gaussian mechanism and can be used to sanitized numerical queries; and have examined the statistical properties of sanitized statistics via the Laplace mechanism. We tested and applied the proposed methods and mechanisms in both simulated data and real-life data sets (e.g., survey data, voter registration data, bankruptcy data, and social network data). We produced eight manuscripts from this projects and travelled to national and international workshops and conferences annually to present the project results and findings. This project also provided students an excellent training opportunity in a cutting edge research area of paramount practical significance. Five doctoral students and one undergraduate student worked/are still working on various aspects of this project. The three that had graduated now work in national labs and research institutes. Finally, the research team participated in various outreach programs offered by the University of Notre Dame, such as Expand your Horizon for middle-school girls, and the Game Day Science Lectures Series, and webinar on data privacy open the public, to raise awareness of data privacy and educate the public about the NSF-funded research on data privacy.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/31/2019<br>\n\t\t\t\t\tModified by: Fang&nbsp;Liu</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project leverages differential privacy and establishes an original framework to integrate the differential privacy concept with data synthesis, statistical modelling and inferences. With this NSF award, we have proposed several general methodologies (MODIPS, STEPS, CIPHER, DP-ERGM) to generate differentially private synthetic data that protect the privacy of the individuals in the original data while preserving the population-level information.  We have also proposed the generalized Gaussian mechanism that extends the Laplace and Gaussian mechanism and can be used to sanitized numerical queries; and have examined the statistical properties of sanitized statistics via the Laplace mechanism. We tested and applied the proposed methods and mechanisms in both simulated data and real-life data sets (e.g., survey data, voter registration data, bankruptcy data, and social network data). We produced eight manuscripts from this projects and travelled to national and international workshops and conferences annually to present the project results and findings. This project also provided students an excellent training opportunity in a cutting edge research area of paramount practical significance. Five doctoral students and one undergraduate student worked/are still working on various aspects of this project. The three that had graduated now work in national labs and research institutes. Finally, the research team participated in various outreach programs offered by the University of Notre Dame, such as Expand your Horizon for middle-school girls, and the Game Day Science Lectures Series, and webinar on data privacy open the public, to raise awareness of data privacy and educate the public about the NSF-funded research on data privacy.\n\n \n\n\t\t\t\t\tLast Modified: 08/31/2019\n\n\t\t\t\t\tSubmitted by: Fang Liu"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "0905143",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TC:  Medium:  Self-Securing Services for Mobile Handsets",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2010-03-01",
+ "awd_exp_date": "2015-02-28",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2010-02-19",
+ "awd_max_amd_letter_date": "2014-03-06",
+ "awd_abstract_narration": "The main objective of the proposed research is to develop a self-securing framework for smart mobile handsets, called S3Mobile (Self Securing Services for Mobile handsets), that protects the handsets against known and unknown malware. The key research components of S3Mobile include: (1) collect malware samples for mobile handsets, (2) record the hardware and software usage logs of the samples that represent the corresponding run-time behavior, (3) develop an algorithm for extracting features from the logs, (4) analyze similarities, features, and exploit vectors, and (5) implement and evaluate S3Mobile on the Android platform. \r\n\r\nThe general approach to the problem is to conduct some monitoring on the handset, but, recognizing the more limited computational and electrical resources available there, to use a remote server to conduct more computationally intensive activities and to maintain repositories of malware and normal application behavior.  The server side facilities are referred to as a second line of defense. Four particular challenges are noted for the work: accurately specifying malware behavior, accurately detecting such behavior, testing the constructed system to evaluate its performance correctly, and the difficulty of obtaining malware samples. The proposal documents approaches to each of these challenges, including the use of a temporal logic based notation for describing malware behavior and a combination of honeypots and industrial collaboration to provide malware samples.  \r\n\r\nIf successful, the work could lead to a cellphone / smartphone infrastructure with much improved resilience to  software-based attacks that aim to steal information or drain power from the phone.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kang",
+   "pi_last_name": "Shin",
+   "pi_mid_init": "G",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kang G Shin",
+   "pi_email_addr": "kgshin@umich.edu",
+   "nsf_id": "000435838",
+   "pi_start_date": "2010-02-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Regents of the University of Michigan - Ann Arbor",
+  "inst_street_address": "1109 GEDDES AVE STE 3300",
+  "inst_street_address_2": "",
+  "inst_city_name": "ANN ARBOR",
+  "inst_state_code": "MI",
+  "inst_state_name": "Michigan",
+  "inst_phone_num": "7347636438",
+  "inst_zip_code": "481091015",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "MI06",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF MICHIGAN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GNJ7BBP73WE9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Regents of the University of Michigan - Ann Arbor",
+  "perf_str_addr": "1109 GEDDES AVE STE 3300",
+  "perf_city_name": "ANN ARBOR",
+  "perf_st_code": "MI",
+  "perf_st_name": "Michigan",
+  "perf_zip_code": "481091015",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "MI06",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779500",
+   "pgm_ele_name": "TRUSTWORTHY COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project has developed a self-securing framework for mobile devices, such as smartphones, to protect themselves against known and unknown malware (e.g., worms, viruses, Trojan horses, and spyware) by monitoring software (e.g., applications and data) and hardware (e.g., CPU, memory, and battery) resources, and adaptively learning and responding to malware behavior. Conventional detection systems based on static information (e.g., file names, source/destination addresses and code) are limited to detection of only known malware and do not provide any comprehensive solution (ranging from monitoring to self-healing) to malware on smart mobile handsets.</p>\n<p>The framework developed in this project focuses on the first and second lines of defense that depend and operate on mobile handsets, a data-sync PC, and a remote server. The first line of defense relies on behavior-based detection of malware <em>within&nbsp;</em>the handset, identifying significant deviations from normal behavior instead of simply matching observed events against stored signatures. This is effective in detecting previously-unknown threats, thus reducing false negatives (failure to identify malicious activity). The second line of defense employs both behavior- and signature-based detection. Untested/untrusted applications from unverified third-party suppliers or users are executed in a virtualized environment on the PC that provides an isolated `scratch space' on hardware, allowing for safe inspection of those applications. On the other hand, the remote server provides an up-to-date classifier and a database. In parallel with the behavior-based detection, the framework scans and compares software resources against previously-known threats. This also reduces false positives (incorrect identification of benign activity as malicious).</p>\n<p>The second key aspect of this framework involves monitoring <em>consumable</em> hardware resources (e.g., battery power) and detecting corresponding resource-greedy (malicious) applications. In particular, it identifies and prevents battery-consumption attacks -- usually not handled by anti-virus solutions.</p>\n<p>&nbsp;Overall, this project has advanced the state-of-the-art in protecting rapidly growing numbers of mobile users, services, and applications from various types of malware attacks. By embedding self-securing functions in each mobile devices, the developed framework keeps the device operational --hence minimizing loss of work,information leak, and battery drain -- even under malware attacks.</p>\n<p>In addition to publication of the research results in premier venues, this project produced several US patents on detection of mobile malware and protection of mobile devices and users.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/30/2015<br>\n\t\t\t\t\tModified by: Kang&nbsp;G&nbsp;Shin</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project has developed a self-securing framework for mobile devices, such as smartphones, to protect themselves against known and unknown malware (e.g., worms, viruses, Trojan horses, and spyware) by monitoring software (e.g., applications and data) and hardware (e.g., CPU, memory, and battery) resources, and adaptively learning and responding to malware behavior. Conventional detection systems based on static information (e.g., file names, source/destination addresses and code) are limited to detection of only known malware and do not provide any comprehensive solution (ranging from monitoring to self-healing) to malware on smart mobile handsets.\n\nThe framework developed in this project focuses on the first and second lines of defense that depend and operate on mobile handsets, a data-sync PC, and a remote server. The first line of defense relies on behavior-based detection of malware within the handset, identifying significant deviations from normal behavior instead of simply matching observed events against stored signatures. This is effective in detecting previously-unknown threats, thus reducing false negatives (failure to identify malicious activity). The second line of defense employs both behavior- and signature-based detection. Untested/untrusted applications from unverified third-party suppliers or users are executed in a virtualized environment on the PC that provides an isolated `scratch space' on hardware, allowing for safe inspection of those applications. On the other hand, the remote server provides an up-to-date classifier and a database. In parallel with the behavior-based detection, the framework scans and compares software resources against previously-known threats. This also reduces false positives (incorrect identification of benign activity as malicious).\n\nThe second key aspect of this framework involves monitoring consumable hardware resources (e.g., battery power) and detecting corresponding resource-greedy (malicious) applications. In particular, it identifies and prevents battery-consumption attacks -- usually not handled by anti-virus solutions.\n\n Overall, this project has advanced the state-of-the-art in protecting rapidly growing numbers of mobile users, services, and applications from various types of malware attacks. By embedding self-securing functions in each mobile devices, the developed framework keeps the device operational --hence minimizing loss of work,information leak, and battery drain -- even under malware attacks.\n\nIn addition to publication of the research results in premier venues, this project produced several US patents on detection of mobile malware and protection of mobile devices and users. \n\n \n\n\t\t\t\t\tLast Modified: 05/30/2015\n\n\t\t\t\t\tSubmitted by: Kang G Shin"
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "awd_id": "1351047",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CAREER: Towards a Big Data Application Server Stack",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-02-01",
+ "awd_exp_date": "2019-01-31",
+ "tot_intn_awd_amt": 464715.0,
+ "awd_amount": 464715.0,
+ "awd_min_amd_letter_date": "2014-02-03",
+ "awd_max_amd_letter_date": "2018-03-12",
+ "awd_abstract_narration": "Google's MapReduce inspired much of the Big Data Analytics work and has served as a template for open source systems like Apache Hadoop. The MapReduce programming model has wide applicability, but widespread adoption has exposed some limitations, such as the lack of support for iteration (which is common in machine learning algorithms), stream processing, graph analytics, real-time and interactive queries. Beyond the programming framework, the underlying implementation offers a template for how to scale-out massively distributed computations: break them up into small tasks that can be carried out in parallel by partitioning the underlying data, and save intermediate state to mitigate the impact of partial failures (which must be planned for when running on large clusters). The challenge then, is to build implementations of other programming frameworks (e.g., SQL and machine learning) that share the same scale-out and fault-tolerance runtime characteristics of MapReduce without imposing its limitations. \r\n\r\nResource managers such as Apache Hadoop YARN, Google Omega and Berkeley Mesos take a first step in this direction by separating resource allocation from the details of higher-level programming models and languages. Resource managers multiplex several jobs on the same underlying machine cluster, thereby increasing utilization and fostering clean-slate software stacks. When the task executing in a container a slice of a single machine's resources (CPU/GPU, memory, disk) is finished, the container is returned to the resource manager, where it is made available to other jobs. Unlike in higher-level stacks, a container is a blank-slate process, designed to host arbitrary computations. This project prescribes further reusable software layers that capture issues like how many resources should I dedicate to a job?; what are the redundant code-pathways and can I provide them in a reusable library?; what are the right language and runtime abstractions? Exploring these questions in the context of systems like MapReduce and related SQL implementations, ML toolkits, storage systems, and messaging systems, on next generation resource managers, is the primary focus of our work.\r\n\r\nThe goal is to unify a suite of large-scale data processing tasks on a single runtime layer, built on modern resource managers (the cloud operating systems). Our results will factor out commonalities in specialized systems and provide them in a single underlying runtime system, shortening the time to ?market? for the next ready-to-use Big Data toolkit, which in turn would increase the availability of such tools to the broader community. Experience gained by implementing and deploying applications at scale, over next generation resource managers, could help inform critical design choices in the development of future cloud computing platforms, and hence impact a broad range of scientific, engineering, national security, healthcare and business applications. The project offers enhanced opportunities for research-based advanced training of graduate and undergraduate students, including members of groups that are currently under-represented in computer science, in databases, machine learning, and cloud computing.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Tyson",
+   "pi_last_name": "Condie",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tyson Condie",
+   "pi_email_addr": "tconde@cs.ucla.edu",
+   "nsf_id": "000629463",
+   "pi_start_date": "2014-02-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "UCLA Computer Science",
+  "perf_str_addr": "420 Westwood Plaza, 4531D BH",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900951596",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "104500",
+   "pgm_ele_name": "CAREER: FACULTY EARLY CAR DEV"
+  },
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0116",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001617DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0117",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001718DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 279558.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2016,
+   "fund_oblg_amt": 90930.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2017,
+   "fund_oblg_amt": 92011.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 2216.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our final outcomes stems from work toward extending machine learning tooling and adding provedence support for big data analytics.&nbsp;Debugging data processing logic in Data-Intensive Scalable Computing (DISC) systems is a difficult and time consuming effort. Today&rsquo;s DISC systems offer very little tooling for debugging programs, and as a result programmers spend countless hours collecting evidence (e.g., from log files) and performing trial and error debugging. To aid this effort, we built Titian, a library that enables data provenance&mdash; tracking data through transformations&mdash;in Apache Spark. Data scientists using the Titian Spark extension will be able to quickly identify the input data at the root cause of a potential bug or outlier result. Titian is built directly into the Spark platform and offers data provenance support at interactive speeds&mdash;orders-of-magnitude faster than alternative solutions&mdash;while minimally impacting Spark job performance; observed overheads for capturing data lineage rarely exceed 30% above the baseline job execution time</p>\n<p>We began this work by leveraging prior tooling for data provenance support in Apache Spark. During this exercise, we ran into some usability and scalability issues, mainly due to Newt operating separately from the Spark runtime. This motivated us to build Titian, a data provenance library that integrates directly with the Spark runtime and programming interface. Titian provides Spark programmers with the ability to trace through the intermediate data of a program execution, at interactive speeds. Titian&rsquo;s programming interface extends the Spark RDD abstraction, making it familiar to Spark programmers and allowing it to operate seamlessly through the Spark interactive terminal. We believe the Titian Spark extension will open the door to a number of interesting use cases, including program debugging, data cleaning, and exploratory data analysis. In the future, we plan to further integrate Titian with the many Spark high-level libraries, such as GraphX (graph processing), MLlib (machine learning), and Spark SQL (database-style query processing). We envision each high-level library will motivate certain optimization strategies and data lineage record requirements e.g., how machine learning features and models associate with one another.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/20/2020<br>\n\t\t\t\t\tModified by: Tyson&nbsp;Condie</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOur final outcomes stems from work toward extending machine learning tooling and adding provedence support for big data analytics. Debugging data processing logic in Data-Intensive Scalable Computing (DISC) systems is a difficult and time consuming effort. Today\u2019s DISC systems offer very little tooling for debugging programs, and as a result programmers spend countless hours collecting evidence (e.g., from log files) and performing trial and error debugging. To aid this effort, we built Titian, a library that enables data provenance&mdash; tracking data through transformations&mdash;in Apache Spark. Data scientists using the Titian Spark extension will be able to quickly identify the input data at the root cause of a potential bug or outlier result. Titian is built directly into the Spark platform and offers data provenance support at interactive speeds&mdash;orders-of-magnitude faster than alternative solutions&mdash;while minimally impacting Spark job performance; observed overheads for capturing data lineage rarely exceed 30% above the baseline job execution time\n\nWe began this work by leveraging prior tooling for data provenance support in Apache Spark. During this exercise, we ran into some usability and scalability issues, mainly due to Newt operating separately from the Spark runtime. This motivated us to build Titian, a data provenance library that integrates directly with the Spark runtime and programming interface. Titian provides Spark programmers with the ability to trace through the intermediate data of a program execution, at interactive speeds. Titian\u2019s programming interface extends the Spark RDD abstraction, making it familiar to Spark programmers and allowing it to operate seamlessly through the Spark interactive terminal. We believe the Titian Spark extension will open the door to a number of interesting use cases, including program debugging, data cleaning, and exploratory data analysis. In the future, we plan to further integrate Titian with the many Spark high-level libraries, such as GraphX (graph processing), MLlib (machine learning), and Spark SQL (database-style query processing). We envision each high-level library will motivate certain optimization strategies and data lineage record requirements e.g., how machine learning features and models associate with one another.\n\n\t\t\t\t\tLast Modified: 05/20/2020\n\n\t\t\t\t\tSubmitted by: Tyson Condie"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1464209",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SaTC: Detecting Security Vulnerabilities in Instruction Set Architectures",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Sandip Kundu",
+ "awd_eff_date": "2015-05-15",
+ "awd_exp_date": "2017-12-31",
+ "tot_intn_awd_amt": 174976.0,
+ "awd_amount": 174976.0,
+ "awd_min_amd_letter_date": "2015-04-29",
+ "awd_max_amd_letter_date": "2015-04-29",
+ "awd_abstract_narration": "The interaction between computer processors -- the hardware at the heart of our computers, tablets, and phones -- and software -- apps, web browsers, and other applications -- is governed by an Instruction Set Architecture (ISA). The ISA is the specification that defines how the processor will respond to commands from the software. It is large and complex, too large for a person to understand and reason about all the interactions between different parts completely. As a result, security vulnerabilities exist in the ISA. These vulnerabilities can sometimes be exploited by attackers to steal data or take control of the machine. This research is about detecting security vulnerabilities that exist in the ISA. Finding and removing these vulnerabilities will create a more secure foundation for all our computing activities. This will benefit government agencies that require high assurance environments, cloud providers that rely on hardware features for the security for their service, and users who, more and more, are relying on diverse hardware components from a variety of hardware design companies to handle their private and sensitive data.\r\n\r\nThe researchers posit that vulnerabilities in the ISA happen in one of two ways: 1) Erroneous specification: the ISA prescribes behavior that is dangerous; or 2) Nondeterminism in the specification: the ISA is incomplete and one of the possible behaviors allowed by the specification is dangerous.  The hypothesis of this research is that it is possible to focus on a relatively small subset of the ISA for which these types of errors are likely to occur.  The researchers are developing a practical methodology for discovering for which instructions vulnerabilities are most likely to occur. With that information, they are developing tools to detect and correct security-critical errors in the ISA.  In addition to making a practical contribution, the research activities are improving understanding in the computer science community of what a vulnerability in an ISA looks like and where and under what conditions it is likely to occur. This will enable future verification efforts to concentrate on the most security-critical aspects of the ISA.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Cynthia",
+   "pi_last_name": "Sturton",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Cynthia Sturton",
+   "pi_email_addr": "csturton@cs.unc.edu",
+   "nsf_id": "000657162",
+   "pi_start_date": "2015-04-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of North Carolina at Chapel Hill",
+  "inst_street_address": "104 AIRPORT DR STE 2200",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHAPEL HILL",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9199663411",
+  "inst_zip_code": "275995023",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "NC04",
+  "org_lgl_bus_name": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL",
+  "org_prnt_uei_num": "D3LHU66KBLD5",
+  "org_uei_num": "D3LHU66KBLD5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of North Carolina at Chapel Hill",
+  "perf_str_addr": "201 S. Columbia St.",
+  "perf_city_name": "Chapel Hill",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "275993175",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "NC04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 174976.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our research was aimed at finding security vulnerabilities in the hardware design space. These are vulnerabilities that could be exploited by a malicious attacker acting remotely through software. We focused specifically on computer processors. Shoring up these vulnerabilities early in the specification stage will ensure more secure hardware across all computing platforms that use a particular processor.</p>\n<p><br />The specific goal of this research was two-fold. First, to identify points of vulnerability in a processor's architecture---the interface that defines how hardware and software interact. Second, to develop a methodology suitable for verifying security properties of a processor's architecture.<br />We focused on a specific processor architecture, x86-64. To find points of vulnerability in the architecture we used a comparative analysis. The x86-64 architecture has two distinct specifications, one from AMD and one from Intel, which are meant to be compatible. We leveraged differences between these specifications to identify errors or points of ambiguity that might lead to software vulnerabilities. When there is a difference between these two specifications, software developers must account for both behaviors in order to produce correct and secure code. We used as the basis of our comparison the AMD and Intel specification documents that operating system developers use to know how a processor behaves for each possible software instruction executed. We developed a tool to first parse these documents and then generate a set of mathematical expressions describing how the state of the processor evolves as each instruction in software executes. We compared corresponding state expressions generated for the AMD and Intel specifications using existing automated methods. We compared 8 instructions, finding 19 differences, 16 of which were previously unknown. Although some of these differences are due to benign mistakes in the specification documents, we flag 10 as potential security risks.</p>\n<p><br />We developed a methodology for verifying properties of the x86-64 architecture. We built a tool to read in the specification documents provided by Intel and AMD, parse the specification, and generate a formal model of the specified processor behavior. The specification documents are meant for human eyes and are not easily parsed by a computer program. We built a front-end parser that is tuned to recognize the particular corner-cases in syntax, naming, and use of white-space within a particular specification. The front-end produces an abstract model (called the abstract syntax tree), which our back-end model builder reads in and uses to build the formal model of the specification. We imagine additional specifications could be automatically modeled by writing a new front-end parser and re-using the back-end model builder.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/09/2018<br>\n\t\t\t\t\tModified by: Cynthia&nbsp;Sturton</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOur research was aimed at finding security vulnerabilities in the hardware design space. These are vulnerabilities that could be exploited by a malicious attacker acting remotely through software. We focused specifically on computer processors. Shoring up these vulnerabilities early in the specification stage will ensure more secure hardware across all computing platforms that use a particular processor.\n\n\nThe specific goal of this research was two-fold. First, to identify points of vulnerability in a processor's architecture---the interface that defines how hardware and software interact. Second, to develop a methodology suitable for verifying security properties of a processor's architecture.\nWe focused on a specific processor architecture, x86-64. To find points of vulnerability in the architecture we used a comparative analysis. The x86-64 architecture has two distinct specifications, one from AMD and one from Intel, which are meant to be compatible. We leveraged differences between these specifications to identify errors or points of ambiguity that might lead to software vulnerabilities. When there is a difference between these two specifications, software developers must account for both behaviors in order to produce correct and secure code. We used as the basis of our comparison the AMD and Intel specification documents that operating system developers use to know how a processor behaves for each possible software instruction executed. We developed a tool to first parse these documents and then generate a set of mathematical expressions describing how the state of the processor evolves as each instruction in software executes. We compared corresponding state expressions generated for the AMD and Intel specifications using existing automated methods. We compared 8 instructions, finding 19 differences, 16 of which were previously unknown. Although some of these differences are due to benign mistakes in the specification documents, we flag 10 as potential security risks.\n\n\nWe developed a methodology for verifying properties of the x86-64 architecture. We built a tool to read in the specification documents provided by Intel and AMD, parse the specification, and generate a formal model of the specified processor behavior. The specification documents are meant for human eyes and are not easily parsed by a computer program. We built a front-end parser that is tuned to recognize the particular corner-cases in syntax, naming, and use of white-space within a particular specification. The front-end produces an abstract model (called the abstract syntax tree), which our back-end model builder reads in and uses to build the formal model of the specification. We imagine additional specifications could be automatically modeled by writing a new front-end parser and re-using the back-end model builder.\n\n \n\n\t\t\t\t\tLast Modified: 05/09/2018\n\n\t\t\t\t\tSubmitted by: Cynthia Sturton"
+ }
+}

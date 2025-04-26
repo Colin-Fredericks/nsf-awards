@@ -1,0 +1,96 @@
+{
+ "awd_id": "1533802",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: FULL: FP: Collaborative Research: Synchrony-aware Primitives for Building Highly Auditable, Highly Scalable, Highly Available Distributed Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2021-08-31",
+ "tot_intn_awd_amt": 350000.0,
+ "awd_amount": 350000.0,
+ "awd_min_amd_letter_date": "2015-08-14",
+ "awd_max_amd_letter_date": "2015-08-14",
+ "awd_abstract_narration": "Auditability is a key property for developing highly scalable and highly available distributed systems, as it enables identifying performance bottlenecks, dependencies among events, and latent concurrency bugs.  In turn, for the auditability of a system, time is a key concept.  However, there is a gap between the theory and the practice of distributed systems in terms of the use of time. The theory of distributed systems shuns the notion of time and considers asynchronous systems whose event ordering is captured by logical clocks. The practical distributed systems employ NTP synchronized clocks to capture time but tend to use ad hoc methods. This project bridges this gap and provides synchrony-aware system primitives that support building highly auditable, highly scalable, and highly available distributed systems. The project has applications to cloud computing, distributed NewSQL databases, and globally distributed web services. The project enables other broader impacts through enhancing scientific/technological understanding via organizing academic workshops, outreaching to K-12 students, recruitment of minority groups, and distributing tools and software to the community.\r\n\r\nTo enable highly auditable systems, the project investigates lightweight and efficient designs for an augmented time (AT) primitive. AT combines the theoretical underpinnings of causality and the practicality of physical clocks by identifying how logical/vector clocks can be improved and tuned based on the availability of NTP synchronization. The principle guiding AT design will be \"uncertainty resilience\". These AT clocks enable highly auditable systems since they can efficiently provide global consistent-state snapshots without needing to wait out clock synchronization uncertainties and without requiring prior coordination.  Leveraging on these auditability primitives, the project builds support for scalable and available systems. To enable highly scalable systems, the project investigates design of synchrony-aware coordination primitives, such as barrier synchronization, mutual exclusion, leader election, and causally and totally ordered communication support. The principle guiding the design of the synchrony-aware coordination primitives is \"silent consent\". These primitives improve performance and efficiency over their asynchronous system counterparts by trading  timing information gathered from AT clocks and avoiding explicit communication needed for coordination. Finally, the project will leverage the auditability support provided by AT and will investigate the design of a monitor component that detects and corrects distributed system state corruptions. The principle guiding the design of the monitor component is \"centralized oversight and override\".",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sandeep",
+   "pi_last_name": "Kulkarni",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sandeep S Kulkarni",
+   "pi_email_addr": "sandeep@cse.msu.edu",
+   "nsf_id": "000275940",
+   "pi_start_date": "2015-08-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Michigan State University",
+  "inst_street_address": "426 AUDITORIUM RD RM 2",
+  "inst_street_address_2": "",
+  "inst_city_name": "EAST LANSING",
+  "inst_state_code": "MI",
+  "inst_state_name": "Michigan",
+  "inst_phone_num": "5173555040",
+  "inst_zip_code": "488242600",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MI07",
+  "org_lgl_bus_name": "MICHIGAN STATE UNIVERSITY",
+  "org_prnt_uei_num": "VJKZC4D1JN36",
+  "org_uei_num": "R28EKN92ZTZ9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Michigan State University",
+  "perf_str_addr": "428 S. Shaw Lane, Rm 3115",
+  "perf_city_name": "East Lansing",
+  "perf_st_code": "MI",
+  "perf_st_name": "Michigan",
+  "perf_zip_code": "488241226",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MI07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 350000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our project's major goal is to achieve efficient auditability of distributed systems. Auditability is important because it concerns with identifying performance bottlenecks, dependencies among events, and latent concurrency bugs in distributed systems. Leveraging the auditability primitives and services, our project will then build scalability and availability primitives and services for distributed systems.</p>\n<p>&nbsp;</p>\n<p>We investigated the design space for the hybrid logical clocks. In contrast to previous literature on predicate detection with vector clocks which have space complexity O(n) and are prone to false positives in partially synchronous distributed systems, we developed efficient algorithms for detection of weak conjunctive predicates with the help of hybrid logical clocks.</p>\n<p>&nbsp;</p>\n<p>We investigated the design space for the hybrid vector clocks. In our OPODIS 2015 paper, we showed that the hybrid vector clock size is a sigmoid function with respect to increasing epsilon; it has a slow start but it grows exponentially after a phase transition. We derived formulas to identify the phase transition point and showed that for many practical applications and deployment environments, the size of HVC remains only as a couple entries and substantially less than n, the number of processes. In our Runtime Verification 16 paper we analyzed the effects of the impedance mismatch between the monitor and the underlying program for the detection of distributed system predicates, and found that there is a small interval where the monitor assumptions are hypersensitive to the underlying program environment. We provided analytical derivations for this interval, and also provide experimental support for exploring the sensitivity of predicate detection to the impedance mismatch between the monitor and the program under a partially synchronous system.</p>\n<p>&nbsp;</p>\n<p>We designed a scalable CATOCS leveraging hybrid clocks. To showcase this primitive, we designed and implemented an efficient WAN-scale causal replicated key-value store, called CausalSpartan. In this work, we focused on improving causal consistency in data store systems with the help of HLC. In this work, we rely on (partially) synchronized physical clocks. Specifically, using ideas such as those in GentleRain, we can maintain a stable time such that if stable time at a node is x then all updates upto time x have been received. In turn, if we do not make updates with time greater than x visible then we can ensure causal consistency. One problem with this approach, however, is that if a write needs to be performed at a node where the physical clock is lagging then it can introduce substantial delays. Moreover, this issue is made worse when a single query (such as update on a social media page) results in multiple reads and write on the data store. We demonstrated that these delays can be eliminated with HLC since HLC is a logical clock that allows itself to be updated (and moved ahead) to permit such writes immediately. With our approach, we showed that CausalSpartan can provide a significant benefit with no cost. Specifically, if clocks are perfectly synchronized, there is no overhead in CausalSpartan. And, CausalSpartan is immune to clock drift. Hence, although GentleRain causes PUT latency to become threefold with just 10ms clock drift, CausalSpartan remains unaffected. Moreover, when a single query results in multiple read/writes on data store, the query response time in CausalSpartan is substantially lower. For example, with a clock drift of 10ms and query amplification factor of 100, query response time of CausalSpartan was only 25% of that of GentleRain.</p>\n<p>&nbsp;</p>\n<p>In that work, we implemented, demonstrated, and evaluated our hybrid logical clocks based snapshot service, called Retroscope, on VoldemortDB, HazelCast, and ZooKeeper. We architect this tool and built a horizontally scalable monitoring tool to handle datacenterlevel monitoring and querying. We also extended Retroscope with an SQL like frontend language to query the logs collected for distributed consistent snapshots that satisfy given the given predicates. This work is accepted in IEEE Transactions on Parallel and Distributed Systems.</p>\n<p>&nbsp;</p>\n<p>We also worked on identifying effectiveness of cvf-tolerance (consistency violation faults tolerance) for various distributed programs. We found that many programs are highly tolerant to cvfs (consistency violation faults). This implies that executing them under weakened concurrency is significantly likely to benefit in their performance.</p>\n<p>&nbsp;</p>\n<p>We also focused on developing monitors for distributed systems to identify concurrency bugs. We developed a two-layer monitor that improves the efficiency by over 90%. In this monitor, the first layer is efficient but inaccurate, whereas the second layer is accurate but relatively inefficient. By filtering provided by the first layer, we can reduce the cost of verification substantially.</p>\n<p>&nbsp;</p>\n<p>The work has resulted in training of graduate students Duong Nguyen, Vidhya Tekken Valapil, Mohammad Roohitavaf, Gabe Appleton, Sorrachai Yingchareonthawornchai. It has resulted in several conference and journal publications listed above. Also, the research from this work was incorporated in the classroom at graduate and undergraduate students.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/17/2021<br>\n\t\t\t\t\tModified by: Sandeep&nbsp;S&nbsp;Kulkarni</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOur project's major goal is to achieve efficient auditability of distributed systems. Auditability is important because it concerns with identifying performance bottlenecks, dependencies among events, and latent concurrency bugs in distributed systems. Leveraging the auditability primitives and services, our project will then build scalability and availability primitives and services for distributed systems.\n\n \n\nWe investigated the design space for the hybrid logical clocks. In contrast to previous literature on predicate detection with vector clocks which have space complexity O(n) and are prone to false positives in partially synchronous distributed systems, we developed efficient algorithms for detection of weak conjunctive predicates with the help of hybrid logical clocks.\n\n \n\nWe investigated the design space for the hybrid vector clocks. In our OPODIS 2015 paper, we showed that the hybrid vector clock size is a sigmoid function with respect to increasing epsilon; it has a slow start but it grows exponentially after a phase transition. We derived formulas to identify the phase transition point and showed that for many practical applications and deployment environments, the size of HVC remains only as a couple entries and substantially less than n, the number of processes. In our Runtime Verification 16 paper we analyzed the effects of the impedance mismatch between the monitor and the underlying program for the detection of distributed system predicates, and found that there is a small interval where the monitor assumptions are hypersensitive to the underlying program environment. We provided analytical derivations for this interval, and also provide experimental support for exploring the sensitivity of predicate detection to the impedance mismatch between the monitor and the program under a partially synchronous system.\n\n \n\nWe designed a scalable CATOCS leveraging hybrid clocks. To showcase this primitive, we designed and implemented an efficient WAN-scale causal replicated key-value store, called CausalSpartan. In this work, we focused on improving causal consistency in data store systems with the help of HLC. In this work, we rely on (partially) synchronized physical clocks. Specifically, using ideas such as those in GentleRain, we can maintain a stable time such that if stable time at a node is x then all updates upto time x have been received. In turn, if we do not make updates with time greater than x visible then we can ensure causal consistency. One problem with this approach, however, is that if a write needs to be performed at a node where the physical clock is lagging then it can introduce substantial delays. Moreover, this issue is made worse when a single query (such as update on a social media page) results in multiple reads and write on the data store. We demonstrated that these delays can be eliminated with HLC since HLC is a logical clock that allows itself to be updated (and moved ahead) to permit such writes immediately. With our approach, we showed that CausalSpartan can provide a significant benefit with no cost. Specifically, if clocks are perfectly synchronized, there is no overhead in CausalSpartan. And, CausalSpartan is immune to clock drift. Hence, although GentleRain causes PUT latency to become threefold with just 10ms clock drift, CausalSpartan remains unaffected. Moreover, when a single query results in multiple read/writes on data store, the query response time in CausalSpartan is substantially lower. For example, with a clock drift of 10ms and query amplification factor of 100, query response time of CausalSpartan was only 25% of that of GentleRain.\n\n \n\nIn that work, we implemented, demonstrated, and evaluated our hybrid logical clocks based snapshot service, called Retroscope, on VoldemortDB, HazelCast, and ZooKeeper. We architect this tool and built a horizontally scalable monitoring tool to handle datacenterlevel monitoring and querying. We also extended Retroscope with an SQL like frontend language to query the logs collected for distributed consistent snapshots that satisfy given the given predicates. This work is accepted in IEEE Transactions on Parallel and Distributed Systems.\n\n \n\nWe also worked on identifying effectiveness of cvf-tolerance (consistency violation faults tolerance) for various distributed programs. We found that many programs are highly tolerant to cvfs (consistency violation faults). This implies that executing them under weakened concurrency is significantly likely to benefit in their performance.\n\n \n\nWe also focused on developing monitors for distributed systems to identify concurrency bugs. We developed a two-layer monitor that improves the efficiency by over 90%. In this monitor, the first layer is efficient but inaccurate, whereas the second layer is accurate but relatively inefficient. By filtering provided by the first layer, we can reduce the cost of verification substantially.\n\n \n\nThe work has resulted in training of graduate students Duong Nguyen, Vidhya Tekken Valapil, Mohammad Roohitavaf, Gabe Appleton, Sorrachai Yingchareonthawornchai. It has resulted in several conference and journal publications listed above. Also, the research from this work was incorporated in the classroom at graduate and undergraduate students.\n\n \n\n \n\n \n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/17/2021\n\n\t\t\t\t\tSubmitted by: Sandeep S Kulkarni"
+ }
+}

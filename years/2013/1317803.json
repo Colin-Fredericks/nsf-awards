@@ -1,0 +1,117 @@
+{
+ "awd_id": "1317803",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NRI: Small: Virtualized Robot Test and Integration Laboratory",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924768",
+ "po_email": "jyang@nsf.gov",
+ "po_sign_block_name": "Jie Yang",
+ "awd_eff_date": "2013-09-15",
+ "awd_exp_date": "2018-05-31",
+ "tot_intn_awd_amt": 1000000.0,
+ "awd_amount": 1093640.0,
+ "awd_min_amd_letter_date": "2013-09-04",
+ "awd_max_amd_letter_date": "2016-03-08",
+ "awd_abstract_narration": "The Virtual Robot Test and Integration Laboratory (VRTIL) addresses the need to verify robot software using real data, produced by real sensors, in all its richness and imperfection. The project is embedding robot software in a synthetic environment in order to mimic its sensor interfaces. In an advance over the state of the art, these interfaces are windows into data bases that store the actual sensor data that a robot did read when it was in a particular state.\r\nThe project goal is to reproduce the real world interface as exactly as possible using data. Two basic tools enable such ?virtualization? of a real robot in a real environment:\r\n\r\n*\tVirtualized reality provides a means to produce synthetic views from virtual viewpoints that are near to an actual viewpoint for which a real image is available;\r\n\r\n*\tHigh fidelity synthesized motion gathers large amounts of data to calibrate a model that is valid across all of state space.\r\n\r\nCombining these ideas will result in a  software test environment for robot software that has the realism of data logs and the responsiveness of a simulator.  This may fundamentally transform the development of robots by lowering the cost and time of testing and debugging.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alonzo",
+   "pi_last_name": "Kelly",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alonzo Kelly",
+   "pi_email_addr": "alonzo@ri.cmu.edu",
+   "nsf_id": "000207357",
+   "pi_start_date": "2013-09-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133890",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "801300",
+   "pgm_ele_name": "NRI-National Robotics Initiati"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8086",
+   "pgm_ref_txt": "Natl Robotics Initiative (NRI)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0116",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001617RB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 1000000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2016,
+   "fund_oblg_amt": 93640.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>&nbsp;</p>\n<div>The scale and complexity of robotics is increasing. Efforts are underway to deploy robots as self-driving cars and in warehouses. Many applications need to be developed for robots, including even basic tasks such as perceiving and interpreting the environment. Application development is challenging in reality. It may be expensive, with delays due to robot hardware issues. It may also be impractical to exhaustively test robots in reality. Simulation is an attractive answer to these challenges, and is a timely topic that has received recent attention. It is further relevant given the widespread use of machine learning algorithms, which rely on large amounts of data.</div>\n<div>Our work takes steps to close the gap between simulation and reality, for Lidar simulation. Lidars are a key technology for autonomous systems. They are used to perceive the environment, and applications are routinely written to process Lidar data. The reliable operation of these applications is key to making good decisions. We adopt the perspective that the eventual purpose of a simulator is a tool for robot application development. Our framework for sensor simulation consists of three components. The first is sensor modeling, which describes how a sensor interacts with the environment. The second is scene generation, needed to construct simulated worlds corresponding to reality. The third is simulator evaluation, based on comparing real and simulated data. Our framework is broadly applicable to simulating sensors other than Lidars.</div>\n<div>The instantiation of our framework has produced two Lidar simulators. The first is a planar Lidar simulator for indoor environments. Our sensor models are largely data-driven. We take advantage of the large amounts of data generated by sensors, and advances in machine learning methods. Our indoor Lidar models have found application in education, where they were part of a simulator used by students in a course. The simulator helped students make progress when real robots were difficult to work with. The second simulator is a 3D Lidar simulator for off-road environments. We build and extract models of terrain from data. This data-based approach makes our simulator flexible, as the models can be composed to build new simulated worlds. This simulator finds application in off-road mobile robots, and could also benefit aerial robots.</div>\n<div>Our simulators span the length scale: while indoor environments are several meters in dimension, off-road ones are hundreds of meters long. Our work improves significantly on existing open-source simulators. We evaluate our simulators in complex real-world environments, while existing simulators are often evaluated only in toy worlds. We also validate our simulators holistically, for the purpose of robot application development. Existing simulators, by contrast, are only validated in pieces. In summary, we built flexible, and high-fidelity Lidar simulators. We believe simulators will play a vital role in the robot application development cycle. Our work suggests a generic approach to building useful sensor simulators.&nbsp;</div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/02/2018<br>\n\t\t\t\t\tModified by: Alonzo&nbsp;Kelly</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541774416_indoor_comparisons--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541774416_indoor_comparisons--rgov-800width.jpg\" title=\"Indoor Comparisons\"><img src=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541774416_indoor_comparisons--rgov-66x44.jpg\" alt=\"Indoor Comparisons\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Indoor Comparisons</div>\n<div class=\"imageCredit\">Abhijeet Tallavajhula</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Alonzo&nbsp;Kelly</div>\n<div class=\"imageTitle\">Indoor Comparisons</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541835717_motivation_offroad--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541835717_motivation_offroad--rgov-800width.jpg\" title=\"Motivation - Offroad\"><img src=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541835717_motivation_offroad--rgov-66x44.jpg\" alt=\"Motivation - Offroad\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Motivation - Offroad</div>\n<div class=\"imageCredit\">Abhijeet Tallavajhula</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Alonzo&nbsp;Kelly</div>\n<div class=\"imageTitle\">Motivation - Offroad</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541883336_offroad_comparisons--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541883336_offroad_comparisons--rgov-800width.jpg\" title=\"Offroad Comparisons\"><img src=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530541883336_offroad_comparisons--rgov-66x44.jpg\" alt=\"Offroad Comparisons\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Offroad Comparisons</div>\n<div class=\"imageCredit\">Abhijeet Tallavajhula</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Alonzo&nbsp;Kelly</div>\n<div class=\"imageTitle\">Offroad Comparisons</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542071014_motivation_education_cropped--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542071014_motivation_education_cropped--rgov-800width.jpg\" title=\"Motivation - Education\"><img src=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542071014_motivation_education_cropped--rgov-66x44.jpg\" alt=\"Motivation - Education\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Motivation - Education</div>\n<div class=\"imageCredit\">Abhijeet Tallavajula</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Alonzo&nbsp;Kelly</div>\n<div class=\"imageTitle\">Motivation - Education</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542135525_our_work_1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542135525_our_work_1--rgov-800width.jpg\" title=\"Our Work 1\"><img src=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542135525_our_work_1--rgov-66x44.jpg\" alt=\"Our Work 1\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Our Work 1</div>\n<div class=\"imageCredit\">Abhijeet Tallavajula</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Alonzo&nbsp;Kelly</div>\n<div class=\"imageTitle\">Our Work 1</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542198822_our_work_2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542198822_our_work_2--rgov-800width.jpg\" title=\"Our Work 2\"><img src=\"/por/images/Reports/POR/2018/1317803/1317803_10275114_1530542198822_our_work_2--rgov-66x44.jpg\" alt=\"Our Work 2\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Our Work 2</div>\n<div class=\"imageCredit\">Abhijeet Tallavajula</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Alonzo&nbsp;Kelly</div>\n<div class=\"imageTitle\">Our Work 2</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\n \nThe scale and complexity of robotics is increasing. Efforts are underway to deploy robots as self-driving cars and in warehouses. Many applications need to be developed for robots, including even basic tasks such as perceiving and interpreting the environment. Application development is challenging in reality. It may be expensive, with delays due to robot hardware issues. It may also be impractical to exhaustively test robots in reality. Simulation is an attractive answer to these challenges, and is a timely topic that has received recent attention. It is further relevant given the widespread use of machine learning algorithms, which rely on large amounts of data.\nOur work takes steps to close the gap between simulation and reality, for Lidar simulation. Lidars are a key technology for autonomous systems. They are used to perceive the environment, and applications are routinely written to process Lidar data. The reliable operation of these applications is key to making good decisions. We adopt the perspective that the eventual purpose of a simulator is a tool for robot application development. Our framework for sensor simulation consists of three components. The first is sensor modeling, which describes how a sensor interacts with the environment. The second is scene generation, needed to construct simulated worlds corresponding to reality. The third is simulator evaluation, based on comparing real and simulated data. Our framework is broadly applicable to simulating sensors other than Lidars.\nThe instantiation of our framework has produced two Lidar simulators. The first is a planar Lidar simulator for indoor environments. Our sensor models are largely data-driven. We take advantage of the large amounts of data generated by sensors, and advances in machine learning methods. Our indoor Lidar models have found application in education, where they were part of a simulator used by students in a course. The simulator helped students make progress when real robots were difficult to work with. The second simulator is a 3D Lidar simulator for off-road environments. We build and extract models of terrain from data. This data-based approach makes our simulator flexible, as the models can be composed to build new simulated worlds. This simulator finds application in off-road mobile robots, and could also benefit aerial robots.\nOur simulators span the length scale: while indoor environments are several meters in dimension, off-road ones are hundreds of meters long. Our work improves significantly on existing open-source simulators. We evaluate our simulators in complex real-world environments, while existing simulators are often evaluated only in toy worlds. We also validate our simulators holistically, for the purpose of robot application development. Existing simulators, by contrast, are only validated in pieces. In summary, we built flexible, and high-fidelity Lidar simulators. We believe simulators will play a vital role in the robot application development cycle. Our work suggests a generic approach to building useful sensor simulators. \n\n \n\n\t\t\t\t\tLast Modified: 07/02/2018\n\n\t\t\t\t\tSubmitted by: Alonzo Kelly"
+ }
+}

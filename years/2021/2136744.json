@@ -1,0 +1,109 @@
+{
+ "awd_id": "2136744",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Scalable, Content-Based, Domain-Agnostic Search of Scientific Data through Concise Topological Representations",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924481",
+ "po_email": "hmunoz@nsf.gov",
+ "po_sign_block_name": "Hector Munoz-Avila",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 180000.0,
+ "awd_amount": 180000.0,
+ "awd_min_amd_letter_date": "2021-07-22",
+ "awd_max_amd_letter_date": "2021-07-22",
+ "awd_abstract_narration": "Cutting-edge science relies on scientists\u2019 ability to sift through and access the massive amounts of data that are being produced by the latest research. Much of that data is stored in online databases and is searchable only by using specific, scientific terms, like keywords, tags, or descriptions. If someone doesn\u2019t know exactly the right terms to use, they often can\u2019t access all the data that might be useful for their research. By using mathematical approaches for information retrieval in a new way, this project will study whether a powerful search tool, called content-based search, can be modified for scientific data. If successful, this project will free data users from needing to know exactly which keywords to use, transforming how scientists are able to access and share data and creating new opportunities for scientists with vastly different expertise to work together.\r\n\r\nOne particularly promising way to describe the content of scientific data is through a dataset\u2019s topology. Therefore, this project will develop approaches to compute topological similarity that are smaller, faster, and more scalable than previously thought possible, with the goal of creating a method for cross-cutting, content-based search of scientific data. Specifically, the investigators will develop a learned-hash function to convert a dataset\u2019s persistence diagram - the common encoding of its topology - to a simple binary code. This hash will be trained such that the bitwise distance between codes will maintain a measure of topological similarity between datasets.  This will convert topological comparisons from the current state of an expensive bottleneck to one with nominal processing costs that can scale to large database queries. Initially, this project will focus on binary codes that maintain clusters and neighborhoods, ultimately developing codes that are rank or semi-metric preserving. The investigators will also explore strategies for training a learned-hash function on synthetic data, with the goal of developing a fully domain-oblivious approach to content-based search.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Brian",
+   "pi_last_name": "Summa",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Brian Summa",
+   "pi_email_addr": "bsumma@tulane.edu",
+   "nsf_id": "000727235",
+   "pi_start_date": "2021-07-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Tulane University",
+  "inst_street_address": "6823 SAINT CHARLES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW ORLEANS",
+  "inst_state_code": "LA",
+  "inst_state_name": "Louisiana",
+  "inst_phone_num": "5048654000",
+  "inst_zip_code": "701185665",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "LA01",
+  "org_lgl_bus_name": "THE ADMINISTRATORS OF TULANE EDUCATIONAL FUND",
+  "org_prnt_uei_num": "XNY5ULPU8EN6",
+  "org_uei_num": "XNY5ULPU8EN6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Tulane University",
+  "perf_str_addr": "6823 St Charles Avenue",
+  "perf_city_name": "New Orleans",
+  "perf_st_code": "LA",
+  "perf_st_name": "Louisiana",
+  "perf_zip_code": "701185698",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "LA01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7364",
+   "pgm_ref_txt": "INFO INTEGRATION & INFORMATICS"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 180000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project gauged the feasibility of comparing scientific datasets based on their fundamental connectedness and structure, often called a data's topology. Previous techniques to compare datasets by this structure are too computationally expensive to be practical. Therefore, this project developed new technologies for fast topological comparisons. Using advanced techniques in machine learning, we cast a dataset's topological features into a single number, wherein comparing two of these numbers gave a similar measure as the comparison of topological differences. This 'hash' of the topological structure scales to massive datasets. It also reduces comparison times by orders of magnitude down to only milliseconds. In addition, using state-of-the-art deep learning, we improved the discriminative capabilities of topological comparisons. By learning what features are important, our approach outperformed other approaches regarding classification accuracy. In addition, using advanced approaches in explainable machine learning, we, for the first time, presented a measure of the importance of a topological feature. When the dataset is an image, this importance can be highlighted directly in the data, illuminating the features that drive an image's classification. The advances of this project have applications in accurate, automatic medical image classification, classification of underwater features detected with high-resolution sonar, and detection of extreme wind events in wind farm simulations.</p><br>\n<p>\n Last Modified: 01/30/2024<br>\nModified by: Brian&nbsp;Summa</p></div>\n<div class=\"porSideCol\"\n><div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629505931_teaser--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629505931_teaser--rgov-800width.jpg\" title=\"Domain-Oblivious Approach for Learning Concise Representations of Filtered Topological Spaces for Clustering\"><img src=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629505931_teaser--rgov-66x44.jpg\" alt=\"Domain-Oblivious Approach for Learning Concise Representations of Filtered Topological Spaces for Clustering\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Y. Qin, B. Fasy, C. Wenk and B. Summa, \"A Domain-Oblivious Approach for Learning Concise Representations of Filtered Topological Spaces for Clustering\" in IEEE Transactions on Visualization & Computer Graphics, vol. 28, no. 01, pp. 302-312, 2022.</div>\n<div class=\"imageCredit\">Yu Qin</div>\n<div class=\"imagePermisssions\">Copyright owner is an institution with an existing agreement allowing use by NSF</div>\n<div class=\"imageSubmitted\">Brian&nbsp;Summa\n<div class=\"imageTitle\">Domain-Oblivious Approach for Learning Concise Representations of Filtered Topological Spaces for Clustering</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629411679_teaser--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629411679_teaser--rgov-800width.jpg\" title=\"Visualizing Topological Importance: A Class-Driven Approach\"><img src=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629411679_teaser--rgov-66x44.jpg\" alt=\"Visualizing Topological Importance: A Class-Driven Approach\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Visualizing Topological Importance: A Class-Driven Approach, Y. Qin, B. T. Fasy, C. Wenk, B. Summa, In Proceedings of 2023 Topological Data Analysis and Visualization (TopoInVis), Pages: 93-103, 2023.</div>\n<div class=\"imageCredit\">Yu Qin</div>\n<div class=\"imagePermisssions\">Copyright owner is an institution with an existing agreement allowing use by NSF</div>\n<div class=\"imageSubmitted\">Brian&nbsp;Summa\n<div class=\"imageTitle\">Visualizing Topological Importance: A Class-Driven Approach</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629560190_teaser--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629560190_teaser--rgov-800width.jpg\" title=\"Topological Guided Detection of Extreme Wind Phenomena: Implications for Wind Energy\"><img src=\"/por/images/Reports/POR/2024/2136744/2136744_10752219_1706629560190_teaser--rgov-66x44.jpg\" alt=\"Topological Guided Detection of Extreme Wind Phenomena: Implications for Wind Energy\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Topological Guided Detection of Extreme Wind Phenomena: Implications for Wind Energy, Y. Qin, G. Johnson, B. Summa, In Proceedings of 2023 Workshop on Energy Data Visualization (EnergyVis), Pages: 16-20, 2023.</div>\n<div class=\"imageCredit\">Yu Qin</div>\n<div class=\"imagePermisssions\">Copyright owner is an institution with an existing agreement allowing use by NSF</div>\n<div class=\"imageSubmitted\">Brian&nbsp;Summa\n<div class=\"imageTitle\">Topological Guided Detection of Extreme Wind Phenomena: Implications for Wind Energy</div>\n</div>\n</li></ul>\n</div>\n</div></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project gauged the feasibility of comparing scientific datasets based on their fundamental connectedness and structure, often called a data's topology. Previous techniques to compare datasets by this structure are too computationally expensive to be practical. Therefore, this project developed new technologies for fast topological comparisons. Using advanced techniques in machine learning, we cast a dataset's topological features into a single number, wherein comparing two of these numbers gave a similar measure as the comparison of topological differences. This 'hash' of the topological structure scales to massive datasets. It also reduces comparison times by orders of magnitude down to only milliseconds. In addition, using state-of-the-art deep learning, we improved the discriminative capabilities of topological comparisons. By learning what features are important, our approach outperformed other approaches regarding classification accuracy. In addition, using advanced approaches in explainable machine learning, we, for the first time, presented a measure of the importance of a topological feature. When the dataset is an image, this importance can be highlighted directly in the data, illuminating the features that drive an image's classification. The advances of this project have applications in accurate, automatic medical image classification, classification of underwater features detected with high-resolution sonar, and detection of extreme wind events in wind farm simulations.\t\t\t\t\tLast Modified: 01/30/2024\n\n\t\t\t\t\tSubmitted by: BrianSumma\n"
+ }
+}

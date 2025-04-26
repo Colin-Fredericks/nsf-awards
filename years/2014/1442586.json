@@ -1,0 +1,105 @@
+{
+ "awd_id": "1442586",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:  Small:  A Hierarchical Symbolic Framework to Verify Logic, Timing, and Probabilistic Properties of Computing Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-03-01",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 125718.0,
+ "awd_amount": 125718.0,
+ "awd_min_amd_letter_date": "2014-04-28",
+ "awd_max_amd_letter_date": "2014-04-28",
+ "awd_abstract_narration": "A symbolic framework for the analysis of logic, timing, and probabilistic properties of computer systems is developed, using decision diagrams for the storage and manipulation of large data structures.  Decision diagrams have been enormously effective in verification, but their potential has not been explored much in other settings.  The framework includes symbolic solutions for Markov models based on efficient classes of edge-valued decision diagrams to represent rate matrices, using under- and over-approximations to obtain bounds when an exact numerical study is infeasible, relying on aggregation or partial exploration of states at the logic level, computing probability bounds at the numerical level, and exchanging numerical values between hierarchical submodels.  The framework also addresses non-Markov settings, general distributions, and nondeterministic interval ranges for the timing of events by exploring the limits and potentials of symbolic encodings, hierarchical composition, and bounds, including hybrid techniques that integrate traditional discrete-event simulation with symbolic algorithms.\r\n\r\nThe research results will positively affect several areas of computer science and engineering, by providing researchers and engineers with the ability to study the logic, timing, and probabilistic properties of much larger and more general system models than currently possible.  The software packages developed during this project will be an excellent hands-on tool for students and practitioners in need to model, verify, or analyze the logic and timing behavior of computer systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Gianfranco",
+   "pi_last_name": "Ciardo",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gianfranco Ciardo",
+   "pi_email_addr": "ciardo@iastate.edu",
+   "nsf_id": "000254304",
+   "pi_start_date": "2014-04-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Iowa State University",
+  "inst_street_address": "1350 BEARDSHEAR HALL",
+  "inst_street_address_2": "515 MORRILL ROAD",
+  "inst_city_name": "AMES",
+  "inst_state_code": "IA",
+  "inst_state_name": "Iowa",
+  "inst_phone_num": "5152945225",
+  "inst_zip_code": "500112103",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IA04",
+  "org_lgl_bus_name": "IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+  "org_prnt_uei_num": "DQDBM7FGJPC5",
+  "org_uei_num": "DQDBM7FGJPC5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Iowa State University",
+  "perf_str_addr": "",
+  "perf_city_name": "Ames",
+  "perf_st_code": "IA",
+  "perf_st_name": "Iowa",
+  "perf_zip_code": "500112207",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "IA",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794400",
+   "pgm_ele_name": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7798",
+   "pgm_ref_txt": "SOFTWARE & HARDWARE FOUNDATION"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 125718.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Most of the work on this grant was directed toward defining and implementing more powerful, efficient, and general versions of decision diagrams (DDs, a compact encoding of discrete functions, which are ubiquitous in computer science, as well as disciplines ranging from biology to material science) and algorithms to manipulate them.<br /><br />- We defined new reduction rules for decision diagrams that result in more compact representations for many functions of interest.&nbsp; These rules apply just as well to the traditional class of Binary Decision Diagrams (BDDs, which can encode boolean functions of some fixed number of boolean variables and normally only employ the &ldquo;fully reduced&rdquo; rule) and to our more general classes of DDs.<br /><br />- By letting the values of a variable span over an interval in the definition of the data structure for a DD node, we showed that the Interval Decision Diagrams (IDDs) can be treated as a special case of our DDs. This allows us to encode functions over integer variables (and, in principle, over real variables), in the the same framework.<br /><br />- We defined Sequence Decision Diagrams (SeqDDs), especially suited to encode sets of sequences of arbitrary and possibly different length over a given alphabet. SeqDDs have applications both to bioinformatics (DNA is a sequence over the alphabet {A,C,G,T}) and to verification (a counterexample or a witness to certain properties of interest is just a finite path, i.e., a finite sequence of events starting from the initial state). We defined two canonical forms of SeqDDs, one roughly corresponding to Deterministic Finite Automata and the other to a restricted class of Nondeterministic Finite Automata. A surprising result was that the two are not comparable: switching between them may result in a exponential blow-up in one direction, or a quadratic blow-up in the other direction, so which one is best depends on the specific application.<br /><br />- We developed new techniques for witness generation.&nbsp; In the future, these techniques could be combined with the above-mentioned SeqDDs and, when extended to incorporate real-valued edges (as we have done in the past with EX*MDDs), this will allow us to encode probabilistic/quantitative witnesses, which consist of not one but many paths of different length, each with an associated probability or weight. <br /><br />- In the probabilistic setting, we proved that an exact symbolic algorithm implementing a Gauss-Seidel style iteration is optimal under certain conditions, so that it is arguably the best algorithm to use for symbolic numerical computations on large models; before, the fastest algorithm was not symbolic, thus used more memory, while the most compact algorithm was symbolic, but it had a substantial runtime penalty.<br /><br />- We worked on efficient symbolic algorithms for the computation of the coarsest &ldquo;bisimulation&rdquo; (essentially, simplifying a large model using certain symmetries, so that studying the resulting smaller model can provide the same answers as the original one, at a lower cost).&nbsp; This is a first step to compute the coarsest &ldquo;lumping&rdquo; in continuous time Markov chains, which, again, allows to study a smaller probabilistic model without losing information.<br />&nbsp;<br />- We defined a new approach, based on a new bounding semantics that, for each CSL property P, returns a set of states that MUST satisfy P and a larger set of states that MAY satisfy P.&nbsp; This not only achieves the goals of being both correct and efficient, but also supports a hierarchical approach to analyze CSL properties (most previous CSL implementations target only \"flat CSL properties\").&nbsp; Importantly, this bounding approach provides guaranteed bounds, while traditional exact approaches are not really \"exact\", since insisting on a precise real value for the probability of a state is practically unfeasible and potentially misleading. We believe that this new approach will lead to a fruitful discussion of the question \"What does it mean to do stochastic model checking?\".<br /><br />Six students (three male, three female) were supported by this grant under the PI supervision.&nbsp; Two completed their PhD and one completed her MS.&nbsp; The remaining three, all PhD students, are expected to complete their studies in the next 6 to 18 months.<br /><br />The research results from this grant were published in twelve refereed papers, six in journals and six in conferences.&nbsp; In addition, the PI delivered an invited talk at SEMISH (Brazil, 2012), the tool \"Nigma 1.1\" was entered at the 2014 SAT solver competition, and the tool SMART was entered at the 2016 Model Checking Competition.<br /><br /><br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/28/2016<br>\n\t\t\t\t\tModified by: Gianfranco&nbsp;Ciardo</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMost of the work on this grant was directed toward defining and implementing more powerful, efficient, and general versions of decision diagrams (DDs, a compact encoding of discrete functions, which are ubiquitous in computer science, as well as disciplines ranging from biology to material science) and algorithms to manipulate them.\n\n- We defined new reduction rules for decision diagrams that result in more compact representations for many functions of interest.  These rules apply just as well to the traditional class of Binary Decision Diagrams (BDDs, which can encode boolean functions of some fixed number of boolean variables and normally only employ the \"fully reduced\" rule) and to our more general classes of DDs.\n\n- By letting the values of a variable span over an interval in the definition of the data structure for a DD node, we showed that the Interval Decision Diagrams (IDDs) can be treated as a special case of our DDs. This allows us to encode functions over integer variables (and, in principle, over real variables), in the the same framework.\n\n- We defined Sequence Decision Diagrams (SeqDDs), especially suited to encode sets of sequences of arbitrary and possibly different length over a given alphabet. SeqDDs have applications both to bioinformatics (DNA is a sequence over the alphabet {A,C,G,T}) and to verification (a counterexample or a witness to certain properties of interest is just a finite path, i.e., a finite sequence of events starting from the initial state). We defined two canonical forms of SeqDDs, one roughly corresponding to Deterministic Finite Automata and the other to a restricted class of Nondeterministic Finite Automata. A surprising result was that the two are not comparable: switching between them may result in a exponential blow-up in one direction, or a quadratic blow-up in the other direction, so which one is best depends on the specific application.\n\n- We developed new techniques for witness generation.  In the future, these techniques could be combined with the above-mentioned SeqDDs and, when extended to incorporate real-valued edges (as we have done in the past with EX*MDDs), this will allow us to encode probabilistic/quantitative witnesses, which consist of not one but many paths of different length, each with an associated probability or weight. \n\n- In the probabilistic setting, we proved that an exact symbolic algorithm implementing a Gauss-Seidel style iteration is optimal under certain conditions, so that it is arguably the best algorithm to use for symbolic numerical computations on large models; before, the fastest algorithm was not symbolic, thus used more memory, while the most compact algorithm was symbolic, but it had a substantial runtime penalty.\n\n- We worked on efficient symbolic algorithms for the computation of the coarsest \"bisimulation\" (essentially, simplifying a large model using certain symmetries, so that studying the resulting smaller model can provide the same answers as the original one, at a lower cost).  This is a first step to compute the coarsest \"lumping\" in continuous time Markov chains, which, again, allows to study a smaller probabilistic model without losing information.\n \n- We defined a new approach, based on a new bounding semantics that, for each CSL property P, returns a set of states that MUST satisfy P and a larger set of states that MAY satisfy P.  This not only achieves the goals of being both correct and efficient, but also supports a hierarchical approach to analyze CSL properties (most previous CSL implementations target only \"flat CSL properties\").  Importantly, this bounding approach provides guaranteed bounds, while traditional exact approaches are not really \"exact\", since insisting on a precise real value for the probability of a state is practically unfeasible and potentially misleading. We believe that this new approach will lead to a fruitful discussion of the question \"What does it mean to do stochastic model checking?\".\n\nSix students (three male, three female) were supported by this grant under the PI supervision.  Two completed their PhD and one completed her MS.  The remaining three, all PhD students, are expected to complete their studies in the next 6 to 18 months.\n\nThe research results from this grant were published in twelve refereed papers, six in journals and six in conferences.  In addition, the PI delivered an invited talk at SEMISH (Brazil, 2012), the tool \"Nigma 1.1\" was entered at the 2014 SAT solver competition, and the tool SMART was entered at the 2016 Model Checking Competition.\n\n\n\n\n\n\t\t\t\t\tLast Modified: 10/28/2016\n\n\t\t\t\t\tSubmitted by: Gianfranco Ciardo"
+ }
+}

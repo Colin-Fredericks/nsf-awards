@@ -1,0 +1,110 @@
+{
+ "awd_id": "2238006",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CAREER: A Framework for Co-design and Optimization of Programmable Hardware Accelerators and Compilers",
+ "cfda_num": "47.041",
+ "org_code": "07010000",
+ "po_phone": "7032928103",
+ "po_email": "rlukasze@nsf.gov",
+ "po_sign_block_name": "Ale Lukaszew",
+ "awd_eff_date": "2023-03-15",
+ "awd_exp_date": "2028-02-29",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2023-03-03",
+ "awd_max_amd_letter_date": "2024-05-01",
+ "awd_abstract_narration": "Creating energy-efficient computing systems is essential for achieving the societal goal of sustainability. As the semiconductor technology scaling predicted by Moore\u2019s law slows down, domain-specific hardware accelerators, i.e., hardware blocks specialized to do certain tasks very well, will play an increasingly important role in improving the performance and energy-efficiency of computing systems. Modern mobile chips have dozens of accelerators for applications such as image processing, video coding, graphics, neural networks etc. to achieve low power consumption and fast processing speeds. However, with advances in machine learning, these applications are changing at a rapid pace. Maintaining high performance and energy-efficiency requires that hardware accelerators, compilers, and applications evolve together in lockstep. Unfortunately, existing methodologies to achieve this involve significant manual effort. Large engineering teams study the accelerator architecture in detail and modify the compiler in an ad hoc manner, leveraging low-level libraries to target specific hardware features. Because of the large overhead in maintaining the software stack, it remains challenging to accelerate new domains or existing domains as they evolve. What is needed is a structured approach for generating programmable accelerators and for updating the software compiler as the accelerator architecture evolves with the applications. This project proposes a design-space exploration and optimization framework that automatically generates accelerator architectures that approach the efficiencies of hand-designed ones, with a significantly lower design effort for both hardware and compiler generation. This work can impact how hardware-software system design is done today in the industry, by reducing the time to market for products and creating more productive design teams. Moreover, the openly shared curriculum developed as a part of this work will ensure equitable access to educational opportunities and help create a diverse, globally competitive semiconductor workforce. \r\n\r\nThe research goal of this project is to create a framework for automated co-design and optimization of domain-specific hardware accelerators and compilers. The framework will have three components: (1) an automated accelerator processing element (PE) design space optimization tool based on frequent subgraph mining and merging, (2) an accelerator memory element optimization tool for both dense and sparse applications, and (3) an auto-scheduler for automatically determining the best mapping of an application to the accelerator. These tools will be used to design, optimize and prototype in silicon a unified programmable accelerator for both dense application domains such as image processing and machine learning and sparse application domains such as graph analytics, and demonstrate energy-efficiency and performance metrics that significantly beat general purpose architectures and approach application-specific integrated circuits. The proposed approach uses several techniques, distinct from prior work, to achieve automatic accelerator-compiler co-design and optimization. First, it allows any change in the hardware specification to automatically propagate into the compiler with no manual effort. This unique property is the key to enabling large-scale design space exploration of accelerators. Without it, one would have to manually update the application compiler with every hardware change, greatly limiting the number of design points one can explore. Second, the proposed framework for automated PE optimization for accelerators generates efficient PE architectures from the application graphs themselves, using frequent subgraph mining and merging. This approach is quite different from prior work, which does not perform application-driven optimization but rather searches over many possible PE parameter values. As a result, this approach promises to be much more sample-efficient and faster versus prior work. Finally, as opposed to existing commercial high level synthesis tools and compilers for programmable accelerators which require the user to provide low-level scheduling directives in the application code, the auto-scheduler proposed will automatically search for the best mapping of an application to the programmable accelerator, greatly improving user productivity.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "ECCS",
+ "org_div_long_name": "Division of Electrical, Communications and Cyber Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Priyanka",
+   "pi_last_name": "Raina",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Priyanka Raina",
+   "pi_email_addr": "praina@stanford.edu",
+   "nsf_id": "000802985",
+   "pi_start_date": "2023-03-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "450 Jane Stanford Way",
+  "perf_city_name": "Stanford",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943052004",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "756400",
+   "pgm_ele_name": "CCSS-Comms Circuits & Sens Sys"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 400000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": null
+}

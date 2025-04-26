@@ -1,0 +1,105 @@
+{
+ "awd_id": "1258577",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Collaborative: Process-Based Technology to Support Comparison and Evaluation of the Security of Elections",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Deborah Shands",
+ "awd_eff_date": "2012-10-01",
+ "awd_exp_date": "2014-09-30",
+ "tot_intn_awd_amt": 75000.0,
+ "awd_amount": 75000.0,
+ "awd_min_amd_letter_date": "2012-09-13",
+ "awd_max_amd_letter_date": "2012-09-13",
+ "awd_abstract_narration": "This project explores process composition tools as applied to elections, concentrating particularly on mail-in and Internet voting.  This includes exploration of how to compose systems from pre-analyzed process components, how to analyze the vulnerability of these systems to attacks, and how to guarantee that important security properties are ensured for the resulting composed system.  The underlying processes represent aspects of national and local elections, their composition produces an election process, and analysis of the composition gives insight into potential errors or attacks on the election.\r\n\r\nElections are human-intensive processes, processes that directly involve humans in important decision-making and coordination activities, including their interactions with hardware and software components. Providing an approach for formally reasoning about human participation extends current security work. The project also breaks new ground by exploring process-based approaches for modeling and defending against attacks.\r\n\r\nThe project works closely with government agencies at both the national and local levels to provide in-depth realistic evaluation of results.\r\n\r\nElection officials in the U.S. can directly employ the results of this work to make U.S. election processes more verifiably secure, simpler, and easier to change as new technologies, laws, and regulations are imposed.  Moreover the technologies developed in this project can be used in most human-intensive processes that have critical security concerns.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Matt",
+   "pi_last_name": "Bishop",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Matt Bishop",
+   "pi_email_addr": "mabishop@ucdavis.edu",
+   "nsf_id": "000454293",
+   "pi_start_date": "2012-09-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Davis",
+  "inst_street_address": "1850 RESEARCH PARK DR STE 300",
+  "inst_street_address_2": "",
+  "inst_city_name": "DAVIS",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5307547700",
+  "inst_zip_code": "956186153",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "CA04",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, DAVIS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "TX2DAGQPENZ5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Davis",
+  "perf_str_addr": "1850 Research Park Dr., Ste. 300",
+  "perf_city_name": "Davis",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "956186153",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "CA04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 75000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Much computer science research into elections has focused on the computer systems and cryptographic protocols used to, or proposed to, conduct elections. Less attention has been paid to the overall process of holding an election in which those systems or protocols are used. The goal of this project was to extend an application of a formal methodology called iterative process improvement technology to analyze the privacy, security, and reliability of election processes.</p>\n<p><br />Process improvement technology has been used to model and analyze the election processes of Yolo County, CA and Marin County, CA. The two models that were developed were very similar -- not surprising, as both election processes are governed by the same set of laws, those of the state of California. However, certain elements were different, notably where the votes are counted (at the precinct using precinct-count optical scanners (PCOS) or at Election Central using optical scanners). Even within the two jurisdictions, absentee ballots (called \"vote by mail\" or VBM ballots) are handled using procedures different than ballots voted at a precinct.</p>\n<p><br />This suggests that we can identify components that differ between the models, and develop \"pluggable modules\" or submodels that can be \"plugged into\" a general model. So we capture the common parts of the model, and then add in the appropriate specialized modules that capture different parts of the process being modeled. We developed such modules for parts of the vote-by-mail process and integrated it into the full process model.</p>\n<p><br />The benefits of such an approach, aside from the technical ones of elegance and ease of modeling similar processes, lie in the ability to analyze how a change in the process affects the ways in which the task(s) in the substituted model can fail causing the process to fail. So, for example, if a law changes how vote by mail ballots are handled, the new process for handling them can be modeled and then plugged into the model of the existing process. Then we define the hazards (failures), and use automated techniques to develop fault trees describing the effects of these failures upon the election process. We can then determine ow to add additional controls or tasks to enable rapid detection of the failures, and compensate for them.</p>\n<p><br />An interesting aspect to this work involves the insider threat. First, we examine the tasks that can fail to cause a hazard to occur. Then we look at the agents who could cause these tasks to fail. In this way, we can identify the entities that can cause the process to fail. Further, when the model is instantiated, we can compare the people carrying out the process to the entities that can cause the process to fail. If one person carries out the job of two entities, for example, then that one person can cause the failures that either (or both) entities can cause. This work suggests that more exploration of this aspect of the insider problem may prove fruitful.</p>\n<p><br />The domain of elections seems to be one in which new threats beget new defenses, which beget newer threats and defenses in a continuing spiral. Indeed, concerns about elections only seem to be growing as new features such as early voting, electronic poll books, and electronic vote recording and counting mechanisms are introduced. &nbsp;Many of these threats arise not from the technology itself, but from its use and its place in the overall election process. In taking a holistic view of election processes, this project developed a framework of structure and reasoning within which approaches to improving the conduct of elections can be evaluated and improved. In this way, the project is playing a part in understanding and improving the elections underlying our representative form of government.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/24/2015<br>\n\t\t\t\t\tModified by: Matt&nbsp;Bishop</p>\n</div...",
+  "por_txt_cntn": "\nMuch computer science research into elections has focused on the computer systems and cryptographic protocols used to, or proposed to, conduct elections. Less attention has been paid to the overall process of holding an election in which those systems or protocols are used. The goal of this project was to extend an application of a formal methodology called iterative process improvement technology to analyze the privacy, security, and reliability of election processes.\n\n\nProcess improvement technology has been used to model and analyze the election processes of Yolo County, CA and Marin County, CA. The two models that were developed were very similar -- not surprising, as both election processes are governed by the same set of laws, those of the state of California. However, certain elements were different, notably where the votes are counted (at the precinct using precinct-count optical scanners (PCOS) or at Election Central using optical scanners). Even within the two jurisdictions, absentee ballots (called \"vote by mail\" or VBM ballots) are handled using procedures different than ballots voted at a precinct.\n\n\nThis suggests that we can identify components that differ between the models, and develop \"pluggable modules\" or submodels that can be \"plugged into\" a general model. So we capture the common parts of the model, and then add in the appropriate specialized modules that capture different parts of the process being modeled. We developed such modules for parts of the vote-by-mail process and integrated it into the full process model.\n\n\nThe benefits of such an approach, aside from the technical ones of elegance and ease of modeling similar processes, lie in the ability to analyze how a change in the process affects the ways in which the task(s) in the substituted model can fail causing the process to fail. So, for example, if a law changes how vote by mail ballots are handled, the new process for handling them can be modeled and then plugged into the model of the existing process. Then we define the hazards (failures), and use automated techniques to develop fault trees describing the effects of these failures upon the election process. We can then determine ow to add additional controls or tasks to enable rapid detection of the failures, and compensate for them.\n\n\nAn interesting aspect to this work involves the insider threat. First, we examine the tasks that can fail to cause a hazard to occur. Then we look at the agents who could cause these tasks to fail. In this way, we can identify the entities that can cause the process to fail. Further, when the model is instantiated, we can compare the people carrying out the process to the entities that can cause the process to fail. If one person carries out the job of two entities, for example, then that one person can cause the failures that either (or both) entities can cause. This work suggests that more exploration of this aspect of the insider problem may prove fruitful.\n\n\nThe domain of elections seems to be one in which new threats beget new defenses, which beget newer threats and defenses in a continuing spiral. Indeed, concerns about elections only seem to be growing as new features such as early voting, electronic poll books, and electronic vote recording and counting mechanisms are introduced.  Many of these threats arise not from the technology itself, but from its use and its place in the overall election process. In taking a holistic view of election processes, this project developed a framework of structure and reasoning within which approaches to improving the conduct of elections can be evaluated and improved. In this way, the project is playing a part in understanding and improving the elections underlying our representative form of government.\n\n\t\t\t\t\tLast Modified: 03/24/2015\n\n\t\t\t\t\tSubmitted by: Matt Bishop"
+ }
+}

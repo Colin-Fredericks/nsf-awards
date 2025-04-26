@@ -1,0 +1,101 @@
+{
+ "awd_id": "1816314",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF:Small: Algorithms for Fast Simulation of Macromolecular Interaction Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032928649",
+ "po_email": "mbasu@nsf.gov",
+ "po_sign_block_name": "Mitra Basu",
+ "awd_eff_date": "2018-06-15",
+ "awd_exp_date": "2022-05-31",
+ "tot_intn_awd_amt": 460000.0,
+ "awd_amount": 460000.0,
+ "awd_min_amd_letter_date": "2018-06-07",
+ "awd_max_amd_letter_date": "2018-06-07",
+ "awd_abstract_narration": "Macro-molecules, such as proteins and nucleic acids, are the major building blocks of the cell. Many macro-molecules perform their function by interacting with each other. Characterizing these interactions helps elucidate how living organisms function at the molecular level, contributes towards the development of treatments against diseases such as cancer and facilitates the design of novel bio-inspired materials. Detailed understanding of macro-molecular interaction mechanisms requires determining the three-dimensional structures of their complexes. These structures are very difficult to obtain using experimental techniques, thus, computational approaches, called macro-molecular docking, can be very useful. The investigator has developed fast and effective algorithms and software that, according to the worldwide evaluation experiment CAPRI (Critical Assessment of Predicted Interactions), are among the best for predicting the structures of protein-protein complexes. These methods have been implemented in the fully automated docking server ClusPro, which is free for academic use, and has over 18,000 regular users. However, the current macro-molecular docking tools are effective for mostly rigid macro-molecules that do not significantly change conformation upon binding. This severely limits applicability of the approach. The goal of this project is to develop new algorithms for docking flexible molecules. Expanding the scope of the docking approaches will lead to better understanding of fundamental biological questions and will facilitate biochemical, biomedical, and biotechnology research. In addition, the methods will be used in training graduate students and teaching undergraduate and high school students.\r\n\r\nThe docking problem is to computationally determine the 3-dimensional (3D) structure of the complex formed by two unbound macro-molecules, given their individual structures. Solving this problem requires detailed sampling of an energy-based scoring function over a complex search space. Due to the high cost of energy function evaluation and the extremely rugged energy landscape the sampling is computationally challenging. The goal of this proposal is to develop algorithms for fast energy evaluation and corresponding sampling methods for the modeling of interactions among flexible macro-molecules with many degrees of freedom. The basic idea is to represent the molecular system as a forest (i.e., a set of disjoint trees) of rigid clusters connected by hinges, calculating the interaction energies for all relative orientations of all rigid clusters on grids, and storing the calculated energy grids on the manifold of all rotational and translational states. The energy of the system can be then obtained by summing up the interaction energies extracted from the pre-calculated lookup tables of cluster interaction energies. The key advantage of proposed approach is a significant reduction in the cost of energy evaluation. In addition, the search is performed on the manifold of appropriate dimension. The major challenge for making the above approach applicable in practice is storing the large interaction energy tables of rigid clusters in memory. To solve this problem, the investigators will develop approaches and algorithms to compress interaction energy data using wavelets, resulting in good accuracy, high level of compression, and fast lookup speed. In addition, specialized sampling algorithms using wavelet compressed energy grids on the search manifold will be developed, and their application to flexible macro-molecular docking problems will be studied. The developed algorithms will be evaluated for performance and behavior. The approaches will be released as an open source software library, as well as made available to end users of docking by means of the ClusPro server.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Dmytro",
+   "pi_last_name": "Kozakov",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Dmytro Kozakov",
+   "pi_email_addr": "dmytro.kozakov@stonybrook.edu",
+   "nsf_id": "000536420",
+   "pi_start_date": "2018-06-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "SUNY at Stony Brook",
+  "inst_street_address": "W5510 FRANKS MELVILLE MEMORIAL LIBRARY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STONY BROOK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6316329949",
+  "inst_zip_code": "117940001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NY01",
+  "org_lgl_bus_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "M746VC6XMNH9",
+  "org_uei_num": "M746VC6XMNH9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "SUNY at Stony Brook",
+  "perf_str_addr": "West 5510 Frk Mel Lib",
+  "perf_city_name": "Stony Brook",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "117940001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NY01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "793100",
+   "pgm_ele_name": "Computational Biology"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 460000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Macromolecules, including proteins and nucleic acids, are the major building blocks of the cell. Many macromolecules perform their function by interacting with each other and with small molecules. Characterizing these interactions helps elucidate how living organisms function at the molecular level, contributes towards the development of treatments against diseases such as cancer and SARS-COV2. Detailed understanding of macromolecular interaction mechanisms requires determining the three-dimensional structures of their complexes. These structures are very difficult to obtain using experimental techniques, thus, computational approaches, called molecular docking, are very useful.</p>\n<p>In the course of this proposal we have developed new methods for modeling macromolecular interactions using advanced signal processing techniques and machine learning. In particular we have developed methodology for modeling &nbsp;1) large molecular assemblies consisting of hundreds of proteins including entire viral shells (capsids), 2) &nbsp;therapeutically important protein-protein interactions such as antibodies with their antigens;3) protein interactions with small molecules such as metabolites and therapeutic drugs; and 4) interactions of proteins with PROTACs (Proteolysis TArgeting Chimeras), a novel modality of therapeutics aiming to remove disease-causing proteins.</p>\n<p>The resulting methods have been extensively tested in international blind molecular docking competitions including D3R, CAPRI, GPCRDOCK, CASP, and have been top performers in many of them. The &nbsp;methodology has been used for understanding the molecular mechanisms of human lung cell infection by SARS-COV2 virus, for the identification of protein-protein interactions involved in infection processes, as well as for suggesting and developing novel therapeutics. The &nbsp;resulting methods are made available to users through the ClusPro family of docking server</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/04/2023<br>\n\t\t\t\t\tModified by: Dmytro&nbsp;Kozakov</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMacromolecules, including proteins and nucleic acids, are the major building blocks of the cell. Many macromolecules perform their function by interacting with each other and with small molecules. Characterizing these interactions helps elucidate how living organisms function at the molecular level, contributes towards the development of treatments against diseases such as cancer and SARS-COV2. Detailed understanding of macromolecular interaction mechanisms requires determining the three-dimensional structures of their complexes. These structures are very difficult to obtain using experimental techniques, thus, computational approaches, called molecular docking, are very useful.\n\nIn the course of this proposal we have developed new methods for modeling macromolecular interactions using advanced signal processing techniques and machine learning. In particular we have developed methodology for modeling  1) large molecular assemblies consisting of hundreds of proteins including entire viral shells (capsids), 2)  therapeutically important protein-protein interactions such as antibodies with their antigens;3) protein interactions with small molecules such as metabolites and therapeutic drugs; and 4) interactions of proteins with PROTACs (Proteolysis TArgeting Chimeras), a novel modality of therapeutics aiming to remove disease-causing proteins.\n\nThe resulting methods have been extensively tested in international blind molecular docking competitions including D3R, CAPRI, GPCRDOCK, CASP, and have been top performers in many of them. The  methodology has been used for understanding the molecular mechanisms of human lung cell infection by SARS-COV2 virus, for the identification of protein-protein interactions involved in infection processes, as well as for suggesting and developing novel therapeutics. The  resulting methods are made available to users through the ClusPro family of docking server\n\n \n\n\t\t\t\t\tLast Modified: 05/04/2023\n\n\t\t\t\t\tSubmitted by: Dmytro Kozakov"
+ }
+}

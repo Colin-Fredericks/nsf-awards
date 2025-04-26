@@ -1,0 +1,101 @@
+{
+ "awd_id": "2128653",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CNS Core: Small: Offline Inference for Ultra-Efficient Memory Management",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2021-07-14",
+ "awd_max_amd_letter_date": "2021-07-14",
+ "awd_abstract_narration": "Machine learning (ML) has made its way into systems of various kinds, helping them make informed decisions at critical points. A typical approach to ML-for-systems is to perform inference online by querying a model with runtime data. Online inference incurs non-trivial overheads, imposing a tight restriction on model size and complexity. In fact, systems that involve ML in their decision making often use very simple models (e.g., linear models) with inferior accuracy. This project develops a transformative approach to ML-for-systems - instead of doing online inference, this project advocates to train models that can predict runtime properties directly from program source code. As such, inference can be done offline and their results can be encoded and efficiently looked up during execution. Given that inference no longer contributes to run time, the proposed approach removes the above-discussed restrictions, enabling systems to employ state-of-the-art model architectures. This project further applies offline inference to memory management tasks that are critical to cloud applications. \r\n\r\nModern society relies on services provided by large-scale systems. Improving the throughput and efficiency of such systems improves the service-level efficiency and scalability that human can experience in their lives. Replacing complicated and heuristics-driven decision making in today\u2019s memory management systems with learning has a potential to dramatically reduce the cost of allocation and deallocation, which is a significant component in an application\u2019s execution.  Traditionally, inference is performed online, restricting what models to use and how high the accuracy can reach. This project develops techniques that make ML a more appealing approach by removing these restrictions. The techniques proposed span runtime system and ML. This interdisciplinary nature produces research that has impact in both areas.  The project also makes efforts in education and diversity by incorporating research into courses and recruiting researchers from underrepresented groups.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Harry",
+   "pi_last_name": "Xu",
+   "pi_mid_init": "G",
+   "pi_sufx_name": "",
+   "pi_full_name": "Harry G Xu",
+   "pi_email_addr": "harryxu@cs.ucla.edu",
+   "nsf_id": "000599637",
+   "pi_start_date": "2021-07-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California, Los Angeles",
+  "perf_str_addr": "Engineering Vi, Rm 496A, UCLA",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900951596",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p dir=\"ltr\">Machine learning has made its way into systems of various kinds, helping them make informed decisions at critical points. A typical approach to ML-for-system is to perform inference <em>online</em> by querying a model with runtime data generated during execution. Online inference incurs non-trivial overheads, posing a tight restriction on model size and complexity. In fact, systems that&nbsp; involve ML in their decision making often use only very simple models (eg., linear models) with inferior accuracy.</p>\n<p dir=\"ltr\">This project has developed a transformative approach to ML-for-system--- instead of doing online inference, we have developed models that can predict runtime properties directly from program source code (ISMM'23). As such, inference can be done <em>offline</em> and their results can be encoded and efficiently looked up during execution. Given that inference no longer contributes to run time, our approach removes the above-discussed restrictions, enabling systems to employ state-of-the-art model architectures.&nbsp; We have also developed a set of systems that can perform efficient and affordable training and inferencing for small and large models (Bamboo-NSDI'23, Parcae-NSDI'24, DyNNOffload-HPCA'25).</p>\n<p dir=\"ltr\">Overall, the project has led to more than 30 papers published in top systems venues as well as 10 open-source github repos (https://github.com/uclasystem).&nbsp;</p>\n<p>The broader impacts of the project include shedding new lights on how ML can benefit systems and training students.&nbsp; Software developed by this project has been made freely available.&nbsp; The project has helped train PostDocs, PhD and MS students.&nbsp;</p><br>\n<p>\n Last Modified: 10/09/2024<br>\nModified by: Harry&nbsp;G&nbsp;Xu</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nMachine learning has made its way into systems of various kinds, helping them make informed decisions at critical points. A typical approach to ML-for-system is to perform inference online by querying a model with runtime data generated during execution. Online inference incurs non-trivial overheads, posing a tight restriction on model size and complexity. In fact, systems that involve ML in their decision making often use only very simple models (eg., linear models) with inferior accuracy.\n\n\nThis project has developed a transformative approach to ML-for-system--- instead of doing online inference, we have developed models that can predict runtime properties directly from program source code (ISMM'23). As such, inference can be done offline and their results can be encoded and efficiently looked up during execution. Given that inference no longer contributes to run time, our approach removes the above-discussed restrictions, enabling systems to employ state-of-the-art model architectures. We have also developed a set of systems that can perform efficient and affordable training and inferencing for small and large models (Bamboo-NSDI'23, Parcae-NSDI'24, DyNNOffload-HPCA'25).\n\n\nOverall, the project has led to more than 30 papers published in top systems venues as well as 10 open-source github repos (https://github.com/uclasystem).\n\n\nThe broader impacts of the project include shedding new lights on how ML can benefit systems and training students. Software developed by this project has been made freely available. The project has helped train PostDocs, PhD and MS students.\t\t\t\t\tLast Modified: 10/09/2024\n\n\t\t\t\t\tSubmitted by: HarryGXu\n"
+ }
+}

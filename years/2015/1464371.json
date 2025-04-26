@@ -1,0 +1,121 @@
+{
+ "awd_id": "1464371",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: RI: Large-Scale Discovery and Organization of Subcategories and Parts from Image and Video Segments",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924768",
+ "po_email": "jyang@nsf.gov",
+ "po_sign_block_name": "Jie Yang",
+ "awd_eff_date": "2015-06-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 165375.0,
+ "awd_amount": 173375.0,
+ "awd_min_amd_letter_date": "2015-06-11",
+ "awd_max_amd_letter_date": "2018-05-31",
+ "awd_abstract_narration": "This project develops a system for understanding of visual categories given limited annotations. The system automatically detects subcategories and object parts with only category-level annotations. Such detailed understanding is important for autonomous systems to perform interactions with objects or to recognize them under occlusion. For this purpose, current deep neural networks will be extended to better support objects and parts of irregular shape. Once understandings at such level have been achieved, it helps to construct new categories from just a few exemplars, which has broad applications in autonomous systems.\r\n\r\nThis research generalizes previously successful approaches in semantic segmentation and unsupervised video segmentation for an efficient approach to learn subcategories and parts. The framework starts from overlapping figure-ground segment proposals, computes least squares regressors from input segments against segment overlaps, and utilizes the Sherman-Morrison-Woodbury formula and structures from the quadratic loss function for efficient optimization of thousands to hundreds of thousands of subcategories and parts simultaneously. This project then explores the training of deep convolutional networks with initializations from these subcategories and parts defined on free-form segments. This requires generalization of the neural network architecture to handle free-form segments that can deform through a video sequence. It is proposed to use the geodesic distance transform on spatial-temporal segments to define customized filters for different localities for improved performance and better interpretability.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Fuxin",
+   "pi_last_name": "Li",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Fuxin Li",
+   "pi_email_addr": "lif@eecs.oregonstate.edu",
+   "nsf_id": "000637562",
+   "pi_start_date": "2015-06-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Oregon State University",
+  "inst_street_address": "1500 SW JEFFERSON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CORVALLIS",
+  "inst_state_code": "OR",
+  "inst_state_name": "Oregon",
+  "inst_phone_num": "5417374933",
+  "inst_zip_code": "973318655",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "OR04",
+  "org_lgl_bus_name": "OREGON STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MZ4DYXE1SL98"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Orgeon State University",
+  "perf_str_addr": "",
+  "perf_city_name": "Corvallos",
+  "perf_st_code": "OR",
+  "perf_st_name": "Oregon",
+  "perf_zip_code": "973318507",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "OR04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0117",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001718DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 165375.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2017,
+   "fund_oblg_amt": 8000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>With the advent of deep networks which have achieved impressive performance in image classification datasets, it has been quickly noted that they are not very robust to even small rotations and other deformations in images, hence, many important research questions need to be answered: what is underlying the capability of these networks to learn? What can be done on understanding them and extracting the \"subcategories\" and \"parts\" knowledge that they are using to form their final decision? Can it be applied well to problems that involve more flexible shapes and also deformable shapes in videos?</p>\n<p>This project seeks to answer those questions. One of the results we have achieved is a generalization theory of convolutional neural networks (CNNs). Our theory answers the question why CNNs always have better performance when using very small filters that only cover regions of 3 pixels by 3 pixels and showed the link between its learning capability and the spatial statistics of the underlying data. This theory allowed us to design specific and optimal spatial filters when the underlying data has properties different from natural images, and we successfully tested it on spectrogram data from bird songs and wing beats, as well as gene expression data.&nbsp;</p>\n<p>We have also proposed the explanation neural network (XNN), that seeks to locate several different consistent concepts that the CNN is using to make its predictions -- almost like analyzing the brain of the neural network. XNN would automatically learn from the CNN those concepts which in certain cases look like specifically discriminative parts -- a certain red crown from a bird, or a specific type of beak. With a simple visualization, we can show that the CNN decision can be mostly expressed as a simple combination of those consistent concepts -- so now we can say with certainty that CNN categorized this image to be a Sooty Albatross because it has this type of the beak and this type of wings, all without any of these knowledge injected directly from human. The code of XNN is made publicly available on our website so that everyone can try to explain the decision of CNNs.</p>\n<p>On the side of making deep networks to understand better deformations, we proposed the boundary flow problem where we aim to learn the way object silhouettes are moving in a video. The distinction: only silhouettes. Previous computer vision approaches try to figure out the motion of every pixel, which we believe is an overkilll since even human has significant trouble understanding the motion of every pixel, but our cognition capabilities are not impaired. Boundary flow is defined so that we only work on motion of the boundary pixels, which are much more important and also being a simpler problem than figuring out the motion for each pixel. In an algorithm, we utilized mid-level knowledge learned within a trained CNN to compute the boundary flow, and obtained interesting results that are significantly better than the past.</p>\n<p>We have also worked on matching 2 scenes where only point cloud information is available. These 2 scenes may be captured from significantly different view angles, yet our feature extraction would extract similar features from them so that they can be matched even from a large database. We have obtained significantly better results using just simple feature extraction, that have outperformed even state-of-the-art CNNs.</p>\n<p>Another research product is to use deep learning to learn to rank object proposals in video. This is useful in unsupervised video object segmentation, where we may have already generated a list of potential object tracks, but are not sure which ones are real objects. The deep learning algorithm would learn to determine which object track is a real object in this video setting. In the results, we have significantly reduced the number of potential object tracks in a video, so that most of the remaining ones are real objects. This can be used to discover all the objects, moving or non-moving, from a video directly.</p>\n<p>The research results have made their way into the CS535 deep learning class the PI is teaching and various research talks in different locations, including a guest lecture in an undergraduate computer vision class in the University of Michigan. An undergraduate student was supported from this project for research training purposes and worked on a web-based interactive segmentation tool that is close to be released to the public.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/07/2019<br>\n\t\t\t\t\tModified by: Fuxin&nbsp;Li</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nWith the advent of deep networks which have achieved impressive performance in image classification datasets, it has been quickly noted that they are not very robust to even small rotations and other deformations in images, hence, many important research questions need to be answered: what is underlying the capability of these networks to learn? What can be done on understanding them and extracting the \"subcategories\" and \"parts\" knowledge that they are using to form their final decision? Can it be applied well to problems that involve more flexible shapes and also deformable shapes in videos?\n\nThis project seeks to answer those questions. One of the results we have achieved is a generalization theory of convolutional neural networks (CNNs). Our theory answers the question why CNNs always have better performance when using very small filters that only cover regions of 3 pixels by 3 pixels and showed the link between its learning capability and the spatial statistics of the underlying data. This theory allowed us to design specific and optimal spatial filters when the underlying data has properties different from natural images, and we successfully tested it on spectrogram data from bird songs and wing beats, as well as gene expression data. \n\nWe have also proposed the explanation neural network (XNN), that seeks to locate several different consistent concepts that the CNN is using to make its predictions -- almost like analyzing the brain of the neural network. XNN would automatically learn from the CNN those concepts which in certain cases look like specifically discriminative parts -- a certain red crown from a bird, or a specific type of beak. With a simple visualization, we can show that the CNN decision can be mostly expressed as a simple combination of those consistent concepts -- so now we can say with certainty that CNN categorized this image to be a Sooty Albatross because it has this type of the beak and this type of wings, all without any of these knowledge injected directly from human. The code of XNN is made publicly available on our website so that everyone can try to explain the decision of CNNs.\n\nOn the side of making deep networks to understand better deformations, we proposed the boundary flow problem where we aim to learn the way object silhouettes are moving in a video. The distinction: only silhouettes. Previous computer vision approaches try to figure out the motion of every pixel, which we believe is an overkilll since even human has significant trouble understanding the motion of every pixel, but our cognition capabilities are not impaired. Boundary flow is defined so that we only work on motion of the boundary pixels, which are much more important and also being a simpler problem than figuring out the motion for each pixel. In an algorithm, we utilized mid-level knowledge learned within a trained CNN to compute the boundary flow, and obtained interesting results that are significantly better than the past.\n\nWe have also worked on matching 2 scenes where only point cloud information is available. These 2 scenes may be captured from significantly different view angles, yet our feature extraction would extract similar features from them so that they can be matched even from a large database. We have obtained significantly better results using just simple feature extraction, that have outperformed even state-of-the-art CNNs.\n\nAnother research product is to use deep learning to learn to rank object proposals in video. This is useful in unsupervised video object segmentation, where we may have already generated a list of potential object tracks, but are not sure which ones are real objects. The deep learning algorithm would learn to determine which object track is a real object in this video setting. In the results, we have significantly reduced the number of potential object tracks in a video, so that most of the remaining ones are real objects. This can be used to discover all the objects, moving or non-moving, from a video directly.\n\nThe research results have made their way into the CS535 deep learning class the PI is teaching and various research talks in different locations, including a guest lecture in an undergraduate computer vision class in the University of Michigan. An undergraduate student was supported from this project for research training purposes and worked on a web-based interactive segmentation tool that is close to be released to the public.\n\n\t\t\t\t\tLast Modified: 02/07/2019\n\n\t\t\t\t\tSubmitted by: Fuxin Li"
+ }
+}

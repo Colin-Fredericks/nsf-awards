@@ -1,0 +1,109 @@
+{
+ "awd_id": "1018368",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF:  Small:  Soft Inference under Structured Sparsity",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Cozzens",
+ "awd_eff_date": "2010-10-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 423032.0,
+ "awd_amount": 423032.0,
+ "awd_min_amd_letter_date": "2010-07-08",
+ "awd_max_amd_letter_date": "2010-07-08",
+ "awd_abstract_narration": "In recent years, it has come to light that many signal estimation and detection problems in engineering, science, and statistics are significantly aided by modeling the signal as sparse in some basis.\r\nBy now, a relatively comprehensive theory has been constructed for such signal models, yielding algorithms that give provably good performance even when sampling far below the Nyquist rate.\r\nThe structure of real-world signals often goes beyond simple sparsity, though.\r\nFor example, the wavelet coefficients of natural scenes are not only sparse, but also show persistence across scales of the wavelet tree.\r\nRecent investigations of structure within sparsity show that it can be exploited to yield gains in estimation performance, though existing results are somewhat limited.\r\nFor example, existing approaches strive to find only the single \"best\"\r\nestimate, whereas many applications would like to know the set of all reasonable estimates along with relative confidence values, i.e., \"soft\" estimates.\r\n\r\nThis research investigates soft inference strategies leveraging a statistical modeling framework based on hidden state variables.\r\nHere, e.g., using binary states would facilitate a sparse signal model, and using Markov structures on the binary states would facilitate structured sparsity.\r\nIn particular, this research investigates iterative and sequential Bayesian approaches to soft inference, building on state-of-the-art algorithms used in noncoherent communication receivers that go by the name of \"turbo equalization\" and \"sphere decoding.\"\r\nThis research also investigates fundamental issues in communication over sparse fading channels.\r\nWhile existing approaches have focused on the problem of find the \"best\"\r\nsparse channel estimate for subsequent use in a coherent decoding algorithm, communication theory instead prescribes a decoding metric based on model-averaging of soft sparse channel estimates.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Philip",
+   "pi_last_name": "Schniter",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Philip Schniter",
+   "pi_email_addr": "schniter@ece.osu.edu",
+   "nsf_id": "000297419",
+   "pi_start_date": "2010-07-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "1960 KENNY RD",
+  "perf_city_name": "COLUMBUS",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101016",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "793600",
+   "pgm_ele_name": "SIGNAL PROCESSING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 423032.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The major goals of the project included (i) the design and analysis of iterative Bayesian algorithms that exploit signal sparsity, as well as signal structure beyond sparsity, such as structure in the support pattern and/or the non-zero-coefficient amplitudes of sparse signals, and (ii) the application of these algorithms in communication receivers and elsewhere.</p>\n<p><br />One outcome of the project was a theoretical understanding of the generalized approximate message passing (GAMP) algorithm when applied with a generic linear transform.This included the discovery of the underlying cost function; a characterization of when the algorithm will converge or diverge (that is complete in the all-Gaussian case); an understanding of the connections between GAMP and optimization algorithms like primal-dual methods, ADMM, and iterative soft thresholding; and the design of a provably convergence variant of GAMP that directly minimizes the cost function.</p>\n<p><br />A second outcome of the project was the development of GAMP extensions that handle non-independent signal priors.Examples include tree-structured sparsity (as occurs among the wavelet coefficients in natural images), Markov-chain structured or clustered sparsity (as occurs in multiple-measurement vector problems and in communications channel responses), Markov-field structured sparsity, and cosparsity in the outputs of a given analysis transform (sometimes referred to as analysis-form compressive sensing).A further generalization to factor graphs with vector-valued variable nodes manifested as the \"hybrid GAMP\" algorithm.</p>\n<p>A third outcome of the project was the design of non-parametric sparse reconstruction algorithms based on a combination of the EM algorithm and GAMP. &nbsp;Essentially, the idea was to learn the parameters of a Gaussian-mixture signal prior using EM and then exploit that learned prior using the Bayesian AMP algorithm, leading to state-of-the-art phase transitions. &nbsp;Extensions to non-negative and/or linearity constrained signals were also developed. &nbsp;Extensions to the learning of the parameters that govern other aspects of structured sparsity (e.g., Markov parameters) were also developed.</p>\n<p>On the topic of communication over sparse channels, which manifest at large communication bandwidths, one outcome of the project was an information theoretic analysis of the channel capacity in the absence of channel-state information, which establishes a fundamental limit on the spectral efficiency of any practical scheme. &nbsp;Another outcome of the project was the design of practical GAMP-based algorithms for joint sparse-channel estimation, symbol detection, and bit decoding in OFDM systems, which give near-optimal performance (in terms of both bit error rate and spectral efficiency) while maintaining low complexity through the leveraging of FFTs. &nbsp;The latter work was extended to the case of impulse-noise corrupted observations, as occurs in power-line communications.</p>\n<p>A sixth outcome of the work was the design of adaptive compressive strategies that merge information-theoretic resource allocation techniques with a GAMP-based inference engine. &nbsp;The resulting technique is able to exploit diverse forms of signal structure while yielding state-of-the-art reconstruction performance with runtimes much faster than previous approaches. &nbsp;Applications to noncoherent change detection were also demonstrated.</p>\n<p>A seventh outcome of the work was the development of signal reconstruction schemes based on a \"composite ell1\" criterion with iterative reweighting. &nbsp;Essentially, the signal is conjectured to be sparse in several dictionaries and, to recover the signal, a sum of weighted ell1 norms is minimized in conjunction with (or subject to a constraint on) ell2 measurement fidelity. &nbsp;The key is that the inter-dictionary weights are jointly optimized during sign...",
+  "por_txt_cntn": "\nThe major goals of the project included (i) the design and analysis of iterative Bayesian algorithms that exploit signal sparsity, as well as signal structure beyond sparsity, such as structure in the support pattern and/or the non-zero-coefficient amplitudes of sparse signals, and (ii) the application of these algorithms in communication receivers and elsewhere.\n\n\nOne outcome of the project was a theoretical understanding of the generalized approximate message passing (GAMP) algorithm when applied with a generic linear transform.This included the discovery of the underlying cost function; a characterization of when the algorithm will converge or diverge (that is complete in the all-Gaussian case); an understanding of the connections between GAMP and optimization algorithms like primal-dual methods, ADMM, and iterative soft thresholding; and the design of a provably convergence variant of GAMP that directly minimizes the cost function.\n\n\nA second outcome of the project was the development of GAMP extensions that handle non-independent signal priors.Examples include tree-structured sparsity (as occurs among the wavelet coefficients in natural images), Markov-chain structured or clustered sparsity (as occurs in multiple-measurement vector problems and in communications channel responses), Markov-field structured sparsity, and cosparsity in the outputs of a given analysis transform (sometimes referred to as analysis-form compressive sensing).A further generalization to factor graphs with vector-valued variable nodes manifested as the \"hybrid GAMP\" algorithm.\n\nA third outcome of the project was the design of non-parametric sparse reconstruction algorithms based on a combination of the EM algorithm and GAMP.  Essentially, the idea was to learn the parameters of a Gaussian-mixture signal prior using EM and then exploit that learned prior using the Bayesian AMP algorithm, leading to state-of-the-art phase transitions.  Extensions to non-negative and/or linearity constrained signals were also developed.  Extensions to the learning of the parameters that govern other aspects of structured sparsity (e.g., Markov parameters) were also developed.\n\nOn the topic of communication over sparse channels, which manifest at large communication bandwidths, one outcome of the project was an information theoretic analysis of the channel capacity in the absence of channel-state information, which establishes a fundamental limit on the spectral efficiency of any practical scheme.  Another outcome of the project was the design of practical GAMP-based algorithms for joint sparse-channel estimation, symbol detection, and bit decoding in OFDM systems, which give near-optimal performance (in terms of both bit error rate and spectral efficiency) while maintaining low complexity through the leveraging of FFTs.  The latter work was extended to the case of impulse-noise corrupted observations, as occurs in power-line communications.\n\nA sixth outcome of the work was the design of adaptive compressive strategies that merge information-theoretic resource allocation techniques with a GAMP-based inference engine.  The resulting technique is able to exploit diverse forms of signal structure while yielding state-of-the-art reconstruction performance with runtimes much faster than previous approaches.  Applications to noncoherent change detection were also demonstrated.\n\nA seventh outcome of the work was the development of signal reconstruction schemes based on a \"composite ell1\" criterion with iterative reweighting.  Essentially, the signal is conjectured to be sparse in several dictionaries and, to recover the signal, a sum of weighted ell1 norms is minimized in conjunction with (or subject to a constraint on) ell2 measurement fidelity.  The key is that the inter-dictionary weights are jointly optimized during signal reconstruction.  The resulting approach can be interpreted from many vantage points: variations on log-sum optimization, approximate ell0-minimization..."
+ }
+}

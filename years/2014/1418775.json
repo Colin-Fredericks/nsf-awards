@@ -1,0 +1,101 @@
+{
+ "awd_id": "1418775",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Computational Nonlinear Dynamics: Variance Reduction Methods and Numerical Studies of Large, Chaotic, and Noisy Systems",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 219999.0,
+ "awd_amount": 219999.0,
+ "awd_min_amd_letter_date": "2014-07-19",
+ "awd_max_amd_letter_date": "2014-07-19",
+ "awd_abstract_narration": "Scientists and engineers increasingly depend on computational analyses of mathematical models to understand, predict, design, and control dynamic processes in physical and biological systems.  Models often contain numerical parameters whose values may vary widely, or may be poorly constrained by data; the sensitivity of model predictions to parameter variations is thus an essential practical consideration in such computational analyses.  However, exhaustive, brute-force \"parameter sweeps,\" in which one tests all possible parameters, can be computationally expensive and is sometimes simply impractical.  The proposed research concerns efficient numerical algorithms for computing sensitivities of noisy, chaotic systems to parameter variations; these systems arise in a variety of different applications, ranging from statistical physics to neuroscience.  The proposed research can potentially help researchers in these fields perform computational analyses of mathematical models more efficiently.  The proposal, combining as it does the study of numerical algorithms and their applications, is also interdisciplinary in nature and provides ample opportunities for the training of future mathematical scientists who can collaborate effectively with scientists and engineers.\r\n\r\n\r\nThis proposal concerns the design, analysis, and application of algorithms for computing the statistical properties of nonlinear dynamical systems that are chaotic, noisy, and potentially high-dimensional.  The proposed projects aim to (i) study novel variance reduction algorithms for estimating expectation values of observables and their sensitivities for noisy chaotic systems; (ii) investigate the utility of such sensitivity estimators in computational nonlinear dynamics; (iii) extend these general algorithms to special classes of dynamical systems where the general form of the proposed algorithms may not necessarily apply.  The proposal includes plans for implementing, testing, and analyzing novel numerical algorithms, as well as applying them to specific dynamical systems.  As large, chaotic, and noisy dynamical systems occur naturally in a variety of physical and biological contexts, the proposed research is expected to produce algorithmic tools useful to practitioners in these and other fields where these types of dynamical systems arise, and will be directly applicable to a range of problems of interest to the PI, his students, and collaborators.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kevin",
+   "pi_last_name": "Lin",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kevin K Lin",
+   "pi_email_addr": "klin@math.arizona.edu",
+   "nsf_id": "000081736",
+   "pi_start_date": "2014-07-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Arizona",
+  "inst_street_address": "845 N PARK AVE RM 538",
+  "inst_street_address_2": "",
+  "inst_city_name": "TUCSON",
+  "inst_state_code": "AZ",
+  "inst_state_name": "Arizona",
+  "inst_phone_num": "5206266000",
+  "inst_zip_code": "85721",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "AZ07",
+  "org_lgl_bus_name": "UNIVERSITY OF ARIZONA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "ED44Y3W6P7B9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Arizona",
+  "perf_str_addr": "617 N. Santa Rita Ave.",
+  "perf_city_name": "Tucson",
+  "perf_st_code": "AZ",
+  "perf_st_name": "Arizona",
+  "perf_zip_code": "857210089",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "AZ07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 219999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Many natural phenomena are inherently \"noisy.\"&nbsp; For example, small particles suspended in a fluid will undergo apparently random motion due to bombardment by surrounding water molecules, and electrical voltages in wires exhibit unpredictable fluctuations because of the random motion of the atoms that make up the wire.&nbsp; Mathematical models of such phenomena, which are often used to make predictions about the behavior of such systems under different conditions, similarly have a random character.&nbsp; For scientists and engineers who wish to make use of mathematical models for predicting, understanding, or even designing such noisy systems, the efficient computation of relevant statistics (for example the mean energy of particles suspended in a fluid) can be a challenge even with fast computers.&nbsp; Exacerbating the problem is that most mathematical models of natural phenomena are characterized by numerical parameters that are difficult to measure experimentally.&nbsp; For this reason, scientists and engineers often need not only predictions for one specific set of parameters, but across a range of parameters, and are often as interested in the sensitivity of model predictions to small errors in the parameters as in the predictions themselves.&nbsp; The random character of noisy dynamics makes quantities like sensitivity to parameter variations challenging to compute by direct simulation.<br /><br />The projects supported by this grant concern a class of general computer algorithms that promise to deliver fast and accurate estimates of the sensitivity of model predictions to parameter variations.&nbsp; The algorithms may also be useful for speeding up the computation of other types of statistical information in noisy systems.&nbsp; Potential application areas include statistical physics, a branch of physics that uses probability and statistics to study e.g. the collective behavior of large numbers of particles; chemical reactions; and various areas of biology (e.g., the dynamics of networks of neurons).<br /><br />Work supported by the grant has led to a deeper understanding of the advantages and limitations of the proposed algorithms.&nbsp; The results have been presented in the form of papers in refereed journals, as well as presentations at scientific meetings.&nbsp; The latter included both specialized meetings in applied &amp; computational mathematics as well as meetings focused on application areas like neuroscience.&nbsp; Directly and indirectly, this grant has also provided partial support for the training of 4 PhD students and 1 undergraduate Honors Thesis at the University of Arizona.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/29/2018<br>\n\t\t\t\t\tModified by: Kevin&nbsp;K&nbsp;Lin</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMany natural phenomena are inherently \"noisy.\"  For example, small particles suspended in a fluid will undergo apparently random motion due to bombardment by surrounding water molecules, and electrical voltages in wires exhibit unpredictable fluctuations because of the random motion of the atoms that make up the wire.  Mathematical models of such phenomena, which are often used to make predictions about the behavior of such systems under different conditions, similarly have a random character.  For scientists and engineers who wish to make use of mathematical models for predicting, understanding, or even designing such noisy systems, the efficient computation of relevant statistics (for example the mean energy of particles suspended in a fluid) can be a challenge even with fast computers.  Exacerbating the problem is that most mathematical models of natural phenomena are characterized by numerical parameters that are difficult to measure experimentally.  For this reason, scientists and engineers often need not only predictions for one specific set of parameters, but across a range of parameters, and are often as interested in the sensitivity of model predictions to small errors in the parameters as in the predictions themselves.  The random character of noisy dynamics makes quantities like sensitivity to parameter variations challenging to compute by direct simulation.\n\nThe projects supported by this grant concern a class of general computer algorithms that promise to deliver fast and accurate estimates of the sensitivity of model predictions to parameter variations.  The algorithms may also be useful for speeding up the computation of other types of statistical information in noisy systems.  Potential application areas include statistical physics, a branch of physics that uses probability and statistics to study e.g. the collective behavior of large numbers of particles; chemical reactions; and various areas of biology (e.g., the dynamics of networks of neurons).\n\nWork supported by the grant has led to a deeper understanding of the advantages and limitations of the proposed algorithms.  The results have been presented in the form of papers in refereed journals, as well as presentations at scientific meetings.  The latter included both specialized meetings in applied &amp; computational mathematics as well as meetings focused on application areas like neuroscience.  Directly and indirectly, this grant has also provided partial support for the training of 4 PhD students and 1 undergraduate Honors Thesis at the University of Arizona.\n\n\t\t\t\t\tLast Modified: 10/29/2018\n\n\t\t\t\t\tSubmitted by: Kevin K Lin"
+ }
+}

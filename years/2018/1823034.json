@@ -1,0 +1,113 @@
+{
+ "awd_id": "1823034",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SPX: Collaborative Research: Global Address Programming with Accelerators",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Ashok Srinivasan",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 465000.0,
+ "awd_amount": 465000.0,
+ "awd_min_amd_letter_date": "2018-08-30",
+ "awd_max_amd_letter_date": "2018-08-30",
+ "awd_abstract_narration": "Large-scale computing today is dominated by parallel computing, where a large task is divided into many smaller tasks and those smaller tasks run at the same time. Traditionally each of those tasks run independently up to a common stopping point, then they halt, exchange information, and continue. This global stop-and-communicate step is quite expensive. This project instead pursues a different approach, where individual tasks directly communicate with other tasks asynchronously, without having to wait for a global stopping point. This approach is likely to yield better performance on large-scale computing tasks, specifically on what is becoming the dominant large-scale machine, a heterogeneous machine with many CPUs and other\r\nmany-core processors. The project will deliver a set of high-performance, open-source data structures and algorithm implementations to support irregular patterns of communication, notably those that arise in biology, graph analytics, and sparse linear algebra for machine learning. These will not only be directly useful for end users but also demonstrate how to design and engineer primitives for accelerator-equipped distributed-memory machines. The project also engages application developers (both in our groups and externally) to make the outcomes broadly useful.\r\n\r\nThe project will develop a programming environment for accelerator-based HPC systems that integrates accelerators into a Partitioned Global Address Space (PGAS) model, which will allow direct communication between GPUs in a manner that is well suited to both applications and the underlying hardware. Specifically, GPU programming will be integrated with the UPC++ PGAS programming model (\"GPUPC++\"). The project will thus advance the state of the art in algorithms, programming models, and low-level support for the heterogeneous large-scale computers.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Katherine",
+   "pi_last_name": "Yelick",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Katherine A Yelick",
+   "pi_email_addr": "yelick@cs.berkeley.edu",
+   "nsf_id": "000388740",
+   "pi_start_date": "2018-08-30",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Aydin",
+   "pi_last_name": "Buluc",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Aydin Buluc",
+   "pi_email_addr": "aydin@eecs.berkeley.edu",
+   "nsf_id": "000767496",
+   "pi_start_date": "2018-08-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California, Berkeley",
+  "perf_str_addr": "5th Floor, Soda Hall",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947201776",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "042Y00",
+   "pgm_ele_name": "PPoSS-PP of Scalable Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 465000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-96e50e33-7fff-eff5-badc-8f27de79c9c8\"> </span></p>\n<p dir=\"ltr\"><span>This project developed programming tools for applications of high performance computing systems that involve multiple computing nodes (processors) connected by a high speed network and with Graphics Processing Units (GPUs) attached to each node to accelerate computation. The team looked at problems that are difficult to map to both GPUs and multi-node parallel systems because they involve irregular data structures and unpredictable computational patterns, which results in asynchronous parallel algorithms and communication. They developed alternatives to the dominant style of GPU programming and multi-node communication.&nbsp;</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span>The team designed and built a distributed data structure library, the Berkeley Container Library or BCL, for applications that access logically shared, but physically distributed data structures, and included GPU optimizations within a node. This uses one-sided communication that is closer to shared memory style algorithms and is especially useful for irregular problems in which either collective or two-sided communication can be awkward, e.g., updating or querying logically shared data structures in distributed memory. They also used remote procedure calls where computation is moved to the data, rather than the reverse. The data structure library includes hash tables, queues of various kinds, sparse matrices, and more.&nbsp;&nbsp;</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span>The project also explored the trade-offs in various GPU designs to support irregular computations: asynchronous algorithms; load balancing using task parallelism rather than data parallelism; persistent kernels instead of discrete ones; and trading off task and data parallelism. They did a study comparing various ways of communicating between multiple GPUs on the same node and on different nodes.&nbsp; They used these ideas to build a framework, Atos, that allows them to write and test algorithms and quantify these different design decisions.&nbsp;</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span>Through this work, the team developed a deeper understanding of optimization techniques for GPUs and communication used in our own sparse matrix algorithms, graph algorithms, and specifically in graph neural networks.&nbsp; It also helped inform the material used in a new undergraduate parallel computing class and in other collaborations to analyze some of the largest genomic data sets ever analyzed, providing new insights into rare environmental species and previously unknown groups of proteins.&nbsp;</span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 02/04/2024<br>\nModified by: Katherine&nbsp;A&nbsp;Yelick</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\n \n\n\nThis project developed programming tools for applications of high performance computing systems that involve multiple computing nodes (processors) connected by a high speed network and with Graphics Processing Units (GPUs) attached to each node to accelerate computation. The team looked at problems that are difficult to map to both GPUs and multi-node parallel systems because they involve irregular data structures and unpredictable computational patterns, which results in asynchronous parallel algorithms and communication. They developed alternatives to the dominant style of GPU programming and multi-node communication.\n\n\n\n\n\nThe team designed and built a distributed data structure library, the Berkeley Container Library or BCL, for applications that access logically shared, but physically distributed data structures, and included GPU optimizations within a node. This uses one-sided communication that is closer to shared memory style algorithms and is especially useful for irregular problems in which either collective or two-sided communication can be awkward, e.g., updating or querying logically shared data structures in distributed memory. They also used remote procedure calls where computation is moved to the data, rather than the reverse. The data structure library includes hash tables, queues of various kinds, sparse matrices, and more.\n\n\n\n\n\nThe project also explored the trade-offs in various GPU designs to support irregular computations: asynchronous algorithms; load balancing using task parallelism rather than data parallelism; persistent kernels instead of discrete ones; and trading off task and data parallelism. They did a study comparing various ways of communicating between multiple GPUs on the same node and on different nodes. They used these ideas to build a framework, Atos, that allows them to write and test algorithms and quantify these different design decisions.\n\n\n\n\n\nThrough this work, the team developed a deeper understanding of optimization techniques for GPUs and communication used in our own sparse matrix algorithms, graph algorithms, and specifically in graph neural networks. It also helped inform the material used in a new undergraduate parallel computing class and in other collaborations to analyze some of the largest genomic data sets ever analyzed, providing new insights into rare environmental species and previously unknown groups of proteins.\n\n\n\n\n\n\t\t\t\t\tLast Modified: 02/04/2024\n\n\t\t\t\t\tSubmitted by: KatherineAYelick\n"
+ }
+}

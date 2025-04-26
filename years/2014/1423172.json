@@ -1,0 +1,113 @@
+{
+ "awd_id": "1423172",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Effective Data Compression for Modern Memory Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 497618.0,
+ "awd_amount": 497618.0,
+ "awd_min_amd_letter_date": "2014-09-05",
+ "awd_max_amd_letter_date": "2014-09-05",
+ "awd_abstract_narration": "Many areas of science and technology have experienced transformational changes in recent years due to the increased ability to collect and analyze extremely large data sets.  As a result, computers are often limited by their ability to move data in and out of their processors (or CPUs).   One attractive approach to reducing this performance bottleneck would be to compress the data throughout the computer's memory system.  Although data compression has been successful in certain areas of computing (e.g., shrinking the size of files), it has not been widely adopted within modern memory systems.  This research is to develop a new memory compression technique that is fast enough, simple enough, and effective enough (in saving space) to make memory compression practical and attractive.\r\n\r\nThe key insight to the proposed approach is that decompression latency and simplicity of design are far more critical than compression ratio when designing a compression scheme that is effective for modern memory. Preliminary work has identified simple and effective mechanisms for compressing data in on-chip caches and in main memory that achieve significant compression ratios while adding minimal access latency overhead. The simplicity of the proposed mechanisms also enables elegant solutions for dealing with the practical challenges of how on-chip caches and main memories are organized in modern systems.  The anticipated data compression framework will help improve the performance, cost, and energy efficiency of a wide spectrum of computer systems, ranging from high-end servers (including Cloud Computing, high-performance computing, and other distributed systems) down to mobile and embedded devices.\r\n\r\nThe planned compression framework should relieve pressure on both the capacity of the various layers of the memory hierarchy (including caches, DRAM, non-volatile memory technologies, etc.) as well as the bandwidth of the interconnects that transfer data between these layers. This in turn would allow systems designers to avoid over-provisioning these resources. As a result, future computer systems should be better suited to the increasingly data-intensive workloads of the future.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Todd",
+   "pi_last_name": "Mowry",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Todd Mowry",
+   "pi_email_addr": "tcm@cs.cmu.edu",
+   "nsf_id": "000216388",
+   "pi_start_date": "2014-09-05",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Onur",
+   "pi_last_name": "Mutlu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Onur Mutlu",
+   "pi_email_addr": "onur@cmu.edu",
+   "nsf_id": "000512629",
+   "pi_start_date": "2014-09-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133890",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 497618.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>As computation has become increasingly data-intensive, it has become increasingly difficult for modern memory systems to supply that data in a way that is fast, cost-effective, and energy-efficient.&nbsp; Given these challenges, it may be surprising that data compression has not been widely adopted in the memory hierarchy to date: by effectively reducing the amount of information that needs to be stored and transferred throughout the memory hierarchy, data compression offers the promise of improving performance, increasing cost-effectiveness, and reducing energy consumption (by essentially making a more modest memory system perform as though it were a more expensive memory system).&nbsp; In this project, we have developed new data compression techniques that overcome key stumbling blocks throughout the memory hierarchy (including the processor caches, main memory, and the memory system interconnects).</p>\n<p>Our first major outcome was the development of a set of new size-aware replacement policies for compressed on-chip caches (which we call CAMP: Compression-Aware Management Policies).&nbsp; CAMP improves system performance and energy efficiency compared to three state-of-the-art cache replacement mechanisms. Our policies are based on two key observations. First, we show that direct incorporation of the compressed cache block size into replacement decisions can be a basis for a more efficient replacement policy. Second, we find that the compressed block size can be used as an indicator of a block&rsquo;s future reuse in some applications. Our extensive evaluations show that CAMP, applied to modern last-level-caches (LLC), improves performance by 4.9%/9.0%/10.2% (on average for memory-intensive workloads) for single-core/two-/four-core workloads over the best state-of-the-art replacement mechanisms we evaluated.</p>\n<p>Our second major outcome was the development of a new, flexible framework (called CABA: Core-Assisted Bottleneck Acceleration) for accelerating GPUs by generating special &ldquo;assist warps&rdquo; that can execute code to speed up the performance of the main GPU computation.&nbsp; We illustrated this framework by using it specifically to enable a flexible form of data compression for GPU memory hierarchies (where cache blocks are compressed before they are written out to memory and decompressed before they are placed in the cache).&nbsp; CABA-based compression/decompression provides several benefits over a purely hardware-based implementation of data compression for GPU memory hierarchies. First, CABA primarily employs hardware that is already available on-chip but is otherwise underutilized. Second, different applications tend to have distinct data patterns that are more efficiently compressed with different compression algorithms, and CABA supports this flexibility in compression algorithm choice.&nbsp; Third, for GPU applications that do not benefit from compression, CABA can easily disable compression, thereby avoiding performance and energy overheads (compared with hardware compression).&nbsp; Our evaluations across a wide variety of applications show that on average, CABA-based compression reduces memory bandwidth by 2.1X, improves performance by 41.7%, and reduces overall system energy by 22.2%.</p>\n<p>Our third major outcome focused on the energy-efficiency of communication when compression is applied. While compression reduces the amount of transferred data, it leads to a substantial increase in the number of bit toggles (i.e., when communication channels switch from 0 to 1 or from 1 to 0). This increased toggle count increases the dynamic energy consumed by on-chip and off-chip memory buses due to more frequent charging and discharging of the wires. (Our results show that the total bit toggle count can increase from 20% to 2.2&times; when compression is applied for some compression algorithms, averaged across different application suites.) We characterize and demonstrate this new problem across 242 GPU applications and six different compression algorithms. To mitigate the problem, we proposed and evaluated two new toggle-aware compression techniques: Energy Control and Metadata Consolidation. Energy Control decides whether to send data in compressed or uncompressed form based upon a model that accounts for the compression ratio, the increase in bit toggles, and current bandwidth utilization.&nbsp; Metadata Consolidation reduces the negative effects of scattering the metadata across a compressed cache line by consolidating compression-related metadata in a contiguous fashion.&nbsp; These techniques greatly reduce the bit toggle count impact of the data compression algorithms we examine, while keeping most of their bandwidth reduction benefits.<br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/28/2018<br>\n\t\t\t\t\tModified by: Todd&nbsp;Mowry</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAs computation has become increasingly data-intensive, it has become increasingly difficult for modern memory systems to supply that data in a way that is fast, cost-effective, and energy-efficient.  Given these challenges, it may be surprising that data compression has not been widely adopted in the memory hierarchy to date: by effectively reducing the amount of information that needs to be stored and transferred throughout the memory hierarchy, data compression offers the promise of improving performance, increasing cost-effectiveness, and reducing energy consumption (by essentially making a more modest memory system perform as though it were a more expensive memory system).  In this project, we have developed new data compression techniques that overcome key stumbling blocks throughout the memory hierarchy (including the processor caches, main memory, and the memory system interconnects).\n\nOur first major outcome was the development of a set of new size-aware replacement policies for compressed on-chip caches (which we call CAMP: Compression-Aware Management Policies).  CAMP improves system performance and energy efficiency compared to three state-of-the-art cache replacement mechanisms. Our policies are based on two key observations. First, we show that direct incorporation of the compressed cache block size into replacement decisions can be a basis for a more efficient replacement policy. Second, we find that the compressed block size can be used as an indicator of a block?s future reuse in some applications. Our extensive evaluations show that CAMP, applied to modern last-level-caches (LLC), improves performance by 4.9%/9.0%/10.2% (on average for memory-intensive workloads) for single-core/two-/four-core workloads over the best state-of-the-art replacement mechanisms we evaluated.\n\nOur second major outcome was the development of a new, flexible framework (called CABA: Core-Assisted Bottleneck Acceleration) for accelerating GPUs by generating special \"assist warps\" that can execute code to speed up the performance of the main GPU computation.  We illustrated this framework by using it specifically to enable a flexible form of data compression for GPU memory hierarchies (where cache blocks are compressed before they are written out to memory and decompressed before they are placed in the cache).  CABA-based compression/decompression provides several benefits over a purely hardware-based implementation of data compression for GPU memory hierarchies. First, CABA primarily employs hardware that is already available on-chip but is otherwise underutilized. Second, different applications tend to have distinct data patterns that are more efficiently compressed with different compression algorithms, and CABA supports this flexibility in compression algorithm choice.  Third, for GPU applications that do not benefit from compression, CABA can easily disable compression, thereby avoiding performance and energy overheads (compared with hardware compression).  Our evaluations across a wide variety of applications show that on average, CABA-based compression reduces memory bandwidth by 2.1X, improves performance by 41.7%, and reduces overall system energy by 22.2%.\n\nOur third major outcome focused on the energy-efficiency of communication when compression is applied. While compression reduces the amount of transferred data, it leads to a substantial increase in the number of bit toggles (i.e., when communication channels switch from 0 to 1 or from 1 to 0). This increased toggle count increases the dynamic energy consumed by on-chip and off-chip memory buses due to more frequent charging and discharging of the wires. (Our results show that the total bit toggle count can increase from 20% to 2.2&times; when compression is applied for some compression algorithms, averaged across different application suites.) We characterize and demonstrate this new problem across 242 GPU applications and six different compression algorithms. To mitigate the problem, we proposed and evaluated two new toggle-aware compression techniques: Energy Control and Metadata Consolidation. Energy Control decides whether to send data in compressed or uncompressed form based upon a model that accounts for the compression ratio, the increase in bit toggles, and current bandwidth utilization.  Metadata Consolidation reduces the negative effects of scattering the metadata across a compressed cache line by consolidating compression-related metadata in a contiguous fashion.  These techniques greatly reduce the bit toggle count impact of the data compression algorithms we examine, while keeping most of their bandwidth reduction benefits.\n\n\n\n\t\t\t\t\tLast Modified: 03/28/2018\n\n\t\t\t\t\tSubmitted by: Todd Mowry"
+ }
+}

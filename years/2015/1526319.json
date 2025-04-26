@@ -1,0 +1,105 @@
+{
+ "awd_id": "1526319",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Confidentiality Measurement of Complex Computations using Quantitative Information Flow",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 495695.0,
+ "awd_amount": 495695.0,
+ "awd_min_amd_letter_date": "2015-08-11",
+ "awd_max_amd_letter_date": "2015-08-11",
+ "awd_abstract_narration": "Concern about information privacy is a major obstacle to user adoption of new information technology applications, from smart phone applications to the deployment of automated workflows in the largest health-care and government enterprises. This project addresses privacy concerns caused by software through errors and malicious attacks.   A major security concern about software revolves around whether computers reveal information that they should not. Much of the information we entrust to computers might be described as secret, private, or confidential, because we want to limit who has access to it. However many things can go wrong in computer systems to allow information to be revealed when it should not. In this project the focus is on the information that is present in the results of a computation. A computation might take information from several sources and combine it in a complex way to produce output. These outputs are usually not in a format that can easily be read directly by people, thus the output from a computation may be undesirably \"leaking\" information without our knowledge. The project tackles this problem using techniques called quantitative information flow analysis, which allow one computer program to automatically determine how much information another computer program is revealing. For instance, such an analysis system might report that one program always reveals 4 bits of secret information, while another program revealed 1000 bits of secret information in its most recent execution. By comparing these measurements to the expected behavior of a program, one can detect situations that might be causing a program to reveal information that it should not. Previous quantitative information flow analysis systems have demonstrated that the basic approach is sound, but they have been limited in the kinds and sizes of programs where they are effective, and they require guidance from software developers to obtain good results. This project will develop new techniques that eliminate these restrictions to make quantitative information flow analysis more widely applicable.  \r\n\r\nThe quantitative information-flow techniques, which measure the number of bits of information about secret computation inputs that are revealed by computation outputs, give a measurement that can be evaluated separately without reference to the intended meaning of the computation results and without additional annotation or specification of the subject program.  By combining a quantitative analysis with techniques from taint analysis and symbolic execution, the tools can track in a precise way where secret information flows, and the connection between input values and output values. Quantitative information-flow measurement has not yet seen practical adoption because existing approaches have too high overhead, do not naturally support multiple kinds of secret data, are limited in the software to which they apply, and/or require occasional developer annotations. The project seeks to overcome the limitations of previous approaches by generalizing the underlying techniques and improving their precision, while at the same time improving their performance and applicability via staged optimizations and complete automation.  The research will demonstrate the approach by application to a number of realistic challenge problems in computer security and privacy.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Stephen",
+   "pi_last_name": "McCamant",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Stephen McCamant",
+   "pi_email_addr": "mccamant@cs.umn.edu",
+   "nsf_id": "000630498",
+   "pi_start_date": "2015-08-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Minnesota-Twin Cities",
+  "inst_street_address": "2221 UNIVERSITY AVE SE STE 100",
+  "inst_street_address_2": "",
+  "inst_city_name": "MINNEAPOLIS",
+  "inst_state_code": "MN",
+  "inst_state_name": "Minnesota",
+  "inst_phone_num": "6126245599",
+  "inst_zip_code": "554143074",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MN05",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF MINNESOTA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "KABJZBBJ4B54"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Minnesota-Twin Cities",
+  "perf_str_addr": "200 Union St. SE",
+  "perf_city_name": "Minneapolis",
+  "perf_st_code": "MN",
+  "perf_st_name": "Minnesota",
+  "perf_zip_code": "554550167",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MN05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 495695.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>At a high level, much of what computer programs do consists of<br />storing, copying, and transforming information. Though information can<br />take many forms, we can define it abstractly as that which allows us<br />to distinguish between different possible situations, i.e. to answer<br />questions. We can also measure information: one \"bit\" of information<br />is the quantity of information that will allow one to answer one<br />yes-no question, if the yes and no answers are equally likely.<br /><br />A major security concern about software revolves around whether<br />computers reveal information that they should not. Much of the<br />information we use with computers might be described as \"secret\",<br />\"private\", or \"confidential\", because we want to limit who has access<br />to it. However many things can go wrong in computer systems to allow<br />information to be revealed when it should not.<br /><br />In this project we have focused in particular on the information that<br />is present in the results of a computation. A computation might take<br />information from several sources and combine it in a complex way to<br />produce output. These outputs are also often not in a format that can<br />easily be read directly by people, so it is far from obvious what<br />information they contain. Thus the output from a computation may be<br />undesirably \"leaking\" information without our knowledge.<br /><br />In this project we have tackled this problem using techniques called<br />quantitative information flow analysis, which allow one computer<br />program to automatically determine how much information another<br />computer program is revealing. For instance such an analysis system<br />might report that one program always reveals 4 bits of secret<br />information, while another program revealed 1000 bits of secret<br />information in its most recent execution. By comparing these<br />measurements to the expected behavior of a program, we can find<br />situations, for instance program bugs, which might be causing a<br />program to reveal information that it should not.<br /><br />In this project we have developed new algorithms for quantitative<br />information flow analysis, including ones based on logical formula<br />representations of program behaviors. The information flow problem is<br />related to counting the number of solutions of these formulas, but<br />enumerating solutions one by one would be too slow even for a<br />computer. Instead our algorithms construct queries (mathematical<br />questions) whose answers reveal partial information about the solution<br />count, and the results of those queries guide the selection of the<br />next query. Some of the basic principles of this approach are<br />illustrated in an accompanying figure. The green curve that looks like<br />a lopsided bell curve represents the uncertainty about the information<br />flow as a probability distribution. The probability distribution is<br />represented in the computer by a set of points called a particle<br />filter (blue circles) that are sampled from the distribution, so that<br />there are more points closer to the correct answer. The algorithm uses<br />this representation to select a new query. The query has a fixed set<br />of outcomes, analogous to the measuring marks on a ruler.<br /><br />Quantitative information flow analysis systems potentially allow both<br />software developers and software users to better understand whether<br />programs satisfy the information security properties that they desire:<br />users can refrain from using insecure software until developers fix<br />it. This project has supported the professional development of<br />graduate students who have disseminated our research results at<br />international conferences, and the major tools we have developed are<br />publicly available under open-source licenses.<br /><br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/18/2020<br>\n\t\t\t\t\tModified by: Stephen&nbsp;Mccamant</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2020/1526319/1526319_10386251_1589831475115_distrib-round5.svg--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1526319/1526319_10386251_1589831475115_distrib-round5.svg--rgov-800width.jpg\" title=\"Graph illustrating information-flow analysis\"><img src=\"/por/images/Reports/POR/2020/1526319/1526319_10386251_1589831475115_distrib-round5.svg--rgov-66x44.jpg\" alt=\"Graph illustrating information-flow analysis\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">One approach to information flow analysis works by refining an incomplete estimate with multiple queries.</div>\n<div class=\"imageCredit\">Seonmo Kim and Stephen McCamant</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Stephen&nbsp;Mccamant</div>\n<div class=\"imageTitle\">Graph illustrating information-flow analysis</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nAt a high level, much of what computer programs do consists of\nstoring, copying, and transforming information. Though information can\ntake many forms, we can define it abstractly as that which allows us\nto distinguish between different possible situations, i.e. to answer\nquestions. We can also measure information: one \"bit\" of information\nis the quantity of information that will allow one to answer one\nyes-no question, if the yes and no answers are equally likely.\n\nA major security concern about software revolves around whether\ncomputers reveal information that they should not. Much of the\ninformation we use with computers might be described as \"secret\",\n\"private\", or \"confidential\", because we want to limit who has access\nto it. However many things can go wrong in computer systems to allow\ninformation to be revealed when it should not.\n\nIn this project we have focused in particular on the information that\nis present in the results of a computation. A computation might take\ninformation from several sources and combine it in a complex way to\nproduce output. These outputs are also often not in a format that can\neasily be read directly by people, so it is far from obvious what\ninformation they contain. Thus the output from a computation may be\nundesirably \"leaking\" information without our knowledge.\n\nIn this project we have tackled this problem using techniques called\nquantitative information flow analysis, which allow one computer\nprogram to automatically determine how much information another\ncomputer program is revealing. For instance such an analysis system\nmight report that one program always reveals 4 bits of secret\ninformation, while another program revealed 1000 bits of secret\ninformation in its most recent execution. By comparing these\nmeasurements to the expected behavior of a program, we can find\nsituations, for instance program bugs, which might be causing a\nprogram to reveal information that it should not.\n\nIn this project we have developed new algorithms for quantitative\ninformation flow analysis, including ones based on logical formula\nrepresentations of program behaviors. The information flow problem is\nrelated to counting the number of solutions of these formulas, but\nenumerating solutions one by one would be too slow even for a\ncomputer. Instead our algorithms construct queries (mathematical\nquestions) whose answers reveal partial information about the solution\ncount, and the results of those queries guide the selection of the\nnext query. Some of the basic principles of this approach are\nillustrated in an accompanying figure. The green curve that looks like\na lopsided bell curve represents the uncertainty about the information\nflow as a probability distribution. The probability distribution is\nrepresented in the computer by a set of points called a particle\nfilter (blue circles) that are sampled from the distribution, so that\nthere are more points closer to the correct answer. The algorithm uses\nthis representation to select a new query. The query has a fixed set\nof outcomes, analogous to the measuring marks on a ruler.\n\nQuantitative information flow analysis systems potentially allow both\nsoftware developers and software users to better understand whether\nprograms satisfy the information security properties that they desire:\nusers can refrain from using insecure software until developers fix\nit. This project has supported the professional development of\ngraduate students who have disseminated our research results at\ninternational conferences, and the major tools we have developed are\npublicly available under open-source licenses.\n\n\n\n\n\t\t\t\t\tLast Modified: 05/18/2020\n\n\t\t\t\t\tSubmitted by: Stephen Mccamant"
+ }
+}

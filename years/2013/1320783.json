@@ -1,0 +1,105 @@
+{
+ "awd_id": "1320783",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: BugX: In-house Debugging of Field Failures to Improve Software Quality",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 434999.0,
+ "awd_amount": 434999.0,
+ "awd_min_amd_letter_date": "2013-06-26",
+ "awd_max_amd_letter_date": "2013-06-26",
+ "awd_abstract_narration": "A recent survey conducted among developers of the Apache, Eclipse, and\r\nMozilla projects showed that the ability to recreate field\r\nfailures--failures of the software that occur after deployment, on\r\nuser machines--is considered of fundamental importance when\r\ninvestigating bug reports. Unfortunately, the information typically\r\ncontained in a bug report, such as memory dumps or call stacks, is\r\nusually insufficient for recreating the problem. Even more advanced\r\napproaches for gathering field data and help in-house debugging tend\r\nto provide too little information to developers and to be therefore\r\nineffective.\r\n\r\nThe overall goal of this project is to improve the state of the art by\r\nallowing, supporting, and partially automating, actual in-house\r\ndebugging of field failures. Specifically, this research will develop\r\nnovel techniques and tools that let developers reproduce, analyze, and\r\nunderstand, in-house, failures observed in the field. Given a field\r\nfailure, the developed techniques will (1) collect a suitable set of\r\ndata about the failure on the user machine, (2) generate one or more\r\ninputs that can be executed against the failing application and result\r\nin a failure analogous to the one observed, and (3) provide hints on\r\nthe root causes of the failure and possible fixes for these causes. To\r\nachieve this goal, the research will combine static and dynamic\r\nprogram analysis techniques and leverage and extend techniques for\r\ntesting deployed software, input generation and anonymization, and\r\nsoftware debugging. If successful, this research will provide\r\nunprecedented advantages to developers by allowing them to debug field\r\nfailures in the same way in which they debug in-house ones, which will\r\nimprove software quality and benefit all segments of society that\r\ndepend on software. Furthermore, the project will develop and make\r\navailable to the broader scientific community educational materials\r\nthat incorporate research findings, tools that implement the\r\ntechniques developed within the project, and samples of the software\r\nbenchmarks used in empirical evaluations. The availability of\r\ncurriculum materials, tools, infrastructure, and benchmarks will\r\nadvance knowledge, enable additional research in the area, and\r\nultimately further benefit society.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alessandro",
+   "pi_last_name": "Orso",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alessandro Orso",
+   "pi_email_addr": "orso@cc.gatech.edu",
+   "nsf_id": "000489660",
+   "pi_start_date": "2013-06-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Ave NW",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794400",
+   "pgm_ele_name": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 434999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Software debugging is a human-intensive activity responsible for much of the cost of software development and maintenance. Existing approaches for automated debugging can help lower this cost but have limitations that hinder their effectiveness and applicability. This project aimed to overcome these limitations by developing a family of debugging techniques that (1) target realistic debugging scenarios, in which faults can involve multiple statements and manifest themselves only in specific contexts, (2) apply advanced static and dynamic analysis techniques to automatically reduce the amount of both statements and inputs that developers must examine when investigating a failure, (3) leverage information collected from the field to increase the relevance and effectiveness of the debugging process. To accomplish the goal of the project, we developed several new testing and debugging techniques, which are summarized in the rest of this report.</p>\n<p><strong>Techniques for reproducing, debugging, and repairing software failures that occur on user machines, after the software has been deployed</strong>. A survey conducted among developers of the Apache, Eclipse, and Mozilla projects revealed that most developers consider information on how to reproduce failures to be the most valuable and difficult to obtain piece of information in a bug report. To address this problem, we first developed techniques that, given an observed field failure, can provide developers with test inputs that result in a failure analogous to the failure that the user experienced. We then extended these techniques by adding to them support for automated debugging and bug understanding, so as to further help developers identify the root causes of field failures. Finally, we went beyond locating and understanding failure causes by developing automated repair techniques that can provide developers with hints on how a given bug may be repaired.</p>\n<p><strong>Techniques for helping developers debug more efficiently and effectively</strong>. Countless approaches have been proposed over the years to help developers decrease the cost and complexity of software debugging. Although some of these techniques have been shown to be useful, they tend to make strong, often unrealistic assumptions on how developers behave when debugging. In the context of this project, we addressed this issue by first studying the limitations of existing approaches and then developing techniques that follow the way in which debugging is typically performed, while automating significant parts of it. In particular, given a failure, our techniques use static and dynamic analyses to (1) formulate hypotheses on the possible causes of such failure and (2) generate intuitive queries for the developers based on these hypotheses. The answers to these queries can then help refuse or refine these hypotheses until the cause of the failure being investigated is found.</p>\n<p><strong>Techniques for supporting testing and debugging of mobile apps</strong>. In addition to developing techniques that can improve software debugging in general, in this project we also defined techniques that specifically target testing and debugging of mobile (Android) apps. Specifically, we developed techniques that allows for recording, encoding, and running platform independent test cases, so as to facilitate regression testing and debugging. We also developed techniques based on differential analysis that can automatically identify inconsistencies in the way an app behaves on different devices and report to developers these inconsistencies and their causes.</p>\n<p><strong>Broader impact of this research:</strong> In addition to disseminating the results of this research through publications, public presentations, and integration into the curriculum, we made freely available to researchers and practitioners tools, data, and experiment infrastructure developed within the project, which will help further dissemination and enable future research. More generally, by advancing the state of the art in the areas of software testing and debugging, this research helped and will help developers build more reliable software systems, ultimately increasing the overall quality of our software infrastructure and providing benefits to all segments of society that depend on software.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/10/2018<br>\n\t\t\t\t\tModified by: Alessandro&nbsp;Orso</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSoftware debugging is a human-intensive activity responsible for much of the cost of software development and maintenance. Existing approaches for automated debugging can help lower this cost but have limitations that hinder their effectiveness and applicability. This project aimed to overcome these limitations by developing a family of debugging techniques that (1) target realistic debugging scenarios, in which faults can involve multiple statements and manifest themselves only in specific contexts, (2) apply advanced static and dynamic analysis techniques to automatically reduce the amount of both statements and inputs that developers must examine when investigating a failure, (3) leverage information collected from the field to increase the relevance and effectiveness of the debugging process. To accomplish the goal of the project, we developed several new testing and debugging techniques, which are summarized in the rest of this report.\n\nTechniques for reproducing, debugging, and repairing software failures that occur on user machines, after the software has been deployed. A survey conducted among developers of the Apache, Eclipse, and Mozilla projects revealed that most developers consider information on how to reproduce failures to be the most valuable and difficult to obtain piece of information in a bug report. To address this problem, we first developed techniques that, given an observed field failure, can provide developers with test inputs that result in a failure analogous to the failure that the user experienced. We then extended these techniques by adding to them support for automated debugging and bug understanding, so as to further help developers identify the root causes of field failures. Finally, we went beyond locating and understanding failure causes by developing automated repair techniques that can provide developers with hints on how a given bug may be repaired.\n\nTechniques for helping developers debug more efficiently and effectively. Countless approaches have been proposed over the years to help developers decrease the cost and complexity of software debugging. Although some of these techniques have been shown to be useful, they tend to make strong, often unrealistic assumptions on how developers behave when debugging. In the context of this project, we addressed this issue by first studying the limitations of existing approaches and then developing techniques that follow the way in which debugging is typically performed, while automating significant parts of it. In particular, given a failure, our techniques use static and dynamic analyses to (1) formulate hypotheses on the possible causes of such failure and (2) generate intuitive queries for the developers based on these hypotheses. The answers to these queries can then help refuse or refine these hypotheses until the cause of the failure being investigated is found.\n\nTechniques for supporting testing and debugging of mobile apps. In addition to developing techniques that can improve software debugging in general, in this project we also defined techniques that specifically target testing and debugging of mobile (Android) apps. Specifically, we developed techniques that allows for recording, encoding, and running platform independent test cases, so as to facilitate regression testing and debugging. We also developed techniques based on differential analysis that can automatically identify inconsistencies in the way an app behaves on different devices and report to developers these inconsistencies and their causes.\n\nBroader impact of this research: In addition to disseminating the results of this research through publications, public presentations, and integration into the curriculum, we made freely available to researchers and practitioners tools, data, and experiment infrastructure developed within the project, which will help further dissemination and enable future research. More generally, by advancing the state of the art in the areas of software testing and debugging, this research helped and will help developers build more reliable software systems, ultimately increasing the overall quality of our software infrastructure and providing benefits to all segments of society that depend on software.\n\n \n\n\t\t\t\t\tLast Modified: 05/10/2018\n\n\t\t\t\t\tSubmitted by: Alessandro Orso"
+ }
+}

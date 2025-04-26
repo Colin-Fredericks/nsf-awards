@@ -1,0 +1,101 @@
+{
+ "awd_id": "1204783",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "PostDoctoral Research Fellowship",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Victor Roytburd",
+ "awd_eff_date": "2012-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 150000.0,
+ "awd_amount": 150000.0,
+ "awd_min_amd_letter_date": "2012-04-20",
+ "awd_max_amd_letter_date": "2012-04-20",
+ "awd_abstract_narration": "This award is made as part of the FY 2012 Mathematical Sciences Postdoctoral Research Fellowships Program. These fellowships support a research and training plan at a host institution in the mathematical sciences, including applications to other disciplines. The title of the research and training plan for this fellowship to Matthew Williams is \"New directions in reduced order modeling: nonlinear manifold learning, black-box or particle-based systems and symmetries.\" The host institution for the fellowship is Princeton University, and the sponsoring scientist is Dr. Ioannis G. Kevrekidis.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Matthew",
+   "pi_last_name": "Williams",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Matthew Williams",
+   "pi_email_addr": "",
+   "nsf_id": "000603311",
+   "pi_start_date": "2012-04-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Williams                Matthew",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "Seattle",
+  "inst_state_code": "WA",
+  "inst_state_name": "Washington",
+  "inst_phone_num": "",
+  "inst_zip_code": "981022004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "WA07",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": null,
+  "perf_city_name": "Princeton",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085441000",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "733500",
+   "pgm_ele_name": "WORKFORCE IN THE MATHEMAT SCI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9219",
+   "pgm_ref_txt": "POSTDOCTORAL FELLOWSHIPS IN MATH SCIENCE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 150000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><span>In recent years, more data than ever are available to mathematicians, scientists, and engineers, and as a result, a great deal of effort has been focused on creating computational routines to extract meaningful features from data. A common yet visual example of this is the development of methods for handwriting recognition, which attempt to automatically parse handwritten text into a searchable format. In that application, data-mining techniques are often used to identify a small set of features that best differentiate the various numbers and letters, which are then fed to a clustering method that uses these features to identify specific symbols given a new and unobserved inputs. However, the performance of such codes is dependent upon the quality of the chosen features, and there are many options including principal component analysis or diffusion maps. </span></p>\n<p><span>A large portion of the work funded was focused on the development of data-mining techniques that are tailored for the types of data that appear in engineering applications. In those settings, the data we collect are dictated by some underlying set of governing equations, which determine how the data we have changes as time advances; in the case of fluids, this is often the Navier-Stokes equation. The overarching question is how to incorporate this additional piece of information into an algorithm. The approach taken here is rooted in data-driven Koopman spectral analysis, which uses the existence of a </span><span>linear but infinite dimensional operator </span><span>to efficiently represent data from a nonlinear dynamical system. </span></p>\n<p><span>The theory behind Koopman spectral analysis has a long history that reaches back to the early 20th century, but it is only recently that data-driven approximations have been pursued. One of the more popular methods is </span><span>Dynamic Mode Decomposition </span><span>(DMD), which was introduced in 2008 and connected to the Koopman operator in 2009. A key result of our work is showing that DMD explicitly produces approximations of the Koopman eigenvalues, eigenfunctions, and modes using a set of basis functions that are determined by the data supplied to it. Therefore, with a large enough set of data, DMD can be derived using the same mathematical techniques used to solve partial differential equations like Navier-Stokes. As a result of this realization, we also created a new computational that we refer to as Extended DMD that allows the user, rather than the data, to determine the basis functions used by DMD. These approaches are all directly applicable to small systems, but in many applications of interest, the data are too large for such approaches to be viable in practice. To overcome this difficulty, we demonstrated that ideas from machine learning can be used to allow Extended DMD to be applied to problems with high-dimensional state spaces. Ultimately, this has resulted in a new set of computational techniques for data-driven Koopman spectral analysis that have the potential to extract effective approximations of the Koopman eigenvalues, eigenfunctions, and modes from data rather than from equations. </span></p>\n<p><span>Equally important as obtaining these approximations are what you do with them, and another facet of this work focuses on applications of the output of (Extended) DMD. In particular, we explored two applications: data-fusion using Koopman eigenfunctions and coherent set identification using the singular value decomposition of the Koopman operator. Our data-fusion project attempts to solve a common problem, which is how to use easily obtained measurements to estimate the values of difficult to obtain ones, and is accomplished by using the Koopman eigenfunctions as a set of intrinsic variables that remain unchanged provided the underlying d...",
+  "por_txt_cntn": "\n\n\n\nIn recent years, more data than ever are available to mathematicians, scientists, and engineers, and as a result, a great deal of effort has been focused on creating computational routines to extract meaningful features from data. A common yet visual example of this is the development of methods for handwriting recognition, which attempt to automatically parse handwritten text into a searchable format. In that application, data-mining techniques are often used to identify a small set of features that best differentiate the various numbers and letters, which are then fed to a clustering method that uses these features to identify specific symbols given a new and unobserved inputs. However, the performance of such codes is dependent upon the quality of the chosen features, and there are many options including principal component analysis or diffusion maps. \n\nA large portion of the work funded was focused on the development of data-mining techniques that are tailored for the types of data that appear in engineering applications. In those settings, the data we collect are dictated by some underlying set of governing equations, which determine how the data we have changes as time advances; in the case of fluids, this is often the Navier-Stokes equation. The overarching question is how to incorporate this additional piece of information into an algorithm. The approach taken here is rooted in data-driven Koopman spectral analysis, which uses the existence of a linear but infinite dimensional operator to efficiently represent data from a nonlinear dynamical system. \n\nThe theory behind Koopman spectral analysis has a long history that reaches back to the early 20th century, but it is only recently that data-driven approximations have been pursued. One of the more popular methods is Dynamic Mode Decomposition (DMD), which was introduced in 2008 and connected to the Koopman operator in 2009. A key result of our work is showing that DMD explicitly produces approximations of the Koopman eigenvalues, eigenfunctions, and modes using a set of basis functions that are determined by the data supplied to it. Therefore, with a large enough set of data, DMD can be derived using the same mathematical techniques used to solve partial differential equations like Navier-Stokes. As a result of this realization, we also created a new computational that we refer to as Extended DMD that allows the user, rather than the data, to determine the basis functions used by DMD. These approaches are all directly applicable to small systems, but in many applications of interest, the data are too large for such approaches to be viable in practice. To overcome this difficulty, we demonstrated that ideas from machine learning can be used to allow Extended DMD to be applied to problems with high-dimensional state spaces. Ultimately, this has resulted in a new set of computational techniques for data-driven Koopman spectral analysis that have the potential to extract effective approximations of the Koopman eigenvalues, eigenfunctions, and modes from data rather than from equations. \n\nEqually important as obtaining these approximations are what you do with them, and another facet of this work focuses on applications of the output of (Extended) DMD. In particular, we explored two applications: data-fusion using Koopman eigenfunctions and coherent set identification using the singular value decomposition of the Koopman operator. Our data-fusion project attempts to solve a common problem, which is how to use easily obtained measurements to estimate the values of difficult to obtain ones, and is accomplished by using the Koopman eigenfunctions as a set of intrinsic variables that remain unchanged provided the underlying dynamics do not change. The second application we explored is coherent set identification, which segments the data into clusters that \"do not mix\" as time advances; in effect, this is the dynamically inspired version of the clustering problem alluded to e..."
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1464310",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII:AF: Scaling up Dynamic Programming for Certain Optimization Problems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tracy Kimbrel",
+ "awd_eff_date": "2015-02-01",
+ "awd_exp_date": "2019-01-31",
+ "tot_intn_awd_amt": 174937.0,
+ "awd_amount": 174937.0,
+ "awd_min_amd_letter_date": "2015-01-23",
+ "awd_max_amd_letter_date": "2015-01-23",
+ "awd_abstract_narration": "Dynamic programming is one of the most fundamental and systematic techniques for algorithm design and analysis. Pioneered by Richard Bellman in 1940s for applications in engineering control theory, this method has since been extremely popular in a huge variety of optimization problems in computer science, applied mathematics, engineering, biology and economics. However, dynamic programming algorithms typically have high polynomial time complexity--quadratic, cubic or even more--and high space requirements as well. This significantly limits the practicality of this method. Any advancement in the scalability of a generic tool like dynamic programming is likely to have a huge impact across different fields.\r\n\r\nThere has been a significant effort in accelerating dynamic programming over the last several decades; however, the speedup gains have mostly been limited to only a poly-logarithmic factor improvement at best (e.g., the Four Russians Method). This limitation is primarily due to the focus on developing exact optimal algorithms. On the other hand, there are many applications where one may relax the need for optimality, and instead settle for an approximate solution. Allowing even a small suboptimality may lead to a huge benefit in time and space requirements.\r\n\r\nThe principal motivation for this project is to introduce new techniques to develop highly scalable dynamic programming methodology as a generic toolkit for designing scalable algorithms. Understanding the tradeoff between approximability and time complexity remains a major goal. To achieve this goal, a new suite of mathematical tools will be required since existing methods mostly give only a poly-logarithmic improvement in time complexity, or can handle only the case when data satisfies additional local properties. Randomization will play a crucial role in this project. Various randomized sketching methods and compression techniques will be considered, incorporating fresh tools from information theory, graph theory, and the probabilistic method. While the major focus is on improving running time, the approaches developed under this project will have a direct effect in reducing space usage as well. Finally, a class of basic problems in scheduling and pattern recognition over sequences will be studied, which are not only of theoretical interest, but also have wide application in large scale data management, bioinformatics, and sustainable computing.\r\n\r\nThe proposed work will significantly improve the state of the art in the design of scalable algorithms for major optimization problems arising in Big Data domains. The algorithms will be implemented and tested on a variety of publicly available data sets in bioinformatics, industrial cloud cluster usage data, dynamic network routing data, etc. The close connection of the PI with industry will result in collaborations with practitioners and possible adaptations of the developed methodologies when possible. The PI has experience in mentoring minority students and is committed to involvement of under-represented minorities, at both graduate and undergraduate levels, in cutting edge research.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Barna",
+   "pi_last_name": "Saha",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Barna Saha",
+   "pi_email_addr": "barnas@ucsd.edu",
+   "nsf_id": "000677725",
+   "pi_start_date": "2015-01-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Massachusetts Amherst",
+  "inst_street_address": "101 COMMONWEALTH AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "AMHERST",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "4135450698",
+  "inst_zip_code": "010039252",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "MA02",
+  "org_lgl_bus_name": "UNIVERSITY OF MASSACHUSETTS",
+  "org_prnt_uei_num": "VGJHK59NMPK9",
+  "org_uei_num": "VGJHK59NMPK9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Massachusetts Amherst",
+  "perf_str_addr": "140 Governors Drive",
+  "perf_city_name": "Amherst",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "010039264",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "MA02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  },
+  {
+   "pgm_ref_code": "8552",
+   "pgm_ref_txt": "CRII"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 174937.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project enhanced our understanding on several fundamental problems of interest that can be solved in polynomial time via dynamic programming. However, the underlying dynamic programmings often have high space and time complexity. One of the major goals of this project was to develop new techniques and ideas that can be used to speed-up these dynamic programming computations.</p>\n<p>The project proposed several such new techniques. Often a dynamic programming can be viewed as computing transitive closure where matrix multiplication is carried over a specific algebraic structure. The project proposed a randomized rounding method that can speed-up such transitive closure computations, resulting in new fast approximation algorithms to approximate all-pairs shortest path, the language edit distance computation, the stochastic grammar parsing etc. A key observation that helped to produce such algorithms is the Lipschitz property of these problems. This property was later exploited by this project to give the first sub-cubic exact algorithms for the languaage edit distance problem and RNA folding. The improvements came after nearly four decades. The project further proposed an ``amnesic dynamic programming'' framework that can not only reduce the navie dynamic programming running time by a factor of \"n\", where n is the input size, but often leads to sublinear space complexity. It is expected that the proposed amnesic dynamic programming framework will find many more applications.&nbsp;</p>\n<p>Finally, several applied works came out of this project resulting in implementable algorithms that have been tested on real-world datasets. These works include applications of some of the problems considered in this project in data quality management and crowdsourced data integration.</p>\n<p>&nbsp;</p>\n<p>Some representative publications:</p>\n<ul>\n<li>Fast Space-Efficient Approximations of Language Edit Distance and RNA-Folding: An Amnesic Dynamic Programming Approach Barna Saha,&nbsp;<span>FOCS 2017</span>.</li>\n<li><span><a href=\"http://barnasaha.net/\">Truly Sub-cubic Algorithms for&nbsp;Language Edit Distance and RNA Folding&nbsp;via Fast Bounded-Difference Min-Plus Product</a></span>, Karl Bringmann, Fabrizio Grandoni, Barna Saha and Virginia Williams,&nbsp;<span>FOCS&nbsp;2016</span>.&nbsp;<span><span>Invited to special issue for selected best papers. Highlights of Algorithms 2017.</span></span></li>\n<li><span><a href=\"http://arxiv.org/abs/1411.7315\">Language Edit Distance &amp; Maximum Likelihood Parsing of Stochastic Grammars: Faster Algorithms &amp; Connection to Fundamental Graph Problems</a></span><span>,&nbsp;</span>Barna Saha,<span>&nbsp;</span><span>FOCS&nbsp;2015</span>.</li>\n<li><span>Online Entity Resolution with an Oracle<span>, Donatella Firmani, Barna Saha, Divesh Srivastava,&nbsp;</span>VLDB 2016<span>.</span></span></li>\n<li><span><span><span>TreeScope: Finding Structural Anomalies In Semi-Structured Data<span>, Shanshan Ying, Flip Korn, Barna Saha and Divesh Srivastava,&nbsp;</span>VLDB 2015<span>.</span></span><br /></span></span></li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/05/2019<br>\n\t\t\t\t\tModified by: Barna&nbsp;Saha</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project enhanced our understanding on several fundamental problems of interest that can be solved in polynomial time via dynamic programming. However, the underlying dynamic programmings often have high space and time complexity. One of the major goals of this project was to develop new techniques and ideas that can be used to speed-up these dynamic programming computations.\n\nThe project proposed several such new techniques. Often a dynamic programming can be viewed as computing transitive closure where matrix multiplication is carried over a specific algebraic structure. The project proposed a randomized rounding method that can speed-up such transitive closure computations, resulting in new fast approximation algorithms to approximate all-pairs shortest path, the language edit distance computation, the stochastic grammar parsing etc. A key observation that helped to produce such algorithms is the Lipschitz property of these problems. This property was later exploited by this project to give the first sub-cubic exact algorithms for the languaage edit distance problem and RNA folding. The improvements came after nearly four decades. The project further proposed an ``amnesic dynamic programming'' framework that can not only reduce the navie dynamic programming running time by a factor of \"n\", where n is the input size, but often leads to sublinear space complexity. It is expected that the proposed amnesic dynamic programming framework will find many more applications. \n\nFinally, several applied works came out of this project resulting in implementable algorithms that have been tested on real-world datasets. These works include applications of some of the problems considered in this project in data quality management and crowdsourced data integration.\n\n \n\nSome representative publications:\n\nFast Space-Efficient Approximations of Language Edit Distance and RNA-Folding: An Amnesic Dynamic Programming Approach Barna Saha, FOCS 2017.\nTruly Sub-cubic Algorithms for Language Edit Distance and RNA Folding via Fast Bounded-Difference Min-Plus Product, Karl Bringmann, Fabrizio Grandoni, Barna Saha and Virginia Williams, FOCS 2016. Invited to special issue for selected best papers. Highlights of Algorithms 2017.\nLanguage Edit Distance &amp; Maximum Likelihood Parsing of Stochastic Grammars: Faster Algorithms &amp; Connection to Fundamental Graph Problems, Barna Saha, FOCS 2015.\nOnline Entity Resolution with an Oracle, Donatella Firmani, Barna Saha, Divesh Srivastava, VLDB 2016.\nTreeScope: Finding Structural Anomalies In Semi-Structured Data, Shanshan Ying, Flip Korn, Barna Saha and Divesh Srivastava, VLDB 2015.\n\n\n\n \n\n \n\n\t\t\t\t\tLast Modified: 05/05/2019\n\n\t\t\t\t\tSubmitted by: Barna Saha"
+ }
+}

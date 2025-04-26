@@ -1,0 +1,105 @@
+{
+ "awd_id": "2146726",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Evolution of Computer Vision for Low Power Devices, Breaking its Power Wall and Computational Complexity",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2021-07-01",
+ "awd_exp_date": "2022-09-30",
+ "tot_intn_awd_amt": 499792.0,
+ "awd_amount": 328084.0,
+ "awd_min_amd_letter_date": "2021-09-03",
+ "awd_max_amd_letter_date": "2021-09-03",
+ "awd_abstract_narration": "The accuracy of computer vision for object recognition and classification has surpassed human capabilities. Adoption of brain-inspired Convolutional Neural Network (CNN) models and the ability to train and execute these complex networks by modern graphical processing units (GPUs) are the backbone of this progress. However, in terms of computational requirement, memory usage, and power consumption, the CNN solutions are extremely demanding. Meanwhile, many interesting applications of computer vision - such as small robotics, a wide range of Cyber-Physical Systems, and many smart devices on the Internet of Things - are resource constrained. This project aims to substantially lower the computational complexity, the average-case classification power and the latency of CNN-based vision, enabling its deployment to a much wider range of platforms. From a societal viewpoint, this study enhances the research, education, and diversity at George Mason University (GMU) by involving graduate, undergraduate, minority and female students, and enriches several courses that are offered at GMU.\r\n\r\nThe goals of this research project are as follows: (1) Reformulating the CNN-based learning model into an Iterative Convolutional Neural Network (ICNN) learning model that allows early classification and permits early termination via various thresholding mechanisms and developing a framework to use the contextual knowledge that could be extracted from earlier iterations to guide and reduce the computation of future iterations. (2) Developing an approximate ICNN coprocessor that supports approximation in memory and logic by exploring new approximation opportunities created by ICNN, and enhancing the ICNN to adjust and learn the approximate hardware behavior in addition to its intended functionality.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Avesta",
+   "pi_last_name": "Sasan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Avesta Sasan",
+   "pi_email_addr": "asasan@ucdavis.edu",
+   "nsf_id": "000711431",
+   "pi_start_date": "2021-09-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Davis",
+  "inst_street_address": "1850 RESEARCH PARK DR STE 300",
+  "inst_street_address_2": "",
+  "inst_city_name": "DAVIS",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5307547700",
+  "inst_zip_code": "956186153",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "CA04",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, DAVIS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "TX2DAGQPENZ5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Davis",
+  "perf_str_addr": "1850 Research Park Dr.",
+  "perf_city_name": "Davis",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "956186134",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "CA04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  },
+  {
+   "pgm_ele_code": "735900",
+   "pgm_ele_name": "CCRI-CISE Cmnty Rsrch Infrstrc"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0117",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001718DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2017,
+   "fund_oblg_amt": 328083.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Intellectual Merit</strong></p>\n<p><span>The technical outcome of this project includes 1) Developing the concept of iterative convolutional neural network (ICNN) and investigating similar learning solutions capable of self-pruning their computational tree. 2) developing two hardware accelerator solutions for efficient processing of Convolutional Neural Networks (CNN) and Multi-Layer Perceptrons (MLP), 3) developing several lightweight learning models secure to adversarial examples. This project resulted in 11 publications, including nine conference publications (DATE18, ASP-DAC18, RECONFIG19, ISQED19, ISQED20, ISQED21, GLSVLSI21), 1 Journal publication (TECS19) and one book chapter (Hardware for Machine Learning).</span></p>\n<p>We implemented a new machine learning model, denoted as ICNN. The ICNN is constructed by cascading a sequence of small CNNs (uCNN). Each uCNN takes as input 1) the output of the previous uCNN and 2) a unique input sample. To provide each uCNN with a unique sample, we used an image transformation technique called discrete wavelet transformation (DWT). DWT transforms the image into different sub-bands, each containing unique frequency information. By construction, ICNN enables incremental learning, with each uCNN improving the model's accuracy and making it deeper. ICNN supports two early-termination means: a) threshold-based and b) deadline-driven. In threshold-based termination, suited for low-power solutions, the computation stops once the model reaches the required classification confidence. The deadline-driven early termination supports real-time systems, allowing the model to execute as many uCNNs as possible before the deadline.&nbsp;</p>\n<p>We also developed a \"conditional classification\" technique for dynamically pruning a model's computational tree for energy efficiency. It breaks the classification into two steps: 1) coarse-grain classification into a set of hyper-classes, and 2) fine-grain classification to predict final labels. We illustrated that this model could prune a significant portion of its computational tree with negligible accuracy drop.</p>\n<p>We developed two hardware accelerator solutions (NESTA and TCD-NPE) to execute machine learning models efficiently. NESTA specializes in processing 3x3 convolutions (while supporting larger convolutions). The choice of 3x3 convolution was made as this convolution-type accounts for most operations in modern CNN models for computer vision. On the other hand, the Temporal Carry-Deferring Neural Processing Engine (TCD-NPE) specializes in processing Multi-Layer-Perceptrons (MLP). TCD-NPE uses a MAC that is very efficient at stream processing. It was constructed based on a new concept to differ the propagation of carry-bits instead of their spatial propagation in time, allowing the carry propagation and intake of new inputs to be done in parallel.&nbsp;</p>\n<p>We developed three lightweight learning solutions secure against adversarial perturbation: code-bridged classifiers, gravity-protected classifiers, and diverse knowledge distillation classifiers.&nbsp;</p>\n<p>A commonly used solution to protect against adversarial examples is using an Autoendoder (AE) to filter an input image before classification. The Code-Bridged Classifier (CBC) implements the AE concept but removes the AE's decoder from the inference path. The AE's off-branch decoder is used for tuning the encoder at training time. The classifier takes the decoder's code (output) as input. Considering that the code is a compressed set of essential features, the classifier model's low-level feature extraction layers are no longer needed, allowing us to remove the first few Conv layers in the classifier model.&nbsp;</p>\n<p>We also developed the \"gravity and levity\" training technique to form feature clusters with well-defined boundaries. This technique uses a new loss function, in which we included a gravity force allowing features related to the same class to be mapped closer to one another and a levity (repellent) force to separate elements belonging to different groups. Fooling the model with smooth classification boundaries and well-separated feature sets requires larger adversarial noise.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Broader Impact:</strong></p>\n<p><span>The broader impact of this project includes 1) workforce training, including the training of 4 Ph.D. and 2 M.Sc. students in machine learning and hardware accelerator design. 2) Broadening participation of minorities and women in STEM. 3) Improving education at the hosting institution(s) and integrating the research into teaching, and 4) enabling broader adoption of learning solutions in fields beyond science and technology</span></p>\n<p>This project supported training 4 Ph.D. and 2 M.Sc. students. Five out of six graduate students trained in this project were female. Two Ph.D. and two M.Sc. students graduated. The female Ph.D. and two M.Sc. students joined the industry, and the male Ph.D. student joined academia. Two other female students joined this project later and are trained in machine learning concepts.&nbsp;</p>\n<p>PI integrated his research into teaching and included the study of hardware accelerators and similar neural processing solutions in his Advanced Computer-Architecture course, training many graduate students on related concepts.&nbsp;</p>\n<p>The availability of solutions developed in this project are enablers for AI applications in many other areas. The benefits of low-complexity, efficient, deadline-driven, and secure learning models coupled with efficient hardware acceleration can propagate to many different fields and extend the range of possible applications of AI in resource-constrained solutions. Design for efficiency reduces the carbon footprint of adopting ML-enabled solutions, making it a greener technology with lesser environmental impact.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/24/2022<br>\n\t\t\t\t\tModified by: Avesta&nbsp;Sasan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIntellectual Merit\n\nThe technical outcome of this project includes 1) Developing the concept of iterative convolutional neural network (ICNN) and investigating similar learning solutions capable of self-pruning their computational tree. 2) developing two hardware accelerator solutions for efficient processing of Convolutional Neural Networks (CNN) and Multi-Layer Perceptrons (MLP), 3) developing several lightweight learning models secure to adversarial examples. This project resulted in 11 publications, including nine conference publications (DATE18, ASP-DAC18, RECONFIG19, ISQED19, ISQED20, ISQED21, GLSVLSI21), 1 Journal publication (TECS19) and one book chapter (Hardware for Machine Learning).\n\nWe implemented a new machine learning model, denoted as ICNN. The ICNN is constructed by cascading a sequence of small CNNs (uCNN). Each uCNN takes as input 1) the output of the previous uCNN and 2) a unique input sample. To provide each uCNN with a unique sample, we used an image transformation technique called discrete wavelet transformation (DWT). DWT transforms the image into different sub-bands, each containing unique frequency information. By construction, ICNN enables incremental learning, with each uCNN improving the model's accuracy and making it deeper. ICNN supports two early-termination means: a) threshold-based and b) deadline-driven. In threshold-based termination, suited for low-power solutions, the computation stops once the model reaches the required classification confidence. The deadline-driven early termination supports real-time systems, allowing the model to execute as many uCNNs as possible before the deadline. \n\nWe also developed a \"conditional classification\" technique for dynamically pruning a model's computational tree for energy efficiency. It breaks the classification into two steps: 1) coarse-grain classification into a set of hyper-classes, and 2) fine-grain classification to predict final labels. We illustrated that this model could prune a significant portion of its computational tree with negligible accuracy drop.\n\nWe developed two hardware accelerator solutions (NESTA and TCD-NPE) to execute machine learning models efficiently. NESTA specializes in processing 3x3 convolutions (while supporting larger convolutions). The choice of 3x3 convolution was made as this convolution-type accounts for most operations in modern CNN models for computer vision. On the other hand, the Temporal Carry-Deferring Neural Processing Engine (TCD-NPE) specializes in processing Multi-Layer-Perceptrons (MLP). TCD-NPE uses a MAC that is very efficient at stream processing. It was constructed based on a new concept to differ the propagation of carry-bits instead of their spatial propagation in time, allowing the carry propagation and intake of new inputs to be done in parallel. \n\nWe developed three lightweight learning solutions secure against adversarial perturbation: code-bridged classifiers, gravity-protected classifiers, and diverse knowledge distillation classifiers. \n\nA commonly used solution to protect against adversarial examples is using an Autoendoder (AE) to filter an input image before classification. The Code-Bridged Classifier (CBC) implements the AE concept but removes the AE's decoder from the inference path. The AE's off-branch decoder is used for tuning the encoder at training time. The classifier takes the decoder's code (output) as input. Considering that the code is a compressed set of essential features, the classifier model's low-level feature extraction layers are no longer needed, allowing us to remove the first few Conv layers in the classifier model. \n\nWe also developed the \"gravity and levity\" training technique to form feature clusters with well-defined boundaries. This technique uses a new loss function, in which we included a gravity force allowing features related to the same class to be mapped closer to one another and a levity (repellent) force to separate elements belonging to different groups. Fooling the model with smooth classification boundaries and well-separated feature sets requires larger adversarial noise. \n\n \n\nBroader Impact:\n\nThe broader impact of this project includes 1) workforce training, including the training of 4 Ph.D. and 2 M.Sc. students in machine learning and hardware accelerator design. 2) Broadening participation of minorities and women in STEM. 3) Improving education at the hosting institution(s) and integrating the research into teaching, and 4) enabling broader adoption of learning solutions in fields beyond science and technology\n\nThis project supported training 4 Ph.D. and 2 M.Sc. students. Five out of six graduate students trained in this project were female. Two Ph.D. and two M.Sc. students graduated. The female Ph.D. and two M.Sc. students joined the industry, and the male Ph.D. student joined academia. Two other female students joined this project later and are trained in machine learning concepts. \n\nPI integrated his research into teaching and included the study of hardware accelerators and similar neural processing solutions in his Advanced Computer-Architecture course, training many graduate students on related concepts. \n\nThe availability of solutions developed in this project are enablers for AI applications in many other areas. The benefits of low-complexity, efficient, deadline-driven, and secure learning models coupled with efficient hardware acceleration can propagate to many different fields and extend the range of possible applications of AI in resource-constrained solutions. Design for efficiency reduces the carbon footprint of adopting ML-enabled solutions, making it a greener technology with lesser environmental impact.\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 10/24/2022\n\n\t\t\t\t\tSubmitted by: Avesta Sasan"
+ }
+}

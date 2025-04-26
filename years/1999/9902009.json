@@ -1,0 +1,114 @@
+{
+ "awd_id": "9902009",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Lumigraphs and Manifolds",
+ "cfda_num": "47.070",
+ "org_code": "05010200",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "William Randolph Franklin",
+ "awd_eff_date": "1999-08-15",
+ "awd_exp_date": "2001-04-30",
+ "tot_intn_awd_amt": 150363.0,
+ "awd_amount": 150363.0,
+ "awd_min_amd_letter_date": "1999-08-23",
+ "awd_max_amd_letter_date": "2000-09-11",
+ "awd_abstract_narration": "Introdurtion and Objectives.  Image-based rendering (IBR) is a relatively new computer graphics technique in which multiple images (either computer-generated or photographs) of a scene are modified and combined to produce an image representing a novel view of the scene.  The resulting images often have great detail but are sometimes incorrect, partly because of the lack of an underlying geometric model.  Traditional graphics, by contrast, uses geometric and lighting models to generate correct views of a scene from an arbitrary view-point; but because of modeling costs, they often lack detail.\r\nAn ideal geometric model would have both the complete geometry of the object plus a BRDF (bidirectional reflectance distribution function) at every point on the surface to describe how light interacts with the object, allowing computation of any view of the object under any lighting conditions.  A simple approximation to this ideal is a geometric model with a single color; texture maps improve this approximation by mapping an image onto the geometry.  This project is to devlop a new modeling paradigm, based on IBR, that extends this idea further by adding an approximation to the BRDF at every point on the surface.\r\nThis new modeling paradigm improves upon the efficiency of generating and storing image-based rendering models by combining them with geometric model information, thus bridging the gap between the two methods.  The intent is to construct geometric models which are visually complex and geometrically faithful, but avoid the overhead of geometrically modeled surface detail.\r\nJust as important as developing an underlying model is the ability to use real-world objects to create the models.  Many of today's complicated geometric models were captured, using a laser scan or a 3D digitizer, from physical objects.  One goal of this research is a similar mechanism for capturing and rendering objects or scenes with complex visual properties.\r\n\r\nMethods.  The two disciplines to be merged are image-based rendering and geometric modeling.  The project will use the lumigraph for IBR, partly because it already incorporates a limited geometric model, and will use a manifold-based models for the geometric component.  The lumigraph is a very general method for capturing the behavior of light as it leaves an object.  Manifold-based geometry supports construction of arbitrary-topology surfaces by blending small surface pieces.  The result of combining a lumigraph with a manifold is a geometric model that has information about how light rays are emitted from it.\r\nWith this structure, any local constancy in emitted light along the surface is easily recognized, leading to considerable data-compression advantages.  Thus, in addition to an interesting geometric model, this structure allows for efficient storage of IBR datasets.  This same local-constancy can be used as a guide to goodness-of-fit of the surface to the actual geometry of the object being modeled.  Each of these operations requires a homogeneous representation of the underlying geometry - one in which all of the points can be treated equally, rather than, for example, the division of the points into the vertices, edges, and faces of polyhedra, or the abutting patches of B-spline models.  The manifold structure provides exactly this homogeneity.\r\n\r\nImpact.  Many image-based rendering approaches use some knowledge of geometry, usually depth.  The addition of explicit geometry object has two potential benefits; a richer modeling type, in which global lumigraph-like data is attached to a geometric foundation, and a means for explicitly exploring the relationship between geometry and the compression of data gathered from images.\r\nThe resulting models will be useful in multiple applications, particularly those in which high image quality is essential, but where explicit modeling is impossible.  These include special-effects production and educational applications (e.g., on-line medical models), as well as possible applications in reverse engineering and architectural lighting simulation.\r\n\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Cindy",
+   "pi_last_name": "Grimm",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Cindy M Grimm",
+   "pi_email_addr": "grimmc@onid.orst.edu",
+   "nsf_id": "000464868",
+   "pi_start_date": "1999-08-23",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "John",
+   "pi_last_name": "Hughes",
+   "pi_mid_init": "F",
+   "pi_sufx_name": "",
+   "pi_full_name": "John F Hughes",
+   "pi_email_addr": "jfh@cs.brown.edu",
+   "nsf_id": "000100631",
+   "pi_start_date": "1999-08-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Brown University",
+  "inst_street_address": "1 PROSPECT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "PROVIDENCE",
+  "inst_state_code": "RI",
+  "inst_state_name": "Rhode Island",
+  "inst_phone_num": "4018632777",
+  "inst_zip_code": "029129100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "RI01",
+  "org_lgl_bus_name": "BROWN UNIVERSITY",
+  "org_prnt_uei_num": "E3FDXZ6TBHW3",
+  "org_uei_num": "E3FDXZ6TBHW3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Brown University",
+  "perf_str_addr": "1 PROSPECT ST",
+  "perf_city_name": "PROVIDENCE",
+  "perf_st_code": "RI",
+  "perf_st_name": "Rhode Island",
+  "perf_zip_code": "029129100",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "RI01",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "286500",
+   "pgm_ele_name": "NUMERIC, SYMBOLIC & GEO COMPUT"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0199",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0199",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1999,
+   "fund_oblg_amt": 107764.0
+  }
+ ],
+ "por": null
+}

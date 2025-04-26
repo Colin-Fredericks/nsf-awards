@@ -1,0 +1,108 @@
+{
+ "awd_id": "1337278",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: FP: DeCoP: Deterministic Cooperative Parallelism",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2013-09-15",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 750000.0,
+ "awd_amount": 750000.0,
+ "awd_min_amd_letter_date": "2013-09-06",
+ "awd_max_amd_letter_date": "2013-12-03",
+ "awd_abstract_narration": "Most modern computer systems have multiple computational cores that require parallel applications. Unfortunately, developing reliable and efficient parallel applications is notoriously difficult, in part due to nondeterministic scheduling, which can context-switch between parallel threads at any arbitrary program point. The resulting unpredictability and nondeterminism makes it extremely difficult to develop reliable parallel software.\r\n\r\nThis project proposes to investigate and develop a better model for parallel programming based on extending simple cooperative concurrency to deterministic cooperative parallelism. Cooperative concurrency is a simple non-preemptive model requires minimal synchronization, and under which even buggy or incorrect preemptive programs often execute correctly. This effectively reduces the design complexity. Cooperative concurrency is simple but it does not yield any speedup. This proposal leverages software transactional memory to extract parallelism.  The proposal addresses three tightly coupled problems: provide simpler parallel semantics, novel techniques to provide efficient parallel execution, and integrate with existing complementary techniques like automatic parallelization and thread level speculation.  Graduate and undergraduate researchers some from under-represented groups will be involved in the research.  Overall, the project aims to make a fundamental advanced toward simpler to program parallel applications, with impacts not only in the computer science community but also in other fields like mobile systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jose",
+   "pi_last_name": "Renau",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jose Renau",
+   "pi_email_addr": "renau@soe.ucsc.edu",
+   "nsf_id": "000313224",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Cormac",
+   "pi_last_name": "Flanagan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Cormac Flanagan",
+   "pi_email_addr": "cormac@ucsc.edu",
+   "nsf_id": "000492363",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Santa Cruz",
+  "inst_street_address": "1156 HIGH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "SANTA CRUZ",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8314595278",
+  "inst_zip_code": "950641077",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "CA19",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "VXUFPE4MCZH5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Santa Cruz",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "950641077",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "CA19",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 750000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The XPS: FP: DeCoP: Deterministic Cooperative Parallelism award has resulted in several key contributions to the state of the art in parallel programming and beyond. Over 12 publications in highly respected conferences acknowledge this grant. The grant has supported several PhD students. This support has been key for the graduation of 5 PhD students.</p>\n<p>Most of the publications have focused on the challenge of parallel programming. The publications cover work in compilers,analysis, tools, and frameworks to simplify programming of complicated parallel systems. Special attention was given to data races and hardware languages.</p>\n<p>Early work on the grant analyzed thread escape and data races. This is one of the main complications of working with parallel programs because different threads of the program interact in unexpected ways. The authors released compiler passes and analysis tools used by the community.</p>\n<p>Later work have focused on improving the also parallel hardware description languages. These are more domain specific languages but that they also exhibit similar data races. The published work has created frameworks to improve the productivity when working with these languages.</p>\n<p>The students involved in this grant needed to evaluate new ideas, as such new benchmarking infrastructure was created. This resulted in additional publications. In addition to the publications, the PIs had a long tradition releasing the developed tools as open source. As such, there are public repositories with the work created. Other projects and institutions are already using them.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/21/2019<br>\n\t\t\t\t\tModified by: Jose&nbsp;Renau</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe XPS: FP: DeCoP: Deterministic Cooperative Parallelism award has resulted in several key contributions to the state of the art in parallel programming and beyond. Over 12 publications in highly respected conferences acknowledge this grant. The grant has supported several PhD students. This support has been key for the graduation of 5 PhD students.\n\nMost of the publications have focused on the challenge of parallel programming. The publications cover work in compilers,analysis, tools, and frameworks to simplify programming of complicated parallel systems. Special attention was given to data races and hardware languages.\n\nEarly work on the grant analyzed thread escape and data races. This is one of the main complications of working with parallel programs because different threads of the program interact in unexpected ways. The authors released compiler passes and analysis tools used by the community.\n\nLater work have focused on improving the also parallel hardware description languages. These are more domain specific languages but that they also exhibit similar data races. The published work has created frameworks to improve the productivity when working with these languages.\n\nThe students involved in this grant needed to evaluate new ideas, as such new benchmarking infrastructure was created. This resulted in additional publications. In addition to the publications, the PIs had a long tradition releasing the developed tools as open source. As such, there are public repositories with the work created. Other projects and institutions are already using them.\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 02/21/2019\n\n\t\t\t\t\tSubmitted by: Jose Renau"
+ }
+}

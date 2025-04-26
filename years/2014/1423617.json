@@ -1,0 +1,105 @@
+{
+ "awd_id": "1423617",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: SEQUBE: A Sequent Calculus Foundation for High- Level and Intermediate Programming Languages",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2014-07-01",
+ "awd_exp_date": "2019-06-30",
+ "tot_intn_awd_amt": 499951.0,
+ "awd_amount": 499951.0,
+ "awd_min_amd_letter_date": "2014-06-13",
+ "awd_max_amd_letter_date": "2014-06-13",
+ "awd_abstract_narration": "Title: SHF:Small:SEQUBE:A Sequent Calculus Foundation for High-Level and Intermediate Programming Languages\r\n\r\nModern programming languages are complex. They provide sophisticated control mechanisms, offer a combination of different programming paradigms (e.g., functional or object-oriented), and allow the definition of infinite objects and processes (e.g., servers or operating systems).  To have assurance in our software, it is fundamentally important to have a simple and intuitive framework for reasoning about and experimenting with programs that use these features: both for programming language designers and implementors, as well as for programmers who need to prove safety properties of critical applications.\r\n\r\nTraditionally, the lambda-calculus has served as a foundation for writing and proving properties of programs. The intellectual merit of this research consists of developing an alternative model of programs based on the sequent calculus.  Instead of starting from a core language and layering features on top as needed, the new model naturally includes these features from the beginning. Like the lambda-calculus, the sequent-based model originates from logic, but is rooted in the concept of duality that provides two ways to approach problems, where one is often more familiar. Additionally, the sequent-based model provides a new way to organize intermediate languages used in compilers to aid program optimization and analysis.\r\n\r\nThe broader impact of the research consists of providing a vehicle for disseminating knowledge between different communities. Since the new model includes both the functional and object-oriented paradigms naturally as duals, it provides a logical interpretation of languages, such as Scala, that merge the two approaches. In addition, the research will explore ways to incorporate reasoning about infinite processes and computational effects in a proof assistant. Lastly, an emphasis on duality is beneficial for education; given two possible explanations, students can be introduced to the more familiar one first when introducing difficult ideas, while using existing knowledge and intuition to explore new concepts.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Zena",
+   "pi_last_name": "Ariola",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Zena M Ariola",
+   "pi_email_addr": "ariola@cs.uoregon.edu",
+   "nsf_id": "000097717",
+   "pi_start_date": "2014-06-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Oregon Eugene",
+  "inst_street_address": "1776 E 13TH AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "EUGENE",
+  "inst_state_code": "OR",
+  "inst_state_name": "Oregon",
+  "inst_phone_num": "5413465131",
+  "inst_zip_code": "974031905",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "OR04",
+  "org_lgl_bus_name": "UNIVERSITY OF OREGON",
+  "org_prnt_uei_num": "Z3FGN9MF92U2",
+  "org_uei_num": "Z3FGN9MF92U2"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Oregon Eugene",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OR",
+  "perf_st_name": "Oregon",
+  "perf_zip_code": "974031202",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "OR04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 499951.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>This work developed tools for reasoning about programs for the purposes of both verification and optimization.&nbsp; These tools are based on a logical system known as the sequent calculus, which brings out the notion of duality in programs and their semantics.&nbsp; One running theme we used to leverage duality in programming languages is in the way that information is constructed and used in a program: \"data\" is built up according to a predictable schema and processed in many different ways, whereas its dual \"codata\" is processed according to a predictable interface and generated in many different ways.&nbsp; In practice, we found that functional programming languages have a diversity of data, whereas object-oriented languages instead focus on codata. &nbsp;</span></p>\n<p><span>For the purpose of verification, we found ways in which duality in the sequent calculus helps in building and checking well-behaved programs.&nbsp; In the field of verification, most reasoning is done by \"induction,\" which covers an infinite number of cases by beginning with the small base cases, and demonstrating how to build larger and larger results.&nbsp; This pattern of inductive reasoning corresponds exactly to the way data is constructed and processed.&nbsp; In contrast, the dual form of reasoning called \"coinduction\" is useful for modeling processes like servers or interactive systems, but is not nearly as well understood or supported for verification.&nbsp; Through this duality, we found that coinduction corresponds exactly to the way codata is generated and used, and developed a system to bring coinduction to the same level of expressiveness as induction.</span></p>\n<p><span>Continuing, we found other ways in which the idea of codata can help reasoning about programs.&nbsp; There is a dilemma in functional languages where computational effects (like general recursion) force us to break either the usual semantics or the evaluation method for functions.&nbsp; Changing the semantics of functions means that we have weaker reasoning principles for which programs are equivalent, and changing the evaluation method comes with a higher performance cost.&nbsp; By viewing functions as codata, we developed a new evaluation method that avoids that performance cost while preserving the proper reasoning principles for functions.&nbsp; This idea helps in extending common properties of foundational core languages (in particular \"strong normalization\" and \"confluence\" which say that no matter which way a program is run, the program must come to an end and all possible results must be the same, respectively) to more practical settings.&nbsp; This led to a model for programs with a clear notion of \"subtyping\" as found in object-oriented languages through the relationship between values and contexts.&nbsp; As a result, we were also able to model \"intersection\" and \"union\" types, which have interesting applications in compilers, with the full duality expressed in the sequent calculus.</span></p>\n<p><span>For the purpose of optimization, we investigated the usefulness of sequent-calculus inspired intermediate languages to be used inside of a compiler.&nbsp; We found that one aspect of compilation that the sequent calculus represents well is the notion of a \"join point:\" after a conditional branch with two different paths, it represents the point at which the control flow joins back together and the rest of the program is now the same no matter which branch was taken.&nbsp; Previously, join points were only present in more low-level compiler intermediate representations like SSA and continuation-passing style.&nbsp; Instead, we used the sequent calculus to lift join points up to a high-level, direct-style representation based on the lambda calculus in a way that maintains all of its existing advantages.&nbsp; This work was integrated into the Glasgow Haskell Compiler, and enabled further optimizations in fusing nested loops in programs.</span></p>\n<p><span>We also developed a more general way for intermediate languages to manage the impact of evaluation strategy. The notion of \"polarity\" in logic can be seen as a mixture of two evaluation strategies for programs, known as \"call-by-value\" and \"call-by-name,\" in such a way that the equalities between programs are maximized.&nbsp; Polarity has the advantage of giving a compiler more flexibility for optimizing programs, and is a good fit for call-by-value languages like OCaml.&nbsp; However, lazy languages like Haskell use a different evaluation strategy, known as \"call-by-need,\" in order to efficiently process delayed computations by sharing their results.&nbsp; We extended a polarized language with call-by-need evaluation, so that the same intermediate language can serve as a compile target for both lazy and strict functional programs.&nbsp; This intermediate language has a handful of core programming structures that are capable of faithfully encoding many features from high-level languages, including: user-defined data and codata, type abstraction in the form of polymorphism and modules, and computational effects.&nbsp; Through the use of duality in the sequent calculus, we were also able to express more low-level operations, like reifying the program call stack as a concrete piece of data that can be inspected and manipulated inside the program.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/28/2019<br>\n\t\t\t\t\tModified by: Zena&nbsp;M&nbsp;Ariola</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis work developed tools for reasoning about programs for the purposes of both verification and optimization.  These tools are based on a logical system known as the sequent calculus, which brings out the notion of duality in programs and their semantics.  One running theme we used to leverage duality in programming languages is in the way that information is constructed and used in a program: \"data\" is built up according to a predictable schema and processed in many different ways, whereas its dual \"codata\" is processed according to a predictable interface and generated in many different ways.  In practice, we found that functional programming languages have a diversity of data, whereas object-oriented languages instead focus on codata.  \n\nFor the purpose of verification, we found ways in which duality in the sequent calculus helps in building and checking well-behaved programs.  In the field of verification, most reasoning is done by \"induction,\" which covers an infinite number of cases by beginning with the small base cases, and demonstrating how to build larger and larger results.  This pattern of inductive reasoning corresponds exactly to the way data is constructed and processed.  In contrast, the dual form of reasoning called \"coinduction\" is useful for modeling processes like servers or interactive systems, but is not nearly as well understood or supported for verification.  Through this duality, we found that coinduction corresponds exactly to the way codata is generated and used, and developed a system to bring coinduction to the same level of expressiveness as induction.\n\nContinuing, we found other ways in which the idea of codata can help reasoning about programs.  There is a dilemma in functional languages where computational effects (like general recursion) force us to break either the usual semantics or the evaluation method for functions.  Changing the semantics of functions means that we have weaker reasoning principles for which programs are equivalent, and changing the evaluation method comes with a higher performance cost.  By viewing functions as codata, we developed a new evaluation method that avoids that performance cost while preserving the proper reasoning principles for functions.  This idea helps in extending common properties of foundational core languages (in particular \"strong normalization\" and \"confluence\" which say that no matter which way a program is run, the program must come to an end and all possible results must be the same, respectively) to more practical settings.  This led to a model for programs with a clear notion of \"subtyping\" as found in object-oriented languages through the relationship between values and contexts.  As a result, we were also able to model \"intersection\" and \"union\" types, which have interesting applications in compilers, with the full duality expressed in the sequent calculus.\n\nFor the purpose of optimization, we investigated the usefulness of sequent-calculus inspired intermediate languages to be used inside of a compiler.  We found that one aspect of compilation that the sequent calculus represents well is the notion of a \"join point:\" after a conditional branch with two different paths, it represents the point at which the control flow joins back together and the rest of the program is now the same no matter which branch was taken.  Previously, join points were only present in more low-level compiler intermediate representations like SSA and continuation-passing style.  Instead, we used the sequent calculus to lift join points up to a high-level, direct-style representation based on the lambda calculus in a way that maintains all of its existing advantages.  This work was integrated into the Glasgow Haskell Compiler, and enabled further optimizations in fusing nested loops in programs.\n\nWe also developed a more general way for intermediate languages to manage the impact of evaluation strategy. The notion of \"polarity\" in logic can be seen as a mixture of two evaluation strategies for programs, known as \"call-by-value\" and \"call-by-name,\" in such a way that the equalities between programs are maximized.  Polarity has the advantage of giving a compiler more flexibility for optimizing programs, and is a good fit for call-by-value languages like OCaml.  However, lazy languages like Haskell use a different evaluation strategy, known as \"call-by-need,\" in order to efficiently process delayed computations by sharing their results.  We extended a polarized language with call-by-need evaluation, so that the same intermediate language can serve as a compile target for both lazy and strict functional programs.  This intermediate language has a handful of core programming structures that are capable of faithfully encoding many features from high-level languages, including: user-defined data and codata, type abstraction in the form of polymorphism and modules, and computational effects.  Through the use of duality in the sequent calculus, we were also able to express more low-level operations, like reifying the program call stack as a concrete piece of data that can be inspected and manipulated inside the program.\n\n\t\t\t\t\tLast Modified: 07/28/2019\n\n\t\t\t\t\tSubmitted by: Zena M Ariola"
+ }
+}

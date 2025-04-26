@@ -1,0 +1,113 @@
+{
+ "awd_id": "1823444",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "FoMR: Heterogeneity Under-The-Hood: Leveraging the Decoder for Highly Specialized, Programmer Transparent Microarchitectures",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Danella Zhao",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2021-09-30",
+ "tot_intn_awd_amt": 10000.0,
+ "awd_amount": 10000.0,
+ "awd_min_amd_letter_date": "2018-08-18",
+ "awd_max_amd_letter_date": "2018-08-18",
+ "awd_abstract_narration": "The need to scale computation capabilities without scaling up energy consumption is as high as ever. The one-size-fits-all computation model performs well on an average case but suffers in performance and energy efficiency for many individual applications. Customization plays a crucial role in processor design going forward. However, customization outside traditional programming and execution models has not yet fulfilled its promise. This project provides the hardware/software interface with diverse capabilities to enable the seamless adoption of heterogeneous hardware, without breaking traditional programming and execution models. This work enables new levels of specialization within the microarchitecture without disrupting the traditional general-purpose programming interface. The research team will continue increase and support workforce diversity within their department, continuing and broadening a new set of initiatives recently introduced.\r\n\r\nThis project explores novel, non-intrusive, and programmer-transparent compiler, runtime, and decoder techniques that will unlock several previously unexplored hardware designs that not only offer greater throughput and efficiency for multithreaded workloads, but substantially improve existing levels of single thread performance. This work introduces two novel architectures: (1) Composite-ISA (Instruction Set Architecture) Heterogeneous Multicores that can match the gains of multi-ISA heterogeneity using a single composite-ISA derived from a large superset x86-like ISA, and (2) Context-Sensitive Decoding that leverages the internal micro-op translation feature of the modern decoders to seamlessly morph and tailor execution to changing environmental conditions, without recompilation or binary translation, and at no significant performance overhead. This level of customization is especially useful in responding to new malware threats such as the Meltdown and Spectre vulnerabilities, which could otherwise require complete hardware redesign and/or incur prohibitively high performance costs due to software/OS-based mechanisms.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Dean",
+   "pi_last_name": "Tullsen",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Dean M Tullsen",
+   "pi_email_addr": "tullsen@cs.ucsd.edu",
+   "nsf_id": "000461702",
+   "pi_start_date": "2018-08-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-San Diego",
+  "inst_street_address": "9500 GILMAN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "LA JOLLA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8585344896",
+  "inst_zip_code": "920930021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "50",
+  "st_cong_dist_code": "CA50",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "UYTTZT6G9DT1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-San Diego",
+  "perf_str_addr": "9500 Gilman Dr.",
+  "perf_city_name": "La Jolla",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "920930404",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "50",
+  "perf_st_cong_dist": "CA50",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "287800",
+   "pgm_ele_name": "Special Projects - CCF"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "021Z",
+   "pgm_ref_txt": "Industry Partnerships"
+  },
+  {
+   "pgm_ref_code": "2878",
+   "pgm_ref_txt": "SPECIAL PROJECTS - CCF"
+  },
+  {
+   "pgm_ref_code": "7798",
+   "pgm_ref_txt": "SOFTWARE & HARDWARE FOUNDATION"
+  },
+  {
+   "pgm_ref_code": "7941",
+   "pgm_ref_txt": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 10000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This research produced a number of technologies that significantly advance the security, performance, and efficiency of potential future processors.</p>\n<p><strong>Context-Sensitive Fencing</strong>, (CSF) is built on our Context Sensitive Decoding framework which enables minimal-cost alteration of the dynamic execution stream, in the decoder, without need for recompilation or binary translation.&nbsp; CSF enables dynamic insertion of Spectre-mitigating Fence instructions, using runtime information to greatly reduce performance overhead over software solutions.</p>\n<p>In prior work we showed that heteroegenous cores, particularly those where the heterogeneity extends to multiple, diverse instruction set architectures, enables the performance and efficiency gains of specialized excecution architectures, without sacrificing the generality and programmability of&nbsp; general-purpose cores. With <strong>Composite-ISA architectures</strong>, we show that we can unlock that potential without all the compilation, licensing, testing, etc. issues of using diverse ISAs from multiple vendors.&nbsp; Instead, we begin with a Superset ISA, and create diverse-ISA cores by varying the subset of the ISA that each core instantiates.&nbsp; This gives us the energy-efficiency (more, in fact) of prior results, while minimizing the binary compatibility issues when threads migrate between cores.</p>\n<p>We continued to pursue the dual goals of uncompromised perfrormance and security by beginning to examine the architecture of <strong>Secure SMT </strong>(simultaneous multithreading) architectures.&nbsp; This study is the first to exhaustively study all potential (within the context of revealed modern pipelines) sources of contention-based side channels in SMT processors from multiple vendors.&nbsp; While having already identified and disclosed several new vulnerabilities, this work will continue to examine unified mitigation strategies that can be applied to every shared structure in an SMT processor, while preserving as much of the performance of SMT as possible.</p>\n<p>In the pursuit of performant, secure architectures, this work also came across and exposed other unknown processor vulnerabilities.&nbsp; Those include the <strong>Micro-op Cache</strong> side channels and transient attacks, and a network attack that requires no network access at all by the attacker, but exploits Intel's <strong>DDIO</strong> performance optimization.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/17/2022<br>\n\t\t\t\t\tModified by: Dean&nbsp;M&nbsp;Tullsen</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis research produced a number of technologies that significantly advance the security, performance, and efficiency of potential future processors.\n\nContext-Sensitive Fencing, (CSF) is built on our Context Sensitive Decoding framework which enables minimal-cost alteration of the dynamic execution stream, in the decoder, without need for recompilation or binary translation.  CSF enables dynamic insertion of Spectre-mitigating Fence instructions, using runtime information to greatly reduce performance overhead over software solutions.\n\nIn prior work we showed that heteroegenous cores, particularly those where the heterogeneity extends to multiple, diverse instruction set architectures, enables the performance and efficiency gains of specialized excecution architectures, without sacrificing the generality and programmability of  general-purpose cores. With Composite-ISA architectures, we show that we can unlock that potential without all the compilation, licensing, testing, etc. issues of using diverse ISAs from multiple vendors.  Instead, we begin with a Superset ISA, and create diverse-ISA cores by varying the subset of the ISA that each core instantiates.  This gives us the energy-efficiency (more, in fact) of prior results, while minimizing the binary compatibility issues when threads migrate between cores.\n\nWe continued to pursue the dual goals of uncompromised perfrormance and security by beginning to examine the architecture of Secure SMT (simultaneous multithreading) architectures.  This study is the first to exhaustively study all potential (within the context of revealed modern pipelines) sources of contention-based side channels in SMT processors from multiple vendors.  While having already identified and disclosed several new vulnerabilities, this work will continue to examine unified mitigation strategies that can be applied to every shared structure in an SMT processor, while preserving as much of the performance of SMT as possible.\n\nIn the pursuit of performant, secure architectures, this work also came across and exposed other unknown processor vulnerabilities.  Those include the Micro-op Cache side channels and transient attacks, and a network attack that requires no network access at all by the attacker, but exploits Intel's DDIO performance optimization.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 06/17/2022\n\n\t\t\t\t\tSubmitted by: Dean M Tullsen"
+ }
+}

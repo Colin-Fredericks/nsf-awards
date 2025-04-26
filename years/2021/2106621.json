@@ -1,0 +1,146 @@
+{
+ "awd_id": "2106621",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Collaborative Research: SHF: Medium: Co-Optimizing Computation and Data Transformations for Sparse Tensors",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2022-01-01",
+ "awd_exp_date": "2026-12-31",
+ "tot_intn_awd_amt": 397386.0,
+ "awd_amount": 293109.0,
+ "awd_min_amd_letter_date": "2021-08-23",
+ "awd_max_amd_letter_date": "2024-09-18",
+ "awd_abstract_narration": "Sparse tensor computations are central to important applications including computer-assisted drug design, fraud detection, and national security. Timely execution of these applications improves user productivity and reduces the energy consumption associated with each execution. Sparse computations are characterized as having inputs where many or most values are zero.  To avoid the inefficiency of storing and computing on zero-valued data, applications only store the nonzeros, with auxiliary data structures to recover their locations.  As a result, sparse tensor computations exhibit unpredictable memory-access patterns that include indirection through the auxiliary data structures.  Consequently, on today\u2019s computer architectures, performance of sparse tensor computations is completely dominated by the movement of data, through the memory system and across nodes. Data movement is expensive both in terms of execution time and energy expenditure. Optimizing data movement of sparse tensor computations as high-performance architectures have become increasingly diverse \u2014 conventional parallel architectures, graphics processors used as parallel accelerators and complex memory systems \u2014 creates a performance and productivity challenge for software developers who end up writing low-level architecture-specific code for each platform. The proposed approach simultaneously optimizes how data is organized in memory, how the computation is structured to access the data in a way that reduces data movement, and how the computation and data movement make best use of features of the hardware architectures. Since the nonzero structure of the data is unknown until program execution, the approach also examines runtime information in its decisions.  The resulting co-optimization strategy enables a cohesive approach for iteratively making scheduling and data representation transformation decisions for a wide range of sparse computations and incorporating runtime adaptations.\r\n\r\nThis project is developing a programming framework that permits high-level specification of a sparse computation and optimizes it to reduce data movement.  It composes data representations, data layouts and storage mappings, and parallel schedules for sparse computations.  It employs data dependencies, runtime information, and architecture features to fully bind the final generated code. This approach is intended to enable handling sparse tensor computations with dependences such as sparse triangular solve and many other solvers for systems of linear equations, applying reorderings such as Morton ordering on sparse tensors, and late binding of sparse tensor data representations.  The novel and most significant aspects of the research include: (1) composable schedule and data transformations, including data layout transformations and storage mapping; (2) inspector synthesis for runtime data transformations between data representations, layouts, and storage mappings, which are composed with external functions; (3) support for data-dependent tensor computations; and, (4) framework abstractions deployed in the MLIR/LLVM compiler.\r\n\r\nThe researchers are strongly committed to broadening participation in computing and have comprehensive plans to engage the underrepresented groups.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "Lowenthal",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "David K Lowenthal",
+   "pi_email_addr": "dkl@cs.arizona.edu",
+   "nsf_id": "000435738",
+   "pi_start_date": "2023-09-01",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Former Principal Investigator",
+   "pi_first_name": "Michelle",
+   "pi_last_name": "Strout",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michelle M Strout",
+   "pi_email_addr": "mstrout@cs.arizona.edu",
+   "nsf_id": "000273488",
+   "pi_start_date": "2021-08-23",
+   "pi_end_date": "2023-09-01"
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Arizona",
+  "inst_street_address": "845 N PARK AVE RM 538",
+  "inst_street_address_2": "",
+  "inst_city_name": "TUCSON",
+  "inst_state_code": "AZ",
+  "inst_state_name": "Arizona",
+  "inst_phone_num": "5206266000",
+  "inst_zip_code": "85721",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "AZ07",
+  "org_lgl_bus_name": "UNIVERSITY OF ARIZONA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "ED44Y3W6P7B9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Arizona",
+  "perf_str_addr": "1040 E. 4th Street",
+  "perf_city_name": "Tucson",
+  "perf_st_code": "AZ",
+  "perf_st_name": "Arizona",
+  "perf_zip_code": "857210077",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "AZ07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002526DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 192217.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 100892.0
+  }
+ ],
+ "por": null
+}

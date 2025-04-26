@@ -1,0 +1,109 @@
+{
+ "awd_id": "1423228",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Numeric-Symbolic Techniques for Geometric Problems in Algebra and Analysis",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Balasubramanian Kalyanasundaram",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 494748.0,
+ "awd_amount": 494748.0,
+ "awd_min_amd_letter_date": "2014-06-12",
+ "awd_max_amd_letter_date": "2014-06-12",
+ "awd_abstract_narration": "All exact numerical algorithms must implicitly solve some \"Zero Problem\", namely decide if various well-defined numbers arising in the course of its computation are actually zero.  The inability to decide zero is the root cause of pervasive numerical nonrobustness in many applications. The PI side-steps the Zero Problem by introducing \"resolution-exact\" algorithms.  Intuitively, they solve the problem up to any given epsilon parameter. Recent successes of this approach are seen in the PI's work in motion planning.\r\n\r\nIn more technical detail, this award studies resolution-exactness to three classes of problems:\r\n(A) Computing the Voronoi diagrams of polyhedral sets in 3D, or of k-ellipses in 2D where no current \"explicit\" exact algorithms are known.\r\n(B) Analytic and harmonic root isolation, in which exact methods fail because of the implicit Zero Problem. \r\n(C) Explicitization Problems such as computing the Morse-Smale complex of a nice scalar function, and isotopic approximation of algebraic varieties of co-dimension 2 (e.g., spatial curves).\r\n\r\nThe ability to treat analytic problems is new for Theoretical Computer Science. Many problems of Computational Science and Engineering are defined on the continua, and have no exact solutions; resolution-exact algorithms provide practical yet theoretically-sound algorithms for them. More broadly, this work contributes to the emerging area of symbolic-numeric computation.  The PI's research trains a new generation of Computer Science students using new tools for attacking continua problems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Chee",
+   "pi_last_name": "Yap",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Chee K Yap",
+   "pi_email_addr": "yap@cs.nyu.edu",
+   "nsf_id": "000104554",
+   "pi_start_date": "2014-06-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University Courant Institute",
+  "perf_str_addr": "251 Mercer Street",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121110",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7929",
+   "pgm_ref_txt": "COMPUTATIONAL GEOMETRY"
+  },
+  {
+   "pgm_ref_code": "7933",
+   "pgm_ref_txt": "NUM, SYMBOL, & ALGEBRA COMPUT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 494748.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project addresses the difficult Zero Problem that is inherent inexact computation as they arise in geometric and topogical computation.&nbsp; Weactually side-step the Zero problem by designing resolution-exact (orepsilon-exact) algorithms in which an extra input resolution parameter(epsilon) is given. The notion of epsilon-exactness is problem dependent, butthe basic goal is to compute a symbolic-numeric representation of some objectthat is implicitly defined in the continua (such as Euclidean space).<br />The numerical approximation must be certified (this means some form of intervalmethod).&nbsp; But it remains highly non-trivial if left at the level ofapproximating individual numbers in an algorithm.&nbsp; But for many geometricproblems, certified approximation can be encoded in a suitable reformulationof the well-known Subdivision Paradigm, which we call \"Soft Subdivision\".&nbsp; Insubdivision, we must answer the question ``when should subdivision stop''?We need stopping predicates which are numerically computed.&nbsp; We introduce thetheory of soft-predicates: unlike a logical or algebraic predicate, a numericalpredicates is \"one-sided\" in the sense that its success confirms a particularproperty) but its failure yields no information.&nbsp; However, our predicates mustprovide some soft-converse which is also problem-dependent.&nbsp;<br />Our goal is not just sound theory, but practical techniques to support thetheory.&nbsp; Therefore, in every case, our algorithms will be implemented and, ifpossible compared to the state-of-art implementations.&nbsp;Three types of such problems were attacked in this project:</p>\n<p><br />(1) Root Isolation: real and complex algebraic roots are highlyclassical areas of investigation. Most work have focused on algebraicroots, but we introduce methods that can address roots of analytic andharmonic functions.&nbsp; It is unknown whether root isolation for suchfunctions are computable because of the underlying Zero problem.&nbsp;This fundamental road block is overcome by our&nbsp;epsilon-exactness view of root isolation, reformulated as theproblem of as \"root clustering\".&nbsp; This innovation greatly expand the scope ofour algorithms.&nbsp; Despite the fact that near-optimal algorithms (Schonhage-Pan1982-1996) for complex root isolation had been known for almost 30 years, theywere unimplementable.&nbsp; Our work produced the first implementable near-optimalalgorithm, based on our subdivision approach.</p>\n<p><br />(2) Explicitization of real semi-algebraic varieties, i.e., convertingthe algebraic constraint formulation of such sets into an explicitcombinatorial representation.&nbsp; Semi-algebraic varieties are usually partof a combinatorial structure (e.g., a simplicial complex) with specialspecial combinatorial structures.&nbsp; &nbsp;One such structure is the Voronoidiagram.&nbsp; Such diagrams appear in many applications and in a greatnumber of forms.&nbsp; Beyond the basic linear cases, most of these diagramscurrently do not currently explicit exact algorithms.&nbsp; In particular, a generalnotion of minimization diagrams had been proposed in the 1990s but there is notattempt to provide a computational basis for computing them.&nbsp; We will solvethis problem in the plane by a method to cluster vertices of such diagrams.</p>\n<p><br />(3) Path planning in robotics: mathematically, the basic problem is todecide if two points in a semi-algebraic set belong to the sameconnected component.&nbsp; &nbsp;In practice, the semi-algebraic set (calledfree space) is defined by polyhedral obstacle sets (in $R^2$ or $R^3$) inthe configuration space determined by the robot.&nbsp;&nbsp;Traditional formulation of exact path planning requires exact algebraiccomputation.&nbsp; While theoretically interesting, this formulation is notpractical and is never implemented as such (it would be too expensiveto do as it would involve manipulation of algebraic numbers).Practical algorithms are based on sampling orsubdivision, but they lack secure foundation.&nbsp; &nbsp;We developthe proper theory for subdivision based on epsilon-exactness.We achieved a landmark success in robotics by providing a realtimenon-heuristic complete path planner for two spatial rigid robots with 5degrees-of-freedom, namely the rod and the ring.</p>\n<p><br />Intellectual Merit: The ability to address analytic computationalproblems is new to theoretical computer science.&nbsp; The introduction of newconceptual approaches based on resolution-exactness leads to new classes ofpractical and theoretically sound algorithms for problems of the continua.Already, our model for complex root clustering implies that we can nowcluster roots for analytic and harmonic functions.</p>\n<p><br />Broader Impacts : Our work is a contribution to the emerging area ofsymbolic-numeric computation. Since problems of the continua are common inComputational Science and Engineering, this will allow theoretical computerscience to have greater impact in this important area. As these algorithms arerelatively simple and practical, this will lead to a flourishing ofimplementation and experimentation in theory of algorithms.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/19/2018<br>\n\t\t\t\t\tModified by: Chee&nbsp;K&nbsp;Yap</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project addresses the difficult Zero Problem that is inherent inexact computation as they arise in geometric and topogical computation.  Weactually side-step the Zero problem by designing resolution-exact (orepsilon-exact) algorithms in which an extra input resolution parameter(epsilon) is given. The notion of epsilon-exactness is problem dependent, butthe basic goal is to compute a symbolic-numeric representation of some objectthat is implicitly defined in the continua (such as Euclidean space).\nThe numerical approximation must be certified (this means some form of intervalmethod).  But it remains highly non-trivial if left at the level ofapproximating individual numbers in an algorithm.  But for many geometricproblems, certified approximation can be encoded in a suitable reformulationof the well-known Subdivision Paradigm, which we call \"Soft Subdivision\".  Insubdivision, we must answer the question ``when should subdivision stop''?We need stopping predicates which are numerically computed.  We introduce thetheory of soft-predicates: unlike a logical or algebraic predicate, a numericalpredicates is \"one-sided\" in the sense that its success confirms a particularproperty) but its failure yields no information.  However, our predicates mustprovide some soft-converse which is also problem-dependent. \nOur goal is not just sound theory, but practical techniques to support thetheory.  Therefore, in every case, our algorithms will be implemented and, ifpossible compared to the state-of-art implementations. Three types of such problems were attacked in this project:\n\n\n(1) Root Isolation: real and complex algebraic roots are highlyclassical areas of investigation. Most work have focused on algebraicroots, but we introduce methods that can address roots of analytic andharmonic functions.  It is unknown whether root isolation for suchfunctions are computable because of the underlying Zero problem. This fundamental road block is overcome by our epsilon-exactness view of root isolation, reformulated as theproblem of as \"root clustering\".  This innovation greatly expand the scope ofour algorithms.  Despite the fact that near-optimal algorithms (Schonhage-Pan1982-1996) for complex root isolation had been known for almost 30 years, theywere unimplementable.  Our work produced the first implementable near-optimalalgorithm, based on our subdivision approach.\n\n\n(2) Explicitization of real semi-algebraic varieties, i.e., convertingthe algebraic constraint formulation of such sets into an explicitcombinatorial representation.  Semi-algebraic varieties are usually partof a combinatorial structure (e.g., a simplicial complex) with specialspecial combinatorial structures.   One such structure is the Voronoidiagram.  Such diagrams appear in many applications and in a greatnumber of forms.  Beyond the basic linear cases, most of these diagramscurrently do not currently explicit exact algorithms.  In particular, a generalnotion of minimization diagrams had been proposed in the 1990s but there is notattempt to provide a computational basis for computing them.  We will solvethis problem in the plane by a method to cluster vertices of such diagrams.\n\n\n(3) Path planning in robotics: mathematically, the basic problem is todecide if two points in a semi-algebraic set belong to the sameconnected component.   In practice, the semi-algebraic set (calledfree space) is defined by polyhedral obstacle sets (in $R^2$ or $R^3$) inthe configuration space determined by the robot.  Traditional formulation of exact path planning requires exact algebraiccomputation.  While theoretically interesting, this formulation is notpractical and is never implemented as such (it would be too expensiveto do as it would involve manipulation of algebraic numbers).Practical algorithms are based on sampling orsubdivision, but they lack secure foundation.   We developthe proper theory for subdivision based on epsilon-exactness.We achieved a landmark success in robotics by providing a realtimenon-heuristic complete path planner for two spatial rigid robots with 5degrees-of-freedom, namely the rod and the ring.\n\n\nIntellectual Merit: The ability to address analytic computationalproblems is new to theoretical computer science.  The introduction of newconceptual approaches based on resolution-exactness leads to new classes ofpractical and theoretically sound algorithms for problems of the continua.Already, our model for complex root clustering implies that we can nowcluster roots for analytic and harmonic functions.\n\n\nBroader Impacts : Our work is a contribution to the emerging area ofsymbolic-numeric computation. Since problems of the continua are common inComputational Science and Engineering, this will allow theoretical computerscience to have greater impact in this important area. As these algorithms arerelatively simple and practical, this will lead to a flourishing ofimplementation and experimentation in theory of algorithms.\n\n\t\t\t\t\tLast Modified: 12/19/2018\n\n\t\t\t\t\tSubmitted by: Chee K Yap"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "1418724",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Highly Scalable Algorithms and Solvers for Eigen-Problems: Unconstrained Optimization and Multiple Power Iterations",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2014-07-01",
+ "awd_exp_date": "2018-06-30",
+ "tot_intn_awd_amt": 240000.0,
+ "awd_amount": 240000.0,
+ "awd_min_amd_letter_date": "2014-06-29",
+ "awd_max_amd_letter_date": "2014-06-29",
+ "awd_abstract_narration": "In today's big-data era, many organizations are facing the challenge of making sense of or use of massive datasets collected or flowing in at unprecedented rates.  The first step is often to reduce the size of data to a manageable level by extracting essence and removing redundancy.  Many techniques for data reduction and information extraction rely on so-called \"principal component analysis\" which requires intensive mathematical calculations. As data size keeps growing fast, such intensive computations need to be carried out on high-performance parallel computers that are able to execute a large number of independent tasks simultaneously. Currently, bottlenecks have appeared in commonly used mathematical methods that prevent big tasks from being broken up into enough independent small pieces to be quickly handled in parallel. In other words, the current mathematical methods have encountered difficulty in scalability. To break through the bottlenecks, this scalability issues must be attacked by devising new methodologies.  This project proposes a few new approaches of higher scalability. Preliminary experiments have demonstrated clear promises, offering multi-fold speedups on a wide class of problems even on commodity computers.  Careful theoretical and experimental investigations will be carried out in this project to fully develop the proposed methodologies.\r\n\r\nComputing a relatively large number of principal eigenpairs or singular pairs of large-scale matrices (or data sets) is a fundamental computational problem with wide-ranging applications, especially in today's big-data information era.  Fast-increasing problem sizes and ever-evolving computer architectures have posed new algorithmic challenges. A constant challenge is to reach for higher algorithm concurrency in order to solve critical application problems on massively parallel computers.  Currently, the main bottleneck to high scalability lies in the combined tasks of Rayleigh-Ritz and orthogonalization (RR/Orth, in short) that are heavily used by most state-of-the-art eigensolvers.  The proposed research is to explore new strategies for developing highly parallel and scalable algorithms.  A key idea is to reduce the use of RR/Orth operations in exchange for operations of higher concurrency.  One approach makes use of unconstrained optimization formulations without orthogonality constraint so that, in principle, reasonable unconstrained optimization algorithms can be used without needing RR/Orth operations; another approach utilizes a simple but embarrassingly parallel procedure called multi-power method (MPM). Preliminary theoretical and numerical results are presented to demonstrate the potential of these approaches. In particular, the MPM approach has been empirically shown to achieve an \"optimal performance\" under reasonable conditions. It remains challenging to attain robustness and efficiency levels comparable to those of state-of-the-art eigensolvers.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yin",
+   "pi_last_name": "Zhang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yin Zhang",
+   "pi_email_addr": "yzhang@rice.edu",
+   "nsf_id": "000176875",
+   "pi_start_date": "2014-06-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "William Marsh Rice University",
+  "inst_street_address": "6100 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "Houston",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7133484820",
+  "inst_zip_code": "770051827",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "WILLIAM MARSH RICE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "K51LECU1G8N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "William Marsh Rice University",
+  "perf_str_addr": "6100 Main Street",
+  "perf_city_name": "Houston",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "770051827",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "TX09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 240000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Modern economic activities are increasingly driven by computer-based technological innovations. &nbsp;In recent years, as semi-conductor electronics are approaching their physical limitations, the growth in computing power relies heavily on parallel computing, that is, simultaneous use of many computing units together, up to hundreds or thousands of them, to perform a single task in a concerted manner. &nbsp;To make parallel computing fast and efficient, many algorithms that perform everyday, fundamental calculations need to be redesigned or retooled. &nbsp;In this project, the PI, with his collaborator and students, studied a class of algorithms that can scale better as the number of computing units increases to a large number. &nbsp;These algorithms perform fundamental computations called eigenvalue and singular-value calculations, which are used by scientists and engineers on daily basis in many areas. &nbsp;Therefore, advances or improvements made on such fundamental algorithms will benefit diverse fields in science and engineering.</p>\n<p><br />During this project, a new class of algorithms have been carefully constructed, analyzed, implemented, tested, and evaluated in comparison with existing algorithms. The advantages and limitations of the new algorithms have been studied and determined. &nbsp;Our investigation will provide new tools and guidelines for the benefits of practicing scientists and engineers in the future. &nbsp;Based on works supported fully or in part by this project, six journal papers have been published in top technical journals and two software packages have been released online to be freely available to scientific community and to the public at large. &nbsp;Most of the fund awarded to this project had been spent on supporting two graduate students, fully or partially, for them to conduct research under the direction of the PI, while pursuing advanced degrees at Rice University. &nbsp;One of the students is an under-represented US minority student who has received a master's degree from Rice University and joined the workforce.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/18/2018<br>\n\t\t\t\t\tModified by: Yin&nbsp;Zhang</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nModern economic activities are increasingly driven by computer-based technological innovations.  In recent years, as semi-conductor electronics are approaching their physical limitations, the growth in computing power relies heavily on parallel computing, that is, simultaneous use of many computing units together, up to hundreds or thousands of them, to perform a single task in a concerted manner.  To make parallel computing fast and efficient, many algorithms that perform everyday, fundamental calculations need to be redesigned or retooled.  In this project, the PI, with his collaborator and students, studied a class of algorithms that can scale better as the number of computing units increases to a large number.  These algorithms perform fundamental computations called eigenvalue and singular-value calculations, which are used by scientists and engineers on daily basis in many areas.  Therefore, advances or improvements made on such fundamental algorithms will benefit diverse fields in science and engineering.\n\n\nDuring this project, a new class of algorithms have been carefully constructed, analyzed, implemented, tested, and evaluated in comparison with existing algorithms. The advantages and limitations of the new algorithms have been studied and determined.  Our investigation will provide new tools and guidelines for the benefits of practicing scientists and engineers in the future.  Based on works supported fully or in part by this project, six journal papers have been published in top technical journals and two software packages have been released online to be freely available to scientific community and to the public at large.  Most of the fund awarded to this project had been spent on supporting two graduate students, fully or partially, for them to conduct research under the direction of the PI, while pursuing advanced degrees at Rice University.  One of the students is an under-represented US minority student who has received a master's degree from Rice University and joined the workforce.\n\n\t\t\t\t\tLast Modified: 09/18/2018\n\n\t\t\t\t\tSubmitted by: Yin Zhang"
+ }
+}

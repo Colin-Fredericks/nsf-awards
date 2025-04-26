@@ -1,0 +1,106 @@
+{
+ "awd_id": "9872785",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "An Event-driven Programmable Network Architecture for the Next Generation Internet",
+ "cfda_num": "47.070",
+ "org_code": "05050202",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "1998-10-01",
+ "awd_exp_date": "2002-09-30",
+ "tot_intn_awd_amt": 965906.0,
+ "awd_amount": 965906.0,
+ "awd_min_amd_letter_date": "1998-09-25",
+ "awd_max_amd_letter_date": "2000-02-04",
+ "awd_abstract_narration": "Recent years have witnessed an explosive growth in the volume and the diversity of applications that use the Internet.  IN the past, most of the data traffic traversing the Internet was reliable, sequenced, non real-time, and between a stationary pair of hosts.  However, the next generation Internet will need to support very diverse environments (e.g., heterogeneous wireline/wireless and mobile networks), applications (e.g., multimedia, WWW, telnet), and services (multicast, different classes of quality of service, etc.).    Because applications with diverse requirements need to react differently to the dynamics of the network, the next generation Internet protocols will, of necessity, have to be more proactive in the way they deal with application-specific requirements.  Additionally, new services will need to be developed and rapidly deployed for emerging applications. \r\n\r\nIn this project, we propose a novel event-drive programmable network architecture that is scalable, robust, flexible, extensible, and simple to program.  Our architecture enables on-the-fly instantiation of new network services both by users and service providers, dynamic creation of virtual networks, quality of service, service advertisement, flexible network resource management, and resource arbitration among contending applications.  Our goal is to make programming the network almost as simple as programming a stand-alone computer. \r\n\r\nOur approach is to provide an event-drive view of the network.  A 'virtual network' is defined by a set of services, each of which is an <event, event-handler> pair.   The network provides a default set of services.   Each service provider can create its own 'virtual network context', which is an instantiation of a virtual network.  Virtual network contexts have a hierarchical structure, i.e., a service provide may allow users or applications to create their own virtual network contexts within the context of the service provide.  Each virtual network context inherits the services of its parent context, but can customize these services or create new ones.  Services can be customized either by binding an event to a different event-handler, or by creating new events (which can be triggered by other event-handlers).   A network-wide 'distributed services directory' maintains a (partial) library of available and publicly disseminated services.  In this model, a virtual network context can be easily customized piecemeal by changing only a few of the services relevant to a user.     At the same time, it is easy to compose new services and build entire virtual networks by mixing and matching from a menu of publicly available services. \r\n\r\nIn order to make programming services simple, our architecture provides a simple programming abstraction of the distributed network state to applications, thereby reducing the complexity of developing services.  A distributed network manager provides simple mechanisms for accessing, updating, caching, and locking both local and non-local network state belonging to multiple nodes in potentially heterogeneous networks.  The network manager is a self-configuring distributed software based on the 'spine' infrastructure that we have developed in the past, and also provides resource management, resource allocation, and resource arbitration among top-level virtual network contexts.   We believe that our combined service model and network management architecture is unique in contemporary research, and may prove to be an appropriate architecture for the next generation Internet. \r\n\r\nIn order to better understand the subtleties of the architecture and service requirements in a real environment, we will build a four cluster testbed consisting of heterogeneous wireline/wireless networks spanning the country, with clusters located in Champaign, Chicago, Boston, and San Jose.   We will build hte infrastructure in collaboration iwth Motorola, TranSwitch, and Maverick Semiconductor.   The goal of htis evnvironment is to provide quality of service for unicast and multicast flows in a mobile computing environment.  We choose this application environment because of its comcplexity and our previous expertise in building such environments in the context of hte traditional Internet.  We believe that at the ned of this project, we iwll be able to develop an architecture that can effectively address the diverse and complex requirements of hte next generation Internet. \r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Bharghavan",
+   "pi_last_name": "Vaduvur",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Bharghavan Vaduvur",
+   "pi_email_addr": "bharghav@crhc.uiuc.edu",
+   "nsf_id": "000488915",
+   "pi_start_date": "1998-09-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S WRIGHT ST",
+  "perf_city_name": "URBANA",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "108300",
+   "pgm_ele_name": "DOMAIN NAME FUNDS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "4097",
+   "pgm_ref_txt": "NETWORKING RESEARCH"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0198",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0198",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1998,
+   "fund_oblg_amt": 965906.0
+  }
+ ],
+ "por": null
+}

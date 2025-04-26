@@ -1,0 +1,98 @@
+{
+ "awd_id": "2330831",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Elastic Soft State Cache as an OS Service",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2024-01-01",
+ "awd_exp_date": "2026-12-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2023-12-27",
+ "awd_max_amd_letter_date": "2023-12-27",
+ "awd_abstract_narration": "To efficiently serve user requests, cloud applications cache soft-state data in memory. Data is considered \u201csoft state\u201d when it is helpful only for efficiency and losing it would not lead to functional issues. Soft state is ubiquitously used as it enables applications to trade off memory for better performance, and performance gains often grow with the amount of memory provisioned. Today\u2019s systems provision memory statically to applications to prevent their cached data from growing unbounded and draining the server\u2019s memory. It is extremely hard, however, for static memory provisioning to be able to address each application\u2019s soft-state needs while simultaneously maximizing the use of global memory. Dynamic provisioning is challenging as current systems are unable to safely and efficiently add/remove memory between applications. This project builds a new virtual memory abstraction for soft-state caching (referred to as \u201csoft memory\u2019\u201d), as well as a soft memory management system called Midas, enabling application developers to easily register their soft-state data with the Midas API and leave cache management and dynamic scaling to the OS kernel. Under Midas, soft-state caching is no longer application-specific; instead, it is provided by the OS kernel as a service. \r\n\r\nModern society is relying increasingly on cloud platforms where memory is heavily underutilized. On the application side, most cloud applications need to cache intermediate results or soft-state data; more memory can significantly boost their throughput and reduce their latency. However, existing cloud systems provision memory statically, leading to memory waste. Simultaneously, the caching needs of many memory-hungry applications are not being satisfied. This project develops a new soft-state caching system, providing caching to all applications as an operating system service. Such a service can significantly improve memory utilization for the cloud, leading to monetary cost savings. In the meantime, it improves the performance of individual applications running on the cloud by letting them opportunistically use more memory, resulting in improved user experiences.  The project also makes efforts in education and diversity by incorporating research into courses and recruiting and training junior researchers from underrepresented groups.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Harry",
+   "pi_last_name": "Xu",
+   "pi_mid_init": "G",
+   "pi_sufx_name": "",
+   "pi_full_name": "Harry G Xu",
+   "pi_email_addr": "harryxu@cs.ucla.edu",
+   "nsf_id": "000599637",
+   "pi_start_date": "2023-12-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Los Angeles",
+  "perf_str_addr": "Engineering VI, 404 Westwood Plaza",
+  "perf_city_name": "LOS ANGELES",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900244201",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 600000.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,100 @@
+{
+ "awd_id": "2135784",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RAPID: Fast COVID-19 Scenario Projections in Presence of Vaccines and Competing Variants",
+ "cfda_num": "47.074",
+ "org_code": "08010000",
+ "po_phone": "7032927799",
+ "po_email": "kdittmar@nsf.gov",
+ "po_sign_block_name": "Katharina Dittmar",
+ "awd_eff_date": "2021-08-01",
+ "awd_exp_date": "2023-07-31",
+ "tot_intn_awd_amt": 186835.0,
+ "awd_amount": 186835.0,
+ "awd_min_amd_letter_date": "2021-07-22",
+ "awd_max_amd_letter_date": "2021-07-22",
+ "awd_abstract_narration": "After more than a year, COVID-19 remains a concern worldwide. While the United States is moving towards a fast reopening of economic activities, it is crucial to ensure that it can be done without an increased burden on the healthcare system. As a result, there is an urgency to produce reliable long-term scenario projections of cases, hospitalizations, and deaths to inform policymakers. New challenges in modeling and estimations are emerging due to emerging competing variants with transmissibility advantage, possible waning immunity and immune escape, vaccine hesitancy, and changes in non-pharmaceutical interventions. The project will address these emerging challenges in scenario projections at the state-level in the US. A key advantage of the modeling technique is that it can incorporate various complexities and learn from a changing epidemiological and social environment, and yet it can produce fast projections.  The techniques developed in the project will not only be applicable to the US locations but also locations around the world where COVID-19 is still a severe disaster. The scenario modeling framework developed during the project will also set the foundations for quick scenario generation for better preparedness during future epidemics. This project provides training opportunities for a graduate student.\r\n\r\nThe proposed project develops a discrete-time heterogeneous rate model that can incorporate various complexities of COVID-19 and yet produce long-term scenario projections quickly on commodity hardware (2-3 mins/scenario for all US states). The fast projections of cases, hospitalizations, and deaths are enabled by decoupling of the parameter estimations so that they can be learned independently using simple regression techniques. This also results in the elimination of over-fitting arising from simultaneously learning complex interdependent parameters and from high-dimensional machine learning approaches. Projections are generated as probabilistic quantiles for a given scenario, health outcome, week, and location; the quantiles are predicted based on an ensemble of projections resulting from the uncertainties in data inputs and estimations. The project will also develop a novel constrained optimization-based learning approach to estimate the temporal dynamics of competing variants from genomics data.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "BIO",
+ "org_dir_long_name": "Directorate for Biological Sciences",
+ "div_abbr": "DEB",
+ "org_div_long_name": "Division Of Environmental Biology",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ajitesh",
+   "pi_last_name": "Srivastava",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ajitesh Srivastava",
+   "pi_email_addr": "ajiteshs@usc.edu",
+   "nsf_id": "000791265",
+   "pi_start_date": "2021-07-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "3740 McClintock Avenue",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900892562",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "CA37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": null,
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "096Z",
+   "pgm_ref_txt": "COVID-19 Research"
+  },
+  {
+   "pgm_ref_code": "7914",
+   "pgm_ref_txt": "RAPID"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0120",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002021RB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 186835.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project developed an epidemiological model for COVID-19 that incorporates complex underlying dynamics with vaccines, multiple variants (with different transmissibility and immune escape properties), and waning immunity. Yet it is capable of generating fast projections. Using this model, we analyzed the impact of various potential variants and vaccine uptake and coverage in the states of the US as well as countries in Europe. While these methods were developed for COVID-19, they apply to a large class of infectious diseases. We demonstrated this by using a version of our model for Influenza scenario projections. A simplified version of the model was used for generating short-term forecasts for COVID-19 and Influenza. These were run through automated scripts and communicated through a public dashboard. We developed a framework to provide confidence intervals on the impact of a decision/variable on long-term outcomes. We also developed a shape-based representation that can be used to evaluate the correctness of the shape of short-term forecasts rather than the exact values. We extended it to long-term projections as well. Beyond evaluation, we demonstrated that this representation leads to better clustering and ensembling projections coming from multiple simulations and models.</p>\n<p>Our work informed the policymakers at the CDC, European CDC, the White House, and various state public health departments. ACIP quoted our result as one of the pieces of evidence to recommend vaccines for children of age 5-11, and for recommending the timing of the reformulated boosters. The results from the project, both independently and as a part of the Scenario Modeling Hub were quoted by many media outlets thus disseminating the results to the general public. The project contributed to teaching material for a graduate-level class. The project provided research opportunities to a postdoctoral researcher and graduate students. The project also provided research opportunities to undergraduate students and a female high school student through various programs to support underrepresented students in STEM.</p><br>\n<p>\n Last Modified: 11/26/2023<br>\nModified by: Ajitesh&nbsp;Srivastava</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThe project developed an epidemiological model for COVID-19 that incorporates complex underlying dynamics with vaccines, multiple variants (with different transmissibility and immune escape properties), and waning immunity. Yet it is capable of generating fast projections. Using this model, we analyzed the impact of various potential variants and vaccine uptake and coverage in the states of the US as well as countries in Europe. While these methods were developed for COVID-19, they apply to a large class of infectious diseases. We demonstrated this by using a version of our model for Influenza scenario projections. A simplified version of the model was used for generating short-term forecasts for COVID-19 and Influenza. These were run through automated scripts and communicated through a public dashboard. We developed a framework to provide confidence intervals on the impact of a decision/variable on long-term outcomes. We also developed a shape-based representation that can be used to evaluate the correctness of the shape of short-term forecasts rather than the exact values. We extended it to long-term projections as well. Beyond evaluation, we demonstrated that this representation leads to better clustering and ensembling projections coming from multiple simulations and models.\n\n\nOur work informed the policymakers at the CDC, European CDC, the White House, and various state public health departments. ACIP quoted our result as one of the pieces of evidence to recommend vaccines for children of age 5-11, and for recommending the timing of the reformulated boosters. The results from the project, both independently and as a part of the Scenario Modeling Hub were quoted by many media outlets thus disseminating the results to the general public. The project contributed to teaching material for a graduate-level class. The project provided research opportunities to a postdoctoral researcher and graduate students. The project also provided research opportunities to undergraduate students and a female high school student through various programs to support underrepresented students in STEM.\t\t\t\t\tLast Modified: 11/26/2023\n\n\t\t\t\t\tSubmitted by: AjiteshSrivastava\n"
+ }
+}

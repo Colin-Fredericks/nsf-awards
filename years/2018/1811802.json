@@ -1,0 +1,101 @@
+{
+ "awd_id": "1811802",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: New Developments in Direct Probabilistic Inference on Interest Parameters",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Gabor Szekely",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2021-07-31",
+ "tot_intn_awd_amt": 199464.0,
+ "awd_amount": 199464.0,
+ "awd_min_amd_letter_date": "2018-05-11",
+ "awd_max_amd_letter_date": "2018-05-11",
+ "awd_abstract_narration": "The Bayesian approach to statistical learning relies on probabilistic models for all observables and unknowns.  The need to model all aspects of the problem can restrict the scope of applications and, more generally, can be a burden to the data analyst who is often only interested in certain features of the unknowns.  This project will develop a mathematically rigorous and computationally efficient framework in which Bayesian learning can be carried out directly in terms of only the features of interest.  This reduces the modeling and computational burden on the data analyst and provides new insights about Bayesian learning more generally\r\n\r\nA Bayesian approach is a powerful and rigorous framework for statistical learning.  The downside is that it requires a full model for the observables as well as all unknown quantities, the specification of which can be a burden on the data analyst. In addition to the familiar challenges of prior specification, there are also risks of misspecification biases. A more subtle complication is due to selection effects that result from considering several candidate models.  The data analyst's burden is further exaggerated in situations where only a feature of the unknowns is of interest, i.e., when there is an interest parameter and a (potentially high-dimensional) nuisance parameter and inference is required only for the former.  That is, the Bayesian approach still requires that the data analyst make non-trivial efforts to specify prior distributions and carry out posterior computations relevant only to the nuisance parameter, which can be viewed as a waste.  Yet having access to a posterior distribution for inference on the interest parameter is still a desirable feature, and the proposed research aims to develop a new framework for posterior inference directly on interest parameters.  These direct posteriors (DiPs) effectively target the interest parameter, giving data analysts an opportunity to avoid the seemingly wasteful modeling and computation efforts involving nuisance parameters.  This project will construct DiPs for finite- and infinite-dimensional interest parameters with rigorous theoretical guarantees, and will also develop efficient computational tools to facilitate DiP-based inference.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ryan",
+   "pi_last_name": "Martin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ryan Martin",
+   "pi_email_addr": "rgmarti3@ncsu.edu",
+   "nsf_id": "000548272",
+   "pi_start_date": "2018-05-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "North Carolina State University",
+  "inst_street_address": "2601 WOLF VILLAGE WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "RALEIGH",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9195152444",
+  "inst_zip_code": "276950001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "NC02",
+  "org_lgl_bus_name": "NORTH CAROLINA STATE UNIVERSITY",
+  "org_prnt_uei_num": "U3NVH931QJJ3",
+  "org_uei_num": "U3NVH931QJJ3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "North Carolina State University",
+  "perf_str_addr": "Campus Box 7514",
+  "perf_city_name": "Raleigh",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "276958203",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "NC02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "126900",
+   "pgm_ele_name": "STATISTICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 199464.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In statistics and machine learning, often the goal is to use data, models, available prior information, etc. to quantify uncertainty about unknown quantities of interest.&nbsp; In situations where the quantity of interest is not defined as a \"parameter\" of a statistical, the construction of a probability (or other probability-like structure) to quantify uncertainty can be a challenge.&nbsp; Indeed, the typical construction in such cases is indirect, i.e., express the given problem in terms of a flexible model with lots of parameters, then marginalize to the quantity of interest.&nbsp; This project focused on direct constructions, ones that use precisely the ingredients that define the quantity of interest, nothing extra that can create bias if specified incorrectly.&nbsp;</p>\n<p><br />In modern problems, especially those in machine learning applications, the quantities of interest are defined as minimizers of a suitable expected loss function.&nbsp; For example, in classification problems, the parameters that describe the optimal classification rule are those that minimize the probability of misclassification.&nbsp; For such cases, there is a natural data-dependent probability for uncertainty quantification about these expected loss minimizers, called a Gibbs posterior.&nbsp; The PI's work has focused on theoretical properties, applications, and computational strategies related to these Gibbs posteriors.&nbsp; On the theoretical side, general results for establishing the asymptotic concentration rates of Gibbs posterior distributions, with sufficient conditions that can be verified in a relatively broad range of practically relevant examples.&nbsp; On the applications side, Gibbs posterior-based methods have been (and still are being) developed for important problems in biostatistics, finance, imaging, and insurance.&nbsp; On the computational side, Gibbs posteriors have a tuning parameter whose choice affects the practical performance of these methods, and the PI has developed a general posterior calibration, or GPC algorithm that is designed to ensure that uncertainty quantification derived from the Gibbs posterior is valid.&nbsp; These are all exciting developments that make data-dependent, probabilistic uncertainty quantification about unknowns more flexible and robust that what the traditional Bayesian framework allows.&nbsp;</p>\n<p><br />On a different track, the PI is also working on the construction of data-dependent, probability-like structures for valid uncertainty quantification in statistical inference and prediction problems.&nbsp; Here, \"probability-like\" is meant to indicate that the measure being used is not actually a probability, but something more general.&nbsp; Indeed, as the PI recently showed, certain strong validity properties are incompatible with ordinary probabilities, so there is a need to consider more general tools, i.e., imprecise probabilities -- belief/plausibility functions, necessity/possibility measures, etc.&nbsp; Frameworks developed by the PI are available for imprecise-probabilistic inference, but those are largely focused on solving relatively simple problems with a well-specified models involving low-dimensional parameters.&nbsp; New results established as part of this NSF-funded project will help modernize this alternative -- but necessary -- imprecise-probabilistic perspective into a framework that can solve complex, modern problems, e.g., those without a fully-specified statistical model.&nbsp; Along the way, the PI has also established certain characterization results which reveal that *any* reliable statistical method has one of these imprecise probabilities working behind the scenes, driving the method's reliability.&nbsp; This perspective has other non-technical benefits as well; for example, the elusive and often-criticized p-values have a natural imprecise-probabilistic interpretation as the \"plausibility\" of the null hypothesis.&nbsp; Altogether, these results solidify the PI's belief that the future of statistics is imprecise.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/28/2021<br>\n\t\t\t\t\tModified by: Ryan&nbsp;Martin</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn statistics and machine learning, often the goal is to use data, models, available prior information, etc. to quantify uncertainty about unknown quantities of interest.  In situations where the quantity of interest is not defined as a \"parameter\" of a statistical, the construction of a probability (or other probability-like structure) to quantify uncertainty can be a challenge.  Indeed, the typical construction in such cases is indirect, i.e., express the given problem in terms of a flexible model with lots of parameters, then marginalize to the quantity of interest.  This project focused on direct constructions, ones that use precisely the ingredients that define the quantity of interest, nothing extra that can create bias if specified incorrectly. \n\n\nIn modern problems, especially those in machine learning applications, the quantities of interest are defined as minimizers of a suitable expected loss function.  For example, in classification problems, the parameters that describe the optimal classification rule are those that minimize the probability of misclassification.  For such cases, there is a natural data-dependent probability for uncertainty quantification about these expected loss minimizers, called a Gibbs posterior.  The PI's work has focused on theoretical properties, applications, and computational strategies related to these Gibbs posteriors.  On the theoretical side, general results for establishing the asymptotic concentration rates of Gibbs posterior distributions, with sufficient conditions that can be verified in a relatively broad range of practically relevant examples.  On the applications side, Gibbs posterior-based methods have been (and still are being) developed for important problems in biostatistics, finance, imaging, and insurance.  On the computational side, Gibbs posteriors have a tuning parameter whose choice affects the practical performance of these methods, and the PI has developed a general posterior calibration, or GPC algorithm that is designed to ensure that uncertainty quantification derived from the Gibbs posterior is valid.  These are all exciting developments that make data-dependent, probabilistic uncertainty quantification about unknowns more flexible and robust that what the traditional Bayesian framework allows. \n\n\nOn a different track, the PI is also working on the construction of data-dependent, probability-like structures for valid uncertainty quantification in statistical inference and prediction problems.  Here, \"probability-like\" is meant to indicate that the measure being used is not actually a probability, but something more general.  Indeed, as the PI recently showed, certain strong validity properties are incompatible with ordinary probabilities, so there is a need to consider more general tools, i.e., imprecise probabilities -- belief/plausibility functions, necessity/possibility measures, etc.  Frameworks developed by the PI are available for imprecise-probabilistic inference, but those are largely focused on solving relatively simple problems with a well-specified models involving low-dimensional parameters.  New results established as part of this NSF-funded project will help modernize this alternative -- but necessary -- imprecise-probabilistic perspective into a framework that can solve complex, modern problems, e.g., those without a fully-specified statistical model.  Along the way, the PI has also established certain characterization results which reveal that *any* reliable statistical method has one of these imprecise probabilities working behind the scenes, driving the method's reliability.  This perspective has other non-technical benefits as well; for example, the elusive and often-criticized p-values have a natural imprecise-probabilistic interpretation as the \"plausibility\" of the null hypothesis.  Altogether, these results solidify the PI's belief that the future of statistics is imprecise.\n\n\t\t\t\t\tLast Modified: 11/28/2021\n\n\t\t\t\t\tSubmitted by: Ryan Martin"
+ }
+}

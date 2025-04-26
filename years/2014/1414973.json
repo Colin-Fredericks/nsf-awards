@@ -1,0 +1,109 @@
+{
+ "awd_id": "1414973",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "EAPSI:Facilitating cooperation between unreliable processors without direct communication",
+ "cfda_num": "47.079",
+ "org_code": "01090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anne Emig",
+ "awd_eff_date": "2014-06-01",
+ "awd_exp_date": "2015-05-31",
+ "tot_intn_awd_amt": 5070.0,
+ "awd_amount": 5070.0,
+ "awd_min_amd_letter_date": "2014-05-29",
+ "awd_max_amd_letter_date": "2014-05-29",
+ "awd_abstract_narration": "Modern high-performance computers have many different processors that must work together to complete incoming tasks.  These processors cannot communicate efficiently, may run at different speeds, and can break down without warning.  This research will implement a new method that allows multiple, unreliable processors to complete tasks without communicating with each other directly. The processors have no prior knowledge of when the tasks will arrive, and must handle them as they come. Dividing work in this setting is a fundamental task in high-performance computing, and this research has the potential to improve performance of real systems. This work will be conducted at the National University of Singapore in collaboration with Professor Seth Gilbert, one of the inventors of this method that will provide invaluable assistance in implementation of this research.\r\n \r\nThis data structure, the dynamic to-do tree, is the first task mapping data structure for asynchronous processors and online tasks that achieves theoretical guarantees (within log3 m of optimal where m is the maximum number of concurrent tasks). The goal will be to verify that the dynamic to-do tree also achieves good practical performance. This data structure will be compared with the current state of the art, hopefully showing a significant improvement.  These results may have broader implications for less restricted versions of the problem (i.e. the tasks are given offline) and to other similar tasks such as mutual exclusion and distributed clocks. This NSF EAPSI award is funded in collaboration with the National Research Foundation of Singapore.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OISE",
+ "org_div_long_name": "Office of International Science and Engineering",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Samuel",
+   "pi_last_name": "McCauley",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Samuel R McCauley",
+   "pi_email_addr": "",
+   "nsf_id": "000660373",
+   "pi_start_date": "2014-05-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "McCauley                Samuel         R",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "Port Jefferson",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "",
+  "inst_zip_code": "117771323",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NY01",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "National University of Singapore",
+  "perf_str_addr": null,
+  "perf_city_name": "Singapore",
+  "perf_st_code": "",
+  "perf_st_name": "RI REQUIRED",
+  "perf_zip_code": "",
+  "perf_ctry_code": "SN",
+  "perf_cong_dist": "",
+  "perf_st_cong_dist": "",
+  "perf_ctry_name": "Singapore",
+  "perf_ctry_flag": "0"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "731600",
+   "pgm_ele_name": "EAPSI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5927",
+   "pgm_ref_txt": "EAST ASIA, OTHER"
+  },
+  {
+   "pgm_ref_code": "5978",
+   "pgm_ref_txt": "EAST ASIA AND PACIFIC PROGRAM"
+  },
+  {
+   "pgm_ref_code": "7316",
+   "pgm_ref_txt": "EAPSI"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 5070.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Initially, the main focus of our project was to implement a dynamic to-do tree. &nbsp;This data structure has many potential applications such as task mapping in highly parallel systems.<br />My initial meetings with Seth focused on how we should implement the data structure---what parts should be simulated, what parts should be run explicitly, and how we could achieve the best performance. &nbsp;Ultimately, we decided that the most efficient way to implement the data structure would be to use Transactional Memory. &nbsp;However, we did not have access to hardware transactional memory at the beginning of the summer, so we decided to simulate our results with software transactional memory simulators. &nbsp;Unfortunately, it quickly became clear that the overheads of software transactional memory are too significant and would alter our results. &nbsp;Meanwhile, the applications of the to-do tree already have many well-optimized (though fundamentally different) solutions---therefore, to obtain decent results, the to-do tree would have to be optimized for a particular system. &nbsp;For the remainder of the summer we chose to focus on our other projects, which showed more potential of short-term results.</p>\n<p>\n<p>Very-large-scale integration (VLSI) layouts determine how to lay out transistors and wires on a computer chip. &nbsp;Putting well-connected transistors close to each other, and minimizing the average length of wire on the chip can greatly improve performance. &nbsp;Generally these chips have very rules about how wires may be laid out---for example, it may be that only two wires can cross at a given point, or that wires can only cross at right angles. &nbsp;This topic has been studied extensively from a computational view. &nbsp;However, to our knowledge, we are the first to study the case when these layouts can change over time.<br />I collaborated with Seth Gilbert locally, and with Shikha Singh, Michael Bender, and Manoj Gupta remotely, to work on dynamic (changing over time) VLSI layouts. &nbsp;We used weight balance techniques, combined with standard amortization arguments, to achieve improved running times for adding wires, and excellent running times for adding or deleting transistors.<br />Our methods are very general. &nbsp;These performance guarantees apply to the number of operations used in designing the chip, the number of wires that must be moved on the chip, and the area of the chip that must be altered. &nbsp;Thus, the data structure is useful for many contexts---for example, whether a company wants to save money on chip design, or reduce the number of changes to the chip itself.</p>\n<p>Bloom Filters are a ubiquitous data structure with applications in databases, cloud computing, and big data. &nbsp;In short, they massively compress a data set so that each member can be stored using only a handful of bits. &nbsp;They can answer membership queries efficiently, but they have a small, bounded false positive rate which can be set arbitrarily, with only a small increase in the required space.<br />My second project in Singapore was to extend Bloom Filters to handle range queries. &nbsp;Unfortunately, recently after I had arrived, a colleague of mine informed me of a result that said that this was essentially impossible. &nbsp;Any data structure achieving Bloom Filter-like properties (in particular, the bounded false positive guarantee) for range queries requires nearly as much space as storing the original data set.<br />Thus, we modified the problem: if a small range Bloom Filter is impossible with the classical guarantees, is it possible to create a relaxed data structure that is still useful in practice? &nbsp;We focused our attention on databases. &nbsp;Generally, a Bloom Filter is stored in a cache of size M. &nbsp;When the database receives a membership query, it does a quick lookup in the cache of size M; it only does a full database search i...",
+  "por_txt_cntn": "\nInitially, the main focus of our project was to implement a dynamic to-do tree.  This data structure has many potential applications such as task mapping in highly parallel systems.\nMy initial meetings with Seth focused on how we should implement the data structure---what parts should be simulated, what parts should be run explicitly, and how we could achieve the best performance.  Ultimately, we decided that the most efficient way to implement the data structure would be to use Transactional Memory.  However, we did not have access to hardware transactional memory at the beginning of the summer, so we decided to simulate our results with software transactional memory simulators.  Unfortunately, it quickly became clear that the overheads of software transactional memory are too significant and would alter our results.  Meanwhile, the applications of the to-do tree already have many well-optimized (though fundamentally different) solutions---therefore, to obtain decent results, the to-do tree would have to be optimized for a particular system.  For the remainder of the summer we chose to focus on our other projects, which showed more potential of short-term results.\n\n\n\nVery-large-scale integration (VLSI) layouts determine how to lay out transistors and wires on a computer chip.  Putting well-connected transistors close to each other, and minimizing the average length of wire on the chip can greatly improve performance.  Generally these chips have very rules about how wires may be laid out---for example, it may be that only two wires can cross at a given point, or that wires can only cross at right angles.  This topic has been studied extensively from a computational view.  However, to our knowledge, we are the first to study the case when these layouts can change over time.\nI collaborated with Seth Gilbert locally, and with Shikha Singh, Michael Bender, and Manoj Gupta remotely, to work on dynamic (changing over time) VLSI layouts.  We used weight balance techniques, combined with standard amortization arguments, to achieve improved running times for adding wires, and excellent running times for adding or deleting transistors.\nOur methods are very general.  These performance guarantees apply to the number of operations used in designing the chip, the number of wires that must be moved on the chip, and the area of the chip that must be altered.  Thus, the data structure is useful for many contexts---for example, whether a company wants to save money on chip design, or reduce the number of changes to the chip itself.\n\nBloom Filters are a ubiquitous data structure with applications in databases, cloud computing, and big data.  In short, they massively compress a data set so that each member can be stored using only a handful of bits.  They can answer membership queries efficiently, but they have a small, bounded false positive rate which can be set arbitrarily, with only a small increase in the required space.\nMy second project in Singapore was to extend Bloom Filters to handle range queries.  Unfortunately, recently after I had arrived, a colleague of mine informed me of a result that said that this was essentially impossible.  Any data structure achieving Bloom Filter-like properties (in particular, the bounded false positive guarantee) for range queries requires nearly as much space as storing the original data set.\nThus, we modified the problem: if a small range Bloom Filter is impossible with the classical guarantees, is it possible to create a relaxed data structure that is still useful in practice?  We focused our attention on databases.  Generally, a Bloom Filter is stored in a cache of size M.  When the database receives a membership query, it does a quick lookup in the cache of size M; it only does a full database search if the element is in the Bloom Filter.  Note that this greatly improves the running time without hurting accuracy: if there is a false positive in the Bloom Filter, it will be detected by the database s..."
+ }
+}

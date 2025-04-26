@@ -1,0 +1,105 @@
+{
+ "awd_id": "1452019",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Compact Roadmaps for Planning Under Uncertainty",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Reid Simmons",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2014-08-22",
+ "awd_max_amd_letter_date": "2014-08-22",
+ "awd_abstract_narration": "Some form of uncertainty is embedded in almost all robotics applications. For example, the dynamics governing the robot or its environment cannot be modeled perfectly, or the sensors on board the robot provide noisy measurements. Hence, in many realistic scenarios, planning algorithms are faced with substantial uncertainty. Unfortunately, planning under uncertainty problems are known to be computationally challenging. \r\n\r\nThis project aims to solve planning under uncertainty problems with a new algorithmic approach utilizing compact roadmaps, which aim to strike the best balance between computational effort and performance objectives. The approach is based on new techniques and advances in understanding probability measures in high-dimensional spaces.  Expected results include: (i) a thorough theoretical analysis of compact data structures in the context of planning under uncertainty problems, which may lead to tight bounds on computational effort and performance; (ii) the development of algorithms with provable performance guarantees, and desirable computational properties. These results will advance our understanding of the computational impact of uncertainty in planning problems. Furthermore, they will lead to practical algorithms with potential for immediate impact in robotics and beyond. The experimental evaluation includes demonstration on self-driving cars. The results will be disseminated through publications in archival international robotics journals and international robotics conferences. The broader impacts also include the involvement of graduate- and undergraduate-level students in research activities and their training.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sertac",
+   "pi_last_name": "Karaman",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sertac Karaman",
+   "pi_email_addr": "sertac@MIT.EDU",
+   "nsf_id": "000635500",
+   "pi_start_date": "2014-08-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 Massachusetts Avenue",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394307",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>The project studied methods for computing controls with improved formal guarantees that properly balance critical computational tradeoffs. The applications involve planning domains with complex motion, task and real-time constraints, as well as uncertainty. To deal with these challenges, the project will build on top of the foundational progress in traditional motion planning, as well as related fields, such as graph theory, concentration of measure phenomena, and stochastic optimal control. The focus will be on allowing autonomous systems to solve complex tasks in a verifiably effective and computationally efficient manner.</span></p>\n<p><span>&nbsp;</span></p>\n<p><span>The project developed a new class of computational methods, which we call the compressed continuous computation, whereby computation is executed on compressed data structures in continuous (functional) form. The new algorithms will never explicitly discretize the state space. This will allow us to describe the complexity of a problem instance with the help of intrinsic complexity measures that are independent of the discretization, e.g., using the notion of &ldquo;function rank,&rdquo; rather than dimensionality. As a result, the new methods will break the curse of dimensionality for low-rank problems. We believe a myriad of control, estimation, inference and learning problems have, in fact, solutions with manageable rank, despite the high-dimensional nature of the underlying decision spaces. However, most existing algorithmic methods use naive data structures, such as regular grids, which become intractable rapidly with increasing dimension, even when the problem instance itself is rather tractable. <br /> </span></p>\n<p><span>We have shown that the compressed continuous computation paradigm is powerful. Applying the compressed continuous computation paradigm to dynamic programming algorithms, we were able to solve control problems in up to 7 dimensions with nonlinear dynamics and process noise. Solutions to problems at this scale were never obtained before. We estimated that the computational gains, e.g., in terms of memory and computation time reached to ten orders of magnitude, when compared to naive dynamic programming methods, such as value iteration using a grid-like discretization of the state space. In particular, in a control synthesis problem involving perching, we have shown that the naive algorithms would have require close to 10 petabytes of memory, while the proposed algorithms compute solutions in less than ten hours using a few megabytes of memory only.&nbsp;</span></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/26/2017<br>\n\t\t\t\t\tModified by: Sertac&nbsp;Karaman</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project studied methods for computing controls with improved formal guarantees that properly balance critical computational tradeoffs. The applications involve planning domains with complex motion, task and real-time constraints, as well as uncertainty. To deal with these challenges, the project will build on top of the foundational progress in traditional motion planning, as well as related fields, such as graph theory, concentration of measure phenomena, and stochastic optimal control. The focus will be on allowing autonomous systems to solve complex tasks in a verifiably effective and computationally efficient manner.\n\n \n\nThe project developed a new class of computational methods, which we call the compressed continuous computation, whereby computation is executed on compressed data structures in continuous (functional) form. The new algorithms will never explicitly discretize the state space. This will allow us to describe the complexity of a problem instance with the help of intrinsic complexity measures that are independent of the discretization, e.g., using the notion of \"function rank,\" rather than dimensionality. As a result, the new methods will break the curse of dimensionality for low-rank problems. We believe a myriad of control, estimation, inference and learning problems have, in fact, solutions with manageable rank, despite the high-dimensional nature of the underlying decision spaces. However, most existing algorithmic methods use naive data structures, such as regular grids, which become intractable rapidly with increasing dimension, even when the problem instance itself is rather tractable. \n \n\nWe have shown that the compressed continuous computation paradigm is powerful. Applying the compressed continuous computation paradigm to dynamic programming algorithms, we were able to solve control problems in up to 7 dimensions with nonlinear dynamics and process noise. Solutions to problems at this scale were never obtained before. We estimated that the computational gains, e.g., in terms of memory and computation time reached to ten orders of magnitude, when compared to naive dynamic programming methods, such as value iteration using a grid-like discretization of the state space. In particular, in a control synthesis problem involving perching, we have shown that the naive algorithms would have require close to 10 petabytes of memory, while the proposed algorithms compute solutions in less than ten hours using a few megabytes of memory only. \n\n \n\n\t\t\t\t\tLast Modified: 08/26/2017\n\n\t\t\t\t\tSubmitted by: Sertac Karaman"
+ }
+}

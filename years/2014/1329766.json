@@ -1,0 +1,101 @@
+{
+ "awd_id": "1329766",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CPS: Frontiers: Collaborative Research: ROSELINE: Enabling Robust, Secure and Efficient Knowledge of Time Across the System Stack",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "David Corman",
+ "awd_eff_date": "2014-06-15",
+ "awd_exp_date": "2019-12-31",
+ "tot_intn_awd_amt": 510000.0,
+ "awd_amount": 510000.0,
+ "awd_min_amd_letter_date": "2014-06-13",
+ "awd_max_amd_letter_date": "2014-06-13",
+ "awd_abstract_narration": "Accurate and reliable knowledge of time is fundamental to cyber-physical systems for sensing, control, performance, and energy efficient integration of computing and communications. This statement underlies the proposal. Emerging CPS applications depend on precise knowledge of time to infer location and control communication. There is a diversity of semantics used to describe time, and quality of time varies as we move up and down the system stack. System designs tend to overcompensate for these uncertainties and the result is systems that may be over designed, inefficient, and fragile.\r\n\r\nThe intellectual merit derives from the new and fundamental concept of time and the holistic measure of quality of time (QoT) that captures metrics including resolution, accuracy, and stability. The proposal builds a system stack (\"ROSELINE\") that enables new ways for clock hardware, operating system, network services, and applications to learn, maintain and exchange information about time, influence component behavior, and robustly adapt to dynamic QoT requirements, as well as to benign and adversarial changes in operating conditions. Application areas that will benefit from Quality of Time will include: smart grad, networked and coordinated control of aerospace systems, underwater sensing, and industrial automation.\r\n\r\nThe broader impact of the proposal is due to the foundational nature of the work which builds a robust and tunable quality of time that can be applied across a broad spectrum of applications that pervade modern life. The proposal will also provide valuable opportunities to integrate research and education in graduate, undergraduate, and K-12 classrooms. There will be extensive outreach through publications, open sourcing of software, and participation in activities such as the Los Angeles Computing Circle for pre-college students.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Rajesh",
+   "pi_last_name": "Gupta",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Rajesh K Gupta",
+   "pi_email_addr": "gupta@cs.ucsd.edu",
+   "nsf_id": "000449012",
+   "pi_start_date": "2014-06-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-San Diego",
+  "inst_street_address": "9500 GILMAN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "LA JOLLA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8585344896",
+  "inst_zip_code": "920930021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "50",
+  "st_cong_dist_code": "CA50",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "UYTTZT6G9DT1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-San Diego",
+  "perf_str_addr": "",
+  "perf_city_name": "La Jolla",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "920930404",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "50",
+  "perf_st_cong_dist": "CA50",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "791800",
+   "pgm_ele_name": "CPS-Cyber-Physical Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7918",
+   "pgm_ref_txt": "CYBER-PHYSICAL SYSTEMS (CPS)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 510000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>ROSELINE sought to expose and optimize the flow of timing information throughout the hardware/software stack in an attempt to make this information more precise, more controllable and useful to the overall system. The focus of UC San Diego team was on programming, software and systems applications to demonstrate gains. The multi-university team devised the notions of Timeline and Quality of Time (QoT), rather subtle notions since they could easily be mistaken for commonly understood concepts of irreversible timeline and accuracy or precision of timing information. Instead, the two notions were precisely defined for use in software systems where they made timing information programmable accessible objects that are updated and used in a controllable manner akin to object oriented data structures. The San Diego team sought programming language and runtime means to achieve deterministic timing in distributed computing platforms as well as real-time constrained applications in edge devices. Both of these implementation platforms (cloud and edge devices) were used for detailed experimentations. Among the concrete outcomes from these efforts were:</p>\n<ol>\n<li>Use and extension of GO programming language into RT-GO that used observability and controllability of operation scheduling to achieve time-constrained computations;</li>\n<li>Timing-aware applications programming via automatically time-stamped variables;</li>\n<li>Design and implementation of a unikernel in highly resource-constrained edge devices (such as a hearing aid) that provides timing guarantees in a systematic programming framework;</li>\n<li>Multi-tenant processing on mobile platforms connected to a cloud-computing stack with guarantees on real-time performance in applications such as real-time processing of images in automated driving application;</li>\n<li>Algorithmic innovations that enable real-time principle component analysis;</li>\n<li>Software demonstration platforms, Open Speech Platform (OSP) and PIBL energy-harvesting nodes with reinforcement learning capabilities that enable adaptive duty-cycling of the sensing node.</li>\n</ol>\n<p>Among the key outcomes of the project where education and training of four graduated doctoral and two master&rsquo;s students in addition to three continuing doctoral students who are within 3-6 months of graduation, 13 publications and release of OSP open, reconfigurable real-time speech processing system suitable for audiologists and hearing aid researchers to investigate new algorithms and divisions of functionality across edge and near-edge devices.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/20/2020<br>\n\t\t\t\t\tModified by: Rajesh&nbsp;K&nbsp;Gupta</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nROSELINE sought to expose and optimize the flow of timing information throughout the hardware/software stack in an attempt to make this information more precise, more controllable and useful to the overall system. The focus of UC San Diego team was on programming, software and systems applications to demonstrate gains. The multi-university team devised the notions of Timeline and Quality of Time (QoT), rather subtle notions since they could easily be mistaken for commonly understood concepts of irreversible timeline and accuracy or precision of timing information. Instead, the two notions were precisely defined for use in software systems where they made timing information programmable accessible objects that are updated and used in a controllable manner akin to object oriented data structures. The San Diego team sought programming language and runtime means to achieve deterministic timing in distributed computing platforms as well as real-time constrained applications in edge devices. Both of these implementation platforms (cloud and edge devices) were used for detailed experimentations. Among the concrete outcomes from these efforts were:\n\nUse and extension of GO programming language into RT-GO that used observability and controllability of operation scheduling to achieve time-constrained computations;\nTiming-aware applications programming via automatically time-stamped variables;\nDesign and implementation of a unikernel in highly resource-constrained edge devices (such as a hearing aid) that provides timing guarantees in a systematic programming framework;\nMulti-tenant processing on mobile platforms connected to a cloud-computing stack with guarantees on real-time performance in applications such as real-time processing of images in automated driving application;\nAlgorithmic innovations that enable real-time principle component analysis;\nSoftware demonstration platforms, Open Speech Platform (OSP) and PIBL energy-harvesting nodes with reinforcement learning capabilities that enable adaptive duty-cycling of the sensing node.\n\n\nAmong the key outcomes of the project where education and training of four graduated doctoral and two master\u2019s students in addition to three continuing doctoral students who are within 3-6 months of graduation, 13 publications and release of OSP open, reconfigurable real-time speech processing system suitable for audiologists and hearing aid researchers to investigate new algorithms and divisions of functionality across edge and near-edge devices.\n\n \n\n\t\t\t\t\tLast Modified: 05/20/2020\n\n\t\t\t\t\tSubmitted by: Rajesh K Gupta"
+ }
+}

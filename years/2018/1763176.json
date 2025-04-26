@@ -1,0 +1,105 @@
+{
+ "awd_id": "1763176",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Quantitative nonlinear time-dependent density functional theory (TDDFT) for large systems",
+ "cfda_num": "47.049",
+ "org_code": "03090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Michel Dupuis",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2023-05-31",
+ "tot_intn_awd_amt": 390000.0,
+ "awd_amount": 390000.0,
+ "awd_min_amd_letter_date": "2018-05-31",
+ "awd_max_amd_letter_date": "2022-03-31",
+ "awd_abstract_narration": "Abstract\r\nDaniel Neuhauser at the University of California, Los Angeles, is supported by an award from the Chemical Theory, Models and Computational Methods (CTMC) Program in the Chemistry Division to explore electron motion in nanomaterials in response to intense laser irradiation.  This is an interesting and complex regime where new phenomena are emerging but it remains largely unexplored since accurate theoretical and computational methods for the description of excited states can only be applied to small systems.  Dr. Neuhauser and coworkers are developing new methods which incorporate the necessary quantum mechanical effects at moderate computational costs.  A novel computational framework is being developed that merges quantum chemistry, condensed matter physics and applied mathematics through a probabilistic approach to the problem. Specific efforts are being made to involve undergraduate and high school students, and the project emphasizes leadership opportunities for graduate students and postdocs.\r\n\r\nTo obtain the fundamental physical characteristics of complex systems, a fully ab-initio quantum description is necessary.  The most suitable approach is to employ real time Time-Dependent Density Functional Theory (TDDFT) with long-range exact exchange which approximates quasiparticle energies and includes attractive electron-hole interactions.  The latter are necessary to account for excitonic effects and the redistribution of spectral weight in absorption cross sections.  However, conventional implementations severely limit the maximum size of the system that can be treated using TDDFT with exact exchange.  The project develops a stochastic TDDFT method which simulates the exchange interaction stochastically, i.e., summations over all occupied states are replaced by random sampling of the occupied Hilbert subspace, while the remaining parts of the description can be simulated traditionally.  This makes it possible to treat systems with thousands of atoms and calculate the nonlinear response for systems that could not be handled previously.  Description of the optical response of highly inhomogeneous systems, e.g., defect states, is being treated with a new Embedded Stochastic TDDFT, which combines stochastic and deterministic TDDFT for different regions of space. Mentoring of students ranging from high school to postdoctoral status is provided through this work, and the software developed is being made available to the wider community.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "CHE",
+ "org_div_long_name": "Division Of Chemistry",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Neuhauser",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Neuhauser",
+   "pi_email_addr": "dxn@ucla.edu",
+   "nsf_id": "000443201",
+   "pi_start_date": "2018-05-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Los Angeles",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900951569",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "688100",
+   "pgm_ele_name": "Chem Thry, Mdls & Cmptnl Mthds"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8084",
+   "pgm_ref_txt": "CDS&E"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 390000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The major goal of the current project, funded under NSF Grant CHE-1763176, is to develop an efficient time dependent density functional theory (TDDFT) algorithm that can be used to accurately model the non-linear response of materials to external perturbations. Traditional TDDFT has a favorable O(N<sup>2</sup>) scaling only when an adiabatic local or semi-local functional is used. However, such functionals do not provide an accurate description of long-range many-body effects.&nbsp;These functionals have poor accuracy for most materials, and so exact exchange interactions must be included to achieve useful results.</p>\n<p>&nbsp;</p>\n<p>Traditional exchange is too expensive for large systems, typically with cubic scaling in the most advanced publicly available codes. Thus, our goal is to develop a code where exchange is evaluated stochastically.&nbsp;The idea of stochastic TDDFT is to propagate stochastic orbitals filtered onto the occupied subspace, instead of propagating each of the occupied states. For large systems, a stochastic orbital carries contributions from hundreds of occupied states. The advantage of using stochastic orbitals is that the number of stochastic samples required does not increase with system size. Often, due to self-averaging effect, the number is actually reduced in large systems. Therefore, the stochastic TDDFT scales linearly or sometimes sub-linearly with system size.</p>\n<p>&nbsp;</p>\n<p>We have developed a number of variants on this code and applied it to many systems. The current version of the code has stochastic exchange for DFT and TDDFT, and uses the library libxc to implement many of the standard functionals of the field.</p>\n<p>&nbsp;</p>\n<p>First, we developed a stochastic embedding scheme, allowing for only specific atoms within a subsystem to be treated with deterministic exchange. We then applied this to p-nitroaniline in water, where only a handful of the 216 water molecules were treated with deterministic exchange.</p>\n<p>&nbsp;</p>\n<p>The next application of stochastic exchange in TDDFT involved substantial effort to develop the formalism for plane-augmented-wave (PAW) pseudopotentials in the stochastic DFT formalism. PAW pseudopotentials treat the core of the atoms with a substantially softer potential that uses fewer computational resources, and thus this a substantial improvement in the full methodology.</p>\n<p>&nbsp;</p>\n<p>Additionally, we by separating the occupied orbitals into a near-fermi energy valence band which is treated deterministically, and a stochastic exchange on the remainder, we were able to improve our stochastic formalism for the calculation of strong field higher-harmonic spectra (HHG). We successfully calculated HHG spectra for molecules as large as Si<sub>35</sub>H<sub>36.<strong>&nbsp;</strong></sub></p>\n<p>&nbsp;</p>\n<p>Lastly, we implemented stochastic exchange in a new iterative form while developing a stochastic formalism of the Bethe-Salpeter Equation, a many-body perturbation theory method that is highly similar to TDDFT in the core computational components. In this work, we noticed we were able to generate the highly expensive coulomb 2-electron integrals, that use a screened interaction in BSE specifically, by completing a stochastic TD-H calculation that was linear in time. This eliminated the need to solve for all exchange integrals, reducing costs of the method. We were able to calculate the full BSE-spectra of a 520-electron molecule using fewer than 5000 core-hours.</p>\n<p>&nbsp;</p>\n<p>This grant has supported one former post-doc (now assistant professor at UCSB), and what has been seven different PhD students over the lifetime of this grant, and many undergraduate summer researchers. One students has graduated from the group during the life of this grant, and three more are set to graduate in the next year.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/30/2023<br>\n\t\t\t\t\tModified by: Daniel&nbsp;Neuhauser</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe major goal of the current project, funded under NSF Grant CHE-1763176, is to develop an efficient time dependent density functional theory (TDDFT) algorithm that can be used to accurately model the non-linear response of materials to external perturbations. Traditional TDDFT has a favorable O(N2) scaling only when an adiabatic local or semi-local functional is used. However, such functionals do not provide an accurate description of long-range many-body effects. These functionals have poor accuracy for most materials, and so exact exchange interactions must be included to achieve useful results.\n\n \n\nTraditional exchange is too expensive for large systems, typically with cubic scaling in the most advanced publicly available codes. Thus, our goal is to develop a code where exchange is evaluated stochastically. The idea of stochastic TDDFT is to propagate stochastic orbitals filtered onto the occupied subspace, instead of propagating each of the occupied states. For large systems, a stochastic orbital carries contributions from hundreds of occupied states. The advantage of using stochastic orbitals is that the number of stochastic samples required does not increase with system size. Often, due to self-averaging effect, the number is actually reduced in large systems. Therefore, the stochastic TDDFT scales linearly or sometimes sub-linearly with system size.\n\n \n\nWe have developed a number of variants on this code and applied it to many systems. The current version of the code has stochastic exchange for DFT and TDDFT, and uses the library libxc to implement many of the standard functionals of the field.\n\n \n\nFirst, we developed a stochastic embedding scheme, allowing for only specific atoms within a subsystem to be treated with deterministic exchange. We then applied this to p-nitroaniline in water, where only a handful of the 216 water molecules were treated with deterministic exchange.\n\n \n\nThe next application of stochastic exchange in TDDFT involved substantial effort to develop the formalism for plane-augmented-wave (PAW) pseudopotentials in the stochastic DFT formalism. PAW pseudopotentials treat the core of the atoms with a substantially softer potential that uses fewer computational resources, and thus this a substantial improvement in the full methodology.\n\n \n\nAdditionally, we by separating the occupied orbitals into a near-fermi energy valence band which is treated deterministically, and a stochastic exchange on the remainder, we were able to improve our stochastic formalism for the calculation of strong field higher-harmonic spectra (HHG). We successfully calculated HHG spectra for molecules as large as Si35H36. \n\n \n\nLastly, we implemented stochastic exchange in a new iterative form while developing a stochastic formalism of the Bethe-Salpeter Equation, a many-body perturbation theory method that is highly similar to TDDFT in the core computational components. In this work, we noticed we were able to generate the highly expensive coulomb 2-electron integrals, that use a screened interaction in BSE specifically, by completing a stochastic TD-H calculation that was linear in time. This eliminated the need to solve for all exchange integrals, reducing costs of the method. We were able to calculate the full BSE-spectra of a 520-electron molecule using fewer than 5000 core-hours.\n\n \n\nThis grant has supported one former post-doc (now assistant professor at UCSB), and what has been seven different PhD students over the lifetime of this grant, and many undergraduate summer researchers. One students has graduated from the group during the life of this grant, and three more are set to graduate in the next year.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 06/30/2023\n\n\t\t\t\t\tSubmitted by: Daniel Neuhauser"
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "awd_id": "1835764",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Framework: Software: NSCI: Collaborative Research: Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy Systems",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922656",
+ "po_email": "vchandol@nsf.gov",
+ "po_sign_block_name": "Varun Chandola",
+ "awd_eff_date": "2018-11-01",
+ "awd_exp_date": "2023-10-31",
+ "tot_intn_awd_amt": 2850000.0,
+ "awd_amount": 2866000.0,
+ "awd_min_amd_letter_date": "2018-09-12",
+ "awd_max_amd_letter_date": "2021-02-04",
+ "awd_abstract_narration": "Modern high performance computing (HPC) applications generate massive amounts of data. However, the performance improvement of disk based storage systems has been much slower than that of memory, creating a significant Input/Output (I/O) performance gap. To reduce the performance gap, storage subsystems are under extensive changes, adopting new technologies and adding more layers into the memory/storage hierarchy. With a deeper memory hierarchy, the data movement complexity of memory systems is increased significantly, making it harder to utilize the potential of the deep memory and storage hierarchy (DMSH) design. As we move towards the exascale era, I/O bottleneck is a must to solve performance bottleneck facing the HPC community. DMSHs with multiple levels of memory/storage layers offer a feasible solution but are very complex to use  effectively. Ideally, the presence of multiple layers of storage should be transparent to applications without having to sacrifice I/O performance. There is a need  to enhance and extend current software systems to support data access and movement transparently and effectively under DMSHs. Hierarchical Data Format (HDF) technologies are a set of current I/O solutions addressing the problems in organizing, accessing, analyzing, and preserving data. HDF5 library is widely popular within the scientific community. Among the high level I/O libraries used in DOE labs, HDF5 is the undeniable leader with 99% of the share. HDF5 addresses the I/O bottleneck by hiding the complexity of performing coordinated I/O to single, shared files, and by encapsulating general purpose optimizations. While HDF technologies, like other existing I/O middleware, are not designed to support DMSHs, its wide popularity and its middleware nature make HDF5 an ideal candidate to enable, manage, and supervise I/O buffering under DMSHs. This project proposes the development of Hermes, a heterogeneous aware, multi tiered, dynamic, and distributed I/O buffering system that will significantly accelerate I/O performance. \r\n\r\nThis project  proposes to extend HDF technologies with the Hermes design. Hermes is new,  and the enhancement of HDF5 is new. The deliveries of this research include an enhanced HDF5 library, a set of extended HDF technologies, and a group of general I/O buffering and memory system optimization mechanisms and methods. We believe that the combination of DMSH I/O buffering and HDF technologies is a reachable practical solution that can efficiently support scientific discovery. Hermes will advance HDF5 core technology by developing new buffering algorithms and mechanisms to support 1) vertical and horizontal buffering in DMSHs: here vertical means access data to/from different levels locally and horizontal means spread/gather data across remote compute nodes; 2) selective buffering via HDF5: here selective means some memory layer, e.g. NVMe, only for selected data; 3) dynamic buffering via online system profiling: the buffering schema can be changed dynamically based on messaging traffic; 4) adaptive buffering via Reinforcement Learning: by learning the application's access pattern, we can adapt prefetching algorithms and cache replacement policies at runtime. The development Hermes will be translated into high quality dependable software and will be released with the core HDF5 library.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Xian-He",
+   "pi_last_name": "Sun",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Xian-He Sun",
+   "pi_email_addr": "sun@iit.edu",
+   "nsf_id": "000318956",
+   "pi_start_date": "2018-09-12",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Gerd",
+   "pi_last_name": "Heber",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gerd Heber",
+   "pi_email_addr": "gheber@hdfgroup.org",
+   "nsf_id": "000593356",
+   "pi_start_date": "2021-02-04",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Former Co-Principal Investigator",
+   "pi_first_name": "Ann",
+   "pi_last_name": "Johnson",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ann Johnson",
+   "pi_email_addr": "ann.johnson@hdfgroup.org",
+   "nsf_id": "000776669",
+   "pi_start_date": "2018-09-12",
+   "pi_end_date": "2018-11-20"
+  },
+  {
+   "pi_role": "Former Co-Principal Investigator",
+   "pi_first_name": "Elena",
+   "pi_last_name": "Pourmal",
+   "pi_mid_init": "I",
+   "pi_sufx_name": "",
+   "pi_full_name": "Elena I Pourmal",
+   "pi_email_addr": "elena.pourmal@lifeboat.llc",
+   "nsf_id": "000792264",
+   "pi_start_date": "2018-11-20",
+   "pi_end_date": "2021-02-04"
+  }
+ ],
+ "inst": {
+  "inst_name": "Illinois Institute of Technology",
+  "inst_street_address": "10 W 35TH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHICAGO",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "3125673035",
+  "inst_zip_code": "606163717",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "IL01",
+  "org_lgl_bus_name": "ILLINOIS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "E2NDENMDUEG8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Illinois Institute of Technology",
+  "perf_str_addr": "Department of Computer Science,",
+  "perf_city_name": "Chicago",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "606163717",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "IL01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  },
+  {
+   "pgm_ref_code": "7925",
+   "pgm_ref_txt": "LARGE PROJECT"
+  },
+  {
+   "pgm_ref_code": "8004",
+   "pgm_ref_txt": "Software Institutes"
+  },
+  {
+   "pgm_ref_code": "077Z",
+   "pgm_ref_txt": "CSSI-1: Cyberinfr for Sustained Scientif"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0120",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 2850000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 16000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In an era dominated by data, this project, funded by the National Science Foundation, has pioneered new frontiers in scientific computing. The project set out to address a pressing challenge in scientific computing: <em>the need for efficient data management in complex multi-tiered storage systems</em>. The project team has introduced Hermes, an innovative data buffering system, designed to optimize data access and performance for large-scale scientific applications, propelling forward the realms of simulation and numerical computations, data analysis, and visualization. Over five years, Hermes has achieved remarkable milestones: a) Developed the Hermes core library, featuring advanced buffering algorithms designed specifically for complex storage setups. b) Demonstrated unparalleled scalability and efficiency, with the capacity to manage vast data volumes and concurrent I/O operations seamlessly. c) Enabled remarkable performance improvements in data-intensive applications, thus accelerating research and discovery processes. For instance, Hermes significantly enhanced the performance of the Grey-Scott simulation, a model used for studying the interactions and diffusion of two chemical species within a medium. By accelerating data access speeds by 4x, Hermes enabled researchers to handle massive datasets and facilitated high-throughput data analysis and visualization, showcasing this project&rsquo;s pivotal role in advancing data-intensive research and its applications.</p>\n<p>Beyond its technical achievements, Hermes has also fostered a collaborative community of researchers and practitioners. The Hermes project team engaged with a diverse range of science and engineering partners to refine the system and accelerate its adoption in real-world applications. Hermes is released as open-source software, encouraging collaboration and innovation. The Hermes library has gained traction among early adopters, including leading research institutions and science partners. The Hermes community is vibrant and growing, with significant metrics to showcase its impact: a) Over 65,000 lines of code over thousands of source code commits, dozens of academic papers, and hundreds of academic citations underline Hermes&rsquo; scientific relevance and utility. b) Adoption by large-scale scientific applications at several national laboratories and supercomputer sites showcases Hermes' real-world applicability. c) The project has captivated a global audience, with thousands of online digital impressions, hundreds of webinar and exhibition attendees, demonstrating widespread interest and engagement.</p>\n<p>Hermes has enriched academic curricula, incorporating its findings into core computer science courses. Approximately 400 students have been exposed to enhanced curricula featuring Hermes, preparing them for future careers in high-performance computing. This educational outreach ensures the next generation of scientists and engineers are well-equipped with the knowledge and skills to tackle forthcoming challenges.</p>\n<p>Beyond academia, Hermes harbors the potential to revolutionize data management across various sectors. Hermes' innovative approach to data management, capable of supporting extreme-scale computing systems efficiently, highlights its versatility and capacity to influence commercial systems profoundly. The Hermes library is poised to become the \"operating system\" for multi-tiered storage, enabling efficient and scalable data management in data-intensive environments. As we look to the future, the Hermes project continues to explore opportunities for technology transfer and commercialization, aiming to extend its benefits beyond the scientific community. The project's findings and technologies are poised to guide the design and deployment of future data management infrastructures, ensuring our nation&rsquo;s continued leadership in data processing infrastructure globally.</p>\n<p>The Hermes project represents a transformative force in high-performance computing, revolutionizing data management with its advanced library, performance enhancements, and commitment to community and education. Its impact extends from accelerating scientific research to potential applications in commercial systems, embodying a bridge between theoretical innovation and practical application. As Hermes continues to evolve, it promises to empower more scientists, engineers, and industries to overcome complex data challenges, driving forward the frontiers of knowledge and technology.</p>\n<p>Moving forward, the project invites engagement and contributions from the research and development community to further its goals. The scope of potential contributions includes, but is not limited to, feature development, bug fixes, scalability enhancements, and the expansion of data API support. Contributions from researchers, developers, and practitioners are invaluable for the continuous improvement and success of Hermes. Engagement in the project can take various forms, from utilizing the system in scientific research to contributing to its codebase or providing feedback on functionality and performance. For detailed information on the Hermes project and to explore avenues for contribution and collaboration, please visit: <a href=\"https://grc.iit.edu/research/projects/hermes\">grc.iit.edu/research/projects/hermes</a></p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 03/07/2024<br>\nModified by: Xian-He&nbsp;Sun</p></div>\n<div class=\"porSideCol\"\n><div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2024/1835764/1835764_10582325_1709854087278_Picture1--rgov-214x142.png\" original=\"/por/images/Reports/POR/2024/1835764/1835764_10582325_1709854087278_Picture1--rgov-800width.png\" title=\"Hermes\"><img src=\"/por/images/Reports/POR/2024/1835764/1835764_10582325_1709854087278_Picture1--rgov-66x44.png\" alt=\"Hermes\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">the logo of the Hermes project</div>\n<div class=\"imageCredit\">The Hermes team</div>\n<div class=\"imagePermisssions\">Royalty-free (unrestricted use)</div>\n<div class=\"imageSubmitted\">Xian-He&nbsp;Sun\n<div class=\"imageTitle\">Hermes</div>\n</div>\n</li></ul>\n</div>\n</div></div>\n</div>\n",
+  "por_txt_cntn": "\n\nIn an era dominated by data, this project, funded by the National Science Foundation, has pioneered new frontiers in scientific computing. The project set out to address a pressing challenge in scientific computing: the need for efficient data management in complex multi-tiered storage systems. The project team has introduced Hermes, an innovative data buffering system, designed to optimize data access and performance for large-scale scientific applications, propelling forward the realms of simulation and numerical computations, data analysis, and visualization. Over five years, Hermes has achieved remarkable milestones: a) Developed the Hermes core library, featuring advanced buffering algorithms designed specifically for complex storage setups. b) Demonstrated unparalleled scalability and efficiency, with the capacity to manage vast data volumes and concurrent I/O operations seamlessly. c) Enabled remarkable performance improvements in data-intensive applications, thus accelerating research and discovery processes. For instance, Hermes significantly enhanced the performance of the Grey-Scott simulation, a model used for studying the interactions and diffusion of two chemical species within a medium. By accelerating data access speeds by 4x, Hermes enabled researchers to handle massive datasets and facilitated high-throughput data analysis and visualization, showcasing this projects pivotal role in advancing data-intensive research and its applications.\n\n\nBeyond its technical achievements, Hermes has also fostered a collaborative community of researchers and practitioners. The Hermes project team engaged with a diverse range of science and engineering partners to refine the system and accelerate its adoption in real-world applications. Hermes is released as open-source software, encouraging collaboration and innovation. The Hermes library has gained traction among early adopters, including leading research institutions and science partners. The Hermes community is vibrant and growing, with significant metrics to showcase its impact: a) Over 65,000 lines of code over thousands of source code commits, dozens of academic papers, and hundreds of academic citations underline Hermes scientific relevance and utility. b) Adoption by large-scale scientific applications at several national laboratories and supercomputer sites showcases Hermes' real-world applicability. c) The project has captivated a global audience, with thousands of online digital impressions, hundreds of webinar and exhibition attendees, demonstrating widespread interest and engagement.\n\n\nHermes has enriched academic curricula, incorporating its findings into core computer science courses. Approximately 400 students have been exposed to enhanced curricula featuring Hermes, preparing them for future careers in high-performance computing. This educational outreach ensures the next generation of scientists and engineers are well-equipped with the knowledge and skills to tackle forthcoming challenges.\n\n\nBeyond academia, Hermes harbors the potential to revolutionize data management across various sectors. Hermes' innovative approach to data management, capable of supporting extreme-scale computing systems efficiently, highlights its versatility and capacity to influence commercial systems profoundly. The Hermes library is poised to become the \"operating system\" for multi-tiered storage, enabling efficient and scalable data management in data-intensive environments. As we look to the future, the Hermes project continues to explore opportunities for technology transfer and commercialization, aiming to extend its benefits beyond the scientific community. The project's findings and technologies are poised to guide the design and deployment of future data management infrastructures, ensuring our nations continued leadership in data processing infrastructure globally.\n\n\nThe Hermes project represents a transformative force in high-performance computing, revolutionizing data management with its advanced library, performance enhancements, and commitment to community and education. Its impact extends from accelerating scientific research to potential applications in commercial systems, embodying a bridge between theoretical innovation and practical application. As Hermes continues to evolve, it promises to empower more scientists, engineers, and industries to overcome complex data challenges, driving forward the frontiers of knowledge and technology.\n\n\nMoving forward, the project invites engagement and contributions from the research and development community to further its goals. The scope of potential contributions includes, but is not limited to, feature development, bug fixes, scalability enhancements, and the expansion of data API support. Contributions from researchers, developers, and practitioners are invaluable for the continuous improvement and success of Hermes. Engagement in the project can take various forms, from utilizing the system in scientific research to contributing to its codebase or providing feedback on functionality and performance. For detailed information on the Hermes project and to explore avenues for contribution and collaboration, please visit: grc.iit.edu/research/projects/hermes\n\n\n\t\t\t\t\tLast Modified: 03/07/2024\n\n\t\t\t\t\tSubmitted by: Xian-HeSun\n"
+ }
+}

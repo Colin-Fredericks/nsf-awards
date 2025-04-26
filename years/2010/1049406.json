@@ -1,0 +1,109 @@
+{
+ "awd_id": "1049406",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Human-Centered Software Synthesis",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2010-08-15",
+ "awd_exp_date": "2011-07-31",
+ "tot_intn_awd_amt": 90000.0,
+ "awd_amount": 90000.0,
+ "awd_min_amd_letter_date": "2010-08-07",
+ "awd_max_amd_letter_date": "2010-08-07",
+ "awd_abstract_narration": "This project is developing a new programming model that simplifies the development of complex low-level system's code. In the new model, the programmer starts by providing simple diagrams and animations showing some of the high-level insight behind an implementation. After interacting with the user to clarify any potential omissions or inconsistencies, the system automatically derives a correct implementation.  The interactions are designed to expose gaps in the programmer's reasoning, and to capture new insights in the form of diagrams, invariants, or simple unit tests. As a result, the tool helps the programmer achieve an improved understanding of the problem in addition to delivering an implementation.\r\n\r\nThe new programming model is supported by a new breed of software synthesis algorithms that work by framing the synthesis problem as a constraint satisfaction problem. In this approach, the different forms of input provided by the programmer are independently translated into constraints. At the high-level, the approach is fairly simple; the challenge lies in finding efficient representations for both the program and the constraints.  The graphical formalisms in particular pose some interesting problems due to their many omissions, but a combination of abstract interpretation and demand-driven constraint generation make this problem tractable.\r\n\r\nThe new programming model embodies a human-centered approach to synthesis that could transform the way complex pieces of systems code are developed, and could show the way for a new generation of programming tools that combine formal methods with HCI to make programming easier and more reliable.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Armando",
+   "pi_last_name": "Solar-Lezama",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Armando Solar-Lezama",
+   "pi_email_addr": "asolar@csail.mit.edu",
+   "nsf_id": "000541631",
+   "pi_start_date": "2010-08-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794400",
+   "pgm_ele_name": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 90000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project explored new directions in software synthesis---the use of computing power to help programmers write software. In order for the computer to help programmers write software, the machine needs to be told about the programmer's intent, and this is one of the big challenges in this field: describing the programmer's intent clearly and unambiguously in terms that a machine can understand can be just as hard as writing a program. The goal for this project was to explore new forms of interaction between the programmer and the software synthesizer that allowed programmers to easily offload some of the effort of programming to a synthesis tool.</p>\n<p><br />Intellectual Merit: <br />The main contribution of this work was to demonstrate a new technique that allows programmers to communicate their intent in ways that mimic the formalisms they use to communicate with each other. Specifically, we showed that we could automatically synthesize non-trivial pieces of code from textual descriptions of diagrams like the ones programmers use to describe a complicated algorithm on a whiteboard. These diagrams usually describe the behavior of the algorithm on some sample input; making sense of these diagrams, therefore, requires piecing together insights from different examples and generalizing from them. This work was published in the 2011 ACM Symposium on the Foundations of Software Engineering.</p>\n<p><br />Our work also explored a different way for programmers to interact with a synthesis engine in the context of a large existing piece of software. We found that when working with big software frameworks, programmers sometimes know that they need two components to interact with each other, but they don't know how to get these two components to work together. We found that given the names of the two components in question, it is possible to automatically find how to get them to interact by automatically analyzing how they are used in other places within the framework. The MIT news office produced a nice piece about this work which can be found here: <a href=\"http://web.mit.edu/newsoffice/2011/object-oriented-oracle-1007.html\">http://web.mit.edu/newsoffice/2011/object-oriented-oracle-1007.html</a><br />The results were also published in the 2011 ACM sponsored OOPSLA-SPLASH conference.</p>\n<p>&nbsp;Broader Impact:</p>\n<p>The main impact of our tool work will be in improving programmer productivity. For example, in a controlled user study, we found that one of the prototypes we developed for this project could increase programmer productivity by close to 50%.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/09/2012<br>\n\t\t\t\t\tModified by: Armando&nbsp;Solar-Lezama</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project explored new directions in software synthesis---the use of computing power to help programmers write software. In order for the computer to help programmers write software, the machine needs to be told about the programmer's intent, and this is one of the big challenges in this field: describing the programmer's intent clearly and unambiguously in terms that a machine can understand can be just as hard as writing a program. The goal for this project was to explore new forms of interaction between the programmer and the software synthesizer that allowed programmers to easily offload some of the effort of programming to a synthesis tool.\n\n\nIntellectual Merit: \nThe main contribution of this work was to demonstrate a new technique that allows programmers to communicate their intent in ways that mimic the formalisms they use to communicate with each other. Specifically, we showed that we could automatically synthesize non-trivial pieces of code from textual descriptions of diagrams like the ones programmers use to describe a complicated algorithm on a whiteboard. These diagrams usually describe the behavior of the algorithm on some sample input; making sense of these diagrams, therefore, requires piecing together insights from different examples and generalizing from them. This work was published in the 2011 ACM Symposium on the Foundations of Software Engineering.\n\n\nOur work also explored a different way for programmers to interact with a synthesis engine in the context of a large existing piece of software. We found that when working with big software frameworks, programmers sometimes know that they need two components to interact with each other, but they don't know how to get these two components to work together. We found that given the names of the two components in question, it is possible to automatically find how to get them to interact by automatically analyzing how they are used in other places within the framework. The MIT news office produced a nice piece about this work which can be found here: http://web.mit.edu/newsoffice/2011/object-oriented-oracle-1007.html\nThe results were also published in the 2011 ACM sponsored OOPSLA-SPLASH conference.\n\n Broader Impact:\n\nThe main impact of our tool work will be in improving programmer productivity. For example, in a controlled user study, we found that one of the prototypes we developed for this project could increase programmer productivity by close to 50%.\n\n\t\t\t\t\tLast Modified: 01/09/2012\n\n\t\t\t\t\tSubmitted by: Armando Solar-Lezama"
+ }
+}

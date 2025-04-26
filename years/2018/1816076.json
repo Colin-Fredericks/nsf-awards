@@ -1,0 +1,113 @@
+{
+ "awd_id": "1816076",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: CORE: Small: Collaborative: Proof of Work Without All the Work",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032928643",
+ "po_email": "skiesler@nsf.gov",
+ "po_sign_block_name": "Sara Kiesler",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 249019.0,
+ "awd_amount": 249019.0,
+ "awd_min_amd_letter_date": "2018-07-23",
+ "awd_max_amd_letter_date": "2018-07-23",
+ "awd_abstract_narration": "Proof-of-work (PoW) is an economic tool used to deter network attacks by requiring participants to perform verifiable work, typically by solving computational puzzles. Unfortunately, there is a significant barrier impeding wide-spread applicability: PoW is expensive. This project aims to significantly reduce the cost of PoW schemes, and thereby broaden their utility.  Our general model concerns a distributed system consisting of good and bad identifiers (IDs).  The good IDs have two goals: (1) ensure fair sharing of a limited resource; and (2) securely perform distributed computations.  The bad IDs are controlled by an attacker who possesses a constant fraction of the computational resources, and tries to subvert these goals. An important security objective is to develop mechanisms that preserve these goals while incurring bandwidth and computational costs that scale with the magnitude of an attack. That is, when there is no attack, costs are low; conversely, when there is an attack, the good IDs' cost grows commensurately with the attacker's cost.  \r\n\r\nThis project focuses on the design of distributed algorithms for: (i) tolerating large attacks while having good IDs spend asymptotically less than the attacker; (ii) handling a setting where participants are selfish but rational; and (iii) designing fast and robust diffuse protocols via attack-resistant overlays with low state and bandwidth costs. The project provides research experience for undergraduate and underrepresented students, incorporates state-of-the-art results into course development, and establishes a workshop venue for cybersecurity researchers to share their findings.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Maxwell",
+   "pi_last_name": "Young",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Maxwell Young",
+   "pi_email_addr": "maxwelly@outlook.com",
+   "nsf_id": "000663874",
+   "pi_start_date": "2018-07-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Mississippi State University",
+  "inst_street_address": "245 BARR AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "MISSISSIPPI STATE",
+  "inst_state_code": "MS",
+  "inst_state_name": "Mississippi",
+  "inst_phone_num": "6623257404",
+  "inst_zip_code": "39762",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "MS03",
+  "org_lgl_bus_name": "MISSISSIPPI STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NTXJM52SHKS7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Mississippi State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MS",
+  "perf_st_name": "Mississippi",
+  "perf_zip_code": "397629662",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "MS03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 249019.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>There are several significant outcomes from this grant.</p>\n<p>The overall goal of this project has been to design, analyze, and experiment with scalable algorithms that leverage proof of work (PoW) --- or more generally, resource burning (RB) --- to mitigate attacks on distributed systems. Here, the notion of a resource is general; for example, it may be computational power, computer memory, bandwidth, or human effort. While PoW/RB already plays a role in system security, our approach differs significantly by designing algorithms that impose a higher RB cost on the attacker relative to the defender(s).&nbsp;</p>\n<p>A major result is a defense against the Sybil attack in general networks. This attack occurs when an adversary controls many virtual identifiers (IDs) in the system and uses them to derail important functionality; notably, the number of such bad IDs can be larger than the number of legitimate (i.e., good) IDs. In comparison to prior results, key improvements of our defense are that it (i) tolerates a high degree of system membership change and (ii) imposes a higher asymptotic cost on the bad IDs relative to the good IDs. This work was published in the IEEE International Parallel and Distributed Processing Symposium (IPDPS) and the IEEE International Conference on Distributed Computing Systems (ICDCS).</p>\n<p>A second major result addresses coordinating access by devices to a shared communication channel. This problem --- referred to as contention resolution --- arises often in wireless networks, since devices must coordinate one-at-a-time access to this channel in order to transmit data; if two or more devices transmit at the same time, all corresponding transmissions fail (i.e., they collide).&nbsp;In this setting, the resource being ``burned'' is energy, which is expended each time a device accesses the channel. Against an adversary that can deliberately cause collisions using bad/faulty devices, we are interested in showing good channel utilization in slots without collisions, and an asymptotic energy advantage of the good devices over the bad/faulty ones. We designed a contention-resolution algorithm with optimal expected channel utilization and that requires each good device to transmit at most a number of times that is logarithmic in the system size plus the number of slots with a collision caused by the adversary. This was published in one of the top computer science journals: Journal of the ACM. Additionally, we published related results that show (i) contention resolution can be solved efficiently when transmissions have delivery deadlines, and (ii) the analysis of several well-known contention-resolution protocols can be simplified via the use of basic probabilistic tools.</p>\n<p>A third major result concerns denial-of-service (DoS) attacks, where an adversary may consume the resources of a server by overwhelming it with requests for service (i.e., a job). A well-known defensive technique is to have each client solve an RB challenge prior to receiving service. Our result differs by guaranteeing an asymptotically higher cost is imposed on bad IDs than on good IDs. Why is this useful? &nbsp;DoS attacks no longer necessarily threaten availability, since services can be massively replicated in the cloud. Thus, in many cases, it is the cost of mitigating an attack that becomes a point of vulnerability; this is often referred to as an Economic Denial of Sustainability (EDoS) attack. By lowering defender's cost relative to the attacker's cost, our new result mitigates EDoS attacks.</p>\n<p>Finally, this grant provided support for Mississippi State University PhD students Trisha Chakraborty and Daniel Rayborn. It also facilitated research experiences for a local high school student, Alice Calvert, and a Mississippi State University undergraduate student, Jackson De Gruiter.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/29/2022<br>\n\t\t\t\t\tModified by: Maxwell&nbsp;Young</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThere are several significant outcomes from this grant.\n\nThe overall goal of this project has been to design, analyze, and experiment with scalable algorithms that leverage proof of work (PoW) --- or more generally, resource burning (RB) --- to mitigate attacks on distributed systems. Here, the notion of a resource is general; for example, it may be computational power, computer memory, bandwidth, or human effort. While PoW/RB already plays a role in system security, our approach differs significantly by designing algorithms that impose a higher RB cost on the attacker relative to the defender(s). \n\nA major result is a defense against the Sybil attack in general networks. This attack occurs when an adversary controls many virtual identifiers (IDs) in the system and uses them to derail important functionality; notably, the number of such bad IDs can be larger than the number of legitimate (i.e., good) IDs. In comparison to prior results, key improvements of our defense are that it (i) tolerates a high degree of system membership change and (ii) imposes a higher asymptotic cost on the bad IDs relative to the good IDs. This work was published in the IEEE International Parallel and Distributed Processing Symposium (IPDPS) and the IEEE International Conference on Distributed Computing Systems (ICDCS).\n\nA second major result addresses coordinating access by devices to a shared communication channel. This problem --- referred to as contention resolution --- arises often in wireless networks, since devices must coordinate one-at-a-time access to this channel in order to transmit data; if two or more devices transmit at the same time, all corresponding transmissions fail (i.e., they collide). In this setting, the resource being ``burned'' is energy, which is expended each time a device accesses the channel. Against an adversary that can deliberately cause collisions using bad/faulty devices, we are interested in showing good channel utilization in slots without collisions, and an asymptotic energy advantage of the good devices over the bad/faulty ones. We designed a contention-resolution algorithm with optimal expected channel utilization and that requires each good device to transmit at most a number of times that is logarithmic in the system size plus the number of slots with a collision caused by the adversary. This was published in one of the top computer science journals: Journal of the ACM. Additionally, we published related results that show (i) contention resolution can be solved efficiently when transmissions have delivery deadlines, and (ii) the analysis of several well-known contention-resolution protocols can be simplified via the use of basic probabilistic tools.\n\nA third major result concerns denial-of-service (DoS) attacks, where an adversary may consume the resources of a server by overwhelming it with requests for service (i.e., a job). A well-known defensive technique is to have each client solve an RB challenge prior to receiving service. Our result differs by guaranteeing an asymptotically higher cost is imposed on bad IDs than on good IDs. Why is this useful?  DoS attacks no longer necessarily threaten availability, since services can be massively replicated in the cloud. Thus, in many cases, it is the cost of mitigating an attack that becomes a point of vulnerability; this is often referred to as an Economic Denial of Sustainability (EDoS) attack. By lowering defender's cost relative to the attacker's cost, our new result mitigates EDoS attacks.\n\nFinally, this grant provided support for Mississippi State University PhD students Trisha Chakraborty and Daniel Rayborn. It also facilitated research experiences for a local high school student, Alice Calvert, and a Mississippi State University undergraduate student, Jackson De Gruiter.\n\n \n\n\t\t\t\t\tLast Modified: 11/29/2022\n\n\t\t\t\t\tSubmitted by: Maxwell Young"
+ }
+}

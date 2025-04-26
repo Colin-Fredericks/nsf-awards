@@ -1,0 +1,138 @@
+{
+ "awd_id": "0915003",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "MCS: Research on Detection and Classification of 2D and 3D Shapes in Cluttered Point Clouds",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032928448",
+ "po_email": "tluo@nsf.gov",
+ "po_sign_block_name": "Tie Luo",
+ "awd_eff_date": "2009-09-15",
+ "awd_exp_date": "2013-08-31",
+ "tot_intn_awd_amt": 400000.0,
+ "awd_amount": 400000.0,
+ "awd_min_amd_letter_date": "2009-09-13",
+ "awd_max_amd_letter_date": "2009-09-13",
+ "awd_abstract_narration": "Images form the largest source of data and information in our digital society. Many application domains, such as medical diagnostics, homeland security, military surveillance, and Internet communication, can benefit from automated techniques for analyzing images and, in particular, for detection, classification, and analysis of objects in images. Fast techniques for object detection in images often work in two steps: (1) Extract certain basic primitives (prominent points, edges, arcs, etc) from images using fast techniques and, (2) glean objects of interest in these extracted primitives. This second step -- a statistical framework for shape-based discovery of objects in 2D and 3D point clouds -- is the focus of this research. Since the extracted primitives may belong either to objects or backgrounds, the given data is both noisy and cluttered. In simple terms, this problem is akin to finding the big dipper in the sky on a starry night. A simple combinatorial search is impossible, as the computational cost of organizing points into polygonal shapes are prohibitive. The framework proposed here is analysis by synthesis: one starts by synthesizing continuous shapes \u00d0 contours for 2D and surfaces for 3D -- for the shape classes of interest and samples these shapes into sets of points. These synthesized point sets are then (probabilistically) compared with the given point cloud to decide if a shape class is present in the image. \r\n\r\n\r\nThis research will take a Bayesian approach to shape classification where one estimates the posterior probabilities of different shape classes being present in the given point cloud. This involves a fundamental step of integrating out certain nuisance variables: (i) the unknown shape of object present in the data, (ii) the unknown pose and scale at which it appears in the scene, and (iii) the unknown sampling of a continuous shape into discrete points. The investigators will develop class-specific statistical models to capture variability of these nuisance variables, and will use a Monte Carlo approach that simulates from these models to approximate the desired posterior. This framework relies on the following ingredients:  (1) Statistical shape models:  Firstly, the investigators will derive mathematical representations of shapes (of curves and surfaces), impose Riemannian metrics on their shape spaces and develop algorithms for computing geodesics. Secondly, they will define and estimate probability models on the resulting shape spaces and simulate shapes from those models for use in generating stochastic inferences. Since shape spaces are typically infinite-dimensional, nonlinear manifolds, the prospect of efficient statistical inferences of shapes is both novel and challenging. (2) Shape Sampling: To synthesize a hypothesized point set, one takes a continuous shape and samples it with a finite number of points. The researchers will develop mathematical representations and stochastic models for this sampling process. (3) Likelihood Evaluation: Lastly, one needs to calculate the likelihood of the given point cloud. This involves optimally registering and transforming (rotating, translating, and scaling) the synthetic point set to match the given data. The cost function is based on probability models for the observation noise and the background clutter. This project will research, develop, and implement these fundamental ingredients for finding shapes in point clouds. The proposed framework will be tested for performance and efficiency in detecting and classifying objects in images.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Anuj",
+   "pi_last_name": "Srivastava",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Anuj Srivastava",
+   "pi_email_addr": "anuj@stat.fsu.edu",
+   "nsf_id": "000395163",
+   "pi_start_date": "2009-09-13",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Eric",
+   "pi_last_name": "Klassen",
+   "pi_mid_init": "P",
+   "pi_sufx_name": "",
+   "pi_full_name": "Eric P Klassen",
+   "pi_email_addr": "klassen@math.fsu.edu",
+   "nsf_id": "000291855",
+   "pi_start_date": "2009-09-13",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Adrian",
+   "pi_last_name": "Barbu",
+   "pi_mid_init": "G",
+   "pi_sufx_name": "",
+   "pi_full_name": "Adrian G Barbu",
+   "pi_email_addr": "abarbu@stat.fsu.edu",
+   "nsf_id": "000274432",
+   "pi_start_date": "2009-09-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Florida State University",
+  "inst_street_address": "874 TRADITIONS WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "TALLAHASSEE",
+  "inst_state_code": "FL",
+  "inst_state_name": "Florida",
+  "inst_phone_num": "8506445260",
+  "inst_zip_code": "323060001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "FL02",
+  "org_lgl_bus_name": "FLORIDA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JF2BLNN4PJC3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Florida State University",
+  "perf_str_addr": "874 TRADITIONS WAY",
+  "perf_city_name": "TALLAHASSEE",
+  "perf_st_code": "FL",
+  "perf_st_name": "Florida",
+  "perf_zip_code": "323060001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "FL02",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "125300",
+   "pgm_ele_name": "OFFICE OF MULTIDISCIPLINARY AC"
+  },
+  {
+   "pgm_ele_code": "164000",
+   "pgm_ele_name": "Information Technology Researc"
+  },
+  {
+   "pgm_ele_code": "745400",
+   "pgm_ele_name": "MSPA-INTERDISCIPLINARY"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "0000",
+   "pgm_ref_txt": "UNASSIGNED"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  },
+  {
+   "pgm_ref_code": "OTHR",
+   "pgm_ref_txt": "OTHER RESEARCH OR EDUCATION"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0109",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000910DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2009,
+   "fund_oblg_amt": 400000.0
+  }
+ ],
+ "por": null
+}

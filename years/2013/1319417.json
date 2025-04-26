@@ -1,0 +1,113 @@
+{
+ "awd_id": "1319417",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: First-Class Operating System Management of Computational Accelerators",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 455255.0,
+ "awd_amount": 455255.0,
+ "awd_min_amd_letter_date": "2013-08-13",
+ "awd_max_amd_letter_date": "2017-08-16",
+ "awd_abstract_narration": "This project investigates operating system mechanisms to manage hardware accelerator resources in a safe, fair, and protected manner while maintaining high performance. Programmable vector processors including general-purpose graphical processing units (GP-GPUs) and other accelerators for encryption, compression, media transcoding, pattern matching, parsing, etc. are increasingly ubiquitous in computer systems. For the sake of safety and fairness, such accelerators must be managed by the operating system, but for the sake of performance, they must be accessible directly from user-level applications, without OS intervention. The conflict between these goals is exacerbated by the opacity of proprietary library/driver/hardware interfaces. This project seeks a balanced solution to these conflicting goals through: (1) an operating system resource management architecture that allows direct user-level access in the common case, but intercedes in the existing accelerator access path when necessary to delay and re-order requests; (2) a tool chain that uncovers hidden interface semantics required for resource management, together with a characterization of the information needed from vendors in the future; and (3) an integrated management and scheduling strategy across the full set of computational resources in a given system.\r\n\r\nBy focusing on safe, fair, and efficient access to computational accelerators, the project aims to increase performance and power efficiency over a broad range of applications critical to today's digital economy and society. Broad dissemination is promoted through implementation in the Linux kernel, and open-source software release. Technology transfer is pursued through regular communication and collaboration with GPU industry vendors. Project research is integrated with education through curricular development and graduate student instruction.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Scott",
+   "pi_mid_init": "L",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael L Scott",
+   "pi_email_addr": "scott@cs.rochester.edu",
+   "nsf_id": "000343030",
+   "pi_start_date": "2013-08-13",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Kai",
+   "pi_last_name": "Shen",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kai Shen",
+   "pi_email_addr": "kshen@cs.rochester.edu",
+   "nsf_id": "000489991",
+   "pi_start_date": "2013-08-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Rochester",
+  "inst_street_address": "910 GENESEE ST",
+  "inst_street_address_2": "STE 200",
+  "inst_city_name": "ROCHESTER",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "5852754031",
+  "inst_zip_code": "146113847",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "NY25",
+  "org_lgl_bus_name": "UNIVERSITY OF ROCHESTER",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F27KDXZMF9Y8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Rochester",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "146270226",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "NY25",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 455255.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Very fast I/O devices, networks, and computational accelerators are increasingly central to data center computing.&nbsp; Examples include high-end solid-state drives, Infiniband-class networks, and general-purpose graphical processing units (GPUs).&nbsp; Soon, terabyte-capacity nonvolatile memories are likely to be added to the list.&nbsp; Most of these devices have such high communication bandwidth that they cannot be kept busy by a single processor core; they are therefore designed with parallel (\"multi-queue\") interfaces that can be used concurrently -- and independently -- by applications running on separate cores.&nbsp; For such devices, the overhead of coordinating across cores (e.g., to make sure every application gets a fair share of overall bandwidth) is such a large fraction of total overhead that operating system (OS) designers have given up on fairness.</p>\n<p>In a similar vein, many devices now provide operations that are so fast -- on the order of tens of microseconds -- that the overhead of calling into the OS to ask for service is a significant fraction of the total operation latency.&nbsp; As a result, there is a growing trend toward accessing devices directly from user-level applications, bypassing the OS completely.</p>\n<p>The focus of this project was to put the OS \"back in the loop\" when accessing fast devices, so that it can fulfill its traditional responsibility for fair allocation of resources -- without imposing unacceptable overheads.&nbsp; The sponsored research made four principal contributions:</p>\n<p>(1) Black box inference techniques: these allow researchers to reverse engineer the (proprietary) interfaces of commercial GPUs, enabling experimentation with operating system and run-time library packages that manage the devices in ways not originally envisioned by the manufacturer.</p>\n<p>(2) A \"disengaged\" strategy for GPU scheduling: this allows applications to access the device unimpeded most of the time, but with the operating system intervening on an occasional basis to monitor usage and to throttle back applications that use more than their share of device capacity.</p>\n<p>(3) A new fair queueing system for multi-queue devices: this uses scalable concurrent data structures to track resource utilization across applications and cores, allowing OS-level software to enforce fairness without significantly impacting system-wide throughput.</p>\n<p>(4) Implementation techniques for protected user-level libraries: leveraging new hardware mechanisms available in mainstream processors, these allow a trusted library to be interposed between each application and its devices, without introducing the overhead of a system call on every operation.</p>\n<p>The overall result of these contributions has been a significant improvement in the performance, energy efficiency, and fairness of access to the I/O devices, networks, and computational accelerators of modern data centers.&nbsp; These improvements can in turn be expected to benefit the full range of data center applications, spanning commercial, non-profit, and scientific domains.</p>\n<p>Work on this project benefited greatly from collaboration with colleagues at Google.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/08/2018<br>\n\t\t\t\t\tModified by: Michael&nbsp;L&nbsp;Scott</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nVery fast I/O devices, networks, and computational accelerators are increasingly central to data center computing.  Examples include high-end solid-state drives, Infiniband-class networks, and general-purpose graphical processing units (GPUs).  Soon, terabyte-capacity nonvolatile memories are likely to be added to the list.  Most of these devices have such high communication bandwidth that they cannot be kept busy by a single processor core; they are therefore designed with parallel (\"multi-queue\") interfaces that can be used concurrently -- and independently -- by applications running on separate cores.  For such devices, the overhead of coordinating across cores (e.g., to make sure every application gets a fair share of overall bandwidth) is such a large fraction of total overhead that operating system (OS) designers have given up on fairness.\n\nIn a similar vein, many devices now provide operations that are so fast -- on the order of tens of microseconds -- that the overhead of calling into the OS to ask for service is a significant fraction of the total operation latency.  As a result, there is a growing trend toward accessing devices directly from user-level applications, bypassing the OS completely.\n\nThe focus of this project was to put the OS \"back in the loop\" when accessing fast devices, so that it can fulfill its traditional responsibility for fair allocation of resources -- without imposing unacceptable overheads.  The sponsored research made four principal contributions:\n\n(1) Black box inference techniques: these allow researchers to reverse engineer the (proprietary) interfaces of commercial GPUs, enabling experimentation with operating system and run-time library packages that manage the devices in ways not originally envisioned by the manufacturer.\n\n(2) A \"disengaged\" strategy for GPU scheduling: this allows applications to access the device unimpeded most of the time, but with the operating system intervening on an occasional basis to monitor usage and to throttle back applications that use more than their share of device capacity.\n\n(3) A new fair queueing system for multi-queue devices: this uses scalable concurrent data structures to track resource utilization across applications and cores, allowing OS-level software to enforce fairness without significantly impacting system-wide throughput.\n\n(4) Implementation techniques for protected user-level libraries: leveraging new hardware mechanisms available in mainstream processors, these allow a trusted library to be interposed between each application and its devices, without introducing the overhead of a system call on every operation.\n\nThe overall result of these contributions has been a significant improvement in the performance, energy efficiency, and fairness of access to the I/O devices, networks, and computational accelerators of modern data centers.  These improvements can in turn be expected to benefit the full range of data center applications, spanning commercial, non-profit, and scientific domains.\n\nWork on this project benefited greatly from collaboration with colleagues at Google.\n\n\t\t\t\t\tLast Modified: 12/08/2018\n\n\t\t\t\t\tSubmitted by: Michael L Scott"
+ }
+}

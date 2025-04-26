@@ -1,0 +1,109 @@
+{
+ "awd_id": "1561041",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Tadoop: A Dual-Purpose Framework Taming the Bipolarity of Storage and Communication for High-Performance Computing and Data Analytics",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032924538",
+ "po_email": "awalton@nsf.gov",
+ "po_sign_block_name": "Amy Walton",
+ "awd_eff_date": "2015-08-16",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 204767.0,
+ "awd_amount": 204767.0,
+ "awd_min_amd_letter_date": "2015-09-21",
+ "awd_max_amd_letter_date": "2015-09-21",
+ "awd_abstract_narration": "High-performance computing (HPC) providers and applications need next-generation solutions to process big data from scientific simulations.  Conventional HPC systems found in national laboratories and universities are constructed based on the compute-centric paradigm while enterprise big data analytics applications prefer a data-centric paradigm such as MapReduce.  Distinct architectural differences between these two paradigms demand unconventional approaches.  This project takes a radically different approach to investigate key architectural components in compute-centric and data-centric paradigms, designs a transformative dual-purpose framework called Tadoop that addresses their bipolarity issues in storage and communication management, and unifies them for both HPC and enterprise analytics applications.  \r\n\r\nThis high-risk Tadoop framework can enable a transformative data infrastructure for both HPC and data analytics applications and lead to broader impact in several aspects, such as demonstrating the transformation of existing HPC infrastructures into dual-purpose systems for computing and analytics, improving computer science curricula and instruction effectiveness, strengthening multidisciplinary data analytics research, releasing open-source software code, and transferring technologies for commercial service.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Weikuan",
+   "pi_last_name": "Yu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Weikuan Yu",
+   "pi_email_addr": "wyu3@fsu.edu",
+   "nsf_id": "000492930",
+   "pi_start_date": "2015-09-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Florida State University",
+  "inst_street_address": "874 TRADITIONS WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "TALLAHASSEE",
+  "inst_state_code": "FL",
+  "inst_state_name": "Florida",
+  "inst_phone_num": "8506445260",
+  "inst_zip_code": "323060001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "FL02",
+  "org_lgl_bus_name": "FLORIDA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JF2BLNN4PJC3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Florida State University",
+  "perf_str_addr": "874 Traditions Way",
+  "perf_city_name": "Tallahassee",
+  "perf_st_code": "FL",
+  "perf_st_name": "Florida",
+  "perf_zip_code": "323064166",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "FL02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "772600",
+   "pgm_ele_name": "Data Cyberinfrastructure"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 204767.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project investigates key architectural components in compute-centric and data-centric paradigms, designs a transformative dual-purpose framework called Tadoop that unifies the two paradigms for both HPC and enterprise analytics applications. During the four years of project execution, we have also expanded our scope of dual-purpose computation and analytics to the more popular Spark framework.</p>\n<p>To enable a dual-purpose data analytics platform, we have exploited the analytics shipping model for fast analysis of largescale scientific datasets on HPC backend storage servers. Through an efficient integration of MapReduce and the popular Lustre storage system, we have developed a Virtualized Analytics Shipping (VAS) framework that can ship MapReduce programs to Lustre storage servers. In this framework, we have addressed a number of issues, including (1) the need of isolating analytics programs from the storage services on the backend storage servers, (2) the need of distributing analytics datasets for the exploitation of locality in task scheduling, and (3) the need of minimizing data movement for intermediate data generation and shuffling. Built on top of this precursor framework, we have further developed a number of techniques to enrich the Tadoop framework.</p>\n<p>The first study was on developing an optimization for I/O with small files. Our optimization SFMapReduce decreases the memory pressure on the Hadoop NameNode, and provides better loading and retrieving throughput. On average, SFMapReduce achieves an improvement on MapReduce processing by 14.5 times and 20.8 times, compared with the original Hadoop and HAR layout. Another research study was on MapReduce speculation for efficient failure recovery in Tadoop. We have examined the drawbacks of MapReduce speculation and designed a heuristic failure scheduling algorithm named Fast Analytics Scheduling (FAS) to support strong resiliency to MapReduce applications in heterogeneous real-world environments, especially for small jobs. Finally, we expand our research scope to Spark, particularly on its communication mechanism for efficient Tadoop. We have examined the design differences of the three shuffle mechanisms and evaluated the pros and cons among these shuffle mechanisms. We are in the process of exploring optimizations on file consolidation and dynamic spilling for fast shuffling in Tadoop.</p>\n<p>&nbsp;</p>\n<p>Students and Postdoctoral Research Training:</p>\n<p>One postdoctoral researcher, Dr. Jianhui Yue was trained in this project. He successfully secured a professorship from Miami University at Oxford, Ohio in August 2015. Ten graduate students participated in research activities of this project. Three PhD students have graduated through training from this project. Cong Xu has graduated in May 2015 with his Ph.D. degree and joined Intel., California. Teng Wang has graduated in May 2017 with Ph.D. degree and joined Lawrence Berkeley National Laboratory as a postdoctoral researcher. Huansong Fu is expected to graduate in December 2018. He will be joining Argonne National Laboratory as a postdoctoral researcher. Three master students also graduated from this project. Kevin Vasko graduated in August 2015 with his master degree and he joined Boeing research and technology group. In addition, Fang Zhou graduated in May 2015 with his master degree and joined the Ohio State University. Hai Pham has graduated in May 2016 with his MS degree and joined Carnegie Mellon University.</p>\n<p>&nbsp;</p>\n<p>Research publications:</p>\n<p>The project has resulted a total of 19 technical publications (see the project website http://castl.cs.fsu.edu/doku.php?id=tadoop for a complete list). Representative publications are listed below.</p>\n<p>[TPDS'16] C. Xu*, R. Goldstone, Z. Liu*, H. Chen*, B. Neitzel, W. Yu. Exploiting Analytics Shipping with Virtualized MapReduce on HPC Backend Storage Servers. IEEE Transactions on Parallel and Distributed Systems</p>\n<p>[ParCo'16] Huansong Fu, Haiquan Chen, Yue Zhu and Weikuan Yu. FARMS: Efficient MapReduce Speculation for Failure Recovery in Short Jobs. Journal of Parallel Computing.</p>\n<p>[NAS'15]: Fang Zhou*, Hai Pham*, Jianhui Yue*, Hao Zou* and Weikuan Yu. SFMapReduce: An Optimized MapReduce Framework for Small Files. IEEE International Conference on Network, Architecture and Storage (NAS). August 2015, Boston, MA.</p>\n<p>[IPDPS'15] Yandong Wang, Huansong Fu and Weikuan Yu. Cracking Down MapReduce Failure Amplification through Analytics Logging and Migration. 29th IEEE International Parallel &amp; Distributed Processing Symposium (IPDPS'15). Hyderabad, India. May 2015.</p>\n<p>&nbsp;</p>\n<p>Software release:</p>\n<p>The Tadoop prototype has been made available from this website (<a href=\"http://pasl.cs.fsu.edu/srcs/vasform.html\">http://pasl.cs.fsu.edu/srcs/vasform.html</a>).&nbsp;</p>\n<p>&nbsp;</p>\n<p>Community service and collaboration:</p>\n<p>Through our work on developing the dual-purpose tadoop framework, we have attracted the interests from Intel and Lawrence Livermore National Laboratory in the past year. Both have collaborated with us on the project and contributed to the project via technical discussions and feedbacks on requirements from commercial and scientific applications.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/13/2018<br>\n\t\t\t\t\tModified by: Weikuan&nbsp;Yu</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project investigates key architectural components in compute-centric and data-centric paradigms, designs a transformative dual-purpose framework called Tadoop that unifies the two paradigms for both HPC and enterprise analytics applications. During the four years of project execution, we have also expanded our scope of dual-purpose computation and analytics to the more popular Spark framework.\n\nTo enable a dual-purpose data analytics platform, we have exploited the analytics shipping model for fast analysis of largescale scientific datasets on HPC backend storage servers. Through an efficient integration of MapReduce and the popular Lustre storage system, we have developed a Virtualized Analytics Shipping (VAS) framework that can ship MapReduce programs to Lustre storage servers. In this framework, we have addressed a number of issues, including (1) the need of isolating analytics programs from the storage services on the backend storage servers, (2) the need of distributing analytics datasets for the exploitation of locality in task scheduling, and (3) the need of minimizing data movement for intermediate data generation and shuffling. Built on top of this precursor framework, we have further developed a number of techniques to enrich the Tadoop framework.\n\nThe first study was on developing an optimization for I/O with small files. Our optimization SFMapReduce decreases the memory pressure on the Hadoop NameNode, and provides better loading and retrieving throughput. On average, SFMapReduce achieves an improvement on MapReduce processing by 14.5 times and 20.8 times, compared with the original Hadoop and HAR layout. Another research study was on MapReduce speculation for efficient failure recovery in Tadoop. We have examined the drawbacks of MapReduce speculation and designed a heuristic failure scheduling algorithm named Fast Analytics Scheduling (FAS) to support strong resiliency to MapReduce applications in heterogeneous real-world environments, especially for small jobs. Finally, we expand our research scope to Spark, particularly on its communication mechanism for efficient Tadoop. We have examined the design differences of the three shuffle mechanisms and evaluated the pros and cons among these shuffle mechanisms. We are in the process of exploring optimizations on file consolidation and dynamic spilling for fast shuffling in Tadoop.\n\n \n\nStudents and Postdoctoral Research Training:\n\nOne postdoctoral researcher, Dr. Jianhui Yue was trained in this project. He successfully secured a professorship from Miami University at Oxford, Ohio in August 2015. Ten graduate students participated in research activities of this project. Three PhD students have graduated through training from this project. Cong Xu has graduated in May 2015 with his Ph.D. degree and joined Intel., California. Teng Wang has graduated in May 2017 with Ph.D. degree and joined Lawrence Berkeley National Laboratory as a postdoctoral researcher. Huansong Fu is expected to graduate in December 2018. He will be joining Argonne National Laboratory as a postdoctoral researcher. Three master students also graduated from this project. Kevin Vasko graduated in August 2015 with his master degree and he joined Boeing research and technology group. In addition, Fang Zhou graduated in May 2015 with his master degree and joined the Ohio State University. Hai Pham has graduated in May 2016 with his MS degree and joined Carnegie Mellon University.\n\n \n\nResearch publications:\n\nThe project has resulted a total of 19 technical publications (see the project website http://castl.cs.fsu.edu/doku.php?id=tadoop for a complete list). Representative publications are listed below.\n\n[TPDS'16] C. Xu*, R. Goldstone, Z. Liu*, H. Chen*, B. Neitzel, W. Yu. Exploiting Analytics Shipping with Virtualized MapReduce on HPC Backend Storage Servers. IEEE Transactions on Parallel and Distributed Systems\n\n[ParCo'16] Huansong Fu, Haiquan Chen, Yue Zhu and Weikuan Yu. FARMS: Efficient MapReduce Speculation for Failure Recovery in Short Jobs. Journal of Parallel Computing.\n\n[NAS'15]: Fang Zhou*, Hai Pham*, Jianhui Yue*, Hao Zou* and Weikuan Yu. SFMapReduce: An Optimized MapReduce Framework for Small Files. IEEE International Conference on Network, Architecture and Storage (NAS). August 2015, Boston, MA.\n\n[IPDPS'15] Yandong Wang, Huansong Fu and Weikuan Yu. Cracking Down MapReduce Failure Amplification through Analytics Logging and Migration. 29th IEEE International Parallel &amp; Distributed Processing Symposium (IPDPS'15). Hyderabad, India. May 2015.\n\n \n\nSoftware release:\n\nThe Tadoop prototype has been made available from this website (http://pasl.cs.fsu.edu/srcs/vasform.html). \n\n \n\nCommunity service and collaboration:\n\nThrough our work on developing the dual-purpose tadoop framework, we have attracted the interests from Intel and Lawrence Livermore National Laboratory in the past year. Both have collaborated with us on the project and contributed to the project via technical discussions and feedbacks on requirements from commercial and scientific applications.\n\n\t\t\t\t\tLast Modified: 10/13/2018\n\n\t\t\t\t\tSubmitted by: Weikuan Yu"
+ }
+}

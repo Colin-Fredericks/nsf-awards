@@ -1,0 +1,109 @@
+{
+ "awd_id": "1464425",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SHF: Automatic Building of Software Projects to Support Analysis of Open Software Repositories",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2015-03-01",
+ "awd_exp_date": "2018-02-28",
+ "tot_intn_awd_amt": 174840.0,
+ "awd_amount": 174840.0,
+ "awd_min_amd_letter_date": "2015-03-23",
+ "awd_max_amd_letter_date": "2015-03-23",
+ "awd_abstract_narration": "As more and more software developers choose to host their projects at open software repositories such as Sourceforge and Github, these large repositories have become valuable resources for the development of novel software engineering techniques. They can serve as either data sets for the emerging mining-based software-engineering techniques or subjects for experimental evaluations and empirical studies. However, a major obstacle preventing full utilization of open software repositories is that, while many existing program analysis tools require successfully built projects as their input, software projects typically have only their source code stored in the repositories, and the source code often cannot be built automatically. Therefore, it is often difficult to apply existing program analysis tools to a large number of software projects, which limits the benefit provided by large open software repositories. \r\n\r\nThis research project aims to overcome the above obstacle by providing technique for automatic building of software projects in open software repositories. Specifically, the project mainly explores the following directions: (1) analyzing path expressions and file flows in build configuration files to provide proper parameters and environment variables for build configuration tools (2) resolving missing software dependencies by searching online dependency repositories, and identifying the compatible software dependency files among the search results; and (3) assigning a software project to an appropriate building platform according to its features. The project helps to discover knowledge on the feasibility and effectiveness of automatic software building, and may benefit a large variety of software engineering techniques that take advantage of open software repositories.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Xiaoyin",
+   "pi_last_name": "Wang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Xiaoyin Wang",
+   "pi_email_addr": "Xiaoyin.Wang@UTSA.EDU",
+   "nsf_id": "000653136",
+   "pi_start_date": "2015-03-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at San Antonio",
+  "inst_street_address": "1 UTSA CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SAN ANTONIO",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "2104584340",
+  "inst_zip_code": "782491644",
+  "inst_country_name": "United States",
+  "cong_dist_code": "20",
+  "st_cong_dist_code": "TX20",
+  "org_lgl_bus_name": "THE UNIVERSITY OF TEXAS AT SAN ANTONIO",
+  "org_prnt_uei_num": "U44ZMVYU52U6",
+  "org_uei_num": "U44ZMVYU52U6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at San Antonio",
+  "perf_str_addr": "One UTSA Circle",
+  "perf_city_name": "San Antonio",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "782491644",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "20",
+  "perf_st_cong_dist": "TX20",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "723100",
+   "pgm_ele_name": "CYBERINFRASTRUCTURE"
+  },
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 174840.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Intellectual Merit:</p>\n<p>This project works on exploring and overcoming the challenges of automatic software building, especially when a software project is under evolution or ported to other machines. The project led to a series of effective technique including AutoBuilder, FiFA, Grapa, and HireBuild to automate the build, analysis, and repair of arbitrary software projects. On the evaluation dataset, the techniques are able to achieve higher than 60% successful rate on building arbitrary software projects, and high than 40% successful rate on repairing build failures. The PI also studied developers' usage pattern of build configuration files, and the root causes of build failures in the wild to construct a root-cause hierarchy for build failures. The project has resulted more than 10 publications in software engineering and programming language venues such as ICSE, ASE, ISSTA, ESOP, etc.</p>\n<p>&nbsp;</p>\n<p>Broader Impact:</p>\n<p>These techniques and findings on automatic building and build repair are not only helpful for developers in generating more robust build configurations more efficiently, but also enables large-scale analysis of arbitrary open source projects, which provide richer dataset for mining based software engineering and more comprehensive benchmarks for program analysis techniques. The file flow analysis techniques developed under this project may have further impact on the analysis of any program involving file systems. The enhancement on software build systems, mining based software engineering, and program analysis techniques will potentially lead to higher productivity in software industry and higher quality software being used in all areas of social life. The project also provided support to involve multiple students into relevant research topics. In UTSA, a minority-serving institution, it also provides opportunity of students from underrepresented groups to perform research and receive training on software building systems. In particular, it partially supported three PhD students (including one female student), one Master student from underrepresented groups, and four undergraduate students (including three from underrepresented groups). Among these students, one PhD student and one master student graduated with thesis on related research topics.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/05/2018<br>\n\t\t\t\t\tModified by: Xiaoyin&nbsp;Wang</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIntellectual Merit:\n\nThis project works on exploring and overcoming the challenges of automatic software building, especially when a software project is under evolution or ported to other machines. The project led to a series of effective technique including AutoBuilder, FiFA, Grapa, and HireBuild to automate the build, analysis, and repair of arbitrary software projects. On the evaluation dataset, the techniques are able to achieve higher than 60% successful rate on building arbitrary software projects, and high than 40% successful rate on repairing build failures. The PI also studied developers' usage pattern of build configuration files, and the root causes of build failures in the wild to construct a root-cause hierarchy for build failures. The project has resulted more than 10 publications in software engineering and programming language venues such as ICSE, ASE, ISSTA, ESOP, etc.\n\n \n\nBroader Impact:\n\nThese techniques and findings on automatic building and build repair are not only helpful for developers in generating more robust build configurations more efficiently, but also enables large-scale analysis of arbitrary open source projects, which provide richer dataset for mining based software engineering and more comprehensive benchmarks for program analysis techniques. The file flow analysis techniques developed under this project may have further impact on the analysis of any program involving file systems. The enhancement on software build systems, mining based software engineering, and program analysis techniques will potentially lead to higher productivity in software industry and higher quality software being used in all areas of social life. The project also provided support to involve multiple students into relevant research topics. In UTSA, a minority-serving institution, it also provides opportunity of students from underrepresented groups to perform research and receive training on software building systems. In particular, it partially supported three PhD students (including one female student), one Master student from underrepresented groups, and four undergraduate students (including three from underrepresented groups). Among these students, one PhD student and one master student graduated with thesis on related research topics.\n\n \n\n\t\t\t\t\tLast Modified: 05/05/2018\n\n\t\t\t\t\tSubmitted by: Xiaoyin Wang"
+ }
+}

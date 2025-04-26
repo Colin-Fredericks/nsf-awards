@@ -1,0 +1,117 @@
+{
+ "awd_id": "1539551",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CyberSEES: Type 1: Collaborative Research:  High-Performance Image Classification and Search Supporting Large-Scale Seafloor Biodiversity and Habitat Surveys",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "David Corman",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 350936.0,
+ "awd_amount": 350936.0,
+ "awd_min_amd_letter_date": "2015-08-26",
+ "awd_max_amd_letter_date": "2015-08-26",
+ "awd_abstract_narration": "Seafloor ecosystems are complex environments populated by a great diversity of organisms. Unfortunately, these ecosystems are increasingly threatened by direct and indirect human activities, including changes in land-use practices, coastal runoff, energy and mineral extraction, and fishing pressure. Developing effective sustainability policies to deal with these ecosystem threats requires that we first understand seafloor communities as they are today, and then track how they change over time as human activities shift and sustainability policies are modified. Recent advances in high-resolution underwater imaging offer new ways to do this. Survey ships can zigzag back and forth above a threatened region, towing a submerged camera system that repeatedly snaps pictures of the seafloor. This produces an enormous and valuable image set that captures the current state of a seafloor ecosystem. Surveys like this have been done for many threatened regions, and more are in progress. Substantial challenges remain to process these image sets. A useful characterization of a seafloor habitat requires knowing which specific types of corals, sponges, starfish, and so forth are present, how many there are, and how they are distributed throughout a region. But with each survey image set containing hundreds of thousands or millions of images, manual processing is impractical. Instead of an army of experts examining these images, computer software can scan each image and automatically recognize the color and texture of different seafloor species. Experimental classification software like this exists today in research laboratories, but the software is slow. To be useful for huge image sets, this software must be revised and optimized to run on the latest high-performance supercomputers. This is the focus of the project, which will yield new optimized classification software that can quickly sweep through enormous image sets to classify and count the species present and provide essential information about the health and biodiversity of threatened seafloor ecosystems, or any other ecosystem with a suitable image set. Then, when surveys are repeated for the same region every few years, this processing can reveal important trends that document the health of a region and the impact of new sustainability policies that aim to mitigate continuing threats to these communities.\r\n\r\nThis project leverages prior work prototyping seafloor image classification algorithms. These algorithms divide survey images into small tiles, then characterize each tile with a high-dimensionality feature vector that includes metrics on the colors and textures present in the tile, along with water temperature, salinity, and depth data collected by the survey apparatus at the moment the image was captured. Colors in the feature vector are chosen based upon a quantized hue histogram of the tile, while textures are characterized by luminance Discrete-Cosine-Transform (DCT) coefficients. A tile's feature vector is then compared against stored feature vectors for known species within a large classification library. A probability-based selection using a set of nearest-neighbor matches from the library yields a best guess for the species depicted in the image tile. This process is repeated tile after tile, image after image throughout an image survey. Classification performance is strongly a function of the classification library size and the dimensionality of feature vectors used for image tiles and library entries. This project's approach to improve classification performance uses a customized k-d-tree search data structure for the classification library, along with domain knowledge to guide and tune the classification process. The project begins with new methods to cull the tree, prior to classification, by using broad survey characteristics, such as the geographic region covered, water temperature and salinity, the sea bottom type from acoustic data, and so forth. Additional techniques optimize the construction and matching of feature vectors by using survey and library metrics to cull and weigh vector components (such as contextual color gamut and texture detail reduction, principal component analysis to combine and weigh features), reduce the nearest-neighbor set size by using k-d tree metrics on library diversity, restructure the k-d tree to improve common case search and cache performance, and parallelize the search for efficient classification across multiple threads, cores, processors, and nodes in a large compute cluster. Together these new methods are expected to substantially increase classification performance and enable efficient processing for the latest large survey image sets.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robert",
+   "pi_last_name": "Sinkovits",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robert Sinkovits",
+   "pi_email_addr": "rssinkovits@ucsd.edu",
+   "nsf_id": "000616724",
+   "pi_start_date": "2015-08-26",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "Nadeau",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "David R Nadeau",
+   "pi_email_addr": "nadeau@sdsc.edu",
+   "nsf_id": "000417565",
+   "pi_start_date": "2015-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-San Diego",
+  "inst_street_address": "9500 GILMAN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "LA JOLLA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8585344896",
+  "inst_zip_code": "920930021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "50",
+  "st_cong_dist_code": "CA50",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "UYTTZT6G9DT1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-San Diego",
+  "perf_str_addr": "9500 Gilman Drive",
+  "perf_city_name": "La Jolla",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "920930934",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "50",
+  "perf_st_cong_dist": "CA50",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "821100",
+   "pgm_ele_name": "CyberSEES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8207",
+   "pgm_ref_txt": "CyberSEES Type 1"
+  },
+  {
+   "pgm_ref_code": "8231",
+   "pgm_ref_txt": "CyberSEES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 350936.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The marine environment is directly or indirectly responsible for a substantial fraction of national and world economies, from tourism to food production. And yet this environment is increasingly threatened by climate change and human activities, including fishing pressure, changing land-use practices, coastal runoff, and energy and mineral exploration and extraction. To better understand the changes occurring in marine environments, new tools and techniques are needed to study large areas of the seafloor and compare study results from year to year to better understand how these environments are changing. These results can then provide essential input to decision-making processes that guide the sustainable use of marine environments.</p>\n<p>In recent years, our ability to collect high-resolution imagery of the seafloor has increased substantially. But with that increase comes an increase in the complexity of analyzing the enormous volumes of data. Most existing methods are manual efforts that require an impractical amount of time to look at tens of thousands of images in a typical survey. Automated methods are needed, but existing methods are slow. This project has therefore focused on developing new high-performance software that automatically analyzes large collections of seafloor images to determine what species are present. The data this produces helps to characterize the health and diversity of a large-scale marine environment and provide the input needed for studying how that environment is changing.</p>\n<p>The specific software developed by this project starts by automatically color correcting survey images to remove the bluing effect caused by sunlight filtering down through seawater. With truer colors, the images provide a more accurate indication of the sea life present. The software then divides each image into a grid of small side-by-side tiles. Each tile is analyzed to extract important color and texture characteristics. These are then compared against a library of known characteristics for corals, sponges, and other seafloor life. The best match from the library is used to mark the image tile with the species present. This is repeated for all tiles in an image and all images in a survey.</p>\n<p>Because processing a large survey of images can be very time-consuming, this project has specifically focused on developing very fast software that uses the latest computing techniques. These include using multiple processors and cores, along with careful memory management. Together these techniques have reduced analysis times from 45 minutes per image to just 0.2 seconds, when run using a modern supercomputer. The software also runs on desktop or laptop computers and provides such rapid results that it has been used during field surveys to analyze image data as it is being collected, and thereby better guide data collection.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/14/2019<br>\n\t\t\t\t\tModified by: Robert&nbsp;Sinkovits</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe marine environment is directly or indirectly responsible for a substantial fraction of national and world economies, from tourism to food production. And yet this environment is increasingly threatened by climate change and human activities, including fishing pressure, changing land-use practices, coastal runoff, and energy and mineral exploration and extraction. To better understand the changes occurring in marine environments, new tools and techniques are needed to study large areas of the seafloor and compare study results from year to year to better understand how these environments are changing. These results can then provide essential input to decision-making processes that guide the sustainable use of marine environments.\n\nIn recent years, our ability to collect high-resolution imagery of the seafloor has increased substantially. But with that increase comes an increase in the complexity of analyzing the enormous volumes of data. Most existing methods are manual efforts that require an impractical amount of time to look at tens of thousands of images in a typical survey. Automated methods are needed, but existing methods are slow. This project has therefore focused on developing new high-performance software that automatically analyzes large collections of seafloor images to determine what species are present. The data this produces helps to characterize the health and diversity of a large-scale marine environment and provide the input needed for studying how that environment is changing.\n\nThe specific software developed by this project starts by automatically color correcting survey images to remove the bluing effect caused by sunlight filtering down through seawater. With truer colors, the images provide a more accurate indication of the sea life present. The software then divides each image into a grid of small side-by-side tiles. Each tile is analyzed to extract important color and texture characteristics. These are then compared against a library of known characteristics for corals, sponges, and other seafloor life. The best match from the library is used to mark the image tile with the species present. This is repeated for all tiles in an image and all images in a survey.\n\nBecause processing a large survey of images can be very time-consuming, this project has specifically focused on developing very fast software that uses the latest computing techniques. These include using multiple processors and cores, along with careful memory management. Together these techniques have reduced analysis times from 45 minutes per image to just 0.2 seconds, when run using a modern supercomputer. The software also runs on desktop or laptop computers and provides such rapid results that it has been used during field surveys to analyze image data as it is being collected, and thereby better guide data collection.\n\n\t\t\t\t\tLast Modified: 10/14/2019\n\n\t\t\t\t\tSubmitted by: Robert Sinkovits"
+ }
+}

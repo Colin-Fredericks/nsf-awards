@@ -1,0 +1,113 @@
+{
+ "awd_id": "1016477",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Driverless Operating Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 499926.0,
+ "awd_amount": 499926.0,
+ "awd_min_amd_letter_date": "2010-07-15",
+ "awd_max_amd_letter_date": "2010-07-15",
+ "awd_abstract_narration": "Modern operating systems (OSs) are the foundation of our software stacks. Most OS code consists of device drivers -- code that controls devices like keyboards and disks -- yet drivers are complex, stagnant, poorly written, and are responsible for most OS crashes and bugs. Worse, driver frameworks haven't been re-examined for decades, holding back OS innovation.\r\n\r\nWe are building \"driverless OSs,\" in which drivers are completely removed from the OS. We are replacing complex, low-level device interconnects (like PCI) with commodity, high-speed networks (like USB or Ethernet). With this, drivers become high-level, simple services that act as an RPC layer between OS frameworks and the devices themselves.\r\n\r\nWe are prototyping two driverless OSs. Our first, called ND, is retrofitted into Linux and is our vehicle for exploring the relationship between the driverless approach and modern multicore hardware. The only part of ND that needs conventional interrupt-driven code is the network driver; as a result, we can eliminate complexity like interrupt-context code and synchronization.\r\n\r\nOur second, called browserOS, treats drivers and frameworks as untrusted Web programs.  \"Web drivers\" are written in JavaScript or compiled Native Client code, and are downloaded and executed on-demand by the browser. Web services push Web drivers to clients to interact safely with client-side devices in an OS-agnostic manner.\r\n\r\nThe expected impact of our work is (a) to make OSs simpler, safer, and more robust, (b) to accelerate the convergence of Web browsers and OSs, and (c) to facilitate new architectural innovations in operating systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Steven",
+   "pi_last_name": "Gribble",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Steven Gribble",
+   "pi_email_addr": "gribble@cs.washington.edu",
+   "nsf_id": "000491026",
+   "pi_start_date": "2010-07-15",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Henry",
+   "pi_last_name": "Levy",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Henry M Levy",
+   "pi_email_addr": "levy@cs.washington.edu",
+   "nsf_id": "000234457",
+   "pi_start_date": "2010-07-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Washington",
+  "inst_street_address": "4333 BROOKLYN AVE NE",
+  "inst_street_address_2": "",
+  "inst_city_name": "SEATTLE",
+  "inst_state_code": "WA",
+  "inst_state_name": "Washington",
+  "inst_phone_num": "2065434043",
+  "inst_zip_code": "981951016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "WA07",
+  "org_lgl_bus_name": "UNIVERSITY OF WASHINGTON",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HD1WMN6945W6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Washington",
+  "perf_str_addr": "4333 BROOKLYN AVE NE",
+  "perf_city_name": "SEATTLE",
+  "perf_st_code": "WA",
+  "perf_st_name": "Washington",
+  "perf_zip_code": "981951016",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "WA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 499926.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our major goal was to continue work on two fronts.&nbsp;&nbsp; First is to improve support for modern applications that bridge mobile platforms (such as smartphones or tablets) and cloud computing platforms, particularly with respect to ease of programming and increasing privacy for user data. Second, we have been exploring the optimization of protocols for distributed systems in a datacenter/cloud environment, where those systems can benefit from the reliability and topology of cloud datacenter networks.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Our specific objective is to develop an integrated system for mobile/cloud applications that allows users to specify privacy policies on their data. Our system would enforce those policies for the user, unlike in current systems, where users must trust the application and its programmers both to define and enforce privacy policies.</p>\n<p>&nbsp;</p>\n<p class=\"Default\">We completed our prototype of the Sapphire system, which provides an integrated, extensible platform for mobile/cloud applications, and presented a paper on Sapphire at the USENIX Symposium on Operating Systems Design and Implementation (OSDI).&nbsp;&nbsp; Sapphire&rsquo;s key innovation is a new layer for distributed applications, called the deployment layer, which simplifies inclusion of complex distributed tasks (such as fault-tolerance, code-offloading, and caching) in distributed mobile/cloud applications.</p>\n<p class=\"Default\">&nbsp;</p>\n<p class=\"Default\">We designed and implemented a follow-on system, called Agate, which enhances privacy for mobile/cloud applications.&nbsp; Agate allows the operating system to enforce privacy policies on applications, end to end, from devices into the cloud, without needing to trust those applications.&nbsp; To do this it relies on properties of modern mobile operating systems (such as android or iOS) and implements an information flow control system that crosses mobile devices and the cloud.&nbsp; We have written a paper on Agate that is in submission to a conference.</p>\n<p class=\"Default\">&nbsp;</p>\n<p class=\"Default\">In the space of distributed systems for data centers, we demonstrated the benefits of co-designing datacenter networks and distributed systems.&nbsp;&nbsp; The demonstration used a network-level technique to provide a &ldquo;mostly ordered multicast&rdquo; primitive that relies on network properties inside the datacenter and achieves improved performance.&nbsp;&nbsp; We presented a paper on this work at the USENIX Conference on Networked Systems Design and Implementation (NSDI).</p>\n<p class=\"Default\">&nbsp;</p>\n<p class=\"Default\">We designed a new high-performance protocol (called TAPIR &ndash; Transactional Application Protocol for Inconsistent Replication), that can commit transactions in a single round-trip in most cases, greatly improving both latency and throughput relative to existing systems.&nbsp; We presented a paper on TAPIR at the ACM Symposium on Operating Systems Principles (SOSP).</p>\n<p class=\"Default\">&nbsp;</p>\n<p class=\"Default\">Papers on our work have been presented at the top systems conferences in the field (e.g., OSDI, SOSP, and NSDI).&nbsp;&nbsp;&nbsp; In addition, we have given talks on these projects and discussed our systems and their designs with industrial research and development groups at companies such as Google, Microsoft, and VMware.&nbsp;&nbsp;</p>\n<p class=\"Default\">&nbsp;</p>\n<p>We are among the first to consider the challenges of programming mobile/cloud applications and to propose new mechanisms that improve programmability, evolution, and privacy of applications in that context.</p>\n<p>&nbsp;</p>\n<p>We are actively discussing our developments with companies such as Google, VMware, and Microsoft.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/24/2015<br>\n\t\t\t\t\tModified by: Henry&nbsp;M&nbsp;Levy</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOur major goal was to continue work on two fronts.   First is to improve support for modern applications that bridge mobile platforms (such as smartphones or tablets) and cloud computing platforms, particularly with respect to ease of programming and increasing privacy for user data. Second, we have been exploring the optimization of protocols for distributed systems in a datacenter/cloud environment, where those systems can benefit from the reliability and topology of cloud datacenter networks. \n\n \n\nOur specific objective is to develop an integrated system for mobile/cloud applications that allows users to specify privacy policies on their data. Our system would enforce those policies for the user, unlike in current systems, where users must trust the application and its programmers both to define and enforce privacy policies.\n\n \nWe completed our prototype of the Sapphire system, which provides an integrated, extensible platform for mobile/cloud applications, and presented a paper on Sapphire at the USENIX Symposium on Operating Systems Design and Implementation (OSDI).   Sapphire\u00c6s key innovation is a new layer for distributed applications, called the deployment layer, which simplifies inclusion of complex distributed tasks (such as fault-tolerance, code-offloading, and caching) in distributed mobile/cloud applications.\n \nWe designed and implemented a follow-on system, called Agate, which enhances privacy for mobile/cloud applications.  Agate allows the operating system to enforce privacy policies on applications, end to end, from devices into the cloud, without needing to trust those applications.  To do this it relies on properties of modern mobile operating systems (such as android or iOS) and implements an information flow control system that crosses mobile devices and the cloud.  We have written a paper on Agate that is in submission to a conference.\n \nIn the space of distributed systems for data centers, we demonstrated the benefits of co-designing datacenter networks and distributed systems.   The demonstration used a network-level technique to provide a \"mostly ordered multicast\" primitive that relies on network properties inside the datacenter and achieves improved performance.   We presented a paper on this work at the USENIX Conference on Networked Systems Design and Implementation (NSDI).\n \nWe designed a new high-performance protocol (called TAPIR &ndash; Transactional Application Protocol for Inconsistent Replication), that can commit transactions in a single round-trip in most cases, greatly improving both latency and throughput relative to existing systems.  We presented a paper on TAPIR at the ACM Symposium on Operating Systems Principles (SOSP).\n \nPapers on our work have been presented at the top systems conferences in the field (e.g., OSDI, SOSP, and NSDI).    In addition, we have given talks on these projects and discussed our systems and their designs with industrial research and development groups at companies such as Google, Microsoft, and VMware.  \n \n\nWe are among the first to consider the challenges of programming mobile/cloud applications and to propose new mechanisms that improve programmability, evolution, and privacy of applications in that context.\n\n \n\nWe are actively discussing our developments with companies such as Google, VMware, and Microsoft.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/24/2015\n\n\t\t\t\t\tSubmitted by: Henry M Levy"
+ }
+}

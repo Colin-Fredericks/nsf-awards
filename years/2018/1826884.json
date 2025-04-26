@@ -1,0 +1,105 @@
+{
+ "awd_id": "1826884",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Collaborative Research: Designing Hierarchical Edge Cloud for Mobile Computing",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2017-09-01",
+ "awd_exp_date": "2019-09-30",
+ "tot_intn_awd_amt": 86193.0,
+ "awd_amount": 86193.0,
+ "awd_min_amd_letter_date": "2018-03-08",
+ "awd_max_amd_letter_date": "2018-03-08",
+ "awd_abstract_narration": "Cloud computing can be leveraged to bridge the gap between the increasing complexity of mobile applications and the limited capabilities of mobile devices, by remotely executing mobile applications at the cloud. However, the efficiency of such remote execution is hindered by excessive network latency accessing data centers and significant overhead of provisioning and managing large amounts of Virtual Machines (VMs). Traditional solutions reduce the cloud access latency by deploying servers at the network edge, but ignore the impact of mobile users' workload patterns on the efficiency of cloud operation. Instead, this project aims to design the edge cloud as a tree hierarchy of geo-distributed servers, so as to efficiently exploit the cloud resources for handling the peak load from mobile users. This research will benefit end users with various mobile devices by facilitating practical integration of these devices into the cloud. The results from this research are likely to foster new research directions on edge cloud design and mobile cloud computing. The project will engage under-represented students in the research activities, and the scholarly discovery of this project will be disseminated broadly to the community. \r\n\r\nThis project aims to satisfy the performance requirements of remote program execution by designing the edge cloud in a hierarchical manner and hence ensuring efficient utilization of cloud resources. More specifically, this project consists of three closely intertwined research thrusts: (i) developing algorithms and systems to optimize the placement of mobile workloads among edge cloud servers and efficiently serve the mobile peak load; ii) mitigating the impact of user mobility on the performance of remote program execution, by developing efficient mobility-aware VM migration techniques; iii) developing an experimental testbed, as a unique research facility, to emulate and investigate the impact of mobile workload peak on edge cloud operations.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Wei",
+   "pi_last_name": "Gao",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Wei Gao",
+   "pi_email_addr": "weigao@pitt.edu",
+   "nsf_id": "000627623",
+   "pi_start_date": "2018-03-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Pittsburgh",
+  "inst_street_address": "4200 FIFTH AVENUE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4126247400",
+  "inst_zip_code": "152600001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MKAGLD59JRL1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Pittsburgh",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152132303",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 86193.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>One of the most important challenges in mobile computing is to address the contradiction between the increasing complexity of mobile applications and the limited local capabilities of mobile devices. A viable solution to this challenge is to leverage cloud computing and execute mobile applications remotely. Modern cloud computing services such as Amazon EC2 and Microsoft Azure, however, are solely hosted by data centers and incapable of efficiently executing mobile applications due to the following reasons. First, mobile applications require immediate response, and hence suffer from the excessive network latency accessing the remote data centers. Second, data centers provide virtualized cloud resources as Virtual Machines (VMs), each of which serves an enterprise user with high volumes of workloads or responds to a type of web requests. As a result, data centers also handle each mobile application using a separate VM no matter how small its amount of workload is, but incur significant overhead for global VM provisioning and management due to the huge number of mobile applications using the cloud. Such overhead may even exceed the expense of mobile program execution itself and overload the data centers during the peak hours.</p>\n<p>To address these challenges, we envision that an edge cloud, which is an intermediate cloud layer being deployed at the network edge, is indispensable to efficient remote execution of mobile programs. We consider the requirements of remote program execution in two aspects:&nbsp;<em>i)</em>&nbsp;application performance, and&nbsp;<em>ii)&nbsp;</em>execution expense, and design the edge cloud as a tree hierarchy of geo-distributed small-scale servers to satisfy these requirements through efficient utilization of cloud resources. This project, then, aims to synergistically incorporate heterogeneous types of mobile computing devices into such edge cloud architecture, in the following aspects.</p>\n<p>First, we developed quantitative models that provide profound insights about the key tradeoffs between computation and communication delays when distributing the mobile computing workloads to different tiers of computing servers in the edge cloud hierarchy. Based on these models, we developed systematic techniques that adaptively allocate the mobile computing workloads to distributed edge cloud servers, and also supports flexible migration of such workloads among different edge cloud servers.</p>\n<p>Second, we developed mobile system and wireless networking techniques that allow heterogeneous types of mobile computing to be incorporated into the unified personal mobile cloud in a generic manner. Being different from existing techniques that are limited to specific hardware characteristics or specifications, our developed techniques retains the process of accessing remote system resources to be completely transparent from user applications, which access these resources via the corresponding service handle provided by the local OS. They, hence, could dramatically transform the way mobile computing systems are being designed and operated, so as to make significant contributions to the practical realization of personal mobile clouds. Furthermore, we also developed wireless PHY techniques that allow these heterogeneous devices to co-operate and transmit data over the same spectrum without interfering with each other, while incurring the minimum amount of computation overhead over these resource-constrained devices.&nbsp;</p>\n<p>Finally, we applied these mobile computing techniques to one of the most important yet challenging application scenario of edge cloud, i.e., supporting high-performance Virtual Reality over resource-constrained mobile platforms. We adaptively identify the redundancy across VR frames being rendered at different time slots and for different users, and further reuse such redundancy to minimize both the computation and communication overhead being incurred at the edge cloud servers when being used to simultaneously serve multiple mobile VR users. These techniques, hence, would be the key enabler to practical widespread of mobile VR among the wide public.</p>\n<p>We have implemented the above mobile system and network protocol designs over practical mobile system testbeds, and conducted various real experiments to demonstrate their applicability in real-world mobile cloud scenarios. Such experimentation includes code instrumentation over a large collection of mobile applications, and demonstrated significant performance improvement over different mobile platforms.</p>\n<p>Many of the research results have been integrated with the education curricula at the University of Tennessee Knoxville and the University of Pittsburgh. The project has supported two Ph.D. &nbsp;students working on their dissertations, and the research outcome has also been used to involve two undergraduate students into research. The involvement of the graduate and undergraduate students will prepare them for leadership roles in computer science research, academia, and industry.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/30/2019<br>\n\t\t\t\t\tModified by: Wei&nbsp;Gao</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOne of the most important challenges in mobile computing is to address the contradiction between the increasing complexity of mobile applications and the limited local capabilities of mobile devices. A viable solution to this challenge is to leverage cloud computing and execute mobile applications remotely. Modern cloud computing services such as Amazon EC2 and Microsoft Azure, however, are solely hosted by data centers and incapable of efficiently executing mobile applications due to the following reasons. First, mobile applications require immediate response, and hence suffer from the excessive network latency accessing the remote data centers. Second, data centers provide virtualized cloud resources as Virtual Machines (VMs), each of which serves an enterprise user with high volumes of workloads or responds to a type of web requests. As a result, data centers also handle each mobile application using a separate VM no matter how small its amount of workload is, but incur significant overhead for global VM provisioning and management due to the huge number of mobile applications using the cloud. Such overhead may even exceed the expense of mobile program execution itself and overload the data centers during the peak hours.\n\nTo address these challenges, we envision that an edge cloud, which is an intermediate cloud layer being deployed at the network edge, is indispensable to efficient remote execution of mobile programs. We consider the requirements of remote program execution in two aspects: i) application performance, and ii) execution expense, and design the edge cloud as a tree hierarchy of geo-distributed small-scale servers to satisfy these requirements through efficient utilization of cloud resources. This project, then, aims to synergistically incorporate heterogeneous types of mobile computing devices into such edge cloud architecture, in the following aspects.\n\nFirst, we developed quantitative models that provide profound insights about the key tradeoffs between computation and communication delays when distributing the mobile computing workloads to different tiers of computing servers in the edge cloud hierarchy. Based on these models, we developed systematic techniques that adaptively allocate the mobile computing workloads to distributed edge cloud servers, and also supports flexible migration of such workloads among different edge cloud servers.\n\nSecond, we developed mobile system and wireless networking techniques that allow heterogeneous types of mobile computing to be incorporated into the unified personal mobile cloud in a generic manner. Being different from existing techniques that are limited to specific hardware characteristics or specifications, our developed techniques retains the process of accessing remote system resources to be completely transparent from user applications, which access these resources via the corresponding service handle provided by the local OS. They, hence, could dramatically transform the way mobile computing systems are being designed and operated, so as to make significant contributions to the practical realization of personal mobile clouds. Furthermore, we also developed wireless PHY techniques that allow these heterogeneous devices to co-operate and transmit data over the same spectrum without interfering with each other, while incurring the minimum amount of computation overhead over these resource-constrained devices. \n\nFinally, we applied these mobile computing techniques to one of the most important yet challenging application scenario of edge cloud, i.e., supporting high-performance Virtual Reality over resource-constrained mobile platforms. We adaptively identify the redundancy across VR frames being rendered at different time slots and for different users, and further reuse such redundancy to minimize both the computation and communication overhead being incurred at the edge cloud servers when being used to simultaneously serve multiple mobile VR users. These techniques, hence, would be the key enabler to practical widespread of mobile VR among the wide public.\n\nWe have implemented the above mobile system and network protocol designs over practical mobile system testbeds, and conducted various real experiments to demonstrate their applicability in real-world mobile cloud scenarios. Such experimentation includes code instrumentation over a large collection of mobile applications, and demonstrated significant performance improvement over different mobile platforms.\n\nMany of the research results have been integrated with the education curricula at the University of Tennessee Knoxville and the University of Pittsburgh. The project has supported two Ph.D.  students working on their dissertations, and the research outcome has also been used to involve two undergraduate students into research. The involvement of the graduate and undergraduate students will prepare them for leadership roles in computer science research, academia, and industry. \n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 12/30/2019\n\n\t\t\t\t\tSubmitted by: Wei Gao"
+ }
+}

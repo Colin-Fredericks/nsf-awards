@@ -1,0 +1,118 @@
+{
+ "awd_id": "0411504",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "High Order and Efficient Numerical Schemes for Multi-Dimensional Hyperbolic Systems of Conservation Laws and for Simulations of Multi-Phase Fluids in Applications",
+ "cfda_num": "47.049",
+ "org_code": "03040100",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2004-09-15",
+ "awd_exp_date": "2008-08-31",
+ "tot_intn_awd_amt": 0.0,
+ "awd_amount": 172970.0,
+ "awd_min_amd_letter_date": "2004-09-14",
+ "awd_max_amd_letter_date": "2005-11-17",
+ "awd_abstract_narration": "In a series of research works we have introduced and established the\r\npositivity principle for schemes for solving hyperbolic systems of conservation \r\nlaws.  The rationale of the positivity principle is stability, which is a very \r\nimportant requirement for numerical schemes.  The positivity principle is the \r\n1st stability principle for schemes for solving multi-dimensional hyperbolic \r\nsystems.  In this proposal we have shown that the central scheme studied by Kurganov and Tadmor is positive.  By mixing upwind scheme and Lax-Wendroff scheme, we have made a positive scheme which costs only 30% of the original positive scheme. We have developed a scheme called Convex Essentially Non-Oscillatory (ENO) scheme.  The Convex ENO scheme is a high order accurate central scheme.  We have developed a new multigrid method to solve hyperbolic systems of conservation laws. By doing multigrid, the cost of calculations is reduced significantly. In the proposal we also develop several schemes for solving elliptic problems with multi-fluids separated by the interfaces. Such problems arise from many real world applications. For example, incompressible multi-fluids Navier-Stokes equation. A new uniform 2nd order accurate scheme on non-body-fitting grids is developed for that. We have proposed a uniform 2nd order accurate level-set method using finite element method for solving elliptic problems with mixing boundary conditions. Such problems emerge from in simulating epitaxial thin film growth using the island dynamics model.  We have used some of those methods to do Direct Numerical Simulation on multi-phase turbulent flows.  We have developed a geometric multigrid method for such elliptic problems based on the Ghost Fluid Method, and plan to do more with the other methods. The PI and his collaborators are pursuing further development of positive schemes. In a series of research works they have introduced and established the positivity principle for schemes for solving hyperbolic systems of conservation laws. The rationale of the positivity principle is stability. 1) They prove that the central scheme developed by Kurganov and Tadmor is positive scheme. 2) They continue to develop a new positive scheme, which is a mixture of upwind and Lax-Wendroff schemes. Hence two-stage Runge-Kutta is not required and for two-dimensions the computation cost could be cut by as much as 70%.\r\n3) They continue to work on a new scheme called weighted component-wise positive\r\nscheme. It is a mixture of Weighted ENO schemes and 2nd order component-wise version of Convex ENO scheme or high-resolution central scheme.  They use a convex combination of all candidates to do reconstruction, but use a new measurement called accurateness instead of smoothness to assign proper weights. The convex combination achieves almost optimal (one order lower than the optimal) order accuracy. This scheme can be also extended to solve Hamilton-Jacobi equations in multi-dimensions. 4) They are going to introduce a multigrid method for solving multi-dimensional hyperbolic systems of conservation laws. The novelty is to calculate the fluxes on coarse grid, then interpolates the differences of the fluxes or the fluxes to the finest grid. Such multigrid method is not only faster than a base scheme in each iteration, but also allows larger time step than that of the base scheme. Hence the multigrid method requires much less CPU time to advance solutions to the same stopping time compared to the base scheme. In other words, for the same CPU time, the multigrid method  advances solutions much further in time. This is particularly useful for computing stationary solutions. In the recent years, the PI and his collaborators have been pursuing further development of Ghost Fluid Method (GFM) for multi-phase fluids. 1) They propose a geometric multigrid method to solving linear systems arising from irregular boundary problems involving multiple interfaces in 2D and 3D. In this method, they adopt  a matrix-free approach i.e. they do not form the fine grid matrix explicitly and they never form nor store the coarse grid matrices. The main idea is to construct an accurate interpolation which captures the correct boundary conditions at the interfaces via a level set function. 2) They propose a 2nd order accurate level-set method using finite element method for solving elliptic equations with Robin interface conditions. They first study a weak formulation of it, and then prove that\r\nthere exists a unique weak solution. At last, a finite element method on non-body-fitting uniform or arbitrary triangulations is used to solve such weak formulation. The novelty of this work is the incorporation of finite element methods and non-body-fitting triangulations. 3) They develop a new 2nd order accurate numerical method on non-body-fitting grids for solving the elliptic equations with interfaces. Instead of smooth, the boundary and the subdomains'\r\nboundaries and hence the interfaces, are only required to be Lipschitz continuous as submanifold. A weak formulation is developed and the numerical method is derived by discretizing the weak formulation by piece-wise linear functions. The method is 2nd order accurate in maximum norm if the interface is smooth or its discontinuities are proper handled, and convergent in maximum norm otherwise. 4) They use the boundary condition capturing method\r\nto do Direct Numerical Simulations on multi-phase turbulent\r\nflows. This is the first successful DNS of such problems.\r\nBecause turbulence happens through a large range of scales, and hence very efficient methods are needed to capture all meaningful scales.\r\n\r\nThe proposal focus on the real world applications. For example, hyperbolic\r\nsystems of conservation laws, incompressible Navier-Stokes equations with interfaces, epitaxial thin film growth using the island dynamics model, Direct Numerical Simulation on multi-phase turbulent flows. The proposed numerical methods possess high order accuracy and high resolutions, hence they are very efficient.  Two multigrid methods are proposed to couple with those methods to further speeded up numerical simulations. The proposal should have broad impact, since the methods created can be easily adopted to many other application areas in the environmental, geophysical, biological, material science, and engineering sciences.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Former Principal Investigator",
+   "pi_first_name": "Xu-Dong",
+   "pi_last_name": "Liu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Xu-Dong Liu",
+   "pi_email_addr": "xliu@math.ucsb.edu",
+   "nsf_id": "000489465",
+   "pi_start_date": "2004-09-14",
+   "pi_end_date": "2005-11-17"
+  },
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Carlos",
+   "pi_last_name": "Garcia-Cervera",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Carlos Garcia-Cervera",
+   "pi_email_addr": "cgarcia@math.ucsb.edu",
+   "nsf_id": "000183784",
+   "pi_start_date": "2005-11-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Santa Barbara",
+  "inst_street_address": "3227 CHEADLE HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "SANTA BARBARA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8058934188",
+  "inst_zip_code": "931060001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "24",
+  "st_cong_dist_code": "CA24",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SANTA BARBARA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G9QBQDH39DF4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Santa Barbara",
+  "perf_str_addr": "3227 CHEADLE HALL",
+  "perf_city_name": "SANTA BARBARA",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "931060001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "24",
+  "perf_st_cong_dist": "CA24",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "0000",
+   "pgm_ref_txt": "UNASSIGNED"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  },
+  {
+   "pgm_ref_code": "OTHR",
+   "pgm_ref_txt": "OTHER RESEARCH OR EDUCATION"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0104",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0104",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2004,
+   "fund_oblg_amt": 172970.0
+  }
+ ],
+ "por": null
+}

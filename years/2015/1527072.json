@@ -1,0 +1,109 @@
+{
+ "awd_id": "1527072",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "STARSS: Small: New Attack Vectors and Formal Security Analysis for Integrated Circuit Logic Obfuscation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 321080.0,
+ "awd_amount": 321080.0,
+ "awd_min_amd_letter_date": "2015-07-31",
+ "awd_max_amd_letter_date": "2015-07-31",
+ "awd_abstract_narration": "Reverse engineering of integrated circuits (ICs) has become a major concern for semiconductor design companies since services to depackage, delayer and image an IC can be used to extract the underlying design. IP theft of this nature has not only economic impact due to IP theft, but also compromises the security of ICs used in military and critical infrastructure. The goal of this project is to gain a deeper understanding of the capabilities of an attacker who is trying to reverse engineer ICs that use current methods to camouflage their design, and develops stronger camouflaging techniques in light of these new attacks. \r\n  \r\nThis project explores foundational analysis of the security of logic obfuscation using camouflaging. The project develops a fundamental security metric for logic obfuscation, D-security, that measures the minimum number of input patterns an attacker needs to know to decamouflage a circuit. This research devises strong and effective decamouflaging attacks in order to understand the vulnerabilities in existing approaches, and new fortified IC camouflaging mechanisms that are resilient to these attacks. This work addresses the economic and security concerns result from IC reverse engineering, and will be integrated in graduate and undergraduate coursework at NYU as well as in the Embedded Systems Challenge (ESC) at NYU's annual cyber-security awareness week.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Siddharth",
+   "pi_last_name": "Garg",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Siddharth Garg",
+   "pi_email_addr": "sg175@nyu.edu",
+   "nsf_id": "000680915",
+   "pi_start_date": "2015-07-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "112013846",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "NY07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8225",
+   "pgm_ref_txt": "SaTC Special Projects"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 321080.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Semiconductor integrated circuits (ICs) (or \"chips\") are the workhorse of modern electronics. The costs of designing a new IC are enormous; for this reason, attackers have incentive to copy existing designs using advanced reverse engineering techniques. IC reverse engineering and IP theft has become a major issue in the electronics industry, resulting in significant loss in revenue. \"Circuit obfuscation\" has been proposed as a defense mechanism to mitigate reverse engineering attacks. The idea is to hide the functionality of the IC by   obfuscating the Boolean logic functionality of all or a subset of  logic  gates in the netlist (see Fig 1). The broad goals of this research were to formally analyze the security of state-of-the-art obfuscation techniques and to bridge any identified vulnerabilities.</p>\n<p>To this end, the project has made multiple contributions:</p>\n<p>1. Developing new attacks: we have developed new attacks showing that existing logic obfuscation techniques are ineffective. Our attacks are able to reverse engineer ICs within minutes to hours, whereas prior results suggested that these defenses would take years to break (see Fig. 2).</p>\n<p>2. We have extended our analysis to new obfuscation methods that have emerged since the start of the project, including so-called \"cyclic obfuscation.\" We have shown formally that cyclic obfuscation is no more secure than any of the existing obfuscation methods.</p>\n<p>3. Our attacks have raised the question: is it possible to develop truly secure obfuscation methods? We have answered this question in the affirmative. By relying on techniques from modern cryptography, we have proposed a provably secure obfuscation scheme that is resilient not only against our attack but also any future attack. The drawback is that to achieve security, the designer has to pay large overheads in terms of area, power and performance. Mitigating these overheads becomes an outstanding research challenge.</p>\n<p>The project has trained multiple graduate students, including students from under-represented minority groups in STEM, and resulted in a PhD thesis.The PI has communicated the results to many U.S. semiconductor companies, and disseminated the findings via invited talks, lectures and book chapters. The research has resulted in several publications, including a \"Top Picks in Hardware Security\" honor at the IEEE Transactions on Computer-Aided Design 2019.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/16/2020<br>\n\t\t\t\t\tModified by: Siddharth&nbsp;Garg</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2020/1527072/1527072_10382426_1592285376013_obf--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1527072/1527072_10382426_1592285376013_obf--rgov-800width.jpg\" title=\"Obfuscation methodology\"><img src=\"/por/images/Reports/POR/2020/1527072/1527072_10382426_1592285376013_obf--rgov-66x44.jpg\" alt=\"Obfuscation methodology\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Example showing two logic gates obfuscated such that their function cannot be reversed.</div>\n<div class=\"imageCredit\">El Massad et al, NDSS2015</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Siddharth&nbsp;Garg</div>\n<div class=\"imageTitle\">Obfuscation methodology</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2020/1527072/1527072_10382426_1592285549606_attack--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2020/1527072/1527072_10382426_1592285549606_attack--rgov-800width.jpg\" title=\"Attack time\"><img src=\"/por/images/Reports/POR/2020/1527072/1527072_10382426_1592285549606_attack--rgov-66x44.jpg\" alt=\"Attack time\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Time to fully reverse engineer a netlist using the proposed attack method.</div>\n<div class=\"imageCredit\">El Massad et al., ICCAD17</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Siddharth&nbsp;Garg</div>\n<div class=\"imageTitle\">Attack time</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nSemiconductor integrated circuits (ICs) (or \"chips\") are the workhorse of modern electronics. The costs of designing a new IC are enormous; for this reason, attackers have incentive to copy existing designs using advanced reverse engineering techniques. IC reverse engineering and IP theft has become a major issue in the electronics industry, resulting in significant loss in revenue. \"Circuit obfuscation\" has been proposed as a defense mechanism to mitigate reverse engineering attacks. The idea is to hide the functionality of the IC by   obfuscating the Boolean logic functionality of all or a subset of  logic  gates in the netlist (see Fig 1). The broad goals of this research were to formally analyze the security of state-of-the-art obfuscation techniques and to bridge any identified vulnerabilities.\n\nTo this end, the project has made multiple contributions:\n\n1. Developing new attacks: we have developed new attacks showing that existing logic obfuscation techniques are ineffective. Our attacks are able to reverse engineer ICs within minutes to hours, whereas prior results suggested that these defenses would take years to break (see Fig. 2).\n\n2. We have extended our analysis to new obfuscation methods that have emerged since the start of the project, including so-called \"cyclic obfuscation.\" We have shown formally that cyclic obfuscation is no more secure than any of the existing obfuscation methods.\n\n3. Our attacks have raised the question: is it possible to develop truly secure obfuscation methods? We have answered this question in the affirmative. By relying on techniques from modern cryptography, we have proposed a provably secure obfuscation scheme that is resilient not only against our attack but also any future attack. The drawback is that to achieve security, the designer has to pay large overheads in terms of area, power and performance. Mitigating these overheads becomes an outstanding research challenge.\n\nThe project has trained multiple graduate students, including students from under-represented minority groups in STEM, and resulted in a PhD thesis.The PI has communicated the results to many U.S. semiconductor companies, and disseminated the findings via invited talks, lectures and book chapters. The research has resulted in several publications, including a \"Top Picks in Hardware Security\" honor at the IEEE Transactions on Computer-Aided Design 2019.\n\n \n\n\t\t\t\t\tLast Modified: 06/16/2020\n\n\t\t\t\t\tSubmitted by: Siddharth Garg"
+ }
+}

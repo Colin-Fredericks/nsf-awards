@@ -1,0 +1,105 @@
+{
+ "awd_id": "1419108",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "A parallel algorithmic framework for flexible time discretization adaptive Cartesian grids",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 194987.0,
+ "awd_amount": 194987.0,
+ "awd_min_amd_letter_date": "2014-07-03",
+ "awd_max_amd_letter_date": "2014-07-03",
+ "awd_abstract_narration": "Accurately predicting the weather, understanding global climate change, designing novel materials, developing means of exploiting energy resources, and modeling the effects of natural hazards increasingly rely on our ability to efficiently solve mathematical equations on large scale computing platforms. To exploit the emerging computing power now available on multi-core desktop machines as well as at local and national supercomputing centers, numerical algorithms originally designed to run on a single computing processor (e.g. a CPU) must often be redesigned to operate efficiently (or \"scale\") in a supercomputing environment with thousands of processors. This project focuses on redesigning a particular class of numerical methods that dynamically allocate computing resources to spatial regions of a computational domain where a simulation is most demanding.  For example, such methods would place many more grid points (e.g. pixels) at a burning flame front, but leave the empty space in an industrial burner only coarsely resolved.  Or, to accurately track a thin filament of volcanic ash, an adaptive method will update high resolution regions of the simulation domain to follow the ash plume as it meanders through the atmosphere, but will not waste computational resources in areas of the globe where no ash has arrived. Many such adaptive methods now show modest scalability in a multi-processor environment, but we propose a new software paradigm which will allow these \"adaptive refinement mesh\" methods to scale efficiently to ever larger numbers of computing processors as well as enable domain scientists to more easily incorporate complex numerical algorithms into a high performance software frameworks. Successful achievement of project goals will enable researchers to take advantage of the national investment in supercomputing centers and to make progress towards providing solutions to grand challenge problems. As a particular demonstration of our adaptive mesh paradigm, we will produce high resolution simulations of volcanic ash transport in the atmosphere. Such simulations are critical for predicting aviation hazards associated with volcanic eruptions.\r\n\r\nSingle step, single stage multi-rate schemes are routinely used for solving partial differential equations on adaptively refined meshes. However, such methods are usually limited to second order accuracy or may suffer from operator splitting errors. Higher order temporal discretizations involving multiple stages or complex coupling strategies are considerably more difficult to incorporate into existing adaptive mesh software frameworks. The PI proposes a highly scalable algorithmic framework that simplifies the task of implementing sophisticated time stepping strategies into adaptive Cartesian mesh methods. The PI anticipates providing functionality that allows the user to describe their temporal strategy in a natural, method-of-lines setting. This will require designing an efficient, scalable data pipeline that provides a vectorized view of spatial data distributed across adaptively refined meshes and processors. Emphasis will be focused on explicit multi-stage Runge-Kutta methods for hyperbolic and parabolic conservation laws. Targeted applications of this work include the application of the theory of multi-rate methods for ODEs to the method-of-lines setting, the implementation of multi-rate, explicit Runge-Kutta-Chebyshev methods for reaction diffusion equations in an adaptive framework, and a demonstration of the effectiveness of the proposed framework on modeling dispersion of airborne volcanic ash in the atmosphere. The work will be done using the ForestClaw software platform, developed by the PI and her collaborator C. Burstedde (Univ. of Bonn, Germany).",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Donna",
+   "pi_last_name": "Calhoun",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Donna Calhoun",
+   "pi_email_addr": "donnacalhoun@boisestate.edu",
+   "nsf_id": "000619771",
+   "pi_start_date": "2014-07-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Boise State University",
+  "inst_street_address": "1910 UNIVERSITY DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOISE",
+  "inst_state_code": "ID",
+  "inst_state_name": "Idaho",
+  "inst_phone_num": "2084261574",
+  "inst_zip_code": "837250001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "ID02",
+  "org_lgl_bus_name": "BOISE STATE UNIVERSITY",
+  "org_prnt_uei_num": "HYWTVM5HNFM3",
+  "org_uei_num": "HYWTVM5HNFM3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Boise State University",
+  "perf_str_addr": "1910 University Drive",
+  "perf_city_name": "Boise",
+  "perf_st_code": "ID",
+  "perf_st_name": "Idaho",
+  "perf_zip_code": "837251555",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "ID",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 194987.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Mathematical models and numerical simulations are routinely used to understand and predict the behavior of tsunamis, earthquakes, volcanic eruptions, flooding, debris flows and other natural hazards. These events are challenging &nbsp;to model and simulate because we cannot predict with certainty what will trigger an event, one event can trigger a second event (e.g. landslide generated tsunamis), or natural hazard events take place over long distances, and can last for hours, days or even months. A tsunami wave, for example, is only a few centimeters high out in the deep ocean, but must be tracked over thousands of kilometers. &nbsp;Volcanic eruptions can last for days, or, intermittently, months, and the ash can be transported around the globe. &nbsp;These characteristics typical of many natural hazards present challenges to computational scientists who design numerical models to simulate these events. Numerical simulations must be able to track small scale events over long time and distances, and computational domains must be large enough to handle the entire event. To be useful in an operational setting, simulations should also provide forecasts in close to real time.&nbsp;<br />This NSF award funded development of ForestClaw, a high performance numerical code for simulating natural hazards, and many other phenomena. &nbsp;Using ForestClaw, we can simulate a hazard event such as a tsunami, flood, earthquake or landslide using logically Cartesian grids, where each grid cell (or \"pixel\") tracks local average behavior of flow. &nbsp;Uniform Cartesian grids are not very efficient, so we adaptively resolve the meshes around interesting flow features. &nbsp;Our adaptive meshes are dynamic, and by frequently refining and coarsening grids, our meshing strategy can follow flow features of interest. &nbsp;For example, a highly resolved region of the mesh &nbsp;might follow a centimeter high tsunami wave traveling across the ocean, the boundaries of a flood region, or an ash plume around the globe. ForestClaw is based on state-of-the-art algorithms for fluid flow and grid management and the code can be run on a wide range of computing platforms, from desktop machines with multiple cores, to clusters of machines that are available at universities and government agencies, and finally large scale supercomputing facilities. &nbsp;<br />To handle different natural hazards scenarios described above, we built several extensions into ForestClaw. &nbsp;The GeoClaw extension, based on the well-known code GeoClaw (D. George et al. Univ. of Washington, New York University, Columbia University and the USGS) can be used for tsunami and flooding simulations. &nbsp;We have used this extension to simulate the 1976 Teton Dam Failure. &nbsp;Using historical data from the flood, we were able to validate the GeoClaw extension and got excellent agreement with the historical records. &nbsp;A second extension is the Ash3d extension, a 3d computational model of volcanic ash transport developed by the USGS (H. Schwaiger, Anchorage, AK). &nbsp;By incorporating the Ash3d model into ForestClaw, we were able to improve the performance of the original model by about a factor of 8. Since this code is used to forecast and quantify the trajectory of potential volcanic ash eruptions, a faster code will allow emergency planners to model more hazard scenarios and explore a wider range of parameters, most of which are not known precisely. &nbsp;Neither the original GeoClaw and Ash3d can be run on large supercomputers, but the ForestClaw extensions will now allow both of these codes to be run on large computing clusters, as well as the largest available supercomputers.&nbsp;<br />The ForestClaw code is publicly available on GitHub (www.github.com/ForestClaw) and can be compiled using open source software and tools from the GNU Software project (www.gnu.org). &nbsp;Visualization can be done using freely downloadable software from the VisClaw package of Clawpack (www.clawpack.org). &nbsp;Also supported are visualization tools for visualizing on top of Google Earth. &nbsp;&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/09/2018<br>\n\t\t\t\t\tModified by: Donna&nbsp;Calhoun</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMathematical models and numerical simulations are routinely used to understand and predict the behavior of tsunamis, earthquakes, volcanic eruptions, flooding, debris flows and other natural hazards. These events are challenging  to model and simulate because we cannot predict with certainty what will trigger an event, one event can trigger a second event (e.g. landslide generated tsunamis), or natural hazard events take place over long distances, and can last for hours, days or even months. A tsunami wave, for example, is only a few centimeters high out in the deep ocean, but must be tracked over thousands of kilometers.  Volcanic eruptions can last for days, or, intermittently, months, and the ash can be transported around the globe.  These characteristics typical of many natural hazards present challenges to computational scientists who design numerical models to simulate these events. Numerical simulations must be able to track small scale events over long time and distances, and computational domains must be large enough to handle the entire event. To be useful in an operational setting, simulations should also provide forecasts in close to real time. \nThis NSF award funded development of ForestClaw, a high performance numerical code for simulating natural hazards, and many other phenomena.  Using ForestClaw, we can simulate a hazard event such as a tsunami, flood, earthquake or landslide using logically Cartesian grids, where each grid cell (or \"pixel\") tracks local average behavior of flow.  Uniform Cartesian grids are not very efficient, so we adaptively resolve the meshes around interesting flow features.  Our adaptive meshes are dynamic, and by frequently refining and coarsening grids, our meshing strategy can follow flow features of interest.  For example, a highly resolved region of the mesh  might follow a centimeter high tsunami wave traveling across the ocean, the boundaries of a flood region, or an ash plume around the globe. ForestClaw is based on state-of-the-art algorithms for fluid flow and grid management and the code can be run on a wide range of computing platforms, from desktop machines with multiple cores, to clusters of machines that are available at universities and government agencies, and finally large scale supercomputing facilities.  \nTo handle different natural hazards scenarios described above, we built several extensions into ForestClaw.  The GeoClaw extension, based on the well-known code GeoClaw (D. George et al. Univ. of Washington, New York University, Columbia University and the USGS) can be used for tsunami and flooding simulations.  We have used this extension to simulate the 1976 Teton Dam Failure.  Using historical data from the flood, we were able to validate the GeoClaw extension and got excellent agreement with the historical records.  A second extension is the Ash3d extension, a 3d computational model of volcanic ash transport developed by the USGS (H. Schwaiger, Anchorage, AK).  By incorporating the Ash3d model into ForestClaw, we were able to improve the performance of the original model by about a factor of 8. Since this code is used to forecast and quantify the trajectory of potential volcanic ash eruptions, a faster code will allow emergency planners to model more hazard scenarios and explore a wider range of parameters, most of which are not known precisely.  Neither the original GeoClaw and Ash3d can be run on large supercomputers, but the ForestClaw extensions will now allow both of these codes to be run on large computing clusters, as well as the largest available supercomputers. \nThe ForestClaw code is publicly available on GitHub (www.github.com/ForestClaw) and can be compiled using open source software and tools from the GNU Software project (www.gnu.org).  Visualization can be done using freely downloadable software from the VisClaw package of Clawpack (www.clawpack.org).  Also supported are visualization tools for visualizing on top of Google Earth.   \n\n\t\t\t\t\tLast Modified: 12/09/2018\n\n\t\t\t\t\tSubmitted by: Donna Calhoun"
+ }
+}

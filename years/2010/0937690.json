@@ -1,0 +1,121 @@
+{
+ "awd_id": "0937690",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Dynamic Staging Architecture for Accelerating I/O Pipelines",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2010-04-01",
+ "awd_exp_date": "2013-12-31",
+ "tot_intn_awd_amt": 133933.0,
+ "awd_amount": 133933.0,
+ "awd_min_amd_letter_date": "2010-04-19",
+ "awd_max_amd_letter_date": "2010-04-19",
+ "awd_abstract_narration": "Petascale applications are producing terabytes of data at a great rate. Storage systems in large-scale machines are significantly stressed as I/O rates are not growing as fast to cope with data production. A variety of HPC activities such as writing output and checkpoint data are all stymied by the I/O bandwidth bottleneck. Further to this, the post-processing and subsequent analysis/visualization of computational results is increasingly time consuming due to the widening gap between the storage/processing capacities of supercomputers and users' local clusters. \r\n\r\nThis research focuses on building a novel in-job dynamic data staging architecture and in bringing it to bear on the looming petascale I/O crisis. To this end, the following objectives are investigated: (i) the concerted use of node-local memory and emerging hardware such as Solid State Disks (SSDs), from a dedicated set of nodes, as a means to alleviate the I/O bandwidth bottleneck, (ii) the multiplexing of traditional user post-processing pipelines and secondary computations with asynchronous I/O on the staging ground to perform scalable I/O and data analytics, (iii) bypassing memory to access the staging area, and (iv) enabling QoS both in the staging ground and in the communication channel connecting it to compute client and persistent storage. \r\n\r\nThis study will have a wide-ranging impact on future provisioning of extreme-scale machines and will provide formative guidelines to this end. The result of this research will be a set of integrated techniques that can fundamentally change the current parallel I/O model and accelerate petascale I/O pipelines. Further, this research will help analyze the utility of SSDs in day-to-day supercomputing I/O and inform the wider HPC community of its viability.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Xiaosong",
+   "pi_last_name": "Ma",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Xiaosong Ma",
+   "pi_email_addr": "ma@csc.ncsu.edu",
+   "nsf_id": "000300080",
+   "pi_start_date": "2010-04-19",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Scott",
+   "pi_last_name": "Klasky",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Scott A Klasky",
+   "pi_email_addr": "klasky@tennessee.edu",
+   "nsf_id": "000529121",
+   "pi_start_date": "2010-04-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "North Carolina State University",
+  "inst_street_address": "2601 WOLF VILLAGE WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "RALEIGH",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9195152444",
+  "inst_zip_code": "276950001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "NC02",
+  "org_lgl_bus_name": "NORTH CAROLINA STATE UNIVERSITY",
+  "org_prnt_uei_num": "U3NVH931QJJ3",
+  "org_uei_num": "U3NVH931QJJ3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "North Carolina State University",
+  "perf_str_addr": "2601 WOLF VILLAGE WAY",
+  "perf_city_name": "RALEIGH",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "276950001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "NC02",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "795200",
+   "pgm_ele_name": "HECURA"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 133933.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this project, we experimented and evaluated several different ways of building intelligent staging architecture for more efficient parallel I/O on supercomputers.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Parallel I/O has been a serious performance (how fast parallel applications run) and scalability (how much faster applications get when run on more computers) problem. It is a performance problem because hard disks are much slower than the CPU and memory components. It is a scalability problem because the I/O pathway does not have similar hardware parallelism compared to the computing units, and many concurrently-running jobs must share the common parallel file system.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Our research in this funded project attacked the above problem by enabling efficient staging areas for I/O (and potentially other data processing tasks). The main idea of \"staging\" is to quickly move out data to a closer/faster temporary storage area, from where they can then be (slowly) drained to the eventual destiny: parallel file system. This is targeting the write-heavy nature of parallel scientific applications, who typically write out checkpoint data and/or intermediate results periodically during their execution. Stating enables the periodic output data to be quickly removed from the memory buffers, allowing the computation to move on, while the much slower I/O takes place in the background.&nbsp;</p>\n<p>&nbsp;</p>\n<p>The novel contributions made in our research can be highlighted by findings in two new approaches:&nbsp;</p>\n<p>1. We proposed and implemented a novel functional partitioning (FP) runtime environment, which allocates cores to specific application tasks -- checkpointing, de-duplication, and scientific data format transformation -- so that the deluge of cores can be brought to bear on the entire gamut of application activities. This approach attempts to ease the I/O pressure by trading computing capability (abundant in today's multi-core environments) to aid fast and more flexible I/O.&nbsp; The focus is on utilizing the extra cores to support HPC application I/O activities and also leverage solid-state disks in this context. For example, our evaluation shows that dedicating 1 core on an oct-core machine for checkpointing and its assist tasks using FP can improve overall execution time of a FLASH benchmark on 80 and 160 cores by 43.95% and 41.34%, respectively.</p>\n<p>&nbsp;</p>\n<p>2. We proposed and implemented ActiveFlash, a new way of utilizing powerful SSD devices in supercomputers. While traditionally used for storage, cache, or memory extension, SSDs today have rather significant amount of compute power within their multi-core controllers. We explored such compute power, often highly under-utilized, to expedite data analysis pipelines by migrating it to the location of the data, the flash device itself. This approach attempts to ease the I/O pressure by incorporating more data processing into storage devices, so that data can be \"digested\" close to where they are generated, avoid wasteful transfer or storage. We argue that Active Flash has the potential to enable true out-of-core data analytics by freeing up both the compute core and the associated main memory. By performing analysis locally, dependence on limited bandwidth to a central storage system is reduced, while allowing this analysis to proceed in parallel with the main application. In addition, offloading work from the host to the more power-efficient controller reduces peak system power usage, which is already in the megawatt range and poses a major barrier to HPC system scalability.</p>\n<p>We propose an architecture for Active Flash (see attached figure), explore energy and performance trade-offs in moving computation from host to storage, demonstrate the ability of appropriate embedded controllers to perform data analysis and reduction tasks at speeds sufficient for this application, and present a...",
+  "por_txt_cntn": "\nIn this project, we experimented and evaluated several different ways of building intelligent staging architecture for more efficient parallel I/O on supercomputers. \n\n \n\nParallel I/O has been a serious performance (how fast parallel applications run) and scalability (how much faster applications get when run on more computers) problem. It is a performance problem because hard disks are much slower than the CPU and memory components. It is a scalability problem because the I/O pathway does not have similar hardware parallelism compared to the computing units, and many concurrently-running jobs must share the common parallel file system. \n\n \n\nOur research in this funded project attacked the above problem by enabling efficient staging areas for I/O (and potentially other data processing tasks). The main idea of \"staging\" is to quickly move out data to a closer/faster temporary storage area, from where they can then be (slowly) drained to the eventual destiny: parallel file system. This is targeting the write-heavy nature of parallel scientific applications, who typically write out checkpoint data and/or intermediate results periodically during their execution. Stating enables the periodic output data to be quickly removed from the memory buffers, allowing the computation to move on, while the much slower I/O takes place in the background. \n\n \n\nThe novel contributions made in our research can be highlighted by findings in two new approaches: \n\n1. We proposed and implemented a novel functional partitioning (FP) runtime environment, which allocates cores to specific application tasks -- checkpointing, de-duplication, and scientific data format transformation -- so that the deluge of cores can be brought to bear on the entire gamut of application activities. This approach attempts to ease the I/O pressure by trading computing capability (abundant in today's multi-core environments) to aid fast and more flexible I/O.  The focus is on utilizing the extra cores to support HPC application I/O activities and also leverage solid-state disks in this context. For example, our evaluation shows that dedicating 1 core on an oct-core machine for checkpointing and its assist tasks using FP can improve overall execution time of a FLASH benchmark on 80 and 160 cores by 43.95% and 41.34%, respectively.\n\n \n\n2. We proposed and implemented ActiveFlash, a new way of utilizing powerful SSD devices in supercomputers. While traditionally used for storage, cache, or memory extension, SSDs today have rather significant amount of compute power within their multi-core controllers. We explored such compute power, often highly under-utilized, to expedite data analysis pipelines by migrating it to the location of the data, the flash device itself. This approach attempts to ease the I/O pressure by incorporating more data processing into storage devices, so that data can be \"digested\" close to where they are generated, avoid wasteful transfer or storage. We argue that Active Flash has the potential to enable true out-of-core data analytics by freeing up both the compute core and the associated main memory. By performing analysis locally, dependence on limited bandwidth to a central storage system is reduced, while allowing this analysis to proceed in parallel with the main application. In addition, offloading work from the host to the more power-efficient controller reduces peak system power usage, which is already in the megawatt range and poses a major barrier to HPC system scalability.\n\nWe propose an architecture for Active Flash (see attached figure), explore energy and performance trade-offs in moving computation from host to storage, demonstrate the ability of appropriate embedded controllers to perform data analysis and reduction tasks at speeds sufficient for this application, and present a simulation study of Active Flash scheduling policies. These results show the viability of the Active Flash model, and its capability to potentially have a transformat..."
+ }
+}

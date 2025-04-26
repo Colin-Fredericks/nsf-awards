@@ -1,0 +1,105 @@
+{
+ "awd_id": "1219165",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF Small: Language Support for Variation Maintenance",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2012-09-01",
+ "awd_exp_date": "2016-12-31",
+ "tot_intn_awd_amt": 497728.0,
+ "awd_amount": 497728.0,
+ "awd_min_amd_letter_date": "2012-08-29",
+ "awd_max_amd_letter_date": "2012-08-29",
+ "awd_abstract_narration": "Managing variation is an important part of software engineering. Many existing software projects can already generate a huge number of distinct programs that run on different platforms and provide different feature sets. Research on software product lines and feature-oriented software development has provided processes and tools for the development of massively configurable software, suggesting that the variability of software systems will only continue to grow. A currently largely unsolved problem is how to systematically transform variation representations to support the creation, refactoring, and migration of variation, as wall as the analysis and querying of variation-rich software repositories. The objective of this research is to investigate the systematic transformation of variation structures and develop language support for it. \r\n\r\nThe following technical approach is pursued. First, gathering variation programming tasks will provide a basis for the understanding of the nature and extent of variation transformations, and assembling a catalog of such tasks will aid the design, evaluation, and comparison of variation languages. Second, the definition of the syntax and semantics of a transformational choice calculus, which extends the (representational) choice calculus with computational features, will support the investigation of formal properties of variation programming. Third, the development of a variation type system facilitates the characterization of different kinds of changes and evolutions of variational structures. Moreover, the development of a variation module system will provide an interface between low-level details required by the intricate scoping and binding issues of the choice calculus representation and a more high-level, declarative view of variations. Finally, the design of a domain-specific embedded language for variation programming will allow the easy description of transformations of variation structures in software artifacts. It also supports the experimentation with variation transformations. Since the scope of this research extends beyond professional software and covers also end-user programming systems, such as spreadsheets, the developed methods will be applicable in a wide variety of contexts and can thus empower millions of users to handle variation in a more systematic way.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Martin",
+   "pi_last_name": "Erwig",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Martin Erwig",
+   "pi_email_addr": "erwig@oregonstate.edu",
+   "nsf_id": "000434059",
+   "pi_start_date": "2012-08-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Oregon State University",
+  "inst_street_address": "1500 SW JEFFERSON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CORVALLIS",
+  "inst_state_code": "OR",
+  "inst_state_name": "Oregon",
+  "inst_phone_num": "5417374933",
+  "inst_zip_code": "973318655",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "OR04",
+  "org_lgl_bus_name": "OREGON STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MZ4DYXE1SL98"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Oregon State University",
+  "perf_str_addr": "1148 Kelley Engineering Center",
+  "perf_city_name": "Corvallis",
+  "perf_st_code": "OR",
+  "perf_st_name": "Oregon",
+  "perf_zip_code": "973315501",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "OR04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 497728.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The most important outcomes of this research are two methods for improving type checking and a programming calculus for handling variational software. Both contributions are based on a representation of software variation as choices.&nbsp;</p>\n<p>First, we were able to design and implement a new approach to type inference, called <em>counter-factual typing</em>, that produces more accurate error messages than existing approaches. Given a program that contains a type error, this approach systematically creates choices between existing program elements and hypothetical replacements for them. Using the method of variational type inference, counter-factual typing then produces a comprehensive set of change suggestions, each of which could fix the type error. This approach is based on representing the type of an existing program part and its replacement as a choice type. The general idea is to contemplate what the type of a program would be if one or more program elements were substituted by their hypothetical replacements. Additionally, we developed a method called <em>guided type debugging</em> that builds on counter-factual typing and helps it converge on correct suggestions faster by interactively eliciting type specifications from the user during the type debugging process.</p>\n<p>Second, we were able to design a new type inference algorithm for so-called generalized algebraic data types (GADTs), which are an important element of modern functional programming languages. Our developed GADT type system is the first that is based on the traditional Hindley/Milner type system (a de facto standard) that can produce so-called principal types, which are generic types from which all valid types of a program can be instantiated. Our method significantly outperforms previous approaches in terms of precision. The key to its success was the extension of the type language by choice types.</p>\n<p>Both counter-factual typing and GADT type inference are contributions to science since they present new approaches for program analysis that expand the state-of-the-art knowledge about the problem of&nbsp;type inference. These approaches can also be applied to a variety of other program analysis problems. The approaches are also a contribution to software engineering since they support programmers in finding and fixing errors in programs.</p>\n<p>Third, we have developed a calculus for variational programming, called <em>VPC</em>, for analyzing and manipulating software that contains variability (for example, in the form of #ifdef statements). The design of VPC supports automatic variation-&shy;preserving computations as well as variation elimination and aggregation. We have developed a sound type system for VPC together with a constraint-based type inference algorithm that is sound, complete, and principal. The design of VPC has contributed important insights into the problem of programming with variational software artifacts.</p>\n<p>In summary, this research has successfully employed the variation representation offered by the choice calculus to improve the effectiveness and accuracy of type checking in programming languages. Moreover, this research has produced results and insights about variational programming. The project has supported <em>three high school students</em> for summer internships in the context of Saturday Academy's ASE program. Moreover, <em>six graduate students</em>, half of them female, have been involved in the research for this project. Three of the students have successfully completed their MS degrees. One student has completed his PhD degree and is now employed on a tenure-track position. The other two students are on track to completing their degrees soon.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/16/2017<br>\n\t\t\t\t\tModified by: Martin&nbsp;Erwig</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe most important outcomes of this research are two methods for improving type checking and a programming calculus for handling variational software. Both contributions are based on a representation of software variation as choices. \n\nFirst, we were able to design and implement a new approach to type inference, called counter-factual typing, that produces more accurate error messages than existing approaches. Given a program that contains a type error, this approach systematically creates choices between existing program elements and hypothetical replacements for them. Using the method of variational type inference, counter-factual typing then produces a comprehensive set of change suggestions, each of which could fix the type error. This approach is based on representing the type of an existing program part and its replacement as a choice type. The general idea is to contemplate what the type of a program would be if one or more program elements were substituted by their hypothetical replacements. Additionally, we developed a method called guided type debugging that builds on counter-factual typing and helps it converge on correct suggestions faster by interactively eliciting type specifications from the user during the type debugging process.\n\nSecond, we were able to design a new type inference algorithm for so-called generalized algebraic data types (GADTs), which are an important element of modern functional programming languages. Our developed GADT type system is the first that is based on the traditional Hindley/Milner type system (a de facto standard) that can produce so-called principal types, which are generic types from which all valid types of a program can be instantiated. Our method significantly outperforms previous approaches in terms of precision. The key to its success was the extension of the type language by choice types.\n\nBoth counter-factual typing and GADT type inference are contributions to science since they present new approaches for program analysis that expand the state-of-the-art knowledge about the problem of type inference. These approaches can also be applied to a variety of other program analysis problems. The approaches are also a contribution to software engineering since they support programmers in finding and fixing errors in programs.\n\nThird, we have developed a calculus for variational programming, called VPC, for analyzing and manipulating software that contains variability (for example, in the form of #ifdef statements). The design of VPC supports automatic variation-&shy;preserving computations as well as variation elimination and aggregation. We have developed a sound type system for VPC together with a constraint-based type inference algorithm that is sound, complete, and principal. The design of VPC has contributed important insights into the problem of programming with variational software artifacts.\n\nIn summary, this research has successfully employed the variation representation offered by the choice calculus to improve the effectiveness and accuracy of type checking in programming languages. Moreover, this research has produced results and insights about variational programming. The project has supported three high school students for summer internships in the context of Saturday Academy's ASE program. Moreover, six graduate students, half of them female, have been involved in the research for this project. Three of the students have successfully completed their MS degrees. One student has completed his PhD degree and is now employed on a tenure-track position. The other two students are on track to completing their degrees soon.\n\n \n\n\t\t\t\t\tLast Modified: 01/16/2017\n\n\t\t\t\t\tSubmitted by: Martin Erwig"
+ }
+}

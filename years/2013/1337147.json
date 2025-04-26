@@ -1,0 +1,108 @@
+{
+ "awd_id": "1337147",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: CLCCA: Enhancing the Programmability of Heterogeneous Manycore Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 749995.0,
+ "awd_amount": 749995.0,
+ "awd_min_amd_letter_date": "2013-08-09",
+ "awd_max_amd_letter_date": "2013-08-09",
+ "awd_abstract_narration": "As computing devices are used to solve increasingly complex and diverse problems with ever-increasing multidimensional data-sets, programmers are tasked with writing high-performance and energy-efficient code. To run this code, processor vendors are adopting heterogeneous systems, where conventional general-purpose cores are integrated with accelerators like graphics processing units (GPUs), cryptographic accelerators, database accelerators, and video encoders/decoders. To ensure the widespread adoption of these systems, it is essential that their programming models are effective and easy to use. Unfortunately, current programming models for these systems are challenging, requiring the programmer to explicitly allocate, manage, and marshal memory back and forth between cores and accelerators. As a result, software is often error-prone and buggy, and suffers overheads from data replication and movement. As future systems incorporate increasing levels of heterogeneity, this problem will worsen.\r\n\r\nThis proposal develops unified address spaces for cores and accelerators, which is a key part of an effective programming model. A unified address space (in both virtual and physical addresses) increases system programmability because: (1) programmers need not manually allocate and manage their data movement between hundreds of heterogeneous compute units; (2) the system automatically allocates, replicates, and migrates data among heterogeneous components as execution shifts; (3) these systems support new algorithms that require simultaneous core and accelerator access to common data structures (e.g., producer-consumer programs where CPUs and GPUs communicate through software task queues); (4) programs are now more portable across systems with alternate memory hierarchies. This work studies mechanisms to support these benefits (while maintaining high performance and low power) by developing novel hardware (e.g., new memory controllers, Translation Lookaside Buffer augmentations, shootdown mechanisms) and operating system (OS) support (e.g., new OS memory allocation mechanisms and support for page allocation, replication, and migration on heterogeneous systems and memory).",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Abhishek",
+   "pi_last_name": "Bhattacharjee",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Abhishek Bhattacharjee",
+   "pi_email_addr": "abhishek.bhattacharjee@yale.edu",
+   "nsf_id": "000580469",
+   "pi_start_date": "2013-08-09",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Ricardo",
+   "pi_last_name": "Bianchini",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ricardo Bianchini",
+   "pi_email_addr": "ricardob@cs.rutgers.edu",
+   "nsf_id": "000120851",
+   "pi_start_date": "2013-08-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rutgers University New Brunswick",
+  "inst_street_address": "3 RUTGERS PLZ",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW BRUNSWICK",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "8489320150",
+  "inst_zip_code": "089018559",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "RUTGERS, THE STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "M1LVPE5GLSD9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rutgers University New Brunswick",
+  "perf_str_addr": "110 Frelinghuysen Road",
+  "perf_city_name": "Piscataway",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "088548072",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "NJ06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 749995.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Intellectual Merit: This project advanced the state of art in the design of emerging heterogeneous computer systems. These are systems that are heterogeneous in processing elements and in devices used to realize the memory system. Programming such systems is challenging because of the complexity that the heterogeneity imposes. This project considered how to build low-overhead architectural/OS abstractions to balance the efficiency benefits of specialization with programming abstractions that make these systems usable in practice. Key contributions were: (1) hardware and software mechanisms to implement address translation for GPUs and throughput-oriented accelerators efficiently (i.e., via higher-reach TLBs and faster page table walks); (2) software support to enable faster data copies among heterogeneous memory devices; (3) design of abstractions that permit direct invocation of OS systems services from accelerators; and (4) integrating support in emerging memory technologies to enable faster memory forensics. The overall impact of these contributions is to help realize efficient systems that are able to extract the benefits of extreme heterogeneity while remaining programmable and easy-to-use.</p>\n<p>Broader Impacts: Beyond the advacement of scientific inquiry, this project also led to the training of several graduate students in the research of extremely heterogeneous systems, with a focus on hardware design, OS design, formal methods (to verify the correctness of the proposed designs), and systems security. The graduate students had to learn how to not only advance academic inquiry with this work but also how to transition these studies to impact real products -- specifically, some of the software developed in this project was upstreamed into the Linux kernel and other parts of it are now hosted under the Radeon Open Compute platform for ultrascale computing. Additionally, several of the studies lead to collaborations with industry. Additionally, research lessons from this work were integrated into undergraduate and graduate coursework. Some of these undergraduates pursued class projects based on this work.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/30/2018<br>\n\t\t\t\t\tModified by: Abhishek&nbsp;Bhattacharjee</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIntellectual Merit: This project advanced the state of art in the design of emerging heterogeneous computer systems. These are systems that are heterogeneous in processing elements and in devices used to realize the memory system. Programming such systems is challenging because of the complexity that the heterogeneity imposes. This project considered how to build low-overhead architectural/OS abstractions to balance the efficiency benefits of specialization with programming abstractions that make these systems usable in practice. Key contributions were: (1) hardware and software mechanisms to implement address translation for GPUs and throughput-oriented accelerators efficiently (i.e., via higher-reach TLBs and faster page table walks); (2) software support to enable faster data copies among heterogeneous memory devices; (3) design of abstractions that permit direct invocation of OS systems services from accelerators; and (4) integrating support in emerging memory technologies to enable faster memory forensics. The overall impact of these contributions is to help realize efficient systems that are able to extract the benefits of extreme heterogeneity while remaining programmable and easy-to-use.\n\nBroader Impacts: Beyond the advacement of scientific inquiry, this project also led to the training of several graduate students in the research of extremely heterogeneous systems, with a focus on hardware design, OS design, formal methods (to verify the correctness of the proposed designs), and systems security. The graduate students had to learn how to not only advance academic inquiry with this work but also how to transition these studies to impact real products -- specifically, some of the software developed in this project was upstreamed into the Linux kernel and other parts of it are now hosted under the Radeon Open Compute platform for ultrascale computing. Additionally, several of the studies lead to collaborations with industry. Additionally, research lessons from this work were integrated into undergraduate and graduate coursework. Some of these undergraduates pursued class projects based on this work. \n\n\t\t\t\t\tLast Modified: 10/30/2018\n\n\t\t\t\t\tSubmitted by: Abhishek Bhattacharjee"
+ }
+}

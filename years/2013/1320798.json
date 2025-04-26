@@ -1,0 +1,105 @@
+{
+ "awd_id": "1320798",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Workflows and Relationships for End-to-End Data Security in Collaborative Applications",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 498756.0,
+ "awd_amount": 498756.0,
+ "awd_min_amd_letter_date": "2013-08-26",
+ "awd_max_amd_letter_date": "2018-07-07",
+ "awd_abstract_narration": "Access control refers to mechanisms for protecting access to confidential information, such as sensitive medical data.  Management of access control policies, in applications that involve several collaborating parties, poses several challenges.  One of these is in ensuring that each party in such a collaboration only obtains the minimal set of access permissions that they require for the collaboration.  In a domain such as healthcare, it may be critical that access be minimized in this way, rather than allowing all parties equal access to the sensitive information.  In practice, it is often difficult to manage access control policies to achieve this goal of minimality.  This research will investigate new approaches to describing and reasoning about access control policies, to ensure that information that is shared in collaborative applications is only accessible to those parties in the application that require it.  This work will develop both the theoretical foundations of, and prototype tools for, ensuring end-to-end security of data that is shared between organizations, with sharing of medical data as a particular source for use-case scenarios.\r\n\r\nOn one dimension, the project will investigate the extension of workflow languages to describe protocols for sharing information in collaborate applications.  On another dimension, relationship-based access control can describe access to information based on parties' roles in a collaboration.  The project will investigate the use of spatial and temporal logics for relating these two, and user interfaces for presenting and reasoning about this information.  Since ultimately software programs will perform the access and transfer of patient medical data, formal specifications will be extracted from workflow specifications, and used as a basis for checking software programs for their compliance with these access control policies.   The broader impact of this research will be facilitated by the P.I.'s involvement with the NIH International Epidemiologic Databases on AIDS for Central Africa project (CA-IeDEA).  The fruits of the research will be disseminated through interaction with open source communities involved in healthcare IT for low and middle income countries, as well as through interactions with lead healthcare IT decision-makers in the countries involved in CA-IeDEA.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Dominic",
+   "pi_last_name": "Duggan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Dominic Duggan",
+   "pi_email_addr": "dduggan@stevens.edu",
+   "nsf_id": "000153165",
+   "pi_start_date": "2013-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stevens Institute of Technology",
+  "inst_street_address": "ONE CASTLE POINT ON HUDSON",
+  "inst_street_address_2": "",
+  "inst_city_name": "HOBOKEN",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "2012168762",
+  "inst_zip_code": "070305906",
+  "inst_country_name": "United States",
+  "cong_dist_code": "08",
+  "st_cong_dist_code": "NJ08",
+  "org_lgl_bus_name": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JJ6CN5Y5A2R5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stevens Institute of Technology",
+  "perf_str_addr": "Castle Point on Hudson",
+  "perf_city_name": "Hoboken",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "070305991",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "08",
+  "perf_st_cong_dist": "NJ08",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 498756.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"p1\"><span class=\"s1\">This project investigated issues in controlling the flow of confidential information in distributed systems, and ensuring that information does not leak to unauthorized parties due to software bugs or malicious insider attacks.<span>&nbsp; </span>It has been informed by collaboration in medical data collection efforts in Low- and Middle-Income Countries (LMIC), where the confidentiality of patient data is critical.</span></p>\n<p class=\"p1\"><span class=\"s1\">The accompanying figure describes the form of problem addressed by this research.<span>&nbsp; </span>Patients agree to participate in medical longitudinal studies by providing their consent, recorded in a consent server.<span>&nbsp; </span>The consent server notifies the systems at the clinic treating the patient, and the data collection server, that the patient has consented to have their data uploaded as part of their participation in the study.<span>&nbsp; </span>At some point, the patient revokes their consent via the consent server.<span>&nbsp; </span>The issue is how to synchronize this update in the consent policy with both the data collection server and the clinic, where arbitrary delays in communication may require either a retraction of a data upload or delivery of a data upload after revocation of consent has been received.</span></p>\n<p class=\"p1\"><span class=\"s1\">The project looked at several aspects of this problem.<span>&nbsp; </span>One aspect was reasoning about correctness of the handling of confidential information in a situation such as this, where changes in policies need to be synchronized in a loosely coupled fashion across a widely distributed system. For example, it may not be feasible to involve the consent server in an exchange of messages, to confirm that consent is still granted, for every upload of data.<span>&nbsp; </span>There are well-known techniques for synchronizing these systems in a loosely coupled way, but we need to provide formally verified guarantees that ultimately the patient?s confidentiality has been respected, and collection of their data was only performed during the period that they provided consent.<span>&nbsp; </span>For example, given that patient data may be retracted due to synchronization errors, when is it safe to provide patient information to data analysts?<span>&nbsp; </span>The work has incorporated concepts from epistemic logic, logics for reasoning about agent knowledge, to develop a framework for doing this form of reasoning about safe handling of confidential information.</span></p>\n<p class=\"p1\"><span class=\"s1\">Another aspect of this problem that the project has looked at, is more broadly how to enforce application workflows that parties to a distributed application should follow.<span>&nbsp; </span>There are known techniques in the research community, some of them realized as open-source tools, that take behavioral specifications of message-passing application workflows and ensure that applications conform with these workflows, either via runtime enforcement or checking in a programming language compiler, or some combination of both.<span>&nbsp; </span>These techniques could be used to specify workflows for the kinds of applications that this project was considering, but at the cost of an exchange of messages on every data upload that might in practice be infeasible.<span>&nbsp; </span>The project developed extensions to these techniques that allow more loosely coupled specifications of workflows for example for uploading confidential data, based on the concept of <em>situational awareness</em>: Workflows can be expressed and checked that assume that, once granted, consent is assumed to still be granted until an explicit revocation is received.</span>&nbsp;This allows the definition of workflows that do not require constant checking with the consent server during normal processing, which may not be feasible in the forms of deployment scenarios that informed this research.</p>\n<p class=\"p1\"><span class=\"s1\">This research involved one Ph.D. student who worked on both parts of this research program and worked on a proof-of-concept implementation for the first part of the research.<span>&nbsp; </span>This research should influence the field of sensitive data collection, such as health data, to eventually be able to provide participants in longitudinal studies with formally verified guarantees of the safe handling of their confidential information.</span></p>\n<p class=\"p2\"><span class=\"s1\">&nbsp;</span></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/04/2022<br>\n\t\t\t\t\tModified by: Dominic&nbsp;Duggan</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2022/1320798/1320798_10270530_1667593994857_fig-consent-time--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1320798/1320798_10270530_1667593994857_fig-consent-time--rgov-800width.jpg\" title=\"Data Collection Example\"><img src=\"/por/images/Reports/POR/2022/1320798/1320798_10270530_1667593994857_fig-consent-time--rgov-66x44.jpg\" alt=\"Data Collection Example\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">This figure illustrates one of the issues in uploading confidential patient information, in a scenario where patient consent may be revoked and there may be delays in informing all parties of the revocation.</div>\n<div class=\"imageCredit\">Stevens Institute of Technology</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Dominic&nbsp;Duggan</div>\n<div class=\"imageTitle\">Data Collection Example</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "This project investigated issues in controlling the flow of confidential information in distributed systems, and ensuring that information does not leak to unauthorized parties due to software bugs or malicious insider attacks.  It has been informed by collaboration in medical data collection efforts in Low- and Middle-Income Countries (LMIC), where the confidentiality of patient data is critical.\nThe accompanying figure describes the form of problem addressed by this research.  Patients agree to participate in medical longitudinal studies by providing their consent, recorded in a consent server.  The consent server notifies the systems at the clinic treating the patient, and the data collection server, that the patient has consented to have their data uploaded as part of their participation in the study.  At some point, the patient revokes their consent via the consent server.  The issue is how to synchronize this update in the consent policy with both the data collection server and the clinic, where arbitrary delays in communication may require either a retraction of a data upload or delivery of a data upload after revocation of consent has been received.\nThe project looked at several aspects of this problem.  One aspect was reasoning about correctness of the handling of confidential information in a situation such as this, where changes in policies need to be synchronized in a loosely coupled fashion across a widely distributed system. For example, it may not be feasible to involve the consent server in an exchange of messages, to confirm that consent is still granted, for every upload of data.  There are well-known techniques for synchronizing these systems in a loosely coupled way, but we need to provide formally verified guarantees that ultimately the patient?s confidentiality has been respected, and collection of their data was only performed during the period that they provided consent.  For example, given that patient data may be retracted due to synchronization errors, when is it safe to provide patient information to data analysts?  The work has incorporated concepts from epistemic logic, logics for reasoning about agent knowledge, to develop a framework for doing this form of reasoning about safe handling of confidential information.\nAnother aspect of this problem that the project has looked at, is more broadly how to enforce application workflows that parties to a distributed application should follow.  There are known techniques in the research community, some of them realized as open-source tools, that take behavioral specifications of message-passing application workflows and ensure that applications conform with these workflows, either via runtime enforcement or checking in a programming language compiler, or some combination of both.  These techniques could be used to specify workflows for the kinds of applications that this project was considering, but at the cost of an exchange of messages on every data upload that might in practice be infeasible.  The project developed extensions to these techniques that allow more loosely coupled specifications of workflows for example for uploading confidential data, based on the concept of situational awareness: Workflows can be expressed and checked that assume that, once granted, consent is assumed to still be granted until an explicit revocation is received. This allows the definition of workflows that do not require constant checking with the consent server during normal processing, which may not be feasible in the forms of deployment scenarios that informed this research.\nThis research involved one Ph.D. student who worked on both parts of this research program and worked on a proof-of-concept implementation for the first part of the research.  This research should influence the field of sensitive data collection, such as health data, to eventually be able to provide participants in longitudinal studies with formally verified guarantees of the safe handling of their confidential information.\n \n\n \n\n\t\t\t\t\tLast Modified: 11/04/2022\n\n\t\t\t\t\tSubmitted by: Dominic Duggan"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1314919",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Option: Medium: Collaborative: Authenticated Ciphers",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Shannon Beck",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 258984.0,
+ "awd_amount": 258984.0,
+ "awd_min_amd_letter_date": "2013-09-06",
+ "awd_max_amd_letter_date": "2013-09-06",
+ "awd_abstract_narration": "OpenSSH reveals excerpts from encrypted login sessions. TLS (HTTPS) reveals encrypted PayPal account cookies. DTLS is no better. EAXprime allows instantaneous forgeries. RFID security has been broken again and again. All of these failures of confidentiality and integrity are failures of authenticated ciphers: algorithms that promise to encrypt and authenticate messages using a shared secret key.\r\n\r\nIt is easy to blame many of these security problems on a lack of education: much stronger authenticated ciphers have been in the literature for many years. However, in many cases these stronger authenticated ciphers fail to meet the performance requirements of the applications. Performance is exactly the motivation for RC4 in WEP; EAXprime in the \"Smart Grid\"; HB in RFID; and \"IPsec\" continuing to support unauthenticated encryption.\r\n\r\nThis project is building a new generation of authenticated ciphers that improve efficiency without compromising security and that improve security without compromising efficiency. This work spans seven main topics: more efficient ciphers; more efficient MACs; more efficient forgery rejection; improved protection against side channels; improved protection against misuse and bad luck; improved quantitative security; and improved security proofs. The ultimate objective is to obtain the best possible security subject to a variety of performance constraints specified by cryptographic users.\r\n\r\nThe high-security high-performance authenticated ciphers produced in this project will be directly and straightforwardly usable in cryptographic applications, avoiding the disasters in current applications and finally bringing secure secret-key cryptography from theory to practice.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Bernstein",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel J Bernstein",
+   "pi_email_addr": "proposal-qlznvbgnroelrkdkzl@box.cr.yp.to",
+   "nsf_id": "000147338",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Chicago",
+  "inst_street_address": "809 S MARSHFIELD AVE M/C 551",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHICAGO",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "3129962862",
+  "inst_zip_code": "606124305",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "IL07",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "W8XEAJDKMXH3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Chicago",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "606077053",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "IL07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 258984.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>\"Authenticated Ciphers\" was a four-institution joint project (grant 1314885 to Rogaway at UCDavis, grant 1314592 to Krovetz at CSUS, grant 1314919 to Bernstein at UIC, and grant 1314540 to Gaj and Kaps at GMU) coordinated by UIC. Here are three highlights of UIC's work within this project, including some work building upon data provided by the other institutions: 1. \"Gimli\" is a new high-security cipher that provides excellent performance in software for high-end CPUs, software for smartphone CPUs, software for microcontrollers, high-throughput hardware, and small-area hardware. Most ciphers are designed to perform well in some environments, but Gimli shows that it is possible for one cipher to perform well in all of these environments simultaneously. 2. Contrary to denials from Richard George (National Security Agency), the back door in NIST's \"Dual EC\" random-number generator is exploitable in practice when Dual EC is used inside HTTPS. 3. New software has set speed records for one of the fundamental tasks in computer science, namely sorting an array of numbers into order.<br /><br />At the time of this report, Bernstein's work under this project has produced 21 scientific papers, with a total of 619 pages, all available for free online. Furthermore, 16 of these papers have already been accepted for publication at refereed venues, including top security venues such as USENIX Security, Eurocrypt, and CHES. Web pages maintained by Bernstein include free software for Gimli (https://gimli.cr.yp.to), for sorting (https://sorting.cr.yp.to), and for the \"NTRU Prime\" post-quantum system (https://ntruprime.cr.yp.to); this software is already the subject of various deployment experiments. Bernstein has given a variety of related talks for other scientists, for students, and for the general public.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/15/2019<br>\n\t\t\t\t\tModified by: Daniel&nbsp;J&nbsp;Bernstein</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\"Authenticated Ciphers\" was a four-institution joint project (grant 1314885 to Rogaway at UCDavis, grant 1314592 to Krovetz at CSUS, grant 1314919 to Bernstein at UIC, and grant 1314540 to Gaj and Kaps at GMU) coordinated by UIC. Here are three highlights of UIC's work within this project, including some work building upon data provided by the other institutions: 1. \"Gimli\" is a new high-security cipher that provides excellent performance in software for high-end CPUs, software for smartphone CPUs, software for microcontrollers, high-throughput hardware, and small-area hardware. Most ciphers are designed to perform well in some environments, but Gimli shows that it is possible for one cipher to perform well in all of these environments simultaneously. 2. Contrary to denials from Richard George (National Security Agency), the back door in NIST's \"Dual EC\" random-number generator is exploitable in practice when Dual EC is used inside HTTPS. 3. New software has set speed records for one of the fundamental tasks in computer science, namely sorting an array of numbers into order.\n\nAt the time of this report, Bernstein's work under this project has produced 21 scientific papers, with a total of 619 pages, all available for free online. Furthermore, 16 of these papers have already been accepted for publication at refereed venues, including top security venues such as USENIX Security, Eurocrypt, and CHES. Web pages maintained by Bernstein include free software for Gimli (https://gimli.cr.yp.to), for sorting (https://sorting.cr.yp.to), and for the \"NTRU Prime\" post-quantum system (https://ntruprime.cr.yp.to); this software is already the subject of various deployment experiments. Bernstein has given a variety of related talks for other scientists, for students, and for the general public.\n\n\t\t\t\t\tLast Modified: 04/15/2019\n\n\t\t\t\t\tSubmitted by: Daniel J Bernstein"
+ }
+}

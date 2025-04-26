@@ -1,0 +1,101 @@
+{
+ "awd_id": "1017782",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TC: Small: Reining in Side-Channel Information Leaks in the Software-as-a-Service Era",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jeremy Epstein",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2014-08-31",
+ "tot_intn_awd_amt": 494110.0,
+ "awd_amount": 494110.0,
+ "awd_min_amd_letter_date": "2010-07-14",
+ "awd_max_amd_letter_date": "2010-07-14",
+ "awd_abstract_narration": "With software-as-a-service (SaaS) rapidly becoming mainstream, web applications increasingly substitute for desktop software. A web application is a two-part program, with its components deployed both in the browser and in the web server.  The interactions between these two components inevitably reveal the program's internal states to any observer of the communication stream, simply through the pattern of packet lengths and the timing of interactions, even if stream is entirely encrypted.  This research reveals that these \"side-channel\" information leaks are both fundamental and common: a number of popular web applications are found to disclose highly sensitive user data such as one's family income, health profile, investments and more.   This research will develop an in-depth understanding of web applications' side channel vulnerabilities, particularly the design features and domain knowledge that lead to side-channel leaks. Based upon this understanding, new technologies are developed to facilitate the detection and mitigation of the side-channel threats during the development and operation of web applications. These technologies will be made available to users so they can assess their vulnerabilities and to developers so they can reduce the vulnerabilities in the applications they build. The outcomes of the project will contribute to the improvement of privacy protection in the SaaS infrastructure and cloud computing.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "XiaoFeng",
+   "pi_last_name": "Wang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "XiaoFeng Wang",
+   "pi_email_addr": "xw7@indiana.edu",
+   "nsf_id": "000219306",
+   "pi_start_date": "2010-07-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Indiana University",
+  "inst_street_address": "107 S INDIANA AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BLOOMINGTON",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "3172783473",
+  "inst_zip_code": "474057000",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "IN09",
+  "org_lgl_bus_name": "TRUSTEES OF INDIANA UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YH86RTW2YVJ4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Indiana University",
+  "perf_str_addr": "107 S INDIANA AVE",
+  "perf_city_name": "BLOOMINGTON",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "474057000",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "IN09",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779500",
+   "pgm_ele_name": "TRUSTWORTHY COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 494110.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The prosperity of software-as-a-service (SaaS) comes with new security challenges.&nbsp; Different from their desktop counterparts, the web application delivered through the SaaS infrastructure is a two-part program, with its components deployed both in the browser and in the web server.&nbsp; The interactions between these two components inevitably discloses the internal states of the program to the network eavesdropper, through various &ldquo;side channels&rdquo; of the communication, such as packet lengths and the timing of interactions, even when the communication is entirely encrypted.&nbsp; &nbsp;Further complicating the situation is the recent popularity of smartphone and tablet techniques, with millions of mobile applications (app for short) already on the market, most of which are essentially web applications with their client-side components directly running on various mobile devices.&nbsp; &nbsp;Not only are those apps equally vulnerable to the network side-channel attack, just like their corresponding browser-side counterparts,&nbsp; but they are also subject to the risks of information leaks through mobile operating systems (OS),&nbsp; including each app&rsquo;s mobile data, CPU and memory usages and more, which has all been made public to even untrusted apps running on the same devices.</p>\n<p>&nbsp;</p>\n<p><strong>Intellectual Merits. </strong>In this project, we performed a series of in-depth security analyses under different SaaS computing scenarios, on emerging mobile apps as well as conventional browser-based web applications. &nbsp;Our studies have brought to light the scope and the magnitude of this new security risk (side channel leaks in SaaS):&nbsp; a number of popular web applications are found to disclose highly sensitive user data, such as one's family income, health profile, investments and more through the patterns of their traffic; mobile computing devices expose the types of the applications they are running and their users&rsquo; activities through encrypted Wi-Fi packet sequences;&nbsp; also high-profile mobile apps and even the mobile OS itself can be monitored by a malicious app without any permission to figure out the mobile user&rsquo;s location, identity, driving routes and health and financial information, using such apparently innocent information as the BSSIDs of Wi-Fi access points, &nbsp;mobile data usages,&nbsp; CPU uses and the status of the speaker (on or off).&nbsp;&nbsp; Further, the presence of such side-channel leaks enables the adversary to conduct reconnaissance on the states of the target OS or applications, which makes possible a wide range of attacks, from inferring the content of encrypted data on the cloud to taping the victim&rsquo;s phone conversation and stealing her medical data from mobile healthcare accessories. &nbsp;&nbsp;Examples of such information leaks are made available through video demos (<a href=\"https://sites.google.com/site/sidedroid/\">https://sites.google.com/site/sidedroid/</a>,&nbsp; <a href=\"https://sites.google.com/site/edmbdroid/\">https://sites.google.com/site/edmbdroid/</a>).</p>\n<p>&nbsp;</p>\n<p>To mitigate those security risks, we developed a suite of new techniques for different computing platforms. &nbsp;&nbsp;For conventional web applications, our automatic program analyzer, called &ldquo;Sidebuster&rdquo;, was designed to statically evaluate the source code of the program, identifying the potential program locations of side channels.&nbsp; Then, a dynamic analysis is performed to quantify the amount of the information that can be exposed through the channels.&nbsp; This helps the developer to analyze her programs and fix the potential weaknesses within the code during the application development stage.&nbsp;&nbsp; In a mobile computing environment, we propose a new demultiplexing technique that decomposes a Wi-Fi communication flow into a set of streams, each mimicking the opera...",
+  "por_txt_cntn": "\nThe prosperity of software-as-a-service (SaaS) comes with new security challenges.  Different from their desktop counterparts, the web application delivered through the SaaS infrastructure is a two-part program, with its components deployed both in the browser and in the web server.  The interactions between these two components inevitably discloses the internal states of the program to the network eavesdropper, through various \"side channels\" of the communication, such as packet lengths and the timing of interactions, even when the communication is entirely encrypted.   Further complicating the situation is the recent popularity of smartphone and tablet techniques, with millions of mobile applications (app for short) already on the market, most of which are essentially web applications with their client-side components directly running on various mobile devices.   Not only are those apps equally vulnerable to the network side-channel attack, just like their corresponding browser-side counterparts,  but they are also subject to the risks of information leaks through mobile operating systems (OS),  including each app\u00c6s mobile data, CPU and memory usages and more, which has all been made public to even untrusted apps running on the same devices.\n\n \n\nIntellectual Merits. In this project, we performed a series of in-depth security analyses under different SaaS computing scenarios, on emerging mobile apps as well as conventional browser-based web applications.  Our studies have brought to light the scope and the magnitude of this new security risk (side channel leaks in SaaS):  a number of popular web applications are found to disclose highly sensitive user data, such as one's family income, health profile, investments and more through the patterns of their traffic; mobile computing devices expose the types of the applications they are running and their users\u00c6 activities through encrypted Wi-Fi packet sequences;  also high-profile mobile apps and even the mobile OS itself can be monitored by a malicious app without any permission to figure out the mobile user\u00c6s location, identity, driving routes and health and financial information, using such apparently innocent information as the BSSIDs of Wi-Fi access points,  mobile data usages,  CPU uses and the status of the speaker (on or off).   Further, the presence of such side-channel leaks enables the adversary to conduct reconnaissance on the states of the target OS or applications, which makes possible a wide range of attacks, from inferring the content of encrypted data on the cloud to taping the victim\u00c6s phone conversation and stealing her medical data from mobile healthcare accessories.   Examples of such information leaks are made available through video demos (https://sites.google.com/site/sidedroid/,  https://sites.google.com/site/edmbdroid/).\n\n \n\nTo mitigate those security risks, we developed a suite of new techniques for different computing platforms.   For conventional web applications, our automatic program analyzer, called \"Sidebuster\", was designed to statically evaluate the source code of the program, identifying the potential program locations of side channels.  Then, a dynamic analysis is performed to quantify the amount of the information that can be exposed through the channels.  This helps the developer to analyze her programs and fix the potential weaknesses within the code during the application development stage.   In a mobile computing environment, we propose a new demultiplexing technique that decomposes a Wi-Fi communication flow into a set of streams, each mimicking the operations of a different application, so as to confuse a Wi-Fi eavesdropper.   On the mobile device, both OS-level and app-level protection mechanisms were designed to defend the mobile user against all known side-channel attacks.  All these new techniques have been thoroughly evaluated in real-world computing environments, using popular web applications.   As a result of this research, 11 pa..."
+ }
+}

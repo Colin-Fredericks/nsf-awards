@@ -1,0 +1,117 @@
+{
+ "awd_id": "1535654",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "I/UCRC FRP:  Collaborative Research: Network-enabled Airborne Autonomy",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Dmitri Perkins",
+ "awd_eff_date": "2015-09-15",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 79972.0,
+ "awd_amount": 79972.0,
+ "awd_min_amd_letter_date": "2015-09-04",
+ "awd_max_amd_letter_date": "2015-09-04",
+ "awd_abstract_narration": "This award will develop foundations for autonomous airborne robotics, ultimately to be based on the cloud. This work has the potential to develop new frameworks and theories for distributed autonomy in networked vehicular networks/systems. The development of novel solutions for robust decision making in vehicular networks in conjunction with airborne autonomous systems has the potential to greatly improve the safety and quality of life of human users. \r\n\r\nThree research directions will be investigated over the duration of this project: (i) co-optimization of cyber-physical elements, (ii) autonomy tasks and (iii) cloud platform. The fundamental research will focus on the concrete example of unmanned aerial systems (UAS), whereby including all three research thrusts. This project aims to study airborne cloud-based autonomy in networked road surveillance networks, i.e., to perform complex tasks relating to perception, planning, and learning.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Timothy",
+   "pi_last_name": "McLain",
+   "pi_mid_init": "W",
+   "pi_sufx_name": "",
+   "pi_full_name": "Timothy W McLain",
+   "pi_email_addr": "mclain@byu.edu",
+   "nsf_id": "000365157",
+   "pi_start_date": "2015-09-04",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Randal",
+   "pi_last_name": "Beard",
+   "pi_mid_init": "W",
+   "pi_sufx_name": "",
+   "pi_full_name": "Randal W Beard",
+   "pi_email_addr": "beard@byu.edu",
+   "nsf_id": "000441886",
+   "pi_start_date": "2015-09-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Brigham Young University",
+  "inst_street_address": "A-153 ASB",
+  "inst_street_address_2": "",
+  "inst_city_name": "PROVO",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8014223360",
+  "inst_zip_code": "846021128",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "UT03",
+  "org_lgl_bus_name": "BRIGHAM YOUNG UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JWSYC7RUMJD1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Brigham Young University",
+  "perf_str_addr": "",
+  "perf_city_name": "Provo",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "846021231",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "UT03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "576100",
+   "pgm_ele_name": "IUCRC-Indust-Univ Coop Res Ctr"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5761",
+   "pgm_ref_txt": "INDUSTRY/UNIV COOP RES CENTERS"
+  },
+  {
+   "pgm_ref_code": "8039",
+   "pgm_ref_txt": "Information, Communication & Computing"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 79972.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This research focused on increasing the autonomy networked aircraft systems with two specific subprojects: (1) Cooperative navigation with a cloud-based shared map, and (2) Cooperative tracking of targets with real-time labeling. The accomplishments reported below are divided into these two categories.</p>\n<p><strong>Cooperative Navigation</strong></p>\n<p>While cloud robotics have been successfully demonstrated for ground robots, the fast dynamics of an MAV make it difficult to offload computation due to the inherent latencies to the cloud-connected server.&nbsp; The balance between processing done onboard and offboard was explored to determine how cloud resources could be leveraged safely and effectively on a MAV.</p>\n<p>We applied a relative navigation approach to cloud-connected MAVs in which MAVs estimated their pose relative to observed key frames, while a common global optimizer in the cloud solved for the global state of the robots given loop closures and GPS measurements.&nbsp; This method not only allowed for simpler integration of multiple agents, but it also guaranteed observability of all states for all MAVs in the network, and provided global consistency superior to that previously observed in cooperative MAV frameworks.</p>\n<p>Using this framework creates the potential for future MAVs connected only via a cloud server to build a map cooperatively in real time.&nbsp; This work showed that by leveraging the decoupling of the opportunistic global state estimator from the real-time local state estimation and control, it is possible to safely utilize cloud resources for cooperative autonomy between MAVs.</p>\n<p><strong>Cooperative Tracking</strong></p>\n<p>The primary tracking goal for this work was to augment the existing RRANSAC-based tracking algorithm with network-enabled resources to enhance autonomy and the user experience. Specifically, we showed that cloud resources could be leveraged to create a system that provided real-time labeling of tracked targets. This provided to the user a few descriptors for each object of what it may be. If at any point an object was not clearly visible to the user, a recent history of the labeling was available for reference. This is also helpful in the case of many objects that cannot all be observed real-time by the user. It is also of interest to demonstrate these abilities among multiple UAVs in coordination over network. Future goals include the design of machine learning algorithms used with tracked objects for the purpose of recognizing an object after it has been lost from view for an extended amount of time.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/20/2017<br>\n\t\t\t\t\tModified by: Timothy&nbsp;W&nbsp;Mclain</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis research focused on increasing the autonomy networked aircraft systems with two specific subprojects: (1) Cooperative navigation with a cloud-based shared map, and (2) Cooperative tracking of targets with real-time labeling. The accomplishments reported below are divided into these two categories.\n\nCooperative Navigation\n\nWhile cloud robotics have been successfully demonstrated for ground robots, the fast dynamics of an MAV make it difficult to offload computation due to the inherent latencies to the cloud-connected server.  The balance between processing done onboard and offboard was explored to determine how cloud resources could be leveraged safely and effectively on a MAV.\n\nWe applied a relative navigation approach to cloud-connected MAVs in which MAVs estimated their pose relative to observed key frames, while a common global optimizer in the cloud solved for the global state of the robots given loop closures and GPS measurements.  This method not only allowed for simpler integration of multiple agents, but it also guaranteed observability of all states for all MAVs in the network, and provided global consistency superior to that previously observed in cooperative MAV frameworks.\n\nUsing this framework creates the potential for future MAVs connected only via a cloud server to build a map cooperatively in real time.  This work showed that by leveraging the decoupling of the opportunistic global state estimator from the real-time local state estimation and control, it is possible to safely utilize cloud resources for cooperative autonomy between MAVs.\n\nCooperative Tracking\n\nThe primary tracking goal for this work was to augment the existing RRANSAC-based tracking algorithm with network-enabled resources to enhance autonomy and the user experience. Specifically, we showed that cloud resources could be leveraged to create a system that provided real-time labeling of tracked targets. This provided to the user a few descriptors for each object of what it may be. If at any point an object was not clearly visible to the user, a recent history of the labeling was available for reference. This is also helpful in the case of many objects that cannot all be observed real-time by the user. It is also of interest to demonstrate these abilities among multiple UAVs in coordination over network. Future goals include the design of machine learning algorithms used with tracked objects for the purpose of recognizing an object after it has been lost from view for an extended amount of time.\n\n \n\n\t\t\t\t\tLast Modified: 10/20/2017\n\n\t\t\t\t\tSubmitted by: Timothy W Mclain"
+ }
+}

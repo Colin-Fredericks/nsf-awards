@@ -1,0 +1,96 @@
+{
+ "awd_id": "1533837",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: EXPL: CCA: Verification and Optimization Tools for Heterogeneous Memory Consistency Models",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Yuanyuan Yang",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2015-08-12",
+ "awd_max_amd_letter_date": "2015-08-12",
+ "awd_abstract_narration": "Over the past decade, the deceleration of Moore's Law and Dennard Scaling has required computing to make a dramatic shift towards on-chip parallelism in order to achieve computer performance scaling at acceptable power budgets.  In further response, the use of diverse processing elements and specialized accelerators has also increased; many smartphone processors or systems-on-chip (SoCs)  include 4-6 different instruction set architectures (ISAs) and memory consistency models (MCMs).  In the face of this increasing heterogeneity, this project's research aims to tame the architecture, verification, and software implications of this fast-growing complexity.\r\n\r\nEnsuring that computations occur on the right data at the right time is fundamental to computing system reliability, and MCMs are intended to guarantee this in multi-threaded systems, but better verification and translation support is needed.  In particular, this work is developing a toolkit with elements including: (i) Grammars for specifying MCMs and hardware implementations, as well as tools to derive these specifications from existing design descriptions, appropriately annotated if needed. (ii) Modules for enumerating and checking implementation-level (i.e. microarchitecture-level) Happens-Before-Graphs to generate verifiers for arbitrary MCMs and implementations. (iii) Modules for automatically translating from one MCM to another. (iv) Tools that compose the above modules to automatically generate litmus tests, to do binary translation including MCM translation, and other useful examples. (v) A pedagogical tool (an MCM animator and illustrator) for teaching students in computer architecture and parallel programming classes.  To facilitate broad use of this work, basic modules and composed tools will be distributed as free software.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Margaret",
+   "pi_last_name": "Martonosi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Margaret Martonosi",
+   "pi_email_addr": "martonosi@princeton.edu",
+   "nsf_id": "000395997",
+   "pi_start_date": "2015-08-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Princeton University",
+  "inst_street_address": "1 NASSAU HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "PRINCETON",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "6092583090",
+  "inst_zip_code": "085442001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "THE TRUSTEES OF PRINCETON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NJ1YPQXQG7U5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": "35 Olden St.",
+  "perf_city_name": "Princeton",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085405233",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Over the past decade, the deceleration of Moore?s Law and Dennard Scaling has required computing to make a dramatic shift towards on-chip parallelism in order to achieve computer performance scaling at acceptable power budgets.&nbsp; In further response, the use of diverse processing elements and specialized accelerators has also increased; many smartphone processors or systems-on-chip (SoCs) include 4-6 different instruction set architectures (ISAs) and memory consistency models (MCMs).&nbsp; In the face of this increasing heterogeneity, this project?s research aims to tame the architecture, verification, and software implications of this fast-growing complexity.</p>\n<p>Ensuring that computations occur on the right data at the right time is fundamental to computing system reliability, and MCMs are intended to guarantee this in multi-threaded systems, but better verification and translation support is needed.&nbsp; In particular, this work developed: (i) Grammars for specifying MCMs and hardware implementations (ii) Modules for enumerating and checking implementation-level (i.e. microarchitecture-level) Happens-Before-Graphs to generate verifiers for arbitrary MCMs and implementations. (iii) Tools that analyze designs ?full-stack? from high-level programming languages, through compilers and operating systems, architecture, microarchitecture and into Verilog designs.&nbsp; In addition to analyzing for the correctness of MCMs in system implementations, this work also developed approaches for identifying security vulnerabilities based on event ordering issues similar to MCMs.&nbsp; Some of the bugs and vulnerabilities found by our work, and other impactful outcomes include:</p>\n<ul>\n<li><span style=\"text-decoration: underline;\">CCICheck</span> led to the discovery of a bug in the TSO-CC coherence protocol and its ViCL abstraction for cache and coherence events was later used by CheckMate (see below) to model cache behavior for security analysis of cache side-channel attacks. CCICheck is open-source and publicly available, as are the other tools listed below.</li>\n<li><span style=\"text-decoration: underline;\">RTLCheck</span> is the first-ever automated methodology and tool for formal MCM verification of processor RTL for a set of litmus tests. As such, RTLCheck enables engineers to automatically verify MCM properties of their RTL by themselves for litmus test suites. When combined with our prior automated formal MCM verification tools, RTLCheck enables test-based full-stack MCM verification from high-level languages to RTL for the first time.</li>\n<li><span style=\"text-decoration: underline;\">TriCheck</span> was used to evaluate the draft RISC-V ISA?s MCM. In doing so, TriCheck identified a series of deficiencies in the RISC-V MCM specification rendering it incompatible with the C11 programming language. The RISC-V MCM Working Group (formed as a result of our findings) worked to design a new RISC-V MCM including C11 software support. RISC-V now has two recently-ratified formal MCM specifications (RVTSO and RVWMO). In the process of evaluating the RISC-V MCM, TriCheck also identified two counterexamples to a previously ?proven-correct? compiler mapping from C11 to the IBM Power and ARMv7 ISAs. This result along with concurrent work led to the discovery of flaws in the C11 MCM itself. Overall, full-stack MCM verification with TriCheck has demonstrated benefits over prior approaches that verify segments of the hardware-software stack in isolation. </li>\n<li><span style=\"text-decoration: underline;\">CheckMate</span> was fully functional at the time in early 2018 when security vulnerabilities Meltdown and Spectre were announced. As a case study, we used CheckMate to evaluate a speculative out-of-order processor design on its susceptibility to a broad class of security exploits. CheckMate synthesized both known attacks (eg Spectre and Meltdown) and new attacks. &nbsp;Overall, CheckMate demonstrates the power to use formal happens-before analysis to formalize and streamline early-stage security verification.</li>\n</ul>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/01/2019<br>\n\t\t\t\t\tModified by: Margaret&nbsp;Martonosi</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1533837/1533837_10386786_1575232110358_CheckLayerCakeNov20191pager--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1533837/1533837_10386786_1575232110358_CheckLayerCakeNov20191pager--rgov-800width.jpg\" title=\"The Check Research Techniques and Tools\"><img src=\"/por/images/Reports/POR/2019/1533837/1533837_10386786_1575232110358_CheckLayerCakeNov20191pager--rgov-66x44.jpg\" alt=\"The Check Research Techniques and Tools\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">This illustration depicts the suite of Check tools and techniques developed as part of this funded research.  Together, they support a wide range of correctness and security verification approaches.</div>\n<div class=\"imageCredit\">Margaret Martonosi</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Margaret&nbsp;Martonosi</div>\n<div class=\"imageTitle\">The Check Research Techniques and Tools</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nOver the past decade, the deceleration of Moore?s Law and Dennard Scaling has required computing to make a dramatic shift towards on-chip parallelism in order to achieve computer performance scaling at acceptable power budgets.  In further response, the use of diverse processing elements and specialized accelerators has also increased; many smartphone processors or systems-on-chip (SoCs) include 4-6 different instruction set architectures (ISAs) and memory consistency models (MCMs).  In the face of this increasing heterogeneity, this project?s research aims to tame the architecture, verification, and software implications of this fast-growing complexity.\n\nEnsuring that computations occur on the right data at the right time is fundamental to computing system reliability, and MCMs are intended to guarantee this in multi-threaded systems, but better verification and translation support is needed.  In particular, this work developed: (i) Grammars for specifying MCMs and hardware implementations (ii) Modules for enumerating and checking implementation-level (i.e. microarchitecture-level) Happens-Before-Graphs to generate verifiers for arbitrary MCMs and implementations. (iii) Tools that analyze designs ?full-stack? from high-level programming languages, through compilers and operating systems, architecture, microarchitecture and into Verilog designs.  In addition to analyzing for the correctness of MCMs in system implementations, this work also developed approaches for identifying security vulnerabilities based on event ordering issues similar to MCMs.  Some of the bugs and vulnerabilities found by our work, and other impactful outcomes include:\n\nCCICheck led to the discovery of a bug in the TSO-CC coherence protocol and its ViCL abstraction for cache and coherence events was later used by CheckMate (see below) to model cache behavior for security analysis of cache side-channel attacks. CCICheck is open-source and publicly available, as are the other tools listed below.\nRTLCheck is the first-ever automated methodology and tool for formal MCM verification of processor RTL for a set of litmus tests. As such, RTLCheck enables engineers to automatically verify MCM properties of their RTL by themselves for litmus test suites. When combined with our prior automated formal MCM verification tools, RTLCheck enables test-based full-stack MCM verification from high-level languages to RTL for the first time.\nTriCheck was used to evaluate the draft RISC-V ISA?s MCM. In doing so, TriCheck identified a series of deficiencies in the RISC-V MCM specification rendering it incompatible with the C11 programming language. The RISC-V MCM Working Group (formed as a result of our findings) worked to design a new RISC-V MCM including C11 software support. RISC-V now has two recently-ratified formal MCM specifications (RVTSO and RVWMO). In the process of evaluating the RISC-V MCM, TriCheck also identified two counterexamples to a previously ?proven-correct? compiler mapping from C11 to the IBM Power and ARMv7 ISAs. This result along with concurrent work led to the discovery of flaws in the C11 MCM itself. Overall, full-stack MCM verification with TriCheck has demonstrated benefits over prior approaches that verify segments of the hardware-software stack in isolation. \nCheckMate was fully functional at the time in early 2018 when security vulnerabilities Meltdown and Spectre were announced. As a case study, we used CheckMate to evaluate a speculative out-of-order processor design on its susceptibility to a broad class of security exploits. CheckMate synthesized both known attacks (eg Spectre and Meltdown) and new attacks.  Overall, CheckMate demonstrates the power to use formal happens-before analysis to formalize and streamline early-stage security verification.\n\n\n \n\n\t\t\t\t\tLast Modified: 12/01/2019\n\n\t\t\t\t\tSubmitted by: Margaret Martonosi"
+ }
+}

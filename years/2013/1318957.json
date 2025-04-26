@@ -1,0 +1,109 @@
+{
+ "awd_id": "1318957",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "III: Small: Collaborative Research: Anomaly Detection in Graph Streams",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jun Huan",
+ "awd_eff_date": "2013-09-15",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 208994.0,
+ "awd_amount": 208994.0,
+ "awd_min_amd_letter_date": "2013-09-09",
+ "awd_max_amd_letter_date": "2013-09-09",
+ "awd_abstract_narration": "The main objective of this project is to develop scalable algorithms for learning normative patterns and anomalies in graph streams, where the patterns are known, unknown but fixed, or changing over time. The project team is pursuing several techniques, including partitioning the graph over time, processing only the changes to the graph over time, and parallel implementations on high-performance computing platforms. They are evaluating the effectiveness and efficiency of these algorithms in terms of expected data sizes, data rates, and recall/precision using several real-world, large, dynamic datasets as well as synthetic data. They are also evaluating the discovered patterns and anomalies for their significance in the target domains. This research is advancing the knowledge and understanding of how to efficiently process large, high-rate data streams represented as a graph in order to learn structural patterns and detect structural anomalies in real time. The algorithms developed under this project represent a new level of scalability that is necessary to address today?s massive, dynamic data environments, as well as users' needs to quickly discover actionable intelligence in the form of trends and anomalies. \r\n\r\nThis project impacts the scientific research community by advancing the state-of-the-art in mining graphs for patterns and anomalies in large, dynamic data streams, and disseminating these research results via publications, software tools and data to be provided on the project website. This project also impacts education via the inclusion of research results into existing courses at the teams' institutions, and the dissemination of these curricular materials via the project website. The project supports the research training of two graduate students, utilizing recruiting efforts from underrepresented groups to assist in the selection of these students. The project benefits society by providing efficient and effective tools for detecting patterns and anomalies in data that can lead to new discoveries in a variety of domains where large amounts of dynamic data are available, including national security, cyber-security, and social media.\r\n\r\nFor further information see project website: http://ailab.wsu.edu/adgs",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "William",
+   "pi_last_name": "Eberle",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "William Eberle",
+   "pi_email_addr": "weberle@tntech.edu",
+   "nsf_id": "000368729",
+   "pi_start_date": "2013-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Tennessee Technological University",
+  "inst_street_address": "1 WILLIAM L JONES DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "COOKEVILLE",
+  "inst_state_code": "TN",
+  "inst_state_name": "Tennessee",
+  "inst_phone_num": "9313723374",
+  "inst_zip_code": "385050001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "TN06",
+  "org_lgl_bus_name": "TENNESSEE TECHNOLOGICAL UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "KZNHNMDUTJA5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Tennessee Technological University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "TN",
+  "perf_st_name": "Tennessee",
+  "perf_zip_code": "385050001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "TN06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7364",
+   "pgm_ref_txt": "INFO INTEGRATION & INFORMATICS"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 208994.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The ability to discover patterns and anomalies in graphs, or networks, is important in several domains, e.g., detecting emerging trends in social media or detecting emerging threats in cyber-security data. But this ability faces increasing challenges. Typical network sizes have grown beyond our ability to store them, let alone analyze them, in their entirety. And the networks change rapidly over time as new data continuously streams in at high speed. Through this research, we have developed a framework for efficient and effective Pattern Learning and Anomaly Detection in Streams, called PLADS (see Figure 1). PLADS works by partitioning the graph data stream into batches of vertices (nodes) and edges (links) and maintains a limited-size window of batches to reduce memory and processing requirements. PLADS maintains a set of current patterns, and anomalies to those patterns, as processing proceeds. We evaluated PLADS on several datasets from social media, cyber-security, and e-commerce domains. We found that with only moderate batch and window sizes, PLADS can find the same patterns and anomalies as methods requiring the entire graph, but in a fraction of the time. We also investigated the use of time-series change detection metrics to limit the search for patterns and anomalies to occur only when the graph stream is undergoing significant changes. Incorporating this change detection technique into PLADS enabled an even greater speed-up with only a moderate decrease in accuracy. The novel algorithms underlying PLADS, and their evaluation using several real-world domains, provide the basis of a practical system for finding patterns and anomalies in the many streams of data that are the lifeblood of today&rsquo;s society. This research has also resulted in numerous contributions to the body of scientific knowledge in the areas of computer science, data mining and machine learning, as well as the training of scientists in these areas. The research has been widely disseminated via seventeen peer-reviewed publications. The project supported the training of two graduate students and three undergraduate students at TTU. One of these TTU graduate students earned their PhD degree during the project. More information about the project, including links to publications, software and data, can be found on the project&rsquo;s website at <a href=\"http://ailab.wsu.edu/adgs\">http://ailab.wsu.edu/adgs</a>.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/05/2017<br>\n\t\t\t\t\tModified by: William&nbsp;Eberle</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2017/1318957/1318957_10277440_1504634421001_Figure1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1318957/1318957_10277440_1504634421001_Figure1--rgov-800width.jpg\" title=\"Figure 1\"><img src=\"/por/images/Reports/POR/2017/1318957/1318957_10277440_1504634421001_Figure1--rgov-66x44.jpg\" alt=\"Figure 1\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The Pattern Learning and Anomaly Detection in Streams (PLADS) framework accepts batches of vertices and edges over time and maintains a current set of normative patterns, and anomalies to those patterns, found in the graph data stream.</div>\n<div class=\"imageCredit\">Figure 1</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">William&nbsp;Eberle</div>\n<div class=\"imageTitle\">Figure 1</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThe ability to discover patterns and anomalies in graphs, or networks, is important in several domains, e.g., detecting emerging trends in social media or detecting emerging threats in cyber-security data. But this ability faces increasing challenges. Typical network sizes have grown beyond our ability to store them, let alone analyze them, in their entirety. And the networks change rapidly over time as new data continuously streams in at high speed. Through this research, we have developed a framework for efficient and effective Pattern Learning and Anomaly Detection in Streams, called PLADS (see Figure 1). PLADS works by partitioning the graph data stream into batches of vertices (nodes) and edges (links) and maintains a limited-size window of batches to reduce memory and processing requirements. PLADS maintains a set of current patterns, and anomalies to those patterns, as processing proceeds. We evaluated PLADS on several datasets from social media, cyber-security, and e-commerce domains. We found that with only moderate batch and window sizes, PLADS can find the same patterns and anomalies as methods requiring the entire graph, but in a fraction of the time. We also investigated the use of time-series change detection metrics to limit the search for patterns and anomalies to occur only when the graph stream is undergoing significant changes. Incorporating this change detection technique into PLADS enabled an even greater speed-up with only a moderate decrease in accuracy. The novel algorithms underlying PLADS, and their evaluation using several real-world domains, provide the basis of a practical system for finding patterns and anomalies in the many streams of data that are the lifeblood of today?s society. This research has also resulted in numerous contributions to the body of scientific knowledge in the areas of computer science, data mining and machine learning, as well as the training of scientists in these areas. The research has been widely disseminated via seventeen peer-reviewed publications. The project supported the training of two graduate students and three undergraduate students at TTU. One of these TTU graduate students earned their PhD degree during the project. More information about the project, including links to publications, software and data, can be found on the project?s website at http://ailab.wsu.edu/adgs.\n\n\t\t\t\t\tLast Modified: 09/05/2017\n\n\t\t\t\t\tSubmitted by: William Eberle"
+ }
+}

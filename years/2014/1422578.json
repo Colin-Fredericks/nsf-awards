@@ -1,0 +1,101 @@
+{
+ "awd_id": "1422578",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Strong Consistency for Personal and Collaborative Object Stores",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2014-08-04",
+ "awd_max_amd_letter_date": "2014-08-04",
+ "awd_abstract_narration": "The objective of this proposal is to provide users of multiple, possibly mobile, devices with storage systems that provide strong consistency guarantees for replicated data.  When users access their data through multiple devices it is important that data updates made through one device are reflected in the data viewed through others.  The project will study and implement consistency and consensus protocols to enable these guarantees for individuals and collaborative groups.\r\n\r\nThe work includes several major components including the definition, validation, and parameterization of a user model; the definition of a system structure allowing strong separation of layers while ensuring key system properties; and the design and optimization of new protocols. The potential audience for this work includes users of online storage systems and related stand-alone tools for replicating work across multiple devices.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Peter",
+   "pi_last_name": "Keleher",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Peter J Keleher",
+   "pi_email_addr": "keleher@cs.umd.edu",
+   "nsf_id": "000278516",
+   "pi_start_date": "2014-08-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Maryland, College Park",
+  "inst_street_address": "3112 LEE BUILDING",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE PARK",
+  "inst_state_code": "MD",
+  "inst_state_name": "Maryland",
+  "inst_phone_num": "3014056269",
+  "inst_zip_code": "207425100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "MD04",
+  "org_lgl_bus_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+  "org_prnt_uei_num": "NPU8ULVAAS23",
+  "org_uei_num": "NPU8ULVAAS23"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Maryland College Park",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MD",
+  "perf_st_name": "Maryland",
+  "perf_zip_code": "207423255",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "MD",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The first part of our work on this grant is in describing \"federated consistency\", which allows construction of large heterogeneous systems. Federated replicas implement different consistency protocols in response to local policies and requirements.&nbsp;We have shown that a federated consistency protocol can find a middle ground in the trade-off between performance and consistency, particularly between an eventually consistent system implemented via gossip-based anti-entropy and a sequential consistency model implemented by the Raft consensus protocol.&nbsp;</p>\n<p>The second major thrust of this work was in designing an approach to providing linearizable ordering to geo-replicated systems through Hierarchical Consensus (HC). One use of HC is for the inner core of a federated system. We consider the problem of using distributed consensus to support linearizable access orderings for objects stores or global file systems. Our target environments include geo-replicated machines across the Internet with no guarantees on bandwidth, latency, or lack of partitions. We further wish to accommodate replicas with heterogeneous capabilities and usage modalities, such as systems including both highly-provisioned servers and mobile devices. This problem space is important, as it encompasses a wide variety of usages, from agglomerations of the environments assumed by previous systems down to ad hoc systems of local and personal devices.<br />We propose another approach to building large systems. Rather than relying on a few replicas to provide consensus to many clients, we propose to run a consensus protocol across replicas running at or near all of those locations. The key insight of this work is that large problem spaces can often be partitioned into mostly disjoint sets of activity without violating consistency. We exploit this decomposition property by making our consensus protocol hierarchical, and individual consensus groups fast by ensuring they are small. We exploit locality by building designing the protocol to have subquorums made from co-located replicas, and locating subquorums near clients they serve.</p>\n<p>INTELLECTUAL MERIT</p>\n<ol>\n<li>&nbsp;We describe how to federate systems with different consistency requirements.1) We describe Hierarchical Consensus, a two-tiered consensus structure that allows high throughput, localization, agility, and linearizable access to a shared namespace.&nbsp;</li>\n<li>We show how to use delegation to build large consensus groups that retain their fault tolerance properties while performing like small groups.</li>\n<li>We describe the use of fuzzy epoch transitions to allow global re-configurations across multiple consensus groups without forcing them into lockstep.</li>\n<li>We describe how to build a linearizable key-value store whose consensus group makeup and object namespace can be rapidly re-assigned across the entire group.</li>\n<li>We build a sequentially-consistent replicated log from geo-replicated subquorum logs.</li>\n</ol>\n<p>&nbsp;</p>\n<p>BROADER IMPACT</p>\n<p>Federated consistency and hierarchical consensus provide a foundation for building large-scale systems across dynamic and heterogeneous environments, not just curated data centers.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/29/2017<br>\n\t\t\t\t\tModified by: Peter&nbsp;J&nbsp;Keleher</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe first part of our work on this grant is in describing \"federated consistency\", which allows construction of large heterogeneous systems. Federated replicas implement different consistency protocols in response to local policies and requirements. We have shown that a federated consistency protocol can find a middle ground in the trade-off between performance and consistency, particularly between an eventually consistent system implemented via gossip-based anti-entropy and a sequential consistency model implemented by the Raft consensus protocol. \n\nThe second major thrust of this work was in designing an approach to providing linearizable ordering to geo-replicated systems through Hierarchical Consensus (HC). One use of HC is for the inner core of a federated system. We consider the problem of using distributed consensus to support linearizable access orderings for objects stores or global file systems. Our target environments include geo-replicated machines across the Internet with no guarantees on bandwidth, latency, or lack of partitions. We further wish to accommodate replicas with heterogeneous capabilities and usage modalities, such as systems including both highly-provisioned servers and mobile devices. This problem space is important, as it encompasses a wide variety of usages, from agglomerations of the environments assumed by previous systems down to ad hoc systems of local and personal devices.\nWe propose another approach to building large systems. Rather than relying on a few replicas to provide consensus to many clients, we propose to run a consensus protocol across replicas running at or near all of those locations. The key insight of this work is that large problem spaces can often be partitioned into mostly disjoint sets of activity without violating consistency. We exploit this decomposition property by making our consensus protocol hierarchical, and individual consensus groups fast by ensuring they are small. We exploit locality by building designing the protocol to have subquorums made from co-located replicas, and locating subquorums near clients they serve.\n\nINTELLECTUAL MERIT\n\n We describe how to federate systems with different consistency requirements.1) We describe Hierarchical Consensus, a two-tiered consensus structure that allows high throughput, localization, agility, and linearizable access to a shared namespace. \nWe show how to use delegation to build large consensus groups that retain their fault tolerance properties while performing like small groups.\nWe describe the use of fuzzy epoch transitions to allow global re-configurations across multiple consensus groups without forcing them into lockstep.\nWe describe how to build a linearizable key-value store whose consensus group makeup and object namespace can be rapidly re-assigned across the entire group.\nWe build a sequentially-consistent replicated log from geo-replicated subquorum logs.\n\n\n \n\nBROADER IMPACT\n\nFederated consistency and hierarchical consensus provide a foundation for building large-scale systems across dynamic and heterogeneous environments, not just curated data centers.\n\n\t\t\t\t\tLast Modified: 12/29/2017\n\n\t\t\t\t\tSubmitted by: Peter J Keleher"
+ }
+}

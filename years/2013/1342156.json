@@ -1,0 +1,96 @@
+{
+ "awd_id": "1342156",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "I-Corps:  Compiler Technology for Modern Many-core Architectures",
+ "cfda_num": "47.084",
+ "org_code": "15030000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rathindra DasGupta",
+ "awd_eff_date": "2013-07-01",
+ "awd_exp_date": "2014-06-30",
+ "tot_intn_awd_amt": 50000.0,
+ "awd_amount": 50000.0,
+ "awd_min_amd_letter_date": "2013-06-25",
+ "awd_max_amd_letter_date": "2013-06-25",
+ "awd_abstract_narration": "This project focuses on the development of a complier that automatically performs correct and efficient memory management. The compiler automatically manages the data of the application on a multi-core architecture that does not provide any memory management in hardware. Such architectures are scalable (i.e., processors with hundreds and thousands of cores can be designed), and are more power-efficient.\r\nThis compiler does this through application analysis. It analyzes each kind of code/data (i.e., code, stack data, heap data and global variables) and inserts data management instructions in the application, so that the application can execute correctly and efficiently on many-core processors that will not have any support for memory management in hardware. \r\n\r\nThis compiler may be needed by system development companies that are developing relatively high-performance computing systems, for example, 3D scanner, high capacity 3D printers, TVs, audio video processing in cars etc. All these companies may want to use the processor with best performance and lowest power. However, top of the line processors will soon not have support for memory management in hardware, and the existing applications will not compile them. This compiler may have the ability to enable them to utilize the power and performance of the latest many-core processor for their systems. To the end user, they receive a power-efficient product with higher performance. Hand-held devices thus developed, while providing improved performance, will be lighter and will require fewer recharges.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "TIP",
+ "org_dir_long_name": "Directorate for Technology, Innovation, and Partnerships",
+ "div_abbr": "TI",
+ "org_div_long_name": "Translational Impacts",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Aviral",
+   "pi_last_name": "Shrivastava",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Aviral Shrivastava",
+   "pi_email_addr": "aviral.shrivastava@asu.edu",
+   "nsf_id": "000490268",
+   "pi_start_date": "2013-06-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Arizona State University",
+  "inst_street_address": "660 S MILL AVENUE STE 204",
+  "inst_street_address_2": "",
+  "inst_city_name": "TEMPE",
+  "inst_state_code": "AZ",
+  "inst_state_name": "Arizona",
+  "inst_phone_num": "4809655479",
+  "inst_zip_code": "852813670",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "AZ04",
+  "org_lgl_bus_name": "ARIZONA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NTLHJXM55KZ6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Arizona State University",
+  "perf_str_addr": "PO BOX 876011",
+  "perf_city_name": "Tempe",
+  "perf_st_code": "AZ",
+  "perf_st_name": "Arizona",
+  "perf_zip_code": "852876011",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "AZ04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "802300",
+   "pgm_ele_name": "I-Corps"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 50000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Intellectual Merit: As the number of cores scale, scaling the memory architecture is a major challenge. Data and communication management functionality is expected to migrate from hardware (in existing technology) to software domain, as we manufacture processors with hundreds and thousands of cores. We have developed compiler technology that will enable simple multi-core processors without memory management in hardware to execute traditional applications that are will be (and are being) developed for processors with memory management in hardware.</p>\n<p>&nbsp;</p>\n<p>The goals of I-Corps proposal were to perform</p>\n<p>i) the marketing research required for the commercialization of the developed product, and</p>\n<p>ii) to translate our existing technology into a commercially viable compiler solution.</p>\n<p>&nbsp;</p>\n<p>Outcomes: During the project we talked to a lot of processor design companies, including, Intel, AMD, Oracle, Freescale, ARM, Qualcomm, Texas Instruments etc. and tried to figure out the challenges they are facing in scaling the processors. We have received mixed feedback. While some companies are not planning to scale as much, some other believe that traditional architectures will scale. However, some forward looking companies do realize the scaling challenge and were very interested in our approach. In fact some of the companies are making the kind of processors that we envision, and right now their plan is to generate code for the machine by themselves. One such company has asked us to develop a generic compiler for them as a prototype. Our proof-of-concept compiler was in GCC for the Cell processor. Since this is very specific, the company wanted us to develop the prototype compiler in LLVM for a SPM based processor modeled in gem5. This will be easily portable and usable. This is our plan after the I-Corps grant. We plan to apply for the AIR-TT grant to fund the prototype development.</p>\n<p>&nbsp;</p>\n<p>One of the major concerns in our technology is that, our solution is interesting only for companies that are planning to design many (more than 100s) of cores in a processor. Since there are not several companies in this domain, the market for our technology remains narrow. What we found out though, was that such processor will be very valuable as processor for real-time systems. This is because real-time systems want the execution to be time-predictable. Scratchpad memories make the execution time predictable, since there are no guesses about whether the data will hit the cache or not &ndash; it always hits the SPM. Therefore our next step is also to interview processor and compiler design companies in the real-time systems domain, to see, if there is a market for our product.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/06/2015<br>\n\t\t\t\t\tModified by: Aviral&nbsp;Shrivastava</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2015/1342156/1342156_10254304_1433551586844_SMM-programming-model--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2015/1342156/1342156_10254304_1433551586844_SMM-programming-model--rgov-800width.jpg\" title=\"Software Managed Manycore processor\"><img src=\"/por/images/Reports/POR/2015/1342156/1342156_10254304_1433551586844_SMM-programming-model--rgov-66x44.jpg\" alt=\"Software Managed Manycore processor\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">When we scale the processors to manycores, we will have to fundamentally change the way we design them. They can no lon...",
+  "por_txt_cntn": "\nIntellectual Merit: As the number of cores scale, scaling the memory architecture is a major challenge. Data and communication management functionality is expected to migrate from hardware (in existing technology) to software domain, as we manufacture processors with hundreds and thousands of cores. We have developed compiler technology that will enable simple multi-core processors without memory management in hardware to execute traditional applications that are will be (and are being) developed for processors with memory management in hardware.\n\n \n\nThe goals of I-Corps proposal were to perform\n\ni) the marketing research required for the commercialization of the developed product, and\n\nii) to translate our existing technology into a commercially viable compiler solution.\n\n \n\nOutcomes: During the project we talked to a lot of processor design companies, including, Intel, AMD, Oracle, Freescale, ARM, Qualcomm, Texas Instruments etc. and tried to figure out the challenges they are facing in scaling the processors. We have received mixed feedback. While some companies are not planning to scale as much, some other believe that traditional architectures will scale. However, some forward looking companies do realize the scaling challenge and were very interested in our approach. In fact some of the companies are making the kind of processors that we envision, and right now their plan is to generate code for the machine by themselves. One such company has asked us to develop a generic compiler for them as a prototype. Our proof-of-concept compiler was in GCC for the Cell processor. Since this is very specific, the company wanted us to develop the prototype compiler in LLVM for a SPM based processor modeled in gem5. This will be easily portable and usable. This is our plan after the I-Corps grant. We plan to apply for the AIR-TT grant to fund the prototype development.\n\n \n\nOne of the major concerns in our technology is that, our solution is interesting only for companies that are planning to design many (more than 100s) of cores in a processor. Since there are not several companies in this domain, the market for our technology remains narrow. What we found out though, was that such processor will be very valuable as processor for real-time systems. This is because real-time systems want the execution to be time-predictable. Scratchpad memories make the execution time predictable, since there are no guesses about whether the data will hit the cache or not &ndash; it always hits the SPM. Therefore our next step is also to interview processor and compiler design companies in the real-time systems domain, to see, if there is a market for our product.\n\n \n\n\t\t\t\t\tLast Modified: 06/06/2015\n\n\t\t\t\t\tSubmitted by: Aviral Shrivastava"
+ }
+}

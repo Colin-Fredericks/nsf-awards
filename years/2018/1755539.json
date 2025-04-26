@@ -1,0 +1,105 @@
+{
+ "awd_id": "1755539",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SaTC: Towards Stronger and Verified Security for Real-World Cryptography",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2018-05-01",
+ "awd_exp_date": "2023-04-30",
+ "tot_intn_awd_amt": 174469.0,
+ "awd_amount": 174469.0,
+ "awd_min_amd_letter_date": "2018-05-04",
+ "awd_max_amd_letter_date": "2022-03-04",
+ "awd_abstract_narration": "Many real-world cryptographic schemes are based on the provable-security paradigm, certifying their security via some proof. However, in several important settings, existing proofs for the in-use constructions give weak security bounds, even to the extent that these results are not meaningful. Moreover, many proofs in the literature are buggy, giving false confidence on the security of constructions which are in fact vulnerable. Even worse, practitioners may introduce seemingly harmless optimizations into a secure scheme, only to find out later that these optimizations completely undermine the security of these schemes. This project aims to partially address these issues from several fronts: (1) improving security guarantees of important applications, (2) weeding out insecure optimizations of real-world protocols by devising attacks, and (3) developing tools for automatic verification of cryptographic proofs.\r\n\r\nThis research aims to develop some message-recovery attacks on real-world format-preserving encryption schemes, which are widely used for encrypting credit-card numbers. The work targets some national standards as well as other constructions that are widely used. The research also studies how to provide meaningful provable security guarantees assuming that the discovered weaknesses are fixed properly. Furthermore, the research revisits the current approach for extracting high-quality randomness from random sources, with the goal to improve both security and efficiency. This is a fundamental problem in cryptography, as many cryptographic scenarios crucially rely on the use of randomness. Finally, the research investigates how to improve current methods of automatically verifying cryptographic proofs.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Viet Tung",
+   "pi_last_name": "Hoang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Viet Tung Hoang",
+   "pi_email_addr": "vhoang@fsu.edu",
+   "nsf_id": "000746551",
+   "pi_start_date": "2018-05-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Florida State University",
+  "inst_street_address": "874 TRADITIONS WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "TALLAHASSEE",
+  "inst_state_code": "FL",
+  "inst_state_name": "Florida",
+  "inst_phone_num": "8506445260",
+  "inst_zip_code": "323060001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "FL02",
+  "org_lgl_bus_name": "FLORIDA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JF2BLNN4PJC3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Florida State University",
+  "perf_str_addr": "1017 Academic Way",
+  "perf_city_name": "Tallahassee",
+  "perf_st_code": "FL",
+  "perf_st_name": "Florida",
+  "perf_zip_code": "323064530",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "FL02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "026Y00",
+   "pgm_ele_name": "CRII CISE Research Initiation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 174469.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>Many real-world cryptographic schemes are based on the provable-security paradigm, certifying their security via some proofs. However, in several important settings, existing proofs for the in-use constructions gives weak security bounds, even to the extent that these results are not meaningful. Moreover, many proofs in the literature are buggy, giving false confidence on the security of actually vulnerable constructions. Even worse, practitioners may introduce seemingly harmless optimizations into a secure scheme, only to find out later that they completely undermine the security. This project aims to partially address these issues by improving security guarantees of important applications, and weeding out insecure optimizations of real-world protocols by giving attacks.&nbsp;</span></p>\n<p>Specifically, we gave several attacks on the NIST Format-Preserving Encryption standards FF1 and FF3; these schemes are widely used in practice to encrypt credit-card numbers and fields in legacy databases. Our attacks&nbsp;prompted NIST to revise those standards, and our papers were used extensively in ANSI meetings for discussing how to patch the FPE methods.&nbsp;</p>\n<p>In addition, we analyzed the security of the nonce-randomization mechanism in TLS 1.3 protocol.&nbsp; Our work is used in RFC 9001 to prescribe its usage limits in QUIC and TLS, the protocols you use when you visit most websites, including Gmail, your bank, and Facebook.&nbsp;</p>\n<p>We also gave the first security analysis of the NIST standard CTR-DRBG. This is the most popular random-number generator, and randomness is crucial for security of cryptographic protocols used by billions of people daily.&nbsp;</p>\n<p>We also validated the design of the streaming encryption in Google's Tink library, and suggested better approaches to improve both security and speed.&nbsp;Tink is heavily used by many companies such as Google, Square, and Citadel, as well as hundreds of Google Cloud customers and Google Pay partners.&nbsp;Our work received an unsolicited gift from Google under their Patch Rewards Program. Our improved designs were already implemented and used by practitioners.&nbsp;</p>\n<p>On the educational side, we revamped the material of the graduate crypto course at Florida State University to give students more hand-on experience in breaking weak crypto designs. We also added some fun, unorthodox applications of crypto such as (i) using a deck of cards to solve a dating problem, or (ii)&nbsp;re-enacting Sherlock Holmes&rsquo; code breaking in &ldquo;The Adventure of the Dancing Men&rdquo; via modern methods of cracking substitution ciphers. These activities dispel the myth that theory classes are boring, and inspire many students to develop an interest in the theory side of computer science. This course has now become a&nbsp;favorite for many students at Florida State University.&nbsp;</p>\n<p><span>This project trained two Ph.D. students, one is in the final year of his Ph.D. study, and another now works as a postdoc at the Catholic University of Louvain.&nbsp;</span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><span><br /></span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/03/2023<br>\n\t\t\t\t\tModified by: Viet Tung&nbsp;Hoang</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMany real-world cryptographic schemes are based on the provable-security paradigm, certifying their security via some proofs. However, in several important settings, existing proofs for the in-use constructions gives weak security bounds, even to the extent that these results are not meaningful. Moreover, many proofs in the literature are buggy, giving false confidence on the security of actually vulnerable constructions. Even worse, practitioners may introduce seemingly harmless optimizations into a secure scheme, only to find out later that they completely undermine the security. This project aims to partially address these issues by improving security guarantees of important applications, and weeding out insecure optimizations of real-world protocols by giving attacks. \n\nSpecifically, we gave several attacks on the NIST Format-Preserving Encryption standards FF1 and FF3; these schemes are widely used in practice to encrypt credit-card numbers and fields in legacy databases. Our attacks prompted NIST to revise those standards, and our papers were used extensively in ANSI meetings for discussing how to patch the FPE methods. \n\nIn addition, we analyzed the security of the nonce-randomization mechanism in TLS 1.3 protocol.  Our work is used in RFC 9001 to prescribe its usage limits in QUIC and TLS, the protocols you use when you visit most websites, including Gmail, your bank, and Facebook. \n\nWe also gave the first security analysis of the NIST standard CTR-DRBG. This is the most popular random-number generator, and randomness is crucial for security of cryptographic protocols used by billions of people daily. \n\nWe also validated the design of the streaming encryption in Google's Tink library, and suggested better approaches to improve both security and speed. Tink is heavily used by many companies such as Google, Square, and Citadel, as well as hundreds of Google Cloud customers and Google Pay partners. Our work received an unsolicited gift from Google under their Patch Rewards Program. Our improved designs were already implemented and used by practitioners. \n\nOn the educational side, we revamped the material of the graduate crypto course at Florida State University to give students more hand-on experience in breaking weak crypto designs. We also added some fun, unorthodox applications of crypto such as (i) using a deck of cards to solve a dating problem, or (ii) re-enacting Sherlock Holmes\u2019 code breaking in \"The Adventure of the Dancing Men\" via modern methods of cracking substitution ciphers. These activities dispel the myth that theory classes are boring, and inspire many students to develop an interest in the theory side of computer science. This course has now become a favorite for many students at Florida State University. \n\nThis project trained two Ph.D. students, one is in the final year of his Ph.D. study, and another now works as a postdoc at the Catholic University of Louvain. \n\n \n\n \n\n\n\n\n\t\t\t\t\tLast Modified: 05/03/2023\n\n\t\t\t\t\tSubmitted by: Viet Tung Hoang"
+ }
+}

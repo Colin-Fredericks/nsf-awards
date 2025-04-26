@@ -1,0 +1,117 @@
+{
+ "awd_id": "1219125",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Reengineering Database Systems for Fast SSDs",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2012-07-01",
+ "awd_exp_date": "2016-06-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2012-06-11",
+ "awd_max_amd_letter_date": "2012-06-11",
+ "awd_abstract_narration": "A new class of non-volatile, solid-state memories (e.g., phase-change memory, spin-torque MRAMs, and the memristor) are emerging that promise to revolutionize the way that computer systems store and access data.  While these memory offer significant promise they will also require us to re-engineer many parts of existing computing systems.  No where is this more critical than in database systems, where overall throughput (in terms of transactions per seconds) is closely tied to the performance of the underlying storage system and the optimizations that have been applied in software.  This project is analyzing the implications for these new memories on database systems and devising now hardware and software mechanisms to improve performance, reduce energy consumption, and improve reliability.\r\n\r\nThe potential impacts of these optimizations is wide-reaching.  Database (in various forms) constitute the heart of the cloud computing infrastructure that supports many of the \"killer apps\" that are driving technologies forward.  Leveraging these new technologies, will make it cheaper, easier, and greener to implement existing applications and will enable new applications that are not currently possible.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Steven",
+   "pi_last_name": "Swanson",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Steven Swanson",
+   "pi_email_addr": "swanson@cs.ucsd.edu",
+   "nsf_id": "000069307",
+   "pi_start_date": "2012-06-11",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Yannis",
+   "pi_last_name": "Papakonstantinou",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yannis Papakonstantinou",
+   "pi_email_addr": "yannis@cs.ucsd.edu",
+   "nsf_id": "000229823",
+   "pi_start_date": "2012-06-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-San Diego",
+  "inst_street_address": "9500 GILMAN DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "LA JOLLA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8585344896",
+  "inst_zip_code": "920930021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "50",
+  "st_cong_dist_code": "CA50",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "UYTTZT6G9DT1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-San Diego",
+  "perf_str_addr": "9500 Gilman Dr 0404",
+  "perf_city_name": "LA JOLLA",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "920930404",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "50",
+  "perf_st_cong_dist": "CA50",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This work developed new techniques that will allow computer database systems to take advantage of the performance and capabilities of emerging fast solid state drives (SSDs) and other non-volatile memories. &nbsp;Solid state drives are quickly replacing conventional hard disk drives in many enterprise computing applications. &nbsp;They offer vastly improved performance compared to hard drives, but many applications, and especially databases, require significant re-engineering to allow them to succesfully harness the performance gains that SSDs should offer.</p>\n<p>This work produced three research prototype database systems optimized for SSDs. &nbsp;The first is a system for accelerating internet searching engines using specialized, programmable SSDs. &nbsp;This system used programmable hardware in an SSD to perform \"list intersection\" operations that are a fundamential buliding block for modern internet search engines.</p>\n<p>The second, used programmable SSDs to offload some database operations to the SSD, where they can be performed more quickly. &nbsp;In particular, the SSD implemented a \"key-value\" store that allows a computer system to lookup a piece of data (or 'value') based on a short identifier (i.e., a 'key'). &nbsp;By moving the implementation of this operation to the SSD, the system can improve performance, reliability, and energy efficiency.</p>\n<p>The third uses graphic processing units (GPUs) in conjunction with fast SSDs to accelerate search enginer operations. &nbsp;This system used a different approach to improving list intersection performance: &nbsp;Instead of using an SSD, it used a powerful GPU that processed data stored in the SSD. &nbsp;This system also included efficient GPU-based implementations of several other essential components of an internet search engine. &nbsp;As a result, the system is able to perform internet searches much more quickly than conventional systems.</p>\n<p>The results for all three of these system have been published in peer-reviewed journals or conference proceedings, demonstrating their intellectual merit.</p>\n<p>All of these projects demonstrate techniques that could have broad impacts on how computer system use SSDs, how companies design SSDs, and how quickly and efficiently computer system can perform database operations. &nbsp;Beyond their technical impact, these projects also providing traing to four PhD candidates who plan to continue working in this area when they graduate.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/09/2017<br>\n\t\t\t\t\tModified by: Steven&nbsp;Swanson</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis work developed new techniques that will allow computer database systems to take advantage of the performance and capabilities of emerging fast solid state drives (SSDs) and other non-volatile memories.  Solid state drives are quickly replacing conventional hard disk drives in many enterprise computing applications.  They offer vastly improved performance compared to hard drives, but many applications, and especially databases, require significant re-engineering to allow them to succesfully harness the performance gains that SSDs should offer.\n\nThis work produced three research prototype database systems optimized for SSDs.  The first is a system for accelerating internet searching engines using specialized, programmable SSDs.  This system used programmable hardware in an SSD to perform \"list intersection\" operations that are a fundamential buliding block for modern internet search engines.\n\nThe second, used programmable SSDs to offload some database operations to the SSD, where they can be performed more quickly.  In particular, the SSD implemented a \"key-value\" store that allows a computer system to lookup a piece of data (or 'value') based on a short identifier (i.e., a 'key').  By moving the implementation of this operation to the SSD, the system can improve performance, reliability, and energy efficiency.\n\nThe third uses graphic processing units (GPUs) in conjunction with fast SSDs to accelerate search enginer operations.  This system used a different approach to improving list intersection performance:  Instead of using an SSD, it used a powerful GPU that processed data stored in the SSD.  This system also included efficient GPU-based implementations of several other essential components of an internet search engine.  As a result, the system is able to perform internet searches much more quickly than conventional systems.\n\nThe results for all three of these system have been published in peer-reviewed journals or conference proceedings, demonstrating their intellectual merit.\n\nAll of these projects demonstrate techniques that could have broad impacts on how computer system use SSDs, how companies design SSDs, and how quickly and efficiently computer system can perform database operations.  Beyond their technical impact, these projects also providing traing to four PhD candidates who plan to continue working in this area when they graduate.\n\n\t\t\t\t\tLast Modified: 01/09/2017\n\n\t\t\t\t\tSubmitted by: Steven Swanson"
+ }
+}

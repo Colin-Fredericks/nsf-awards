@@ -1,0 +1,106 @@
+{
+ "awd_id": "0109944",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SGER:  Adaptive Beamforming for Spatial and Temporal Sampled Coherent Aperture Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010800",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Cozzens",
+ "awd_eff_date": "2001-04-15",
+ "awd_exp_date": "2003-09-30",
+ "tot_intn_awd_amt": 99256.0,
+ "awd_amount": 109256.0,
+ "awd_min_amd_letter_date": "2001-04-19",
+ "awd_max_amd_letter_date": "2001-05-11",
+ "awd_abstract_narration": "This proposal requests support to develop, test, and optimize a new approach to adaptive beamfroming in coherent imaging that was recently developed by the PI [1].  The fundamental approach is based upon the physics of imaging with signals that are scattered from targets consisting of many randomly distributed scatters.  The resulting alogrithmic methodology which will be refered to as the scaled Cross-Corelation Function (SCCF) algorithm provides a robust adaptive auto-focusing phase aberration correction algorithm for digitally sampled coherent imaging systems.  The underlying fundamental ideas forming the basis of this discovery are far more reaching and should have broad application to inverse problems in coherent imaging such as coherent optics, Synthetic Aperture Radar (SAR), ultrasonics, somar, etc.  \r\n\r\nThe initial effort will be directed towards medical ultrasound.  Here extensive simulations will be performed for 1.5 and 2D dimensional transducer arrays to further develop, test and optimize the new adaptive beamforming methodolgy.  These simulations require computer power beyond the capabilities of a single CPU workstation running MATLAB code.  Code, either in C++ or Fortran 90, wil be developed to run these simulations on available multiprocessor super computing systems.\r\n\r\nThe full implementation of the new methodology, which has been shown in limited simulation tests to be substantially more robust than the Flax-O'Donnell [2,3] and the Rigby [4] beamsum algorithms, is computationally intensive as it requires the computation of N (N-1)=2 signal correlations for all focused cell in the ensemble of cells used to compute the covariance matrix.  Here N represents the number of channels.  This computation load is too extensive for today's existing ultrasound machines, although future generations systems will undoubtedly have these capabilities.  The project effort will involve extensively testing of the suboptimal, less computationally intensive versions of the SCCF methodology that may be implementable with today's hardware.  The project efforts will also consider conceptual extensions of the SCCF methodology to microwave, sonar, and optical imaging.  Computer simulation testbeds will be developed for these different modalities for the purpose of developing and optimizing suitable adaptive algorithms for these disciplines.  Adaptive beamforming in SAR is needed to equalize phase errors caused by unknown positioning errors of the transmit/receive points (synthetic elements) in the synthetically generated array.  The current techniques such as the phase gradient algorithm [23] searches  for the brighest cell, and then solves for the aberrant phase using phase gradient based upon the nearest neighbor cross-correlation functions.  This method is susceptible to image artifacts, persumanly caused by a combination of the instabilities inherent in a phase gradient method and the errors made using the approximation that the good phase in the brightest pixel can be neglected.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Seth",
+   "pi_last_name": "Silverstein",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Seth D Silverstein",
+   "pi_email_addr": "silverstein@virginia.edu",
+   "nsf_id": "000171124",
+   "pi_start_date": "2001-04-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Virginia Main Campus",
+  "inst_street_address": "1001 EMMET ST N",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHARLOTTESVILLE",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "4349244270",
+  "inst_zip_code": "229034833",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "VA05",
+  "org_lgl_bus_name": "RECTOR & VISITORS OF THE UNIVERSITY OF VIRGINIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JJG6HU8PA4S5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Virginia Main Campus",
+  "perf_str_addr": "1001 EMMET ST N",
+  "perf_city_name": "CHARLOTTESVILLE",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "229034833",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "VA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "472000",
+   "pgm_ele_name": "SIGNAL PROCESSING SYS PROGRAM"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "9237",
+   "pgm_ref_txt": "SMALL GRANTS-EXPLORATORY RSRCH"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0101",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000102DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2001,
+   "fund_oblg_amt": 109256.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,106 @@
+{
+ "awd_id": "0915315",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Small: The MCDB Database System for Managing and Modeling Uncertainty",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Frank Olken",
+ "awd_eff_date": "2009-09-01",
+ "awd_exp_date": "2014-08-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2009-09-01",
+ "awd_max_amd_letter_date": "2009-09-01",
+ "awd_abstract_narration": "\r\nThe MCDB Database System for Managing and Modeling Uncertainty\r\nAnalysts working with large data sets often use statistical models to\r\n``guess'' at unknown, inaccurate, or missing information associated\r\nwith the data stored in a database.  For example, an analyst for a\r\nmanufacturer may wish to know, \"What would my profits have been if\r\nI'd increased my margins by 5% last year?\" The answer to this\r\nquestion depends upon the extent to which the higher prices would have\r\naffected each customer's demand, which is undoubtedly guessed via the\r\napplication of some statistical model.\r\n\r\nThe MCDB project is concerned with the design and implementation of a\r\nprototype database system called the \"Monte Carlo Database System,\" or\r\n\"MCDB\" for short.  MCDB allows an expert-level analyst or statistician\r\nto attach arbitrary stochastic models to the database data in order to\r\n\"guess\" the values for unknown or inaccurate data, such as each\r\ncustomer's unseen demand function.  These stochastic models reside in\r\nthe database, and are always up-to-date in the sense that they are\r\nparameterized on the current state of the database (using each\r\ncustomer's most recent purchases in the above example).\r\n\r\nThe project attacks a number of key intellectual and scientific\r\nchallenges.  Most of these are related to the fact that for\r\nperformance reasons, it is not possible to materialize one thousand\r\nstochastic instances of a one terabyte data warehouse, and query each\r\nof them in sequence.  Novel methods for avoiding such materializations\r\nare being considered, such as skipping Monte Carlo trials that produce\r\ndata which will never be used to answer a specific query.  The project\r\nalso considers statistical challenges, such as generating database\r\ninstances that fall far out in the tail of the answer distribution,\r\nwhich is necessary for specific applications such as risk assessment.\r\n\r\nFurther information is available at http://mcdb.cs.rice.edu.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Christopher",
+   "pi_last_name": "Jermaine",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christopher M Jermaine",
+   "pi_email_addr": "Christopher.m.jermaine@rice.edu",
+   "nsf_id": "000439407",
+   "pi_start_date": "2009-09-01",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "William Marsh Rice University",
+  "inst_street_address": "6100 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "Houston",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7133484820",
+  "inst_zip_code": "770051827",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "WILLIAM MARSH RICE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "K51LECU1G8N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "William Marsh Rice University",
+  "perf_str_addr": "6100 MAIN ST",
+  "perf_city_name": "Houston",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "770051827",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "TX09",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0109",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000910DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2009,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,113 @@
+{
+ "awd_id": "1318880",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Collaborative: Cost-Competitve Analysis - A New Tool for Designing Secure Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 249801.0,
+ "awd_amount": 249801.0,
+ "awd_min_amd_letter_date": "2013-08-30",
+ "awd_max_amd_letter_date": "2013-08-30",
+ "awd_abstract_narration": "Consider a network where each node is either good or bad.  The good nodes all run an algorithm that attempts to achieve a specific goal. The hidden set of bad nodes are controlled by an adversary who uses them to thwart this goal.\r\n\r\nInformally, cost-competitive analysis considers the resource cost of each good node as a function of the total resource cost of the adversary.  The goal is to design algorithms that achieve their objectives, while minimizing this cost.  Critically, when bad nodes suffer higher costs than good nodes, it is expected that they will eventually cease their attack, as their resources become depleted.\r\n\r\nGoals of this project are to design cost-competitive algorithms for: communication in wireless networks; tolerating distributed denial-of-service attacks; secure routing in peer-to-peer networks; and enabling nodes to come to agreement.\r\n\r\nCost-competitive analysis offers a novel approach for making progress on challenging attacks that cannot be adequately addressed in models that ignore the costs of the attacker.  By adopting a more realistic attack model, this approach more accurately quantifies the limits of efficient attack resistance. It is thus expected that a cost-competitive approach will yield more compelling solutions to security challenges in many domains.  In particular, this project may have high impact in security challenges involving open environments such as:  wireless sensor networks, overlays, reputation systems; and aspects of contemporary problems in industry such as:  public cloud computing, reliable versions of MapReduce, and robust distributed lock managers like Google's Chubby lock service.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jared",
+   "pi_last_name": "Saia",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jared C Saia",
+   "pi_email_addr": "saia@cs.unm.edu",
+   "nsf_id": "000260597",
+   "pi_start_date": "2013-08-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of New Mexico",
+  "inst_street_address": "1 UNIVERSITY OF NEW MEXICO",
+  "inst_street_address_2": "",
+  "inst_city_name": "ALBUQUERQUE",
+  "inst_state_code": "NM",
+  "inst_state_name": "New Mexico",
+  "inst_phone_num": "5052774186",
+  "inst_zip_code": "871310001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NM01",
+  "org_lgl_bus_name": "UNIVERSITY OF NEW MEXICO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F6XLTRUQJEN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of New Mexico",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NM",
+  "perf_st_name": "New Mexico",
+  "perf_zip_code": "871310001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NM01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 249801.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This grant has had several significant research outcomes.</p>\n<p><br />First, we designed cost-competitive algorithms for proof-of-work-based security.&nbsp; Current proof-of-work(PoW) techniques for systems like Bitcoin require that correct devices perform computational work perpetually, even when the system is not under attack.&nbsp; Our result addresses this issue by designing a general PoW protocol that ensures two properties. First, the network stays secure. In particular, the fraction of identities in the system that are controlled by an attacker is always less than 1/2. Second, our protocol??s computational cost is commensurate with the cost of an attacker. In particular, the total computational cost of correct devices is a linear function of the attackers computational cost plus the number of correct devices that have joined the system. Consequently, if the network is attacked, we ensure security, with cost that grows linearly with the attackers cost; and, in the absence of attack, our computational cost remains small. We prove similar guarantees for bandwidth cost.</p>\n<p><br />Second, we designed cost-competitive algorithms for the problem of Interactive communication, where two parties are trying to compute over a noisy channel. Specifically, we described an algorithm for a two party reliable computation, where the resource costs of both parties scale well with the number of bits that are (adversarially) corrupted on the channel. To the best of our knowledge, it is the first such result. Plans for future work include extending this result to more than two parties.</p>\n<p><br />Thirdly, we designed cost-competitive algorithms for distributing access points (i.e. bridges) to an anti-censorship network (ToR).&nbsp; Specifically, if there are t nodes controlled by an adversary out of n total nodes, then our algorithm requires distributing no more than O(t log n) bridges.&nbsp; Applications include enabling people in countries where&nbsp; censorship occurs to more easily access all of the Internet.<br /><br />Finally, this project has supported four PhD students, Abhinav Aggarwal, Mahnush Movahedi (female), Aaron Kearns and Mahdi Zamani.&nbsp; Mahnush graduated 2015, and after post docs at UVA and Yale, is now a senior researcher at DFINITY.&nbsp; Mahdi Zamani also graduated in 2015, and after a post doc at Yale is now a Research Scientist at Visa Research.&nbsp; Aaron Kearns graduated with an MS in 2016 and is now employed by the Albuquerque Seismic Lab.&nbsp; Abhinav Aggarwal is expected to earn his PhD in 2020.&nbsp; He gave his first conference presentation in 2018.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/01/2018<br>\n\t\t\t\t\tModified by: Jared&nbsp;C&nbsp;Saia</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis grant has had several significant research outcomes.\n\n\nFirst, we designed cost-competitive algorithms for proof-of-work-based security.  Current proof-of-work(PoW) techniques for systems like Bitcoin require that correct devices perform computational work perpetually, even when the system is not under attack.  Our result addresses this issue by designing a general PoW protocol that ensures two properties. First, the network stays secure. In particular, the fraction of identities in the system that are controlled by an attacker is always less than 1/2. Second, our protocol??s computational cost is commensurate with the cost of an attacker. In particular, the total computational cost of correct devices is a linear function of the attackers computational cost plus the number of correct devices that have joined the system. Consequently, if the network is attacked, we ensure security, with cost that grows linearly with the attackers cost; and, in the absence of attack, our computational cost remains small. We prove similar guarantees for bandwidth cost.\n\n\nSecond, we designed cost-competitive algorithms for the problem of Interactive communication, where two parties are trying to compute over a noisy channel. Specifically, we described an algorithm for a two party reliable computation, where the resource costs of both parties scale well with the number of bits that are (adversarially) corrupted on the channel. To the best of our knowledge, it is the first such result. Plans for future work include extending this result to more than two parties.\n\n\nThirdly, we designed cost-competitive algorithms for distributing access points (i.e. bridges) to an anti-censorship network (ToR).  Specifically, if there are t nodes controlled by an adversary out of n total nodes, then our algorithm requires distributing no more than O(t log n) bridges.  Applications include enabling people in countries where  censorship occurs to more easily access all of the Internet.\n\nFinally, this project has supported four PhD students, Abhinav Aggarwal, Mahnush Movahedi (female), Aaron Kearns and Mahdi Zamani.  Mahnush graduated 2015, and after post docs at UVA and Yale, is now a senior researcher at DFINITY.  Mahdi Zamani also graduated in 2015, and after a post doc at Yale is now a Research Scientist at Visa Research.  Aaron Kearns graduated with an MS in 2016 and is now employed by the Albuquerque Seismic Lab.  Abhinav Aggarwal is expected to earn his PhD in 2020.  He gave his first conference presentation in 2018.\n\n\t\t\t\t\tLast Modified: 10/01/2018\n\n\t\t\t\t\tSubmitted by: Jared C Saia"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1035199",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CPS: Medium: Collaborative Research: Geometric Distributed Algorithms for Multi-Robot Coordination and Control",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927347",
+ "po_email": "sspengle@nsf.gov",
+ "po_sign_block_name": "Sylvia Spengler",
+ "awd_eff_date": "2010-09-15",
+ "awd_exp_date": "2013-08-31",
+ "tot_intn_awd_amt": 340000.0,
+ "awd_amount": 340000.0,
+ "awd_min_amd_letter_date": "2010-09-10",
+ "awd_max_amd_letter_date": "2010-09-10",
+ "awd_abstract_narration": "The objective of this research is to develop new models of computation for multi-robot systems.  Algorithm execution proceeds in a cycle of communication, computation, and motion.  Computation is inextricably linked to the physical configuration of the system.  Current models cannot describe multi-robot systems at a level of abstraction that is both manageable and accurate. This project will combine ideas from distributed algorithms, computational geometry, and control theory to design new models for multi-robot systems that incorporate physical properties of the systems. The approach is to focus on the high-level problem of exploring an unknown environment while performing designated tasks, and the sub-problem of maintaining network connectivity.  Key issues to be studied will include algorithmic techniques for handling ongoing discrete failures, and ways of understanding system capabilities as related to failure rates, geometric assumptions and physical parameters such as robot mobility and communication bandwidth.  New metrics will be developed for error rates and robot mobility.\r\n\r\nIntellectual merit arises from the combination of techniques from distributed algorithms, computational geometry, and control theory to develop and analyze algorithms for multi-robot systems.   The project will develop a new class of algorithms and techniques for their rigorous analysis, not only under ideal conditions, but under a variety of error assumptions.  The project will test theoretical ideas empirically, on three different multi-robot systems.\r\n\r\nBroader impacts will include new algorithms for robot coordination, and rigorous understanding of the capabilities of different hardware platforms.  Robots are an excellent outreach tool, and provide concrete examples of theory in action.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nancy",
+   "pi_last_name": "Lynch",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nancy A Lynch",
+   "pi_email_addr": "lynch@csail.mit.edu",
+   "nsf_id": "000169435",
+   "pi_start_date": "2010-09-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "791800",
+   "pgm_ele_name": "CPS-Cyber-Physical Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 340000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Robot swarms are collections of robots that cooperate to solve problems in the real world.&nbsp; Typical problems might involve, for example, search and rescue, exploring an unknown terrain, or surrounding and cleaning up a hazardous waste spill.</p>\n<p>The goal of this project was to develop theoretical foundations for developing robot swarm systems.&nbsp; This includes mathematical models for robots, their behavior, and their interactions, as well as algorithms for key problems to be solved by robot swarms.&nbsp; The problems that were considered included maintaining connectivity of the robot swarm for communication and establishing a coordinate system by which robots can locate (\"localize\") themselves in two-dimensional space.</p>\n<p>For the study of connectivity, the investigators cast the problem in terms of geometric graphs.&nbsp; They showed that, when all robots maintain connectivity with nearby robots that comprise a \"Local Minimum Spanning Tree (LMST)\", the entire swarm remains connected.&nbsp; This led to a simple distributed algorithm that maintained LMSTs.&nbsp; The algorithm was shown to subsume several prior algorithms that used different connectivity criteria.</p>\n<p>The investigators showed how the connectivity algorithm can be used with various kinds of motion-planning algorithms to solve a number of interesting robot swarm problems.&nbsp; An example is \"flocking\":&nbsp; the robots remain connected for communication while converging to travel in the same direction at the same speed.</p>\n<p>In order to deal with failures, they extended the work on connectivity to preserve the stronger property of \"k-connectivity\", which implies that every pair of robots is connected by k different paths.</p>\n<p>The connectivity work also includes some lower bound results, which express inherent limitations on the capabilities of robot swarms to solve connectivity problems.</p>\n<p>Using the same theoretical foundation, the investigators studied a second problem called \"angular localization\", wherein a robot swarm is required to establish a global coordinate system using only simple (optical) angle sensors.</p>\n<p>The work on connectivity and angular localization was mainly theoretical, but most of the results are supported by experimental work based on simulations and on implementations using actual robot swarm platforms.</p>\n<p>The investigators also developed an algorithm for robot swarm exploration to isolate and trap intruders in an unfamiliar environment.&nbsp; The algorithm is based on a new way of characterizing the robots' environment, using techniques from the area of machine vision.</p>\n<p>Related work, partially supported on this project, includes a collection of new distributed algorithms for solving interesting problems in dynamically-changing connected networks, with connected robot swarms as a special case.&nbsp; The problems studied included disseminating messages throughout the network, counting the total number of robots in the system, and computing&nbsp; functions of local inputs.</p>\n<p>In other related work, the investigators introduced a new ``beeping'' model for communication in robot swarms and other types of wireless networks; in this model, nodes communicate using only simple wireless network carrier sensing.&nbsp; Using the beeping model, the investigators developed several interesting and efficient algorithms, for problems including message dissemination and building various graph-theoretical structures (e.g., colorings and maximal independent sets).</p>\n<p>In many ways, swarms of robots seem similar to colonies of social insects (such as ants and bees).&nbsp; Insect colonies cooperate to solve problems such as task allocation, exploration, routing, and building structures---all similar to robot swarm problems.&nbsp; However, insect colonies solve these problems in ways that are more flexible, robust, and adaptive than usual robot algorit...",
+  "por_txt_cntn": "\nRobot swarms are collections of robots that cooperate to solve problems in the real world.  Typical problems might involve, for example, search and rescue, exploring an unknown terrain, or surrounding and cleaning up a hazardous waste spill.\n\nThe goal of this project was to develop theoretical foundations for developing robot swarm systems.  This includes mathematical models for robots, their behavior, and their interactions, as well as algorithms for key problems to be solved by robot swarms.  The problems that were considered included maintaining connectivity of the robot swarm for communication and establishing a coordinate system by which robots can locate (\"localize\") themselves in two-dimensional space.\n\nFor the study of connectivity, the investigators cast the problem in terms of geometric graphs.  They showed that, when all robots maintain connectivity with nearby robots that comprise a \"Local Minimum Spanning Tree (LMST)\", the entire swarm remains connected.  This led to a simple distributed algorithm that maintained LMSTs.  The algorithm was shown to subsume several prior algorithms that used different connectivity criteria.\n\nThe investigators showed how the connectivity algorithm can be used with various kinds of motion-planning algorithms to solve a number of interesting robot swarm problems.  An example is \"flocking\":  the robots remain connected for communication while converging to travel in the same direction at the same speed.\n\nIn order to deal with failures, they extended the work on connectivity to preserve the stronger property of \"k-connectivity\", which implies that every pair of robots is connected by k different paths.\n\nThe connectivity work also includes some lower bound results, which express inherent limitations on the capabilities of robot swarms to solve connectivity problems.\n\nUsing the same theoretical foundation, the investigators studied a second problem called \"angular localization\", wherein a robot swarm is required to establish a global coordinate system using only simple (optical) angle sensors.\n\nThe work on connectivity and angular localization was mainly theoretical, but most of the results are supported by experimental work based on simulations and on implementations using actual robot swarm platforms.\n\nThe investigators also developed an algorithm for robot swarm exploration to isolate and trap intruders in an unfamiliar environment.  The algorithm is based on a new way of characterizing the robots' environment, using techniques from the area of machine vision.\n\nRelated work, partially supported on this project, includes a collection of new distributed algorithms for solving interesting problems in dynamically-changing connected networks, with connected robot swarms as a special case.  The problems studied included disseminating messages throughout the network, counting the total number of robots in the system, and computing  functions of local inputs.\n\nIn other related work, the investigators introduced a new ``beeping'' model for communication in robot swarms and other types of wireless networks; in this model, nodes communicate using only simple wireless network carrier sensing.  Using the beeping model, the investigators developed several interesting and efficient algorithms, for problems including message dissemination and building various graph-theoretical structures (e.g., colorings and maximal independent sets).\n\nIn many ways, swarms of robots seem similar to colonies of social insects (such as ants and bees).  Insect colonies cooperate to solve problems such as task allocation, exploration, routing, and building structures---all similar to robot swarm problems.  However, insect colonies solve these problems in ways that are more flexible, robust, and adaptive than usual robot algorithms.  It seems that studying insect algorithms, or at least algorithms with insect-like behavior, could lead to advances in robot swarm algorithms.\n\nTherefore, in the final year of this project, the..."
+ }
+}

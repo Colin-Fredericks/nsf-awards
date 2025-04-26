@@ -1,0 +1,105 @@
+{
+ "awd_id": "2200783",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: NeTS: Rethinking Flow Control for Cloud Data Center Networks",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2022-04-30",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 114833.0,
+ "awd_min_amd_letter_date": "2021-10-27",
+ "awd_max_amd_letter_date": "2021-10-27",
+ "awd_abstract_narration": "Data loss is a significant problem in today's data center networks.  Popular websites like Google, Amazon, and Facebook are built on top of data center applications that generate responses to incoming requests from end-users on the Internet.  In these applications, the work required to generate a response is distributed across a large number of servers (computers).  Unfortunately, these communication patterns lead to frequent events of data loss in the network.  Because data loss in the network must be recovered through retransmissions, it can dramatically increase communication latency (the time delay required for information to travel across a network).  This can ultimately translate into a loss of revenue for these companies.  Similarly, data loss is also a limiting factor on the adoption of new technologies like Remote Direct Memory Access (RDMA).  RDMA is important because it can reduce latency and increase throughput, and this can improve the performance of data center applications.  However, despite its benefits, RDMA is not seeing widespread adoption because RDMA Network Interface Cards (NICs) fail to perform well when there is data loss in the network.\r\n\r\nThe goal of our proposed research is twofold: 1) to reduce application latency, and 2) to enable important new technologies like RDMA.  This project will accomplish its goals through the design of a new flow control protocol, namely a protocol that prevents the network from dropping data.  The plan is to create a problem-free lossless network that does not drop data due to congestion and is also guaranteed to provide better or equal performance to an equivalent network that does drop data. Specifically, this project seeks to develop: new protocols for rapidly detecting and then communicating per-flow congestion information between switches and Network Interface Cards (NICs); novel algorithms for approximating per-flow queuing on currently available programmable networking hardware; and new techniques for building lossless overlay networks to support legacy devices.  The software from this project will be made broadly available for public reuse, and the researcher plans to integrate the proposed research into courses at the University of Illinois at Chicago.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Brent",
+   "pi_last_name": "Stephens",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Brent Stephens",
+   "pi_email_addr": "brent@cs.utah.edu",
+   "nsf_id": "000781448",
+   "pi_start_date": "2021-10-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Utah",
+  "inst_street_address": "201 PRESIDENTS CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SALT LAKE CITY",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8015816903",
+  "inst_zip_code": "841129049",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "UT01",
+  "org_lgl_bus_name": "UNIVERSITY OF UTAH",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LL8GLEVH6MG3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Utah",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "841128930",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "UT01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "026Y00",
+   "pgm_ele_name": "CRII CISE Research Initiation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7363",
+   "pgm_ref_txt": "RES IN NETWORKING TECH & SYS"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01001920DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2019,
+   "fund_oblg_amt": 114833.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Data loss is a significant problem in today's data center networks.&nbsp; Popular websites like Google, Amazon, and Facebook are built on top of data center applications that use communication patterns lead to frequent events of data loss in the network, and this can dramatically increase communication latency (the time delay required for information to travel across a network), which ultimately translate into worse user experiences and a loss of revenue for these companies.&nbsp; To address this problem, this project contributes significant advances to preventing data loss in today's data center networks.&nbsp; In particular, this project contributes a new understanding of packet loss at end-hosts and virtual switches and how to prevent it. &nbsp;<br /><br />Virtual switches (vswitches) play an important role in today's data center networks operation because they are in charge of routing packets to one of the many competing microservices and applications running on a server.&nbsp; Vswitches are fundamentally different than their physical counterpart in that vswitches can suffer from problems when the receiving applications are slow.&nbsp; This slow receiver problem hurts tail network communication latency and wastes CPU cycles, impacting application-level performance.&nbsp; Although there are existing approaches to mitigate packet loss, they all have key limitations.&nbsp; For example, this project shows that slow receivers can manifest at short timescales and cause packet loss even in the presence of state-of-the-art congestion controls such as Homa.<br /><br />To overcome these limitations, this project introduces an approach to provide problem-free lossless virtual switches.&nbsp; Backdraft, a new vswitch created as part of this project prevents packet loss while (1) avoiding Head-of-Line (HOL) blocking, (2) reducing the required CPU cycles, and (3) preventing congestion spreading in the network core.&nbsp; This is possible through the combination of three new components: (1) Dynamic Per-Flow Queuing~(DPFQ) to prevent HOL blocking and provide on-demand memory usage; (2) Doorbell queues to reduce CPU overheads; (3) A new overlay network to avoid congestion spreading.&nbsp; With all of this combined, Backdraft can achieve up to 20x lower tail latency at the 99th percentile.<br /><br />To ensure the impact of this project, all of the code used to implement Backdraft and perform experiments to demonstrate its efficacy are released under a flexible open-source license.&nbsp; The following are links to key resources related to this project:<br />* Paper: \"Backdraft: a Lossless Virtual Switch that Prevents the Slow Receiver<br />Problem\" from NSDI '22: https://www.usenix.org/system/files/nsdi22-paper-sanaee.pdf<br />* Presentation: https://youtu.be/ovUH3Yjl37o<br />* Code: https://github.com/Lossless-Virtual-Switching/Backdraft</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/09/2022<br>\n\t\t\t\t\tModified by: Brent&nbsp;Stephens</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nData loss is a significant problem in today's data center networks.  Popular websites like Google, Amazon, and Facebook are built on top of data center applications that use communication patterns lead to frequent events of data loss in the network, and this can dramatically increase communication latency (the time delay required for information to travel across a network), which ultimately translate into worse user experiences and a loss of revenue for these companies.  To address this problem, this project contributes significant advances to preventing data loss in today's data center networks.  In particular, this project contributes a new understanding of packet loss at end-hosts and virtual switches and how to prevent it.  \n\nVirtual switches (vswitches) play an important role in today's data center networks operation because they are in charge of routing packets to one of the many competing microservices and applications running on a server.  Vswitches are fundamentally different than their physical counterpart in that vswitches can suffer from problems when the receiving applications are slow.  This slow receiver problem hurts tail network communication latency and wastes CPU cycles, impacting application-level performance.  Although there are existing approaches to mitigate packet loss, they all have key limitations.  For example, this project shows that slow receivers can manifest at short timescales and cause packet loss even in the presence of state-of-the-art congestion controls such as Homa.\n\nTo overcome these limitations, this project introduces an approach to provide problem-free lossless virtual switches.  Backdraft, a new vswitch created as part of this project prevents packet loss while (1) avoiding Head-of-Line (HOL) blocking, (2) reducing the required CPU cycles, and (3) preventing congestion spreading in the network core.  This is possible through the combination of three new components: (1) Dynamic Per-Flow Queuing~(DPFQ) to prevent HOL blocking and provide on-demand memory usage; (2) Doorbell queues to reduce CPU overheads; (3) A new overlay network to avoid congestion spreading.  With all of this combined, Backdraft can achieve up to 20x lower tail latency at the 99th percentile.\n\nTo ensure the impact of this project, all of the code used to implement Backdraft and perform experiments to demonstrate its efficacy are released under a flexible open-source license.  The following are links to key resources related to this project:\n* Paper: \"Backdraft: a Lossless Virtual Switch that Prevents the Slow Receiver\nProblem\" from NSDI '22: https://www.usenix.org/system/files/nsdi22-paper-sanaee.pdf\n* Presentation: https://youtu.be/ovUH3Yjl37o\n* Code: https://github.com/Lossless-Virtual-Switching/Backdraft\n\n\t\t\t\t\tLast Modified: 08/09/2022\n\n\t\t\t\t\tSubmitted by: Brent Stephens"
+ }
+}

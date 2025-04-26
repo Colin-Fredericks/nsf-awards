@@ -1,0 +1,101 @@
+{
+ "awd_id": "1050266",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Collaborative:  Aster*x:  Load-Balancing Web Traffic Over Wide-Area Networks",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Joseph Lyles",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2013-03-31",
+ "tot_intn_awd_amt": 75000.0,
+ "awd_amount": 75000.0,
+ "awd_min_amd_letter_date": "2010-08-07",
+ "awd_max_amd_letter_date": "2010-08-07",
+ "awd_abstract_narration": "This project proposes a comprehensive load-balancing solution to minimize client response time and reduce system costs for services hosted in wide-area networks. The system, called Aster*x, uses the global state of server load and network congestion, and dynamically routes the requests over appropriate (server and path) pairs, calculated using the load-balancing algorithms developed by project staff. \r\n\r\nThe GENI network infrastructure will be used for extensive deployment, evaluation, and demonstration of Aster*x. Aster*x exploits OpenFlow?s logically centralized controller to obtain the global network state and route flows of various granularities. It will use the PlanetLab and ProtoGENI-based computation substrate to host the replicated web service and to generate client requests from multiple locations. The project will provide an opportunity for students across four universities to collaborate and build a relatively large experimental system on GENI.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Arvind",
+   "pi_last_name": "Krishnamurthy",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Arvind Krishnamurthy",
+   "pi_email_addr": "arvind@cs.washington.edu",
+   "nsf_id": "000488256",
+   "pi_start_date": "2010-08-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Washington",
+  "inst_street_address": "4333 BROOKLYN AVE NE",
+  "inst_street_address_2": "",
+  "inst_city_name": "SEATTLE",
+  "inst_state_code": "WA",
+  "inst_state_name": "Washington",
+  "inst_phone_num": "2065434043",
+  "inst_zip_code": "981951016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "WA07",
+  "org_lgl_bus_name": "UNIVERSITY OF WASHINGTON",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HD1WMN6945W6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Washington",
+  "perf_str_addr": "4333 BROOKLYN AVE NE",
+  "perf_city_name": "SEATTLE",
+  "perf_st_code": "WA",
+  "perf_st_name": "Washington",
+  "perf_zip_code": "981951016",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "WA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 75000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Over the past decade there has been a change in the way content is hosted and served in the Internet. To meet growing demand, and minimize access time, service is replicated across multiple servers in possibly multiple locations. Content Distribution Networks (CDN), such as those run by Akamai, Limelight, and Amazon serve content from thousands of servers around the world. Some large network operators have built their own CDNs to generate revenues from content customers. Service replication is not limited to just simple web-content. Novel services like Google DNS (designed to accelerate browsing experience) replicate and serve DNS records from many servers. Minimizing client response time by replicating content and load-balancing over the wide-area is, therefore, an important problem, directly affecting revenue worth billions of dollars.</p>\n<p><br />At the same time, load-balancing over the wide-area is a non-trivial problem. Load-balancing may be oblivious (e.g., spreading the requests equally over all servers, without regard for their load), or stateful (e.g., sending requests to the least-loaded server). In a data-center or a dedicated web-hosting service, the HTTP servers are connected by a regular, over-provisioned network; the load-balancer usually does not consider the network state when load-balancing across servers. However, this simplistic scenario does not hold for unstructured networks, such as enterprise and wide-area networks, that are not custom-built for running server farms. In such unstructured networks, the substantial background traffic and the potential topological biases can significantly affect the performance of network-oblivious load-balancing (our baseline), and inflate the response time (defined as the duration from issuing the HTTP request to the complete receipt of the response).</p>\n<p><br />In this project, we examined the question: \"If we host a service across many HTTP servers spanning multiple campus networks, what is the best way to balance load so as to minimize the client response time?\". In particular, we take into account the congestion in the network, the location, and the load on the servers, and, then, manage the load on the network and the servers to try to minimize response time.</p>\n<p><br />We built a system called Aster*x that uses the global state of server load and network congestion, and dynamically routes the requests over appropriate (server, path) pairs calculated using the load-balancing algorithms we developed. &nbsp;We used GENI for the extensive deployment, evaluation, and demonstration of Aster*x. Aster*x exploits OpenFlow&rsquo;s logically centralized controller to get the global network state and route flows of various granularities. It uses the PlanetLab and Linux-based computation substrate to host the replicated web service and to generate client requests from multiple locations.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/03/2013<br>\n\t\t\t\t\tModified by: Arvind&nbsp;Krishnamurthy</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOver the past decade there has been a change in the way content is hosted and served in the Internet. To meet growing demand, and minimize access time, service is replicated across multiple servers in possibly multiple locations. Content Distribution Networks (CDN), such as those run by Akamai, Limelight, and Amazon serve content from thousands of servers around the world. Some large network operators have built their own CDNs to generate revenues from content customers. Service replication is not limited to just simple web-content. Novel services like Google DNS (designed to accelerate browsing experience) replicate and serve DNS records from many servers. Minimizing client response time by replicating content and load-balancing over the wide-area is, therefore, an important problem, directly affecting revenue worth billions of dollars.\n\n\nAt the same time, load-balancing over the wide-area is a non-trivial problem. Load-balancing may be oblivious (e.g., spreading the requests equally over all servers, without regard for their load), or stateful (e.g., sending requests to the least-loaded server). In a data-center or a dedicated web-hosting service, the HTTP servers are connected by a regular, over-provisioned network; the load-balancer usually does not consider the network state when load-balancing across servers. However, this simplistic scenario does not hold for unstructured networks, such as enterprise and wide-area networks, that are not custom-built for running server farms. In such unstructured networks, the substantial background traffic and the potential topological biases can significantly affect the performance of network-oblivious load-balancing (our baseline), and inflate the response time (defined as the duration from issuing the HTTP request to the complete receipt of the response).\n\n\nIn this project, we examined the question: \"If we host a service across many HTTP servers spanning multiple campus networks, what is the best way to balance load so as to minimize the client response time?\". In particular, we take into account the congestion in the network, the location, and the load on the servers, and, then, manage the load on the network and the servers to try to minimize response time.\n\n\nWe built a system called Aster*x that uses the global state of server load and network congestion, and dynamically routes the requests over appropriate (server, path) pairs calculated using the load-balancing algorithms we developed.  We used GENI for the extensive deployment, evaluation, and demonstration of Aster*x. Aster*x exploits OpenFlow\u00c6s logically centralized controller to get the global network state and route flows of various granularities. It uses the PlanetLab and Linux-based computation substrate to host the replicated web service and to generate client requests from multiple locations.\n\n\t\t\t\t\tLast Modified: 07/03/2013\n\n\t\t\t\t\tSubmitted by: Arvind Krishnamurthy"
+ }
+}

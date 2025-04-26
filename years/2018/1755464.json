@@ -1,0 +1,113 @@
+{
+ "awd_id": "1755464",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: OAC: Scalable Cyberinfrastructure for Big Graph and Matrix/Tensor Analytics",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922625",
+ "po_email": "jjli@nsf.gov",
+ "po_sign_block_name": "Juan Li",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2022-05-31",
+ "tot_intn_awd_amt": 170941.0,
+ "awd_amount": 170941.0,
+ "awd_min_amd_letter_date": "2018-05-23",
+ "awd_max_amd_letter_date": "2018-05-23",
+ "awd_abstract_narration": "The existing distributed graph and matrix analytics frameworks are designed with data-intensive workloads in mind, rendering them inefficient for compute-intensive applications such as graph mining and scientific computing. The goal of this project is to develop novel big data frameworks for two compute-intensive tasks, graph mining and matrix/tensor computations, respectively. The two frameworks advance the field of big data analytics by motivating future systems for compute-intensive analytics, and promoting their application in various scientific areas to improve research productivity. The two systems will be available for public use, and can serve several cross-disciplinary projects in computer forensics, computational physics, and bioinformatics. The project includes mentoring graduate students and training K-12 students through summer internships, as well as related new course materials and outreach activities to help the public learn big data technologies. Thus, the project aligns with the NSF's mission to promote the progress of science and to advance the national health and prosperity.\r\n\r\nThe graph mining system and the matrix/tensor platform share the design of (i) a tailor-made storage subsystem providing efficient and flexible data access, and (ii) a computation subsystem with fine-grained task control for data-reuse-aware task assignment and load balancing. The graph mining system, called G-thinker, aims to facilitate the writing of distributed programs which mine from a big graph those subgraphs that satisfy certain requirements. Such mining problems are useful in many applications like community detection and subgraph matching. These problems usually have a high computational complexity, and existing serial algorithms tackle these problems by backtracking in a duplication-free vertex-set numeration tree, which recursively partitions the search space. G-thinker adopts an intuitive programming interface that minimizes the effort of adapting an existing serial subgraph mining algorithm for distributed execution. The subgraphs to mine are spawned from individual vertices and they grow their frontiers as needed, and memory overflow is avoided by spilling subgraphs to disks when needed. In each machine, vertices and edges shared by multiple subgraphs need only be transmitted and cached once, which minimizes communication (and hence data waiting) so that CPU cores are better utilized. To address the load-balancing problem of power-law graphs, G-thinker explores recursive decomposition and work stealing to allow idle machines to steal subgraphs for mining from heavily-loaded machines. The project also explores a distributed matrix/tensor storage and computing framework, where matrix/tensor partitions are stored in multiple replicas using different storage schemes to efficiently support all kinds of submatrix access operations. This flexible storage scheme offers the upper-layer computations much more opportunities for fine-grained optimizations, including smarter task scheduling and in-situ updates. The use of this framework is exemplified by matrix multiplication and LU factorization. Both of the proposed frameworks can help build a cyberinfrastructure for collaborations with scientists in science, medicine, and industry.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Da",
+   "pi_last_name": "Yan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Da Yan",
+   "pi_email_addr": "yanda@iu.edu",
+   "nsf_id": "000732653",
+   "pi_start_date": "2018-05-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Alabama at Birmingham",
+  "inst_street_address": "701 S 20TH STREET",
+  "inst_street_address_2": "",
+  "inst_city_name": "BIRMINGHAM",
+  "inst_state_code": "AL",
+  "inst_state_name": "Alabama",
+  "inst_phone_num": "2059345266",
+  "inst_zip_code": "352940001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "AL07",
+  "org_lgl_bus_name": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YND4PLMC9AN7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Alabama at Birmingham",
+  "perf_str_addr": "1300 University Blvd",
+  "perf_city_name": "Birmingham",
+  "perf_st_code": "AL",
+  "perf_st_name": "Alabama",
+  "perf_zip_code": "352331405",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "AL07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "026Y00",
+   "pgm_ele_name": "CRII CISE Research Initiation"
+  },
+  {
+   "pgm_ele_code": "915000",
+   "pgm_ele_name": "EPSCoR Co-Funding"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 170941.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>This project has supported the PI and a number of PhD students to investigate novel parallel and distributed programming models and systems for accelerating compute-intensive analytics of graph data and matrix/tensor data. Through the investigation conducted in this project,&nbsp;</span>a suite of new systems have been designed and implemented, particularly:</p>\n<p>(1) G-thinker (https://bit.ly/gthinker),&nbsp;a distributed system for mining subgraphs that satisfy user-defined requirements (e.g., subgraph matching, quasi-cliques);</p>\n<p>(2)&nbsp;<span>PrefixFPM (https://github.com/wenwenQu/PrefixFPM), a general-purpose parallel programming framework for mining all kinds of frequent or closed patterns (subsequence, subtrees, subgraphs and submatrices).</span></p>\n<p>(3) TreeServer (https://github.com/yanlab19870714/TreeServer),&nbsp;a system to train decision tree ensemble models, including deep forest which often contains a large number of trees.</p>\n<p>The&nbsp;systems developed are all based on the T-thinker programming paradigm (i.e., think like a task, where \"T\" means \"task\") proposed by the PI in a poster in PPoPP 2019, and advertised by CCC as a great innovative idea at&nbsp;https://cra.org/ccc/great-innovative-ideas/t-thinker-a-task-centric-framework-to-revolutionize-big-data-systems-research/&nbsp;</p>\n<p>Put simply, the idea of the&nbsp;T-thinker programming paradigm is that for compute-intensive problems, we can divide the problem space recursively until a sufficiently small unit is obtained, which we call a task. A worker machine can then obtain the subset of data needed for the task (linear communication cost), and compute it afterwards (often high time complexity). Since computation is the bottleneck, data moving cost can mostly be overlapped with the concurrent computation so that all CPU cores can be fully utilized. This is in contrast to existing cyberinfrastructure that targets data-intensive problems, which when used to solve compute-intensive problems, the performance is comparable to a single-threaded program as indicated by Frank McSherry&nbsp;https://github.com/frankmcsherry/blog/blob/master/posts/2017-09-23.md</p>\n<p>Besides, tools for matrix and tensor factorization have also been investigated and developed. A number of publications in high impact venues have been published including VLDB, ICDE, VLDB Journal, ACM TODS, KDD, ICDM, etc.&nbsp;<span>&nbsp;The results have been disseminated by paper presentations in the respective conferences,&nbsp;a tutorial in IEEE BigData 2020, an invited keynote talk at the LSGDA workshop held in conjunction with VLDB 2020, <span>Dagstuhl</span> Seminars (<span>19491,&nbsp;<span>19051,&nbsp;22031</span></span>), and invited talks at various universities.</span></p>\n<p>Regarding the broader impacts, while data-intensive cyberinfrastructure is in wide need and sees the biggest investment, there are applications where the time complexity of computation is very high, and the availability of only data-intensive cyberinfrastructure causes misuse and hence huge waste of resources and energy. System paradigms highly-efficient for those costly computations are in urgent need to alleviate this problem, but they require non-trivial efforts to design and develop, and they were not given enough attention. During the project period, the PI's team has been advocating the design of compute-intensive programming paradigms and systems, and T-thinker is a viable paradigm along this line. The research outcomes have gained a lot of attention and a productive research team has been built around the T-thinker research. Besides a number of PhD students (including one who defended and found a tenure-track faculty job), the project also trained Master's students at UAB advised by Directed Readings course, high-school summer interns, and visiting scholars.&nbsp;<span>The trainees will contribute to the&nbsp;next-generation Big Data workforce proficient in systems and HPC research, and parallel and distributed algorithms.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/11/2022<br>\n\t\t\t\t\tModified by: Da&nbsp;Yan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project has supported the PI and a number of PhD students to investigate novel parallel and distributed programming models and systems for accelerating compute-intensive analytics of graph data and matrix/tensor data. Through the investigation conducted in this project, a suite of new systems have been designed and implemented, particularly:\n\n(1) G-thinker (https://bit.ly/gthinker), a distributed system for mining subgraphs that satisfy user-defined requirements (e.g., subgraph matching, quasi-cliques);\n\n(2) PrefixFPM (https://github.com/wenwenQu/PrefixFPM), a general-purpose parallel programming framework for mining all kinds of frequent or closed patterns (subsequence, subtrees, subgraphs and submatrices).\n\n(3) TreeServer (https://github.com/yanlab19870714/TreeServer), a system to train decision tree ensemble models, including deep forest which often contains a large number of trees.\n\nThe systems developed are all based on the T-thinker programming paradigm (i.e., think like a task, where \"T\" means \"task\") proposed by the PI in a poster in PPoPP 2019, and advertised by CCC as a great innovative idea at https://cra.org/ccc/great-innovative-ideas/t-thinker-a-task-centric-framework-to-revolutionize-big-data-systems-research/ \n\nPut simply, the idea of the T-thinker programming paradigm is that for compute-intensive problems, we can divide the problem space recursively until a sufficiently small unit is obtained, which we call a task. A worker machine can then obtain the subset of data needed for the task (linear communication cost), and compute it afterwards (often high time complexity). Since computation is the bottleneck, data moving cost can mostly be overlapped with the concurrent computation so that all CPU cores can be fully utilized. This is in contrast to existing cyberinfrastructure that targets data-intensive problems, which when used to solve compute-intensive problems, the performance is comparable to a single-threaded program as indicated by Frank McSherry https://github.com/frankmcsherry/blog/blob/master/posts/2017-09-23.md\n\nBesides, tools for matrix and tensor factorization have also been investigated and developed. A number of publications in high impact venues have been published including VLDB, ICDE, VLDB Journal, ACM TODS, KDD, ICDM, etc.  The results have been disseminated by paper presentations in the respective conferences, a tutorial in IEEE BigData 2020, an invited keynote talk at the LSGDA workshop held in conjunction with VLDB 2020, Dagstuhl Seminars (19491, 19051, 22031), and invited talks at various universities.\n\nRegarding the broader impacts, while data-intensive cyberinfrastructure is in wide need and sees the biggest investment, there are applications where the time complexity of computation is very high, and the availability of only data-intensive cyberinfrastructure causes misuse and hence huge waste of resources and energy. System paradigms highly-efficient for those costly computations are in urgent need to alleviate this problem, but they require non-trivial efforts to design and develop, and they were not given enough attention. During the project period, the PI's team has been advocating the design of compute-intensive programming paradigms and systems, and T-thinker is a viable paradigm along this line. The research outcomes have gained a lot of attention and a productive research team has been built around the T-thinker research. Besides a number of PhD students (including one who defended and found a tenure-track faculty job), the project also trained Master's students at UAB advised by Directed Readings course, high-school summer interns, and visiting scholars. The trainees will contribute to the next-generation Big Data workforce proficient in systems and HPC research, and parallel and distributed algorithms.\n\n\t\t\t\t\tLast Modified: 06/11/2022\n\n\t\t\t\t\tSubmitted by: Da Yan"
+ }
+}

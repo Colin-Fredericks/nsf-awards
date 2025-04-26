@@ -1,0 +1,117 @@
+{
+ "awd_id": "1423334",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Behavior-Based Zero-Day Intrusion Detection for Real-Time Cyber-Physical Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2014-08-25",
+ "awd_max_amd_letter_date": "2014-08-25",
+ "awd_abstract_narration": "Cyber-Physical Systems (CPS) have distinct cyber and physical components that must work cohesively with each other to ensure correct operation. Examples include automobiles, power plants, avionics systems, and home automation systems. Traditionally such systems were isolated from external accesses and used proprietary components and protocols. Today that is not the case as CPS systems are increasingly networked. A failure to protect these systems from harm in cyber could result in significant physical harm. Many cyber-physical systems have real-time constraints i.e., they must function correctly within predetermined time scales. Systems that have such real-time properties are predictable by design. The execution behavior of such systems (e.g., execution time, memory usage, control flow, system properties, etc.) is analyzed in detail and controlled to a high degree of precision in order to guarantee predictable real-time behavior.\r\n \r\nThis project aims to use this very predictability of real-time CPS to detect intrusions as soon as they occur and take evasive and corrective actions. This will be combined with the development of an architectural framework to (a) detect intrusions and (b) guarantee that the underlying physical system does not come to harm. The development of these analysis techniques and intrusion-detection architectures being proposed here will inherently make such systems more secure and hence, safer. It will bring us one step closer to understanding how to integrate two seemingly diverse yet important fields, CPS and cybersecurity, while gaining a better understanding of both areas.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sibin",
+   "pi_last_name": "Mohan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sibin Mohan",
+   "pi_email_addr": "sibin.mohan@gwu.edu",
+   "nsf_id": "000637486",
+   "pi_start_date": "2014-08-25",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Lui",
+   "pi_last_name": "Sha",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Lui Sha",
+   "pi_email_addr": "lrs@illinois.edu",
+   "nsf_id": "000222870",
+   "pi_start_date": "2014-08-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S Wright Street",
+  "perf_city_name": "Urbana",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Real-time Embedded Systems have deterministic behavior by design. This includes properties such as execution time, memory, system call information, scheduling behavior, etc. In this project we used this information to increase the security of such systems.&nbsp;</p>\n<p>&nbsp;</p>\n<p>The SecureCore architecture was the main framework that we designed as part of this project. One \"secure\" core given the ability to observe a &ldquo;main&rdquo; core. The latter would run the real-time tasks that are necessary to control the system. The secure core is protected by hypervisor and allocated separate memory regions. Also, it has no external (network) connectivity. When the secure core detects abnormal behavior on the main core (i.e. deviations from expected properties like the ones mentioned above), it takes control away from the main core and actuates the system &mdash; to ensure the correct functioning of the system. If (and when) the main core is restored to a correct state, control is transferred back to it. If not, the secure core can shut down the system in a safe/graceful manner.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Information from the main core is relayed to the secure core via new hardware modules that would extract the required data directly from the main core. Note that the execution of the main core is not impacted as a result and the information is relayed via secure hardware channels.&nbsp;</p>\n<p>&nbsp;</p>\n<p>We used SecureCore to monitor the following properties:</p>\n<p>(a) execution time of real-time tasks</p>\n<p>(b) memory traffic of the entire system and</p>\n<p>(c) system call behavior of real-time tasks.&nbsp;</p>\n<p>&nbsp;</p>\n<p>In each case, we were able to detect intrusions almost instantaneously and ensure that the the cyber-physical system (CPS) remained secure (and hence, safe).</p>\n<p>&nbsp;</p>\n<p>We extended SecureCore to a more generic framework that can run on Linux and monitor general-purpose systems. A secure kernel module would run in the OS kernel of the main core. This kernel module can either collect information that is relayed back to the secure core or even carry out analysis &ldquo;in house&rdquo;. The integrity of the kernel module is guaranteed by the secure core (and additional hardware).</p>\n<p>&nbsp;</p>\n<p>SecureCore was also used to improve the security of unmanned aerial vehicles (UAVs) where the architecture was realized on virtual machines (instead of custom hardware modules).</p>\n<p>&nbsp;</p>\n<p>This research project led to multiple interesting, yet connected directions:</p>\n<p>(1) We realized that the regularity of the real-time schedules could lead to attackers being able to launch targeted attacks. Hence, we developed techniques that could introduce randomness (and hence, entropy) into the system while still guaranteeing that the deadlines are met for real-time tasks. This increases the difficulty for would be attackers while retaining the system guarantees.</p>\n<p>&nbsp;</p>\n<p>(2) integrating security in legacy real-time schedulers: there is a large number of real-time systems that are deployed (in avionics, cars, power grid components, industrial control systems, etc.). They have little to no security mechanisms in place. Retrofitting them with security introduces significant challenges:</p>\n<p>(i) they run on limited hardware and memory&nbsp;</p>\n<p>(ii) changing the entire architecture to introduce security may not be feasible</p>\n<p>(iii) security mechanisms should not cause delays in the Rea-time requirements of these systems.</p>\n<p>&nbsp;</p>\n<p>Hence, we introduced multiple pieces of work that can integrate existing security mechanisms into such systems while still ensuring that their real-time guarantees are not broken. This is ongoing work and is an open space for significant work.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/14/2019<br>\n\t\t\t\t\tModified by: Sibin&nbsp;Mohan</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161311507_securecore_architecture--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161311507_securecore_architecture--rgov-800width.jpg\" title=\"SecureCore High-Level Architecture\"><img src=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161311507_securecore_architecture--rgov-66x44.jpg\" alt=\"SecureCore High-Level Architecture\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The abstract model of the SecureCore Architecture.</div>\n<div class=\"imageCredit\">Man-Ki Yoon</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Sibin&nbsp;Mohan</div>\n<div class=\"imageTitle\">SecureCore High-Level Architecture</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161407286_securecore_architecture_memory--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161407286_securecore_architecture_memory--rgov-800width.jpg\" title=\"SecureCore Memory Tracing Architecture\"><img src=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161407286_securecore_architecture_memory--rgov-66x44.jpg\" alt=\"SecureCore Memory Tracing Architecture\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">SecureCore Architecture adapted to tracing memory traffic.</div>\n<div class=\"imageCredit\">Man-Ki Yoon.</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Sibin&nbsp;Mohan</div>\n<div class=\"imageTitle\">SecureCore Memory Tracing Architecture</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161479140_securecore_architecture_memory_memometer--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161479140_securecore_architecture_memory_memometer--rgov-800width.jpg\" title=\"SecureCore Memometer Design\"><img src=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161479140_securecore_architecture_memory_memometer--rgov-66x44.jpg\" alt=\"SecureCore Memometer Design\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The \"memometer\" that is the heart of the memory tracing architecture for SecureCore</div>\n<div class=\"imageCredit\">Man-Ki Yoon.</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Sibin&nbsp;Mohan</div>\n<div class=\"imageTitle\">SecureCore Memometer Design</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161552030_securecore_architecture_syscall--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161552030_securecore_architecture_syscall--rgov-800width.jpg\" title=\"SecureCore Syscall Tracing Architecture\"><img src=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161552030_securecore_architecture_syscall--rgov-66x44.jpg\" alt=\"SecureCore Syscall Tracing Architecture\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The SecureCore architecture modified to tracing system calls.</div>\n<div class=\"imageCredit\">Man-Ki Yoon.</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Sibin&nbsp;Mohan</div>\n<div class=\"imageTitle\">SecureCore Syscall Tracing Architecture</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161638090_securecore_architecture_dragonbeam_overview--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161638090_securecore_architecture_dragonbeam_overview--rgov-800width.jpg\" title=\"DragonBeam High Level Architecture\"><img src=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161638090_securecore_architecture_dragonbeam_overview--rgov-66x44.jpg\" alt=\"DragonBeam High Level Architecture\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The SecureCore Architecture adapted to a general purpose platform (Linux) and named DragonBeam.</div>\n<div class=\"imageCredit\">Man-Ki Yoon.</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Sibin&nbsp;Mohan</div>\n<div class=\"imageTitle\">DragonBeam High Level Architecture</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161727999_securecore_architecture_dragonbeam_detailed_arch--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161727999_securecore_architecture_dragonbeam_detailed_arch--rgov-800width.jpg\" title=\"DragonBeam Detailed Design\"><img src=\"/por/images/Reports/POR/2019/1423334/1423334_10337727_1550161727999_securecore_architecture_dragonbeam_detailed_arch--rgov-66x44.jpg\" alt=\"DragonBeam Detailed Design\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The detailed design of DragonBeam - implemented on an FPGA using Leon 3.</div>\n<div class=\"imageCredit\">Man-Ki Yoon.</div>\n<div class=\"imageSubmitted\">Sibin&nbsp;Mohan</div>\n<div class=\"imageTitle\">DragonBeam Detailed Design</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nReal-time Embedded Systems have deterministic behavior by design. This includes properties such as execution time, memory, system call information, scheduling behavior, etc. In this project we used this information to increase the security of such systems. \n\n \n\nThe SecureCore architecture was the main framework that we designed as part of this project. One \"secure\" core given the ability to observe a \"main\" core. The latter would run the real-time tasks that are necessary to control the system. The secure core is protected by hypervisor and allocated separate memory regions. Also, it has no external (network) connectivity. When the secure core detects abnormal behavior on the main core (i.e. deviations from expected properties like the ones mentioned above), it takes control away from the main core and actuates the system &mdash; to ensure the correct functioning of the system. If (and when) the main core is restored to a correct state, control is transferred back to it. If not, the secure core can shut down the system in a safe/graceful manner. \n\n \n\nInformation from the main core is relayed to the secure core via new hardware modules that would extract the required data directly from the main core. Note that the execution of the main core is not impacted as a result and the information is relayed via secure hardware channels. \n\n \n\nWe used SecureCore to monitor the following properties:\n\n(a) execution time of real-time tasks\n\n(b) memory traffic of the entire system and\n\n(c) system call behavior of real-time tasks. \n\n \n\nIn each case, we were able to detect intrusions almost instantaneously and ensure that the the cyber-physical system (CPS) remained secure (and hence, safe).\n\n \n\nWe extended SecureCore to a more generic framework that can run on Linux and monitor general-purpose systems. A secure kernel module would run in the OS kernel of the main core. This kernel module can either collect information that is relayed back to the secure core or even carry out analysis \"in house\". The integrity of the kernel module is guaranteed by the secure core (and additional hardware).\n\n \n\nSecureCore was also used to improve the security of unmanned aerial vehicles (UAVs) where the architecture was realized on virtual machines (instead of custom hardware modules).\n\n \n\nThis research project led to multiple interesting, yet connected directions:\n\n(1) We realized that the regularity of the real-time schedules could lead to attackers being able to launch targeted attacks. Hence, we developed techniques that could introduce randomness (and hence, entropy) into the system while still guaranteeing that the deadlines are met for real-time tasks. This increases the difficulty for would be attackers while retaining the system guarantees.\n\n \n\n(2) integrating security in legacy real-time schedulers: there is a large number of real-time systems that are deployed (in avionics, cars, power grid components, industrial control systems, etc.). They have little to no security mechanisms in place. Retrofitting them with security introduces significant challenges:\n\n(i) they run on limited hardware and memory \n\n(ii) changing the entire architecture to introduce security may not be feasible\n\n(iii) security mechanisms should not cause delays in the Rea-time requirements of these systems.\n\n \n\nHence, we introduced multiple pieces of work that can integrate existing security mechanisms into such systems while still ensuring that their real-time guarantees are not broken. This is ongoing work and is an open space for significant work. \n\n\t\t\t\t\tLast Modified: 02/14/2019\n\n\t\t\t\t\tSubmitted by: Sibin Mohan"
+ }
+}

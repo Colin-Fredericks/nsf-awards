@@ -1,0 +1,122 @@
+{
+ "awd_id": "2106842",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Collaborative Research:CNS Core:Medium:Unlinking the (Block)chain:Scalable Byzantine-Tolerant Databases.",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2021-06-15",
+ "awd_exp_date": "2026-05-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2021-06-14",
+ "awd_max_amd_letter_date": "2024-08-16",
+ "awd_abstract_narration": "This project proposes a new architecture for enabling safe and secure data sharing among mutually distrustful parties. Blockchains are today the platform of choice for such needs. They offer the appealing  abstraction of a shared, totally-ordered, tamper-resistant  log of operations, implemented via  a distributed protocol run by a collection of computing nodes, each replicating the entire state of the log. While the details of these protocols vary for different blockchain implementations, they all rely on an underlying architecture that  suffers from two key limitations. First, it predicates correctness and integrity on an execution model where replicas process operations sequentially, according to the same total order; this quickly becomes a performance bottleneck. Second, it complicates deployment. The need for all replicas store the full body of data stored in the blockchain is not only resource intensive, but can be legally problematic:  GDPR laws, for instance, severely restrict where personally identifiable data (such as banking or medical records) of European citizens can reside. This project overcomes these limitations by implementing the blockchain abstraction on a novel foundation, and, in so doing, demonstrates that efficient data processing and the decentralization of trust can go hand-in-hand.  At its core is a key insight gained from prior research in databases \u2013 namely, that is possible to implement the abstraction of a totally ordered sequence of transactions  without requiring all of their operations to be actually executed sequentially.  To leverage the opportunity for greater parallelism offered by this insight, this project  will develop the first  geo-distributed database provably resilient to malicious sabotage, whether from some of the computing nodes implementing the database or from clients of the database.  Today, there exists no rigorous  specification of what correctness would even mean in such a database; this project will introduce such correctness specification, based on the ethos of bounding the influence that malicious actors (whether among the replicas implementing the database or among its clients) can have on the outcome of transactions submitted by correct  clients. It will then  develop new algorithmic techniques that, despite adversarial attempts to the contrary, implement the blockchain abstraction while provably enforcing these correctness conditions.  To simplify deployment,  this project will focus on  drastically reducing the degree of replication necessary to support blockchains. Specifically, it will  refine the blockchain\u2019s current threat model to decouple the degree of replication needed to ensure that no data will be lost from what is required to guarantee the integrity of the blockchain execution; this will make it possible to relax the requirement that all replicas store the entire state of the blockchain, and thus lead to easier regulatory compliance.  \r\n\r\nTighter integration among mutually untrusted parties can be transformative for a variety of applications, including healthcare, financial services, and supply chain management. Databases are natural candidates for supporting this integration, but currently lack a way to express and efficiently enforce correctness when some actors behave maliciously. This work builds that conceptual framework, leveraging a novel architecture that makes it easier to comply with data use regulations, and  instantiates it in working prototypes that will be rigorously evaluated for performance and robustness. The synergy between theory and engineering critical for the success of this project is also crucial to the education of the next generation of system engineers: they will have to negotiate issues of performance, fault-tolerance, and trust in the ubiquitous large-scale distributed systems that underpin most industries today. Proposed lecture and project materials will prepare students to apply a principled approach to building trustworthy distributed systems.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Natacha",
+   "pi_last_name": "Crooks",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Natacha Crooks",
+   "pi_email_addr": "ncrooks@berkeley.edu",
+   "nsf_id": "000840962",
+   "pi_start_date": "2021-06-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California, Berkeley",
+  "perf_str_addr": "EECS, 387 Soda Hall",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947201776",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 361323.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 188221.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 50456.0
+  }
+ ],
+ "por": null
+}

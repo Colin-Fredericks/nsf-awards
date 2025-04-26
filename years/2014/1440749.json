@@ -1,0 +1,105 @@
+{
+ "awd_id": "1440749",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SI2-SSE: Improving Vectorization",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rob Beverly",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2014-07-01",
+ "awd_max_amd_letter_date": "2014-07-01",
+ "awd_abstract_narration": "The increasing width of vector instruction sets in processors and accelerators raises the importance of effective vectorization.  Although the topic of automatic vectorization by compilers has received significant attention over the last few decades, current vectorizing compilers can typically realize only a small fraction of a processor's peak performance. This project will explore several compiler optimization approaches for generating high-performance vectorized code. Advanced vectorization techniques will be incorporated in the open-source LLVM/Clang compiler through the Polly/LLVM module. A benchmark suite will also be developed, aimed at testing the effectiveness of vectorizing compilers.\r\n\r\nProduction compilers limit their optimization search space in order to control the time taken to compile programs. This is because the majority of users expect rapid compile times. However, the developers of high-performance applications are generally very willing to tolerate a much longer wait for program compilation, in return for a boost in the performance of the compiled code. A significant focus of this project will be the development of vectorization approaches for such users who prioritize high application performance over short compile times. The project will investigate semantically-driven pattern-based approaches to vector optimization, a vectorization-friendly approach to tiling, and aggressive vector instruction scheduling approaches that promise higher performance at the expense of possibly high compile times.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ponnuswamy",
+   "pi_last_name": "Sadayappan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ponnuswamy Sadayappan",
+   "pi_email_addr": "saday@cs.utah.edu",
+   "nsf_id": "000182536",
+   "pi_start_date": "2014-07-01",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101063",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "8005",
+   "pgm_ref_txt": "Scientific Software Elements"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The main goal of the project was to&nbsp;advance compiler techniques to optimize execution on SIMD (Single Instruction Multiple Data) cores, including GPUs and short-vector SIMD instruction set architectures. The initial work on the project focused on general-purpose optimization and then focused on two important domains for scientific computing: stencils and tensors.&nbsp;</p>\n<p>The main outcomes of the project are listed below:</p>\n<p>1) A new compiler analysis was developed and incorporated into the LLVM-Polly system for performing delinearization of array subscript indexing functions for multi-dimensional arrays, so that the multi-dimensional view of the array could be extracted from a linearized array index expression. This analysis is important for polyhedral compiler optimization.</p>\n<p>2) A domain-specific code generator was developed for stencil computations on GPUs. It incorporated model-driven fusion and tiling and enables higher performance than existing alternatives, especially for 3D stencil computations. A second optimizer was developed for relieving register pressure on GPUs with high-order stencil computations. Both tools have been publicly released.</p>\n<p>3) Domain-specific libraries for GPUs were developed for tensor contraction/transpose computations, including both a direct contraction approach as well as a 2-step transpose+MatMult based approach. The developed code has been incorporated into the production NWChem quantum chemistry software suite from Pacific Northwest&nbsp;National Laboratory.</p>\n<p>4) Efficient GPU kernels for sparse matrix-matrix multiplication were developed.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2018<br>\n\t\t\t\t\tModified by: Ponnuswamy&nbsp;Sadayappan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe main goal of the project was to advance compiler techniques to optimize execution on SIMD (Single Instruction Multiple Data) cores, including GPUs and short-vector SIMD instruction set architectures. The initial work on the project focused on general-purpose optimization and then focused on two important domains for scientific computing: stencils and tensors. \n\nThe main outcomes of the project are listed below:\n\n1) A new compiler analysis was developed and incorporated into the LLVM-Polly system for performing delinearization of array subscript indexing functions for multi-dimensional arrays, so that the multi-dimensional view of the array could be extracted from a linearized array index expression. This analysis is important for polyhedral compiler optimization.\n\n2) A domain-specific code generator was developed for stencil computations on GPUs. It incorporated model-driven fusion and tiling and enables higher performance than existing alternatives, especially for 3D stencil computations. A second optimizer was developed for relieving register pressure on GPUs with high-order stencil computations. Both tools have been publicly released.\n\n3) Domain-specific libraries for GPUs were developed for tensor contraction/transpose computations, including both a direct contraction approach as well as a 2-step transpose+MatMult based approach. The developed code has been incorporated into the production NWChem quantum chemistry software suite from Pacific Northwest National Laboratory.\n\n4) Efficient GPU kernels for sparse matrix-matrix multiplication were developed.\n\n \n\n\t\t\t\t\tLast Modified: 11/30/2018\n\n\t\t\t\t\tSubmitted by: Ponnuswamy Sadayappan"
+ }
+}

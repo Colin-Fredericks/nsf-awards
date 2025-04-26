@@ -1,0 +1,105 @@
+{
+ "awd_id": "1450656",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Reinforcement Learning of Multi-Party Negotiation Dialogue Policies",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tatiana Korelsky",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 159999.0,
+ "awd_amount": 159999.0,
+ "awd_min_amd_letter_date": "2014-08-18",
+ "awd_max_amd_letter_date": "2014-08-18",
+ "awd_abstract_narration": "Natural-language-based dialogue systems have a dialogue policy that determines what the system should do based on the dialogue context (also called dialogue state). Manually designing dialogue policies can be a very hard task and there is no guarantee that the resulting policies will be optimal. This issue has motivated research on statistical methods to learn dialogue policies. However, this work has mainly addressed two-party dialogue between one computer agent (system) and one human user, and assumed that the behavior of the user does not change over time. This assumption generally holds for simple information-providing tasks (e.g., reserving a flight), where not much variation in user behavior is expected. But this assumption is not realistic for other genres of dialogue, such as negotiation, where users may change their behavior if they realize that their current negotiation strategy does not help them achieve their goals. This EArly Grant for Exploratory Research investigates automated dialogue policy creation for multi-party dialogue (with more participants than just one agent and one user) without making the assumption that the behavior of the user does not change over time.\r\n\r\nPrevious work has used single-agent Reinforcement Learning (RL) for two-party dialogue policy learning. Single-agent RL requires a stationary environment, i.e., an environment (in our case a user) that does not change over time. Thus single-agent RL is not suitable for a non-stationary environment. For this reason, this project explores the use of multi-agent RL for two-party and multi-party negotiation dialogue. Multi-agent RL makes no assumption that the behavior of the user does not change over time, and is designed for situations where the strategy of one agent may affect the strategy of other agents (non-stationary environment). System-user interaction is done using natural language, and the learned policies are evaluated both in simulation and with human users. The advances made in the project, i.e., multi-agent RL algorithms for dialogue policy learning, are encoded in a statistical dialogue management toolkit (to be publicly distributed). Publicly available multi-agent RL algorithms for dialogue policy learning allow broader access to this technology for dialogue researchers and students.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kallirroi",
+   "pi_last_name": "Georgila",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kallirroi Georgila",
+   "pi_email_addr": "kgeorgila@ict.usc.edu",
+   "nsf_id": "000580549",
+   "pi_start_date": "2014-08-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "12015 Waterfront Drive",
+  "perf_city_name": "Playa Vista",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900942536",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 159999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Natural-language-based dialogue systems have a dialogue policy that determines what the system should do based on the dialogue context. The goal of this project is to extend the current line of research in dialogue policy learning beyond two-party dialogue and standard single-agent reinforcement learning (RL). Single-agent RL assumes that the environment of the agent (i.e., the user) does not change over time, which is an unrealistic assumption in many domains, especially negotiation. On the other hand, multi-agent RL does not make assumptions about the environment and is designed for situations where the strategy of one agent may affect the strategy of other agents (non-stationary environment). In this project, both single-agent RL and multi-agent RL were used to automatically learn multi-party negotiation dialogue policies. We performed experiments in two negotiation domains: a non-cooperative multi-party trading task and a cooperative multi-party furniture layout negotiation task.</p>\n<p>In the first task, the dialogue system (learner) trades with 1, 2, or 3 other agents. The traders have a number of items that they can keep or exchange with the other traders. At the end of the interaction each trader earns a number of points based on the items that it holds and the value of each item. For each dialogue the payoff matrices of the traders are randomly initialized. The negotiation strategy of the learner was learned through simulated dialogue with trader simulators (two strong baselines that followed complex hand-crafted trading policies). We experimented with a variety of single-agent RL algorithms and reward functions. In all setups (two-party to four-party) our best RL configuration produced negotiation policies as effective, or even better, than the policies of the two strong hand-crafted baselines. Our learned policies could generalize to unseen initial conditions. They also performed well when tested against traders different from the ones used for training. Furthermore, they could be transferred to new trading situations, as initial policies, and thus speed up learning.</p>\n<p>In our collaborative furniture layout negotiation task, two or more participants have to agree on which furniture items to put in a room. Each agent has its own preferences initially only known to that agent. As the dialogue progresses, the agents can reveal their preferences making this information public knowledge. The goal is to earn as a group as many points as possible. At the beginning of each dialogue, the initial conditions are randomly initialized. We compared a variety of single-agent RL and multi-agent RL methodologies (including combining single-agent RL and multi-agent RL) under the same conditions. We learned dialogue policies that perform well even in situations not observed during training, and in testing configurations significantly different from the ones used for training. Furthermore, policies trained in a two-party setting could be successfully applied to a three-party setting, and vice versa. We also accounted for speech recognition and natural language understanding errors. Finally we built infrastructure for incorporating our dialogue policies into a full dialogue system in order to evaluate them with human users.</p>\n<p>The project so far has produced 1 journal article publication and 1 conference publication in prestigious venues. Results were also disseminated through invited talks and teaching a MSc level computer science course. This project partially supported 2 PhD students and 2 MSc students. It also trained 1 additional PhD student and 1 additional MSc student.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2017<br>\n\t\t\t\t\tModified by: Kallirroi&nbsp;Georgila</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nNatural-language-based dialogue systems have a dialogue policy that determines what the system should do based on the dialogue context. The goal of this project is to extend the current line of research in dialogue policy learning beyond two-party dialogue and standard single-agent reinforcement learning (RL). Single-agent RL assumes that the environment of the agent (i.e., the user) does not change over time, which is an unrealistic assumption in many domains, especially negotiation. On the other hand, multi-agent RL does not make assumptions about the environment and is designed for situations where the strategy of one agent may affect the strategy of other agents (non-stationary environment). In this project, both single-agent RL and multi-agent RL were used to automatically learn multi-party negotiation dialogue policies. We performed experiments in two negotiation domains: a non-cooperative multi-party trading task and a cooperative multi-party furniture layout negotiation task.\n\nIn the first task, the dialogue system (learner) trades with 1, 2, or 3 other agents. The traders have a number of items that they can keep or exchange with the other traders. At the end of the interaction each trader earns a number of points based on the items that it holds and the value of each item. For each dialogue the payoff matrices of the traders are randomly initialized. The negotiation strategy of the learner was learned through simulated dialogue with trader simulators (two strong baselines that followed complex hand-crafted trading policies). We experimented with a variety of single-agent RL algorithms and reward functions. In all setups (two-party to four-party) our best RL configuration produced negotiation policies as effective, or even better, than the policies of the two strong hand-crafted baselines. Our learned policies could generalize to unseen initial conditions. They also performed well when tested against traders different from the ones used for training. Furthermore, they could be transferred to new trading situations, as initial policies, and thus speed up learning.\n\nIn our collaborative furniture layout negotiation task, two or more participants have to agree on which furniture items to put in a room. Each agent has its own preferences initially only known to that agent. As the dialogue progresses, the agents can reveal their preferences making this information public knowledge. The goal is to earn as a group as many points as possible. At the beginning of each dialogue, the initial conditions are randomly initialized. We compared a variety of single-agent RL and multi-agent RL methodologies (including combining single-agent RL and multi-agent RL) under the same conditions. We learned dialogue policies that perform well even in situations not observed during training, and in testing configurations significantly different from the ones used for training. Furthermore, policies trained in a two-party setting could be successfully applied to a three-party setting, and vice versa. We also accounted for speech recognition and natural language understanding errors. Finally we built infrastructure for incorporating our dialogue policies into a full dialogue system in order to evaluate them with human users.\n\nThe project so far has produced 1 journal article publication and 1 conference publication in prestigious venues. Results were also disseminated through invited talks and teaching a MSc level computer science course. This project partially supported 2 PhD students and 2 MSc students. It also trained 1 additional PhD student and 1 additional MSc student.\n\n \n\n\t\t\t\t\tLast Modified: 11/30/2017\n\n\t\t\t\t\tSubmitted by: Kallirroi Georgila"
+ }
+}

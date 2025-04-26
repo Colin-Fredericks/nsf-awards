@@ -1,0 +1,132 @@
+{
+ "awd_id": "1005530",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Enabling Physics Research at the Information Frontier Using GPUs",
+ "cfda_num": "47.049",
+ "org_code": "03010000",
+ "po_phone": "7032924516",
+ "po_email": "jshank@nsf.gov",
+ "po_sign_block_name": "James Shank",
+ "awd_eff_date": "2010-10-01",
+ "awd_exp_date": "2014-09-30",
+ "tot_intn_awd_amt": 437445.0,
+ "awd_amount": 437445.0,
+ "awd_min_amd_letter_date": "2010-09-22",
+ "awd_max_amd_letter_date": "2012-07-01",
+ "awd_abstract_narration": "One of the newest areas of computational research is in utilizing GPU (Graphical Processing Units) based technology taken from the \"gaming\" world and utilizing them  in high impact science applications. This work will extend current work using GPU based resources to enhance research capabilities in experimental and theoretical Physics. This work proposes to expand and generalize the toolkits now available, targeting certain Physics applications at the colliders BaBar and Belle, but more generally making these tools available to the larger community.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "PHY",
+ "org_div_long_name": "Division Of Physics",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Sokoloff",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael D Sokoloff",
+   "pi_email_addr": "mike.sokoloff@uc.edu",
+   "nsf_id": "000233322",
+   "pi_start_date": "2010-09-22",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Karen",
+   "pi_last_name": "Tomko",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Karen A Tomko",
+   "pi_email_addr": "ktomko@osc.edu",
+   "nsf_id": "000330142",
+   "pi_start_date": "2010-09-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Cincinnati Main Campus",
+  "inst_street_address": "2600 CLIFTON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CINCINNATI",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "5135564358",
+  "inst_zip_code": "452202872",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "OH01",
+  "org_lgl_bus_name": "CINCINNATI UNIV OF",
+  "org_prnt_uei_num": "DZ4YCZ3QSPR5",
+  "org_uei_num": "DZ4YCZ3QSPR5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Cincinnati Main Campus",
+  "perf_str_addr": "2600 CLIFTON AVE",
+  "perf_city_name": "CINCINNATI",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "452202872",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "OH01",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "724500",
+   "pgm_ele_name": "PHYSICS GRID COMPUTING"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0111",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001112DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 145815.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2011,
+   "fund_oblg_amt": 145815.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 145815.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The primary goal of the project was to develop a GPU library to implement the MINUIT maximum likelihood fitting algorithm used in experimental particle physics.&nbsp; The result, GooFit, is a thread-parallel, GPU-friendly function evaluation library. It is nominally designed for use with MINUIT. In this use case, it provides highly parallel calculations of normalization integrals and log (likelihood) sums. A key feature of the design is its use of the Thrust library to manage all parallel kernel launches. This allows GooFit to execute on any architecture for which Thrust has a backend, currently, including CUDA for nVidia GPUs and OpenMP for single- and multicore CPUs. Running on an nVidia C2050, GooFit executes 300 times more quickly for a complex high energy physics problem than does the prior (algorithmically equivalent) code running on a single CPU core. The table posted with this report provides a more complete summary of benchmark results for two test cases for a variety of architectures.</p>\n<p><br />The GooFit design and implementation choices are discussed in detail in&nbsp;<em>Implementation of a Thread-Parallel,GPU-Friendly Function Evaluation Library</em>, Digital Object Identifier 10.1109/ACCESS.2014.2306895.&nbsp; This publication can help guide developers of other highly parallel, compute-intensive libraries.</p>\n<p><br />GooFit is an open-source project: Permission to use and redistribute is granted under terms of the GNU Lesser Public License, version 3.0. The code and documentation are maintained in github at</p>\n<p><br />&nbsp;&nbsp; https://github.com/GooFit/GooFit</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/26/2015<br>\n\t\t\t\t\tModified by: Michael&nbsp;D&nbsp;Sokoloff</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2014/1005530/1005530_10048230_1419609058522_Table1fromACCESS2306895--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2014/1005530/1005530_10048230_1419609058522_Table1fromACCESS2306895--rgov-800width.jpg\" title=\"Table 1 from Implementation of a Thread-Parallel, GPU-Friendly Function Evaluation Library\"><img src=\"/por/images/Reports/POR/2014/1005530/1005530_10048230_1419609058522_Table1fromACCESS2306895--rgov-66x44.jpg\" alt=\"Table 1 from Implementation of a Thread-Parallel, GPU-Friendly Function Evaluation Library\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Received January 24, 2014, accepted February 7, 2014, date of publication February 20, 2014, date of current version March 7, 2014.</div>\n<div class=\"imageCredit\">Digital Object Identifier 10.1109/ACCESS.2014.2306895</div>\n<div class=\"imageSubmitted\">Michael&nbsp;D&nbsp;Sokoloff</div>\n<div class=\"imageTitle\">Table 1 from Implementation of a Thread-Parallel, GPU-Friendly Function Evaluation Library</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThe primary goal of the project was to develop a GPU library to implement the MINUIT maximum likelihood fitting algorithm used in experimental particle physics.  The result, GooFit, is a thread-parallel, GPU-friendly function evaluation library. It is nominally designed for use with MINUIT. In this use case, it provides highly parallel calculations of normalization integrals and log (likelihood) sums. A key feature of the design is its use of the Thrust library to manage all parallel kernel launches. This allows GooFit to execute on any architecture for which Thrust has a backend, currently, including CUDA for nVidia GPUs and OpenMP for single- and multicore CPUs. Running on an nVidia C2050, GooFit executes 300 times more quickly for a complex high energy physics problem than does the prior (algorithmically equivalent) code running on a single CPU core. The table posted with this report provides a more complete summary of benchmark results for two test cases for a variety of architectures.\n\n\nThe GooFit design and implementation choices are discussed in detail in Implementation of a Thread-Parallel,GPU-Friendly Function Evaluation Library, Digital Object Identifier 10.1109/ACCESS.2014.2306895.  This publication can help guide developers of other highly parallel, compute-intensive libraries.\n\n\nGooFit is an open-source project: Permission to use and redistribute is granted under terms of the GNU Lesser Public License, version 3.0. The code and documentation are maintained in github at\n\n\n   https://github.com/GooFit/GooFit\n\n\t\t\t\t\tLast Modified: 01/26/2015\n\n\t\t\t\t\tSubmitted by: Michael D Sokoloff"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1813823",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RI: Small: Cache transition systems for sentence understanding and generation",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tatiana Korelsky",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 399998.0,
+ "awd_amount": 399998.0,
+ "awd_min_amd_letter_date": "2018-08-15",
+ "awd_max_amd_letter_date": "2018-08-15",
+ "awd_abstract_narration": "Graph-based semantic representations allow computers to store and process information in natural language text.  Such graphs contain nodes representing events and entities, and edges between nodes representing relations.  This project will develop algorithms that operate directly on graphs, and will allow statistical natural processing techniques to better represent semantic structures.  These advances can improve systems that extract information from text, translate between human languages such as English and Chinese, and interact with humans in natural language dialog.  Improved language understanding can help in accessing the enormous amount of information available in unstructured text on the web as well as in databases of newspapers and scanned books.  Improved translation between languages increases opportunities for trade as well as for dissemination of information generally between nations and cultures.\r\n\r\nGraph-based representations of the meaning of natural language sentences are being used to an increasing degree for reasoning tasks including question answering, merging information from disparate sources, and generating responses in dialog systems.  However, automatic interpretation of sentences into such structures remains a very difficult task, despite recent progress in syntactic parsing.  This project will develop algorithms for parsing into and generating text from semantic graphs, focusing on Abstract Meaning Representation or AMR, although the techniques generalize to other representations.  Existing statistical systems for the AMR parsing task generally use ad-hoc algorithmic approaches; fundamentally new algorithms are necessary to advance the state of the art.  This project is based on a new transition system, called a cache transition system, tailored to the task of parsing into graph structures.  Preliminary experiments show that the system is a good match to real datasets of semantic graphs, in that it is able to produce the vast majority of graphs observed while at the same time simplifying the machine learning problem of predicting the next transition at each step.  This project aims to advance the state of the art in semantic parsing and generation by developing and training a neural version of the transition system to predict semantic graphs from input strings.  In its final year, the project will apply the parsing and generation methods to the task of machine translation, providing semantic graphs along with source language strings to a neural machine translation system.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Gildea",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Gildea",
+   "pi_email_addr": "gildea@cs.rochester.edu",
+   "nsf_id": "000449779",
+   "pi_start_date": "2018-08-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Rochester",
+  "inst_street_address": "910 GENESEE ST",
+  "inst_street_address_2": "STE 200",
+  "inst_city_name": "ROCHESTER",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "5852754031",
+  "inst_zip_code": "146113847",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "NY25",
+  "org_lgl_bus_name": "UNIVERSITY OF ROCHESTER",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F27KDXZMF9Y8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Rochester",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "146270140",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "NY25",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 399998.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Traditionally, the field of natural language processing has been split between research into statistical systems, trained on large amounts of textual data, often with the&nbsp; addition of expert human annotations, and symbolic systems, which, while less robust, are&nbsp; generally able to produce deeper representations of&nbsp; meaning for further reasoning.&nbsp; This divide is&nbsp; beginning to be bridged as, over time, statistical systems are developed for progressively deeper levels of natural language processing.&nbsp; In particular,&nbsp; the development of deeper systems has been spurred&nbsp; by the availability of large corpora annotated by linguistic experts with graph-structured representations of sentence meaning.&nbsp; The most significant project along these lines adopts a representation known as Abstract Meaning Representation or AMR. AMR graphs contain one vertex for each entity&nbsp; or predict mentioned in the sentence, with edges indicating predicate-argument relations. This graph-based representation naturally supports various reasoning tasks, including question answering, merging information from disparate sources, and generating responses in dialog systems.<br /><br />We have developed improved systems for both AMR-to-text generation and text-to-AMR parsing in the work supported by this project.&nbsp; In the area of generation, one major finding is that tree decompositions of semantic graphs can be used to represent local graph structures that are larger than a single vertex or edge, and that this representation can improve text generation. We also developed improved evaluation metrics, and found that systems trained on our metrics performed well both on the new metrics and standard metrics.&nbsp; In the area of semantic parsing, a major finding is that our method of incorporating ancestor information improves AMR parsing as evaluated by similarity to human-annotated reference graphs.</p><br>\n<p>\n Last Modified: 01/16/2024<br>\nModified by: Daniel&nbsp;Gildea</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nTraditionally, the field of natural language processing has been split between research into statistical systems, trained on large amounts of textual data, often with the addition of expert human annotations, and symbolic systems, which, while less robust, are generally able to produce deeper representations of meaning for further reasoning. This divide is beginning to be bridged as, over time, statistical systems are developed for progressively deeper levels of natural language processing. In particular, the development of deeper systems has been spurred by the availability of large corpora annotated by linguistic experts with graph-structured representations of sentence meaning. The most significant project along these lines adopts a representation known as Abstract Meaning Representation or AMR. AMR graphs contain one vertex for each entity or predict mentioned in the sentence, with edges indicating predicate-argument relations. This graph-based representation naturally supports various reasoning tasks, including question answering, merging information from disparate sources, and generating responses in dialog systems.\n\nWe have developed improved systems for both AMR-to-text generation and text-to-AMR parsing in the work supported by this project. In the area of generation, one major finding is that tree decompositions of semantic graphs can be used to represent local graph structures that are larger than a single vertex or edge, and that this representation can improve text generation. We also developed improved evaluation metrics, and found that systems trained on our metrics performed well both on the new metrics and standard metrics. In the area of semantic parsing, a major finding is that our method of incorporating ancestor information improves AMR parsing as evaluated by similarity to human-annotated reference graphs.\t\t\t\t\tLast Modified: 01/16/2024\n\n\t\t\t\t\tSubmitted by: DanielGildea\n"
+ }
+}

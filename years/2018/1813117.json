@@ -1,0 +1,101 @@
+{
+ "awd_id": "1813117",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Collaborative Research: Safety Guard: A Formal Approach to Safety Enforcement in Embedded Control Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jason Hallstrom",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 250000.0,
+ "awd_amount": 250000.0,
+ "awd_min_amd_letter_date": "2018-06-14",
+ "awd_max_amd_letter_date": "2018-06-14",
+ "awd_abstract_narration": "Ensuring the safety of embedded control systems, such as the ones used in cars, is remarkably difficult as shown by the many recalled cars in recent years, causing tens of billions of financial loss each year. This project aims to improve the safety of critical components in embedded control systems by developing safety guards, a reactive component generated automatically from safety requirements and attached to the original system, to ensure the combined system is safe even if the original system violates the safety requirements. \r\n\r\nThe intellectual merit of this project lies in the set of methods and tools to be developed for synthesizing safety guards of black-box systems. Specifically, this project consists of three research tasks: (a) building a benchmark suite of critical components and their safety requirements; (b) developing synthesis algorithms for constructing the finite-state machines (FSMs) of the safety guards; and (c) developing software synthesis tools for automatically generating software code that implements these FSMs. \r\n\r\nThis research project will benefit a wide range of application domains, including automotive and avionics, which will be investigated through collaborations with industry. It will help improve the safety of critical components, including those based on machine learning and artificial intelligence techniques. It will simplify certification since the relatively simple safety guard can be certified against safety requirements in place of the detailed model of a critical component. And last but not the least, it will simplify the development process by allowing people to focus on functionality and performance without worrying about safety violations at the same time. \r\n\r\nThe resulting software tools, together with evaluation benchmarks and experimental data, will be made available to the public. To facilitate dissemination and sharing, the project will maintain online documentations, tutorials, slides, and source code of the tool and benchmark repositories. Besides the research websites of participants at Virginia Tech and University of Southern California, the following website will be dedicated to disseminate the project results broadly: http://chaowang-vt.github.io/safetyguard/\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Chao",
+   "pi_last_name": "Wang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Chao Wang",
+   "pi_email_addr": "wang626@usc.edu",
+   "nsf_id": "000596776",
+   "pi_start_date": "2018-06-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "3720 S. Flower St.",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900890001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "CA37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 250000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Background: </strong></p>\n<p><strong></strong>Making sure that a computer system embedded in a critical application always satisfies a set of safety properties is an extremely important and yet challenging task. In practice, safety enforcement remains the responsibility of system developers, who rely on manual design and analysis in most cases. However, manual design and analysis are labor intensive and error prone. Thus, it is difficult to provide absolute guarantee of safety properties in a complex system.&nbsp;&nbsp;</p>\n<p><strong>Problem Statement:&nbsp;</strong></p>\n<p><strong></strong>Our research aims to help system developers with safety enforcement by providing automated synthesis and verification tools. The idea is that, instead of modifying the design itself, we construct an additional component that can be composed with the design, to guarantee the safety of the entire system. This additional component is called a ?safety guard? or ?shield?.</p>\n<p>In this project, our goal is to develop methods and tools for automatically synthesizing the safety guard, or shield, for any given safety property. Thus, the input is a safety property, and the output is a safety guard. &nbsp;Given any critical system design (D) and a safety property (P), we want the synthesized safety guard (S) to guarantee that, when it is attached to the design, the entire system (D || S) always satisfies (P), even if the design (D) itself occasionally malfunctions and violates the property (P).</p>\n<p><strong>Intellectual Merits:</strong></p>\n<p>Automated synthesis of a safety guard from a formal specification is a challenging task. For cyber-physical systems where the input and output are often real-valued variables, this was a previously unsolved problem. During this project, we have successfully developed a new safety guard synthesis method, which guarantees that the resulting guard is correct by construction. We have implemented the synthesis method in a software tool, and evaluated it through experiments. Our experimental results have demonstrated the effectiveness of these safety guards on embedded control systems.</p>\n<p>Built upon these efforts, we have also investigated a type of emerging, machine learning-enabled system components which, in recent years, have been increasingly used in control systems. The behaviors of these components are known to be difficult to analyze due to the use of deep neural networks. We have developed new methods for efficiently verifying the safety of these emerging, learning-enabled components. These methods have been implemented as software tools and their effectiveness has been demonstrated through experimental evaluation.</p>\n<p>Results of our research have been published at prestigious conferences in the area of Formal Methods (CAV, FMCAD, and TACAS). All of the related artifacts (software tools and experimental results) have been released to the public.</p>\n<p><strong>Broader Impact:</strong></p>\n<p>The project allowed us to support the education and training of several graduate students at the University of Southern California (USC). Specifically, students working on this project have received training on the design and verification of embedded control systems, as well as on the safety enforcement mechanisms for such systems. One of the students have successfully completed his PhD dissertation in 2022, while another student is scheduled to complete her PhD dissertation in 2023.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/29/2023<br>\n\t\t\t\t\tModified by: Chao&nbsp;Wang</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nBackground: \n\nMaking sure that a computer system embedded in a critical application always satisfies a set of safety properties is an extremely important and yet challenging task. In practice, safety enforcement remains the responsibility of system developers, who rely on manual design and analysis in most cases. However, manual design and analysis are labor intensive and error prone. Thus, it is difficult to provide absolute guarantee of safety properties in a complex system.  \n\nProblem Statement: \n\nOur research aims to help system developers with safety enforcement by providing automated synthesis and verification tools. The idea is that, instead of modifying the design itself, we construct an additional component that can be composed with the design, to guarantee the safety of the entire system. This additional component is called a ?safety guard? or ?shield?.\n\nIn this project, our goal is to develop methods and tools for automatically synthesizing the safety guard, or shield, for any given safety property. Thus, the input is a safety property, and the output is a safety guard.  Given any critical system design (D) and a safety property (P), we want the synthesized safety guard (S) to guarantee that, when it is attached to the design, the entire system (D || S) always satisfies (P), even if the design (D) itself occasionally malfunctions and violates the property (P).\n\nIntellectual Merits:\n\nAutomated synthesis of a safety guard from a formal specification is a challenging task. For cyber-physical systems where the input and output are often real-valued variables, this was a previously unsolved problem. During this project, we have successfully developed a new safety guard synthesis method, which guarantees that the resulting guard is correct by construction. We have implemented the synthesis method in a software tool, and evaluated it through experiments. Our experimental results have demonstrated the effectiveness of these safety guards on embedded control systems.\n\nBuilt upon these efforts, we have also investigated a type of emerging, machine learning-enabled system components which, in recent years, have been increasingly used in control systems. The behaviors of these components are known to be difficult to analyze due to the use of deep neural networks. We have developed new methods for efficiently verifying the safety of these emerging, learning-enabled components. These methods have been implemented as software tools and their effectiveness has been demonstrated through experimental evaluation.\n\nResults of our research have been published at prestigious conferences in the area of Formal Methods (CAV, FMCAD, and TACAS). All of the related artifacts (software tools and experimental results) have been released to the public.\n\nBroader Impact:\n\nThe project allowed us to support the education and training of several graduate students at the University of Southern California (USC). Specifically, students working on this project have received training on the design and verification of embedded control systems, as well as on the safety enforcement mechanisms for such systems. One of the students have successfully completed his PhD dissertation in 2022, while another student is scheduled to complete her PhD dissertation in 2023.\n\n\t\t\t\t\tLast Modified: 01/29/2023\n\n\t\t\t\t\tSubmitted by: Chao Wang"
+ }
+}

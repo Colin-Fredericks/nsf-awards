@@ -1,0 +1,101 @@
+{
+ "awd_id": "1319527",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR:  Small:  Online Global Reconfigurations in Key-Value and NoSQL Cloud Storage Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-07-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 479998.0,
+ "awd_amount": 479998.0,
+ "awd_min_amd_letter_date": "2013-06-26",
+ "awd_max_amd_letter_date": "2013-06-26",
+ "awd_abstract_narration": "Key-value and NoSQL storage systems are growing and predicted to become a multi-billion dollar industry sector within a few years. This project targets global reconfiguration operations in this new generation of storage systems. Today such operations largely involve exporting and then re-importing entire databases, thus making data unavailable for long periods of time. The project will first design efficient online algorithms for a variety of global reconfiguration operations, with the twin goals of making such operations efficient, while continuing to support fast read and write actions on the data at all times. We will then implement and build our solutions into real production code, with a focus on existing and widely-used open-source systems software. This work requires a carefully orchestrated mix  of algorithmics with systems design and implementation. Our systems will be evaluated using industry benchmarks and traces, and in production clusters.\r\n\r\nThe project will augment existing widely-used key-value and NoSQL storage systems software with the much-needed ability to support online reconfiguration operations. Our work will produce open software and meaningful datasets. Thus our innovations and systems will be directly available to, and impact positively, both providers of key-value and NoSQL stores as well as a variety of customers ranging from small to large companies. On the educational front, the project will address the dearth today of learning materials for key-value and NoSQL stores by developing and disseminating course materials for this area. Additionally, we will incentivize entrepreneurial activities centered around key-value and NoSQL technologies.  \r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Indranil",
+   "pi_last_name": "Gupta",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Indranil Gupta",
+   "pi_email_addr": "indy@illinois.edu",
+   "nsf_id": "000148881",
+   "pi_start_date": "2013-06-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618207473",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 479998.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-14a312e4-755d-cb15-6d7d-7073b6fbfc8c\">&nbsp;</span></p>\n<p dir=\"ltr\"><span><strong>Summary</strong>: Today&rsquo;s era of Big Data relies on computer systems for storing and processing large datasets. Due to the size of such data, collections of computers and servers, called a &ldquo;cloud&rdquo; (or a &ldquo;distributed system&rdquo;), are widely used. Industry and the open-source community has, over the past decade, developed many software systems that run on a cloud. However, these systems are largely hard to manage. Examples include when one wants to change configuration parameters in a database, or increase or decrease the number of machines being used to run an application. Before our project, these operations needed to be done manually, often require shutting down and restarting the system. This makes them slow and time-consuming, makes data less available to users, and takes time away from the useful science and information extraction that should be the focus of Big Data.</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span><strong>Intellectual Merit</strong>: Our project has built systems (along with underlying algorithms and associated analysis of them) that allow cloud software, both for storage and for processing, to be reconfigured seamlessly, with minimal human involvement, quickly, and while still keeping the system operational and online. We have developed multiple systems that imbue this automatic reconfigurability into databases/storage systems (key-value/NoSQL stores), batch computation systems (like Apache Hadoop), stream processing systems (like Apache Storm), and graph processing systems, all of which are used widely today to process big data in the cloud. Keeping the system online during reconfiguration, without discernible changes to the user--wherein time and speed to access or process data should be as if no reconfiguration were happening--is quite a challenging undertaking. This project has solved this challenge in several sub-domains of cloud computing. </span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span><strong>Broader Impact</strong>: Our code and implementation makes changes to several open-source systems that form the backbone of today&rsquo;s cloud and Big Data industry sector. Impacted open source systems include (but are not limited to): Apache Hadoop, YARN, Apache Storm, Apache Cassandra, LFGraph, etc. On the educational front, PI Gupta has now developed 3 MOOC courses, and a course specialization, all on Coursera. The 3 MOOC courses, which focus on distributed systems concepts underlying clouds, are the biggest distributed systems course in the world. During 2015, PI Gupta&rsquo;s MOOC courses had over a hundred thousand students from about 198 countries. A large fraction of these students are full-time employees in industry and thus these courses are having a positive, active, and direct impact on the way cloud computing/Big Data industry operates today. </span></p>\n<div><span><br /></span></div>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/25/2017<br>\n\t\t\t\t\tModified by: Indranil&nbsp;Gupta</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n \nSummary: Today?s era of Big Data relies on computer systems for storing and processing large datasets. Due to the size of such data, collections of computers and servers, called a \"cloud\" (or a \"distributed system\"), are widely used. Industry and the open-source community has, over the past decade, developed many software systems that run on a cloud. However, these systems are largely hard to manage. Examples include when one wants to change configuration parameters in a database, or increase or decrease the number of machines being used to run an application. Before our project, these operations needed to be done manually, often require shutting down and restarting the system. This makes them slow and time-consuming, makes data less available to users, and takes time away from the useful science and information extraction that should be the focus of Big Data.\n\n \nIntellectual Merit: Our project has built systems (along with underlying algorithms and associated analysis of them) that allow cloud software, both for storage and for processing, to be reconfigured seamlessly, with minimal human involvement, quickly, and while still keeping the system operational and online. We have developed multiple systems that imbue this automatic reconfigurability into databases/storage systems (key-value/NoSQL stores), batch computation systems (like Apache Hadoop), stream processing systems (like Apache Storm), and graph processing systems, all of which are used widely today to process big data in the cloud. Keeping the system online during reconfiguration, without discernible changes to the user--wherein time and speed to access or process data should be as if no reconfiguration were happening--is quite a challenging undertaking. This project has solved this challenge in several sub-domains of cloud computing. \n\n \nBroader Impact: Our code and implementation makes changes to several open-source systems that form the backbone of today?s cloud and Big Data industry sector. Impacted open source systems include (but are not limited to): Apache Hadoop, YARN, Apache Storm, Apache Cassandra, LFGraph, etc. On the educational front, PI Gupta has now developed 3 MOOC courses, and a course specialization, all on Coursera. The 3 MOOC courses, which focus on distributed systems concepts underlying clouds, are the biggest distributed systems course in the world. During 2015, PI Gupta?s MOOC courses had over a hundred thousand students from about 198 countries. A large fraction of these students are full-time employees in industry and thus these courses are having a positive, active, and direct impact on the way cloud computing/Big Data industry operates today. \n\n\n\n \n\n \n\n\t\t\t\t\tLast Modified: 07/25/2017\n\n\t\t\t\t\tSubmitted by: Indranil Gupta"
+ }
+}

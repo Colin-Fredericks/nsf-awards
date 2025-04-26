@@ -1,0 +1,96 @@
+{
+ "awd_id": "1803378",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Physics-based Scale Enrichment for Eddy-Resolving Turbulence Simulations",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": "7032927030",
+ "po_email": "rjoslin@nsf.gov",
+ "po_sign_block_name": "Ron Joslin",
+ "awd_eff_date": "2018-09-15",
+ "awd_exp_date": "2021-12-31",
+ "tot_intn_awd_amt": 336636.0,
+ "awd_amount": 336636.0,
+ "awd_min_amd_letter_date": "2018-08-31",
+ "awd_max_amd_letter_date": "2018-08-31",
+ "awd_abstract_narration": "Computational models are widely used in design and analysis to support new technologies in aerospace, energy and transportation sectors. Many of these applications require accurate prediction of turbulent fluid flows often with complex geometries. For example, improved aerodynamic designs for aerospace vehicles require prediction and management of the drag force of turbulent flow on the vehicle surfaces. Eddy-resolving turbulence simulations, which are an important tool for fundamental scientific research, are only beginning to be used in engineering applications largely due to their very high cost. This project will develop a physics-based modeling approach to significantly improve turbulence simulations in a cost-effective manner. The new method should provide significant potential for cost-effective predictions of unsteady loads, fatigue, surface vibrations, and acoustic radiation.\r\n\r\nThe proposed approach is based on combining eddy-resolving turbulence simulation, such as large-eddy simulation, albeit of limited bandwidth, with an efficient, physics-based scale-enrichment scheme applied at each of the computational cells. The enrichment scheme generates a physically consistent realization of the finer-scale eddies locally which dynamically respond to the resolved larger scales and enable statistical predictions of physical quantities with a substantially larger bandwidth, thus enabling predictions of quantities not accessible previously. A novel computational modeling strategy is proposed with potential applications to diverse fields such as wind energy, and aerospace design/optimization involving structural vibration and fatigue. Beyond these, the proposed approach may have applications in broader fields such as dynamic meteorology and ocean and atmospheric sciences. The tools and software being developed will be open source and is expected to initiate collaborations and use across diverse groups from the computational science community.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sanjiva",
+   "pi_last_name": "Lele",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sanjiva K Lele",
+   "pi_email_addr": "lele@stanford.edu",
+   "nsf_id": "000156503",
+   "pi_start_date": "2018-08-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943054035",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "144300",
+   "pgm_ele_name": "FD-Fluid Dynamics"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 336636.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Turbulent fluid flows of interest in engineering applications generate such a wide range of length and time scales that directly resolving them in a computer simulation is not feasible. Large eddy simulation (LES) is a computational paradigm that seeks to directly compute the large energy-containing scales of motion in a turbulent flow while modeling the theoretically universal sub-grid scale contribution to the problem. This paradigm has revolutionized computational modeling and design. However, there are still many practical problems of engineering interest that suffer significant inaccuracies in a traditional LES due to modeling errors. We have developed an enrichment method capable of providing a physically consistent sub-grid field at a significant cost savings compared to high-resolution LES. In the problems we have investigated we achieve about 95% reduction in computational cost.</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The enrichment method relies on a quasi-homogeneous (QH) assumption over length scales that are slightly larger than the implied filter-width of the computational mesh. This quasi-homogeneity is exploited by using spatially- and scale-localized Gabor modes to reconstruct the sub-grid velocity in the QH neighborhood. We have obtained very reliable predictions for both the velocity and pressure fields.&nbsp;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over the duration of this NSF award we developed and applied the enrichment method to a variety of canonical flows including statistically stationary and homogeneous isotropic turbulence (HIT), atmospheric boundary layer, and temporally and spatially decaying HIT. We also combined the enrichment framework with a data-driven modal analysis to reconstruct small-scale turbulence in a wind-turbine wake. In the future we plan to extend the method to problems of increased complexity including problems with curved boundaries which induce flow separation, as is the case in many engineering applications, and is a notoriously challenging problem for lower fidelity approaches.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/22/2022<br>\n\t\t\t\t\tModified by: Sanjiva&nbsp;K&nbsp;Lele</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655945861674_DecayingHIT--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655945861674_DecayingHIT--rgov-800width.jpg\" title=\"Enrichment of finer scales in decaying HIT\"><img src=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655945861674_DecayingHIT--rgov-66x44.jpg\" alt=\"Enrichment of finer scales in decaying HIT\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The figures shows that Gabor enrichment method is successful in providing accurate enrichment of fine scales in decaying isotropic turbulence.</div>\n<div class=\"imageCredit\">Ryan Hass and Sanjiva Lele</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Sanjiva&nbsp;K&nbsp;Lele</div>\n<div class=\"imageTitle\">Enrichment of finer scales in decaying HIT</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655946190013_Pressure_gradient_correlations--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655946190013_Pressure_gradient_correlations--rgov-800width.jpg\" title=\"Pressure gradient correlations\"><img src=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655946190013_Pressure_gradient_correlations--rgov-66x44.jpg\" alt=\"Pressure gradient correlations\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The figure shows that the longitudinal and transverse correlation functions for fluctuating pressure gradient are also accurately captured by Gabor enrichment method.</div>\n<div class=\"imageCredit\">Ryan Hass and Sanjiva Lele</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Sanjiva&nbsp;K&nbsp;Lele</div>\n<div class=\"imageTitle\">Pressure gradient correlations</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655946363374_velocity_contours--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655946363374_velocity_contours--rgov-800width.jpg\" title=\"Enrichment of velocity fluctuations\"><img src=\"/por/images/Reports/POR/2022/1803378/1803378_10578947_1655946363374_velocity_contours--rgov-66x44.jpg\" alt=\"Enrichment of velocity fluctuations\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The figure shows that fine scale velocity fluctuations are accurately captured by Gabor enrichment for a turbulent wake.</div>\n<div class=\"imageCredit\">Aditya Ghate and Sanjiva Lele</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Sanjiva&nbsp;K&nbsp;Lele</div>\n<div class=\"imageTitle\">Enrichment of velocity fluctuations</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nTurbulent fluid flows of interest in engineering applications generate such a wide range of length and time scales that directly resolving them in a computer simulation is not feasible. Large eddy simulation (LES) is a computational paradigm that seeks to directly compute the large energy-containing scales of motion in a turbulent flow while modeling the theoretically universal sub-grid scale contribution to the problem. This paradigm has revolutionized computational modeling and design. However, there are still many practical problems of engineering interest that suffer significant inaccuracies in a traditional LES due to modeling errors. We have developed an enrichment method capable of providing a physically consistent sub-grid field at a significant cost savings compared to high-resolution LES. In the problems we have investigated we achieve about 95% reduction in computational cost.\n\n            The enrichment method relies on a quasi-homogeneous (QH) assumption over length scales that are slightly larger than the implied filter-width of the computational mesh. This quasi-homogeneity is exploited by using spatially- and scale-localized Gabor modes to reconstruct the sub-grid velocity in the QH neighborhood. We have obtained very reliable predictions for both the velocity and pressure fields. \n\n            Over the duration of this NSF award we developed and applied the enrichment method to a variety of canonical flows including statistically stationary and homogeneous isotropic turbulence (HIT), atmospheric boundary layer, and temporally and spatially decaying HIT. We also combined the enrichment framework with a data-driven modal analysis to reconstruct small-scale turbulence in a wind-turbine wake. In the future we plan to extend the method to problems of increased complexity including problems with curved boundaries which induce flow separation, as is the case in many engineering applications, and is a notoriously challenging problem for lower fidelity approaches.\n\n \n\n\t\t\t\t\tLast Modified: 06/22/2022\n\n\t\t\t\t\tSubmitted by: Sanjiva K Lele"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "2203167",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS: Small: New Abstractions for First-hop Networking in Cloud Data Centers",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 167504.0,
+ "awd_min_amd_letter_date": "2022-02-05",
+ "awd_max_amd_letter_date": "2022-02-05",
+ "awd_abstract_narration": "This project seeks to improve the performance of future data center compute servers and networks, enabling a growing number of performance-sensitive applications to co-exist on each server. To allow multiple applications on a server to drive the Network Interface Card (NIC) at high speed, this research aims to rethink the mechanisms employed in various layers of the server networking stack, and create new interfaces and abstractions between the layers and for applications. This research will lead to improved scalability, utilization, and efficiency of cloud computing infrastructure, allowing providers to support many more applications and tenants while maintaining their current infrastructure footprint. \r\n\r\nThis project seeks to develop new algorithms and programming abstractions for server operating systems and Network Interface Cards (NICs) to improve scheduling of outbound network traffic. These algorithms will overcome current performance bottlenecks, and will improve the ability for multiple applications to drive a NIC at high speed, with the ambitious goal of sustaining line rates while meeting application latency/throughput/fairness objectives as well as infrastructure-wide utilization and efficiency objectives. The PIs plan to integrate the proposed research into courses at UW-Madison. The PIs will organize various `network programming bootcamps' aimed at network engineers, undergraduate students, and high school students from under-represented groups.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Aditya",
+   "pi_last_name": "Akella",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Aditya Akella",
+   "pi_email_addr": "akella@cs.utexas.edu",
+   "nsf_id": "000204197",
+   "pi_start_date": "2022-02-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787595316",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "TX37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01001718DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2017,
+   "fund_oblg_amt": 167504.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-57704446-7fff-1741-e280-cd5607f2e0d0\"> <span id=\"docs-internal-guid-1219cbe7-7fff-5abe-8f54-fcad2533660b\">\n<p dir=\"ltr\"><span>Modern data centers run various applications with different performance needs, ranging from highly latency-sensitive applications to throughput-sensitive batch (big data and machine learning) workloads. To meet the growing performance demands of these applications, data center operators are scaling up network speeds. However, ensuring that the applications can drive server network interfaces (NICs) at full line rates while not impacting each other&rsquo;s performance objectives, and while maintaining optimal levels of server/network utilization and efficiency, continues to remain a challenge. The main reason is that existing solutions&mdash;such as hardware/software parallelism to aid application multiplexing, and offloading application computation onto network hardware&mdash;serve as specialized point optimizations. Because of loose coordination across layers of the network stacks where these techniques apply, they can often lead to detrimental outcomes such as high and variable latency, unreasonable and wasteful CPU utilization, and severe network congestion.</span></p>\n<p dir=\"ltr\"><span>To allow multiple applications on a server to drive the NIC at high speed, our project aims to rethink the mechanisms employed in various layers of the server networking stack and create new interfaces and abstractions between the layers and applications. The goal is to sustain high line rates while meeting application latency/throughput/fairness objectives and infrastructure-wide utilization and efficiency goals.</span></p>\n<p dir=\"ltr\"><span>Intellectual merit: Toward this goal, our project made several successful breakthroughs. We developed a new NIC that allows application computation to be offloaded from CPUs to network hardware, enabling optimal CPU utilization and high application and network performance. We created hardware modules that can be hosted on this NIC to host other performance- and resource-intensive functionalities such as load balancing, core allocation, and application scheduling. Finally, we showed how the NICs can host data-intensive applications spanning big data processing and machine learning domains. Our impacts and advances not only networking, but also operating systems, computer architecture, and programming languages.</span></p>\n<p dir=\"ltr\"><span>Broader impacts: Results from this project have been successfully incorporated into graduate and undergraduate courses at UW Madison and UT Austin. The outcomes of this work are now being considered for production deployments at hyperscaler networks including Google and Microsoft. The project contributed to the PhD thesis of four students across UW and UT, including two female PhD students. It also led to the honors thesis of two undergraduate students at UT Austin.</span></p>\n<div><span><br /></span></div>\n</span>\n<p dir=\"ltr\">&nbsp;</p>\n<div><span><br /></span></div>\n</span></p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 12/15/2023<br>\nModified by: Aditya&nbsp;Akella</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\n \n\n\nModern data centers run various applications with different performance needs, ranging from highly latency-sensitive applications to throughput-sensitive batch (big data and machine learning) workloads. To meet the growing performance demands of these applications, data center operators are scaling up network speeds. However, ensuring that the applications can drive server network interfaces (NICs) at full line rates while not impacting each others performance objectives, and while maintaining optimal levels of server/network utilization and efficiency, continues to remain a challenge. The main reason is that existing solutionssuch as hardware/software parallelism to aid application multiplexing, and offloading application computation onto network hardwareserve as specialized point optimizations. Because of loose coordination across layers of the network stacks where these techniques apply, they can often lead to detrimental outcomes such as high and variable latency, unreasonable and wasteful CPU utilization, and severe network congestion.\n\n\nTo allow multiple applications on a server to drive the NIC at high speed, our project aims to rethink the mechanisms employed in various layers of the server networking stack and create new interfaces and abstractions between the layers and applications. The goal is to sustain high line rates while meeting application latency/throughput/fairness objectives and infrastructure-wide utilization and efficiency goals.\n\n\nIntellectual merit: Toward this goal, our project made several successful breakthroughs. We developed a new NIC that allows application computation to be offloaded from CPUs to network hardware, enabling optimal CPU utilization and high application and network performance. We created hardware modules that can be hosted on this NIC to host other performance- and resource-intensive functionalities such as load balancing, core allocation, and application scheduling. Finally, we showed how the NICs can host data-intensive applications spanning big data processing and machine learning domains. Our impacts and advances not only networking, but also operating systems, computer architecture, and programming languages.\n\n\nBroader impacts: Results from this project have been successfully incorporated into graduate and undergraduate courses at UW Madison and UT Austin. The outcomes of this work are now being considered for production deployments at hyperscaler networks including Google and Microsoft. The project contributed to the PhD thesis of four students across UW and UT, including two female PhD students. It also led to the honors thesis of two undergraduate students at UT Austin.\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\tLast Modified: 12/15/2023\n\n\t\t\t\t\tSubmitted by: AdityaAkella\n"
+ }
+}

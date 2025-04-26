@@ -1,0 +1,101 @@
+{
+ "awd_id": "1811936",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: New Developments in Direct Probabilistic Inference on Interest Parameters",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Pena Edsel",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2021-07-31",
+ "tot_intn_awd_amt": 100001.0,
+ "awd_amount": 100001.0,
+ "awd_min_amd_letter_date": "2018-05-11",
+ "awd_max_amd_letter_date": "2018-05-11",
+ "awd_abstract_narration": "The Bayesian approach to statistical learning relies on probabilistic models for all observables and unknowns.  The need to model all aspects of the problem can restrict the scope of applications and, more generally, can be a burden to the data analyst who is often only interested in certain features of the unknowns.  This project will develop a mathematically rigorous and computationally efficient framework in which Bayesian learning can be carried out directly in terms of only the features of interest.  This reduces the modeling and computational burden on the data analyst and provides new insights about Bayesian learning more generally\r\n\r\nA Bayesian approach is a powerful and rigorous framework for statistical learning.  The downside is that it requires a full model for the observables as well as all unknown quantities, the specification of which can be a burden on the data analyst. In addition to the familiar challenges of prior specification, there are also risks of misspecification biases. A more subtle complication is due to selection effects that result from considering several candidate models.  The data analyst's burden is further exaggerated in situations where only a feature of the unknowns is of interest, i.e., when there is an interest parameter and a (potentially high-dimensional) nuisance parameter and inference is required only for the former.  That is, the Bayesian approach still requires that the data analyst make non-trivial efforts to specify prior distributions and carry out posterior computations relevant only to the nuisance parameter, which can be viewed as a waste.  Yet having access to a posterior distribution for inference on the interest parameter is still a desirable feature, and the proposed research aims to develop a new framework for posterior inference directly on interest parameters.  These direct posteriors (DiPs) effectively target the interest parameter, giving data analysts an opportunity to avoid the seemingly wasteful modeling and computation efforts involving nuisance parameters.  This project will construct DiPs for finite- and infinite-dimensional interest parameters with rigorous theoretical guarantees, and will also develop efficient computational tools to facilitate DiP-based inference.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Todd",
+   "pi_last_name": "Kuffner",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Todd A Kuffner",
+   "pi_email_addr": "kuffner@math.wustl.edu",
+   "nsf_id": "000708162",
+   "pi_start_date": "2018-05-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Washington University",
+  "inst_street_address": "1 BROOKINGS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SAINT LOUIS",
+  "inst_state_code": "MO",
+  "inst_state_name": "Missouri",
+  "inst_phone_num": "3147474134",
+  "inst_zip_code": "631304862",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "MO01",
+  "org_lgl_bus_name": "WASHINGTON UNIVERSITY, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "L6NFUM28LQM5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Washington University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MO",
+  "perf_st_name": "Missouri",
+  "perf_zip_code": "631304899",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "MO01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "126900",
+   "pgm_ele_name": "STATISTICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 100001.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The central motivation of this proposal is that Bayesian inference for parameters of interest is often very challenging in complex models with other parameters present. The main issue is that Bayesian inference for any particular parameter must be based on a marginal posterior distribution, and involves integration of the full joint posterior distribution over all the `nuisance' parameters which are not of interest for inference.&nbsp;</p>\n<p>Towards the goal of finding a short-cut to a direct marginal posterior, without the need for complicated methods to obtain the full joint posterior and then integrate over the nuisance parameters, I made progress on several key problems.&nbsp;</p>\n<p>In finance, it is common to model asset prices over time with jump diffusion models. When the `jumps' are in an appropriate sense unrestricted, and microstructure noise is present, Bayesian inference for the volatility parameter is extremely difficult, and yet crucially important for statisticians working in finance. One of my published papers from this project solves that problem, by misspecifying the complex model on purpose, obtaining something similar to a marginal posterior, and then corrected the posterior inference for volatility by accounting for the errors caused by misspecification.&nbsp;</p>\n<p>More broadly, this project supported efforts to characterize the types of models and parameters for which this approach will work, with a collection of results that will guide future research. This project also supported my work on resampling methods to obtain accurate Bayesian interval estimates from Markov Chain Monte Carlo procedures which are used to sample from posterior distributions, specifically by finding optimal block bootstrap methods for sample quantiles. This paper was also published.</p>\n<p>This project supported 2 Ph.D. students, and also provided valuable training for a postdoctoral fellow. One of the students is now employed in the finance industry, and the others are currently working in academic research.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/10/2023<br>\n\t\t\t\t\tModified by: Todd&nbsp;A&nbsp;Kuffner</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe central motivation of this proposal is that Bayesian inference for parameters of interest is often very challenging in complex models with other parameters present. The main issue is that Bayesian inference for any particular parameter must be based on a marginal posterior distribution, and involves integration of the full joint posterior distribution over all the `nuisance' parameters which are not of interest for inference. \n\nTowards the goal of finding a short-cut to a direct marginal posterior, without the need for complicated methods to obtain the full joint posterior and then integrate over the nuisance parameters, I made progress on several key problems. \n\nIn finance, it is common to model asset prices over time with jump diffusion models. When the `jumps' are in an appropriate sense unrestricted, and microstructure noise is present, Bayesian inference for the volatility parameter is extremely difficult, and yet crucially important for statisticians working in finance. One of my published papers from this project solves that problem, by misspecifying the complex model on purpose, obtaining something similar to a marginal posterior, and then corrected the posterior inference for volatility by accounting for the errors caused by misspecification. \n\nMore broadly, this project supported efforts to characterize the types of models and parameters for which this approach will work, with a collection of results that will guide future research. This project also supported my work on resampling methods to obtain accurate Bayesian interval estimates from Markov Chain Monte Carlo procedures which are used to sample from posterior distributions, specifically by finding optimal block bootstrap methods for sample quantiles. This paper was also published.\n\nThis project supported 2 Ph.D. students, and also provided valuable training for a postdoctoral fellow. One of the students is now employed in the finance industry, and the others are currently working in academic research.\n\n \n\n\t\t\t\t\tLast Modified: 05/10/2023\n\n\t\t\t\t\tSubmitted by: Todd A Kuffner"
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "awd_id": "1018621",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Scalable Effort Design: Exploiting Algorithmic Resilience for Energy Efficiency",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 499038.0,
+ "awd_amount": 499038.0,
+ "awd_min_amd_letter_date": "2010-08-02",
+ "awd_max_amd_letter_date": "2010-08-02",
+ "awd_abstract_narration": "The design processes used to convert algorithms to hardware implementations have obeyed the axiom that the specification and implementation need to be equivalent in a Boolean or numerical sense. However, algorithms from several interesting application domains exhibit the property of ?inherent resilience?, thereby offering entirely new avenues for performance and power optimization by relaxing the requirement of an exact equivalent implementation.\r\n\r\nWe explore scalable effort hardware design as an approach to tap the reservoir of inherent resilience and translate it into highly efficient hardware implementations. We identify mechanisms at each level of design abstraction (circuit, micro-architecture and algorithm) that can be used to vary the computational effort expended towards generation of the correct (exact) result, and expose them as control knobs in the implementation to achieve improved energy efficiency. Fully exploiting the potential of algorithmic resilience requires synergistic cross-layer optimization of scaling mechanisms at different levels of design abstraction. We investigate the nature of the tradeoffs that are possible through cross-layer optimization of scaling mechanisms, and develop techniques to determine the optimal operating point (in terms of the different scaling mechanisms) that maximizes performance or energy efficiency for any given level of output quality.\r\n\r\nThe proposed research will develop new design approaches that can enable unprecedented levels of performance and energy efficiency in hardware implementations of emerging applications such as recognition and mining. We will disseminate our results through publications, release of open source designs, integration into VLSI Design and System-on-Chip course material, and through Purdue?s nanoHub.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Anand",
+   "pi_last_name": "Raghunathan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Anand Raghunathan",
+   "pi_email_addr": "raghunathan@purdue.edu",
+   "nsf_id": "000515565",
+   "pi_start_date": "2010-08-02",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Kaushik",
+   "pi_last_name": "Roy",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kaushik Roy",
+   "pi_email_addr": "kaushik@ecn.purdue.edu",
+   "nsf_id": "000482731",
+   "pi_start_date": "2010-08-02",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "2550 NORTHWESTERN AVE # 1100",
+  "perf_city_name": "WEST LAFAYETTE",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479061332",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 499038.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The gap created by diminishing benefits from semiconductor technology scaling on the one hand, and projected growth in computing demand on the other, has led to a need for new sources of computing efficiency. Fortunately, the workloads that are driving demand across the computing spectrum also present new opportunities. At the server end, computing demand is driven by the need to organize, analyze, interpret, and search through exploding amounts of digital data. In mobile devices and deeply embedded systems, the creation and consumption of richer media and the need to interact more naturally and intelligently with users and the environment drive much of the computing demand. These applications are largely not about calculating a precise numerical end result; for them, ``correctness'' is defined as producing results that are good enough, or of sufficient quality.&nbsp;</p>\n<p>The motivation behind this project is that the above workloads, among many others, demonstrate a high degree of intrinsic resilience to their underlying computations being executed in an approximate or inexact manner. However, the design of the hardware that underlies computing platforms is still guided by the dogma that every computation must be executed with the same strict notion of correctness. In this project, we explored scalable-effort hardware, which refers to hardware that is capable of modulating the effort that is expended towards correct computation, gaining efficiency (higher speed or lower power consumption) in the process.</p>\n<p>The key outcomes of our efforts can be summarized accoding to the levels of abstraction used in the design of hardware:</p>\n<ul>\n<li>We developed techniques for the design of approximate circuits by realizing them to&nbsp;have slightly different functionality than specified (e.g., an approximate adder may produce 19 or 21 when adding 10 and 10), and by structuring them to be graceful in the face of operation at overscaled operating conditions (e.g., lower than rated supply voltage). These techniques, which we refer as overscaling-based approximation and functional approximation, were applied to a range of circuits that are commonly utilized in modern electronic chips and computer hardware. We extended the state-of-the-art in this area by proposing techniques that can be used to create approximate versions of any given circuit under any output quality constraint.</li>\n<li>We proposed key principles for the design of scalable-effort hardware systems. First, we showed that cross-layer approximation, or approximation at multiple levels of abstraction (circuits, architecture and algorithms) yields much better energy vs. quality tradeoffs than approximations at any single level of abstraction. Second, we demonstrated that there is a need for scalable-effort hardware to be able to modulate the degree of approximation based on the application context, input data being processed, and quality level required of the output.</li>\n<li>In order to demonstrate the feasibility of the concepts and techniques developed in our research, we designed and fabricated a scalable-effort recognition and mining accelerator chip. We demonstrated that the proposed techniques led to 2 to 20 fold improvements in energy consumption across a range of common recognition and mining applications.</li>\n</ul>\n<p>The results of this research were disseminated to the research community through several publications in IEEE and ACM conferences and journals, invited talks and embedded tutorials at premier conferences, and enhancements to courses in the area of integrated circuit and system design.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/21/2016<br>\n\t\t\t\t\tModified by: Anand&nbsp;Raghunathan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe gap created by diminishing benefits from semiconductor technology scaling on the one hand, and projected growth in computing demand on the other, has led to a need for new sources of computing efficiency. Fortunately, the workloads that are driving demand across the computing spectrum also present new opportunities. At the server end, computing demand is driven by the need to organize, analyze, interpret, and search through exploding amounts of digital data. In mobile devices and deeply embedded systems, the creation and consumption of richer media and the need to interact more naturally and intelligently with users and the environment drive much of the computing demand. These applications are largely not about calculating a precise numerical end result; for them, ``correctness'' is defined as producing results that are good enough, or of sufficient quality. \n\nThe motivation behind this project is that the above workloads, among many others, demonstrate a high degree of intrinsic resilience to their underlying computations being executed in an approximate or inexact manner. However, the design of the hardware that underlies computing platforms is still guided by the dogma that every computation must be executed with the same strict notion of correctness. In this project, we explored scalable-effort hardware, which refers to hardware that is capable of modulating the effort that is expended towards correct computation, gaining efficiency (higher speed or lower power consumption) in the process.\n\nThe key outcomes of our efforts can be summarized accoding to the levels of abstraction used in the design of hardware:\n\nWe developed techniques for the design of approximate circuits by realizing them to have slightly different functionality than specified (e.g., an approximate adder may produce 19 or 21 when adding 10 and 10), and by structuring them to be graceful in the face of operation at overscaled operating conditions (e.g., lower than rated supply voltage). These techniques, which we refer as overscaling-based approximation and functional approximation, were applied to a range of circuits that are commonly utilized in modern electronic chips and computer hardware. We extended the state-of-the-art in this area by proposing techniques that can be used to create approximate versions of any given circuit under any output quality constraint.\nWe proposed key principles for the design of scalable-effort hardware systems. First, we showed that cross-layer approximation, or approximation at multiple levels of abstraction (circuits, architecture and algorithms) yields much better energy vs. quality tradeoffs than approximations at any single level of abstraction. Second, we demonstrated that there is a need for scalable-effort hardware to be able to modulate the degree of approximation based on the application context, input data being processed, and quality level required of the output.\nIn order to demonstrate the feasibility of the concepts and techniques developed in our research, we designed and fabricated a scalable-effort recognition and mining accelerator chip. We demonstrated that the proposed techniques led to 2 to 20 fold improvements in energy consumption across a range of common recognition and mining applications.\n\n\nThe results of this research were disseminated to the research community through several publications in IEEE and ACM conferences and journals, invited talks and embedded tutorials at premier conferences, and enhancements to courses in the area of integrated circuit and system design.\n\n\t\t\t\t\tLast Modified: 02/21/2016\n\n\t\t\t\t\tSubmitted by: Anand Raghunathan"
+ }
+}

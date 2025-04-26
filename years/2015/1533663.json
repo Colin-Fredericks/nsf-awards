@@ -1,0 +1,120 @@
+{
+ "awd_id": "1533663",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: FULL: CCA: Collaborative Research: Automatically Scalable Computation",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2015-08-01",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 350000.0,
+ "awd_amount": 350000.0,
+ "awd_min_amd_letter_date": "2015-07-27",
+ "awd_max_amd_letter_date": "2015-07-27",
+ "awd_abstract_narration": "For over thirty years, each generation of computers has been faster than the one that preceded it. This exponential scaling transformed the way we communicate, navigate, purchase, and conduct science. More recently, this dramatic growth in single processor performance has stopped and has been replaced by new generations of computers with more processors on them; for example, even the cell phones we carry have multiple processors in them.  Writing software that effectively leverages multiple processing elements is difficult, and rewriting the decades of accumulated software is both difficult and costly. This research takes a different approach -- rather than converting sequential software into parallel software, this project develops ways to store and reuse computation. Imagine computing only when computer time and energy are cheap and plentiful, storing that computation, and then using it later, when computation might be limited or expensive.  The approach used involves making informed predictions about computation likely to happen in the future, proactively executing likely computations in parallel with the actual computation, and then \"jumping forward in time\" if the actual execution arrives at any of the predicted computations that have already been completed.  This research touches many areas within Computer Science, architecture, compilers, machine learning, systems, and theory.  Additionally, exploiting massively parallel computation will produce immediate returns in multiple scientific fields that rely on computation.\r\n\r\nThe approach used in this research views computational execution as moving a system through the enormously high dimensional space represented by its registers and memory of a conventional single-threaded processor.  It uses machine learning algorithms to observe execution patterns and make predictions about likely future states of the computation.  Based on these predictions, the system launches potentially large numbers of speculative threads to execute from these likely computations, while the actual computation proceeds serially.  At strategically chosen points, the main computation queries the speculative executions to determine if any of the completed computation is useful; if it is, the main thread uses the speculative computation to immediately begin execution where the speculative computation left off, achieving a speed-up over the serial execution.  This approach has the potential to be extremely scalable: the more cores, memory, and communication bandwidth available, the greater the potential for performance improvement. The approach also scales across programs -- if the program running today happens upon a state encountered by a program running yesterday, the program can reuse yesterday's computation. This project has the potential to break new ground for research in many areas in Computer Science touched by it.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Steven",
+   "pi_last_name": "Homer",
+   "pi_mid_init": "E",
+   "pi_sufx_name": "",
+   "pi_full_name": "Steven E Homer",
+   "pi_email_addr": "homer@bu.edu",
+   "nsf_id": "000307106",
+   "pi_start_date": "2015-07-27",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Jonathan",
+   "pi_last_name": "Appavoo",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jonathan Appavoo",
+   "pi_email_addr": "jappavoo@bu.edu",
+   "nsf_id": "000552443",
+   "pi_start_date": "2015-07-27",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Ajay",
+   "pi_last_name": "Joshi",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ajay J Joshi",
+   "pi_email_addr": "joshi@bu.edu",
+   "nsf_id": "000554674",
+   "pi_start_date": "2015-07-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Trustees of Boston University",
+  "inst_street_address": "1 SILBER WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173534365",
+  "inst_zip_code": "022151703",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "TRUSTEES OF BOSTON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "THL6A6JLE1S7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Trustees of Boston University",
+  "perf_str_addr": "881 Commonwealth Avenue",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "022151300",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 350000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>In our project we explore a novel computational model whose performance automatically scales as a function of the number of processors, but whose programming interface is that&nbsp; of a simple sequential processor.</span></p>\n<p><span>We have established a theoretical framework for analyzing our Automatic Scalable Computation Systems Model. Specifically our computational model analyzes full state information about the</span><span> </span><span>computation as it proceeds. The analysis enables development of a large cache of computational states which are used to tunnel from present states to future states skipping large predictable portions of the full computation. In this way&nbsp; we are able to speed up significant parts of the computation, not by changing our core algorithm but rather by taking advantage of the distribution of the inputs to our computation and of the computation's redundancy.</span></p>\n<p><span>Guided by the above model we have constructed prototype hardware and software. &nbsp;This includes,&nbsp;</span></p>\n<ol>\n<li><span>Building a &nbsp;simulator that executes existing user level binaries but accumulates data about its execution in the form of neural networks and state pairs.&nbsp; Using this data it speeds up the execution of the binary from run to run. &nbsp;</span></li>\n<li><span>Guiding our model and simulator we constructed novel neural network hardware and programmable monitoring hardware.&nbsp;</span></li>\n<li><span>Using this hardware in conjunction with our simulator we demonstrated, to the best of our knowledge, the first exemplar of a system that uses neuromorphic hardware to transparently speed up deterministic binary programs.</span></li>\n<li><span>Constructing a distributed OS framework that is a building block for constructing a large scale implementation of our model&nbsp;</span></li>\n</ol>\n<p><span>Given our combination of Theory, Systems and Hardware expertise the project takes the aggressive goal of exploring a new general purpose computational model on top of which all software running on it would automatically see benefits. To this end we have worked on the theory and implementation both with respect to the requisite systems software and novel hardware that is enabled by the model.</span></p>\n<div><span><br /></span></div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/29/2019<br>\n\t\t\t\t\tModified by: Steven&nbsp;E&nbsp;Homer</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1533663/1533663_10380632_1572288316034_xpshighlightimage--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1533663/1533663_10380632_1572288316034_xpshighlightimage--rgov-800width.jpg\" title=\"Award 153373 Highlights of Automatic Scalable Computation\"><img src=\"/por/images/Reports/POR/2019/1533663/1533663_10380632_1572288316034_xpshighlightimage--rgov-66x44.jpg\" alt=\"Award 153373 Highlights of Automatic Scalable Computation\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">This work helped elucidate a bridge between Theory, Systems and Hardware around a computational model that has the promise of scale performance as a function of sear physical size.</div>\n<div class=\"imageCredit\">Jonathan Appavoo, Steve Homer, Ajay Joshi, Margo Seltzer, Ryan Adams, David Brooks</div>\n<div class=\"imageSubmitted\">Jonathan&nbsp;Appavoo</div>\n<div class=\"imageTitle\">Award 153373 Highlights of Automatic Scalable Computation</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nIn our project we explore a novel computational model whose performance automatically scales as a function of the number of processors, but whose programming interface is that  of a simple sequential processor.\n\nWe have established a theoretical framework for analyzing our Automatic Scalable Computation Systems Model. Specifically our computational model analyzes full state information about the computation as it proceeds. The analysis enables development of a large cache of computational states which are used to tunnel from present states to future states skipping large predictable portions of the full computation. In this way  we are able to speed up significant parts of the computation, not by changing our core algorithm but rather by taking advantage of the distribution of the inputs to our computation and of the computation's redundancy.\n\nGuided by the above model we have constructed prototype hardware and software.  This includes, \n\nBuilding a  simulator that executes existing user level binaries but accumulates data about its execution in the form of neural networks and state pairs.  Using this data it speeds up the execution of the binary from run to run.  \nGuiding our model and simulator we constructed novel neural network hardware and programmable monitoring hardware. \nUsing this hardware in conjunction with our simulator we demonstrated, to the best of our knowledge, the first exemplar of a system that uses neuromorphic hardware to transparently speed up deterministic binary programs.\nConstructing a distributed OS framework that is a building block for constructing a large scale implementation of our model \n\n\nGiven our combination of Theory, Systems and Hardware expertise the project takes the aggressive goal of exploring a new general purpose computational model on top of which all software running on it would automatically see benefits. To this end we have worked on the theory and implementation both with respect to the requisite systems software and novel hardware that is enabled by the model.\n\n\n\n \n\n\t\t\t\t\tLast Modified: 10/29/2019\n\n\t\t\t\t\tSubmitted by: Steven E Homer"
+ }
+}

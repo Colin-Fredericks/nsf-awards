@@ -1,0 +1,101 @@
+{
+ "awd_id": "1816714",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Delegation Systems for Efficient and Safe Multi-Core Programming",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Karen Karavanic",
+ "awd_eff_date": "2018-08-15",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 499832.0,
+ "awd_amount": 499832.0,
+ "awd_min_amd_letter_date": "2018-06-19",
+ "awd_max_amd_letter_date": "2018-06-19",
+ "awd_abstract_narration": "This project helps software on highly parallel (multi-core) computers access shared data structures more efficiently.  The conventional approach is based on individual cores taking turns to access the data structure. However, every time the data structure changes hands there is a considerable slowdown, while other cores waste valuable time awaiting their turn. Delegation is an alternative approach. Here, a single core (server) is in charge of the data structure, and performs work as requested by other cores. Focusing on one job makes the server more efficient, often by far outweighing the costs of delegation, given a high-performance delegation design.\r\n\r\nThe project is divided into three main tasks. First, delegation should theoretically be 10x faster than it is today, using current hardware. The project investigates what currently holds back delegation performance, and reaches for the fundamental performance limits of delegation. Second, delegation currently relies on some degree of hand-tuning of parameters to achieve peak throughput. The project investigates mechanisms to allow delegation to automatically adjust to current conditions, improving ease of use. Finally, delegation today is fundamentally client-server oriented. The project investigates whether a fully distributed model can achieve further gains, both theoretically and in practice.\r\n \r\nThe aim of the project is to make delegation both extremely high-performing, and easy to use. If the project is successful, and if delegation as a result sees adoption among software developers, the result will be programs running considerably faster on the same hardware. This, in turn, reduces the amount of computing hardware required to perform the same amount of work, thereby reducing both equipment cost and electricity consumption.\r\n \r\nSoftware artifacts produced in the course of this project will be made publicly available on the research lab's github page: http://github.com/bitslab, where they will remain well beyond the project period.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jakob",
+   "pi_last_name": "Eriksson",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jakob Eriksson",
+   "pi_email_addr": "jakob@uic.edu",
+   "nsf_id": "000537836",
+   "pi_start_date": "2018-06-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Chicago",
+  "inst_street_address": "809 S MARSHFIELD AVE M/C 551",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHICAGO",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "3129962862",
+  "inst_zip_code": "606124305",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "IL07",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "W8XEAJDKMXH3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Chicago",
+  "perf_str_addr": "851 S Morgan St",
+  "perf_city_name": "Chicago",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "606077042",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "IL07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 499832.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In the past decades, computer processor designers have largely relied on increasing parallelism to continue providing performance improvements. This is easily seen in the number of \"cores\" available in modern CPUs, with 8-core CPUs now common in smartphones, and 64 cores not unheard of in desktop and server CPUs.&nbsp;</p>\n<p>In principle, doubling the number of cores can lead to a doubling in available performance, but only if the software can be expressed in terms of that many fully independent \"threads\" of execution - sets of instructions to execute in sequence. Real programs, however, typically require interaction and coordination between threads, typically in the form of access to areas of memory shared between threads.&nbsp;</p>\n<p>Today, such coordination is achieved using processor-provided atomic instructions, to avoid the risk &ldquo;crosstalk&rdquo; between threads, which can otherwise lead to severe software bugs. Atomic instructions essentially halt all work on a given core, and wait until it is safe to access a particular part of memory. This works well with few cores/threads and infrequent interactions, but does not scale well to many cores and frequently accessed shared memory. In this case, coordination using atomic instructions can lead to a form of gridlock, except between CPU cores instead of vehicles.&nbsp;</p>\n<div>This project investigated an alternative approach, which avoids the need to and the performance problems associated with sharing memory between threads. Instead of threads all competing for safe, exclusive access to shared memory, a single thread is assigned as the trustee or custodian of any given shared memory object. Other threads indirectly access this object by sending requests to the trustee, which then operates on the object on their behalf. This eliminates all contention for shared memory, and obviates the need for hardware-provided atomic instructions.&nbsp;</div>\n<div>The team built a software environment called Trust&lt;T&gt; for developing applications using this approach, and evaluated it on both small test programs and large programs popular with industry. For small programs which emphasize shared memory access, the team observed performance improvements of as much as 10x, with minimal changes to the programs. For the largest industry scale program tested (memcached), the team found that performance gains varied with workload characteristics, ranging from virtually unchanged for the least challenging settings, to as much as 5x for use-cases with skewed access frequencies and a substantial fraction of updates vs. read-only accesses.&nbsp;</div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/19/2023<br>\n\t\t\t\t\tModified by: Jakob&nbsp;Eriksson</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn the past decades, computer processor designers have largely relied on increasing parallelism to continue providing performance improvements. This is easily seen in the number of \"cores\" available in modern CPUs, with 8-core CPUs now common in smartphones, and 64 cores not unheard of in desktop and server CPUs. \n\nIn principle, doubling the number of cores can lead to a doubling in available performance, but only if the software can be expressed in terms of that many fully independent \"threads\" of execution - sets of instructions to execute in sequence. Real programs, however, typically require interaction and coordination between threads, typically in the form of access to areas of memory shared between threads. \n\nToday, such coordination is achieved using processor-provided atomic instructions, to avoid the risk \"crosstalk\" between threads, which can otherwise lead to severe software bugs. Atomic instructions essentially halt all work on a given core, and wait until it is safe to access a particular part of memory. This works well with few cores/threads and infrequent interactions, but does not scale well to many cores and frequently accessed shared memory. In this case, coordination using atomic instructions can lead to a form of gridlock, except between CPU cores instead of vehicles. \nThis project investigated an alternative approach, which avoids the need to and the performance problems associated with sharing memory between threads. Instead of threads all competing for safe, exclusive access to shared memory, a single thread is assigned as the trustee or custodian of any given shared memory object. Other threads indirectly access this object by sending requests to the trustee, which then operates on the object on their behalf. This eliminates all contention for shared memory, and obviates the need for hardware-provided atomic instructions. \nThe team built a software environment called Trust&lt;T&gt; for developing applications using this approach, and evaluated it on both small test programs and large programs popular with industry. For small programs which emphasize shared memory access, the team observed performance improvements of as much as 10x, with minimal changes to the programs. For the largest industry scale program tested (memcached), the team found that performance gains varied with workload characteristics, ranging from virtually unchanged for the least challenging settings, to as much as 5x for use-cases with skewed access frequencies and a substantial fraction of updates vs. read-only accesses. \n\n \n\n\t\t\t\t\tLast Modified: 01/19/2023\n\n\t\t\t\t\tSubmitted by: Jakob Eriksson"
+ }
+}

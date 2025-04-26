@@ -1,0 +1,105 @@
+{
+ "awd_id": "1265434",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Collaborative Research:  Using PDE Descriptions to Generate Code Precisely Tailored to Energy-Constrained Systems Including Large GPU Accelerated Clusters",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rajiv Ramnath",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 100000.0,
+ "awd_amount": 100000.0,
+ "awd_min_amd_letter_date": "2013-08-15",
+ "awd_max_amd_letter_date": "2013-08-15",
+ "awd_abstract_narration": "Modern computer system architectures are forcing computational scientists to move scientific applications from traditional homogeneous cpu-based systems to heterogeneous multi-core/accelerator architectures.   Obtaining performance in the presence of accelerators requires close attention to the memory hierarchy and chip-level parallelism to reach even a modest fraction of the potential performance. As a result, coding tasks which were once the province of lone graduate students in a single discipline now require interdisciplinary teams of people. Project Chemora will explore the design of a new application framework for automatically creating highly optimized code for high-end computational machines. The system will use as input a set of partial differential equations (PDEs) that describe a problem, it will then construct a machine-specific abstract performance model, and using these it will generate well-tuned code and execution configurations for accelerated (e.g., hybrid CPU/GPU) computing clusters at various scales.  Chemora will improve programmability  by decoupling the science and computer science at a high level, thereby reducing the complexity and number of issues scientists need to collectively understand and allowing individual scientists in the team to focus on their area of specialty. Chemora will improve performance (both wallclock time and energy) for systems with both simple and complex sets of equations by making use of detailed information describing the problem and machine, and will provide improved load balancing through the AMPI framework.\r\n\r\nThe Chemora project  has chosen the Einstein equations as the primary science driver because these equations are one of the more complex PDE systems, one with many hundreds of terms, and a problem scale that is challenging to optimize for most compilers. Achieving this vision for a general scientific problem would indeed be a \"Grand Challenge\" in computational science, but in order to give the research a sharper focus the project will focus on the simulation of Intermediate mass ratio Binary Black Hole (IBBH) systems. Such systems, consisting of a black hole of mass 100 to 1,000 solar masses orbited by a smaller black hole of mass 5 to 20 solar masses are expected to be important sources of gravitational waves for advanced Laser Interferometer Gravitational Wave Observatory (LIGO) and the Einstein Telescope (ET). Accurate modeling of the waveforms from IBBH systems will be necessary in order to extract gravitational wave signals using template-matching data analysis techniques.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "Bader",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "David A Bader",
+   "pi_email_addr": "bader@njit.edu",
+   "nsf_id": "000206826",
+   "pi_start_date": "2013-08-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Ave NW",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "808400",
+   "pgm_ele_name": "CDS&E"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8084",
+   "pgm_ref_txt": "CDS&E"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Georgia Tech is co-developing the Chemora framework, and leading the design and implementation of parallel algorithms using CPU and GPU's together. The code is being used to model and simulate the merging of binary stars.</p>\n<p>We have integrated major portions of the Chemora framework with the existing Einstein Toolkit for numerical relativity, eliminating memory access bugs.&nbsp; We have resequenced host and device routines to support host-driven analysis of data, particularly for the vital case of gravitational radiation extraction from a GPU accelerated binary black hole simulation.</p>\n<p>The grant paid for one graduate student to assist with correctness and performance testing of a GPU-based code for accelerating Einstein's equations, particularly for simulations of binary black hole systems.</p>\n<p>Over the course of the grant period, the student identified critical errors in the computation of derivatives from the GPU-accelerated code.&nbsp; This identification helped focus project efforts toward a solution, and the project now can simulate the evolution of black holes and binary black holes correctly.</p>\n<p>A practical GPU-accelerated simulation of general relativistic systems still faces performance hurdles.&nbsp; The project has yet to demonstrate competitive or better speeds compared to existing CPU-based codes. The student investigated combinations of MPI processes, total number of cores, and OpenMP threads to assess performance across a variety of system configurations and to direct further project efforts toward speedup of the slowest-performing components of the overall code.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/07/2016<br>\n\t\t\t\t\tModified by: David&nbsp;A&nbsp;Bader</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nGeorgia Tech is co-developing the Chemora framework, and leading the design and implementation of parallel algorithms using CPU and GPU's together. The code is being used to model and simulate the merging of binary stars.\n\nWe have integrated major portions of the Chemora framework with the existing Einstein Toolkit for numerical relativity, eliminating memory access bugs.  We have resequenced host and device routines to support host-driven analysis of data, particularly for the vital case of gravitational radiation extraction from a GPU accelerated binary black hole simulation.\n\nThe grant paid for one graduate student to assist with correctness and performance testing of a GPU-based code for accelerating Einstein's equations, particularly for simulations of binary black hole systems.\n\nOver the course of the grant period, the student identified critical errors in the computation of derivatives from the GPU-accelerated code.  This identification helped focus project efforts toward a solution, and the project now can simulate the evolution of black holes and binary black holes correctly.\n\nA practical GPU-accelerated simulation of general relativistic systems still faces performance hurdles.  The project has yet to demonstrate competitive or better speeds compared to existing CPU-based codes. The student investigated combinations of MPI processes, total number of cores, and OpenMP threads to assess performance across a variety of system configurations and to direct further project efforts toward speedup of the slowest-performing components of the overall code.\n\n \n\n\t\t\t\t\tLast Modified: 09/07/2016\n\n\t\t\t\t\tSubmitted by: David A Bader"
+ }
+}

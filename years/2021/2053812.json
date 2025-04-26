@@ -1,0 +1,113 @@
+{
+ "awd_id": "2053812",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CDS&E: Collaborative Research: Surrogates and Reduced Order Modeling for High Dimensional Coupled Systems",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032927299",
+ "po_email": "yzeng@nsf.gov",
+ "po_sign_block_name": "Yong Zeng",
+ "awd_eff_date": "2021-08-01",
+ "awd_exp_date": "2024-07-31",
+ "tot_intn_awd_amt": 70000.0,
+ "awd_amount": 70000.0,
+ "awd_min_amd_letter_date": "2021-07-27",
+ "awd_max_amd_letter_date": "2021-07-27",
+ "awd_abstract_narration": "Increasingly, mathematical modeling of complex scientific systems plays a crucial role both in understanding and in making predictions about these systems. To understand the effects of different model assumptions and parameter values, one might need millions of computational simulations to fully probe a system's behavior. This computational burden is compounded by the fact that many complex systems are modeled not by just one computational model or algorithm, but rather by sets of sub-models and codes that need to interact with each other. This project aims to develop efficient and flexible approximations to such coupled computational models, to take the computational bottleneck out of the mathematical modeling-based scientific discovery process. The research will focus on a prototype coupled model of fluid flow and mechanical deformation that can be adapted to model both hydraulic fracturing and cartilage biomechanics. Students will be involved and trained in interdisciplinary aspects of the project. \r\n\r\nComputational simulation of systems of scientific and practical interest often requires coupling two or more mathematical models of physical phenomena. Such simulations typically depend on many input parameters, while validation of the models is constrained by limited available data. Numerical simulators of coupled mathematical models use approaches of full or loose coupling. Full coupling involves solving a single set of equations simultaneously, but due to computational complexity, feasible run times often necessitate simplified physics models. Conversely, loose coupling connects independent codes simulating distinct physical processes; it is often infeasible to run even loosely coupled simulations the large number of times required to perform uncertainty quantification. This project aims to develop methodology for Gaussian process emulation of high-dimensional coupled simulators and thus enable uncertainty quantification for challenging yet ubiquitous multi-physics models; the approaches will involve surrogate or reduced-order models of the governing model equations to allow quick approximation of the full physical simulator at different inputs. The efforts will entail developing (i) new ideas for dimension reduction, (ii) a novel method to emulate space-time fields, and (iii) an analysis of errors owing to both dimension reduction and emulation.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ralph",
+   "pi_last_name": "Smith",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ralph C Smith",
+   "pi_email_addr": "rsmith@ncsu.edu",
+   "nsf_id": "000414421",
+   "pi_start_date": "2021-07-27",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Mansoor",
+   "pi_last_name": "Haider",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mansoor A Haider",
+   "pi_email_addr": "mahaider@ncsu.edu",
+   "nsf_id": "000184366",
+   "pi_start_date": "2021-07-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "North Carolina State University",
+  "inst_street_address": "2601 WOLF VILLAGE WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "RALEIGH",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9195152444",
+  "inst_zip_code": "276950001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "NC02",
+  "org_lgl_bus_name": "NORTH CAROLINA STATE UNIVERSITY",
+  "org_prnt_uei_num": "U3NVH931QJJ3",
+  "org_uei_num": "U3NVH931QJJ3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "North Carolina State University",
+  "perf_str_addr": "",
+  "perf_city_name": "Raleigh",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "276958209",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "NC02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806900",
+   "pgm_ele_name": "CDS&E-MSS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 70000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Intellectual Merit:</strong></p>\r\n<p>Complex coupled multiphysics simulations are ubiquitous in science and engineering. Outputs of these models are generally not scalar quantities but depend on space and/or time. Gaussian process (GP) emulators are statistical surrogates that approximate the output of complex computer models at untested inputs. They were originally developed in the context of scalar output from a single physical model but have since been extended to vector-valued quantities of interest (parallel partial emulators, PPEs) and to coupled physics by connecting two independent emulators (linked emulation). Through this project, the principal investigators (PIs) developed the parallel partial linked GP emulator (PPLE) that combines the efficiency of a shared correlation structure with the accuracy of linked emulators to produce a new tool for emulating compositions of functions with vector-valued output. The PPLE outperforms several other surrogate strategies for high-dimensional, multi-physics computer models.</p>\r\n<p>A bio-mechanical cartilage model can be structured as a mechanics+fluids composition. However the usual equations are too simple to exercise the PPE as a surrogate model. As a different application, an operator emulator can be developed. In a typical cartilage application, one end (say x=1) of the cartilage is fixed (zero displacement) and the other end (x=0) experiences a prescribed displacement, such as a ramp-and-hold. PIs have developed this operator framework, mapping the x=0 displacement (a function of time) to the cartilage displacement field (a function of space). The x=0 displacement is approximated by a set of radial basis functions (RBFs), and the RBF representation of the displacement is used as the input parameters to the emulator. The theory of RBF regression provides a measure of error in the input space, depending on the number of RBFs used in the representation.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Broader Impacts:</strong></p>\r\n<p>Tamara Dolski completed her PhD from UT Dallas in February, 2024. She was jointly supervised by PIs Minkoff and Spiller. Dr. Dolski is now an instructor at the University of North Texas. Her work will directly inform surrogates for hydraulic fracturing models. While volume creation is the goal of hydraulic fracture stimulation, it is not possible to directly measure this change in the reservoir or to numerically simulate a wide range of geologic and production scenarios. Currently, success of stimulation is measured via remote monitoring of tiny earthquakes (or microseismic events). GP surrogates allow us to quickly sample distributions for both&nbsp; microseismicity and volume creation, and we show that&nbsp; such seismic measurements may record large sliding events in which volume is not created in the reservoir.</p>\r\n<p>Joseph Lyon is a PhD student at Marquette who is anticipated to graduate in 2025. His thesis work on spatial sampling for PPEs will provide the necessary elements to make the zero-censored GP strategy (partially developed under this project) computationally efficient for emulating geophysical flow models in cases of high-dimensional spatial output (i.e., maps with millions of pixels). This advancement will provide a critical step to overcome significant surrogate modeling and computational challenges in using emulators for probabilistic hazard assessments/maps. PI Spiller will utilize this new tool in ongoing work with the UKRI-funded Ixchel Project to develop probabilistic hazards maps for Volcan de Fuego in Guatemala.</p>\r\n<p>For his dissertation, doctoral student at Buffalo Luke Bodmer is building a &ldquo;lightweight&rdquo; and portable imaging system to enable reasonably accurate imaging diagnostics for use in poor and underserved locales, areas in which high-end imaging is not readily available. A homemade source-plus-sensor headset is currently being used to generate training data, and it will be used for testing. Training simulations will be run prior to deployment with outputs stored on a high-end laptop, which will be used to run the entire inverse problem solver. Emulation, via PPGaSP, will be used as the workhorse for solving the inverse problem.</p>\r\n<p>The project PIs along with Daniel Williamson (University of Exeter) are organizing a workshop at IMSI in late February 2025 on <em>Uncertainty Quantification Strategies for Multi-Physics Systems and Digital Twins</em>. The workshop will begin with a tutorial &ndash; targeting students and junior researchers &ndash; on digital twins and linked GP emulators for multi-physics systems. The rest of the workshop brings together researchers in surrogate modeling, digital twins, and multi-physics systems. Beyond disseminating results from this project, the meeting will focus on establishing challenges and objectives for multi-physics surrogates suitable for digital twins. Further, we seek to establish connections and synergies among researchers to promote advancements in uncertainty quantification in multi-physics systems.</p><br>\n<p>\n Last Modified: 11/25/2024<br>\nModified by: Mansoor&nbsp;A&nbsp;Haider</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nIntellectual Merit:\r\n\n\nComplex coupled multiphysics simulations are ubiquitous in science and engineering. Outputs of these models are generally not scalar quantities but depend on space and/or time. Gaussian process (GP) emulators are statistical surrogates that approximate the output of complex computer models at untested inputs. They were originally developed in the context of scalar output from a single physical model but have since been extended to vector-valued quantities of interest (parallel partial emulators, PPEs) and to coupled physics by connecting two independent emulators (linked emulation). Through this project, the principal investigators (PIs) developed the parallel partial linked GP emulator (PPLE) that combines the efficiency of a shared correlation structure with the accuracy of linked emulators to produce a new tool for emulating compositions of functions with vector-valued output. The PPLE outperforms several other surrogate strategies for high-dimensional, multi-physics computer models.\r\n\n\nA bio-mechanical cartilage model can be structured as a mechanics+fluids composition. However the usual equations are too simple to exercise the PPE as a surrogate model. As a different application, an operator emulator can be developed. In a typical cartilage application, one end (say x=1) of the cartilage is fixed (zero displacement) and the other end (x=0) experiences a prescribed displacement, such as a ramp-and-hold. PIs have developed this operator framework, mapping the x=0 displacement (a function of time) to the cartilage displacement field (a function of space). The x=0 displacement is approximated by a set of radial basis functions (RBFs), and the RBF representation of the displacement is used as the input parameters to the emulator. The theory of RBF regression provides a measure of error in the input space, depending on the number of RBFs used in the representation.\r\n\n\n\r\n\n\nBroader Impacts:\r\n\n\nTamara Dolski completed her PhD from UT Dallas in February, 2024. She was jointly supervised by PIs Minkoff and Spiller. Dr. Dolski is now an instructor at the University of North Texas. Her work will directly inform surrogates for hydraulic fracturing models. While volume creation is the goal of hydraulic fracture stimulation, it is not possible to directly measure this change in the reservoir or to numerically simulate a wide range of geologic and production scenarios. Currently, success of stimulation is measured via remote monitoring of tiny earthquakes (or microseismic events). GP surrogates allow us to quickly sample distributions for both microseismicity and volume creation, and we show that such seismic measurements may record large sliding events in which volume is not created in the reservoir.\r\n\n\nJoseph Lyon is a PhD student at Marquette who is anticipated to graduate in 2025. His thesis work on spatial sampling for PPEs will provide the necessary elements to make the zero-censored GP strategy (partially developed under this project) computationally efficient for emulating geophysical flow models in cases of high-dimensional spatial output (i.e., maps with millions of pixels). This advancement will provide a critical step to overcome significant surrogate modeling and computational challenges in using emulators for probabilistic hazard assessments/maps. PI Spiller will utilize this new tool in ongoing work with the UKRI-funded Ixchel Project to develop probabilistic hazards maps for Volcan de Fuego in Guatemala.\r\n\n\nFor his dissertation, doctoral student at Buffalo Luke Bodmer is building a lightweight and portable imaging system to enable reasonably accurate imaging diagnostics for use in poor and underserved locales, areas in which high-end imaging is not readily available. A homemade source-plus-sensor headset is currently being used to generate training data, and it will be used for testing. Training simulations will be run prior to deployment with outputs stored on a high-end laptop, which will be used to run the entire inverse problem solver. Emulation, via PPGaSP, will be used as the workhorse for solving the inverse problem.\r\n\n\nThe project PIs along with Daniel Williamson (University of Exeter) are organizing a workshop at IMSI in late February 2025 on Uncertainty Quantification Strategies for Multi-Physics Systems and Digital Twins. The workshop will begin with a tutorial  targeting students and junior researchers  on digital twins and linked GP emulators for multi-physics systems. The rest of the workshop brings together researchers in surrogate modeling, digital twins, and multi-physics systems. Beyond disseminating results from this project, the meeting will focus on establishing challenges and objectives for multi-physics surrogates suitable for digital twins. Further, we seek to establish connections and synergies among researchers to promote advancements in uncertainty quantification in multi-physics systems.\t\t\t\t\tLast Modified: 11/25/2024\n\n\t\t\t\t\tSubmitted by: MansoorAHaider\n"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "awd_id": "1528108",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "STARSS: Small: Collaborative: Specification and Verification for Secure Hardware",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2015-08-15",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 146667.0,
+ "awd_amount": 146667.0,
+ "awd_min_amd_letter_date": "2015-08-11",
+ "awd_max_amd_letter_date": "2015-08-11",
+ "awd_abstract_narration": "There is a growing need for techniques to detect security vulnerabilities in hardware and at the hardware-software interface. Such vulnerabilities arise from the use of untrusted supply chains for processors and system-on-chip components and from the scope for malicious agents to subvert a system by exploiting hardware defects arising from design errors, incomplete specifications, or maliciously inserted blocks. This project addresses the problem by developing foundational techniques and tools for formal and semi-formal specification and verification of security properties of hardware. \r\n\r\nThis project addresses gaps in the current specification and verification processes for hardware designs. Given a design and a (possibly informal) specification, the approach first identifies signals that correspond to high-integrity or confidential parts of the design, such as privileged mode flags or secret keys. The approach uses this information to perform critical signal analysis, specification generation, security-aware specification analysis, and test characterization and augmentation. These steps are iterated  until a suitable level of security assurance is attained. The methods build upon formal computational engines for Boolean reasoning, symbolic simulation, and model checking. The project is evaluated using case studies based on processor cores and non-processor blocks, where each case study includes both offensive and defensive components. Tangible results will include theories, threat models, software tools, benchmarks, and case studies. Results from the project are incorporated into courses and textbooks written by the PIs to teach students how to design systems with a security mindset.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sanjit",
+   "pi_last_name": "Seshia",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sanjit Seshia",
+   "pi_email_addr": "sseshia@eecs.berkeley.edu",
+   "nsf_id": "000447335",
+   "pi_start_date": "2015-08-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California - Berkeley",
+  "perf_str_addr": "568 Cory Hall",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947201770",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8225",
+   "pgm_ref_txt": "SaTC Special Projects"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 146667.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>As computing moves to the cloud, there is a pressing need to provide users with strong guarantees of security and privacy. Such guarantees are difficult to provide for standard computing platforms that have a large software trusted computing base. While trusted platforms based on hardware security primitives offer the promise of a smaller trusted computing base, the challenge of guaranteeing security remains. The goal of this project was to develop novel formal techniques for modeling, specification, and verification of security properties of trusted hardware platforms and the software executing on these platforms.</p>\n<p>To this end, the project included the following major accomplishments:</p>\n<p>(i) Intellectual Merit: The project developed new techniques and tools for the verification of confidentiality properties of software executing on Intel SGX trusted enclave platforms. Results include the creation of models of relevant aspects of SGX, the development of several models of privileged software adversaries who have access to non-enclave memory and CPU state, a verification methodology for proving that an application running on SGX does not contain a vulnerability that causes it to reveal secrets to the adversary, and an extension to handle side channels such as page access patterns.&nbsp; In addition, the project developed a formal foundation for trusted enclave platforms with three key contributions: formalizing the notion of secure remote execution; formalizing a class of trusted platforms by developing a specification called the trusted abstract platform (TAP), and proving that formal models of Intel SGX and the MIT RISC-V Sanctum processor refine the TAP, albeit under different attacker models. The project also contributed to new computational tools for formal verification and synthesis, including the UCLID5 toolkit for modeling and verification of computational systems, and the CADET solver for quantified Boolean formulas with one quantifier alternation.</p>\n<p>(ii) Broader Impact: The project has been instrumental in training both graduate students and postdoctoral researchers, and has also involved undergraduate students in research projects. The PI has also disseminated results obtained in the project to a broader audience through courses, tutorials and invited talks. Software developed in this project has been released publicly as open source.&nbsp; This work has also had industry impact by influencing the design of Microsoft's Azure Confidential Computing services.</p>\n<p>In summary, this project developed theory, techniques, and tools that provide a foundation for developing secure cloud computing platforms, has influenced the design of industry cloud computing systems, and has trained students and postdoctoral researchers to be leaders in the design and verification of secure computing platforms.<br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/18/2018<br>\n\t\t\t\t\tModified by: Sanjit&nbsp;Seshia</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAs computing moves to the cloud, there is a pressing need to provide users with strong guarantees of security and privacy. Such guarantees are difficult to provide for standard computing platforms that have a large software trusted computing base. While trusted platforms based on hardware security primitives offer the promise of a smaller trusted computing base, the challenge of guaranteeing security remains. The goal of this project was to develop novel formal techniques for modeling, specification, and verification of security properties of trusted hardware platforms and the software executing on these platforms.\n\nTo this end, the project included the following major accomplishments:\n\n(i) Intellectual Merit: The project developed new techniques and tools for the verification of confidentiality properties of software executing on Intel SGX trusted enclave platforms. Results include the creation of models of relevant aspects of SGX, the development of several models of privileged software adversaries who have access to non-enclave memory and CPU state, a verification methodology for proving that an application running on SGX does not contain a vulnerability that causes it to reveal secrets to the adversary, and an extension to handle side channels such as page access patterns.  In addition, the project developed a formal foundation for trusted enclave platforms with three key contributions: formalizing the notion of secure remote execution; formalizing a class of trusted platforms by developing a specification called the trusted abstract platform (TAP), and proving that formal models of Intel SGX and the MIT RISC-V Sanctum processor refine the TAP, albeit under different attacker models. The project also contributed to new computational tools for formal verification and synthesis, including the UCLID5 toolkit for modeling and verification of computational systems, and the CADET solver for quantified Boolean formulas with one quantifier alternation.\n\n(ii) Broader Impact: The project has been instrumental in training both graduate students and postdoctoral researchers, and has also involved undergraduate students in research projects. The PI has also disseminated results obtained in the project to a broader audience through courses, tutorials and invited talks. Software developed in this project has been released publicly as open source.  This work has also had industry impact by influencing the design of Microsoft's Azure Confidential Computing services.\n\nIn summary, this project developed theory, techniques, and tools that provide a foundation for developing secure cloud computing platforms, has influenced the design of industry cloud computing systems, and has trained students and postdoctoral researchers to be leaders in the design and verification of secure computing platforms.\n\n\n\n\t\t\t\t\tLast Modified: 11/18/2018\n\n\t\t\t\t\tSubmitted by: Sanjit Seshia"
+ }
+}

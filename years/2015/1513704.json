@@ -1,0 +1,105 @@
+{
+ "awd_id": "1513704",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: TTP Option: Medium: Collaborative: ENCORE - ENhanced program protection through COmpiler-REwriter cooperation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2015-07-01",
+ "awd_exp_date": "2019-06-30",
+ "tot_intn_awd_amt": 177003.0,
+ "awd_amount": 177003.0,
+ "awd_min_amd_letter_date": "2015-06-09",
+ "awd_max_amd_letter_date": "2015-06-09",
+ "awd_abstract_narration": "Critical errors in widely used software are discovered almost every day. They currently leave users of that software vulnerable to cyber attacks until the manufacturer eventually supplies a fix - sometimes this takes unacceptably long. There currently is no way that users of commercial off-the-shelf software that is distributed as binary code can go and fix such vulnerabilities themselves, ex post facto, because software is not easily changeable once it has been compiled to binary form. This research project investigates techniques for enabling consumer-side rewriting of binary software. The approach is appealing because it can be deployed quickly in response to new threats, without waiting for code-producers, and can enforce consumer-specific security policies unsupported or unforeseen by the software?s developers. If successful, this research will lead to significant improvements in software security.\r\n\r\nConsumer-side binary rewriting is currently not feasible because binary files don't contain enough information to do it safely. On the other hand, code producers don't want to reveal too many implementation details of their code due to intellectual property and software piracy concerns. The key goal of this project is to enable code producers to supplement their binary code with a small amount of metadata that can be used, consumer-side, to perform sophisticated binary rewriting, but without disclosing much extra information about the internal working of the code and without making reverse-engineering much easier than before. The project will produce a prototype implementation consisting of a producer-side metadata derivation engine, and a consumer-side binary rewriting engine using this metadata to safely perform binary code manipulation.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kevin",
+   "pi_last_name": "Hamlen",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kevin Hamlen",
+   "pi_email_addr": "kxh060100@utdallas.edu",
+   "nsf_id": "000537584",
+   "pi_start_date": "2015-06-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Dallas",
+  "inst_street_address": "800 WEST CAMPBELL RD.",
+  "inst_street_address_2": "SP2.25",
+  "inst_city_name": "RICHARDSON",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "9728832313",
+  "inst_zip_code": "750803021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "24",
+  "st_cong_dist_code": "TX24",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT DALLAS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "EJCVPNN1WFS5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Dallas",
+  "perf_str_addr": "",
+  "perf_city_name": "Richardson",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "750803021",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "24",
+  "perf_st_cong_dist": "TX24",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 177003.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Software consumers today must typically rely almost entirely on software developers to assure the security of the products they develop.&nbsp; Unfortunately, software developers cannot always anticipate the security needs of every individual consumer, and even their best attempts to secure their software can leave catastrophic vulnerabilities for adversaries to exploit and do damage.&nbsp; Security-sensitive consumers (e.g., military, health care) presently have few means to assess or strengthen the security of the software they purchase because most methods for doing so require access to the original source code of the software, which developers are unwilling to divulge for intellectual property reasons.</p>\n<p>To improve this situation, this project has studied and invented new strategies for software security hardening that can be applied to raw, off-the-shelf binary software products without any access to the original source code.&nbsp; The inventions have the characteristic that if developers cooperate by providing limited forms of meta-data (not full source code), then the consumer-side security hardening will be more effective (e.g., less overhead, more accurate attack detection).&nbsp; This will potentially motivate software producers to provide such meta-data in the future, since it will potentially reward them with increased sales without exposing any of their intellectual property.&nbsp; However, even without developer cooperation, the invented technologies can nevertheless enforce strong security properties without source code, though possibly not as efficiently.</p>\n<p>Technologies invented and studied as part of the project include: (1) a method of automatically removing unnecessary \"bloated\" code from binary software in order to reduce the amount of code available for an adversary to exploit, (2) a new testing methodology whereby consumers and producers can independently evaluate security of defenses against software hijacking attacks, (3) a strategy for leveraging graphics cards (GPUs) as security monitors to detect attacks against Java programs, and (4) new defenses for binary software attacks against web scripts, smart contracts, and cryptominers.&nbsp; These discoveries and investigations have culminated in peer-reviewed, scientific publications in many of the top security venues, as well as new defense capabilities for U.S. military agencies.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/22/2020<br>\n\t\t\t\t\tModified by: Kevin&nbsp;Hamlen</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSoftware consumers today must typically rely almost entirely on software developers to assure the security of the products they develop.  Unfortunately, software developers cannot always anticipate the security needs of every individual consumer, and even their best attempts to secure their software can leave catastrophic vulnerabilities for adversaries to exploit and do damage.  Security-sensitive consumers (e.g., military, health care) presently have few means to assess or strengthen the security of the software they purchase because most methods for doing so require access to the original source code of the software, which developers are unwilling to divulge for intellectual property reasons.\n\nTo improve this situation, this project has studied and invented new strategies for software security hardening that can be applied to raw, off-the-shelf binary software products without any access to the original source code.  The inventions have the characteristic that if developers cooperate by providing limited forms of meta-data (not full source code), then the consumer-side security hardening will be more effective (e.g., less overhead, more accurate attack detection).  This will potentially motivate software producers to provide such meta-data in the future, since it will potentially reward them with increased sales without exposing any of their intellectual property.  However, even without developer cooperation, the invented technologies can nevertheless enforce strong security properties without source code, though possibly not as efficiently.\n\nTechnologies invented and studied as part of the project include: (1) a method of automatically removing unnecessary \"bloated\" code from binary software in order to reduce the amount of code available for an adversary to exploit, (2) a new testing methodology whereby consumers and producers can independently evaluate security of defenses against software hijacking attacks, (3) a strategy for leveraging graphics cards (GPUs) as security monitors to detect attacks against Java programs, and (4) new defenses for binary software attacks against web scripts, smart contracts, and cryptominers.  These discoveries and investigations have culminated in peer-reviewed, scientific publications in many of the top security venues, as well as new defense capabilities for U.S. military agencies.\n\n\t\t\t\t\tLast Modified: 05/22/2020\n\n\t\t\t\t\tSubmitted by: Kevin Hamlen"
+ }
+}

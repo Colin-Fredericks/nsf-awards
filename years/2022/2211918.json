@@ -1,0 +1,114 @@
+{
+ "awd_id": "2211918",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "III: SMALL: Scalable In-Database Prescriptive Analytics for Dynamic Environments",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032922232",
+ "po_email": "sdraghic@nsf.gov",
+ "po_sign_block_name": "Sorin Draghici",
+ "awd_eff_date": "2022-09-01",
+ "awd_exp_date": "2026-08-31",
+ "tot_intn_awd_amt": 599995.0,
+ "awd_amount": 599995.0,
+ "awd_min_amd_letter_date": "2022-08-25",
+ "awd_max_amd_letter_date": "2022-08-25",
+ "awd_abstract_narration": "Decision makers in a broad range of domains, such as finance, transportation, manufacturing, and healthcare, often need to derive optimal decisions given a set of constraints and objectives; that is, they need to employ \"prescriptive analytics\". Traditional solutions to such constrained optimization problems, while having generated billions of dollars, are typically application-specific, complex, hard to use by non-optimization-experts, and do not generalize. Further, the usual workflow requires slow, cumbersome, and error-prone data movement between a database and predictive-modeling and optimization tools. All of these problems are exacerbated by the unprecedented size of modern data-intensive optimization problems. The goal of this project is to significantly advance the technology underlying in-database prescriptive analytics to provide seamless domain-independent, easy-to-use, and scalable decision-making tools powered in the database system where the data typically reside. Specifically, the project aims to augment prior work on in-database support for constrained optimization problems with capabilities to handle dynamic environments. This is because decision environments are typically highly dynamic, with data that is uncertain and evolving, and decision problems that may be not precisely defined and changing over time. The investigators will contribute new models and evaluation algorithms that handle uncertain and evolving data and problem variants at scale. The improved methods for integrating optimization with database technology will help lower the barriers to use of prescriptive analytics by domain experts who are not experts in optimization, thereby amplifying the benefits of these planning and management techniques to society.\r\n\r\nIn detail, the project will extend prior methods to handle data uncertainty at scale via in-database support for large-scale stochastic integer linear programs (ILPs) that are specified by the user as \"stochastic package queries\" (SPQs) using an extension of the SQL database query language. Such a query selects an optimal set (\"package\") of tuples that satisfy both per-tuple and global constraints. Supporting efficient processing of SPQs entails development of fast approximate query evaluation algorithms with accuracy guarantees. The investigators will next develop fast incremental and progressive query evaluation techniques to allow for rapid what-if analysis and planning. They will first focus on deterministic data and investigate strategies to allow for incremental maintenance of a package result when the underlying data or query changes slightly. The team of researchers will investigate several pathways, such as reengineering the ILP solvers to exploit the special structure of package queries in order to speed up intermediate steps in the initial query evaluation and also facilitate incremental re-optimization. These results will then be leveraged and extended to support incremental evaluation over uncertain data. The project will investigate both how data uncertainty impacts the incremental evaluation strategies designed for deterministic data and how to handle additional factors that instigate change in the stochastic setting, such as changes over time to the probability distribution of uncertain items. For the latter, techniques to be considered include updating a package solution via stochastic search, evaluating the effect of query and data changes via stochastic sensitivity analysis, and speeding up incremental SPQ processing using pre-computation techniques. The final stage of the project will integrate the foregoing algorithms and extensions into a full-fledged system equipped to handle large-scale uncertain data, with the ability to employ incremental evaluation strategies to adapt to data and query changes.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Peter",
+   "pi_last_name": "Haas",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Peter J Haas",
+   "pi_email_addr": "phaas@cs.umass.edu",
+   "nsf_id": "000779303",
+   "pi_start_date": "2022-08-25",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Alexandra",
+   "pi_last_name": "Meliou",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alexandra Meliou",
+   "pi_email_addr": "ameli@cs.umass.edu",
+   "nsf_id": "000637003",
+   "pi_start_date": "2022-08-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Massachusetts Amherst",
+  "inst_street_address": "101 COMMONWEALTH AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "AMHERST",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "4135450698",
+  "inst_zip_code": "010039252",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "MA02",
+  "org_lgl_bus_name": "UNIVERSITY OF MASSACHUSETTS",
+  "org_prnt_uei_num": "VGJHK59NMPK9",
+  "org_uei_num": "VGJHK59NMPK9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Massachusetts Amherst",
+  "perf_str_addr": "Research Administration Building",
+  "perf_city_name": "Hadley",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "010359450",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "MA02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7364",
+   "pgm_ref_txt": "INFO INTEGRATION & INFORMATICS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 599995.0
+  }
+ ],
+ "por": null
+}

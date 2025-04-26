@@ -1,0 +1,117 @@
+{
+ "awd_id": "1527223",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "SHF: Small: Computer Architecture for Scripting Languages",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Yuanyuan Yang",
+ "awd_eff_date": "2015-08-01",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2015-07-28",
+ "awd_max_amd_letter_date": "2016-08-31",
+ "awd_abstract_narration": "The goal of this work is to speed-up the execution of the\r\nmost popular programming languages of the internet, namely Scripting Languages\r\nsuch as JavaScript and Python. These languages are easy to use, because\r\nthey do not require declaring all the variables. However, this makes them very\r\nhard to compile efficiently. In this work, the principal investigator will design\r\nprocessor hardware that is specifically equipped to help speed-up\r\nthese languages. Given the importance of these languages for\r\nweb development, effective techniques to speed-up their execution\r\nare fundamental for the continued development of the\r\nweb infrastructure. Such development is crucial to our\r\nsociety's efficiency, competitiveness, and wellbeing.\r\n\r\nThe principal investigator will focus on several techniques.\r\nOne of them is using speculation support to execute the most likely\r\nexecution path of the codes, and undo the execution if another path\r\nwas taken instead. The other technique is prediction, to predict which\r\nparts of the code will be executed. Finally, the third technique is reuse, where the\r\nprocessor will keep enough state in its structures to reuse\r\nit across invocations of the same functions.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Josep",
+   "pi_last_name": "Torrellas",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Josep Torrellas",
+   "pi_email_addr": "torrellas@cs.uiuc.edu",
+   "nsf_id": "000488177",
+   "pi_start_date": "2015-07-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618207473",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7941",
+   "pgm_ref_txt": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0116",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001617DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 176248.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2016,
+   "fund_oblg_amt": 323752.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this work, the PI shows how to improve the speed of JavaScript programexecution by enhancing the architecture of computer systems with mechanisms forspeculation, prediction, and reuse. The problem is important becauseJavaScript is ubiquitous in the internet software. Speeding-upits execution is fundamental for the continued development of the webinfrastructure. Such development is crucial to our society&rsquo;s efficiency,&nbsp;competitiveness, and well-being.&nbsp;</p>\n<p><br />Speculation involves executing the code optimized assuming the most common&nbsp;case. If the common case is actually found, code executes very fast; if an&nbsp;unusual code case is found, the hardware discards the execution andre-executes the code accordingly. To take advantage of this approach,we developed a new shared-memory computer architecture that uses transactional&nbsp;memory hardware to speed-up JavaScript codes. Recall that JavaScript Just-in-Time(JIT) compilers organize in multiple tiers, with higher tiers using profiling&nbsp;information to generate high-quality, specialized code. The higher tier insertschecks in the code to detect incorrect assumptions in the optimization. When a checkfails, execution transfers to a lower tier. &nbsp;The points of potential transferbetween tiers are called Stack Map Points (SMPs). To speed-up JavaScript,the PI extended a JavaScript compiler to generate hardware transactions around&nbsp;sets of SMPs, and perform speculative compiler optimizations to run the codefaster. In the common case, no SMP will be executed, and the code willrun fast; in the uncommon case that an SMP is invoked, the whole transactionis discarded, and the code re-executed without the compiler optimizations.</p>\n<p><br />In prediction, the runtime records the type of object that was observed in a&nbsp;function and, in future executions of the same function, the runtime predicts&nbsp;that the same object type will be observed. As a result, optimizations can be&nbsp;performed. The location in the code where this information is stored is the&nbsp;Inline Cache (IC). The PI studied how to use this idea to extend the branch&nbsp;predictor of the processor and enable fast object access in JavaScript.Specifically, the place in the code where an object property is to be accessedis called an Access Site. Access sites record information about the object&nbsp;types recently encountered at the access site. The code performs a series&nbsp;of checks to determine if an incoming object has the same type as any ofthe ones seen before. If so, the code jumps to the appropriate function to&nbsp;perform the correct operation. If all the checks fail, the code jumps to&nbsp;a location where expensive checks are performed. The process of identifying&nbsp;the correct type and invoking the correct function is called the Dispatch&nbsp;operation. The PI's technique is to modify the instruction that calls thefunction that performs the Dispatch operation so that, under typical&nbsp;conditions, it skips the call. This saves a lot of time. It is successfullybecause most of the time, the same object type is used.&nbsp;</p>\n<p><br />Reuse involves developing a new software layer that saves the state of the&nbsp;IC of a JavaScript program when the program terminates. Then, when the same&nbsp;JavaScript program is invoked again with a similar input, the compiler reuses&nbsp;such state. This support speeds-up the start up of JavaScript programs. The result&nbsp;is a much better user browsing experience. The idea of the PI is to represent&nbsp;a substantial portion of the IC information in an execution in a context-independentmanner, so that it can be reused in subsequent executions. He calls his enhanced&nbsp;IC design Reusable Inline Caching (RIC).&nbsp;</p>\n<p><br />The PI has integrated his software techniques in real JavaScript compilers.The work has enabled faster scripting language execution and helped speed-up&nbsp;web usage. In addition, the PI has presented this work to companies such as&nbsp;Qualcomm and Intel. Moreover, he teaches courses at the University of Illinois,&nbsp;which have been enhanced with these research results. Finally, he has&nbsp;released his simulator and compiler passes to other researchers and educators.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/10/2020<br>\n\t\t\t\t\tModified by: Josep&nbsp;Torrellas</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn this work, the PI shows how to improve the speed of JavaScript programexecution by enhancing the architecture of computer systems with mechanisms forspeculation, prediction, and reuse. The problem is important becauseJavaScript is ubiquitous in the internet software. Speeding-upits execution is fundamental for the continued development of the webinfrastructure. Such development is crucial to our society\u2019s efficiency, competitiveness, and well-being. \n\n\nSpeculation involves executing the code optimized assuming the most common case. If the common case is actually found, code executes very fast; if an unusual code case is found, the hardware discards the execution andre-executes the code accordingly. To take advantage of this approach,we developed a new shared-memory computer architecture that uses transactional memory hardware to speed-up JavaScript codes. Recall that JavaScript Just-in-Time(JIT) compilers organize in multiple tiers, with higher tiers using profiling information to generate high-quality, specialized code. The higher tier insertschecks in the code to detect incorrect assumptions in the optimization. When a checkfails, execution transfers to a lower tier.  The points of potential transferbetween tiers are called Stack Map Points (SMPs). To speed-up JavaScript,the PI extended a JavaScript compiler to generate hardware transactions around sets of SMPs, and perform speculative compiler optimizations to run the codefaster. In the common case, no SMP will be executed, and the code willrun fast; in the uncommon case that an SMP is invoked, the whole transactionis discarded, and the code re-executed without the compiler optimizations.\n\n\nIn prediction, the runtime records the type of object that was observed in a function and, in future executions of the same function, the runtime predicts that the same object type will be observed. As a result, optimizations can be performed. The location in the code where this information is stored is the Inline Cache (IC). The PI studied how to use this idea to extend the branch predictor of the processor and enable fast object access in JavaScript.Specifically, the place in the code where an object property is to be accessedis called an Access Site. Access sites record information about the object types recently encountered at the access site. The code performs a series of checks to determine if an incoming object has the same type as any ofthe ones seen before. If so, the code jumps to the appropriate function to perform the correct operation. If all the checks fail, the code jumps to a location where expensive checks are performed. The process of identifying the correct type and invoking the correct function is called the Dispatch operation. The PI's technique is to modify the instruction that calls thefunction that performs the Dispatch operation so that, under typical conditions, it skips the call. This saves a lot of time. It is successfullybecause most of the time, the same object type is used. \n\n\nReuse involves developing a new software layer that saves the state of the IC of a JavaScript program when the program terminates. Then, when the same JavaScript program is invoked again with a similar input, the compiler reuses such state. This support speeds-up the start up of JavaScript programs. The result is a much better user browsing experience. The idea of the PI is to represent a substantial portion of the IC information in an execution in a context-independentmanner, so that it can be reused in subsequent executions. He calls his enhanced IC design Reusable Inline Caching (RIC). \n\n\nThe PI has integrated his software techniques in real JavaScript compilers.The work has enabled faster scripting language execution and helped speed-up web usage. In addition, the PI has presented this work to companies such as Qualcomm and Intel. Moreover, he teaches courses at the University of Illinois, which have been enhanced with these research results. Finally, he has released his simulator and compiler passes to other researchers and educators. \n\n\t\t\t\t\tLast Modified: 03/10/2020\n\n\t\t\t\t\tSubmitted by: Josep Torrellas"
+ }
+}

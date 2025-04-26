@@ -1,0 +1,117 @@
+{
+ "awd_id": "1319657",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Scripting at the Speed of C",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-07-01",
+ "awd_exp_date": "2018-06-30",
+ "tot_intn_awd_amt": 475000.0,
+ "awd_amount": 475000.0,
+ "awd_min_amd_letter_date": "2013-06-25",
+ "awd_max_amd_letter_date": "2013-06-25",
+ "awd_abstract_narration": "Software developers are increasingly using dynamic scripting languages not only for quickly prototyping or as \"glue\"code, but also to write large applications. Programmers like scripting languages because they have the flexibility of simply using a variable when needed, without having to declare it. This results in fewer lines of code and allows for faster code development. Unfortunately the same features that make dynamic scripting languages more productive, make them hard to generate efficient code for.\r\n\r\nThis project is working on a hardware-software solution to enable programs written using dynamic scripting languages to run as fast as statically typed languages, such as C, C++ or Java. To that end, this project is working on the design of new program transformations that can generate highly efficient code by taking advantage of innovative hardware support that detects if the assumptions done when generating the code are correct. Additionally, novel hardware provides to the compiler information that enables even more aggressive optimizations. Hardware and software designs are driven by the results obtained from a study that analyzes the main sources of overhead of scripting languages. The research in this project will result in higher programmer productivity and will enable the use of scripting languages in domains where they are not used today.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Maria",
+   "pi_last_name": "Garzaran",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Maria J Garzaran",
+   "pi_email_addr": "garzaran@cs.uiuc.edu",
+   "nsf_id": "000297030",
+   "pi_start_date": "2013-06-25",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Ahn",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Ahn",
+   "pi_email_addr": "wahn@pitt.edu",
+   "nsf_id": "000635693",
+   "pi_start_date": "2013-06-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618207473",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 475000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Software developers are increasingly using dynamic scripting languages,&nbsp;such as JavaScript, Perl, Python, Ruby or PHP. However, C programs still&nbsp;run significantly faster than them. This project&rsquo;s goal is to investigate&nbsp;techniques to enable programs written using dynamic scripting languages&nbsp;to run as fast as languages such as C, C++ or Java. To accomplish this,we carefully characterized the performance bottlenecks of these types oflanguages, and then devised novel hardware-software techniques to speedthem up.&nbsp;</p>\n<p>The outcomes of this work have been several new ideas that we have&nbsp;published and discussed with Intel, and the support of two graduate&nbsp;research assistants for several years.</p>\n<p>One of the outcomes of this work is an understanding of why currentcompiler optimizations for JavaScript do not work well for websiteworkloads. The reason is that it is hard to predict what data typeeach access requires. The compiler can hardly anticipate the type&nbsp;of an object at a site of the code where the object is read or written.&nbsp;We have discovered that this is due to two unexpected sources: prototypes&nbsp;and method bindings. These are constructs that obfuscate the operationof the compiler. As a result, we restructure the Google JavaScriptcompiler. Our results show large improvements for these dynamic workloads:&nbsp;on average, we reduce the execution time of a benchmark suite by 36%,&nbsp;and the dynamic instruction count by 49%.</p>\n<p>Another outcome has been a new approach to reuse the state of JavaScript&nbsp;programs across program invocations. In current systems, it takes toolong to start a JavaScript program. Consequently, we proposethat, after a program terminates, it saves some state that will be used&nbsp;the next time that the program is invoked. Specifically, we propose to&nbsp;save some initial compilation of important parts of the program (i.e.,&nbsp;selective compilation), and have some state of the program warmed-upbefore the program starts. The result shows that, under certain&nbsp;conditions, our enhancements reduce execution time by 42%, and dynamic&nbsp;instruction count by 40%.</p>\n<p>A third outcome is a new idea to speed-up JavaScript programsby enabling processors to predict the outcome of the branches inthe code better. We find that, every time there is a load or a storeto an object in the program, the compiler inserts a call toa dispatcher subroutine. The dispatcher has many comparisons to&nbsp;different types and then a jump to a subroutine that performs the&nbsp;load or store. This dispatcher has poor branch prediction. Hence, wemodify the instruction that calls the dispatcher so that, under typical&nbsp;conditions, it skips most of the instructions. This is possible thanksto a new hardware table that predicts past types seen in thiscode location.&nbsp;</p>\n<p>The final idea is to speed-up JavaScript execution by optimizingtheir operation of their compilers. Specifically, popular compilersare organized in multiple tiers, with higher tiers using profiling&nbsp;information to generate high-performance code. In such tiers,checks are inserted to detect incorrect assumptions and, when a check&nbsp;fails, execution transfers to a lower tier. The points of potential&nbsp;transfer between tiers are full of checks. To minimize the overhead,&nbsp;we extend the compiler to emit code that places a hardware transactionaround these checks. Then, we can optimize and sometimes eliminate&nbsp;the checks away inside a transaction, improving the performance by 10-20%.</p>\n<p>Under this project, we have trained graduate and undergraduate students&nbsp;in the Computer Science Department of the University of Illinois. They&nbsp;have been exposed to research in compilers and computer architecture. They&nbsp;have also collaborated with many researchers from multiple companies and&nbsp;universities.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/25/2018<br>\n\t\t\t\t\tModified by: Maria&nbsp;J&nbsp;Garzaran</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2018/1319657/1319657_10254059_1537850091011_struct2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2018/1319657/1319657_10254059_1537850091011_struct2--rgov-800width.jpg\" title=\"structure\"><img src=\"/por/images/Reports/POR/2018/1319657/1319657_10254059_1537850091011_struct2--rgov-66x44.jpg\" alt=\"structure\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Example of object structures and links between them in JavaScript</div>\n<div class=\"imageCredit\">Wonsun Ahn</div>\n<div class=\"imagePermisssions\">Copyright owner is an institution with an existing agreement allowing use by NSF</div>\n<div class=\"imageSubmitted\">Maria&nbsp;J&nbsp;Garzaran</div>\n<div class=\"imageTitle\">structure</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nSoftware developers are increasingly using dynamic scripting languages, such as JavaScript, Perl, Python, Ruby or PHP. However, C programs still run significantly faster than them. This project?s goal is to investigate techniques to enable programs written using dynamic scripting languages to run as fast as languages such as C, C++ or Java. To accomplish this,we carefully characterized the performance bottlenecks of these types oflanguages, and then devised novel hardware-software techniques to speedthem up. \n\nThe outcomes of this work have been several new ideas that we have published and discussed with Intel, and the support of two graduate research assistants for several years.\n\nOne of the outcomes of this work is an understanding of why currentcompiler optimizations for JavaScript do not work well for websiteworkloads. The reason is that it is hard to predict what data typeeach access requires. The compiler can hardly anticipate the type of an object at a site of the code where the object is read or written. We have discovered that this is due to two unexpected sources: prototypes and method bindings. These are constructs that obfuscate the operationof the compiler. As a result, we restructure the Google JavaScriptcompiler. Our results show large improvements for these dynamic workloads: on average, we reduce the execution time of a benchmark suite by 36%, and the dynamic instruction count by 49%.\n\nAnother outcome has been a new approach to reuse the state of JavaScript programs across program invocations. In current systems, it takes toolong to start a JavaScript program. Consequently, we proposethat, after a program terminates, it saves some state that will be used the next time that the program is invoked. Specifically, we propose to save some initial compilation of important parts of the program (i.e., selective compilation), and have some state of the program warmed-upbefore the program starts. The result shows that, under certain conditions, our enhancements reduce execution time by 42%, and dynamic instruction count by 40%.\n\nA third outcome is a new idea to speed-up JavaScript programsby enabling processors to predict the outcome of the branches inthe code better. We find that, every time there is a load or a storeto an object in the program, the compiler inserts a call toa dispatcher subroutine. The dispatcher has many comparisons to different types and then a jump to a subroutine that performs the load or store. This dispatcher has poor branch prediction. Hence, wemodify the instruction that calls the dispatcher so that, under typical conditions, it skips most of the instructions. This is possible thanksto a new hardware table that predicts past types seen in thiscode location. \n\nThe final idea is to speed-up JavaScript execution by optimizingtheir operation of their compilers. Specifically, popular compilersare organized in multiple tiers, with higher tiers using profiling information to generate high-performance code. In such tiers,checks are inserted to detect incorrect assumptions and, when a check fails, execution transfers to a lower tier. The points of potential transfer between tiers are full of checks. To minimize the overhead, we extend the compiler to emit code that places a hardware transactionaround these checks. Then, we can optimize and sometimes eliminate the checks away inside a transaction, improving the performance by 10-20%.\n\nUnder this project, we have trained graduate and undergraduate students in the Computer Science Department of the University of Illinois. They have been exposed to research in compilers and computer architecture. They have also collaborated with many researchers from multiple companies and universities.\n\n \n\n\t\t\t\t\tLast Modified: 09/25/2018\n\n\t\t\t\t\tSubmitted by: Maria J Garzaran"
+ }
+}

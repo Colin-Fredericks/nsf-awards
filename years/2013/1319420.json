@@ -1,0 +1,125 @@
+{
+ "awd_id": "1319420",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Advanced Compiler Techniques for Meeting Fault Tolerance Needs of  HPC Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2013-07-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 499695.0,
+ "awd_amount": 507695.0,
+ "awd_min_amd_letter_date": "2013-06-25",
+ "awd_max_amd_letter_date": "2014-04-04",
+ "awd_abstract_narration": "Making high performance applications resilient to failure of individual nodes is a major challenge today.  Particularly, there is a need for reducing the overheads associated with checkpointing and for dealing  with silent data  corruption in an effective fashion.  This project at Ohio State University is addressing these problems based on new insights and approaches.  The work on  improving the efficiency of checkpointing and restart is based on the following observation - current  checkpointing protocols were developed in context of distributed computing, and do not exploit  key properties  seen in most scientific parallel programs.  This project is developing static and dynamic analysis  methods to determine  what we refer to as the  \"message intent\", which can  then be used to allow  automated application-level uncoordinated checkpointing, but without the need  for  message logging, keeping  the checkpoint sizes   small, and  recovery low-cost.  In addition, a distinct software approach for handling silent data corruption is being developed.  The idea is to make the data structures that control what computation and/or communication occurs in the program resilient, by only replicating them and their storage.  This introduces modest overheads, but guards against the most drastic impact of silent data corruption on program stability and correctness. \r\nThis research will result in reducing overheads of making high performance systems resilient, which in turn will improve the efficiency and resource utilization.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Gagan",
+   "pi_last_name": "Agrawal",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gagan Agrawal",
+   "pi_email_addr": "gagrawal@uga.edu",
+   "nsf_id": "000230838",
+   "pi_start_date": "2013-06-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101016",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  },
+  {
+   "pgm_ele_code": "794200",
+   "pgm_ele_name": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 499695.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 8000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This grant has focused on resilience concerns in large parallel machines (supercomputers). Technology trends are making soft-errors more frequent -- soft errors are errors where a data value is wrong, like because of a particle hitting the circuits or a noise. Increasing number of cores and decreasing feature size are some of the reasons why such errors are likely to be very frequent in Exascale systems. In this project, we have developed a series of techniques to make scientific computation resilient to such soft errors. The techniques we have developed involve taking efficient application-level checkpoints, developing detectors that check if a soft error has occurred, and if an error is detected, restarting the computation from the last check-point. For certain classes of solvers, we have developed practical methods (backed by mathematical analysis) that are based on residuals. For molecular dynamics computations, we have shown how classical algorithm-based fault-tolerance techniques can be applied. For other classes of computations, we have shown how machine learning can be used to distinguish between behavior in presence of and in absence of soft-errors. Finally, we have also shown how properties of conjugate-gradient can be used to develop new detectors. This project has also made contributions in other areas -- some of the material has been incorporated into seminar courses. Two students supported by this grant have received doctoral degrees and are currently working in industry.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/03/2018<br>\n\t\t\t\t\tModified by: Gagan&nbsp;Agrawal</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis grant has focused on resilience concerns in large parallel machines (supercomputers). Technology trends are making soft-errors more frequent -- soft errors are errors where a data value is wrong, like because of a particle hitting the circuits or a noise. Increasing number of cores and decreasing feature size are some of the reasons why such errors are likely to be very frequent in Exascale systems. In this project, we have developed a series of techniques to make scientific computation resilient to such soft errors. The techniques we have developed involve taking efficient application-level checkpoints, developing detectors that check if a soft error has occurred, and if an error is detected, restarting the computation from the last check-point. For certain classes of solvers, we have developed practical methods (backed by mathematical analysis) that are based on residuals. For molecular dynamics computations, we have shown how classical algorithm-based fault-tolerance techniques can be applied. For other classes of computations, we have shown how machine learning can be used to distinguish between behavior in presence of and in absence of soft-errors. Finally, we have also shown how properties of conjugate-gradient can be used to develop new detectors. This project has also made contributions in other areas -- some of the material has been incorporated into seminar courses. Two students supported by this grant have received doctoral degrees and are currently working in industry.\n\n\t\t\t\t\tLast Modified: 06/03/2018\n\n\t\t\t\t\tSubmitted by: Gagan Agrawal"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "awd_id": "1755880",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SHF: Bespoke Data Representation Synthesis via Contextual Data Refinement",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2018-08-15",
+ "awd_exp_date": "2021-07-31",
+ "tot_intn_awd_amt": 163212.0,
+ "awd_amount": 163212.0,
+ "awd_min_amd_letter_date": "2018-01-05",
+ "awd_max_amd_letter_date": "2018-01-05",
+ "awd_abstract_narration": "Nearly every modern programming language provides some mechanism for hiding the implementation details of reusable components behind some abstract interface. This interface acts as a contract, enforced by the language, that benefits both the developers and clients of such components: protecting the developers? design decisions from clients and enabling clients to safely swap in different implementations of the same interface. Recent advances in program synthesis have shown how custom implementations can be automatically built from high-level specifications of a client?s requirements, exploiting this contract to ensure that synthesized components satisfy the desired requirements. Existing approaches to language-enforced abstraction approaches can be too restrictive in this setting, however, as they require the synthesized implementation to work for any client. This disallows any implementations whose correctness are dependent on a particular client?s usage. The goal of this project is to relax this condition, enabling the synthesis of custom implementations that are tailored to a particular client while still providing the same strong abstraction guarantees that programmers expect from their programming languages. The intellectual merits are the development of a refined notion of modularity in programming languages, advancing the state of the art in the synthesis of correct, performant code. The project's broader significance and importance are the development of an approach that allows programmers to program against high-level abstractions without paying a performance penalty.\r\n\r\nThe project advances the state of the art in both the theoretical foundations of data abstraction and the development of verified software. The vehicle for the work's theoretical contributions is a formalization of a core calculus for data refinement. This calculus is used to reformulate the well-established notion of data refinement for abstract data types (ADTs) to incorporate information about a specific client's usage of an interface. A key component is the development of the metatheory proofs establishing that the standard property of representation independence under data refinement is preserved. This approach is used to improve the existing Fiat deductive synthesis framework, enabling clients to derive verified ADT implementations that are tailored to their particular usage. The augmented system is evaluated via the synthesis of custom implementations of the popular Haskell bytestring library for two open-source Haskell programs, using an existing derivation of a performant bytestring implementation in Fiat as a starting point.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Benjamin",
+   "pi_last_name": "Delaware",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Benjamin J Delaware",
+   "pi_email_addr": "bendy@purdue.edu",
+   "nsf_id": "000754848",
+   "pi_start_date": "2018-01-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "Young Hall, 155 S Grant Street",
+  "perf_city_name": "West Lafayette",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479072114",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 163212.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of this project was to make it easier to write correct, performant code, by allowing programmers to program against high-level abstractions without paying a performance penalty, relying on information about the client program's usage in order to build a bespoke implementation without sacrificing correctness. In service of this goal, we made advances in both the theoretical foundations of how the representation of data can be safely transformed, and how to automatically ensure that clients are free of defects.<br /><br />Our first foundational result was the development of a core calculus that bridged a gap between decades-old notions of representation independence for implementations of abstract data types (ADTs) and the high-level specifications of ADTs currently used by modern program synthesis frameworks. Using this calculus, it is possible to capture a set of logical proof obligations that, when discharged, ensure that a client program will not exhibit any unsafe behaviors when linked against an implementation of a high-level specification. We formally proved that an updated version of the traditional representation independence theorem holds for this calculus, ensuring that a client will behave correctly when linked against any synthesized ADT implementation.<br /><br />Our next result provides a firm foundation for reasoning about privacy preserving data transformations in the context of secure computation. In this setting, the owners of private data (e.g. hospital records) want to compute some joint function over their data, but privacy concerns prevent them from simply pooling their data and computing the result. Secure computation techniques use advanced cryptographic protocols to enable multiple parties to perform a joint computation while keeping their sensitive data secure. Existing languages for secure computation either lack or have limited support for the sorts of rich data representations that appear in modern software developments. In the case that such support exists, it typically requires leaking information about how the data is represented; this information can be used by malicious parties to glean information about private data. To remedy this situation, we developed a core calculus that supports data representations which hide both their secure payloads and their own structure. In our system, adversaries are not able to infer, for example, whether a tree is left-heavy or right-heavy by observing the tree or how it are used. This calculus provides a security-type system that ensures adversaries will learn nothing more than the output of the computation and their own inputs. Using our language, clients can write a single function over private data, and then build an equivalent oblivious computation over some public view of that data. By switching views, users can explicitly trade off between how much information is leaked and the performance of the underlying computation.<br /><br />In order to ensure the correctness of client programs, we developed an approach for automatically checking that multiple programs jointly exhibit some desired behavior. The foundation for our approach is a program logic for reasoning about properties that have the form \"for all executions of a collection of programs, there exist executions of another set of programs exhibiting some intended behavior\". This logic can verify several important properties that fall outside the reach of existing approaches, which ensure that <strong>all</strong> runs of a collection of programs do not exhibit some undesirable behavior. This logic is capable of reasoning modularly about client programs that call some API, ensuring that any proven relational properties are preserved when the programs are linked with a valid implementation.<br /><br />Our final result addresses the problem of missing or incomplete specifications of library functions. These specifications are an integral input to verification engines, and their absence prevents clients from ensuring that they using the library correctly. In recent years, significant progress has been made toward automatically inferring these specifications, but existing approaches are either prone to overfitting, discounting reasonable and safe library implementations; or require a relatively restricted specification language, preventing them from capturing the sorts of rich specifications required by real libraries. To address these shortcomings, we invented an inference procedure that combines aspects of existing approaches in a way that addresses the limitations they have when considered independently. Our technique uses a program verifier to rule out infeasible specifications while using concrete test data to ensure the consistency of candidate specifications with the underlying implementation. This combination results in a novel inference methodology that generates rich specifications that are sufficient to verify clients of libraries whose source code is unavailable. The learned specifications are guaranteed to be both consistent with the observed input-output behavior of the blackbox library implementations and safe with respect to the postcondition of the client program. Based on this approach, we built a fully automated specification inference pipeline and used it to discover maximally weak specifications for a range of sophisticated data-structure manipulating programs drawn from the literature.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/29/2021<br>\n\t\t\t\t\tModified by: Benjamin&nbsp;J&nbsp;Delaware</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this project was to make it easier to write correct, performant code, by allowing programmers to program against high-level abstractions without paying a performance penalty, relying on information about the client program's usage in order to build a bespoke implementation without sacrificing correctness. In service of this goal, we made advances in both the theoretical foundations of how the representation of data can be safely transformed, and how to automatically ensure that clients are free of defects.\n\nOur first foundational result was the development of a core calculus that bridged a gap between decades-old notions of representation independence for implementations of abstract data types (ADTs) and the high-level specifications of ADTs currently used by modern program synthesis frameworks. Using this calculus, it is possible to capture a set of logical proof obligations that, when discharged, ensure that a client program will not exhibit any unsafe behaviors when linked against an implementation of a high-level specification. We formally proved that an updated version of the traditional representation independence theorem holds for this calculus, ensuring that a client will behave correctly when linked against any synthesized ADT implementation.\n\nOur next result provides a firm foundation for reasoning about privacy preserving data transformations in the context of secure computation. In this setting, the owners of private data (e.g. hospital records) want to compute some joint function over their data, but privacy concerns prevent them from simply pooling their data and computing the result. Secure computation techniques use advanced cryptographic protocols to enable multiple parties to perform a joint computation while keeping their sensitive data secure. Existing languages for secure computation either lack or have limited support for the sorts of rich data representations that appear in modern software developments. In the case that such support exists, it typically requires leaking information about how the data is represented; this information can be used by malicious parties to glean information about private data. To remedy this situation, we developed a core calculus that supports data representations which hide both their secure payloads and their own structure. In our system, adversaries are not able to infer, for example, whether a tree is left-heavy or right-heavy by observing the tree or how it are used. This calculus provides a security-type system that ensures adversaries will learn nothing more than the output of the computation and their own inputs. Using our language, clients can write a single function over private data, and then build an equivalent oblivious computation over some public view of that data. By switching views, users can explicitly trade off between how much information is leaked and the performance of the underlying computation.\n\nIn order to ensure the correctness of client programs, we developed an approach for automatically checking that multiple programs jointly exhibit some desired behavior. The foundation for our approach is a program logic for reasoning about properties that have the form \"for all executions of a collection of programs, there exist executions of another set of programs exhibiting some intended behavior\". This logic can verify several important properties that fall outside the reach of existing approaches, which ensure that all runs of a collection of programs do not exhibit some undesirable behavior. This logic is capable of reasoning modularly about client programs that call some API, ensuring that any proven relational properties are preserved when the programs are linked with a valid implementation.\n\nOur final result addresses the problem of missing or incomplete specifications of library functions. These specifications are an integral input to verification engines, and their absence prevents clients from ensuring that they using the library correctly. In recent years, significant progress has been made toward automatically inferring these specifications, but existing approaches are either prone to overfitting, discounting reasonable and safe library implementations; or require a relatively restricted specification language, preventing them from capturing the sorts of rich specifications required by real libraries. To address these shortcomings, we invented an inference procedure that combines aspects of existing approaches in a way that addresses the limitations they have when considered independently. Our technique uses a program verifier to rule out infeasible specifications while using concrete test data to ensure the consistency of candidate specifications with the underlying implementation. This combination results in a novel inference methodology that generates rich specifications that are sufficient to verify clients of libraries whose source code is unavailable. The learned specifications are guaranteed to be both consistent with the observed input-output behavior of the blackbox library implementations and safe with respect to the postcondition of the client program. Based on this approach, we built a fully automated specification inference pipeline and used it to discover maximally weak specifications for a range of sophisticated data-structure manipulating programs drawn from the literature.\n\n\t\t\t\t\tLast Modified: 11/29/2021\n\n\t\t\t\t\tSubmitted by: Benjamin J Delaware"
+ }
+}

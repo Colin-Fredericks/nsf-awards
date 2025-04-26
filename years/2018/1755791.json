@@ -1,0 +1,109 @@
+{
+ "awd_id": "1755791",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: AF: RUI: Faster and Cache-Efficient Similarity Filters and Searches for Big Data",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "A. Funda Ergun",
+ "awd_eff_date": "2018-02-15",
+ "awd_exp_date": "2022-08-31",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2018-02-15",
+ "awd_max_amd_letter_date": "2022-02-01",
+ "awd_abstract_narration": "Analysing and organising the massive amount of data collected everyday is one of the biggest challenges faced by computer scientists. This impacts almost every field of modern human life, such as health care, military applications, smart cities, transportation, networks, etc. To quickly analyse and organise such huge amounts of data, one needs to develop space and time efficient algorithms, that accelerate the search for information while minimising memory requirements. This project aims to develop space-efficient similarity filters, which quickly filter out queries that have very little similarity from the records existing in the database. This has applications in security, databases, machine learning, file systems, vision, pattern recognition, compression and networks. Apart from the targeted impact of these applications to society, this project also aims at producing the next generation of researchers and promoting under-represented groups in science and technology. Minority undergraduate and high school students will be involved in this project. Queens College, CUNY is a diverse institution, representing a wide range of ethnic minorities and has 28% Hispanic students. In an effort to engage more undergraduate students and women in research (Queens College has roughly 56% female students), the PI plans to offer a new course that develops an understanding of approximate membership and similarity search data structures in the setting of big data.\r\n\r\n\r\nSimilarity searching is a fundamental problem in this context, where a massive data of records needs to be organised so as to answer quickly queries of the form: given a record, is it similar to some record in the data? Similarity search, modeled as near(est) neighbor search (NNS) is an important and well-studied problem with numerous applications: Given a set P of n points lying in some d-dimensional metric space, the goal is to preprocess P so as to return for a given query point q the point p in P that is closest to q. Exact versions of this problem are hard to solve, and all solutions to the approximate version of the problem require superlinear (more than nd) space. This space usage is prohibitive for many big data settings, where not just n, but d could be huge (e.g., the number of pixels in an image). This project is aimed at developing the theory and applications of Similarity Filters, which are decision (yes/no) based data structures. Given a query q, a (c, r)-similarity filter always returns yes if q is within a distance r of some input point, and returns no with a small error probability (thus some false positives are allowed) if all input points are at least cr away from the query. Recent results from the researcher shows that such filters can be built with sublinear (asymptotically less than nd) space. The project takes on two tasks: 1) to understand the approximation factor-space-query tradeoff for similarity filters, developing tight upper and lower bounds, especially in the sublinear space regime, and 2) to develop I/O efficient Similarity Filters and nearest neighbor data structures, akin to quotient or cascade filters for the approximate membership problem (where the in-RAM Bloom Filter is the standard data structure, used in many networking applications). The overarching goal is to use similarity filters on RAM in conjunction with a disk-based data structure: faraway queries will be filtered quickly, and nearby queries will have their neighbor(s) returned following a slower but cache friendly search. The availability of such a two-layered space-and-time-efficient data structure will greatly boost the scope of applications when the amount of data is massive, especially in databases, networks, security and machine learning.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mayank",
+   "pi_last_name": "Goswami",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mayank Goswami",
+   "pi_email_addr": "Mayank.Goswami@qc.cuny.edu",
+   "nsf_id": "000730878",
+   "pi_start_date": "2018-02-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "CUNY Queens College",
+  "inst_street_address": "6530 KISSENA BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "FLUSHING",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "7189975400",
+  "inst_zip_code": "113671575",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "NY06",
+  "org_lgl_bus_name": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "EJABWGUJM228"
+ },
+ "perf_inst": {
+  "perf_inst_name": "CUNY Queens College",
+  "perf_str_addr": "65 30 Kissena Blvd.",
+  "perf_city_name": "Flushing",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "113671575",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "NY06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7796",
+   "pgm_ref_txt": "ALGORITHMIC FOUNDATIONS"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>PI Goswami has completed his research on the NSF award 1755791:&nbsp;CRII: AF: RUI: Faster and Cache-Efficient Similarity Filters. The major tasks of this proposal were to develop fast similarity filters, which are data structures that enable fast retrieval of similar items in a database. Most databases today are too big to be stored on a fast memory or RAM, and are usually stored on external disks. Accessing such external disks incurs a significant delay. A similarity filter is a compressed version of such databases that can be stored on RAM, and quickly answers whether a query item has something similar to it in the database or not.</p>\n<p><strong>Intellectual Merit:</strong>&nbsp;This award resulted in 6 peer-reviewed articles published in top conferences. In an article published in Principles of Database Systems (PODS 2020) the PI showed lower bounds, which are theoretical limitations, on the space usage of similarity search data structures in external memory. This established the need for compact summaries of such databases that can be stored on RAM. In an article published in Algorithmic Principles of Computer Science (APOCS 2023) the PI developed fast similarity filters for trajectory databases. Such databases arise in transportation networks, finance, climate science, and sports. The PI developed lightweight filters that occupy just 1% of the space used by the database, and can filter queries fast to help retrieve similar items from the database to a query.</p>\n<p>The award also resulted in an \"innovations\" paper, published in the prestigious Innovations in Theoretical Computer Science&nbsp;&nbsp;conference (ITCS 2023), where the PI developed a new measure for comparing trajectories by \"flipping\" the so-called Frechet distance measure, that has been an object of considerable research in the field of computational geometry. The PI showed that the new measure is relevant when one considers social distancing between agents traveling on trajectories, and gives rise to various design problems that may be useful during a pandemic response.</p>\n<p>The award also resulted in 3 top-tier publications&nbsp;&nbsp;in the field of Machine Learning&nbsp;(NeurIPS 2020, ICML 2020, AISTATS 2022), where the PI used nearest neighbor methods to tackle the problem of label-noise in training datasets, among other problems.</p>\n<p><strong>Mentoring:&nbsp;</strong>PI Goswami mentored one PhD student who coauthored 2 conference papers and 2 workshop papers on this project. The PI also mentored one masters student who coauthored one conference and one workshop paper.&nbsp;<span>These are the first publications in the field of computer science for both students. The students not only gained first-hand experience conducting research in computer science, but also collaborated with each other and with the PI's colleagues in various universities, attended conferences, and presented their work.&nbsp;</span></p>\n<p><strong>Undergraduate Education Impact</strong>: The PI has incorporated the topic of filters (such as Bloom filters, Quotient filters, and Similarity filters) into the curriculum for an undergraduate course called \"algorithms for big data\". The PI has observed that students have found the concept of filters very intuitive, easy to understand and also easy to implement. Several students reported recruiters being impressed by their knowledge of filters during technical interviews.&nbsp;</p>\n<p>The PI traveled to Italy, Netherlands, Sweden and Germany to collaborate with colleagues, and give talks at conferences to disseminate the results achieved, during this award.&nbsp;</p>\n<p>This award was used to fund salaries for graduate students and travel by the students and the PI.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/13/2023<br>\n\t\t\t\t\tModified by: Mayank&nbsp;Goswami</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nPI Goswami has completed his research on the NSF award 1755791: CRII: AF: RUI: Faster and Cache-Efficient Similarity Filters. The major tasks of this proposal were to develop fast similarity filters, which are data structures that enable fast retrieval of similar items in a database. Most databases today are too big to be stored on a fast memory or RAM, and are usually stored on external disks. Accessing such external disks incurs a significant delay. A similarity filter is a compressed version of such databases that can be stored on RAM, and quickly answers whether a query item has something similar to it in the database or not.\n\nIntellectual Merit: This award resulted in 6 peer-reviewed articles published in top conferences. In an article published in Principles of Database Systems (PODS 2020) the PI showed lower bounds, which are theoretical limitations, on the space usage of similarity search data structures in external memory. This established the need for compact summaries of such databases that can be stored on RAM. In an article published in Algorithmic Principles of Computer Science (APOCS 2023) the PI developed fast similarity filters for trajectory databases. Such databases arise in transportation networks, finance, climate science, and sports. The PI developed lightweight filters that occupy just 1% of the space used by the database, and can filter queries fast to help retrieve similar items from the database to a query.\n\nThe award also resulted in an \"innovations\" paper, published in the prestigious Innovations in Theoretical Computer Science  conference (ITCS 2023), where the PI developed a new measure for comparing trajectories by \"flipping\" the so-called Frechet distance measure, that has been an object of considerable research in the field of computational geometry. The PI showed that the new measure is relevant when one considers social distancing between agents traveling on trajectories, and gives rise to various design problems that may be useful during a pandemic response.\n\nThe award also resulted in 3 top-tier publications  in the field of Machine Learning (NeurIPS 2020, ICML 2020, AISTATS 2022), where the PI used nearest neighbor methods to tackle the problem of label-noise in training datasets, among other problems.\n\nMentoring: PI Goswami mentored one PhD student who coauthored 2 conference papers and 2 workshop papers on this project. The PI also mentored one masters student who coauthored one conference and one workshop paper. These are the first publications in the field of computer science for both students. The students not only gained first-hand experience conducting research in computer science, but also collaborated with each other and with the PI's colleagues in various universities, attended conferences, and presented their work. \n\nUndergraduate Education Impact: The PI has incorporated the topic of filters (such as Bloom filters, Quotient filters, and Similarity filters) into the curriculum for an undergraduate course called \"algorithms for big data\". The PI has observed that students have found the concept of filters very intuitive, easy to understand and also easy to implement. Several students reported recruiters being impressed by their knowledge of filters during technical interviews. \n\nThe PI traveled to Italy, Netherlands, Sweden and Germany to collaborate with colleagues, and give talks at conferences to disseminate the results achieved, during this award. \n\nThis award was used to fund salaries for graduate students and travel by the students and the PI. \n\n \n\n\t\t\t\t\tLast Modified: 01/13/2023\n\n\t\t\t\t\tSubmitted by: Mayank Goswami"
+ }
+}

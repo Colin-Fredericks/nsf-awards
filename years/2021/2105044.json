@@ -1,0 +1,113 @@
+{
+ "awd_id": "2105044",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: OAC: Scalability of Deep-Learning Methods on HPC Systems: An I/O-centric Approach",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922625",
+ "po_email": "jjli@nsf.gov",
+ "po_sign_block_name": "Juan Li",
+ "awd_eff_date": "2021-06-01",
+ "awd_exp_date": "2023-05-31",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2021-05-06",
+ "awd_max_amd_letter_date": "2021-05-06",
+ "awd_abstract_narration": "Machine learning (ML) algorithms have became key techniques in many scientific domains over the last few years. Thanks to the recent democratization of graphics processing units (GPUs), machine learning is mostly fueled by deep learning (DL) techniques that require extensive computational capabilities and vast volumes of data. Training large deep neural networks (DNN) is compute-intensive. However, thanks to GPUs, the cost of the compute-intensive components of the training has been reduced, while the relative cost of memory accesses has increased following the huge increase in the size of inputs datasets and in the complexity of the ML models. Due to their increasing requirements in terms of computational and memory capabilities, DNNs are now trained on distributed systems and have recently gained attention from the high-performance computing (HPC) community. A key challenge on HPC systems at extreme scale is the communication bottleneck, as communication is much slower than the required computations and also accounts for high energy consumption on large-scale machines. A lack of a comprehensive understanding of the different trade-offs, costs, and impacts induced by ML algorithms may severely impair science discoveries and AI breakthroughs in the near future. This project aims to address this problem by developing accurate performance models that can capture the complexity of training a DNN at scale in terms of I/O (communication) and, based on these models, producing efficient scheduling heuristics to reduce communication when training DNNs on HPC machines. Reducing data exchanges during the training phase decreases the execution time of this costly process and is likely to also reduce its energy consumption. The training of DNNs is becoming essential for many scientific domains, so optimizing the execution of this key component will help NSF fulfill its mission to advance and promote the progress of science. The proposed research will provide researchers with performance models that are key to supporting the development of novel middleware systems for large-scale ML on HPC platforms. Educational and outreach activities will include the development of pedagogic modules that will teach students key concepts of distributed computing and training of large neural networks and enable students to participate in workshops and conferences that serve the community. \r\n\r\nTraining large neural networks on distributed HPC systems is challenging. DNN training involves complex communications patterns with some randomness due to the optimization method used to solve the network, which most of the time is stochastic gradient descent (SGD). Most distributed ML has been designed to run on cloud infrastructures, however HPC machines exhibit different characteristics in terms of hardware with fast interconnect networks and advanced communications capabilities, such as remote direct memory access (RDMA) and, in terms of software with the usage of the message passing interface (MPI) and OpenMP parallel programming models. This project will design performance models taking into account HPC characteristics that  will give useful insights into the behavior of DNN training at scale, for example, how the data communication volume evolves with the DNN batch size or how to leverage HPC multi-layered storage, such as burst buffers, to improve DNN training performance.  This project is organized around three research thrusts: (i) estimation of data movement costs when training DNNs on HPC machines (ii) augmenting performance models with energy metrics and (iii) developing bi-objective heuristics minimizing communication and energy while still providing training accuracy guarantees. In order to address these three research thrusts, this project  will adopt a simulation-driven approach. The first step will be to characterize the I/O behaviors of DNNs when trained on HPC machines. Based on the analysis of the collected data, several performance models and scheduling heuristics will be designed. Then, a simulator of the HPC machine will be developed using the NSF-funded WRENCH project. This simulator will be calibrated with the data collected during the characterization phase. Finally, the performance models and the scheduling heuristics will be evaluated using the calibrated simulator. The project will also leverage the simulator to continuously improve the performance models and heuristics. This project will provide scientists with models to better understand performance trade-offs arising when training large-scale neural networks on complex distributed systems.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Loic",
+   "pi_last_name": "Pottier",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Loic Pottier",
+   "pi_email_addr": "lpottier@isi.edu",
+   "nsf_id": "000839163",
+   "pi_start_date": "2021-05-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Southern California",
+  "inst_street_address": "3720 S FLOWER ST FL 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "2137407762",
+  "inst_zip_code": "90033",
+  "inst_country_name": "United States",
+  "cong_dist_code": "34",
+  "st_cong_dist_code": "CA34",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G88KLJR3KYT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Southern California",
+  "perf_str_addr": "4676 Admiralty Way, Suite 1001",
+  "perf_city_name": "Marina del Rey",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "902926611",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "026Y00",
+   "pgm_ele_name": "CRII CISE Research Initiation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "075Z",
+   "pgm_ref_txt": "Artificial Intelligence (AI)"
+  },
+  {
+   "pgm_ref_code": "079Z",
+   "pgm_ref_txt": "Machine Learning Theory"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Machine learning (ML) algorithms have became key techniques in many scientific domains over the last few years. Training large deep neural networks is now often involving distributed systems and have recently gained attention from the high-performance computing (HPC) community. A key challenge on HPC systems at extreme scale is the communication bottleneck (communication is much slower than computations on these machines). A lack of a comprehensive understanding of the different trade-offs, costs, and impacts induced by ML algorithms may severely impair science discoveries and AI breakthroughs in the near future.This project tackles this problem by developing accurate performance models that can capture the complexity of training at scale in terms of communication and, based on these models, producing efficient scheduling heuristics to reduce communication when training DNNs on HPC machines.</p>\n<p><br />The main outcome of this project is to gain a better understanding at how distributed training perform at scale, and provide performance models.Modern training frameworks, such as PyTorch, leverage complex systems to distribute data and computations. In this project, we studied PyTorch loading mechanism and we modified it, allowing us to play with the data shuffling procedure in PyTorch. In terms of broader impact, a master student has been exposed to distributed machine learning on NSF cloud testbed Chameleon, and has learned how to use multiple compute nodes to train complex neural networks. A second important outcome of that project is a neural network training simulator based on the NSF-funded project WRENCH which aims at reproducing the training of a given neural network on a given cyber-infrastructure, this simulator can be used by scientists designing scheduling heuristics to optimize large-scale training procedures. This simulator is calibrated (i.e., fine-tuned) with the data collected during the characterization phase, as part of this project we designed an innovative <em>auto-calibration procedure </em>based on a bayesian exploration&nbsp;to automatically find the best parameters for a given simulator. Finally, the last outcome of that project is to provide documentation as notebooks describing various PyTorch deployment on cloud resources.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/23/2022<br>\n\t\t\t\t\tModified by: Loic&nbsp;Pottier</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMachine learning (ML) algorithms have became key techniques in many scientific domains over the last few years. Training large deep neural networks is now often involving distributed systems and have recently gained attention from the high-performance computing (HPC) community. A key challenge on HPC systems at extreme scale is the communication bottleneck (communication is much slower than computations on these machines). A lack of a comprehensive understanding of the different trade-offs, costs, and impacts induced by ML algorithms may severely impair science discoveries and AI breakthroughs in the near future.This project tackles this problem by developing accurate performance models that can capture the complexity of training at scale in terms of communication and, based on these models, producing efficient scheduling heuristics to reduce communication when training DNNs on HPC machines.\n\n\nThe main outcome of this project is to gain a better understanding at how distributed training perform at scale, and provide performance models.Modern training frameworks, such as PyTorch, leverage complex systems to distribute data and computations. In this project, we studied PyTorch loading mechanism and we modified it, allowing us to play with the data shuffling procedure in PyTorch. In terms of broader impact, a master student has been exposed to distributed machine learning on NSF cloud testbed Chameleon, and has learned how to use multiple compute nodes to train complex neural networks. A second important outcome of that project is a neural network training simulator based on the NSF-funded project WRENCH which aims at reproducing the training of a given neural network on a given cyber-infrastructure, this simulator can be used by scientists designing scheduling heuristics to optimize large-scale training procedures. This simulator is calibrated (i.e., fine-tuned) with the data collected during the characterization phase, as part of this project we designed an innovative auto-calibration procedure based on a bayesian exploration to automatically find the best parameters for a given simulator. Finally, the last outcome of that project is to provide documentation as notebooks describing various PyTorch deployment on cloud resources.\n\n\t\t\t\t\tLast Modified: 12/23/2022\n\n\t\t\t\t\tSubmitted by: Loic Pottier"
+ }
+}

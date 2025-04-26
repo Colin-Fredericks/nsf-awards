@@ -1,0 +1,113 @@
+{
+ "awd_id": "1441754",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: STARSS: Trojan Detection and Diagnosis in Mixed-Signal Systems Using On-The-Fly Learned, Precomputed and Side Channel Tests",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 160000.0,
+ "awd_amount": 160000.0,
+ "awd_min_amd_letter_date": "2014-09-08",
+ "awd_max_amd_letter_date": "2014-09-08",
+ "awd_abstract_narration": "The use of outsourcing in silicon manufacturing has rendered hardware susceptible to malicious bugs, called Trojans, that can cause an Integrated Circuit (IC) to fail in the field, similar to the way viruses manifest themselves in software. While there has been significant inroads into Trojan detection and diagnosis in the recent past, high-resolution Trojan detection has been hampered by the increased variability in silicon manufacturing processes, allowing Trojans to hide behind the design guardbands necessitated by process variability effects. The key objective of this research is to develop techniques, algorithms and support infrastructure for detecting, diagnosing and mitigating the effects of Trojans in a variety of circuits that can cause system malfunction after deployment in the field, in the presence of process variability effects.\r\n\r\nThe underlying Trojan detection techniques for both mixed-signal and digital circuits use test stimulus optimization algorithms that maximize the sensitivities of the tests applied to the presence of malicious hardware Trojans. Such algorithms are supported by hardware for delivering the tests to vulnerable hardware designs in the field. Since the nature of bugs inserted maliciously into chip designs is not known apriori, the investigators use on-the-fly learning algorithms to refine the applied tests to expose the effects of inserted Trojans. In addition, precomputed and side-channel tests are applied to increase overall test effectiveness by up to 30X over existing methods. These techniques will enable significantly increased security of US industrial and government intellectual property and prevent tampering of US chip designs by external third parties.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Abhijit",
+   "pi_last_name": "Chatterjee",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Abhijit Chatterjee",
+   "pi_email_addr": "chat@ece.gatech.edu",
+   "nsf_id": "000303765",
+   "pi_start_date": "2014-09-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Avenue",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "756400",
+   "pgm_ele_name": "CCSS-Comms Circuits & Sens Sys"
+  },
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "106E",
+   "pgm_ref_txt": "Mixed signal technologies"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "8225",
+   "pgm_ref_txt": "SaTC Special Projects"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 160000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Intellectual Merit:</p>\n<p class=\"Abstract\">Insertion of malicious Trojans into outsourced chip manufacturing generally results in increased capacitances of internal circuit nodes that have been tapped for node controllability and observability by malicious circuitry. Current path delay measurement and side channel Trojan detection techniques are unable to detect Trojans that present low loading to such tapped circuit nodes, especially in the presence of large manufacturing process variations. A high-resolution Trojan detection method for digital logic based on pulse propagation was developed. The method exhibits 25X &ndash; 30X higher diagnostic resolution (ability to measure small capacitive loads on internal circuit nodes) as compared to current path delay based Trojan detection techniques <em>in the presence of significant manufacturing process variations</em>. Further, a key benefit is that theoretically, as opposed to path delay measurement based methods, the diagnostic resolution of the test approach is <em>independent of circuit logic depth</em> over and above the benefits already mentioned above. Test methods and test infrastructure compatible with existing scan based techniques are described. Simulation results are presented to prove the viability and effectiveness of the proposed Trojan detection scheme and especially for circuits with large logic depths (35-70 gates) suffering from worst case process variation effects.</p>\n<p class=\"Abstract\">The above pulse propagation based Trojan detection is independent of logic depth in the path. As the logic depth increases however, the&nbsp; Trojan detection scheme&nbsp; loses some accuracy. Though the scheme appears simple, it is not so straight forward to generate and apply the pulse inputs on chip at the desired locations and capture them at designated locations with high accuracy in presence of high fan out nodes in the design. Aa very high resolution current sensing scheme to detect pulse propagation through logic gates was developed. A single sensor can sense pulse at multiple locations. The entire scheme of pulse based Trojan detection has been integrated into JTAG boundary scan scheme with minimal area overhead to provide a complete solution for detection of hardware Trojans.</p>\n<p class=\"Abstract\">With regard to mixed-signal, the test generation problem for analog/RF circuits has been largely intractable due to the fact that repetitive circuit simulation for test stimulus optimization is extremely time-consuming. As a consequence, it is difficult, if not impossible, to generate tests for practical mixed-signal/RF circuits that include the effects of tester inaccuracies and measurement noise. To offset this problem and allow test generation to scale to different applications, we propose a new approach in which <em>FSM models</em> of mixed-signal/RF circuits are abstracted from <em>hardware measurements on fabricated devices</em>. These models allow accurate simulation of device behavior under <em>arbitrary stimulus</em> <em>and thereby test stimulus generation</em>, <em>even after the device has been shipped to a customer</em>. As a consequence, it becomes possible to detect process shifts with fine granularity and regenerate tests to <em>adapt to process perturbations</em> in a dynamic manner without losing test accuracy. A complete methodology for such adaptive testing of mixed-signal/RF circuits for manufacturing defect and design bug (Trojan) detection was developed.. Simulation results and hardware measurements are used to demonstrate the efficacy of the proposed techniques.</p>\n<p class=\"Abstract\">A test generation algorithm that concurrently tests for the smallest possible (maliciously inserted) capacitive loading of internal nodes of mixed-signal/RF circuits has been developed at Georgia Tech&nbsp; and is the first test generation of&nbsp; its kind.<em>&nbsp;</em></p>\n<p class=\"Abstract\">Broader Impact:</p>\n<p>There were several interactions with SRC member companies with presentations made to industry representatives from US semiconductor companies (6 workshops/review meetings overall, one in the US and one in Bangalore, India per year). These resulted in interesting discussions and perspectives from industry. Each review was followed up by a research evaluation that was necessary for continued SRC support. All the reviews were positive and successful.&nbsp; One of the graduate students working on the project has graduated and joined Intel Corporation, Another student is expected to graduate in May 2018 and has already been in contact with US industry.&nbsp; The work also led to collaborative discussions with Prof. A. D. Singh of Auburn University and Prof. Ilia Polian of the University of Stuttgart, Germany (Prof. Singh is a co-author on one of the papers published through this research). There is potential to pushing the results of this research to other domains such as public PUFs. Some of the work received help from UC Berkeley as well with research interactions between Prof. Chatterjee&rsquo;s group and Prof. J. Rowchowdhury&rsquo;s group at UC Berkeley).</p>\n<p>Besides the research interactions ad technology transfer, significant infrastructure has been developed at Georgia Tech that future students can leverage. This includes a test generation system that generates tests from stimulation of hardware. This is a capability that does&nbsp; not exist elsewhere and has been developed at Georgia Tech. Prof. Chatterjee has also participated in H.O.T days at Georgia Tech, a summer program designed to encourage high school students to pursue engineering as a career path.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/28/2017<br>\n\t\t\t\t\tModified by: Abhijit&nbsp;Chatterjee</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514520926071_Picture9--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514520926071_Picture9--rgov-800width.jpg\" title=\"Minimum detectable capacitance for ripple carry adder using proposed vs. Delay based scheme\"><img src=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514520926071_Picture9--rgov-66x44.jpg\" alt=\"Minimum detectable capacitance for ripple carry adder using proposed vs. Delay based scheme\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Minimum detectable capacitance for ripple carry adder using proposed vs. Delay based scheme at various internal adder nodes.</div>\n<div class=\"imageCredit\">S.  Deyati</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Abhijit&nbsp;Chatterjee</div>\n<div class=\"imageTitle\">Minimum detectable capacitance for ripple carry adder using proposed vs. Delay based scheme</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519060953_Picture4--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519060953_Picture4--rgov-800width.jpg\" title=\"Digital test pulses\"><img src=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519060953_Picture4--rgov-66x44.jpg\" alt=\"Digital test pulses\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Digital pulses used to test for inserted trojans in digital circuits. The pulses are attenuated (right) when passing through logic gates with capacitive loads as small as 800 attofarads resulting  in the pulse dying due to attenuation.</div>\n<div class=\"imageCredit\">S.  Deyati and A. Chatterjee</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Abhijit&nbsp;Chatterjee</div>\n<div class=\"imageTitle\">Digital test pulses</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519613342_Picture2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519613342_Picture2--rgov-800width.jpg\" title=\"Test generation hardware\"><img src=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519613342_Picture2--rgov-66x44.jpg\" alt=\"Test generation hardware\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Shows test stimulus generation infrastructure: (a) generate tests from signal generator, (b) digitize hardware response and analyze using on-board algorithms and (c)  modify test stimulus</div>\n<div class=\"imageCredit\">B.  Muldrey</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Abhijit&nbsp;Chatterjee</div>\n<div class=\"imageTitle\">Test generation hardware</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519224482_Picture5--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519224482_Picture5--rgov-800width.jpg\" title=\"Minimum detectable capacitance vs. circuit depth\"><img src=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519224482_Picture5--rgov-66x44.jpg\" alt=\"Minimum detectable capacitance vs. circuit depth\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Top graph shows how the minimum detectable capacitance increases with logic depth for existing delay-based trojan detection schemes vs. remains low (does not increase with logic depth) for the proposed trojan detection methodology.</div>\n<div class=\"imageCredit\">S.  Deyati</div>\n<div class=\"imageSubmitted\">Abhijit&nbsp;Chatterjee</div>\n<div class=\"imageTitle\">Minimum detectable capacitance vs. circuit depth</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519808007_Picture3--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519808007_Picture3--rgov-800width.jpg\" title=\"Generated test stimulus\"><img src=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514519808007_Picture3--rgov-66x44.jpg\" alt=\"Generated test stimulus\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Test stimulus produced by the proposed test generation algorithm. This is 100X shorter than conventional tests and has very high design bug coverage (in relation to existing testing schemes)</div>\n<div class=\"imageCredit\">S.  Deyati</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Abhijit&nbsp;Chatterjee</div>\n<div class=\"imageTitle\">Generated test stimulus</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514520387844_Picture8--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514520387844_Picture8--rgov-800width.jpg\" title=\"Minimum detectable capacitance for mutiplier using proposed vs. Delay based scheme\"><img src=\"/por/images/Reports/POR/2017/1441754/1441754_10341151_1514520387844_Picture8--rgov-66x44.jpg\" alt=\"Minimum detectable capacitance for mutiplier using proposed vs. Delay based scheme\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Minimum detectable capacitive loading at various internal circuit nodes of array multiplier: pulse propagation (PP) vs. delay measurement (DM)</div>\n<div class=\"imageCredit\">S.  Deyati</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Abhijit&nbsp;Chatterjee</div>\n<div class=\"imageTitle\">Minimum detectable capacitance for mutiplier using proposed vs. Delay based scheme</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nIntellectual Merit:\nInsertion of malicious Trojans into outsourced chip manufacturing generally results in increased capacitances of internal circuit nodes that have been tapped for node controllability and observability by malicious circuitry. Current path delay measurement and side channel Trojan detection techniques are unable to detect Trojans that present low loading to such tapped circuit nodes, especially in the presence of large manufacturing process variations. A high-resolution Trojan detection method for digital logic based on pulse propagation was developed. The method exhibits 25X &ndash; 30X higher diagnostic resolution (ability to measure small capacitive loads on internal circuit nodes) as compared to current path delay based Trojan detection techniques in the presence of significant manufacturing process variations. Further, a key benefit is that theoretically, as opposed to path delay measurement based methods, the diagnostic resolution of the test approach is independent of circuit logic depth over and above the benefits already mentioned above. Test methods and test infrastructure compatible with existing scan based techniques are described. Simulation results are presented to prove the viability and effectiveness of the proposed Trojan detection scheme and especially for circuits with large logic depths (35-70 gates) suffering from worst case process variation effects.\nThe above pulse propagation based Trojan detection is independent of logic depth in the path. As the logic depth increases however, the  Trojan detection scheme  loses some accuracy. Though the scheme appears simple, it is not so straight forward to generate and apply the pulse inputs on chip at the desired locations and capture them at designated locations with high accuracy in presence of high fan out nodes in the design. Aa very high resolution current sensing scheme to detect pulse propagation through logic gates was developed. A single sensor can sense pulse at multiple locations. The entire scheme of pulse based Trojan detection has been integrated into JTAG boundary scan scheme with minimal area overhead to provide a complete solution for detection of hardware Trojans.\nWith regard to mixed-signal, the test generation problem for analog/RF circuits has been largely intractable due to the fact that repetitive circuit simulation for test stimulus optimization is extremely time-consuming. As a consequence, it is difficult, if not impossible, to generate tests for practical mixed-signal/RF circuits that include the effects of tester inaccuracies and measurement noise. To offset this problem and allow test generation to scale to different applications, we propose a new approach in which FSM models of mixed-signal/RF circuits are abstracted from hardware measurements on fabricated devices. These models allow accurate simulation of device behavior under arbitrary stimulus and thereby test stimulus generation, even after the device has been shipped to a customer. As a consequence, it becomes possible to detect process shifts with fine granularity and regenerate tests to adapt to process perturbations in a dynamic manner without losing test accuracy. A complete methodology for such adaptive testing of mixed-signal/RF circuits for manufacturing defect and design bug (Trojan) detection was developed.. Simulation results and hardware measurements are used to demonstrate the efficacy of the proposed techniques.\nA test generation algorithm that concurrently tests for the smallest possible (maliciously inserted) capacitive loading of internal nodes of mixed-signal/RF circuits has been developed at Georgia Tech  and is the first test generation of  its kind. \nBroader Impact:\n\nThere were several interactions with SRC member companies with presentations made to industry representatives from US semiconductor companies (6 workshops/review meetings overall, one in the US and one in Bangalore, India per year). These resulted in interesting discussions and perspectives from industry. Each review was followed up by a research evaluation that was necessary for continued SRC support. All the reviews were positive and successful.  One of the graduate students working on the project has graduated and joined Intel Corporation, Another student is expected to graduate in May 2018 and has already been in contact with US industry.  The work also led to collaborative discussions with Prof. A. D. Singh of Auburn University and Prof. Ilia Polian of the University of Stuttgart, Germany (Prof. Singh is a co-author on one of the papers published through this research). There is potential to pushing the results of this research to other domains such as public PUFs. Some of the work received help from UC Berkeley as well with research interactions between Prof. Chatterjee?s group and Prof. J. Rowchowdhury?s group at UC Berkeley).\n\nBesides the research interactions ad technology transfer, significant infrastructure has been developed at Georgia Tech that future students can leverage. This includes a test generation system that generates tests from stimulation of hardware. This is a capability that does  not exist elsewhere and has been developed at Georgia Tech. Prof. Chatterjee has also participated in H.O.T days at Georgia Tech, a summer program designed to encourage high school students to pursue engineering as a career path.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 12/28/2017\n\n\t\t\t\t\tSubmitted by: Abhijit Chatterjee"
+ }
+}

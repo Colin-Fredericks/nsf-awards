@@ -1,0 +1,130 @@
+{
+ "awd_id": "0520320",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS-NBD: Automatic Validation, Optimization, and Adaptation of Distributed Firewalls for Network Performance and Security",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2005-09-01",
+ "awd_exp_date": "2009-08-31",
+ "tot_intn_awd_amt": 400000.0,
+ "awd_amount": 400000.0,
+ "awd_min_amd_letter_date": "2005-08-16",
+ "awd_max_amd_letter_date": "2005-08-16",
+ "awd_abstract_narration": "As the Internet becomes an essential part of our everyday computing and communication infrastructure, it has also grown to be a complex distributed system that is hard to characterize. There have been numerous studies on network topology, IP-reachability, and routing dynamics to analyze end-to-end packet forwarding performance. However, there is very little systematic investigation into the influence of other packet transformations that happen along the path, e.g., firewalls, packet filtering, and quality-of-service mapping. Among these, firewalls are ubiquitous as they become indispensable security defense mechanisms used in business and enterprise networks. Just as router mis-configurations can lead to unpredictable routing problems, misconfigured firewalls may fail to enforce the intended security policies, or may incur high packet processing delay. Unfortunately, firewall configuration for a large, complex enterprise network is a demanding and error-prone task, even for experienced administrators. Firewalls can be distributed in many parts of the network or across layers (IP-layer filtering versus application-layer solutions) to cooperatively achieve a global, network-wide policy. As distributed firewall rules are concatenated, it becomes extremely difficult to predict the resulting end-to-end behavior and whether it meets the higher-level security policy.\r\n\r\nIntellectual merit: In this project, the principal investigators (PIs) propose to develop a unified framework for policy-checking, optimization, and auto-reconfiguration of distributed firewalls. This research will provide novel analysis, design techniques, and tools to better protect our critical information infrastructures from attacks. The PIs will explore providing consistent and efficient security protection for an enterprise that may have geographically distributed business networks served by different local Internet Service Providers. They adopt an inter-disciplinary technical approach that leverages multi-way communications among the three PIs with expertise in networking, security, and programming languages and compilers areas to design an integrated solution. In particular, the PIs propose a systematic treatment of the problem by casting it as a static program analysis question, exploiting well-established and rigorous techniques from the area of programming languages and compilers. The PIs will pursue the following closely related tasks:\r\n\r\nPolicy Validation for Security: The PIs first classify all possible policy anomalies (including both inconsistency and inefficiency) in firewall configurations. They will model firewalls as finite-state transition systems and apply symbolic model checking techniques on these finite-state representations to detect both intra-firewall and inter-firewall policy anomalies. The policy validation method consists of two phases. First, they perform control-flow analysis and identify all possible flow paths. Second, they perform data-flow analysis and check for anomalies on every path. Identifying most intra-firewall and inter-firewall anomalies can be accomplished in one traversal. The processing results of each path are further used to identify inter-path misconfigurations.\r\n\r\nPolicy Optimization for Performance: In a typical firewall setting, a packet is compared against a list of rules sequentially until the packet matches a rule. Firewalls with complex rule sets can cause significant delays on network traffic and therefore becomes a bottleneck (especially in high-speed networks) and an attractive target for DoS attacks. Therefore, it is important to optimize packet filtering to provide network Quality of Service (QoS) requirement. In addition, the total number of rules configured and the order of rules also play major roles in the load and efficiency of a firewall. The PIs approach this problem by representing filtering rules as binary decision diagrams (BDDs) and generating \"optimal filter rule sets\" from the internal BDD representation. They also apply dataflow analysis to hoist same or similar rules from different paths to a common location to reduce traffic. They will leverage the underlying network topology, routing, and traffic distribution information in the optimization step to improve the efficiency of firewall checking, which enhances packet-forwarding performance. The key advantage of this approach is the ability to pro-actively prevent vulnerabilities in firewalls since static analysis can be applied before the actual deployment of firewalls.\r\n\r\nBroader Impacts: The proposed research efforts will help system and network administrators to configure networked systems more securely and efficiently. The educational component, which is directed at both undergraduate and graduate students, complements the research activities. Research results will be incorporated into new and existing courses. The PIs will actively participate in UC Davis' minority outreach programs to recruit students from underrepresented groups into science and engineering. In addition, firewall configuration tools developed in the project will be distributed for teaching",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Chen-Nee",
+   "pi_last_name": "Chuah",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Chen-Nee Chuah",
+   "pi_email_addr": "chuah@ucdavis.edu",
+   "nsf_id": "000201231",
+   "pi_start_date": "2005-08-16",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Zhendong",
+   "pi_last_name": "Su",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Zhendong Su",
+   "pi_email_addr": "su@cs.ucdavis.edu",
+   "nsf_id": "000336300",
+   "pi_start_date": "2005-08-16",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Hao",
+   "pi_last_name": "Chen",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hao Chen",
+   "pi_email_addr": "chen@ucdavis.edu",
+   "nsf_id": "000202512",
+   "pi_start_date": "2005-08-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Davis",
+  "inst_street_address": "1850 RESEARCH PARK DR STE 300",
+  "inst_street_address_2": "",
+  "inst_city_name": "DAVIS",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5307547700",
+  "inst_zip_code": "956186153",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "CA04",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, DAVIS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "TX2DAGQPENZ5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Davis",
+  "perf_str_addr": "1850 RESEARCH PARK DR STE 300",
+  "perf_city_name": "DAVIS",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "956186153",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "CA04",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7388",
+   "pgm_ref_txt": "NETWORKING RESEARCH (NR)"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 400000.0
+  }
+ ],
+ "por": null
+}

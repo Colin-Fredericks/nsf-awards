@@ -1,0 +1,150 @@
+{
+ "awd_id": "0429561",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Cooperative Hardware/Software Designs for Virtual Instruction Set Computers",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Chitaranjan Das",
+ "awd_eff_date": "2004-09-01",
+ "awd_exp_date": "2007-08-31",
+ "tot_intn_awd_amt": 150000.0,
+ "awd_amount": 150000.0,
+ "awd_min_amd_letter_date": "2004-08-23",
+ "awd_max_amd_letter_date": "2006-07-10",
+ "awd_abstract_narration": "Abstract\r\n\r\nCooperative Hardware/Software Designs for virtual Instruction Set Computers\r\n\r\nVikram S. Adve\r\nU. of Illinois, Urbana\r\n0429561\r\n\r\nThis work proposes a class of cooperative compiler/microarchitecture techniques that can improve performance and reduce the complexity and power-consumption of general-purpose processors.  The key feature of these proposed techniques is that they exploit a wide, implementation-specific instruction set interface between the compiler and the processor, enabled by the use of Virtual Instruction Set Computer (VISC) architecture.\r\n\r\nA VISC architecture is characterized by having two instructions sets - one which is exposed to software (the virtual ISA or V-ISA) and another which is actually implemented by hardware (the implementation ISA or I-ISA)-and a translator that is used to transparently emulate the first with the second.  Because the I-ISA is never exposed to software (other than an implementation-specific translator that is logically part of the processor design) it can freely expose implementation specific microarchitectural details and interfaces without concerns for binary compatibility across implementations.  It is this opportunity to architect an implementation-specific ISA and use it for cooperative compiler/microarchitecture techniques that is the central focus of this proposal.\r\n\r\nTwo aspects of the proposed work differentiate it from previous work on software-exposed architectures.  First, we are translating from a rich V-ISA layer that retains much of the high-level information present in the program's source code.  We hypothesize that the availability of this information is fundamental in the translator's ability to transform the code to exploit the proposed mechanisms, and we will evaluate this hypothesis for the proposed techniques.  Second, the proposed techniques are truly cooperative, in that the compiler can have full knowledge of implementation-specific details of the microarchitecture, and the microarchitecture can rely on information from and code generation constraints on the complier.  This gives our designs full freedom to exploit the distinct and complimentary strengths of compilers and hardware; neither system is the other's subordinate.  Whereas hardware can efficiently observe and respond to dynamic events and can cheaply speculate and validate that speculation, the compiler can perform global analysis to reduce and simplify the decisions the hardware has to make and to eliminate unnecessary speculation.\r\n\r\nSpecifically, we proposed to develop cooperative compiler technology and microarchitectures that address critical challenges in modern general-purpose processors.  For each of these challenges, we will explore one or two techniques (described in the proposal) that rely extensively on software interaction, and which would be impractical without the VISC approach.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Vikram",
+   "pi_last_name": "Adve",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Vikram S Adve",
+   "pi_email_addr": "vadve@cs.uiuc.edu",
+   "nsf_id": "000334755",
+   "pi_start_date": "2004-08-23",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Sanjay",
+   "pi_last_name": "Patel",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sanjay J Patel",
+   "pi_email_addr": "sjp@illinois.edu",
+   "nsf_id": "000325076",
+   "pi_start_date": "2004-08-23",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Craig",
+   "pi_last_name": "Zilles",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Craig Zilles",
+   "pi_email_addr": "zilles@illinois.edu",
+   "nsf_id": "000107009",
+   "pi_start_date": "2004-08-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "506 S WRIGHT ST",
+  "perf_city_name": "URBANA",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618013620",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "471500",
+   "pgm_ele_name": "COMPUTER SYSTEMS ARCHITECTURE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0104",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0104",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0106",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0106",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2004,
+   "fund_oblg_amt": 47558.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 49850.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2006,
+   "fund_oblg_amt": 52592.0
+  }
+ ],
+ "por": null
+}

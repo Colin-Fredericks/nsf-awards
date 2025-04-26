@@ -1,0 +1,101 @@
+{
+ "awd_id": "2404521",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Development of Adaptive Sparse Grid Discontinuous Galerkin Methods for Multiscale Kinetic Simulations in Plasmas",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032922113",
+ "po_email": "ygorb@nsf.gov",
+ "po_sign_block_name": "Yuliya Gorb",
+ "awd_eff_date": "2023-12-15",
+ "awd_exp_date": "2024-07-31",
+ "tot_intn_awd_amt": 200000.0,
+ "awd_amount": 55191.0,
+ "awd_min_amd_letter_date": "2023-12-19",
+ "awd_max_amd_letter_date": "2023-12-19",
+ "awd_abstract_narration": "This project aims at designing efficient numerical schemes for simulating complex plasma phenomena. Plasma is a state of matter similar to gas in which a certain portion of the particles is ionized.  Understanding the complex behaviors of plasmas has led to important advances in areas ranging from  space physics, fusion energy, to high-power microwave generation and large scale particle accelerators.  There is strong need for laying out mathematical and algorithmic foundations for the design of efficient numerical methods so that we can advance basic research in plasma simulations. The algorithms developed in this project have the potential to provide high fidelity simulations in plasma physics with manageable computational cost and will have applications and impacts in multiscale simulations in fusion devices. The principal investigator (PI) will organize  special events at professional meetings and workshops to promote the participation of female researchers. This project provides research training opportunities for graduate students. \r\n\r\nThe objective of the project is to make significant advances on the design and analysis of a class of numerical methods called adaptive sparse grid (aSG) discontinuous Galerkin (DG) methods. The methods incorporate high order accurate DG solver that excels at transport simulations and the dimension reduction technique by aSG approach. The aim of this proposal is to advance the algorithmic foundations of the schemes for time-dependent PDEs, and push them onto the broader arena of multiscale simulations and applications for fusion science. The PI will investigate several fundamental issues including the analysis of CFL conditions, development of multiscale time stepping, postprocessing and hybrid aSG schemes. For a class of multiscale kinetic problems bridging kinetic and fluid models, by utilizing the multiresolution offered in the aSG-DG framework, the research will take advantage of both multiscale simulation tools and multiresolution on hierarchically defined meshes to achieve acceleration in computations. The schemes will be applied to simulations of runaway electrons in tokamak devices.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yingda",
+   "pi_last_name": "Cheng",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yingda Cheng",
+   "pi_email_addr": "yingda@vt.edu",
+   "nsf_id": "000518791",
+   "pi_start_date": "2023-12-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Virginia Polytechnic Institute and State University",
+  "inst_street_address": "300 TURNER ST NW",
+  "inst_street_address_2": "STE 4200",
+  "inst_city_name": "BLACKSBURG",
+  "inst_state_code": "VA",
+  "inst_state_name": "Virginia",
+  "inst_phone_num": "5402315281",
+  "inst_zip_code": "240603359",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "VA09",
+  "org_lgl_bus_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+  "org_prnt_uei_num": "X6KEFGLHSJX7",
+  "org_uei_num": "QDE5UHE5XD16"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Virginia Polytechnic Institute and State University",
+  "perf_str_addr": "300 TURNER ST NW",
+  "perf_city_name": "BLACKSBURG",
+  "perf_st_code": "VA",
+  "perf_st_name": "Virginia",
+  "perf_zip_code": "240603359",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "VA09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 55191.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In many science and engineering applications, the underlying models are posed as partial differential equations in high dimensions. Those include Boltzmann equations in statistical physics, Schrodinger equations in quantum mechanics. They go beyond the physical dimensions in 3D, and are challenging to simulate due to limited computational resources.&nbsp;</p>\n<p>This project develops a class of highly accurate numerical methods to tackle the challenge of curse of dimensions. We developed the adaptive sparse grid discontinous Galerkin methods, which can use adaptive choice of multiwavelet bases to efficiently compute such problems. The method can compute highly challenging nonlinear equations by a novel adaptive sparse grid by interpolatory multiwavelet bases. Beyond the computational efficiency, the method can preserve many physical quantities of interest due to the weak formulation underlying the discontinuous Galerkin framework.&nbsp;</p>\n<p>The building blocks of the method includes the following: (1) a weak formulation from discontinuous Galerkin finite element method (2) tools from signal processing: multiwavelets of various kinds (3) fast linear algebra routines exploring hierarchical structures of the grid. We applied the schemes to several applications: including Vlasov/Boltzmann equations in plasmas, nonlinear dispersive equations, Hamilton-Jacobi equations in control. We publish a publicly-available C++ software on Github providing benchmark code and algorithm implementation.&nbsp; The package is capable of treating a large class of high dimensional linear and nonlinear PDEs. We establish theoretical results for stability and convergence for linear equations.</p>\n<p>The project has trained one Ph.D. students and involves two other postdoctoral scholars. They have continued their academic careers in postdoc and tenure track positions.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 09/10/2024<br>\nModified by: Yingda&nbsp;Cheng</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nIn many science and engineering applications, the underlying models are posed as partial differential equations in high dimensions. Those include Boltzmann equations in statistical physics, Schrodinger equations in quantum mechanics. They go beyond the physical dimensions in 3D, and are challenging to simulate due to limited computational resources.\n\n\nThis project develops a class of highly accurate numerical methods to tackle the challenge of curse of dimensions. We developed the adaptive sparse grid discontinous Galerkin methods, which can use adaptive choice of multiwavelet bases to efficiently compute such problems. The method can compute highly challenging nonlinear equations by a novel adaptive sparse grid by interpolatory multiwavelet bases. Beyond the computational efficiency, the method can preserve many physical quantities of interest due to the weak formulation underlying the discontinuous Galerkin framework.\n\n\nThe building blocks of the method includes the following: (1) a weak formulation from discontinuous Galerkin finite element method (2) tools from signal processing: multiwavelets of various kinds (3) fast linear algebra routines exploring hierarchical structures of the grid. We applied the schemes to several applications: including Vlasov/Boltzmann equations in plasmas, nonlinear dispersive equations, Hamilton-Jacobi equations in control. We publish a publicly-available C++ software on Github providing benchmark code and algorithm implementation. The package is capable of treating a large class of high dimensional linear and nonlinear PDEs. We establish theoretical results for stability and convergence for linear equations.\n\n\nThe project has trained one Ph.D. students and involves two other postdoctoral scholars. They have continued their academic careers in postdoc and tenure track positions.\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\tLast Modified: 09/10/2024\n\n\t\t\t\t\tSubmitted by: YingdaCheng\n"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "awd_id": "1815044",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Branching in RNA Secondary Structures",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032927523",
+ "po_email": "zfeng@nsf.gov",
+ "po_sign_block_name": "Zhilan Feng",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 73765.0,
+ "awd_amount": 73765.0,
+ "awd_min_amd_letter_date": "2018-08-09",
+ "awd_max_amd_letter_date": "2018-08-09",
+ "awd_abstract_narration": "This project will develop mathematical tools to better understand the structure of biomolecules with important cellular functions. RNA, a single-strand molecule derived from DNA, is essential in various biological roles. Besides converting the information stored in DNA into proteins, some RNAs control vital cell processes. RNA chains must fold into specific shapes to serve these roles. However, despite the series of refinements to the commonly-used energy model for predicting RNA structure, the accuracy of folding predictions for longer RNA sequences is not satisfying.  This project will use geometric combinatorics to gain insights into the stability and accuracy of predictions from the current energy model. Addressing these biologically relevant questions leads to important mathematical problems which intersect with active research areas in polyhedral geometry and discrete optimization. Results from this project will be used to improve software predicting RNA folding and assist molecular biologists studying RNA function. Additionally, as part of the project, the investigators will train graduate and undergraduate students in research at the interface of mathematics and biology.\r\n\r\nThis research will advance biological understanding and mathematical knowledge within the developing field of discrete mathematical biology at the juncture between geometric combinatorics and molecular biology. The affine energy function which governs the entropic cost of branching is a known shortcoming of the current nearest neighbor thermodynamic model. However, this coarse approximation to biochemical reality, which is highly constrained by computational efficiency, is well-suited to mathematical modeling and analysis. Methods from geometric combinatorics (polytopes and their normal fans) will be used to give the first parametric analysis of the branching of biological RNA sequences.  Biologically relevant questions, including the accuracy and stability of the current branching parameters in thermodynamic optimization methods for RNA secondary structure prediction, will be addressed using methods from geometric combinatorics. The similarities and differences of these RNA branching polytopes will then be delineated by addressing the challenges of characterization, comparison, and approximation.  This will provide new insight into the inability of current prediction methods to distinguish native branching characteristics from the large number of suboptimal structures.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Christine",
+   "pi_last_name": "Heitsch",
+   "pi_mid_init": "E",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christine E Heitsch",
+   "pi_email_addr": "heitsch@math.gatech.edu",
+   "nsf_id": "000309316",
+   "pi_start_date": "2018-08-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 North Avenue",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "733400",
+   "pgm_ele_name": "MATHEMATICAL BIOLOGY"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 73765.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Analyzing RNA base pair predictions provides valuable insights into molecular structures and, consequently, their functions. Common methods typically predict an optimal structure based on the standard thermodynamic model, which includes an equation governing the cost of branching. In this model, three or more helical \"arms\" extend from a multiloop, also known as a junction. The multiloop initiation equation involves three parameters, and adjusting these values can significantly impact the predicted structure.<br />The primary objective of our project was to conduct a parametric analysis of RNA branching for biological sequences, employing techniques from geometric combinatorics such as polytopes and their normal fans. We examined all possible minimum free energy structures for each sequence in a curated set of RNA sequences, utilizing this comprehensive information to conduct a thorough analysis of prediction accuracy, stability, and robustness.<br />Our findings indicated that modifying branching parameters from default values could enhance predictions for 89% of tRNA and 90% of 5S rRNA. However, achieving simultaneous improvement for the same set of new parameters proved unattainable. To address this, we introduced a branch-and-bound algorithm with an effective implementation, facilitating the identification of parameters with optimal prediction accuracy across a given set of RNA sequences.<br />Furthermore, we verified that the newly identified parameters significantly outperformed the current ones on the type of testing sequences (tRNA, 5S rRNA, or both) on which they were trained. Our analysis, in conjunction with previous ad hoc parameter exploration, suggests a potentially extensive set of branching parameters yielding equivalent prediction accuracies that improve over the current ones. To move forward in identifying the scope of these parameters, we confirmed that the current empirical strategy of focusing on the trade-off between two of the three branching parameters is well-substantiated by our analysis. This is especially useful as such a reduction in the dimension enables us to apply the approach to longer sequences.<br />Considering the geometry of regions formed by parameters yielding identical predictions, we observed substantial overlap within families but minimal overlap between families, elucidating the challenge of improving inter-family secondary structure predictions. We also found that, the target region for each family is typically much larger than the region with that signature for the other family. Analysis of randomized sequences revealed that this is a true biological signal; the target regions for the randomized sequences are much smaller, on the order of the non-target ones from the other family.<br />Each PI adds about broader impact...</p><br>\n<p>\n Last Modified: 05/16/2024<br>\nModified by: Christine&nbsp;E&nbsp;Heitsch</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nAnalyzing RNA base pair predictions provides valuable insights into molecular structures and, consequently, their functions. Common methods typically predict an optimal structure based on the standard thermodynamic model, which includes an equation governing the cost of branching. In this model, three or more helical \"arms\" extend from a multiloop, also known as a junction. The multiloop initiation equation involves three parameters, and adjusting these values can significantly impact the predicted structure.\nThe primary objective of our project was to conduct a parametric analysis of RNA branching for biological sequences, employing techniques from geometric combinatorics such as polytopes and their normal fans. We examined all possible minimum free energy structures for each sequence in a curated set of RNA sequences, utilizing this comprehensive information to conduct a thorough analysis of prediction accuracy, stability, and robustness.\nOur findings indicated that modifying branching parameters from default values could enhance predictions for 89% of tRNA and 90% of 5S rRNA. However, achieving simultaneous improvement for the same set of new parameters proved unattainable. To address this, we introduced a branch-and-bound algorithm with an effective implementation, facilitating the identification of parameters with optimal prediction accuracy across a given set of RNA sequences.\nFurthermore, we verified that the newly identified parameters significantly outperformed the current ones on the type of testing sequences (tRNA, 5S rRNA, or both) on which they were trained. Our analysis, in conjunction with previous ad hoc parameter exploration, suggests a potentially extensive set of branching parameters yielding equivalent prediction accuracies that improve over the current ones. To move forward in identifying the scope of these parameters, we confirmed that the current empirical strategy of focusing on the trade-off between two of the three branching parameters is well-substantiated by our analysis. This is especially useful as such a reduction in the dimension enables us to apply the approach to longer sequences.\nConsidering the geometry of regions formed by parameters yielding identical predictions, we observed substantial overlap within families but minimal overlap between families, elucidating the challenge of improving inter-family secondary structure predictions. We also found that, the target region for each family is typically much larger than the region with that signature for the other family. Analysis of randomized sequences revealed that this is a true biological signal; the target regions for the randomized sequences are much smaller, on the order of the non-target ones from the other family.\nEach PI adds about broader impact...\t\t\t\t\tLast Modified: 05/16/2024\n\n\t\t\t\t\tSubmitted by: ChristineEHeitsch\n"
+ }
+}

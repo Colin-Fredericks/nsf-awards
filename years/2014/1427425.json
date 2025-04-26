@@ -1,0 +1,101 @@
+{
+ "awd_id": "1427425",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NRI: Collaborative Research: Shall I Touch This?: Navigating the Look and Feel of Complex Surfaces",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924768",
+ "po_email": "jyang@nsf.gov",
+ "po_sign_block_name": "Jie Yang",
+ "awd_eff_date": "2014-07-15",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2014-08-18",
+ "awd_max_amd_letter_date": "2014-08-18",
+ "awd_abstract_narration": "This project improves autonomous robotic perception so that future co-robots can glance around any scene and accurately estimate how it would feel to grasp or step on all of the visible surfaces.  Just as people do, robots should use such these physical predictions to guide their interactions with the world, for example avoiding dangerous ice patches on the ground when walking and driving, and adeptly anticipating the grasp force needed to pick up everything from ice cubes to stuffed animals. These research activities are accompanied by significant outreach efforts, including a new program on \"Look and Touch Robotics\" to get middle-school students, particularly those from under\u00adrepresented groups, excited about computer science, engineering, and robotics. This program uses simple experiments to highlight the dual importance of visual and haptic information during interactions with physical objects, along with demonstrations of a robot showing visuo-\u00adhaptic intelligence.  This project also integrates research and education by involving undergraduates in the research and via hands-on projects in the vision and robotics classes taught by the Principal Investigators.\r\n\r\nThis research involves extensive collection of data from real objects and surfaces using both visual and haptic sensors.  The recorded interactions are analyzed to uncover visual clues that can allow a robot to infer the physical characteristics of the surface, such as slipperiness, hardness, and roughness.  This problem is addressed using deep learning, a recently developed approach that has been successful in enabling robots to visually recognize a wide variety of objects in diverse circumstances.  The research team also builds the database of visuo-haptic recordings and the learned cross-modal sensory, and makes it available to other robotics researchers at the end of the project.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Trevor",
+   "pi_last_name": "Darrell",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Trevor J Darrell",
+   "pi_email_addr": "trevor@eecs.berkeley.edu",
+   "nsf_id": "000175078",
+   "pi_start_date": "2014-08-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "748 Sutardja Dai Hall",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947201776",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "801300",
+   "pgm_ele_name": "NRI-National Robotics Initiati"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8086",
+   "pgm_ref_txt": "Natl Robotics Initiative (NRI)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 600000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-93ed2e1a-bbcd-53ca-531e-5c89ebeae518\"> </span></p>\n<p dir=\"ltr\"><span>Tactile understanding is important for a wide variety of tasks, and robots that need to interact with the physical world will benefit from a fine-grained tactile understanding of objects and surfaces. &nbsp;For example, humans constantly adjust their movements based on haptic feedback during object manipulation. Similarly, robot performance is likely to improve on a diverse set of tasks if robots can understand the haptic properties of surfaces and objects. A robot might adjust its grip when manipulating a fragile object, avoid surfaces it perceives to be wet or slippery, or describe the tactile qualities of an unfamiliar object to a human.</span></p>\n<p dir=\"ltr\"><span>Additionally, for certain tasks, robots may need to know the haptic properties of an object before touching it. To enable better tactile understanding for robots, we developed a method of classifying surfaces with haptic adjectives (e.g., compressible or smooth) from both visual and physical interaction data. Humans typically combine visual predictions and feedback from physical interactions to accurately predict haptic properties and interact with the world. Inspired by this cognitive pattern, we proposed and explored a purely visual haptic prediction model. Purely visual models enable a robot to \"feel\" without physical interaction. Furthermore, we demonstrate that using both visual and physical interaction signals together yields more accurate haptic classification. Our models take advantage of recent advances in deep neural networks by employing a unified approach to learning features for physical interaction and visual observations. Our approach is beneficial not only because it results in better performance, but also because it eliminates the need for domain-specific knowledge in feature design.</span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/25/2017<br>\n\t\t\t\t\tModified by: Trevor&nbsp;J&nbsp;Darrell</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n \nTactile understanding is important for a wide variety of tasks, and robots that need to interact with the physical world will benefit from a fine-grained tactile understanding of objects and surfaces.  For example, humans constantly adjust their movements based on haptic feedback during object manipulation. Similarly, robot performance is likely to improve on a diverse set of tasks if robots can understand the haptic properties of surfaces and objects. A robot might adjust its grip when manipulating a fragile object, avoid surfaces it perceives to be wet or slippery, or describe the tactile qualities of an unfamiliar object to a human.\nAdditionally, for certain tasks, robots may need to know the haptic properties of an object before touching it. To enable better tactile understanding for robots, we developed a method of classifying surfaces with haptic adjectives (e.g., compressible or smooth) from both visual and physical interaction data. Humans typically combine visual predictions and feedback from physical interactions to accurately predict haptic properties and interact with the world. Inspired by this cognitive pattern, we proposed and explored a purely visual haptic prediction model. Purely visual models enable a robot to \"feel\" without physical interaction. Furthermore, we demonstrate that using both visual and physical interaction signals together yields more accurate haptic classification. Our models take advantage of recent advances in deep neural networks by employing a unified approach to learning features for physical interaction and visual observations. Our approach is beneficial not only because it results in better performance, but also because it eliminates the need for domain-specific knowledge in feature design.\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 09/25/2017\n\n\t\t\t\t\tSubmitted by: Trevor J Darrell"
+ }
+}

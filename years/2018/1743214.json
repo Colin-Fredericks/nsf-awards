@@ -1,0 +1,96 @@
+{
+ "awd_id": "1743214",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Myriad: a new architecture for parallel multiscale simulation on CPU/GPU",
+ "cfda_num": "47.074",
+ "org_code": "08080000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Peter McCartney",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2021-05-31",
+ "tot_intn_awd_amt": 299577.0,
+ "awd_amount": 299577.0,
+ "awd_min_amd_letter_date": "2018-05-29",
+ "awd_max_amd_letter_date": "2018-05-29",
+ "awd_abstract_narration": "The expansion of scientific knowledge is continually improving human understanding of the brain and other biological systems.  Increasingly, however, it is becoming clear that many of the capacities of the brain arise from rich and complex interactions among its many regions.  Conversely, disorders of the brain and body often arise from subtle deficits that gradually impair the coordinated function of these interacting neural and biological systems until, at last, they begin to collapse and major symptoms are expressed.  Because these networks of interactions are too complex to simply intuit, scientists construct computer models so that the work of many different scientific studies can be brought together and gradually constructed into a unified understanding of the intricate systems under study.  This leads to broader understandings of our complex brains and bodies that would not be possible without such quantitative models.  The goal of the Myriad project is to provide a software platform for biological modeling that makes it much easier to harness the power of modern parallel-processing computer systems.  A second goal is to implement a simulator that uses this platform to create detailed models of neurons and neural networks.   \r\n \t \r\nMyriad is a compartmental simulator platform based on a shared-memory architecture and designed for computational speed based on NVIDIA GPU (CUDA) or parallel CPU execution.  Its transformative potential arises from its capacity to automatically parallelize any compartmental model, including those with dense analogue interactions that presently cannot be effectively parallelized, and without requiring the end user to write special, platform-specific parallelization code. Myriad's shared-memory design eschews message-passing, and utilizes a radically granular design approach that flattens hierarchically defined cellular models and can even break up individual isometric compartments by state variable.  Specifically, all models that can be represented as isometric, stateful nodes (compartments) connected by any number of arbitrary mechanisms can be simulated with a high degree of parallelism, automatically thread-scaled to the number of available threads and load-balanced with very fine granularity to maximize the utilization of available CPU or GPU cores.  Programmatically, end-user models are defined in a Python-based environment and converted into fully-specified C99 code (for CPU or GPU) via code generation techniques that are enhanced by a custom abstract syntax tree (AST) translator and, for NVIDIA GPUs, a custom object specification for CUDA enabling fully on-card execution.  The first applications of Myriad will be to simulate biophysically realistic computational models of neurons and networks.  Importantly, however, Myriad's generic compartmental solver will be able in principle to parallelize any model framework that can be represented as stateful nodes coupled pairwise by arbitrary mechanisms.  Accordingly, to extend Myriad into new scientific areas of study (e.g., gene regulatory networks, epidemiological models, host-virus interactions, ecological systems) will require development only at the higher Python-based software layer, presumably by experts in the relevant field.  Finally, as present parallelization strategies are only able to accelerate sparselycoupled models, computational modeling recently has been drawn towards that subset of scientific questions capable of being addressed by these methods.  The release of Myriad may reopen the full breadth of quantitative biological questions that can be effectively addressed by parallel simulation.  Updates on the Myriad project can be found at http://cplab.net/myriad.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "BIO",
+ "org_dir_long_name": "Directorate for Biological Sciences",
+ "div_abbr": "DBI",
+ "org_div_long_name": "Division of Biological Infrastructure",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Thomas",
+   "pi_last_name": "Cleland",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Thomas A Cleland",
+   "pi_email_addr": "tac29@cornell.edu",
+   "nsf_id": "000431230",
+   "pi_start_date": "2018-05-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Cornell University",
+  "inst_street_address": "341 PINE TREE RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "ITHACA",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6072555014",
+  "inst_zip_code": "148502820",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "NY19",
+  "org_lgl_bus_name": "CORNELL UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G56PUALJ3KT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Cornell University Psychology Dept.",
+  "perf_str_addr": "Uris Hall, 109 Tower Road",
+  "perf_city_name": "Ithaca",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "148537601",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "NY19",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "116500",
+   "pgm_ele_name": "ADVANCES IN BIO INFORMATICS"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 299577.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of this project was to develop a simulator that could run neuronal network models, written in Python, on graphics processing units (GPUs).&nbsp; Our initial efforts were to develop the simulator from scratch, but with the growing availability and performance of GPU-aware machine learning frameworks like PyTorch we shifted our strategy to make use of these developments.&nbsp; Specifically, we wrote a model design framework for neuronal and neuromorphic networks, now called Sapicore, that is layered atop PyTorch but bypasses some of its higher-level methods (applicable to deep networks), instead adapting it to serve the dissimilar needs of biologically inspired neuronal and neuromorphic network modeling.&nbsp;</p>\n<p>The <em>intellectual merit</em> of this project centers around the need for tools that support the current generation of brain-inspired modeling.&nbsp; This includes both computational neuroscience modeling, for purposes of better understanding the brain and its function, and neuromorphic modeling, a growing field within artificial intelligence that seeks to use brain-inspired networks in artificial systems.&nbsp; Compared with the presently-dominant deep network methods, neuromorphic networks are more task-specific, learn more rapidly and flexibly, and when deployed on compatible hardware are much, much more energy-efficient.&nbsp; However, they are constrained by our nascent understanding of how such decentralized networks can be most efficiently programmed for purpose.&nbsp; Ascertaining the mechanisms of well-characterized brain networks, and adapting them for purpose in artificial systems, is an effective approach to this early-stage problem.&nbsp; Our Sapicore framework serves this strategy.&nbsp;</p>\n<p>The <em>broader impacts</em> of this project include the open-source and freely-distributable software package Sapicore.&nbsp; Sapicore is distributed via PyPi (<a href=\"https://pypi.org/project/sapicore/\">https://pypi.org/project/sapicore/</a>); its source code is freely available at <a href=\"http://github.com/cplab/sapicore\">http://github.com/cplab/sapicore</a>, and programmer documentation is available at <a href=\"https://cplab.github.io/sapicore/index.html\">https://cplab.github.io/sapicore/index.html</a>.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/14/2022<br>\n\t\t\t\t\tModified by: Thomas&nbsp;A&nbsp;Cleland</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this project was to develop a simulator that could run neuronal network models, written in Python, on graphics processing units (GPUs).  Our initial efforts were to develop the simulator from scratch, but with the growing availability and performance of GPU-aware machine learning frameworks like PyTorch we shifted our strategy to make use of these developments.  Specifically, we wrote a model design framework for neuronal and neuromorphic networks, now called Sapicore, that is layered atop PyTorch but bypasses some of its higher-level methods (applicable to deep networks), instead adapting it to serve the dissimilar needs of biologically inspired neuronal and neuromorphic network modeling. \n\nThe intellectual merit of this project centers around the need for tools that support the current generation of brain-inspired modeling.  This includes both computational neuroscience modeling, for purposes of better understanding the brain and its function, and neuromorphic modeling, a growing field within artificial intelligence that seeks to use brain-inspired networks in artificial systems.  Compared with the presently-dominant deep network methods, neuromorphic networks are more task-specific, learn more rapidly and flexibly, and when deployed on compatible hardware are much, much more energy-efficient.  However, they are constrained by our nascent understanding of how such decentralized networks can be most efficiently programmed for purpose.  Ascertaining the mechanisms of well-characterized brain networks, and adapting them for purpose in artificial systems, is an effective approach to this early-stage problem.  Our Sapicore framework serves this strategy. \n\nThe broader impacts of this project include the open-source and freely-distributable software package Sapicore.  Sapicore is distributed via PyPi (https://pypi.org/project/sapicore/); its source code is freely available at http://github.com/cplab/sapicore, and programmer documentation is available at https://cplab.github.io/sapicore/index.html. \n\n \n\n\t\t\t\t\tLast Modified: 03/14/2022\n\n\t\t\t\t\tSubmitted by: Thomas A Cleland"
+ }
+}

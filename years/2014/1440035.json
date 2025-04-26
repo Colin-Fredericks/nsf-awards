@@ -1,0 +1,101 @@
+{
+ "awd_id": "1440035",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Communication without Repudiation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-07-01",
+ "awd_exp_date": "2018-06-30",
+ "tot_intn_awd_amt": 298905.0,
+ "awd_amount": 298905.0,
+ "awd_min_amd_letter_date": "2014-06-20",
+ "awd_max_amd_letter_date": "2014-06-20",
+ "awd_abstract_narration": "A \"non-repudiation protocol\" between two parties S and R over the Internet defends against party S sending a message to party R then later repudiating that it has sent the message and against party R receiving a message from party S then later repudiating that it has received the message. The main goal of this proposal is to design non-repudiation protocols that do not involve a third party that needs to be blindly trusted by both S and R. Non-repudiation protocols that do not involve trusted parties are essential for realizing secure certified email services over the Internet.\r\n\r\nThis project attempts to answer three fundamental questions concerning the design of non-repudiation protocols. The first question is \"Can one design non-repudiation protocols that do not involve a trusted third party?\" The second question is \"What is a least invasive trusted party that needs to be involved in a non-repudiation protocol?\" The third question is \"Can one plan a certified email service based on a non-repudiation protocol that involves a least invasive trusted party?\" To answer these questions, the PI proposes to design non-repudiation protocols that do not involve trusted parties or that involve the least invasive trusted parties. In addition, the proposed protocol will tolerate the loss and corruption of sent messages and will not require the participating parties to have tightly synchronized clocks. The project is also proceeding towards implementing a certified email service that is based on a non-repudiation protocol that involves a least invasive trusted party.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mohamed",
+   "pi_last_name": "Gouda",
+   "pi_mid_init": "G",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mohamed G Gouda",
+   "pi_email_addr": "gouda@cs.utexas.edu",
+   "nsf_id": "000383193",
+   "pi_start_date": "2014-06-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "2317 Speedway Stop D9500",
+  "perf_city_name": "Austin",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121757",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 298905.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>A non-repudiation protocol from one party S to another party R performs two tasks. First, the protocol enables party S to send to party R some text x along with a proof (that can convince an unbiased judge) that x was indeed sent by S. Second, the protocol enables party R to receive text x from S and to send to S a proof (that can convince the judge) that x was indeed received by</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Only one of two outcomes is possible when the execution of the non-repudiation protocol from S to R terminates. The first outcome is that both S and R obtain their required proofs. The second outcome is that neither S nor R obtains its required proof.</p>\n<p>&nbsp;</p>\n<p>Non-repudiation protocols can support several important applications over the Internet. Examples of these applications are certified email, cloud storage, electronic billing, and meter reading in smart grids.</p>\n<p>&nbsp;</p>\n<p>In this project, we identify and design three interesting classes of non-repudiation protocols:</p>\n<p>Class 1 Non-repudiation protocols that do not have a trusted third party (beside the two parties S and R).</p>\n<p>Class 2 Non-repudiation protocols that use cloud C as a trusted third party to store all the proofs concerning text x under the assumption that all the proofs stored in cloud C are never lost.</p>\n<p>Class 3 Non-repudiation protocols that use cloud C as a trusted third party to store all the proofs concerning text x under the assumption that some or all the proofs stored in cloud C can be lost.</p>\n<p>&nbsp;</p>\n<p>The PI of this project and two Ph.D. students, namely Mr. Muqeet Ali and Ms. Rezwana Reaz, at the Computer Science Dept. in the University of Texas at Austin were all supported in part by this project.</p>\n<p>&nbsp;</p>\n<p>Our team published two conference papers on the design of Class 1 Non-repudiation protocols.</p>\n<p>&nbsp;</p>\n<p>Our team also published one conference paper on the design of Class 2 Non-repudiation protocols.</p>\n<p>&nbsp;</p>\n<p>Finally, our team published one technical report on the design of Class 3 Non-repudiation protocols.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/11/2019<br>\n\t\t\t\t\tModified by: Mohamed&nbsp;G&nbsp;Gouda</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nA non-repudiation protocol from one party S to another party R performs two tasks. First, the protocol enables party S to send to party R some text x along with a proof (that can convince an unbiased judge) that x was indeed sent by S. Second, the protocol enables party R to receive text x from S and to send to S a proof (that can convince the judge) that x was indeed received by\n\n \n\n \n\nOnly one of two outcomes is possible when the execution of the non-repudiation protocol from S to R terminates. The first outcome is that both S and R obtain their required proofs. The second outcome is that neither S nor R obtains its required proof.\n\n \n\nNon-repudiation protocols can support several important applications over the Internet. Examples of these applications are certified email, cloud storage, electronic billing, and meter reading in smart grids.\n\n \n\nIn this project, we identify and design three interesting classes of non-repudiation protocols:\n\nClass 1 Non-repudiation protocols that do not have a trusted third party (beside the two parties S and R).\n\nClass 2 Non-repudiation protocols that use cloud C as a trusted third party to store all the proofs concerning text x under the assumption that all the proofs stored in cloud C are never lost.\n\nClass 3 Non-repudiation protocols that use cloud C as a trusted third party to store all the proofs concerning text x under the assumption that some or all the proofs stored in cloud C can be lost.\n\n \n\nThe PI of this project and two Ph.D. students, namely Mr. Muqeet Ali and Ms. Rezwana Reaz, at the Computer Science Dept. in the University of Texas at Austin were all supported in part by this project.\n\n \n\nOur team published two conference papers on the design of Class 1 Non-repudiation protocols.\n\n \n\nOur team also published one conference paper on the design of Class 2 Non-repudiation protocols.\n\n \n\nFinally, our team published one technical report on the design of Class 3 Non-repudiation protocols.\n\n \n\n\t\t\t\t\tLast Modified: 06/11/2019\n\n\t\t\t\t\tSubmitted by: Mohamed G Gouda"
+ }
+}

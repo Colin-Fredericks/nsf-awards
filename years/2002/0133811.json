@@ -1,0 +1,114 @@
+{
+ "awd_id": "0133811",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "PECASE:   Associative Overlay Networks",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2002-03-01",
+ "awd_exp_date": "2007-02-28",
+ "tot_intn_awd_amt": 497869.0,
+ "awd_amount": 497869.0,
+ "awd_min_amd_letter_date": "2002-02-28",
+ "awd_max_amd_letter_date": "2004-05-05",
+ "awd_abstract_narration": "\r\nProposal Title: PECASE: Associative Overlay Networks\r\nInstitution: University of California-Berkeley\r\n\r\nIndirection plays a fundamental role in today's Internet. Existing solutions to provide mobility, anycast and multicast at the IP layer, and to provide web caching and server load balancing at the application layer, are based on indirection. In particular, these solutions assume a physical or logical indirection point that redirects the traffic to the destination(s). For instance, mobile IP assumes a home agent that hides the end-host mobility, while IP multicast assumes a logical indirection point (address) that hides the number of receivers and their locations. Unfortunately, the fact that IP does not provide efficient support for indirection makes it difficult and complex to deploy these solutions.\r\nThe proposed research addresses this problem by developing a novel network architecture around the in-direction principle. In particular, the researcher proposes to replace the point-to-point communication abstraction used in today's networks with a rendezvous-based communication abstraction: instead of explicitly sending a packet to a destination, each packet is associated with an identifier, which is then used by the receiver to get the packet. This level of indirection decouples the sender and the receiver behaviors. The fact that the receiver is moving or that there are multiple receivers getting the same packet is transparent to the sender. Similarly, the fact that the sender is moving or that there are multiple senders sending packets with the same identifier is transparent to the receiver. This decoupling allows rendezvous-based networks to provide natural support for mobility, anycast and multicast. To demonstrate the feasibility of this approach, the researcher proposes to build and deploy an overlay network, called Associative Overlay Network (AON), that implements the rendezvous-based communication abstraction.\r\nThe main goal of this research is twofold. First, the researcher aims to demonstrate the power and the flexibility of AON by showing that it can support the basic communication abstractions (e.g., multicast, anycast), and that it can greatly simplify the deployment of distributed applications such as service composition and reliable multicast. Second, the researcher plans to demonstrate that AON allows a scalable and efficient implementation, while offering performance similar to the overlay network systems designed around the traditional point-to-point communication abstraction. The researcher's solution leverages the previous work on the Chord lookup system [40], which is used as a building block to implement AON. This proposal discusses several possible approaches to achieve the goals of scalability, efficiency, and robustness, and formulates the main open problems. Among these problems are providing load balancing across AON nodes, supporting large scale multicast groups, and protecting against distributed denial of service attacks.\r\nThe proposed research will make significant contributions to network architectures. The rendezvous-based communication is a fundamental departure from the point-to-point communication abstraction implemented by today's Internet. The researcher hopes that this change will trigger new and exciting research in computer networks similar to the way that tuple space abstraction did in distributed systems. We plan to deploy AON locally on the Millenium testbed and on the Internet-2 testbed, making it possible for other research groups to experiment with AON and implement applications on top of it.\r\n\r\nThis project was originally funded as a CAREER award, and was converted to a Presidential Early Career Award for Engineers and Scientists (PECASE) award in May 2004.\r\n\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ion",
+   "pi_last_name": "Stoica",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ion Stoica",
+   "pi_email_addr": "istoica@eecs.berkeley.edu",
+   "nsf_id": "000246562",
+   "pi_start_date": "2002-02-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "1608 4TH ST STE 201",
+  "perf_city_name": "BERKELEY",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947101749",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "409500",
+   "pgm_ele_name": "SPECIAL PROJECTS IN NET RESEAR"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  },
+  {
+   "pgm_ref_code": "1076",
+   "pgm_ref_txt": "PECASE-award"
+  },
+  {
+   "pgm_ref_code": "1187",
+   "pgm_ref_txt": "PECASE- eligible"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0102",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0102",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2002,
+   "fund_oblg_amt": 497869.0
+  }
+ ],
+ "por": null
+}

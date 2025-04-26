@@ -1,0 +1,101 @@
+{
+ "awd_id": "1555772",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Model-Parallel Collaborative Filtering in Apache Spark",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Sushil K Prasad",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 68790.0,
+ "awd_amount": 68790.0,
+ "awd_min_amd_letter_date": "2015-09-03",
+ "awd_max_amd_letter_date": "2015-09-03",
+ "awd_abstract_narration": "With data rapidly growing in size and complexity, many organizations are eager to train collaborative filtering methods on massive datasets using distributed computing environments. For instance, Netflix has hundreds of thousands of online programs to recommend to its millions of users, and Facebook has millions of users who could potentially form new links between one another. However, leading methods introduce significant algorithmic challenges in the distributed setting.  The PI proposes to study a novel algorithm designed to be efficient for large-scale data science applications. Preliminary studies demonstrate the promise of this method, and the PI proposes to formally characterize the algorithm's behavior, perform an extensive empirical evaluation, and incorporate ideas inspired by this proposal into an upcoming online course PI will be teaching.\r\n\r\nCollaborative filtering, and in particular matrix factorization, is a widely used method for devising recommender systems. However, the size of these models grows linearly with the number of users and items, and leading methods for matrix factorization introduce significant challenges in the distributed setting due to their high communication costs.  The PI proposes to study a novel model-parallel algorithm designed for Apache Spark that leverages the sparsity of the underlying data to drastically reduce this communication burden. Preliminary studies demonstrate the promise of this method, and the PI proposes to formally characterize the algorithm's behavior, perform an extensive empirical evaluation, and explore the paradigm of model-parallelism in Spark more generally for other learning settings. The PI will also incorporate ideas related to model-parallelism inspired by this proposal into an upcoming MOOC that be taught on the edX platform.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ameet",
+   "pi_last_name": "Talwalkar",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ameet S Talwalkar",
+   "pi_email_addr": "talwalkar@cmu.edu",
+   "nsf_id": "000585693",
+   "pi_start_date": "2015-09-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "UCLA Computer Science",
+  "perf_str_addr": "BOX 951596, 4532N Boelter",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900951596",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736100",
+   "pgm_ele_name": "EDUCATION AND WORKFORCE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7231",
+   "pgm_ref_txt": "CYBERINFRASTRUCTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 68790.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-4c3b31a2-55a0-d010-ad2b-aaad6b3bdcbb\"> </span></p>\n<p dir=\"ltr\"><span>Recommender systems are an important class of predictive models that aim to predict a user's rating or preference for a particular item. Collaborative filtering is a widely used method for devising recommender systems, and in particular, matrix factorization is arguably the most commonly deployed technique for collaborative filtering. With data rapidly growing in size and complexity, many organizations are eager to train matrix factorization models on massive datasets using distributed computing environments. &nbsp;For instance, Netflix has hundreds of thousands of online programs to recommend to its millions of users, and Facebook has millions of users who could potentially form new links between one another. &nbsp;However, the size of matrix factorization models grows linearly with the number of users and items, and the two leading methods for matrix factorization -- alternating least squares (ALS) and stochastic gradient descent (SGD) -- introduce significant challenges in the distributed setting due to their high communication costs. </span></p>\n<p dir=\"ltr\"><span>In this project, we studied a model-parallel approach for ALS to address these challenges. Our approach leverages the sparsity of the underlying data to drastically reduce this communication burden. &nbsp;This work was motivated by our existing open-source implementation of ALS in MLlib, a leading distributed machine learning library on the Apache Spark platform. &nbsp;Working with students at UCLA, we carefully studied our method, and demonstrated its merits via extensive benchmarking studies against various competing approaches. &nbsp;We will present our work at the upcoming Southern California Machine Learning Symposium, and are currently preparing a manuscript for submission to a leading machine learning conference.</span></p>\n<p dir=\"ltr\"><span> </span></p>\n<p dir=\"ltr\"><span>In terms of intellectual merit, our work involved a careful study of the model-parallel paradigm for large-scale learning in bulk-synchronous computing systems like Spark. &nbsp;In particular, our work involved formally characterizing our algorithm's computational and communication complexity, highlighting its interpretation as a graph-based algorithm involving a sparse bipartite graph, and performing an extensive empirical evaluation against alternative approaches that rely on asynchronous &lsquo;parameter servers.&rsquo;</span></p>\n<p dir=\"ltr\"><span> </span></p>\n<p><span>In terms of broader impact, our work improved the understanding of model-parallelism in systems like &nbsp;Spark. Given Spark's emergence as a leading platform for scalable data science and the increasing popularity of MLlib, this work could have a wide impact on any organization training large statistical models for a variety of learning settings, including collaborative filtering. This work also offered training opportunities. This grant supported a doctoral student for one year, and the project offered research opportunities for two graduate students in the areas of statistical machine learning and distributed computing.</span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/11/2016<br>\n\t\t\t\t\tModified by: Ameet&nbsp;S&nbsp;Talwalkar</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n \nRecommender systems are an important class of predictive models that aim to predict a user's rating or preference for a particular item. Collaborative filtering is a widely used method for devising recommender systems, and in particular, matrix factorization is arguably the most commonly deployed technique for collaborative filtering. With data rapidly growing in size and complexity, many organizations are eager to train matrix factorization models on massive datasets using distributed computing environments.  For instance, Netflix has hundreds of thousands of online programs to recommend to its millions of users, and Facebook has millions of users who could potentially form new links between one another.  However, the size of matrix factorization models grows linearly with the number of users and items, and the two leading methods for matrix factorization -- alternating least squares (ALS) and stochastic gradient descent (SGD) -- introduce significant challenges in the distributed setting due to their high communication costs. \nIn this project, we studied a model-parallel approach for ALS to address these challenges. Our approach leverages the sparsity of the underlying data to drastically reduce this communication burden.  This work was motivated by our existing open-source implementation of ALS in MLlib, a leading distributed machine learning library on the Apache Spark platform.  Working with students at UCLA, we carefully studied our method, and demonstrated its merits via extensive benchmarking studies against various competing approaches.  We will present our work at the upcoming Southern California Machine Learning Symposium, and are currently preparing a manuscript for submission to a leading machine learning conference.\n \nIn terms of intellectual merit, our work involved a careful study of the model-parallel paradigm for large-scale learning in bulk-synchronous computing systems like Spark.  In particular, our work involved formally characterizing our algorithm's computational and communication complexity, highlighting its interpretation as a graph-based algorithm involving a sparse bipartite graph, and performing an extensive empirical evaluation against alternative approaches that rely on asynchronous ?parameter servers.?\n \n\nIn terms of broader impact, our work improved the understanding of model-parallelism in systems like  Spark. Given Spark's emergence as a leading platform for scalable data science and the increasing popularity of MLlib, this work could have a wide impact on any organization training large statistical models for a variety of learning settings, including collaborative filtering. This work also offered training opportunities. This grant supported a doctoral student for one year, and the project offered research opportunities for two graduate students in the areas of statistical machine learning and distributed computing.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/11/2016\n\n\t\t\t\t\tSubmitted by: Ameet S Talwalkar"
+ }
+}

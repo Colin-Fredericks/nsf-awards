@@ -1,0 +1,105 @@
+{
+ "awd_id": "1522639",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Windowed Fourier Methods for Overlapping Domain Approximations",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2015-09-15",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 150001.0,
+ "awd_amount": 150001.0,
+ "awd_min_amd_letter_date": "2015-09-16",
+ "awd_max_amd_letter_date": "2015-09-16",
+ "awd_abstract_narration": "Partial differential equations on surfaces arise in many applications, including atmospheric research, evolution of coat patterns in animals, finger print formation, and deformation of elastic solids in fluids, to mention just a few. This research project aims to develop computationally efficient and accurate methods for numerical solution of such equations. The project is driven in particular by problems stemming from atmospheric models and will advance research on novel numerical schemes that are based on windowed Fourier approximations. Objectives include the design of algorithms for solving time-dependent differential equations on spherical geometries and other surfaces, the development of a rigorous mathematical analysis of convergence and stability for such algorithms, the implementation of high performance and scalable solvers, and to make efficient, accurate software available for use by the scientific community.\r\n\r\nWindowed Fourier methods are suitable for adaptive and parallel implementations and large-scale computations. The proposed schemes rely on domain decomposition, such as in the cubed sphere, with computations being carried out using fast Fourier transforms. Approximations are obtained on overlapping domains and a global solution is obtained by weighted average. Current high-order and spectral methods used in atmospheric research, such as spectral elements, are constrained by the well-known CFL condition; that is, node clustering in the space domain restricts the discretization in the time domain. Windowed Fourier methods use nearly uniform nodes on each subdomain, allowing for larger time steps when explicit schemes are used for time integration. For large-scale simulations, such as those required in climate prediction for example, each time step incurs significant communication cost at scale. By leveraging better node distributions, larger time steps and spectral accuracy, windowed Fourier schemes are expected to be more efficient than methods currently used in critical applications such as climate and geodynamics.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Rodrigo",
+   "pi_last_name": "Platte",
+   "pi_mid_init": "B",
+   "pi_sufx_name": "",
+   "pi_full_name": "Rodrigo B Platte",
+   "pi_email_addr": "rbp@asu.edu",
+   "nsf_id": "000580338",
+   "pi_start_date": "2015-09-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Arizona State University",
+  "inst_street_address": "660 S MILL AVENUE STE 204",
+  "inst_street_address_2": "",
+  "inst_city_name": "TEMPE",
+  "inst_state_code": "AZ",
+  "inst_state_name": "Arizona",
+  "inst_phone_num": "4809655479",
+  "inst_zip_code": "852813670",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "AZ04",
+  "org_lgl_bus_name": "ARIZONA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NTLHJXM55KZ6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "School of Mathematics and Statistical Sciences",
+  "perf_str_addr": "P O Box 871804",
+  "perf_city_name": "Tempe",
+  "perf_st_code": "AZ",
+  "perf_st_name": "Arizona",
+  "perf_zip_code": "852871804",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "AZ04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 150001.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project focused on the development and analysis of a highly accurate method for computations using overlapping domains, as well as their application to the solution of PDEs on the sphere and other manifolds. These methods rely on windowed Fourier approximations and domain decomposition. Objectives also include the implementation of adaptive algorithms that can handle multiscale problems. The theory and software developed in this project apply to atmospheric research, where computations on spherical domains are required, in particular, the solution of transport equations on such domains.&nbsp;</p>\n<p>Among the outcomes is the formal proof of exponential convergence for the approximation of analytic functions. This result is no-trivial because the window function used in the approximations, super-Gaussians, are not periodically smooth. However, to machine precision, the lack of periodicity can be proved to be negligible. In addition, we have been able to prove stability results for other methods (mapped polynomials and radial basis functions), which can also be used for approximations on spherical domains and other manifolds.&nbsp;</p>\n<p>We have also developed a novel regularization scheme for the solution of hyperbolic partial differential equations with discontinuous solutions. The method promotes piecewise smooth solutions using the prior assumption that the edge map of the solution must remain sparse.&nbsp;</p>\n<p>An object-oriented software has been produced and is available for download at https://bitbucket.org/platte/sphere.git. The project has fostered the training of graduate and undergraduate students in computational mathematics. In total, three graduate students and six undergraduate students have benefited from this project. Undergraduate students were trained on software development (Matlab, git and version control), Latex, and numerical analysis. Their research focused on sampling strategies for function approximation and solution of PDEs on manifolds.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/22/2020<br>\n\t\t\t\t\tModified by: Rodrigo&nbsp;B&nbsp;Platte</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project focused on the development and analysis of a highly accurate method for computations using overlapping domains, as well as their application to the solution of PDEs on the sphere and other manifolds. These methods rely on windowed Fourier approximations and domain decomposition. Objectives also include the implementation of adaptive algorithms that can handle multiscale problems. The theory and software developed in this project apply to atmospheric research, where computations on spherical domains are required, in particular, the solution of transport equations on such domains. \n\nAmong the outcomes is the formal proof of exponential convergence for the approximation of analytic functions. This result is no-trivial because the window function used in the approximations, super-Gaussians, are not periodically smooth. However, to machine precision, the lack of periodicity can be proved to be negligible. In addition, we have been able to prove stability results for other methods (mapped polynomials and radial basis functions), which can also be used for approximations on spherical domains and other manifolds. \n\nWe have also developed a novel regularization scheme for the solution of hyperbolic partial differential equations with discontinuous solutions. The method promotes piecewise smooth solutions using the prior assumption that the edge map of the solution must remain sparse. \n\nAn object-oriented software has been produced and is available for download at https://bitbucket.org/platte/sphere.git. The project has fostered the training of graduate and undergraduate students in computational mathematics. In total, three graduate students and six undergraduate students have benefited from this project. Undergraduate students were trained on software development (Matlab, git and version control), Latex, and numerical analysis. Their research focused on sampling strategies for function approximation and solution of PDEs on manifolds. \n\n\t\t\t\t\tLast Modified: 01/22/2020\n\n\t\t\t\t\tSubmitted by: Rodrigo B Platte"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1814969",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: A Scalable Architecture for Ubiquitous Parallelism",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Danella Zhao",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2022-09-30",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2018-07-20",
+ "awd_max_amd_letter_date": "2018-07-20",
+ "awd_abstract_narration": "With cost-performance gains predicted by Moore's Law slowing down, future computer systems will need to harness increasing amounts of parallelism to improve performance. Achieving this goal requires new techniques to make massive parallelism practical, as current multicore systems fall short of this goal: they squander most of the parallelism available in applications and are exceedingly hard to program. To address these challenges, this project is investigating a novel parallel architecture that efficiently scales to thousands of cores and is almost as easy to program as sequential systems. It achieves these benefits by exploiting ordered parallelism, which is general and abundant but is hard to mine in current systems. The technologies being investigated will make future parallel systems more versatile, scalable, and easier to program. These techniques will especially benefit hard-to-parallelize irregular applications that are key in emerging domains, such as graph analytics, machine learning, and in-memory databases. The prototyping efforts will bring the benefits of ordered parallelism to existing systems. Finally, the infrastructure developed as part of this project will be released publicly, enabling others to build on the results of this work.\r\n\r\nTowards the goal of efficiently parallelizing the vast majority of applications while retaining the programming simplicity of sequential systems, this project is investigating and developing the following techniques: (1) distributed data-centric execution, which scales fine-grained ordered parallelism and speculative execution to rack-scale systems with tens of thousands of cores; (2) an expressive execution model that supports seamless combinations of speculative and non-speculative tasks, improving efficiency and parallelism; (3) adaptive speculation and resource management techniques that avoid performance pathologies, reduce wasted work, and make more efficient use of this novel architecture; and (4) an FPGA-based prototype of this architecture that leverages these techniques to exploit ordered parallelism and accelerate important applications. In this architecture, programs consist of tiny tasks with order constraints. The system executes tasks speculatively and out of order, and efficiently speculates thousands of tasks ahead to uncover ordered parallelism. Tasks are distributed to run close to their data, reducing data movement and allowing the system to scale across multiple chips and boards. An early 256-core design demonstrates near-linear scalability on programs that are often deemed sequential, outperforming state-of-the-art algorithms by one to two orders of magnitude.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Sanchez Martin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Sanchez Martin",
+   "pi_email_addr": "sanchez@csail.mit.edu",
+   "nsf_id": "000636815",
+   "pi_start_date": "2018-07-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 Massachusetts Ave",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394307",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7941",
+   "pgm_ref_txt": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Future computer systems will need to harness large amounts of parallelism to improve performance. Achieving this goal requires new techniques to make massive parallelism practical, as current multicore systems fall short of this goal: they squander most of the parallelism available in applications and are exceedingly hard to program. To address these challenges, this project has investigated, designed, and prototyped a novel parallel architecture that efficiently scales to thousands of cores and is almost as easy to program as sequential systems. It achieves these benefits by exploiting <em>ordered parallelism</em>, which is general and abundant but is hard to mine in current systems.</p>\n<p><br /><strong>Intellectual merit:</strong> This project has taken a holistic approach to develop next-generation parallel systems and techniques that efficiently parallelize a broad range of applications while retaining the programming simplicity of sequential systems. We have co-designed hardware, software, and compiler support to achieve these goals. Our research has produced the following main outcomes:</p>\n<p><br />First, we have investigated and developed an expressive execution model that integrates fine-grained ordered parallelism within the system stack and enable higher performance and efficiency. Our contributions enable seamlessly combining speculative and non-speculative parallelism, enable the combination of concurrent activities with ordered parallelism, and combine ordered parallelism with dataflow execution to more efficiently handle data dependences that are known a prior. We have prototyped a hardware architecture that incorporates these techniques, and achieves two key types of benefits. First, these techniques enable operating system support for ordered parallelism. Second, these techniques substantially improve performance and efficiency over prior parallel systems, often by over an order of magnitude, on challenging dynamic applications that include graph analytics, databases, and simulation.</p>\n<p><br />Second, we have developed a full-fledged FPGA prototype of this architecture, <em>Chronos</em>, which leverages speculative execution to efficiently exploit ordered parallelism and accelerate important applications. In this architecture, programs consist of tiny tasks with order constraints. The system executes tasks speculatively and out of order, and efficiently speculates thousands of tasks ahead to uncover ordered parallelism. This system follows a data-centric execution approach: tasks are distributed to run close to their data, reducing data movement and avoiding the complexity and cost of conventional shared-memory communication. Chronos achieves order-of-magnitude speedups on hard-to-parallelize applications using cost-effective commodity FPGAs.</p>\n<p><br />Third, we have developed <em>domain-specific compilers</em> that automatically produce high-performance code for these architectures from high-level code. We have targeted graph analytics and simulation workloads, producing results that are competitive with (and sometimes faster than) manually parallelized code. Our compiler techniques make the benefits of the parallel architectures developed in this project available to regular programmers with little effort.</p>\n<p>To prototype and evaluate these techniques, we have developed a substantial amount of infrastructure, including a state-of-the-art simulator, runtimes, benchmarks, an FPGA accelerator, and a compiler. We have released this infrastructure under open-source licenses, allowing others to build on the results of our work, both in research and in the classroom.</p>\n<p>The results of this project have been disseminated through four publications in top-tier venues.<br /><br /><strong>Broader Impacts:</strong>&nbsp;The techniques developed in this project make parallel systems faster, more efficient, much more versatile, and easier to program. These techniques especially benefit dynamic, irregular applications, advancing key emerging domains where these workloads are pervasive, such as big-data analytics, online data-intensive services, and highly parallel simulations. By innovating at both the hardware and software levels, these techniques have achieved performance and efficiency gains that neither hardware-only nor software-only approaches can provide.</p>\n<p><br />Finally, this project has supported the training and professional development of eight Ph.D. students, two M.Eng. students, and seven undergraduate students. Three students have earned their doctoral degrees working under this project, and have graduated to leading research positions in academia and industry.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/29/2023<br>\n\t\t\t\t\tModified by: Daniel&nbsp;Sanchez Martin</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nFuture computer systems will need to harness large amounts of parallelism to improve performance. Achieving this goal requires new techniques to make massive parallelism practical, as current multicore systems fall short of this goal: they squander most of the parallelism available in applications and are exceedingly hard to program. To address these challenges, this project has investigated, designed, and prototyped a novel parallel architecture that efficiently scales to thousands of cores and is almost as easy to program as sequential systems. It achieves these benefits by exploiting ordered parallelism, which is general and abundant but is hard to mine in current systems.\n\n\nIntellectual merit: This project has taken a holistic approach to develop next-generation parallel systems and techniques that efficiently parallelize a broad range of applications while retaining the programming simplicity of sequential systems. We have co-designed hardware, software, and compiler support to achieve these goals. Our research has produced the following main outcomes:\n\n\nFirst, we have investigated and developed an expressive execution model that integrates fine-grained ordered parallelism within the system stack and enable higher performance and efficiency. Our contributions enable seamlessly combining speculative and non-speculative parallelism, enable the combination of concurrent activities with ordered parallelism, and combine ordered parallelism with dataflow execution to more efficiently handle data dependences that are known a prior. We have prototyped a hardware architecture that incorporates these techniques, and achieves two key types of benefits. First, these techniques enable operating system support for ordered parallelism. Second, these techniques substantially improve performance and efficiency over prior parallel systems, often by over an order of magnitude, on challenging dynamic applications that include graph analytics, databases, and simulation.\n\n\nSecond, we have developed a full-fledged FPGA prototype of this architecture, Chronos, which leverages speculative execution to efficiently exploit ordered parallelism and accelerate important applications. In this architecture, programs consist of tiny tasks with order constraints. The system executes tasks speculatively and out of order, and efficiently speculates thousands of tasks ahead to uncover ordered parallelism. This system follows a data-centric execution approach: tasks are distributed to run close to their data, reducing data movement and avoiding the complexity and cost of conventional shared-memory communication. Chronos achieves order-of-magnitude speedups on hard-to-parallelize applications using cost-effective commodity FPGAs.\n\n\nThird, we have developed domain-specific compilers that automatically produce high-performance code for these architectures from high-level code. We have targeted graph analytics and simulation workloads, producing results that are competitive with (and sometimes faster than) manually parallelized code. Our compiler techniques make the benefits of the parallel architectures developed in this project available to regular programmers with little effort.\n\nTo prototype and evaluate these techniques, we have developed a substantial amount of infrastructure, including a state-of-the-art simulator, runtimes, benchmarks, an FPGA accelerator, and a compiler. We have released this infrastructure under open-source licenses, allowing others to build on the results of our work, both in research and in the classroom.\n\nThe results of this project have been disseminated through four publications in top-tier venues.\n\nBroader Impacts: The techniques developed in this project make parallel systems faster, more efficient, much more versatile, and easier to program. These techniques especially benefit dynamic, irregular applications, advancing key emerging domains where these workloads are pervasive, such as big-data analytics, online data-intensive services, and highly parallel simulations. By innovating at both the hardware and software levels, these techniques have achieved performance and efficiency gains that neither hardware-only nor software-only approaches can provide.\n\n\nFinally, this project has supported the training and professional development of eight Ph.D. students, two M.Eng. students, and seven undergraduate students. Three students have earned their doctoral degrees working under this project, and have graduated to leading research positions in academia and industry.\n\n\t\t\t\t\tLast Modified: 01/29/2023\n\n\t\t\t\t\tSubmitted by: Daniel Sanchez Martin"
+ }
+}

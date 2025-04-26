@@ -1,0 +1,101 @@
+{
+ "awd_id": "1835252",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CI-New: Collaborative Research: An Open Platform for Internet Routing Experiments",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922935",
+ "po_email": "dmedhi@nsf.gov",
+ "po_sign_block_name": "Deepankar Medhi",
+ "awd_eff_date": "2018-02-01",
+ "awd_exp_date": "2020-09-30",
+ "tot_intn_awd_amt": 684182.0,
+ "awd_amount": 684182.0,
+ "awd_min_amd_letter_date": "2018-05-17",
+ "awd_max_amd_letter_date": "2018-05-17",
+ "awd_abstract_narration": "The path that data takes across the Internet from its source to its destination is a critical determiner of the service quality that a user experiences. The path is controlled via routing, which is influenced by traffic engineering and policy. Therefore, routing problems--instability, failures, circuitous paths--have a critical impact on performance. Despite these issues, researchers and network operators have difficulty studying Internet routing. Available vantage points provide little visibility into how the networks interconnect, making it difficult to assess the resilience and performance of existing paths. On top of this limited visibility, researchers lack means to experiment with alternate paths.\r\n\r\nThe infrastructure developed by this project will allow researchers and network operators to observe Internet paths and to experiment with alternate approaches to routing. The infrastructure consists of two synergistic tools: Transit Portal allows an experimenter to make route announcements that influence current routing, and Reverse Traceroute allows the experimenter to measure the resulting paths. The PIs have used early versions of the infrastructure to improve Internet performance, reliability, and diagnosis. \r\n\r\nThe project opens the infrastructure to use by the networking community and in classrooms, providing a basis for understanding and improving the Internet. The key components are 1) increasing the number of Transit Portal sites; 2) adding support for Transit Portal experiments that join fully emulated networks to the actual Internet; 3) upgrading and hardening the Reverse Traceroute code so that it is useable by the broader community; and 4) improving experiment workflow by scheduling and reusing measurements more efficiently.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ethan",
+   "pi_last_name": "Katz-Bassett",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ethan Katz-Bassett",
+   "pi_email_addr": "ethan@ee.columbia.edu",
+   "nsf_id": "000608978",
+   "pi_start_date": "2018-05-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Columbia University",
+  "inst_street_address": "615 W 131ST ST",
+  "inst_street_address_2": "MC 8741",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2128546851",
+  "inst_zip_code": "100277922",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "NY13",
+  "org_lgl_bus_name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F4N1QNPB95M4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Columbia University",
+  "perf_str_addr": "615 W. 131st Street MC 8725",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100277922",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "NY13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735900",
+   "pgm_ele_name": "CCRI-CISE Cmnty Rsrch Infrstrc"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7359",
+   "pgm_ref_txt": "COMPUTING RES INFRASTRUCTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 684182.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-f8b4169d-7fff-11a6-c1a8-db49020979ac\">\n<p dir=\"ltr\"><span>In this project, we built two related pieces of Internet experimentation and measurement infrastructure that can help spur new Internet routing research: the PEERING testbed for Internet routing experiments, and the Reverse Traceroute system for measuring arbitrary network paths in the direction from a destination toward a source (such as towards PEERING experiment sources). We built the systems to be flexible (supporting a range of research) and open (accessible to many researchers). The intellectual merit of this work pertained to designing such flexible and open systems that can scale to meet the diverse needs of the research community. The broader impact comes both from the large numbers of researchers who have used our systems during the project period and also from the opportunity to support the needs of the research community for years to come.&nbsp;&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>For the Reverse Traceroute system, we achieved the goal of flexibility by building a scalable, sustainable system for measuring paths from destinations toward vantage points running Reverse Traceroute (i.e., in the opposite direction compared to the commonly used traceroute tool). This system has run nearly continuously since 2016, and its measurements were used in multiple research papers. It is currently deployed on hundreds of M-Lab&nbsp; vantage points worldwide and has been ported to run on a stock Linux kernel for widespread deployment.&nbsp; We achieved the goal of openness in several ways. First, we provide a publicly available website and API for issuing reverse traceroute measurements. Second, we make all of our measurements available to the public. Third, we made our source code public so others can build off of our work.</span></p>\n<br />\n<p dir=\"ltr\"><span>We achieved the goal of flexibility in the PEERING testbed by adding functionality that allows integration with multiple research testbeds and networks, enabling new kinds of research into future and alternative Internet routing approaches. For example, PEERING allows an experiment that spans cloud datacenters, interdomain interconnectivity, and a wide-area network interconnecting all of them, a setting similar to a large cloud provider. We achieved the goal of openness in several key ways. First, we provided operational support to keep the PEERING platform running continuously and safely. Second, we provided interfaces to facilitate research using PEERING, including features like experiment specification and automated collection and archival of measurements during routing experiments. Third, PEERING is open to researchers for routing experiments, subject to acceptable use restrictions that safeguard other researchers and networks. At the time of writing we have approved 55 PEERING experiments, and these experiments culminated in 29 publications.</span></p>\n<br />\n<p dir=\"ltr\"><span>Taken together, the PEERING testbed allows researchers to experiment with Internet routing, while the Reverse Traceroute system allows researchers to measure the routes selected as a result of experiments. We believe that our systems are sufficiently scalable, reliable, flexible, and open to support a wide range of Internet routing research for years to come.</span></p>\n<div><span><br /></span></div>\n</span></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/24/2021<br>\n\t\t\t\t\tModified by: Ethan&nbsp;B&nbsp;Katz-Bassett</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nIn this project, we built two related pieces of Internet experimentation and measurement infrastructure that can help spur new Internet routing research: the PEERING testbed for Internet routing experiments, and the Reverse Traceroute system for measuring arbitrary network paths in the direction from a destination toward a source (such as towards PEERING experiment sources). We built the systems to be flexible (supporting a range of research) and open (accessible to many researchers). The intellectual merit of this work pertained to designing such flexible and open systems that can scale to meet the diverse needs of the research community. The broader impact comes both from the large numbers of researchers who have used our systems during the project period and also from the opportunity to support the needs of the research community for years to come.  \n\n\nFor the Reverse Traceroute system, we achieved the goal of flexibility by building a scalable, sustainable system for measuring paths from destinations toward vantage points running Reverse Traceroute (i.e., in the opposite direction compared to the commonly used traceroute tool). This system has run nearly continuously since 2016, and its measurements were used in multiple research papers. It is currently deployed on hundreds of M-Lab  vantage points worldwide and has been ported to run on a stock Linux kernel for widespread deployment.  We achieved the goal of openness in several ways. First, we provide a publicly available website and API for issuing reverse traceroute measurements. Second, we make all of our measurements available to the public. Third, we made our source code public so others can build off of our work.\n\n\nWe achieved the goal of flexibility in the PEERING testbed by adding functionality that allows integration with multiple research testbeds and networks, enabling new kinds of research into future and alternative Internet routing approaches. For example, PEERING allows an experiment that spans cloud datacenters, interdomain interconnectivity, and a wide-area network interconnecting all of them, a setting similar to a large cloud provider. We achieved the goal of openness in several key ways. First, we provided operational support to keep the PEERING platform running continuously and safely. Second, we provided interfaces to facilitate research using PEERING, including features like experiment specification and automated collection and archival of measurements during routing experiments. Third, PEERING is open to researchers for routing experiments, subject to acceptable use restrictions that safeguard other researchers and networks. At the time of writing we have approved 55 PEERING experiments, and these experiments culminated in 29 publications.\n\n\nTaken together, the PEERING testbed allows researchers to experiment with Internet routing, while the Reverse Traceroute system allows researchers to measure the routes selected as a result of experiments. We believe that our systems are sufficiently scalable, reliable, flexible, and open to support a wide range of Internet routing research for years to come.\n\n\n\n\n \n\n\t\t\t\t\tLast Modified: 02/24/2021\n\n\t\t\t\t\tSubmitted by: Ethan B Katz-Bassett"
+ }
+}

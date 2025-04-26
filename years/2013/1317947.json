@@ -1,0 +1,117 @@
+{
+ "awd_id": "1317947",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NRI: Small: Collaborative Research: Active Sensing for Robotic Cameramen",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924768",
+ "po_email": "jyang@nsf.gov",
+ "po_sign_block_name": "Jie Yang",
+ "awd_eff_date": "2013-09-15",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 433711.0,
+ "awd_amount": 433711.0,
+ "awd_min_amd_letter_date": "2013-09-12",
+ "awd_max_amd_letter_date": "2013-09-12",
+ "awd_abstract_narration": "With advances in camera technologies, and as cloud storage, network bandwidth and protocols become available, visual media are becoming ubiquitous. Video recording became de facto universal means of instruction for a wide range of applications such as physical exercise, technology, assembly, or cooking. This project addresses the scientific and technological challenges of video shooting in terms of coverage and optimal views planning while leaving high level aspects including creativity to the video editing and post-production stages. \r\n\r\nCamera placement and novel view selection challenges are modeled as optimization problems that minimize the uncertainty in the location of actors and objects, maximize coverage and effective appearance resolution, and optimize object detection for the sake of semantic annotation of the scene. New probabilistic models capture long range correlations when the trajectories of actors are only partially observable.  Quality of potential novel views is modeled in terms of resolution that is optimized by maximizing the coverage of a 3D orientation histogram while an active view selection process for object detection minimizes a dynamic programming objective function capturing the loss due to classification error as well as the resources spent for each view.\r\n\r\nThe project advances active sensing and perception and provides the technology for further automation on video capturing. Such technology has broader impact on the production of education videos for online courses as well as in telepresence applications. Research results are integrated into robotics and digital media programs addressing K-12 students.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kostas",
+   "pi_last_name": "Daniilidis",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kostas Daniilidis",
+   "pi_email_addr": "kostas@cis.upenn.edu",
+   "nsf_id": "000207772",
+   "pi_start_date": "2013-09-12",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Sampath",
+   "pi_last_name": "Kannan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sampath Kannan",
+   "pi_email_addr": "kannan@central.cis.upenn.edu",
+   "nsf_id": "000194422",
+   "pi_start_date": "2013-09-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Pennsylvania",
+  "inst_street_address": "3451 WALNUT ST STE 440A",
+  "inst_street_address_2": "",
+  "inst_city_name": "PHILADELPHIA",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "2158987293",
+  "inst_zip_code": "191046205",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "PA03",
+  "org_lgl_bus_name": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE",
+  "org_prnt_uei_num": "GM1XX56LEP58",
+  "org_uei_num": "GM1XX56LEP58"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Pennsylvania",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "191046205",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "PA03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8086",
+   "pgm_ref_txt": "Natl Robotics Initiative (NRI)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 433711.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>When searching for an object in an image, traditional as well as modern approaches slide a filter window per object part over the entire image. Biological systems rather use an attentional scan path based on extracted saliency in the image. The main result of this project has been a novel approach for object detection that actvely selects where to spend computational resources.&nbsp;</p>\n<p>Object detection is regarded as a planning problem where the policy determines which object part filter should ne applied next and where. Such a policy should minimize the number of filter operations and simultaneously the expectation of the misclassification error. Finding such a policy can be reduced to a dynamic program.</p>\n<p>Applying this active selection strategy of where to apply part filters has resulted in acceleration between 5 and 30 times compared to the sliding window approach without sacrificing precision and recall.&nbsp;</p>\n<p>In a second application of active perception, a move selection policy has been studied in the context of absolute semantic localization. Given landmarks on a known map, a new control scheme has been devised that makes a robot move in such a way that the error in localization and the energy spent in the moves is minimized.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/01/2016<br>\n\t\t\t\t\tModified by: Kostas&nbsp;Daniilidis</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2016/1317947/1317947_10278888_1454309604599_exp_bottle--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2016/1317947/1317947_10278888_1454309604599_exp_bottle--rgov-800width.jpg\" title=\"Active Deformable Part Models\"><img src=\"/por/images/Reports/POR/2016/1317947/1317947_10278888_1454309604599_exp_bottle--rgov-66x44.jpg\" alt=\"Active Deformable Part Models\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The input image and the final probability of a bottle been images at a pixel location are shown at the top and bottom right, respectively. The rest of the top row shows the probability for a bottle to be at each pixel location. Bottom row shows which filter should be applied (one color per filter).</div>\n<div class=\"imageCredit\">Menglong Zhu, Nikolay Atanasov, George Pappas, Kostas Daniilidis</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Kostas&nbsp;Daniilidis</div>\n<div class=\"imageTitle\">Active Deformable Part Models</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nWhen searching for an object in an image, traditional as well as modern approaches slide a filter window per object part over the entire image. Biological systems rather use an attentional scan path based on extracted saliency in the image. The main result of this project has been a novel approach for object detection that actvely selects where to spend computational resources. \n\nObject detection is regarded as a planning problem where the policy determines which object part filter should ne applied next and where. Such a policy should minimize the number of filter operations and simultaneously the expectation of the misclassification error. Finding such a policy can be reduced to a dynamic program.\n\nApplying this active selection strategy of where to apply part filters has resulted in acceleration between 5 and 30 times compared to the sliding window approach without sacrificing precision and recall. \n\nIn a second application of active perception, a move selection policy has been studied in the context of absolute semantic localization. Given landmarks on a known map, a new control scheme has been devised that makes a robot move in such a way that the error in localization and the energy spent in the moves is minimized. \n\n\t\t\t\t\tLast Modified: 02/01/2016\n\n\t\t\t\t\tSubmitted by: Kostas Daniilidis"
+ }
+}

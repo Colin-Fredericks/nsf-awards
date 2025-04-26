@@ -1,0 +1,105 @@
+{
+ "awd_id": "1228843",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Medium: Collaborative: Trustworthy Programs Without A Trustworthy Operating System",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Deborah Shands",
+ "awd_eff_date": "2012-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2012-08-17",
+ "awd_max_amd_letter_date": "2012-08-17",
+ "awd_abstract_narration": "The operating system (OS) exercises complete control over applications, thus a compromise of the OS compromises every application. Software developers have little recourse to improve security in the face of system compromise---they cannot defend against OS vulnerabilities, nor can they reasonably substitute a secure version of the millions of lines of code that constitute a modern OS.\r\n\r\nRather than require applications to blindly trust OS interactions, this project investigates a system architecture that enables trusted applications to efficiently verify OS interactions with the help of a small, trusted hypervisor.  Most verification work is performed within the C language runtime, minimizing changes to legacy code and shielding developers from increased programming complexity.\r\nThe prototype system, called InkTag,improves upon prior work in several key areas: it provides more efficient techniques to verify system call results, implements usable access control for resources managed by an untrusted OS, and introduces hardware and software techniques to further reduce the size of the trusted computing base.\r\n\r\nCloud computing provides energy and economic efficiencies, but suffers from the inability to give meaningful security guarantees to hosted applications. This project demonstrates that system security is possible without trusting the OS---a large part of the hosted infrastructure.  This project is also developing new materials for undergraduate and graduate curricula that combine core knowledge of systems with an understanding of how systems provide security properties, equipping future computer professionals with a better understanding of what security guarantees a system can meaningfully provide.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Emmett",
+   "pi_last_name": "Witchel",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Emmett Witchel",
+   "pi_email_addr": "witchel@cs.utexas.edu",
+   "nsf_id": "000164959",
+   "pi_start_date": "2012-08-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "P.O. Box 7726",
+  "perf_city_name": "Austin",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787137726",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "37",
+  "perf_st_cong_dist": "TX37",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Securing computer systems is a vital goal for our country, and operating systems (OSes) are a vexing Achilles heel that often prevents systems from being secure. &nbsp;The security of the most carefully crafted application can be subverted by a compromised OS. &nbsp;Although OS compromises are numerically more rare than application compromises,they are more dangerous because they degrade security for all applications.</p>\n<p><br />The purpose of this project is to show that secure, trustworthy programs can efficiently check at runtime an untrusted, commodity operating system's behavior, with a small degree of assistance from a small, trusted hypervisor (or virtual machine monitor (VMM)). &nbsp;Although the idea of removing trust from the entire operating system is audacious, we have shown it to be plausible. &nbsp;Despite the complexity of OS services (e.g., managing physical memory), their per-application correctness specification is relatively simple (e.g.,a virtual address space), and can be efficiently verified. &nbsp;OScomplexity comes from supporting these simple services simultaneously for many different processes.</p>\n<p><br />We have developed Inktag, a system for trustworthy programs to verifyOS behavior with help from a trusted hypervisor. &nbsp;Intag introduces paraverification, which enables verification of OS behavior with limited hypervisor complexity. &nbsp;Most previous systems have attempted to verify unmodified operating systems. &nbsp;Inktag requires the untrustedOS to provide information and resources to both the hypervisor and application that allow them to efficiently verify the operating system's actions. &nbsp;Using paraverification to force the OS to make verification easier and more efficient is similar to the way paravirtualization forces an OS to make virtualization more efficient.</p>\n<p><br />Intag is the first system to provide users of an untrusted OS with flexible access control, that allows applications to define access control policies for their own secure files (files with privacy and integrity managed by Inktag). &nbsp;Access control is vital for sharing dnata between processes with different levels of privilege.</p>\n<p><br />Sego improves the efficiency of Inktag by making protected, trusted metadata pervasive across all system devices, eliminating the trust boundary that necessitates the encryption and hashing of Inktag. &nbsp;In the Sego model, data stays in plain text, but it is protected by trusted components that have access to the trusted metadata. &nbsp;For example, Sego protects RAM using extended page tables and secure page metadata, which is managed by the trusted hypervisor. &nbsp;Persistent storage is protected by persistent metadata that is accessed only by the trusted virtual block device.</p>\n<p><br />For the file system, Sego efficiently recovers files purposefully or mistakenly deleted by the guest OS. Inktag provides secure file recovery after a guest OS crash; however, it requires a full disk scan to find and recover all pieces of secure files. &nbsp;Sego's recovery time is proportional to the size of the recovered data, not the size of the storage device.</p>\n<p><br />The project made significant progress on its goals for intellectual merit, demonstrating techniques to improve the efficiency of verification and grounding untrusted operating systems research by solving difficult technical problems like efficient crash recovery for file systems. &nbsp;The broader impacts of the work on secure computing are ongoing as cloud computing struggles to find a workable, high-security model.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/07/2016<br>\n\t\t\t\t\tModified by: Emmett&nbsp;Witchel</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSecuring computer systems is a vital goal for our country, and operating systems (OSes) are a vexing Achilles heel that often prevents systems from being secure.  The security of the most carefully crafted application can be subverted by a compromised OS.  Although OS compromises are numerically more rare than application compromises,they are more dangerous because they degrade security for all applications.\n\n\nThe purpose of this project is to show that secure, trustworthy programs can efficiently check at runtime an untrusted, commodity operating system's behavior, with a small degree of assistance from a small, trusted hypervisor (or virtual machine monitor (VMM)).  Although the idea of removing trust from the entire operating system is audacious, we have shown it to be plausible.  Despite the complexity of OS services (e.g., managing physical memory), their per-application correctness specification is relatively simple (e.g.,a virtual address space), and can be efficiently verified.  OScomplexity comes from supporting these simple services simultaneously for many different processes.\n\n\nWe have developed Inktag, a system for trustworthy programs to verifyOS behavior with help from a trusted hypervisor.  Intag introduces paraverification, which enables verification of OS behavior with limited hypervisor complexity.  Most previous systems have attempted to verify unmodified operating systems.  Inktag requires the untrustedOS to provide information and resources to both the hypervisor and application that allow them to efficiently verify the operating system's actions.  Using paraverification to force the OS to make verification easier and more efficient is similar to the way paravirtualization forces an OS to make virtualization more efficient.\n\n\nIntag is the first system to provide users of an untrusted OS with flexible access control, that allows applications to define access control policies for their own secure files (files with privacy and integrity managed by Inktag).  Access control is vital for sharing dnata between processes with different levels of privilege.\n\n\nSego improves the efficiency of Inktag by making protected, trusted metadata pervasive across all system devices, eliminating the trust boundary that necessitates the encryption and hashing of Inktag.  In the Sego model, data stays in plain text, but it is protected by trusted components that have access to the trusted metadata.  For example, Sego protects RAM using extended page tables and secure page metadata, which is managed by the trusted hypervisor.  Persistent storage is protected by persistent metadata that is accessed only by the trusted virtual block device.\n\n\nFor the file system, Sego efficiently recovers files purposefully or mistakenly deleted by the guest OS. Inktag provides secure file recovery after a guest OS crash; however, it requires a full disk scan to find and recover all pieces of secure files.  Sego's recovery time is proportional to the size of the recovered data, not the size of the storage device.\n\n\nThe project made significant progress on its goals for intellectual merit, demonstrating techniques to improve the efficiency of verification and grounding untrusted operating systems research by solving difficult technical problems like efficient crash recovery for file systems.  The broader impacts of the work on secure computing are ongoing as cloud computing struggles to find a workable, high-security model.\n\n\t\t\t\t\tLast Modified: 09/07/2016\n\n\t\t\t\t\tSubmitted by: Emmett Witchel"
+ }
+}

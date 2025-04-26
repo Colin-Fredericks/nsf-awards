@@ -1,0 +1,105 @@
+{
+ "awd_id": "2313411",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "FMitF: Collaborative Research: RedLeaf: Verified Operating Systems in Rust",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922585",
+ "po_email": "pprabhak@nsf.gov",
+ "po_sign_block_name": "Pavithra Prabhakar",
+ "awd_eff_date": "2023-02-01",
+ "awd_exp_date": "2024-03-31",
+ "tot_intn_awd_amt": 350000.0,
+ "awd_amount": 40133.0,
+ "awd_min_amd_letter_date": "2023-03-21",
+ "awd_max_amd_letter_date": "2023-03-21",
+ "awd_abstract_narration": "An operating system kernel provides a foundation for isolation and security in every computer system used today. Operating system kernels are trusted to provide the first line of defense for numerous mission critical systems in the face of targeted security attacks. Unfortunately, despite decades of evolution modern operating systems are faulty and vulnerable. Inheriting their core engineering technology from the first time-sharing machines, modern operating system kernels are  still developed with a legacy software engineering techniques---a combination of an unsafe programming language, rudimentary concurrency primitives, and virtually no testing or verification tools. Today these systems are faulty and vulnerable. Lacking verification support, industry standard kernels make nearly every computer system on the planet vulnerable. \r\n\r\nThis project will develop RedLeaf, a new operating system, and associated formal verification tools for implementing provably secure and reliable systems in the Rust programming language. RedLeaf brings together state-of-the-art results from verification, programming-language, and systems research communities in order to enable unprecedented security and reliability guarantees in low-level systems software. To achieve complete verification of the entire software stack, i.e., operating system and applications, the RedLeaf team will develop a set of new tools, a collection of techniques and engineering disciplines, and a methodology focused on rapid development of verified systems software. The RedLeaf OS will run on an embedded CPU of a medical sensor, implement a network function virtualization framework aimed at line-rate network processing, and provide a general platform for a broad range of verifiably secure systems. The operating system and associated tools will be open source, directly benefiting the broader community.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Anton",
+   "pi_last_name": "Burtsev",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Anton Burtsev",
+   "pi_email_addr": "aburtsev@flux.utah.edu",
+   "nsf_id": "000637182",
+   "pi_start_date": "2023-03-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Utah",
+  "inst_street_address": "201 PRESIDENTS CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SALT LAKE CITY",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8015816903",
+  "inst_zip_code": "841129049",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "UT01",
+  "org_lgl_bus_name": "UNIVERSITY OF UTAH",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LL8GLEVH6MG3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Utah",
+  "perf_str_addr": "201 PRESIDENTS CIR",
+  "perf_city_name": "SALT LAKE CITY",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "841129049",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "UT01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "094Y00",
+   "pgm_ele_name": "FMitF: Formal Methods in the F"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "062Z",
+   "pgm_ref_txt": "Harnessing the Data Revolution"
+  },
+  {
+   "pgm_ref_code": "071Z",
+   "pgm_ref_txt": "FMitF-Formal Methods in the Field"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 40132.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The main goal of this project was to explore the possibility of constructing new, provably secure operating systems through the use of safe, linear-typed programming language, Rust, and recent advances in automated formal verification. Specifically, our work builds on two premises: (1) Rust's linear type system enables practical language safety even for systems with the tightest performance and resource budgets, e.g., OS kernels and firmware, (2) a combination of SMT-based reasoning and pointer discipline enforced by linear types provides a way to automate and simplify verification effort and scale it to the size of a small operating system kernel that can run firmware subsystems.</p>\n<p>Over the course of the project we developed two new operating system kernels: RedLeaf and Atmosphere. These two operating systems explore two main lines of the project: 1) leveraging language safety for exploring its impact on operating system organization (RedLeaf),&nbsp; and 2) leveraging properties of linear types for verification (Atmosphere).</p>\n<p>RedLeaf is a new full-featured operating system kernel that runs&nbsp; as a small core kernel and a collection of&nbsp;language-based protection domains that isolate OS subsystems (device drivers, file systems, network stack) and user-level processes. In contrast to commodity&nbsp;operating systems that execute the entire OS kernel in a single shared address&nbsp;space, and rely on hardware mechanisms to provide isolation of user processes. RedLeaf relies on type and memory safety of the Rust language to implement&nbsp;explicit, fine-grained isolation across both kernel subsystems and user&nbsp;applications. RedLeaf enforces process-like boundaries around program modules. RedLeaf demonstates that&nbsp;Rust provides systems developers the mechanisms we as a community were waiting for decades: practical, zero-cost safety, and a type system that enforces ownership. Low-overhead isolation provides a foundation for enforcing arange of abstractions in the systems with faulty and mistrusting components.&nbsp;</p>\n<p>Atmosphere is a full-featured microkernel developed in Rust and verified with Verus, a new SMT-based verifier. Conceptually Atmosphere is similar to the line of L4 microkernels. Atmosphere pushes most kernel functionality to user-space, e.g., device drivers, network stack, file systems, etc. The microkernel supports a minimal set of mechanisms to implement address spaces, page-tables, coarse-grained memory management, and threads of execution that together with address spaces implement an abstraction of a process. Each process has a page table and a collection of schedulable threads. Atmosphere allows threads to control layout of their virtual address space through a collection of system calls that support mapping and unmapping pages as well as receiving pages from other threads via communication endpoints. To simplify verification, at the moment Atmosphere relies on a big-lock synchronization. Atmosphere demonstrates how a fully-featured formally verified microkernel can be constructed in less than a physical year and an effort of roughly two person-years and arguably opens the door for constructing the next generation of practical, formally-correct systems.&nbsp;</p><br>\n<p>\n Last Modified: 11/15/2024<br>\nModified by: Anton&nbsp;Burtsev</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThe main goal of this project was to explore the possibility of constructing new, provably secure operating systems through the use of safe, linear-typed programming language, Rust, and recent advances in automated formal verification. Specifically, our work builds on two premises: (1) Rust's linear type system enables practical language safety even for systems with the tightest performance and resource budgets, e.g., OS kernels and firmware, (2) a combination of SMT-based reasoning and pointer discipline enforced by linear types provides a way to automate and simplify verification effort and scale it to the size of a small operating system kernel that can run firmware subsystems.\n\n\nOver the course of the project we developed two new operating system kernels: RedLeaf and Atmosphere. These two operating systems explore two main lines of the project: 1) leveraging language safety for exploring its impact on operating system organization (RedLeaf), and 2) leveraging properties of linear types for verification (Atmosphere).\n\n\nRedLeaf is a new full-featured operating system kernel that runs as a small core kernel and a collection oflanguage-based protection domains that isolate OS subsystems (device drivers, file systems, network stack) and user-level processes. In contrast to commodityoperating systems that execute the entire OS kernel in a single shared addressspace, and rely on hardware mechanisms to provide isolation of user processes. RedLeaf relies on type and memory safety of the Rust language to implementexplicit, fine-grained isolation across both kernel subsystems and userapplications. RedLeaf enforces process-like boundaries around program modules. RedLeaf demonstates thatRust provides systems developers the mechanisms we as a community were waiting for decades: practical, zero-cost safety, and a type system that enforces ownership. Low-overhead isolation provides a foundation for enforcing arange of abstractions in the systems with faulty and mistrusting components.\n\n\nAtmosphere is a full-featured microkernel developed in Rust and verified with Verus, a new SMT-based verifier. Conceptually Atmosphere is similar to the line of L4 microkernels. Atmosphere pushes most kernel functionality to user-space, e.g., device drivers, network stack, file systems, etc. The microkernel supports a minimal set of mechanisms to implement address spaces, page-tables, coarse-grained memory management, and threads of execution that together with address spaces implement an abstraction of a process. Each process has a page table and a collection of schedulable threads. Atmosphere allows threads to control layout of their virtual address space through a collection of system calls that support mapping and unmapping pages as well as receiving pages from other threads via communication endpoints. To simplify verification, at the moment Atmosphere relies on a big-lock synchronization. Atmosphere demonstrates how a fully-featured formally verified microkernel can be constructed in less than a physical year and an effort of roughly two person-years and arguably opens the door for constructing the next generation of practical, formally-correct systems.\t\t\t\t\tLast Modified: 11/15/2024\n\n\t\t\t\t\tSubmitted by: AntonBurtsev\n"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "awd_id": "1522252",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Variational Structure Preserving Methods for Incompressible Flows: Discretization, Analysis, and Parallel Solvers",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Leland Jameson",
+ "awd_eff_date": "2015-09-15",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 89980.0,
+ "awd_amount": 89980.0,
+ "awd_min_amd_letter_date": "2015-09-11",
+ "awd_max_amd_letter_date": "2015-09-11",
+ "awd_abstract_narration": "The goal of this project is to develop improved models and numerical methods that advance the state of the art for incompressible fluid flow simulation. The key ideas are the better enforcement of geometric and physical laws in the computer algorithms, building a solid mathematical framework for the models and methods developed, and the devising of algorithms that will allow for efficient implementation on supercomputers. Although the simulation of fluid flow is a critical subtask in a wide spectrum of engineering applications, current tools and techniques are often unreliable and it is not uncommon for state of the art methods to take weeks or months (or possibly never finish with an accurate solution), even with thousands of processors, to perform simulations of flows around a car, through a nuclear reactor, or around part of an airplane. The project aims to develop mathematical prediction models and numerical methods that will provide more accurate solutions in a more efficient manner than state-of-the-art methods.\r\n\r\nThe PIs will construct efficient methods for incompressible flow simulation by constructing models and methods that better adhere to geometric structure and physical conservation laws than modern methods. The key components are to i) construct novel methods that are efficient and can correctly account for vorticity dynamics, and energy, helicity, and mass conservation -- this will require development of efficient boundary conditions and significant analysis to build a solid mathematical framework; ii) develop more efficient algebraic solvers for these methods that can be used on thousands of processors; iii) large scale testing on benchmark problems as well as on application problems with collaborators. Broader impacts include i) developing efficient methods for simulating high speed incompressible flows, which will improve the design process for a wide spectrum of applications in environmental engineering, in cardiovascular simulations, and in atmosphere and ocean sciences; ii) training graduate and undergraduate students through research involvement; and iii) developing large scale, parallel codes to be made publicly available as part of the deal.II library.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Maxim",
+   "pi_last_name": "Olshanskiy",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Maxim Olshanskiy",
+   "pi_email_addr": "molshan@math.uh.edu",
+   "nsf_id": "000630948",
+   "pi_start_date": "2015-09-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Houston",
+  "inst_street_address": "4300 MARTIN LUTHER KING BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "HOUSTON",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7137435773",
+  "inst_zip_code": "772043067",
+  "inst_country_name": "United States",
+  "cong_dist_code": "18",
+  "st_cong_dist_code": "TX18",
+  "org_lgl_bus_name": "UNIVERSITY OF HOUSTON SYSTEM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "QKWEF8XLMTT3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Houston",
+  "perf_str_addr": "4800 Calhoun Rd. Houston",
+  "perf_city_name": "Houston",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "772042015",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "18",
+  "perf_st_cong_dist": "TX18",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8396",
+   "pgm_ref_txt": "Clean Energy Technology"
+  },
+  {
+   "pgm_ref_code": "8609",
+   "pgm_ref_txt": "Other Energy Research"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 89980.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Flows of Newtonian incompressible fluid possess rich geometric structure, which is supplied by the array of balance laws for momentum, mass, angular momentum, energy, vorticity, enstrophy, and helicity. However, many numerical models for such flows do not preserve some or all of these balance laws, because of discretization errors and inconsistency with differential counterparts. In the project, we developed new structure preserving and long-time stable numerical methods for problems of fluid dynamics.</p>\n<p>The major progress has been obtained in the following three directions of research:</p>\n<p>&nbsp;1)&nbsp;&nbsp;&nbsp; We designed numerical methods for equations of fluid dynamics, which are built on the direct resolution of vorticity dynamics.&nbsp; Fluid flow vorticity is an important quantity, and many physical phenomena can be described in terms of vorticity more readily than in terms of other variables. Vorticity plays a fundamental role in understanding the physics of laminar, transitional and turbulent flows. The developed methods translate this physical intuition into mathematically sound numerical algorithms for simulation of fluids flows. The progress has been achieved in the design of boundary conditions for the vorticity, obtaining long-time stability of numerical method for solving fluid equations, proving existence and uniqueness of solution to the corresponding mathematical models under some modelling assumption.</p>\n<p>&nbsp;2)&nbsp;&nbsp;&nbsp; From the balance laws of continuum mechanics, we derived the governing equations of motion for a viscous incompressible material surface. The equations provide a model for a biological membrane relaxation, which accounts for the membrane viscosity and fluidity. The resulting equations can be seen as the Navier-Stokes equations, the fundamental equations of classical physics, posed on evolving surfaces. We proposed and analyzed algorithms for the numerical solution of these equations.</p>\n<p>&nbsp;3)&nbsp;&nbsp;&nbsp; We devised and numerical assessed a new totally conservative numerical method for unsteady Navier-Stokes equations of incompressible fluid dynamics. The new method correctly balances all flow statistics corresponding to known first and second invariants of the Euler equations.</p>\n<p>&nbsp;4)&nbsp;&nbsp;&nbsp; We studied numerical methods for solving partial differential equations, such as equations of fluid motion, in domains with complicated geometry. The feasibility of such methods was achieved by using triangulations that are non-fitted to the boundaries of the domains. Stability and complexity for a class of such unfitted methods were analyzed.&nbsp; &nbsp;&nbsp;</p>\n<p>&nbsp;Results of the project have been disseminated&nbsp;in 12 peer-reviewed papers and a large number of invited seminars, colloquia, lectures, and presentations at national and international conferences.&nbsp;Two graduate students substantially participated in the project and received training in scientific computing and applied mathematics.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/22/2018<br>\n\t\t\t\t\tModified by: Maxim&nbsp;Olshanskiy</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nFlows of Newtonian incompressible fluid possess rich geometric structure, which is supplied by the array of balance laws for momentum, mass, angular momentum, energy, vorticity, enstrophy, and helicity. However, many numerical models for such flows do not preserve some or all of these balance laws, because of discretization errors and inconsistency with differential counterparts. In the project, we developed new structure preserving and long-time stable numerical methods for problems of fluid dynamics.\n\nThe major progress has been obtained in the following three directions of research:\n\n 1)    We designed numerical methods for equations of fluid dynamics, which are built on the direct resolution of vorticity dynamics.  Fluid flow vorticity is an important quantity, and many physical phenomena can be described in terms of vorticity more readily than in terms of other variables. Vorticity plays a fundamental role in understanding the physics of laminar, transitional and turbulent flows. The developed methods translate this physical intuition into mathematically sound numerical algorithms for simulation of fluids flows. The progress has been achieved in the design of boundary conditions for the vorticity, obtaining long-time stability of numerical method for solving fluid equations, proving existence and uniqueness of solution to the corresponding mathematical models under some modelling assumption.\n\n 2)    From the balance laws of continuum mechanics, we derived the governing equations of motion for a viscous incompressible material surface. The equations provide a model for a biological membrane relaxation, which accounts for the membrane viscosity and fluidity. The resulting equations can be seen as the Navier-Stokes equations, the fundamental equations of classical physics, posed on evolving surfaces. We proposed and analyzed algorithms for the numerical solution of these equations.\n\n 3)    We devised and numerical assessed a new totally conservative numerical method for unsteady Navier-Stokes equations of incompressible fluid dynamics. The new method correctly balances all flow statistics corresponding to known first and second invariants of the Euler equations.\n\n 4)    We studied numerical methods for solving partial differential equations, such as equations of fluid motion, in domains with complicated geometry. The feasibility of such methods was achieved by using triangulations that are non-fitted to the boundaries of the domains. Stability and complexity for a class of such unfitted methods were analyzed.    \n\n Results of the project have been disseminated in 12 peer-reviewed papers and a large number of invited seminars, colloquia, lectures, and presentations at national and international conferences. Two graduate students substantially participated in the project and received training in scientific computing and applied mathematics.\n\n \n\n\t\t\t\t\tLast Modified: 10/22/2018\n\n\t\t\t\t\tSubmitted by: Maxim Olshanskiy"
+ }
+}

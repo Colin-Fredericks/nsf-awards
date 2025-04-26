@@ -1,0 +1,105 @@
+{
+ "awd_id": "1444634",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Securing Cloud Infrastructure: Unobtrusive Techniques for Detecting Hypervisor Compromise",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Deborah Shands",
+ "awd_eff_date": "2014-05-15",
+ "awd_exp_date": "2015-09-30",
+ "tot_intn_awd_amt": 107704.0,
+ "awd_amount": 107704.0,
+ "awd_min_amd_letter_date": "2014-05-05",
+ "awd_max_amd_letter_date": "2014-05-05",
+ "awd_abstract_narration": "Hypervisors are the building blocks of cloud computing. They host the virtualized operating systems and applications which provide highly-scalable, pervasive services on a continuous basis. These thin-layer, bare-metal operating systems create a prime target for attack. A compromised hypervisor grants access to hosted virtual machines and data stores. Its computing resources can be used for malicious purposes, including mounting additional attacks. To avoid detection, rooted hypervisors must not only avoid tripping internal alarms, but also convince external monitors that they are operating normally. To conceal illicit activities, they may underreport performance metrics. Although rootkits can hide unauthorized activity by understating system load, they cannot tamper with external measures of power usage. This research develops a new method for identifying compromised hypervisors which integrates energy usage statistics. This method correlates independent measures of server energy usage with hypervisor reports of system state to create models of power consumption. The detection process focuses on hypervisors which appear to use more power than expected, given reported performance metrics. Three out-of-band tests for detecting compromise are undergoing testing and refinement. The results of this research will indicate the effectiveness of energy correlation-approaches at identifying rooted hypervisors. If successful, this project will provide a platform-neutral method for cloud management monitors to identify compromised hypervisors. It reduces adoption risks for organizations and individual users of cloud services. In addition, it will provide opportunities for graduate and undergraduate students to developed advanced skills in cloud and data center security.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jordan",
+   "pi_last_name": "Shropshire",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jordan Shropshire",
+   "pi_email_addr": "jshropshire@southalabama.edu",
+   "nsf_id": "000600692",
+   "pi_start_date": "2014-05-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of South Alabama",
+  "inst_street_address": "307 N UNIVERSITY BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "MOBILE",
+  "inst_state_code": "AL",
+  "inst_state_name": "Alabama",
+  "inst_phone_num": "2514606333",
+  "inst_zip_code": "366083053",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "AL02",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTH ALABAMA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "QB12VPNQQFE8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of South Alabama",
+  "perf_str_addr": "307 University Boulevard",
+  "perf_city_name": "Mobile",
+  "perf_st_code": "AL",
+  "perf_st_name": "Alabama",
+  "perf_zip_code": "366880002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "AL01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 107704.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Problem:</strong> Cloud computing systems have fully permeated our lives. They provide reliable, highly scalable services on demand. These services are rendered by virtualized applications and operating systems known as virtual machines. Virtual machines are hosted on commodity servers in data centers. These servers have thin-layer operating systems known as hypervisors. Hypervisors are the building blocks of cloud infrastructure. Because of their role in supporting the cloud, they are a prime target for attack. A compromised hypervisor grants unprecedented access to virtual machine images. It also provides access to hardware resources. Hypervisor attacks are becoming increasing subtle. To avoid detection, attackers not only avoid tripping internal alarms, but also convince external monitors that they are operating normally. To conceal illicit activities, they may install rootkits which underreport performance metrics. This makes it harder for cloud management agents to discern between trustworthy and compromised hypervisors.</p>\n<p><strong>Solution:</strong> Although rootkits can hide unauthorized activity by understating system load, they cannot tamper with external measures of power usage. This research developed a method for identifying compromised hypervisors which integrates energy usage statistics. The proposed method correlates independent measures of server energy usage with hypervisor reports of system state to create models of power consumption. The detection process focuses on hypervisors which appear to use more power than expected, given reported performance metrics. Three detection method of increasing granularity were developed:</p>\n<p>(1)&nbsp;&nbsp; Anomaly Detection: This approach is based on a concept called &ldquo;over-eating&rdquo; or consuming more energy than necessary to reach the reported performance levels. Over-eating may be a sign of a hypervisor which has been compromised and reconfigured to under-report load.</p>\n<p>(2)&nbsp;&nbsp; Concentration Testing:&nbsp; This technique involves comparing a suspected host&rsquo;s idle energy consumption with its idle energy consumption measured at the last trust point.&nbsp;</p>\n<p>(3)&nbsp;&nbsp; Sleep Check: This procedure is based on a concept called &ldquo;sleep walking,&rdquo; in which a rooted hypervisor fakes system shutdown to save state. Identification involves an inspection of server energy draw after system-initiated shutdown.</p>\n<p>These detection method were evaluated on a research cloud established specifically for this research. The tests were performed on infrastructure depicted in Figure 1.&nbsp;</p>\n<p>In repeated tests, the course-grained prediction model was able to predict 91.21% of the variance in energy consumption. In a replicated cyber-attack, the proposed detection process successfully identified hypervisors which were hiding malicious activity.&nbsp;</p>\n<p>This project not only develops an innovative solution to a critical problem, but also enriches the professional experience of current and future IT professionals. Over the last year, a three-day technical seminar on cloud computing was provided to first year undergraduate students interested in the computing fields. Students were also given opportunities to implement Openstack, a widely-used cloud computing system. This hands-on training was conducted using the laboratory and hardware designed for this project. Having development an interest in cloud computing, three student participants have elected to pursue a technical certification offered by the software manufacturer. Presently, there is strong demand for data center engineers who are Openstack certified.</p>\n<p>Cloud computing is a disruptive technology that provides low cost computing, improves scalability and reduces end-user computer requirements. It circumvents barriers that previously excluded low-income populations. These benefits are predicated ...",
+  "por_txt_cntn": "\nProblem: Cloud computing systems have fully permeated our lives. They provide reliable, highly scalable services on demand. These services are rendered by virtualized applications and operating systems known as virtual machines. Virtual machines are hosted on commodity servers in data centers. These servers have thin-layer operating systems known as hypervisors. Hypervisors are the building blocks of cloud infrastructure. Because of their role in supporting the cloud, they are a prime target for attack. A compromised hypervisor grants unprecedented access to virtual machine images. It also provides access to hardware resources. Hypervisor attacks are becoming increasing subtle. To avoid detection, attackers not only avoid tripping internal alarms, but also convince external monitors that they are operating normally. To conceal illicit activities, they may install rootkits which underreport performance metrics. This makes it harder for cloud management agents to discern between trustworthy and compromised hypervisors.\n\nSolution: Although rootkits can hide unauthorized activity by understating system load, they cannot tamper with external measures of power usage. This research developed a method for identifying compromised hypervisors which integrates energy usage statistics. The proposed method correlates independent measures of server energy usage with hypervisor reports of system state to create models of power consumption. The detection process focuses on hypervisors which appear to use more power than expected, given reported performance metrics. Three detection method of increasing granularity were developed:\n\n(1)   Anomaly Detection: This approach is based on a concept called \"over-eating\" or consuming more energy than necessary to reach the reported performance levels. Over-eating may be a sign of a hypervisor which has been compromised and reconfigured to under-report load.\n\n(2)   Concentration Testing:  This technique involves comparing a suspected host\u00c6s idle energy consumption with its idle energy consumption measured at the last trust point. \n\n(3)   Sleep Check: This procedure is based on a concept called \"sleep walking,\" in which a rooted hypervisor fakes system shutdown to save state. Identification involves an inspection of server energy draw after system-initiated shutdown.\n\nThese detection method were evaluated on a research cloud established specifically for this research. The tests were performed on infrastructure depicted in Figure 1. \n\nIn repeated tests, the course-grained prediction model was able to predict 91.21% of the variance in energy consumption. In a replicated cyber-attack, the proposed detection process successfully identified hypervisors which were hiding malicious activity. \n\nThis project not only develops an innovative solution to a critical problem, but also enriches the professional experience of current and future IT professionals. Over the last year, a three-day technical seminar on cloud computing was provided to first year undergraduate students interested in the computing fields. Students were also given opportunities to implement Openstack, a widely-used cloud computing system. This hands-on training was conducted using the laboratory and hardware designed for this project. Having development an interest in cloud computing, three student participants have elected to pursue a technical certification offered by the software manufacturer. Presently, there is strong demand for data center engineers who are Openstack certified.\n\nCloud computing is a disruptive technology that provides low cost computing, improves scalability and reduces end-user computer requirements. It circumvents barriers that previously excluded low-income populations. These benefits are predicated on the assumption of a stable, secure infrastructure. This research ensures these expectations are fulfilled by developing an efficient method for detecting compromised hypervisors. To summarize, this project accomplished th..."
+ }
+}

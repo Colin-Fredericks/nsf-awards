@@ -1,0 +1,105 @@
+{
+ "awd_id": "1815238",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "III: Small: An end-to-end pipeline for interactive visual analysis of big data",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924481",
+ "po_email": "hmunoz@nsf.gov",
+ "po_sign_block_name": "Hector Munoz-Avila",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2021-08-31",
+ "tot_intn_awd_amt": 485849.0,
+ "awd_amount": 485849.0,
+ "awd_min_amd_letter_date": "2018-07-27",
+ "awd_max_amd_letter_date": "2018-07-27",
+ "awd_abstract_narration": "Computer scientists, statisticians, and data scientists use sophisticated analysis techniques to extract insights from their massive sources of data, from astronomic data gathered from telescopes to climate simulations run on supercomputers to user activity in online social networks. At the same time, they would like to make use of interactive visualization, so they can understand and explore their data by means of graphics and visual interfaces. These visual analytics systems are more intuitive and more powerful, and allow analysts to make better decisions more confidently. Currently, these visualization systems are not fast enough for broad applicability in large-scale settings. In this project, novel techniques are developed to speed up the methods used in data analyses in order for stakeholders to combine the sophisticated analyses they need with the interactive visualization systems they prefer to use. This project has the potential to transform how current infrastructure and systems for interactive and exploratory data analysis are designed.  Open-source software that integrates directly with the libraries and programming languages used by scientists and other data analysts will be broadly disseminated. In addition, the concepts and technologies developed here will be used in classrooms to train future generations of researchers and computer scientists.\r\n\r\nThere currently is a major obstacle for the application of interactive visualization systems in large-scale data analysis: many techniques require repeated loops (or scans) over the dataset in order to collect the appropriate aggregation information. The recently developed hierarchical, spatiotemporal data cube data structures replace many of scans, but are only suitable for basic bar charts, histograms, and heatmaps, since they accelerate only a small number of queries available to database management systems. In contrast, this project aims at developing novel data structures that support a broader swath of the exploratory data analysis and visualization pipeline, such as k-means, logistic regression, least-squares optimization, dimensionality reduction, etc., and connect these data structures directly to the APIs and calls made by visualization libraries that use these methods.  The performance of proposed infrastructure for interactive and exploratory data analysis will be evaluated on specifically designed benchmarks to compare existing and novel interactive data cube systems. The benchmarks will enable synthesis of knowledge that is spread across a somewhat fractured research area. The benchmarks will, in turn, guide the evaluation of the development of improvement for these data structures, aiming at a decrease between 30% to 80% in storage costs, and likely comparable gains in preprocessing time, that translate directly into better interactive visualization capabilities. APIs for integrating these data structures in modern data science environments such as R and Python will be developed and widely disseminated in order to increase the impact of this project.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Carlos",
+   "pi_last_name": "Scheidegger",
+   "pi_mid_init": "E",
+   "pi_sufx_name": "",
+   "pi_full_name": "Carlos E Scheidegger",
+   "pi_email_addr": "carlos.scheidegger@gmail.com",
+   "nsf_id": "000672494",
+   "pi_start_date": "2018-07-27",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Arizona",
+  "inst_street_address": "845 N PARK AVE RM 538",
+  "inst_street_address_2": "",
+  "inst_city_name": "TUCSON",
+  "inst_state_code": "AZ",
+  "inst_state_name": "Arizona",
+  "inst_phone_num": "5206266000",
+  "inst_zip_code": "85721",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "AZ07",
+  "org_lgl_bus_name": "UNIVERSITY OF ARIZONA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "ED44Y3W6P7B9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Arizona",
+  "perf_str_addr": "1040 E. 4th Street",
+  "perf_city_name": "Tucson",
+  "perf_st_code": "AZ",
+  "perf_st_name": "Arizona",
+  "perf_zip_code": "857210077",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "AZ07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7364",
+   "pgm_ref_txt": "INFO INTEGRATION & INFORMATICS"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 485849.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>As larger datasets become commonplace in natural and computational sciences, the rate of novel discovery becomes gated by the speed at which scientists can make design, implement and evaluate data analyses. In these situations, any one step of the pipeline can be the reason for an analysis to fail: data collection, storage, analysis, visualization, and reporting. As a result, it's important to take a holistic, end-to-end perspective, and that's the premise that drove the research in this project.</p>\n<p>Intellectual merit: by taking a whole-pipeline perspective, this project was able to create a number of novel research results and technologies. These results advanced the state of the art in data visualization, data management, and machine learning, and offered a path to future solutions. The results were disseminated in top computer science venues. The first area of investigation involved the design of a novel data indexing structure that simultaneous stores and computes sufficient statistics for generalized linear models, allowing the computation of linear fits in interactive scenarios for datasets of upwards of a billion elements. The second area of investigation involved the design of a machine-learning pipeline that serves as a learned index for this problem, showing for the first time that it is possible and practical to use deep neural networks to create learned indices for multidimensional data cubes.</p>\n<p>Broader impacts: In addition to generating a number of high-profile publications and training one undergraduate and three PhD students, the project yielded two open-source implementations that are available in public software repositories for future researchers. In addition to being archived with the NSF, research products, reports, publications and software are available at a public website that will be hosted by the PI's institution for ensured longevity.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/28/2022<br>\n\t\t\t\t\tModified by: Carlos&nbsp;E&nbsp;Scheidegger</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAs larger datasets become commonplace in natural and computational sciences, the rate of novel discovery becomes gated by the speed at which scientists can make design, implement and evaluate data analyses. In these situations, any one step of the pipeline can be the reason for an analysis to fail: data collection, storage, analysis, visualization, and reporting. As a result, it's important to take a holistic, end-to-end perspective, and that's the premise that drove the research in this project.\n\nIntellectual merit: by taking a whole-pipeline perspective, this project was able to create a number of novel research results and technologies. These results advanced the state of the art in data visualization, data management, and machine learning, and offered a path to future solutions. The results were disseminated in top computer science venues. The first area of investigation involved the design of a novel data indexing structure that simultaneous stores and computes sufficient statistics for generalized linear models, allowing the computation of linear fits in interactive scenarios for datasets of upwards of a billion elements. The second area of investigation involved the design of a machine-learning pipeline that serves as a learned index for this problem, showing for the first time that it is possible and practical to use deep neural networks to create learned indices for multidimensional data cubes.\n\nBroader impacts: In addition to generating a number of high-profile publications and training one undergraduate and three PhD students, the project yielded two open-source implementations that are available in public software repositories for future researchers. In addition to being archived with the NSF, research products, reports, publications and software are available at a public website that will be hosted by the PI's institution for ensured longevity.\n\n\t\t\t\t\tLast Modified: 08/28/2022\n\n\t\t\t\t\tSubmitted by: Carlos E Scheidegger"
+ }
+}

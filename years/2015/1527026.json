@@ -1,0 +1,105 @@
+{
+ "awd_id": "1527026",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS: Small: Dynamic Spectrum Access by Learning Primary Network Topology",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Alexander Sprintson",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2020-08-31",
+ "tot_intn_awd_amt": 200000.0,
+ "awd_amount": 200000.0,
+ "awd_min_amd_letter_date": "2015-09-11",
+ "awd_max_amd_letter_date": "2015-09-11",
+ "awd_abstract_narration": "Primary user networks provide wireless coverage over a large area by using multiple geographically separated transmitters operating on licensed frequency bands. On the other hand, cognitive radios are opportunistic users of unoccupied spectrum. In order to coexist with the transmitters in its vicinity, they need to sense the spectrum, i.e., detect the primary users' transmissions, and avoid causing them interference. This project focuses on the dynamic spectrum access in the presence of primary networks that are cellular, have anisotropic antennas, or employ frequency reuse, and aims to significantly increase the range of spectrum that cognitive radios can use. Through higher-layer radio scene analysis we aim to maximize the cognitive radio network throughput by increasing the detected spatial resolution and utilization of spectrum holes. This combination of increased spectrum and geographical spread makes large-scale cognitive radio networks a viable candidate for implementing smart grids, environmental networks, and traffic sensors. For defense purposes, the learned primary network topology provides unprecedented information about commonly deployed communication networks.\r\n\r\nThis project research is based on development of cooperative algorithms for the identification of spectrum holes and classification of primary network activity by geographically large-scale cognitive radio networks. A novelty of the proposed methods is that they will not rely on knowledge of the channel propagation models or the location of the radios. This blind nature of the algorithms allows for more diverse applications. Instead of geographical vicinity, correlations in the received signals will be used for distinguishing between primary transmitters and learning the shape of their footprints. For the case that footprints of two or more transmitters overlap, message passing based cooperative spectrum sensing methods will be formulated for the joint estimation of the multiple transmitters spectrum occupancy. The learned footprint and the detected spectrum occupancy will be used to analyze the primary user activity over time. Primary users that are part of the same infrastructure-based primary networks will be identified. Further, learning their traffic statistics will enable the classification of their channel access methods and protocols.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Danijela",
+   "pi_last_name": "Cabric",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Danijela Cabric",
+   "pi_email_addr": "danijela@ee.ucla.edu",
+   "nsf_id": "000527209",
+   "pi_start_date": "2015-09-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Los Angeles",
+  "perf_str_addr": "",
+  "perf_city_name": "Los Angeles",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900951409",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 200000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this project we explored approaches for large scale opportunistic spectrum sharing networks in licensed and unlicensed spectrum that would enable connectivity to a massive number of Internet-of-Things (IoT) radios. We proposed a novel distributed wideband sensing architecture that implements signal processing and machine learning algorithms that can: 1) identify a very large number of narrowband channels in a wideband spectrum with low cost sensing radios, 2) estimate spatial footprints of spectrum availability without any a priori knowledge of incumbents, 3) exploit temporal patterns and spectrum prediction to optimize sensing scheduling and access, &nbsp;and 4) secure spectrum access by identifying radio transmitters via their radio frequency (RF) fingerprints.</p>\n<p>Our approach for distributed spectrum sensing relies on the adaptive scheduler that based on the locality of spectrum occupancy assigns a subset of sensing channels to each IoT device. Given that sensing is taken with low cost energy detection based sensors, which are known to have limited reliability and accuracy, we employ diffusion based measurement fusion algorithms that optimally combine sensing measurements by learning their correlation in space and time. In the presence of spectral overlap, due to collisions or co-channel interference, the detection of number and type of active transmitters is challenging using only energy detection measurements, which is available at low cost IoT sensors. We develop a learning algorithm based on non-negative matrix factorization to separate overlapped transmissions from a collection of IoT sensing measurements, which are then used to extract time domain statics and causality patterns for predictions of future spectrum occupancy. For detection of individual transmitters, which for example correspond to a particular protected primary user of the spectrum, we develop deep learning based algorithms that are able to extract unique features due to transmitter RF fingerprints. We tested these algorithms using a data captured with ORBIT testbed, and have shown the ability to detect and classify a set of known transmitters (authorized), and reject a set of unknown transmitters (unauthorized) with high accuracy given limited training data. These results provide basis for future directions in securing a spectrum access for massive IoT through machine learning and distributed spectrum monitoring. The proposed approaches provide new mechanisms to develop networking algorithms for spectrum sharing for massive IoT networks in the applications such as smart cities, smart agriculture, and smart grids.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/02/2021<br>\n\t\t\t\t\tModified by: Danijela&nbsp;Cabric</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn this project we explored approaches for large scale opportunistic spectrum sharing networks in licensed and unlicensed spectrum that would enable connectivity to a massive number of Internet-of-Things (IoT) radios. We proposed a novel distributed wideband sensing architecture that implements signal processing and machine learning algorithms that can: 1) identify a very large number of narrowband channels in a wideband spectrum with low cost sensing radios, 2) estimate spatial footprints of spectrum availability without any a priori knowledge of incumbents, 3) exploit temporal patterns and spectrum prediction to optimize sensing scheduling and access,  and 4) secure spectrum access by identifying radio transmitters via their radio frequency (RF) fingerprints.\n\nOur approach for distributed spectrum sensing relies on the adaptive scheduler that based on the locality of spectrum occupancy assigns a subset of sensing channels to each IoT device. Given that sensing is taken with low cost energy detection based sensors, which are known to have limited reliability and accuracy, we employ diffusion based measurement fusion algorithms that optimally combine sensing measurements by learning their correlation in space and time. In the presence of spectral overlap, due to collisions or co-channel interference, the detection of number and type of active transmitters is challenging using only energy detection measurements, which is available at low cost IoT sensors. We develop a learning algorithm based on non-negative matrix factorization to separate overlapped transmissions from a collection of IoT sensing measurements, which are then used to extract time domain statics and causality patterns for predictions of future spectrum occupancy. For detection of individual transmitters, which for example correspond to a particular protected primary user of the spectrum, we develop deep learning based algorithms that are able to extract unique features due to transmitter RF fingerprints. We tested these algorithms using a data captured with ORBIT testbed, and have shown the ability to detect and classify a set of known transmitters (authorized), and reject a set of unknown transmitters (unauthorized) with high accuracy given limited training data. These results provide basis for future directions in securing a spectrum access for massive IoT through machine learning and distributed spectrum monitoring. The proposed approaches provide new mechanisms to develop networking algorithms for spectrum sharing for massive IoT networks in the applications such as smart cities, smart agriculture, and smart grids.\n\n \n\n\t\t\t\t\tLast Modified: 05/02/2021\n\n\t\t\t\t\tSubmitted by: Danijela Cabric"
+ }
+}

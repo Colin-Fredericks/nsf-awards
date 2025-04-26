@@ -1,0 +1,101 @@
+{
+ "awd_id": "1050290",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Collaborative: Aster*x: Load-Balancing Web Traffic over Wide-Area Networks",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Joseph Lyles",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2012-08-31",
+ "tot_intn_awd_amt": 75000.0,
+ "awd_amount": 75000.0,
+ "awd_min_amd_letter_date": "2010-08-07",
+ "awd_max_amd_letter_date": "2010-08-07",
+ "awd_abstract_narration": "This project proposes a comprehensive load-balancing solution to minimize client response time and reduce system costs for services hosted in wide-area networks. The system, called Aster*x, uses the global state of server load and network congestion, and dynamically routes the requests over appropriate (server and path) pairs, calculated using the load-balancing algorithms developed by project staff. \r\n\r\nThe GENI network infrastructure will be used for extensive deployment, evaluation, and demonstration of Aster*x. Aster*x exploits OpenFlow?s logically centralized controller to obtain the global network state and route flows of various granularities. It will use the PlanetLab and ProtoGENI-based computation substrate to host the replicated web service and to generate client requests from multiple locations. The project will provide an opportunity for students across four universities to collaborate and build a relatively large experimental system on GENI.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nick",
+   "pi_last_name": "McKeown",
+   "pi_mid_init": "W",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nick W McKeown",
+   "pi_email_addr": "nickm@ee.stanford.edu",
+   "nsf_id": "000487607",
+   "pi_start_date": "2010-08-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Stanford University",
+  "inst_street_address": "450 JANE STANFORD WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6507232300",
+  "inst_zip_code": "943052004",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJD6G4D6TJY5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Stanford University",
+  "perf_str_addr": "450 JANE STANFORD WAY",
+  "perf_city_name": "STANFORD",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "943052004",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 75000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Most modern medium to large-scale Internet services load-balance incoming requests across a network of multiple geographically distributed servers in order to minimize response time for their clients. While load-balancers today can pick a server, they are not free to choose a good path to the server, placing them at the mercy of the network to choose the path for them.</p>\n<p>The goal of the project was twofold: (1) to explore the research of question of whether it is possible to build, at scale, an &ldquo;ideal&rdquo; load-balancing system that can jointly select the server as well as the path, and if done so, how much better would it be compared to a load-balancer that independently picks servers and paths. (2) to build a motivating application for the GENI testbed and demonstrate it at scale. The project was successful on both counts.</p>\n<p>We found that, given sufficient visibility and control over the network, it is indeed possible to build the &ldquo;ideal&rdquo; load-balancer. We demonstrated it by building a prototype load-balancer, called Aster*x, and running it live on a GENI slice spanning 9 campuses across the US. Aster*x was successfully demonstrated in the plenary session of GEC-9 held in Washington DC.</p>\n<p>Common sense suggests that the &ldquo;ideal&rdquo; load-balancer &ndash; that picks the (server, path) pair &ndash; will perform much better than a &ldquo;path-oblivious&rdquo; load-balancer that selects servers and paths independently. We accurately emulated a large number of different network topologies and routing strategies. We found, not surprisingly, that the ideal load-balancer significantly outperforms networks with shortest-path routing. Our results are more surprising when we compare the ideal load-balancer with a network that uses traffic engineering, independently from the load-balancer. Although the load-balancer and network have different goals, their interaction leads the system towards an equilibrium that is close to optimal. We developed a game-theoretic model to explain this behavior.</p>\n<p>The project is of both academic and commercial interest. The products of this project -- Aster*x and some of our evaluation results -- have formed the basis of a series of invited talks at various academic and industrial venues, including Amazon Web Services, University of Washington, Google, Facebook, and Netflix.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/21/2013<br>\n\t\t\t\t\tModified by: Nick&nbsp;W&nbsp;Mckeown</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMost modern medium to large-scale Internet services load-balance incoming requests across a network of multiple geographically distributed servers in order to minimize response time for their clients. While load-balancers today can pick a server, they are not free to choose a good path to the server, placing them at the mercy of the network to choose the path for them.\n\nThe goal of the project was twofold: (1) to explore the research of question of whether it is possible to build, at scale, an \"ideal\" load-balancing system that can jointly select the server as well as the path, and if done so, how much better would it be compared to a load-balancer that independently picks servers and paths. (2) to build a motivating application for the GENI testbed and demonstrate it at scale. The project was successful on both counts.\n\nWe found that, given sufficient visibility and control over the network, it is indeed possible to build the \"ideal\" load-balancer. We demonstrated it by building a prototype load-balancer, called Aster*x, and running it live on a GENI slice spanning 9 campuses across the US. Aster*x was successfully demonstrated in the plenary session of GEC-9 held in Washington DC.\n\nCommon sense suggests that the \"ideal\" load-balancer &ndash; that picks the (server, path) pair &ndash; will perform much better than a \"path-oblivious\" load-balancer that selects servers and paths independently. We accurately emulated a large number of different network topologies and routing strategies. We found, not surprisingly, that the ideal load-balancer significantly outperforms networks with shortest-path routing. Our results are more surprising when we compare the ideal load-balancer with a network that uses traffic engineering, independently from the load-balancer. Although the load-balancer and network have different goals, their interaction leads the system towards an equilibrium that is close to optimal. We developed a game-theoretic model to explain this behavior.\n\nThe project is of both academic and commercial interest. The products of this project -- Aster*x and some of our evaluation results -- have formed the basis of a series of invited talks at various academic and industrial venues, including Amazon Web Services, University of Washington, Google, Facebook, and Netflix.\n\n\t\t\t\t\tLast Modified: 05/21/2013\n\n\t\t\t\t\tSubmitted by: Nick W Mckeown"
+ }
+}

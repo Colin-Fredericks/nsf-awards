@@ -1,0 +1,109 @@
+{
+ "awd_id": "2113557",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Covariate-Driven Approaches to Network Estimation",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Yulia Gel",
+ "awd_eff_date": "2021-08-15",
+ "awd_exp_date": "2024-07-31",
+ "tot_intn_awd_amt": 120000.0,
+ "awd_amount": 120000.0,
+ "awd_min_amd_letter_date": "2021-08-12",
+ "awd_max_amd_letter_date": "2021-08-12",
+ "awd_abstract_narration": "In this research project, the PIs will develop new statistical methods for estimating networks from scientific data. In statistical network inference, each node in the network corresponds to a variable, and each edge represents a dependence relation. The project will address challenging scenarios where a set of external covariates may influence either the values of the nodes within the network or the strength of the connections. The PIs will develop new Bayesian modeling approaches for learning both directed and undirected networks and their dependence on covariates, including methods that can handle data that are not normally distributed, and implement the proposed methods using efficient computational algorithms. The PIs will apply the developed statistical models to high-dimensional data, including functional brain imaging and microbiome profiling. This work is significant, as it will break new ground in Bayesian modeling and computation. The broader impacts of this project include the public sharing of software, training of graduate students, and the application of the methods to real-world neuroimaging and microbiome data.\r\n\r\nThis project will break new ground in the simultaneous estimation of graphical models and covariate effects. The PIs will develop a framework to infer directed graphs based on vector autoregressive models for time series data and will develop a novel formulation where covariates may influence the strength of an edge in a non-linear fashion. This framework will allow the determination of how key covariates modulate network relations. The PIs will also develop Bayesian methods for the simultaneous selection of covariates and edges in an undirected graph, focusing on models for non-Gaussian data. They will implement these models using efficient Variational Inference approaches, enabling scalability to real-world applications. This project achieves innovation both in terms of the Bayesian modeling approaches and the computational methods employed to enable efficient inference.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Christine",
+   "pi_last_name": "Peterson",
+   "pi_mid_init": "B",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christine B Peterson",
+   "pi_email_addr": "cbpeterson@mdanderson.org",
+   "nsf_id": "000760413",
+   "pi_start_date": "2021-08-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas, M.D. Anderson Cancer Center",
+  "inst_street_address": "1515 HOLCOMBE BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "HOUSTON",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7137923220",
+  "inst_zip_code": "770304009",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "THE UNIVERISTY OF TEXAS M.D. ANDERSON CANCER CENTER",
+  "org_prnt_uei_num": "S3GMKS8ELA16",
+  "org_uei_num": "S3GMKS8ELA16"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas, M.D. Anderson Cancer Center",
+  "perf_str_addr": "1400 Pressler St.",
+  "perf_city_name": "Houston",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "770301402",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "TX07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "126900",
+   "pgm_ele_name": "STATISTICS"
+  },
+  {
+   "pgm_ele_code": "745400",
+   "pgm_ele_name": "MSPA-INTERDISCIPLINARY"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "068Z",
+   "pgm_ref_txt": "URoL-Understanding Rules of Life"
+  },
+  {
+   "pgm_ref_code": "079Z",
+   "pgm_ref_txt": "Machine Learning Theory"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 120000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our project broke new ground in developing statistical methods for the inference of directed and undirected networks from complex data sets. We proposed approaches that allow for covariates to modulate the strength of connections in the network or the magnitude of effect on an outcome. Effectively, this means that the inferred network and regression models have parameters that are allowed to vary across subjects. We developed scalable methods for fitting these models and applied them to real-world data sets from neurological and microbiome research studies. Importantly, we identified a number of effects that were modulated by subject-level covariates, suggesting that standard \"one-size-fits-all\" methods, where all subjects share common parameter values, may be overlooking context-dependent associations.&nbsp;</p>\n<p>We now discuss two of the major modeling projects in more detail. In the realm of directed network inference, we proposed a varying-effects autoregressive model. Here, we learn a directed network, where each node in the network corresponds to a brain region, and the edges indicate that activation in that brain region at an earlier time point influences activation at a later time point. This type of network is known as an effective connectivity network and provides important insights into how different regions of the brain interact during cognitive activity. Our proposed model allowed that subject-level covariates, such as age or sex, could modify the strength of these connections. When applied to a study of children with traumatic brain injury, our method revealed that patterns of effective connectivity were influenced by age and that this pattern of dependence was different in children with traumatic brain injury vs. health control children.</p>\n<p>In another major project, we focused on a regression setting where the predictors correspond to nodes within a network.&nbsp;In this model, we learn the network among the predictor variables and leverage this information to guide the feature selection. We allow the model coefficients to vary smoothly as a function of subject-level covariates. We demonstrated that this method can improve power to detect coordinated effects over existing methods. We applied this method to characterize the influence of microbial abundances on obesity, where we identified microbiome features whose effects are modulated by dietary intake variables and sex. Our model is applicable to any \"omics\" data type, such as gene expression, microbiome, or proteomics, where features organized within a pathway or network structure can exert non-linear covariate-dependent effects on a phenotype.</p>\n<p>During the project time period, we co-advised a PhD student, who was the first author on two major papers resulting from this grant. We have also disseminated by presenting at national conferences and giving seminar presentations.</p>\n<p>The intellectual merit of these projects lies in two key dimensions: the formulation of the Bayesian statistical model and the development of scalable inference algorithms. Our proposed models are unique in how they combine network inference with varying-coefficient models. Our computational approaches incorporated advanced methods in Bayesian variational inference and MCMC algorithms to ensure that the proposed methods could be fit to complex multivariate data using a reasonable amount of computing time.</p>\n<p>These projects demonstrate broader impacts, both in terms of the statistical models developed (which can be applied to scientific studies in the future) and the specific conclusions we have identified in our applications. We have developed well-documented code along with our methods, which is freely available online. In addition, our engagement with PhD students and successful mentorship reflects our commitment to education and training. Finally, all projects represent collaborations across multiple institutions.</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 10/17/2024<br>\nModified by: Christine&nbsp;B&nbsp;Peterson</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nOur project broke new ground in developing statistical methods for the inference of directed and undirected networks from complex data sets. We proposed approaches that allow for covariates to modulate the strength of connections in the network or the magnitude of effect on an outcome. Effectively, this means that the inferred network and regression models have parameters that are allowed to vary across subjects. We developed scalable methods for fitting these models and applied them to real-world data sets from neurological and microbiome research studies. Importantly, we identified a number of effects that were modulated by subject-level covariates, suggesting that standard \"one-size-fits-all\" methods, where all subjects share common parameter values, may be overlooking context-dependent associations.\n\n\nWe now discuss two of the major modeling projects in more detail. In the realm of directed network inference, we proposed a varying-effects autoregressive model. Here, we learn a directed network, where each node in the network corresponds to a brain region, and the edges indicate that activation in that brain region at an earlier time point influences activation at a later time point. This type of network is known as an effective connectivity network and provides important insights into how different regions of the brain interact during cognitive activity. Our proposed model allowed that subject-level covariates, such as age or sex, could modify the strength of these connections. When applied to a study of children with traumatic brain injury, our method revealed that patterns of effective connectivity were influenced by age and that this pattern of dependence was different in children with traumatic brain injury vs. health control children.\n\n\nIn another major project, we focused on a regression setting where the predictors correspond to nodes within a network.In this model, we learn the network among the predictor variables and leverage this information to guide the feature selection. We allow the model coefficients to vary smoothly as a function of subject-level covariates. We demonstrated that this method can improve power to detect coordinated effects over existing methods. We applied this method to characterize the influence of microbial abundances on obesity, where we identified microbiome features whose effects are modulated by dietary intake variables and sex. Our model is applicable to any \"omics\" data type, such as gene expression, microbiome, or proteomics, where features organized within a pathway or network structure can exert non-linear covariate-dependent effects on a phenotype.\n\n\nDuring the project time period, we co-advised a PhD student, who was the first author on two major papers resulting from this grant. We have also disseminated by presenting at national conferences and giving seminar presentations.\n\n\nThe intellectual merit of these projects lies in two key dimensions: the formulation of the Bayesian statistical model and the development of scalable inference algorithms. Our proposed models are unique in how they combine network inference with varying-coefficient models. Our computational approaches incorporated advanced methods in Bayesian variational inference and MCMC algorithms to ensure that the proposed methods could be fit to complex multivariate data using a reasonable amount of computing time.\n\n\nThese projects demonstrate broader impacts, both in terms of the statistical models developed (which can be applied to scientific studies in the future) and the specific conclusions we have identified in our applications. We have developed well-documented code along with our methods, which is freely available online. In addition, our engagement with PhD students and successful mentorship reflects our commitment to education and training. Finally, all projects represent collaborations across multiple institutions.\n\n\n\t\t\t\t\tLast Modified: 10/17/2024\n\n\t\t\t\t\tSubmitted by: ChristineBPeterson\n"
+ }
+}

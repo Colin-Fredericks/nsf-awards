@@ -1,0 +1,142 @@
+{
+ "awd_id": "2340192",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CAREER: Foundations, Algorithms, and Tools for Browser Invalidation",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2024-03-15",
+ "awd_exp_date": "2029-02-28",
+ "tot_intn_awd_amt": 512782.0,
+ "awd_amount": 214459.0,
+ "awd_min_amd_letter_date": "2024-03-13",
+ "awd_max_amd_letter_date": "2024-08-13",
+ "awd_abstract_narration": "This project aims to make web applications faster and less buggy by improving how web browsers implement an important algorithm called \"invalidation.\" Web browsers are applications that view web pages; popular ones include Google Chrome, Microsoft Edge, Apple Safari, Samsung Internet, and Mozilla Firefox. They use a variety of algorithms to run web applications quickly. One of the most important that applies to a web browser component called its rendering engine, is invalidation. Invalidation means reusing previously-computed results when they could not have changed in the meanwhile. While simple in concept, invalidation is difficult in practice because tracking what can and can not change is extremely difficult. Bugs incorrectly reuse old results or incorrectly recompute unchanged results, and that causes web applications to look wrong, stutter, or freeze. In this project, the investigator presents new programming techniques that automatically track what can and can not change, removing the hardest part of invalidation. If successful, web browsers could adopt these techniques and run web applications faster with fewer bugs. That would ultimately serve the national prosperity by improving software developers' productivity and making more software accessible over the web. The new techniques and tools will be widely disseminated. Research will be integrated into education and training for students, developers and users of web browsers. \r\n\r\nTechnically, browser invalidation algorithms are a set of cache invalidation algorithms for data with tree-structured dependencies. These algorithms are essential to reducing browser rendering latency. Today, these algorithms are written manually and susceptible to both under- and over-invalidation bugs. The projects explores a new monadic abstraction for tracking tree-structured dependencies between data values and automatically propagating invalidation messages (\"dirty bits\") through this dependency graph. A programming interface based on Resource Allocation Is Initialization (RAII) techniques and abstract invalidation allows integrating this abstraction into existing rendering engines. To test whether invalidation bugs are in fact eliminated, the investigator plans to build a black-box invalidation testing tool for web browsers, which will automatically search for invalidation bugs, which should confirm a dramatic reduction in bugs using the invalidation abstraction. To reduce runtime overhead, a compile-time policy framework will allow incrementally annotating protected data so that the dependency-tracking abstraction compiles down to code competitive with today's manual invalidation algorithms. Finally, a tracing system that combines performance counters such as RDTSC with the dependency graph allows attributing computation time to individual HTML elements and Cascading style sheets (CSS) properties and highlighting that performance data in the browser developer tools. In combination, these thrusts aim to make web browsers faster and less buggy while improving web application developers' ability to adapt their applications to web browser invalidation for greater performance.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Pavel",
+   "pi_last_name": "Panchekha",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Pavel Panchekha",
+   "pi_email_addr": "pavpan@cs.utah.edu",
+   "nsf_id": "000808273",
+   "pi_start_date": "2024-03-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Utah",
+  "inst_street_address": "201 PRESIDENTS CIR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SALT LAKE CITY",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8015816903",
+  "inst_zip_code": "841129049",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "UT01",
+  "org_lgl_bus_name": "UNIVERSITY OF UTAH",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LL8GLEVH6MG3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Utah",
+  "perf_str_addr": "201 PRESIDENTS CIR",
+  "perf_city_name": "SALT LAKE CITY",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "841129049",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "UT01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002526DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002627DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002728DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002829DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 214459.0
+  }
+ ],
+ "por": null
+}

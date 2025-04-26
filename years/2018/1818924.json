@@ -1,0 +1,105 @@
+{
+ "awd_id": "1818924",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "High Order Multi-Scale Numerical Methods for All-Mach Number Flows",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032922113",
+ "po_email": "ygorb@nsf.gov",
+ "po_sign_block_name": "Yuliya Gorb",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 262410.0,
+ "awd_amount": 262410.0,
+ "awd_min_amd_letter_date": "2018-05-23",
+ "awd_max_amd_letter_date": "2018-05-23",
+ "awd_abstract_narration": "The primary goal of this project is the design of highly accurate and multi-scale numerical methods for all-speed flow simulations. To the best of our knowledge, highly accurate multi-scale solvers for all-Mach number flows are still underdeveloped. The proposed work is expected to establish close connections on existing state-of-art computational tools for compressible flow (with shock capturing techniques) and incompressible flows (with projection and divergence cleaning techniques). Successful methodology developments for all-speed flow simulations will have a broad impact for a wide range of computational fluid dynamics (CFD)-related applications. The proposed research work in algorithm design and analysis will promote/benefit from the demands from CFD applications fields. Further impact comes from the multidisciplinary nature of the proposed research, publications, participation and organization of mini-symposium sections in conferences, as well as the training of students.\r\n\r\nHigh order multi-scale solvers for all-Mach number flows are proposed. The PI seeks to develop a uniform framework to build up high order solvers that could effectively capture shocks without numerical oscillations for the compressible Euler system, and would successfully approximate the incompressible solutions of the system with proper divergence cleaning steps for low Mach flows without the need in resolving acoustic waves. In particular, the main focus would be finite difference schemes with weighted essentially non-oscillatory (WENO) reconstructions coupled with proper implicit-explicit (IMEX) Runge Kutta (RK) treatments with the following properties:  (1) the schemes can robustly capture shock fronts in the compressible regime when the Mach number is of order 1; (2) the schemes automatically become high order, stable and consistent solvers for the incompressible Euler system when the Mach number approaches 0; (3) the schemes are high order accurate in both space and in time both when the acoustic waves are well-resolved and are under-resolved. Along this direction, the PI develops a thorough plan in methodology development, stability and asymptotic preserving analysis, as well as extensive benchmarked tests for all-Mach number flows. Further extensions to the Navier-Stokes system with additional consideration of viscous terms and special focus on boundary conditions will be explored.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jing-Mei",
+   "pi_last_name": "Qiu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jing-Mei Qiu",
+   "pi_email_addr": "jingqiu@udel.edu",
+   "nsf_id": "000515352",
+   "pi_start_date": "2018-05-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Delaware",
+  "inst_street_address": "550 S COLLEGE AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEWARK",
+  "inst_state_code": "DE",
+  "inst_state_name": "Delaware",
+  "inst_phone_num": "3028312136",
+  "inst_zip_code": "197131324",
+  "inst_country_name": "United States",
+  "cong_dist_code": "00",
+  "st_cong_dist_code": "DE00",
+  "org_lgl_bus_name": "UNIVERSITY OF DELAWARE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "T72NHKM259N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Delaware",
+  "perf_str_addr": "Ewing Hall",
+  "perf_city_name": "Newark",
+  "perf_st_code": "DE",
+  "perf_st_name": "Delaware",
+  "perf_zip_code": "197162553",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "00",
+  "perf_st_cong_dist": "DE00",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 262410.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>We developed&nbsp;a new high order semi-implicit scheme for the all Mach&nbsp;isentropic Euler and&nbsp;full Euler equations of gas dynamics.&nbsp;Material waves are treated explicitly, while acoustic waves are treated implicitly, thus avoiding severe CFL restrictions for low Mach flows.&nbsp;The algorithm that we develop is the finite difference scheme with weighted essentially non-oscillatory (WENO) reconstructions coupled with implicit-explicit (IMEX) Runge Kutta (RK) treatments.&nbsp;</p>\n<p>Type A IMEX schemes are constructed to handle not well-prepared initial conditions. Besides, these schemes are proven to be asymptotic preserving and asymptotically accurate as the Mach number vanishes for well-prepared initial conditions. Divergence-free property of the time-discrete schemes is proved. The proposed scheme can also well capture discontinuous solutions in the compressible regime, especially for two dimensional Riemann problems.</p>\n<p>An extensive set of numerical tests in one and two space dimensions&nbsp;showcased the effectiveness of the proposed schemes. In this report, we present a selected few figures. We first show the performance of the all Mach WENO IMEX scheme with splitting and characteristics decomposition for a 2D Riemann problem with four shocks, a 2D Riemann problem with contact discontinuities, compared with reference solutions from a compressible WENO solver for Mach number that is of order 1. It is observed that the all-Mach scheme can successfully capture shocks and contact discontinuities without oscillations and without much numerical diffusion. We also present the performance of the all Mach scheme in the incompressible limit, as the Mach number approaches 0.The numerical performance of the scheme agrees very well with the existing incompressible solvers.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/31/2022<br>\n\t\t\t\t\tModified by: Jing-Mei&nbsp;Qiu</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953770879_conf33--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953770879_conf33--rgov-800width.jpg\" title=\"2D Riemann problem: solution from all-Mach scheme\"><img src=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953770879_conf33--rgov-66x44.jpg\" alt=\"2D Riemann problem: solution from all-Mach scheme\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Surface plot of the density for 2D Riemann problem at T = 0.8. The all-Mach scheme has the splitting treatment with characteristic-wise reconstruction.</div>\n<div class=\"imageCredit\">S. Boscarino, J.-M. Qiu, G. Russo, X. Tao</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jing-Mei&nbsp;Qiu</div>\n<div class=\"imageTitle\">2D Riemann problem: solution from all-Mach scheme</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953603745_conf33--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953603745_conf33--rgov-800width.jpg\" title=\"2D Riemann problem: reference solution\"><img src=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953603745_conf33--rgov-66x44.jpg\" alt=\"2D Riemann problem: reference solution\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Surface plot of density for 2D Riemann problem at T=0.8 using a 200 by 200 mesh.</div>\n<div class=\"imageCredit\">S. Boscarino, J.-M. Qiu, G. Russo, T. Xiong</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jing-Mei&nbsp;Qiu</div>\n<div class=\"imageTitle\">2D Riemann problem: reference solution</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953923490_conf5--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953923490_conf5--rgov-800width.jpg\" title=\"2D Riemann problem contact discontinuity: reference solution\"><img src=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661953923490_conf5--rgov-66x44.jpg\" alt=\"2D Riemann problem contact discontinuity: reference solution\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Surface plots of the density for 2D Riemann problem with contact discontinuity at T =0.23. Mesh grid: 400 by 400.</div>\n<div class=\"imageCredit\">S. Boscarino, J.-M. Qiu, G. Russo, T. Xiong</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jing-Mei&nbsp;Qiu</div>\n<div class=\"imageTitle\">2D Riemann problem contact discontinuity: reference solution</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954089188_conf53--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954089188_conf53--rgov-800width.jpg\" title=\"2D Riemann problem contact discontinuity: all-Mach solution\"><img src=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954089188_conf53--rgov-66x44.jpg\" alt=\"2D Riemann problem contact discontinuity: all-Mach solution\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Surface plots of the density for 2D Riemann problem at T = 0.23. All-Mach scheme with splitting and characteristic decomposition.</div>\n<div class=\"imageCredit\">S. Boscarino, J.-M. Qiu, G. Russo, T. Xiong</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jing-Mei&nbsp;Qiu</div>\n<div class=\"imageTitle\">2D Riemann problem contact discontinuity: all-Mach solution</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954181938_shear6--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954181938_shear6--rgov-800width.jpg\" title=\"Shear flow problem\"><img src=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954181938_shear6--rgov-66x44.jpg\" alt=\"Shear flow problem\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">All Mach scheme at the incompressible limit for the shear flow problem. The incompressible limit is successfully captured.</div>\n<div class=\"imageCredit\">S. Boscarino, J.-M. Qiu, G. Russo, T. Xiong</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jing-Mei&nbsp;Qiu</div>\n<div class=\"imageTitle\">Shear flow problem</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954288042_kh8--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954288042_kh8--rgov-800width.jpg\" title=\"Kelvin-Helmholtz Instability\"><img src=\"/por/images/Reports/POR/2022/1818924/1818924_10545888_1661954288042_kh8--rgov-66x44.jpg\" alt=\"Kelvin-Helmholtz Instability\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The performance of all Mach scheme at the incompressible limit for the Kelvin-Helmholtz instability problem.</div>\n<div class=\"imageCredit\">S. Boscarino, J.-M. Qiu, G. Russo, T. Xiong</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jing-Mei&nbsp;Qiu</div>\n<div class=\"imageTitle\">Kelvin-Helmholtz Instability</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nWe developed a new high order semi-implicit scheme for the all Mach isentropic Euler and full Euler equations of gas dynamics. Material waves are treated explicitly, while acoustic waves are treated implicitly, thus avoiding severe CFL restrictions for low Mach flows. The algorithm that we develop is the finite difference scheme with weighted essentially non-oscillatory (WENO) reconstructions coupled with implicit-explicit (IMEX) Runge Kutta (RK) treatments. \n\nType A IMEX schemes are constructed to handle not well-prepared initial conditions. Besides, these schemes are proven to be asymptotic preserving and asymptotically accurate as the Mach number vanishes for well-prepared initial conditions. Divergence-free property of the time-discrete schemes is proved. The proposed scheme can also well capture discontinuous solutions in the compressible regime, especially for two dimensional Riemann problems.\n\nAn extensive set of numerical tests in one and two space dimensions showcased the effectiveness of the proposed schemes. In this report, we present a selected few figures. We first show the performance of the all Mach WENO IMEX scheme with splitting and characteristics decomposition for a 2D Riemann problem with four shocks, a 2D Riemann problem with contact discontinuities, compared with reference solutions from a compressible WENO solver for Mach number that is of order 1. It is observed that the all-Mach scheme can successfully capture shocks and contact discontinuities without oscillations and without much numerical diffusion. We also present the performance of the all Mach scheme in the incompressible limit, as the Mach number approaches 0.The numerical performance of the scheme agrees very well with the existing incompressible solvers.\n\n\t\t\t\t\tLast Modified: 08/31/2022\n\n\t\t\t\t\tSubmitted by: Jing-Mei Qiu"
+ }
+}

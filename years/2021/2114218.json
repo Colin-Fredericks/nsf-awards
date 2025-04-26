@@ -1,0 +1,105 @@
+{
+ "awd_id": "2114218",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CNS Core: Small: Operating System Approaches for a Consolidated Rack Computer",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 499957.0,
+ "awd_amount": 499957.0,
+ "awd_min_amd_letter_date": "2021-08-02",
+ "awd_max_amd_letter_date": "2021-08-02",
+ "awd_abstract_narration": "The objective of this project is to lay the foundations for a new type of computer, termed a \u201crack computer\u201d. Named for the racks commonly used to hold computers in today's data centers, a rack computer consists of several individual computers, co-located in a rack. Instead of large number of individually managed computers, however, a rack computer appears to the user as if it was a single computer with the combined resources of the individual machines. Toward this goal, the PI will investigate new programming models, communication mechanisms and operating system designs. \r\n\r\nCompared to existing techniques from the cloud-, cluster- and super-computing worlds, a rack computer allows the same program to more seamlessly scale from a basic laptop computer, to a full rack of powerful servers. Because one rack can hold a substantial amount of computing power, including as many as 10,000 CPU cores, and because rack computers offer substantial efficiency gains over current techniques, a single rack computer may be enough to host many services that today require complex engineering to bring to Internet scale. This promises to substantially reduce both development and deployment complexity, and thus costs, while at the same time improving energy efficiency.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jakob",
+   "pi_last_name": "Eriksson",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jakob Eriksson",
+   "pi_email_addr": "jakob@uic.edu",
+   "nsf_id": "000537836",
+   "pi_start_date": "2021-08-02",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Chicago",
+  "inst_street_address": "809 S MARSHFIELD AVE M/C 551",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHICAGO",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "3129962862",
+  "inst_zip_code": "606124305",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "IL07",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "W8XEAJDKMXH3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Chicago",
+  "perf_str_addr": "851 S Morgan St",
+  "perf_city_name": "Chicago",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "606077077",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "IL07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7354",
+   "pgm_ref_txt": "COMPUTER SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 499957.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"p1\">This project investigated a novel approach to computing, wherein an entire 7x3x2 foot rack of high-performance computers are joined to form what from the exterior, and to a large extent from the programmer&rsquo;s perspective, appears to be a single, extremely powerful computer. Compared to larger systems ofter referred to as &ldquo;supercomputers&rdquo;, such a &ldquo;rack computer&rdquo; is much closer in complexity to a single computer. With, however, one clear distinction: while all processor cores within a single computer typically have direct and closely coordinated (cache coherent) access to all of the machine&rsquo;s RAM, such access is fundamentally unavailable to other computers in the rack.&nbsp;</p>\r\n<p class=\"p2\">Today, the by far most popular programming model for multi-core computers (called &ldquo;shared memory&rdquo; below) has individual cores simultaneously working on data stored in the shared RAM available on the machine. To ensure correct operation both careful coordination, and cache coherent shared memory access is a key requirement, making the step from a single machine to multiple machines nearly impossible to take under the shared memory model. Instead, programmers try to find ways to divide up the work in to many small mostly independent pieces, and run separate (but often communicating) copies of the program on each individual machine. &nbsp;&nbsp;</p>\r\n<p class=\"p1\">This project investigated a novel programming model, which turned this model on its head. Assuming that efficient cache coherent shared memory will not become available for a rack-scale computer, we instead turned to delegation. Delegation uses message passing, rather than shared memory, as the fundamental building block for all coordination between cores, although that time also limited to a single machine. In this project, we significantly extended the original delegation concept to provide an intuitive programming model and runtime system which allows programmers to write their application once, and expect it to offer excellent performance on any computer it is deployed on, ranging from a modest laptop computer, to a &ldquo;rack computer&rdquo; consisting of dozens high-performance servers.<span>&nbsp;</span>&nbsp;</p>\r\n<p class=\"p1\">In our experimental evaluation with the developed system, we found that a representative key-value store application built using our model was able to seamlessly use the combined power of multiple computers working together as if they were one, yet achieve higher performance than the combined performance of a key-value store purposely divided into multiple separate pieces across the same machines. We also demonstrated the system&rsquo;s message passing efficiency, showing that it matches or beats the performance of industry-standard MPI on a common, messaging-heavy graph processing performance benchmark.<span>&nbsp;</span></p><br>\n<p>\n Last Modified: 02/27/2025<br>\nModified by: Jakob&nbsp;Eriksson</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project investigated a novel approach to computing, wherein an entire 7x3x2 foot rack of high-performance computers are joined to form what from the exterior, and to a large extent from the programmers perspective, appears to be a single, extremely powerful computer. Compared to larger systems ofter referred to as supercomputers, such a rack computer is much closer in complexity to a single computer. With, however, one clear distinction: while all processor cores within a single computer typically have direct and closely coordinated (cache coherent) access to all of the machines RAM, such access is fundamentally unavailable to other computers in the rack.\r\n\n\nToday, the by far most popular programming model for multi-core computers (called shared memory below) has individual cores simultaneously working on data stored in the shared RAM available on the machine. To ensure correct operation both careful coordination, and cache coherent shared memory access is a key requirement, making the step from a single machine to multiple machines nearly impossible to take under the shared memory model. Instead, programmers try to find ways to divide up the work in to many small mostly independent pieces, and run separate (but often communicating) copies of the program on each individual machine. \r\n\n\nThis project investigated a novel programming model, which turned this model on its head. Assuming that efficient cache coherent shared memory will not become available for a rack-scale computer, we instead turned to delegation. Delegation uses message passing, rather than shared memory, as the fundamental building block for all coordination between cores, although that time also limited to a single machine. In this project, we significantly extended the original delegation concept to provide an intuitive programming model and runtime system which allows programmers to write their application once, and expect it to offer excellent performance on any computer it is deployed on, ranging from a modest laptop computer, to a rack computer consisting of dozens high-performance servers.\r\n\n\nIn our experimental evaluation with the developed system, we found that a representative key-value store application built using our model was able to seamlessly use the combined power of multiple computers working together as if they were one, yet achieve higher performance than the combined performance of a key-value store purposely divided into multiple separate pieces across the same machines. We also demonstrated the systems message passing efficiency, showing that it matches or beats the performance of industry-standard MPI on a common, messaging-heavy graph processing performance benchmark.\t\t\t\t\tLast Modified: 02/27/2025\n\n\t\t\t\t\tSubmitted by: JakobEriksson\n"
+ }
+}

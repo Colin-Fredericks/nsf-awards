@@ -1,0 +1,101 @@
+{
+ "awd_id": "2217037",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: PPoSS: A Full-stack Approach to Declarative Analytics at Scale",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2022-10-01",
+ "awd_exp_date": "2024-09-30",
+ "tot_intn_awd_amt": 83768.0,
+ "awd_amount": 83768.0,
+ "awd_min_amd_letter_date": "2022-07-12",
+ "awd_max_amd_letter_date": "2022-07-12",
+ "awd_abstract_narration": "Declarative programming languages permit users to define a problem's rules and goals, and the structure of a valid solution, automating the mechanics of computation within their implementations. Such expressive programming systems provide an opportunity for non-experts to immediately scale their analytic tasks to massive datasets, leveraging AI-based programming. The project's novelties are a set of techniques, integrating novel optimizations across the full computation stack, that deliver orders-of-magnitude scalability enhancements to declarative programming. The project's impacts are centered on permitting non-specialists to scale sophisticated deductive inference algorithms to the next generation of cloud-based clusters and supercomputers.\r\n\r\nLinguistically, the project's approach is based on a key semantic extension to Datalog to support indexing for structured inductive data. While algebraic data is supported in currently existing Datalog engines (e.g., Souffle), the project\u2019s novel approach also materializes indices for all such ADTs, enabling orders-of-magnitude algorithmic improvements in runtimes of queries over algebraic data. Operationally, the project advances state-of-the-art implementation strategies based on parallel relational algebra, which enables off-the-shelf data parallelism that rapidly scales to many-core clusters and supercomputers via MPI. The project seeks to integrate each of these technologies to scale key applications---including program analysis and security auditing---and demonstrate their application to large datasets enabled via the project\u2019s unique synthesis of these technologies.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kristopher",
+   "pi_last_name": "Micinski",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kristopher K Micinski",
+   "pi_email_addr": "kkmicins@syr.edu",
+   "nsf_id": "000811835",
+   "pi_start_date": "2022-07-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Syracuse University",
+  "inst_street_address": "900 S CROUSE AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "SYRACUSE",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "3154432807",
+  "inst_zip_code": "13244",
+  "inst_country_name": "United States",
+  "cong_dist_code": "22",
+  "st_cong_dist_code": "NY22",
+  "org_lgl_bus_name": "SYRACUSE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "C4BXLBC11LC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Syracuse University",
+  "perf_str_addr": "OFFICE OF SPONSORED PROGRAMS",
+  "perf_city_name": "SYRACUSE",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "132441200",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "22",
+  "perf_st_cong_dist": "NY22",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "042Y00",
+   "pgm_ele_name": "PPoSS-PP of Scalable Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 83768.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project investigated the implementation of declarative reasoning at an unprecedently high-performance scale. Specifically, the project developed a number of orthogonal implementation approaches for Datalog and its various extensions. Datalog is a simple chain-forward programming language which generalizes SQL to allow recursive queries.</p>\r\n<p>Datalog's ability to define predicates recursively leads to a rich amount of semantic power, enabling the expression of important applications in a breadth of domains including static analysis, ontological reasoning, and graph algorithms. Each of these applications ingests a large amount of input data (e.g., a graph representing a program's control flow, or a social network) and analyzes it recursively (e.g., inferring global control-flow properties or the transitive closure of a graph) to produce an output which enables subsequent decisionmaking based upon this inferred knowledge base (e.g., when a specific compiler optimization is sound).</p>\r\n<p>Because Datalog's applications often deal with extremely large amounts of input data (e.g., internet-size graphs, million line programs), Datalog implementations have worked to scale to large machines and clusters, along with exploiting parallelism. Unfortunately, however, state-of-the-art Datalog solvers do not exploit parallelism in practice: most Datalog engines scale only to between four and eight threads of a server chip. Additionally--while there has been a significant amount of work in distributing Datalog on, e.g., Spark clusters--none of this work is truly high performance in the sense that these engines (e.g., BigDatalog, Radlog) often perform poorly against their server equivalents in absolute terms. These distributed systems are built on top of large distributed software frameworks such as Hadoop, but Hadoop's abstractions and communication overhead significantly hinder a truly scalable implementation of Datalog using the principles of modern server-based Datalog engines.</p>\r\n<p>This project developed next-generation Datalog engines along several fronts:</p>\r\n<ul>\r\n<li>The project produced the most-scalable-ever implementation of a general-purpose distributed Datalog engine, in the language Slog.</li>\r\n<li>The project formalized the notion of Datalog with first-class facts, a specific subcategory of existential Datalog which occupies an attractive price-point in terms of semantics and scalability via communication-avoiding parallelism. Our formalism of&nbsp; Datalog<sup>&exist;!&nbsp;</sup>has been accepted to appear at VLDB '25.</li>\r\n<li>The project produced an initial implementation of the first-ever GPU-based Datalog engine, work which has since matured (via the subsequently-funded PPoSS large) into the fastest-ever Datalog solver on GPUs. This work appeared at USENIX ATC '23, and follow-up work was accepted to ASPLOS '25.</li>\r\n</ul>\r\n<p>The project had numerous broader impacts:</p>\r\n<ul>\r\n<li>The project produced state-of-the-art implementations of Datalog on servers (Ascent, BYODS), GPUs (GPUlog), and leadership-class supercomputers (Slog).</li>\r\n<li>The project improved the performance of important applications--including context-sensitve static analysis of the Linux kernel, and an implementation of Rust's borrow checker. For example, our GPU-based Datalog engine outperformed its CPU-based competitor (Souffl&eacute;) by up to 45 times.</li>\r\n<li>The PI (Micinski) started a new blog, \"Modern Deduction,\" which details the implementation of high-performance Datalog solvers and through which PI Micinski will disseminate the results of the project to the broader public.</li>\r\n<li>The PI (Micinski) integrated aspects of the project into his undergraduate programming languages class, a class meant for sophomore-level undergraduates. Micinski developed a new project on transitive closure (in Racket) to teach about fixed-point operations, with the project teaching both the na&iuml;ve and semi-na&iuml;ve implementation approaches.</li>\r\n<li>The project supported two PhD students, Arash Sahebolamri and Neda Abdolrahimi. Arash graduated and now works at a US-based company as an engineer--he still maintains his award-winning engine Ascent which was developed in part by this award.</li>\r\n</ul>\r\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 01/29/2025<br>\nModified by: Kristopher&nbsp;K&nbsp;Micinski</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThe project investigated the implementation of declarative reasoning at an unprecedently high-performance scale. Specifically, the project developed a number of orthogonal implementation approaches for Datalog and its various extensions. Datalog is a simple chain-forward programming language which generalizes SQL to allow recursive queries.\r\n\n\nDatalog's ability to define predicates recursively leads to a rich amount of semantic power, enabling the expression of important applications in a breadth of domains including static analysis, ontological reasoning, and graph algorithms. Each of these applications ingests a large amount of input data (e.g., a graph representing a program's control flow, or a social network) and analyzes it recursively (e.g., inferring global control-flow properties or the transitive closure of a graph) to produce an output which enables subsequent decisionmaking based upon this inferred knowledge base (e.g., when a specific compiler optimization is sound).\r\n\n\nBecause Datalog's applications often deal with extremely large amounts of input data (e.g., internet-size graphs, million line programs), Datalog implementations have worked to scale to large machines and clusters, along with exploiting parallelism. Unfortunately, however, state-of-the-art Datalog solvers do not exploit parallelism in practice: most Datalog engines scale only to between four and eight threads of a server chip. Additionally--while there has been a significant amount of work in distributing Datalog on, e.g., Spark clusters--none of this work is truly high performance in the sense that these engines (e.g., BigDatalog, Radlog) often perform poorly against their server equivalents in absolute terms. These distributed systems are built on top of large distributed software frameworks such as Hadoop, but Hadoop's abstractions and communication overhead significantly hinder a truly scalable implementation of Datalog using the principles of modern server-based Datalog engines.\r\n\n\nThis project developed next-generation Datalog engines along several fronts:\r\n\r\nThe project produced the most-scalable-ever implementation of a general-purpose distributed Datalog engine, in the language Slog.\r\nThe project formalized the notion of Datalog with first-class facts, a specific subcategory of existential Datalog which occupies an attractive price-point in terms of semantics and scalability via communication-avoiding parallelism. Our formalism of Datalog!has been accepted to appear at VLDB '25.\r\nThe project produced an initial implementation of the first-ever GPU-based Datalog engine, work which has since matured (via the subsequently-funded PPoSS large) into the fastest-ever Datalog solver on GPUs. This work appeared at USENIX ATC '23, and follow-up work was accepted to ASPLOS '25.\r\n\r\n\n\nThe project had numerous broader impacts:\r\n\r\nThe project produced state-of-the-art implementations of Datalog on servers (Ascent, BYODS), GPUs (GPUlog), and leadership-class supercomputers (Slog).\r\nThe project improved the performance of important applications--including context-sensitve static analysis of the Linux kernel, and an implementation of Rust's borrow checker. For example, our GPU-based Datalog engine outperformed its CPU-based competitor (Souffl) by up to 45 times.\r\nThe PI (Micinski) started a new blog, \"Modern Deduction,\" which details the implementation of high-performance Datalog solvers and through which PI Micinski will disseminate the results of the project to the broader public.\r\nThe PI (Micinski) integrated aspects of the project into his undergraduate programming languages class, a class meant for sophomore-level undergraduates. Micinski developed a new project on transitive closure (in Racket) to teach about fixed-point operations, with the project teaching both the nave and semi-nave implementation approaches.\r\nThe project supported two PhD students, Arash Sahebolamri and Neda Abdolrahimi. Arash graduated and now works at a US-based company as an engineer--he still maintains his award-winning engine Ascent which was developed in part by this award.\r\n\r\n\n\n\t\t\t\t\tLast Modified: 01/29/2025\n\n\t\t\t\t\tSubmitted by: KristopherKMicinski\n"
+ }
+}

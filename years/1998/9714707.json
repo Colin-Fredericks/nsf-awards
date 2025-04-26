@@ -1,0 +1,126 @@
+{
+ "awd_id": "9714707",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Self-Similar Network Traffic and It's Control",
+ "cfda_num": "47.070",
+ "org_code": "05050202",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Admela Jukan",
+ "awd_eff_date": "1998-03-01",
+ "awd_exp_date": "2002-02-28",
+ "tot_intn_awd_amt": 215000.0,
+ "awd_amount": 215000.0,
+ "awd_min_amd_letter_date": "1998-03-06",
+ "awd_max_amd_letter_date": "2000-02-17",
+ "awd_abstract_narration": "Project Homepage: http://www.cs.purdue.edu/homes/park/nsf-ncr-9714707.html    Abstract:      Recent measurements of local area and wide area traffic have shown that   network traffic is self-similar or fractal, i.e., the measured time series  is bursty across several time scales.  This phenomenon has been shown to  be ubiquitous with potentially dire consequences to network performance due  to the scale-invariant nature of burstiness.  This project investigates   effective traffic control algorithms, architectures, and mechanisms for  facilitating efficient resource utilization while providing quality of  service   to real-time and best-effort traffic streams under self-similar traffic   conditions.      The project builds on recent work which characterizes the causal aspects   of traffic self-similarity and shows that scale-invariant burstiness can be   highly detrimental to network performance.  In a nutshell, it is shown that   self-similarity of traffic flow is an intrinsic property of networked   client/server systems which communicate files or objects of very large size  with nonnegligible frequency.  The latter is known, technically, as the  heavy-tailed property of file or object size distributions which is  evidenced in actual distributed systems including UNIX file systems.  On the   performance side, it is shown that conjoint provision of low delay and high   throughput is adversely affected by self-similarity.      We follow a three-pronged method of attack for managing self-similar   traffic, the first two based on dynamic control of traffic flow, and the   third being of a structural nature where resources are architected and  apportioned under direct control.      The first method, predictive feedback control, is geared toward exploiting   the long-range correlation structure present in self-similar traffic for   congestion control purposes.  We identify the on-set of concentrated periods   of either high or low traffic activity - a distinguishing characteristic of   scale-invaria nt burstiness - and adjust the mode of congestion control   appropriately from conservative to aggressive.  Being able to predict the  onset of persistent congestion or idleness from fine time scale observations   and utilizing this information effectively are two key issues.      The second method, adaptive forward error correction, is directed at   supporting multimedia traffic with real-time constraints without engaging  in expensive resource reservations.  Retransmission of lost information is   not a viable strategy for such traffic classes since lengthy round-trip   latencies encountered in wide area network environments render retransmitted  information useless to time-constrained applications.  We formulate and   analyze an adaptive packet-level forward error correction mechanism called   AFEC where the degree of redundancy is controlled as a function of network   state, increasing the level of redundancy when the network is bad and  decreasing it when the network is well-behaved.  The control problem is   nontrivial due to the fact that increasing the level of redundancy too much   can backfire, further aggrevating congestion and causing the probability of   timely information recovery at the receiver to decrease.      We investigate the conditions under which adaptive forward error correction  is effective when traffic is self-similar.  We identify two regimes - packet  loss dominated connections and delay-dominated connections - the former being  most conducive to AFEC-based traffic control whereas the latter is more  subtle, admitting only a limited range of useful redundancy.      The third method, structural resource allocation, seeks to identify the   relative utility of the two principal network resource types - bandwidth and   buffer capacity - with respect to their curtailing effects on self-similarity.  We conjecture a highly skewed trade-off relationship between bandwidth and  buffer capacity in favor of bandwidth whose quantitative form becomes   important when computing res ource reservations for traffic streams with   stringent quality of service requirements.  A bandwidth-over-buffer capacity  policy also impacts the first two methods in terms of predictability and  packet loss dominatedness/delay dominatedness.      The three methods are expected to complement each other, each focusing on   a different mode for quality of service provision under self-similar   traffic conditions.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kihong",
+   "pi_last_name": "Park",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kihong Park",
+   "pi_email_addr": "park@cs.purdue.edu",
+   "nsf_id": "000256230",
+   "pi_start_date": "1998-03-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "2550 NORTHWESTERN AVE # 1100",
+  "perf_city_name": "WEST LAFAYETTE",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479061332",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "409700",
+   "pgm_ele_name": "NETWORKING RESEARCH"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0100",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0100",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0198",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0198",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0199",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0199",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1998,
+   "fund_oblg_amt": 86936.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 1999,
+   "fund_oblg_amt": 62874.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2000,
+   "fund_oblg_amt": 65190.0
+  }
+ ],
+ "por": null
+}

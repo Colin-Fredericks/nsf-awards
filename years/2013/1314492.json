@@ -1,0 +1,105 @@
+{
+ "awd_id": "1314492",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Medium: Collaborative: Measurement and Analysis Techniques for Internet Freedom on IP and Social Networks",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Shannon Beck",
+ "awd_eff_date": "2013-07-15",
+ "awd_exp_date": "2019-06-30",
+ "tot_intn_awd_amt": 599630.0,
+ "awd_amount": 599630.0,
+ "awd_min_amd_letter_date": "2013-07-17",
+ "awd_max_amd_letter_date": "2013-07-17",
+ "awd_abstract_narration": "This project studies Internet censorship using novel measurement techniques, ranging from low-level packet filtering on Internet Protocol (IP) networks to high-level censorship of social media content.  Collectively these techniques can provide greater situational awareness of censorship dynamics. \r\n \r\nThe project focuses on a suite of advanced inference techniques for when ?direct observation? is unavailable or impractical such as, for example, methods for detecting IP tunnels based on per-hop Maximum Transmission Unit (MTU) inference techniques in order to reason about the physical characteristics of a given IP network and, for example, measurement on social media postings of redactions and the speed of redactions. \r\n \r\nThis research has broad implications on studies of methods to provide awareness of restrictive control of information and content on networks, which would be of interest to software developers, system administrators, and policy makers alike.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Dan",
+   "pi_last_name": "Wallach",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Dan S Wallach",
+   "pi_email_addr": "dwallach@rice.edu",
+   "nsf_id": "000095002",
+   "pi_start_date": "2013-07-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "William Marsh Rice University",
+  "inst_street_address": "6100 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "Houston",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7133484820",
+  "inst_zip_code": "770051827",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "WILLIAM MARSH RICE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "K51LECU1G8N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "William Marsh Rice University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "770051827",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "TX09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 599630.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><!-- p.p1 {margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Verdana; color: #000000; -webkit-text-stroke: #000000} span.s1 {font-kerning: none} -->\n<p class=\"p1\"><span class=\"s1\">Over the course of this grant, we studied social media censorship, on Twitter in Turkey, and on Weibo in China. This allowed us to understand both the mechanisms of censorship as well as the broader political context. For example, following the failed coup attempt in Turkey in 2016, we found a significant growth in self-censorship (i.e., people choosing not to write posts on politically sensitive topics).</span></p>\n<p class=\"p1\">Twitter makes it surprisingly easy to measure censorship on its platform---tweets that are censored in one country are typically visible in others with a \"witheld countries\" header that conveniently provides us with a list of the censored countries. Weibo doesn't make it quite so easy, but there are still important differences in how posts appear when they're manually deleted by a user versus mechanically deleted by Weibo's censorship mechanisms.</p>\n<p>We used a variety of \"big data\" techniques to analyze our data, treating the relationships among Twitter users as a directional graph, and identifying the most influential users, both directly in terms of their number of follows, and indirectly from their reach through retweets by more popular users.</p>\n<p>We also used a variety of natural language processing techniques. For Chinese language text, which doesn't have spaces between the words, we developed techniques using hidden Markov models over n-grams of text which allow us to cluster together posts on similar topics and extract a \"representative\" post by walking over this model.</p>\n<p>Overall, our work shows that social media censorship can be identified using straightforward analysis of metadata that appears alongside posts. After that, we can apply common natural language processing and other \"big data\" analysis techniques to cluster these posts together. Working with our political science colleagues, we can then place this censorship into the broader context of governenace and freedom in these countries.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/01/2019<br>\n\t\t\t\t\tModified by: Dan&nbsp;S&nbsp;Wallach</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nOver the course of this grant, we studied social media censorship, on Twitter in Turkey, and on Weibo in China. This allowed us to understand both the mechanisms of censorship as well as the broader political context. For example, following the failed coup attempt in Turkey in 2016, we found a significant growth in self-censorship (i.e., people choosing not to write posts on politically sensitive topics).\nTwitter makes it surprisingly easy to measure censorship on its platform---tweets that are censored in one country are typically visible in others with a \"witheld countries\" header that conveniently provides us with a list of the censored countries. Weibo doesn't make it quite so easy, but there are still important differences in how posts appear when they're manually deleted by a user versus mechanically deleted by Weibo's censorship mechanisms.\n\nWe used a variety of \"big data\" techniques to analyze our data, treating the relationships among Twitter users as a directional graph, and identifying the most influential users, both directly in terms of their number of follows, and indirectly from their reach through retweets by more popular users.\n\nWe also used a variety of natural language processing techniques. For Chinese language text, which doesn't have spaces between the words, we developed techniques using hidden Markov models over n-grams of text which allow us to cluster together posts on similar topics and extract a \"representative\" post by walking over this model.\n\nOverall, our work shows that social media censorship can be identified using straightforward analysis of metadata that appears alongside posts. After that, we can apply common natural language processing and other \"big data\" analysis techniques to cluster these posts together. Working with our political science colleagues, we can then place this censorship into the broader context of governenace and freedom in these countries.\n\n\t\t\t\t\tLast Modified: 07/01/2019\n\n\t\t\t\t\tSubmitted by: Dan S Wallach"
+ }
+}

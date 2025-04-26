@@ -1,0 +1,117 @@
+{
+ "awd_id": "1818757",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "A Solve-Then-Discretize Paradigm for Spectral Methods",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": "7032922113",
+ "po_email": "ygorb@nsf.gov",
+ "po_sign_block_name": "Yuliya Gorb",
+ "awd_eff_date": "2018-07-01",
+ "awd_exp_date": "2022-06-30",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2018-06-11",
+ "awd_max_amd_letter_date": "2020-06-22",
+ "awd_abstract_narration": "Spectral methods are one of the big three technologies (along with finite differences and finite element methods) for the numerical solution of partial differential equations (PDEs) and are particularly powerful for fluid flow and airfoil simulations.  This research project aims to develop a new infinite-dimensional framework for solving PDEs to derive competitive computational algorithms that preserve the continuum structure of differential operators, promising to overcome many of the hard-and-fast computational barriers with spectral discretizations. We aim to produce a collection of adaptive, robust, and industrial-strength iterative solvers for spectral methods to allow for the accurate resolution of fluid flows. We will also develop tools for computing the pseudospectra and continuous spectra of differential operators, facilitating improved understanding of inelastic scattering. The results will help to demonstrate that spectrally-accurate methods, when done carefully, are flexible, general, and powerful numerical tools in computational mathematics and engineering.\r\n\r\nThe standard paradigm for solving a PDE is to first discretize the equation and then solve the resulting linear system. This approach has a number of drawbacks for spectral methods related to the design of preconditioners, the introduction of non-normality, and the perturbation of spectra. The infinite-dimensional framework under development in this project preserves the continuum structure of PDEs by avoiding the discretization of differential operators, and instead only discretizes smooth functions, such as the solution and the source terms of the PDE. Not working with finite sections of differential operators promises to enable us to develop robust Krylov-based iterative solvers, motivate preconditioners directly from the differential operator, compute the continuous part of the spectrum of operators, and develop a theoretical foundation for the adaptive resolution of solutions and eigenfunctions based on error analysis. We will apply these new tools to the numerical simulation of advection-dominated fluid flow as well as inelastic scattering.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alex",
+   "pi_last_name": "Townsend",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alex J Townsend",
+   "pi_email_addr": "townsend@cornell.edu",
+   "nsf_id": "000687673",
+   "pi_start_date": "2018-06-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Cornell University",
+  "inst_street_address": "341 PINE TREE RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "ITHACA",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6072555014",
+  "inst_zip_code": "148502820",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "NY19",
+  "org_lgl_bus_name": "CORNELL UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G56PUALJ3KT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Cornell University",
+  "perf_str_addr": "212 Garden Ave",
+  "perf_city_name": "Ithaca",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "148534201",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "NY19",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  },
+  {
+   "pgm_ele_code": "806900",
+   "pgm_ele_name": "CDS&E-MSS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0120",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 219540.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 80460.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Introduction. </strong>A central idea in computational mathematics is to take a continuous problem, discretize it, and then solve the discrete problem on a computer. By using mathematical analysis, approximation theory, and spectral methods, my group has developed algorithms for computing with functions and solving differential equations that automatically determine underlying discretizations by using data-driven adaptive techniques. Our ideas and software allow scientists to harness the power of state-of-the-art numerics without requiring them to develop expertise in computational mathematics. During the NSF grant, we have made several advances in different directions and will summarize three outcomes:&nbsp;</p>\n<p><br />(1)<strong> Computing continuous spectra.</strong> When light shines through the atmosphere and the conditions are just right, we witness a rainbow. This is an example of continuous spectra, a continuous spectra of colors.&nbsp; Mathematical operators that are of significant interest to quantum physics and quantum chemistry also have continuous spectra; however, computing them is challenging.&nbsp; If one discretizes them to a matrix, then the continuous spectra is immediately destroyed. The best one can hope for is that the continuous spectra is approximated by discrete dots (known as eigenvalues).&nbsp; In work published in SIAM Review (a flagship applied mathematics journal), we demonstrated that by delaying discretization one can derive an efficient and robust algorithm for computing properties of continuous spectra. This is also important for avoiding so-called spectral pollution, and allowed us to compute the most accurate Hofstadter's butterfly (see image). A Hofstadter's butterfly diagram is a graph of the spectral properties of non-interacting two-dimensional electrons in a perpendicular magnetic field in a lattice.</p>\n<p><br />(2) <strong>Partial differential equation learning.</strong> In 1665, Newton realized that it is easier to find relationships between rates of change (e.g., velocity, slopes, asset appreciation) than to model the quantities themselves (e.g., displacement, altitude, and asset value). Calculus was born, and the relationships we derive between rates of change are now called differential equations (DEs). Many scientific breakthroughs have come from deriving new DEs to model real-world phenomena. However, we are now mostly stuck. We do not know how to derive DEs from first principles to model how turbulence sheds off a hypersonic aircraft, or how E.~coli bacteria swim in unison to form an active fluid, or how atomic particles behave with long-range interactions. As a field, we are now looking towards deep learning to derive DEs by supplying them with experimental and observational data. We have been deriving interpretable deep learning models that recover mathematical objects associated with DEs and infuse conservational laws into them (e.g., energy conservation). My group has theoretical steps in this direction and shown that it is possible (for certain types of physical phenomena) to learn a model of how a system responds to external forces from data in a way that reveals a DE. Having a DE means that scientists can interpret our learned model.</p>\n<p><br />(3) <strong>Numerical computing without discretization woes.</strong> We have developed a range of spectrally-accurate algorithms for low rank approximation (data compression and function approximation), spectral methods (for the solution of differential equations), and fast FFT-based transforms for signal processing.&nbsp; Advancements are implemented in ApproxFun~\\cite{Olver_19_01}, Chebfun~\\cite{Chebfun}, and Dedalus~\\cite{Keaton_19_01}, which are software environments that extend Julia, MATLAB, and Python, respectively, from discrete vectors to continuous functions and differential operators. For example, given a black-box function $f$, we adaptively explore a labyrinth of possible discretizations of $f$ that depend on whether our signal processing techniques detect that $f$ is smooth, or piecewise, or noisy, or defined on an infinite interval, or has a singularity, or various other possibilities.&nbsp; We return to the user a data-efficient object that represents $f$ and is ready for hundreds of subsequent diagnostic operations such as integration, denoising, and optimization.&nbsp; These operations are performed adaptively so that a scientist can execute state-of-the-art numerical computations without concern with our exotic discretizations or sophisticated algorithms.&nbsp; &nbsp;</p>\n<p><strong>Conclusion.</strong><br />This NSF grant has allowed several graduate students to successfully complete their Ph.D., going on to postdoctoral positions at MIT, Princeton, UT Austin, and the Flatiron Institute. It has started a new type of computing paradigm and algorithmic design that will continue long past the end of this grant.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/27/2022<br>\n\t\t\t\t\tModified by: Alex&nbsp;J&nbsp;Townsend</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2022/1818757/1818757_10549419_1666894944540_ScreenShot2022-10-27at2.22.11PM--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1818757/1818757_10549419_1666894944540_ScreenShot2022-10-27at2.22.11PM--rgov-800width.jpg\" title=\"Hofstadter's butterfly\"><img src=\"/por/images/Reports/POR/2022/1818757/1818757_10549419_1666894944540_ScreenShot2022-10-27at2.22.11PM--rgov-66x44.jpg\" alt=\"Hofstadter's butterfly\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Hofstadter's butterfly is a graph of the spectral properties of non-interacting two-dimensional electrons in a perpendicular magnetic field in a lattice. Here, we compute the world's most detailed version of it.</div>\n<div class=\"imageCredit\">Matthew Colbrook, Andrew Horning, and Alex Townsend</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Alex&nbsp;J&nbsp;Townsend</div>\n<div class=\"imageTitle\">Hofstadter's butterfly</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nIntroduction. A central idea in computational mathematics is to take a continuous problem, discretize it, and then solve the discrete problem on a computer. By using mathematical analysis, approximation theory, and spectral methods, my group has developed algorithms for computing with functions and solving differential equations that automatically determine underlying discretizations by using data-driven adaptive techniques. Our ideas and software allow scientists to harness the power of state-of-the-art numerics without requiring them to develop expertise in computational mathematics. During the NSF grant, we have made several advances in different directions and will summarize three outcomes: \n\n\n(1) Computing continuous spectra. When light shines through the atmosphere and the conditions are just right, we witness a rainbow. This is an example of continuous spectra, a continuous spectra of colors.  Mathematical operators that are of significant interest to quantum physics and quantum chemistry also have continuous spectra; however, computing them is challenging.  If one discretizes them to a matrix, then the continuous spectra is immediately destroyed. The best one can hope for is that the continuous spectra is approximated by discrete dots (known as eigenvalues).  In work published in SIAM Review (a flagship applied mathematics journal), we demonstrated that by delaying discretization one can derive an efficient and robust algorithm for computing properties of continuous spectra. This is also important for avoiding so-called spectral pollution, and allowed us to compute the most accurate Hofstadter's butterfly (see image). A Hofstadter's butterfly diagram is a graph of the spectral properties of non-interacting two-dimensional electrons in a perpendicular magnetic field in a lattice.\n\n\n(2) Partial differential equation learning. In 1665, Newton realized that it is easier to find relationships between rates of change (e.g., velocity, slopes, asset appreciation) than to model the quantities themselves (e.g., displacement, altitude, and asset value). Calculus was born, and the relationships we derive between rates of change are now called differential equations (DEs). Many scientific breakthroughs have come from deriving new DEs to model real-world phenomena. However, we are now mostly stuck. We do not know how to derive DEs from first principles to model how turbulence sheds off a hypersonic aircraft, or how E.~coli bacteria swim in unison to form an active fluid, or how atomic particles behave with long-range interactions. As a field, we are now looking towards deep learning to derive DEs by supplying them with experimental and observational data. We have been deriving interpretable deep learning models that recover mathematical objects associated with DEs and infuse conservational laws into them (e.g., energy conservation). My group has theoretical steps in this direction and shown that it is possible (for certain types of physical phenomena) to learn a model of how a system responds to external forces from data in a way that reveals a DE. Having a DE means that scientists can interpret our learned model.\n\n\n(3) Numerical computing without discretization woes. We have developed a range of spectrally-accurate algorithms for low rank approximation (data compression and function approximation), spectral methods (for the solution of differential equations), and fast FFT-based transforms for signal processing.  Advancements are implemented in ApproxFun~\\cite{Olver_19_01}, Chebfun~\\cite{Chebfun}, and Dedalus~\\cite{Keaton_19_01}, which are software environments that extend Julia, MATLAB, and Python, respectively, from discrete vectors to continuous functions and differential operators. For example, given a black-box function $f$, we adaptively explore a labyrinth of possible discretizations of $f$ that depend on whether our signal processing techniques detect that $f$ is smooth, or piecewise, or noisy, or defined on an infinite interval, or has a singularity, or various other possibilities.  We return to the user a data-efficient object that represents $f$ and is ready for hundreds of subsequent diagnostic operations such as integration, denoising, and optimization.  These operations are performed adaptively so that a scientist can execute state-of-the-art numerical computations without concern with our exotic discretizations or sophisticated algorithms.   \n\nConclusion.\nThis NSF grant has allowed several graduate students to successfully complete their Ph.D., going on to postdoctoral positions at MIT, Princeton, UT Austin, and the Flatiron Institute. It has started a new type of computing paradigm and algorithmic design that will continue long past the end of this grant. \n\n\t\t\t\t\tLast Modified: 10/27/2022\n\n\t\t\t\t\tSubmitted by: Alex J Townsend"
+ }
+}

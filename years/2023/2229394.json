@@ -1,0 +1,105 @@
+{
+ "awd_id": "2229394",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RII Track-4: NSF: Massively Parallel Graph Processing on Next-Generation Multi-GPU Supercomputers",
+ "cfda_num": "47.083",
+ "org_code": "01060100",
+ "po_phone": "7032928246",
+ "po_email": "pbentzvi@nsf.gov",
+ "po_sign_block_name": "Pinhas Ben-Tzvi",
+ "awd_eff_date": "2023-02-01",
+ "awd_exp_date": "2024-01-31",
+ "tot_intn_awd_amt": 275573.0,
+ "awd_amount": 164102.0,
+ "awd_min_amd_letter_date": "2022-11-29",
+ "awd_max_amd_letter_date": "2024-02-28",
+ "awd_abstract_narration": "Graph processing is essential in real-world applications such as bioinformatics and social network analysis. Many fundamental graph operations are compute-intensive, for which the PI has successfully developed a series of CPU-scalable graph processing systems following a novel task-based parallel paradigm called T-thinker. However, it is non-trivial to extend this success to a GPU-rich environment due to a much larger gap between IO bandwidth and computing power of GPUs, and due to the unique programming requirements for GPU programs to be scalable. This project will develop a new task-based distributed GPU framework, T-thinkerGPU, and implement three applications on top, including subgraph matching, dense subgraph mining, and frequent subgraph pattern mining. T-thinkerGPU will be tested on the Aurora supercomputer at Argonne National Laboratory (ANL) as well as UAB\u2019s Cheaha supercomputer, and the implementation will exploit modern GPU features including atomic operations, unified shared memory, and dynamic parallelism. This work will establish a solid foundation for long-term collaboration with ANL towards the development of GPU-scalable HPC solutions for various scientific applications. The project will also train a GPU-programming workforce (including a PhD student who will also visit ANL) that is in urgent need in Alabama, and all the proposed tools will be open source.\r\n\r\nThis Research Infrastructure Improvement Track-4 EPSCoR Research Fellows (RII Track-4) proposal would provide a fellowship to an Assistant professor and training for a graduate student at the University of Alabama at Birmingham (UAB). GPU supercomputers are increasingly being deployed in place of CPU supercomputers in the hope to benefit from not only significant performance improvement but also energy efficiency. Built on the success of task-based parallel paradigm, T-thinker, for scaling graph processing in a multi-CPU environment, this project aims to investigate novel task-based techniques to scale fundamental compute-intensive graph operations in a multi-GPU environment, especially the exascale Aurora supercomputer at ANL that is based on Intel GPUs. Specifically, the project will first investigate efficient representation schemes that encode and compress the input graph and intermediate subgraph results compactly to reduce memory footprint and enable coalesced memory access and data reuse in shared memory, such as hashed neighborhood signature and lossless pattern-based contraction. Secondly, the project will design GPU-friendly task-based algorithms for fundamental graph operations including subgraph matching, dense subgraph mining, and frequent subgraph pattern mining, to unleash the massive parallelism enabled by a multi-GPU environment like the Aurora supercomputer. Novel techniques will be investigated such as kernel-as-a-task execution model, a truly hybrid BFS-DFS task scheduling strategy, and several other GPU optimization approaches, which will be combined into a unified programming framework, T-thinkerGPU, with extendibility in mind to facilitate the development of GPU-scalable task-based algorithms for other graph operations in the future. Finally, the developed GPU programs will be extensively evaluated on Aurora (with Intel GPUs) and UAB\u2019s Cheaha supercomputer (with Nvidia GPUs), using public benchmarks and scientific applications at ANL and UAB, and the code will be released on GitHub.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OIA",
+ "org_div_long_name": "OIA-Office of Integrative Activities",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Da",
+   "pi_last_name": "Yan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Da Yan",
+   "pi_email_addr": "yanda@iu.edu",
+   "nsf_id": "000732653",
+   "pi_start_date": "2022-11-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Alabama at Birmingham",
+  "inst_street_address": "701 S 20TH STREET",
+  "inst_street_address_2": "",
+  "inst_city_name": "BIRMINGHAM",
+  "inst_state_code": "AL",
+  "inst_state_name": "Alabama",
+  "inst_phone_num": "2059345266",
+  "inst_zip_code": "352940001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "AL07",
+  "org_lgl_bus_name": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YND4PLMC9AN7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Argonne National Laboratory",
+  "perf_str_addr": "9700 S Cass Ave",
+  "perf_city_name": "Lemont",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "604394801",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "11",
+  "perf_st_cong_dist": "IL11",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "196Y00",
+   "pgm_ele_name": "EPSCoR RII: EPSCoR Research Fe"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7217",
+   "pgm_ref_txt": "RESEARCH INFRASTRUCTURE IMPROV"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 164101.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project has supported the PI and his two PhD students for their summer visit in the MCS division at Argonne National Laboratory (ANL), where they met ANL scientists and learned valuable supercomputing skills. Some activity highlights include:</p>\n<ol>\n<li>The PI delivered a seminar on 'think like a task' (TLAV) programming model for graph computing: https://www.anl.gov/event/largescale-graph-computing-from-think-like-a-vertex-to-think-like-a-task</li>\n<li>The student Lyuheng Yuan delivered a talk on the T-FSM system for parallel frequent subgraph pattern mining: https://www.anl.gov/event/2023-summer-student-presentations-ii</li>\n<li>The student Saugat Adhikari delivered a talk on elevation-guided AI technology for flood mapping: https://www.anl.gov/event/2023-summer-student-presentations</li>\n<li>Saugat was also selected to attend the training program of ATPESC 2023.</li>\n</ol>\n<p><br />Through the investigation conducted in this project, a suite of new systems have been designed and implemented, including:</p>\n<ol>\n<li>G2-AIMD (https://github.com/lyuheng/g2-aimd), a novel depth-first BFS solutions to subgraph finding problems such as maixmal clique finding and subgraph matching, with an adaptive chunk-size adjustment approach to avoid GPU device memory overflow. The work was led by Lyuheng and accepted by ICDE 2024, and the system was extensively tested on ALCF's Polaris supercomputer.</li>\n<li>T-DFS (https://github.com/lyuheng/tdfs), a novel depth-first GPU solutions to subgraph finding problems such as subgraph matching, with an efficient lightweight workload rebalancing technique among the GPU warps. The work was led by Lyuheng and accepted by ICDE 2024, and the system was extensively tested on Polaris.</li>\n<li>Distributed T-FSM, a scalable distributed task-based system for frequent subgraph pattern mining which is a work extending our previous single-machine T-FSM system published in SIGMOD 2023. The work was led by Lyuheng and currently under submission to ACM TODS, and the system was extensively tested on Polaris.</li>\n</ol>\n<p><br />Besides the above works, the PI and his two students have also got a demo paper on T-FSM (the software is called FSM-Explorer) accepted by ICDE 2024, and a tutorial accepted by IJCAI 2024 on graph-parallel systems. This tutorial is also under submission to a few other conferences to broaden impacts.</p>\n<p><br />A common feature of the above discussed works is that they are based on the T-thinker (aka. TLAV) programming paradigm (where \"T\" means \"task\") proposed by the PI in a poster in PPoPP 2019, and advertised by CCC as a great innovative idea at https://cra.org/ccc/great-innovative-ideas/t-thinker-a-task-centric-framework-to-revolutionize-big-data-systems-research/ Put simply, the idea of the T-thinker programming paradigm is that for compute-intensive problems, we can divide the problem space recursively until a sufficiently small unit is obtained, which we call a task. A worker (machine, CPU thread, GPU warp, etc.) can then obtain the subset of data needed for the task (linear IO cost), and compute it afterwards (often high time complexity). Since computation is the bottleneck, data moving cost can mostly be overlapped with the concurrent computation so that all CPU/GPU cores can be fully utilized. This is in contrast to existing cyberinfrastructure that targets data-intensive problems, which when used to solve compute-intensive problems, the performance is comparable to a single-threaded program as indicated by Frank McSherry https://github.com/frankmcsherry/blog/blob/master/posts/2017-09-23.md</p>\n<p>&nbsp;</p>\n<p>CPU-parallel works on T-thinker have been supported by the PI's NSF CRII award that resulted in many graph-parallel systems published in top conferences: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1755464&amp;HistoricalAwards=false The current project aims to extend this success to GPU supercomputers, so the proposed solutions are dedicated to GPU-parallel execution. The supported visit to ANL has enabled the PI's graph systems team to be equipped with strong GPU supercomputing skills and connections with ANL scientists, and the outcomes so far are fruitful. While the support of the current RII Track-4 award is ending, the exciting research will be be carried on to thrive further thanks to the PI's recent DOE ECRP award.</p><br>\n<p>\n Last Modified: 04/05/2024<br>\nModified by: Da&nbsp;Yan</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThis project has supported the PI and his two PhD students for their summer visit in the MCS division at Argonne National Laboratory (ANL), where they met ANL scientists and learned valuable supercomputing skills. Some activity highlights include:\n\nThe PI delivered a seminar on 'think like a task' (TLAV) programming model for graph computing: https://www.anl.gov/event/largescale-graph-computing-from-think-like-a-vertex-to-think-like-a-task\nThe student Lyuheng Yuan delivered a talk on the T-FSM system for parallel frequent subgraph pattern mining: https://www.anl.gov/event/2023-summer-student-presentations-ii\nThe student Saugat Adhikari delivered a talk on elevation-guided AI technology for flood mapping: https://www.anl.gov/event/2023-summer-student-presentations\nSaugat was also selected to attend the training program of ATPESC 2023.\n\n\n\n\nThrough the investigation conducted in this project, a suite of new systems have been designed and implemented, including:\n\nG2-AIMD (https://github.com/lyuheng/g2-aimd), a novel depth-first BFS solutions to subgraph finding problems such as maixmal clique finding and subgraph matching, with an adaptive chunk-size adjustment approach to avoid GPU device memory overflow. The work was led by Lyuheng and accepted by ICDE 2024, and the system was extensively tested on ALCF's Polaris supercomputer.\nT-DFS (https://github.com/lyuheng/tdfs), a novel depth-first GPU solutions to subgraph finding problems such as subgraph matching, with an efficient lightweight workload rebalancing technique among the GPU warps. The work was led by Lyuheng and accepted by ICDE 2024, and the system was extensively tested on Polaris.\nDistributed T-FSM, a scalable distributed task-based system for frequent subgraph pattern mining which is a work extending our previous single-machine T-FSM system published in SIGMOD 2023. The work was led by Lyuheng and currently under submission to ACM TODS, and the system was extensively tested on Polaris.\n\n\n\n\nBesides the above works, the PI and his two students have also got a demo paper on T-FSM (the software is called FSM-Explorer) accepted by ICDE 2024, and a tutorial accepted by IJCAI 2024 on graph-parallel systems. This tutorial is also under submission to a few other conferences to broaden impacts.\n\n\n\nA common feature of the above discussed works is that they are based on the T-thinker (aka. TLAV) programming paradigm (where \"T\" means \"task\") proposed by the PI in a poster in PPoPP 2019, and advertised by CCC as a great innovative idea at https://cra.org/ccc/great-innovative-ideas/t-thinker-a-task-centric-framework-to-revolutionize-big-data-systems-research/ Put simply, the idea of the T-thinker programming paradigm is that for compute-intensive problems, we can divide the problem space recursively until a sufficiently small unit is obtained, which we call a task. A worker (machine, CPU thread, GPU warp, etc.) can then obtain the subset of data needed for the task (linear IO cost), and compute it afterwards (often high time complexity). Since computation is the bottleneck, data moving cost can mostly be overlapped with the concurrent computation so that all CPU/GPU cores can be fully utilized. This is in contrast to existing cyberinfrastructure that targets data-intensive problems, which when used to solve compute-intensive problems, the performance is comparable to a single-threaded program as indicated by Frank McSherry https://github.com/frankmcsherry/blog/blob/master/posts/2017-09-23.md\n\n\n\n\n\nCPU-parallel works on T-thinker have been supported by the PI's NSF CRII award that resulted in many graph-parallel systems published in top conferences: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1755464&HistoricalAwards=false The current project aims to extend this success to GPU supercomputers, so the proposed solutions are dedicated to GPU-parallel execution. The supported visit to ANL has enabled the PI's graph systems team to be equipped with strong GPU supercomputing skills and connections with ANL scientists, and the outcomes so far are fruitful. While the support of the current RII Track-4 award is ending, the exciting research will be be carried on to thrive further thanks to the PI's recent DOE ECRP award.\t\t\t\t\tLast Modified: 04/05/2024\n\n\t\t\t\t\tSubmitted by: DaYan\n"
+ }
+}

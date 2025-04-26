@@ -1,0 +1,105 @@
+{
+ "awd_id": "1218754",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Message-Passing Strategies for High-Dimensional Inference",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Cozzens",
+ "awd_eff_date": "2012-10-01",
+ "awd_exp_date": "2016-03-31",
+ "tot_intn_awd_amt": 162055.0,
+ "awd_amount": 162055.0,
+ "awd_min_amd_letter_date": "2012-09-11",
+ "awd_max_amd_letter_date": "2012-09-11",
+ "awd_abstract_narration": "This research centers on the problem of designing and analyzing matrix recovery algorithms using the breakthrough \"approximate message-passing\" (AMP) framework that was recently proposed in the context of compressive sensing.  The matrix recovery problems considered in this project include matrix completion, robust PCA, dictionary learning, compressive sensing under matrix uncertainty, and multinomial classification, where the goal is to recover a pair of matrices from noisy observations of their product, where the observations may be warped by element-wise nonlinearities, and where the matrices may include structure such as group sparsity, non-negativity, and per-row/vector norm constraints.  Such problems arise frequently across many subdisciplines of engineering, science, and medicine, and with ever increasing data sizes.  Thus, there is a great need for an algorithmic approach that is accurate, robust, and computationally efficient.\r\n\r\nIn particular, the research involves 1) the extension of AMP methods from linear inference (as in compressive sensing) to bilinear inference, 2) the integration of message passing strategies inspired by turbo-decoding in communications that facilitate the exploitation of sophisticated structural priors, 3) the development of empirical-Bayesian methods that automatically tune the parameters modeling the signal prior as well as the observation prior, 4) the explicit treatment of uncertainty in the assumed model, and 5) the exploitation of the AMP state-evolution framework for rigorous performance analysis.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Philip",
+   "pi_last_name": "Schniter",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Philip Schniter",
+   "pi_email_addr": "schniter@ece.osu.edu",
+   "nsf_id": "000297419",
+   "pi_start_date": "2012-09-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "2015 Neil Ave",
+  "perf_city_name": "Columbus",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101272",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779700",
+   "pgm_ele_name": "Comm & Information Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7938",
+   "pgm_ref_txt": "SENSOR NETWORKS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 162055.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The major goals of this project were 1) the design of approximate-message-passing (AMP) algorithms for problems beyond compressive sensing, such as matrix completion, robust PCA, dictionary learning, non-negative matrix factorization, and classification; and 2) the application of those algorithms to practical engineering problems such as multi-voxel pattern analysis, hyperspectral image unmixing, and demodulation of communications signals.</p>\n<p><br />The outcomes of the project were as follows.</p>\n<p><br />We proposed a generalized approximate-message-passing (G-AMP) based algorithm for the recovery of matrices A and X from a measurement of their product Z=AX observed through a probabilistic channel, called \"BiG-AMP\". &nbsp;Extensive numerical experiments demonstrate state-of-the-art recovery performance for matrix completion, robust PCA, dictionary learning, and non-negative matrix factorization (NNMF).</p>\n<p><br />We designed a novel approach to hyperspectral image (HSI) unmixing, which merges BiG-AMP with Markov models to exploit both spatial coherence among the abundances and spectral coherence within the end-members. &nbsp;Numerical simulations on synthetic and experimental datasets demonstrate favorable unmixing performance relative to existing methods.</p>\n<p><br />We designed new algorithms for binary linear classification and feature selection using the G-AMP framework. &nbsp;Our algorithms support both MAP and MMSE forms of logistic, probit, and hinge-loss activation functions, and induce sparsity in the weight vector. &nbsp;Numerical experiments confirmed excellent performance on fMRI-based multi-voxel pattern analysis and text mining, and agreement with state-evolution predictions.</p>\n<p><br />We designed an efficient communications receiver for impulsive-noise corrupted (e.g., power-line) applications. &nbsp;Merging techniques from G-AMP, robust PCA, and belief-propagation decoding, we designed an efficient approach to joint impulse-estimation, channel-estimation, equalization, and decoding of OFDM signals. &nbsp;Numerical experiments show performance far exceeding existing methods and close to information-theoretic bounds.</p>\n<p><br />We designed a new algorithm for compressive phase retrieval, i.e., recovery of a signal from noisy, phase-less, sub-Nyquist linear measurements, based on the G-AMP framework. &nbsp;We demonstrated that our method yields state-of-the-art mean-squared recovery error, phase transitions, and runtime, making possible the accurate recovery of mega-pixel images in under a minute on a standard PC.</p>\n<p><br />We designed a novel G-AMP-based algorithm for parametric bilinear inference problems, called \"P-BiG-AMP\". &nbsp;This generalization of BiG-AMP applies to generic bilinear inference problems, not just models like Z=AX. &nbsp;Numerical results demonstrated that it yields state-of-the-art performance in applications such as matrix compressive sensing, blind deconvolution, and self-calibration.&nbsp;</p>\n<p><br />We designed new approximate-message-passing based algorithms for multinomial logistic regression (MLR), which extend the aforementioned classification work from binary to M-ary labels. &nbsp;Using both synthetic and real-world datasets (on micro-array gene expression, text mining, handwritten-digit), we demonstrate improved error-rate and runtime performance relative to existing state-of-the-art approaches to sparse MLR. &nbsp;</p>\n<p><br />We developed a new approach to signal reconstruction from noisy compressive linear measurements that handles multiple sparsity-inducing regularizers with unknown weights. &nbsp;Our approach jointly recovers the signal and optimizes the regularization weights using an iteratively reweighted (IRW) L1 approach. &nbsp;Numerically, it yields reconstruction performance that far exceeds the standard IRW-L1 approach. &nbsp;Analytically, it can be interpreted from the perspectives of ...",
+  "por_txt_cntn": "\nThe major goals of this project were 1) the design of approximate-message-passing (AMP) algorithms for problems beyond compressive sensing, such as matrix completion, robust PCA, dictionary learning, non-negative matrix factorization, and classification; and 2) the application of those algorithms to practical engineering problems such as multi-voxel pattern analysis, hyperspectral image unmixing, and demodulation of communications signals.\n\n\nThe outcomes of the project were as follows.\n\n\nWe proposed a generalized approximate-message-passing (G-AMP) based algorithm for the recovery of matrices A and X from a measurement of their product Z=AX observed through a probabilistic channel, called \"BiG-AMP\".  Extensive numerical experiments demonstrate state-of-the-art recovery performance for matrix completion, robust PCA, dictionary learning, and non-negative matrix factorization (NNMF).\n\n\nWe designed a novel approach to hyperspectral image (HSI) unmixing, which merges BiG-AMP with Markov models to exploit both spatial coherence among the abundances and spectral coherence within the end-members.  Numerical simulations on synthetic and experimental datasets demonstrate favorable unmixing performance relative to existing methods.\n\n\nWe designed new algorithms for binary linear classification and feature selection using the G-AMP framework.  Our algorithms support both MAP and MMSE forms of logistic, probit, and hinge-loss activation functions, and induce sparsity in the weight vector.  Numerical experiments confirmed excellent performance on fMRI-based multi-voxel pattern analysis and text mining, and agreement with state-evolution predictions.\n\n\nWe designed an efficient communications receiver for impulsive-noise corrupted (e.g., power-line) applications.  Merging techniques from G-AMP, robust PCA, and belief-propagation decoding, we designed an efficient approach to joint impulse-estimation, channel-estimation, equalization, and decoding of OFDM signals.  Numerical experiments show performance far exceeding existing methods and close to information-theoretic bounds.\n\n\nWe designed a new algorithm for compressive phase retrieval, i.e., recovery of a signal from noisy, phase-less, sub-Nyquist linear measurements, based on the G-AMP framework.  We demonstrated that our method yields state-of-the-art mean-squared recovery error, phase transitions, and runtime, making possible the accurate recovery of mega-pixel images in under a minute on a standard PC.\n\n\nWe designed a novel G-AMP-based algorithm for parametric bilinear inference problems, called \"P-BiG-AMP\".  This generalization of BiG-AMP applies to generic bilinear inference problems, not just models like Z=AX.  Numerical results demonstrated that it yields state-of-the-art performance in applications such as matrix compressive sensing, blind deconvolution, and self-calibration. \n\n\nWe designed new approximate-message-passing based algorithms for multinomial logistic regression (MLR), which extend the aforementioned classification work from binary to M-ary labels.  Using both synthetic and real-world datasets (on micro-array gene expression, text mining, handwritten-digit), we demonstrate improved error-rate and runtime performance relative to existing state-of-the-art approaches to sparse MLR.  \n\n\nWe developed a new approach to signal reconstruction from noisy compressive linear measurements that handles multiple sparsity-inducing regularizers with unknown weights.  Our approach jointly recovers the signal and optimizes the regularization weights using an iteratively reweighted (IRW) L1 approach.  Numerically, it yields reconstruction performance that far exceeds the standard IRW-L1 approach.  Analytically, it can be interpreted from the perspectives of Bayesian inference, variational EM, log-sum optimization, and approximate-L0 recovery. \n\n\nWe designed a novel approach to \"fusion\" HSI unmixing, which extends the aforementioned HSI unmixing approach to fuse multiple cameras (e.g., a hi..."
+ }
+}

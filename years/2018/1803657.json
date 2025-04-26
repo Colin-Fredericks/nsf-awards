@@ -1,0 +1,96 @@
+{
+ "awd_id": "1803657",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "A novel predictive dual scale model to accurately and efficiently simulate phase interfaces in turbulent flows",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": "7032927030",
+ "po_email": "rjoslin@nsf.gov",
+ "po_sign_block_name": "Ron Joslin",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 312076.0,
+ "awd_amount": 312076.0,
+ "awd_min_amd_letter_date": "2018-05-15",
+ "awd_max_amd_letter_date": "2018-05-15",
+ "awd_abstract_narration": "Turbulent flows with phase interfaces occur in almost every aspect of our daily lives, ranging from energy systems using liquid fuels to pharmaceutical sprays. Many of these flows involve atomizing a liquid into small-scale drops forming a spray. The performance of the overall system depends strongly on the quality of this spray. For example, in aircraft or internal combustion engines improvements in the quality of the spray can result in efficiency gains and reduction in pollutant production. In medical sprays, precisely controlling the spray drop sizes of aerosols can significantly improve the delivery of pharmaceuticals into the lung. Unfortunately, no efficient model derived from first principle currently exists that can predict and simulate the complex process of spray formation in turbulent flows. Thus an incremental design improvement philosophy is prevalent in many applications because experiments of radically new designs are very costly and numerical simulations lack a predictive model for turbulent atomization processes and thus require tuning with existing experimental data. The goal of this project is to develop an efficient predictive model to simulate atomization processes in turbulent flows. Such a model has the potential to initiate a bold new design philosophy that targets radically new designs because the cost of pre-selection feasibility studies using the new model would be significantly lower than experimental studies. The project also incorporates significant educational activities, including involvement of undergraduate researchers and outreach targeting local Title-One schools through on-campus activities and off-campus classroom visits.\r\n\r\nThe new model is based on the idea of a dual scale approach, circumventing the limitations of classical modeling approaches for turbulent flows that rely on the existence of a cascade process from large to small scales. Such a cascade is likely not dominant for atomizing phase interfaces since surface tension forces that are dominant on the small scale can both generate and annihilate small scale interface structures. The proposed dual scale approach takes this into account by employing a multi-scale decomposition that combines features of direct numerical simulations resolving the small scales with large eddy simulation for the larger scales in an efficient way. This approach inherently incorporates the interaction and competition between different forces and atomization mechanisms acting on multiple length and time scales and enables the explicit closure of terms requiring modeling on the larger scales by applying explicit filters to the resolved scale phase interface geometry.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Marcus",
+   "pi_last_name": "Herrmann",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Marcus Herrmann",
+   "pi_email_addr": "marcus.herrmann@asu.edu",
+   "nsf_id": "000488662",
+   "pi_start_date": "2018-05-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Arizona State University",
+  "inst_street_address": "660 S MILL AVENUE STE 204",
+  "inst_street_address_2": "",
+  "inst_city_name": "TEMPE",
+  "inst_state_code": "AZ",
+  "inst_state_name": "Arizona",
+  "inst_phone_num": "4809655479",
+  "inst_zip_code": "852813670",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "AZ04",
+  "org_lgl_bus_name": "ARIZONA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NTLHJXM55KZ6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Arizona State University",
+  "perf_str_addr": "",
+  "perf_city_name": "Tempe",
+  "perf_st_code": "AZ",
+  "perf_st_name": "Arizona",
+  "perf_zip_code": "852816011",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "AZ04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "144300",
+   "pgm_ele_name": "FD-Fluid Dynamics"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 312076.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"p1\">The breakup of liquids into drops forming sprays is an important process encountered in every day live ranging from coughing and sneezing, water irrigation to fuel injection systems in engines. To optimize or mitigate the breakup, direct computer simulations of the fluid flow resulting in breakup can be performed only for very limited cases because accounting for all length and time scales involved in the breakup is prohibitively expensive requiring some of largest supercomputers available.&nbsp;</p>\n<p class=\"p1\">To make simulations of breakup more cost effective and feasible on commodity computers, this project developed a model to describe the liquid/gas phase interface dynamics due to shear and acceleration that occur on scales smaller than the ones resolved by the fluid flow simulation. To this end two different models were developed. The first one reconstructed the small scale velocity fields due to shear by solving the Orr-Sommerfeld equations but while effective on its own, was unable to be coupled to the resolved scale flow simulations in an accurate manner. The second, ultimately successful model reconstructs the small scale flow velocity due to shear and acceleration from a vortex-sheet located at the liquid/gas interface using a geometric volume-of-fluid method to capture the evolution of the interface geometry and breakup in a conservative manner.&nbsp;</p>\n<p class=\"p1\">The viability of the new volume of fluid/vortex sheet dual scale simulation approach was demonstrated on a range of test cases. For example, Fig.1 shows the evolution of an interface subjected to shear modeled entirely by the new volume of fluid/vortex sheet model. The interface shows the characteristic rollup with transverse instabilities developing at the same time. Another example is shown in Fig. 2 , where a heavy fluid (liquid) is accelerated into a light fluid (gas) forming the characteristic mushroom shape. Here again, all interface dynamics are simulated using the new volume of fluid/vortex sheet method. Finally, Fig. 3 shows initial results of coupling the coarse scale fluid flow simulation to the fine scale dynamics described by the new dual-scale approach for the case of a two-dimensional shear driven instability. Using the dual-scale approach (left panel) captures significantly more physical small scale dynamics of the interface roll-up that are entirely missed in the coarse scale only simulation (right panel).</p>\n<p class=\"p1\">The developed dual scale model enables higher fidelity simulations of breakup processes compared to coarse simulations alone, while requiring significantly less computational resources than simulations resolving all scales directly. This will enable detailed simulations of atomization in the aforementioned applications helping improve our understanding of these complex processes.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/09/2022<br>\n\t\t\t\t\tModified by: Marcus&nbsp;Herrmann</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670603163947_Figure1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670603163947_Figure1--rgov-800width.jpg\" title=\"Shear driven instability of an interface\"><img src=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670603163947_Figure1--rgov-66x44.jpg\" alt=\"Shear driven instability of an interface\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Evolution of a doubly periodic phase interface subjected to shear and perturbations in the stream-wise and span-wise directions</div>\n<div class=\"imageCredit\">A. Goodrich and M. Herrmann</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Marcus&nbsp;Herrmann</div>\n<div class=\"imageTitle\">Shear driven instability of an interface</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670605615385_Figure2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670605615385_Figure2--rgov-800width.jpg\" title=\"Acceleration driven instability of an interface\"><img src=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670605615385_Figure2--rgov-66x44.jpg\" alt=\"Acceleration driven instability of an interface\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Evolution of a 3D interface separating a heavy and light fluid subjected to uniformgravitational acceleration</div>\n<div class=\"imageCredit\">A. Goodrich and M. Herrmann</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Marcus&nbsp;Herrmann</div>\n<div class=\"imageTitle\">Acceleration driven instability of an interface</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670605799380_Figure3--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670605799380_Figure3--rgov-800width.jpg\" title=\"Dual-scale simulation of a 2D shear driven instability\"><img src=\"/por/images/Reports/POR/2022/1803657/1803657_10544186_1670605799380_Figure3--rgov-66x44.jpg\" alt=\"Dual-scale simulation of a 2D shear driven instability\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Evolution of single wavenumber shear driven instability: dual scale result (left) and coarse simulation only (right)</div>\n<div class=\"imageCredit\">A. Goodrich and M. Herrmann</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Marcus&nbsp;Herrmann</div>\n<div class=\"imageTitle\">Dual-scale simulation of a 2D shear driven instability</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "The breakup of liquids into drops forming sprays is an important process encountered in every day live ranging from coughing and sneezing, water irrigation to fuel injection systems in engines. To optimize or mitigate the breakup, direct computer simulations of the fluid flow resulting in breakup can be performed only for very limited cases because accounting for all length and time scales involved in the breakup is prohibitively expensive requiring some of largest supercomputers available. \nTo make simulations of breakup more cost effective and feasible on commodity computers, this project developed a model to describe the liquid/gas phase interface dynamics due to shear and acceleration that occur on scales smaller than the ones resolved by the fluid flow simulation. To this end two different models were developed. The first one reconstructed the small scale velocity fields due to shear by solving the Orr-Sommerfeld equations but while effective on its own, was unable to be coupled to the resolved scale flow simulations in an accurate manner. The second, ultimately successful model reconstructs the small scale flow velocity due to shear and acceleration from a vortex-sheet located at the liquid/gas interface using a geometric volume-of-fluid method to capture the evolution of the interface geometry and breakup in a conservative manner. \nThe viability of the new volume of fluid/vortex sheet dual scale simulation approach was demonstrated on a range of test cases. For example, Fig.1 shows the evolution of an interface subjected to shear modeled entirely by the new volume of fluid/vortex sheet model. The interface shows the characteristic rollup with transverse instabilities developing at the same time. Another example is shown in Fig. 2 , where a heavy fluid (liquid) is accelerated into a light fluid (gas) forming the characteristic mushroom shape. Here again, all interface dynamics are simulated using the new volume of fluid/vortex sheet method. Finally, Fig. 3 shows initial results of coupling the coarse scale fluid flow simulation to the fine scale dynamics described by the new dual-scale approach for the case of a two-dimensional shear driven instability. Using the dual-scale approach (left panel) captures significantly more physical small scale dynamics of the interface roll-up that are entirely missed in the coarse scale only simulation (right panel).\nThe developed dual scale model enables higher fidelity simulations of breakup processes compared to coarse simulations alone, while requiring significantly less computational resources than simulations resolving all scales directly. This will enable detailed simulations of atomization in the aforementioned applications helping improve our understanding of these complex processes. \n\n \n\n\t\t\t\t\tLast Modified: 12/09/2022\n\n\t\t\t\t\tSubmitted by: Marcus Herrmann"
+ }
+}

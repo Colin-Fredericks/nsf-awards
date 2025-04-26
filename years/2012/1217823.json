@@ -1,0 +1,101 @@
+{
+ "awd_id": "1217823",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NeTS: Small: Collaborative: Non-Isotropic Networked Sensor Deployment for Smart Buildings",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Thyagarajan Nandagopal",
+ "awd_eff_date": "2012-07-01",
+ "awd_exp_date": "2016-06-30",
+ "tot_intn_awd_amt": 229342.0,
+ "awd_amount": 229342.0,
+ "awd_min_amd_letter_date": "2012-07-20",
+ "awd_max_amd_letter_date": "2012-07-20",
+ "awd_abstract_narration": "The objective of this proposal is to thoroughly investigate the deployment of non-isotropic sensors for smart building applications. Various sensing and control applications in smart building require accurate and efficient localization and tracking of human and activities. To achieve this goal, the non-isotropic networked sensor deployment is essential.\r\n\r\nThis proposal addresses a new set of problems arising from the deployment of four types of sensors: cameras, tripwire, motion sensors and microphones. The set of deployment problems would strive for full sensor coverage and wireless connectivity with a complex floor plan, and involve one or more of the following constraints: (i) Non-isotropic model using visibility (cameras and tripwires), (ii) Non-overlapping sensing range, (iii) Robust 2-coverage for accurate localization. The sensor deployment problem will heavily involve the geometric properties of the environment (building layout), as well as the geometric properties of the sensors (non-isotropic sensing ranges). Ideas from computational geometry will be applied to tackle these problems and approximation algorithms with worst-case guarantee for theoretical rigor as well as practical algorithms suitable for implementations will be developed.\r\n\r\nA clear understanding on how to deploy sensors for smart building systems will allows for efficient planning and effective practice of networked sensor deployment to achieve the high quality sensing desired by various indoor applications. For developers, this work will significantly reduce the design and development costs for designing and building smart building systems. For end users, the resultant testbed will lead to exciting applications that will significantly improve the quality of life. It also enriches engineering curriculum to integrate the theory of computational geometry with the system building practice. The PIs are committed in improving female presence in computer science and exposure of research for high school students.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jie",
+   "pi_last_name": "Gao",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jie Gao",
+   "pi_email_addr": "jg1555@cs.rutgers.edu",
+   "nsf_id": "000488188",
+   "pi_start_date": "2012-07-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "SUNY at Stony Brook",
+  "inst_street_address": "W5510 FRANKS MELVILLE MEMORIAL LIBRARY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STONY BROOK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6316329949",
+  "inst_zip_code": "117940001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NY01",
+  "org_lgl_bus_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "M746VC6XMNH9",
+  "org_uei_num": "M746VC6XMNH9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "SUNY at Stony Brook",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "117943366",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NY01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 229342.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Smart building applications face a number of challenges that arise from the environment structures, sensor properties and application requirements. An indoor environment is typically much more complicated in shape than outdoor scenarios. The geometric complexity of floor plans as well as obstacles in the environment creates non-trivial geometric or topological features in the domain of study.&nbsp; Further, various sensors used in smart building applications such as camera sensors or infrared sensors have non-conventional sensing ranges that incorporate line of sight constraints. Additional coverage requirements are often in place such as multi-coverage (any target needs to be covered by two or more sensors from sufficiently different directions), connectivity (sensors need to form a connected network), among others. Last, we have heterogeneous application requirements. For example, sensors may generate data with different rates and in security applications some locations need to be monitored more often than others. Therefore, sensor deployment, scheduling and operations in the smart building domain require solving complex optimization problems.</p>\n<p>Our work addressed many dimensions in this problem space, summarized below.</p>\n<p><strong>Coverage</strong></p>\n<p>Being a fundamental problem, optimal sensor deployment has been a subject of study for a number of years. The difference in our work is that we consider sensors with line of sight coverage ranges, thus having the flavor of classical art gallery problem. Second, we consider multi-coverage requirement &ndash; for using infrared for indoor localization and tracking, we need each target to be covered by at least two sensors, ideally from different directions. We provide matching combinatorial upper/lower bounds on the number of sensors needed as well as algorithms for near optimal coverage plan. In a camera network, we consider the connected camera network problem when all cameras must form a connected graph using wireless radios. We proved the hardness of this problem and provided a 2-approximation. We also consider mobile sensors and how the sensors are turned on to maintain collective coverage at any time, while minimizing the total energy consumption.</p>\n<p><strong>Scheduling</strong></p>\n<p>Once the sensors are deployed to ensure full coverage of the domain, we schedule the operation of the sensors to minimize the energy consumption. The problem is motivated by two observations. First, the sensor deployment problem considers the worst scenario and needs to make sure all locations are covered. But the same location could be monitored/covered by multiple sensors thus having inherent redundancy. Second, in many monitoring/tracking applications interesting activities have certain durations and can be captured fine as long as the target is monitored sufficiently often. We can selectively turn on a subset of the sensors in a carefully designed order such that application quality does not suffer. With this motivation we developed algorithms for joint sensor duty cycle coverage problem, which minimizes the number of sensors turned on while satisfying the given heterogeneous requirements, or maximize the coverage requirement when the number of sensors turned on is fixed. For both versions we provide efficient approximation algorithms that can be implemented in practice. In a related problem, we use a mobile node (MULE) to collect data from sensors where the sensors can have different storage size/data generation rate. Again we have non-trivial problem to design the best schedule for the MULE to maximize data collected. We provide constant approximation algorithms for a single MULE, k-MULEs and multiple MULEs. When the sensor data is stored/cached on paths in a distributed network, we show that the problem of using a MULE to collect data within the network can be formulated as finding the shortest cycle separating a given family of pairs, denoted the shortest separating cycle problem. We are the first to provide various approximation algorithms.</p>\n<p><strong>Routing</strong></p>\n<p>The last family of problems we address is routing in a distributed network with complex shape and topology.&nbsp; We considered three problems. The first one is called beacon based routing in which beacons are deployed and we investigate what type of guarantee one can obtain by greedy routing towards the beacons. We provide combinatorial bounds on the&nbsp; number of beacons needed and considered beacon based aggregation (when there is a common destination) and beacon based dissemination (when there is a single source). The second problem we considered homotopic routing --- finding a path of a given homotopy type, i.e., getting around the holes in a specific order. We provide the first distributed algorithm that achieves a constant stretch using greedy routing decisions. Last we improved our understanding of load balanced routing. We use area-preserving map to show that greedy routing can achieve a constant approximation factor in any simply connected domain and show a rigorous proof that routing using medial axis in fact achieves a constant approximation with a small tweak.&nbsp;&nbsp;</p>\n<p>To summarize, in all three important directions (deployment, scheduling and routing) for smart building applications, geometric structures and algorithms are crucial in producing efficient solutions.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/09/2016<br>\n\t\t\t\t\tModified by: Jie&nbsp;Gao</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSmart building applications face a number of challenges that arise from the environment structures, sensor properties and application requirements. An indoor environment is typically much more complicated in shape than outdoor scenarios. The geometric complexity of floor plans as well as obstacles in the environment creates non-trivial geometric or topological features in the domain of study.  Further, various sensors used in smart building applications such as camera sensors or infrared sensors have non-conventional sensing ranges that incorporate line of sight constraints. Additional coverage requirements are often in place such as multi-coverage (any target needs to be covered by two or more sensors from sufficiently different directions), connectivity (sensors need to form a connected network), among others. Last, we have heterogeneous application requirements. For example, sensors may generate data with different rates and in security applications some locations need to be monitored more often than others. Therefore, sensor deployment, scheduling and operations in the smart building domain require solving complex optimization problems.\n\nOur work addressed many dimensions in this problem space, summarized below.\n\nCoverage\n\nBeing a fundamental problem, optimal sensor deployment has been a subject of study for a number of years. The difference in our work is that we consider sensors with line of sight coverage ranges, thus having the flavor of classical art gallery problem. Second, we consider multi-coverage requirement &ndash; for using infrared for indoor localization and tracking, we need each target to be covered by at least two sensors, ideally from different directions. We provide matching combinatorial upper/lower bounds on the number of sensors needed as well as algorithms for near optimal coverage plan. In a camera network, we consider the connected camera network problem when all cameras must form a connected graph using wireless radios. We proved the hardness of this problem and provided a 2-approximation. We also consider mobile sensors and how the sensors are turned on to maintain collective coverage at any time, while minimizing the total energy consumption.\n\nScheduling\n\nOnce the sensors are deployed to ensure full coverage of the domain, we schedule the operation of the sensors to minimize the energy consumption. The problem is motivated by two observations. First, the sensor deployment problem considers the worst scenario and needs to make sure all locations are covered. But the same location could be monitored/covered by multiple sensors thus having inherent redundancy. Second, in many monitoring/tracking applications interesting activities have certain durations and can be captured fine as long as the target is monitored sufficiently often. We can selectively turn on a subset of the sensors in a carefully designed order such that application quality does not suffer. With this motivation we developed algorithms for joint sensor duty cycle coverage problem, which minimizes the number of sensors turned on while satisfying the given heterogeneous requirements, or maximize the coverage requirement when the number of sensors turned on is fixed. For both versions we provide efficient approximation algorithms that can be implemented in practice. In a related problem, we use a mobile node (MULE) to collect data from sensors where the sensors can have different storage size/data generation rate. Again we have non-trivial problem to design the best schedule for the MULE to maximize data collected. We provide constant approximation algorithms for a single MULE, k-MULEs and multiple MULEs. When the sensor data is stored/cached on paths in a distributed network, we show that the problem of using a MULE to collect data within the network can be formulated as finding the shortest cycle separating a given family of pairs, denoted the shortest separating cycle problem. We are the first to provide various approximation algorithms.\n\nRouting\n\nThe last family of problems we address is routing in a distributed network with complex shape and topology.  We considered three problems. The first one is called beacon based routing in which beacons are deployed and we investigate what type of guarantee one can obtain by greedy routing towards the beacons. We provide combinatorial bounds on the  number of beacons needed and considered beacon based aggregation (when there is a common destination) and beacon based dissemination (when there is a single source). The second problem we considered homotopic routing --- finding a path of a given homotopy type, i.e., getting around the holes in a specific order. We provide the first distributed algorithm that achieves a constant stretch using greedy routing decisions. Last we improved our understanding of load balanced routing. We use area-preserving map to show that greedy routing can achieve a constant approximation factor in any simply connected domain and show a rigorous proof that routing using medial axis in fact achieves a constant approximation with a small tweak.  \n\nTo summarize, in all three important directions (deployment, scheduling and routing) for smart building applications, geometric structures and algorithms are crucial in producing efficient solutions.\n\n\t\t\t\t\tLast Modified: 08/09/2016\n\n\t\t\t\t\tSubmitted by: Jie Gao"
+ }
+}

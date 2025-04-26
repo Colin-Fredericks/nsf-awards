@@ -1,0 +1,101 @@
+{
+ "awd_id": "1836505",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Establishing a Numerical Framework for Multi-scale Simulations of Wildfire Spread and Smoke Dispersion",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "John Daily",
+ "awd_eff_date": "2018-08-15",
+ "awd_exp_date": "2020-07-31",
+ "tot_intn_awd_amt": 90054.0,
+ "awd_amount": 90054.0,
+ "awd_min_amd_letter_date": "2018-06-04",
+ "awd_max_amd_letter_date": "2018-06-04",
+ "awd_abstract_narration": "Many communities across the country live under the threat of wildland fires that can cause devastating safety, health and financial risks. Computational models of wildfire spread have become a critical tool for the development of prevention plans and containment strategies. Current models provide general forecast of the evolution of fire perimeters. However, these models often have limitations in predicting extreme fire events due to the interaction of weather, topography and turbulence. The proposed work aims at overcoming these limitations by developing a simulation framework with an unprecedented level of resolution and accuracy. The goal is to provide a comprehensive and detailed description of wildfire evolution. Use of improved computer models will help mitigate the risk and harm of wildland fires, thus enhancing the national welfare and security.\r\n\r\nWind and terrain slope are major factors that affect wildfire and smoke spread. These interactions occur over a wide range of spatial and temporal scales. To account for the complexity of the phenomena, in this project a numerical weather prediction (NWP) model will be coupled with a computational code based on large-eddy simulation (LES). The code scales efficiently for parallel computation. The topography will be included in the numerical simulations with the efficient immersed boundary method. The evolution of the fire perimeter will be computed by a fire-spread simulator and tracked with the level-set method. The proposed approach will permit the simulation of wildfire evolution under realistic wind patterns, which account for the interaction with the burning fuel, large-scale atmospheric circulation, and local terrain features. This project will be focused on the influence of topography and small-scale flow features on the evolution of wildland fires. It will also address how to downscale the atmospheric circulation from NWP to the high resolution LES domain. This is still an open problem in atmospheric science, which has great relevance in several other fields. The goals of the project include evaluating the optimal setup for simulation and assess the feasibility of the numerical framework for real time tracking of fire spread. Additionally, the numerical results will provide a valuable dataset to refine and develop reduced-order models for wildfire spread and smoke dispersion.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Stefano",
+   "pi_last_name": "Leonardi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Stefano Leonardi",
+   "pi_email_addr": "stefano.leonardi@utdallas.edu",
+   "nsf_id": "000484853",
+   "pi_start_date": "2018-06-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Dallas",
+  "inst_street_address": "800 WEST CAMPBELL RD.",
+  "inst_street_address_2": "SP2.25",
+  "inst_city_name": "RICHARDSON",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "9728832313",
+  "inst_zip_code": "750803021",
+  "inst_country_name": "United States",
+  "cong_dist_code": "24",
+  "st_cong_dist_code": "TX24",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT DALLAS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "EJCVPNN1WFS5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Dallas",
+  "perf_str_addr": "800 W Campbell Road",
+  "perf_city_name": "Richardson",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "750803021",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "24",
+  "perf_st_cong_dist": "TX24",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "140700",
+   "pgm_ele_name": "CFS-Combustion & Fire Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 90054.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>During wildfires, the interactions and feedback between the heat generated by the fire and the atmospheric winds often lead to extremely erratic fire behavior and make it difficult to predict and control wildfire spread. Over the course of the project, a numerical framework to simulate wildland fire spread forecast coupling the fire and atmosphere dynamics has been developed.</p>\n<p>In order to obtain a forecast in an operational time frame, one needs to strike a trade-off between the level of details included in the simulation (the ?resolution?) and the computational cost required to perform the simulation. However, limiting the resolution of the simulations leads to a loss of accuracy and a progressive increase in uncertainty, as the forecast horizon increases and the fire develops (Figure 1). This error arises because the effect of small-scale air turbulence, generated by the fire, cannot be captured in low-resolution simulations.</p>\n<p>In this project, we first investigated the physical mechanisms associated with these small-scale air motions and their impact on the fire propagation (Figure 2). Our results show these air-flow scales have a strong impact on the wildfire spread when there is not an equilibrium between the updrafts generated through buoyancy by the fire and the background atmospheric winds. For instance, this is typical in the first instants of the fire development, shortly after the ignition.</p>\n<p>Subsequently, we developed an approach to quantify the level of uncertainty in the fire forecast as a function of the simulation resolution and the forecast horizon. With this approach, fire managers can obtain a tool to evaluate the risk and uncertainties associated with a particular wildfire spread forecast and make informed science-based decisions on firefighting operations and safety measures.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/11/2021<br>\n\t\t\t\t\tModified by: Stefano&nbsp;Leonardi</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2021/1836505/1836505_10547762_1610414924213_Figure1--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2021/1836505/1836505_10547762_1610414924213_Figure1--rgov-800width.jpg\" title=\"Figure 1\"><img src=\"/por/images/Reports/POR/2021/1836505/1836505_10547762_1610414924213_Figure1--rgov-66x44.jpg\" alt=\"Figure 1\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Simulation of the 2018 Mendocino Complex Fire: (a) observed fire expansion by date (source: The Washington Post); (b) predicted fire area: yellow-area, 1-day ahead forecast (July 28th); orange area, 2-day ahead forecast (July 29th). (c) numerical setup</div>\n<div class=\"imageCredit\">Stefano Leonardi & Umberto Ciri</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Stefano&nbsp;Leonardi</div>\n<div class=\"imageTitle\">Figure 1</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2021/1836505/1836505_10547762_1610415231107_Figure2--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2021/1836505/1836505_10547762_1610415231107_Figure2--rgov-800width.jpg\" title=\"Figure 2\"><img src=\"/por/images/Reports/POR/2021/1836505/1836505_10547762_1610415231107_Figure2--rgov-66x44.jpg\" alt=\"Figure 2\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Simulations of a grassland fire at different level of resolutions: a) fine b) medium,  c) coarse. The small-scale features observed in the thermal plume have a significant impact on wildfire spread in short periods after the ignition, before an equilibrium between the fire and the atmosphere.</div>\n<div class=\"imageCredit\">Umberto Ciri & Stefano Leonardi</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Stefano&nbsp;Leonardi</div>\n<div class=\"imageTitle\">Figure 2</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nDuring wildfires, the interactions and feedback between the heat generated by the fire and the atmospheric winds often lead to extremely erratic fire behavior and make it difficult to predict and control wildfire spread. Over the course of the project, a numerical framework to simulate wildland fire spread forecast coupling the fire and atmosphere dynamics has been developed.\n\nIn order to obtain a forecast in an operational time frame, one needs to strike a trade-off between the level of details included in the simulation (the ?resolution?) and the computational cost required to perform the simulation. However, limiting the resolution of the simulations leads to a loss of accuracy and a progressive increase in uncertainty, as the forecast horizon increases and the fire develops (Figure 1). This error arises because the effect of small-scale air turbulence, generated by the fire, cannot be captured in low-resolution simulations.\n\nIn this project, we first investigated the physical mechanisms associated with these small-scale air motions and their impact on the fire propagation (Figure 2). Our results show these air-flow scales have a strong impact on the wildfire spread when there is not an equilibrium between the updrafts generated through buoyancy by the fire and the background atmospheric winds. For instance, this is typical in the first instants of the fire development, shortly after the ignition.\n\nSubsequently, we developed an approach to quantify the level of uncertainty in the fire forecast as a function of the simulation resolution and the forecast horizon. With this approach, fire managers can obtain a tool to evaluate the risk and uncertainties associated with a particular wildfire spread forecast and make informed science-based decisions on firefighting operations and safety measures.\n\n \n\n\t\t\t\t\tLast Modified: 01/11/2021\n\n\t\t\t\t\tSubmitted by: Stefano Leonardi"
+ }
+}

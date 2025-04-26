@@ -1,0 +1,105 @@
+{
+ "awd_id": "1320894",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RI: Small: Collaborative Research: Statistical ranking theory without a canonical loss",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Weng-keen Wong",
+ "awd_eff_date": "2013-08-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 223572.0,
+ "awd_amount": 223572.0,
+ "awd_min_amd_letter_date": "2013-08-08",
+ "awd_max_amd_letter_date": "2013-08-08",
+ "awd_abstract_narration": "The problem of ranking objects occupies a central place in key technologies such as web search and recommendation systems. These technologies have a tremendous daily impact on the lives of millions of people. Moreover, the enormous scale of data on the web makes the use of machine learning especially attractive in constructing ranking algorithms.  A huge amount of research effort has been devoted to developing efficient ranking algorithms that can deal with a variety of data sets encountered in web search and recommendation systems.\r\n\r\nThis project develops unifying mathematical theory that will provide a basis for understanding and categorizing existing algorithms and, more importantly, lead to deeper insights and new algorithms for the problem of learning to rank. The investigators also apply ranking algorithms to new domains.  For example, ranking chemical reactions based on their plausibility will help chemists discover much-needed reaction bases for technologies such as carbon dioxide reduction, and conversion of natural gas into gasoline. \r\n\r\nFundamental advances in the statistical theory of ranking will be incorporated into undergraduate and graduate courses. Data sets and software developed will be made freely available to the scientific community. The investigators will also organize a workshop with a focus on interdisciplinary participation and involvement of under-represented groups in computer science and statistics.\r\n\r\nThe primary technical challenge in developing statistical ranking theory is the absence of a universally agreed-upon loss functions for ranking. This is in contrast to classic machine learning problems such as classification and regression, where there are only a few natural possibilities for the loss function and these are well-understood theoretically. The project addresses this gap by investigating how different loss functions for ranking affect fundamental theoretical properties such as learnability, and by creating a theory of convex surrogates that is applicable when loss functions abound.  The project re-examines existing statistical literature on ranking with a computational lens.  This will enable development of flexible and efficient plug-in decision rules that model the conditional probability of labels given inputs.\r\n\r\nBy incorporating the results of this research into courses and survey articles, the PIs help train a new generation of machine learning researchers and practitioners who will view ranking as a learning problem on par with classification and regression in mathematical depth as well as practical importance.  Theoretical guidance for practitioners formulating new algorithms for ranking will improve the most common applications on the web.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Pradeep",
+   "pi_last_name": "Ravikumar",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Pradeep K Ravikumar",
+   "pi_email_addr": "pradeepr@cs.cmu.edu",
+   "nsf_id": "000553653",
+   "pi_start_date": "2013-08-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "The University of Texas at Austin",
+  "perf_str_addr": "101 E. 27th Street, Suite 5.300",
+  "perf_city_name": "Austin",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121532",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 223572.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>There have been tremendous recent successes in the use of machine learning methods across application domains. Most of these successful applications are in classification tasks, where the goal is to predict a categorical response, given input features. These successes are due in part to the well-developed statistical learning theory of classification, particularly binary classification, where we predict a binary response, with the 0-1 loss, which assigns a cost of zero if the prediction is correct, and one otherwise. The 0-1 loss is an instance of a loss function, which quantifies the goodness of any candidate prediction function, or classifier, given training data, and accordingly, can be used to come up with the ``optimal'' classifier given training data. What are the optimal classifiers given the loss function, and how do we estimate these from data in a computationally tractable manner, are some of the questions such a statistical learning theory enables us to answer.</p>\n<p><br />In this project, we aimed to extend this well-developed statistical theory for binary classification with the 0-1 loss, to the setting of ranking objects. Here, the goal is prediction as well, but in contrast to predicting a binary response (is it a cat or not?), we aim to predict a ranking (in what order should these five documents be ranked, in response to a query?). This task is difficult in part because the set of possible orders quickly becomes intractable as a function of the number of objects. For instance, the number of orderings of 60 objects is more than the number of atoms in the universe. But such ranking problems are nonetheless increasingly important in our digital world: ranging from ranking web-pages in response to queries, and ranking ads, to ranking posts in a user news-feed. Due in part to its importance, this has led to an entire sub-field of machine learning, called learning to rank. In contrast to binary classification, with its canonical 0-1 loss function, there is a huge (and growing) diversity of loss functions in the context of ranking. Accordingly, any analytical tools we develop that are highly specialized to a single evaluation metric is unlikely to be useful in the learning to rank landscape with its large number of equally popular loss functions.&nbsp;</p>\n<p><br />A key technical challenge of the project was thus to develop a unified framework to answer the following question: given any loss function, what are the optimal prediction functions, and how to estimate these optimal prediction function given training data in a consistent manner; so that with increasing samples, the estimator would converge to the optimal prediction function. Another crucial desideratum is that the estimator be computationally practical. We made the following contributions towards these technical challenges.</p>\n<p><br />We characterized optimal classifiers, as well as provided practical algorithms for estimating these from data, for a broad class of classification problems, including complex loss functions for binary classification, for multi-label problems, where any input could simultaneously have multiple labels, as well as for general structured prediction problems, where the goal is to predict a response that takes values in a finite but large set that has some structure. We also provided scalable classification algorithms for such general loss functions, even under the setting where the number of labels is extremely large. We also provided novel scalable algorithms for the classical problem of empirical risk minimization, for general loss functions: this is the standard approach used to estimate the optimal predictor given a loss function, and we provided approaches to make these computationally practical for general loss functions.</p>\n<p><br />We also provided a representation theory for listwise ranking functions: these are prediction functions that output a ranking of a set of inputs, by predicting ``scores'' for each of the inputs, such that a higher score entails that the input has a higher rank. We identified a curious phenomenon: most ranking functions used in practice were pointwise, that is, they scored each input independently, which unsurprisingly, is not optimal for general ranking loss functions. We provided a systematic representation theory (and corresponding parameterizations) of general listwise ranking functions.</p>\n<p><br />We also proposed and analyzed a new evaluation measure for clustering along the lines of the classical zero-one loss for classification. Clustering is the task of grouping a set of points, and might seem qualitatively different from the task of classification, which is the task of predicting a categorical response. Indeed, such clustering is an instance of what is known as unsupervised learning, since the training data does not come with labels specifying any target response, which in this case, would be the cluster or group assignments. We nonetheless provided commonalities with the task of classification, and extended some of our earlier results to this setting as well.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/24/2017<br>\n\t\t\t\t\tModified by: Pradeep&nbsp;K&nbsp;Ravikumar</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThere have been tremendous recent successes in the use of machine learning methods across application domains. Most of these successful applications are in classification tasks, where the goal is to predict a categorical response, given input features. These successes are due in part to the well-developed statistical learning theory of classification, particularly binary classification, where we predict a binary response, with the 0-1 loss, which assigns a cost of zero if the prediction is correct, and one otherwise. The 0-1 loss is an instance of a loss function, which quantifies the goodness of any candidate prediction function, or classifier, given training data, and accordingly, can be used to come up with the ``optimal'' classifier given training data. What are the optimal classifiers given the loss function, and how do we estimate these from data in a computationally tractable manner, are some of the questions such a statistical learning theory enables us to answer.\n\n\nIn this project, we aimed to extend this well-developed statistical theory for binary classification with the 0-1 loss, to the setting of ranking objects. Here, the goal is prediction as well, but in contrast to predicting a binary response (is it a cat or not?), we aim to predict a ranking (in what order should these five documents be ranked, in response to a query?). This task is difficult in part because the set of possible orders quickly becomes intractable as a function of the number of objects. For instance, the number of orderings of 60 objects is more than the number of atoms in the universe. But such ranking problems are nonetheless increasingly important in our digital world: ranging from ranking web-pages in response to queries, and ranking ads, to ranking posts in a user news-feed. Due in part to its importance, this has led to an entire sub-field of machine learning, called learning to rank. In contrast to binary classification, with its canonical 0-1 loss function, there is a huge (and growing) diversity of loss functions in the context of ranking. Accordingly, any analytical tools we develop that are highly specialized to a single evaluation metric is unlikely to be useful in the learning to rank landscape with its large number of equally popular loss functions. \n\n\nA key technical challenge of the project was thus to develop a unified framework to answer the following question: given any loss function, what are the optimal prediction functions, and how to estimate these optimal prediction function given training data in a consistent manner; so that with increasing samples, the estimator would converge to the optimal prediction function. Another crucial desideratum is that the estimator be computationally practical. We made the following contributions towards these technical challenges.\n\n\nWe characterized optimal classifiers, as well as provided practical algorithms for estimating these from data, for a broad class of classification problems, including complex loss functions for binary classification, for multi-label problems, where any input could simultaneously have multiple labels, as well as for general structured prediction problems, where the goal is to predict a response that takes values in a finite but large set that has some structure. We also provided scalable classification algorithms for such general loss functions, even under the setting where the number of labels is extremely large. We also provided novel scalable algorithms for the classical problem of empirical risk minimization, for general loss functions: this is the standard approach used to estimate the optimal predictor given a loss function, and we provided approaches to make these computationally practical for general loss functions.\n\n\nWe also provided a representation theory for listwise ranking functions: these are prediction functions that output a ranking of a set of inputs, by predicting ``scores'' for each of the inputs, such that a higher score entails that the input has a higher rank. We identified a curious phenomenon: most ranking functions used in practice were pointwise, that is, they scored each input independently, which unsurprisingly, is not optimal for general ranking loss functions. We provided a systematic representation theory (and corresponding parameterizations) of general listwise ranking functions.\n\n\nWe also proposed and analyzed a new evaluation measure for clustering along the lines of the classical zero-one loss for classification. Clustering is the task of grouping a set of points, and might seem qualitatively different from the task of classification, which is the task of predicting a categorical response. Indeed, such clustering is an instance of what is known as unsupervised learning, since the training data does not come with labels specifying any target response, which in this case, would be the cluster or group assignments. We nonetheless provided commonalities with the task of classification, and extended some of our earlier results to this setting as well.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/24/2017\n\n\t\t\t\t\tSubmitted by: Pradeep K Ravikumar"
+ }
+}

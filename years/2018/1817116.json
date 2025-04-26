@@ -1,0 +1,101 @@
+{
+ "awd_id": "1817116",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Towards Programming Datacenters",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2018-07-01",
+ "awd_exp_date": "2022-06-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2018-06-20",
+ "awd_max_amd_letter_date": "2018-06-20",
+ "awd_abstract_narration": "This project seeks to redefine how developers can exploit the computational power of modern datacenters. Today, developers must specify how each compute job is split across the many machines in a datacenter. This project will allow programmers to merely write programs intended for a single machine; these programs are then transformed (by the technologies developed in this project) into a form that can take advantage of the abundant parallelism available in datacenters. Thus, in this approach, developers are not just programming a single computer, but the entire datacenter.\r\n\r\nThis project leverages the recent advances in serverless computing, and extends its generality by addressing several fundamental questions, such as:\r\n- How can one provide fault tolerance and improved Input/Output performance for both existing and emerging serverless applications?\r\n- How can one efficiently ensure consistency when running serverless applications which might access the same data? \r\n- Can one automatically translate code written to be executed on a single server so it can run in a serverless environment where each execution is only allowed to run for bounded time (after which it is terminated)? \r\n\r\nServerless computing is an increasingly popular paradigm, since it allows application developers to deploy applications without managing individual virtual machines. However, the current approach is incomplete which both impacts its generality (by limiting applications that can be executed) and correctness (since correctly implementing applications requires developers to reason about runtimes and resource access times). This project will eliminate these limitations of serverless computing, thus enabling a larger set of applications to be deployed as serverless applications. This will make it easier to harness the power of datacenters, thereby enabling progress in myriad areas of significant social and commercial importance. \r\n\r\nThe work developed in this project will be placed on a public github repository, with the appropriate documentation so that the technologies are available to all interested parties.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Scott",
+   "pi_last_name": "Shenker",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Scott Shenker",
+   "pi_email_addr": "shenker@icsi.berkeley.edu",
+   "nsf_id": "000241246",
+   "pi_start_date": "2018-06-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "International Computer Science Institute",
+  "inst_street_address": "2150 SHATTUCK AVE",
+  "inst_street_address_2": "SUITE 250",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106662900",
+  "inst_zip_code": "947041345",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "INTERNATIONAL COMPUTER SCIENCE INSTITUTE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GSRMP1QCXU74"
+ },
+ "perf_inst": {
+  "perf_inst_name": "International Computer Science Institute",
+  "perf_str_addr": "1947 Center Street Suite 600",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947041105",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Datacenters have radically redefined the nature of high-end computing. However, harnessing their computing power remains a challenging task. The work performed on this grant addressed these challenges in several ways:</p>\n<ul>\n<li>Providing network support for machine learning algorithms, where we discovered that some of the more widely supported measures are not needed for many current ML algorithms.</li>\n<li>Extending the servless computing paradigm, to provide better performance, fault-tolerance, and consistency, and to allow arbitrary compute intervals.</li>\n<li>Providing automated placement algorithms, so that operators do not have to manually explore different placements.</li>\n<li>Providing better resilience for in-memory applications using persistent memory.</li>\n<li>Exploring novel ring-based consistency algorithms, which achieves higher throughput than current leader-based algorithms, but much lower delay that current ring-based algorithms.</li>\n<li>Providing better support for privacy policies in datacenters though the use of a general enforcement tool between clients and the backend database.</li>\n</ul>\n<p>All of these combine to make datacenters more programmable by allowing developers and operators to state privacy policies independent of the application logic, adapt to ephemeral serverless compute models without having to partition computation into time-limited units, achieve greater resilience without having to widely replicate data, and achieve consensus with higher-throughput and simpler algorithms.<br /><br /></p>\n<p>Much more work remains to turn datacenters into easily programmable infrastructures, but the work funded here is a good start in this direction.</p>\n<dl class=\"clearing\"><dd></dd></dl><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/28/2022<br>\n\t\t\t\t\tModified by: Scott&nbsp;Shenker</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nDatacenters have radically redefined the nature of high-end computing. However, harnessing their computing power remains a challenging task. The work performed on this grant addressed these challenges in several ways:\n\nProviding network support for machine learning algorithms, where we discovered that some of the more widely supported measures are not needed for many current ML algorithms.\nExtending the servless computing paradigm, to provide better performance, fault-tolerance, and consistency, and to allow arbitrary compute intervals.\nProviding automated placement algorithms, so that operators do not have to manually explore different placements.\nProviding better resilience for in-memory applications using persistent memory.\nExploring novel ring-based consistency algorithms, which achieves higher throughput than current leader-based algorithms, but much lower delay that current ring-based algorithms.\nProviding better support for privacy policies in datacenters though the use of a general enforcement tool between clients and the backend database.\n\n\nAll of these combine to make datacenters more programmable by allowing developers and operators to state privacy policies independent of the application logic, adapt to ephemeral serverless compute models without having to partition computation into time-limited units, achieve greater resilience without having to widely replicate data, and achieve consensus with higher-throughput and simpler algorithms.\n\n\n\nMuch more work remains to turn datacenters into easily programmable infrastructures, but the work funded here is a good start in this direction.\n\n\n\t\t\t\t\tLast Modified: 07/28/2022\n\n\t\t\t\t\tSubmitted by: Scott Shenker"
+ }
+}

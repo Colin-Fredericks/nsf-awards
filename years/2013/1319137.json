@@ -1,0 +1,105 @@
+{
+ "awd_id": "1319137",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: A platform for enhancing security of binary code",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 499957.0,
+ "awd_amount": 499957.0,
+ "awd_min_amd_letter_date": "2013-07-19",
+ "awd_max_amd_letter_date": "2013-07-19",
+ "awd_abstract_narration": "Cyberattacks are enabled by software vulnerabilities that allow attackers to plant software exploits. As old vulnerabilities are found and fixed, attackers continue to find new ones. As a result, software vendors, system administrators and security professionals have come to rely increasingly on techniques that insert additional code into software for detecting and/or blocking cyber attacks in progress. This process, called software instrumentation, can be applied to the broadest range of software if it operates on binary format in which most software is distributed, rather than on source code. Moreover, binary based techniques are more general: unlike source-codebased techniques, they are not limited to a particular programming language.\r\n\r\nOne of the major challenges in binary instrumentation is the complexity of modern instruction sets. Accurate instrumentation requires the semantics of all instructions to be captured, since all of the analyses and transformations performed by the instrumentor are based on this semantics. Clearly, this is a daunting task even for a single architecture: the Intel manual describing the x86 instruction set runs to over 1500 pages describing over 1100 instructions. When this task is multiplied across different architectures such as ARM, PowerPC, SPARC, MIPS, etc, the effort involved becomes impractically large. This project will develop a novel approach that avoids the need for modeling instruction sets by leveraging knowledge embedded in retargetable code generators in today's compilers such as GCC. This approach not only simplifies the development of instrumentation, but also makes it applicable to all architectures for which a code generator is available. Using this approach, this project will develop a platform to support efficient, architecture-neutral static instrumentation of commercial off-the-shelf (COTS) binaries. Based on this platform, this project will develop several effective instrumentations for hardening software against common vulnerabilities.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ramasubramanian",
+   "pi_last_name": "Sekar",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ramasubramanian C Sekar",
+   "pi_email_addr": "sekar@cs.sunysb.edu",
+   "nsf_id": "000181956",
+   "pi_start_date": "2013-07-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "SUNY at Stony Brook",
+  "inst_street_address": "W5510 FRANKS MELVILLE MEMORIAL LIBRARY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STONY BROOK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6316329949",
+  "inst_zip_code": "117940001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NY01",
+  "org_lgl_bus_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "M746VC6XMNH9",
+  "org_uei_num": "M746VC6XMNH9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "SUNY at Stony Brook",
+  "perf_str_addr": "Department of Computer Science",
+  "perf_city_name": "Stony Brook",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "117943366",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NY01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 499957.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this project, we proposed to perform research on three major fronts:</p>\n<ul>\n<li>extracting precise semantics of computer instructions that works on many different processor types</li>\n<li>robust techniques that can transform COTS binaries to introduce additional security checks, and</li>\n<li>applications of the above two techniques to achieve specific security objectives on arbitrary applications provided in the form of binary code.</li>\n</ul>\n<p>We have been very successful on all these fronts. Altogether, this project has contributed to over 30 refereed publications that have been cited nearly a thousand times on Google scholar.</p>\n<p>We developed two novel approaches for processor-independent instruction semantics extraction. Both approaches relied on the observation made in the proposal that instruction semantics for numerous processors is already encoded into the implementation of today's compilers. Our first approach was based on a novel learning algorithm that relied on the GCC compiler to generate its training input. Specifically, we used GCC to compile numerous software packages and generate RTL (the intermediate code used by GCC) and corresponding processor instructions. Our algorithm was exceptionally effective, achieving 99.5% coverage across all of the binary packages on default distributions of Ubuntu Linux operating system. Increasing the coverage to 100% required manual modeling of a handful of instructions. We achieved nearly identical results for Intel and ARM processors, and further demonstrated our results on AVR, the processor used in the popular Arduino microcontroller platform.</p>\n<p>We also developed a second novel approach that was based on symbolic execution of GCC's code generator. We developed a new symbolic execution engine for this problem. Because our engine was customized for this problem, it was able to perform all-paths symbolic execution of GCC's entire x86 code generator, which ensured that the semantics we extracted was complete with respect to the instructions used by GCC. We also proved the soundness of our approach. We have released these systems as open-source packages, available from our laboratory web site: <span style=\"white-space: pre;\"> </span>http://seclab.cs.sunysb.edu/seclab/download.html</p>\n<p>We also developed a robust static binary instrumentation approach. Our paper describing this approach won the \"Best paper award\" at USENIX Security symposium, the leading forum for papers on computer system security. We showed that our approach scales to very large and complex binaries, and supports COTS binaries and dynamic libraries. Subsequently, we showed that our approach can achieve efficient instrumentation, while competing approaches, all of which rely on runtime transformation of binaries, typically slow down programs several-fold, with the slowdown approaching or exceeding an order of magnitude in some cases. Our system has been released as a open-source package.</p>\n<p>We have developed several new binary analysis and security-enhancing instrumentations using our approach. This includes:</p>\n<ul>\n<li>A robust implementation of shadow stacks, a defense against the most common type of exploit prevalent today, called ROP exploit. Previous approaches suffered from false positives (which lead to application termination) on complex binaries. In contrast, by using the detailed instruction semantics we extracted using our approach, we were able to develop a highly precise analysis that was able to avoid these false positives.</li>\n<li>A robust implementation of control-flow integrity, another important defense measure against common exploits. Unlike previous approaches, ours works on COTS binaries, and on large and complex code. Its performance overhead was modest, at about 15%.</li>\n<li>A principled approach for defeating real-world control-flow hijack attacks by blocking all attempts to inject or load any new code that isn't previously authorized. Our approach provides a strong guarantee against such attacks.</li>\n<li>A novel binary code analysis for accurate identification of functions in COTS binaries. Our approach achieved better than a 4-fold reduction the best error rates achieved by previous techniques.</li>\n<li>A new defense against disclosure-guided code reuse attacks, such as just-in-time ROP attacks.Unlike previous approaches that required source code access, our approach works on COTS binaries.</li>\n</ul>\n<p>Each of the three major fronts mentioned earlier led to one PhD dissertation. In addition, the dissertation of 4 other PhD students were partly supported by this project. A total of four open-source software releases have resulted from this project.</p>\n<p>The results achieved in this project formed the basis of a new project that is currently funded by ONR. The goal of this large 5-year project is to develop novel binary analysis and instrumentation techniques for hardening binary code, reducing its attack surface by removing unnecessary code and restricting the use remaining code, and improve performance through \"debloating,\" i.e., the removal of unneeded libraries and unneeded indirection.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/28/2018<br>\n\t\t\t\t\tModified by: R&nbsp;C&nbsp;Sekar</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn this project, we proposed to perform research on three major fronts:\n\nextracting precise semantics of computer instructions that works on many different processor types\nrobust techniques that can transform COTS binaries to introduce additional security checks, and\napplications of the above two techniques to achieve specific security objectives on arbitrary applications provided in the form of binary code.\n\n\nWe have been very successful on all these fronts. Altogether, this project has contributed to over 30 refereed publications that have been cited nearly a thousand times on Google scholar.\n\nWe developed two novel approaches for processor-independent instruction semantics extraction. Both approaches relied on the observation made in the proposal that instruction semantics for numerous processors is already encoded into the implementation of today's compilers. Our first approach was based on a novel learning algorithm that relied on the GCC compiler to generate its training input. Specifically, we used GCC to compile numerous software packages and generate RTL (the intermediate code used by GCC) and corresponding processor instructions. Our algorithm was exceptionally effective, achieving 99.5% coverage across all of the binary packages on default distributions of Ubuntu Linux operating system. Increasing the coverage to 100% required manual modeling of a handful of instructions. We achieved nearly identical results for Intel and ARM processors, and further demonstrated our results on AVR, the processor used in the popular Arduino microcontroller platform.\n\nWe also developed a second novel approach that was based on symbolic execution of GCC's code generator. We developed a new symbolic execution engine for this problem. Because our engine was customized for this problem, it was able to perform all-paths symbolic execution of GCC's entire x86 code generator, which ensured that the semantics we extracted was complete with respect to the instructions used by GCC. We also proved the soundness of our approach. We have released these systems as open-source packages, available from our laboratory web site:  http://seclab.cs.sunysb.edu/seclab/download.html\n\nWe also developed a robust static binary instrumentation approach. Our paper describing this approach won the \"Best paper award\" at USENIX Security symposium, the leading forum for papers on computer system security. We showed that our approach scales to very large and complex binaries, and supports COTS binaries and dynamic libraries. Subsequently, we showed that our approach can achieve efficient instrumentation, while competing approaches, all of which rely on runtime transformation of binaries, typically slow down programs several-fold, with the slowdown approaching or exceeding an order of magnitude in some cases. Our system has been released as a open-source package.\n\nWe have developed several new binary analysis and security-enhancing instrumentations using our approach. This includes:\n\nA robust implementation of shadow stacks, a defense against the most common type of exploit prevalent today, called ROP exploit. Previous approaches suffered from false positives (which lead to application termination) on complex binaries. In contrast, by using the detailed instruction semantics we extracted using our approach, we were able to develop a highly precise analysis that was able to avoid these false positives.\nA robust implementation of control-flow integrity, another important defense measure against common exploits. Unlike previous approaches, ours works on COTS binaries, and on large and complex code. Its performance overhead was modest, at about 15%.\nA principled approach for defeating real-world control-flow hijack attacks by blocking all attempts to inject or load any new code that isn't previously authorized. Our approach provides a strong guarantee against such attacks.\nA novel binary code analysis for accurate identification of functions in COTS binaries. Our approach achieved better than a 4-fold reduction the best error rates achieved by previous techniques.\nA new defense against disclosure-guided code reuse attacks, such as just-in-time ROP attacks.Unlike previous approaches that required source code access, our approach works on COTS binaries.\n\n\nEach of the three major fronts mentioned earlier led to one PhD dissertation. In addition, the dissertation of 4 other PhD students were partly supported by this project. A total of four open-source software releases have resulted from this project.\n\nThe results achieved in this project formed the basis of a new project that is currently funded by ONR. The goal of this large 5-year project is to develop novel binary analysis and instrumentation techniques for hardening binary code, reducing its attack surface by removing unnecessary code and restricting the use remaining code, and improve performance through \"debloating,\" i.e., the removal of unneeded libraries and unneeded indirection.\n\n\t\t\t\t\tLast Modified: 12/28/2018\n\n\t\t\t\t\tSubmitted by: R C Sekar"
+ }
+}

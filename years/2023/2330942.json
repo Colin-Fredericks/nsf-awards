@@ -1,0 +1,106 @@
+{
+ "awd_id": "2330942",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Expediting Solutions to Hard Multi-Robot Path Finding Instances",
+ "cfda_num": "47.041, 47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924702",
+ "po_email": "cye@nsf.gov",
+ "po_sign_block_name": "Cang Ye",
+ "awd_eff_date": "2023-11-01",
+ "awd_exp_date": "2026-10-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2023-09-11",
+ "awd_max_amd_letter_date": "2023-09-11",
+ "awd_abstract_narration": "How can many independent robots completing tasks in a shared space move about safely without collisions? There are many scenarios where using many robots working together can improve efficiency, safety, and quality of life. For example, self-driving cars can move people quickly, safely, and efficiently, while reducing delays and vehicular accidents. Warehouse robots can pick and pack items without humans walking around a giant warehouse, which can lead to the human employees\u2019 exhaustion and repetitive injuries. Autonomous drones delivering residential packages can reduce vehicular traffic on the road and provide reliable and extremely quick delivery. Coordinating many robots safely and efficiently in cluttered environments is fundamentally important in these and many other current and future real-world problems. As robots become an increasingly common element of our society, multi-robot coordination will grow exponentially in importance. In this project, we will try to deepen our understanding of the problem of collision-free path finding for many robots in a shared space. The problem of optimally coordinating many robots to maximize efficiency or speed while avoiding collisions is extremely computationally intensive. While there exist a large array of algorithms that can solve these problems, each of these algorithms excel in some instances but flop in others. Currently, experts in solving this problem have a general sense of which algorithms will handle certain instances of a planning problem, but having an expert in the loop is not feasible for large-scale deployment, for example, in self-driving cars or drone package delivery. In this project, we will take a data-driven approach to understanding under what conditions solvers excel, and under what conditions they stumble. The goal of this project is to find novel ways to break down large problems into smaller subproblems that can be more easily solved and understand the gaps that exist in the current array of solvers, so that future solvers can be developed to address those gaps. \r\n\r\nThe problem of finding collision-free paths for multiple agents from start vertices to assigned goal vertices in a graph, known as the labeled multi-agent path finding (MAPF) problem, is NP-Hard. Labeled MAPF is well studied, with many optimal solvers available; however, they are not able to scale to the number of robots present in some modern multi-robot systems, such as autonomous warehouses. Rather than develop new MAPF solvers, this research will use existing machine learning techniques to leverage the strengths of existing labeled MAPF solvers, producing new techniques and algorithms that will allow scaling up for application to large robot swarms and will solve instances that existing solvers cannot yet solve. The approach is threefold. First, the team will exploit the strengths of MAPF solvers by using machine learning to train an algorithm selector to predict the fastest MAPF solver for a particular instance from a portfolio of solvers.  Second, they will develop methods for effective decomposition of large MAPF instances into smaller sub-instances that can be solved in parallel using solvers selected by our algorithm selector, increasing speed and scale.  Finally, they will develop methods for estimating the empirical hardness of a MAPF instance, i.e., how long each solver will take to solve an instance. Results will be evaluated using established metrics for MAPF solvers, measuring the number of new instances our algorithms solve, and progressively demonstrating them in simulations with hundreds of robots. This project will significantly improve the tractability of many-robot path finding and provide understanding of the hardness of the problem at scale. It will expand the limited understanding of what makes some MAPF instances challenging; develop novel algorithms and techniques to enhance existing and future MAPF algorithms; and significantly increasing the number of robots for which optimal non-colliding paths can be found. It will also produce the largest benchmarking of optimal MAPF solvers to date and help other MAPF researchers understand the strengths and weaknesses of existing MAPF solvers. The work is at the intersection of robotics and combinatorial optimization and will be instantly impactful to those communities. The results will significantly improve planning performance for many-robot systems, and thus will have far-reaching impacts in robotic warehousing, autonomous vehicles, autonomous delivery, just-in-time manufacturing, and many other fields.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nora",
+   "pi_last_name": "Ayanian",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nora Ayanian",
+   "pi_email_addr": "nora_ayanian@brown.edu",
+   "nsf_id": "000656126",
+   "pi_start_date": "2023-09-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Brown University",
+  "inst_street_address": "1 PROSPECT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "PROVIDENCE",
+  "inst_state_code": "RI",
+  "inst_state_name": "Rhode Island",
+  "inst_phone_num": "4018632777",
+  "inst_zip_code": "029129100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "RI01",
+  "org_lgl_bus_name": "BROWN UNIVERSITY",
+  "org_prnt_uei_num": "E3FDXZ6TBHW3",
+  "org_uei_num": "E3FDXZ6TBHW3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Brown University",
+  "perf_str_addr": "1 PROSPECT ST",
+  "perf_city_name": "PROVIDENCE",
+  "perf_st_code": "RI",
+  "perf_st_name": "Rhode Island",
+  "perf_zip_code": "029129127",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "RI01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "144Y00",
+   "pgm_ele_name": "FRR-Foundationl Rsrch Robotics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "075Z",
+   "pgm_ref_txt": "Artificial Intelligence (AI)"
+  },
+  {
+   "pgm_ref_code": "6840",
+   "pgm_ref_txt": "ROBOTICS"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 600000.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,109 @@
+{
+ "awd_id": "1420673",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Collaborative Research: Concurrent Programming with Composable Transactional Objects",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2014-07-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 249997.0,
+ "awd_amount": 249997.0,
+ "awd_min_amd_letter_date": "2014-06-17",
+ "awd_max_amd_letter_date": "2014-06-17",
+ "awd_abstract_narration": "SHF: Small: Collaborative Research: Concurrent Programming with Composable Transactional Objects\r\n\r\nWith multicore architectures becoming increasingly prevalent, the problem of constructing scalable and efficient concurrent software has attracted increasing attention.  There has been growing interest in programming models that allow programmers to demarcate regions of thread code---so-called transactions---that should appear to occur atomically, when viewed from the perspective of other threads.\r\n\r\nThe premise of this project is that current, monolithic software transactional memory (STM) designs are inherently too inefficient and permit too little parallelism.  Instead we propose a very different approach: a library of customized concurrent data structures that can be composed, through a very light-weight run-time, to form transactions.  Each data structure is optimized to exploit the semantics of its type.  The intellectual merits are the development of new type-specific synchronization and recovery algorithms, along with formal tools to reason about their correctness.  These ideas will be embodied in a novel concurrency library and verification toolkit, which will be used to construct benchmarks and applications.  The boarder impacts involve incorporating concurrency into education and the potential to benefit society through higher performing, more reliable, and less expensive software.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Maurice",
+   "pi_last_name": "Herlihy",
+   "pi_mid_init": "P",
+   "pi_sufx_name": "",
+   "pi_full_name": "Maurice P Herlihy",
+   "pi_email_addr": "herlihy@cs.brown.edu",
+   "nsf_id": "000333742",
+   "pi_start_date": "2014-06-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Brown University",
+  "inst_street_address": "1 PROSPECT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "PROVIDENCE",
+  "inst_state_code": "RI",
+  "inst_state_name": "Rhode Island",
+  "inst_phone_num": "4018632777",
+  "inst_zip_code": "029129100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "RI01",
+  "org_lgl_bus_name": "BROWN UNIVERSITY",
+  "org_prnt_uei_num": "E3FDXZ6TBHW3",
+  "org_uei_num": "E3FDXZ6TBHW3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Brown University",
+  "perf_str_addr": "115 Waterman Street",
+  "perf_city_name": "Providence",
+  "perf_st_code": "RI",
+  "perf_st_name": "Rhode Island",
+  "perf_zip_code": "029121910",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "RI01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 249997.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Modern computer systems have become highly parallel: they are capable of doing several things at the same time. Co-ordinating many parallel activities can be a challenge because parallel activities can interact in complex and unforeseen ways. \"Transactional Memory\" has emerged as a promising approach to organizing parallel activities in a safe and efficient manner. Actions are organized in atomic units called transactions, and each transaction appears to take place atomically with respect to other transactions.</p>\n<p>This project's goal is to support a transactional model of programming without a heavyweight software transactional memory. Instead of programming on top of a monolithic STM that automatically tracks and records every single read or write access, applications are constructed from a library of composable transactional objects that \"snap together\" to form atomic transactions, in much the same way that today&rsquo;s Java programmers compose their applications from libraries. The major goals are to develop theory, algorithms, and implementations for a system of Composable Transactional Objects (CTO).</p>\n<p>The project designed, implemented, and tested the Proust transactional framework, a novel way to integrate libaries of transactional objects on top of a software transactional memory system. The project also designed, implemented, and tested a novel application of transactional object libraries in the form of a proposal to add concurrent execution to \"smart contracts\" used by cryptocurrencies such as Ethereum.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/16/2017<br>\n\t\t\t\t\tModified by: Maurice&nbsp;Herlihy</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nModern computer systems have become highly parallel: they are capable of doing several things at the same time. Co-ordinating many parallel activities can be a challenge because parallel activities can interact in complex and unforeseen ways. \"Transactional Memory\" has emerged as a promising approach to organizing parallel activities in a safe and efficient manner. Actions are organized in atomic units called transactions, and each transaction appears to take place atomically with respect to other transactions.\n\nThis project's goal is to support a transactional model of programming without a heavyweight software transactional memory. Instead of programming on top of a monolithic STM that automatically tracks and records every single read or write access, applications are constructed from a library of composable transactional objects that \"snap together\" to form atomic transactions, in much the same way that today?s Java programmers compose their applications from libraries. The major goals are to develop theory, algorithms, and implementations for a system of Composable Transactional Objects (CTO).\n\nThe project designed, implemented, and tested the Proust transactional framework, a novel way to integrate libaries of transactional objects on top of a software transactional memory system. The project also designed, implemented, and tested a novel application of transactional object libraries in the form of a proposal to add concurrent execution to \"smart contracts\" used by cryptocurrencies such as Ethereum.\n\n\t\t\t\t\tLast Modified: 08/16/2017\n\n\t\t\t\t\tSubmitted by: Maurice Herlihy"
+ }
+}

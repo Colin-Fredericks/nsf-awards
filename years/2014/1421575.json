@@ -1,0 +1,113 @@
+{
+ "awd_id": "1421575",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:  Small:  Scalable and Maximal Predictive Runtime Verification for Concurrent Software",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2014-07-02",
+ "awd_max_amd_letter_date": "2014-07-02",
+ "awd_abstract_narration": "The increasingly widespread use of multicore processors, whose computing power\r\ncan only be unleashed by concurrent software, makes software defects, or bugs,\r\nbecome more common and labor-intensive to detect and repair.  Runtime verification\r\nis a novel analysis approach that extracts information from a running system and\r\nuses it to detect and possibly react to observed behaviors satisfying or violating\r\ncertain properties.  Runtime verification scales well and avoids the complexity of\r\ntraditional formal verification techniques. The techniques developed in this project \r\nwill lead to robust production quality software by providing a scalable alternative \r\nto formal verification that provides many of the same guarantees for safety and security.\r\n\r\nThis project aims to develop a scalable predictive runtime verification framework\r\nfor concurrent software.  A major technical advancement over prior art is that it\r\nnot only detects errors when they occur at runtime, but is able to predict general\r\nsecurity and safety property violations before they actually surface, preventing\r\nbad behaviors from happening by taking proper actions defined by the users.  This\r\nproject builds upon a sound and maximal causal model, hereby providing the provably\r\nmaximum possible prediction power on the observed trace with no false alarms.  The\r\ncore research insight of this work is to explore the maximal causality of concurrency\r\nwith automated constraint solving, which has been studied for decades and is becoming\r\nincreasingly powerful.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Grigore",
+   "pi_last_name": "Rosu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Grigore Rosu",
+   "pi_email_addr": "grosu@illinois.edu",
+   "nsf_id": "000488532",
+   "pi_start_date": "2014-07-02",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618207473",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "689200",
+   "pgm_ele_name": "CI REUSE"
+  },
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Software concurrency errors have caused catastrophic failures, such as securitybreaches and even loss of human life.&nbsp; Moreover, due to their non-deterministic nature and huge search space, concurrency errors are hard to detect and reproduce.&nbsp; The methods and tools developed in this project help in increasing the reliability of concurrent computer software.&nbsp; Specifically, this project has developed a technique and tools that allow us topredict concurrency errors by observing and analyzing system executions.&nbsp; Two fundamental aspects of the resulting technology are that it is sound, that is all the reported errors are real errors (no false positives), and it ismaximal, that is it misses no error in the observed execution.&nbsp; The key idea is to generate a mathematical formula from the observed execution, whose solutions capture precisely all the concurrency bugs.&nbsp; The solutions of the formula are then computed using off-the-shelf solvers.&nbsp; We have extended the main technique to also work in the context of symbolic program verification, as an advanced partial-order behavior reduction method.</p>\n<p><br />The methods, tools, and products produced as the result of this project have a significant positive impact on the reliability of concurrent production systems.&nbsp; Many disciplines rely on software systems that have multithreaded or distributed components, which are prone to concurrency errors.&nbsp; Consequently, such disciplines will directly or indirectly benefit from having atool that can automatically predict such errors.&nbsp; Moreover, this project has generated fourteen (14) journal and conference publications, two (2) graduate theses, and one (1) US patent, and the proposed technique has been incorporated in product commercialized by Runtime Verification, Inc., a startup founded by the PI.&nbsp; The students funded by this project have gained significant experience insoftware testing and verification, and are now considered runtime verificationexperts by the community.&nbsp; The PI has proposed and taught a new advanced course on Runtime Verification, which includes the predictive runtime analysis technique developed in this project, and has given various tutorials and seminars, in addition to conference presentations.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/13/2019<br>\n\t\t\t\t\tModified by: Grigore&nbsp;Rosu</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800373537_Capture4-NSF--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800373537_Capture4-NSF--rgov-800width.jpg\" title=\"Tool Overview\"><img src=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800373537_Capture4-NSF--rgov-66x44.jpg\" alt=\"Tool Overview\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Overview of our general predictive runtime analysis tool, GPredict.</div>\n<div class=\"imageCredit\">Own presentation (ICSE'15)</div>\n<div class=\"imageSubmitted\">Grigore&nbsp;Rosu</div>\n<div class=\"imageTitle\">Tool Overview</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800139686_Capture2-NSF--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800139686_Capture2-NSF--rgov-800width.jpg\" title=\"Predictive Trace Analysis\"><img src=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800139686_Capture2-NSF--rgov-66x44.jpg\" alt=\"Predictive Trace Analysis\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Predictive trace analysis is more precise than static analysis and more powerful than ordinary dynamic analysis.</div>\n<div class=\"imageCredit\">Own presentation (ICSE'15)</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Grigore&nbsp;Rosu</div>\n<div class=\"imageTitle\">Predictive Trace Analysis</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800283915_Capture3-NSF--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800283915_Capture3-NSF--rgov-800width.jpg\" title=\"Key Idea\"><img src=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800283915_Capture3-NSF--rgov-66x44.jpg\" alt=\"Key Idea\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The key idea of our approach is to reduce the problem of predicting concurrency bugs to solving constraints using efficient, off-the-shelf solvers.</div>\n<div class=\"imageCredit\">Own presentation (ICSE'15)</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Grigore&nbsp;Rosu</div>\n<div class=\"imageTitle\">Key Idea</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800022031_Capture1-NSF--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800022031_Capture1-NSF--rgov-800width.jpg\" title=\"Concurrency Bugs\"><img src=\"/por/images/Reports/POR/2019/1421575/1421575_10315317_1557800022031_Capture1-NSF--rgov-66x44.jpg\" alt=\"Concurrency Bugs\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Concurrency bugs can be catastrophic and hard to detect.</div>\n<div class=\"imageCredit\">Own presentation (ICSE'15)</div>\n<div class=\"imagePermisssions\">Copyright owner is an institution with an existing agreement allowing use by NSF</div>\n<div class=\"imageSubmitted\">Grigore&nbsp;Rosu</div>\n<div class=\"imageTitle\">Concurrency Bugs</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nSoftware concurrency errors have caused catastrophic failures, such as securitybreaches and even loss of human life.  Moreover, due to their non-deterministic nature and huge search space, concurrency errors are hard to detect and reproduce.  The methods and tools developed in this project help in increasing the reliability of concurrent computer software.  Specifically, this project has developed a technique and tools that allow us topredict concurrency errors by observing and analyzing system executions.  Two fundamental aspects of the resulting technology are that it is sound, that is all the reported errors are real errors (no false positives), and it ismaximal, that is it misses no error in the observed execution.  The key idea is to generate a mathematical formula from the observed execution, whose solutions capture precisely all the concurrency bugs.  The solutions of the formula are then computed using off-the-shelf solvers.  We have extended the main technique to also work in the context of symbolic program verification, as an advanced partial-order behavior reduction method.\n\n\nThe methods, tools, and products produced as the result of this project have a significant positive impact on the reliability of concurrent production systems.  Many disciplines rely on software systems that have multithreaded or distributed components, which are prone to concurrency errors.  Consequently, such disciplines will directly or indirectly benefit from having atool that can automatically predict such errors.  Moreover, this project has generated fourteen (14) journal and conference publications, two (2) graduate theses, and one (1) US patent, and the proposed technique has been incorporated in product commercialized by Runtime Verification, Inc., a startup founded by the PI.  The students funded by this project have gained significant experience insoftware testing and verification, and are now considered runtime verificationexperts by the community.  The PI has proposed and taught a new advanced course on Runtime Verification, which includes the predictive runtime analysis technique developed in this project, and has given various tutorials and seminars, in addition to conference presentations.\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 05/13/2019\n\n\t\t\t\t\tSubmitted by: Grigore Rosu"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1525749",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Collaborative Research: Variation-Resilient VLSI Systems with Cross-Layer Controlled Approximation",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927843",
+ "po_email": "sabasu@nsf.gov",
+ "po_sign_block_name": "Sankar Basu",
+ "awd_eff_date": "2015-08-01",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 210000.0,
+ "awd_amount": 210000.0,
+ "awd_min_amd_letter_date": "2015-07-29",
+ "awd_max_amd_letter_date": "2015-07-29",
+ "awd_abstract_narration": "Applications driven by human-computer interactions through the five human senses are projected to underpin the next generation of computing. For many of these applications, occasional small errors are often not only acceptable but also bring opportunities for building lighter, cheaper, and more robust systems that use less energy and may have a longer battery life. This project will study how to advance computing technology by allowing deliberate imprecision in hardware implementations through the notion of approximate computing.  The outcomes of this project will be a set of design techniques for approximate computing that can become a key component of hardware computing technology, potentially benefiting systems ranging from high performance computing for big data analytics and low power implementation for internet of things. This project will also provide an opportunity for training students with the latest design and computing technology.\r\n \r\nThe research goals of this project are to create new approximate computing techniques to optimize a system at all stages of its life, from design-time to runtime, which can enable cross-layer control of performance-power-precision trade-offs. The research agenda consists of several components. First, new error models with different accuracy-complexity trade-offs will be developed. Second, new design-time optimization techniques, especially hardware resource scheduling and binding in high-level synthesis, will be studied with consideration of approximation, variation, and runtime circuit reconfiguration. Third, compile-time and operating-system-level task mapping/scheduling algorithms will be investigated to make the best use of circuits with various precisions. Last but not least, runtime precision control techniques will be explored in conjunction with dynamic voltage and frequency scaling in order to achieve a smooth trade-off between power and user experience.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jiang",
+   "pi_last_name": "Hu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jiang Hu",
+   "pi_email_addr": "jianghu@ece.tamu.edu",
+   "nsf_id": "000386657",
+   "pi_start_date": "2015-07-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Texas A&M Engineering Experiment Station",
+  "inst_street_address": "3124 TAMU",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE STATION",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "9798626777",
+  "inst_zip_code": "778433124",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "TX10",
+  "org_lgl_bus_name": "TEXAS A&M ENGINEERING EXPERIMENT STATION",
+  "org_prnt_uei_num": "QD1MX6N5YTN4",
+  "org_uei_num": "QD1MX6N5YTN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Texasa Engineering Experiment Station",
+  "perf_str_addr": "3128 TAMU",
+  "perf_city_name": "College Station",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "778433128",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "TX10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7945",
+   "pgm_ref_txt": "DES AUTO FOR MICRO & NANO SYST"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 210000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Approximate computing is to intentionally allow occasional small errors in computing in exchange for reduced computing runtime, energy or circuit area. The goal of this project is to advance the state-of-art of approximate computing at multiple fronts. The outcomes of this project are summarized as follows.</p>\n<ul>\n<li>Accuracy-configurable adder design</li>\n</ul>\n<p>A low overhead accuracy configurable adder design is developed. It can be configured to different accuracy and power dissipations. Compared to accurate adder design, it can reduce power by 84% with the same performance. It leads to about 39% lower area overhead than previous works and yet achieves better power-performance-accuracy tradeoff. Moreover, a self-configuration scheme is provided along with the design, in contrast to the previous related works that assume the configuration by users. Theoretical results on the errors of the adder design are also derived. The efficacy of the adder design is validated in multiplier and image processing.&nbsp;</p>\n<ul>\n<li>Built-in self-optimization for variation resilience</li>\n</ul>\n<p>In such a circuit system, there is a self-test component to evaluate circuit response. The response is fed to a cost function circuit that calculate the difference from ideal responses. Based on the cost function values, a circuit performs optimization to configure certain tuning knobs to compensate the harmful effect from process variations. Such self-optimization can generate compensation according to individual variations and therefore can avoid the conventional over-design for variation tolerance, which tends to have much greater power overhead. Experimental results indicate that the self-optimization can reduce the process variation effect by as much as 80%.</p>\n<ul>\n<li>Approximate computing in high level synthesis</li>\n</ul>\n<p>In high level synthesis, time and hardware resources are allocated and assigned to computing operations at design time. In the past, high level synthesis has been mostly focused on performance and power tradeoff. When approximate computing is included as computing functional units, both delay and power can be potentially reduced. However, the approximation errors need to be controlled as well, and thus high level synthesis techniques in this project considers the performance-power-accuracy tradeoff. An analytical error model that is friendly to optimization use is developed. Two new high level synthesis approaches are investigated. In the first approach, all of time, hardware resource and use of approximation are simultaneous optimized through mathematical programming. This approach can reduce energy consumption by 40% with bounded errors and delays. The second approach is a sequential heuristic consisting of a precision optimization and a conventional high level synthesis step. This approach is much more scalable with slight solution degradation.</p>\n<ul>\n<li>Approximate computing in non-preemptive real-time scheduling</li>\n</ul>\n<p>In order to guarantee satisfying all the deadline constraints, the computation execution time estimation in real-time scheduling has been overly conservative. If a timing deficit at runtime is compensated by performing approximate computing, which has much shorter execution time, the estimation is no longer necessary to be overly conservative. The techniques developed in this research not only make use of approximate computing to reduce the pessimism in execution time estimation, which causes resource under-utilization or waste, but also maximize the chance of actually use precise computing if the condition allows. Experimental results show that our techniques can avoid the 23% deadline violations occurred in using precise computing. Compared to constantly using approximate computing, our techniques can reduce computing errors by 47% on average.</p>\n<ul>\n<li>Approximate computing in mixed-criticality system scheduling on multiprocessors</li>\n</ul>\n<p>In the field of real-time scheduling, a recent trend for addressing the pessimistic execution time estimation is the mixed criticality model. In this model, tasks are categorized into low-criticality and high-criticality tasks while the system operation has low-criticality and high-criticality mode. A less conservative execution time estimation is employed in the low-criticality mode. In case the actual execution exceeds the estimation, the system enters high-criticality mode, where the high-criticality tasks use a much more conservative execution time estimation. At the same time, all low-criticality tasks are dropped, and this dropping is controversial. The techniques developed in this research is to perform low-criticality tasks in approximation instead of completely abandoning them. An offline precision optimization method that maximizes precise computing is developed. In addition, a new technique is developed to defer the transition from low-criticality mode to high-criticality mode, which alleviate the pessimism in the high-criticality mode.&nbsp;&nbsp;</p>\n<p>Broader Impact</p>\n<p>The techniques developed in this research constitute a major progress of the approximate computing technology that helps improve the efficiency of overall computing technology. The knowledge obtained in this project has been disseminated through technical journal and conference publications. Students are trained with interdisciplinary skills on circuit design, optimization and real-time systems. &nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/06/2019<br>\n\t\t\t\t\tModified by: Jiang&nbsp;Hu</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1525749/1525749_10381499_1565147734774_ApproximationImage--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1525749/1525749_10381499_1565147734774_ApproximationImage--rgov-800width.jpg\" title=\"Comparison of approximate adders on image processing.\"><img src=\"/por/images/Reports/POR/2019/1525749/1525749_10381499_1565147734774_ApproximationImage--rgov-66x44.jpg\" alt=\"Comparison of approximate adders on image processing.\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">(a) is the image from precise computing. (b), (c) and (d) are images from using our approximate adders. (e) and (f) are images from previous works on approximate adders.</div>\n<div class=\"imageCredit\">Xu, W., et al, TVLSI 2018.</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Jiang&nbsp;Hu</div>\n<div class=\"imageTitle\">Comparison of approximate adders on image processing.</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nApproximate computing is to intentionally allow occasional small errors in computing in exchange for reduced computing runtime, energy or circuit area. The goal of this project is to advance the state-of-art of approximate computing at multiple fronts. The outcomes of this project are summarized as follows.\n\nAccuracy-configurable adder design\n\n\nA low overhead accuracy configurable adder design is developed. It can be configured to different accuracy and power dissipations. Compared to accurate adder design, it can reduce power by 84% with the same performance. It leads to about 39% lower area overhead than previous works and yet achieves better power-performance-accuracy tradeoff. Moreover, a self-configuration scheme is provided along with the design, in contrast to the previous related works that assume the configuration by users. Theoretical results on the errors of the adder design are also derived. The efficacy of the adder design is validated in multiplier and image processing. \n\nBuilt-in self-optimization for variation resilience\n\n\nIn such a circuit system, there is a self-test component to evaluate circuit response. The response is fed to a cost function circuit that calculate the difference from ideal responses. Based on the cost function values, a circuit performs optimization to configure certain tuning knobs to compensate the harmful effect from process variations. Such self-optimization can generate compensation according to individual variations and therefore can avoid the conventional over-design for variation tolerance, which tends to have much greater power overhead. Experimental results indicate that the self-optimization can reduce the process variation effect by as much as 80%.\n\nApproximate computing in high level synthesis\n\n\nIn high level synthesis, time and hardware resources are allocated and assigned to computing operations at design time. In the past, high level synthesis has been mostly focused on performance and power tradeoff. When approximate computing is included as computing functional units, both delay and power can be potentially reduced. However, the approximation errors need to be controlled as well, and thus high level synthesis techniques in this project considers the performance-power-accuracy tradeoff. An analytical error model that is friendly to optimization use is developed. Two new high level synthesis approaches are investigated. In the first approach, all of time, hardware resource and use of approximation are simultaneous optimized through mathematical programming. This approach can reduce energy consumption by 40% with bounded errors and delays. The second approach is a sequential heuristic consisting of a precision optimization and a conventional high level synthesis step. This approach is much more scalable with slight solution degradation.\n\nApproximate computing in non-preemptive real-time scheduling\n\n\nIn order to guarantee satisfying all the deadline constraints, the computation execution time estimation in real-time scheduling has been overly conservative. If a timing deficit at runtime is compensated by performing approximate computing, which has much shorter execution time, the estimation is no longer necessary to be overly conservative. The techniques developed in this research not only make use of approximate computing to reduce the pessimism in execution time estimation, which causes resource under-utilization or waste, but also maximize the chance of actually use precise computing if the condition allows. Experimental results show that our techniques can avoid the 23% deadline violations occurred in using precise computing. Compared to constantly using approximate computing, our techniques can reduce computing errors by 47% on average.\n\nApproximate computing in mixed-criticality system scheduling on multiprocessors\n\n\nIn the field of real-time scheduling, a recent trend for addressing the pessimistic execution time estimation is the mixed criticality model. In this model, tasks are categorized into low-criticality and high-criticality tasks while the system operation has low-criticality and high-criticality mode. A less conservative execution time estimation is employed in the low-criticality mode. In case the actual execution exceeds the estimation, the system enters high-criticality mode, where the high-criticality tasks use a much more conservative execution time estimation. At the same time, all low-criticality tasks are dropped, and this dropping is controversial. The techniques developed in this research is to perform low-criticality tasks in approximation instead of completely abandoning them. An offline precision optimization method that maximizes precise computing is developed. In addition, a new technique is developed to defer the transition from low-criticality mode to high-criticality mode, which alleviate the pessimism in the high-criticality mode.  \n\nBroader Impact\n\nThe techniques developed in this research constitute a major progress of the approximate computing technology that helps improve the efficiency of overall computing technology. The knowledge obtained in this project has been disseminated through technical journal and conference publications. Students are trained with interdisciplinary skills on circuit design, optimization and real-time systems.  \n\n \n\n\t\t\t\t\tLast Modified: 08/06/2019\n\n\t\t\t\t\tSubmitted by: Jiang Hu"
+ }
+}

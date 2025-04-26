@@ -1,0 +1,101 @@
+{
+ "awd_id": "2119154",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: PPoSS: Planning: Extreme-scale Sparse Data Analytics",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Damian Dechev",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2023-06-30",
+ "tot_intn_awd_amt": 49999.0,
+ "awd_amount": 49999.0,
+ "awd_min_amd_letter_date": "2021-08-30",
+ "awd_max_amd_letter_date": "2021-08-30",
+ "awd_abstract_narration": "The graph data structure is used for storing and manipulating relational data. Tensors are a higher-order generalization of the two-dimensional matrix representation. Both graphs and tensors are used in exploratory and automated data analysis. Applications areas include cybersecurity, complex system analysis, and personalized healthcare. There exist a myriad of known algorithms for typical data analysis tasks in these areas. For instance, the problem of community identification in graphs, referring to automatically identifying well-connected groups of vertices in graphs, has dozens of algorithms. Analogous to the singular value decomposition in matrices, several tensor factorizations exist with diverse use-cases. Both graph algorithms and tensor factorizations use computer storage formats inspired by matrix computations. This project focuses on data analysis use-cases that result in large-scale graphs and tensors, necessitating parallel and distributed processing. The project's novelties are in identifying and developing unifying parallel algorithm design principles that span multiple graph computations and tensor factorizations. In the planning stage, several focused research tasks will explore eight unifying themes.\r\n\r\nThe project aims to develop the foundations for an end-to-end streaming data analytics system with performance comparable to highly tuned static graph analysis benchmarks on current high-end workstations and supercomputers. The investigators' multi-disciplinary expertise span high-performance computing, theory and algorithms, computer architecture, and programming languages and compilers. The cross-cutting research aims include generalizable principles to orchestrate intra- and inter-node communication, multiple approaches for exploiting hierarchical parallelism, locality-enhancing strategies, and automatic performance tuning. The software artifacts from the planning stage could form the basis for new data analytic benchmarks. The investigators will incorporate research findings into the courses they teach. Engaging experts from the national laboratories and the industry in the planning stage will help solidify future large-scale efforts. The investigators will leverage and contribute to existing institutional programs that broaden participation in computing research.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Scott",
+   "pi_last_name": "Beamer",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Scott Beamer",
+   "pi_email_addr": "sbeamer@ucsc.edu",
+   "nsf_id": "000795560",
+   "pi_start_date": "2021-08-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Santa Cruz",
+  "inst_street_address": "1156 HIGH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "SANTA CRUZ",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8314595278",
+  "inst_zip_code": "950641077",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "CA19",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "VXUFPE4MCZH5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Santa Cruz",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "950641077",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "CA19",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "042Y00",
+   "pgm_ele_name": "PPoSS-PP of Scalable Systems"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 49999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>As part of the larger collaborative grant, the UCSC team focused on sparse tensors. Sparse tensors and their decompositions have applications in machine learning, social network analysis, data mining, computer vision, and quantum computing. Despite the multitude of applications sparse tensors enable, they have received less analysis and optimization from the research community than sparse graphs. Our aim was to identify the key characteristics of sparse tensor workloads and the hardware features they need for efficient execution.</p>\n<p><br />We analyzed recent high-performance open-source sparse tensor frameworks executing on a variety of sparse tensors. We collected measurements with hardware performance counters on a multicore system. Starting with a conventional platform establishes a great foundation for future research. We found that like sparse graphs, the nature of the input sparse tensor has a large impact on the workload properties. Less similar to sparse graph workloads, we found the tensor workloads often achieved higher instruction throughput, as their core operations tended be more parallel and less traversal centric than sparse graph workloads.</p>\n<p><br />We identified memory latency as the main bottleneck for sparse tensor workloads. There is frequently substantial memory bandwidth available, so future work should investigate techniques to exploit that unused bandwidth. We also examined various engineering tradeoffs in our own implementations of these tensor workloads. We are preparing our findings for publication, and the corresponding code will be open-sourced when the work is published.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/29/2023<br>\n\t\t\t\t\tModified by: Scott&nbsp;Beamer</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAs part of the larger collaborative grant, the UCSC team focused on sparse tensors. Sparse tensors and their decompositions have applications in machine learning, social network analysis, data mining, computer vision, and quantum computing. Despite the multitude of applications sparse tensors enable, they have received less analysis and optimization from the research community than sparse graphs. Our aim was to identify the key characteristics of sparse tensor workloads and the hardware features they need for efficient execution.\n\n\nWe analyzed recent high-performance open-source sparse tensor frameworks executing on a variety of sparse tensors. We collected measurements with hardware performance counters on a multicore system. Starting with a conventional platform establishes a great foundation for future research. We found that like sparse graphs, the nature of the input sparse tensor has a large impact on the workload properties. Less similar to sparse graph workloads, we found the tensor workloads often achieved higher instruction throughput, as their core operations tended be more parallel and less traversal centric than sparse graph workloads.\n\n\nWe identified memory latency as the main bottleneck for sparse tensor workloads. There is frequently substantial memory bandwidth available, so future work should investigate techniques to exploit that unused bandwidth. We also examined various engineering tradeoffs in our own implementations of these tensor workloads. We are preparing our findings for publication, and the corresponding code will be open-sourced when the work is published.\n\n\t\t\t\t\tLast Modified: 10/29/2023\n\n\t\t\t\t\tSubmitted by: Scott Beamer"
+ }
+}

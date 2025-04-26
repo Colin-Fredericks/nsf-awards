@@ -1,0 +1,105 @@
+{
+ "awd_id": "1314592",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Option: Medium: Collaborative: Authenticated Ciphers",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Susanne Wetzel",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 153186.0,
+ "awd_amount": 153186.0,
+ "awd_min_amd_letter_date": "2013-09-06",
+ "awd_max_amd_letter_date": "2013-09-06",
+ "awd_abstract_narration": "OpenSSH reveals excerpts from encrypted login sessions. TLS (HTTPS) reveals encrypted PayPal account cookies. DTLS is no better. EAXprime allows instantaneous forgeries. RFID security has been broken again and again. All of these failures of confidentiality and integrity are failures of authenticated ciphers: algorithms that promise to encrypt and authenticate messages using a shared secret key.\r\n\r\nIt is easy to blame many of these security problems on a lack of education: much stronger authenticated ciphers have been in the literature for many years. However, in many cases these stronger authenticated ciphers fail to meet the performance requirements of the applications. Performance is exactly the motivation for RC4 in WEP; EAXprime in the \"Smart Grid\"; HB in RFID; and \"IPsec\" continuing to support unauthenticated encryption.\r\n\r\nThis project is building a new generation of authenticated ciphers that improve efficiency without compromising security and that improve security without compromising efficiency. This work spans seven main topics: more efficient ciphers; more efficient MACs; more efficient forgery rejection; improved protection against side channels; improved protection against misuse and bad luck; improved quantitative security; and improved security proofs. The ultimate objective is to obtain the best possible security subject to a variety of performance constraints specified by cryptographic users.\r\n\r\nThe high-security high-performance authenticated ciphers produced in this project will be directly and straightforwardly usable in cryptographic applications, avoiding the disasters in current applications and finally bringing secure secret-key cryptography from theory to practice.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ted",
+   "pi_last_name": "Krovetz",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ted D Krovetz",
+   "pi_email_addr": "tdk@csus.edu",
+   "nsf_id": "000502759",
+   "pi_start_date": "2013-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University Enterprises, Incorporated",
+  "inst_street_address": "6000 J ST STE 3700",
+  "inst_street_address_2": "BOOKSTORE BLDG",
+  "inst_city_name": "SACRAMENTO",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "9162786402",
+  "inst_zip_code": "958192605",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "CA07",
+  "org_lgl_bus_name": "UNIVERSITY ENTERPRISES, INC.",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "N58JMBDDUGU7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "California State University",
+  "perf_str_addr": "6000 J Street",
+  "perf_city_name": "Sacramento",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "958196021",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "CA",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 153186.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This grant is part of a four-institution joint project (grant 1314885 to Rogaway at UCDavis, grant 1314592 to Krovetz at CSUS, grant 1314919 to Bernstein at UIC, and grant 1314540 to Gaj and Kaps at GMU) coordinated by UIC. Krovetz and Rogaway coauthored two of the authenticated ciphers that have been selected for the third round of the CAESAR competition, namely AEZ and OCB. The GMU team, in collaboration with Rogaway and Krovetz, developed the most efficient hardware implementations of AEZ and OCB reported in the literature to date. Gaj and Kaps have also collaborated closely with all other co-PIs on the development of the CAESAR Hardware API, Implementer&rsquo;s Guide to Hardware Implementations Compliant with the CAESAR Hardware API, and Development Package for Hardware Implementations Compliant with the CAESAR Hardware API. The Gimli permutation from Bernstein et al. was designed after careful study of extensive performance data provided (1) by Krovetz regarding software, and (2) by the GMU team regarding hardware.</p>\n<p><br />In more detail, contributions from Krovetz were:</p>\n<p><br />- Three authenticated encryption schemes specified, implemented and refined for the multi-year CAESAR authenticated-encryption competition (http://competitions.cr.yp.to/caesar.html). AEZ is a joint effort with Hoang and Rogaway, OCB is a joint effort with Rogaway, and the HS1-SIV submission is an individual effort. AEZ and OCB are third-round candidates still in contention for final recommendation, and HS1-SIV was excluded after the second round. Each of these submissions required the development of a specification document and several implementations (one reference and multiple optimizations for various architectures).</p>\n<p>&nbsp;</p>\n<p>- Two scientific papers.</p>\n<p>\"Robust authenticated-encryption: AEZ and the problem that it solves\", with VT Hoang and P Rogaway, from Advances in Cryptology (Eurocrypt 2015), Springer, 2015.</p>\n<p>\"The Hashstream PRF construction\", to be submitted to Fast Software Encryption, early 2018.</p>\n<p>&nbsp;</p>\n<p>- One IETF Request-For-Comments (RFC).</p>\n<p>&nbsp;</p>\n<p>\"The OCB authenticated-encryption algorithm\", with P Rogaway, RFC 7253, IETF, 2014.</p>\n<p>&nbsp;</p>\n<p>- One IETF Internet-Draft.</p>\n<p>&nbsp;</p>\n<p>\"OCB For Block Ciphers Without 128-Bit Blocks\", to be submitted to IETF, early 2018.</p>\n<p>&nbsp;</p>\n<p>All work is either in the public domain or has an open-source lisence.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/20/2017<br>\n\t\t\t\t\tModified by: Ted&nbsp;D&nbsp;Krovetz</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis grant is part of a four-institution joint project (grant 1314885 to Rogaway at UCDavis, grant 1314592 to Krovetz at CSUS, grant 1314919 to Bernstein at UIC, and grant 1314540 to Gaj and Kaps at GMU) coordinated by UIC. Krovetz and Rogaway coauthored two of the authenticated ciphers that have been selected for the third round of the CAESAR competition, namely AEZ and OCB. The GMU team, in collaboration with Rogaway and Krovetz, developed the most efficient hardware implementations of AEZ and OCB reported in the literature to date. Gaj and Kaps have also collaborated closely with all other co-PIs on the development of the CAESAR Hardware API, Implementer?s Guide to Hardware Implementations Compliant with the CAESAR Hardware API, and Development Package for Hardware Implementations Compliant with the CAESAR Hardware API. The Gimli permutation from Bernstein et al. was designed after careful study of extensive performance data provided (1) by Krovetz regarding software, and (2) by the GMU team regarding hardware.\n\n\nIn more detail, contributions from Krovetz were:\n\n\n- Three authenticated encryption schemes specified, implemented and refined for the multi-year CAESAR authenticated-encryption competition (http://competitions.cr.yp.to/caesar.html). AEZ is a joint effort with Hoang and Rogaway, OCB is a joint effort with Rogaway, and the HS1-SIV submission is an individual effort. AEZ and OCB are third-round candidates still in contention for final recommendation, and HS1-SIV was excluded after the second round. Each of these submissions required the development of a specification document and several implementations (one reference and multiple optimizations for various architectures).\n\n \n\n- Two scientific papers.\n\n\"Robust authenticated-encryption: AEZ and the problem that it solves\", with VT Hoang and P Rogaway, from Advances in Cryptology (Eurocrypt 2015), Springer, 2015.\n\n\"The Hashstream PRF construction\", to be submitted to Fast Software Encryption, early 2018.\n\n \n\n- One IETF Request-For-Comments (RFC).\n\n \n\n\"The OCB authenticated-encryption algorithm\", with P Rogaway, RFC 7253, IETF, 2014.\n\n \n\n- One IETF Internet-Draft.\n\n \n\n\"OCB For Block Ciphers Without 128-Bit Blocks\", to be submitted to IETF, early 2018.\n\n \n\nAll work is either in the public domain or has an open-source lisence.\n\n\t\t\t\t\tLast Modified: 12/20/2017\n\n\t\t\t\t\tSubmitted by: Ted D Krovetz"
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "awd_id": "1763399",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "SHF: Medium: DeepSEA: A Language for Programming and Synthesizing Certified Software",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2018-06-01",
+ "awd_exp_date": "2024-05-31",
+ "tot_intn_awd_amt": 800000.0,
+ "awd_amount": 816000.0,
+ "awd_min_amd_letter_date": "2018-04-23",
+ "awd_max_amd_letter_date": "2021-06-08",
+ "awd_abstract_narration": "Building certifiably reliable and secure software is one of the grand challenges facing today's computing community. Despite the extensive progress in programming languages in the past few decades, today's mainstream operating systems and hypervisors are still written in C-like low-level languages.  There seems to be an inherent conflict between high-level formal reasoning and low-level systems programming: the former relies on a rich theory at a high abstraction level while the latter must manipulate and manage low-level effects and hardware resources.  The chief novelties of this project are (1) to design and implement a new language (named DeepSEA) that can be used to tackle this inherent conflict and directly program and synthesize certified software, and (2) to develop a DeepSEA toolchain and apply it to build certified OS kernels and Ethereum-style smart contracts. The project's impacts are demonstrated in multiple ways. The technology for building certified software will have a profound impact on the software industry and the society in general; it will dramatically improve the reliability and security of many key components in the world's critical infrastructure. The project would catalyze a change in the way computing science is taught at U.S. universities, by pushing new courses on formal methods into the existing curriculum; it would broaden the participation of underrepresented groups and give U.S. students a unique combination of technical training and international experience in this cutting-edge field.\r\n\r\nCertified programming is a unique challenge for language design: both operating systems and smart contracts are inherently low-level and effectful, while software verification requires high-level abstractions and pure functions.  Recent projects on OS kernel verification required writing (manually) the actual kernel in a C-like language and a formal specification of the kernel in a proof-assistant language; a large part of the verification effort is then spent on showing that the implementation indeed satisfies the specification.  DeepSEA bridges this chasm automatically---from a single input program, one can derive the relation between abstract data types and bytes, and between functional specification and concrete implementation. Instead of having to choose between high- and low-level languages, DeepSEA can have the best of both.  The DeepSEA language provides native support for layered specification and abstraction refinement, full equational reasoning, a functional model of effects (including concurrency), and effect encapsulation and composition: consequently it directly supports certified programming at multiple abstraction levels.  Using DeepSEA, a programmer need only to write the formal specification of a desirable system; then the DeepSEA compiler will automatically compile the DeepSEA program into a certified artifact consisting of a C program (which is then compiled into assembly by the verified C compiler, CompCert), a Coq specification, and a formal (Coq) proof that the C program satisfies the specification. The project opens up a new space of language designs that can directly support the development of correct-by-construction system software.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Zhong",
+   "pi_last_name": "Shao",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Zhong Shao",
+   "pi_email_addr": "zhong.shao@yale.edu",
+   "nsf_id": "000201856",
+   "pi_start_date": "2018-04-23",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Ruzica",
+   "pi_last_name": "Piskac",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ruzica Piskac",
+   "pi_email_addr": "ruzica.piskac@yale.edu",
+   "nsf_id": "000655841",
+   "pi_start_date": "2018-04-23",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Vilhelm",
+   "pi_last_name": "Sjoberg",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Vilhelm Sjoberg",
+   "pi_email_addr": "vilhelm.sjoberg@yale.edu",
+   "nsf_id": "000732531",
+   "pi_start_date": "2018-04-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Yale University",
+  "inst_street_address": "150 MUNSON ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW HAVEN",
+  "inst_state_code": "CT",
+  "inst_state_name": "Connecticut",
+  "inst_phone_num": "2037854689",
+  "inst_zip_code": "065113572",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "CT03",
+  "org_lgl_bus_name": "YALE UNIV",
+  "org_prnt_uei_num": "FL6GV84CKN57",
+  "org_uei_num": "FL6GV84CKN57"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Yale University",
+  "perf_str_addr": "51 Prospect Street",
+  "perf_city_name": "New Haven",
+  "perf_st_code": "CT",
+  "perf_st_name": "Connecticut",
+  "perf_zip_code": "065208285",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "CT03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "287800",
+   "pgm_ele_name": "Special Projects - CCF"
+  },
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7798",
+   "pgm_ref_txt": "SOFTWARE & HARDWARE FOUNDATION"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0119",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001920DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0120",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 388503.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2019,
+   "fund_oblg_amt": 202781.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 16000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 208716.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Building certifiably reliable and secure software is one of the grand challenges facing today's computing community. Despite the extensive progress in programming languages in the past few decades, today's mainstream operating systems and hypervisors are still written in C-like low-level languages.&nbsp; There is an inherent clash between high-level formal reasoning and low-level system programming: the former relies on a rich equational theory at a high abstraction level, while the latter must manipulate and manage low-level effects and hardware resources.&nbsp; The huge abstraction gap between these two tasks makes it difficult to provide direct language support for programming certified low-level code.</p>\n<p>The DeepSEA project funded by this research grant focused on designing and implementing a new language (also named DeepSEA) that can be used to directly program and synthesize certified software.&nbsp; The PIs Shao and Piskac designed and identified the key ingredients of the DeepSEA language and showed how they resolved the seemingly inherent clash between low-level system programming and full equational reasoning.&nbsp; In contrast with existing mainstream languages, DeepSEA aims to chart a new direction for language designs that can truly realize the vision outlined by Hoare.&nbsp; The PIs showed how the design of DeepSEA allowed them to extract a C-like program from its specification.&nbsp; They also implemented a new DeepSEA compiler that compiled a DeepSEA program into a certified artifact consisting of a C program (which is then compiled into assembly by CompCert, a Coq specification, and a formal (Coq) proof that the C program satisfies the specification.&nbsp;</p>\n<p>A major outcome of their work is a novel methodology for supporting large-scale software verification using compositional languages, semantic models, specifications, and verification techniques. Recent work on certified abstraction layers synthesizes game semantics, the refinement calculus, and algebraic effects to enable the composition of heterogeneous components into larger certified systems. However, in existing models of certified abstraction layers, compositionality is restricted by the lack of state encapsulation.&nbsp; PI Shao and his team developed a novel game model for certified abstraction layers where the semantics of layer interfaces and implementations are defined solely based on their observable behaviors.&nbsp; Based on the new model, they also developed the first genuinely compositional verified C compiler, CompCertO, which extends the correctness theorem of CompCert to characterize compiled program components directly in terms of their interaction with each other.</p>\n<p>Another significant outcome of this project is a new compositional theory of linearizability.&nbsp; Compositionality is at the core of programming language research and has become an important goal for the scalable verification of large systems. Despite that, there is no compositional account of linearizability, the gold standard of correctness for concurrent objects. PI Shao and his team developed a new compositional semantics (for linearizable concurrent objects) that neither relies on atomicity nor directly upon happens-before ordering and is only possible because of compositionality, revealing that linearizability and compositionality are intrinsically related to each other. They used this new and compositional understanding of linearizability to revisit much of the theory of linearizability, providing novel, simple, algebraic proofs of the locality property and of an analog of the equivalence with observational refinement.</p>\n<p>This funded research was highly visible and influential. It contributed to 20 peer-reviewed publications in conference proceedings and journals, including 15 publications at the prestigious programming language conferences POPL, PLDI, OOPSLA, and LICS. It also added to the development of the certified operating-system kernel CertiKOS and resulted in the design and implementation of a prototype certified OS kernel. An extended version of the paper on a compositional theory of linearizability was also published in the April 2024 issue of the Journal of ACM, the flagship journal of the computing community.&nbsp; Finally, the CertiKOS and DeepSEA research was incorporated into the undergraduate- and graduate-level courses on \"Operating Systems\" and \"Language-Based Security\" taught at Yale University and has supported graduate students at Yale University.</p><br>\n<p>\n Last Modified: 08/30/2024<br>\nModified by: Zhong&nbsp;Shao</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nBuilding certifiably reliable and secure software is one of the grand challenges facing today's computing community. Despite the extensive progress in programming languages in the past few decades, today's mainstream operating systems and hypervisors are still written in C-like low-level languages. There is an inherent clash between high-level formal reasoning and low-level system programming: the former relies on a rich equational theory at a high abstraction level, while the latter must manipulate and manage low-level effects and hardware resources. The huge abstraction gap between these two tasks makes it difficult to provide direct language support for programming certified low-level code.\n\n\nThe DeepSEA project funded by this research grant focused on designing and implementing a new language (also named DeepSEA) that can be used to directly program and synthesize certified software. The PIs Shao and Piskac designed and identified the key ingredients of the DeepSEA language and showed how they resolved the seemingly inherent clash between low-level system programming and full equational reasoning. In contrast with existing mainstream languages, DeepSEA aims to chart a new direction for language designs that can truly realize the vision outlined by Hoare. The PIs showed how the design of DeepSEA allowed them to extract a C-like program from its specification. They also implemented a new DeepSEA compiler that compiled a DeepSEA program into a certified artifact consisting of a C program (which is then compiled into assembly by CompCert, a Coq specification, and a formal (Coq) proof that the C program satisfies the specification.\n\n\nA major outcome of their work is a novel methodology for supporting large-scale software verification using compositional languages, semantic models, specifications, and verification techniques. Recent work on certified abstraction layers synthesizes game semantics, the refinement calculus, and algebraic effects to enable the composition of heterogeneous components into larger certified systems. However, in existing models of certified abstraction layers, compositionality is restricted by the lack of state encapsulation. PI Shao and his team developed a novel game model for certified abstraction layers where the semantics of layer interfaces and implementations are defined solely based on their observable behaviors. Based on the new model, they also developed the first genuinely compositional verified C compiler, CompCertO, which extends the correctness theorem of CompCert to characterize compiled program components directly in terms of their interaction with each other.\n\n\nAnother significant outcome of this project is a new compositional theory of linearizability. Compositionality is at the core of programming language research and has become an important goal for the scalable verification of large systems. Despite that, there is no compositional account of linearizability, the gold standard of correctness for concurrent objects. PI Shao and his team developed a new compositional semantics (for linearizable concurrent objects) that neither relies on atomicity nor directly upon happens-before ordering and is only possible because of compositionality, revealing that linearizability and compositionality are intrinsically related to each other. They used this new and compositional understanding of linearizability to revisit much of the theory of linearizability, providing novel, simple, algebraic proofs of the locality property and of an analog of the equivalence with observational refinement.\n\n\nThis funded research was highly visible and influential. It contributed to 20 peer-reviewed publications in conference proceedings and journals, including 15 publications at the prestigious programming language conferences POPL, PLDI, OOPSLA, and LICS. It also added to the development of the certified operating-system kernel CertiKOS and resulted in the design and implementation of a prototype certified OS kernel. An extended version of the paper on a compositional theory of linearizability was also published in the April 2024 issue of the Journal of ACM, the flagship journal of the computing community. Finally, the CertiKOS and DeepSEA research was incorporated into the undergraduate- and graduate-level courses on \"Operating Systems\" and \"Language-Based Security\" taught at Yale University and has supported graduate students at Yale University.\t\t\t\t\tLast Modified: 08/30/2024\n\n\t\t\t\t\tSubmitted by: ZhongShao\n"
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "awd_id": "1049457",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Technologies for Elastic OS Services in fos",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2010-10-01",
+ "awd_exp_date": "2013-09-30",
+ "tot_intn_awd_amt": 194177.0,
+ "awd_amount": 194177.0,
+ "awd_min_amd_letter_date": "2010-09-22",
+ "awd_max_amd_letter_date": "2010-09-22",
+ "awd_abstract_narration": "As the number of cores per chip scales to 1000s by the middle of the next decade, a fundamentally different set of constraints governs software design, including the operating system. However, recent research has demonstrated problems with scaling monolithic OS designs. In monolithic OSs, OS code executes in the kernel on the same core, which makes an OS service request.  That has led to significant performance degradation and exhibits severe scalability problems. Efforts to improve scalability of these services have been difficult and marginally successful.  The primary question facing OS research over the next decade is: How can the operating system services be designed such that they scale to hundreds or thousands of cores?  To answer this question, the research community needs to rethink operating system design from the ground up in light of current and future multicore architectures.\r\n\r\nOne solution is to provide a factored operating system that scales over the increasing number of cores.  A factored operating system (called \"fos\") factors out the system services of a monolithic OS into a set of individual services. fos further factors and parallelizes each system service into an Internet-style collection, or fleet, of cooperating servers that are distributed across the multicore chip and bound to specific cores. To maintain good performance and efficient utilization in the face of varying system resources and application demand, the fleets need to employ elasticity.  The PIs propose an elastic version of fos (dubbed \"e-fos\") which provides technologies to allow system services to be scaled up or down at run-time. The primary goal of e-fos is to scale to a large numbers of cores while meeting the varying demand in resources and services, i.e., discover and evaluate how a factored operating system can leverage elasticity to maintain performance and efficiency. e-fos demonstrates elastic fleets and mechanisms to manage the elasticity for future multicores. These techniques replace the outdated \"static OS components\", which currently hinder contemporary monolithic OSs from scaling to hundreds or thousands of cores. For further information, see the project webpage: http://groups.csail.mit.edu/carbon/fos.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Anant",
+   "pi_last_name": "Agarwal",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Anant Agarwal",
+   "pi_email_addr": "agarwal@cag.csail.mit.edu",
+   "nsf_id": "000439628",
+   "pi_start_date": "2010-09-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779300",
+   "pgm_ele_name": "DATA-INTENSIVE COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7793",
+   "pgm_ref_txt": "DATA-INTENSIVE COMPUTING"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 194177.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Current computer operating systems were designed in an era when computation was the most critical resource in a machine. In the multicore era, the landscape has fundamentally changed. &nbsp;With the expected exponential increase in number of cores per processor, the question is no longer how to cope with limited resources, but rather how to make the most of the abundant computation available. &nbsp;This project investigated some of the design decisions and challenges that will be encountered as operating systems evolve for this new computing landscape.&nbsp; Specifically, we sought to answer the following high-level questions:</p>\n<ul>\n<li>Can an operating system service be effectively implemented using a set (or \"fleet\") of cooperating server processes running on different cores within a large multicore processor?</li>\n<li>How should that fleet adapt to changes in workload or availability of resources?</li>\n</ul>\n<p>Our initial explorations were made in the context of the experimental \"fos\" operating system.&nbsp; We designed a new naming service that is used by applications to find a particular service they need.&nbsp; Having this layer of indirection between the applications and services allows the fleets of servers to dynamically grow, shrink, migrate or reconfigure themselves as needed.&nbsp; We call this ability to adapt \"elasticity.\"&nbsp; We prototyped an elastic filesystem in fos and showed that it was able to respond well to changes in demand using only simple heuristics to grow and shrink the filesystem fleet.&nbsp; Finally, we designed an elastic networking service for fos by refactoring and partitioning the work it performs in novel ways.&nbsp; It distributes the workload across a parallel fleet of servers that is capable of growing and shrinking as required.&nbsp; More details on these can be found in the academic papers published under the fos project.</p>\n<p>In the second half of this project, we turned our attention towards applying some of the lessons we had learned to a more mainstream operating system. &nbsp;We chose to implement a new networking service (called Pika) within the Linux operating system that would have greater scalability and elasticity than the default network stack. &nbsp;Pika employs dedicated cores for running the network stack which are distinct from application cores. Furthermore, Pika splits the network stack into various conceptual component servers based on functionality. The design of PIKA allows each of these components to either be run as stand-alone servers or combined with other components into a composite server (see Pika Architecture images). An instance of PIKA consists of one or more servers, each of which may encapsulate one or more of these components.&nbsp;This gives Pika the flexibility to run on both small and large machines and adapt to changes in load by adding or removing servers.</p>\n<p>We evaluated Pika on a modern server machine with four 10-core Intel Xeon processors and compared it to the stock Linux networking stack. &nbsp;Pika is able to significantly outperform stock Linux when it is allowed to run on large numbers of cores.&nbsp;Pika is able to achieve near-optimal scaling as the number of cores are increased, showing that it is well-equiped to handle the highly-parallel machines of the future.&nbsp;In addition, its performance is competitive with Linux when both are restricted to small numbers of cores (simulating a less parallel machine). This shows that Pika elastic design is able to handle a wide range of situations gracefully.</p>\n<p>One of the keys to its excellent performance is Pika's load balancing algorithm. We evaluated several algorithms and found that a Tournament scheme with a tariff of 2 had the best ability to maintain short services times when faced with highly asymmetric application response times. &nbsp;Our results show that global coordinated load balancing is crucial for effe...",
+  "por_txt_cntn": "\nCurrent computer operating systems were designed in an era when computation was the most critical resource in a machine. In the multicore era, the landscape has fundamentally changed.  With the expected exponential increase in number of cores per processor, the question is no longer how to cope with limited resources, but rather how to make the most of the abundant computation available.  This project investigated some of the design decisions and challenges that will be encountered as operating systems evolve for this new computing landscape.  Specifically, we sought to answer the following high-level questions:\n\nCan an operating system service be effectively implemented using a set (or \"fleet\") of cooperating server processes running on different cores within a large multicore processor?\nHow should that fleet adapt to changes in workload or availability of resources?\n\n\nOur initial explorations were made in the context of the experimental \"fos\" operating system.  We designed a new naming service that is used by applications to find a particular service they need.  Having this layer of indirection between the applications and services allows the fleets of servers to dynamically grow, shrink, migrate or reconfigure themselves as needed.  We call this ability to adapt \"elasticity.\"  We prototyped an elastic filesystem in fos and showed that it was able to respond well to changes in demand using only simple heuristics to grow and shrink the filesystem fleet.  Finally, we designed an elastic networking service for fos by refactoring and partitioning the work it performs in novel ways.  It distributes the workload across a parallel fleet of servers that is capable of growing and shrinking as required.  More details on these can be found in the academic papers published under the fos project.\n\nIn the second half of this project, we turned our attention towards applying some of the lessons we had learned to a more mainstream operating system.  We chose to implement a new networking service (called Pika) within the Linux operating system that would have greater scalability and elasticity than the default network stack.  Pika employs dedicated cores for running the network stack which are distinct from application cores. Furthermore, Pika splits the network stack into various conceptual component servers based on functionality. The design of PIKA allows each of these components to either be run as stand-alone servers or combined with other components into a composite server (see Pika Architecture images). An instance of PIKA consists of one or more servers, each of which may encapsulate one or more of these components. This gives Pika the flexibility to run on both small and large machines and adapt to changes in load by adding or removing servers.\n\nWe evaluated Pika on a modern server machine with four 10-core Intel Xeon processors and compared it to the stock Linux networking stack.  Pika is able to significantly outperform stock Linux when it is allowed to run on large numbers of cores. Pika is able to achieve near-optimal scaling as the number of cores are increased, showing that it is well-equiped to handle the highly-parallel machines of the future. In addition, its performance is competitive with Linux when both are restricted to small numbers of cores (simulating a less parallel machine). This shows that Pika elastic design is able to handle a wide range of situations gracefully.\n\nOne of the keys to its excellent performance is Pika's load balancing algorithm. We evaluated several algorithms and found that a Tournament scheme with a tariff of 2 had the best ability to maintain short services times when faced with highly asymmetric application response times.  Our results show that global coordinated load balancing is crucial for effective use of parallel resources.\n\nFinally, we evaluated both split and combined configurations of Pika and found that the combined approach is better on current high-performance cores.  However, our..."
+ }
+}

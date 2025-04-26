@@ -1,0 +1,105 @@
+{
+ "awd_id": "1755038",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: RI: Memory-efficient Representations for Robot Tasks: Lower Bounds and Scalable Algorithms",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032920000",
+ "po_email": "eplaku@nsf.gov",
+ "po_sign_block_name": "Erion Plaku",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2020-08-31",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2018-05-17",
+ "awd_max_amd_letter_date": "2018-05-17",
+ "awd_abstract_narration": "Micro aerial vehicles (MAVs) with highly rich perceptual systems (e.g., vision or laser scanners) have the potential to perform important tasks, such as long-duration search and rescue missions.  However, due to their limited computational resources, most existing approaches either use memoryless approaches, such as reactive obstacle avoidance, or highly memory-inefficient approaches that build and store accurate geometric representations.  An important question, therefore, is what is the minimal representation a robot must create of its environment in order to achieve its task.  A related question is what are the fundamental tradeoffs between how memory-efficient the representation is and how efficiently the robot can accomplish the task.  An understanding of these issues has the potential to dramatically increase the type of tasks that MAVs can perform.\r\n \r\nMotivated by the need for memory-efficient algorithms, this project is developing principled and general techniques for establishing the memory resources required by robots in order to perform their tasks. Specifically, the project will investigate: (i) techniques for establishing lower bounds on memory requirements, and (ii) algorithms for creating memory-efficient and task-centric representations for robot tasks. The key insight is to leverage and extend ideas from the theory of streaming algorithms and communication complexity, establishing a connection between streaming problems and robot perception by viewing a robot's sensory inputs as constituting the data stream.  This analogy enables application of powerful techniques, originally developed by the theoretical computer science community, for proving lower bounds on memory requirements and using the vast suite of memory-efficient algorithms from the streaming algorithms literature. The resulting tools will be applied to MAVs with limited computation performing various tasks such as search, exploration, and navigation in search-and-rescue contexts.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Anirudha",
+   "pi_last_name": "Majumdar",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Anirudha Majumdar",
+   "pi_email_addr": "ani.majumdar@princeton.edu",
+   "nsf_id": "000754097",
+   "pi_start_date": "2018-05-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Princeton University",
+  "inst_street_address": "1 NASSAU HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "PRINCETON",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "6092583090",
+  "inst_zip_code": "085442001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "NJ12",
+  "org_lgl_bus_name": "THE TRUSTEES OF PRINCETON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NJ1YPQXQG7U5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Princeton University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "085442020",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "NJ12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>Micro aerial vehicles (MAVs) with highly rich perceptual systems (e.g., vision or laser scanners) have the potential to perform important tasks, such as long-duration search and rescue missions. However, due to their limited computational resources, most existing approaches either use memoryless approaches, such as reactive obstacle avoidance, or highly memory-inefficient approaches that build and store accurate full-state and geometric representations. An important question, therefore, is what is the minimal representation a robot must create of its state and environment in order to achieve its task. A related question is what are the fundamental tradeoffs between how memory-efficient the representation is and how efficiently the robot can accomplish the task. An understanding of these issues has the potential to dramatically increase the type of tasks that MAVs can perform. With this motivation, this project has developed principled and general techniques for synthesizing memory-efficient and task-driven policies for robot control tasks.&nbsp;</span></p>\n<p>We have pursued three complementary technical approaches:</p>\n<p>(1) Learning policies that actively reduce memory requirements via reinforcement learning;</p>\n<p>(2) Task-driven perception and control via the theory of information bottlenecks; and</p>\n<p>(3) Memory-efficienct robot perception via streaming algorithms.&nbsp;</p>\n<p>We have demonstrated our approaches in simulation on a variety of robotic platforms and tasks (e.g., navigation and manipulation). Comparisons with existing approaches demonstrate the ability of our approach to provide significant benefits including (i) significant reductions in memory requirements, and (ii) robustness and generalization with respect to changes in the robot's environment.</p>\n<p>We have also worked on the development of techniques for establishing lower bounds on memory requirements for robot tasks, and the development of simulation and hardware testbeds for implementing and validating our theory and algorithms.&nbsp;</p>\n<p>Our work has led to the following publications.</p>\n<p>[1]&nbsp;Vincent Pacelli and Anirudha Majumdar, \"Task-Driven Estimation and Control via Information Bottlenecks\", Proceedings of&nbsp;the International Conference on Robotics and Automation (ICRA), 2020.</p>\n<p>[2] Vincent Pacelli and Anirudha Majumdar, \"Learning Task-Driven Control Policies via Information Bottlenecks\", Proceedings of&nbsp;Robotics: Science and Systems (RSS), 2020.</p>\n<p>[3] Meghan Booker and Anirudha Majumdar, \"Learning to Actively Reduce Memory Requirements for Robot Control Tasks\", ArXiv preprint, https://arxiv.org/abs/2007.08601, Under Review, 2020.</p>\n<p>We have also undertaken activities that aim to achieve our educational and outreach objectives. In particular, we have:</p>\n<p>(1)&nbsp;<span>Organized three events for K-12 students from underrepresented backgrounds in our lab at Princeton University;</span></p>\n<p>(2) Directly involved three undergraduates in research related to this project; and</p>\n<p>(3) Made our code for the work done through this project available through a public repository:&nbsp;https://github.com/irom-lab.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/12/2020<br>\n\t\t\t\t\tModified by: Anirudha&nbsp;Majumdar</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMicro aerial vehicles (MAVs) with highly rich perceptual systems (e.g., vision or laser scanners) have the potential to perform important tasks, such as long-duration search and rescue missions. However, due to their limited computational resources, most existing approaches either use memoryless approaches, such as reactive obstacle avoidance, or highly memory-inefficient approaches that build and store accurate full-state and geometric representations. An important question, therefore, is what is the minimal representation a robot must create of its state and environment in order to achieve its task. A related question is what are the fundamental tradeoffs between how memory-efficient the representation is and how efficiently the robot can accomplish the task. An understanding of these issues has the potential to dramatically increase the type of tasks that MAVs can perform. With this motivation, this project has developed principled and general techniques for synthesizing memory-efficient and task-driven policies for robot control tasks. \n\nWe have pursued three complementary technical approaches:\n\n(1) Learning policies that actively reduce memory requirements via reinforcement learning;\n\n(2) Task-driven perception and control via the theory of information bottlenecks; and\n\n(3) Memory-efficienct robot perception via streaming algorithms. \n\nWe have demonstrated our approaches in simulation on a variety of robotic platforms and tasks (e.g., navigation and manipulation). Comparisons with existing approaches demonstrate the ability of our approach to provide significant benefits including (i) significant reductions in memory requirements, and (ii) robustness and generalization with respect to changes in the robot's environment.\n\nWe have also worked on the development of techniques for establishing lower bounds on memory requirements for robot tasks, and the development of simulation and hardware testbeds for implementing and validating our theory and algorithms. \n\nOur work has led to the following publications.\n\n[1] Vincent Pacelli and Anirudha Majumdar, \"Task-Driven Estimation and Control via Information Bottlenecks\", Proceedings of the International Conference on Robotics and Automation (ICRA), 2020.\n\n[2] Vincent Pacelli and Anirudha Majumdar, \"Learning Task-Driven Control Policies via Information Bottlenecks\", Proceedings of Robotics: Science and Systems (RSS), 2020.\n\n[3] Meghan Booker and Anirudha Majumdar, \"Learning to Actively Reduce Memory Requirements for Robot Control Tasks\", ArXiv preprint, https://arxiv.org/abs/2007.08601, Under Review, 2020.\n\nWe have also undertaken activities that aim to achieve our educational and outreach objectives. In particular, we have:\n\n(1) Organized three events for K-12 students from underrepresented backgrounds in our lab at Princeton University;\n\n(2) Directly involved three undergraduates in research related to this project; and\n\n(3) Made our code for the work done through this project available through a public repository: https://github.com/irom-lab.\n\n \n\n\t\t\t\t\tLast Modified: 12/12/2020\n\n\t\t\t\t\tSubmitted by: Anirudha Majumdar"
+ }
+}

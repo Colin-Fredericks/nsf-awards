@@ -1,0 +1,105 @@
+{
+ "awd_id": "1347308",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Information Procuration via Adaptive Algorithms",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Balasubramanian Kalyanasundaram",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2014-08-31",
+ "tot_intn_awd_amt": 99714.0,
+ "awd_amount": 99714.0,
+ "awd_min_amd_letter_date": "2013-08-21",
+ "awd_max_amd_letter_date": "2013-08-21",
+ "awd_abstract_narration": "The Principal Investigator (PI) formulates the information procuration problem of converting unstructured data into structured information as one of using limited resources (such as processing time and collection costs) among several available strategies for information acquisition, extraction, collation and aggregation in a sequential and adaptive manner. The proposal aims to build a Markov decision process (MDP) for which both the states and the rewards will be learned, and from which an optimal adaptive strategy for effective information procuration will be extracted.\r\n\r\nRecent methods for designing adaptive strategies for multi-armed bandit problems and budgeted learning approaches by the PI will be extended for this purpose, as well as techniques from inverse reinforcement learning. Moreover, given the intended size of the application data sets, the focus will be on on scalable algorithms for these problems. Due to the centrality of the problem, new approaches to making better sense of unstructured data will have much impact both in terms of developing new methods and in practice. The proposed synthesis of methods from Operations Research, Approximation Algorithms and Machine Learning is novel in this context. This proposal will increase the cross-fertilization of ideas between Operations Research and Machine Learning, via a collaboration team formed at this intersection.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ramamoorthi",
+   "pi_last_name": "Ravi",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ramamoorthi Ravi",
+   "pi_email_addr": "ravi@cmu.edu",
+   "nsf_id": "000110479",
+   "pi_start_date": "2013-08-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "5000 Forbes Avenue",
+  "perf_city_name": "Pittsburgh",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133815",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "792600",
+   "pgm_ele_name": "ALGORITHMS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 99714.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>An important aspect of curating data into useful, structured information is to provide recommendation links that expose relevant yet largely unexplored pages in a robust and reduandant way that maximizes the discoverability of the less visited pages.</p>\n<p>The process of searcing for relevant information in the world-wide web is greatly aided by the presence of recommendations that link information pages to others that bear closely related information. Such recommendations are also ubiquitous in retail sites, video and movie streaming services as well as in social question-answering sites. The choice of relevant pages to recommend has been well studied with most existing methods using the textual content of the originating and destination pages, as well as some additional information about other pages that are linked to or from them.</p>\n<p>In this work, we have re-cast the problem of choosing pages to recommend as a problem of exposing as many of undiscovered pages as possible. Typical web-sites that hold information have a very small fraction of highly visited and popular pages and a very large unexplored set of undiscovered pages. Given the paucity of how many pages we can recommend from each popular page, and the very large number of undiscovered pages, we consider the choice of recommendations as a two step process: First, a large list of relevant undiscovered pages are chosen per popular page as candidates using traditional recommendation methods (typically running to the hundreds per page). Second, we choose a much smaller list of candidate pages to recommend (about ten or so among the hundreds) so that the undiscovered pages chosen are redundantly linked from at least one or more popular pages. The precise requirements of this recommendation design problem are specified by how many links can be put out from each popular page, as well as the requirement of how redundantly each undiscovered page must be covered for it to be counted.</p>\n<p>Our work formulates this class of recommendation subgraph design problems and presents three highly scalable algorithms for providing good solutions. We also analyze these methods on simple theoretical models of random generation of the underlying data, and perform simulations on such data to verify our conclusions abut the relative effectiveness of the three methods depending on the problem settings.Our methods have been useful in the deployment of effective recommendations in many web relevance engines.</p>\n<p>A full report is publicly available here: http://arxiv.org/abs/1409.2042&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/07/2014<br>\n\t\t\t\t\tModified by: Ramamoorthi&nbsp;Ravi</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAn important aspect of curating data into useful, structured information is to provide recommendation links that expose relevant yet largely unexplored pages in a robust and reduandant way that maximizes the discoverability of the less visited pages.\n\nThe process of searcing for relevant information in the world-wide web is greatly aided by the presence of recommendations that link information pages to others that bear closely related information. Such recommendations are also ubiquitous in retail sites, video and movie streaming services as well as in social question-answering sites. The choice of relevant pages to recommend has been well studied with most existing methods using the textual content of the originating and destination pages, as well as some additional information about other pages that are linked to or from them.\n\nIn this work, we have re-cast the problem of choosing pages to recommend as a problem of exposing as many of undiscovered pages as possible. Typical web-sites that hold information have a very small fraction of highly visited and popular pages and a very large unexplored set of undiscovered pages. Given the paucity of how many pages we can recommend from each popular page, and the very large number of undiscovered pages, we consider the choice of recommendations as a two step process: First, a large list of relevant undiscovered pages are chosen per popular page as candidates using traditional recommendation methods (typically running to the hundreds per page). Second, we choose a much smaller list of candidate pages to recommend (about ten or so among the hundreds) so that the undiscovered pages chosen are redundantly linked from at least one or more popular pages. The precise requirements of this recommendation design problem are specified by how many links can be put out from each popular page, as well as the requirement of how redundantly each undiscovered page must be covered for it to be counted.\n\nOur work formulates this class of recommendation subgraph design problems and presents three highly scalable algorithms for providing good solutions. We also analyze these methods on simple theoretical models of random generation of the underlying data, and perform simulations on such data to verify our conclusions abut the relative effectiveness of the three methods depending on the problem settings.Our methods have been useful in the deployment of effective recommendations in many web relevance engines.\n\nA full report is publicly available here: http://arxiv.org/abs/1409.2042 \n\n\t\t\t\t\tLast Modified: 10/07/2014\n\n\t\t\t\t\tSubmitted by: Ramamoorthi Ravi"
+ }
+}

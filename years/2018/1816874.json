@@ -1,0 +1,109 @@
+{
+ "awd_id": "1816874",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Foundations for Data-driven Algorithmics",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922182",
+ "po_email": "pbrass@nsf.gov",
+ "po_sign_block_name": "Peter Brass",
+ "awd_eff_date": "2018-06-15",
+ "awd_exp_date": "2023-05-31",
+ "tot_intn_awd_amt": 499947.0,
+ "awd_amount": 499947.0,
+ "awd_min_amd_letter_date": "2018-06-04",
+ "awd_max_amd_letter_date": "2022-06-01",
+ "awd_abstract_narration": "The traditional approach in optimization assumes that the underlying objective is known, but in many real-life applications, the true objectives are not known and learned from data. This gap between theory and practice turns out to be quite dramatic, and leaves us without guarantees on the performance of optimization algorithms in such applications. The goal of this project is to develop a theory for algorithms whose input (i.e., the objective) is learned from data, and design algorithms that perform well in these settings. The technical challenges in this space are highly non-trivial, but their solution would dramatically impact our thinking in computer science and result in major advancements in AI. The project develops courses in optimization and data science that foster an interdisciplinary approach. The project will involve mentoring undergraduate and graduate students from underrepresented groups and promote an open access research culture. The investigator will develop new interdisciplinary connections through courses, seminars, and workshops with the goal of promoting a discipline of researchers working on algorithms for the information age.\r\n\r\nIn light of a recent line of impossibility results initiated by the investigator, the goal of this project is to investigate alternative notions of optimization that can facilitate desirable guarantees for data-driven optimization. The first direction in this project considers optimization from adaptive samples. The general notion of adaptivity is surprisingly under-explored, and advancement on this front can have a tremendous impact both on theory and applications. A complementary direction is to consider algorithms that are given samples on a training datasets, and seek to approximate the optimal solution of the testing dataset, drawn from the same distribution. Finally, the last direction considered is that of optimization from pairwise comparisons.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yaron",
+   "pi_last_name": "Singer",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yaron Singer",
+   "pi_email_addr": "yaron@seas.harvard.edu",
+   "nsf_id": "000629528",
+   "pi_start_date": "2018-06-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Harvard University",
+  "inst_street_address": "1033 MASSACHUSETTS AVE STE 3",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6174955501",
+  "inst_zip_code": "021385366",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MA05",
+  "org_lgl_bus_name": "PRESIDENT AND FELLOWS OF HARVARD COLLEGE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LN53LCFJFL45"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Harvard University",
+  "perf_str_addr": "33 Oxford Street",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021382933",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "287800",
+   "pgm_ele_name": "Special Projects - CCF"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "075Z",
+   "pgm_ref_txt": "Artificial Intelligence (AI)"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 499947.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"p1\"><span class=\"s1\">The traditional approach in optimization assumes there is an objective function that is either known or accessible via black-box to the algorithm designer, and the goal is to optimize the objective function under some constraints. In a routing problem, for example, we are given a weighted graph which models congestion times between intersections in a traffic network. The objective function that we aim to optimize is the time from one source in the network to a destination. When we design an algorithm to solve a routing problem we assume the objective is known.</span></p>\n<p class=\"p1\"><span class=\"s1\">In practice, however, we often do not actually know the true objective functions we wish to optimize since they depend on the behavior of the world generating the model. When solving routing problems in the real world, we do not know our objective function since it depends on congestion times that will realize in the future.</span></p>\n<p class=\"p2\"><span class=\"s1\">Since we do not know the true objective function, we learn a surrogate function from data and then run an optimization algorithm on the surrogate function and use the solution of the surrogate as the solution for the true objective function we aim to optimize. But what guarantees do we have then? In other words, can we actually optimize objective functions from the training data we use to learn them?</span></p>\n<p class=\"p1\"><span class=\"s1\">We initiated the study of this question in this project and proved a series of stark impossibilities: there are classes of objective functions that are&nbsp;<strong>statistically learnable</strong>,&nbsp;<strong>amendable to optimization</strong>, and&nbsp;<strong>heavily used in practice</strong>, but any algorithm that obtains a reasonable approximation guarantee to the optimal solution requires&nbsp;<strong>exponentially-many</strong>&nbsp;(in the function's domain dimension) training samples. This result holds for&nbsp;<a href=\"http://people.seas.harvard.edu/~yaron/papers/samples.pdf\"><span class=\"s2\">maximizing cover and submodular objectives (STOC 2017)</span></a>, problems whose optimal solution can be obtained in polynomial time like&nbsp;<a href=\"http://people.seas.harvard.edu/~yaron/papers/OPS_min.pdf\"><span class=\"s2\">submodular minimization (NIPS 2017)</span></a>&nbsp;and continuous optimization problems like&nbsp;<a href=\"http://people.seas.harvard.edu/~yaron/papers/ops_convex.pdf\"><span class=\"s2\">convex minimization (COLT 2017)</span></a>.</span></p>\n<p class=\"p1\"><span class=\"s1\">These depressing impossibilities beg the question: when and how can we optimize objectives learned from data? To address this question, we have taken several approaches. We showed we can obtain strong approximation guarantees when we have assumptions about the objective functions such as&nbsp;<a href=\"http://people.seas.harvard.edu/~yaron/papers/ops_curvature.pdf\"><span class=\"s2\">bounded curvature (NIPS 2016)</span></a>, or&nbsp;<a href=\"https://papers.nips.cc/paper/7168-the-importance-of-communities-for-learning-to-influence.pdf\"><span class=\"s2\">community structure and stochastic block models in social networks (NIPS 2017)</span></a>. Another approach is to consider different optimization criteria to capture&nbsp;<a href=\"http://proceedings.mlr.press/v80/rosenfeld18a/rosenfeld18a.pdf\"><span class=\"s2\">optimal solutions with respect to a distribution (ICML 2018)</span></a>. The latest approach we considered evolved into the adaptive complexity model which led to our results on exponential acceleration of combinatorial optimization algorithms.</span></p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 12/14/2023<br>\nModified by: Yaron&nbsp;Singer</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nThe traditional approach in optimization assumes there is an objective function that is either known or accessible via black-box to the algorithm designer, and the goal is to optimize the objective function under some constraints. In a routing problem, for example, we are given a weighted graph which models congestion times between intersections in a traffic network. The objective function that we aim to optimize is the time from one source in the network to a destination. When we design an algorithm to solve a routing problem we assume the objective is known.\n\n\nIn practice, however, we often do not actually know the true objective functions we wish to optimize since they depend on the behavior of the world generating the model. When solving routing problems in the real world, we do not know our objective function since it depends on congestion times that will realize in the future.\n\n\nSince we do not know the true objective function, we learn a surrogate function from data and then run an optimization algorithm on the surrogate function and use the solution of the surrogate as the solution for the true objective function we aim to optimize. But what guarantees do we have then? In other words, can we actually optimize objective functions from the training data we use to learn them?\n\n\nWe initiated the study of this question in this project and proved a series of stark impossibilities: there are classes of objective functions that arestatistically learnable,amendable to optimization, andheavily used in practice, but any algorithm that obtains a reasonable approximation guarantee to the optimal solution requiresexponentially-many(in the function's domain dimension) training samples. This result holds formaximizing cover and submodular objectives (STOC 2017), problems whose optimal solution can be obtained in polynomial time likesubmodular minimization (NIPS 2017)and continuous optimization problems likeconvex minimization (COLT 2017).\n\n\nThese depressing impossibilities beg the question: when and how can we optimize objectives learned from data? To address this question, we have taken several approaches. We showed we can obtain strong approximation guarantees when we have assumptions about the objective functions such asbounded curvature (NIPS 2016), orcommunity structure and stochastic block models in social networks (NIPS 2017). Another approach is to consider different optimization criteria to captureoptimal solutions with respect to a distribution (ICML 2018). The latest approach we considered evolved into the adaptive complexity model which led to our results on exponential acceleration of combinatorial optimization algorithms.\n\n\n\t\t\t\t\tLast Modified: 12/14/2023\n\n\t\t\t\t\tSubmitted by: YaronSinger\n"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1524455",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Collaborative Research: Making Computational Geometry Polynomial in Derivation Length and in Dimension",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tracy Kimbrel",
+ "awd_eff_date": "2015-07-01",
+ "awd_exp_date": "2019-06-30",
+ "tot_intn_awd_amt": 250000.0,
+ "awd_amount": 250000.0,
+ "awd_min_amd_letter_date": "2015-06-26",
+ "awd_max_amd_letter_date": "2015-06-26",
+ "awd_abstract_narration": "Computational geometry is the discipline that creates algorithms to\r\ndesign and manipulate shapes.  It has wide application in science,\r\nengineering, and industry -- CAD/CAM systems are a notable example.\r\nThe problem is, where we see shapes and their spatial relations, the\r\ncomputer sees only numbers -- and usually, for speed, only\r\napproximate, \"floating-point\" numbers.  E.g., points on a line that\r\nare represented as numerical coordinates, when rounded to the\r\nnumber of digits the computer stores, may no longer lie on any common\r\nline.  Subsequent calculations that rely on a line being straight or\r\ntwo lines intersecting at most once can then go badly astray.  Error\r\nin numerical computation can sometimes be limited by rounding, but\r\nthere is no practical technique for rounding three-dimensional shapes.\r\n\r\nThis project investigates shape rounding by encasement:\r\nHigh-complexity shapes are encased in approximating polyhedra with\r\nfloating-point vertex coordinates.  Given an encasement, the PIs have\r\ndescribed a rounding algorithm that projects input features to nearby\r\nencasement features. For dealing with intersections of surfaces, the\r\nproject creates output-sensitive algorithms for another type of\r\nencasement, an isolating encasement that can have distant boundary\r\nvertices but cannot encase other features.\r\n\r\nEncasement is only part of the solution, so the project also explores\r\nways to compute topological structure using bounded-complexity\r\narithmetic by avoiding numerical computation for the degenerate (zero)\r\nexpressions.  It investigates using graph theory to analyze explicit\r\nexpressions and algebraic techniques to analyze expressions involving\r\nroots of polynomials.\r\n\r\nThe outcome is to include a software library for implementing\r\ncomputational geometry algorithms with automated shape rounding.  The\r\nproject integrates education and research through an introductory\r\ncomputational geometry course in which standard algorithms are taught\r\nand implemented using the library.  Previously, the computational cost\r\nof multi-step algorithms forced students to consider each algorithm in\r\nisolation.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Elisha",
+   "pi_last_name": "Sacks",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Elisha Sacks",
+   "pi_email_addr": "sacks@cs.purdue.edu",
+   "nsf_id": "000220105",
+   "pi_start_date": "2015-06-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "305 N University Street",
+  "perf_city_name": "West Lafayette",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479072107",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7929",
+   "pgm_ref_txt": "COMPUTATIONAL GEOMETRY"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 250000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project addresses the problem of implementing computational geometry algorithms robustly and efficiently.&nbsp; Robustness is a core problem in CG because the algorithms are expressed in terms of predicates invovlving real numbers, such as functoins of the coordinates of points,&nbsp; whereas computer hardware is limited to floating point arithmetic.&nbsp; Even a tiny rounding error can cause a large error in the algorithm output, including illegal operations, such as division by zero.&nbsp; &nbsp;We addressed the basic robustness problem in two earlier NSF projects. This project addresses the second-level problems of geometric rounding, arrangement of algebraic curves and surfaces, and detection of degenerate predicates.&nbsp; Geometric rounding is the task of approximating complex geometric elements, such as points whose coordinates are zeros of polynomials, by simple elements, such as points whose coordinates are floating point numbers.&nbsp; &nbsp;Arrangement computes the decomposition of the plane nto regions bounded by input curves, and likeiwse for surfaces in space.&nbsp; &nbsp;A degenerate predicatei ambiguous because of a special case that is on the boundary between generic cases.&nbsp; &nbsp;For example, a predicate is true when a point is on one side of a plane, false when it is on the other side, and is degenerate when it is on the plane.&nbsp; We created robust and efficient solutions to these problems, except that arrangement of surfaces is ongoing research, published our results, and made the software available for research and education.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/10/2019<br>\n\t\t\t\t\tModified by: Elisha&nbsp;Sacks</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project addresses the problem of implementing computational geometry algorithms robustly and efficiently.  Robustness is a core problem in CG because the algorithms are expressed in terms of predicates invovlving real numbers, such as functoins of the coordinates of points,  whereas computer hardware is limited to floating point arithmetic.  Even a tiny rounding error can cause a large error in the algorithm output, including illegal operations, such as division by zero.   We addressed the basic robustness problem in two earlier NSF projects. This project addresses the second-level problems of geometric rounding, arrangement of algebraic curves and surfaces, and detection of degenerate predicates.  Geometric rounding is the task of approximating complex geometric elements, such as points whose coordinates are zeros of polynomials, by simple elements, such as points whose coordinates are floating point numbers.   Arrangement computes the decomposition of the plane nto regions bounded by input curves, and likeiwse for surfaces in space.   A degenerate predicatei ambiguous because of a special case that is on the boundary between generic cases.   For example, a predicate is true when a point is on one side of a plane, false when it is on the other side, and is degenerate when it is on the plane.  We created robust and efficient solutions to these problems, except that arrangement of surfaces is ongoing research, published our results, and made the software available for research and education.\n\n\t\t\t\t\tLast Modified: 07/10/2019\n\n\t\t\t\t\tSubmitted by: Elisha Sacks"
+ }
+}

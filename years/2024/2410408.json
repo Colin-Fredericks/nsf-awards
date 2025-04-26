@@ -1,0 +1,114 @@
+{
+ "awd_id": "2410408",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Elements: High-performance simulation of time-dependent problems via domain-specific languages",
+ "cfda_num": "47.049, 47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922656",
+ "po_email": "vchandol@nsf.gov",
+ "po_sign_block_name": "Varun Chandola",
+ "awd_eff_date": "2024-09-01",
+ "awd_exp_date": "2027-08-31",
+ "tot_intn_awd_amt": 599816.0,
+ "awd_amount": 599816.0,
+ "awd_min_amd_letter_date": "2024-09-06",
+ "awd_max_amd_letter_date": "2024-09-06",
+ "awd_abstract_narration": "The accurate and efficient simulation of systems governed by time-dependent partial differential equations (PDE) is a critical tool in modeling a wide range of phenomena across science and engineering.  Modeling such systems in complex geometry not only requires significant computing resources, but developing the software to perform the simulations is itself a major undertaking.  Although many libraries provide effective services for individual pieces of the simulation, coordinating these to produce an effective simulation is still a nontrivial task.\r\n\r\nDomain specific languages (DSLs) allow users to express their problems in programs with syntax corresponding closely to mathematical notation.  Behind this top-level interface, DSLs combine automated code generation and existing libraries to minimize user development time while maintaining high performance and a rich feature set.  However, such domain-specific languages like FEniCS or Firedrake for solving PDE with finite element methods lack a native abstraction for representing time evolution.  The Irksome library developed in this project moves beyond this limitation, allowing users to describe and simulate time-dependent problems within Firedrake.  The mathematical techniques and software developed in this project enhance widely-used open-source projects, providing critical cyberinfrastructure to push forward the state of the art in scientific simulation.  Moreover, this project provides training for a postdoctoral researcher and a doctoral student in mathematics.  Additionally, it provides undergraduate research experiences through the McNair Scholars program at Baylor University.\r\n\r\nThe Unified Form Language (UFL) is a Python library encoding a domain-specific embedded language for variational formulation of partial differential equations.  It is employed by widely-used finite element projects such as Firedrake and FEniCS, which compile UFL syntax into low-level code for high-performance simulations, runnable on a range of machines from laptops to supercomputers.  Despite its success at describing a wide class of variational problems and finite element discretizations, it lacks a native abstraction for time-dependence.  Consequently, users of UFL-based projects may obtain sophisticated and high-order spatial discretizations automatically but are left to write comparatively simple and naive time-stepping loops.  To address this limitation, the Irksome project provides an extension of UFL to model time-dependence and perform time-stepping with Runge-Kutta methods.  Irksome performs a source-to-source transformation mapping semi-discrete UFL forms into UFL descriptions of the fully discrete variational problems to be solved at each time step.  These can be solved at each time step with Firedrake's interface to PETSc, a leading large-scale solver library.  Irksome enables a very broad class of Runge-Kutta schemes, notably including fully implicit methods.  The theoretical optimality of these methods has been known for many decades, but they are considerably more complex than alternatives and largely unsupported in time-stepping libraries.  Irksome provides an enabling technology for these methods, and this work delivers major performance improvements and feature enhancements.  Effective multigrid algorithms require specialized, stage-coupled smoothers associated with small mesh patches.  This project accelerates those smoothers through more effective use of sparse direct methods and a data-driven clustering algorithm.  Additionally, the introduction of second order time derivatives in Irksome allows users to express higher-order equations and model them directly with Runge-Kutta-Nystrom methods.  Newly developed infrastructure in this project is applied to timely research problems such as magnetohydrodynamics and nematoacoustics.\r\n\r\nThis Office of Advanced Cyberinfrastructure award is jointly funded by the Division of Mathematical Sciences in the Mathematical and Physical Sciences Directorate.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robert",
+   "pi_last_name": "Kirby",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robert C Kirby",
+   "pi_email_addr": "Robert_Kirby@baylor.edu",
+   "nsf_id": "000635812",
+   "pi_start_date": "2024-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Baylor University",
+  "inst_street_address": "700 S UNIVERSITY PARKS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "WACO",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "2547103817",
+  "inst_zip_code": "767061003",
+  "inst_country_name": "United States",
+  "cong_dist_code": "17",
+  "st_cong_dist_code": "TX17",
+  "org_lgl_bus_name": "BAYLOR UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "C6T9BYG5EYX5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Baylor University",
+  "perf_str_addr": "700 S UNIVERSITY PARKS DR",
+  "perf_city_name": "WACO",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "767061003",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "17",
+  "perf_st_cong_dist": "TX17",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  },
+  {
+   "pgm_ele_code": "806900",
+   "pgm_ele_name": "CDS&E-MSS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "4444",
+   "pgm_ref_txt": "INTERDISCIPLINARY PROPOSALS"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8004",
+   "pgm_ref_txt": "Software Institutes"
+  },
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 599816.0
+  }
+ ],
+ "por": null
+}

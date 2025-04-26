@@ -1,0 +1,101 @@
+{
+ "awd_id": "1320738",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: A Device-Array Based Flash Storage System for Emerging Data-Intensive and Mission-Critical Mobile Applications: from Architecture Redesign to New File System",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 440727.0,
+ "awd_amount": 440727.0,
+ "awd_min_amd_letter_date": "2013-07-31",
+ "awd_max_amd_letter_date": "2013-07-31",
+ "awd_abstract_narration": "Flash memory manufactures are aggressively scaling up NAND flash density in order to increase capacity and reduce the cost per gigabyte using either MLC (multi-level cell) or TLC (triple level cell) technologies. However, other metrics like reliability, endurance, and performance are all declining. As a result, developing a high-performance and highly reliable embedded flash storage system on top of increasingly larger but inferior NAND flash memory devices has become both indispensable and challenging. Utilizing a holistic approach from hardware re-architecting to software redesign, this project designs, implements, and evaluates a new flash storage system for emerging and future data-intensive mobile applications such as wireless healthcare and live sport broadcast. In particular, this project will replace the existing single-device hardware organization with a multiple-device array architecture. Next, this project will develop a new flash file system that can access multiple flash memory devices in parallel. Also, a wide spectrum of new techniques including garbage collection method, wear levelling mechanism, ECC protection, and data recovery scheme will be developed. Finally, a hardware prototype that can empirically evaluate the new flash device array architecture and all software modules will be built. The new flash file system including source code and documents, all new techniques, and the hardware prototype, the outcomes of this project, will be released to the public. This project will also promote teaching, learning, and training by exposing students to technological and scientific underpinnings in the field of mobile storage systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Tao",
+   "pi_last_name": "Xie",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tao Xie",
+   "pi_email_addr": "txie@sdsu.edu",
+   "nsf_id": "000493568",
+   "pi_start_date": "2013-07-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "San Diego State University Foundation",
+  "inst_street_address": "5250 CAMPANILE DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "SAN DIEGO",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6195945731",
+  "inst_zip_code": "921821901",
+  "inst_country_name": "United States",
+  "cong_dist_code": "51",
+  "st_cong_dist_code": "CA51",
+  "org_lgl_bus_name": "SAN DIEGO STATE UNIVERSITY FOUNDATION",
+  "org_prnt_uei_num": "H59JKGFZKHL7",
+  "org_uei_num": "H59JKGFZKHL7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "San Diego State University",
+  "perf_str_addr": "5500 Campanile Drive",
+  "perf_city_name": "San Diego",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "921827455",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "51",
+  "perf_st_cong_dist": "CA51",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 440727.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Flash memory has increasingly become a standard storage device for mobile devices because of its good performance, small footprint, low power consumption, and shock resistance. Mobile devices such as smartphones normally use raw flash memory through an embedded flash file system, a dedicated file system designed for storing files on raw flash memory devices. A file system is a computer software module, which is in charge of how files are named, stored, and retrieved. Millions of Android smart phones had utilized an existing flash file system called YAFFS2 (Yet Another Flash File System version 2) to manage their data. However, existing flash file systems are becoming increasingly inadequate for emerging mobile applications (e.g., wireless healthcare and live sport broadcasts), which normally demand a very high performance, high reliability, and large-capacity. The major reason is that these applications need to generate and process a large amount of critical data. Unfortunately, all existing flash file systems can support only one MTD (Memory Technology Device) device. The single MTD device architecture significantly hinders I/O performance mainly because it has to process all requests serially. Besides, it can provide a very limited capacity. Even worse, flash memory manufactures are aggressively scaling up flash density in order to increase capacity and reduce the cost per gigabyte. However, other metrics like reliability, endurance, and performance are all declining.</p>\n<p>Utilizing a combined approach from hardware re-architecting to software redesign, the project under this grant developed a new flash storage system for emerging and future data-intensive mobile applications. In particular, we, the principal investigator and supported students at San Diego State University, re-architected current device-level hardware organization by constructing an array of large-capacity flash devices to replace the existing single-device architecture. We designed and implemented a new flash file system called MA-UBIFS (MTD Array-Unsorted Block Image File System) that can access multiple flash memory devices in parallel to significantly improve both performance and reliability. A hardware prototype that can empirically evaluate the new flash device array architecture and all software modules was built. The new flash file system including source code and documents were released to the public.</p>\n<p>The most significant contribution of this project has been its impact on the storage research community. The new device-array based mobile storage architecture and new flash file system have facilitated research on mobile storage systems. The potential impact of this project is to benefit everyone in society who needs to use a mobile device.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/24/2018<br>\n\t\t\t\t\tModified by: Tao&nbsp;Xie</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nFlash memory has increasingly become a standard storage device for mobile devices because of its good performance, small footprint, low power consumption, and shock resistance. Mobile devices such as smartphones normally use raw flash memory through an embedded flash file system, a dedicated file system designed for storing files on raw flash memory devices. A file system is a computer software module, which is in charge of how files are named, stored, and retrieved. Millions of Android smart phones had utilized an existing flash file system called YAFFS2 (Yet Another Flash File System version 2) to manage their data. However, existing flash file systems are becoming increasingly inadequate for emerging mobile applications (e.g., wireless healthcare and live sport broadcasts), which normally demand a very high performance, high reliability, and large-capacity. The major reason is that these applications need to generate and process a large amount of critical data. Unfortunately, all existing flash file systems can support only one MTD (Memory Technology Device) device. The single MTD device architecture significantly hinders I/O performance mainly because it has to process all requests serially. Besides, it can provide a very limited capacity. Even worse, flash memory manufactures are aggressively scaling up flash density in order to increase capacity and reduce the cost per gigabyte. However, other metrics like reliability, endurance, and performance are all declining.\n\nUtilizing a combined approach from hardware re-architecting to software redesign, the project under this grant developed a new flash storage system for emerging and future data-intensive mobile applications. In particular, we, the principal investigator and supported students at San Diego State University, re-architected current device-level hardware organization by constructing an array of large-capacity flash devices to replace the existing single-device architecture. We designed and implemented a new flash file system called MA-UBIFS (MTD Array-Unsorted Block Image File System) that can access multiple flash memory devices in parallel to significantly improve both performance and reliability. A hardware prototype that can empirically evaluate the new flash device array architecture and all software modules was built. The new flash file system including source code and documents were released to the public.\n\nThe most significant contribution of this project has been its impact on the storage research community. The new device-array based mobile storage architecture and new flash file system have facilitated research on mobile storage systems. The potential impact of this project is to benefit everyone in society who needs to use a mobile device.\n\n \n\n\t\t\t\t\tLast Modified: 10/24/2018\n\n\t\t\t\t\tSubmitted by: Tao Xie"
+ }
+}

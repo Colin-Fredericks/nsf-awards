@@ -1,0 +1,106 @@
+{
+ "awd_id": "9814929",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SCORE: A Scalable Architecture for Implementing Resource Management Algorithms in High Speed Networks",
+ "cfda_num": "47.070",
+ "org_code": "05050202",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Admela Jukan",
+ "awd_eff_date": "1999-09-15",
+ "awd_exp_date": "2003-08-31",
+ "tot_intn_awd_amt": 485601.0,
+ "awd_amount": 485601.0,
+ "awd_min_amd_letter_date": "1999-03-22",
+ "awd_max_amd_letter_date": "1999-03-22",
+ "awd_abstract_narration": "The ability to support per-flow management -- that is, to maintain state, manage buffers, perform packet classification and/or scheduling on a per flow basis -- provides a powerful tool to address many of the challenging resource management problems in today's Internet, such as congestion control and\r\nend-to-end quality of service. However, given that the number of flows in a backbone routers can be on the order of hundred of thousands, the complexity incurred by per-flow management mechanisms may prevent them from being effectively implemented and widely deployed.\r\n\r\nTo address these problems, the principal investigator (PI) proposes an architecture, called Scalable Core (SCORE for short) in which the network is partitioned in continuous regions, called islands.  Within each island the PI distinguishes between edge and core nodes. While the edge nodes perform per flow management, the core nodes do not. Since edge nodes manage fewer flows and at the limit an edge node can be a host, this architecture is highly scalable.  The main goal is then to use the SCORE architecture to approximate a reference island in which all nodes perform per flow management. In this way it is possible to provide\r\nefficient support for a wide variety of resource management policies.\r\n\r\nTo approximate the reference network the PI introduces two schemes. In the first scheme, each ingress node labels every packet as it enters the network with the state of the flow (e.g., rate) to which it belongs. Further, each core node processes the packet based on its label and the node state (e.g., utilization).  In the second scheme, the states of all nodes on the flow's path are aggregated and sent to the edge nodes. Based on this information and the flow state, the edge routers decide how to process an incoming packet (e.g., forward or drop it).\r\n\r\nThe PI plans to develop an integrated set of algorithms within the SCORE framework to support congestion control for best-effort service, end-to-end QoS guarantee, and differential services.  He will conduct the study via a combination of analysis, simulation, and implementation. In addition, he plans to conduct scaled experiments over the CAIRN high speed testbed network and work with industrial partners (Cisco, Ascend, 3Com, Intel, MCI) to speed-up the transition of the developed technologies to the industry.  The results of this work are expected to have significant impacts on the design of resource management algorithms for the Internet.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hui",
+   "pi_last_name": "Zhang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hui Zhang",
+   "pi_email_addr": "hzhang@cs.cmu.edu",
+   "nsf_id": "000165147",
+   "pi_start_date": "1999-03-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "5000 FORBES AVE",
+  "perf_city_name": "PITTSBURGH",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133815",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "192000",
+   "pgm_ele_name": "RESEARCH/TESTBEDS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "4097",
+   "pgm_ref_txt": "NETWORKING RESEARCH"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0198",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0198",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1999,
+   "fund_oblg_amt": 485601.0
+  }
+ ],
+ "por": null
+}

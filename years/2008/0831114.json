@@ -1,0 +1,102 @@
+{
+ "awd_id": "0831114",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CT-ISG:   New Foundations for Quantitative Information Flow",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2008-09-01",
+ "awd_exp_date": "2012-08-31",
+ "tot_intn_awd_amt": 335852.0,
+ "awd_amount": 335852.0,
+ "awd_min_amd_letter_date": "2008-08-25",
+ "awd_max_amd_letter_date": "2008-08-25",
+ "awd_abstract_narration": "Protecting the confidentiality and integrity of sensitive information is central to trustworthy computing. This project focuses on one aspect of the problem, namely, the difficulty of developing software that satisfies critical information flow properties. The approach of secure information flow analysis is to do a static analysis, usually in the form of a type system, on a program prior to executing it, with the goal of proving that it does not leak any information from its high inputs to its low outputs; this is formalized as a property called noninterference. But noninterference is widely recognized to be too restrictive in practice -- often we need to have low output that depends on high input. In implementations, such deliberate leaks of information can be allowed through an explicit declassify construct, which functions like a type cast to circumvent the typing rules. But declassification, while expedient, throws into question what is then ensured by the analysis.\r\n\r\nOne promising disciplined approach to relaxing noninterference is to develop a quantitative theory of information flow that lets us talk about \"how much\" information is leaked. Such quantitative theories are being studied in a variety of contexts, including secure information flow, anonymity protocols, and side-channel analysis, and there is an emerging consensus to base such theories on the concepts of Shannon entropy and mutual information. But a useful theory of quantitative information flow must provide appropriate security guarantees: if the theory says that an attack leaks x bits of secret information, then x should be useful in calculating bounds on the resulting threat. Unfortunately, it can be argued that the standard theories actually fail to provide such guarantees, because a random variable can have arbitrarily large Shannon entropy even if it is highly vulnerable to being guessed.\r\n\r\nThis project will therefore explore an alternative foundation for quantitative information flow based on a concept of vulnerability (closely related to Bayes risk) and which measures uncertainty using Renyi?s min-entropy, rather than Shannon entropy. The goal is to develop the new foundation both theoretically and practically. The main technical challenge will be to develop type-based static analyses that can be used to guarantee that programs satisfy desired quantitative information flow policies. More broadly, this project aims to help to enable the disciplined development of software with guaranteed information flow properties, and to educate students about programming for secure information flow.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Geoffrey",
+   "pi_last_name": "Smith",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Geoffrey S Smith",
+   "pi_email_addr": "smithg@cis.fiu.edu",
+   "nsf_id": "000477976",
+   "pi_start_date": "2008-08-25",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Florida International University",
+  "inst_street_address": "11200 SW 8TH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "MIAMI",
+  "inst_state_code": "FL",
+  "inst_state_name": "Florida",
+  "inst_phone_num": "3053482494",
+  "inst_zip_code": "331992516",
+  "inst_country_name": "United States",
+  "cong_dist_code": "26",
+  "st_cong_dist_code": "FL26",
+  "org_lgl_bus_name": "FLORIDA INTERNATIONAL UNIVERSITY",
+  "org_prnt_uei_num": "Q3KCVK5S9CP1",
+  "org_uei_num": "Q3KCVK5S9CP1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Florida International University",
+  "perf_str_addr": "11200 SW 8TH ST",
+  "perf_city_name": "MIAMI",
+  "perf_st_code": "FL",
+  "perf_st_name": "Florida",
+  "perf_zip_code": "331992516",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "26",
+  "perf_st_cong_dist": "FL26",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "737100",
+   "pgm_ele_name": "CYBER TRUST"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0108",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000809DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2008,
+   "fund_oblg_amt": 335852.0
+  }
+ ],
+ "por": null
+}

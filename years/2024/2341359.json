@@ -1,0 +1,114 @@
+{
+ "awd_id": "2341359",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF: Small: Efficient and Secure Federated Structure Learning from Bad Data",
+ "cfda_num": "47.070, 47.083",
+ "org_code": "05010000",
+ "po_phone": "7032920000",
+ "po_email": "ahero@nsf.gov",
+ "po_sign_block_name": "Alfred Hero",
+ "awd_eff_date": "2024-06-01",
+ "awd_exp_date": "2027-05-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2024-03-29",
+ "awd_max_amd_letter_date": "2024-03-29",
+ "awd_abstract_narration": "This project develops secure distributed algorithms for efficiently solving a large class of optimization problems that occur in medical imaging and machine learning. Important examples include accelerated magnetic resonance imaging (MRI), product recommender systems, computer vision (e.g., occlusion removal or video editing), and bioinformatics (grouping of unlabeled data).  The focus is on algorithms that are fast, require communicating only small amounts of data, and work well in the data-scarce regime.  Algorithm speed is an important concern in all modern applications. Within MRI, it is essential for (near) real-time applications such as interventional MRI or on the fly identification and correction of artifacts, e.g., re-scanning if the patient coughs during the first scan.  Sample efficiency is critical for accelerating the MRI scan, or for learning user ratings of products from very few available ones. The project also supports Early Math education via the CyMath program, a program in which Math-loving graduate students provide after-school Math tutoring support for students as young as third graders. \r\n\r\nThis project introduces a novel solution framework called alternating gradient descent (GD) and minimization that provides a faster and more communication-efficient solution for many optimization problems for which alternating minimization (AltMin) is a popular solution. In particular, it is useful for any problem for which the minimization over one set of variables is much quicker than that over the other set. Starting with a careful initialization for one set, AltGDmin alternately updates the variables using minimization for the quicker set and gradient descent (GD) for the other set. Often, the reason that the minimization is fast over some variables is that the optimization problem is decoupled with respect to these variables. This decoupling also helps guarantee per-iteration communication-efficiency and privacy in federated settings. The use of minimization for one set of the variables is also what helps ensure sufficient error decay in each algorithm iteration. This implies that, for certain problems such as low rank column-wise sensing, AltGDmin is almost as fast and as communication-efficient per iteration as (factorized) GD, while converging almost as quickly as AltMin. This makes it faster overall than both types of solutions. Problem-specific correctness guarantees are derived. These determine the theoretical bounds on the iteration complexity and the sample complexity. Obtaining these results requires the development of novel proof techniques that may be of independent interest. The reason is AltGDmin is neither an AltMin approach nor a a standard GD algorithm for any subset of variables.  The design and analysis Byzantine resilient (secure) AltGDmin algorithms is being studied for various low rank, and other structure, recovery problems.\r\n\r\nThis project is jointly funded by the Computing and Communications Foundations (CCF) division of the Computer and Information Sciences Directorate (CISE) and the Established Program to Stimulate Competitive Research (EPSCoR).\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Namrata",
+   "pi_last_name": "Vaswani",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Namrata Vaswani",
+   "pi_email_addr": "namrata@iastate.edu",
+   "nsf_id": "000234521",
+   "pi_start_date": "2024-03-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Iowa State University",
+  "inst_street_address": "1350 BEARDSHEAR HALL",
+  "inst_street_address_2": "515 MORRILL ROAD",
+  "inst_city_name": "AMES",
+  "inst_state_code": "IA",
+  "inst_state_name": "Iowa",
+  "inst_phone_num": "5152945225",
+  "inst_zip_code": "500112103",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IA04",
+  "org_lgl_bus_name": "IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+  "org_prnt_uei_num": "DQDBM7FGJPC5",
+  "org_uei_num": "DQDBM7FGJPC5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Iowa State University",
+  "perf_str_addr": "515 MORRILL RD, 1350 BEARDSHEAR HALL",
+  "perf_city_name": "AMES",
+  "perf_st_code": "IA",
+  "perf_st_name": "Iowa",
+  "perf_zip_code": "500112105",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IA04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779700",
+   "pgm_ele_name": "Comm & Information Foundations"
+  },
+  {
+   "pgm_ele_code": "915000",
+   "pgm_ele_name": "EPSCoR Co-Funding"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "079Z",
+   "pgm_ref_txt": "Machine Learning Theory"
+  },
+  {
+   "pgm_ref_code": "7937",
+   "pgm_ref_txt": "NETWORK CODING AND INFO THEORY"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 600000.0
+  }
+ ],
+ "por": null
+}

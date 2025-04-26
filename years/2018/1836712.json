@@ -1,0 +1,129 @@
+{
+ "awd_id": "1836712",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "FMitF: Verifying Concurrent System Software with Cspec",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2018-11-01",
+ "awd_exp_date": "2022-10-31",
+ "tot_intn_awd_amt": 750000.0,
+ "awd_amount": 750000.0,
+ "awd_min_amd_letter_date": "2018-08-31",
+ "awd_max_amd_letter_date": "2018-08-31",
+ "awd_abstract_narration": "Most computer systems involve concurrency---multiple threads, cores, or computers executing at the same time and interacting with one another. Developing concurrent software is error-prone, because the concurrent threads can interact in many unexpected ways, and it is easy for developers to overlook subtle corner-case interactions. This project will tackle this problem through the use of machine-checked proofs for concurrent software: that is, it will focus on helping developers to provide a mathematical proof that the software will execute according to its specification, for any possible interaction among the concurrent threads.  As a driving example, this project will develop a verified concurrent multicore file system. This project's novelty lies in its approach for specifying and proving concurrent software that reduces the number of thread interactions that the developer must reason about, while still providing a full proof of correctness.  The expected impact of this project will be a set of ideas, techniques, and tools for specifying and proving concurrent systems software.  Since concurrent software plays such a critical role in computer systems, being able to verify correctness of key software components will improve reliability and security of many systems.\r\n\r\nThe specific research contributions of this project will center around CSPEC, a framework for formal verification of concurrent software, which will help developers ensure that no corner cases are missed.  The key challenge faced by CSPEC is to reduce the number of interactions, or interleavings, that developers must consider in their proofs.  CSPEC addresses this challenge using so-called mover types to reorder commutative operations.  Mover types enable developers to reason about largely sequential executions rather than all possible interleavings.  CSPEC also provides a library of proof patterns for common styles of concurrency, including retry loops, state partitioning, and cooperative enforcement of rules between threads or processes.  In the process of developing a verified concurrent file system on top of CSPEC, the investigators will address additional research challenges, such as formulating a specification for a POSIX file system under concurrency, integrating reasoning about crash safety and concurrency, managing the complexity of proving a sophisticated concurrent file system, and generating efficient concurrent code to achieve high performance while preserving correctness.  As part of this project, the research team will also develop a course focused on formal reasoning about computer systems, which includes concurrency, reliability, and fault-tolerance.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nickolai",
+   "pi_last_name": "Zeldovich",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nickolai Zeldovich",
+   "pi_email_addr": "nickolai@csail.mit.edu",
+   "nsf_id": "000520788",
+   "pi_start_date": "2018-08-31",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Marinus",
+   "pi_last_name": "Kaashoek",
+   "pi_mid_init": "F",
+   "pi_sufx_name": "",
+   "pi_full_name": "Marinus F Kaashoek",
+   "pi_email_addr": "kaashoek@lcs.mit.edu",
+   "nsf_id": "000098539",
+   "pi_start_date": "2018-08-31",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Adam",
+   "pi_last_name": "Chlipala",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Adam J Chlipala",
+   "pi_email_addr": "adamc@csail.mit.edu",
+   "nsf_id": "000610723",
+   "pi_start_date": "2018-08-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394309",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "094Y00",
+   "pgm_ele_name": "FMitF: Formal Methods in the F"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "062Z",
+   "pgm_ref_txt": "Harnessing the Data Revolution"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 750000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Developing concurrent systems software is error-prone, because the execution of multiple processes or threads can interleave in many ways, and it is easy for developers to forget about a subtle corner-case interleaving.&nbsp; If developers forget to handle some corner case, the software can crash or otherwise misbehave, leading to data loss or incorrect results.&nbsp; Writing concurrent storage systems, such as a file system, brings yet another challenging aspect: crashes can occur at any instant, such as due to a power failure.&nbsp; Developers must reason about how the file system would recover from every possible such crash, and missing any of these cases can lead to data loss or corruption.</p>\n<p>This project developed techniques for specifying, developing, and verifying concurrent storage systems.&nbsp; Formal verification uses a machine-checked proof to demonstrate that the system implementation (i.e., its source code) executes according to its specification in every possible case.&nbsp; A computer checks this proof, ensuring that the developer did not miss any corner case, which rules out the possibility of software bugs that can violate the specification.</p>\n<p>This project culminated in a verified concurrent crash-safe NFS (network file system) file server, called DaisyNFS.&nbsp; DaisyNFS speaks the standard NFS protocol, and can be accessed from any client that speaks NFS, such as any Linux computer.&nbsp; DaisyNFS achieves high performance, owing to its sophisticated design that uses concurrent threads for handling multiple client requests, an optimized on-disk write-ahead log, and the use of a practical systems programming language (Go) for its implementation.&nbsp; At the same time, DaisyNFS comes with a precise specification that captures the NFS protocol, and a machine-checked proof that DaisyNFS will behave according to this specification regardless of how its threads might interleave, or when it might inadvertently crash, reboot, and recover.</p>\n<p>One key technical contribution underlying DaisyNFS is the Perennial framework, which demonstrates how to incorporate reasoning about on-disk storage, crashes, and recovery into concurrent separation logic (CSL).&nbsp; CSL is a powerful approach for reasoning about concurrent software in a modular way, so that developers can prove the correctness of one function at a time, even though the functions may end up executing concurrently with one another at runtime.&nbsp; Incorporating crash reasoning into CSL was challenging because crashes are highly non-local: the system can stop executing any function and start running the recovery code at any moment.&nbsp; Perennial introduces the notion of crash-borrows to help developers reason about the effects of crashes in a local and modular way.</p>\n<p>A second key technical contribution of DaisyNFS lies in showing how to separate reasoning about concurrency and crashes, which are subtle and complex to verify, from reasoning about the bulk of application code, by using transactions.&nbsp; DaisyNFS builds on a transaction system, called GoTxn, which comes with a proof that its transactions will execute as if they ran one at a time, without crashes, even though in reality GoTxn will run transactions concurrently and handle recovery from any crashes.&nbsp; This allows all of the crash and concurrency reasoning to be contained in the proof of GoTxn, and developers can reason about the bulk of the code, such as the handlers of every NFS operation in DaisyNFS, using sequential reasoning.&nbsp; This, in turn, allows DaisyNFS to implement and verify its operations using Dafny, a language specifically designed for automated verification of sequential code, with far less proof effort.&nbsp; The Dafny implementation, once verified, is then translated into Go to run on top of GoTxn to achieve correctness in the presence of crashes and concurrent execution.</p>\n<p>In addition to the research contributions centering on DaisyNFS, this project also developed a series of educational lab assignments to teach students about formal verification of storage systems and crash recovery.&nbsp; The lab assignments are part of MIT's Principles of Computer Systems course (6.826), and are publicly available online.</p>\n<p>Finally, as part of this project, we also organized an annual New England Systems Verification Day, which attracted close to 100 participants each year from academia and industry in the space of systems verification.&nbsp; This helped connect researchers and better inform them about ongoing work, as well as help industrial practitioners learn about and connect with promising research that can be applied to real-world systems.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/22/2022<br>\n\t\t\t\t\tModified by: Nickolai&nbsp;Zeldovich</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nDeveloping concurrent systems software is error-prone, because the execution of multiple processes or threads can interleave in many ways, and it is easy for developers to forget about a subtle corner-case interleaving.  If developers forget to handle some corner case, the software can crash or otherwise misbehave, leading to data loss or incorrect results.  Writing concurrent storage systems, such as a file system, brings yet another challenging aspect: crashes can occur at any instant, such as due to a power failure.  Developers must reason about how the file system would recover from every possible such crash, and missing any of these cases can lead to data loss or corruption.\n\nThis project developed techniques for specifying, developing, and verifying concurrent storage systems.  Formal verification uses a machine-checked proof to demonstrate that the system implementation (i.e., its source code) executes according to its specification in every possible case.  A computer checks this proof, ensuring that the developer did not miss any corner case, which rules out the possibility of software bugs that can violate the specification.\n\nThis project culminated in a verified concurrent crash-safe NFS (network file system) file server, called DaisyNFS.  DaisyNFS speaks the standard NFS protocol, and can be accessed from any client that speaks NFS, such as any Linux computer.  DaisyNFS achieves high performance, owing to its sophisticated design that uses concurrent threads for handling multiple client requests, an optimized on-disk write-ahead log, and the use of a practical systems programming language (Go) for its implementation.  At the same time, DaisyNFS comes with a precise specification that captures the NFS protocol, and a machine-checked proof that DaisyNFS will behave according to this specification regardless of how its threads might interleave, or when it might inadvertently crash, reboot, and recover.\n\nOne key technical contribution underlying DaisyNFS is the Perennial framework, which demonstrates how to incorporate reasoning about on-disk storage, crashes, and recovery into concurrent separation logic (CSL).  CSL is a powerful approach for reasoning about concurrent software in a modular way, so that developers can prove the correctness of one function at a time, even though the functions may end up executing concurrently with one another at runtime.  Incorporating crash reasoning into CSL was challenging because crashes are highly non-local: the system can stop executing any function and start running the recovery code at any moment.  Perennial introduces the notion of crash-borrows to help developers reason about the effects of crashes in a local and modular way.\n\nA second key technical contribution of DaisyNFS lies in showing how to separate reasoning about concurrency and crashes, which are subtle and complex to verify, from reasoning about the bulk of application code, by using transactions.  DaisyNFS builds on a transaction system, called GoTxn, which comes with a proof that its transactions will execute as if they ran one at a time, without crashes, even though in reality GoTxn will run transactions concurrently and handle recovery from any crashes.  This allows all of the crash and concurrency reasoning to be contained in the proof of GoTxn, and developers can reason about the bulk of the code, such as the handlers of every NFS operation in DaisyNFS, using sequential reasoning.  This, in turn, allows DaisyNFS to implement and verify its operations using Dafny, a language specifically designed for automated verification of sequential code, with far less proof effort.  The Dafny implementation, once verified, is then translated into Go to run on top of GoTxn to achieve correctness in the presence of crashes and concurrent execution.\n\nIn addition to the research contributions centering on DaisyNFS, this project also developed a series of educational lab assignments to teach students about formal verification of storage systems and crash recovery.  The lab assignments are part of MIT's Principles of Computer Systems course (6.826), and are publicly available online.\n\nFinally, as part of this project, we also organized an annual New England Systems Verification Day, which attracted close to 100 participants each year from academia and industry in the space of systems verification.  This helped connect researchers and better inform them about ongoing work, as well as help industrial practitioners learn about and connect with promising research that can be applied to real-world systems.\n\n\t\t\t\t\tLast Modified: 12/22/2022\n\n\t\t\t\t\tSubmitted by: Nickolai Zeldovich"
+ }
+}

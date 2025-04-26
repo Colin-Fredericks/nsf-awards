@@ -1,0 +1,96 @@
+{
+ "awd_id": "1803760",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "A New Paradigm for Computing Discrete Adjoint Sensitivities Based on Operator-Overloading and Its Application to Aerodynamic Design",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": "7032927030",
+ "po_email": "rjoslin@nsf.gov",
+ "po_sign_block_name": "Ron Joslin",
+ "awd_eff_date": "2018-08-01",
+ "awd_exp_date": "2022-07-31",
+ "tot_intn_awd_amt": 302989.0,
+ "awd_amount": 302989.0,
+ "awd_min_amd_letter_date": "2018-06-08",
+ "awd_max_amd_letter_date": "2018-06-08",
+ "awd_abstract_narration": "The design and development of future wind turbines, aircraft, and turbomachinery requires extensive use of computational fluid dynamic (CFD) analyses to model and understand complex fluid phenomena. However, these analyses alone do not provide insight into how current and future designs can be optimized. Complementary to CFD analyses is another computational method called adjoint computation. High-fidelity adjoint computations provide exciting potential for aerodynamic optimization, but widespread use of such methods is hindered due to the significant time required for hand-coding adjoint solvers and the substantially cumbersome debugging process needed to adopt existing automated approaches.  Therefore, the principal aim of this project is to develop fully automated adjoint sensitivity analysis techniques that are not only computationally and memory efficient but also able to be readily integrated into existing CFD solvers. Successfully completing this project will significantly advance the state-of-the-art in aerodynamic design optimization and enable the next generation of aerospace innovation. This project will incorporate several outreach and educational activities, including a new project-based graduate course, a training program for faculty and engineering professionals interested in this technology, and hands-on workshops to pre-service science teachers to facilitate the use of related activities in the classroom.\r\n\r\nThe overall goal of this project is to introduce a new approach for adjoint sensitivity analysis. This new paradigm will employ operator overloading (OO), a capability offered by object-oriented programming, to automatically compute the sensitivity of any objective function to all design variables (potentially thousands). Unlike the traditional use of OO in adjoint computations, which requires the storage of any intermediate variable in the iterative process, thereby exponentially increasing the memory needed, this method will take advantage of the repetitiveness of the iterative process to minimize the memory footprint. More specifically, the efforts will focus on (i) developing a novel and efficient CFD-based approach to calculate steady, time-periodic, time-accurate adjoint sensitivities; (ii) coupling this novel technique to a reduced-order-model-based acceleration technique to further speed up adjoint computations; (iii) applying the new technique to relevant problems including optimizing wind turbine shape and designing new natural-laminar flow airfoils. These activities will directly contribute to the fundamental understanding of how complex flow features affect design and performance of future aircraft engines, as well as aircraft wings and wind turbine blades.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kivanc",
+   "pi_last_name": "Ekici",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kivanc Ekici",
+   "pi_email_addr": "ekici@utk.edu",
+   "nsf_id": "000569575",
+   "pi_start_date": "2018-06-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Tennessee Knoxville",
+  "inst_street_address": "201 ANDY HOLT TOWER",
+  "inst_street_address_2": "",
+  "inst_city_name": "KNOXVILLE",
+  "inst_state_code": "TN",
+  "inst_state_name": "Tennessee",
+  "inst_phone_num": "8659743466",
+  "inst_zip_code": "379960001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "TN02",
+  "org_lgl_bus_name": "UNIVERSITY OF TENNESSEE",
+  "org_prnt_uei_num": "LXG4F9K8YZK5",
+  "org_uei_num": "FN2YCS2YAUW3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "The University of Tennessee",
+  "perf_str_addr": "1 CIRCLE PARK",
+  "perf_city_name": "Knoxville",
+  "perf_st_code": "TN",
+  "perf_st_name": "Tennessee",
+  "perf_zip_code": "379960003",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "TN02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "144300",
+   "pgm_ele_name": "FD-Fluid Dynamics"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 302989.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This award allowed the PI and his team to develop a novel approach to compute adjoint sensitivities of computational fluid dynamics (CFD) codes in a very efficient manner. The sensitivities were computed through a new \"toolbox\" called FDOT which was coupled to our in-house solver named UNPAC. The efficacy of the technique was demonstrated through aerodynamic design optimization of canonical configurations/problems. This new approach was also used to identify the sensitivities of closure coefficients in Spalart-Allmaras (SA) turbulence and Amplification Factor Transport (AFT) transition models. Based on those analyses a new equation that relates the amplification factor to freestream turbulence intensity (similar to Mack's relationship) was developed. This was shown to avoid \"finetuning\" of parameters to match experimental data. Various conference and journal papers were published to disseminate the findings of the research. Also, the toolbox was made available to other researcher to allow them to compute adjoints in a black-box manner coupled to their in-house CFD solvers. The postdoctoral associate gained significant experience and found employment as a Lead CFD engineer at a respected company. The proposed outreach activities were hampered by the pandemic, but our graduate student association (GAME) has finally started their K-12 demonstrations in Fall of 2022.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/29/2022<br>\n\t\t\t\t\tModified by: Kivanc&nbsp;Ekici</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis award allowed the PI and his team to develop a novel approach to compute adjoint sensitivities of computational fluid dynamics (CFD) codes in a very efficient manner. The sensitivities were computed through a new \"toolbox\" called FDOT which was coupled to our in-house solver named UNPAC. The efficacy of the technique was demonstrated through aerodynamic design optimization of canonical configurations/problems. This new approach was also used to identify the sensitivities of closure coefficients in Spalart-Allmaras (SA) turbulence and Amplification Factor Transport (AFT) transition models. Based on those analyses a new equation that relates the amplification factor to freestream turbulence intensity (similar to Mack's relationship) was developed. This was shown to avoid \"finetuning\" of parameters to match experimental data. Various conference and journal papers were published to disseminate the findings of the research. Also, the toolbox was made available to other researcher to allow them to compute adjoints in a black-box manner coupled to their in-house CFD solvers. The postdoctoral associate gained significant experience and found employment as a Lead CFD engineer at a respected company. The proposed outreach activities were hampered by the pandemic, but our graduate student association (GAME) has finally started their K-12 demonstrations in Fall of 2022.\n\n\t\t\t\t\tLast Modified: 11/29/2022\n\n\t\t\t\t\tSubmitted by: Kivanc Ekici"
+ }
+}

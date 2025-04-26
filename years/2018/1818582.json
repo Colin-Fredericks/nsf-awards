@@ -1,0 +1,109 @@
+{
+ "awd_id": "1818582",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Mining Seismic Wavefields",
+ "cfda_num": "47.050",
+ "org_code": "06030000",
+ "po_phone": "7032927233",
+ "po_email": "mbenoit@nsf.gov",
+ "po_sign_block_name": "Margaret Benoit",
+ "awd_eff_date": "2018-05-01",
+ "awd_exp_date": "2020-04-30",
+ "tot_intn_awd_amt": 32999.0,
+ "awd_amount": 32999.0,
+ "awd_min_amd_letter_date": "2018-04-26",
+ "awd_max_amd_letter_date": "2018-04-26",
+ "awd_abstract_narration": "This award will fund continued development of methods to process huge volumes of seismic waveform data. This will lead to a great increase in the number of located and characterized seismic events of various kinds and will potentially identify patterns in earthquake occurrence that could inform hazard and near-term rupture forecasting. The initial \"Mining Seismic Wavefields\" NSF Geoinformatics grant has led to significant progress dealing with data volumes that would have been impossible to process when the project began. This award will fund an additional year of that effort and will maintain this momentum in technique development to complete the analysis of proof-of-concept projects on vast waveform data sets, and to deploy the cyberinfrastructure for wider use by the seismological community.\r\n\r\nThe premise of the research is that continuous and/or densely recorded data coupled with high performance computing and scalable algorithms can enable a network-based approach to earthquake detection that greatly improves the detection of weak and unusual events that would be difficult or impossible to detect using traditional approaches. Numerous seismological observations confirm that proximal earthquake sources generate similar signals. Exploiting the discriminative power of this similarity has led to many fundamental discoveries; however, most similarity-based detection methods require prior knowledge of the source waveform, or template. Blind/uninformed search for signals having unknown signatures based on pair-wise or multiple matches has seen some success, but na\u00efve implementations of this approach suffer from quadratic scaling of computation with time such that problems of interest are inaccessible  even for the most capable computers. Similarly, for dense networks, the availability of continuous waveform data motivates alternative detection schemes based on waveform similarity at adjacent stations. This project will further develop efficient data-mining techniques to enable scalable similarity search of seismic wavefields. Technical challenges to be addressed as part of the research for spatially sparse recording are to develop improved similarity-preserving compression for repeating signals detected over a network, and to improve post-processing of search output that will both isolate signals of seismological interest and minimize false detections. For spatially dense recording, this would extend recently developed wavefield matching techniques to similarity across adjacent stations, which would enable similarity search across unaliased elastic wavefields in four dimensions.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "GEO",
+ "org_dir_long_name": "Directorate for Geosciences",
+ "div_abbr": "EAR",
+ "org_div_long_name": "Division Of Earth Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Egill",
+   "pi_last_name": "Hauksson",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Egill Hauksson",
+   "pi_email_addr": "hauksson@caltech.edu",
+   "nsf_id": "000172125",
+   "pi_start_date": "2018-04-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "California Institute of Technology",
+  "inst_street_address": "1200 E CALIFORNIA BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "PASADENA",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "6263956219",
+  "inst_zip_code": "911250001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "28",
+  "st_cong_dist_code": "CA28",
+  "org_lgl_bus_name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "U2JMKHNS5TG4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "California Institute of Technology",
+  "perf_str_addr": "1200 E California Blvd",
+  "perf_city_name": "Pasadena",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "911250600",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "28",
+  "perf_st_cong_dist": "CA28",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "725500",
+   "pgm_ele_name": "GEOINFORMATICS"
+  },
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "8004",
+   "pgm_ref_txt": "Software Institutes"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 32999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Seismic phase association is a fundamental task in seismology that pertains to linking together phase detections on different sensors that originate from a common earthquake. It is widely employed to detect earthquakes on permanent and temporary seismic networks and underlies most seismicity catalogs produced around the world. This task can be challenging because the number of sources is unknown, events frequently overlap in time, or can occur simultaneously in different parts of a network. We present PhaseLink, a framework based on recent advances in deep learning for grid-free earthquake phase association. Our approach learns to link phases together that share a common origin and is trained entirely on millions of synthetic sequences of P and S wave arrival times generated using a 1-D velocity model. Our approach is simple to implement for any tectonic regime, suitable for real-time processing, and can naturally incorporate errors in arrival time picks. Rather than tuning a set of ad hoc hyperparameters to improve performance, PhaseLink can be improved by simply adding examples of problematic cases to the training data set. We demonstrate the state-of-the-art performance of PhaseLink on a challenging sequence from southern California and synthesized sequences from Japan designed to test the point at which the method fails. For the examined data sets, PhaseLink can precisely associate phases to events that occur only&nbsp;&sim;12 s apart in origin time. This approach is expected to improve the resolution of seismicity catalogs, add stability to real-time seismic monitoring, and streamline automated processing of large seismic data sets.</p>\n<p>&nbsp;</p>\n<p>Records of earthquake ground motions are routinely used by the earthquake engineering community for simulating the response of structures and characterizing the long-term seismic hazard. These records are in short supply, and often when designing buildings, records of previous earthquakes are modified through a series of processing steps to produce new ground motion records with target specifications. With Dr. Manuel Florez-Torres, we have begun developing a framework for earthquake ground motion synthesis using deep generative models. These models can synthesize realistic new random earthquake ground motions on demand. The ground motions are conditional on an input magnitude, source-receiver distance, and Vs30 value. They learn the distribution of the data from large strong-motion waveform datasets. We have trained these models on data collected in Japan and show that they are able to synthesize realistic ground motions with the same spectral characteristics as the data have. We expect this method to of value to engineers for providing an additional source of earthquake ground motions for hazard analyses.</p>\n<p>&nbsp;</p>\n<p>This research has created opportunities for students and early career scientists, including geoscience and computational science students and a postdoc at four institutions, to learn and apply techniques of data intensive computing to earthquake science problems. The complementary nature of the approaches we propose to take will allow us to compare their output and assess their performance. Data-intensive computing approaches have had limited impact in seismology. In the future this research has the potential for exceptionally broad impact because earthquake detection is foundational to seismology at all scales. Moreover, seismicity induced by human activities is an emerging problem that adversely affects energy options for the 21st century, including: shale gas development, enhanced geothermal energy, and carbon sequestration. The potential impact in the field of seismology will improve understanding of the relationship between small and big earthquakes as well as tectonic structures.&nbsp;&nbsp;Also, this type of data processing could potentially be brought into the real-time arena, and used to provide real-time information for earthquake and volcano hazards estimates. &nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/07/2020<br>\n\t\t\t\t\tModified by: Egill&nbsp;Hauksson</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSeismic phase association is a fundamental task in seismology that pertains to linking together phase detections on different sensors that originate from a common earthquake. It is widely employed to detect earthquakes on permanent and temporary seismic networks and underlies most seismicity catalogs produced around the world. This task can be challenging because the number of sources is unknown, events frequently overlap in time, or can occur simultaneously in different parts of a network. We present PhaseLink, a framework based on recent advances in deep learning for grid-free earthquake phase association. Our approach learns to link phases together that share a common origin and is trained entirely on millions of synthetic sequences of P and S wave arrival times generated using a 1-D velocity model. Our approach is simple to implement for any tectonic regime, suitable for real-time processing, and can naturally incorporate errors in arrival time picks. Rather than tuning a set of ad hoc hyperparameters to improve performance, PhaseLink can be improved by simply adding examples of problematic cases to the training data set. We demonstrate the state-of-the-art performance of PhaseLink on a challenging sequence from southern California and synthesized sequences from Japan designed to test the point at which the method fails. For the examined data sets, PhaseLink can precisely associate phases to events that occur only &sim;12 s apart in origin time. This approach is expected to improve the resolution of seismicity catalogs, add stability to real-time seismic monitoring, and streamline automated processing of large seismic data sets.\n\n \n\nRecords of earthquake ground motions are routinely used by the earthquake engineering community for simulating the response of structures and characterizing the long-term seismic hazard. These records are in short supply, and often when designing buildings, records of previous earthquakes are modified through a series of processing steps to produce new ground motion records with target specifications. With Dr. Manuel Florez-Torres, we have begun developing a framework for earthquake ground motion synthesis using deep generative models. These models can synthesize realistic new random earthquake ground motions on demand. The ground motions are conditional on an input magnitude, source-receiver distance, and Vs30 value. They learn the distribution of the data from large strong-motion waveform datasets. We have trained these models on data collected in Japan and show that they are able to synthesize realistic ground motions with the same spectral characteristics as the data have. We expect this method to of value to engineers for providing an additional source of earthquake ground motions for hazard analyses.\n\n \n\nThis research has created opportunities for students and early career scientists, including geoscience and computational science students and a postdoc at four institutions, to learn and apply techniques of data intensive computing to earthquake science problems. The complementary nature of the approaches we propose to take will allow us to compare their output and assess their performance. Data-intensive computing approaches have had limited impact in seismology. In the future this research has the potential for exceptionally broad impact because earthquake detection is foundational to seismology at all scales. Moreover, seismicity induced by human activities is an emerging problem that adversely affects energy options for the 21st century, including: shale gas development, enhanced geothermal energy, and carbon sequestration. The potential impact in the field of seismology will improve understanding of the relationship between small and big earthquakes as well as tectonic structures.  Also, this type of data processing could potentially be brought into the real-time arena, and used to provide real-time information for earthquake and volcano hazards estimates.  \n\n\t\t\t\t\tLast Modified: 05/07/2020\n\n\t\t\t\t\tSubmitted by: Egill Hauksson"
+ }
+}

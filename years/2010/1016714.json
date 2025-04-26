@@ -1,0 +1,101 @@
+{
+ "awd_id": "1016714",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Enabling High-Concurrency and Scalability for Many-Core Processors",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Theodore Baker",
+ "awd_eff_date": "2010-08-01",
+ "awd_exp_date": "2013-07-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2010-08-02",
+ "awd_max_amd_letter_date": "2010-08-02",
+ "awd_abstract_narration": "Enabling High-Concurrency and Scalability for Many-Core Processors\r\n\r\nWe are developing a novel operating system (OS) for many-core processors. For power and other reasons, microprocessor designs now involve increasing numbers of cores, with an expectation of 100s or 1000s of cores per chip in the future. The movement to high concurrency even for mainstream applications implies the need to simplify concurrent programming and the need for an OS \r\ncapable of managing and delivering high concurrency.\r\n\r\nThe first step is to leverage \"private\" memory, which the OS and the compiler can use without the need for concurrency control, thus achieving both simplicity and high performance. With OS and compiler support, this simplest form of concurrency management can be used more often and we can detect when the privacy assumption is not valid, thus preventing one class of errors. For \r\n\"embarrassingly\" parallel applications, this model often suffices.\r\n\r\nFor more complex concurrency patterns, we combine compiler analysis with dynamic locking, which allows us to choose adaptively from a variety of synchronization methods based on the amount of contention, and also check for common synchronization errors through a combination of static and dynamic analysis.\r\n\r\nFinally, built-in speculative execution enables latency hiding for long-running tasks, such as asynchronous I/O operations. With a many cores we can now speculatively execute several paths in parallel. Additionally, these mechanisms can be used as a lightweight checkpoint/restart for fault tolerance, especially for transient or non-deterministic bugs, thus simplifying high-availability applications.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Eric",
+   "pi_last_name": "Brewer",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Eric A Brewer",
+   "pi_email_addr": "brewer@berkeley.edu",
+   "nsf_id": "000452332",
+   "pi_start_date": "2010-08-02",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "1608 4TH ST STE 201",
+  "perf_city_name": "BERKELEY",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947101749",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>We have entered an era in which better performance must be achieved not by faster processors, but rather by adding more and more cores to the processor chip. &nbsp;As we add more cores, our traditional software has trouble making effective use them; this is particularly true for the operating system (OS).&nbsp;</p>\n<p>The key outcome of this project was the development of a new OS, called Akaros, from scratch that provides better abstractions to deliver the capabilities of many-core processors.</p>\n<p>Akaros changes the management of cores so that applications can get whole cores for extended periods instead of the traditional model of kernel threads that tend to give up cores to other tasks when those threads block (typically for I/O). &nbsp;In Akaros, all OS system calls are asynchronous, which means that the application immediately gets its core back and can use it however it likes. Applications have more control in this model, but also less overhead. In turn, the OS is simpler as it is not managing threads on behalf of the application.</p>\n<p>Akaros also distinguishes between provisioning and allocation. Provisioned cores (and memory) are reserved and the owner can use them as needed in the future, which helps to ensure that low-latency services can get the resources they need quickly when their load goes up. &nbsp;Allocated resources are those that are actually in use by the application (typically less than provisioned). &nbsp;Batch processing and big data applications can use non-provisioned resources as way to improve utilization; they fill in the resources that are provisioned but not currently in use. This allows Akaros to effectively mix batch and live services without hindering the performance of the live services.</p>\n<p>To further enhance performance the cores used by an application are gang scheduled; that is, they run together as a single many-core process. &nbsp;This enables efficient synchronization via spinlocks and in general improves cache performance. &nbsp;Using a single process structure for many cores also makes the OS more efficient as the number of cores grows.</p>\n<p>Akaros is an open-source project (see http://akaros.cs.berkeley.edu), which enables it to have a larger impact. &nbsp;Several companies are exploring Akaros and considering its ideas for their own future OS work, and other projects have already built on Akaros for their own research. Although Akaros currently supports C, there is ongoing work in the community to port the Go language, whose fine-grain concurrency model is an excellent fit for both many-core chips and Akaros.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/28/2013<br>\n\t\t\t\t\tModified by: Eric&nbsp;A&nbsp;Brewer</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nWe have entered an era in which better performance must be achieved not by faster processors, but rather by adding more and more cores to the processor chip.  As we add more cores, our traditional software has trouble making effective use them; this is particularly true for the operating system (OS). \n\nThe key outcome of this project was the development of a new OS, called Akaros, from scratch that provides better abstractions to deliver the capabilities of many-core processors.\n\nAkaros changes the management of cores so that applications can get whole cores for extended periods instead of the traditional model of kernel threads that tend to give up cores to other tasks when those threads block (typically for I/O).  In Akaros, all OS system calls are asynchronous, which means that the application immediately gets its core back and can use it however it likes. Applications have more control in this model, but also less overhead. In turn, the OS is simpler as it is not managing threads on behalf of the application.\n\nAkaros also distinguishes between provisioning and allocation. Provisioned cores (and memory) are reserved and the owner can use them as needed in the future, which helps to ensure that low-latency services can get the resources they need quickly when their load goes up.  Allocated resources are those that are actually in use by the application (typically less than provisioned).  Batch processing and big data applications can use non-provisioned resources as way to improve utilization; they fill in the resources that are provisioned but not currently in use. This allows Akaros to effectively mix batch and live services without hindering the performance of the live services.\n\nTo further enhance performance the cores used by an application are gang scheduled; that is, they run together as a single many-core process.  This enables efficient synchronization via spinlocks and in general improves cache performance.  Using a single process structure for many cores also makes the OS more efficient as the number of cores grows.\n\nAkaros is an open-source project (see http://akaros.cs.berkeley.edu), which enables it to have a larger impact.  Several companies are exploring Akaros and considering its ideas for their own future OS work, and other projects have already built on Akaros for their own research. Although Akaros currently supports C, there is ongoing work in the community to port the Go language, whose fine-grain concurrency model is an excellent fit for both many-core chips and Akaros.\n\n\t\t\t\t\tLast Modified: 10/28/2013\n\n\t\t\t\t\tSubmitted by: Eric A Brewer"
+ }
+}

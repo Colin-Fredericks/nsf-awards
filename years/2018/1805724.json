@@ -1,0 +1,96 @@
+{
+ "awd_id": "1805724",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Globally convergent optimization for data-dependent systems enabled through a novel data-driven branch-and-bound framework",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Raymond Adomaitis",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2020-08-31",
+ "tot_intn_awd_amt": 300284.0,
+ "awd_amount": 300284.0,
+ "awd_min_amd_letter_date": "2018-08-13",
+ "awd_max_amd_letter_date": "2018-08-13",
+ "awd_abstract_narration": "Decision-making for complex engineering systems depends on the development of algorithms for data-driven optimization based on data generated either by high fidelity simulations and/or experiments. Despite the high potential of data-driven optimization, there is currently a lack of efficient and scalable methods that can provide high quality solutions for a general class of data-dependent problems. The proposed work is motivated by the increasing number of applications that can benefit from data-driven optimization and control, including chemical process synthesis, enhanced oil recovery, carbon dioxide sequestration, energy efficiency of buildings, and many more.\r\n\r\nThe proposed research is focused on the integration of traditional process systems engineering with machine learning and uncertainty quantification concepts to overcome key challenges of data-dependent optimization which currently hinder their efficiency and scalability in applications with a high number of dimensions and constraints. The objectives of the proposed research are (a) the identification of efficient space and variable decomposition strategies for creating tractable optimization sub-problems, (b) the formulation of theoretically overestimating and underestimating approximating functions for data-dependent correlations by leveraging data and model uncertainty, and (c) the study of convergence rates and optimality bounds of data-driven branch-and bound optimization for a large set of challenging benchmark problems, as well as challenging case studies for oil-field operations, enhanced oil recovery and building design and efficiency.  The central idea of this work is the formulation of novel under/over-estimating approximations, which will be incorporated within a novel customized branch & bound search to systematically identify optimal solutions with a tractable number of samples and improved convergence rates.  Scalable data-driven optimization tools and a benchmarking library will be created and made publicly available with examples drawn from prominent fields, such as mechanical and structural design, chemical flowsheet design, oilfield control, parameter estimation, and protein folding. There is also a plan to incorporate data-science concepts into the chemical engineering education in the form of teaching modules that will be made available to the academic community at large. A Vertically Integrated Projects (VIP) program is also proposed aimed at attracting undergraduate students from science and engineering disciplines to work as members of interdisciplinary teams towards solving challenging data-driven optimization problems.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Fani",
+   "pi_last_name": "Boukouvala",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Fani Boukouvala",
+   "pi_email_addr": "fani.boukouvala@chbe.gatech.edu",
+   "nsf_id": "000735341",
+   "pi_start_date": "2018-08-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Chemical & Biomolecular Eng, Georgia Institute of Technology",
+  "perf_str_addr": "311 Ferst Drive NW",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320100",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "140300",
+   "pgm_ele_name": "Proc Sys, Reac Eng & Mol Therm"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 300284.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Computer simulations are important engineering tools for decision-making and have impacted academic and industrial research for many decades. Recent advances in computing power have led to breakthroughs in high-fidelity simulation modeling across scales of decision making. These advances have also led to increasing interest in optimizing systems using expensive simulation models, however, due to the lack of equations and/or derivatives, global convergence remains an open challenge.&nbsp;The goal of this project is to develop new methodologies and algorithms that can provide&nbsp; globally convergent solutions and more rigorous solution quality indicators for simulation-based optimization problems. The proposed and published techniques use surrogate approximations of data, but instead of directly optimizing the fitted models, they employ a new concept of data-driven underestimation (Figure 1) within a branch-and-bound framework. The proposed techniques follow an adaptive sampling, pruning and branching approach and have been found to have superior performance when compared to single-stage optimization of surrogate approximations with abundant data over a wide range of problems. Extensions and variations of the main algorithms were developed over the course of the project for enabling handling of different types of constraints and mixed-integer inputs. Two open-source software tools have been released, to encourage future collaborative extensions of this new paradigm of data-driven underestimation for black-box optimization (Available at: https://github.com/DDPSE). The broader impacts of this project include (a) the development of teaching modules for simulation-based optimization, suitable for incorporation within process design courses, and (b) the design and launching of a new course on data-driven decision making offered to undergraduates, graduates and industrial professionals.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/10/2021<br>\n\t\t\t\t\tModified by: Fani&nbsp;Boukouvala</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2021/1805724/1805724_10569434_1631291956960_OutcomesImage--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2021/1805724/1805724_10569434_1631291956960_OutcomesImage--rgov-800width.jpg\" title=\"Globally Convergent Black-Box Optimization\"><img src=\"/por/images/Reports/POR/2021/1805724/1805724_10569434_1631291956960_OutcomesImage--rgov-66x44.jpg\" alt=\"Globally Convergent Black-Box Optimization\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Overview of Globally Convergent Black-Box Optimization Algorithms using Underestimating Functions and Branching Techniques</div>\n<div class=\"imageCredit\">Jianyuan Zhai, Fani Boukouvala</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Fani&nbsp;Boukouvala</div>\n<div class=\"imageTitle\">Globally Convergent Black-Box Optimization</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nComputer simulations are important engineering tools for decision-making and have impacted academic and industrial research for many decades. Recent advances in computing power have led to breakthroughs in high-fidelity simulation modeling across scales of decision making. These advances have also led to increasing interest in optimizing systems using expensive simulation models, however, due to the lack of equations and/or derivatives, global convergence remains an open challenge. The goal of this project is to develop new methodologies and algorithms that can provide  globally convergent solutions and more rigorous solution quality indicators for simulation-based optimization problems. The proposed and published techniques use surrogate approximations of data, but instead of directly optimizing the fitted models, they employ a new concept of data-driven underestimation (Figure 1) within a branch-and-bound framework. The proposed techniques follow an adaptive sampling, pruning and branching approach and have been found to have superior performance when compared to single-stage optimization of surrogate approximations with abundant data over a wide range of problems. Extensions and variations of the main algorithms were developed over the course of the project for enabling handling of different types of constraints and mixed-integer inputs. Two open-source software tools have been released, to encourage future collaborative extensions of this new paradigm of data-driven underestimation for black-box optimization (Available at: https://github.com/DDPSE). The broader impacts of this project include (a) the development of teaching modules for simulation-based optimization, suitable for incorporation within process design courses, and (b) the design and launching of a new course on data-driven decision making offered to undergraduates, graduates and industrial professionals. \n\n\t\t\t\t\tLast Modified: 09/10/2021\n\n\t\t\t\t\tSubmitted by: Fani Boukouvala"
+ }
+}

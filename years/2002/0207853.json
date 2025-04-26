@@ -1,0 +1,126 @@
+{
+ "awd_id": "0207853",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Real-Time Virtual Resources",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "D. Helen Gill",
+ "awd_eff_date": "2002-07-01",
+ "awd_exp_date": "2005-06-30",
+ "tot_intn_awd_amt": 470000.0,
+ "awd_amount": 282000.0,
+ "awd_min_amd_letter_date": "2002-07-05",
+ "awd_max_amd_letter_date": "2004-07-27",
+ "awd_abstract_narration": "Aloysius K. Mok\r\nCCR-0207853                    \r\n\"REAL-TIME VIRTUAL RESOURCES\"\r\n\r\nAs embedded systems become more complex, a typical embedded system\r\nwill probably involve a mix of soft and hard real-time applications\r\nthat share the same embedded run-time platform. In general, an\r\napplication may consist of one or more tasks. For example, on a\r\nhand-held sensor-computer, a user may want to fix his own location\r\nwith respect to a target landmark and also be warned of the power\r\nconsumption status of the sensor-computer. While the power consumption\r\nwarning task may have very loose timing constraints, the location\r\nfixing task has fairly stringent timing and other QOS (quality of\r\nservice) requirements. Ideally, an application developer should be\r\nable to write his application program as if it were running on a\r\ndedicated computer and not have to worry about interference from\r\nother applications. This illusion can be maintained if global\r\nknowledge of the QOS requirements of all the applications is\r\naccessible to the operating system scheduler, so that a global\r\nschedulability analysis can be performed to ensure that every task\r\nmeets its QOS requirements. However, this is not possible in the\r\nenvironment of \"open systems\" where the operating system may not\r\nknow about the timing requirements of all the application tasks,\r\nas is the case with most commercial embedded and real-time kernels.\r\n\r\nA simplistic solution is to assign a higher priority to timing-\r\ncritical applications and let the non-real-time applications run\r\nonly when the timing-critical ones are finished. This approach is\r\nviable only for the simplest embedded systems where there is only\r\none real-time task and there is no interaction among the real-time\r\nand the non-real-time tasks. If all the applications are to various\r\ndegrees timing-critical (hard or soft), then the distinction between\r\nreal-time and non-real-time applications becomes blurry. In the\r\nsensor-computer example, if the power consumption warning task is\r\nassigned a low priority because of its laxer timing constraint, then\r\nit is possible that power may run out while the high-priority location\r\nfixing task is monopolizing the CPU. This may in turn cause a sensor\r\nreset that may affect the validity of the location fixing result.\r\n\r\nThe goal of this project is to enable the design of robust embedded\r\nreal-time systems that must function in an open systems environment.\r\nThe innovation we are investigating is an elegant software abstraction\r\ncalled RTVR (real-time virtual resource). This abstraction allows\r\napplication programmers to design embedded real-time systems as if\r\neach application had exclusive access to a set of dedicated physical\r\nresources which provide service at a roughly constant rate. The key\r\nto the RTVR concept is that of a \"delay bound\" parameter on the rate\r\nof service provision. The delay bound specification enables a\r\nprogrammer to specify the jitter allowance of his/her application.\r\nAs a result, we can simplify the verification of the timing correctness\r\nof individual applications as if there is no timing interference\r\namong application tasks. The RTVT concept also simplifies the issue\r\nof guaranteeing the timing/QOS requirements of a mixture of hard\r\nand soft real-time applications. To realize this abstraction, we\r\nmust make major advances in both theory and engineering in operating\r\nsystem design and real-time scheduling theory. Of particular interest\r\nto this project are the issues of partition composition and the\r\nhierarchical decomposition of multiple real-time virtual resources.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Aloysius",
+   "pi_last_name": "Mok",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Aloysius K Mok",
+   "pi_email_addr": "mok@cs.utexas.edu",
+   "nsf_id": "000101565",
+   "pi_start_date": "2002-07-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "110 INNER CAMPUS DR",
+  "perf_city_name": "AUSTIN",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121139",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "280100",
+   "pgm_ele_name": "EMBEDDED & HYBRID SYSTEMS(EHS)"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0102",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0102",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0103",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0103",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0104",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0104",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2002,
+   "fund_oblg_amt": 90000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2003,
+   "fund_oblg_amt": 94000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2004,
+   "fund_oblg_amt": 98000.0
+  }
+ ],
+ "por": null
+}

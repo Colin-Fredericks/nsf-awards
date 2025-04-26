@@ -1,0 +1,101 @@
+{
+ "awd_id": "1409256",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR:Medium:Collaborative Research: An Analytical Approach to Quantifying Availability (AQUA) for Cloud Resource Provisioning and Allocation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 100000.0,
+ "awd_amount": 100000.0,
+ "awd_min_amd_letter_date": "2014-08-21",
+ "awd_max_amd_letter_date": "2014-08-21",
+ "awd_abstract_narration": "Cloud computing will significantly transform the landscape of the IT industry and also impact the economy and society in many ways. The reliability and availability of cloud services, affected by various hardware and software component failures, becomes increasingly more critical, as government agencies, business and people are expected to rely more and more on these services. Lack of a guaranteed high availability of cloud services and applications is considered by many IT professionals as the top concern for preventing a successful implementation of cloud services, followed by device based security and cloud application performance. This project aims to predict the service availability for a given setting, and design effective resource provisioning and allocation algorithms to guarantee a high availability level required by cloud services. The project is expected to significantly advance the state-of-the-art by offering deep insights into the knowledge about accurate prediction and cost-effective guarantee of availability/reliability of cloud services. The outputs from this project can be used to 1) improve service availability, performance and resource utilization while minimizing the cost of overprovisioning, 2) reduce huge losses in revenue and productivity due to service outages while enabling new (mission-critical) applications and services.\r\n\r\nThe existing approaches to ensuring availability are qualitative in that they use heuristics to duplicate data or restrict the number of virtual machines (VMs) that should be placed in the same rack/server to improve reliability/availability of cloud services. However, it is essential to be able to quantify availability for a given setting. Quantifying availability for an often finite service duration via analysis (as opposed to measurement or qualitative evaluation) requires transient, instead of steady state probability analysis based on a wide range of failure and repair/backup models. This project takes a holistic approach to addressing the open challenges via both rigorous analysis and extensive experiments. More specifically, the project leverages two large-scale HPC/Cloud production systems at PI?s institutions to generate a rich set of fine-grained data about physical component failures (which is not available in the public domain). The data is then analyzed to build and verify/validate failure models. Based on the failure models and for a given Infrastructure-as-a-Service (IaaS) request for n virtual machines (VMs), a service duration of t time units and a desired availability level a < 1, the project develops an analytical model to predict the availability that can be achieved for the service duration (t), if an additional k backup VMs are allocated. The project also develops cost-effective, multi-objective optimization based cloud resource provisioning and allocation algorithms that determine the appropriate value for k (and the placement of these n+k VMs) in order to achieve the required availability level a. \r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Gregor",
+   "pi_last_name": "von Laszewski",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gregor von Laszewski",
+   "pi_email_addr": "thf2bn@virginia.edu",
+   "nsf_id": "000275379",
+   "pi_start_date": "2014-08-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Indiana University",
+  "inst_street_address": "107 S INDIANA AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BLOOMINGTON",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "3172783473",
+  "inst_zip_code": "474057000",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "IN09",
+  "org_lgl_bus_name": "TRUSTEES OF INDIANA UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YH86RTW2YVJ4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Indiana University",
+  "perf_str_addr": "2719 E 10th St",
+  "perf_city_name": "Blioomington",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "474013654",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "IN09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Since failures of physical components such as servers and switches/routers in a modern datacenter occur, predicting and guaranteeing a desired level of availability for cloud services, defined to be the uptime percentage during a given service duration, is a critical issue. Recent large-scale cloud service outages which have resulted in hundreds of billions of dollars in loss, and survey data showing that availability/reliability is a top concern associated with adopting cloud services. In this project between Indiana University and University of Buffalo we have investigated methods and strategies to address outages. To achieve this goal Indiana University has gathered many millions of log entries from the clouds they have operated over the last couple of years. This data is then made available to the team at Buffalo that analyzed the data and developed predictive methods. One of the significant outcome of this research is that in data centers with very good power outage protection such as the one at Indiana University the occurrence of such outages is small, but the impact is big. Furthermore, we noticed that large numbers of faults are created by users that do not properly provision their virtual machines but also by software faults caused by the underlying cloud infrastructure services. This indicates that operating a cloud such as the one at Indiana University is resulting in high overheads.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/06/2017<br>\n\t\t\t\t\tModified by: Gregor&nbsp;Von Laszewski</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSince failures of physical components such as servers and switches/routers in a modern datacenter occur, predicting and guaranteeing a desired level of availability for cloud services, defined to be the uptime percentage during a given service duration, is a critical issue. Recent large-scale cloud service outages which have resulted in hundreds of billions of dollars in loss, and survey data showing that availability/reliability is a top concern associated with adopting cloud services. In this project between Indiana University and University of Buffalo we have investigated methods and strategies to address outages. To achieve this goal Indiana University has gathered many millions of log entries from the clouds they have operated over the last couple of years. This data is then made available to the team at Buffalo that analyzed the data and developed predictive methods. One of the significant outcome of this research is that in data centers with very good power outage protection such as the one at Indiana University the occurrence of such outages is small, but the impact is big. Furthermore, we noticed that large numbers of faults are created by users that do not properly provision their virtual machines but also by software faults caused by the underlying cloud infrastructure services. This indicates that operating a cloud such as the one at Indiana University is resulting in high overheads. \n\n\t\t\t\t\tLast Modified: 02/06/2017\n\n\t\t\t\t\tSubmitted by: Gregor Von Laszewski"
+ }
+}

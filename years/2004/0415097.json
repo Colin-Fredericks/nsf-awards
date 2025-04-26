@@ -1,0 +1,138 @@
+{
+ "awd_id": "0415097",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Entropy-Compressed Data Structures",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Frank Olken",
+ "awd_eff_date": "2004-09-01",
+ "awd_exp_date": "2007-08-31",
+ "tot_intn_awd_amt": 255000.0,
+ "awd_amount": 255000.0,
+ "awd_min_amd_letter_date": "2004-08-17",
+ "awd_max_amd_letter_date": "2006-06-23",
+ "awd_abstract_narration": "Entropy Compressed Data Structures\r\n\r\nIn this report, we highlight the intellectual challenges of the\r\nproposal, both theoretically and in practice.  The interplay between\r\ntheory and practice distinguishes this proposal from many in the\r\ndatabase searching area.  The goal of an entropy-compressed technology\r\ncould have a major impact on data structure design and implementation.\r\nWe give a three-year research plan of desired and expected outcomes.\r\n\r\nIn this proposal, we introduce a new data structures model and\r\ntechnology called Entropy-Compressed Data Structures that addresses\r\nthe importance of limiting the size of text databases and search\r\nstructures that index huge volumes of data. The main goal is to\r\nachieve \"optimal\" space terms (with a leading coefficient of 1, with\r\nprovably smaller second-order terms) while not sacrificing optimal\r\nlookup time. We measure our \"optimal\" space usage in a data-aware\r\nmanner, as a function of the inherent randomness (or entropy) in the\r\ninput data set.  This model is an outgrowth of the recent\r\nspace-efficient discoveries made by the PI and coauthors in the area\r\nof text indexing, which has caused a rebirth of research in text\r\nindexing and has spawned considerable interest in space-efficient data\r\nstructures.\r\n\r\nIn order to analyze the space required, we need measures (or models)\r\nto evaluate these succinct structures and quantify the\r\nspace-savings. The space required for a structure should relate in\r\nsome sense to the entropy of the data that the structure is built\r\nupon.  We formalize a variety of intuitive and meaningful models as a\r\nfoundation for a uniform and structured study in a number of\r\napplications.\r\n\r\nWe plan a three-pronged approach in developing Entropy-Compressed Data\r\nStructure technology:\r\n\r\nFirst, we focus on the fundamental dictionary problem, \r\nwhere the task is to represent a set S of t items out of a universe \r\nU = {0, ..., n-1}.  Dictionaries are critical in text indexing \r\nand other database applications as a building block in designing\r\nentropy-compressed data structures. For text-based applications,\r\ndictionaries serve as a powerful black box that operates within some\r\nentropy-aware partitioning of the data. Any improvement to a\r\ndictionary structure would have tremendous impact on all such\r\ndependent applications.\r\n\r\nIn the first year, we expect to devote our efforts in developing a\r\npowerful and succinct fully indexable dictionary that operates in\r\nnear-optimal time.  In particular, we hope to achieve bounds for a\r\ndictionary supporting the operations of rank and select (and thus the\r\npredecessor operation as well) in gap + o(log {n choose t}) bits\r\n(where gap refers to the optimal space cost using a gap-encoding of\r\nthe items in the dictionary), while achieving time bounds of Anderson\r\nand Thorup, namely O(min{{sqrt{log t/loglog t}, \r\n((loglog n)(loglog t))/logloglog n, loglog t + log t/loglog n }}) time.\r\nIn a similar vein, we wish to further push our structure to achieve\r\ngap + o(gap) bits without sacrificing lookup time.  These\r\ncontributions would be quite major theoretically, and their impact\r\ncould be considerable in practice.\r\n\r\nAs a further step, we would also like our dictionary to be dynamic, as\r\nthis development would be of immediate interest to the database\r\ncommunity. In practice, we want our structures to be simple, so that\r\nthey can be readily implemented. For instance, a good implementation\r\nalso becomes a potential solution to the IP lookup problem, since one\r\ncould abstract an IP lookup as nothing more than a query to find the\r\nlongest common prefix match (which is very similar to the predecessor\r\nproblem).\r\n\r\nSecond, once a powerful dictionary is developed to serve as a black\r\nbox, we can begin to focus on the technology of space-efficient\r\nrepresentations of the application data structures themselves. Text\r\nindexing has received quite a bit of attention in recent years, and we\r\nfocus on improvements to these structures to motivate a similar\r\nprogression of work in other application areas.  We will show very\r\nclearly the relationship between text indexing and the dictionary\r\nproblems and how they can be used as a basic paradigm for making data\r\nstructures entropy-compressed.\r\n\r\nA strong component of this proposal, in comparison with other projects\r\nin the IDM program, is the marriage of theoretical analysis and\r\npractical implementation.  We have demonstrated rigorous mathematical\r\nproofs of optimality in our earlier work, and moreover, the mathematical\r\nelegance has translated to efficient implementations in practice.  We\r\nregard our strengths in theoretical design and analysis as a very\r\nstrong component of this project.\r\n\r\nIn the second year, we propose to improve the state-of-the-art in text\r\nindexing. The work in text indexes boasts two individual results. \r\nThe first achieves nH_h + o(n) bits of space with O(m) lookup time\r\n(where H_h is the hth order entropy), which is nearly optimal in space\r\n(aside from low-order terms) but not in time.  The second achieves\r\nepsilon^{-1}nH_h + o(n) bits with o(m) lookup time, which is optimal\r\nin lookup time (aside from low-order terms) but not in space. We\r\nexpect to achieve a text-indexing data structure which takes nH_h +\r\no(n) bits of space while simultaneously supporting o(m) optimal lookup\r\ntime. Achieving a result of this type satisfies all of the goals of\r\ndeveloping entropy-compressed data structures. Further improvements\r\ninvolve adding more power to compressed suffix arrays (CSAs). We hope\r\nto dynamize compressed suffix arrays without increasing time or space,\r\nas well as supporting range-searching and occurrence queries in\r\noptimal time without increasing space. The choice of h carries with\r\nit a potentially nontrivial model cost; in order to alleviate this\r\ninefficiency, we will use gap encoding. We also expect to present a\r\ncompressed suffix array that adaptively chooses the best context\r\nlength h using nH_h + o(n) bits with o(m) lookup time.\r\n\r\nIn the third year, we expand our efforts to the areas of\r\nmultidimensional matching.  We begin our exploration by first\r\ndeveloping the crucial notion of a multidimensional Burrows Wheeler\r\nTransform. In particular, we are considering a series of novel\r\ntransformations of the data that simultaneously allow fast access to\r\nthe data, ease of compression, and do not violate the various\r\nconstraints posed by Giancarlo. We then expect to achieve a\r\nmultidimensional suffix array that operates on d-dimensional data in\r\njust n^d H_h + o(n^d) bits with O(polylog n^d) time.\r\n\r\nOnce we have a generic space-efficient technology, we will aim to make\r\nit more practical via algorithms engineering by emphasizing dynamic\r\nupdating, adaptivity, and simpler design of the implementation.  We\r\nenvision many applications to spatial databases, GIS, geometric\r\nprocessing, and numerical algorithms.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jeffrey",
+   "pi_last_name": "Vitter",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jeffrey S Vitter",
+   "pi_email_addr": "jsv@ku.edu",
+   "nsf_id": "000360231",
+   "pi_start_date": "2004-08-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "2550 NORTHWESTERN AVE # 1100",
+  "perf_city_name": "WEST LAFAYETTE",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479061332",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "286000",
+   "pgm_ele_name": "THEORY OF COMPUTING"
+  },
+  {
+   "pgm_ele_code": "685500",
+   "pgm_ele_name": "INFORMATION & KNOWLEDGE MANAGE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "6855",
+   "pgm_ref_txt": "INFORMATION & KNOWLEDGE MANAGE"
+  },
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0104",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0104",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0106",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0106",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2004,
+   "fund_oblg_amt": 80000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 85000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2006,
+   "fund_oblg_amt": 90000.0
+  }
+ ],
+ "por": null
+}

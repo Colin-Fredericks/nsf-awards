@@ -1,0 +1,118 @@
+{
+ "awd_id": "2123864",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: FMitF: Track I: Composable Verification of Crash-Safe Distributed Systems with Grove",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922585",
+ "po_email": "pprabhak@nsf.gov",
+ "po_sign_block_name": "Pavithra Prabhakar",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2025-09-30",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2021-06-08",
+ "awd_max_amd_letter_date": "2021-06-08",
+ "awd_abstract_narration": "Distributed systems play a crucial role in computer systems infrastructure.  Nevertheless, developing reliable distributed systems is challenging due to the need to contend with concurrency across machines, concurrency within each machine, unreliable networks that can delay or drop messages, and  partial failures if one or more machines crash and reboot while others continue running.  As a result, distributed systems are error-prone and subtle bugs can lead to significant outages.  Traditional testing approaches are insufficient to eliminate all such bugs.  This project's novelty is a new approach to formal verification of distributed systems that allows verifying components in a modular fashion.  It allows for verification of distributed systems in the presence of crashes. This project's impact is intended to include improving the reliability and correctness of distributed systems and avoid costly outages. In addition, new lab assignments for systems-verification classes are being developed, focused on distributed systems.\r\n\r\nThe technical approach addresses two specific challenges: reasoning about crash recovery in distributed systems, as well as composing distributed systems from smaller components.  Crash recovery is challenging because individual nodes can crash and reboot.  Once a node starts running again, it might no longer be consistent with the rest of the system that did not crash. This means the node may have lost all of its memory contents on crash but may have kept some state durably on disk.  The second challenge lies in composing specifications and proofs of distributed systems (such as a key-value store) that are built out of smaller components (such as a configuration service, a lock service, or the implementation of an individual node).  Scaling verification of distributed systems requires the proof to reflect this modularity.  For example, reasoning about an application that uses a lock service should not require reasoning about the network messages sent by the lock service itself.  It should be done purely using the specifications for the lock service client stubs. This project tackles these challenges using concurrent separation logic, which provides a natural approach for composing proofs about multiple components, as well as abstracting away implementation details with a pre/post-condition specification.  This project extends earlier work with techniques for distributed system reasoning, including new kinds of per-node invariants (which might need to be repaired on crash) as opposed to global invariants (which must hold even if some nodes have crashed).  In addition, the project provides techniques for reasoning about exactly-once semantics of Remote Procedure Calls (RPC) on top of unreliable computer networks and locks that span multiple machines.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nickolai",
+   "pi_last_name": "Zeldovich",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nickolai Zeldovich",
+   "pi_email_addr": "nickolai@csail.mit.edu",
+   "nsf_id": "000520788",
+   "pi_start_date": "2021-06-08",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Marinus",
+   "pi_last_name": "Kaashoek",
+   "pi_mid_init": "F",
+   "pi_sufx_name": "",
+   "pi_full_name": "Marinus F Kaashoek",
+   "pi_email_addr": "kaashoek@lcs.mit.edu",
+   "nsf_id": "000098539",
+   "pi_start_date": "2021-06-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 Massachusetts Ave",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "094Y00",
+   "pgm_ele_name": "FMitF: Formal Methods in the F"
+  },
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "071Z",
+   "pgm_ref_txt": "FMitF-Formal Methods in the Field"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": null
+}

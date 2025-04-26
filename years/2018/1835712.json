@@ -1,0 +1,125 @@
+{
+ "awd_id": "1835712",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Elements:Software:Open-Source Robust Geometry Toolkit for Black-Box Finite Element Analysis",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rob Beverly",
+ "awd_eff_date": "2018-09-01",
+ "awd_exp_date": "2023-08-31",
+ "tot_intn_awd_amt": 599967.0,
+ "awd_amount": 599967.0,
+ "awd_min_amd_letter_date": "2018-09-06",
+ "awd_max_amd_letter_date": "2022-09-12",
+ "awd_abstract_narration": "The numerical solution of partial differential equations (PDEs) is ubiquitous in science and engineering applications, including simulation of elastoplastic deformations, fluids, and light scattering. The finite element method (FEM) is the most commonly used discretization of PDEs, especially in the context of structural and thermal analysis, due to its generality and rich selection of off-the-shelf commercial implementations. Ideally, a PDE solver should be a ``black box'': the user provides as input the domain boundary, boundary conditions, and the governing equations, and the code computes the value of the solution at a set of user-specified points of the input domain. This is surprisingly far from being the case for all existing open-source or commercial software, despite the research efforts in this direction and the large academic and industrial interest. To a large extent, this is due to treating meshing and FEM basis construction as two disjoint problems, often exposing the user to the technical issues of interfacing the meshing software with FEM basis construction, both of which, strictly speaking, are technical issues internal to the solver. This state of matters presents a fundamental problem for applications that require fully automatic, robust processing of large collections of meshes of varying sizes, an increasingly common situation as large collections of geometric data become available. This proposal introduces an integrated pipeline, considering meshing and element design as a single challenge, and developing a software platform to enable black box analysis on complex geometric models represented as point clouds, triangle meshes, or CAD (Computer Aided Design) models, opening the door to new shape design technique to a wide range of new applications in sciences and engineering.\r\n\r\nThis project proposes to develop a set of software components based on a set of novel approaches the investigators have developed combined with \"filtered\" use of rational or multi-precision numerical representations to handle robustness problems while maintaining practical performance. The proposed set of geometry processing techniques, while slower than existing ones, are fully robust in a sense of always produce a valid result with minimal assumptions on the input. The geometric toolkit will allow to automatically convert geometrical data in the form of range scans, CAD models, or voxel grids into a surface or volumetric representation, directly usable in widely used open-source finite element method (FEM) packages. It will include mesh generation, in addition to tetrahedral meshes, for other common types of discretizations: hexahedral meshes, and hex-dominant hybrid meshes. The key innovation is to achieve numerical robustness with minimal added algorithmic complexity by carefully mixing higher precision representations for the critical part, while relying on standard fixed-precision floating point representation for the rest and designing algorithms amenable to this approach. As in overwhelming majority of cases higher accuracy is needed for a vanishingly small fraction of computation, this approach allows the users to achieve sensible running time while ensuring output validity and algorithmic correctness on imperfect, real world data. Secondly, the invetigators will integrate FEM basis construction with meshing decoupling accuracy from mesh quality. The software toolkit developed in this proposal has potential for a major impact in all domains that require computational simulation of physical phenomena in complex geometries, enabling the automation of data acquisition, reconstruction, and simulation pipelines. The expectation of this project is that the outcome will not only be a reduction in human time, but the opportunity to fully automate this pipeline will open new research venues. The release of all the software with a MPL2 license will facilitate integration of the results of the work into commercial software, in addition to academic/non-profit research use.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniele",
+   "pi_last_name": "Panozzo",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniele Panozzo",
+   "pi_email_addr": "panozzo@nyu.edu",
+   "nsf_id": "000727349",
+   "pi_start_date": "2018-09-06",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Denis",
+   "pi_last_name": "Zorin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Denis Zorin",
+   "pi_email_addr": "dzorin@mrl.nyu.edu",
+   "nsf_id": "000270109",
+   "pi_start_date": "2018-09-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121019",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "772600",
+   "pgm_ele_name": "Data Cyberinfrastructure"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "077Z",
+   "pgm_ref_txt": "CSSI-1: Cyberinfr for Sustained Scientif"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8004",
+   "pgm_ref_txt": "Software Institutes"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 599967.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-e5e2a35b-7fff-6657-24bb-ee2c5eb21aa5\">\n<p dir=\"ltr\"><span>The numerical solution of partial differential equations (PDEs) is ubiquitous in most scientific disciplines to simulate a wide range of physical phenomena. The finite element method (FEM) is the most widely used discretization of PDEs, especially for structural and thermal analysis, due to its generality and a rich selection of off-the-shelf commercial implementations. Ideally, for common physics settings, a PDE solver should be a &ldquo;black box&rdquo; for the user: the user provides as input the domain boundary, boundary conditions, physical parameters, and selects the governing equations, and the code returns an evaluator that can compute the value of the solution at any point of the input domain and time. This is surprisingly far from being the case for existing open-source or commercial software, despite much research effort and considerable academic and industrial interest. Existing simulation system requires deep knowledge of the software, making them usable only by a small subset of their possible userbase, and require extensive parameter tuning for each scene. This state of matters presents a fundamental problem for applications that require fully automatic, robust processing of collections of meshes of varying sizes or,&nbsp; an increasingly common situation as large collections of geometric data have become available.</span></p>\n<br />\n<p dir=\"ltr\"><span>This project made significant progress toward realizing an open-source, automated, free, easy-to-use simulation platform for elastodynamic problems with contact and friction forces and thermal analysis.&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>The open-source stack developed throughout this project is composed of three main modules: 1. WildMeshing (https://github.com/wildmeshing), 2. IPC-Toolkit (https://github.com/ipc-sim/ipc-toolkit), and 3. PolyFEM (https://polyfem.github.io/). The combination of these three software components enables automated and accurate simulation of scenes with complex geometry, with minimal assumptions on the input geometry format.</span></p>\n<br />\n<p dir=\"ltr\"><span>WildMeshing is an automated solution for partitioning complex geometries into a collection of cells, which can be used as the domain for representing the physical quantities of interest in a simulation: for example, for elastodynamic they are usually used to discretize the displacement of the deformable objects.&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>IPC-Toolkit contains the implementation of novel algorithms to detect and respond to collision. These algorithms are provably guaranteed to detect collisions, even accounting for imprecisions due to floating point computation, and they are accelerated by running in parallel over modern hardware architectures (multi-core CPUs and GPUs). For collision response, we introduce a novel method called incremental potential contact, which guarantees that interpenetration cannot appear, and it opens the door to simulating scenes with large deformation and high forces, which cannot be handled with previous approaches.</span></p>\n<br />\n<p dir=\"ltr\"><span>Finally, PolyFEM is a finite element package designed with extensibility and robustness as its main design goals: it supports high-order elements and high-order basis, it has a robust non-linear solver, it supports a-priori refinement to handle input elements that are badly shaped robustly, and directly integrates with the two previous software packages for remeshing and collision handling.</span></p>\n<br />\n<p dir=\"ltr\"><span>An extensive tutorial (https://polyfem.github.io/tutorials/getting_started/) provides a set of recipes that are easy to adapt to a wide range of applications. As part of this project, we explored and demonstrated the effectiveness of our software and algorithmic solution to problems in life sciences (the use of simulation as a way to measure forces through displacement measurements through a confocal microscope), in biomechanics (for the simulation of hip movement and teeth displacement), in material science (for designing meta-material families with controllable material properties), and in graphics (to study the geometry of interlocking materials and study elastic knots).&nbsp;</span></p>\n<div><span><br /></span></div>\n</span></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/22/2023<br>\n\t\t\t\t\tModified by: Daniele&nbsp;Panozzo</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nThe numerical solution of partial differential equations (PDEs) is ubiquitous in most scientific disciplines to simulate a wide range of physical phenomena. The finite element method (FEM) is the most widely used discretization of PDEs, especially for structural and thermal analysis, due to its generality and a rich selection of off-the-shelf commercial implementations. Ideally, for common physics settings, a PDE solver should be a \"black box\" for the user: the user provides as input the domain boundary, boundary conditions, physical parameters, and selects the governing equations, and the code returns an evaluator that can compute the value of the solution at any point of the input domain and time. This is surprisingly far from being the case for existing open-source or commercial software, despite much research effort and considerable academic and industrial interest. Existing simulation system requires deep knowledge of the software, making them usable only by a small subset of their possible userbase, and require extensive parameter tuning for each scene. This state of matters presents a fundamental problem for applications that require fully automatic, robust processing of collections of meshes of varying sizes or,  an increasingly common situation as large collections of geometric data have become available.\n\n\nThis project made significant progress toward realizing an open-source, automated, free, easy-to-use simulation platform for elastodynamic problems with contact and friction forces and thermal analysis. \n\n\nThe open-source stack developed throughout this project is composed of three main modules: 1. WildMeshing (https://github.com/wildmeshing), 2. IPC-Toolkit (https://github.com/ipc-sim/ipc-toolkit), and 3. PolyFEM (https://polyfem.github.io/). The combination of these three software components enables automated and accurate simulation of scenes with complex geometry, with minimal assumptions on the input geometry format.\n\n\nWildMeshing is an automated solution for partitioning complex geometries into a collection of cells, which can be used as the domain for representing the physical quantities of interest in a simulation: for example, for elastodynamic they are usually used to discretize the displacement of the deformable objects. \n\n\nIPC-Toolkit contains the implementation of novel algorithms to detect and respond to collision. These algorithms are provably guaranteed to detect collisions, even accounting for imprecisions due to floating point computation, and they are accelerated by running in parallel over modern hardware architectures (multi-core CPUs and GPUs). For collision response, we introduce a novel method called incremental potential contact, which guarantees that interpenetration cannot appear, and it opens the door to simulating scenes with large deformation and high forces, which cannot be handled with previous approaches.\n\n\nFinally, PolyFEM is a finite element package designed with extensibility and robustness as its main design goals: it supports high-order elements and high-order basis, it has a robust non-linear solver, it supports a-priori refinement to handle input elements that are badly shaped robustly, and directly integrates with the two previous software packages for remeshing and collision handling.\n\n\nAn extensive tutorial (https://polyfem.github.io/tutorials/getting_started/) provides a set of recipes that are easy to adapt to a wide range of applications. As part of this project, we explored and demonstrated the effectiveness of our software and algorithmic solution to problems in life sciences (the use of simulation as a way to measure forces through displacement measurements through a confocal microscope), in biomechanics (for the simulation of hip movement and teeth displacement), in material science (for designing meta-material families with controllable material properties), and in graphics (to study the geometry of interlocking materials and study elastic knots). \n\n\n\n\n \n\n\t\t\t\t\tLast Modified: 09/22/2023\n\n\t\t\t\t\tSubmitted by: Daniele Panozzo"
+ }
+}

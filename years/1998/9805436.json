@@ -1,0 +1,130 @@
+{
+ "awd_id": "9805436",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "ATM Rate Based Congestion Control and Routing with Cell LossPrevention/Bounds",
+ "cfda_num": "47.070",
+ "org_code": "05050202",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Taieb Ben Znati",
+ "awd_eff_date": "1998-09-15",
+ "awd_exp_date": "2001-08-31",
+ "tot_intn_awd_amt": 266468.0,
+ "awd_amount": 271468.0,
+ "awd_min_amd_letter_date": "1998-09-16",
+ "awd_max_amd_letter_date": "2000-07-31",
+ "awd_abstract_narration": "The ATM network offers various types of services, with different levels of QoS guarantees. Two services which are gaining increasing importance are ABR (Available Bit Rate) and UBR (Undeclared Bit Rate). ABR and UBR are services of lesser quality than CBR (Constant Bit Rate) and VBR (Variable Bit Rate) in that they can use only the residual trunk bandwidth (left over by VBR and CBR). Since bandwidth is not reserved in advance (except for an optional Min Cell Rate, MCR), the network must protect itself from congestion caused by excess ABR and UBR input traffic. In UBR, excess traffic is simply discarded at overloaded nodes. In ABR, the network prevents congestion using a feedback control mechanism. Namely, the input rate of each ABR source is regulated so as to match the available bandwidth on the path. The main focus of this research will be the feedback rate control mechanism, called E-PRCA (Enhanced Proportional Rate Control Algorithm) and its properties and applications.\r\n\r\nE-PRCA has been implemented in many versions. Most implementations converge to steady state and provide fair bandwidth sharing among competing ABR connections. However, few implementations prevent, or at least bound cell loss. Often, this cell loss problem is overlooked since ABR is \"a best effort service\" and thus the customer was not promised cell loss guarantees. However, a closer look reveals that it is beneficial to limit and if possible prevent ABR cell loss because: (a) Higher layer protocols, such as TCP, are impacted by cell loss; (b) In multicast connections, loss recovery at the application level is costly; and (c) ABR is becoming an attractive alternative (to VBR) for multimedia applications which tolerate adaptive rate regulation.\r\n\r\nIn this project, we propose four tasks:\r\n\r\nABR control with cell loss prevention/bounds: Starting point will be the SP-EPRCA scheme, a rate control scheme based on Smith Predictor and developed by this Investigator and his collaborator. Preliminary properties of cell loss prevention and bounds were already established for SP-EPRCA. We plan to explore the feasibility of cell loss bounds in other popular ABR rate control schemes (e.g., ERICA). We will evaluate the performance of various implementations (via analysis and simulations), deriving tradeoffs between key parameters (buffer allocation, throughput, stability, fairness, responsiveness, etc) for various network and traffic scenarios. Implementation complexity will also be evaluated.\r\n\r\nABR multicast : We plan to extend the E-PRCA control to multicast connections. Again, starting point will be an implementation recently proposed for SP-EPRCA. The main focus will be cell loss prevention, which is critical here since data multicast applications are not protected by TCP error and loss recovery.\r\n\r\nABR connection routing: We will attack the problem of optimally routing ABR connections subject to rate control with cell loss bound. Cell loss bounds make this problem more complex than merely finding the shortest path route with desired fair share bandwidth. We will explore both unicast and multicast routing, relying on efficient heuristics for the latter. \r\n\r\nApplications: We will evaluate the benefits of ABR cell loss prevention and routing in several applications including TCP/IP support. We will also compare the efficiency of ABR vs UBR or VBR as appropriate.\r\n\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mario",
+   "pi_last_name": "Gerla",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mario Gerla",
+   "pi_email_addr": "gerla@cs.ucla.edu",
+   "nsf_id": "000452995",
+   "pi_start_date": "1998-09-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Los Angeles",
+  "inst_street_address": "10889 WILSHIRE BLVD STE 700",
+  "inst_street_address_2": "",
+  "inst_city_name": "LOS ANGELES",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "3107940102",
+  "inst_zip_code": "900244200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "36",
+  "st_cong_dist_code": "CA36",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "RN64EPNH8JC6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Los Angeles",
+  "perf_str_addr": "10889 WILSHIRE BLVD STE 700",
+  "perf_city_name": "LOS ANGELES",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "900244200",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "36",
+  "perf_st_cong_dist": "CA36",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "409700",
+   "pgm_ele_name": "NETWORKING RESEARCH"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0100",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0100",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0198",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0198",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0199",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0199",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1998,
+   "fund_oblg_amt": 85162.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 1999,
+   "fund_oblg_amt": 94125.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2000,
+   "fund_oblg_amt": 92181.0
+  }
+ ],
+ "por": null
+}

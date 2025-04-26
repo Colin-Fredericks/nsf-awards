@@ -1,0 +1,105 @@
+{
+ "awd_id": "1351028",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CAREER: Apprenticeship Learning for Robotic Manipulation of Deformable Objects",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Reid Simmons",
+ "awd_eff_date": "2014-03-15",
+ "awd_exp_date": "2019-02-28",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2014-03-10",
+ "awd_max_amd_letter_date": "2014-03-10",
+ "awd_abstract_narration": "This project considers the problem of apprenticeship learning, in which a robot first gets access to demonstrations of a task and ought to learn from these demonstrations how to perform that task in new, yet similar, situations.  This line of work has already shown significant promise, including in helicopter control where it enabled autonomous helicopter aerobatics at the level of the best human pilots.  However, fundamental limitations remain, and robotic capabilities to manipulate deformable objects are currently still well below human level. The approach followed builds on, and extends, non-rigid registration algorithms, which can capture how scenes with deformable objects relate to each other.  Such registration is extrapolated to morph a demonstrated manipulation trajectory into a good trajectory for a new scene.  New machine learning algorithms are developed to enable choosing the optimal training demonstration and the optimal morphing objective while accounting for external constraints, such as avoiding collisions and satisfying joint limits. Infrastructure is being built for large-scale data collection of demonstrations and theoretical and empirical characterizations are developed for how much data is needed for a given task.  Concrete challenge tasks considered are knot tying, cloth and fabric manipulation, surgical suturing, and small surgical procedures. Results will be incorporated into the PI's graduate robotics course and the source code will be shared with the robotics community.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Pieter",
+   "pi_last_name": "Abbeel",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Pieter Abbeel",
+   "pi_email_addr": "pabbeel@cs.berkeley.edu",
+   "nsf_id": "000511407",
+   "pi_start_date": "2014-03-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "Soda Hall",
+  "perf_city_name": "Berkeley",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947201776",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  },
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-9895e3e1-7fff-7a4f-99e0-32b5e865ce9e\">\n<p dir=\"ltr\"><span>This project has had 6 main thrusts:</span></p>\n<br />\n<p dir=\"ltr\"><span>(1) Fundamental Research to Enable Robots to Learn More Effectively from Demonstrations (Imitation Learning) and from Their Own Trial and Error (Reinforcement Learning) -- together called Apprenticeship Learning.&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>We studied, and advanced, non-rigid registration algorithms that can capture how scenes with deformable objects relate to each other.&nbsp; After relating two scenes to each other, if a demonstration is available for completing the task in the first scene, the relationship between scenes can be used to understand how to complete the task in the second scene.&nbsp; Key starting point was thin-plate-spline-robust-point-matching.  Among other things, we incorporated: lookahead; the ability to trade off path following vs. force imitation; accounting for mismatch between robot body and human demonstrator; better scene registration through considering normals and through deep learning.&nbsp; The result of these developments was a robot that could meaningfully manipulate rope and tie knots across a wide range of scenarios, as well as fold towels.</span></p>\n<br />\n<p dir=\"ltr\"><span>We investigated imitation learning that leverages recent advances in deep supervised learning and virtual reality commoditization.&nbsp; We showed  that behavioral cloning, with high-quality demonstrations, is surprisingly effective. We developed a meta-imitation learning method that enables a robot to learn how to learn more efficiently, allowing it to acquire new skills from just a single demonstration.&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>As we saw our systems ever more capable of imitation, we started to shift focus towards reinforcement learning (RL), where a robot learns from its own trial and error (sometimes from scratch, sometimes bootstrapped off demonstrations).&nbsp; We proposed an RL approach that enabled robots to learn to manipulate rope on their own.  We developed a new neural net architecture called Value Iteration Networks which allows RL to learn new skills more efficiently through the ability to plan. &nbsp; We adapted the Value Iteration Network ideas to the continuous control setting, enabling new robotic assembly skills.  In a close collaboration with NASA, we studied autonomous control for tensegrity robots.  We also made advances in considering safety during learning and in ensuring the robot is communicative throughout its behavior.&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>These research advances were shared with the public through presentation and publication at the top robotics and machine learning venues:&nbsp; ICRA 2015 (3x), IROS 2015 (4x), NeurIPS 2016, ICRA 2017 (4x), RSS 2017, CoRL 2017, ICRA 2018 (2x)&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>(2) Fundamental Research and Development of a New Robotic Arm that is Capable, Safe, Low-Cost.</span></p>\n<br />\n<p dir=\"ltr\"><span>Robots must cost less and must be force-controlled to enable widespread, safe deployment in unconstrained human environments. We proposed Quasi-Direct Drive actuation as a capable paradigm for robotic force-controlled manipulation in human environments at low-cost. Our prototype - Blue - is a human scale 7 Degree of Freedom arm with 2kg payload. Blue has a bill of materials of only $3,000. This could open up many new opportunities for distribution of robot arms to researchers and hobbyists, and from there (as software further matures) could result in affordable robots that can help people in their homes, e.g. enabling longer independent living.</span></p>\n<br />\n<p dir=\"ltr\"><span>The work on the BLUE project was published at ICRA 2019 (arm) and CASE 2019 (gripper).</span></p>\n<br />\n<p dir=\"ltr\"><span>The project page is here: http://rll.berkeley.edu/blue/</span></p>\n<p dir=\"ltr\"><span>It was also covered extensively in the popular media, representative listing of outlets here:</span></p>\n<p dir=\"ltr\"><a href=\"https://www.berkeleyopenarms.org/in-the-press\"><span>https://www.berkeleyopenarms.org/in-the-press</span></a><span>.&nbsp;&nbsp;</span></p>\n<p dir=\"ltr\"><span><span> </span></span><span><span> </span></span></p>\n<p dir=\"ltr\"><span><span> </span></span><span><span> </span></span><span><span> </span></span></p>\n<p dir=\"ltr\"><span>(3) Training of the next generation of AI / robotics researchers.&nbsp;&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>This project directly contributed to the research training of 5 Post-docs, 8 PhD students, 1 Masters student, 18 Undergraduate students, and 1 High School student.</span></p>\n<br />\n<p dir=\"ltr\"><span><span> </span></span><span><span> </span></span><span><span> </span></span><span><span> </span></span><span><span> </span></span></p>\n<p dir=\"ltr\"><span>(4) Dissemination: The work was disseminated through 18 peer-reviewed publications, all available from the PI&rsquo;s website.&nbsp; The work under this grant has also been part of the PIs numerous public presentations over the past 5 years, estimated at about 25 (public) talks per year.&nbsp; </span><span><span> </span></span><span><span> </span></span></p>\n<br />\n<p dir=\"ltr\"><span>(5) Teaching Artificial Intelligence (a) at Berkeley, (b) worldwide through Massive Open Online Courses (MOOCs), (c) worldwide through sharing the Berkeley AI course materials with instructors elsewhere.</span></p>\n<br />\n<p dir=\"ltr\"><span>This project directly allowed the PI to further build out the UC Berkeley CS188 Artificial Intelligence course.</span></p>\n<br />\n<p dir=\"ltr\"><span>The PI also offered the course for free online through edX.&nbsp;</span></p>\n<br />\n<p dir=\"ltr\"><span>In addition, all the course and instructional materials are available to all instructors (and students) at ai.berkeley.edu.&nbsp; By now the materials are used at over 100 other universities.</span><span><span> </span></span><span><span> </span></span><span><span> </span></span><span><span> </span></span><span><span> </span></span><span><span> </span></span></p>\n<p dir=\"ltr\"><span>(6) K-12 Outreach to Encourage STEM:&nbsp;&nbsp;</span></p>\n<p dir=\"ltr\"><span><span> </span></span><span><span> </span></span><span><span> </span></span></p>\n<p dir=\"ltr\"><span>There also has been substantial outreach, which we hope will inspire the next generation of scientists and engineers.&nbsp; We hosted over 75 groups.  http://rll.berkeley.edu/outreach/ documents some of the visits we hosted.</span></p>\n<br /><span>The PI was also faculty sponsor of a student-initiated robotics course and competition for underprivileged high schools, called Pioneers in Engineering (pioneers.berkeley.edu).</span><span><span> </span></span><span><span> </span></span></span></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/30/2019<br>\n\t\t\t\t\tModified by: Pieter&nbsp;Abbeel</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941056934_tele-op--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941056934_tele-op--rgov-800width.jpg\" title=\"Teaching Robots through VR Teleop\"><img src=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941056934_tele-op--rgov-66x44.jpg\" alt=\"Teaching Robots through VR Teleop\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Imitation learning is a powerful paradigm for robot skill acquisition. However, obtaining demonstrations suitable for learning a policy that maps from raw pixels to actions can be challenging. In this paper we describe how consumer-grade Virtual Reality headsets and hand tracking hardware can be use</div>\n<div class=\"imageCredit\">Pieter Abbeel</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Pieter&nbsp;Abbeel</div>\n<div class=\"imageTitle\">Teaching Robots through VR Teleop</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941212494_David_with_floating_BLUE(1)--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941212494_David_with_floating_BLUE(1)--rgov-800width.jpg\" title=\"Meet Blue: Berkeley Low-Cost, Capable, Safe Robot Arm\"><img src=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941212494_David_with_floating_BLUE(1)--rgov-66x44.jpg\" alt=\"Meet Blue: Berkeley Low-Cost, Capable, Safe Robot Arm\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">In this project we developed Blue: a low-cost, capable, safe robot arm.</div>\n<div class=\"imageCredit\">Stephen McKinley</div>\n<div class=\"imageSubmitted\">Pieter&nbsp;Abbeel</div>\n<div class=\"imageTitle\">Meet Blue: Berkeley Low-Cost, Capable, Safe Robot Arm</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941355762_blue--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941355762_blue--rgov-800width.jpg\" title=\"Blue Robot\"><img src=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941355762_blue--rgov-66x44.jpg\" alt=\"Blue Robot\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Meet Blue, the Berkeley robot designed from the ground up with AI / ML in mind.</div>\n<div class=\"imageCredit\">Stephen McKinley</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Pieter&nbsp;Abbeel</div>\n<div class=\"imageTitle\">Blue Robot</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941508122_ScreenShot2019-06-30at5.20.21PM--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941508122_ScreenShot2019-06-30at5.20.21PM--rgov-800width.jpg\" title=\"Robot ties knots\"><img src=\"/por/images/Reports/POR/2019/1351028/1351028_10293978_1561941508122_ScreenShot2019-06-30at5.20.21PM--rgov-66x44.jpg\" alt=\"Robot ties knots\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Robot executing knot ties. Top row to bottom row: figure-eight knot, double-overhand knot,square knot, and clove hitch. Figure 1 already illustrated the overhand knot.</div>\n<div class=\"imageCredit\">Pieter Abbeel</div>\n<div class=\"imagePermisssions\">Creative Commons</div>\n<div class=\"imageSubmitted\">Pieter&nbsp;Abbeel</div>\n<div class=\"imageTitle\">Robot ties knots</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\n\nThis project has had 6 main thrusts:\n\n\n(1) Fundamental Research to Enable Robots to Learn More Effectively from Demonstrations (Imitation Learning) and from Their Own Trial and Error (Reinforcement Learning) -- together called Apprenticeship Learning. \n\n\nWe studied, and advanced, non-rigid registration algorithms that can capture how scenes with deformable objects relate to each other.  After relating two scenes to each other, if a demonstration is available for completing the task in the first scene, the relationship between scenes can be used to understand how to complete the task in the second scene.  Key starting point was thin-plate-spline-robust-point-matching.  Among other things, we incorporated: lookahead; the ability to trade off path following vs. force imitation; accounting for mismatch between robot body and human demonstrator; better scene registration through considering normals and through deep learning.  The result of these developments was a robot that could meaningfully manipulate rope and tie knots across a wide range of scenarios, as well as fold towels.\n\n\nWe investigated imitation learning that leverages recent advances in deep supervised learning and virtual reality commoditization.  We showed  that behavioral cloning, with high-quality demonstrations, is surprisingly effective. We developed a meta-imitation learning method that enables a robot to learn how to learn more efficiently, allowing it to acquire new skills from just a single demonstration. \n\n\nAs we saw our systems ever more capable of imitation, we started to shift focus towards reinforcement learning (RL), where a robot learns from its own trial and error (sometimes from scratch, sometimes bootstrapped off demonstrations).  We proposed an RL approach that enabled robots to learn to manipulate rope on their own.  We developed a new neural net architecture called Value Iteration Networks which allows RL to learn new skills more efficiently through the ability to plan.   We adapted the Value Iteration Network ideas to the continuous control setting, enabling new robotic assembly skills.  In a close collaboration with NASA, we studied autonomous control for tensegrity robots.  We also made advances in considering safety during learning and in ensuring the robot is communicative throughout its behavior. \n\n\nThese research advances were shared with the public through presentation and publication at the top robotics and machine learning venues:  ICRA 2015 (3x), IROS 2015 (4x), NeurIPS 2016, ICRA 2017 (4x), RSS 2017, CoRL 2017, ICRA 2018 (2x) \n\n\n(2) Fundamental Research and Development of a New Robotic Arm that is Capable, Safe, Low-Cost.\n\n\nRobots must cost less and must be force-controlled to enable widespread, safe deployment in unconstrained human environments. We proposed Quasi-Direct Drive actuation as a capable paradigm for robotic force-controlled manipulation in human environments at low-cost. Our prototype - Blue - is a human scale 7 Degree of Freedom arm with 2kg payload. Blue has a bill of materials of only $3,000. This could open up many new opportunities for distribution of robot arms to researchers and hobbyists, and from there (as software further matures) could result in affordable robots that can help people in their homes, e.g. enabling longer independent living.\n\n\nThe work on the BLUE project was published at ICRA 2019 (arm) and CASE 2019 (gripper).\n\n\nThe project page is here: http://rll.berkeley.edu/blue/\nIt was also covered extensively in the popular media, representative listing of outlets here:\nhttps://www.berkeleyopenarms.org/in-the-press.  \n  \n   \n(3) Training of the next generation of AI / robotics researchers.  \n\n\nThis project directly contributed to the research training of 5 Post-docs, 8 PhD students, 1 Masters student, 18 Undergraduate students, and 1 High School student.\n\n\n     \n(4) Dissemination: The work was disseminated through 18 peer-reviewed publications, all available from the PI?s website.  The work under this grant has also been part of the PIs numerous public presentations over the past 5 years, estimated at about 25 (public) talks per year.    \n\n\n(5) Teaching Artificial Intelligence (a) at Berkeley, (b) worldwide through Massive Open Online Courses (MOOCs), (c) worldwide through sharing the Berkeley AI course materials with instructors elsewhere.\n\n\nThis project directly allowed the PI to further build out the UC Berkeley CS188 Artificial Intelligence course.\n\n\nThe PI also offered the course for free online through edX. \n\n\nIn addition, all the course and instructional materials are available to all instructors (and students) at ai.berkeley.edu.  By now the materials are used at over 100 other universities.      \n(6) K-12 Outreach to Encourage STEM:  \n   \nThere also has been substantial outreach, which we hope will inspire the next generation of scientists and engineers.  We hosted over 75 groups.  http://rll.berkeley.edu/outreach/ documents some of the visits we hosted.\n\nThe PI was also faculty sponsor of a student-initiated robotics course and competition for underprivileged high schools, called Pioneers in Engineering (pioneers.berkeley.edu).  \n\n \n\n\t\t\t\t\tLast Modified: 06/30/2019\n\n\t\t\t\t\tSubmitted by: Pieter Abbeel"
+ }
+}

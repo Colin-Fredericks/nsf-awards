@@ -1,0 +1,105 @@
+{
+ "awd_id": "1421444",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Towards Robust Crowd Computations",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2014-09-04",
+ "awd_max_amd_letter_date": "2014-09-04",
+ "awd_abstract_narration": "This research explores a new approach to securing systems that are based on crowd computations, where the operator polls the opinions of crowds--arbitrary users of the system--to provide a variety of recommendation services.   Examples include services like Yelp, YouTube, Twitter, and TripAdvisor.  However, today's services are known to suffer from multiple identity (Sybil) attacks, where an attacker creates many identities to subvert the system (e.g., make their business appear to be more popular on Yelp).  Previous approaches have investigated detecting whether a single identity is likely to be fake, but these techniques suffer from a number of drawbacks in practice, as attackers are often able to create many fake accounts or leverage existing black-markets for fake or compromised accounts.  \r\n\r\nInstead, the PI is investigating an approach that shifts Sybil defense away from individual Sybil identity detection and towards directly detecting manipulation of large crowd computations themselves.  In essence, the PI is shifting the problem from detecting whether a single identity is fake to detecting whether a set of identities are fake, the latter of which is likely to be significantly easier for the operator.  If successful, the approach could tip the scales back in favor of the operator, preventing manipulation from attackers using fake, colluding, and compromised users in a variety of systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alan",
+   "pi_last_name": "Mislove",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alan Mislove",
+   "pi_email_addr": "amislove@ccs.neu.edu",
+   "nsf_id": "000542179",
+   "pi_start_date": "2014-09-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Northeastern University",
+  "inst_street_address": "360 HUNTINGTON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173735600",
+  "inst_zip_code": "021155005",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "NORTHEASTERN UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HLTMVS2JZBS6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Northeastern University",
+  "perf_str_addr": "360 Huntington Ave",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021155005",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Internet users today face a number of challenges to their security. &nbsp;First, when using web-based services, users often rely on <em>crowd computations</em>, or aggegrations of other users' opinions or actions. &nbsp;Unforunately, these services can easily be manipulation by skilled attackers, who can create many fake accounts, or control compromised accounts, in order to manipuate the overall behavior of the system. &nbsp;Second, users often rely on public key infrastructures (PKIs) when using the internet; these PKIs involve a large number of parties, all of whom must perform their roles correct to ensure security. &nbsp;Unfortunately, this trust is often misplaced, resulting in security and privacy issues for users worldwide.</p>\n<p>&nbsp;</p>\n<p><strong>Intellectual Merit</strong></p>\n<p>The first major component of this project was work that aimed at limiting the ability of attackers to manipulate online social network-like systems. In such systems, researchers and practitioners are often engaged in an endless cat-and-mouse game of attackers developing new attacks, then administrators developing techniques to better detect these attacks. Instead, we have developed a technique, Stamper, based on anomaly detection that is able to automatically identify \"outlier\" users and provide an automatic defense to many such attacks. We applied Stamper to detect tampered computations in Yelp and Twitter data. We not only detected previously known tampered computations with high accuracy, but also uncovered tens of thousands of previously unknown tampered computations in these systems. Unfortunately, Stamper only works for users who have a significant amount of activity---a minority of users on many sites. To address these users, we also developed a new approach to finding outliers based on groups of users, rather than individual users. Such an approach is a natural fit for these sites, as many sites have natural groupings (followers, raters, friends). We demonstrated that this approach significant raises the bar for these kinds of attacks, preventing attackers from using blackmarket account services to attack these systems.&nbsp;</p>\n<p>The second major component of this project has focused on understanding how PKIs are used in practice. &nbsp;We studied both the SSL PKI and the DNSSEC PKI, and found a number of players were not properly performing their expected role, which is leading to lower security for all internet users. &nbsp;With SSL, we found that while a significant fraction of certificates are revoked, web browsers rarely bother to check whether this is the case. &nbsp;Thus, end users may be unknowingly visiting an attacker's web site. &nbsp;With DNSSEC, we found that while only 1% of domains attempt to deploy DNSSEC, only 60% of those domains actually manage to do so successfully. &nbsp;Moreover, we found that while most DNS resolvers ask for DNSSEC records, only 12% appear to validate those records. &nbsp;Overall, these results suggest that many players are having difficulty deploying and managing PKIs today.</p>\n<p>&nbsp;</p>\n<p><strong>Broader Impact</strong></p>\n<div class=\"page\" title=\"Page 7\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><span>In the Stamper project, we demonstrated a new approach that has the potential to address a variety of different attacks on today's online services: Stamper relies on studying the behavior of <em>groups</em> of identities, rather than single identities. &nbsp;We believe this approach can be applied to a variety of different problems, enabling end users to enjoy greater reliability on the services they use daily.</span></p>\n<p><span>In the PKI project, our work</span>&nbsp;is shining light on the frequent (mis)management of critical internet infrastructure. &nbsp;Our work has shown that SSL revocations on the web are simply broken, with many web browsers rarely bothering to ever check whether certificates they are presented with are actually revoked. &nbsp;Similarly, or DNSSEC work has demonstrated that registrars play a criticial role in determining whether DNSSEC is likely to be adopted or not. &nbsp;Our hope is that our findings will spur a substantive discussions about ways to improve the current PKI and will inform the design of future PKI-like systems.&nbsp;</p>\n</div>\n</div>\n</div>\n</div><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/26/2017<br>\n\t\t\t\t\tModified by: Alan&nbsp;Mislove</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nInternet users today face a number of challenges to their security.  First, when using web-based services, users often rely on crowd computations, or aggegrations of other users' opinions or actions.  Unforunately, these services can easily be manipulation by skilled attackers, who can create many fake accounts, or control compromised accounts, in order to manipuate the overall behavior of the system.  Second, users often rely on public key infrastructures (PKIs) when using the internet; these PKIs involve a large number of parties, all of whom must perform their roles correct to ensure security.  Unfortunately, this trust is often misplaced, resulting in security and privacy issues for users worldwide.\n\n \n\nIntellectual Merit\n\nThe first major component of this project was work that aimed at limiting the ability of attackers to manipulate online social network-like systems. In such systems, researchers and practitioners are often engaged in an endless cat-and-mouse game of attackers developing new attacks, then administrators developing techniques to better detect these attacks. Instead, we have developed a technique, Stamper, based on anomaly detection that is able to automatically identify \"outlier\" users and provide an automatic defense to many such attacks. We applied Stamper to detect tampered computations in Yelp and Twitter data. We not only detected previously known tampered computations with high accuracy, but also uncovered tens of thousands of previously unknown tampered computations in these systems. Unfortunately, Stamper only works for users who have a significant amount of activity---a minority of users on many sites. To address these users, we also developed a new approach to finding outliers based on groups of users, rather than individual users. Such an approach is a natural fit for these sites, as many sites have natural groupings (followers, raters, friends). We demonstrated that this approach significant raises the bar for these kinds of attacks, preventing attackers from using blackmarket account services to attack these systems. \n\nThe second major component of this project has focused on understanding how PKIs are used in practice.  We studied both the SSL PKI and the DNSSEC PKI, and found a number of players were not properly performing their expected role, which is leading to lower security for all internet users.  With SSL, we found that while a significant fraction of certificates are revoked, web browsers rarely bother to check whether this is the case.  Thus, end users may be unknowingly visiting an attacker's web site.  With DNSSEC, we found that while only 1% of domains attempt to deploy DNSSEC, only 60% of those domains actually manage to do so successfully.  Moreover, we found that while most DNS resolvers ask for DNSSEC records, only 12% appear to validate those records.  Overall, these results suggest that many players are having difficulty deploying and managing PKIs today.\n\n \n\nBroader Impact\n\n\n\n\n\nIn the Stamper project, we demonstrated a new approach that has the potential to address a variety of different attacks on today's online services: Stamper relies on studying the behavior of groups of identities, rather than single identities.  We believe this approach can be applied to a variety of different problems, enabling end users to enjoy greater reliability on the services they use daily.\n\nIn the PKI project, our work is shining light on the frequent (mis)management of critical internet infrastructure.  Our work has shown that SSL revocations on the web are simply broken, with many web browsers rarely bothering to ever check whether certificates they are presented with are actually revoked.  Similarly, or DNSSEC work has demonstrated that registrars play a criticial role in determining whether DNSSEC is likely to be adopted or not.  Our hope is that our findings will spur a substantive discussions about ways to improve the current PKI and will inform the design of future PKI-like systems. \n\n\n\n\n\n\t\t\t\t\tLast Modified: 12/26/2017\n\n\t\t\t\t\tSubmitted by: Alan Mislove"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1422955",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF: Small: Collaborative Research: Efficient Codes and their Performance Limits for Distributed Storage Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 299504.0,
+ "awd_amount": 299504.0,
+ "awd_min_amd_letter_date": "2014-07-22",
+ "awd_max_amd_letter_date": "2014-07-22",
+ "awd_abstract_narration": "The explosive growth of data being generated and collected has rekindled interest in efficient means of storing such data.  Large data centers and distributed storage systems have become more widespread, playing an ever-increasing role in our everyday computational tasks.  While a data center should never lose data, disk failures occur on a daily basis as confirmed by the industry statistics. Methods and ideas from error correcting codes developed in this project enable the system to provide better guarantees against data loss as well as to reduce the amount of data that needs to be moved in order to enable recovery of information lost due to disk failures. Another related goal of this project is the reduction of storage overhead needed to support the recovery procedures. These goals are accomplished by relying on algebraic methods of constructing the data encoding procedures as well as on novel algorithms of data exchange and recovery. Overall the research performed in the course of this project contributes to the development of more efficient data management procedures in large-scale distributed storage systems.\r\n\r\nThis project puts forward new algebraic procedures for data encoding and recovery that enables one to achieve tradeoff between overhead and repair bandwidth based on the concept of local recovery.  The project studies both the case of recovering from a single disk loss, which is the most frequent problem in systems, as well as from the failure of multiple disks, addressing the problem of correcting one erasure as well as multiple erasures in data encoding. New bounds on the distance of codes with the locality requirement derived in this research are attained with new constructions of optimal locally recoverable codes equipped with simple recovery procedures. The project also addresses the problem of simultaneous recovery of data from multiple locations, enhancing data availability in large-scale distributed storage systems which are a key backbone component of the 21st century economy.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alexander",
+   "pi_last_name": "Barg",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alexander Barg",
+   "pi_email_addr": "abarg@umd.edu",
+   "nsf_id": "000193827",
+   "pi_start_date": "2014-07-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Maryland, College Park",
+  "inst_street_address": "3112 LEE BUILDING",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE PARK",
+  "inst_state_code": "MD",
+  "inst_state_name": "Maryland",
+  "inst_phone_num": "3014056269",
+  "inst_zip_code": "207425100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "MD04",
+  "org_lgl_bus_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+  "org_prnt_uei_num": "NPU8ULVAAS23",
+  "org_uei_num": "NPU8ULVAAS23"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Maryland College Park",
+  "perf_str_addr": "2361 A.V. Williams Bldg",
+  "perf_city_name": "College Park",
+  "perf_st_code": "MD",
+  "perf_st_name": "Maryland",
+  "perf_zip_code": "207423285",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "MD",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779700",
+   "pgm_ele_name": "Comm & Information Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7935",
+   "pgm_ref_txt": "COMM & INFORMATION THEORY"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 299504.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Providers of large-scale shared platforms (Facebook, Instagram),  Indexing services/internet portals (Google, Yahoo), as well as cloud  storage and computing vendors (Amazon, Dropbox) rely on systems of  distributed storage to save and maintain large volumes of data involved  in their operation. Data centers used by these systems are formed of  thousands of storage nodes, and node failures occur on a daily basis and  have to be accounted for as a part of the normal system operation. To  recover the data stored on the failed nodes, most operators rely on data  replication or on the application of codes that correct lost (erased)  portions of the data. Both these solutions are not well suited for the  rapidly inreasing data volumes because they either require excessive  storage use, or involve large communication cost of data recovery.</p>\n<p>The goal of the project was to develop alternative solutions for erasure coding in distributed storage that have low complexity of recovery and utilize little overhead storage, while at the same time providing guarantees against data loss in the system. The efficiency of data recovery can be measured either by the number of storage nodes in the encoding block that need to be contacted to recover the failed node (<em>codes with locality constraints</em>) or by the total number of symbols communicated in the system before the recovery can be completed (such coding methods are known as codes with limited repair bandwidth, or <em>regenerating codes</em>). <br /><br />The project examined both codes with locality and regenerating codes, studying theoretical limits and efficient constructions of such codes.</p>\n<ol>\n<li>For codes with locality, this research established theoretical bounds on their parameters such as the number of different messages that can be encoded into blocks of a given length, and the maximum number of lost nodes that can be tolerated (similar bounds for regenerating codes were known from previous research). Advanced algebraic methods were used to design families of codes of both types that attain these theroretical limits. </li>\n<li>The project resulted in new families of algebraic codes with locality with flexible message rate and length of the encoding, covering a large range of possible parameters. The methods used to construct the codes rely on the theory of cyclic codes and on properties of algebraic curves.</li>\n<li>The project also resulted in families of regenerating codes that attain the theoretical bounds on the amount of communication needed for repair, which gave efficient and to a large extent complete solution of the construction problem for these codes. The constructed codes were implemented on Amazon cloud storage and compared to the existing solutions in industry, showing performance gains across several characteristics of the storage system. The code construction and the results of performance implementation were presented at a conference widely attended by system developers from all major companies designing distributed storage solutions (USENIX FAST 2018).</li>\n</ol><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/08/2018<br>\n\t\t\t\t\tModified by: Alexander&nbsp;Barg</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nProviders of large-scale shared platforms (Facebook, Instagram),  Indexing services/internet portals (Google, Yahoo), as well as cloud  storage and computing vendors (Amazon, Dropbox) rely on systems of  distributed storage to save and maintain large volumes of data involved  in their operation. Data centers used by these systems are formed of  thousands of storage nodes, and node failures occur on a daily basis and  have to be accounted for as a part of the normal system operation. To  recover the data stored on the failed nodes, most operators rely on data  replication or on the application of codes that correct lost (erased)  portions of the data. Both these solutions are not well suited for the  rapidly inreasing data volumes because they either require excessive  storage use, or involve large communication cost of data recovery.\n\nThe goal of the project was to develop alternative solutions for erasure coding in distributed storage that have low complexity of recovery and utilize little overhead storage, while at the same time providing guarantees against data loss in the system. The efficiency of data recovery can be measured either by the number of storage nodes in the encoding block that need to be contacted to recover the failed node (codes with locality constraints) or by the total number of symbols communicated in the system before the recovery can be completed (such coding methods are known as codes with limited repair bandwidth, or regenerating codes). \n\nThe project examined both codes with locality and regenerating codes, studying theoretical limits and efficient constructions of such codes.\n\nFor codes with locality, this research established theoretical bounds on their parameters such as the number of different messages that can be encoded into blocks of a given length, and the maximum number of lost nodes that can be tolerated (similar bounds for regenerating codes were known from previous research). Advanced algebraic methods were used to design families of codes of both types that attain these theroretical limits. \nThe project resulted in new families of algebraic codes with locality with flexible message rate and length of the encoding, covering a large range of possible parameters. The methods used to construct the codes rely on the theory of cyclic codes and on properties of algebraic curves.\nThe project also resulted in families of regenerating codes that attain the theoretical bounds on the amount of communication needed for repair, which gave efficient and to a large extent complete solution of the construction problem for these codes. The constructed codes were implemented on Amazon cloud storage and compared to the existing solutions in industry, showing performance gains across several characteristics of the storage system. The code construction and the results of performance implementation were presented at a conference widely attended by system developers from all major companies designing distributed storage solutions (USENIX FAST 2018).\n\n\n\t\t\t\t\tLast Modified: 12/08/2018\n\n\t\t\t\t\tSubmitted by: Alexander Barg"
+ }
+}

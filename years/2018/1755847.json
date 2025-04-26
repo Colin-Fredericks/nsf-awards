@@ -1,0 +1,109 @@
+{
+ "awd_id": "1755847",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: AF: Towards Faster Algorithms for Large-scale Constrained Optimization",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "A. Funda Ergun",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2021-09-30",
+ "tot_intn_awd_amt": 175000.0,
+ "awd_amount": 175000.0,
+ "awd_min_amd_letter_date": "2018-08-31",
+ "awd_max_amd_letter_date": "2018-08-31",
+ "awd_abstract_narration": "With the ever-growing amounts of data collected by ubiquitous sensors in today's world, there is an increasing need for efficient methods that can solve large-scale optimization problems. In the past few years, much effort has been spent on solving large-scale unconstrained optimization problems, where the decision variables are free (unconstrained). However, in a wide variety of applications, the decision variables must satisfy certain constraints, which could be physical constraints and/or the needs of the system designer. Classical methods such as interior-point methods can solve small- to medium-size constrained problems quite well, but for large-scale problems, they are unsuitable due to high per-iteration costs and high storage requirements. This project aims to design and analyze efficient algorithms for solving large-scale constrained optimization problems. This research will significantly broaden the current understanding of large-scale constrained optimization, and offer a new computational toolbox to practitioners in various fields such as computer science, engineering, healthcare, and economics.  \r\n\r\nThis research combines successful ideas in large-scale unconstrained optimization such as block decomposition with the special structure of constrained optimization. The emphasis is on the fundamental understanding of the convergence behavior of the algorithms. The investigator explores this approach by (1) designing efficient block decomposition versions of classical constrained optimization methods such as augmented Lagrangian multiplier methods and (2) developing a new convergence analysis framework for large-scale constrained optimization and analyzing the convergence behavior of the proposed methods. The investigator aims to apply the proposed methods to various application problems such as Markov decision processes, neural networks, and structured sparsity problems.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ruoyu",
+   "pi_last_name": "Sun",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ruoyu Sun",
+   "pi_email_addr": "ruoyus@illinois.edu",
+   "nsf_id": "000754968",
+   "pi_start_date": "2018-08-31",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618207473",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "287800",
+   "pgm_ele_name": "Special Projects - CCF"
+  },
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7933",
+   "pgm_ref_txt": "NUM, SYMBOL, & ALGEBRA COMPUT"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 175000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p class=\"md-end-block md-p md-focus\"><span class=\"md-plain\">This project aims to design and analyze scalable algorithms for solving large-scale constrained optimization problems. Traditional optimization software often focused on solving medium-scale problems, and may not be able to solve large-scale constrained problems efficiently. We ask whether an idea that has succeeded in solving unconstrained problems called block-decomposition can be applied to solve large-scale constrained porblems.  Somewhat unfortunately, it was found before that a naive block-decomposition-based algorithm called cyclic ADMM (alternating direction method of multipliers) can diverge. As a result, the design and analysis of block-decomposition based algorithms for constrained problems can be quite challenging. </span></p>\n<p class=\"md-end-block md-p\"><span class=\"md-plain\"> This project analyzed two popular variants of ADMM (based on symmetric orders of update), and showed that they can be very slow in the worst case. We also provide some concrete examples to demonstrate when these algorithms are slow, and point out what properties of the problem may make the two algorithms undesirable. We proposed randomly permuted ADMM (RP-ADMM) and justfied its effectiveness by a number of theoretical results. In particular, we showed that the expected convergence speed of RP-ADMM can be much better than the classical single-block method. Combing these results, this project demonstrated that randomly permuted ADMM can be a promising algorithm for large-scale constrained problems. Finally, we also go beyond constrained optimization to analyze a more general class of problems: min-max optimization. This class of problems have found many applications in machine learning. We proposed a single-loop algorithm and proved it has the best iteration complexity for solving a large class of practical min-max problems. </span><span class=\"md-softbreak\"> </span><span class=\"md-plain md-expand\"> This project provides fundamental understanding to large-scale optimization algorithms for constrained problems, which can help engineers and pracitioners to pick proper algorithms for solving large-scale problems. In particular, this project has found out that among the three popular variants of (multi-block) ADMM, the best choice is likely to be RP-ADMM, as supported by various theoretical and empirical results. In addition, we also provide guidance on when the other two algorithms could be good choices. This project is likely to have an impact on operations research, signal processing, e-commerce, sharing economy, and machine learning researchers who need to solve large-scale constrained problems by block-decomposition methods.</span></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/13/2021<br>\n\t\t\t\t\tModified by: Ruoyu&nbsp;Sun</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "This project aims to design and analyze scalable algorithms for solving large-scale constrained optimization problems. Traditional optimization software often focused on solving medium-scale problems, and may not be able to solve large-scale constrained problems efficiently. We ask whether an idea that has succeeded in solving unconstrained problems called block-decomposition can be applied to solve large-scale constrained porblems.  Somewhat unfortunately, it was found before that a naive block-decomposition-based algorithm called cyclic ADMM (alternating direction method of multipliers) can diverge. As a result, the design and analysis of block-decomposition based algorithms for constrained problems can be quite challenging. \n This project analyzed two popular variants of ADMM (based on symmetric orders of update), and showed that they can be very slow in the worst case. We also provide some concrete examples to demonstrate when these algorithms are slow, and point out what properties of the problem may make the two algorithms undesirable. We proposed randomly permuted ADMM (RP-ADMM) and justfied its effectiveness by a number of theoretical results. In particular, we showed that the expected convergence speed of RP-ADMM can be much better than the classical single-block method. Combing these results, this project demonstrated that randomly permuted ADMM can be a promising algorithm for large-scale constrained problems. Finally, we also go beyond constrained optimization to analyze a more general class of problems: min-max optimization. This class of problems have found many applications in machine learning. We proposed a single-loop algorithm and proved it has the best iteration complexity for solving a large class of practical min-max problems.   This project provides fundamental understanding to large-scale optimization algorithms for constrained problems, which can help engineers and pracitioners to pick proper algorithms for solving large-scale problems. In particular, this project has found out that among the three popular variants of (multi-block) ADMM, the best choice is likely to be RP-ADMM, as supported by various theoretical and empirical results. In addition, we also provide guidance on when the other two algorithms could be good choices. This project is likely to have an impact on operations research, signal processing, e-commerce, sharing economy, and machine learning researchers who need to solve large-scale constrained problems by block-decomposition methods.\n\n \n\n\t\t\t\t\tLast Modified: 11/13/2021\n\n\t\t\t\t\tSubmitted by: Ruoyu Sun"
+ }
+}

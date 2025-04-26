@@ -1,0 +1,113 @@
+{
+ "awd_id": "1017623",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF:  DC:  Collaborative Research:  Pattern Matching for Massive Data Sets",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Balasubramanian Kalyanasundaram",
+ "awd_eff_date": "2010-08-01",
+ "awd_exp_date": "2014-07-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2010-07-30",
+ "awd_max_amd_letter_date": "2010-08-04",
+ "awd_abstract_narration": "Pattern matching is a fundamental research field with applications in domains such as biological sequence alignment, web search engines and network intrusion detection.  Given a pattern P and a text string T, the central problem is to find occurrences of P in T.  When data becomes massive, we cannot assume that text can be stored in RAM.  Pattern matching problems must now be considered with more appropriate models like external memory model, cache-oblivious model, streaming models, MapReduce paradigm and multi-core models.  In many cases, a blend of models or newer, more appropriate models need to be developed keeping the practical aspects of the application in sight.\r\n\r\nThe focus of this project is to develop efficient search algorithms and indexes when a data set resides on disks, on network storage, or is accessible only as an online stream.  The data must be efficiently searchable even though it may be in compressed format.  The project considers traditional pattern matching problem, as well as variants such as (i) approximate matching -- where the pattern may not exactly match a substring in T, (ii) online matching -- where the pattern(s) are known in advance and text comes as a stream, and (iii) string retrieval -- where instead of finding all the occurrences, the focus is on retrieving high ranking documents which contain one or more occurences of the query pattern.  Issues of I/O efficiency and space utilization are central to this project.  This involves developing suitable massive data set models, deriving optimal theoretical bounds and implementing practical tools.  Methodologies include combinatorial and randomized methods in pattern matching, succinct data structures, top-k query processing and I/O efficient indexes.\r\n\r\nThe project will build new, solid theoretical foundations in pattern matching, with direct applications to fields like databases and information retrieval.  It will significantly drive forward current state of the art in web search engine technology (by impacting the way inverted indexes are used) and genome sequence alignment tools (e.g., BLAST).  Tools and software developed during this project will be widely distributed to the research community.  Some components will be incorporated into undergraduate and graduate algorithms course curricula as implementation projects.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Rahul",
+   "pi_last_name": "Shah",
+   "pi_mid_init": "T",
+   "pi_sufx_name": "",
+   "pi_full_name": "Rahul T Shah",
+   "pi_email_addr": "rahul@csc.lsu.edu",
+   "nsf_id": "000200569",
+   "pi_start_date": "2010-07-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Louisiana State University",
+  "inst_street_address": "202 HIMES HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "BATON ROUGE",
+  "inst_state_code": "LA",
+  "inst_state_name": "Louisiana",
+  "inst_phone_num": "2255782760",
+  "inst_zip_code": "708030001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "LA06",
+  "org_lgl_bus_name": "LOUISIANA STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "ECQEYCHRNKJ4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Louisiana State University",
+  "perf_str_addr": "202 HIMES HALL",
+  "perf_city_name": "BATON ROUGE",
+  "perf_st_code": "LA",
+  "perf_st_name": "Louisiana",
+  "perf_zip_code": "708030001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "LA06",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "792600",
+   "pgm_ele_name": "ALGORITHMS"
+  },
+  {
+   "pgm_ele_code": "915000",
+   "pgm_ele_name": "EPSCoR Co-Funding"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of the project was to develop pattern matching techniques (algorithms and data structures) for massive data sets (or big data). Several theoretical models like external memory, top-k querying and compressed indexing are popular in theory as well as database communities for big data. Newer programming paradigms like Map-Reduce are useful for multi-node implementations. We achieved several new results in these aspects of massive data.</p>\n<p>In terms of pattern matching, the goal was to achieve, better results for known problems as well as advancing the state-of-the-art by solving newer problems. One of central problems we considered was string retrieval with relevance. Following summarizes our outcomes in different facets of this project:</p>\n<p>A. External Memory Model -- (i) Top-k document retrieval: We obtained O(n log* n) space index with optimal O(P/B + log_B n + occ/B) I/Os. [ESA13] (ii) top-k colored range query: We obtained O(n \\alpha (n)) space index with O(\\alpha^3 (n) + occ/B) query I/Os [PODS14] and (iii) Shared constraint range reporting: We obtain O(n) space index with O(loglog N + occ/B) I/Os [ICDT15]. These three problems emerge in various top-k pattern matching scenario.<br /><br />B. Compression Model -- We obtained several theoretical results developing succinct indexes for (i) property suffix trees [I&amp;C13](ii) wildcards matching [JDA13](iii) dictionary matching [TCS13] (iv) proximity based top-k retrieval [ISAAC14](v) top-k retrieval based on frequency [DCC13] (vi) discriminating words[SPIRE14]. The work on proximity based is the first positive result in this space enabling succinct index for a problem believed to be hard until now. We gave best improved state of the art result for frequency based top-k allowing 2|CSA| space with O(logklog^{1+e}) per item retrieval time. Finally, we gave succinct index for discriminating words -- a problem motivated by information retrieval.<br /><br />C. Top-k retrieval -- Apart from the problems covered in A. and B. above: we solved (i) top-k color queries for tree paths [SPIRE13](ii) implemented top-k join queries [IDEAS13] (iii) range frequency queries [MFCS13] (iv) Ranked document selection - where instead of top-k the query asked for only kth ranked document [SWAT14].</p>\n<p>On implementation side, we demonstrated the first \"inverted index\" for string documents [SIGIR11] which achieves top-k retrieval with phrase searching capabilities. We achieved per doc retrieval time of 10 micro-secs.<br /><br />D. Mapreduce -- We implemented one of the first mapreduce based string index [ICPADS14] based on suffix tree.<br /><br />E. Other -- apart from these we obtained several results on (i) position restricted matching [SPIRE13,EDBTW13] (ii) practical Approximate matching [EDBTW13] (iii) joins on uncertain strings [SIGMOD14] (iv) top-k retrieval for uncertain strings [SSDBM11] (v) Range LCP queries [SPIRE13] (vi) work on circular patterns [ISAAC11, CPM12,CPM13] providing a complete range of results.</p>\n<p>&nbsp;</p>\n<p>Broader Impacts:</p>\n<p>The results were disseminated in top conferences and journals in computer science. Survey/plenary talks based on top-k retrieval were delivered in Dagstuhl13, Ianfest13, CIKM12. Several student were supported (including a women) and trained in theoretical as well as practical aspects of string matching and big data.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/26/2014<br>\n\t\t\t\t\tModified by: Rahul&nbsp;T&nbsp;Shah</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of the project was to develop pattern matching techniques (algorithms and data structures) for massive data sets (or big data). Several theoretical models like external memory, top-k querying and compressed indexing are popular in theory as well as database communities for big data. Newer programming paradigms like Map-Reduce are useful for multi-node implementations. We achieved several new results in these aspects of massive data.\n\nIn terms of pattern matching, the goal was to achieve, better results for known problems as well as advancing the state-of-the-art by solving newer problems. One of central problems we considered was string retrieval with relevance. Following summarizes our outcomes in different facets of this project:\n\nA. External Memory Model -- (i) Top-k document retrieval: We obtained O(n log* n) space index with optimal O(P/B + log_B n + occ/B) I/Os. [ESA13] (ii) top-k colored range query: We obtained O(n \\alpha (n)) space index with O(\\alpha^3 (n) + occ/B) query I/Os [PODS14] and (iii) Shared constraint range reporting: We obtain O(n) space index with O(loglog N + occ/B) I/Os [ICDT15]. These three problems emerge in various top-k pattern matching scenario.\n\nB. Compression Model -- We obtained several theoretical results developing succinct indexes for (i) property suffix trees [I&amp;C13](ii) wildcards matching [JDA13](iii) dictionary matching [TCS13] (iv) proximity based top-k retrieval [ISAAC14](v) top-k retrieval based on frequency [DCC13] (vi) discriminating words[SPIRE14]. The work on proximity based is the first positive result in this space enabling succinct index for a problem believed to be hard until now. We gave best improved state of the art result for frequency based top-k allowing 2|CSA| space with O(logklog^{1+e}) per item retrieval time. Finally, we gave succinct index for discriminating words -- a problem motivated by information retrieval.\n\nC. Top-k retrieval -- Apart from the problems covered in A. and B. above: we solved (i) top-k color queries for tree paths [SPIRE13](ii) implemented top-k join queries [IDEAS13] (iii) range frequency queries [MFCS13] (iv) Ranked document selection - where instead of top-k the query asked for only kth ranked document [SWAT14].\n\nOn implementation side, we demonstrated the first \"inverted index\" for string documents [SIGIR11] which achieves top-k retrieval with phrase searching capabilities. We achieved per doc retrieval time of 10 micro-secs.\n\nD. Mapreduce -- We implemented one of the first mapreduce based string index [ICPADS14] based on suffix tree.\n\nE. Other -- apart from these we obtained several results on (i) position restricted matching [SPIRE13,EDBTW13] (ii) practical Approximate matching [EDBTW13] (iii) joins on uncertain strings [SIGMOD14] (iv) top-k retrieval for uncertain strings [SSDBM11] (v) Range LCP queries [SPIRE13] (vi) work on circular patterns [ISAAC11, CPM12,CPM13] providing a complete range of results.\n\n \n\nBroader Impacts:\n\nThe results were disseminated in top conferences and journals in computer science. Survey/plenary talks based on top-k retrieval were delivered in Dagstuhl13, Ianfest13, CIKM12. Several student were supported (including a women) and trained in theoretical as well as practical aspects of string matching and big data.\n\n\t\t\t\t\tLast Modified: 12/26/2014\n\n\t\t\t\t\tSubmitted by: Rahul T Shah"
+ }
+}

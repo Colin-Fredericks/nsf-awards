@@ -1,0 +1,105 @@
+{
+ "awd_id": "1551535",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Inferring Mechanical Explanations from Manipulation Demonstrations",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Reid Simmons",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 225000.0,
+ "awd_amount": 225000.0,
+ "awd_min_amd_letter_date": "2015-08-12",
+ "awd_max_amd_letter_date": "2015-08-12",
+ "awd_abstract_narration": "Robots are fast, accurate, reliable, and tireless, which make them great assets for factories. However, robots lack intuition - at which humans excel. Current robots have a hard time when tasked with imagining ways to manufacture new products. In an effective human-robot collaboration, humans conceive new products and feasible ways to manufacture them, and robots follow human guidelines with excellent precision and reliability. The scenario of interest is where a human operator demonstrates an execution of a task, such as mating two parts, and a robot understands how to replicate it. This proposal is concerned with improving the current robot understanding of those demonstrations. In particular, it is concerned with recovering information that is not directly observable with cameras, such as contacts between parts, and the forcefulness of the motions, both important for the ability of the robot to replicate the demonstration.\r\n\r\nThis proposal aims to automate the inference of contact events and contact forces from noisy kinematic observations of the interaction between two known parts. The central idea is to use trajectory optimization and complementarity based models of contact to project noisy kinematic trajectories into dynamically-sound and environment-compatible motions, contacts, and forces. The problem is naturally under-constrained. There are many possible explanations for a given demonstration, and this proposal will investigate different ways to provide the optimizer with prior information to converge to a \"reasonable\" explanation. The first phase will conduct experiments instrumented with motion capture and force sensing to capture ground truth, and evaluate the ability of the algorithms to explain it, and overcome degradations such as noise and occlusions. A second phase will focus on un-instrumented scenarios and free-from demonstrations. The technical merit of the proposal will be demonstrated in the context of two high impact applications: automated assembly and shelf-picking/shelf-restocking in a warehouse scenario.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Alberto",
+   "pi_last_name": "Rodriguez Garcia",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Alberto Rodriguez Garcia",
+   "pi_email_addr": "albertor@mit.edu",
+   "nsf_id": "000655900",
+   "pi_start_date": "2015-08-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Inst. of Technology",
+  "perf_str_addr": "77 Massachusetts Ave",
+  "perf_city_name": "",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "801300",
+   "pgm_ele_name": "NRI-National Robotics Initiati"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "8086",
+   "pgm_ref_txt": "Natl Robotics Initiative (NRI)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 225000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project takes inspiration from humans&rsquo; unconscious but effective ability to make sense of contact to understand their environment. It only takes us a small push to a cup of coffee to estimate how full it is, and a quick glance to a bouncing ball to gauge its stiffness. Similarly, we aim at giving robots the ability to observe physical interaction in the form of motions and/or forces and gain a better understanding of the objects involved. Automating this process requires a clear understanding of the mathematical relationships between motions, forces, and inertias at contact.<br />In particular we have studied when and how it is possible to estimate object properties such as their mass and moment of inertia, and the forces involved in planar frictional contact and impact, when we observe with accuracy the motion of the interacting objects. The first step is to establish mathematical relationships between those dynamic parameters, forces and motions. A common way to do this in robotics is to use a formulation known as linear complementary problem (LCP). These models have been used in the past to simulate, plan, and control motion through contact, but less so for the task of contact &ldquo;introspection&rdquo;.<br />The study concludes that without the application of known external forces we can only estimate how object parameters and forces are related to each other. The analysis also shows that when known external forces are applied, we can fully estimate the object properties. In cases when the type of contact mode is known, these relationships lead to a system of mathematical equations that can be solved as a least squares problem to robustly estimate parameters in the presence of noise.<br />A second point of focus of this project has been to evaluate the accuracy of the mathematical models commonly used in robotic simulation of contact. The work started by automating and instrumenting the data collection process so that a robot (Fig 1) could automatically pick an object, throw it, and record the impact trajectories (Fig 2). The data was recorded with a high speed tracking system, and with force sensors on the ground.<br />The study has concluded that these models are often very inaccurate (Fig 3), and that the process of fitting their parameters usually leads to values with little physical meaning. Most models used in robotics make simplifying assumptions of instantaneous point impulses to resolve impacts, and use a small number of parameters (coefficient of friction and of restitution) to relate them. In practice, these pose underlying limitation that set an upper limit on how well the models perform. To overcome these limitations, we proposed ways to use experimental data to improve those same contact models, and compared their ability to accurately predict the resolution of contact and impact as a function of the amount of available data.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/31/2017<br>\n\t\t\t\t\tModified by: Alberto&nbsp;Rodriguez Garcia</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project takes inspiration from humans? unconscious but effective ability to make sense of contact to understand their environment. It only takes us a small push to a cup of coffee to estimate how full it is, and a quick glance to a bouncing ball to gauge its stiffness. Similarly, we aim at giving robots the ability to observe physical interaction in the form of motions and/or forces and gain a better understanding of the objects involved. Automating this process requires a clear understanding of the mathematical relationships between motions, forces, and inertias at contact.\nIn particular we have studied when and how it is possible to estimate object properties such as their mass and moment of inertia, and the forces involved in planar frictional contact and impact, when we observe with accuracy the motion of the interacting objects. The first step is to establish mathematical relationships between those dynamic parameters, forces and motions. A common way to do this in robotics is to use a formulation known as linear complementary problem (LCP). These models have been used in the past to simulate, plan, and control motion through contact, but less so for the task of contact \"introspection\".\nThe study concludes that without the application of known external forces we can only estimate how object parameters and forces are related to each other. The analysis also shows that when known external forces are applied, we can fully estimate the object properties. In cases when the type of contact mode is known, these relationships lead to a system of mathematical equations that can be solved as a least squares problem to robustly estimate parameters in the presence of noise.\nA second point of focus of this project has been to evaluate the accuracy of the mathematical models commonly used in robotic simulation of contact. The work started by automating and instrumenting the data collection process so that a robot (Fig 1) could automatically pick an object, throw it, and record the impact trajectories (Fig 2). The data was recorded with a high speed tracking system, and with force sensors on the ground.\nThe study has concluded that these models are often very inaccurate (Fig 3), and that the process of fitting their parameters usually leads to values with little physical meaning. Most models used in robotics make simplifying assumptions of instantaneous point impulses to resolve impacts, and use a small number of parameters (coefficient of friction and of restitution) to relate them. In practice, these pose underlying limitation that set an upper limit on how well the models perform. To overcome these limitations, we proposed ways to use experimental data to improve those same contact models, and compared their ability to accurately predict the resolution of contact and impact as a function of the amount of available data.\n\n\t\t\t\t\tLast Modified: 08/31/2017\n\n\t\t\t\t\tSubmitted by: Alberto Rodriguez Garcia"
+ }
+}

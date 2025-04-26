@@ -1,0 +1,96 @@
+{
+ "awd_id": "1439075",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: EXPL: FP: Architecture and Software for Scalable Persistent Memory",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 269735.0,
+ "awd_amount": 269735.0,
+ "awd_min_amd_letter_date": "2014-07-28",
+ "awd_max_amd_letter_date": "2014-07-28",
+ "awd_abstract_narration": "Emerging Storage Class Memory (SCM) technologies combine the non-volatility of storage devices like hard disks and solid state drives (SSDs) with the ability to access data at byte granularity rather than at a block level. Application developers can focus on a single fine-grained storage abstraction, rather than deal with word-granularity access for DRAM memory and a block interface for file-based disk storage. Accessing data directly from SCM instead of software-arbitrated block access has significant performance advantages, especially for modern data intensive applications based on graph and relation processing. However the use of direct SCM access places a significant burden on the application to achieve transactional and robust execution in the presence of unexpected machines failures and software aborts. \r\n\r\nThe research will identify lightweight, scalable architectural and software techniques for developing robust SCM-based software.  The goal is to make the development of software for persistent memory comparable to programming conventional DRAM main-memory by relieving the programmer from the complexities of managing transactional atomicity and persistence. Both hardware solutions based on enhancements to the processor and memory-controller architecture, and software approaches in the form of a lightweight persistence library will be developed. The techniques will be scaled up to handle multiple threads and cores, and scale out to multiple CPU sockets and to distributed clustered architectures.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Peter",
+   "pi_last_name": "Varman",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Peter J Varman",
+   "pi_email_addr": "pjv@rice.edu",
+   "nsf_id": "000378151",
+   "pi_start_date": "2014-07-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "William Marsh Rice University",
+  "inst_street_address": "6100 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "Houston",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7133484820",
+  "inst_zip_code": "770051827",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "WILLIAM MARSH RICE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "K51LECU1G8N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "William Marsh Rice University",
+  "perf_str_addr": "6100 Main St",
+  "perf_city_name": "Houston",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "770051827",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "TX09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 269735.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goals of the project were to develop mechanisms to support atomic and durable concurrent transactions in emerging persistent memory devices, exemplified by the recent Apache Pass memory chips from Intel. These devices have capacity, speed, and power advantages over traditional block-based non-volatile media, and can be addressed directly by the programmer at word granularity using Load and Store instructions. This fast, direct access to non-volatile storage is at odds with existing transactional systems; in traditional systems, the low speed of the IO devices permit these accesses to be mediated by costly operating system or dedicated database management software. However, with persistent memory, applications must now deal with ensuring the consistency of the persistent medium in the presence of unexpected aborts caused by failures or exceptions.</p>\n<p>Several solutions for durable transaction support were developed in the project based on the idea of Write-aside Persistence (WrAP). WrAP aims to allow applications to execute at near-native speeds using the processor caches, while relegating persistence operations to the background. A software implementation was developed and embodied in a library called SoftWrap; the approach uses aliasing and redo logging to ensure atomicity by preventing untimely cache evictions from corrupting persistent memory. Another solution was based on employing simple hardware support in the memory controller to regulate the times at which evicted cache lines can be safely written back to persistent memory. In these solutions, isolation between concurrent threads was enforced by software-based locking. The mechanisms were evaluated using both micro benchmarks as well as by adapting an open-source in-memory database system for persistent memory.</p>\n<p>An additional component of the project dealt with using Hardware Transaction Memory (HTM) for durable persistent-memory transactions. HTM is a feature of high-end CPUs that uses processor mechanisms to ensure efficient transactional in-memory execution of concurrent threads. An additional challenge when using HTM with persistent memory is to ensure that the durable transaction ordering is consistent with the in-memory transaction ordering enforced by the HTM. Solutions based on extending SoftWrap as well as by extending the memory-controller design were developed and evaluated.&nbsp; Both emulation as well as implementation on early experimental Apache Pass hardware systems made available by Intel were used for evaluations. These are the first solutions that can be implemented on existing processor hardware without changes to the processor cache hierarchy or HTM mechanisms.</p>\n<p>The work supported the research of a graduate student for both an MS and a Ph.D. Several undergraduates were also involved in aspects of the research. There has also been considerable interest from industry in the work.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/04/2018<br>\n\t\t\t\t\tModified by: Peter&nbsp;J&nbsp;Varman</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goals of the project were to develop mechanisms to support atomic and durable concurrent transactions in emerging persistent memory devices, exemplified by the recent Apache Pass memory chips from Intel. These devices have capacity, speed, and power advantages over traditional block-based non-volatile media, and can be addressed directly by the programmer at word granularity using Load and Store instructions. This fast, direct access to non-volatile storage is at odds with existing transactional systems; in traditional systems, the low speed of the IO devices permit these accesses to be mediated by costly operating system or dedicated database management software. However, with persistent memory, applications must now deal with ensuring the consistency of the persistent medium in the presence of unexpected aborts caused by failures or exceptions.\n\nSeveral solutions for durable transaction support were developed in the project based on the idea of Write-aside Persistence (WrAP). WrAP aims to allow applications to execute at near-native speeds using the processor caches, while relegating persistence operations to the background. A software implementation was developed and embodied in a library called SoftWrap; the approach uses aliasing and redo logging to ensure atomicity by preventing untimely cache evictions from corrupting persistent memory. Another solution was based on employing simple hardware support in the memory controller to regulate the times at which evicted cache lines can be safely written back to persistent memory. In these solutions, isolation between concurrent threads was enforced by software-based locking. The mechanisms were evaluated using both micro benchmarks as well as by adapting an open-source in-memory database system for persistent memory.\n\nAn additional component of the project dealt with using Hardware Transaction Memory (HTM) for durable persistent-memory transactions. HTM is a feature of high-end CPUs that uses processor mechanisms to ensure efficient transactional in-memory execution of concurrent threads. An additional challenge when using HTM with persistent memory is to ensure that the durable transaction ordering is consistent with the in-memory transaction ordering enforced by the HTM. Solutions based on extending SoftWrap as well as by extending the memory-controller design were developed and evaluated.  Both emulation as well as implementation on early experimental Apache Pass hardware systems made available by Intel were used for evaluations. These are the first solutions that can be implemented on existing processor hardware without changes to the processor cache hierarchy or HTM mechanisms.\n\nThe work supported the research of a graduate student for both an MS and a Ph.D. Several undergraduates were also involved in aspects of the research. There has also been considerable interest from industry in the work.\n\n \n\n\t\t\t\t\tLast Modified: 12/04/2018\n\n\t\t\t\t\tSubmitted by: Peter J Varman"
+ }
+}

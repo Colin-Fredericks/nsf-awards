@@ -1,0 +1,150 @@
+{
+ "awd_id": "9988435",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Progress-Based Resource Management Using Control",
+ "cfda_num": "47.041",
+ "org_code": "07010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Radhakisan Baheti",
+ "awd_eff_date": "2000-09-01",
+ "awd_exp_date": "2005-08-31",
+ "tot_intn_awd_amt": 149999.0,
+ "awd_amount": 174097.0,
+ "awd_min_amd_letter_date": "2000-09-19",
+ "awd_max_amd_letter_date": "2004-11-04",
+ "awd_abstract_narration": "\r\n\r\n\r\n\r\n\r\nA consequence of the digital revolution is that general purpose computers are being applied to an ever increasing range of applications. However, lack of suitable operating system support remains a key obstacle in applying COTS (commodity-off-the-shelf) computers to many of these application domains, particularly those whose correctness is time- or rate-sensitive. One important feature that is missing in existing operating systems is the ability to assign resources to applications based on application need. This feature is needed to prevent one application from affecting the correctness of another, such as occurs in priority inversion, and to achieve near-optimal resource allocation in the face of oversubscription of resources and changes in application need over time.\r\nSteere and Walpole introduced a novel approach to resource management, progress-based resource\r\nmanagement, that allocates resources to applications based on perceived need. The scheduler monitors an\r\napplication's rate of progress, compares these measurements with the application's desired rate, and\r\nincreases or decreases the application's allocation to drive its actual rate to its desired value. Initial experi-ence with prototypes is promising. A CPU allocator uses a feedback controller (low-pass filter followed by\r\na PID controller) to regulate buffer fill levels in a multimedia pipeline by dynamically changing\r\n reservation style allocations of the pipeline threads. They have also used the same approach to allocate network bandwidth in an end-host packet scheduler.\r\nTheir experience with these prototypes indicates a strong need for more formal modeling and analysis.  The prototypes are difficult to tune correctly; since correct performance depends both on the controller's  parameter settings and the behavior of the application, which can change. In addition, the presence of adaptive applications (such as adaptive QoS) can lead an otherwise stable system to oscillate or diverge. Standard computer science formal methods do not help one to understand a system's adaptive behavior, since they focus on interface syntax and semantics. What is needed is analytical techniques for understanding the behavior of a dynamic system over time, such as those used in control systems.\r\nAt the same time, applying control-style modeling and analysis to software systems is itself a research challenge. Software systems are discrete by nature, and one must consider quantization error not only in sampling and representation of data values but also in the underlying signal itself. In addition, software applications such as pipelines contend for access to managed resources such as CPU and memory but also to unmanaged resources such as synchronization variables (locks and semaphores). These synchronization issues make it difficult to predict the effect of a change in allocation for one resource, and hence to design a controller for that resource.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "ECCS",
+ "org_div_long_name": "Division of Electrical, Communications and Cyber Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Molly",
+   "pi_last_name": "Shor",
+   "pi_mid_init": "H",
+   "pi_sufx_name": "",
+   "pi_full_name": "Molly H Shor",
+   "pi_email_addr": "shor@eecs.orst.edu",
+   "nsf_id": "000236953",
+   "pi_start_date": "2000-09-19",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Jonathan",
+   "pi_last_name": "Walpole",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jonathan Walpole",
+   "pi_email_addr": "walpole@cs.pdx.edu",
+   "nsf_id": "000436107",
+   "pi_start_date": "2000-09-19",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "Steere",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "David C Steere",
+   "pi_email_addr": "dcs@cse.ogi.edu",
+   "nsf_id": "000114019",
+   "pi_start_date": "2000-09-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Oregon State University",
+  "inst_street_address": "1500 SW JEFFERSON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CORVALLIS",
+  "inst_state_code": "OR",
+  "inst_state_name": "Oregon",
+  "inst_phone_num": "5417374933",
+  "inst_zip_code": "973318655",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "OR04",
+  "org_lgl_bus_name": "OREGON STATE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MZ4DYXE1SL98"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Oregon State University",
+  "perf_str_addr": "1500 SW JEFFERSON AVE",
+  "perf_city_name": "CORVALLIS",
+  "perf_st_code": "OR",
+  "perf_st_name": "Oregon",
+  "perf_zip_code": "973318655",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "OR04",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "151800",
+   "pgm_ele_name": "CONTROL, NETWORKS, & COMP INTE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "0000",
+   "pgm_ref_txt": "UNASSIGNED"
+  },
+  {
+   "pgm_ref_code": "1359",
+   "pgm_ref_txt": "RET SITE-Res Exp for Tchr Site"
+  },
+  {
+   "pgm_ref_code": "7218",
+   "pgm_ref_txt": "RET SUPP-Res Exp for Tchr Supp"
+  },
+  {
+   "pgm_ref_code": "9231",
+   "pgm_ref_txt": "SUPPL FOR UNDERGRAD RES ASSIST"
+  },
+  {
+   "pgm_ref_code": "OTHR",
+   "pgm_ref_txt": "OTHER RESEARCH OR EDUCATION"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0100",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0100",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0103",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0103",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2000,
+   "fund_oblg_amt": 149999.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2003,
+   "fund_oblg_amt": 24098.0
+  }
+ ],
+ "por": null
+}

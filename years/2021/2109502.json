@@ -1,0 +1,96 @@
+{
+ "awd_id": "2109502",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "NSF Postdoctoral Fellowship in Biology FY 2021: Comparative methods and model clades for evolutionary developmental biology",
+ "cfda_num": "47.074",
+ "org_code": "08080000",
+ "po_phone": "7032924694",
+ "po_email": "jkabraha@nsf.gov",
+ "po_sign_block_name": "Joel Abraham",
+ "awd_eff_date": "2021-08-01",
+ "awd_exp_date": "2023-07-31",
+ "tot_intn_awd_amt": 138000.0,
+ "awd_amount": 138000.0,
+ "awd_min_amd_letter_date": "2021-07-01",
+ "awd_max_amd_letter_date": "2021-07-01",
+ "awd_abstract_narration": "This action funds an NSF Postdoctoral Research Fellowship in Biology for FY 2021, Integrative Research Investigating the Rules of Life Governing Interactions Between Genomes, Environment and Phenotypes. The fellowship supports research and training of the fellow that will contribute to the area of Rules of Life in innovative ways. The funded research will use large datasets to investigate how evolution leads to biodiversity. Methods for collecting large amounts of data with thousands of measured biological traits are becoming increasingly common and inexpensive to generate. Examples of such data include developmental assays of gene expression. As this data becomes more common, so do comparisons of these data across species. However, evolutionary biologists have warned for years that comparisons across species must be performed using mathematical models that account for how related species are, or they risk misidentifying patterns across species. This fellowship will focus on developing new methods for comparing data across species. This research is important given that, in this era of rapid global change, robust models of evolution are needed to accurately predict how biodiversity is likely to change in the future. Furthermore, this research will broaden participation in science by recruiting and mentoring undergraduate students from underrepresented groups in computational biological analysis. \r\n\r\nThis research project will result in a new comparative framework for analyzing high-dimensional data on gene expression across species. Gene expression data are common in assays of developmental biology, yet current comparisons of these data across taxa often fail to consider the evolutionary non-independence of observations. There exists a rich literature of comparative methods designed to statistically compare traits across taxa, but their implementation for high-dimensional continuous traits faces technical limitations. To overcome these limitations, first the fellow will identify and extend evolutionary models to describe the distribution of expression data across taxa. This analysis will require the fellow to achieve specific training objectives, including seeking out advanced knowledge in mathematical modeling, to overcome common challenges in analyzing datasets that have many thousands of parameters. Second, the fellow will apply these methods to real-world data on gene expression across tissues and species, testing hypotheses about the degree to which phylogeny, gene pathway, and gene product type explain variation. The results of this study will be a comparative framework that can be immediately applied to datasets of gene expression across species, which will be released as free, publicly accessible, open-source software.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "BIO",
+ "org_dir_long_name": "Directorate for Biological Sciences",
+ "div_abbr": "DBI",
+ "org_div_long_name": "Division of Biological Infrastructure",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Samuel",
+   "pi_last_name": "Church",
+   "pi_mid_init": "H",
+   "pi_sufx_name": "",
+   "pi_full_name": "Samuel H Church",
+   "pi_email_addr": "",
+   "nsf_id": "000841110",
+   "pi_start_date": "2021-07-01",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Church, Samuel H",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "Cambridge",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "",
+  "inst_zip_code": "021384881",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MA05",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "Yale University",
+  "perf_str_addr": null,
+  "perf_city_name": "New Haven",
+  "perf_st_code": "CT",
+  "perf_st_name": "Connecticut",
+  "perf_zip_code": "065118934",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "CT03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "108000",
+   "pgm_ele_name": "Evolution of Develp Mechanism"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 138000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project sought to study the general rules of life that govern how evolution generates biological diversity. To understand these rule, we need new approaches for analyzing the complex data available with new technologies. One example of such data, relevant to many fields of biology and medicine, is data that describes how genes are expressed in cells and tissues. Comparisons of these data across species are difficult becuase we must consider their evolutionary context.</p>\n<p>To solve this problem, this project had three individual objectives:</p>\n<ol>\n<li>Develop and implementing new methods models for the evolution of gene expression.</li>\n<li>Writing open source software for the analysis of gene expression datasets.</li>\n<li>Study the evolution and biodiversity of one group, the Hawaiian flies in the genus Drosophila.</li>\n</ol>\n<p>First, I developed novel approaches to the analysis gene expression, specifically single-cell gene expression datasets. Single-cell sequencing is a powerful tool to generate thousands of abundance measurements of gene transcripts in individual cells. I applied measurement theory and mathematical group theory to develop a count-based approach to the analysis of single-cell expression data. In our publication, we demonstrated how this approach is both more simple, intuitive, and can outperform the standard approach.&nbsp;</p>\n<p><br />Second, I packaged and released our count-based software for gene expression analysis, countland, for the languages R and python. This package is open-access, and thoroughly documented with vignettes for the analysis of available datasets. I described its performance and analyzed outcomes on standard benchmark datasets.</p>\n<p><br />Finally, I completed a two month field season surveying historic sites in Hawaii for the collection of native and endemic drosophilid flies. I found many species that had not been reported as observed for several decades; many sites also showed signs of significant decline since previous surveys, which I reported to the appropriate Hawaiian management agencies. From the individuals I was able to observe and collect, I worked with Bernard Kim and Dmitri Petrov at Stanford to generate 41 new genome assemblies for these species. These genomes will be invaluable in understanding the evolution of the lineage, in teasing apart the relationship between populations and species, and in future plans for species conservation and management of the clade.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>As part of the work on Hawaiian insects, I led three graduate students and three postdocs on their first field work in Hawaii, teaching them skills in field entomology. They learned to apply for permits, best practices, and techniques in capture, preservation, and identification of insects.</p>\n<p>In the laboratory, I trained three undergraduate students in genetic procedure, and mentored two of these students as they developed and executed their own research projects. Skills they learned include DNA and RNA extraction, and morphological characterization of invertebrates.</p>\n<p>As part of a collaboration with an Indonesian research institute, I mentored two junior scientists from Indonesia as they undertook independent summer research at Yale University. I taught skills in DNA and RNA procedure and analysis, field collection of marine invertebrates, and bioinformatics for analyzing genetic data. We also co-lead a summer course on marine invertebrate morphology which was attended by undergraduate and graduate students as well as other research scientists in the area.</p>\n<p>Finally, I mentored three graduate students in the lab as they made progress toward their theses, providing guidance on preparing manuscripts for publication, analyzing data, and building skills in professional development.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/31/2023<br>\n\t\t\t\t\tModified by: Samuel&nbsp;H&nbsp;Church</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project sought to study the general rules of life that govern how evolution generates biological diversity. To understand these rule, we need new approaches for analyzing the complex data available with new technologies. One example of such data, relevant to many fields of biology and medicine, is data that describes how genes are expressed in cells and tissues. Comparisons of these data across species are difficult becuase we must consider their evolutionary context.\n\nTo solve this problem, this project had three individual objectives:\n\nDevelop and implementing new methods models for the evolution of gene expression.\nWriting open source software for the analysis of gene expression datasets.\nStudy the evolution and biodiversity of one group, the Hawaiian flies in the genus Drosophila.\n\n\nFirst, I developed novel approaches to the analysis gene expression, specifically single-cell gene expression datasets. Single-cell sequencing is a powerful tool to generate thousands of abundance measurements of gene transcripts in individual cells. I applied measurement theory and mathematical group theory to develop a count-based approach to the analysis of single-cell expression data. In our publication, we demonstrated how this approach is both more simple, intuitive, and can outperform the standard approach. \n\n\nSecond, I packaged and released our count-based software for gene expression analysis, countland, for the languages R and python. This package is open-access, and thoroughly documented with vignettes for the analysis of available datasets. I described its performance and analyzed outcomes on standard benchmark datasets.\n\n\nFinally, I completed a two month field season surveying historic sites in Hawaii for the collection of native and endemic drosophilid flies. I found many species that had not been reported as observed for several decades; many sites also showed signs of significant decline since previous surveys, which I reported to the appropriate Hawaiian management agencies. From the individuals I was able to observe and collect, I worked with Bernard Kim and Dmitri Petrov at Stanford to generate 41 new genome assemblies for these species. These genomes will be invaluable in understanding the evolution of the lineage, in teasing apart the relationship between populations and species, and in future plans for species conservation and management of the clade. \n\n \n\n \n\nAs part of the work on Hawaiian insects, I led three graduate students and three postdocs on their first field work in Hawaii, teaching them skills in field entomology. They learned to apply for permits, best practices, and techniques in capture, preservation, and identification of insects.\n\nIn the laboratory, I trained three undergraduate students in genetic procedure, and mentored two of these students as they developed and executed their own research projects. Skills they learned include DNA and RNA extraction, and morphological characterization of invertebrates.\n\nAs part of a collaboration with an Indonesian research institute, I mentored two junior scientists from Indonesia as they undertook independent summer research at Yale University. I taught skills in DNA and RNA procedure and analysis, field collection of marine invertebrates, and bioinformatics for analyzing genetic data. We also co-lead a summer course on marine invertebrate morphology which was attended by undergraduate and graduate students as well as other research scientists in the area.\n\nFinally, I mentored three graduate students in the lab as they made progress toward their theses, providing guidance on preparing manuscripts for publication, analyzing data, and building skills in professional development.\n\n\t\t\t\t\tLast Modified: 08/31/2023\n\n\t\t\t\t\tSubmitted by: Samuel H Church"
+ }
+}

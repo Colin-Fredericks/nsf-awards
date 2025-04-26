@@ -1,0 +1,105 @@
+{
+ "awd_id": "1546273",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "BIGDATA: Collaborative Research: IA: Hardware and Software for Spike Detection and Sorting in Massively Parallel Electrophysiological Recording Systems for the Brain",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032927347",
+ "po_email": "sspengle@nsf.gov",
+ "po_sign_block_name": "Sylvia Spengler",
+ "awd_eff_date": "2015-10-01",
+ "awd_exp_date": "2019-09-30",
+ "tot_intn_awd_amt": 150000.0,
+ "awd_amount": 150000.0,
+ "awd_min_amd_letter_date": "2015-09-16",
+ "awd_max_amd_letter_date": "2015-09-16",
+ "awd_abstract_narration": "Understanding how the brain works is arguably one of the most significant scientific challenges of our time and the focus of the BRAIN initiative. It is widely believed that neural circuit function is emergent, the result of complex interactions between constituents with individual neurons forming synaptic connections with thousands of other neurons. Mapping of these complex circuits has been virtually impossible because of the reliance on electrophysiological recordings which sample these networks extremely sparsely. These tools for extracellular spike recordings are only able to simultaneously record from several tens to a few hundred neurons. Raw signals from these recording electrodes are first filtered to remove out-of-band signals. Putative spike events are then detected and extracted. Finally, these snippets of time-series event are sorted, typically on the basis of waveform shapes, into clusters. Even at the very modest bandwidths for these systems, computing systems struggle to save the data and process the resulting data sets. Scalability of these measurement techniques by many orders of magnitude in recording density and channels will be essential to future progress in understanding neuron circuits.\r\n\r\nThis project is exploiting emerging electrophysiological recording systems in which the electrode (and channel) count is increased by almost three orders of magnitude over conventional systems with data bandwidths exceeding 1GB/sec. To handle these data bandwidths and resulting data volumes and deliver scalability, this project will develop dedicated hardware and associated algorithms for spike detection and sorting that allow these tasks to be performed in real-time in close proximity to the recording system. Compression by more than three orders of magnitude is possible by these means by taking advantage of the special spatiotemporal local structure in these data sets; by exploiting strong prior information about the spiking signal and reducing the dimensionality of the problem accordingly; and by adapting and extending modern scalable nonparametric Bayesian inference methods. In addition to providing important new tools for neuroscience, the tools developed here for scalable real-time event detection and annotation have broad applicability to other spatiotemporal data sets (or more generally, any data set comprising multiple streams of data, in which the streams could involve different data modalities) in which objects of interest are spatially and temporally localized with fixed spatial footprints. Examples abound in cell and molecular biology, particle and solid-state physics, financial monitoring,  monitoring of power networks, and sensor networks.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Andreas",
+   "pi_last_name": "Tolias",
+   "pi_mid_init": "S",
+   "pi_sufx_name": "",
+   "pi_full_name": "Andreas S Tolias",
+   "pi_email_addr": "tolias@stanford.edu",
+   "nsf_id": "000550988",
+   "pi_start_date": "2015-09-16",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Baylor College of Medicine",
+  "inst_street_address": "1 BAYLOR PLZ",
+  "inst_street_address_2": "",
+  "inst_city_name": "HOUSTON",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7137981297",
+  "inst_zip_code": "770303411",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "BAYLOR COLLEGE OF MEDICINE",
+  "org_prnt_uei_num": "FXKMA43NTV21",
+  "org_uei_num": "FXKMA43NTV21"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Baylor College of Medicine",
+  "perf_str_addr": "One Baylor Plaza",
+  "perf_city_name": "Houston",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "770303411",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "TX09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "808300",
+   "pgm_ele_name": "Big Data Science &Engineering"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7433",
+   "pgm_ref_txt": "CyberInfra Frmwrk 21st (CIF21)"
+  },
+  {
+   "pgm_ref_code": "8083",
+   "pgm_ref_txt": "Big Data Science &Engineering"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 150000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In recent years the neuroscience community has developed technologies that enable us to collect large scale data from the brain. For example, we now have functional imaging (e.g. two- and three-photon imaging) and electrophysiological methods that enable individual labs and scientists to record simultaneously the activity of thousands and in some cases tens of thousands neurons from the brain of animals performing sophisticated perceptual, cognitive and motor tasks. This NSF award focused on developing machine learning tools and analysis pipelines to make sense of the deluge of these data in order to enable our team and the community to make scientific discoveries. Specifically, as part of this grants we: 1) Developed analysis methods and data pipelines to process large scale two-photon functional imaging data including developing spike inference and motion correction algorithms from calcium imaging data. We have deployed these tools to study the functional organization of the visual cortex (e.g. Theis L et al., Neuron 2016; Berens P et al, PLos Comput Biol 2018; Walker EY et al., Nature Neuroscience 2019a; Liu G et al., Nat Commun. 2019). 2) In parallel we have also developed spike sorting methods from multi-electrode recording arrays including depth probes enabling simultaneous recording from all layers of the macaque cortex. These tools and the data collected so far have also been deployed and used in our work focusing on studying perceptual decisions and attention in non-human primates and using deep learning methods to model the visual cortex (e.g. Denfield et al., Nat Commun. 2018; Walker et al., Nature Neurosience 2019b; Cadena et al., PLoS Comput Biol. 2019, Rossant et al., Nature Neuroscience 2016).</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/30/2019<br>\n\t\t\t\t\tModified by: Andreas&nbsp;S&nbsp;Tolias</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn recent years the neuroscience community has developed technologies that enable us to collect large scale data from the brain. For example, we now have functional imaging (e.g. two- and three-photon imaging) and electrophysiological methods that enable individual labs and scientists to record simultaneously the activity of thousands and in some cases tens of thousands neurons from the brain of animals performing sophisticated perceptual, cognitive and motor tasks. This NSF award focused on developing machine learning tools and analysis pipelines to make sense of the deluge of these data in order to enable our team and the community to make scientific discoveries. Specifically, as part of this grants we: 1) Developed analysis methods and data pipelines to process large scale two-photon functional imaging data including developing spike inference and motion correction algorithms from calcium imaging data. We have deployed these tools to study the functional organization of the visual cortex (e.g. Theis L et al., Neuron 2016; Berens P et al, PLos Comput Biol 2018; Walker EY et al., Nature Neuroscience 2019a; Liu G et al., Nat Commun. 2019). 2) In parallel we have also developed spike sorting methods from multi-electrode recording arrays including depth probes enabling simultaneous recording from all layers of the macaque cortex. These tools and the data collected so far have also been deployed and used in our work focusing on studying perceptual decisions and attention in non-human primates and using deep learning methods to model the visual cortex (e.g. Denfield et al., Nat Commun. 2018; Walker et al., Nature Neurosience 2019b; Cadena et al., PLoS Comput Biol. 2019, Rossant et al., Nature Neuroscience 2016).\n\n\t\t\t\t\tLast Modified: 12/30/2019\n\n\t\t\t\t\tSubmitted by: Andreas S Tolias"
+ }
+}

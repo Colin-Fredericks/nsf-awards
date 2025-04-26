@@ -1,0 +1,96 @@
+{
+ "awd_id": "1759518",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "ABI Development: Improving transcriptome assembly from RNA-seq data",
+ "cfda_num": "47.074",
+ "org_code": "08080000",
+ "po_phone": "7032927163",
+ "po_email": "rsbeaman@nsf.gov",
+ "po_sign_block_name": "Reed Beaman",
+ "awd_eff_date": "2018-07-15",
+ "awd_exp_date": "2023-06-30",
+ "tot_intn_awd_amt": 993407.0,
+ "awd_amount": 993407.0,
+ "awd_min_amd_letter_date": "2018-07-03",
+ "awd_max_amd_letter_date": "2018-07-03",
+ "awd_abstract_narration": "This project aims at improving the efficiency and accuracy of the computational method for transcript identification and quantification, StringTie. Due to its unparalleled speed and accuracy, StringTie has become one of the leading tools in the field and has a rapidly growing user base. Identifying the transcripts being expressed by a cell is a critical step in studying cell development, disease, the response to infection, specific gene pathways, and much more. By producing better models and expression levels for genes and transcripts, StringTie will, therefore, have an impact on many different areas of research that study biological diversity in our world. The software developed during this project will be made available under an open-source license, thereby enhancing the research infrastructure of the US by enabling the broad reuse of the code base by other scientists investigating similar research topics.\r\n\r\n   The most significant result of this project extends StringTie's usability to a larger community of scientists interested in eukaryotic gene annotation by the addition of a de novo assembly method, which will incorporate genome assembly technology with sequencing coverage information and optimization techniques. By solving a maximum flow problem on a splicing graph built directly from uniquely assembled reads, this new assembly method has the potential to reduce false positives typically associated with methods that use a de Bruijn graph approach. Furthermore, two additional features will improve the accuracy of the transcriptome assembly: one will make StringTie efficiently handle long reads typically produced by third-generation sequencing technologies, and another one will incorporate annotation of open reading frames as information describing the assembled transcripts. Both additions have the potential to significantly improve the transcript structures inferred from short-read RNA-sequencing data. The results of this project will be disseminated via scientific publications and the StringTie website: http://ccb.jhu.edu/software/stringtie.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "BIO",
+ "org_dir_long_name": "Directorate for Biological Sciences",
+ "div_abbr": "DBI",
+ "org_div_long_name": "Division of Biological Infrastructure",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mihaela",
+   "pi_last_name": "Pertea",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mihaela Pertea",
+   "pi_email_addr": "mpertea@jhu.edu",
+   "nsf_id": "000235505",
+   "pi_start_date": "2018-07-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Johns Hopkins University",
+  "inst_street_address": "3400 N CHARLES ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "BALTIMORE",
+  "inst_state_code": "MD",
+  "inst_state_name": "Maryland",
+  "inst_phone_num": "4439971898",
+  "inst_zip_code": "212182608",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MD07",
+  "org_lgl_bus_name": "THE JOHNS HOPKINS UNIVERSITY",
+  "org_prnt_uei_num": "GS4PNKTRNKL3",
+  "org_uei_num": "FTMTDMBR29C7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Johns Hopkins",
+  "perf_str_addr": "1900 E. Monument Street",
+  "perf_city_name": "BALTIMORE",
+  "perf_st_code": "MD",
+  "perf_st_name": "Maryland",
+  "perf_zip_code": "212057519",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MD07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "116500",
+   "pgm_ele_name": "ADVANCES IN BIO INFORMATICS"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 993407.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The major goals of this award were to incorporate&nbsp;<em>de novo</em>&nbsp;genome assembly technology into the transcriptome assembly algorithm, extend StringTie's usability to a much bigger variety of transcriptomic data, by making it handle high-error long reads produced by third-generation sequencers from Pacific Biosciences and Oxford Nanopore, and to design a method to incorporate annotation of open reading frames (ORFs) in the transcripts assembled by StringTie. As described below, we accomplished all three goals, and as a result we published StringTie2, and implemented ORFanage.&nbsp;&nbsp;</p>\n<p>StringTie2 pushed the state of the art in transcriptome assembly by incorporating&nbsp;<em>de novo</em>&nbsp;uniquely pre-assembled transcriptomic regions, called super-reads, and by being the first assembler to produce high-quality transcripts from long read RNA-seq data, in the absence of a reference annotation. Implementing more efficient data structures was an essential step in making StringTie able to handle high-error rate reads. This was very important because the presence of errors in the long reads can lead to the creation of a very large number of spurious nodes and edges in the splicing graph at the base of StringTie's algorithm.&nbsp;A splicing graph, also called an alternative splice graph, is a convenient representation of all isoforms in a gene, where theoretically nodes correspond to exons in the transcripts, edges represent splicing junctions, and some paths correspond to the transcripts in a gene. In the case of genome-guided transcriptome assembly, a splicing graph is constructed from the input read alignments.&nbsp;A large splicing graph increases the memory footprint and running time of the assembly algorithm such that it becomes unusable for noisy data. In order to reduce this large memory footprint, we implemented algorithms that use more aggressive strategies for identifying and removing spurious spliced alignments and correct splice sites by choosing the consensus position from all the aligned reads.&nbsp;&nbsp;</p>\n<p>Short-read RNA sequencing and long-read RNA sequencing each have their strengths and weaknesses for transcriptome assembly. While short reads are highly accurate, they are rarely able to span multiple exons. Long-read technology can capture full-length transcripts, but its relatively high error rate often leads to mis-identified splice sites. Our initial version of StringTie2 was able to handle either short or long read data but would not be able to handle both data types at the same time. We improved on StringTie2 and released a new version of StringTie that is&nbsp;capable of handling mixed transcriptomic data that includes both short and long RNA-seq reads sequenced from the same samples.&nbsp;By taking advantage of the strengths of both long and short reads, hybrid-read assembly with StringTie is more accurate than long-read only or short-read only assembly, and on some datasets it can more than double the number of correctly assembled transcripts, while obtaining substantially higher precision than the long-read data assembly alone.&nbsp;As the first reference-based, hybrid-read transcriptome assembler, we believe this new release of StringTie will be a valuable tool leading to improvements in transcriptomic studies of many species.</p>\n<p>In addition to assembling the transcriptome, identifying protein-coding genes is another integral part of genomic studies. There are still many genes for which we do not know their function. Elucidating their function is a complex and time-consuming task, and the only feasible way to determine which isoforms are functional on a genome-wide scale is by using computational methods. As shown by a wealth of RNA-seq analysis studies, most genes in higher eukaryotes undergo alternative splicing, producing many unique transcripts. One way to distinguish if these transcripts represent functional isoforms is to find evidence that they code for proteins, and the first step in this process is to identify the most likely ORF to code for a protein in a given transcript. Our efforts towards this goal resulted in the development of ORFanage, a new method to annotate ORFs in novel transcripts like the ones assembled by StringTie. ORFanage uses protein annotations from known reference databases and fits them to the query transcripts both with and without modifications, as caused by additional exons, or alternative splice sites.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/07/2023<br>\n\t\t\t\t\tModified by: Mihaela&nbsp;Pertea</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe major goals of this award were to incorporate de novo genome assembly technology into the transcriptome assembly algorithm, extend StringTie's usability to a much bigger variety of transcriptomic data, by making it handle high-error long reads produced by third-generation sequencers from Pacific Biosciences and Oxford Nanopore, and to design a method to incorporate annotation of open reading frames (ORFs) in the transcripts assembled by StringTie. As described below, we accomplished all three goals, and as a result we published StringTie2, and implemented ORFanage.  \n\nStringTie2 pushed the state of the art in transcriptome assembly by incorporating de novo uniquely pre-assembled transcriptomic regions, called super-reads, and by being the first assembler to produce high-quality transcripts from long read RNA-seq data, in the absence of a reference annotation. Implementing more efficient data structures was an essential step in making StringTie able to handle high-error rate reads. This was very important because the presence of errors in the long reads can lead to the creation of a very large number of spurious nodes and edges in the splicing graph at the base of StringTie's algorithm. A splicing graph, also called an alternative splice graph, is a convenient representation of all isoforms in a gene, where theoretically nodes correspond to exons in the transcripts, edges represent splicing junctions, and some paths correspond to the transcripts in a gene. In the case of genome-guided transcriptome assembly, a splicing graph is constructed from the input read alignments. A large splicing graph increases the memory footprint and running time of the assembly algorithm such that it becomes unusable for noisy data. In order to reduce this large memory footprint, we implemented algorithms that use more aggressive strategies for identifying and removing spurious spliced alignments and correct splice sites by choosing the consensus position from all the aligned reads.  \n\nShort-read RNA sequencing and long-read RNA sequencing each have their strengths and weaknesses for transcriptome assembly. While short reads are highly accurate, they are rarely able to span multiple exons. Long-read technology can capture full-length transcripts, but its relatively high error rate often leads to mis-identified splice sites. Our initial version of StringTie2 was able to handle either short or long read data but would not be able to handle both data types at the same time. We improved on StringTie2 and released a new version of StringTie that is capable of handling mixed transcriptomic data that includes both short and long RNA-seq reads sequenced from the same samples. By taking advantage of the strengths of both long and short reads, hybrid-read assembly with StringTie is more accurate than long-read only or short-read only assembly, and on some datasets it can more than double the number of correctly assembled transcripts, while obtaining substantially higher precision than the long-read data assembly alone. As the first reference-based, hybrid-read transcriptome assembler, we believe this new release of StringTie will be a valuable tool leading to improvements in transcriptomic studies of many species.\n\nIn addition to assembling the transcriptome, identifying protein-coding genes is another integral part of genomic studies. There are still many genes for which we do not know their function. Elucidating their function is a complex and time-consuming task, and the only feasible way to determine which isoforms are functional on a genome-wide scale is by using computational methods. As shown by a wealth of RNA-seq analysis studies, most genes in higher eukaryotes undergo alternative splicing, producing many unique transcripts. One way to distinguish if these transcripts represent functional isoforms is to find evidence that they code for proteins, and the first step in this process is to identify the most likely ORF to code for a protein in a given transcript. Our efforts towards this goal resulted in the development of ORFanage, a new method to annotate ORFs in novel transcripts like the ones assembled by StringTie. ORFanage uses protein annotations from known reference databases and fits them to the query transcripts both with and without modifications, as caused by additional exons, or alternative splice sites. \n\n \n\n\t\t\t\t\tLast Modified: 08/07/2023\n\n\t\t\t\t\tSubmitted by: Mihaela Pertea"
+ }
+}

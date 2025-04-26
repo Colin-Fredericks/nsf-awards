@@ -1,0 +1,101 @@
+{
+ "awd_id": "1320071",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: SHF: SMALL: Efficient, Low-Latency Networked Storage",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 400000.0,
+ "awd_amount": 400000.0,
+ "awd_min_amd_letter_date": "2013-07-29",
+ "awd_max_amd_letter_date": "2013-07-29",
+ "awd_abstract_narration": "From key-value stores to distributed file systems to distributed \r\ndatabases, networked storage underpins modern Internet services. \r\nNetworked storage allows programmers to separate logic and data, enables \r\nhigh throughput scale out, and takes advantage of increasingly fast \r\ndatacenter networks.  However, in the big data era, networked storage \r\nfaces a new challenge: The amount of data accessed per user request is \r\ngrowing rapidly; outpacing processor speeds and DRAM capacity. \r\nIncreasingly, user-perceived response times are dominated by the slowest \r\nstorage accesses, i.e., the 99th percentile tails.  Networked storage is \r\nnotorious for fat tailed response times.\r\n\r\nWe are developing networked storage systems that are 1) always fast and 2) \r\ncost efficient.  A key approach is to understand and selectively use \r\nreplication for predictability (or cloning).  In this approach, clients \r\nissue redundant storage accesses against independent hardware resources. \r\nThe first to respond provides the result.  Replication for predictability \r\nreduces client-perceived variability, leading to always fast response \r\ntimes.  Our implementations are especially cost effective at scale.  To \r\nlower costs, we study the root causes of slow response times, saving \r\nresources by focusing on common causes.  We also trade quality---e.g., \r\nslightly degraded search engine results--- for lower hardware costs when \r\nappropriate.  For broader impact, the PI will work to transfer the \r\ntechnology to national and local companies.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Christopher",
+   "pi_last_name": "Stewart",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christopher Stewart",
+   "pi_email_addr": "cstewart@cse.ohio-state.edu",
+   "nsf_id": "000534897",
+   "pi_start_date": "2013-07-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101277",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 400000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Networked storage systems allow computer programs to run on one server even though their data is stored on another. These programs access data by sending messages over the network. In datacenters, the time to send a message between servers has declined as 10GbE and optical switches have become common.&nbsp; It is now faster to use networked storage to access data in main memory stored on another server than to access a local disk.<br />Further, well designed networked stores can scale out, i.e., they can increase throughput by simply adding servers.</p>\n<p>This research studied networked storage systems for Internet services, i.e., computer programs that receive requests from end users, process data related to the request and return results with fast response time.&nbsp; During the course of this work, the structure of Internet services changed.&nbsp; Older services that performed a 3-5 database accesses per request gave way to modern services that require hundreds or thousands of data lookups per request.&nbsp; Why do modern Internet services access so much data?&nbsp; For starters, modern services that are qualitatively similar to older services have larger datasets now, e.g., consider growth of a search engine index.&nbsp; Second, modern services execute complicated data mining and machine learning operations, e.g., consider a recommendation engine for e-commerce products.&nbsp; Finally, modern services use data that is often noisy and redundant, inflating data accesses required for a dependable result.&nbsp;&nbsp;</p>\n<p><br /><strong>The intellectual contributions of this research included:</strong></p>\n<p>+ The paper titled&nbsp;<em>Zoolander: Efficiently Meeting Very Strict, Low-Latency SLOs</em>&nbsp;introduced an analytic model on replication for predictability (a.ka. redundancy).&nbsp; It used a probabilistic approach--- comparable to the famous birthday problem--- to estimate processing time for&nbsp;<em>k</em>&nbsp;networked storage requests.&nbsp; When paired with queuing models, this approach provided accurate predictions on the effects of redundancy on response time.&nbsp; Managing redundancy is now a hot topic in computer systems research.&nbsp; Further, this contribution was accessible.&nbsp; Questions on modeling replication for predictibility have been added to undergraduate and graduate architecture courses.</p>\n<p>+ The paper titled&nbsp;<em>Obtaining and Managing Answer Quality for Online Data-Intensive Services</em>&nbsp;showed that operating system software can capture and manage answer quality without modifying hosted Internet services.&nbsp; For example, a cloud infrastructure provider can use our techniques to throttle data accesses per query without degrading results.&nbsp; A key result showed that a good implementation in the operating system could achieve throughput comparable to an implementation where the service is modified.&nbsp;&nbsp;</p>\n<p>&nbsp;+ The paper titled&nbsp;<em>Adaptive Power Profiling for Many-Core HPC Architectures</em>&nbsp;showed that power consumption with 1 active core provides predictive information on power consumptions as active cores are added.&nbsp; A short profile of 1-2% of the workload combined with data on 1-core power usage accurately characterizes power usage.</p>\n<p>&nbsp;</p>\n<p><strong>The broader impacts achieved by this research included:</strong></p>\n<p>+&nbsp; Dr. Jaimie Kelley and Dr. Aniket Chakrabarti worked on this project during their PhD studies.&nbsp; Dr. Kelley's first job is assistant professor at Denison University.&nbsp; Dr. Chakrabarti's first job is applied scientist at Microsoft AI &amp; Research.&nbsp; 4 Masters and Undergraduate theses were derived from project.</p>\n<p>+&nbsp; Data Management in the Cloud is a new course taught at The Ohio State University.&nbsp; It is required for Data Analytics majors.&nbsp; PI Stewart taught the initial offering and worked with his colleagues to ensure that principles for networked storage systems were included.</p>\n<p>+&nbsp; We created a 1-hour workshop to showcase our research.&nbsp; The workshop culminated with a demo: A competition between workshop attendees and the OpenEphyra question-answer system with adaptive answer quality.&nbsp; We presented this workshop to over 150 people.&nbsp; Most were 7-8th graders.&nbsp; The workshop helped to motivate Buck-I-Code, a weekend coding workshop for Columbus-area girls.&nbsp; Buck-I-Code is now in its 5th year.</p>\n<p>+&nbsp; We developed a&nbsp;map-reduce platform based on the open-source BashReduce system that was used by Nationwide Children's Hospital.&nbsp; The platform subsampled genetic data to improve running time, i.e., it traded answer quality for performance.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/13/2017<br>\n\t\t\t\t\tModified by: Christopher&nbsp;Stewart</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nNetworked storage systems allow computer programs to run on one server even though their data is stored on another. These programs access data by sending messages over the network. In datacenters, the time to send a message between servers has declined as 10GbE and optical switches have become common.  It is now faster to use networked storage to access data in main memory stored on another server than to access a local disk.\nFurther, well designed networked stores can scale out, i.e., they can increase throughput by simply adding servers.\n\nThis research studied networked storage systems for Internet services, i.e., computer programs that receive requests from end users, process data related to the request and return results with fast response time.  During the course of this work, the structure of Internet services changed.  Older services that performed a 3-5 database accesses per request gave way to modern services that require hundreds or thousands of data lookups per request.  Why do modern Internet services access so much data?  For starters, modern services that are qualitatively similar to older services have larger datasets now, e.g., consider growth of a search engine index.  Second, modern services execute complicated data mining and machine learning operations, e.g., consider a recommendation engine for e-commerce products.  Finally, modern services use data that is often noisy and redundant, inflating data accesses required for a dependable result.  \n\n\nThe intellectual contributions of this research included:\n\n+ The paper titled Zoolander: Efficiently Meeting Very Strict, Low-Latency SLOs introduced an analytic model on replication for predictability (a.ka. redundancy).  It used a probabilistic approach--- comparable to the famous birthday problem--- to estimate processing time for k networked storage requests.  When paired with queuing models, this approach provided accurate predictions on the effects of redundancy on response time.  Managing redundancy is now a hot topic in computer systems research.  Further, this contribution was accessible.  Questions on modeling replication for predictibility have been added to undergraduate and graduate architecture courses.\n\n+ The paper titled Obtaining and Managing Answer Quality for Online Data-Intensive Services showed that operating system software can capture and manage answer quality without modifying hosted Internet services.  For example, a cloud infrastructure provider can use our techniques to throttle data accesses per query without degrading results.  A key result showed that a good implementation in the operating system could achieve throughput comparable to an implementation where the service is modified.  \n\n + The paper titled Adaptive Power Profiling for Many-Core HPC Architectures showed that power consumption with 1 active core provides predictive information on power consumptions as active cores are added.  A short profile of 1-2% of the workload combined with data on 1-core power usage accurately characterizes power usage.\n\n \n\nThe broader impacts achieved by this research included:\n\n+  Dr. Jaimie Kelley and Dr. Aniket Chakrabarti worked on this project during their PhD studies.  Dr. Kelley's first job is assistant professor at Denison University.  Dr. Chakrabarti's first job is applied scientist at Microsoft AI &amp; Research.  4 Masters and Undergraduate theses were derived from project.\n\n+  Data Management in the Cloud is a new course taught at The Ohio State University.  It is required for Data Analytics majors.  PI Stewart taught the initial offering and worked with his colleagues to ensure that principles for networked storage systems were included.\n\n+  We created a 1-hour workshop to showcase our research.  The workshop culminated with a demo: A competition between workshop attendees and the OpenEphyra question-answer system with adaptive answer quality.  We presented this workshop to over 150 people.  Most were 7-8th graders.  The workshop helped to motivate Buck-I-Code, a weekend coding workshop for Columbus-area girls.  Buck-I-Code is now in its 5th year.\n\n+  We developed a map-reduce platform based on the open-source BashReduce system that was used by Nationwide Children's Hospital.  The platform subsampled genetic data to improve running time, i.e., it traded answer quality for performance.\n\n\t\t\t\t\tLast Modified: 11/13/2017\n\n\t\t\t\t\tSubmitted by: Christopher Stewart"
+ }
+}

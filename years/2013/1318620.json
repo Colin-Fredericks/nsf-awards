@@ -1,0 +1,105 @@
+{
+ "awd_id": "1318620",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CIF: Small: Collaborative Research: Combinatorial Joint Source-Channel Coding",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Richard Brown",
+ "awd_eff_date": "2013-07-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 250000.0,
+ "awd_amount": 250000.0,
+ "awd_min_amd_letter_date": "2013-06-26",
+ "awd_max_amd_letter_date": "2013-06-26",
+ "awd_abstract_narration": "Algorithms for lossy/lossless compression and error-correcting codes have been at the core of the digital revolution. This project focuses on the particular set of applications in which both lossy compression and noise resilience are required. Examples include storage of high resolution imagery on non-perfect semiconductor (flash) memory and real-time video surveillance over jammed or noisy channels.\r\n\r\nThe state-of-the art solution is \"separation\": serial concatenation of an off-the-shelf compression algorithm with an off-the-shelf error-correcting code. However, as shown recently by the investigators, for worst-case guarantees the separated solution is far from being (even asymptotically) optimal. This provides the principal motivation for a multifaceted investigation of the combinatorial, geometric, algebraic and information theoretic aspects of the joint source-channel coding problem.\r\n\r\nThe breadth of mathematics will be appealing to young researchers with a wide variety of backgrounds, and will help attract new talent to the field. Creation of sophisticated source-channel codes with dependable guarantees is expected to have technological impact in military, space exploration, natural science, and consumer applications.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yury",
+   "pi_last_name": "Polyanskiy",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yury Polyanskiy",
+   "pi_email_addr": "yp@mit.edu",
+   "nsf_id": "000623445",
+   "pi_start_date": "2013-06-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 Massachusetts Avenue",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394307",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "793500",
+   "pgm_ele_name": "COMM & INFORMATION THEORY"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7937",
+   "pgm_ref_txt": "NETWORK CODING AND INFO THEORY"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 250000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Since the early days of information theory, understanding&nbsp;of error-correction has been inseparable from the understanding of geometric properties of high-dimensional spaces.&nbsp;This project focused on certain aspects of the latter. Before outlining the main outcomes of our exploration, we&nbsp;explain the original practical motivation for this work.&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p>The marvel of&nbsp;error-correction is largely a consequence of the fact that the number of disjoint spheres centered on vertices of a&nbsp;high-dimensional hypercube is exponential in dimension even when radii are of order square-root of dimension. Thus, associating a bit-string with each of the spheres&nbsp;provides for a rather robust way of signalling in the presence of noise. There is a drawback, however, in that once the&nbsp;noise exceeds the radius of the sphere, the decoded bit-string becomes completely garbled. \\textit{We experience this problem&nbsp;almost daily: the audio quality of a phone call does not degrade gradually with the decrease of signal strength,&nbsp;rather the call gets completely dropped below a certain threshold.} To get systems with more \\textit{graceful&nbsp;degradation}, one should go away from the sphere-packing point of view and rather think of communication as embedding. Namely, we need to construct maps between&nbsp;high-dimensional spaces which would preserve distances in a certain way. This is a new geometric question that fueled&nbsp;most of our work.<br /><br />More precisely, the focus of this project has been the study of combinatorial properties ofjoint source-channel coding, a construct where data compression and error-correcting encoding are being performed as asingle operating block. In a certain (idealized) communication and data-generation model, Claude Shannon showed thatit is sufficient to consider the two operations of compression and error-correction as separate blocks (or {\\emseparation}). However, since then it has been shown for several more practical situations that using a single operatingblock leads to enhancement in performance. We have studied the combinatorial properties of such single operating blockof joint compression and error-correction, and have shown that under the natural adversarial error models, it leads todefinitive improvement over separation. In the process we made advances in outstanding problems of high-dimensionalgeometry, including tight characterizations of distance-preserving maps between Hamming spaces,improved results on list-decoding of error-correcting codes, study of graph homomorphisms, extensions of thefoundational analytic results, such as the Bonami-Beckner hypercontractive inequalities and uncertainty principles.Our results are not only limited to fundamental trade-offs of coding theory, we also looked at several related applications, such as group testing, low-rank approximations and network coding.<br />Two graduate students (at University of Minnesota and MIT) have been regularly supported by this grant. In addition, twoundergraduates at MIT and University of Minnesota (via REU supplement) have done research and performed presentations atinternational conferences. &nbsp;The elements of thisproject have been incorporated into the new courses on information theory andcoding theory at MIT, University of Minnesota and University of Massachusetts (Amherst). &nbsp;</p>\n<p><br />A number of invited and contributed talks on the results of this project have been delivered by both PIs at universities,research labs and in conferences, including Microsoft Research (New England), Simons Institute (Berkeley, CA), HebrewUniversity (Israel), Worcester Polytechnic Institute, Institute of Information Transmission Problems (Moscow, Russia),Information Theory and Applications Workshop (San Diego, CA), SIAM Conference on Discrete Mathematics (Atlanta,GA), EPFL (Switzerland), and many more.The project also led to collaborations with faculty members at University of Brescia(Italy), Hebrew University of Jerusalem (Israel) and others. Three postdoctoral researchers received partial supportand were able to publish and present their work in premier journals and interenational workshops.<br />The results of this project is disseminated via at least four (4) journal papers and fourteen (14) conference papers.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/10/2017<br>\n\t\t\t\t\tModified by: Yury&nbsp;Polyanskiy</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSince the early days of information theory, understanding of error-correction has been inseparable from the understanding of geometric properties of high-dimensional spaces. This project focused on certain aspects of the latter. Before outlining the main outcomes of our exploration, we explain the original practical motivation for this work.  \n\n \n\nThe marvel of error-correction is largely a consequence of the fact that the number of disjoint spheres centered on vertices of a high-dimensional hypercube is exponential in dimension even when radii are of order square-root of dimension. Thus, associating a bit-string with each of the spheres provides for a rather robust way of signalling in the presence of noise. There is a drawback, however, in that once the noise exceeds the radius of the sphere, the decoded bit-string becomes completely garbled. \\textit{We experience this problem almost daily: the audio quality of a phone call does not degrade gradually with the decrease of signal strength, rather the call gets completely dropped below a certain threshold.} To get systems with more \\textit{graceful degradation}, one should go away from the sphere-packing point of view and rather think of communication as embedding. Namely, we need to construct maps between high-dimensional spaces which would preserve distances in a certain way. This is a new geometric question that fueled most of our work.\n\nMore precisely, the focus of this project has been the study of combinatorial properties ofjoint source-channel coding, a construct where data compression and error-correcting encoding are being performed as asingle operating block. In a certain (idealized) communication and data-generation model, Claude Shannon showed thatit is sufficient to consider the two operations of compression and error-correction as separate blocks (or {\\emseparation}). However, since then it has been shown for several more practical situations that using a single operatingblock leads to enhancement in performance. We have studied the combinatorial properties of such single operating blockof joint compression and error-correction, and have shown that under the natural adversarial error models, it leads todefinitive improvement over separation. In the process we made advances in outstanding problems of high-dimensionalgeometry, including tight characterizations of distance-preserving maps between Hamming spaces,improved results on list-decoding of error-correcting codes, study of graph homomorphisms, extensions of thefoundational analytic results, such as the Bonami-Beckner hypercontractive inequalities and uncertainty principles.Our results are not only limited to fundamental trade-offs of coding theory, we also looked at several related applications, such as group testing, low-rank approximations and network coding.\nTwo graduate students (at University of Minnesota and MIT) have been regularly supported by this grant. In addition, twoundergraduates at MIT and University of Minnesota (via REU supplement) have done research and performed presentations atinternational conferences.  The elements of thisproject have been incorporated into the new courses on information theory andcoding theory at MIT, University of Minnesota and University of Massachusetts (Amherst).  \n\n\nA number of invited and contributed talks on the results of this project have been delivered by both PIs at universities,research labs and in conferences, including Microsoft Research (New England), Simons Institute (Berkeley, CA), HebrewUniversity (Israel), Worcester Polytechnic Institute, Institute of Information Transmission Problems (Moscow, Russia),Information Theory and Applications Workshop (San Diego, CA), SIAM Conference on Discrete Mathematics (Atlanta,GA), EPFL (Switzerland), and many more.The project also led to collaborations with faculty members at University of Brescia(Italy), Hebrew University of Jerusalem (Israel) and others. Three postdoctoral researchers received partial supportand were able to publish and present their work in premier journals and interenational workshops.\nThe results of this project is disseminated via at least four (4) journal papers and fourteen (14) conference papers.\n\n\t\t\t\t\tLast Modified: 10/10/2017\n\n\t\t\t\t\tSubmitted by: Yury Polyanskiy"
+ }
+}

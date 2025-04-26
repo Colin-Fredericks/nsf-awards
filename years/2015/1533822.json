@@ -1,0 +1,96 @@
+{
+ "awd_id": "1533822",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS:EXPL:DSD: Language Abstraction, Annotation, Compiler Optimization Techniques for Efficient CFD Computation",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tevfik Kosar",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 273202.0,
+ "awd_amount": 273202.0,
+ "awd_min_amd_letter_date": "2015-08-17",
+ "awd_max_amd_letter_date": "2015-08-17",
+ "awd_abstract_narration": "This project seeks to build a novel programming tool that will allow scientists and engineers to design new scientific and engineering application programs that can best utilize today's most powerful computers. This tool will specifically target applications in computational fluid dynamics (CFD), an area that covers a wide range of potential applications such as jet engine design, improving and optimizing micro-manufacturing and \"micro-fluidic devices\" (such as ink-jet printers), combustion and diesel engine technology, agricultural sewage and irrigation, ink-jet printing, medical diagnostics and DNA analysis. The tool allows the programmers to communicate the distinct nature of their application that can be exploited by the compiler to match any unique hardware features of the computer system on which the program is to be run. This matching could make the program run faster and make more efficient use of resources. The project will help promote interdisciplinary research, teaching, training, and learning by offering the tool to the Computational Science and Engineering (CSE) community. Through facilities supported by National Science Foundation at Purdue University, the tool built for this project will be offered to the high performance computing community as open source software. Tutorials and workshops will be organized in collaboration with Purdue University's Rosen Center for Advanced Computing, targeting the CSE faculty and students both at Purdue and elsewhere.\r\n\r\n\r\nThis project investigates novel CFD-specific language abstraction and annotation techniques to enable extensive program transformation aimed at correcting mismatches between program constructs and hardware, leading to significant performance enhancement. A prototyping compiler will be developed to validate the new concepts and to demonstrate the performance advantages.This project will be based on robust models that capture the most significant hardware factors such as communication, cache memory, and SIMD operations. High level specifications are designed such that the programmer can specify to the compiler the high level program semantics without being obscured by layers of subroutine calls. Such specification binds program constructs and data structures at a high level, allowing the compiler to make the best decision concerning communication scheduling and data layout, taking into account communication efficiency, data locality and vector operation efficiency. This project will enable effective program transformation and composition that are applied to a range of important CFD methods and applications, such as jet turbulence simulations that solve the compressible Navier-Stokes equations including multiple chemical species using a high-order compact finite difference scheme; incompressible homogeneous turbulence; compressible homogeneous turbulence based on the FFT algorithm with time advancement in physical space, high-order finite difference schemes, and WENO shock capturing schemes; a phase field-based approach and algorithms for simulating wall-bounded two-phase liquid-gas flows involving free interfaces, surface tension, moving contact lines, and hydro-phobic/-philic walls; algorithms to handle large density ratios and large viscosity ratios of the two fluid phases; and spectral-element simulations of turbulence, flow-induced vibrations, turbulent wakes, and solid structures.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Zhiyuan",
+   "pi_last_name": "Li",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Zhiyuan Li",
+   "pi_email_addr": "li@cs.purdue.edu",
+   "nsf_id": "000302167",
+   "pi_start_date": "2015-08-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479072107",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 273202.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project investigates new methods for automatically generating machine code that delivers high performance and, at the same time, reduces power consumption, targeting mainly computation-intensive numerical applications running on state-of-the-art computer hardware, including novel hardware called ``performance accelerator'' that employs special circuits reconfigurable for the specific application program. In order for the programmer to convey application specific information to the code generator, such that the underlying hardware can be best exploited, new ways to extend existing programming languages, through ``annotations'' that identify key kernels and specify program properties such as data layout are designed in this project.</p>\n<p>To accomplish these goals, the project&nbsp; team designed and implemented an advanced prototyping tool for program transformation. Experiments are conducted by running the transformed code on advanced computer platforms that consist of both main-stream processor cores and specialized reconfigurable circuit boards for performance acceleration. Experimental results from running a set of test cases show significant overall program speedup, improving execution speed by a factor as high as 17 for some sample programs. Performance per Watt is gained with even higher factors across the board, reaching an improvement factor of 80 for some programs. These results indicate a high potential for the techniques developed in this project to gain similar advantage for a broader range of computation-intensive application programs, especially those exhibiting similar computation and data structures.</p>\n<p>The gain in performance per Watt is particularly important as the nation's largest academic/governmental computing centers are now running a huge number of processors daily, some at the magnitude of a hundred of thousands of processing cores, consuming megawatts of electricity on daily bases. Similar levels of power consumption are also becoming a common place at well-known large data centers and cloud computing services (commercial or otherwise) across the nation. The techniques developed in this project can have a positive impact on reducing power consumption by computation-intensive applications all over the nation and the world.</p>\n<p>This project, by engaging graduate students in the design and implementation of the program transformation tool and the experiments on novel hardware platforms, contributes to the training of future workforce of the United States. In particular, it contributes to solidify the leadership position of US high technology industry, ensuring it to be at the cutting edge and continuously replenished by fresh supply of technically competent scientists and engineers. Through open publications of the research result in rigorously reviewed high quality journals and conferences, the high technology community, including companies large and small, obtain valuable insights coming from this project.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/04/2019<br>\n\t\t\t\t\tModified by: Zhiyuan&nbsp;Li</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project investigates new methods for automatically generating machine code that delivers high performance and, at the same time, reduces power consumption, targeting mainly computation-intensive numerical applications running on state-of-the-art computer hardware, including novel hardware called ``performance accelerator'' that employs special circuits reconfigurable for the specific application program. In order for the programmer to convey application specific information to the code generator, such that the underlying hardware can be best exploited, new ways to extend existing programming languages, through ``annotations'' that identify key kernels and specify program properties such as data layout are designed in this project.\n\nTo accomplish these goals, the project  team designed and implemented an advanced prototyping tool for program transformation. Experiments are conducted by running the transformed code on advanced computer platforms that consist of both main-stream processor cores and specialized reconfigurable circuit boards for performance acceleration. Experimental results from running a set of test cases show significant overall program speedup, improving execution speed by a factor as high as 17 for some sample programs. Performance per Watt is gained with even higher factors across the board, reaching an improvement factor of 80 for some programs. These results indicate a high potential for the techniques developed in this project to gain similar advantage for a broader range of computation-intensive application programs, especially those exhibiting similar computation and data structures.\n\nThe gain in performance per Watt is particularly important as the nation's largest academic/governmental computing centers are now running a huge number of processors daily, some at the magnitude of a hundred of thousands of processing cores, consuming megawatts of electricity on daily bases. Similar levels of power consumption are also becoming a common place at well-known large data centers and cloud computing services (commercial or otherwise) across the nation. The techniques developed in this project can have a positive impact on reducing power consumption by computation-intensive applications all over the nation and the world.\n\nThis project, by engaging graduate students in the design and implementation of the program transformation tool and the experiments on novel hardware platforms, contributes to the training of future workforce of the United States. In particular, it contributes to solidify the leadership position of US high technology industry, ensuring it to be at the cutting edge and continuously replenished by fresh supply of technically competent scientists and engineers. Through open publications of the research result in rigorously reviewed high quality journals and conferences, the high technology community, including companies large and small, obtain valuable insights coming from this project.\n\n \n\n\t\t\t\t\tLast Modified: 09/04/2019\n\n\t\t\t\t\tSubmitted by: Zhiyuan Li"
+ }
+}

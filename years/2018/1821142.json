@@ -1,0 +1,113 @@
+{
+ "awd_id": "1821142",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: A Fast Hierarchical Algorithm for Computing High Dimensional Truncated Multivariate Gaussian Probabilities and Expectations",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Christopher Stark",
+ "awd_eff_date": "2018-08-15",
+ "awd_exp_date": "2021-07-31",
+ "tot_intn_awd_amt": 50000.0,
+ "awd_amount": 50000.0,
+ "awd_min_amd_letter_date": "2018-08-11",
+ "awd_max_amd_letter_date": "2018-08-30",
+ "awd_abstract_narration": "The \"curse of dimensionality\" has severely limited human's capability of handling high-dimensional data in many application domains. However, most useful data in existing human knowledge database has certain compressible features. This project focuses on the mathematical description of these compressible features, and develops a novel hierarchical modeling technique to extract these features from high-dimensional datasets in science and engineering applications and process the compressed information efficiently on a hierarchical tree structure. The investigators will develop fast algorithms for high-dimensional integrations involving a truncated multivariate normal distribution that targets the analysis of medical datasets. The techniques developed from this project will provide the scientific community a very powerful tool to handle high-dimensional datasets and at the same time foster the training of researchers with interdisciplinary knowledge. \r\n\r\nMultivariate Gaussian distribution is one of the most important continuous distributions in statistics. If some components are restricted to an interval, either finite or semi-finite, it is referred to as the truncated multivariate normal (TMVN) distribution. Many statistical algorithms rely on the evaluations of the probabilities and expectations with respect to a TMVN, especially in the expectation-maximization (EM) type algorithms. Direct computation of the desired expectation is very challenging. A commonly used alternative approach is based on the Monte Carlo simulation by drawing random samples from the corresponding TMVN distribution. However, it is equally challenging to simulate from a TMVN distribution in high dimensional cases. This project will develop new hierarchical algorithms to efficiently compute very high dimensional TMVN probabilities and expectations. The core ideas include the hierarchical data clustering, low-rank and low-dimensional features extraction, and their efficient processing on the hierarchical tree structures. The resulting algorithm can compute the expectations with respect to a class of p-dimensional TMVN distributions in asymptotically optimal O(p) operations in high dimensional cases, which can also be used to tighten the likelihood ratio bound of the target TMVN distribution in the acceptance-rejection method to achieve the highest acceptance probability while avoiding the burn-in period of some competitive algorithms such as the Metropolis-Hastings algorithm. The hierarchical nature of the algorithm allows easy adoption of the recent progress in adaptive, dynamic, and asynchronous runtime systems to efficiently utilize the computing resources at scale. The project provides advanced numerical tools to accelerate the computations and improve the applicability of the EM algorithms to handle large and complex biomedical data, with target applications aimed at improving public health.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robert",
+   "pi_last_name": "Henschel",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robert Henschel",
+   "pi_email_addr": "henschel@indiana.edu",
+   "nsf_id": "000650981",
+   "pi_start_date": "2018-08-30",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Former Principal Investigator",
+   "pi_first_name": "Bo",
+   "pi_last_name": "Zhang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Bo Zhang",
+   "pi_email_addr": "zhang416@indiana.edu",
+   "nsf_id": "000668667",
+   "pi_start_date": "2018-08-11",
+   "pi_end_date": "2018-08-30"
+  }
+ ],
+ "inst": {
+  "inst_name": "Indiana University",
+  "inst_street_address": "107 S INDIANA AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BLOOMINGTON",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "3172783473",
+  "inst_zip_code": "474057000",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "IN09",
+  "org_lgl_bus_name": "TRUSTEES OF INDIANA UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YH86RTW2YVJ4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Indiana University",
+  "perf_str_addr": "509 E. 3rd Street",
+  "perf_city_name": "Bloomington",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "474013654",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "IN09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806900",
+   "pgm_ele_name": "CDS&E-MSS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 50000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project implemented a numerical toolbox on modern computer architectures to evaluate the expectations of high dimension truncated multi-variate normal distributions. This resulted in an efficient algorithm that&nbsp;is designed, implemented and tested to evaluate all the 0th, 1st, and 2nd moment expectations using O(N^2 log(N)) operations. By optimizing different building blocks in the algorithm for modern computer architectures available to the PIs we have successfully demonstrated that the algorithm can handle cases when the numbers of effective variables are as high as10^18. Frequency domain statistical analysis tools were also studied. The interactions between the mathematical, statistical analyses and scientific computing and collaborations between the researchers in this broader mathematical sciences discipline have significantly improved our understanding and applications of the compressible features from large data sets.</p>\n<p>The algorithms developed in this project are designed to analyze high dimensional data sets from science and engineering applications and the EM algorithm is being tested on social and medical data sets. The hierarchical algorithms provide advanced tools for analyzing very high dimensional data sets that are applicable to different domains. The frequency domain compressible feature extraction techniques may provide effective approaches to generate algebraic or differential equation models from available geological data sets directly.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/20/2022<br>\n\t\t\t\t\tModified by: Robert&nbsp;Henschel</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project implemented a numerical toolbox on modern computer architectures to evaluate the expectations of high dimension truncated multi-variate normal distributions. This resulted in an efficient algorithm that is designed, implemented and tested to evaluate all the 0th, 1st, and 2nd moment expectations using O(N^2 log(N)) operations. By optimizing different building blocks in the algorithm for modern computer architectures available to the PIs we have successfully demonstrated that the algorithm can handle cases when the numbers of effective variables are as high as10^18. Frequency domain statistical analysis tools were also studied. The interactions between the mathematical, statistical analyses and scientific computing and collaborations between the researchers in this broader mathematical sciences discipline have significantly improved our understanding and applications of the compressible features from large data sets.\n\nThe algorithms developed in this project are designed to analyze high dimensional data sets from science and engineering applications and the EM algorithm is being tested on social and medical data sets. The hierarchical algorithms provide advanced tools for analyzing very high dimensional data sets that are applicable to different domains. The frequency domain compressible feature extraction techniques may provide effective approaches to generate algebraic or differential equation models from available geological data sets directly.\n\n\t\t\t\t\tLast Modified: 01/20/2022\n\n\t\t\t\t\tSubmitted by: Robert Henschel"
+ }
+}

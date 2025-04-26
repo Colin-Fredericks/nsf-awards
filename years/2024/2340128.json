@@ -1,0 +1,130 @@
+{
+ "awd_id": "2340128",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CAREER: Principled yet practical observability for a microservices-based cloud",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922177",
+ "po_email": "dandrese@nsf.gov",
+ "po_sign_block_name": "Daniel Andresen",
+ "awd_eff_date": "2024-07-01",
+ "awd_exp_date": "2029-06-30",
+ "tot_intn_awd_amt": 609542.0,
+ "awd_amount": 117465.0,
+ "awd_min_amd_letter_date": "2024-03-03",
+ "awd_max_amd_letter_date": "2024-03-03",
+ "awd_abstract_narration": "Society relies on cloud-based software services built using the microservices architecture in almost every aspect of their everyday lives---e.g., to shop, watch movies, and work.  Though the microservices architecture has many advantages, it has one critical drawback.  Observing how user requests (e.g., to buy a book) are processed by services is extremely challenging because they involve myriad interactions among many simpler (micro)services.  This lack of observability complicates important management tasks, such as problem diagnosis and resource management.  Previous research has demonstrated the strong potential of distributed tracing---which captures graphs of how microservices interact to process requests---to provide microservice observability.  But, results in real-world settings have been disappointing.  This gap between potential and reality occurs because research efforts assume principled trace graphs that capture a variety of behaviors and have no data loss.  But, in practice, services are never well-instrumented and data loss is common.  The overarching goal of this proposal is to create a new tracing platform that automatically infers the data needed to make traces principled. Doing so will actualize distributed tracings' vast potential for microservice observability, improve the utility of existing tracing-based management tools, and enable transformative new tools. These outcomes will improve the resiliency and efficiency of the software services society depends on.  Insights from this project will inform age-appropriate course material and projects in a college course on debugging cloud systems, a high-school research program, and a middle-school outreach program.\r\n\r\nThis project proposes a novel tracing platform that automatically enriches span-based traces with two sets of primitives.  1) The happens-before concurrency/wait primitives and 2) the holes and holes covering primitives.  The former allows requests' critical paths to be identified, enabling slack analyses, targeted performance debugging, and precise resource allocation decisions.  The latter allows areas of data loss to be expressed in traces along with predictions of what work might execute in them.  Since scheduling decisions may obfuscate causal structure, the project will investigate active probing methods to tease out concurrent and waiting relationships.  To account for uncertainty, it will explore probabilistic data models to represent the primitives.  The project will demonstrate the value of the primitives by modifying an existing auto-scaling solution and performance-debugging tool to use them.  It will also demonstrate a new trace subgraph sampling approach made possible by the holes and holes covering primitive.  The proposed platform, improved management tools, and inference methods will be publicly available to benefit the computer science and microservice observability communities.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Raja",
+   "pi_last_name": "Sambasivan",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Raja R Sambasivan",
+   "pi_email_addr": "raja@cs.tufts.edu",
+   "nsf_id": "000762158",
+   "pi_start_date": "2024-03-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Tufts University",
+  "inst_street_address": "80 GEORGE ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "MEDFORD",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6176273696",
+  "inst_zip_code": "021555519",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MA05",
+  "org_lgl_bus_name": "TRUSTEES OF TUFTS COLLEGE",
+  "org_prnt_uei_num": "WL9FLBRVPJJ7",
+  "org_uei_num": "WL9FLBRVPJJ7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Tufts University",
+  "perf_str_addr": "169 HOLLAND ST",
+  "perf_city_name": "SOMERVILLE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021442401",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002829DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002627DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002728DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002526DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 117465.0
+  }
+ ],
+ "por": null
+}

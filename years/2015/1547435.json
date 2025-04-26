@@ -1,0 +1,101 @@
+{
+ "awd_id": "1547435",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CICI: Secure Data Architecture: Improving the Security and Usability of Two-Factor Authentication for Cyberinfrastructure",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rob Beverly",
+ "awd_eff_date": "2016-01-01",
+ "awd_exp_date": "2018-12-31",
+ "tot_intn_awd_amt": 249603.0,
+ "awd_amount": 249603.0,
+ "awd_min_amd_letter_date": "2015-09-04",
+ "awd_max_amd_letter_date": "2015-09-04",
+ "awd_abstract_narration": "Password authentication is a critical vulnerability in cyberinfrastructure because typical passwords are memorable and easily guessed, leaving them vulnerable to malicious actors. One well-recognized method for strengthening the password security is Two-Factor Authentication (TFA), in which the password is complemented by an additional authentication factor such as a mobile phone or a dedicated token (e.g., a USB dongle). However, current TFA mechanisms do not offer sufficient security and usability. This project breaks new ground towards improving both of these aspects. It designs, implements and evaluates TFA schemes that not only protect against on-line guessing attacks, but also against off-line dictionary attacks in case of server or mobile device compromise. Moreover, the project aims to do so without degrading usability compared to password-only authentication. The creation of formal security models for TFA schemes allow for better understanding of TFA security in general. The resulting research prototypes will be of immense value in future research on building resilient and usable authentication services. The project integrates research into educational activities in the form of advanced curriculum development as well as high school and K-12 student mentoring in the area of Identity and Access Management.\r\n\r\nThe design of new TFA protocols offers security against on-line guessing and offline dictionary attacks. The project formally proves the security of these protocols in a strong security model for TFA protocols that is being introduced as an extension to well-established password-authenticated key exchange (PAKE) models. The goal is to design the TFA protocols in a modular way, allowing for the use of independent device and server components, and enabling the use of the developed schemes with existing password protocols and without the need to modify the server software. Moreover, the research involves developing and testing TFA systems which will instantiate the proposed protocols.  The goal is a TFA systems design that utilizes automated and user-transparent data channel between the mobile device and the client, falling back to localized wireless radio communication only when such a channel is unavailable. Such construction would provide high usability since the user experience of the login process would be almost equivalent to password-only authentication. Finally, the project involves conducting rigorous usability studies in the lab environment and field settings to evaluate the performance, usability, and adoption potential of the proposed approaches.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Stanislaw",
+   "pi_last_name": "Jarecki",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Stanislaw M Jarecki",
+   "pi_email_addr": "stanislawjarecki@gmail.com",
+   "nsf_id": "000104009",
+   "pi_start_date": "2015-09-04",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Irvine",
+  "inst_street_address": "160 ALDRICH HALL",
+  "inst_street_address_2": "",
+  "inst_city_name": "IRVINE",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "9498247295",
+  "inst_zip_code": "926970001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "47",
+  "st_cong_dist_code": "CA47",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA IRVINE",
+  "org_prnt_uei_num": "MJC5FCYQTPE6",
+  "org_uei_num": "MJC5FCYQTPE6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "The Regents of the University of California",
+  "perf_str_addr": "444 Computer Science Bldg",
+  "perf_city_name": "Irvine",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "926979016",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "47",
+  "perf_st_cong_dist": "CA47",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "802700",
+   "pgm_ele_name": "Cybersecurity Innovation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 249603.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>In this project we developed cryptographic protocols which improve the security of authentication of users to servers and server to users over the internet.&nbsp; Today users typically authenticate to servers by sending their passwords over a TLS connection, possibly attaching a short one-time PIN generated by a \"second factor\" authentication device.</p>\n<p>The two possibly weakest aspects of this authentication method is that (1) if a user is tricked into communicating with a spoofed server the user will send his/her password to the attacker, and (2) servers store databases of hashed passwords of all their users, and if a server is broken into by hackers, which happens routinly, the hackers can recover passwords of most users via so-called Offline Dictionary Attack, i.e. by hashing password candidates and comparing to the password hashes stored by the server. In this project we developed several novel practical cryptographic protocols which eliminate both of these weaknesses.&nbsp; Moreover, several protocols we developed can be integrated with current authentication infrastructure to enable easier adoption of our methods, and we are currently proposing to IETF to adopt some of these protocols as TLS extensions.&nbsp;</p>\n<p>We believe that the three most transformative aspects of our work are: First, we developed practical password-authentication protocols in the client-server setting which improve upon the current authentication methods by protecting the user's password even if the user is tricked into authenticating to a spoofed server.&nbsp; Second, we developed several efficient methods for effectively splitting, a.k.a. \"secret-sharing\", of hashed passwords stored by the server, so that server compromise will no longer enable Offline Dictionary Attacks against users' passwords. Third, we showed how to efficiently apply both of these security benefits to practical two-factor authentication protocols.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/10/2019<br>\n\t\t\t\t\tModified by: Stanislaw&nbsp;M&nbsp;Jarecki</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIn this project we developed cryptographic protocols which improve the security of authentication of users to servers and server to users over the internet.  Today users typically authenticate to servers by sending their passwords over a TLS connection, possibly attaching a short one-time PIN generated by a \"second factor\" authentication device.\n\nThe two possibly weakest aspects of this authentication method is that (1) if a user is tricked into communicating with a spoofed server the user will send his/her password to the attacker, and (2) servers store databases of hashed passwords of all their users, and if a server is broken into by hackers, which happens routinly, the hackers can recover passwords of most users via so-called Offline Dictionary Attack, i.e. by hashing password candidates and comparing to the password hashes stored by the server. In this project we developed several novel practical cryptographic protocols which eliminate both of these weaknesses.  Moreover, several protocols we developed can be integrated with current authentication infrastructure to enable easier adoption of our methods, and we are currently proposing to IETF to adopt some of these protocols as TLS extensions. \n\nWe believe that the three most transformative aspects of our work are: First, we developed practical password-authentication protocols in the client-server setting which improve upon the current authentication methods by protecting the user's password even if the user is tricked into authenticating to a spoofed server.  Second, we developed several efficient methods for effectively splitting, a.k.a. \"secret-sharing\", of hashed passwords stored by the server, so that server compromise will no longer enable Offline Dictionary Attacks against users' passwords. Third, we showed how to efficiently apply both of these security benefits to practical two-factor authentication protocols.\n\n\t\t\t\t\tLast Modified: 04/10/2019\n\n\t\t\t\t\tSubmitted by: Stanislaw M Jarecki"
+ }
+}

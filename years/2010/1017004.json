@@ -1,0 +1,105 @@
+{
+ "awd_id": "1017004",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:  CSR:  Small:  Assisted Partitioning and Automated Synthesis of Hybrid Manycore Simulators",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Hong Jiang",
+ "awd_eff_date": "2010-08-01",
+ "awd_exp_date": "2015-04-30",
+ "tot_intn_awd_amt": 388749.0,
+ "awd_amount": 388749.0,
+ "awd_min_amd_letter_date": "2010-07-28",
+ "awd_max_amd_letter_date": "2010-07-28",
+ "awd_abstract_narration": "Microprocessor designers wish to predict the performance of future microprocessors, evaluate new ideas, and validate new systems.  The primary technique they use is software-based simulation. Unfortunately, software-based simulators for manycore microprocessors are slow and will become even slower as the number of cores increases. Slow simulators imply that little exploration of the design space can be done -- few design alternatives are considered and those that are considered are not evaluated thoroughly.  Hybrid simulators, which use reconfigurable hardware devices such as Field Programmable Gate Arrays (FPGAs), could accelerate simulators by orders of magnitude, but are themselves very difficult and time-consuming to create; this difficulty arises from the need to first partition the simulator between hardware and software and then design the hardware portions.\r\n\r\nThe goal of this project is to provide tools which allow a designer to easily and quickly create a hybrid simulator from a software-based simulator.  The tools will assist the designer to partition the design and then automatically synthesize the hardware portions based upon the selected partitioning.  Three different software simulation frameworks -- SystemC, Unisim, and the Liberty Simulation Environment -- will be supported.  We target a 100x simulation speed improvement relative to software-based simulators.  Achieving this target will require the development of new means to exploit parallel communication and execution between the hardware and software and new means to virtualize the hardware resources.  The resulting tools will enable researchers and practitioners to better explore the manycore design space, evaluate new ideas, and validate designs.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "David",
+   "pi_last_name": "Penry",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "David A Penry",
+   "pi_email_addr": "dpenry@ee.byu.edu",
+   "nsf_id": "000069557",
+   "pi_start_date": "2010-07-28",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Brigham Young University",
+  "inst_street_address": "A-153 ASB",
+  "inst_street_address_2": "",
+  "inst_city_name": "PROVO",
+  "inst_state_code": "UT",
+  "inst_state_name": "Utah",
+  "inst_phone_num": "8014223360",
+  "inst_zip_code": "846021128",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "UT03",
+  "org_lgl_bus_name": "BRIGHAM YOUNG UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JWSYC7RUMJD1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Brigham Young University",
+  "perf_str_addr": "A-153 ASB",
+  "perf_city_name": "PROVO",
+  "perf_st_code": "UT",
+  "perf_st_name": "Utah",
+  "perf_zip_code": "846021128",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "UT03",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794100",
+   "pgm_ele_name": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9215",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 388749.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Microprocessors are everywhere in our lives; they appear in computers, cell phones, applicances, vehicles, and more. In order to make ever-better products, the designers of microprocessors need to validate and predict the performance of their design ideas. The primary technique they use is software-based simulation: they write computer programs which mimic the hardware they are trying to design. These simulators are very slow and becoming slower as microprocessors become more complex. Slow simulators reduce designers' ability to explore new and potentially powerful design improvements.</p>\n<p>Simulators which offload much of their work onto reconfigurable hardware devices can be much faster. Such a simulator is called a <em>hybrid</em> simulator. &nbsp;However, writing a hybrid simulator is not easy and requires a great deal of effort by the microprocessor designer both to change their software and to design simulator hardware -- effort that would be better spent in designing better microprocessors. &nbsp;</p>\n<p>This project has developed a tool which automatically creates hybrid simulators with negligible effort on the part of the microprocessor designer. The designer provides a software-only simulator writen in the SystemC simulation framework and a small control file to the tool, and the tool creates the hybrid simulator software and hardware design. This tool has been released under an open-source license so that microprocessor researchers and designers in both industry and academia may use it.</p>\n<p>In the course of this project, we have made several advancements in the techniques used when translating from a programming language like C++ to hardware. &nbsp; We have also improved the interface between the software and hardware portions of hybrid simulators.</p>\n<p>This project has contributed to the development of several graduate and undergraduate students, providing them with experience in software development and microprocessor design. These students are working at companies such as Intel, Amazon, National Instruments, Apple, Cadence, and Northrop Grumman.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/28/2015<br>\n\t\t\t\t\tModified by: David&nbsp;A&nbsp;Penry</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nMicroprocessors are everywhere in our lives; they appear in computers, cell phones, applicances, vehicles, and more. In order to make ever-better products, the designers of microprocessors need to validate and predict the performance of their design ideas. The primary technique they use is software-based simulation: they write computer programs which mimic the hardware they are trying to design. These simulators are very slow and becoming slower as microprocessors become more complex. Slow simulators reduce designers' ability to explore new and potentially powerful design improvements.\n\nSimulators which offload much of their work onto reconfigurable hardware devices can be much faster. Such a simulator is called a hybrid simulator.  However, writing a hybrid simulator is not easy and requires a great deal of effort by the microprocessor designer both to change their software and to design simulator hardware -- effort that would be better spent in designing better microprocessors.  \n\nThis project has developed a tool which automatically creates hybrid simulators with negligible effort on the part of the microprocessor designer. The designer provides a software-only simulator writen in the SystemC simulation framework and a small control file to the tool, and the tool creates the hybrid simulator software and hardware design. This tool has been released under an open-source license so that microprocessor researchers and designers in both industry and academia may use it.\n\nIn the course of this project, we have made several advancements in the techniques used when translating from a programming language like C++ to hardware.   We have also improved the interface between the software and hardware portions of hybrid simulators.\n\nThis project has contributed to the development of several graduate and undergraduate students, providing them with experience in software development and microprocessor design. These students are working at companies such as Intel, Amazon, National Instruments, Apple, Cadence, and Northrop Grumman.\n\n \n\n\t\t\t\t\tLast Modified: 07/28/2015\n\n\t\t\t\t\tSubmitted by: David A Penry"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "1310496",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AIS: Learning  from  Initially Labeled Nonstationary Streaming Data",
+ "cfda_num": "47.041",
+ "org_code": "07010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Radhakisan Baheti",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 297542.0,
+ "awd_amount": 297542.0,
+ "awd_min_amd_letter_date": "2013-08-01",
+ "awd_max_amd_letter_date": "2013-08-01",
+ "awd_abstract_narration": "The objective of this research is to develop a novel framework for analysis of large volumes of streaming data, where data characteristics change over time, and all new data are unlabeled and unstructured. The proposed work will be seminal for analyzing streaming nonstationary and unlabeled data while removing the unrealistic assumptions and simplifications made by existing approaches. The proposed approach uses small initial training data to label the currently unlabeled new data, creates an envelope around this data and shrinks the envelope to determine the core support region of the data. Samples are extracted from this region to serve as future training data to iteratively label the new incoming unlabeled drifting data. Once initialized, this approach never needs labeled data, and can indefinitely track the changes in data distribution. \r\nThe primary intellectual merit is a new framework, addressing arguably one of the most challenging learning problems, accomplished by strategic integration of machine learning and computational geome-try. Significant fundamental knowledge will be obtained through formal development of this framework, which will then benefit many real-world applications, currently not properly addressed under existing ap-proaches. \r\nBroader Impacts: The proposed framework promises to bring us closer to truly adaptive and intelligent (brain-like) learning, and allow proper analysis of data drawn from aforementioned scenarios, whose ap-plications include network intrusion, cyber security, web-usage analysis, natural language processing, anomaly detection, climate change and energy demand analysis. Project's educational component will form Integrated Research and Learning Communities, drawing undergraduate students to whom this field has been mostly inaccessible.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "ECCS",
+ "org_div_long_name": "Division of Electrical, Communications and Cyber Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robi",
+   "pi_last_name": "Polikar",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robi Polikar",
+   "pi_email_addr": "polikar@rowan.edu",
+   "nsf_id": "000392749",
+   "pi_start_date": "2013-08-01",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Rowan University",
+  "inst_street_address": "201 MULLICA HILL RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "GLASSBORO",
+  "inst_state_code": "NJ",
+  "inst_state_name": "New Jersey",
+  "inst_phone_num": "8562564057",
+  "inst_zip_code": "080281702",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NJ01",
+  "org_lgl_bus_name": "ROWAN UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "DMDEQP66JL85"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Rowan University",
+  "perf_str_addr": "201 Mullica Hill Road",
+  "perf_city_name": "Glassboro",
+  "perf_st_code": "NJ",
+  "perf_st_name": "New Jersey",
+  "perf_zip_code": "080281702",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NJ01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "760700",
+   "pgm_ele_name": "EPCN-Energy-Power-Ctrl-Netwrks"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1653",
+   "pgm_ref_txt": "Adaptive & intelligent systems"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 297542.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The primary focus of machine learning has long been learning from data drawn from a fixed yet unknown distribution. However, in many real-world applications that generate large volumes of streaming data, the fixed distribution assumption is not satisfied. The machine learning community, including our group, has developed new approaches for learning in nonstationary environments, where the underlying data distributions change over time. These recent developments, however, have been mostly heuristic in nature, with their own restrictive assumptions. For example, many such approaches are restricted to supervised learning, with unsupervised or semi-supervised scenarios being left largely underexplored. Specifically, and to the best of our knowledge, a particularly realistic and increasingly common scenario, where small amount of initially labeled data, followed by a stream of data with no further labeled instances ? coming from a nonstationary environment ? had not been explored, despite many important applications.&nbsp;</p>\n<p>Given the increasing prevalence and importance of applications that generate nonstarionary streaming data, such a glaring omission is surprising and troubling, as researchers are forced to apply unrealistic constraints and/or learning models not designed for the characteristics of data at hand. These applications include, climate change, remote sensing, fraud detection, web usage tracking, and malware detection for cyber-security, all of which generate nonstationary streaming data, where labeled data can be rare or expensive due to human expertise required to annotate the data. Hence, the need for a general framework for learning from ? and adapting to ? a nonstationary drifting environment that provides labeled data only initially, or perhaps only rarely, can hardly be overstated. Developing such a framework was the primary goal of this effort.</p>\n<p>Through this project, we have developed a series of algorithms that have removed much of the such unrealistic or simplistic limitations and restrictions. We have shown in a number of peer-reviewed and published articles that the algorithms developed as part of this effort are very effective in learning from unlabeled streaming data drawn from a changing distribution.</p>\n<p>An unintented broader impact of this work was our realization of a connection between learning in changing environments and \"adversarial machine learning.\" The latter refers to a new field of machine learning that investigates the vulnerabilities of machine learning algorithms to malicious attacks intended to cause maximum damage to the predictive ability of a well-trained algorithm. One particularly effective way to attack a machine learning algorithm is to poison is training data - not too dissimilar to brain washing of an individual with incorrect information. Poisoning the training data effectively changes its distribution, making the problem a nonstationary learning scenario.&nbsp;</p>\n<p>The project also achieved its intended broader impacts, specifically with respect to training a new cadre of undergraduate and graduate students who have since obtianed very high paying jobs, contributed to a new culture of research training in our program, and also helped us bring significant new computing resources to our campus. One of the articles we have written as part of this effort has also received a best paper award, indicating its broader reach.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/06/2019<br>\n\t\t\t\t\tModified by: Robi&nbsp;Polikar</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe primary focus of machine learning has long been learning from data drawn from a fixed yet unknown distribution. However, in many real-world applications that generate large volumes of streaming data, the fixed distribution assumption is not satisfied. The machine learning community, including our group, has developed new approaches for learning in nonstationary environments, where the underlying data distributions change over time. These recent developments, however, have been mostly heuristic in nature, with their own restrictive assumptions. For example, many such approaches are restricted to supervised learning, with unsupervised or semi-supervised scenarios being left largely underexplored. Specifically, and to the best of our knowledge, a particularly realistic and increasingly common scenario, where small amount of initially labeled data, followed by a stream of data with no further labeled instances ? coming from a nonstationary environment ? had not been explored, despite many important applications. \n\nGiven the increasing prevalence and importance of applications that generate nonstarionary streaming data, such a glaring omission is surprising and troubling, as researchers are forced to apply unrealistic constraints and/or learning models not designed for the characteristics of data at hand. These applications include, climate change, remote sensing, fraud detection, web usage tracking, and malware detection for cyber-security, all of which generate nonstationary streaming data, where labeled data can be rare or expensive due to human expertise required to annotate the data. Hence, the need for a general framework for learning from ? and adapting to ? a nonstationary drifting environment that provides labeled data only initially, or perhaps only rarely, can hardly be overstated. Developing such a framework was the primary goal of this effort.\n\nThrough this project, we have developed a series of algorithms that have removed much of the such unrealistic or simplistic limitations and restrictions. We have shown in a number of peer-reviewed and published articles that the algorithms developed as part of this effort are very effective in learning from unlabeled streaming data drawn from a changing distribution.\n\nAn unintented broader impact of this work was our realization of a connection between learning in changing environments and \"adversarial machine learning.\" The latter refers to a new field of machine learning that investigates the vulnerabilities of machine learning algorithms to malicious attacks intended to cause maximum damage to the predictive ability of a well-trained algorithm. One particularly effective way to attack a machine learning algorithm is to poison is training data - not too dissimilar to brain washing of an individual with incorrect information. Poisoning the training data effectively changes its distribution, making the problem a nonstationary learning scenario. \n\nThe project also achieved its intended broader impacts, specifically with respect to training a new cadre of undergraduate and graduate students who have since obtianed very high paying jobs, contributed to a new culture of research training in our program, and also helped us bring significant new computing resources to our campus. One of the articles we have written as part of this effort has also received a best paper award, indicating its broader reach.\n\n\t\t\t\t\tLast Modified: 04/06/2019\n\n\t\t\t\t\tSubmitted by: Robi Polikar"
+ }
+}

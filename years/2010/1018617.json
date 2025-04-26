@@ -1,0 +1,101 @@
+{
+ "awd_id": "1018617",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TC: Small: Collaborative Research: Predictive Blacklisting for Detecting Phishing Attacks",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927347",
+ "po_email": "sspengle@nsf.gov",
+ "po_sign_block_name": "Sylvia Spengler",
+ "awd_eff_date": "2010-08-01",
+ "awd_exp_date": "2015-07-31",
+ "tot_intn_awd_amt": 250047.0,
+ "awd_amount": 250047.0,
+ "awd_min_amd_letter_date": "2010-07-14",
+ "awd_max_amd_letter_date": "2013-11-19",
+ "awd_abstract_narration": "Internet fraud costs consumers and businesses billions of dollars each year. Through creative combinations of spam and social engineering, attackers regularly lure end users into visiting phishing sites, malware-hosting sites, and scam sites.  One popular defense mechanism against Web-based attacks is blacklisting, but today's blacklists suffer from three fundamental deciencies. First, most of them employ a combination of Web crawling and human intervention to infer malicious sites. This adds an inherent delay in adding entries and causes many malicious sites to be missed. Second, blacklists are mostly based on exact URL strings, and hence unable to adapt to simple changes to the URLs that attackers are using today to evade detection.  Third, as blacklist entries grow, matching them against URLs in real-time could create performance bottlenecks. To overcome these deficiencies, this project is developing novel mechanisms to aid in the construction, maintenance, and matching of blacklists in real time. Specifically, it is developing a scalable architecture that can discover new malicious websites by passively observing the onset of new techniques exploited by the miscreants, such as redirects and fast flux in network traffic.  The architecture also leverages common attacker tendencies to find novel and automated ways of discovering new malicious URLs from existing blacklisted URLs. The final thrust of the project is on developing high-speed approximate matching algorithms for effective in-network blacklisting to match URLs embedded in packets against potentially millions of blacklist entries.  If successful, this project will make the Web safer for millions of Internet users.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Minaxi",
+   "pi_last_name": "Gupta",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Minaxi Gupta",
+   "pi_email_addr": "minaxi@cs.indiana.edu",
+   "nsf_id": "000491858",
+   "pi_start_date": "2010-07-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Indiana University",
+  "inst_street_address": "107 S INDIANA AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BLOOMINGTON",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "3172783473",
+  "inst_zip_code": "474057000",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "IN09",
+  "org_lgl_bus_name": "TRUSTEES OF INDIANA UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YH86RTW2YVJ4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Indiana University",
+  "perf_str_addr": "107 S INDIANA AVE",
+  "perf_city_name": "BLOOMINGTON",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "474057000",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "IN09",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779500",
+   "pgm_ele_name": "TRUSTWORTHY COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 250047.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project resulted in the following 5 papers that advanced research in detecting phishing attacks online.&nbsp; Graduate students Vlad Bulakh, Andrew Kaizer, and Christopher Dunn were supported in various stages of their PhD through this grant.<br /><br />Our first work, All Your Accounts Are Belong to Us, we investigate data breaches typical in phishing attacks.&nbsp; Cyber criminals use account cracking tools, which are software programs that help miscreants gain access to users&rsquo; online accounts, to perform credential stuffing attacks against the credentials exposed by these breaches. In this paper, we study underground forums where intelligence related to popular account cracking tools is exchanged and investigate miscreants&rsquo; motivations to use such tools to break into accounts. We also study six free and paid cracking tools used to steal user accounts and develop machine learning classifiers capable of detecting network packets generated by them. Organizations maintaining user accounts can utilize our classifiers to identify traffic related to cracking tools and defend against their attacks. <br /><br />Second work, Countering Phishing from Brands' Vantage Point, developed a technique for brands to protect their own customers from phishing attacks. Most anti-phishing solutions that exist today require scanning a large portion of the web, which is vast and equivalent to finding a needle in a haystack. In addition, such solutions are not very efficient. Our solution does not rely on the scanning of the entire Internet or a large portion of it and only needs access to the brand&rsquo;s traffic in order to be able to detect phishing attempts against that brand. By analyzing a sample of phishing websites, we find features that can be used to distinguish phishing web- sites from the legitimate ones. We then use these features to train a machine learning classifier capable of helping brands detect phishing attempts against them. <br /><br />In Characterizing Credit Card Black Markets on the Web, we study carding shops that sell stolen credit and debit card information online. This information is typically got through phishing.&nbsp; By bypassing the anti-scrapping mechanisms they use, we find that the prices of cards depend heavily on factors such as the issuing bank, country of origin, and whether the card can be used in brick-and-mortar stores or not. Almost 70% of cards sold by these outfits are priced at or below the cost banks incur in re-issuing them. Ironically, this makes buying their own cards more economical for the banks than re-issuing. Further, inventory at carding outfits seems to follow data breaches and the impact of delayed deployment of the smart chip technology is evident in the disproportionate share the U.S. commands in the underground card fraud economy. <br /><br />Our fourth work, Dissecting Ghost Clicks: Ad Fraud Via Misdirected Human Clicks, investigated FBI&rsquo;s Operation Ghost Click, the largest cybercriminal take-down in history, took down an ad fraud infrastructure that affected 4 million users and made its owners 14 million USD over a period of four years. The attackers hijacked clicks and ad impressions on victim machines infected by a DNS changer malware to earn ad revenue fraudulently. We experimented with the attack infrastructure when it was in operation and present a detailed account of the attackers&rsquo; modus operandi. We also study the impact of this attack on real-world users. <br /><br />In PhishNet: Predictive Blacklisting to Detect Phishing Attacks, we explicitly looked at predictive blacklisting.&nbsp; While solutions such as URL blacklisting have been effective to some degree, their reliance on exact match with the blacklisted entries makes it easy for attackers to evade. We start with the observation that attackers often employ simple modifications to URLs. Our system, PhishNet, exploits this observation using two components. In the first component, we propose five heuristics to enumerate simple combinations of known phishing sites to discover new phishing URLs. The second component consists of an approximate matching algorithm that dissects a URL into multiple components that are matched individually against entries in the blacklist.<br /><br />------------------------------------ List of papers --------------------------------------------<br />Vlad Bulakh, Andrew J. Kaizer, and Minaxi Gupta, All Your&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; Accounts Are Belong to Us, Proceedings of the International Conference on Security and Privacy in Communication Systems (SecureComm), 2017.<br /><br />Vlad Bulakh and Minaxi Gupta, Countering Phishing from&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; Brands' Vantage Point, Proceedings of the International Workshop on Security and Privacy Analytics (IWSPA). Held in conjunction with ACM Conference on Data and Application Security and Privacy (CODASPY), 2016.<br /><br />Vlad Bulakh and Minaxi Gupta, Characterizing Credit Card&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; Black Markets on the Web, Proceedings of WebQuality Workshop. Held in conjunction with the ACM Conference on World Wide Web (WWW), 2015.<br /><br />Sumayah Alrwais, Christopher W. Dunn, Minaxi Gupta, Oliver Spatscheck, and Eric OsterWeil, Dissecting Ghost Clicks: Ad Fraud Via Misdirected Human Clicks, Annual Computer Security Applications Conference (ACSAC), 2012. (Nominated for CSAW AT&amp;T Best Applied Security Paper Award)<br /><br />Pawan Prakash, Manish Kumar, Ramana Rao Kompella, and<br />&nbsp;Minaxi Gupta}, PhishNet: Predictive Blacklisting to Detect&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp; Phishing Attacks, IEEE Infocom Mini-Conference, 2010.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/13/2017<br>\n\t\t\t\t\tModified by: Minaxi&nbsp;Gupta</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project resulted in the following 5 papers that advanced research in detecting phishing attacks online.  Graduate students Vlad Bulakh, Andrew Kaizer, and Christopher Dunn were supported in various stages of their PhD through this grant.\n\nOur first work, All Your Accounts Are Belong to Us, we investigate data breaches typical in phishing attacks.  Cyber criminals use account cracking tools, which are software programs that help miscreants gain access to users? online accounts, to perform credential stuffing attacks against the credentials exposed by these breaches. In this paper, we study underground forums where intelligence related to popular account cracking tools is exchanged and investigate miscreants? motivations to use such tools to break into accounts. We also study six free and paid cracking tools used to steal user accounts and develop machine learning classifiers capable of detecting network packets generated by them. Organizations maintaining user accounts can utilize our classifiers to identify traffic related to cracking tools and defend against their attacks. \n\nSecond work, Countering Phishing from Brands' Vantage Point, developed a technique for brands to protect their own customers from phishing attacks. Most anti-phishing solutions that exist today require scanning a large portion of the web, which is vast and equivalent to finding a needle in a haystack. In addition, such solutions are not very efficient. Our solution does not rely on the scanning of the entire Internet or a large portion of it and only needs access to the brand?s traffic in order to be able to detect phishing attempts against that brand. By analyzing a sample of phishing websites, we find features that can be used to distinguish phishing web- sites from the legitimate ones. We then use these features to train a machine learning classifier capable of helping brands detect phishing attempts against them. \n\nIn Characterizing Credit Card Black Markets on the Web, we study carding shops that sell stolen credit and debit card information online. This information is typically got through phishing.  By bypassing the anti-scrapping mechanisms they use, we find that the prices of cards depend heavily on factors such as the issuing bank, country of origin, and whether the card can be used in brick-and-mortar stores or not. Almost 70% of cards sold by these outfits are priced at or below the cost banks incur in re-issuing them. Ironically, this makes buying their own cards more economical for the banks than re-issuing. Further, inventory at carding outfits seems to follow data breaches and the impact of delayed deployment of the smart chip technology is evident in the disproportionate share the U.S. commands in the underground card fraud economy. \n\nOur fourth work, Dissecting Ghost Clicks: Ad Fraud Via Misdirected Human Clicks, investigated FBI?s Operation Ghost Click, the largest cybercriminal take-down in history, took down an ad fraud infrastructure that affected 4 million users and made its owners 14 million USD over a period of four years. The attackers hijacked clicks and ad impressions on victim machines infected by a DNS changer malware to earn ad revenue fraudulently. We experimented with the attack infrastructure when it was in operation and present a detailed account of the attackers? modus operandi. We also study the impact of this attack on real-world users. \n\nIn PhishNet: Predictive Blacklisting to Detect Phishing Attacks, we explicitly looked at predictive blacklisting.  While solutions such as URL blacklisting have been effective to some degree, their reliance on exact match with the blacklisted entries makes it easy for attackers to evade. We start with the observation that attackers often employ simple modifications to URLs. Our system, PhishNet, exploits this observation using two components. In the first component, we propose five heuristics to enumerate simple combinations of known phishing sites to discover new phishing URLs. The second component consists of an approximate matching algorithm that dissects a URL into multiple components that are matched individually against entries in the blacklist.\n\n------------------------------------ List of papers --------------------------------------------\nVlad Bulakh, Andrew J. Kaizer, and Minaxi Gupta, All Your      \n    Accounts Are Belong to Us, Proceedings of the International Conference on Security and Privacy in Communication Systems (SecureComm), 2017.\n\nVlad Bulakh and Minaxi Gupta, Countering Phishing from          \n    Brands' Vantage Point, Proceedings of the International Workshop on Security and Privacy Analytics (IWSPA). Held in conjunction with ACM Conference on Data and Application Security and Privacy (CODASPY), 2016.\n\nVlad Bulakh and Minaxi Gupta, Characterizing Credit Card        \n    Black Markets on the Web, Proceedings of WebQuality Workshop. Held in conjunction with the ACM Conference on World Wide Web (WWW), 2015.\n\nSumayah Alrwais, Christopher W. Dunn, Minaxi Gupta, Oliver Spatscheck, and Eric OsterWeil, Dissecting Ghost Clicks: Ad Fraud Via Misdirected Human Clicks, Annual Computer Security Applications Conference (ACSAC), 2012. (Nominated for CSAW AT&amp;T Best Applied Security Paper Award)\n\nPawan Prakash, Manish Kumar, Ramana Rao Kompella, and\n Minaxi Gupta}, PhishNet: Predictive Blacklisting to Detect           \n  Phishing Attacks, IEEE Infocom Mini-Conference, 2010.\n\n\t\t\t\t\tLast Modified: 10/13/2017\n\n\t\t\t\t\tSubmitted by: Minaxi Gupta"
+ }
+}

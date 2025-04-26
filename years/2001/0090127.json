@@ -1,0 +1,138 @@
+{
+ "awd_id": "0090127",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Automatic Performance Tuning of Numerical Kernels",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2001-07-01",
+ "awd_exp_date": "2005-06-30",
+ "tot_intn_awd_amt": 497737.0,
+ "awd_amount": 497737.0,
+ "awd_min_amd_letter_date": "2001-06-22",
+ "awd_max_amd_letter_date": "2004-10-12",
+ "awd_abstract_narration": "Large scale simulations in computational engineering and science often spend a great deal of their time in a few computational methods kernels, such as dense or sparse matrix-vector products, relaxation on a structured or unstructured mesh, or the computation of forces between pairs of attracting or repelling particles. There has been a great deal of work in generating high performance libraries for these applications, including dense and sparse linear algebra, multigrid methods, and n-body techniques.\r\n\r\nOne idea established in these application-level libraries is to organize the computations around a set of numerical kernels, with the assumption that these kernels will be highly optimized on each of the hardware platforms of interest. The best known example of this approach is the BLAS (the Basic Linear Algebra routines), which are used in building LAPACK, ScaLAPACK, and other libraries; the BLAS are implemented by hardware vendors and are highly tuned to the memory hierarchy of each machine.\r\n\r\nHowever, this approach is limited by the growing number of kernels, the large number of machines, the increasing depth of memory hierarchies and complexity of processors, and by the difficulty of performance tuning each kernel on each machine. The great majority of these kernels are susceptible to large speedups when machine-specific tuning is performed. However, the hand tuning takes weeks or months of a skilled engineer's time, and this work must be repeated for each micro-architecture, or operating system change. \r\n\r\nThis research will work to automate the process of architecture-dependent tuning of numerical kernels, replacing the current hand-tuning process with a semi-automated search procedure. Prototypes of this approach exist for dense matrix-multiplication (Atlas and PHiPAC), FFTs (FFTW), and sparse matrix-vector multiplication (Sparsity). These results show that we can frequently do as well as or even better than hand-tuned vendor code on the kernels attempted. These systems use a hand-written \"search directed code generator (SDCG)\" to produce many different implementations of a single kernel, which are all run on each architecture, with the fastest one being selected. This approach will be extended to a much wider range of numerical kernels by combing compiler technology with algorithm-specific transformation rules to automate the production of these SDCGs.\r\n\r\nUltimately, the technology is expected to be useful in conventional compilers, provided that appropriate abstract data types or annotations are used to side-step very difficult or \"impossible\" dependency-analysis needed to justify the desired code transformations. This work should also stimulate research into new high level numerical methods and architectures, both of which are limited by the lack of highly tuned kernels. \r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Katherine",
+   "pi_last_name": "Yelick",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Katherine A Yelick",
+   "pi_email_addr": "yelick@cs.berkeley.edu",
+   "nsf_id": "000388740",
+   "pi_start_date": "2001-06-22",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "James",
+   "pi_last_name": "Demmel",
+   "pi_mid_init": "W",
+   "pi_sufx_name": "",
+   "pi_full_name": "James W Demmel",
+   "pi_email_addr": "demmel@cs.berkeley.edu",
+   "nsf_id": "000207659",
+   "pi_start_date": "2001-06-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "1608 4TH ST STE 201",
+  "perf_city_name": "BERKELEY",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947101749",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "408000",
+   "pgm_ele_name": "ADVANCED COMP RESEARCH PROGRAM"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0101",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "app-0101",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0102",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0102",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0103",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0103",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2001,
+   "fund_oblg_amt": 158874.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2002,
+   "fund_oblg_amt": 161515.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2003,
+   "fund_oblg_amt": 177348.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "1320652",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Scalable and accurate direct solvers for integral equations on surfaces",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "rosemary renaut",
+ "awd_eff_date": "2013-08-01",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 219187.0,
+ "awd_amount": 219187.0,
+ "awd_min_amd_letter_date": "2013-07-14",
+ "awd_max_amd_letter_date": "2013-07-14",
+ "awd_abstract_narration": "The goal of the proposed research is to develop faster and more accurate algorithms for computing approximate solutions to a broad class of equations  that  model physical phenomena such as heat transport, deformation of elastic bodies, scattering of electromagnetic waves, and many others. The task of solving such equations is frequently the most time consuming part of computational simulations, and is the part that determines which problems can be modeled computationally, and which cannot. Dealing with complicated shapes (e.g.  scattering from complex geometry or flow through channels of complicated shape) adds difficulty to the computational task.\r\n\r\nTechnically speaking, most existing large-scale numerical algorithms for solving partial differential and integral equations on complex geometries are based on so called \"iterative methods\" which construct a sequence of approximate solutions that gradually approach the exact solution. The proposed research seeks to develop \"direct methods\" for solving  equations. A \"direct method\" computes the unknown data from the given data in one shot.  When available, direct methods are often preferred to iterative ones since they are more robust, and  can be used in a \"black-box\" way.  As a result these are  more suitable for incorporation in general purpose software, and in many cases work for important problems that cannot be solved with existing iterative methods. The reason that they are today typically not used is that existing direct methods for many problems are often prohibitively expensive. However, recent results by the PIs and other researchers have proven that it is possible to construct direct methods that are competitive in terms of speed with the very fastest existing iterative solvers. The new algorithms will be applied to the simulation of fluid flows and biomolecular simulations, and their performance will be demonstrated by the execution of simulations on complex geometries.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Per-Gunnar",
+   "pi_last_name": "Martinsson",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Per-Gunnar J Martinsson",
+   "pi_email_addr": "pgm@ices.utexas.edu",
+   "nsf_id": "000257904",
+   "pi_start_date": "2013-07-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Colorado at Boulder",
+  "inst_street_address": "3100 MARINE ST",
+  "inst_street_address_2": "STE 481 572 UCB",
+  "inst_city_name": "Boulder",
+  "inst_state_code": "CO",
+  "inst_state_name": "Colorado",
+  "inst_phone_num": "3034926221",
+  "inst_zip_code": "803090001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "CO02",
+  "org_lgl_bus_name": "THE REGENTS OF THE UNIVERSITY OF COLORADO",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "SPVKK1RC2MZ3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Colorado at Boulder",
+  "perf_str_addr": "3100 Marine Street, Room 481",
+  "perf_city_name": "Boulder",
+  "perf_st_code": "CO",
+  "perf_st_name": "Colorado",
+  "perf_zip_code": "803031058",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "CO02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 219187.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project led to the development of highly accurate and computationally efficient techniques for solving a class of mathematical equations that is central to many areas of science and engineering. These equations (so called \"elliptic partial differential equations\") model electrostatics, gravitation, thermostatics, deformations of solid bodies, acoustics, and much more. Existing techniques for solving such problems are by and large based on so called \"iterative solvers\" which proceed incrementally, building a slightly more accurate approximation to<br />the solution at each step. In contrast, this project was aimed at developing so called \"direct solvers\" which in a single go construct an approximation to the solution.<br /><br />The solvers developed are applicable to a broad range of equations set in two and three dimensions. Specifically, the project has enabled the solution of certain acoustic and electromagnetic scattering problems that were previously inaccessible tocomputational simulations. These algorithms are expected to have a substantial impact on technologies such as inverse scattering,<br />design of antennas, development of materials with photonic and<br />phononic bandgaps, and many more.<br /><br />Another outcome of the project with a very substantial impact is a set of new algorithms for rapidly factoring matrices. The problem or matrix factorization comes up not only in modeling physical phenomena, but also in data mining, signal processing, computer graphics, and many more. The PI has continued the development of a set of algorithms for this task based on randomized sampling that in key metrics outperform earlier techniques based on deterministicmethods. In particular, the new algorithms excel on modern computing platforms where limiting communication and power consumption is a primary design objective.<br /><br />The project supported two doctoral students at the University of Colorado at Boulder, one of whom has graduated, with the other expected to graduate in 2017.<br /><br />The PI has been very active in disseminating the new research through lectures given at two summer schools, through publicly available software, and through numerous lectures at conferences and department colloquia.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/23/2016<br>\n\t\t\t\t\tModified by: Per-Gunnar&nbsp;J&nbsp;Martinsson</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project led to the development of highly accurate and computationally efficient techniques for solving a class of mathematical equations that is central to many areas of science and engineering. These equations (so called \"elliptic partial differential equations\") model electrostatics, gravitation, thermostatics, deformations of solid bodies, acoustics, and much more. Existing techniques for solving such problems are by and large based on so called \"iterative solvers\" which proceed incrementally, building a slightly more accurate approximation to\nthe solution at each step. In contrast, this project was aimed at developing so called \"direct solvers\" which in a single go construct an approximation to the solution.\n\nThe solvers developed are applicable to a broad range of equations set in two and three dimensions. Specifically, the project has enabled the solution of certain acoustic and electromagnetic scattering problems that were previously inaccessible tocomputational simulations. These algorithms are expected to have a substantial impact on technologies such as inverse scattering,\ndesign of antennas, development of materials with photonic and\nphononic bandgaps, and many more.\n\nAnother outcome of the project with a very substantial impact is a set of new algorithms for rapidly factoring matrices. The problem or matrix factorization comes up not only in modeling physical phenomena, but also in data mining, signal processing, computer graphics, and many more. The PI has continued the development of a set of algorithms for this task based on randomized sampling that in key metrics outperform earlier techniques based on deterministicmethods. In particular, the new algorithms excel on modern computing platforms where limiting communication and power consumption is a primary design objective.\n\nThe project supported two doctoral students at the University of Colorado at Boulder, one of whom has graduated, with the other expected to graduate in 2017.\n\nThe PI has been very active in disseminating the new research through lectures given at two summer schools, through publicly available software, and through numerous lectures at conferences and department colloquia.\n\n\t\t\t\t\tLast Modified: 11/23/2016\n\n\t\t\t\t\tSubmitted by: Per-Gunnar J Martinsson"
+ }
+}

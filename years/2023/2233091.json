@@ -1,0 +1,101 @@
+{
+ "awd_id": "2233091",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SBIR Phase I:  Improved image compression targeting machine learning based detection algorithms",
+ "cfda_num": "47.084",
+ "org_code": "15030000",
+ "po_phone": "7032925198",
+ "po_email": "pchundi@nsf.gov",
+ "po_sign_block_name": "Parvathi Chundi",
+ "awd_eff_date": "2023-08-15",
+ "awd_exp_date": "2024-07-31",
+ "tot_intn_awd_amt": 274623.0,
+ "awd_amount": 274623.0,
+ "awd_min_amd_letter_date": "2023-08-08",
+ "awd_max_amd_letter_date": "2023-08-08",
+ "awd_abstract_narration": "The broader impact/commercial potential of this Small Business Innovation Research (SBIR) Phase I project is in reducing the sizes of earth observation images, thereby saving millions of dollars on transmission, storage and processing costs. Storage and processing costs account for a large portion of costs for earth observation companies, reducing these costs will make earth observation imagery more accessible for a broader audience including companies performing climate and environment studies. The need for reduced image sizes also extends to video compression. Video calls, telepresence, telemedicine, remote work and metaverse all depend on the ability to stream video over limited or variable bandwidth connections. This technology will find ready applications in the area of high-efficiency video compression.\r\n\r\nThis SBIR Phase I project uses object detection algorithms to detect areas of importance in an image and utilizes that information to improve the efficiency of image compression. More specifically, the research will develop a compression network that maximizes the detection accuracy of a down-stream, machine learning-based object detector. In contrast, current compression algorithms do not interpret the images they are compressing and simply minimize a visual loss function that treats the entire image equally. The technology will produce images that can be stored in the standard image compression file formats including .png and .jpeg. This technology will enable fast compression and will explore modified compression architectures, quantization, pruning and parallelization using graphics processing units to reduce latency of compression.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "TIP",
+ "org_dir_long_name": "Directorate for Technology, Innovation, and Partnerships",
+ "div_abbr": "TI",
+ "org_div_long_name": "Translational Impacts",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ravikiran",
+   "pi_last_name": "Gopalan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ravikiran Gopalan",
+   "pi_email_addr": "ravi@acuityai.com",
+   "nsf_id": "000877293",
+   "pi_start_date": "2023-08-08",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "AI ACUITY",
+  "inst_street_address": "90 HULME CT APT 107",
+  "inst_street_address_2": "",
+  "inst_city_name": "STANFORD",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "4083063933",
+  "inst_zip_code": "943057432",
+  "inst_country_name": "United States",
+  "cong_dist_code": "16",
+  "st_cong_dist_code": "CA16",
+  "org_lgl_bus_name": "AI ACUITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "X5RMKLZLLAL9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "AI ACUITY",
+  "perf_str_addr": "21050 Canyon View Dr",
+  "perf_city_name": "Saratoga",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "950705718",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "16",
+  "perf_st_cong_dist": "CA16",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "537100",
+   "pgm_ele_name": "SBIR Phase I"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "6856",
+   "pgm_ref_txt": "ARTIFICIAL INTELL & COGNIT SCI"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01AB2324DB",
+   "fund_name": "R&RA DRSA DEFC AAB",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 274623.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-52a44865-7fff-2a25-d388-7377380a49ab\"> </span></p>\n<p dir=\"ltr\"><span>The image compression algorithms in use today (Jpeg, H-264 etc) were designed for humans, i.e., the end-user was a human. They optimize optimal visual reconstruction by minimizing the visual loss between the original image and the reconstructed image. In this process, since the compression algorithm does not &ldquo;understand&rdquo; the content of the image, every part of the image is treated with equal importance.</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span>Increasingly, however, images are being used to detect objects or specific events e.g., movement of vehicles, accidents, natural disasters etc. or to calculate specific metrics, e.g., number of cars on the road, size of crops etc. In these cases, the end-user is an object detection algorithm. For such scenarios, the optimal compression algorithm is one that &ldquo;understands&rdquo; the features of importance for the object detection algorithm.</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span>Acuity.AI's primary innovation is in developing such a content-aware image compression algorithm that is optimized for object detection. Acuity.AI&rsquo;s algorithm performs significantly better (&gt;80%) than the state-of-art compressors without affecting the performance of object detection.&nbsp;&nbsp;</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span>Acuity's codec consists of a machine learning block that is trained to minimize the compressed image size while maximizing the object detection accuracy. Directly training this machine learning block requires a high-quality labeled dataset since the ground truth is needed to compute detection accuracy.</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span>Acuity's secondary&nbsp; innovation consists of modifying the machine learning architecture to allow for unsupervised learning without requiring any labeled dataset.</span></p>\n<p>&nbsp;</p>\n<p dir=\"ltr\"><span>Acuity intends to conduct further research to extend this research to video and to reduce the latency of the machine learning blocks.</span></p>\n<div><span><br /></span></div>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 08/20/2024<br>\nModified by: Ravikiran&nbsp;Gopalan</p></div>\n<div class=\"porSideCol\"\n><div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2024/2233091/2233091_10885827_1724137164383_MAPvsBPP--rgov-214x142.png\" original=\"/por/images/Reports/POR/2024/2233091/2233091_10885827_1724137164383_MAPvsBPP--rgov-800width.png\" title=\"mAP vs BPP\"><img src=\"/por/images/Reports/POR/2024/2233091/2233091_10885827_1724137164383_MAPvsBPP--rgov-66x44.png\" alt=\"mAP vs BPP\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Detection Accuracy (mAP) vs Bits Per Pixel (BPP)</div>\n<div class=\"imageCredit\">Ravikiran Gopalan</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Ravikiran&nbsp;Gopalan\n<div class=\"imageTitle\">mAP vs BPP</div>\n</div>\n</li></ul>\n</div>\n</div></div>\n</div>\n",
+  "por_txt_cntn": "\n\n \n\n\nThe image compression algorithms in use today (Jpeg, H-264 etc) were designed for humans, i.e., the end-user was a human. They optimize optimal visual reconstruction by minimizing the visual loss between the original image and the reconstructed image. In this process, since the compression algorithm does not understand the content of the image, every part of the image is treated with equal importance.\n\n\n\n\n\nIncreasingly, however, images are being used to detect objects or specific events e.g., movement of vehicles, accidents, natural disasters etc. or to calculate specific metrics, e.g., number of cars on the road, size of crops etc. In these cases, the end-user is an object detection algorithm. For such scenarios, the optimal compression algorithm is one that understands the features of importance for the object detection algorithm.\n\n\n\n\n\nAcuity.AI's primary innovation is in developing such a content-aware image compression algorithm that is optimized for object detection. Acuity.AIs algorithm performs significantly better (80%) than the state-of-art compressors without affecting the performance of object detection.\n\n\n\n\n\nAcuity's codec consists of a machine learning block that is trained to minimize the compressed image size while maximizing the object detection accuracy. Directly training this machine learning block requires a high-quality labeled dataset since the ground truth is needed to compute detection accuracy.\n\n\n\n\n\nAcuity's secondary innovation consists of modifying the machine learning architecture to allow for unsupervised learning without requiring any labeled dataset.\n\n\n\n\n\nAcuity intends to conduct further research to extend this research to video and to reduce the latency of the machine learning blocks.\n\n\n\n\n\n\n\n\t\t\t\t\tLast Modified: 08/20/2024\n\n\t\t\t\t\tSubmitted by: RavikiranGopalan\n"
+ }
+}

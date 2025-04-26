@@ -1,0 +1,101 @@
+{
+ "awd_id": "1050293",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: An Exploratory System for Inverse Parametric Optimization",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032927347",
+ "po_email": "sspengle@nsf.gov",
+ "po_sign_block_name": "Sylvia Spengler",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2012-08-31",
+ "tot_intn_awd_amt": 59996.0,
+ "awd_amount": 59996.0,
+ "awd_min_amd_letter_date": "2010-08-22",
+ "awd_max_amd_letter_date": "2010-08-22",
+ "awd_abstract_narration": "Perhaps the most prevalent scenario in science in general is reconstructing a phenomenon that is not directly observable using the data that can be measured.  In biology, for example, this occurs when computing an evolutionary alignment of homologous proteins, predicting the secondary structure of a folded RNA molecule, inferring a phylogeny for a collection of taxa, recovering the regulatory network for a set of genes, or assembling the DNA sequence for a genome. These tasks are almost always modeled as optimization problems, where the optimal solution is intended to correspond to the correct reconstruction. A crucial ingredient in any such model is the objective function, whose role is to select out the correct solution as one that maximizes or minimizes the objective function. This objective function usually comes from a family of parameterized functions, and the correctness of the model can critically depend on the choice of parameter values for the function. In practice, the question of how to determine the right values for a model's parameters is both difficult and ubiquitous: improved models that better reflect the underlying biology have many parameters, but yield worse results unless their parameters are set to correct values, yet painstakingly exploring the high-dimensional parameter space to find a correct setting quickly becomes impossible. The team is looking to implement new finding of an algorithm in the area of inverse parametric optimization that can efficiently learn correct parameter values for any linear problem, such as those biology problems noted. The system readily yields efficient software for inverse shortest paths, inverse spanning trees, maximum flow, maximum matching and maximum branching, all of which have linear objective function can optimized, enabling efficient model learning for a multitude of computer science applications.\r\n\r\nThe proposed work on inverse parametric optimization has extremely broad scientific impact in computer science and computational biology, as our techniques efficiently solve inverse optimization for any problem with a linear objective function.  The PI will also create a new combined course that is an integral part of a new interdisciplinary degree program.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "John",
+   "pi_last_name": "Kececioglu",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "John D Kececioglu",
+   "pi_email_addr": "kece@cs.arizona.edu",
+   "nsf_id": "000422618",
+   "pi_start_date": "2010-08-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Arizona",
+  "inst_street_address": "845 N PARK AVE RM 538",
+  "inst_street_address_2": "",
+  "inst_city_name": "TUCSON",
+  "inst_state_code": "AZ",
+  "inst_state_name": "Arizona",
+  "inst_phone_num": "5206266000",
+  "inst_zip_code": "85721",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "AZ07",
+  "org_lgl_bus_name": "UNIVERSITY OF ARIZONA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "ED44Y3W6P7B9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Arizona",
+  "perf_str_addr": "845 N PARK AVE RM 538",
+  "perf_city_name": "TUCSON",
+  "perf_st_code": "AZ",
+  "perf_st_name": "Arizona",
+  "perf_zip_code": "85721",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "AZ07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 59996.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This exploratory grant developed a prototype C++ software system for efficient, fully-general <em>inverse parametric optimization</em> of any model that is linear in its parameters. Inverse parametric optimization is the problem of finding values for the parameters of the objective function of an optimization model, given a set of examples of input-output pairs for the model, such that each output in the set is an optimal solution for its corresponding input under the objective function.</p>\n<p>To contrast this with standard optimization, the <em>forward optimization</em> problem is, given an input to the model and the objective function for the model, find an output for the input that is optimal under the objective function. On the other hand, the <em>inverse optimization</em> problem is, given both an input and an output to the model, find the objective function (in the sense of specifying parameter values for a general parameterized family of objective functions) that makes the output be an optimal solution for its input.</p>\n<p>In the language of machine learning, this learns values for the parameters of the optimization model from examples of solutions to the model.</p>\n<p>The C++ system implements the algorithm of Kececioglu and Kim for general inverse parametric optimization, which is guaranteed to efficiently find optimal parameter values for any optimization model whose objective function is linear in its parameters. The algorithm uses a reduction to the optimization problem known as <em>linear programming</em>, and the prototype software system has interfaces to the COIN-OR and CPLEX packages for solving the underlying linear programming instances. The prototype system currently handles so-called complete examples, and extensions are underway to handle partial examples.</p>\n<p>One graduate research assistant, Lisa Peairs, was supported on the award.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2012<br>\n\t\t\t\t\tModified by: John&nbsp;D&nbsp;Kececioglu</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis exploratory grant developed a prototype C++ software system for efficient, fully-general inverse parametric optimization of any model that is linear in its parameters. Inverse parametric optimization is the problem of finding values for the parameters of the objective function of an optimization model, given a set of examples of input-output pairs for the model, such that each output in the set is an optimal solution for its corresponding input under the objective function.\n\nTo contrast this with standard optimization, the forward optimization problem is, given an input to the model and the objective function for the model, find an output for the input that is optimal under the objective function. On the other hand, the inverse optimization problem is, given both an input and an output to the model, find the objective function (in the sense of specifying parameter values for a general parameterized family of objective functions) that makes the output be an optimal solution for its input.\n\nIn the language of machine learning, this learns values for the parameters of the optimization model from examples of solutions to the model.\n\nThe C++ system implements the algorithm of Kececioglu and Kim for general inverse parametric optimization, which is guaranteed to efficiently find optimal parameter values for any optimization model whose objective function is linear in its parameters. The algorithm uses a reduction to the optimization problem known as linear programming, and the prototype software system has interfaces to the COIN-OR and CPLEX packages for solving the underlying linear programming instances. The prototype system currently handles so-called complete examples, and extensions are underway to handle partial examples.\n\nOne graduate research assistant, Lisa Peairs, was supported on the award.\n\n\t\t\t\t\tLast Modified: 11/30/2012\n\n\t\t\t\t\tSubmitted by: John D Kececioglu"
+ }
+}

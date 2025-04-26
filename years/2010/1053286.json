@@ -1,0 +1,113 @@
+{
+ "awd_id": "1053286",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Fingerprinting RFID Tags with Transfer-of-Ownership Capabilities",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jeremy Epstein",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2012-08-31",
+ "tot_intn_awd_amt": 199967.0,
+ "awd_amount": 199967.0,
+ "awd_min_amd_letter_date": "2010-08-13",
+ "awd_max_amd_letter_date": "2010-08-13",
+ "awd_abstract_narration": "Passive radio frequency identification (RFID) tags, which do not have on-tag power sources, have become the standard mechanism for identifying countless objects. Currently, two security-related capabilities are missing from these tags: authentication and transfer-of-ownership. \r\n\r\nIn this project, the PIs propose to re-define the authentication of an RFID tag from being something the tag knows to being something the tag is. \r\n\r\nIn particular, the PIs explore methods to measure the response times of passive RFID tags, which are unique due to manufacturing variances, and use these measured times to uniquely identify (and authenticate) their corresponding tags. (Note that using measured response times is better, in identifying passive RFID tags, than using baseband radio frequency signals because the former does not require high-bandwidth and expensive measuring equipment.) The PIs explore how to augment the functionality of measuring the response times of RFID tags into regular RFID readers. They also develop classification algorithms for comparing the enrolled response times with the observed response times. \r\n\r\nThe PIs also develop privacy-preserving protocols to perform transfer-of-ownership of RFID tags based on the lightweight authentication algorithm described above. The PIs also develop new hardware primitives for transferring ownership of an RFID tag by manipulating the measured response time of the tag in a controlled way such that it is still a function of manufacturing variances.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Dale",
+   "pi_last_name": "Thompson",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Dale R Thompson",
+   "pi_email_addr": "drt@uark.edu",
+   "nsf_id": "000357131",
+   "pi_start_date": "2010-08-13",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Jia",
+   "pi_last_name": "Di",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jia Di",
+   "pi_email_addr": "jdi@uark.edu",
+   "nsf_id": "000482627",
+   "pi_start_date": "2010-08-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Arkansas",
+  "inst_street_address": "1125 W MAPLE ST STE 316",
+  "inst_street_address_2": "",
+  "inst_city_name": "FAYETTEVILLE",
+  "inst_state_code": "AR",
+  "inst_state_name": "Arkansas",
+  "inst_phone_num": "4795753845",
+  "inst_zip_code": "727013124",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "AR03",
+  "org_lgl_bus_name": "UNIVERSITY OF ARKANSAS",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MECEHTM8DB17"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Arkansas",
+  "perf_str_addr": "1125 W MAPLE ST STE 316",
+  "perf_city_name": "FAYETTEVILLE",
+  "perf_st_code": "AR",
+  "perf_st_name": "Arkansas",
+  "perf_zip_code": "727013124",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "AR03",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779500",
+   "pgm_ele_name": "TRUSTWORTHY COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 199967.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Summary<br />Radio frequency identification (RFID) systems provide information to users about objects with RFID tags.&nbsp; A threat to an RFID system is for an attacker to clone a tag such as those contained in identification documents like passports.&nbsp; Drs. Dale R. Thompson and Jia Di at the University of Arkansas have developed methods to verify the identity of passive RFID tags to prevent cloning of tags.&nbsp; They measure the wireless electronic features of an RFID tag to recognize the identity, or verify the claimed identity, of the tag.&nbsp; They use the term RFID fingerprinting to describe this technique that has many different names in the literature including signal fingerprinting, radio frequency (RF) fingerprinting, RF identification, radiometric identification, and physical-layer identification.<br /><br />Intellectual Merit<br />Methods to measure, identify, and transform wireless electronic features into a signal fingerprint were developed.&nbsp; In addition, multiple matching algorithms for comparing the enrolled fingerprint with the observed fingerprint were investigated.&nbsp; Timing-based features were used instead of power-based features because they were more effective.&nbsp; This fingerprinting method does not require any pre-stored password because it is based on what a tag &ldquo;is&rdquo; rather than what secret a tag &ldquo;knows.&rdquo;&nbsp; Moreover, this method can be applied to existing passive tags without any hardware modification.&nbsp; A prototype hardware primitive for transferring ownership of the tag by manipulating the signal fingerprint in a controlled way was developed and tested.<br /><br />Broader Impacts<br />Signal fingerprinting has a broader impact into the area of secure mobile computing.&nbsp; Signal fingerprinting can be used to verify the identity of mobile computing devices that emit a wireless signal like smart phones, laptops with WiFi, Bluetooth devices, and sensor networks.&nbsp; Mobile computing devices have limited computation power and energy sources, which makes the use of traditional security methods less efficient.&nbsp; Signal fingerprinting can augment the traditional security methods with another layer of security based on the unique way that a device talks for a more secure mobile computing environment.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/16/2012<br>\n\t\t\t\t\tModified by: Dale&nbsp;R&nbsp;Thompson</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nSummary\nRadio frequency identification (RFID) systems provide information to users about objects with RFID tags.  A threat to an RFID system is for an attacker to clone a tag such as those contained in identification documents like passports.  Drs. Dale R. Thompson and Jia Di at the University of Arkansas have developed methods to verify the identity of passive RFID tags to prevent cloning of tags.  They measure the wireless electronic features of an RFID tag to recognize the identity, or verify the claimed identity, of the tag.  They use the term RFID fingerprinting to describe this technique that has many different names in the literature including signal fingerprinting, radio frequency (RF) fingerprinting, RF identification, radiometric identification, and physical-layer identification.\n\nIntellectual Merit\nMethods to measure, identify, and transform wireless electronic features into a signal fingerprint were developed.  In addition, multiple matching algorithms for comparing the enrolled fingerprint with the observed fingerprint were investigated.  Timing-based features were used instead of power-based features because they were more effective.  This fingerprinting method does not require any pre-stored password because it is based on what a tag \"is\" rather than what secret a tag \"knows.\"  Moreover, this method can be applied to existing passive tags without any hardware modification.  A prototype hardware primitive for transferring ownership of the tag by manipulating the signal fingerprint in a controlled way was developed and tested.\n\nBroader Impacts\nSignal fingerprinting has a broader impact into the area of secure mobile computing.  Signal fingerprinting can be used to verify the identity of mobile computing devices that emit a wireless signal like smart phones, laptops with WiFi, Bluetooth devices, and sensor networks.  Mobile computing devices have limited computation power and energy sources, which makes the use of traditional security methods less efficient.  Signal fingerprinting can augment the traditional security methods with another layer of security based on the unique way that a device talks for a more secure mobile computing environment.\n\n\t\t\t\t\tLast Modified: 09/16/2012\n\n\t\t\t\t\tSubmitted by: Dale R Thompson"
+ }
+}

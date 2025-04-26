@@ -1,0 +1,96 @@
+{
+ "awd_id": "1439042",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: FULL: SDA: Collaborative Research: RUI:  SCORE: Scalability-Oriented Optimization",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 252000.0,
+ "awd_amount": 252000.0,
+ "awd_min_amd_letter_date": "2014-07-17",
+ "awd_max_amd_letter_date": "2014-07-17",
+ "awd_abstract_narration": "Title: XPS: FULL: SDA: Collaborative Research: SCORE: Scalability-Oriented Optimization\r\n\r\nModern CPUs, which contain an increasingly large number of processing units or \"cores\", offer the promise of continued increases in performance as the number of cores increases. Unfortunately, it is notoriously difficult for programmers to fully take advantage of this processing power. Computations can be viewed as cars on a network of highways: we want traffic to flow as fast as possible without any crashes. Programming languages offer \"synchronization operations\"---the programmer equivalent of traffic lights---which improve safety but reduce speed. For large programs, managing the tension between the twin goals of safety (more lights) and performance (fewer lights) can be out of reach for all but expert programmers. This project, SCORE (scalability-oriented optimization), lifts this burden by automatically maximizing program performance while maintaining correctness. The intellectual merits of this work are the development of a suite of techniques to identify bottlenecks in programs, and transform their code or execution environment to eliminate those bottlenecks. The project's broader significance and importance are to enable non-expert programmers to achieve high performance on modern, multicore platforms, and thus dramatically increase the performance and efficiency of existing and new software; contributing to the national software research infrastructure; and increasing access to science research opportunities and training for students.\r\n\r\nAs with optimizing compilation for sequential code, SCORE lifts the burden of concurrency optimization from programmers, letting them focus exclusively on getting the logic of their program right. By handling architectural and synchronization optimizations without programmer involvement, SCORE lets programmers deliver applications that portably and effectively harness a wide range of multicore architectures. SCORE comprises a suite of new dynamic analyses, static analyses, and runtime systems to enable scalability-oriented optimization. It uncovers bottlenecks and ranks them by the performance impact of removing them. This information guides a bottleneck-remediation dynamic analysis to identify a range of opportunities for concurrency optimizations. Finally, a code robustification phase augments the optimized code with lightweight checking and recovery code to ensure correct execution.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Stephen",
+   "pi_last_name": "Freund",
+   "pi_mid_init": "N",
+   "pi_sufx_name": "",
+   "pi_full_name": "Stephen N Freund",
+   "pi_email_addr": "freund@cs.williams.edu",
+   "nsf_id": "000110974",
+   "pi_start_date": "2014-07-17",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Williams College",
+  "inst_street_address": "880 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "WILLIAMSTOWN",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "4135974352",
+  "inst_zip_code": "012672600",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "MA01",
+  "org_lgl_bus_name": "PRESIDENT & TRUSTEES OF WILLIAMS COLLEGE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "JVZEJJ6N5EM8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Williams College",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "012672600",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "MA01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 252000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-26ab75a1-7fff-3188-0618-e683e6021bd2\"> </span></p>\n<p dir=\"ltr\"><span>The nation's computing infrastructure plays a central role in all aspects of our society. Most computing systems now use multicore or multiprocessor architectures capable of performing multiple tasks at the same time. This ability to run concurrent threads of control has enabled computations at scales previously unimaginable.&nbsp;&nbsp;</span></p>\n<p dir=\"ltr\"><span>Despite the prominence and importance of our software infrastructure infrastructure, however, constructing reliable and efficient concurrent software systems remains extremely challenging. For example, threads may interfere with each other in subtle ways if the programmer does not properly coordinate their behavior. Errors caused by such unanticipated interactions are a particularly pernicious type of defect. Synchronization mechanisms, such as mutual exclusion locks, can prevent such problems, but failing to follow a strict locking discipline can lead to deadlocks in which no threads are able to continue running. Debugging these errors is notoriously difficult, but getting their applications to run correctly is just one of the obstacles that programmers face.</span></p>\n<p>For many software engineers, the primary motivation for writing a concurrent application is to deliver increased performance. Multithreaded applications can, in theory, exploit multicore architectures to achieve performance benefits proportional to the number of cores. Unfortunately, for all but the most trivial \"embarrassingly parallel'' applications, achieving the scaling that multicore CPUs promise often proves to be even more difficult than avoiding concurrency errors. In fact, the twin goals of correctness and performance are often in tension.</p>\n<p dir=\"ltr\"><span>In more detail, synchronization operations like locks must be judiciously placed to protect shared data against race conditions and atomicity violations, but their use can lead to sequential bottlenecks when threads must wait for another thread to release a lock before continuing. Other obstacles to scalability exist as well. For example, false sharing occurs when two threads update logically distinct objects that happen to reside on the same cache line. This situation is both extremely hard to recognize and results in significant performance degradation.</span></p>\n<p>This grant explored techniques for automatically increasing the scalability of multithreaded applications without programmer intervention. Our approach involves a collection to tools and practices to automatically locate and mitigate scalability bottlenecks in multithreaded applications.</p>\n<p dir=\"ltr\"><span>As part of this work, we developed causal profiling, a profiling technique that measures optimization potential via run-time performance experiments.&nbsp; These experiments predict the effect of optimizations, including scalability optimizations to program's synchronization code.  A key benefit of Coz is that it can predict the benefits of optimization efforts while requiring no modifications to the original program.&nbsp; We also developed a suite of synchronization primitives that modify their behavior at run time to provide the greatest scalability given the current workload of the system.  The modifications are similarly driven by online performance experiments.  Other work has targeted the design of Functional Pure Threads that are isolated from each other and have no side effects, thus enabling many performance optimizations without the risk of thread interference, and the application of our optimizations to the implementation of scalable, high-performance dynamic data race detector.</span></p>\n<p dir=\"ltr\"><span>The intellectual merit and scientific contributions of this work include the development of tools facilitating the construction of more reliable and more scalable. It also pushes forward the state-of-the-art in profiling, program analysis, and optimization techniques for concurrent systems.&nbsp; This work has supported numerous undergraduate and graduate research students who received valuable training in performing scientific research. Some of our researchers are now pursuing advanced degrees.  One is now a faculty member continuing to perform research in this area.</span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/21/2019<br>\n\t\t\t\t\tModified by: Stephen&nbsp;N&nbsp;Freund</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n \nThe nation's computing infrastructure plays a central role in all aspects of our society. Most computing systems now use multicore or multiprocessor architectures capable of performing multiple tasks at the same time. This ability to run concurrent threads of control has enabled computations at scales previously unimaginable.  \nDespite the prominence and importance of our software infrastructure infrastructure, however, constructing reliable and efficient concurrent software systems remains extremely challenging. For example, threads may interfere with each other in subtle ways if the programmer does not properly coordinate their behavior. Errors caused by such unanticipated interactions are a particularly pernicious type of defect. Synchronization mechanisms, such as mutual exclusion locks, can prevent such problems, but failing to follow a strict locking discipline can lead to deadlocks in which no threads are able to continue running. Debugging these errors is notoriously difficult, but getting their applications to run correctly is just one of the obstacles that programmers face.\n\nFor many software engineers, the primary motivation for writing a concurrent application is to deliver increased performance. Multithreaded applications can, in theory, exploit multicore architectures to achieve performance benefits proportional to the number of cores. Unfortunately, for all but the most trivial \"embarrassingly parallel'' applications, achieving the scaling that multicore CPUs promise often proves to be even more difficult than avoiding concurrency errors. In fact, the twin goals of correctness and performance are often in tension.\nIn more detail, synchronization operations like locks must be judiciously placed to protect shared data against race conditions and atomicity violations, but their use can lead to sequential bottlenecks when threads must wait for another thread to release a lock before continuing. Other obstacles to scalability exist as well. For example, false sharing occurs when two threads update logically distinct objects that happen to reside on the same cache line. This situation is both extremely hard to recognize and results in significant performance degradation.\n\nThis grant explored techniques for automatically increasing the scalability of multithreaded applications without programmer intervention. Our approach involves a collection to tools and practices to automatically locate and mitigate scalability bottlenecks in multithreaded applications.\nAs part of this work, we developed causal profiling, a profiling technique that measures optimization potential via run-time performance experiments.  These experiments predict the effect of optimizations, including scalability optimizations to program's synchronization code.  A key benefit of Coz is that it can predict the benefits of optimization efforts while requiring no modifications to the original program.  We also developed a suite of synchronization primitives that modify their behavior at run time to provide the greatest scalability given the current workload of the system.  The modifications are similarly driven by online performance experiments.  Other work has targeted the design of Functional Pure Threads that are isolated from each other and have no side effects, thus enabling many performance optimizations without the risk of thread interference, and the application of our optimizations to the implementation of scalable, high-performance dynamic data race detector.\nThe intellectual merit and scientific contributions of this work include the development of tools facilitating the construction of more reliable and more scalable. It also pushes forward the state-of-the-art in profiling, program analysis, and optimization techniques for concurrent systems.  This work has supported numerous undergraduate and graduate research students who received valuable training in performing scientific research. Some of our researchers are now pursuing advanced degrees.  One is now a faculty member continuing to perform research in this area.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 09/21/2019\n\n\t\t\t\t\tSubmitted by: Stephen N Freund"
+ }
+}

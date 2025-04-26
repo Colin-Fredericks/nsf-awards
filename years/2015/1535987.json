@@ -1,0 +1,101 @@
+{
+ "awd_id": "1535987",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AitF: FULL: Collaborative Research: PEARL: Perceptual Adaptive Representation Learning in the Wild",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "A. Funda Ergun",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2021-08-31",
+ "tot_intn_awd_amt": 399983.0,
+ "awd_amount": 399983.0,
+ "awd_min_amd_letter_date": "2015-08-14",
+ "awd_max_amd_letter_date": "2015-08-14",
+ "awd_abstract_narration": "Vast amounts of digitized images and videos are now commonly available, and the advent of search engines has further facilitated their access. This has created an exceptional opportunity for the application of machine learning techniques to model human visual perception. However, the data often does not conform to the core assumption of machine learning that training and test images are drawn from exactly the same distribution, or \"domain.\" In practice, the training and test distributions are often somewhat dissimilar, and distributions may even drift with time. For example, a \"dog\" detector trained on Flickr may be tested on images from a wearable camera, where dogs are seen in different viewpoints and lighting conditions. The problem of compensating for these changes--the domain adaptation problem--must therefore be addressed both in theory and in practice for algorithms to be effective. This problem is not just a second-order effect and its solution does not constitute a small increase in performance.  Ignoring it can lead to dramatically poor results for algorithms \"in the field.\"\r\n\r\nThis project will develop a core suite of theory and algorithms for PErceptual Adaptive Representation Learning (PEARL), which, when given a new task domain, and previous experience with related tasks and domains, will provide a learning architecture likely to achieve optimal generalization on the new task. We expect PEARL to have a significant impact on the research community by providing a much-needed theoretical and computational framework that takes steps toward unifying the subfields of domain adaptation theory and domain adaptation practice. Our theoretical and practical advancements will impact many application areas by allowing the use of pre-trained perceptual models (visual and otherwise) in new situations and across space and time. For example, in mobile technology and robotics, PEARL will help personal assistants and robots better adapt their perceptual interfaces to individual users and particular situated environments.  At the core of this project are three main research thrusts: 1) making theoretical advances for domain adaptation by developing generalized discrepancy distance minimization; 2) using the theoretical guarantees of generalized discrepancy distance to develop algorithms for key adaptation scenarios of deep perceptual representation learning, domain adaptation with active learning, and time-dependent adaptation; 3) advancing the theory and developing algorithms for the multiple-source adaptation scenario. In addition to our core aims, we plan to implement our algorithms within a scalable open-source framework, and evaluate our algorithms on large-scale visual data sets.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mehryar",
+   "pi_last_name": "Mohri",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mehryar Mohri",
+   "pi_email_addr": "mohri@cims.nyu.edu",
+   "nsf_id": "000201880",
+   "pi_start_date": "2015-08-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121110",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "723900",
+   "pgm_ele_name": "Algorithms in the Field"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "012Z",
+   "pgm_ref_txt": "AitF FULL Projects"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 399983.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The main objectives of this project was to create the theoreticalfoundation and principled learning algorithms for domain adaptation,including the design of effective learning architectures for newdomains from one or several source domains and extensive empiricalevaluations.<br />The project successfully reached these objectives, which include therecent design of a discriminative technique for multiple-sourceadaptation which benefits from strong theoretical guarantees and whichis very practical. This technique can be used to combine existingmodels designed for distinct tasks to devise solutions for unseentasks that can be viewed as mixtures of the seen tasks.&nbsp; Unlikeprevious work, which relies on density estimation for each sourcedomain, our solution only requires conditional probabilities that canbe straightforwardly accurately estimated from un-labeled data fromthe source domains.<br />The outcomes also include a recent theory of multiple-sourceadaptation with limited target labeled data which provides atheoretical and algorithmic solution for a key problem encountered inmany areas. We developed a theoretical and algorithmic study of themultiple-source domain adaptation problem in the common scenario wherethe learner has access only to a limited amount of labeled targetdata, but where the learner has at their disposal a large amount ofla- beled data from multiple source domains. We showed that a newfamily of algorithms based on model selection ideas benefits from veryfavorable guarantees in this scenario and discussed some theoreticalobstacles affecting some alternative techniques. We also reported theresults of several experiments with our algorithms that demonstratedtheir practical effectiveness.<br />Altogether, the series of theoretical and algorithmic outcomesof this project form a broad set of algorithmic tools to tackledomain adaptation problems in a principled and efficent way.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2021<br>\n\t\t\t\t\tModified by: Mehryar&nbsp;Mohri</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe main objectives of this project was to create the theoreticalfoundation and principled learning algorithms for domain adaptation,including the design of effective learning architectures for newdomains from one or several source domains and extensive empiricalevaluations.\nThe project successfully reached these objectives, which include therecent design of a discriminative technique for multiple-sourceadaptation which benefits from strong theoretical guarantees and whichis very practical. This technique can be used to combine existingmodels designed for distinct tasks to devise solutions for unseentasks that can be viewed as mixtures of the seen tasks.  Unlikeprevious work, which relies on density estimation for each sourcedomain, our solution only requires conditional probabilities that canbe straightforwardly accurately estimated from un-labeled data fromthe source domains.\nThe outcomes also include a recent theory of multiple-sourceadaptation with limited target labeled data which provides atheoretical and algorithmic solution for a key problem encountered inmany areas. We developed a theoretical and algorithmic study of themultiple-source domain adaptation problem in the common scenario wherethe learner has access only to a limited amount of labeled targetdata, but where the learner has at their disposal a large amount ofla- beled data from multiple source domains. We showed that a newfamily of algorithms based on model selection ideas benefits from veryfavorable guarantees in this scenario and discussed some theoreticalobstacles affecting some alternative techniques. We also reported theresults of several experiments with our algorithms that demonstratedtheir practical effectiveness.\nAltogether, the series of theoretical and algorithmic outcomesof this project form a broad set of algorithmic tools to tackledomain adaptation problems in a principled and efficent way.\n\n\t\t\t\t\tLast Modified: 11/30/2021\n\n\t\t\t\t\tSubmitted by: Mehryar Mohri"
+ }
+}

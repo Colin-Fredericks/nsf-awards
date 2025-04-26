@@ -1,0 +1,101 @@
+{
+ "awd_id": "1264005",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Developing Artifact Peer Review Assignment Methodologies to Maximize the Value of Peer Review for Students",
+ "cfda_num": "47.041",
+ "org_code": "07050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Elliot Douglas",
+ "awd_eff_date": "2013-07-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 98570.0,
+ "awd_amount": 98570.0,
+ "awd_min_amd_letter_date": "2013-01-19",
+ "awd_max_amd_letter_date": "2013-01-19",
+ "awd_abstract_narration": "This engineering education research project seeks to develop a proof-of-concept peer review matching algorithm and demonstrate if it is a valuable and viable methodology for conducting peer review.  Peer review is a proven method that has positive impact on student learning.  The project will test the algorithm on Model Eliciting Activities in the engineering classroom, and investigate how changing peer review can affect student learning.\r\n\r\nThe broader significance and importance of this project is the transformative potential of improving peer review processes, since peer review is used throughout STEM and medical fields.  Thus this preliminary investigation can extend outside the realm of improving student learning.  This project overlaps with NSF's strategic goals of transforming the frontiers through preparation of an engineering workforce with new capabilities and expertise.  Additionally NSF's goal of innovating for society is enabled by supporting the development of innovative learning systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "EEC",
+ "org_div_long_name": "Division of Engineering Education and Centers",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Matthew",
+   "pi_last_name": "Verleger",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Matthew A Verleger",
+   "pi_email_addr": "matthew.verleger@erau.edu",
+   "nsf_id": "000627553",
+   "pi_start_date": "2013-01-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Embry-Riddle Aeronautical University",
+  "inst_street_address": "1 AEROSPACE BLVD",
+  "inst_street_address_2": "",
+  "inst_city_name": "DAYTONA BEACH",
+  "inst_state_code": "FL",
+  "inst_state_name": "Florida",
+  "inst_phone_num": "3862267695",
+  "inst_zip_code": "321143910",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "FL06",
+  "org_lgl_bus_name": "EMBRY-RIDDLE AERONAUTICAL UNIVERSITY, INC.",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "U5MMBAC9XAM5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Embry-Riddle Aeronautical University",
+  "perf_str_addr": "600 S. Clyde Morris Blvd",
+  "perf_city_name": "Daytona Beach",
+  "perf_st_code": "FL",
+  "perf_st_name": "Florida",
+  "perf_zip_code": "321143900",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "FL06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "134000",
+   "pgm_ele_name": "EngEd-Engineering Education"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "110E",
+   "pgm_ref_txt": "EDUCATION RESEARCH"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 98570.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Currently when individuals conduct peer review, the best method for matching reviewers to reviewees is no more sophisticated than drawing names from a hat. This project stemmed from the idea that, with all that is known about our students, there must be a better way. Prior work by the PI explored this idea and discovered a number of unexpected assumptions that reduced success. The goal of this project was to expand on the lessons learned, addressing those assumptions, to develop a proof-of-concept algorithm for making matches that could demonstrate that informed peer review matching was viable for further study.</p>\n<p>To make informed matches, there must be a mechanism for predicting how much help a reviewee needs and how much help a reviewer can provide. The focus of the first year was on using archival data to develop a computational model to quickly evaluate student work to predict how much help a team would need to improve their solution. The techniques explored used existing Natural Language Processing (NLP) techniques, specifically the bagged decision tree and random forest models, to predict student performance.&nbsp; On the archival data set, the bagged decision tree approach was moderately accurate across the 11 evaluation scales, with 10/11 scales having better than 70% prediction accuracy.</p>\n<p>The next step was to collect a new data set in a different course and evaluate the efficacy of the prediction algorithms in a new context. Unfortunately, their accuracy decreased sharply when the student work was from a new context, making it clear that this approach lacked much needed transferability. The broader implication was that, for making accurate evaluations of how much help a team needed, automated methods needed to be trained in context &ndash; a time and resource consuming approach that may yield minimal end value.</p>\n<p>The PI then explored training students for a gut reaction evaluation. The solutions students generate typically take 20-40 minutes each for a proper evaluation. The purpose of this effort was to train TAs to evaluate solutions in two minutes or fewer &ndash; using a &ldquo;gut reaction&rdquo; that relied on an internal evaluation heuristic. Two students were trained in the long-form evaluation process and were expressly told that they would need to evaluate solutions quickly and that they should be developing this internal heuristic. They then applied this gut-reaction evaluation technique to archival data and their results were compared with an expert&rsquo;s evaluation. Their evaluations were similar in accuracy to those of TAs conducting the long-form evaluation, but still less accurate than the computational approach found above and not sufficient for practical informed peer review matching.</p>\n<p>Parallel to the &ldquo;reviewee need&rdquo; work, efforts were underway to analyze archival data to identify ways of predicting &ldquo;reviewer skill&rdquo;. As part of the review process, reviewers were asked to evaluate a sample solution. They were then shown their review next to an expert&rsquo;s review of that same sample. Only after they had compared their review to an expert&rsquo;s review were they allowed to peer review a solution from one of their peers. Students who viewed a lower quality sample solution and the expert feedback for improving that solution had statistically lower levels of error when conducting the actual peer review. This suggests that, with the right training materials, there may be meaningful ways of improving the accuracy of a peer reviewer.</p>\n<p>In the final year, the PI shifted beyond student&rsquo;s peer reviewing in a homogeneous context to exploring how academics peer review each other&rsquo;s work for a research conference. As the Program Chair for the Educational Research and Methods Division of the American Society for Engineering Education, the PI was responsible for assigning peer reviewers for 258 research papers. After volunteers were identified to provide reviews, the PI data-mined prior papers by these volunteers to build an &ldquo;expertise profile&rdquo; for each prospective reviewer. This profile was based on identifying key words or phrases that volunteers had disproportionately used in their own work. The assumption was, if you use the word &ldquo;motivation&rdquo; more frequently in your work, you were more likely to be familiar with motivation research. The papers needing review were subjected to a similar analysis and matches were then made to assign reviewers with expertise on the contents of each paper. Formal analysis is still being explored, but anecdotally, it appears to have been successful. Seven reviewers contacted the PI with concerns about non-obvious conflicts-of-interest, demonstrating that the algorithm was able to identify reviewers with significant enough expertise to warrant concerns of conflict. This work did highlight one significant finding, namely that informed matching algorithms may have value when the context being reviewed is heterogeneous enough to allow differentiation in the work being reviewed. Because students were solving the same homework problem, the solutions produced were too homogeneous for automated approaches to quickly and meaningfully distinguish between them.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/29/2017<br>\n\t\t\t\t\tModified by: Matthew&nbsp;A&nbsp;Verleger</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nCurrently when individuals conduct peer review, the best method for matching reviewers to reviewees is no more sophisticated than drawing names from a hat. This project stemmed from the idea that, with all that is known about our students, there must be a better way. Prior work by the PI explored this idea and discovered a number of unexpected assumptions that reduced success. The goal of this project was to expand on the lessons learned, addressing those assumptions, to develop a proof-of-concept algorithm for making matches that could demonstrate that informed peer review matching was viable for further study.\n\nTo make informed matches, there must be a mechanism for predicting how much help a reviewee needs and how much help a reviewer can provide. The focus of the first year was on using archival data to develop a computational model to quickly evaluate student work to predict how much help a team would need to improve their solution. The techniques explored used existing Natural Language Processing (NLP) techniques, specifically the bagged decision tree and random forest models, to predict student performance.  On the archival data set, the bagged decision tree approach was moderately accurate across the 11 evaluation scales, with 10/11 scales having better than 70% prediction accuracy.\n\nThe next step was to collect a new data set in a different course and evaluate the efficacy of the prediction algorithms in a new context. Unfortunately, their accuracy decreased sharply when the student work was from a new context, making it clear that this approach lacked much needed transferability. The broader implication was that, for making accurate evaluations of how much help a team needed, automated methods needed to be trained in context &ndash; a time and resource consuming approach that may yield minimal end value.\n\nThe PI then explored training students for a gut reaction evaluation. The solutions students generate typically take 20-40 minutes each for a proper evaluation. The purpose of this effort was to train TAs to evaluate solutions in two minutes or fewer &ndash; using a \"gut reaction\" that relied on an internal evaluation heuristic. Two students were trained in the long-form evaluation process and were expressly told that they would need to evaluate solutions quickly and that they should be developing this internal heuristic. They then applied this gut-reaction evaluation technique to archival data and their results were compared with an expert?s evaluation. Their evaluations were similar in accuracy to those of TAs conducting the long-form evaluation, but still less accurate than the computational approach found above and not sufficient for practical informed peer review matching.\n\nParallel to the \"reviewee need\" work, efforts were underway to analyze archival data to identify ways of predicting \"reviewer skill\". As part of the review process, reviewers were asked to evaluate a sample solution. They were then shown their review next to an expert?s review of that same sample. Only after they had compared their review to an expert?s review were they allowed to peer review a solution from one of their peers. Students who viewed a lower quality sample solution and the expert feedback for improving that solution had statistically lower levels of error when conducting the actual peer review. This suggests that, with the right training materials, there may be meaningful ways of improving the accuracy of a peer reviewer.\n\nIn the final year, the PI shifted beyond student?s peer reviewing in a homogeneous context to exploring how academics peer review each other?s work for a research conference. As the Program Chair for the Educational Research and Methods Division of the American Society for Engineering Education, the PI was responsible for assigning peer reviewers for 258 research papers. After volunteers were identified to provide reviews, the PI data-mined prior papers by these volunteers to build an \"expertise profile\" for each prospective reviewer. This profile was based on identifying key words or phrases that volunteers had disproportionately used in their own work. The assumption was, if you use the word \"motivation\" more frequently in your work, you were more likely to be familiar with motivation research. The papers needing review were subjected to a similar analysis and matches were then made to assign reviewers with expertise on the contents of each paper. Formal analysis is still being explored, but anecdotally, it appears to have been successful. Seven reviewers contacted the PI with concerns about non-obvious conflicts-of-interest, demonstrating that the algorithm was able to identify reviewers with significant enough expertise to warrant concerns of conflict. This work did highlight one significant finding, namely that informed matching algorithms may have value when the context being reviewed is heterogeneous enough to allow differentiation in the work being reviewed. Because students were solving the same homework problem, the solutions produced were too homogeneous for automated approaches to quickly and meaningfully distinguish between them.\n\n\t\t\t\t\tLast Modified: 09/29/2017\n\n\t\t\t\t\tSubmitted by: Matthew A Verleger"
+ }
+}

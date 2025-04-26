@@ -1,0 +1,105 @@
+{
+ "awd_id": "1816577",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Hyperscaling Data Analytics for High-Performance Computers",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2018-07-01",
+ "awd_exp_date": "2022-06-30",
+ "tot_intn_awd_amt": 460000.0,
+ "awd_amount": 460000.0,
+ "awd_min_amd_letter_date": "2018-07-02",
+ "awd_max_amd_letter_date": "2018-07-02",
+ "awd_abstract_narration": "Data analytics extracts insights from massive datasets, often with the assistance of machine learning techniques. The goal of this project is to allow domain experts, including data scientists, to analyze massive datasets quickly using the most powerful supercomputing systems in the world. The problem is that state-of-the-art data processing algorithms that filter data, summarize results and combine information from different sources have inherent scalability bottlenecks. This project designs hyperscalable data processing algorithms that harness the unprecedented compute, storage and networking concurrency of a high-performance computer. This project also develops an open-source data processing engine to disseminate prototype implementations of these algorithms to the public. Another contribution is the creation of a massively parallel data processing module and associated teaching materials for undergraduate data science curricula, such as the diverse Data Analytics undergraduate major at The Ohio State University.\r\n\r\nThe confluence of extreme compute parallelism, fast networking and growing memory capacities in the modern datacenter presents an opportunity to design a hyperscalable data processing kernel for warehouse-scale computers. This project sits at the intersection of data management and high-performance computing; it develops scalable join and aggregation algorithms, topology-conscious query planning and optimization techniques, and interference-aware data access methods for shared cold storage. This is accomplished by carefully overlapping communication and computation, identifying and avoiding unscalable all-to-all communication, accounting for network path congestion and variability in remote memory access latency, and judiciously using inter-process coordination to accelerate data ingestion from a massively parallel shared file system. These research activities lay the intellectual foundation to make data analytics scalable and efficient in warehouse-scale computers.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Spyros",
+   "pi_last_name": "Blanas",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Spyros Blanas",
+   "pi_email_addr": "blanas.2@osu.edu",
+   "nsf_id": "000652382",
+   "pi_start_date": "2018-07-02",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Ohio State University",
+  "inst_street_address": "1960 KENNY RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLUMBUS",
+  "inst_state_code": "OH",
+  "inst_state_name": "Ohio",
+  "inst_phone_num": "6146888735",
+  "inst_zip_code": "432101016",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "OH03",
+  "org_lgl_bus_name": "OHIO STATE UNIVERSITY, THE",
+  "org_prnt_uei_num": "MN4MDDMN8529",
+  "org_uei_num": "DLWBSLWAJWR1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Ohio State University",
+  "perf_str_addr": "1960 Kenny Road",
+  "perf_city_name": "Columbus",
+  "perf_st_code": "OH",
+  "perf_st_name": "Ohio",
+  "perf_zip_code": "432101016",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "OH03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7942",
+   "pgm_ref_txt": "HIGH-PERFORMANCE COMPUTING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 460000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of this project was to investigate how to scale data analysis for modern high-performance computers and the cloud. While typical deployments in the past only utilized a few processors, high-performance computing facilities and the cloud can offer thousands of processors or more. The project investigated two complementary approaches to scale data analysis to fully utilize thousands of processors, specifically targeting (a) how data is loaded and stored to disks and (b) how analysis algorithms can better take advantage of unprecedented levels of parallelism.</p>\n<p>Towards the first goal, the key project outcome is recognizing fundamental assumptions behind how data are stored to and read from disk that inherently limit scalability when a system accesses cold data. The two common ways to store a table are either in row order or in column order. Prior research has also proposed to store tables hierarchically, starting from either horizontal or vertical partitions and then determining the best layout. All these strategies naturally produce rectangular partitions that either read unnecessary data when a table cannot be partitioned along one dimension for analysis or produce many small partitions which negatively impacts performance. This project introduced a novel irregular partitioning algorithm that creates partitions with arbitrary shapes that are better tailored to the user queries, and implemented the irregular partitioning algorithm in a prototype storage engine called Jigsaw. Storing data in irregularly-shaped partitions transfers less data than a column store layout and can improve performance by as much as 4X.</p>\n<p>Towards the second goal, the key outcome was developing new data analysis algorithms that can better take advantage of massive parallelism by considering the unique ways in which processors are interconnected with each other. Previous approaches produce the same data movement pattern in the network regardless of whether the user query is answered using ten or ten thousand processors. In its essence, this is an assumption of homogeneity: all processors have similar communication ability. As the scale of the network increases, however, certain processors can communicate at much higher speeds with processors that are nearby in the network than processors that are far away, naturally forming an interesting topology that one needs to be cognizant of to achieve high scalability. Another crucial aspect of topology awareness is awareness of the data distribution at each processor, because common algorithms such as aggregation and join can significantly reduce the total transferred data volume if the algorithm computes partial results between processors with similar data distributions. This insight suggests a hitherto unknown benefit of scale for other data analysis algorithms. Towards this direction, the project contributed a new topology-aware cost model and a set of topology-aware algorithms targeting the common data processing patterns of joins and aggregation, resulting in speedups of up to 3.5X even in small networks compared to topology-oblivious data analysis algorithms.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/12/2023<br>\n\t\t\t\t\tModified by: Spyros&nbsp;Blanas</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this project was to investigate how to scale data analysis for modern high-performance computers and the cloud. While typical deployments in the past only utilized a few processors, high-performance computing facilities and the cloud can offer thousands of processors or more. The project investigated two complementary approaches to scale data analysis to fully utilize thousands of processors, specifically targeting (a) how data is loaded and stored to disks and (b) how analysis algorithms can better take advantage of unprecedented levels of parallelism.\n\nTowards the first goal, the key project outcome is recognizing fundamental assumptions behind how data are stored to and read from disk that inherently limit scalability when a system accesses cold data. The two common ways to store a table are either in row order or in column order. Prior research has also proposed to store tables hierarchically, starting from either horizontal or vertical partitions and then determining the best layout. All these strategies naturally produce rectangular partitions that either read unnecessary data when a table cannot be partitioned along one dimension for analysis or produce many small partitions which negatively impacts performance. This project introduced a novel irregular partitioning algorithm that creates partitions with arbitrary shapes that are better tailored to the user queries, and implemented the irregular partitioning algorithm in a prototype storage engine called Jigsaw. Storing data in irregularly-shaped partitions transfers less data than a column store layout and can improve performance by as much as 4X.\n\nTowards the second goal, the key outcome was developing new data analysis algorithms that can better take advantage of massive parallelism by considering the unique ways in which processors are interconnected with each other. Previous approaches produce the same data movement pattern in the network regardless of whether the user query is answered using ten or ten thousand processors. In its essence, this is an assumption of homogeneity: all processors have similar communication ability. As the scale of the network increases, however, certain processors can communicate at much higher speeds with processors that are nearby in the network than processors that are far away, naturally forming an interesting topology that one needs to be cognizant of to achieve high scalability. Another crucial aspect of topology awareness is awareness of the data distribution at each processor, because common algorithms such as aggregation and join can significantly reduce the total transferred data volume if the algorithm computes partial results between processors with similar data distributions. This insight suggests a hitherto unknown benefit of scale for other data analysis algorithms. Towards this direction, the project contributed a new topology-aware cost model and a set of topology-aware algorithms targeting the common data processing patterns of joins and aggregation, resulting in speedups of up to 3.5X even in small networks compared to topology-oblivious data analysis algorithms.\n\n\t\t\t\t\tLast Modified: 05/12/2023\n\n\t\t\t\t\tSubmitted by: Spyros Blanas"
+ }
+}

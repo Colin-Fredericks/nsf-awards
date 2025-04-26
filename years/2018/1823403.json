@@ -1,0 +1,113 @@
+{
+ "awd_id": "1823403",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "FoMR: Secure, Light-Weight Speculative Engines for Coordinated and Cohesive Speculation in Future Memory Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Yuanyuan Yang",
+ "awd_eff_date": "2018-10-01",
+ "awd_exp_date": "2021-09-30",
+ "tot_intn_awd_amt": 225000.0,
+ "awd_amount": 225000.0,
+ "awd_min_amd_letter_date": "2018-08-22",
+ "awd_max_amd_letter_date": "2018-08-22",
+ "awd_abstract_narration": "The scaling of computer systems through the next decade poses a grand challenge due to the slowing down of the decades-long trend of packing more processors into a given area at the same cost.  In this new era, the benefits of improved manufacturing processes will largely end.  Thus, processor performance must be won through processor design advancement.  The goal of this research is to develop secure techniques to improve processors performance by accurately speculating on future memory references and data values. \r\n\r\nAt a high level the research leverages light-weight speculation engines, speculating on program path and data values without the overheads of a full core, predicting reference patterns and speculating on read/write sets to alleviate memory latency effects on instruction-level parallelism (ILP) extraction.  This project addresses a critical need for new architectural techniques which securely improve both power efficiency and ILP.  Furthermore, this project addresses the need for computer engineers at all levels with an understanding of efficient, secure processor design, as the computer industry struggles to attract talent with the skills to meet these challenges.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Paul",
+   "pi_last_name": "Gratz",
+   "pi_mid_init": "V",
+   "pi_sufx_name": "",
+   "pi_full_name": "Paul V Gratz",
+   "pi_email_addr": "pgratz@tamu.edu",
+   "nsf_id": "000537306",
+   "pi_start_date": "2018-08-22",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Texas A&M Engineering Experiment Station",
+  "inst_street_address": "3124 TAMU",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE STATION",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "9798626777",
+  "inst_zip_code": "778433124",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "TX10",
+  "org_lgl_bus_name": "TEXAS A&M ENGINEERING EXPERIMENT STATION",
+  "org_prnt_uei_num": "QD1MX6N5YTN4",
+  "org_uei_num": "QD1MX6N5YTN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Texas A&M Engineering Experiment Station",
+  "perf_str_addr": "3128 TAMU",
+  "perf_city_name": "College Station",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "778433128",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "TX10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "287800",
+   "pgm_ele_name": "Special Projects - CCF"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "021Z",
+   "pgm_ref_txt": "Industry Partnerships"
+  },
+  {
+   "pgm_ref_code": "2878",
+   "pgm_ref_txt": "SPECIAL PROJECTS - CCF"
+  },
+  {
+   "pgm_ref_code": "7798",
+   "pgm_ref_txt": "SOFTWARE & HARDWARE FOUNDATION"
+  },
+  {
+   "pgm_ref_code": "7941",
+   "pgm_ref_txt": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 225000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The future scaling and growth of computing performance is throttled bythe performance differential between main memory and the processor.The goal of the research was to develop secure speculation techniquesfor future processors which will enable greater ILP extraction, whileimproving performance-per-Watt, by accurately speculating on futurememory references and data values. At a high level the proposedresearch leverages light-weight speculation engines (LWSEs) which canspeculate on program path and data values without the overheads of afull core, predicting reference patterns and speculating on read/writesets to alleviate memory latency effects on ILP extraction, enablingperformance gains through the final CMOS process technologies andbeyond.</p>\n<p><br />This project generated a great deal of research during its threeyears. In particular, the research behind eleven publications, andseveral more in flight, were wholly or partially supported under thisproject.&nbsp; While these works are too many to describe in detail here Iattempt to summarize their most significant components.&nbsp; Broadly, inthis work we developed techniques that lie either within the processorcache hierarchy, or within the broader main memory system.&nbsp; Within theprocessor cache hierarchy we the developed new techniques for memorysystem speculation that improved the performance and efficiency of theprocessor cache hierarchy.&nbsp; For example, we introducedPerceptron-based Prefetch Filtering (PPF) as a way to increase thecoverage of the prefetches generated by an underlying prefetcherwithout negatively impacting accuracy. PPF enables more aggressivetuning of the underlying prefetcher, leading to increased coverage byfiltering out the growing numbers of inaccurate prefetches such anaggressive tuning implies.&nbsp; This work was published in ISCA'19.</p>\n<p>Also in the processor memory system, we explored mechanisms to usespeculation to improve shared memory workloads.&nbsp; As core countsincrease, lock acquisition and release become even more criticalbecause they lie on the critical path of shared memoryapplications. In Specloc (ICCD'19), we show that many applicationsexhibit regular and repeating lock sharing patterns.&nbsp; Based on thisobservation, we introduce SpecLock, an efficient hardware mechanismwhich speculates on the lock acquisition pattern between cores. Uponthe release of a lock, the cache line containing the lock isspeculatively forwarded to the next consumer of the lock.&nbsp; Speculativeforwarding serves to hide the remote core?s lock acquisition latency.</p>\n<p>SB-Fetch (ICS'20) explores the impact of general data prefetching inshared-memory workloads.&nbsp; Generally, aggressive prefetching in sharedmemory workloads can incur performance costs as data is fetched from aproducing core before it has been written.&nbsp; Further, critical sectionsin shared memory workloads often stall data prefetchers during thecritical section.&nbsp; SB-Fetch introduces a pure hardware technique toenable safe data prefetching beyond synchronization points. We showthat successful prefetching beyond synchronization points requiresovercoming two challenges. First, typical prefetchers are designed totrigger prefetches based on current misses. Unlike cores insingle-threaded applications, a multi-threaded core stall on asynchronization point does not produce new references to trigger aprefetcher. Second, even if a prefetch were correctly directed to readbeyond a synchronization point, it will likely prefetch shared datafrom another core before this data has been written. SB-Fetchaddresses both issues to significantly improve performance andefficiency of shared-memory workloads.</p>\n<p>Further down the memory hierarchy, we have explored several techniquesfor emerging Hybrid memory systems. Hybrid memory systems, comprisedof emerging non-volatile memory (NVM) and DRAM, have been proposed toaddress the growing memory demand of current mobile applications. NVMtechnologies have higher capacity density, minimal static powerconsumption, but longer access latency and limited write endurancecompared to DRAM. The different characteristics of these two memoryclasses, however, pose new challenges for memory system design.Ideally, pages shall be placed or migrated between the two types ofmemories according to the data objects' access properties.&nbsp; Weproposed OpenMem: a hardware-software cooperative approach to addressplacement and migration within hybrid memory systems, that combinesthe execution time advantages of pure hardware approaches with thedata object properties in a global scope. Experimental results showthat OpenMem reduces energy consumption by 44.6% with only a 16%performance degradation compared to an all-DRAM memorysystem. Further, writes to the NVM are reduced by 14% versus ahardware-only approach, extending the NVM device lifetime.</p>\n<p>These works have already seen significant interest from industry.&nbsp; Inparticular, we have seen interest from four companies to date (Intel,ARM, Oppo and Samsung) in implementing some or all of the techniqueswe developed under this project.</p>\n<p>This project was instrumental in the training of three PhD and two MSstudents with an understanding of secure, energy efficient processordesign.&nbsp; Further, the research developed in this project hascontributed to both the undergraduate and graduate course work atTexas A&amp;M University.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/01/2021<br>\n\t\t\t\t\tModified by: Paul&nbsp;V&nbsp;Gratz</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe future scaling and growth of computing performance is throttled bythe performance differential between main memory and the processor.The goal of the research was to develop secure speculation techniquesfor future processors which will enable greater ILP extraction, whileimproving performance-per-Watt, by accurately speculating on futurememory references and data values. At a high level the proposedresearch leverages light-weight speculation engines (LWSEs) which canspeculate on program path and data values without the overheads of afull core, predicting reference patterns and speculating on read/writesets to alleviate memory latency effects on ILP extraction, enablingperformance gains through the final CMOS process technologies andbeyond.\n\n\nThis project generated a great deal of research during its threeyears. In particular, the research behind eleven publications, andseveral more in flight, were wholly or partially supported under thisproject.  While these works are too many to describe in detail here Iattempt to summarize their most significant components.  Broadly, inthis work we developed techniques that lie either within the processorcache hierarchy, or within the broader main memory system.  Within theprocessor cache hierarchy we the developed new techniques for memorysystem speculation that improved the performance and efficiency of theprocessor cache hierarchy.  For example, we introducedPerceptron-based Prefetch Filtering (PPF) as a way to increase thecoverage of the prefetches generated by an underlying prefetcherwithout negatively impacting accuracy. PPF enables more aggressivetuning of the underlying prefetcher, leading to increased coverage byfiltering out the growing numbers of inaccurate prefetches such anaggressive tuning implies.  This work was published in ISCA'19.\n\nAlso in the processor memory system, we explored mechanisms to usespeculation to improve shared memory workloads.  As core countsincrease, lock acquisition and release become even more criticalbecause they lie on the critical path of shared memoryapplications. In Specloc (ICCD'19), we show that many applicationsexhibit regular and repeating lock sharing patterns.  Based on thisobservation, we introduce SpecLock, an efficient hardware mechanismwhich speculates on the lock acquisition pattern between cores. Uponthe release of a lock, the cache line containing the lock isspeculatively forwarded to the next consumer of the lock.  Speculativeforwarding serves to hide the remote core?s lock acquisition latency.\n\nSB-Fetch (ICS'20) explores the impact of general data prefetching inshared-memory workloads.  Generally, aggressive prefetching in sharedmemory workloads can incur performance costs as data is fetched from aproducing core before it has been written.  Further, critical sectionsin shared memory workloads often stall data prefetchers during thecritical section.  SB-Fetch introduces a pure hardware technique toenable safe data prefetching beyond synchronization points. We showthat successful prefetching beyond synchronization points requiresovercoming two challenges. First, typical prefetchers are designed totrigger prefetches based on current misses. Unlike cores insingle-threaded applications, a multi-threaded core stall on asynchronization point does not produce new references to trigger aprefetcher. Second, even if a prefetch were correctly directed to readbeyond a synchronization point, it will likely prefetch shared datafrom another core before this data has been written. SB-Fetchaddresses both issues to significantly improve performance andefficiency of shared-memory workloads.\n\nFurther down the memory hierarchy, we have explored several techniquesfor emerging Hybrid memory systems. Hybrid memory systems, comprisedof emerging non-volatile memory (NVM) and DRAM, have been proposed toaddress the growing memory demand of current mobile applications. NVMtechnologies have higher capacity density, minimal static powerconsumption, but longer access latency and limited write endurancecompared to DRAM. The different characteristics of these two memoryclasses, however, pose new challenges for memory system design.Ideally, pages shall be placed or migrated between the two types ofmemories according to the data objects' access properties.  Weproposed OpenMem: a hardware-software cooperative approach to addressplacement and migration within hybrid memory systems, that combinesthe execution time advantages of pure hardware approaches with thedata object properties in a global scope. Experimental results showthat OpenMem reduces energy consumption by 44.6% with only a 16%performance degradation compared to an all-DRAM memorysystem. Further, writes to the NVM are reduced by 14% versus ahardware-only approach, extending the NVM device lifetime.\n\nThese works have already seen significant interest from industry.  Inparticular, we have seen interest from four companies to date (Intel,ARM, Oppo and Samsung) in implementing some or all of the techniqueswe developed under this project.\n\nThis project was instrumental in the training of three PhD and two MSstudents with an understanding of secure, energy efficient processordesign.  Further, the research developed in this project hascontributed to both the undergraduate and graduate course work atTexas A&amp;M University.\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/01/2021\n\n\t\t\t\t\tSubmitted by: Paul V Gratz"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1550936",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Protecting Election Integrity Via Automated Ballot Usability Evaluation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Indrajit Ray",
+ "awd_eff_date": "2015-10-01",
+ "awd_exp_date": "2019-09-30",
+ "tot_intn_awd_amt": 299996.0,
+ "awd_amount": 299996.0,
+ "awd_min_amd_letter_date": "2015-08-11",
+ "awd_max_amd_letter_date": "2015-08-11",
+ "awd_abstract_narration": "Anything that causes the vote tally to differ from the intent of the voters is a threat to election integrity. While most threats to election integrity have concerned security, there is another critical threat to election integrity: usability. When voters are unable to successfully communicate their intent due to poor ballot design, this threatens the integrity of the election, no matter what the level of security is. Traditional usability testing methods do not scale well to the tens of thousands of different ballot styles deployed across the United States in each election, so an alternative solution is necessary. This research aims to address this problem by developing the science necessary to support a tool that, when given a ballot as input, produces an assessment of whether or not that ballot is likely to lead to voter error, and if so, where on the ballot these errors are most likely to occur.\r\n\r\nThis research is based on computational human performance models developed with a well-established cognitive architecture. This architecture has been successfully applied to other usability problems by numerous researchers in the past, though never to voting. Extensions to the existing modeling system will be required in the domain of understanding visual grouping. In addition, the system will be used in a novel way. Most similar problems have been addressed by constructing a single human model that represents a single strategy. In this project, the researchers are constructing a family of models based on an exploration of the space of ballot completion and visual search strategies available to voters. Then, the stochastic model is run repeatedly at every point in the strategy space in order to discover which intersections of voter strategies and ballot designs lead to high error rates. The researchers are validating the approach using existing known bad ballots as well as with new behavioral data. The results of this research will allow the construction of a ballot analysis tool that could be used by election officials to identify potentially problematic ballots before deploying them on election day.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Byrne",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael D Byrne",
+   "pi_email_addr": "byrne@rice.edu",
+   "nsf_id": "000383185",
+   "pi_start_date": "2015-08-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "William Marsh Rice University",
+  "inst_street_address": "6100 MAIN ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "Houston",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "7133484820",
+  "inst_zip_code": "770051827",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "TX09",
+  "org_lgl_bus_name": "WILLIAM MARSH RICE UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "K51LECU1G8N3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "William Marsh Rice University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "770051827",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "TX09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 299996.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Ballots used in elections are not always well-designed. Flaws in ballot design can lead voters to make errors, and this can affect the outcome in a election, as it famously did in the presidential election in Florida in 2000. This is still a problem, as a U.S. Senate election in 2018 was also likely decided by poor ballot design. While we know how to design better ballots, there are too many jurisdictions and too many different ballots for human usability experts to manually evaluate--or conduct usability studies on--all of them. A usability evaluation method that scales to a problem this large does not yet exist. This project began do the basic science to support a computational model of human performance that is able to automatically analyze a ballot and flag areas where there are potential design flaws. Such a tool has the potential to improve election integrity by ensuring that what is recorded on each ballot is actually what each voter intended. In addition, this research will also contribute to our understanding of how errors emerge in other form fill-in contexts, which should apply to related tasks such as use of electronic health records.&nbsp;</p>\n<p><br />Toward that goal, this project accomplished several things. First, while a system to build computational models of human performance already existed, that system has certain limitations that needed to be overcome to model people interacting with ballots. The major limitation is that system did not model how people see sets of visual objects as groups, which is critical for understanding how people navigate ballots. We developed and tested a model of human visual grouping that handles this, and did studies to see if the model matched human behavior. Second, we conducted two eye-tracking studies of voters to better understand what strategies they use and how they visually navigate ballots. Third, using both the visual grouping model and information gained from the eye-tracking experiments, we constructed a computational model of voting that makes errors, and showed that errors in voting can emerge from a combination of voter strategy, voter knowledge of the candidates, and visual design of the ballot. This model does not yet work on all possible ballot designs, but we have a solid start. Fifth, we conducted a study using \"bad\" ballots to produce data that we will ultimately use to validate the model.</p>\n<p><br />This research is thus contributing to basic science multiple ways, such as understanding how people visually group objects and the nature of how people make errors, but is also ultimately aimed at addressing a critical real-world problem, which is ensuring the integrity of elections by making sure what is recorded on the ballot matches what voters meant to put there.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/29/2019<br>\n\t\t\t\t\tModified by: Michael&nbsp;D&nbsp;Byrne</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nBallots used in elections are not always well-designed. Flaws in ballot design can lead voters to make errors, and this can affect the outcome in a election, as it famously did in the presidential election in Florida in 2000. This is still a problem, as a U.S. Senate election in 2018 was also likely decided by poor ballot design. While we know how to design better ballots, there are too many jurisdictions and too many different ballots for human usability experts to manually evaluate--or conduct usability studies on--all of them. A usability evaluation method that scales to a problem this large does not yet exist. This project began do the basic science to support a computational model of human performance that is able to automatically analyze a ballot and flag areas where there are potential design flaws. Such a tool has the potential to improve election integrity by ensuring that what is recorded on each ballot is actually what each voter intended. In addition, this research will also contribute to our understanding of how errors emerge in other form fill-in contexts, which should apply to related tasks such as use of electronic health records. \n\n\nToward that goal, this project accomplished several things. First, while a system to build computational models of human performance already existed, that system has certain limitations that needed to be overcome to model people interacting with ballots. The major limitation is that system did not model how people see sets of visual objects as groups, which is critical for understanding how people navigate ballots. We developed and tested a model of human visual grouping that handles this, and did studies to see if the model matched human behavior. Second, we conducted two eye-tracking studies of voters to better understand what strategies they use and how they visually navigate ballots. Third, using both the visual grouping model and information gained from the eye-tracking experiments, we constructed a computational model of voting that makes errors, and showed that errors in voting can emerge from a combination of voter strategy, voter knowledge of the candidates, and visual design of the ballot. This model does not yet work on all possible ballot designs, but we have a solid start. Fifth, we conducted a study using \"bad\" ballots to produce data that we will ultimately use to validate the model.\n\n\nThis research is thus contributing to basic science multiple ways, such as understanding how people visually group objects and the nature of how people make errors, but is also ultimately aimed at addressing a critical real-world problem, which is ensuring the integrity of elections by making sure what is recorded on the ballot matches what voters meant to put there.\n\n\t\t\t\t\tLast Modified: 12/29/2019\n\n\t\t\t\t\tSubmitted by: Michael D Byrne"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "awd_id": "1438969",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: FULL: FP: Collaborative Research: Model-based, Event Driven Scalable Programming for the Mobile Cloud",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 333333.0,
+ "awd_amount": 333333.0,
+ "awd_min_amd_letter_date": "2014-07-18",
+ "awd_max_amd_letter_date": "2014-07-18",
+ "awd_abstract_narration": "Title: XPS: FULL: FP: Collaborative Research: Model-based, Event Driven Scalable Programming for the Mobile Cloud\r\n\r\nApplications running on mobile devices backed by cloud servers and storage (mobile cloud apps) are an important paradigm that is not well supported by current programming technology.  Although cloud computing technology makes massive computational resources readily available, current frameworks for developing applications provide no simple and flexible way to map user-level application code to these resources.  The intellectual merits of this project are to develop a new methodology for building mobile cloud applications that can leverage cloud resources in a scalable way while dramatically simplifying the development effort.   The project's broader significance and importance are  that it will provide a method for software development teams to build and deploy distributed mobile applications that exploit massive concurrency and data storage with less effort than is required to build simple web applications today.\r\n \r\nApplications built following the proposed methodology have two distinct levels: a user level specifying the semantics of user interaction, and an architecture level specifying the allocation of computational resources.  At each level, behavior can be expressed in a simple but powerful language thus providing modularity.  The research project involves: (a) developing these languages; (b) devising automatic semantics-preserving translation from the user to the architecture level that allows the developer to adjust the application semantics and tune performance independently; (c) building a toolset that enables a range of analyses (including new forms of testing, model checking, and static analysis) that are less costly and more effective than traditional testing.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Daniel",
+   "pi_last_name": "Jackson",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Daniel Jackson",
+   "pi_email_addr": "dnj@csail.mit.edu",
+   "nsf_id": "000460161",
+   "pi_start_date": "2014-07-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 Massachusetts Avenue",
+  "perf_city_name": "Cambridge",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 333333.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Helvetica; -webkit-text-stroke: #000000} span.s1 {font-kerning: none} -->\n<p class=\"p1\"><span class=\"s1\">Distributed software is common in the real-world but remains error-prone.&nbsp; Even when the underlying logic is inherently sequential and simple, addressing distributed aspects results in complex cross-cutting code that undermines such simplicity.&nbsp; The project developed methods and tools to make distributed programming more robust. One approach was to provide a clean separation of concerns and retains the simplicity of sequential computation, using it as a basis onto which distributed aspects are added without corrupting the essential sequential structure, while offloading much of the complexity of implementing distributed concerns to the compiler. The approach was demonstrated on web applications.&nbsp;</span></p>\n<p class=\"p1\"><span class=\"s1\">New methods for ensuring the correctness of distributed programs developed include methods for specifying and inferring the concurrency structure of distributed programs, as well as for testing programs.&nbsp;&nbsp; One area explored was to find erroneous assumptions in Java code by checking client code against models of library methods, which encode all behaviors allowed by the specifications. This was developed into a tool and demonstrated by applying to 46 tests.&nbsp; The results provide new insights into the complexity of exploring the behaviors of code that uses underdetermined APIs and the structure of state spaces that arise in the exploration.&nbsp; It also provides a basis for future work on better detecting faults in tests that invoke underdetermined APIs as well as developing tool support for writing and maintaining more robust test suites.&nbsp;&nbsp; The project further developed an approach to make regression testing&mdash;the process of testing programs that continuously updated&mdash;more efficient.&nbsp;</span></p>\n<p class=\"p1\"><span class=\"s1\">A key problem in testing distributed programs is that there are too many potential schedules (orders in which concurrent activity may take places).&nbsp; The project developed methods which are effective in inferring if there are feasible schedules that could lead to problematic executions.&nbsp; A tool was developed for a popular programming framework (actors) used for distributed programming in industry (AKKA).&nbsp; Our evaluation showed that the tool achieved a relatively high target coverage (78% on 1,000 potentially problematic executions or targets) and detected previously unreported bugs.</span></p>\n<p class=\"p1\"><span class=\"s1\">&nbsp;</span>The project developed a dynamic inference tool to determine the intended concurrency structure of a distributed program.&nbsp; Such a structure can be expressed as pluggable types, checked and extended statically (without execution), and used as basis of transforming concurrent programs so that they are suitable for distributed execution (e.g. on the cloud and on mobile devices).&nbsp; The project also developed methods for inferring the evolution of the interface of a large class of programs, as different actors change state and are unable to perform certain functions at different times.&nbsp; Such evolution affects their interaction with other actors.&nbsp; By ensuring that only certain invocations are made in a particular order, we can enforce interaction protocols which avoid potentially problematic behaviors.&nbsp;&nbsp; Session type systems enable inference and enforcement of message exchange patterns for distributed programs. Essentially, session types can capture the evolution of interfaces of different actors in a system, including cross-program causal message passing dependencies.&nbsp; The project developed methods for specifying and inferring mutiparty session types, both to ensure safety and, for an important class of programs, to guarantee that the system makes progress.</p>\n<p class=\"p1\"><span class=\"s1\">Many safety critical applications in the real-world, such as IoT devices, medical devices, industrial process controllers, and sensor networks, involve distributed systems.&nbsp; The results of project will further research in the field and suggests a number of ways to improve the safety and reliability of such distributed software in the future.&nbsp;</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2018<br>\n\t\t\t\t\tModified by: Daniel&nbsp;Jackson</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nDistributed software is common in the real-world but remains error-prone.  Even when the underlying logic is inherently sequential and simple, addressing distributed aspects results in complex cross-cutting code that undermines such simplicity.  The project developed methods and tools to make distributed programming more robust. One approach was to provide a clean separation of concerns and retains the simplicity of sequential computation, using it as a basis onto which distributed aspects are added without corrupting the essential sequential structure, while offloading much of the complexity of implementing distributed concerns to the compiler. The approach was demonstrated on web applications. \nNew methods for ensuring the correctness of distributed programs developed include methods for specifying and inferring the concurrency structure of distributed programs, as well as for testing programs.   One area explored was to find erroneous assumptions in Java code by checking client code against models of library methods, which encode all behaviors allowed by the specifications. This was developed into a tool and demonstrated by applying to 46 tests.  The results provide new insights into the complexity of exploring the behaviors of code that uses underdetermined APIs and the structure of state spaces that arise in the exploration.  It also provides a basis for future work on better detecting faults in tests that invoke underdetermined APIs as well as developing tool support for writing and maintaining more robust test suites.   The project further developed an approach to make regression testing&mdash;the process of testing programs that continuously updated&mdash;more efficient. \nA key problem in testing distributed programs is that there are too many potential schedules (orders in which concurrent activity may take places).  The project developed methods which are effective in inferring if there are feasible schedules that could lead to problematic executions.  A tool was developed for a popular programming framework (actors) used for distributed programming in industry (AKKA).  Our evaluation showed that the tool achieved a relatively high target coverage (78% on 1,000 potentially problematic executions or targets) and detected previously unreported bugs.\n The project developed a dynamic inference tool to determine the intended concurrency structure of a distributed program.  Such a structure can be expressed as pluggable types, checked and extended statically (without execution), and used as basis of transforming concurrent programs so that they are suitable for distributed execution (e.g. on the cloud and on mobile devices).  The project also developed methods for inferring the evolution of the interface of a large class of programs, as different actors change state and are unable to perform certain functions at different times.  Such evolution affects their interaction with other actors.  By ensuring that only certain invocations are made in a particular order, we can enforce interaction protocols which avoid potentially problematic behaviors.   Session type systems enable inference and enforcement of message exchange patterns for distributed programs. Essentially, session types can capture the evolution of interfaces of different actors in a system, including cross-program causal message passing dependencies.  The project developed methods for specifying and inferring mutiparty session types, both to ensure safety and, for an important class of programs, to guarantee that the system makes progress.\nMany safety critical applications in the real-world, such as IoT devices, medical devices, industrial process controllers, and sensor networks, involve distributed systems.  The results of project will further research in the field and suggests a number of ways to improve the safety and reliability of such distributed software in the future. \n\n\t\t\t\t\tLast Modified: 11/30/2018\n\n\t\t\t\t\tSubmitted by: Daniel Jackson"
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "awd_id": "2047253",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CAREER: Learning Structured Representations with Deep Probabilistic Programs",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032928318",
+ "po_email": "vpavlovi@nsf.gov",
+ "po_sign_block_name": "Vladimir Pavlovic",
+ "awd_eff_date": "2021-10-01",
+ "awd_exp_date": "2023-09-30",
+ "tot_intn_awd_amt": 474383.0,
+ "awd_amount": 282867.0,
+ "awd_min_amd_letter_date": "2021-07-07",
+ "awd_max_amd_letter_date": "2024-03-05",
+ "awd_abstract_narration": "Programming languages can play a decisive role in democratizing machine learning research. In deep learning, programming frameworks have made it possible \u2013 and even routine \u2013 to define neural networks in a modular manner. This has led to an explosion of research, with breakthroughs in computer vision, natural language processing, and reinforcement learning. The proposed work will develop deep probabilistic programming languages, which train neural networks to perform inference in simulation-based models. These languages will help the community address emerging challenges in artificial intelligence research by developing models that incorporate inductive biases to reason about uncertainty and improve generalization from limited data. In applications in the physical sciences, inductive biases can incorporate our physical knowledge of a problem domain. More generally, probabilistic programs help us represent model structure, for example to reason about how actions affect objects in a scene. \r\n\r\nThe technical challenge that the proposed work addresses is scaling up methods for inference in probabilistic programs. To do so, the investigators will develop a language for inference programming, which will allow users to optimize the inference approach for a specific model. Inference methods reason about the posterior distribution over unknown variables in a program in light of observed data. Stochastic variational methods approximate the posterior by training a neural network that accepts data as input and returns a distribution over variables. This strategy works well in simple models in which unknown variables take the form of an unstructured vector. However, in models with more complex structure, efficient inference often requires reasoning about conditional independence. This is challenging for programmatically specified models, where reasoning about model structure requires program analysis. To address this challenge, the investigators will develop an inference language based on two constructs. The first are model combinators, which define a first-order language for composing black-box programs in a manner that allows us to reason about conditional independence. The second are inference combinators, which may be used to apply correct-by-construction importance sampling operations to specific components of the model. Together, model and inference combinators will allow users to develop correct and efficient stochastic variational methods for specific models. In addition to developing these fundamental abstractions and proving their correctness, the investigators will demonstrate the utility of these methods in applications to few-shot deep generative models, and structured energy-based models.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Jan-Willem",
+   "pi_last_name": "van de Meent",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Jan-Willem van de Meent",
+   "pi_email_addr": "j.vandemeent@northeastern.edu",
+   "nsf_id": "000757594",
+   "pi_start_date": "2021-07-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Northeastern University",
+  "inst_street_address": "360 HUNTINGTON AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173735600",
+  "inst_zip_code": "021155005",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "NORTHEASTERN UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HLTMVS2JZBS6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Northeastern University",
+  "perf_str_addr": "360 Huntington Ave.",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021155005",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  },
+  {
+   "pgm_ref_code": "7495",
+   "pgm_ref_txt": "ROBUST INTELLIGENCE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0122",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 224383.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 58483.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>One of the major lessons in AI research over the past decade has been that incredible economies of scale can emerge when models are provided with more data and more compute. This realization has lead to a consolidation of AI research efforts around the development of very large neural networks for images and text. These models have demonstrated remarkable generalization across a range of tasks. At the same time, there is still a tremendous amount of work ahead of us, even today, in terms of scaling AI methods to problems in the long tail of application domains. This remains particularly true in science and engineering disciplines, where data modalities are more diverse and reasoning often requires integrating knowledge about they physical world into a model design. <br /><br />This project has focused on accelerating the rate at which AI models can be developed for new domains. To this end, we have developed methods for training <em>deep probabilistic models</em>, which inherit the flexibility of neural networks, but can incorporate domain knowledge and inductive biases when needed. The core technical problem that this project addresses is scaling up methods for Bayesian inference, which allow us to reason about distributions over unobserved variables in light of observed data. Scaling inference raises challenges that are complementary to those addressed by deep learning research. In addition to iterating on the design of a neural architecture and objective, as in standard deep learning approaches, development of deep probabilistic requires iterating on the design of inference algorithms. <br /><br />To address this challenge, this project has developed new programming language abstractions. Specifically, we have combined differentiable programming, which forms the basis for deep learning, with methods for <em>inference programming</em>, which allow a user to specify and optimize inference methods. Together, these two abstractions provide a framework for <em>deep probabilistic programming</em>, in which a user can design a probabilistic model, parameterized by neural networks, along with a corresponding inference algorithm that is specifically designed to yield efficient inference for this model.<br /><br />The key abstraction that this project develops are <em>inference combinators</em>, a set of compositional operators that define a language for nested importance samplers. By deriving operational semantics for this language, we were able to show that any composition of inference combinators defines a valid importance sampler for a model in the form of a probabilistic program. To combine inference programming with deep learning, we developed <em>nested variational inference</em>, a class of methods for training neural proposals for the class of importance samplers that can be specified in terms of inference combinators. Together, the combinator-based language for nested importance samplers and the corresponding class of nested variational inference algorithms define a general framework for <em>deep probabilistic programming</em>, that enables iterative design of both a model and its corresponding inference method. <br /><br />In addition to publishing our work on inference combinators and nested variational inference in academic venues, we have released this work as open source software. A reference implementation has been made available for <em>Probabilistic Torch</em>, a deep probabilistic programming that was developed as part of this project. In addition, we have collaborated with researchers at Google to develop an implementation of the inference combinators framework for the JAX differentiable programming language, which in turn supports both the NumPyro and Oryx deep probabilistic programming languages.</p><br>\n<p>\n Last Modified: 07/24/2024<br>\nModified by: Jan-Willem&nbsp;Van De Meent</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nOne of the major lessons in AI research over the past decade has been that incredible economies of scale can emerge when models are provided with more data and more compute. This realization has lead to a consolidation of AI research efforts around the development of very large neural networks for images and text. These models have demonstrated remarkable generalization across a range of tasks. At the same time, there is still a tremendous amount of work ahead of us, even today, in terms of scaling AI methods to problems in the long tail of application domains. This remains particularly true in science and engineering disciplines, where data modalities are more diverse and reasoning often requires integrating knowledge about they physical world into a model design. \n\nThis project has focused on accelerating the rate at which AI models can be developed for new domains. To this end, we have developed methods for training deep probabilistic models, which inherit the flexibility of neural networks, but can incorporate domain knowledge and inductive biases when needed. The core technical problem that this project addresses is scaling up methods for Bayesian inference, which allow us to reason about distributions over unobserved variables in light of observed data. Scaling inference raises challenges that are complementary to those addressed by deep learning research. In addition to iterating on the design of a neural architecture and objective, as in standard deep learning approaches, development of deep probabilistic requires iterating on the design of inference algorithms. \n\nTo address this challenge, this project has developed new programming language abstractions. Specifically, we have combined differentiable programming, which forms the basis for deep learning, with methods for inference programming, which allow a user to specify and optimize inference methods. Together, these two abstractions provide a framework for deep probabilistic programming, in which a user can design a probabilistic model, parameterized by neural networks, along with a corresponding inference algorithm that is specifically designed to yield efficient inference for this model.\n\nThe key abstraction that this project develops are inference combinators, a set of compositional operators that define a language for nested importance samplers. By deriving operational semantics for this language, we were able to show that any composition of inference combinators defines a valid importance sampler for a model in the form of a probabilistic program. To combine inference programming with deep learning, we developed nested variational inference, a class of methods for training neural proposals for the class of importance samplers that can be specified in terms of inference combinators. Together, the combinator-based language for nested importance samplers and the corresponding class of nested variational inference algorithms define a general framework for deep probabilistic programming, that enables iterative design of both a model and its corresponding inference method. \n\nIn addition to publishing our work on inference combinators and nested variational inference in academic venues, we have released this work as open source software. A reference implementation has been made available for Probabilistic Torch, a deep probabilistic programming that was developed as part of this project. In addition, we have collaborated with researchers at Google to develop an implementation of the inference combinators framework for the JAX differentiable programming language, which in turn supports both the NumPyro and Oryx deep probabilistic programming languages.\t\t\t\t\tLast Modified: 07/24/2024\n\n\t\t\t\t\tSubmitted by: Jan-WillemVan De Meent\n"
+ }
+}

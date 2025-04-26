@@ -1,0 +1,113 @@
+{
+ "awd_id": "1320941",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:  Small: Software-Driven Hardware Resiliency",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927498",
+ "po_email": "achtchel@nsf.gov",
+ "po_sign_block_name": "Almadena Chtchelkanova",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2013-07-30",
+ "awd_max_amd_letter_date": "2013-07-30",
+ "awd_abstract_narration": "Moore's law continues to provide abundant devices on chip, but they are increasingly subject to failures from many sources. The hardware reliability problem is expected to be pervasive, affecting markets from embedded systems to high performance computing. There is an urgent need for research to address this problem with extremely low overheads in area, performance, and power (precluding traditional redundancy based solutions). Recently, researchers have proposed a software-driven hardware reliability solution that handles only the device faults that become visible to software and cause anomalous software behavior. This line of work has been quite successful in detecting most faults at extremely low cost. Unfortunately, some hardware faults escape detection by the proposed anomaly monitors, resulting in silent data corruption or SDC. These remaining few SDCs have been the Achilles heel of the software-driven hardware resiliency approach and a hindrance to widespread adoption. The proposed research seeks to overcome this obstacle. \r\n  \r\nThe research includes methodological innovations that can determine application sites vulnerable to SDCs within a practical workflow and resiliency solution that uses this information to develop low cost detection and recovery techniques to mitigate the impact of SDCs.  It builds on a recent resiliency analysis tool developed by the Principle Investigator's group called Relyzer. The key insight is that instead of trying to determine the outcome of each fault site, Relyzer can seek to determine which application sites will produce equivalent outcomes. This enables pruning a large number of sites and focusing on fault injections for just one site per equivalence class, resulting in significant reduction in resiliency evaluation time. In addition to providing a list of SDC vulnerable instructions, Relyzer also provides a wealth of information on why they are vulnerable. This motivates the use of inexpensive application-specific detectors that exploit this information. However, Relyzer has several limitations in speed, accuracy, and generality, precluding its use in a practical workflow. This research will first develop new techniques to address these limitations and to implement them in a tool. Second, this research will explore systematic techniques to develop practical resiliency solutions that exploit the wealth of fault-propagation information exposed by Relyzer. It will develop systematic low-cost detection and recovery techniques, with quantifiable tradeoffs between resiliency and performance overheads, that can be incorporated in a practical workflow for real applications. If successful, this work will address a key challenge in meeting the expectations of Moore's law performance for a wide variety of societal advances. Besides the research benefits, it will provide a concrete tool for practical full application resiliency analysis and will also train graduate students.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sarita",
+   "pi_last_name": "Adve",
+   "pi_mid_init": "V",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sarita V Adve",
+   "pi_email_addr": "sadve@cs.uiuc.edu",
+   "nsf_id": "000232935",
+   "pi_start_date": "2013-07-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618207473",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794100",
+   "pgm_ele_name": "COMPUTER ARCHITECTURE"
+  },
+  {
+   "pgm_ele_code": "794300",
+   "pgm_ele_name": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7941",
+   "pgm_ref_txt": "COMPUTER ARCHITECTURE"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Intellectual Merit: As Moore's law comes to an end, hardware is increasingly susceptible to errors. Conventional techniques to improve hardware reliabilty involved redundancy, which is expensive. This project concerns cheaper software-driven solutions to the hardware reliabilty problem.</p>\n<p>Our previous work built Relyzer, a first of a kind tool that can precisely and accurately identify the impact of a single bit error in an architectural register in any instruction of an application. While Relyzer is orders of magnitude faster than what was previously possible, it is still slow for practical use.</p>\n<p>We developed a collection of techniques that together significantly speed up Relyzer's resiliency analysis while also increasing the accuracy of such analysis. Further, our new tools enable predicting the impact of a hardware error on the quality of the application output, enabling combining the emerging field of approximate computing with hardware resiliency in a principled way. The end goal of this line of work is to incorporate software resliiency to hardware errors in the standard software design and test workflow.</p>\n<p>Specifically, we developed the following. (1) We developed Ganges, a technique to speedup resiliency analysis that identifies when an error simulation reaches a state that has been seen before, thereby removing the need for further simulation. (2) We developed Approxilyzer, a tool that builds on Relyzer to, for the first time, predict the impact on output quality of all single bit errors in registers at the instruction level. This enables focusing resiliency solutions only on errors that have an unacceptable impact on output quality. It allows trading off output quality (approximation) with resources in a principled way.&nbsp; (3) We developed Minotaur that brings to bear techniques developed in the software testing literature for the problem of software resilience to hardware errors. Minotaur significantly improves the performance of resiliency analysis of Approxilyzer and also succeeds in identifying more silent data corruptions than Approxilyzer. (4) We performed a study of the impact of software approximations on the resiliency of the software to hardware errors for a state-of-the-art video summarization application and approximations.</p>\n<p>We released the Approxilyzer tool. This tool consists of some proprietary software and works on SPARC ISA. We have therefore developed a version on a fully open source infrastructure with the more common x86 ISA and expect to release it shortly.</p>\n<p>Broader Impact: Two PhD students have been trained on this project. They have given many presentations, published papers on their work, and done industry internships related to this work. One of them is female. Both are expected to graduate soon. One undergraduate student working on the project joined the MS program and completed his MS thesis on this project. We have collaborated with IBM and Nvidia on this work. These collaborations are ongoing although the impact on real products remains to be seen. The PI has been involved in many activities to make our community more diverse and inclusive, including chairing CRA's mentoring workshops and speaking at&nbsp; a CRA-W mentoring workshop for junior researchers.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/26/2018<br>\n\t\t\t\t\tModified by: Sarita&nbsp;V&nbsp;Adve</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIntellectual Merit: As Moore's law comes to an end, hardware is increasingly susceptible to errors. Conventional techniques to improve hardware reliabilty involved redundancy, which is expensive. This project concerns cheaper software-driven solutions to the hardware reliabilty problem.\n\nOur previous work built Relyzer, a first of a kind tool that can precisely and accurately identify the impact of a single bit error in an architectural register in any instruction of an application. While Relyzer is orders of magnitude faster than what was previously possible, it is still slow for practical use.\n\nWe developed a collection of techniques that together significantly speed up Relyzer's resiliency analysis while also increasing the accuracy of such analysis. Further, our new tools enable predicting the impact of a hardware error on the quality of the application output, enabling combining the emerging field of approximate computing with hardware resiliency in a principled way. The end goal of this line of work is to incorporate software resliiency to hardware errors in the standard software design and test workflow.\n\nSpecifically, we developed the following. (1) We developed Ganges, a technique to speedup resiliency analysis that identifies when an error simulation reaches a state that has been seen before, thereby removing the need for further simulation. (2) We developed Approxilyzer, a tool that builds on Relyzer to, for the first time, predict the impact on output quality of all single bit errors in registers at the instruction level. This enables focusing resiliency solutions only on errors that have an unacceptable impact on output quality. It allows trading off output quality (approximation) with resources in a principled way.  (3) We developed Minotaur that brings to bear techniques developed in the software testing literature for the problem of software resilience to hardware errors. Minotaur significantly improves the performance of resiliency analysis of Approxilyzer and also succeeds in identifying more silent data corruptions than Approxilyzer. (4) We performed a study of the impact of software approximations on the resiliency of the software to hardware errors for a state-of-the-art video summarization application and approximations.\n\nWe released the Approxilyzer tool. This tool consists of some proprietary software and works on SPARC ISA. We have therefore developed a version on a fully open source infrastructure with the more common x86 ISA and expect to release it shortly.\n\nBroader Impact: Two PhD students have been trained on this project. They have given many presentations, published papers on their work, and done industry internships related to this work. One of them is female. Both are expected to graduate soon. One undergraduate student working on the project joined the MS program and completed his MS thesis on this project. We have collaborated with IBM and Nvidia on this work. These collaborations are ongoing although the impact on real products remains to be seen. The PI has been involved in many activities to make our community more diverse and inclusive, including chairing CRA's mentoring workshops and speaking at  a CRA-W mentoring workshop for junior researchers.\n\n\t\t\t\t\tLast Modified: 07/26/2018\n\n\t\t\t\t\tSubmitted by: Sarita V Adve"
+ }
+}

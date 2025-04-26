@@ -1,0 +1,98 @@
+{
+ "awd_id": "2319168",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: FMitF: Track I: The Phlox framework for verifying a high-performance distributed database",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2023-10-01",
+ "awd_exp_date": "2027-09-30",
+ "tot_intn_awd_amt": 249867.0,
+ "awd_amount": 249867.0,
+ "awd_min_amd_letter_date": "2023-09-05",
+ "awd_max_amd_letter_date": "2023-09-05",
+ "awd_abstract_narration": "Distributed databases, such as Google's Spanner and Amazon's DynamoDB and Redshift, are the foundation of many distributed applications and help application developers handle complex issues including concurrency, crash recovery, replication, and consistency in the face of network partitions. Building these infrastructure systems, however, is challenging and error-prone, and the cost of bugs is high. This project aims to demonstrate the feasibility of formal verification to handle sophisticated distributed databases, so as to eliminate entire classes of bugs that can lead to application errors and outages. Specifically, this project will develop a prototype distributed database called vDDB, along with a new verification framework called Phlox, which will be used to formally specify vDDB and verify its correctness. vDDB will incorporate sophisticated optimizations seen in real systems, such as multi-version concurrency control, read-set validation, leases, etc. A key challenge in verifying vDDB lies in handling many different types of non-determinism. For example, a transaction that might normally commit may be forced to abort because some server crashed, or a network outage happened, or other transactions happened to run just before it and made conflicting changes to shared data. All of these forms of non-determinism are difficult for proof developers to reason about, and a central theme in Phlox is to use a proof technique called prophecy variables, which resolves future non-determinism once upfront, instead of forcing developers to consider many possible executions as the program runs.\r\n\r\nThis project has two primary related benefits. The first comes from building more reliable distributed systems. Distributed databases are the foundation of many distributed systems, helping application developers handle concurrency, availability, and fault tolerance, yet their complexity leads to subtle bugs that cause outages. Being able to formally specify and verify their correctness will improve their reliability and could avoid some of the outages that have occurred with unverified systems in the past. The second comes from educating systems engineers about the use of formal methods to specify and verify the correctness of their implementations. This project includes the development of new tutorials and lab assignments for verification of distributed systems that will be taught in classes at MIT and NYU, as well as the continued organization of the annual New England Systems Verification Day that brings together systems verification researchers and practitioners.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Joseph",
+   "pi_last_name": "Tassarotti",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Joseph D Tassarotti",
+   "pi_email_addr": "jt4767@nyu.edu",
+   "nsf_id": "000810613",
+   "pi_start_date": "2023-09-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "70 WASHINGTON SQ S",
+  "perf_city_name": "NEW YORK",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121019",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "094Y00",
+   "pgm_ele_name": "FMitF: Formal Methods in the F"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "071Z",
+   "pgm_ref_txt": "FMitF-Formal Methods in the Field"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 249867.0
+  }
+ ],
+ "por": null
+}

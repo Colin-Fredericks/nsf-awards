@@ -1,0 +1,109 @@
+{
+ "awd_id": "1059283",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Foundations for Predictive Resource Management in Next-Generation Multicore Processor Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Hong Jiang",
+ "awd_eff_date": "2010-09-15",
+ "awd_exp_date": "2012-08-31",
+ "tot_intn_awd_amt": 100000.0,
+ "awd_amount": 100000.0,
+ "awd_min_amd_letter_date": "2010-09-15",
+ "awd_max_amd_letter_date": "2010-09-15",
+ "awd_abstract_narration": "Future multicore processor systems will have a growing amount of system-wide shared resources. However, shared resources will present significant undesirable asymmetry. For example, the capabilities of processor cores, cache access latency, and memory access cost will differ depending on the time and the location of their usage. If such asymmetry is not properly managed, the full potential of the multicore computing paradigm will not be achieved. This exploratory research will investigate a novel predictive resource management framework called MAESTRO. The proposed framework automatically learns asymmetry in the system and useful application behavior; the learned knowledge is accumulated and refined; and resource management decisions, such as cache capacity allocation, are made in a predictive manner by exploiting the accumulated knowledge. It is expected that MAESTRO's predictive strategies with detailed system and application knowledge will be a more effective solution to new multicore resource management problems than conventional reactive strategies with limited knowledge. The PI will validate this expectation with solid system prototyping and by studying two target resource management problems.\r\n\t\r\nThe project has the potential to impact the way future computer systems are designed and managed. It is inter-disciplinary by nature and requires understating of applications, computer architecture, OS and machine learning. Students working on this project will receive rigorous inter-disciplinary training.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sangyeun",
+   "pi_last_name": "Cho",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sangyeun Cho",
+   "pi_email_addr": "cho@cs.pitt.edu",
+   "nsf_id": "000386645",
+   "pi_start_date": "2010-09-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Pittsburgh",
+  "inst_street_address": "4200 FIFTH AVENUE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4126247400",
+  "inst_zip_code": "152600001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MKAGLD59JRL1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Pittsburgh",
+  "perf_str_addr": "4200 FIFTH AVENUE",
+  "perf_city_name": "PITTSBURGH",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152600001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794100",
+   "pgm_ele_name": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The common theme of the research tasks in this project has&nbsp;been to intelligently monitor and characterize system workloads and to&nbsp;predictively manage a computer system's resources such as CPUs, caches, and memory.</p>\n<p>&nbsp;</p>\n<p>In the early stage of our research, we developed a novel multithreaded&nbsp;program characterization framework called \"BarrierWatch\"&nbsp;(published in&nbsp;Computing Frontiers 2011). The main idea of BarrierWatch is that, in&nbsp;each program interval defined by two barrier synchronization points,&nbsp;the program shows a repeatable behavior. Because such intervals occur&nbsp;multiple times, this characteristic gives us the ability to predict&nbsp;the behavior of an interval that we've seen previously. We proved the&nbsp;concept using a realistic example of power-performance management of&nbsp;network-on-chip resources.</p>\n<p>In our \"Maestro\" work (published in the NASA/ESA Conference on&nbsp;Adaptive Hardware and Systems (AHS) 2011), we outline our overall&nbsp;system architecture with regard to intelligent predictive resource&nbsp;management. This work finds that the intended and unintended&nbsp;asymmetries in system resource characteristics and usage will only&nbsp;increase in the future.&nbsp;It also finds that efficiently learning an application characteristics&nbsp;as well as learning the properties of the platform resources is key to&nbsp;the success of predictive resource management.</p>\n<p>&nbsp;</p>\n<p>In the \"DEFCAM\"&nbsp;work (published in ACM TACO), we monitor the cache's \"faulty-ness\" and&nbsp;predictively apply/tune the cache resource salvaging methods to&nbsp;achieve the highest performance given the situation. This work is&nbsp;comprehensive and provides a framework to evaluate existing and new&nbsp;performance and yield enhancing strategies relevant to on-chip memory&nbsp;designs.</p>\n<p>&nbsp;</p>\n<p>\"RDIS\"&nbsp;(Recursively Defined Invertible Set) is a novel technique to mask&nbsp;off the effects of faults in large resistive memories. What separates&nbsp;this work (published in DSN 2012) from prior art is that it builds on a strong theoretical&nbsp;analysis of important fault characteristics of resistive memory,&nbsp;namely, stuck-at fault model and readability of faulty cells. RDIS&nbsp;allows for the correct retrieval of data by recursively determining&nbsp;and efficiently keeping track of the positions of the bits that are&nbsp;stuck at a value different from the ones that are written, and then,&nbsp;at read time, by inverting the values read from those positions. RDIS&nbsp;boasts a very low probability of failure that increases&nbsp;slowly with the relative increase in the number of faults. Moreover,&nbsp;RDIS tolerates many more faults than the best existing schemes by up to&nbsp;95% on average at the same overhead level.</p>\n<p>&nbsp;</p>\n<p>We have also extended our BarrierWatch work&nbsp;and developed a new technique to predict future cache coherence activities&nbsp;for synchronization epochs (this work was published at MICRO 2012).&nbsp;We were motivated by the fact that predicting target&nbsp;processors that must be contacted on a cache miss can improve&nbsp;the miss handling latency in shared memory systems. We&nbsp;developed a new run-time coherence target prediction scheme that&nbsp;exploits the inherent correlation between synchronization points in a&nbsp;program and coherence communication. Our&nbsp;predictor reduces the miss latency of a directory protocol&nbsp;by 13%. Compared with existing prediction techniques, our predictor achieves comparable performance&nbsp;using substantially smaller power and storage overheads.</p>\n<p>&nbsp;</p>\n<p>Besides research achievements, this project contributed to the human resource development through funding Ph.D. students and to the general education by providing new course materials at the University of Pittsburgh.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t    ...",
+  "por_txt_cntn": "\nThe common theme of the research tasks in this project has been to intelligently monitor and characterize system workloads and to predictively manage a computer system's resources such as CPUs, caches, and memory.\n\n \n\nIn the early stage of our research, we developed a novel multithreaded program characterization framework called \"BarrierWatch\" (published in Computing Frontiers 2011). The main idea of BarrierWatch is that, in each program interval defined by two barrier synchronization points, the program shows a repeatable behavior. Because such intervals occur multiple times, this characteristic gives us the ability to predict the behavior of an interval that we've seen previously. We proved the concept using a realistic example of power-performance management of network-on-chip resources.\n\nIn our \"Maestro\" work (published in the NASA/ESA Conference on Adaptive Hardware and Systems (AHS) 2011), we outline our overall system architecture with regard to intelligent predictive resource management. This work finds that the intended and unintended asymmetries in system resource characteristics and usage will only increase in the future. It also finds that efficiently learning an application characteristics as well as learning the properties of the platform resources is key to the success of predictive resource management.\n\n \n\nIn the \"DEFCAM\" work (published in ACM TACO), we monitor the cache's \"faulty-ness\" and predictively apply/tune the cache resource salvaging methods to achieve the highest performance given the situation. This work is comprehensive and provides a framework to evaluate existing and new performance and yield enhancing strategies relevant to on-chip memory designs.\n\n \n\n\"RDIS\" (Recursively Defined Invertible Set) is a novel technique to mask off the effects of faults in large resistive memories. What separates this work (published in DSN 2012) from prior art is that it builds on a strong theoretical analysis of important fault characteristics of resistive memory, namely, stuck-at fault model and readability of faulty cells. RDIS allows for the correct retrieval of data by recursively determining and efficiently keeping track of the positions of the bits that are stuck at a value different from the ones that are written, and then, at read time, by inverting the values read from those positions. RDIS boasts a very low probability of failure that increases slowly with the relative increase in the number of faults. Moreover, RDIS tolerates many more faults than the best existing schemes by up to 95% on average at the same overhead level.\n\n \n\nWe have also extended our BarrierWatch work and developed a new technique to predict future cache coherence activities for synchronization epochs (this work was published at MICRO 2012). We were motivated by the fact that predicting target processors that must be contacted on a cache miss can improve the miss handling latency in shared memory systems. We developed a new run-time coherence target prediction scheme that exploits the inherent correlation between synchronization points in a program and coherence communication. Our predictor reduces the miss latency of a directory protocol by 13%. Compared with existing prediction techniques, our predictor achieves comparable performance using substantially smaller power and storage overheads.\n\n \n\nBesides research achievements, this project contributed to the human resource development through funding Ph.D. students and to the general education by providing new course materials at the University of Pittsburgh.\n\n \n\n\t\t\t\t\tLast Modified: 01/01/2013\n\n\t\t\t\t\tSubmitted by: Sangyeun Cho"
+ }
+}

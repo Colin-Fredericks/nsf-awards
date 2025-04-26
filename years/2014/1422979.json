@@ -1,0 +1,105 @@
+{
+ "awd_id": "1422979",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Using a Capability-Enhanced Microkernel as a Testbed for Language-based Security (CEMLaBS)",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Shannon Beck",
+ "awd_eff_date": "2014-10-01",
+ "awd_exp_date": "2018-09-30",
+ "tot_intn_awd_amt": 324364.0,
+ "awd_amount": 324364.0,
+ "awd_min_amd_letter_date": "2014-07-29",
+ "awd_max_amd_letter_date": "2014-07-29",
+ "awd_abstract_narration": "This project is investigating the potential for language-based security techniques in the construction of low-level systems software.  The specific focus is on the development of an open, capability-enhanced microkernel whose design is based on seL4, a \"security enhanced\" version of the L4 microkernel that was developed, by a team in Australia, as the first fully verified, general purpose operating system.\r\n\r\nThe work on seL4 is rightly celebrated as a landmark for formal verification, and provides a strong foundation for building trustworthy systems.  The costs of its development and maintenance, however, are quite high.  We have observed that many of the security properties established in the seL4 verification (including the absence of code injection attacks, buffer overflows, and null pointer dereferences) could have been guaranteed automatically by writing it in a language that incorporates language-based security mechanisms such as an enhanced type system.  Motivated by such insights, the specific goals of this project are to evaluate: whether it is actually feasible to write software of this kind in a language with meaningful, language-based security guarantees; what practical impact this might have, particularly in reducing verification costs; and whether it is possible to meet the performance goals that are\r\ntypically required in such applications.\r\n\r\nThe primary impact of this project will be in increasing the applicability of verification and language-based security techniques for the construction of secure computer systems.  It will also generate and distribute key artefacts including the microkernel implementation, with associated teaching materials, for use in education, research, and industry.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mark",
+   "pi_last_name": "Jones",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mark Jones",
+   "pi_email_addr": "mpj@pdx.edu",
+   "nsf_id": "000661966",
+   "pi_start_date": "2014-07-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Portland State University",
+  "inst_street_address": "1600 SW 4TH AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PORTLAND",
+  "inst_state_code": "OR",
+  "inst_state_name": "Oregon",
+  "inst_phone_num": "5037259900",
+  "inst_zip_code": "972015508",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "OR01",
+  "org_lgl_bus_name": "PORTLAND STATE UNIVERSITY",
+  "org_prnt_uei_num": "WWUJS84WJ647",
+  "org_uei_num": "H4CAHK2RD945"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Portland State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OR",
+  "perf_st_name": "Oregon",
+  "perf_zip_code": "972070751",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "OR01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 324364.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Modern society relies on computer systems in fundamental ways. &nbsp;Whether it is a communication network, a banking system, or a medical device, we must place our trust in these machines to enable, support, and protect us in so many of our day-to-day activities. &nbsp;At the same time, we are all painfully aware that these systems sometimes fail as a result of bugs in their software. &nbsp;At the very least, such failures result in inconvenience as we wait for a system to be restarted or repaired. &nbsp;In the worst-case, however, the consequences can be severe, potentially exposing personal information, compromising our safety, or even risking loss of life. &nbsp;It is important to find efficient and effective ways to design and deploy new software systems for use across the rapidly expanding range of applications. &nbsp;But it is also essential to ensure that the resulting software will function correctly, justifying our implicit trust in the systems that we already rely on many times every day.</p>\n<p>One critical area where these concerns occur is in the design of \"low-level\", \"bare metal\", or \"systems\" software, such as an operating system that interacts directly with the computer's hardware components and provides a platform for running all of the higher-level applications. &nbsp;This kind of software can be difficult to write, requiring the developer to pay attention to many fiddly and subtle details that are easily overlooked. &nbsp;But it is also important to ensure that this software functions correctly because any flaw in this foundational layer can potentially compromise the safety and security of any higher-level applications that it supports.</p>\n<p>In 2009, a group of researchers in Australia announced a major accomplishment in this area, having completed a \"formal verification\" of a low-level operating system (more specifically, a \"capability-enhanced\" microkernel) called seL4. &nbsp;In essence, this group demonstrated, for the first time, that it was possible to build industrially-relevant, high-performance systems software and, simultaneously, to construct a rigorous mathematical proof to show that the software will always obey a high-level, mathematical specification of its behavior. &nbsp;The software for seL4 was written in the C programming language, whose origins date back to the early 1970s; several decades later, C is still well-known and widely used for developing systems software, so it made sense that the seL4 team would choose to use it for their project. &nbsp;On the other hand, in the years since C was first introduced, numerous other programming languages have been designed, incorporating new features that aim to increase programmer productivity, and to detect and prevent broad families of programming errors that can be made inadvertently when writing programs in C. &nbsp;What might these newer languages have to offer when it comes to writing low-level software?</p>\n<p>&nbsp;</p>\n<p>The work on seL4 is rightly celebrated as a landmark achievement, and provides a strong foundation for building trustworthy systems. &nbsp;The costs of its development and maintenance, however, were quite high, involving the construction of a 200,000 line formal proof and requiring approximately 20 person years of effort for a relatively small program that is less than 10,000 lines long. &nbsp;But the decision to write seL4 in C also complicated the formal verification effort because it forced the proof engineers to consider a range of security vulnerabilities that could have been avoided automatically if the code had been written in a newer language. &nbsp;Programming languages the incorporate mechanisms for language-based security, such as a \"type system\", are particularly interesting candidates here because they can be used to ensure that certain important classes of programming errors are detected automatically, without even running the program.</p>\n<p>Motivated by such insights, the specific goals of the CEMLaBS project were to evaluate: whether it is feasible to write software of this kind in a language with meaningful, language-based security guarantees; what practical impact this might have, particularly in reducing verification costs; and whether it is possible to meet the performance goals that are typically required in such applications.</p>\n<p>The project included a strong educational component, centered on the development and delivery of a new course to teach students about the challenges of building low-level software and to explore opportunities for reducing development costs (and improving program quality) by using different programming languages. &nbsp;This course was offered three times at PSU, and an extensive set of course materials, suitable for both group and individual study, has been released under open licenses at http://web.cecs.pdx.edu/~mpj/llp/.</p>\n<p>The project has also lead to the development of tools and sample software using Habit, a programming language that includes features from \"functional\" languages that increase programmer productivity, language-based security features that improve program quality, and systems programming features that support low-level development. &nbsp;The resulting tools, together with sample programs and more information, are available under open source licenses from http://www.habit-lang.org.<br /><br /></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/21/2018<br>\n\t\t\t\t\tModified by: Mark&nbsp;Jones</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nModern society relies on computer systems in fundamental ways.  Whether it is a communication network, a banking system, or a medical device, we must place our trust in these machines to enable, support, and protect us in so many of our day-to-day activities.  At the same time, we are all painfully aware that these systems sometimes fail as a result of bugs in their software.  At the very least, such failures result in inconvenience as we wait for a system to be restarted or repaired.  In the worst-case, however, the consequences can be severe, potentially exposing personal information, compromising our safety, or even risking loss of life.  It is important to find efficient and effective ways to design and deploy new software systems for use across the rapidly expanding range of applications.  But it is also essential to ensure that the resulting software will function correctly, justifying our implicit trust in the systems that we already rely on many times every day.\n\nOne critical area where these concerns occur is in the design of \"low-level\", \"bare metal\", or \"systems\" software, such as an operating system that interacts directly with the computer's hardware components and provides a platform for running all of the higher-level applications.  This kind of software can be difficult to write, requiring the developer to pay attention to many fiddly and subtle details that are easily overlooked.  But it is also important to ensure that this software functions correctly because any flaw in this foundational layer can potentially compromise the safety and security of any higher-level applications that it supports.\n\nIn 2009, a group of researchers in Australia announced a major accomplishment in this area, having completed a \"formal verification\" of a low-level operating system (more specifically, a \"capability-enhanced\" microkernel) called seL4.  In essence, this group demonstrated, for the first time, that it was possible to build industrially-relevant, high-performance systems software and, simultaneously, to construct a rigorous mathematical proof to show that the software will always obey a high-level, mathematical specification of its behavior.  The software for seL4 was written in the C programming language, whose origins date back to the early 1970s; several decades later, C is still well-known and widely used for developing systems software, so it made sense that the seL4 team would choose to use it for their project.  On the other hand, in the years since C was first introduced, numerous other programming languages have been designed, incorporating new features that aim to increase programmer productivity, and to detect and prevent broad families of programming errors that can be made inadvertently when writing programs in C.  What might these newer languages have to offer when it comes to writing low-level software?\n\n \n\nThe work on seL4 is rightly celebrated as a landmark achievement, and provides a strong foundation for building trustworthy systems.  The costs of its development and maintenance, however, were quite high, involving the construction of a 200,000 line formal proof and requiring approximately 20 person years of effort for a relatively small program that is less than 10,000 lines long.  But the decision to write seL4 in C also complicated the formal verification effort because it forced the proof engineers to consider a range of security vulnerabilities that could have been avoided automatically if the code had been written in a newer language.  Programming languages the incorporate mechanisms for language-based security, such as a \"type system\", are particularly interesting candidates here because they can be used to ensure that certain important classes of programming errors are detected automatically, without even running the program.\n\nMotivated by such insights, the specific goals of the CEMLaBS project were to evaluate: whether it is feasible to write software of this kind in a language with meaningful, language-based security guarantees; what practical impact this might have, particularly in reducing verification costs; and whether it is possible to meet the performance goals that are typically required in such applications.\n\nThe project included a strong educational component, centered on the development and delivery of a new course to teach students about the challenges of building low-level software and to explore opportunities for reducing development costs (and improving program quality) by using different programming languages.  This course was offered three times at PSU, and an extensive set of course materials, suitable for both group and individual study, has been released under open licenses at http://web.cecs.pdx.edu/~mpj/llp/.\n\nThe project has also lead to the development of tools and sample software using Habit, a programming language that includes features from \"functional\" languages that increase programmer productivity, language-based security features that improve program quality, and systems programming features that support low-level development.  The resulting tools, together with sample programs and more information, are available under open source licenses from http://www.habit-lang.org.\n\n\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 12/21/2018\n\n\t\t\t\t\tSubmitted by: Mark Jones"
+ }
+}

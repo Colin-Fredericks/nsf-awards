@@ -1,0 +1,105 @@
+{
+ "awd_id": "1500365",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Systematic and Scalable Testing of Concurrent Software in the Cloud",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2015-02-15",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 65559.0,
+ "awd_amount": 65559.0,
+ "awd_min_amd_letter_date": "2015-02-20",
+ "awd_max_amd_letter_date": "2015-02-20",
+ "awd_abstract_narration": "While multicore and many core and GPU processors increase computing speed, the concurrent and parallel programs written for them are increasingly complex, hard to verify, and difficult to test. So-called \"concurrency bugs\" are very hard to find, because of the huge number of thread interleavings that need to be examined to find the circumstances in which a bug might occur. Techniques for finding bugs in sequential programs do not scale to concurrent programs, especially for programs with data inputs  and shared memory, which require more rigor and exhaustive testing. The project will investigate an approach that combines symbolic execution with a form of schedule exploration to find efficient solutions.  Scalability is pursued by seeking to parallelize the execution on a cloud platform, which is a step toward a cloud service for concurrent software testing.  There is a dire need for tools capable of doing scalable and efficient testing of concurrent programs, which will have a high impact on software quality and correctness if implemented in a widely available service.  This EAGER grant will explore the feasibility of this high-risk, potentially high-reward approach.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Zijiang",
+   "pi_last_name": "Yang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Zijiang Yang",
+   "pi_email_addr": "zijiang.yang@wmich.edu",
+   "nsf_id": "000492905",
+   "pi_start_date": "2015-02-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Western Michigan University",
+  "inst_street_address": "1903 W MICHIGAN AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "KALAMAZOO",
+  "inst_state_code": "MI",
+  "inst_state_name": "Michigan",
+  "inst_phone_num": "2693878298",
+  "inst_zip_code": "490085200",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "MI04",
+  "org_lgl_bus_name": "WESTERN MICHIGAN UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "J7WULLYGFRH1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Western Michigan University",
+  "perf_str_addr": "1903 W. Michigan Ave.",
+  "perf_city_name": "Kalamazoo",
+  "perf_st_code": "MI",
+  "perf_st_name": "Michigan",
+  "perf_zip_code": "490085200",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "MI04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7944",
+   "pgm_ref_txt": "SOFTWARE ENG & FORMAL METHODS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 65559.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Despite the increasingly widespread use of concurrent software, there does not exist a solution for systematically generating test cases. We have filled the gap by developing a unified testing framework that has the capability to compute both data inputs and thread schedules to systematically cover the intra-thread paths as well as the inter-thread interleavings.&nbsp; This requires careful coordination between data inputs and thread schedules in order to achieve deterministic concurrent executions. It is non-trivial because a concurrent program is non-deterministic even under fixed inputs.</p>\n<p>We have also designed reduction techniques that avoid generating redundant tests. Redundancy is abundant in concurrent program testing and our reduction techniques can achieve orders of magnitude speedup. In order to make our tool more scalable, we have developed distributed algorithms so our tool can exploit public&nbsp; cloud infrastructure such as Amazon EC2.</p>\n<p>We have also developed another tool called GUICat, the first cloud-based GUI testing framework that simultaneously generates both event sequences and data values. GUIs are event-driven applications where the flow of the program is determined by user actions such as mouse clicks and key presses. Although thread-interleaving is not a concern for GUI applications, its complex event sequences bear similarity with thread scheduling.&nbsp; GUI testing is a challenging task not only because of the combinatorial explosion in the number of event sequences, but also because of the difficulty to cover the large number of data values. &nbsp;GUICat is a white-box GUI testing tool that augments traditional sequence generation techniques with symbolic execution.&nbsp;</p>\n<p>&nbsp;The knowledge gained from this project leads to new algorithms that detect software plagiarism of multithreaded programs and localize software faults. We are also exploring its application in vulnerability detection of concurrent programs.&nbsp;</p>\n<p>We received an AWS in Education Research grant for $3000 in AWS credits to use Amazon cloud.&nbsp;</p>\n<p>The findings of the one and a half year project have been published at eleven premier software engineering conferences and journals. The conferences include FSE, ICSE, ASE, ICST, ISSRE, and the journals include TSE, JSS, TFS, TODAES.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/14/2016<br>\n\t\t\t\t\tModified by: Zijiang&nbsp;Yang</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nDespite the increasingly widespread use of concurrent software, there does not exist a solution for systematically generating test cases. We have filled the gap by developing a unified testing framework that has the capability to compute both data inputs and thread schedules to systematically cover the intra-thread paths as well as the inter-thread interleavings.  This requires careful coordination between data inputs and thread schedules in order to achieve deterministic concurrent executions. It is non-trivial because a concurrent program is non-deterministic even under fixed inputs.\n\nWe have also designed reduction techniques that avoid generating redundant tests. Redundancy is abundant in concurrent program testing and our reduction techniques can achieve orders of magnitude speedup. In order to make our tool more scalable, we have developed distributed algorithms so our tool can exploit public  cloud infrastructure such as Amazon EC2.\n\nWe have also developed another tool called GUICat, the first cloud-based GUI testing framework that simultaneously generates both event sequences and data values. GUIs are event-driven applications where the flow of the program is determined by user actions such as mouse clicks and key presses. Although thread-interleaving is not a concern for GUI applications, its complex event sequences bear similarity with thread scheduling.  GUI testing is a challenging task not only because of the combinatorial explosion in the number of event sequences, but also because of the difficulty to cover the large number of data values.  GUICat is a white-box GUI testing tool that augments traditional sequence generation techniques with symbolic execution. \n\n The knowledge gained from this project leads to new algorithms that detect software plagiarism of multithreaded programs and localize software faults. We are also exploring its application in vulnerability detection of concurrent programs. \n\nWe received an AWS in Education Research grant for $3000 in AWS credits to use Amazon cloud. \n\nThe findings of the one and a half year project have been published at eleven premier software engineering conferences and journals. The conferences include FSE, ICSE, ASE, ICST, ISSRE, and the journals include TSE, JSS, TFS, TODAES.\n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 09/14/2016\n\n\t\t\t\t\tSubmitted by: Zijiang Yang"
+ }
+}

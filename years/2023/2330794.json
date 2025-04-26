@@ -1,0 +1,134 @@
+{
+ "awd_id": "2330794",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Robust Data-Driven Robotic Manipulation via Bayesian Inference and Passivity-Based Control",
+ "cfda_num": "47.041, 47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924702",
+ "po_email": "cye@nsf.gov",
+ "po_sign_block_name": "Cang Ye",
+ "awd_eff_date": "2023-08-01",
+ "awd_exp_date": "2025-07-31",
+ "tot_intn_awd_amt": 262193.0,
+ "awd_amount": 282193.0,
+ "awd_min_amd_letter_date": "2023-07-06",
+ "awd_max_amd_letter_date": "2024-03-13",
+ "awd_abstract_narration": "Robots usually move objects by firmly holding on to them. Some tasks cannot be done this way, because the object may be delicate, or large relative to the robot's arm or hand. For example, we use firm holds when moving a closed book, but delicate finger motions when turning a page. Since the robot's \"hand\" may move relative to the object, the contact type between the robot, object, and environment can change during manipulation. Forces applied on the object create different motions when contact conditions are different. Conversely, different motions may lead to different contacts in the future. Planning computational methods can identify the right sequence of forces and contact conditions that could complete a task. Small errors that crop up during execution of planned motions would normally be reduced by taking corrective actions. However, these corrective actions often do not account for changing = contacts, and the errors instead are more critical due to unanticipated contacts, ultimately leading to failure on tasks. This EArly-concept Grant for Exploratory Research (EAGER) project will study techniques to create plans for robot motion that mitigate instead of amplify errors during execution of such tasks. Such manipulation tasks involving significant contact events can be found in robotic applications such as loading dishwashers, fetching hard-to-reach objects from cluttered cupboards, or moving furniture. \r\n\r\nThe project team will study new data-driven methods to train robust motion controllers that are derived from Bayesian neural networks with special structure informed by robotics and control principles. To account for the contact-rich nature of the task, the network will consist of a mixture-of-experts, where each expert is either a controller or a storage function used to derive a passivity-based controller. A gating network chooses which controller to use given the input to the network. Bayesian networks will provide a distribution over motor commands given an input, allowing the motion controller to account for uncertainty. The project will proceed in three overlapping stages: The investigators will use tools from formal verification to synthesize controllers that provably locally stabilize contact-rich motion plans, and use these controllers to initialize a prior distribution for the weights of the Bayesian neural network using knowledge distillation. This initialized network will be trained from task-based rewards in an end-to-end manner using data from differentiable simulators, where the robot-object-environment system parameters are uncertain. The trained network will be tested in experiments involving a robot arm pushing a large box over step-like obstacles designed to require changes in contact conditions during manipulation. The project, if successful, will identify a controller synthesis paradigm that simultaneously overcomes the simulation-to-reality gap and the data-inefficiency plaguing purely data-driven approaches for contact-rich object manipulation. This project will also advance knowledge in scaling up computational controller synthesis, and contribute new tools for GPU-accelerated simulation of stochastic systems.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hasan",
+   "pi_last_name": "Poonawala",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hasan A Poonawala",
+   "pi_email_addr": "hasan.poonawala@uky.edu",
+   "nsf_id": "000780262",
+   "pi_start_date": "2023-07-06",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Aykut",
+   "pi_last_name": "Satici",
+   "pi_mid_init": "C",
+   "pi_sufx_name": "",
+   "pi_full_name": "Aykut C Satici",
+   "pi_email_addr": "aykutsatici@boisestate.edu",
+   "nsf_id": "000760429",
+   "pi_start_date": "2023-07-06",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Kentucky Research Foundation",
+  "inst_street_address": "500 S LIMESTONE",
+  "inst_street_address_2": "109 KINKEAD HALL",
+  "inst_city_name": "LEXINGTON",
+  "inst_state_code": "KY",
+  "inst_state_name": "Kentucky",
+  "inst_phone_num": "8592579420",
+  "inst_zip_code": "405260001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "06",
+  "st_cong_dist_code": "KY06",
+  "org_lgl_bus_name": "UNIVERSITY OF KENTUCKY RESEARCH FOUNDATION, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "H1HYA8Z1NTM5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Kentucky Research Foundation",
+  "perf_str_addr": "500 S LIMESTONE 109 KINKEAD HALL",
+  "perf_city_name": "LEXINGTON",
+  "perf_st_code": "KY",
+  "perf_st_name": "Kentucky",
+  "perf_zip_code": "405260001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "06",
+  "perf_st_cong_dist": "KY06",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "144Y00",
+   "pgm_ele_name": "FRR-Foundationl Rsrch Robotics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "6840",
+   "pgm_ref_txt": "ROBOTICS"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 262193.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 20000.0
+  }
+ ],
+ "por": null
+}

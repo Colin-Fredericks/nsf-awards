@@ -1,0 +1,102 @@
+{
+ "awd_id": "0074012",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Flow Control for Multimedia Streaming Over the Internet",
+ "cfda_num": "47.070",
+ "org_code": "05050202",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2000-06-01",
+ "awd_exp_date": "2004-05-31",
+ "tot_intn_awd_amt": 300000.0,
+ "awd_amount": 300000.0,
+ "awd_min_amd_letter_date": "2000-06-05",
+ "awd_max_amd_letter_date": "2003-04-23",
+ "awd_abstract_narration": "Transmitting multimedia over shared network paths calls for end-to-end flow control because of expected\r\ngrowth of multimedia data transmitted over the Internet.  However, Internet and its access technologies are\r\ndiverse ranging over high-speed optical networks, satellite networks, cable, low-speed modem, and wireless\r\nnetworks.  Flow control over diverse network environments is difficult because assumptions commonly made\r\nfor traditional networks, such as symmetry, do not hold.  Asymmetry in the bandwidth and delays of forward\r\nand return paths over the range of 1600:1 to 3000:1 can be observed in most home access networks such\r\nas cable or ADSL lines, and satellites.  Multicast also do not guarantee symmetry in forward multicast and\r\nreturn unicast routes.  In these asymmetric networks, packet losses and delays occurring in return paths\r\nseverely degrade the performance of existing round trip based protocols, such as TCP, resulting in loss in\r\nbandwidth utilization, fairness, and scalability.\r\n     The objective of the proposed work is to develop, verify analytically and experimentally, and implement\r\na suite of end-to-end flow control protocols for real-time streaming applications.  The researchers will study both unicast and multicast flow control.  The developed protocols are evaluated based on fairness, TCP-friendliness, stability and scalability.  These properties must hold regardless of the types of networks, or specifically, whether networks are symmetric or asymmetric in bandwidth and delays.  The researchers consider only end-to-end transport-level flow control in which flow control decisions are made based on the traffic characteristics observed only at the end points.\r\n     The researchers view that the performance problem of round-trip based flow control mainly originates from the tight coupling of forward and reverse path conditions into flow control of both forward (i.e., data) and reverse (i.e., feedback) path traffic.  This notion does not hold when the two paths exhibit severe asymmetry.  The researchers propose a complementary approach to the problem.   Their approach is to completely decouple the conditions of both paths (e.g., congestion and delays) from the end-to-end considerations of flow control, and to apply separate flow control for each path.  They rationalize this approach by noting that most multimedia transmissions are strictly one directional, and open-loop due to their real-time and loss-tolerant natures.  Thus, conditions on return paths should not affect the performance of multimedia transmission.\r\n  To achieve TCP-friendliness with little use of return paths, the researchers propose a technique called TCP emulation at receivers (TEAR).  TEAR allows receivers to detect every TCP congestion signal, such as packet losses and timeouts, as if it happens in a TCP sender with the perfect reverse path (no delay and congestion on the return path).  Using the signal, receivers emulate TCP's flow control to estimate the throughput of TCP under the same operating conditions present in forward paths.  The advantages of TEAR are that it can estimate\r\nTCP throughput at any environment (of forward paths) where TCP can run, and that it inherits the fairness\r\nand stability of TCP while filtering out its undesirable traits.\r\n     Estimated TCP throughput values at receivers are used to control the receiving rates of receivers in\r\nunicast and multicast.  The following three major research agendas are proposed.\r\n     1.  The researchers plan to develop unicast flow control techniques using TEAR.  A notion of bounded fairness to \"uni-directional\" TCP is proposed.  The goal is to develop a rate adjustment scheme that is provably stable and TCP-friendly under various network environments.\r\n     2.  The researchers plan to develop flow control for receiver-driven layered multicast (RLM). RLMensures scalability and inter-receiver fairness by allowing receivers to determine their own receiving rates independently.  However, its stability and TCP friendliness have not been proven.  Using TEAR, the researchers will investigate ways to improve these properties under heterogeneous network environments.\r\n     3.  For multimedia data transmission that is not amenable to layering, the researchers plan to develop flow control techniques for sender-driven single rate multicast.  They will  study the stable and fair flow control mechanisms for this type of flow control, and investigate tradeoffs among scalability, bandwidth utilization,\r\nand responsiveness to emerging congestion.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Injong",
+   "pi_last_name": "Rhee",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Injong Rhee",
+   "pi_email_addr": "rhee@csc.ncsu.edu",
+   "nsf_id": "000249275",
+   "pi_start_date": "2000-06-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "North Carolina State University",
+  "inst_street_address": "2601 WOLF VILLAGE WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "RALEIGH",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9195152444",
+  "inst_zip_code": "276950001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "NC02",
+  "org_lgl_bus_name": "NORTH CAROLINA STATE UNIVERSITY",
+  "org_prnt_uei_num": "U3NVH931QJJ3",
+  "org_uei_num": "U3NVH931QJJ3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "North Carolina State University",
+  "perf_str_addr": "2601 WOLF VILLAGE WAY",
+  "perf_city_name": "RALEIGH",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "276950001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "NC02",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "409700",
+   "pgm_ele_name": "NETWORKING RESEARCH"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0100",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0100",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2000,
+   "fund_oblg_amt": 300000.0
+  }
+ ],
+ "por": null
+}

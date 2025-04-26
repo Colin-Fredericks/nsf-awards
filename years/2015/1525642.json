@@ -1,0 +1,105 @@
+{
+ "awd_id": "1525642",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: Linking the Unlinkable: Design, Analysis, and Implementation of Network Flow Fingerprints for Fine-grained Traffic Analysis",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032922981",
+ "po_email": "pregalia@nsf.gov",
+ "po_sign_block_name": "Phillip Regalia",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 499682.0,
+ "awd_amount": 499682.0,
+ "awd_min_amd_letter_date": "2015-07-24",
+ "awd_max_amd_letter_date": "2015-07-24",
+ "awd_abstract_narration": "Network traffic analysts are currently unable to link network flows across wide area networks to determine the origin of a network traffic flow, which is critical in understanding sources of attacks. This project is developing a novel technique for linking network flows, called flow fingerprinting, that could help help network defenders identify the origin of a network-based attack or help law enforcement track the source of criminal activity.  The work could also reveal weaknesses that must be addressed in systems that protect users online anonymity.\r\n\r\nThis project investigates network flow fingerprinting for traffic analysis. The project has three main research thrusts: First, using coding theory in the design of network flow fingerprinting systems that are tailored for various networking applications. Second, performing rigorous theoretical analysis of flow fingerprints in order to identify their limitations and capabilities, as well as to devise optimum fingerprinting systems under specific threat models. The analysis thrust uses information theory and detection and estimation theory. Third, identifying real-world application scenarios for flow fingerprints, and implementing the devised flow fingerprinting systems in such real-world scenarios to assess their usability and challenges. Specifically, the project is evaluating the use of flow fingerprints in compromising large-scale, distributed anonymity networks like Tor.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Amir",
+   "pi_last_name": "Houmansadr",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Amir Houmansadr",
+   "pi_email_addr": "amir@cs.umass.edu",
+   "nsf_id": "000677023",
+   "pi_start_date": "2015-07-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Massachusetts Amherst",
+  "inst_street_address": "101 COMMONWEALTH AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "AMHERST",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "4135450698",
+  "inst_zip_code": "010039252",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "MA02",
+  "org_lgl_bus_name": "UNIVERSITY OF MASSACHUSETTS",
+  "org_prnt_uei_num": "VGJHK59NMPK9",
+  "org_uei_num": "VGJHK59NMPK9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Massachusetts Amherst",
+  "perf_str_addr": "140 Governors Drive",
+  "perf_city_name": "Amherst",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "010039264",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "MA02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 499682.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Linking network flows is an increasingly important problem in network security and privacy. It can be used in various critical application scenarios to either protect or attack the security and privacy of networked systems. For instance, linking network flows can help security defenders, e.g., firewalls, to identify and stop stepping stones attackers, i.e., cybercriminals who relay their attack traffic through oblivious network proxies to obfuscate their identities. On the other hand, adversaries can leverage flow linking techniques to compromise anonymous communications over systems like Tor. To enable linking network flows despite encryption and similar evasions, researchers have proposed to use&nbsp;<em>traffic analysis</em>. As opposed to using packet contents, traffic analysis leverages&nbsp;<em>communication patterns</em>, such as packet timings, packet sizes, and packet rates, to link related network flows. Encryption and similar content-based obfuscation mechanisms are not able to stop traffic analysis since they do not significantly alter such communication patterns. For instance, stepping stone proxies do not drastically change packet sizes despite re-encrypting packets.</p>\n<p>In this project, we studied novel techniques for traffic analysis that scale to today&rsquo;s overwhelming volumes of network traffic. In particular, we studied an underexplored, yet significantly critical type of traffic analysis, which we call&nbsp;flow fingerprinting. The objective of flow fingerprinting is to link correlated network flows efficiently and at large scale. We took three main directions in our project: (1) We derived theoretical limits of flow fingerprinting by performing information theoretic analysis, and by modeling network traffic as a covert communication channel. (2) We designed and implemented novel flow correlation algorithms that scale to the Internet&rsquo;s booming traffic volumes, and investigated various ways to countermeasure such flow fingerprinting algorithms.&nbsp; (3) We applied traffic analysis techniques to various real-world applications and systems. In particular, we investigated the use of traffic analysis for anonymous communicaction systems, secure messaging applications, image sharing platforms, and ML-based services. We have made the artifacts of the project (the codes and datasets) available to the public, and we have presented the results of this project at multiple conference and journal publications.&nbsp;&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/16/2019<br>\n\t\t\t\t\tModified by: Amir&nbsp;Houmansadr</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nLinking network flows is an increasingly important problem in network security and privacy. It can be used in various critical application scenarios to either protect or attack the security and privacy of networked systems. For instance, linking network flows can help security defenders, e.g., firewalls, to identify and stop stepping stones attackers, i.e., cybercriminals who relay their attack traffic through oblivious network proxies to obfuscate their identities. On the other hand, adversaries can leverage flow linking techniques to compromise anonymous communications over systems like Tor. To enable linking network flows despite encryption and similar evasions, researchers have proposed to use traffic analysis. As opposed to using packet contents, traffic analysis leverages communication patterns, such as packet timings, packet sizes, and packet rates, to link related network flows. Encryption and similar content-based obfuscation mechanisms are not able to stop traffic analysis since they do not significantly alter such communication patterns. For instance, stepping stone proxies do not drastically change packet sizes despite re-encrypting packets.\n\nIn this project, we studied novel techniques for traffic analysis that scale to today?s overwhelming volumes of network traffic. In particular, we studied an underexplored, yet significantly critical type of traffic analysis, which we call flow fingerprinting. The objective of flow fingerprinting is to link correlated network flows efficiently and at large scale. We took three main directions in our project: (1) We derived theoretical limits of flow fingerprinting by performing information theoretic analysis, and by modeling network traffic as a covert communication channel. (2) We designed and implemented novel flow correlation algorithms that scale to the Internet?s booming traffic volumes, and investigated various ways to countermeasure such flow fingerprinting algorithms.  (3) We applied traffic analysis techniques to various real-world applications and systems. In particular, we investigated the use of traffic analysis for anonymous communicaction systems, secure messaging applications, image sharing platforms, and ML-based services. We have made the artifacts of the project (the codes and datasets) available to the public, and we have presented the results of this project at multiple conference and journal publications.  \n\n \n\n\t\t\t\t\tLast Modified: 10/16/2019\n\n\t\t\t\t\tSubmitted by: Amir Houmansadr"
+ }
+}

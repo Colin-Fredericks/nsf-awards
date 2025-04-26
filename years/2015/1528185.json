@@ -1,0 +1,109 @@
+{
+ "awd_id": "1528185",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TWC: Small: System Infrastructure for SMM-based Runtime Integrity Measurement",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Indrajit Ray",
+ "awd_eff_date": "2015-08-01",
+ "awd_exp_date": "2019-07-31",
+ "tot_intn_awd_amt": 407568.0,
+ "awd_amount": 407568.0,
+ "awd_min_amd_letter_date": "2015-07-29",
+ "awd_max_amd_letter_date": "2015-07-29",
+ "awd_abstract_narration": "The World Wide Web and computer \"clouds\" have become widely used, and are interwoven into many activities of daily life, from shopping to socializing to education. But the data center servers that are the backbone of this richly connected world remain vulnerable to malicious software (\"malware\").  Over the past decade, attacks have increased in number and sophistication, motivated by both financial and political goals. The results include consumer concerns about identify theft and fraudulent charges, corporate concerns about millions of dollars in losses, and potential defense concerns. At the same time, the servers and data centers have become more complex, as both the hardware and the software have grown in capability.  Thus protecting servers from attack has become increasingly urgent yet increasingly difficult.  This project is developing a new approach for server security - monitoring for attacks will be integrated into the servers in a manner that will avoid unwieldy performance slowdowns. \r\n\r\nThis project focuses on detecting rootkits that compromise operating system kernels and hypervisors. The research targets a specific class of solutions that make use of widely available hardware support to allow safe introspection of low-level system state at run time. Rootkit detection checks are implemented in System Management Mode (SMM), a special x86 processor mode entered as a result of a System Management Interrupt controlled by the BIOS, that has a higher priority than any system-level interrupt.  Code running in SMM has access to a protected region of memory, providing protection of the rootkit detection code. This project is exploring and quantifying the performance impacts of various SMM-based rootkit detection approaches, and is developing new approaches in which the detection work can be scheduled adaptively to strike an appropriate balance between detection capability and performance degradation.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Karen",
+   "pi_last_name": "Karavanic",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Karen Karavanic",
+   "pi_email_addr": "karavan@pdx.edu",
+   "nsf_id": "000164451",
+   "pi_start_date": "2015-07-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Portland State University",
+  "inst_street_address": "1600 SW 4TH AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PORTLAND",
+  "inst_state_code": "OR",
+  "inst_state_name": "Oregon",
+  "inst_phone_num": "5037259900",
+  "inst_zip_code": "972015508",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "OR01",
+  "org_lgl_bus_name": "PORTLAND STATE UNIVERSITY",
+  "org_prnt_uei_num": "WWUJS84WJ647",
+  "org_uei_num": "H4CAHK2RD945"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Portland State University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "OR",
+  "perf_st_name": "Oregon",
+  "perf_zip_code": "972070751",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "OR01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 407568.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Despite progress in adding new security features to operating systems and hypervisors, the number of Xen and Linux kernel vulnerabilities allowing privilege escalations, arbitrary code execution or modifications in host software code has grown significantly in the past few years. These vulnerabilities serve as an initial vector that an attacker can leverage to install a rootkit - sophisticated malware targeting sensitive low-level kernel or hypervisor data structures such as interrupt handlers, event handlers, registers, and memory. If rootkits remain undetected over time, they can launch broader attacks on networked systems. For example, the Venom vulnerability provided the means for an attacker to execute arbitrary code in the hypervisor. Recent years have also seen a growth in ransomware including instances that&nbsp;leverage kernel vulnerabilities such as WannaCry, Sage, Locky, and Bad Rabbit.</p>\n</div>\n</div>\n</div>\n<p><span>Detecting unexpected changes in a system's runtime environment is critical to resilience. One solution that has been proposed based on repurposing of System Management Mode (SMM) for runtime security inspections; a promising idea due to SMM's high privilege and protected memory. &nbsp;Realizing such an approach is complicated because extended time spent in SMM can led to significant system impacts, such as perturbation of the kernel and device drivers as well as system crashes. &nbsp;Additional challenges arise for virtualized systems, where inspections must gain access to hypervisor level data. &nbsp;Finally, to be usable in a production environment, we must allow flexibility without requiring changes to the BIOS, that are too cumbersome to be viable as frequent steps.</span></p>\n<p><span>Our solution to these challenges is an SMM-based framework called EPA-RIMM: Extensible, Performance-Aware Runtime Integrity Measurement Mechanism. EPA-RIMM bounds the amount of measurement time spent in a single SMM session with a mechanism for decomposing large integrity measurements (for example, checking the entire Linux Kernel) to remain consistent with expectations regarding SMI latency. This approach creates an opportunity for the development of new integrity measurements that were formerly impractical. EPA-RIMM includes an API to specify measurements during operation, resolving SMM's semantic gap over what host software resources should be measured and where they reside, and increasing extensibility. For hypervisors, we use Intel's SMI Transfer Monitor (STM) to resolve SMM's lack of reliable access to the necessary hypervisor state, and to apply the principle of least privilege to the measurement agent, reducing its vulnerabilty to attack. By parameterizing SMI frequency and the amount of time spent in each SMI, we provide flexibility to adapt the continuous monitoring to changing threat conditions.&nbsp;Finally, to increase the amount of useful measurement that can be accomplished within the limited SMM time interval, we have extended SMM functionality to be fully multicore. &nbsp;The near linear increase in useful work per SMM interval achieved by concurrency greatly reduces the impact of EPA-RIMM on the production workload, since fewer interruptions into SMM are needed to complete a given measurement. This new capability has potential for use in SMM more widely.</span></p>\n<p><span>To demonstrate and test our ideas we have implemented an EPA-RIMM prototype that is available online with an open source license. &nbsp;We have separately released patches for the Xen hypervisor that add the use of STM to Xen to increase the protection against malicious code. &nbsp;Our experimental results using the prototype show that EPA-RIMM achieves the needed bound on time spent in SMM, making SMM a viable approach for continuous runtime integrity checking.</span></p>\n<p>In addition to achieving the technical goals, this project achieved important goals for education and workforce training. &nbsp;Approximately one dozen students worked directly on the project, from high school level up to Ph.D. &nbsp;Two graduate students were supported as research assistants, and outcomes include both a doctoral dissertation and a masters thesis. &nbsp;We have developed classroom materials and conducted class lectures related to the relevant &nbsp;system, firmware, and hardware technologies. We have presented the work at Portland State and other Universities, at practitioner-oriented conferences, and at technical Computer Science conferences.</p>\n<p class=\"p1\">&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/30/2019<br>\n\t\t\t\t\tModified by: Karen&nbsp;Karavanic</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\n\n\n\n\n\nDespite progress in adding new security features to operating systems and hypervisors, the number of Xen and Linux kernel vulnerabilities allowing privilege escalations, arbitrary code execution or modifications in host software code has grown significantly in the past few years. These vulnerabilities serve as an initial vector that an attacker can leverage to install a rootkit - sophisticated malware targeting sensitive low-level kernel or hypervisor data structures such as interrupt handlers, event handlers, registers, and memory. If rootkits remain undetected over time, they can launch broader attacks on networked systems. For example, the Venom vulnerability provided the means for an attacker to execute arbitrary code in the hypervisor. Recent years have also seen a growth in ransomware including instances that leverage kernel vulnerabilities such as WannaCry, Sage, Locky, and Bad Rabbit.\n\n\n\n\nDetecting unexpected changes in a system's runtime environment is critical to resilience. One solution that has been proposed based on repurposing of System Management Mode (SMM) for runtime security inspections; a promising idea due to SMM's high privilege and protected memory.  Realizing such an approach is complicated because extended time spent in SMM can led to significant system impacts, such as perturbation of the kernel and device drivers as well as system crashes.  Additional challenges arise for virtualized systems, where inspections must gain access to hypervisor level data.  Finally, to be usable in a production environment, we must allow flexibility without requiring changes to the BIOS, that are too cumbersome to be viable as frequent steps.\n\nOur solution to these challenges is an SMM-based framework called EPA-RIMM: Extensible, Performance-Aware Runtime Integrity Measurement Mechanism. EPA-RIMM bounds the amount of measurement time spent in a single SMM session with a mechanism for decomposing large integrity measurements (for example, checking the entire Linux Kernel) to remain consistent with expectations regarding SMI latency. This approach creates an opportunity for the development of new integrity measurements that were formerly impractical. EPA-RIMM includes an API to specify measurements during operation, resolving SMM's semantic gap over what host software resources should be measured and where they reside, and increasing extensibility. For hypervisors, we use Intel's SMI Transfer Monitor (STM) to resolve SMM's lack of reliable access to the necessary hypervisor state, and to apply the principle of least privilege to the measurement agent, reducing its vulnerabilty to attack. By parameterizing SMI frequency and the amount of time spent in each SMI, we provide flexibility to adapt the continuous monitoring to changing threat conditions. Finally, to increase the amount of useful measurement that can be accomplished within the limited SMM time interval, we have extended SMM functionality to be fully multicore.  The near linear increase in useful work per SMM interval achieved by concurrency greatly reduces the impact of EPA-RIMM on the production workload, since fewer interruptions into SMM are needed to complete a given measurement. This new capability has potential for use in SMM more widely.\n\nTo demonstrate and test our ideas we have implemented an EPA-RIMM prototype that is available online with an open source license.  We have separately released patches for the Xen hypervisor that add the use of STM to Xen to increase the protection against malicious code.  Our experimental results using the prototype show that EPA-RIMM achieves the needed bound on time spent in SMM, making SMM a viable approach for continuous runtime integrity checking.\n\nIn addition to achieving the technical goals, this project achieved important goals for education and workforce training.  Approximately one dozen students worked directly on the project, from high school level up to Ph.D.  Two graduate students were supported as research assistants, and outcomes include both a doctoral dissertation and a masters thesis.  We have developed classroom materials and conducted class lectures related to the relevant  system, firmware, and hardware technologies. We have presented the work at Portland State and other Universities, at practitioner-oriented conferences, and at technical Computer Science conferences.\n \n\n \n\n \n\n \n\n\n\n\n \n\n\t\t\t\t\tLast Modified: 10/30/2019\n\n\t\t\t\t\tSubmitted by: Karen Karavanic"
+ }
+}

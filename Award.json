@@ -1,0 +1,453 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "awd_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agcy_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tran_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "awd_istr_txt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "awd_titl_txt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cfda_num": {
+      "type": "string",
+      "minLength": 1
+    },
+    "org_code": {
+      "type": "string",
+      "minLength": 1
+    },
+    "po_phone": {
+      "type": "string",
+      "minLength": 1
+    },
+    "po_email": {
+      "type": "string",
+      "minLength": 1
+    },
+    "po_sign_block_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "awd_eff_date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "awd_exp_date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tot_intn_awd_amt": {
+      "type": "number"
+    },
+    "awd_amount": {
+      "type": "number"
+    },
+    "awd_min_amd_letter_date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "awd_max_amd_letter_date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "awd_abstract_narration": {
+      "type": "string",
+      "minLength": 1
+    },
+    "awd_arra_amount": {
+      "type": "number"
+    },
+    "dir_abbr": {
+      "type": "string",
+      "minLength": 1
+    },
+    "org_dir_long_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "div_abbr": {
+      "type": "string",
+      "minLength": 1
+    },
+    "org_div_long_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "awd_agcy_code": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fund_agcy_code": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pi": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "pi_role",
+          "pi_first_name",
+          "pi_last_name",
+          "pi_mid_init",
+          "pi_sufx_name",
+          "pi_full_name",
+          "pi_email_addr",
+          "nsf_id",
+          "pi_start_date",
+          "pi_end_date"
+        ],
+        "properties": {
+          "pi_role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pi_first_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pi_last_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pi_mid_init": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pi_sufx_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pi_full_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pi_email_addr": {
+            "type": "string",
+            "minLength": 1
+          },
+          "nsf_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pi_start_date": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pi_end_date": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "inst": {
+      "type": "object",
+      "properties": {
+        "inst_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inst_street_address": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inst_street_address_2": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inst_city_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inst_state_code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inst_state_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inst_phone_num": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inst_zip_code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inst_country_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cong_dist_code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "st_cong_dist_code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "org_lgl_bus_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "org_prnt_uei_num": {
+          "type": "string",
+          "minLength": 1
+        },
+        "org_uei_num": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "inst_name",
+        "inst_street_address",
+        "inst_street_address_2",
+        "inst_city_name",
+        "inst_state_code",
+        "inst_state_name",
+        "inst_phone_num",
+        "inst_zip_code",
+        "inst_country_name",
+        "cong_dist_code",
+        "st_cong_dist_code",
+        "org_lgl_bus_name",
+        "org_prnt_uei_num",
+        "org_uei_num"
+      ]
+    },
+    "perf_inst": {
+      "type": "object",
+      "properties": {
+        "perf_inst_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_str_addr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_city_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_st_code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_st_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_zip_code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_ctry_code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_cong_dist": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_st_cong_dist": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_ctry_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "perf_ctry_flag": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "perf_inst_name",
+        "perf_str_addr",
+        "perf_city_name",
+        "perf_st_code",
+        "perf_st_name",
+        "perf_zip_code",
+        "perf_ctry_code",
+        "perf_cong_dist",
+        "perf_st_cong_dist",
+        "perf_ctry_name",
+        "perf_ctry_flag"
+      ]
+    },
+    "pgm_ele": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "pgm_ele_code",
+          "pgm_ele_name"
+        ],
+        "properties": {
+          "pgm_ele_code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pgm_ele_name": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "pgm_ref": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "pgm_ref_code",
+          "pgm_ref_txt"
+        ],
+        "properties": {
+          "pgm_ref_code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pgm_ref_txt": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "app_fund": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "app_code",
+          "app_name",
+          "app_symb_id",
+          "fund_code",
+          "fund_name",
+          "fund_symb_id"
+        ],
+        "properties": {
+          "app_code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "app_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "app_symb_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fund_code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fund_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fund_symb_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "oblg_fy": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "fund_oblg_fiscal_yr",
+          "fund_oblg_amt"
+        ],
+        "properties": {
+          "fund_oblg_fiscal_yr": {
+            "type": "number"
+          },
+          "fund_oblg_amt": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "por": {
+      "type": "object",
+      "properties": {
+        "por_cntn": {
+          "type": "string",
+          "minLength": 1
+        },
+        "por_txt_cntn": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "por_cntn",
+        "por_txt_cntn"
+      ]
+    }
+  },
+  "required": [
+    "awd_id",
+    "agcy_id",
+    "tran_type",
+    "awd_istr_txt",
+    "awd_titl_txt",
+    "cfda_num",
+    "org_code",
+    "po_phone",
+    "po_email",
+    "po_sign_block_name",
+    "awd_eff_date",
+    "awd_exp_date",
+    "tot_intn_awd_amt",
+    "awd_amount",
+    "awd_min_amd_letter_date",
+    "awd_max_amd_letter_date",
+    "awd_abstract_narration",
+    "awd_arra_amount",
+    "dir_abbr",
+    "org_dir_long_name",
+    "div_abbr",
+    "org_div_long_name",
+    "awd_agcy_code",
+    "fund_agcy_code",
+    "pi",
+    "inst",
+    "perf_inst",
+    "pgm_ele",
+    "pgm_ref",
+    "app_fund",
+    "oblg_fy",
+    "por"
+  ]
+}

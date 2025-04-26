@@ -1,0 +1,101 @@
+{
+ "awd_id": "1015930",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "RI:  Small:  Exploratory Data Analysis for Speech Recognition",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tatiana Korelsky",
+ "awd_eff_date": "2010-08-15",
+ "awd_exp_date": "2012-07-31",
+ "tot_intn_awd_amt": 200000.0,
+ "awd_amount": 200000.0,
+ "awd_min_amd_letter_date": "2010-08-20",
+ "awd_max_amd_letter_date": "2010-08-20",
+ "awd_abstract_narration": "Hidden Markov models (HMMs) have been successfully applied to automatic \r\nspeech recognition for more than 35 years even though a key HMM \r\nassumption - the statistical independence of frames - is obviously \r\nviolated by speech data. In fact, this data/model mismatch has inspired \r\nmany attempts to modify or replace HMMs with alternative models that are \r\nbetter able to take into account the statistical dependence of frames. \r\nThe scientific goal of this work is to discover predictable regions of \r\nstatistical dependence in speech data and quantify their effect on \r\nHMM-based recognition accuracy. In contrast to previous studies of \r\nstatistical dependency, this research uses the HMM to explore its \r\ndeparture from the data via exploratory data analysis (EDA). The \r\nmethodology is to first analyze the data and its fit to the model, \r\nsearching for regions of predictable statistical dependence - model/data \r\nmismatch. EDA is used again to develop simple models of the effect of \r\nthe predictable mismatch on recognition accuracy.  A key piece of this \r\nanalysis is the development and use of graphical tools to visualize the \r\nstatistical dependency, the recognition errors, and their relationship. \r\nThe results of this research will provide important clues for the design \r\nof HMM generalizations. The analysis methodology is central to the field \r\nof statistics, but is rarely used in speech recognition research. \r\nGraduate students working on this project will learn its utility and  \r\nhow to use it on other problems. Open source versions of the software \r\ndeveloped  will be made available for free downloading.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Steven",
+   "pi_last_name": "Wegmann",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Steven Wegmann",
+   "pi_email_addr": "swegmann@icsi.berkeley.edu",
+   "nsf_id": "000552675",
+   "pi_start_date": "2010-08-20",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "International Computer Science Institute",
+  "inst_street_address": "2150 SHATTUCK AVE",
+  "inst_street_address_2": "SUITE 250",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106662900",
+  "inst_zip_code": "947041345",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "INTERNATIONAL COMPUTER SCIENCE INSTITUTE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GSRMP1QCXU74"
+ },
+ "perf_inst": {
+  "perf_inst_name": "International Computer Science Institute",
+  "perf_str_addr": "2150 SHATTUCK AVE",
+  "perf_city_name": "BERKELEY",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947041345",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "749500",
+   "pgm_ele_name": "Robust Intelligence"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 200000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Automatic speech recognition is an enormously successful application of statistical pattern recognition.&nbsp; Every day millions of people use applications based on this technology to solve problems that are most naturally accomplished by interacting with machines via voice.&nbsp; However, the most successful of these applications have always been rather limited in scope, because, although useful, speech recognition can be maddeningly unreliable. For example, human beings are easily able to understand one another despite loud background noise in a crowded room, severe distortion over a telephone channel, or wide variation in accents within their common language, but even much milder examples of these problems will completely derail a speech recognition system.&nbsp; The vision of Captain Kirk calmly interacting with his space ship's computer during a battle with the Klingon Empire must seem light years away to the poor soul trying to use a interactive voice menu to re-book a canceled flight over the phone in a busy airport.&nbsp; The goal of this project is to understand in a deep, quantitative way why the methodology used in nearly all speech recognizers is so brittle.<br /><br />At the heart of this methodology is a statistical model known as the hidden Markov model.&nbsp; This uses a model for the evolution of a discrete-time process, called a Markov chain, to approximate the temporal structure of the phonetic units that we use in speech recognition. (Technically this Markov chain is unobserved, or hidden, but it is used to explain the observable temporal structure in the phonetic units).&nbsp; A Markov chain assumes that the set of possible, underlying states in the process is finite.&nbsp; In addition, it specifies each of the transition probabilities from one possible state to the next.&nbsp; However, once the model is in a particular state - call it the current state - then the probability of transitioning from the current state to any other state depends only on the identity of the current state.&nbsp; In particular, this transition probability does not depend on what happened before the model arrived in the current state: this is the Markov property from whence Markov chains get their name.&nbsp; As the model advances along this hidden Markov chain, an observable, acoustic observation is emitted at each step according to a prescribed, marginal probability distribution.&nbsp; Thus, this model makes two very strong assumptions, both of which have always been known to be false for human speech data.&nbsp; The first assumption arises from the structure of the hidden Markov chain, it is called the conditional independence assumption, and it concerns the temporal structure of speech: that successive frames emitted at each step are independent from one another.&nbsp; The second assumption is in the choice that we make for the marginal probability distribution: this is almost always taken to be multivariate normal.<br /><br />In this project we use simulation and a novel sampling process to generate pseudo test data that deviate from the two hidden Markov model assumptions in a controlled fashion. The novel sampling process, called resampling, was adapted from Bradley Efron's work on the bootstrap.&nbsp; In essence resampling is a non-parametric analog of simulating data from a known parametric distribution: given a sample from an unknown population distribution, we simulate from the empirical distribution derived from the sample.&nbsp; To simulate using this empirical distribution, we simply do random draws (with replacement) from the sample, hence the terminology resampling.&nbsp; These processes allow us to generate pseudo data that, at one extreme, agree with all of the model's assumptions, and at the another extreme, deviate from the model in exactly the way real data do. In between, we can precisely control the degree of data/model mismatch. By measuring re...",
+  "por_txt_cntn": "\nAutomatic speech recognition is an enormously successful application of statistical pattern recognition.  Every day millions of people use applications based on this technology to solve problems that are most naturally accomplished by interacting with machines via voice.  However, the most successful of these applications have always been rather limited in scope, because, although useful, speech recognition can be maddeningly unreliable. For example, human beings are easily able to understand one another despite loud background noise in a crowded room, severe distortion over a telephone channel, or wide variation in accents within their common language, but even much milder examples of these problems will completely derail a speech recognition system.  The vision of Captain Kirk calmly interacting with his space ship's computer during a battle with the Klingon Empire must seem light years away to the poor soul trying to use a interactive voice menu to re-book a canceled flight over the phone in a busy airport.  The goal of this project is to understand in a deep, quantitative way why the methodology used in nearly all speech recognizers is so brittle.\n\nAt the heart of this methodology is a statistical model known as the hidden Markov model.  This uses a model for the evolution of a discrete-time process, called a Markov chain, to approximate the temporal structure of the phonetic units that we use in speech recognition. (Technically this Markov chain is unobserved, or hidden, but it is used to explain the observable temporal structure in the phonetic units).  A Markov chain assumes that the set of possible, underlying states in the process is finite.  In addition, it specifies each of the transition probabilities from one possible state to the next.  However, once the model is in a particular state - call it the current state - then the probability of transitioning from the current state to any other state depends only on the identity of the current state.  In particular, this transition probability does not depend on what happened before the model arrived in the current state: this is the Markov property from whence Markov chains get their name.  As the model advances along this hidden Markov chain, an observable, acoustic observation is emitted at each step according to a prescribed, marginal probability distribution.  Thus, this model makes two very strong assumptions, both of which have always been known to be false for human speech data.  The first assumption arises from the structure of the hidden Markov chain, it is called the conditional independence assumption, and it concerns the temporal structure of speech: that successive frames emitted at each step are independent from one another.  The second assumption is in the choice that we make for the marginal probability distribution: this is almost always taken to be multivariate normal.\n\nIn this project we use simulation and a novel sampling process to generate pseudo test data that deviate from the two hidden Markov model assumptions in a controlled fashion. The novel sampling process, called resampling, was adapted from Bradley Efron's work on the bootstrap.  In essence resampling is a non-parametric analog of simulating data from a known parametric distribution: given a sample from an unknown population distribution, we simulate from the empirical distribution derived from the sample.  To simulate using this empirical distribution, we simply do random draws (with replacement) from the sample, hence the terminology resampling.  These processes allow us to generate pseudo data that, at one extreme, agree with all of the model's assumptions, and at the another extreme, deviate from the model in exactly the way real data do. In between, we can precisely control the degree of data/model mismatch. By measuring recognition performance on this pseudo test data, we are able to quantify the effect of this controlled data/model mismatch on recognition accuracy.\n\nThe results of..."
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1049495",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TC: EAGER: Collaborative Research: Parallel Automated Reasoning",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Samuel M. Weber",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2012-08-31",
+ "tot_intn_awd_amt": 124799.0,
+ "awd_amount": 124799.0,
+ "awd_min_amd_letter_date": "2010-08-26",
+ "awd_max_amd_letter_date": "2010-08-26",
+ "awd_abstract_narration": "The security of the national computing infrastructure is critical for consumer confidence, protection of privacy, protection of valuable intellectual property, and even national security.  Logic-based approaches to security have been gaining popularity, in part because they provide a precise way to describe and reason about the kinds of complexity found in real systems.  Perhaps even more importantly, automated reasoning techniques can be used to assist users in navigating this complexity.  Despite the promise of automated reasoning, its use in practical applications is still limited.  One of the primary reasons for this is that for many problems, automated reasoning methods are not fast enough, especially for use in interactive environments (such as browser plug-ins in desktop computing, or mobile applications running on smart phones and PDAs).  This project aims to address the performance weakness of automated reasoning by investigating novel designs and algorithms with the unifying theme of exploiting parallelism.  The project will focus on three main areas of automated deduction: Boolean satisfiability, first-order reasoning, and satisfiability modulo theories.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Clark",
+   "pi_last_name": "Barrett",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Clark Barrett",
+   "pi_email_addr": "barrett@cs.stanford.edu",
+   "nsf_id": "000423674",
+   "pi_start_date": "2010-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "70 WASHINGTON SQ S",
+  "perf_city_name": "NEW YORK",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121019",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779500",
+   "pgm_ele_name": "TRUSTWORTHY COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 124799.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Automated reasoning techniques are used as \"engines\" in many applications. &nbsp;They are capable in some cases of automatically answering questions like \"does this program have a specific bug?\" or \"is it possible to exploit this software maliciously?\" &nbsp;In many cases, however, the automated reasoning takes too long to be practical. &nbsp;This project aimed to address this by exploring how best to use parallelism in automated reasoning.</p>\n<p>There were two main projects. &nbsp;The first focused on parallelizing reasoning about Boolean satisfiability (SAT). &nbsp;SAT engines are used in many applications such as software modeling and circuit design and verification. We explored a technique known as Stalmarck's method which is less well-known than current best-practice techniques and is more amenable to parallelization. &nbsp;We implemented a parallel Stalmarck solver and showed that it was possible to get near-linear speed-up on small examples. &nbsp;While the overall performance was still far behind the best sequential techniques, we believe that our results are promising and suggest that more investiagion is warranted. &nbsp;A Stalmarck solver could at the very least be used in combination with a standard SAT solver and this could lead to significant speed-ups in some cases.</p>\n<p>The other project was to implement a parallel SMT solver. &nbsp;SMT solvers can reason at a higher level than Boolean solvers. &nbsp;They understand arithmetic and equations for example. &nbsp;SMT solvers are also used in many important applications. &nbsp;We used CVC4, a state-of-the-art SMT research platform being developed at NYU. &nbsp;We used a \"portfolio\" approach meaning that several instances of the solver are run in parallel with different configurations and the first to solve the problem terminates all of the instances. &nbsp;This is very course-grained parallelism but it seems to be the most effective approach so far. &nbsp;Some sharing of information in the form of \"learned lemmas\" is possible between the different instances. &nbsp;We found that the sharing of information was typically not helpful for SMT problems, but this could be because our sharing mechanism was fairly primitive. &nbsp;However, the portfolio approach does work well on many problems because SMT (like SAT) is very sensitive to configuration options. &nbsp;So, by running several different configurations in parallel, it is likely that performance gains will be realized. &nbsp;CVC4 (with these parallelization options) is publicly available at http://cvc4.cs.nyu.edu.</p>\n<p>An open question that we did not explore is whether more fine-grained parallelism (i.e. at the theory level or lower) would significantly improve the performance of typical SMT queries.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/17/2012<br>\n\t\t\t\t\tModified by: Clark&nbsp;Barrett</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAutomated reasoning techniques are used as \"engines\" in many applications.  They are capable in some cases of automatically answering questions like \"does this program have a specific bug?\" or \"is it possible to exploit this software maliciously?\"  In many cases, however, the automated reasoning takes too long to be practical.  This project aimed to address this by exploring how best to use parallelism in automated reasoning.\n\nThere were two main projects.  The first focused on parallelizing reasoning about Boolean satisfiability (SAT).  SAT engines are used in many applications such as software modeling and circuit design and verification. We explored a technique known as Stalmarck's method which is less well-known than current best-practice techniques and is more amenable to parallelization.  We implemented a parallel Stalmarck solver and showed that it was possible to get near-linear speed-up on small examples.  While the overall performance was still far behind the best sequential techniques, we believe that our results are promising and suggest that more investiagion is warranted.  A Stalmarck solver could at the very least be used in combination with a standard SAT solver and this could lead to significant speed-ups in some cases.\n\nThe other project was to implement a parallel SMT solver.  SMT solvers can reason at a higher level than Boolean solvers.  They understand arithmetic and equations for example.  SMT solvers are also used in many important applications.  We used CVC4, a state-of-the-art SMT research platform being developed at NYU.  We used a \"portfolio\" approach meaning that several instances of the solver are run in parallel with different configurations and the first to solve the problem terminates all of the instances.  This is very course-grained parallelism but it seems to be the most effective approach so far.  Some sharing of information in the form of \"learned lemmas\" is possible between the different instances.  We found that the sharing of information was typically not helpful for SMT problems, but this could be because our sharing mechanism was fairly primitive.  However, the portfolio approach does work well on many problems because SMT (like SAT) is very sensitive to configuration options.  So, by running several different configurations in parallel, it is likely that performance gains will be realized.  CVC4 (with these parallelization options) is publicly available at http://cvc4.cs.nyu.edu.\n\nAn open question that we did not explore is whether more fine-grained parallelism (i.e. at the theory level or lower) would significantly improve the performance of typical SMT queries.\n\n \n\n\t\t\t\t\tLast Modified: 12/17/2012\n\n\t\t\t\t\tSubmitted by: Clark Barrett"
+ }
+}

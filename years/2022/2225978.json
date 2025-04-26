@@ -1,0 +1,105 @@
+{
+ "awd_id": "2225978",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CDS&E: Collaborative Research: Fast Numerical Simulations of Low Void Fraction Disperse Multiphase Systems using Event-Triggered Communication",
+ "cfda_num": "47.041",
+ "org_code": "07020000",
+ "po_phone": "7032928045",
+ "po_email": "sshojaei@nsf.gov",
+ "po_sign_block_name": "Shahab Shojaei-Zadeh",
+ "awd_eff_date": "2022-06-01",
+ "awd_exp_date": "2024-05-31",
+ "tot_intn_awd_amt": 270000.0,
+ "awd_amount": 242730.0,
+ "awd_min_amd_letter_date": "2022-04-15",
+ "awd_max_amd_letter_date": "2022-04-15",
+ "awd_abstract_narration": "Disperse flows involve multiphase fluids where one phase consists of particles, including bubbles and drops, suspended in another contiguous phase.  Disperse flows arise in many problems of  practical interest in engineering and the natural environment.  Direct numerical simulations (DNS) have proven to be indispensable in understanding such flows.  However, for flows with more concentrated particles (i.e. low void fractions), it becomes computationally expensive to simulate interactions between particles. Even state-of-the-art simulations take much too long for them to become commonplace. This project will develop new computational methods, based on ideas from control theory, to speed up such simulations and use them to conduct an in-depth study of disperse multiphase systems with low void fractions. \r\n\r\nThe primary intellectual merit of the project lies in using computation algorithms that reduce communication among multiple processing elements for conducting large-scale simulations of heterogeneous multiphase systems - in particular, low void fraction disperse systems where the inclusion of many particles requires large computational domains and long computational times to collect converged statistical quantities. Such averaged data is critical for the construction of reduced order models used for industrial predictions. This project will aid in better understanding of multiphase flows and systems that are critical in energy conversion, material processing, the chemical industry, atmospheric processes, and living systems, as well as develop novel computational strategies based on event-triggered communications between processors to improve the efficiency of parallel computations. Further, people will be educated in both their development and use, and educational material aimed at lowering the barrier to entry for new researchers will be developed.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CBET",
+ "org_div_long_name": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Vijay",
+   "pi_last_name": "Gupta",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Vijay Gupta",
+   "pi_email_addr": "gupta869@purdue.edu",
+   "nsf_id": "000501929",
+   "pi_start_date": "2022-04-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Purdue University",
+  "inst_street_address": "2550 NORTHWESTERN AVE # 1100",
+  "inst_street_address_2": "",
+  "inst_city_name": "WEST LAFAYETTE",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "7654941055",
+  "inst_zip_code": "479061332",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "IN04",
+  "org_lgl_bus_name": "PURDUE UNIVERSITY",
+  "org_prnt_uei_num": "YRXVL4JYCEF5",
+  "org_uei_num": "YRXVL4JYCEF5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Purdue University",
+  "perf_str_addr": "2550 NORTHWESTERN AVE STE 1900",
+  "perf_city_name": "WEST LAFAYETTE",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "479061332",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "04",
+  "perf_st_cong_dist": "IN04",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "141500",
+   "pgm_ele_name": "PMP-Particul&MultiphaseProcess"
+  },
+  {
+   "pgm_ele_code": "808400",
+   "pgm_ele_name": "CDS&E"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8084",
+   "pgm_ref_txt": "CDS&E"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002021DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2020,
+   "fund_oblg_amt": 242730.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>Multiphase flows, such as flows that contain many bubbles or drops, are critical for understanding a large range of natural and industrial processes and predicting their behavior. With modern parallel computers it is now possible to numerically simulate very large systems, such as turbulent flows containing hundreds and thousands of bubbles. In such simulations the governing equations, describing conservation of mass, momentum, and energy, are solved accurately and the unsteady motion reproduced. Fully resolved simulations provide unprecedented insight into the dynamics of the flow, as well as data that can be used to generate simplified models, useful for industrial predictions. However, several challenges remain and in the present project we have explored a significant challenge to increase the efficiency of the computations to enable simulations of even larger systems. Modern computers consist of many computational units that must pass date from one unit to the next one and this communication is usually the least efficient part of large-scale computations. We have explored ways to reduce the need for communications, using concepts from control theory where data is only passed between units when changes have taken place. For some multiphase flow problems, we have shown that it is possible to reduce the required communications significantly. This is done by taking advance of the structure of the problem and not communicate in regions of the flow where little or no changes are taking place. We have shown that similar ideas are applicable to other problems of broader interest &mdash; such as distributed machine learning &mdash; and other setups such as federated computation setups, thus showing that this is a rich set of ideas that should be developed and exploited in any multi-processor setup.&nbsp;</span></p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 10/13/2024<br>\nModified by: Vijay&nbsp;Gupta</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nMultiphase flows, such as flows that contain many bubbles or drops, are critical for understanding a large range of natural and industrial processes and predicting their behavior. With modern parallel computers it is now possible to numerically simulate very large systems, such as turbulent flows containing hundreds and thousands of bubbles. In such simulations the governing equations, describing conservation of mass, momentum, and energy, are solved accurately and the unsteady motion reproduced. Fully resolved simulations provide unprecedented insight into the dynamics of the flow, as well as data that can be used to generate simplified models, useful for industrial predictions. However, several challenges remain and in the present project we have explored a significant challenge to increase the efficiency of the computations to enable simulations of even larger systems. Modern computers consist of many computational units that must pass date from one unit to the next one and this communication is usually the least efficient part of large-scale computations. We have explored ways to reduce the need for communications, using concepts from control theory where data is only passed between units when changes have taken place. For some multiphase flow problems, we have shown that it is possible to reduce the required communications significantly. This is done by taking advance of the structure of the problem and not communicate in regions of the flow where little or no changes are taking place. We have shown that similar ideas are applicable to other problems of broader interest  such as distributed machine learning  and other setups such as federated computation setups, thus showing that this is a rich set of ideas that should be developed and exploited in any multi-processor setup.\n\n\n\t\t\t\t\tLast Modified: 10/13/2024\n\n\t\t\t\t\tSubmitted by: VijayGupta\n"
+ }
+}

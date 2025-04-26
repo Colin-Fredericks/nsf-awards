@@ -1,0 +1,106 @@
+{
+ "awd_id": "9984921",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CAREER:The Internet Congestion Manager",
+ "cfda_num": "47.070",
+ "org_code": "05050202",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Darleen Fisher",
+ "awd_eff_date": "2000-07-01",
+ "awd_exp_date": "2004-06-30",
+ "tot_intn_awd_amt": 275040.0,
+ "awd_amount": 275040.0,
+ "awd_min_amd_letter_date": "2000-06-19",
+ "awd_max_amd_letter_date": "2000-06-19",
+ "awd_abstract_narration": "Internet traffic patterns and applications have been evolving rapidly in recent years and network congestion is becoming a problem of extreme importance. While the Internet's transport protocol, TCP, incorporates congestion control machinery and has largely been responsible for the stability of the Internet to date, two problematic trends threaten this situation:\r\n     Concurrent flows:   Several applications are characterized by multiple concurrent flows between sender and receiver. Today, these flows compete with each other for network resources, prove overly aggressive on the network, and do not share information about the network with each other.\r\n     Lack of adaptation:   An increasing number of applications use UDP-based flows without sound congestion control because they do not need the reliable, in-order service provided by TCP. Today, they do not learn about or adapt well to hanging network conditions. Unfortunately, current protocol architectures do not\r\nprovide adequate support for this.\r\n     Motivated by these trends, this NSF CAREER proposal takes a fresh look at Internet congestion management from an end-system perspective and proposes a new architecture built around a Congestion Manager (CM). The CM maintains network statistics across flows, orchestrates data transmissions governed by  robust control principles, and obtains feedback from the receiver, using a congestion Controller, Flow Scheduler, and Feedback Prober. It also exports a simple yet powerful API for applications to learn about network state and adapt their data transmissions to obtain the best possible performance.\r\n     The research thrusts of this proposal include: (i) network architecture, involving the design and deployment of the CM infrastructure and API, (ii) analysis using mathematical and simulation techniques of the impact of   congestion feedback on control quality, of the spatial stability of Internet performance, and of the temporal stability and potential for caching of network performance parameters, (iii) algorithms, for deciding which flows share  congestion state, for new congestion control techniques, and for aging congestion control parameters in the absence of receiver feedback, (iv) protocols to communicate probes and feedback between senders and receivers and allow user preferences to be reflected in data transmissions, (v) implementation of the CM and several applications including Web and real-time conferencing ones, and (vi) deployment of the CM and its applications in the wide-area Internet to  conduct performance experiments.\r\n     If successful, this research has the potential to fundamentally change the network architecture of end-hosts and greatly improve the design and    implementation of Internet applications, forming the basis for congestion management in the future Internet. As this work matures, IRTF- (Internet Research Task Force) and IETF-sanctioned (Internet Engineering Task Force) standardization of some of the CM protocols and API are expected, as are discussions with vendors of popular server operating systems to explore technology transfer issues. The major expected results of this research are a detailed design, analysis, and evaluation of the CM architecture the internal algorithms, analysis of congestion, the adaptation API, the CM protocol, a reference implementation in the Linux operating system, and several applications. The resulting software will be made freely available under the standard M.I.T. copyright.\r\n     The education plan in this proposal consists of three components: (i) curriculum development, to introduce two new courses in networking at the undergraduate and graduate levels, focusing on fundamental principles as well as practical issues, (ii) undergraduate research, tapping into M.I.T.'s UROP program and involving undergraduate students in various aspects of the proposed research, and (iii) a teaching philosophy emphasizing the scientific method and experimental computer science in undergraduate education, by designing several hands-on experimental tasks and using simulation and visualization extensively in lectures the same tools that are the vehicles for the research proposed herein. \r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Hari",
+   "pi_last_name": "Balakrishnan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Hari Balakrishnan",
+   "pi_email_addr": "hari@csail.mit.edu",
+   "nsf_id": "000489957",
+   "pi_start_date": "2000-06-19",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "77 MASSACHUSETTS AVE",
+  "perf_city_name": "CAMBRIDGE",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "409700",
+   "pgm_ele_name": "NETWORKING RESEARCH"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0100",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0100",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2000,
+   "fund_oblg_amt": 275040.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,130 @@
+{
+ "awd_id": "2340748",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CAREER: Deadline-Ordered Multicast: A Network Primitive for Cloud-Native Distributed Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032924624",
+ "po_email": "amatta@nsf.gov",
+ "po_sign_block_name": "Abraham Matta",
+ "awd_eff_date": "2024-09-01",
+ "awd_exp_date": "2029-08-31",
+ "tot_intn_awd_amt": 801164.0,
+ "awd_amount": 304639.0,
+ "awd_min_amd_letter_date": "2024-03-05",
+ "awd_max_amd_letter_date": "2024-08-21",
+ "awd_abstract_narration": "Computer systems spread out over multiple machines---also known as distributed systems---power most of today's digital world and the vast majority of web applications.  Such digital systems include storage systems and search engine as well as web services. Spreading out digital systems across machines has multiple benefits including (1) the ability to survive machine failures by moving computation to a different machine and (2) the ability to leverage the capabilities of multiple machines to finish computations faster. To realize these benefits, the machines within a distributed system must coordinate amongst themselves to ensure the result is identical to an idealised illusion of executing the computation on a single machine. This project will make coordination significantly faster by developing a new abstraction, deadline-ordered multicast (DOM), which combines: (1) Multicast: The ability to simultaneously transmit a message from a sender to multiple receivers and (2) Synchronized clocks: Technology to ensure that, at any instant, clocks on various machines display the same value of time and that these clocks progress in lock step with each other.   The project will demonstrate how DOM can be used to accelerate widely used computer systems, such as distributed databases, coordination services, and blockchains. The project will also train both undergraduate and graduate students using a variety of approaches to understand the benefits of synchronized clocks when thinking about distributed systems. \r\n\r\nDistributed systems are at the heart of computing today and include widely used systems such as distributed databases, fault-tolerant key-value stores, and distributed ledgers. At the core of these systems are distributed protocols such as crash-fault-tolerant consensus, concurrency control, and Byzantine-fault-tolerant consensus. Much effort has been expended on improving the performance of distributed protocols over the years including recent efforts that leverage richer network services to improve distributed protocols. Such services include switch multicast, programmable switches, programmable network-interface cards, in-network priority queues, and control over routing. However, many distributed systems today are deployed by cloud tenants, who have no access to such rich network services, making it impossible for them to benefit from the improved protocol performance enabled by such rich network services.\r\n\r\nThis project will develop a new network primitive called deadline-ordered multicast (DOM) that will make it easier to construct high-performance distributed protocols on the public cloud. DOM leverages 2 key techniques: (1) the recent availability of synchronized clocks as a service, which now permit tightly synchronized clocks in the public cloud and (2) multicast, which struggled to find traction in the Internet, but is ideal for the one-sender-multi-receiver communication at the heart of distributed systems. DOM delivers a multicast message from a sender to multiple receivers at or after a message's deadline and delivers multiple messages in deadline order. DOM provides a consistent order (the order of deadlines) in which different receivers process a set of messages, accelerating several distributed protocols in the process. This proposal will develop the DOM abstraction, design an optimized DOM service, and prototype several applications demonstrating DOM's value.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Anirudh",
+   "pi_last_name": "Sivaraman Kaushalram",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Anirudh Sivaraman Kaushalram",
+   "pi_email_addr": "as11800@nyu.edu",
+   "nsf_id": "000754267",
+   "pi_start_date": "2024-03-05",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "70 WASHINGTON SQ S",
+  "perf_city_name": "NEW YORK",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121019",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736300",
+   "pgm_ele_name": "Networking Technology and Syst"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1045",
+   "pgm_ref_txt": "CAREER-Faculty Erly Career Dev"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002728DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002627DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002526DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002425DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002829DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2024,
+   "fund_oblg_amt": 304639.0
+  }
+ ],
+ "por": null
+}

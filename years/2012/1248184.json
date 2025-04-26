@@ -1,0 +1,117 @@
+{
+ "awd_id": "1248184",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: From Clarity to Efficiency for Distributed Algorithms",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2012-09-15",
+ "awd_exp_date": "2016-08-31",
+ "tot_intn_awd_amt": 199999.0,
+ "awd_amount": 199999.0,
+ "awd_min_amd_letter_date": "2012-09-10",
+ "awd_max_amd_letter_date": "2012-09-10",
+ "awd_abstract_narration": "Distributed algorithms are the foundation of distributed systems, which are an important part of the nation's computer infrastructure.  Developing correct and robust implementations of such algorithms is a difficult task.  This research project is an ambitious effort to address the problem of programming distributed algorithms by raising the level of abstraction.  The investigators will develop a novel very-high-level language, called DistAlgo, for writing distributed algorithms.  This language will make it easier to clearly express distributed algorithms and will provide a useful pedagogical notation for teaching distributed programming.\r\n\r\nThe investigators will develop optimizations that will allow efficient implementations to be generated from DistAlgo programs.  Thus, this work will bridge the gap between the pseudocode that is typically used to describe distributed algorithms and the efficient implementations of such algorithms.  The optimizations are based on automatic incrementalization techniques applied to the logical descriptions of process states and histories.  The investigators will evaluate their approach by applying it to well known distributed algorithms.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Yanhong",
+   "pi_last_name": "Liu",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Yanhong A Liu",
+   "pi_email_addr": "liu@cs.stonybrook.edu",
+   "nsf_id": "000122290",
+   "pi_start_date": "2012-09-10",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Scott",
+   "pi_last_name": "Stoller",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Scott D Stoller",
+   "pi_email_addr": "stoller@cs.stonybrook.edu",
+   "nsf_id": "000201137",
+   "pi_start_date": "2012-09-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "SUNY at Stony Brook",
+  "inst_street_address": "W5510 FRANKS MELVILLE MEMORIAL LIBRARY",
+  "inst_street_address_2": "",
+  "inst_city_name": "STONY BROOK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6316329949",
+  "inst_zip_code": "117940001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NY01",
+  "org_lgl_bus_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "M746VC6XMNH9",
+  "org_uei_num": "M746VC6XMNH9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "SUNY at Stony Brook",
+  "perf_str_addr": "",
+  "perf_city_name": "Stony Brook",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "117944400",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NY01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 199999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project led to the successful development of (1) a powerful language, DistAlgo, for writing clear descriptions of distributed algorithms and (2) systematic optimizations for generating efficient implementations.</p>\n<p>The language supports high-level control flows where complex synchronization conditions can be expressed using high-level queries, especially logic quantifications, over message history sequences.</p>\n<p>The optimizations automatically transform complex synchronization conditions into incremental updates of necessary auxiliary values as messages are sent and received. &nbsp;The core of the optimizations is the first general method for generating efficient implementations of logic quantifications.</p>\n<p>We have developed an operational semantics of the language, implemented a prototype of the compiler and the optimizations, and successfully used the language and implementation on a variety of important distributed algorithms, including Multi-Paxos for distributed consensus.</p>\n<p>Students in distributed systems courses have used DistAlgo in dozens of course projects, implementing the core of network protocols, cache coherence protocols, distributed graph algorithms, distributed coordination services, distributed hash tables, distributed file systems, distributed databases, distributed processing platforms, and others.</p>\n<p>In our experience, DistAlgo allows complex distributed algorithms and applications to be written much more easily and clearly and in significantly shorter time, yielding an order of magnitude improvement over conventional languages.</p>\n<p>DistAlgo is publicly available via http://sites.google.com/site/DistAlgo/ and at http://github.com/DistAlgo/ and http://DistAlgo.sourceforge.net/.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/29/2016<br>\n\t\t\t\t\tModified by: Yanhong&nbsp;A&nbsp;Liu</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project led to the successful development of (1) a powerful language, DistAlgo, for writing clear descriptions of distributed algorithms and (2) systematic optimizations for generating efficient implementations.\n\nThe language supports high-level control flows where complex synchronization conditions can be expressed using high-level queries, especially logic quantifications, over message history sequences.\n\nThe optimizations automatically transform complex synchronization conditions into incremental updates of necessary auxiliary values as messages are sent and received.  The core of the optimizations is the first general method for generating efficient implementations of logic quantifications.\n\nWe have developed an operational semantics of the language, implemented a prototype of the compiler and the optimizations, and successfully used the language and implementation on a variety of important distributed algorithms, including Multi-Paxos for distributed consensus.\n\nStudents in distributed systems courses have used DistAlgo in dozens of course projects, implementing the core of network protocols, cache coherence protocols, distributed graph algorithms, distributed coordination services, distributed hash tables, distributed file systems, distributed databases, distributed processing platforms, and others.\n\nIn our experience, DistAlgo allows complex distributed algorithms and applications to be written much more easily and clearly and in significantly shorter time, yielding an order of magnitude improvement over conventional languages.\n\nDistAlgo is publicly available via http://sites.google.com/site/DistAlgo/ and at http://github.com/DistAlgo/ and http://DistAlgo.sourceforge.net/.\n\n\t\t\t\t\tLast Modified: 11/29/2016\n\n\t\t\t\t\tSubmitted by: Yanhong A Liu"
+ }
+}

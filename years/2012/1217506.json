@@ -1,0 +1,105 @@
+{
+ "awd_id": "1217506",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Bounded-Contention Coding for Wireless Networks",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rahul Shah",
+ "awd_eff_date": "2012-08-01",
+ "awd_exp_date": "2017-07-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2012-07-23",
+ "awd_max_amd_letter_date": "2012-07-23",
+ "awd_abstract_narration": "Interference in wireless networks often prevents nodes from receiving messages that are within transmission range. This is because communication occurs through broadcast channels rather than point-to-point links -- a node that is close to more than one transmitter receives a signal that is a mixture of the signals originally transmitted. Avoiding collisions basically requires some type of symmetry breaking among the nodes that want to transmit, to prevent them from transmitting at the same time, and has been the subject of many important studies.\r\n\r\nThis project will focus on wireless network scenarios in which the contention is bounded and introduce a framework for coping with collisions rather than avoiding them. It will consist of two main contributions. First, the PI will introduce a new coding framework for additive networks called Bounded-Contention Coding (BCC), which allows a receiver to uniquely decode colliding transmissions, and the PI will devise efficient codes within this framework. Second, the PI will design algorithms that use these codes for communicating in wireless networks, in order to solve many fundamental distributed problems.  The PI will complement this study with corresponding lower bounds in order to understand the limitations on communicating and computing in such an environment. The PI will also consider several extensions and modifications of the basic model, determine their impact on the algorithms, and propose new solutions for problems in these models as well.\r\n\r\nThe results of this project can have impact on the design of real wireless networks, in which bounded-contention scenarios are common.  For example, in a large-scale system of phones, only a few calls are typically active at one time. Another example is when nodes in a wireless sensor network receive measurement data from the environment periodically and send it to a central location in the network. The times at which the sensor nodes transmit their measurements could be scheduled in a way that bounds the number of concurrently active transmissions. In both of these examples, although the contention is limited, interference may still occur, implying the necessity to resolve colliding transmissions.  For examples such as these, our coding methods and algorithms can lead to new, efficient implementations, and our lower bound results can lead to a better understanding of the inherent limitations.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nancy",
+   "pi_last_name": "Lynch",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nancy A Lynch",
+   "pi_email_addr": "lynch@csail.mit.edu",
+   "nsf_id": "000169435",
+   "pi_start_date": "2012-07-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Massachusetts Institute of Technology",
+  "inst_street_address": "77 MASSACHUSETTS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CAMBRIDGE",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6172531000",
+  "inst_zip_code": "021394301",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+  "org_prnt_uei_num": "E2NYLCDML6V1",
+  "org_uei_num": "E2NYLCDML6V1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Massachusetts Institute of Technology",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021394301",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The broad aim of this project was to develop algorithmic techniques<br />that would make it easier for algorithm and software designers to<br />design applications for wireless networks.&nbsp; The work was theoretical,<br />focusing on obtaining the best algorithms to solve well-defined<br />abstract problems, according to well-defined cost metrics such as the<br />time and the amount of storage used.&nbsp; The project began by focusing on<br />coding techniques for wireless communication, and broadened over time<br />to include other uses of coding in distributed systems (notably, to<br />reduce data storage cost in cloud storage services), and other types<br />of algorithms for wireless networks.<br /><br />Specifically, the project began by developing new ``Bounded-Contention<br />Coding'' techniques for wireless communication that work well in<br />situations of low contention among senders.&nbsp; These methods only<br />require each message to be transmitted once, with receivers able to<br />decode the meaning of intermingled transmissions from different<br />senders; this represents an improvement over previously-known<br />techniques such as probabilistic transmission and algebraic network<br />coding.&nbsp; The costs depend on the amount of contention.&nbsp; Using these<br />techniques, the investigators were able to produce new, efficient<br />algorithms for local and network-wide communication and computation<br />tasks.&nbsp; The investigators analyzed the performance of the algorithms<br />mathematically, and also extended the results to more complex<br />platforms such as mobile networks and networks with multiple channels.<br /><br />In a breakthrough later in the project, the investigators generalized<br />their methods to more powerful ``Bounded-Information Codes'', which<br />work in the presence of unbounded contention, as long as the number of<br />different messages remains bounded.&nbsp; These new, more powerful methods were used to develop a large number of new wireless network<br />algorithms, for example, for symmetry-breaking problems such as leader<br />election, for approximation problems such as estimating the size of the network (or a local part), and for computational problems such as<br />determining the largest of all the input values in the network.<br /><br />The project then considered other ways in which coding techniques<br />could be used to reduce the costs of solving problems in wireless<br />networks (and other distributed networks).&nbsp; Specifically, the investigators considered the problem of emulating centralized shared memory in fault-prone distributed settings.&nbsp; They developed a series of four successively-improved algorithms to implement such memory, with low time costs and with considerable improvements in storage and communication cost.&nbsp; The algorithms made use of a well-known coding methods called ``Erasure Coding''.&nbsp; The culmination of this work was a flexible ``two-layer'' algorithm, in which one layer is responsible for the data storage and coding, while the other layer manages the consistency of the various data versions.&nbsp; This work was also complemented with lower bound results that express inherent limitations on the amount of storage that is required to guarantee the needed data-storage properties, even using arbitrary coding methods.<br /><br />The project also developed and analyzed some wireless algorithms for<br />traditional wireless networks that do not support coding.&nbsp; The problems considered in this work are similar to those considered for networks with coding, such as local and global broadcast and various types of network-wide computation.&nbsp; Highlights here include the development of new abstraction layers for wireless network programming, such as a ``Reliable Local Broadcast'' layer and an ``Aggregation Tree'' layer.&nbsp; These provide simple interfaces to facilitate construction of efficient higher-level algorithms and applications, while hiding complexities of managing communication<br />contention in low-level wireless networks.&nbsp; Another highlight is an award-winning paper on leader election in wireless networks using flexible transmission power control.<br /><br />Intellectual Merit: <br />This project has produced important contributions to the theory of<br />wireless networks, with likely applications to practice.&nbsp; This work has built on ideas and techniques from several different mathematical disciplines, including coding theory, communication theory, probability theory, and distributed algorithms and lower bounds.<br /><br />Broader Impacts:<br />The new Bounded-Contention-Coding methods and related techniques have the potential to lead to new types of algorithms for efficient programming of wireless networks.&nbsp; This may enable the design of new<br />wireless networks with greater efficiency, reliability, robustness, and flexibility than those that currently exist.&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/28/2017<br>\n\t\t\t\t\tModified by: Nancy&nbsp;A&nbsp;Lynch</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe broad aim of this project was to develop algorithmic techniques\nthat would make it easier for algorithm and software designers to\ndesign applications for wireless networks.  The work was theoretical,\nfocusing on obtaining the best algorithms to solve well-defined\nabstract problems, according to well-defined cost metrics such as the\ntime and the amount of storage used.  The project began by focusing on\ncoding techniques for wireless communication, and broadened over time\nto include other uses of coding in distributed systems (notably, to\nreduce data storage cost in cloud storage services), and other types\nof algorithms for wireless networks.\n\nSpecifically, the project began by developing new ``Bounded-Contention\nCoding'' techniques for wireless communication that work well in\nsituations of low contention among senders.  These methods only\nrequire each message to be transmitted once, with receivers able to\ndecode the meaning of intermingled transmissions from different\nsenders; this represents an improvement over previously-known\ntechniques such as probabilistic transmission and algebraic network\ncoding.  The costs depend on the amount of contention.  Using these\ntechniques, the investigators were able to produce new, efficient\nalgorithms for local and network-wide communication and computation\ntasks.  The investigators analyzed the performance of the algorithms\nmathematically, and also extended the results to more complex\nplatforms such as mobile networks and networks with multiple channels.\n\nIn a breakthrough later in the project, the investigators generalized\ntheir methods to more powerful ``Bounded-Information Codes'', which\nwork in the presence of unbounded contention, as long as the number of\ndifferent messages remains bounded.  These new, more powerful methods were used to develop a large number of new wireless network\nalgorithms, for example, for symmetry-breaking problems such as leader\nelection, for approximation problems such as estimating the size of the network (or a local part), and for computational problems such as\ndetermining the largest of all the input values in the network.\n\nThe project then considered other ways in which coding techniques\ncould be used to reduce the costs of solving problems in wireless\nnetworks (and other distributed networks).  Specifically, the investigators considered the problem of emulating centralized shared memory in fault-prone distributed settings.  They developed a series of four successively-improved algorithms to implement such memory, with low time costs and with considerable improvements in storage and communication cost.  The algorithms made use of a well-known coding methods called ``Erasure Coding''.  The culmination of this work was a flexible ``two-layer'' algorithm, in which one layer is responsible for the data storage and coding, while the other layer manages the consistency of the various data versions.  This work was also complemented with lower bound results that express inherent limitations on the amount of storage that is required to guarantee the needed data-storage properties, even using arbitrary coding methods.\n\nThe project also developed and analyzed some wireless algorithms for\ntraditional wireless networks that do not support coding.  The problems considered in this work are similar to those considered for networks with coding, such as local and global broadcast and various types of network-wide computation.  Highlights here include the development of new abstraction layers for wireless network programming, such as a ``Reliable Local Broadcast'' layer and an ``Aggregation Tree'' layer.  These provide simple interfaces to facilitate construction of efficient higher-level algorithms and applications, while hiding complexities of managing communication\ncontention in low-level wireless networks.  Another highlight is an award-winning paper on leader election in wireless networks using flexible transmission power control.\n\nIntellectual Merit: \nThis project has produced important contributions to the theory of\nwireless networks, with likely applications to practice.  This work has built on ideas and techniques from several different mathematical disciplines, including coding theory, communication theory, probability theory, and distributed algorithms and lower bounds.\n\nBroader Impacts:\nThe new Bounded-Contention-Coding methods and related techniques have the potential to lead to new types of algorithms for efficient programming of wireless networks.  This may enable the design of new\nwireless networks with greater efficiency, reliability, robustness, and flexibility than those that currently exist. \n\n\t\t\t\t\tLast Modified: 06/28/2017\n\n\t\t\t\t\tSubmitted by: Nancy A Lynch"
+ }
+}

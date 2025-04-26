@@ -1,0 +1,113 @@
+{
+ "awd_id": "1538204",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Reducing Latency by Replicating Jobs",
+ "cfda_num": "47.041",
+ "org_code": "07030000",
+ "po_phone": "7032922443",
+ "po_email": "gaklutke@nsf.gov",
+ "po_sign_block_name": "Georgia-Ann Klutke",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 299711.0,
+ "awd_amount": 299711.0,
+ "awd_min_amd_letter_date": "2015-08-23",
+ "awd_max_amd_letter_date": "2015-08-23",
+ "awd_abstract_narration": "A new notion of redundancy in computer systems design is the act of purposely replicating a job, dispatching each replica to a different queue, and only waiting for the first completion (all remaining replicas are discarded). While still nascent, recent studies at Google, Microsoft, and U.C. Berkeley have shown that redundancy can reduce mean latency in data centers and cloud services by up to 50 percent. Unfortunately, there are almost no analytical studies of redundancy. The research team will provide the first exact analysis of redundancy, understanding both the pros and cons of redundancy. The results of this research will impact several diverse research communities including: operations research, queueing theory, coding theory, cloud computing, data center optimization, and healthcare, and will also increase K-12 STEM opportunities for students. \r\n\r\nRedundancy requires a new queueing paradigm: there is no longer a single copy of each job, and redundant copies disappear as soon as one copy completes. Different classes of jobs may have different levels of redundancy, necessitating a complex state space where the exact ordering of all copies of all jobs in all queues must be tracked. Systems with redundancy bear some resemblance to other classically hard operations research systems, like fork-join systems, coupled-processor systems, and flexible server systems.    The research team aims to explicitly characterize the latency benefit to jobs that are replicated as well as the pain inflicted (increase in latency) on those jobs that cannot be replicated.   The research will also investigate how the benefit of redundancy is affected by real-world externalities, like cancellation cost, reneging of users, and variability of service times.   Redundancy will also be compared with other dispatching policies both via analysis and experimentation in cloud systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CMMI",
+ "org_div_long_name": "Division of Civil, Mechanical, and Manufacturing Innovation",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Mor",
+   "pi_last_name": "Harchol-Balter",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Mor Harchol-Balter",
+   "pi_email_addr": "harchol@cs.cmu.edu",
+   "nsf_id": "000201705",
+   "pi_start_date": "2015-08-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133890",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "006Y00",
+   "pgm_ele_name": "OE Operations Engineering"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "072E",
+   "pgm_ref_txt": "NETWORKS & QUEUING SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "073E",
+   "pgm_ref_txt": "OPTIMIZATION & DECISION MAKING"
+  },
+  {
+   "pgm_ref_code": "077E",
+   "pgm_ref_txt": "SIMULATION MODELS"
+  },
+  {
+   "pgm_ref_code": "9102",
+   "pgm_ref_txt": "WOMEN, MINORITY, DISABLED, NEC"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 299711.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Redundancy is the idea of replicating a single request (job), so that<br />copies of the request are sent to different queues.&nbsp; The request is<br />considered to be \"done\" as soon as a single replica completes.&nbsp; The<br />benefit of redundancy is that it can reduce response times (sojourn<br />times) by orders of magnitude.&nbsp; This happens because the request gets<br />to experience the \"best\" of several queues.&nbsp; Unfortunately, redundancy<br />also creates additional load, since there are multiple copies of each<br />request, and this in turn can increase response time.<br /><br />This project analytically studies the gain and pain associated with<br />redundancy.&nbsp; The overall goal of the project is to devise ways to<br />implement redundancy that greatly improve response time, without<br />incurring much additional load.<br /><br />In the first phase of our project, we develop the first exact analysis<br />of redundancy in queueing networks.&nbsp; This work has received a huge<br />amount of attention, because of the difficulty of the mathematical<br />model and the beauty of the product-form result achieved.<br />Unfortunately, this work doesn't fully capture the extra load incurred<br />from redundancy.<br /><br />In the second phase of our project, we develop the S&amp;X model, which is<br />the first model to fully capture the extra load incurred by<br />redundancy.&nbsp; This model is able to demonstrate for the first time that<br />there is an optimal level of redundancy (optimal number of replicas).<br />This optimal level depends on many factors including the job size<br />distribution, the server slowdown distribution, and overall load.<br /><br />In the third phase of our project, we develop a new redundancy<br />algorithm, called Replicate-to-Idle-Queue (RIQ).&nbsp; RIQ is a highly<br />practical algorithm because it is self-corrects and never<br />over-replicates.&nbsp; In particular, we prove that RIQ will never lead to<br />instability.<br /><br />In a fourth phase of our project, we consider fairness in redundancy.<br />We find that redundancy can favor those jobs which get to replicate<br />over jobs which don't get to replicate.&nbsp; We develop redundancy<br />algorithms like Primaries First (PF), which both achieve low response<br />time and are also fair across jobs.<br /><br />In the fifth phase of our project, we extend our redundancy analysis<br />techniques to tackle the fork-join problem, which has been open for<br />over 50 years.&nbsp; In a fork-join system, a request is split into pieces,<br />where each piece is handled by a separate server.&nbsp; Only when all the<br />pieces are complete is the request complete.&nbsp; Such fork-join systems<br />are at the heart of Map-Reduce settings, but also come up throughout<br />operations research.&nbsp; Our research produces the first asymptotically<br />exact analysis of fork-join, provided that the number of pieces<br />(forks) is not too great.<br /><br />The impact of redundancy is very broad.&nbsp; The world is full of examples<br />where conditions are unknown and thus one might want to send out more<br />than one copy of a job, in the hope that the job can complete more<br />quickly. Our primary application has been improving data center<br />response times.&nbsp; However we have also looked at using redundancy in<br />the form of multi-listing to improve the efficiency of organ donation<br />services.&nbsp; Redundancy also has applications to banking, supermarkets,<br />call centers, and anywhere else that queueing takes place.<br /><br />This project has several broader impact outcomes:&nbsp;&nbsp; <br /><br />To start, the project has contributed to the training of several PhD<br />students and undergraduates.&nbsp; PhD students Sherwin Doroudi, Kristen<br />Gardner, and Timothy Zhu were all partially funded on this grant, and<br />all now have tenure-track faculty positions.&nbsp; Sherwin Doroudi is an<br />assistant professor in the ISYE department at the University of<br />Minnesota.&nbsp; Kristen Gardner is an assistant professor at Amherst<br />College.&nbsp; Timothy Zhu is an assistant professor at Penn State<br />University.&nbsp; In addition, the project contributed to the training of<br />several undergraduates.&nbsp; Two of these, Sam Zbarsky and Haotian Jiang,<br />are now in PhD programs, Sam at Princeton University and Haotian at<br />University of Washington.&nbsp;&nbsp; <br /><br />The work in this project was the thesis topic of Kristen Gardner.&nbsp; The<br />work has been disseminated via more than a dozen of publications in<br />top conferences and journals.&nbsp; It has been the topic of half a dozen<br />keynote talks as well as dozens of invited talks.<br /><br />More broadly, the PI, Mor Harchol-Balter, and her students are heavily<br />involved in Women@SCS events.&nbsp; These include CMU Tech nights to teach<br />technology to middle school girls, Road Shows to attract high school<br />students to computer science, and Women@SCS Creative Technology<br />Nights, to talk to high school girls about research in computer<br />science.&nbsp; The PI also mentors several new female faculty and<br />participates in panels on improving life for women in technology.<br />Additional, the PI manages fund raising for the Western PA ARML team,<br />which she created to train high school students for the Math Olympiad.<br /><br /><br /></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/26/2018<br>\n\t\t\t\t\tModified by: Mor&nbsp;Harchol-Balter</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nRedundancy is the idea of replicating a single request (job), so that\ncopies of the request are sent to different queues.  The request is\nconsidered to be \"done\" as soon as a single replica completes.  The\nbenefit of redundancy is that it can reduce response times (sojourn\ntimes) by orders of magnitude.  This happens because the request gets\nto experience the \"best\" of several queues.  Unfortunately, redundancy\nalso creates additional load, since there are multiple copies of each\nrequest, and this in turn can increase response time.\n\nThis project analytically studies the gain and pain associated with\nredundancy.  The overall goal of the project is to devise ways to\nimplement redundancy that greatly improve response time, without\nincurring much additional load.\n\nIn the first phase of our project, we develop the first exact analysis\nof redundancy in queueing networks.  This work has received a huge\namount of attention, because of the difficulty of the mathematical\nmodel and the beauty of the product-form result achieved.\nUnfortunately, this work doesn't fully capture the extra load incurred\nfrom redundancy.\n\nIn the second phase of our project, we develop the S&amp;X model, which is\nthe first model to fully capture the extra load incurred by\nredundancy.  This model is able to demonstrate for the first time that\nthere is an optimal level of redundancy (optimal number of replicas).\nThis optimal level depends on many factors including the job size\ndistribution, the server slowdown distribution, and overall load.\n\nIn the third phase of our project, we develop a new redundancy\nalgorithm, called Replicate-to-Idle-Queue (RIQ).  RIQ is a highly\npractical algorithm because it is self-corrects and never\nover-replicates.  In particular, we prove that RIQ will never lead to\ninstability.\n\nIn a fourth phase of our project, we consider fairness in redundancy.\nWe find that redundancy can favor those jobs which get to replicate\nover jobs which don't get to replicate.  We develop redundancy\nalgorithms like Primaries First (PF), which both achieve low response\ntime and are also fair across jobs.\n\nIn the fifth phase of our project, we extend our redundancy analysis\ntechniques to tackle the fork-join problem, which has been open for\nover 50 years.  In a fork-join system, a request is split into pieces,\nwhere each piece is handled by a separate server.  Only when all the\npieces are complete is the request complete.  Such fork-join systems\nare at the heart of Map-Reduce settings, but also come up throughout\noperations research.  Our research produces the first asymptotically\nexact analysis of fork-join, provided that the number of pieces\n(forks) is not too great.\n\nThe impact of redundancy is very broad.  The world is full of examples\nwhere conditions are unknown and thus one might want to send out more\nthan one copy of a job, in the hope that the job can complete more\nquickly. Our primary application has been improving data center\nresponse times.  However we have also looked at using redundancy in\nthe form of multi-listing to improve the efficiency of organ donation\nservices.  Redundancy also has applications to banking, supermarkets,\ncall centers, and anywhere else that queueing takes place.\n\nThis project has several broader impact outcomes:   \n\nTo start, the project has contributed to the training of several PhD\nstudents and undergraduates.  PhD students Sherwin Doroudi, Kristen\nGardner, and Timothy Zhu were all partially funded on this grant, and\nall now have tenure-track faculty positions.  Sherwin Doroudi is an\nassistant professor in the ISYE department at the University of\nMinnesota.  Kristen Gardner is an assistant professor at Amherst\nCollege.  Timothy Zhu is an assistant professor at Penn State\nUniversity.  In addition, the project contributed to the training of\nseveral undergraduates.  Two of these, Sam Zbarsky and Haotian Jiang,\nare now in PhD programs, Sam at Princeton University and Haotian at\nUniversity of Washington.   \n\nThe work in this project was the thesis topic of Kristen Gardner.  The\nwork has been disseminated via more than a dozen of publications in\ntop conferences and journals.  It has been the topic of half a dozen\nkeynote talks as well as dozens of invited talks.\n\nMore broadly, the PI, Mor Harchol-Balter, and her students are heavily\ninvolved in Women@SCS events.  These include CMU Tech nights to teach\ntechnology to middle school girls, Road Shows to attract high school\nstudents to computer science, and Women@SCS Creative Technology\nNights, to talk to high school girls about research in computer\nscience.  The PI also mentors several new female faculty and\nparticipates in panels on improving life for women in technology.\nAdditional, the PI manages fund raising for the Western PA ARML team,\nwhich she created to train high school students for the Math Olympiad.\n\n\n\n\n\t\t\t\t\tLast Modified: 09/26/2018\n\n\t\t\t\t\tSubmitted by: Mor Harchol-Balter"
+ }
+}

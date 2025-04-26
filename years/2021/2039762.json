@@ -1,0 +1,101 @@
+{
+ "awd_id": "2039762",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CCSS: Signal Processing for Single-Photon Detectors",
+ "cfda_num": "47.041",
+ "org_code": "07010000",
+ "po_phone": "7032924568",
+ "po_email": "hdai@nsf.gov",
+ "po_sign_block_name": "Huaiyu Dai",
+ "awd_eff_date": "2021-07-01",
+ "awd_exp_date": "2024-06-30",
+ "tot_intn_awd_amt": 380000.0,
+ "awd_amount": 380000.0,
+ "awd_min_amd_letter_date": "2021-06-15",
+ "awd_max_amd_letter_date": "2021-06-15",
+ "awd_abstract_narration": "Light has a fundamental smallest quantity - a photon - that is very far from everyday human experience. For example, the number of photons collected by the camera in a mobile phone to form a typical photograph is in the trillions. Nevertheless, there are some increasingly common devices that rely on measuring light down to the smallest possible amounts. These are devices that perform \"single-photon detection\" (SPD). SPD is used in combination with pulsed lasers in the 3D imaging systems of self-driving cars, and it is used to enable augmented reality in devices like the iPad Pro. Many types of scientific imaging also use SPD to see individual molecules, track proteins, or determine chemical concentrations through spectroscopy. Devices for SPD have complicated behavior that is often modeled naively. Using more detailed modeling, this project will develop data processing methods to use with SPD to improve various systems.\r\n\r\nThough SPD is on the verge of everyday use, signal processing for SPD has lagged far behind. Both system design and device design are guided by trade-offs, and those tradeoffs depend greatly on the sophistication of the data processing. Therefore, novel signal processing will not only improve applications that use SPD, it will also influence hardware designs. Devices with single-photon sensitivity suffer a limitation by which each detection event causes a non-zero \"dead time\" during which the system is unable to register incident particles. Since signal processing methods to mitigate dead time effects are few and not well known, it is customary to carefully avoid dead time effects by operating systems such that photons very rarely arrive during dead times. While this indeed makes the effect of dead time negligible, one may naturally ask whether this is a good practice. Preliminary results suggest that allowing appreciable dead time effects and compensating for them can provide dramatic improvements in lidar. A project focus is to improve and exploit modeling of dead time effects to create the most informative measurements for lidar and other applications. In arrays for SPD, maintaining low crosstalk is a major barrier to increasing fill factor and thus increasing detection efficiency. Another project focus is to model and mitigate crosstalk, starting with a deconvolution approach and progressing to more sophisticated modeling of coupled Poisson processes. With these novel models and methods, the project will develop several imaging innovations.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "ECCS",
+ "org_div_long_name": "Division of Electrical, Communications and Cyber Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Vivek",
+   "pi_last_name": "Goyal",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Vivek K Goyal",
+   "pi_email_addr": "goyal@bu.edu",
+   "nsf_id": "000661823",
+   "pi_start_date": "2021-06-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Trustees of Boston University",
+  "inst_street_address": "1 SILBER WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173534365",
+  "inst_zip_code": "022151703",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "TRUSTEES OF BOSTON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "THL6A6JLE1S7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Trustees of Boston University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "022151300",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "756400",
+   "pgm_ele_name": "CCSS-Comms Circuits & Sens Sys"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "153E",
+   "pgm_ref_txt": "Wireless comm & sig processing"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 380000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Sensing is limited by various forms of uncertainty or noise, and good computational processing of measurements depends on understanding this uncertainty.&nbsp; Historically, the field of signal processing has emphasized models with continuous-valued quantities of interest and sensing uncertainty represented by the addition of a continuous-valued noise.&nbsp; These models, however, fail to capture essential characteristics of sensing devices at quantum mechanical limits.&nbsp; Light has a discreteness represented by photons, and devices such as single-photon avalanche diodes (SPADs) and superconducting nanowire single-photon detectors are able to detect individual photons.&nbsp; SPADs are commonly used in lidar systems for 3D imaging in autonomous navigation, robotics, and augmented reality.&nbsp; Electric charge is also fundamentally discrete, and detectors with single-electron sensitivity are used in applications such as charged-particle microscopy.&nbsp; When signals are weak, neglecting the discreteness of photons and electrons may lead to suboptimal processing and inefficient systems.</p>\n<p>The focus of this project was on developing models for the uncertainties in single-photon and single-electron detection; analyzing these models to further the understanding of fundamental limits; and exploiting these models to create new or improved capabilities in computational imaging.&nbsp; Three research highlights are provided: a theoretical insight, a non-light-of-sight optical imaging system demonstration, and a method for improving secondary electron imaging modalities.</p>\n<p>Direct time-of-flight lidar is used in computer vision systems for autonomous navigation.&nbsp; Here, accurate reflectivity estimation is often considered secondary to depth estimation even though reflectivity can be essential to object recognition.&nbsp; The project provided theoretical results on the amount of reflectivity information present in photon detection times, upending a conventional view that detection times only contain information about depth.&nbsp; These theoretical results included consideration of uncertainty caused by dead times, which are periods after a photon detection during which a SPAD has no sensitivity to incident light.&nbsp; The project also introduced and validated reflectivity estimators with improved performance.</p>\n<p>Seeing around a corner seems to be an impossible task unless a mirrored surface is providing a clear reflected image.&nbsp; Remarkably, non-line-of-sight (NLOS) imaging can be achieved using only reflections from a diffuse surface.&nbsp; Most methods for NLOS imaging use the equipment associated with single-photon lidar (a pulsed laser and a SPAD) along with scanning of the light source over a large area with line-of-sight access to the volume of interest.&nbsp; The project introduced a new way to achieve NLOS imaging that succeeds with only a small opening into the volume of interest and no scanning.&nbsp; This makes NLOS imaging more widely applicable, with possible implications for public safety applications.</p>\n<p>Modern science is dependent on imaging on the nanoscale, often achieved through processes that detect secondary electrons created by a highly focused incident charged particle beam. &nbsp;Multiple types of measurement noise limit the ultimate trade-off between the image quality and the incident particle dose, which can preclude useful imaging of dose-sensitive samples. &nbsp;Existing methods to improve image quality do not fundamentally mitigate the noise sources. &nbsp;Furthermore, barriers to assigning a physically meaningful scale make the images qualitative. &nbsp;The project introduced ion count-aided microscopy (ICAM), which is a quantitative imaging technique that uses statistically principled estimation of the secondary electron yield. With a readily implemented change in data collection, ICAM substantially reduces source shot noise.&nbsp; In helium ion microscopy, the project demonstrated a 3-times dose reduction and a good match between these empirical results and theoretical performance predictions. &nbsp;ICAM facilitates imaging of fragile samples and may make imaging with heavier particles more attractive.</p>\n<p>The project was central to the professional development of students and trainees at levels ranging from high school to undergraduate, graduate, and postdoctoral.&nbsp; This includes individuals who subsequently started academic or industrial research careers or moved on to advanced degree programs.</p>\n<p>&nbsp;</p><br>\n<p>\n Last Modified: 09/29/2024<br>\nModified by: Vivek&nbsp;K&nbsp;Goyal</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nSensing is limited by various forms of uncertainty or noise, and good computational processing of measurements depends on understanding this uncertainty. Historically, the field of signal processing has emphasized models with continuous-valued quantities of interest and sensing uncertainty represented by the addition of a continuous-valued noise. These models, however, fail to capture essential characteristics of sensing devices at quantum mechanical limits. Light has a discreteness represented by photons, and devices such as single-photon avalanche diodes (SPADs) and superconducting nanowire single-photon detectors are able to detect individual photons. SPADs are commonly used in lidar systems for 3D imaging in autonomous navigation, robotics, and augmented reality. Electric charge is also fundamentally discrete, and detectors with single-electron sensitivity are used in applications such as charged-particle microscopy. When signals are weak, neglecting the discreteness of photons and electrons may lead to suboptimal processing and inefficient systems.\n\n\nThe focus of this project was on developing models for the uncertainties in single-photon and single-electron detection; analyzing these models to further the understanding of fundamental limits; and exploiting these models to create new or improved capabilities in computational imaging. Three research highlights are provided: a theoretical insight, a non-light-of-sight optical imaging system demonstration, and a method for improving secondary electron imaging modalities.\n\n\nDirect time-of-flight lidar is used in computer vision systems for autonomous navigation. Here, accurate reflectivity estimation is often considered secondary to depth estimation even though reflectivity can be essential to object recognition. The project provided theoretical results on the amount of reflectivity information present in photon detection times, upending a conventional view that detection times only contain information about depth. These theoretical results included consideration of uncertainty caused by dead times, which are periods after a photon detection during which a SPAD has no sensitivity to incident light. The project also introduced and validated reflectivity estimators with improved performance.\n\n\nSeeing around a corner seems to be an impossible task unless a mirrored surface is providing a clear reflected image. Remarkably, non-line-of-sight (NLOS) imaging can be achieved using only reflections from a diffuse surface. Most methods for NLOS imaging use the equipment associated with single-photon lidar (a pulsed laser and a SPAD) along with scanning of the light source over a large area with line-of-sight access to the volume of interest. The project introduced a new way to achieve NLOS imaging that succeeds with only a small opening into the volume of interest and no scanning. This makes NLOS imaging more widely applicable, with possible implications for public safety applications.\n\n\nModern science is dependent on imaging on the nanoscale, often achieved through processes that detect secondary electrons created by a highly focused incident charged particle beam. Multiple types of measurement noise limit the ultimate trade-off between the image quality and the incident particle dose, which can preclude useful imaging of dose-sensitive samples. Existing methods to improve image quality do not fundamentally mitigate the noise sources. Furthermore, barriers to assigning a physically meaningful scale make the images qualitative. The project introduced ion count-aided microscopy (ICAM), which is a quantitative imaging technique that uses statistically principled estimation of the secondary electron yield. With a readily implemented change in data collection, ICAM substantially reduces source shot noise. In helium ion microscopy, the project demonstrated a 3-times dose reduction and a good match between these empirical results and theoretical performance predictions. ICAM facilitates imaging of fragile samples and may make imaging with heavier particles more attractive.\n\n\nThe project was central to the professional development of students and trainees at levels ranging from high school to undergraduate, graduate, and postdoctoral. This includes individuals who subsequently started academic or industrial research careers or moved on to advanced degree programs.\n\n\n\t\t\t\t\tLast Modified: 09/29/2024\n\n\t\t\t\t\tSubmitted by: VivekKGoyal\n"
+ }
+}

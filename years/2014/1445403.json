@@ -1,0 +1,100 @@
+{
+ "awd_id": "1445403",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: III: CIFRAM: Distributed Computing Approaches for the Analysis of Enterprise and Systemic Risk using a Financial Contract-Based Infrastructure",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Maria Zemankova",
+ "awd_eff_date": "2014-09-01",
+ "awd_exp_date": "2018-08-31",
+ "tot_intn_awd_amt": 298727.0,
+ "awd_amount": 298727.0,
+ "awd_min_amd_letter_date": "2014-08-29",
+ "awd_max_amd_letter_date": "2014-08-29",
+ "awd_abstract_narration": "Following the recent financial crisis, regulatory responses and academic initiatives spurred significant research into the measurement of systemic risk. Most systemic risk models are bound however by the constraints of available data and computing platforms.  Many researchers argue that the possibilities for understanding systemic risk will be greatly enhanced if the relationships and contractual arrangements between markets participants can be modeled at a granular level.  The objective of this research is to accelerate our understanding of systemic risk monitoring approaches that leverage granular data (transactional, positional and other) by establishing a model for (and implementation of) the underlying distributed computing platform.\r\n\r\nThis research focuses on the implementation of a reference architecture and technical platform designed to cater to the specific data fabric of the  financial system and addressing the computational requirements associated with the analysis of systemic risk using granular contract-level data.  Research efforts are focused around the following two objectives: (1) Evaluation and implementation of granular contract-level data models using scalable database technologies.  This will entail the analysis of alternative design patterns and data models, the evaluation of database technologies (including the relational model but with specific focus on the NoSQL universe) and the implementation of data models using the best fit technology; (2) Prototyping and evaluation of distributed computing approaches based on the underlying database foundation.  This will entail using MapReduce or other parallel computing frameworks to harness the power of many processing resources.  The ACTUS (Algorithmic Contract Types Unified Standard) calculation engine will be integrated with the computing environment in order to provide granular event vectors and state-contingent cash flows.  Building on the granular cash flow information, this research will prototype, test and evaluate various aggregation frameworks for the calculation of summary analytics.\r\n\r\nFor further information see the project web site: http://www.usf.edu/business/departments/isds/projects/gsrisk",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Donald",
+   "pi_last_name": "Berndt",
+   "pi_mid_init": "J",
+   "pi_sufx_name": "",
+   "pi_full_name": "Donald J Berndt",
+   "pi_email_addr": "dberndt@usf.edu",
+   "nsf_id": "000188731",
+   "pi_start_date": "2014-08-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of South Florida",
+  "inst_street_address": "4202 E FOWLER AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "TAMPA",
+  "inst_state_code": "FL",
+  "inst_state_name": "Florida",
+  "inst_phone_num": "8139742897",
+  "inst_zip_code": "336205800",
+  "inst_country_name": "United States",
+  "cong_dist_code": "15",
+  "st_cong_dist_code": "FL15",
+  "org_lgl_bus_name": "UNIVERSITY OF SOUTH FLORIDA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NKAZLXLL7Z91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "USF College of Business",
+  "perf_str_addr": "4202 E. Fowler Avenue",
+  "perf_city_name": "Tampa",
+  "perf_st_code": "FL",
+  "perf_st_name": "Florida",
+  "perf_zip_code": "336209951",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "15",
+  "perf_st_cong_dist": "FL15",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": null,
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7364",
+   "pgm_ref_txt": "INFO INTEGRATION & INFORMATICS"
+  },
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415RB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 298727.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Our overall goal throughout this project was to accelerate research into systemic financial risk monitoring approaches that leverage granular data.&nbsp;&nbsp;More traditional economic models capture aggregate behavior while making certain simplifying assumptions.&nbsp;&nbsp;This project aimed to create more &ldquo;bottom-up&rdquo; approaches that model many fine-grained actions, which lead to system-wide emergent behaviors.&nbsp;&nbsp;Our ultimate goal is design simulation-based tools for financial regulators and practitioners that complement existing economic modeling approaches.&nbsp;&nbsp;Two objectives are of interest in this overview.</p>\n<ol>\n<li>We surveyed the financial literature in search of financial markets that were of concern to regulators and participants.&nbsp;&nbsp;First, we ended up selecting the US corporate bond market, which has on-going debates about the adequacy of liquidity.&nbsp;&nbsp;Second, we model aspects of the Federal Reserve system to investigate risks around the unprecedented monetary policies that followed the financial crisis.</li>\n<li>On the technology front, we looked for ways to implement fine-grained computational models of these financial markets.&nbsp;&nbsp;We eventually settled on agent-based modeling and simulation as our core modeling methodology.</li>\n</ol>\n<p><strong>Why agent-based modeling and simulation?</strong></p>\n<p>In our view, agent-based approaches are particularly well-suited for modeling financial markets, which are typically complex ecosystems of heterogeneous agents.&nbsp;&nbsp;Economic modeling often proceeds from theory, through mathematical model formulation, toward a better understanding of the economic system being studied.&nbsp;&nbsp;This top-down approach employs abstractions that focus on equilibrium states which derive from common aggregate behaviors of representative agent classes.</p>\n<p>Agent-based modeling uses simulation, based on the interactions of many individually instantiated autonomous heterogeneous agents, to generate the emergent behaviors associated with complex systems (and hopefully inform theory).&nbsp;&nbsp;This more bottom-up approach starts with a characterization of the ecosystem and proceeds through the implementation of heterogeneous agent behaviors (and interactions) towards understanding and theory refinement. &nbsp;Agent-based models may provide some help in understanding economic systems, especially under conditions of stress.</p>\n<p><strong>An Agent-Based Model of the US Corporate Bond Market</strong></p>\n<p>Over the course of this project, we built two interesting agent-based models of financial markets that are the subject of debate around risks.&nbsp;&nbsp;The first is an agent-based model of the US corporate bond market, a sector that has many regulators worried.&nbsp;&nbsp;We started with experiments to explore endogenous risks such as feedback loops and contagion using simulation.&nbsp;&nbsp;In particular, these first experiments were aimed at the potential for bank-run like behavior in mutual funds since these investment vehicles provide liquidity transformation (with potentially short-term investors and longer-term bond investments).&nbsp;&nbsp;Mutual (open end) funds have been growing as a corporate bond market participant and causing some concern since these funds can face redemption-driven feedback loops.</p>\n<p>For example, the figure titled &ldquo;Bond Price Trends at 25% Market Share&rdquo; illustrates one of the experiments.&nbsp;&nbsp;The simulations use a mutual fund market share of 25%, a reasonable level somewhat above the current situation.&nbsp;&nbsp;The simulations are run for a trading year (252 ticks) with a 100-basis point interest rate shock delivered at tick 50.&nbsp;&nbsp;The interest rate hike causes the expected price drops across all five bonds.&nbsp;&nbsp;These shock-induced drops are followed by further drops in prices for the next 10 to 20 ticks due to the redemption-driven feedback loop.&nbsp;&nbsp;The rate hike impacts increase with maturity, showing price drops in the 1% to 14% range.&nbsp;&nbsp;At this level of mutual fund market share, the feedback loop creates secondary price decreases in the 1.7% to 2.7% range.&nbsp;&nbsp;Once the market stabilizes and normal trading activity returns, there is a somewhat better recovery in prices.&nbsp;&nbsp;A fire sale feedback loop is the type of interaction-based effect that can be usefully studied using agent-based modeling and simulation.</p>\n<p>For more detailed coverage of these US corporate bond market experiments, see the paper&nbsp;<a href=\"https://www.mdpi.com/2079-8954/5/4/54\">Using Agent-Based Modeling to Assess Liquidity Mismatch in Open-End Bond Funds</a>.</p>\n<p><strong>An Agent-Based Model of the Federal Funds Market</strong></p>\n<p>For our second model, we looked for another financial market in which there are considerable concerns regarding systemic risk. &nbsp;Clearly, the Federal Reserve took unprecedented action, along with other major central banks, after the financial crisis. &nbsp;In particular, the Fed responded by lowering the target Federal funds rate, providing credit to financial institutions, and eventually pursing actions comprising quantitative easing (QE). &nbsp;As the Federal Reserve seeks to unwind its positions, the impacts of monetary policy normalization are a matter of wide-ranging debate.<strong>&nbsp;&nbsp;</strong>The Federal Reserve model is also interesting hierarchical structure, combining a coarse-grained Federal Reserve model linking participating agents through common accounts with a fine-grained model of the inter-bank lending market.</p>\n<p><strong>Summary</strong></p>\n<p>The use of agent-based simulation holds great potential for regulators and looking to assess potential instabilities in financial markets and analyze the effectiveness of crisis responses. &nbsp;Many existing methods of analyses either directly or indirectly rely on observations drawn from the past with a somewhat lackluster track record.&nbsp;Simulation is one way to create tools for forward looking analyses of policy alternatives.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/12/2019<br>\n\t\t\t\t\tModified by: Donald&nbsp;J&nbsp;Berndt</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImage\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation onePhoto\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1445403/1445403_10339670_1562959289523_Bond_Prices25_Annotated--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1445403/1445403_10339670_1562959289523_Bond_Prices25_Annotated--rgov-800width.jpg\" title=\"Bond Price Trends at 25% Market Share\"><img src=\"/por/images/Reports/POR/2019/1445403/1445403_10339670_1562959289523_Bond_Prices25_Annotated--rgov-66x44.jpg\" alt=\"Bond Price Trends at 25% Market Share\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">This figure illustrates the bond price trends for a mutual fund market share of 25%.  A trading year is simulated (252 ticks), with an interest rate shock at tick 50, imposing crisis-like conditions.  The aim is to investigate the size of the fire sale feedback loop as market participants react.</div>\n<div class=\"imageCredit\">Donald J. Berndt, David Boogers and James McCart</div>\n<div class=\"imagePermisssions\">Copyrighted</div>\n<div class=\"imageSubmitted\">Donald&nbsp;J&nbsp;Berndt</div>\n<div class=\"imageTitle\">Bond Price Trends at 25% Market Share</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nOur overall goal throughout this project was to accelerate research into systemic financial risk monitoring approaches that leverage granular data.  More traditional economic models capture aggregate behavior while making certain simplifying assumptions.  This project aimed to create more \"bottom-up\" approaches that model many fine-grained actions, which lead to system-wide emergent behaviors.  Our ultimate goal is design simulation-based tools for financial regulators and practitioners that complement existing economic modeling approaches.  Two objectives are of interest in this overview.\n\nWe surveyed the financial literature in search of financial markets that were of concern to regulators and participants.  First, we ended up selecting the US corporate bond market, which has on-going debates about the adequacy of liquidity.  Second, we model aspects of the Federal Reserve system to investigate risks around the unprecedented monetary policies that followed the financial crisis.\nOn the technology front, we looked for ways to implement fine-grained computational models of these financial markets.  We eventually settled on agent-based modeling and simulation as our core modeling methodology.\n\n\nWhy agent-based modeling and simulation?\n\nIn our view, agent-based approaches are particularly well-suited for modeling financial markets, which are typically complex ecosystems of heterogeneous agents.  Economic modeling often proceeds from theory, through mathematical model formulation, toward a better understanding of the economic system being studied.  This top-down approach employs abstractions that focus on equilibrium states which derive from common aggregate behaviors of representative agent classes.\n\nAgent-based modeling uses simulation, based on the interactions of many individually instantiated autonomous heterogeneous agents, to generate the emergent behaviors associated with complex systems (and hopefully inform theory).  This more bottom-up approach starts with a characterization of the ecosystem and proceeds through the implementation of heterogeneous agent behaviors (and interactions) towards understanding and theory refinement.  Agent-based models may provide some help in understanding economic systems, especially under conditions of stress.\n\nAn Agent-Based Model of the US Corporate Bond Market\n\nOver the course of this project, we built two interesting agent-based models of financial markets that are the subject of debate around risks.  The first is an agent-based model of the US corporate bond market, a sector that has many regulators worried.  We started with experiments to explore endogenous risks such as feedback loops and contagion using simulation.  In particular, these first experiments were aimed at the potential for bank-run like behavior in mutual funds since these investment vehicles provide liquidity transformation (with potentially short-term investors and longer-term bond investments).  Mutual (open end) funds have been growing as a corporate bond market participant and causing some concern since these funds can face redemption-driven feedback loops.\n\nFor example, the figure titled \"Bond Price Trends at 25% Market Share\" illustrates one of the experiments.  The simulations use a mutual fund market share of 25%, a reasonable level somewhat above the current situation.  The simulations are run for a trading year (252 ticks) with a 100-basis point interest rate shock delivered at tick 50.  The interest rate hike causes the expected price drops across all five bonds.  These shock-induced drops are followed by further drops in prices for the next 10 to 20 ticks due to the redemption-driven feedback loop.  The rate hike impacts increase with maturity, showing price drops in the 1% to 14% range.  At this level of mutual fund market share, the feedback loop creates secondary price decreases in the 1.7% to 2.7% range.  Once the market stabilizes and normal trading activity returns, there is a somewhat better recovery in prices.  A fire sale feedback loop is the type of interaction-based effect that can be usefully studied using agent-based modeling and simulation.\n\nFor more detailed coverage of these US corporate bond market experiments, see the paper Using Agent-Based Modeling to Assess Liquidity Mismatch in Open-End Bond Funds.\n\nAn Agent-Based Model of the Federal Funds Market\n\nFor our second model, we looked for another financial market in which there are considerable concerns regarding systemic risk.  Clearly, the Federal Reserve took unprecedented action, along with other major central banks, after the financial crisis.  In particular, the Fed responded by lowering the target Federal funds rate, providing credit to financial institutions, and eventually pursing actions comprising quantitative easing (QE).  As the Federal Reserve seeks to unwind its positions, the impacts of monetary policy normalization are a matter of wide-ranging debate.  The Federal Reserve model is also interesting hierarchical structure, combining a coarse-grained Federal Reserve model linking participating agents through common accounts with a fine-grained model of the inter-bank lending market.\n\nSummary\n\nThe use of agent-based simulation holds great potential for regulators and looking to assess potential instabilities in financial markets and analyze the effectiveness of crisis responses.  Many existing methods of analyses either directly or indirectly rely on observations drawn from the past with a somewhat lackluster track record. Simulation is one way to create tools for forward looking analyses of policy alternatives.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 07/12/2019\n\n\t\t\t\t\tSubmitted by: Donald J Berndt"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1800317",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: New Directions in Learning Theory",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "A. Funda Ergun",
+ "awd_eff_date": "2017-08-01",
+ "awd_exp_date": "2019-05-31",
+ "tot_intn_awd_amt": 98041.0,
+ "awd_amount": 98041.0,
+ "awd_min_amd_letter_date": "2017-10-18",
+ "awd_max_amd_letter_date": "2017-10-18",
+ "awd_abstract_narration": "This project is to develop core principles and technologies for systems that learn from observation and experience in order to better help their users.  While there is already a significant body of work in the area of machine learning, today's interconnected world provides both new challenges and new opportunities that classic methods are not able to address or take advantage of.  This project has three main thrusts.  The first involves development of methods that can extract useful information from auxiliary sources in addition to traditional labeled data.  This includes methods for quickly learning multiple related tasks by taking advantage of ways in which they relate to each other.  The second involves approaches for learning about what different users or agents want by observing the results of their interactions.  Finally, the third thrust involves development of new rigorous methods for quickly estimating the amount of resources that would be needed to solve a given learning task.  Broader impacts of the project include the training of a diverse set of graduate students, improving undergraduate curricula with respect to machine learning technology, and developing a new book for advanced undergraduates on algorithms and analysis for data science.\r\n\r\nMore specifically, the first main thrust of this work involves a combination of unsupervised, semi-supervised, and multi-task learning. This work will investigate problems of estimating error rates from unlabeled data, unifying co-training and topic models, learning multiple related tasks from limited supervision, and learning new representations of data using tools from high-dimensional geometry.  The second main thrust will focus on reconstructing estimates of agent utilities from observing the outcomes of economic mechanisms such as combinatorial auctions.  This thrust also includes problems of learning the rules of unknown mechanisms from experimentation.  Finally, the last thrust focuses on development of the theory of property testing for machine learning problems, with the goal of quickly estimating natural formal measures of complexity of a given learning task.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Avrim",
+   "pi_last_name": "Blum",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Avrim Blum",
+   "pi_email_addr": "avrim@ttic.edu",
+   "nsf_id": "000445508",
+   "pi_start_date": "2017-10-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Toyota Technological Institute at Chicago",
+  "inst_street_address": "6045 S KENWOOD AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHICAGO",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "7738340409",
+  "inst_zip_code": "606372803",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "IL01",
+  "org_lgl_bus_name": "TOYOTA TECHNOLOGICAL INSTITUTE AT CHICAGO",
+  "org_prnt_uei_num": "ERBJF4DMW6G4",
+  "org_uei_num": "ERBJF4DMW6G4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Toyota Technological Institute at Chicago",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "606372902",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "IL01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 98041.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project investigated core principles for important directions and challenges in the development of machine learning systems.</p>\n<p>One main direction involved developing new understanding of how fairness considerations interact with classic optimization goals in algorithms for adaptive decision-making.&nbsp; This work specifically focused on decision making in non-stationary environments.&nbsp; In such environments, one may have multiple different decision-making strategies one can use (often called \"experts\" in the technical literature), but which of these is best may change over time.&nbsp; The challenge is that to keep accuracy high one may need to switch strategies mid-stream, but this switching may conflict with fairness considerations if the strategies have different characteristics.&nbsp; We showed in this work that some fairness notions, including one known as \"equalized odds\", could have inherent conflicts with accuracy goals even if the strategies each individually satisfy this fairness condition, whereas related notions including \"equalized error rates\" can be obtained without conflict using the right adaptive algorithms.</p>\n<p>A second main direction involved developing algorithms for estimating, from a small amount of labeled data, what the performance of a given machine learning method would be <em>if one were to train it on a much larger labeled data set</em>.&nbsp; The aim is to use this to enable researchers to perform fast estimations of whether a given learning approach is worth performing, and to more quickly (and from less labeled data) set higher-level structural properties called \"hyperparameters\".</p>\n<p>A third main direction involved a study of how collaboration can benefit machine learning systems.&nbsp; Consider, for example, the problem of creating a spam filter that is good simultaneously for <em>k</em> different people.&nbsp; Even if the <em>k</em> people would all agree on whether any given email message is spam or not (formally, they all wish to learn the same target function <em>f</em>), they may have very different typical non-spam emails (formally, they each care about how well the learned rule approximates <em>f</em> over different data distributions). The question studied in this project was whether in such a setting, the <em>k</em> people by collaborating could learn to a given desired accuracy from much less data per person than by learning separately.&nbsp; This work showed that in fact there is a collaboration procedure that under quite general conditions will produce significant reductions in data needed per person.</p>\n<p>Finally, this work also addressed problems in lifelong machine learning, topic modeling, and in learning algorithms for adversarial environments.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/20/2019<br>\n\t\t\t\t\tModified by: Avrim&nbsp;Blum</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project investigated core principles for important directions and challenges in the development of machine learning systems.\n\nOne main direction involved developing new understanding of how fairness considerations interact with classic optimization goals in algorithms for adaptive decision-making.  This work specifically focused on decision making in non-stationary environments.  In such environments, one may have multiple different decision-making strategies one can use (often called \"experts\" in the technical literature), but which of these is best may change over time.  The challenge is that to keep accuracy high one may need to switch strategies mid-stream, but this switching may conflict with fairness considerations if the strategies have different characteristics.  We showed in this work that some fairness notions, including one known as \"equalized odds\", could have inherent conflicts with accuracy goals even if the strategies each individually satisfy this fairness condition, whereas related notions including \"equalized error rates\" can be obtained without conflict using the right adaptive algorithms.\n\nA second main direction involved developing algorithms for estimating, from a small amount of labeled data, what the performance of a given machine learning method would be if one were to train it on a much larger labeled data set.  The aim is to use this to enable researchers to perform fast estimations of whether a given learning approach is worth performing, and to more quickly (and from less labeled data) set higher-level structural properties called \"hyperparameters\".\n\nA third main direction involved a study of how collaboration can benefit machine learning systems.  Consider, for example, the problem of creating a spam filter that is good simultaneously for k different people.  Even if the k people would all agree on whether any given email message is spam or not (formally, they all wish to learn the same target function f), they may have very different typical non-spam emails (formally, they each care about how well the learned rule approximates f over different data distributions). The question studied in this project was whether in such a setting, the k people by collaborating could learn to a given desired accuracy from much less data per person than by learning separately.  This work showed that in fact there is a collaboration procedure that under quite general conditions will produce significant reductions in data needed per person.\n\nFinally, this work also addressed problems in lifelong machine learning, topic modeling, and in learning algorithms for adversarial environments.\n\n\t\t\t\t\tLast Modified: 07/20/2019\n\n\t\t\t\t\tSubmitted by: Avrim Blum"
+ }
+}

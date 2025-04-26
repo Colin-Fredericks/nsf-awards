@@ -1,0 +1,101 @@
+{
+ "awd_id": "1265451",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "EAGER: Collaborative Research: Using PDE Descriptions to Generate Code Precisely Tailored to Energy-Constrained Systems Including Large GPU Accelerated Clusters",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Rajiv Ramnath",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 24915.0,
+ "awd_amount": 24915.0,
+ "awd_min_amd_letter_date": "2013-08-15",
+ "awd_max_amd_letter_date": "2013-08-15",
+ "awd_abstract_narration": "Modern computer system architectures are forcing computational scientists to move scientific applications\r\nfrom traditional homogeneous cpu-based systems to heterogeneous multi-core/accelerator architectures.   \r\nObtaining performance in the presence of accelerators requires close attention to\r\nthe memory hierarchy and chip-level parallelism to reach even a modest fraction\r\nof the potential performance. As a result, coding tasks which were once the province of\r\nlone graduate students in a single discipline now require interdisciplinary teams of people. \r\nProject Chemora will explore the design of a new application framework for automatically\r\ncreating highly optimized code for high-end computational machines. The system\r\nwill use as input a set of partial differential equations (PDEs) that describe a\r\nproblem, it will then construct a machine-specific abstract performance model, and using these\r\nit will generate well-tuned code and execution configurations for accelerated\r\n(e.g., hybrid CPU/GPU) computing clusters at various scales.  Chemora will\r\nimprove programmability in this simplified domain by decoupling the science and\r\ncomputer science at a high level, thereby reducing the complexity and number of issues scientists need to\r\ncollectively understand and allowing individual scientists in the team to focus on their area of\r\nspecialty. Chemora will improve performance (both wallclock time and energy) for\r\nsystems with both simple and complex sets of equations by making use of detailed\r\ninformation describing the problem and machine, and will provide improved load\r\nbalancing through the AMPI framework.\r\n\r\nThe Chemora project  has chosen the Einstein equations as the primary science driver because\r\nthese equations are one of the more complex PDE systems, one with many\r\nhundreds of terms, and a problem scale that is challenging to optimize for most\r\ncompilers. Achieving this vision for a general scientific problem would indeed\r\nbe a \"Grand Challenge\" in computational science, but in order to give our\r\nresearch a sharper focus we have chosen as a science driver the\r\nsimulation of Intermediate mass ratio Binary Black Hole (IBBH) systems. Such\r\nsystems, consisting of a black hole of mass 100 to 1,000 solar masses orbited by\r\na smaller black hole of mass 5 to 20 solar masses are expected to be important\r\nsources of gravitational waves for advanced Laser Interferometer Gravitational\r\nWave Observatory (LIGO) and the Einstein Telescope (ET). Accurate modeling of\r\nthe waveforms from IBBH systems will be necessary in order to extract\r\ngravitational wave signals using template-matching data analysis techniques.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Gengbin",
+   "pi_last_name": "Zheng",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Gengbin Zheng",
+   "pi_email_addr": "gzheng@illinois.edu",
+   "nsf_id": "000485464",
+   "pi_start_date": "2013-08-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Illinois at Urbana-Champaign",
+  "inst_street_address": "506 S WRIGHT ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "URBANA",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "2173332187",
+  "inst_zip_code": "618013620",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "IL13",
+  "org_lgl_bus_name": "UNIVERSITY OF ILLINOIS",
+  "org_prnt_uei_num": "V2PHZ2CSCH63",
+  "org_uei_num": "Y8CWNJRCNN91"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Illinois at Urbana-Champaign",
+  "perf_str_addr": "1205 W Clark St",
+  "perf_city_name": "Urbana",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "618012311",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "IL13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "800400",
+   "pgm_ele_name": "Software Institutes"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 24915.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>The MPI-based runtime on which Cactus-Carpet is built faces challenges at&nbsp;</span><br /><span>different scales, ranging from small clusters to large scale supercomputers.&nbsp;</span><br /><span>First, the new generation of parallel scientific applications are complex,&nbsp;</span><br /><span>involve simulation of dynamically varying systems, and use adaptive techniques,&nbsp;</span><br /><span>such as multiple timestepping and adaptive refinements. The conventional&nbsp;</span><br /><span>implementations of the MPI standard do not support the dynamic nature of these&nbsp;</span><br /><span>applications well. As a result, application performance suffers.</span><br /><span>In this project, we introduced an introspective runtime, Adaptive MPI, to&nbsp;</span><br /><span>tackle these challenges. Adaptive MPI, or AMPI, provides a multi-threaded&nbsp;</span><br /><span>implementation of MPI on top of Charm++, a parallel programming paradim with&nbsp;</span><br /><span>migratable objects. In order to apply AMPI to Cactus, we modified Cactus&nbsp;</span><br /><span>codebase to handle the global and static variables in order to run each MPI&nbsp;</span><br /><span>rank in a user-level thread in AMPI. We also enabled user-level thread migration&nbsp;</span><br /><span>with a System V context-based user-level thread implementation and an isomalloc</span><br /><span>scheme that reserves thread's address space across processors for migration.&nbsp;</span><br /><span>Based on the adaptive runtime enabled in the AMPI load balancing framework,&nbsp;</span><br /><span>we deployed a greedy-based load balancing algorithms for Cactus. With a&nbsp;</span><br /><span>Cactus benchmark TOV_PUGH, we demonstrated that using the load balancing&nbsp;</span><br /><span>feature, we achived about 11% of performance gain running on 8 cores.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2015<br>\n\t\t\t\t\tModified by: Gengbin&nbsp;Zheng</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe MPI-based runtime on which Cactus-Carpet is built faces challenges at \ndifferent scales, ranging from small clusters to large scale supercomputers. \nFirst, the new generation of parallel scientific applications are complex, \ninvolve simulation of dynamically varying systems, and use adaptive techniques, \nsuch as multiple timestepping and adaptive refinements. The conventional \nimplementations of the MPI standard do not support the dynamic nature of these \napplications well. As a result, application performance suffers.\nIn this project, we introduced an introspective runtime, Adaptive MPI, to \ntackle these challenges. Adaptive MPI, or AMPI, provides a multi-threaded \nimplementation of MPI on top of Charm++, a parallel programming paradim with \nmigratable objects. In order to apply AMPI to Cactus, we modified Cactus \ncodebase to handle the global and static variables in order to run each MPI \nrank in a user-level thread in AMPI. We also enabled user-level thread migration \nwith a System V context-based user-level thread implementation and an isomalloc\nscheme that reserves thread's address space across processors for migration. \nBased on the adaptive runtime enabled in the AMPI load balancing framework, \nwe deployed a greedy-based load balancing algorithms for Cactus. With a \nCactus benchmark TOV_PUGH, we demonstrated that using the load balancing \nfeature, we achived about 11% of performance gain running on 8 cores.\n\n\t\t\t\t\tLast Modified: 11/30/2015\n\n\t\t\t\t\tSubmitted by: Gengbin Zheng"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1464163",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CRII: SaTC: Empirical and Analytical Models for the Deployment of Software Updates in Large Vulnerable Populations",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2015-05-15",
+ "awd_exp_date": "2018-04-30",
+ "tot_intn_awd_amt": 170340.0,
+ "awd_amount": 170340.0,
+ "awd_min_amd_letter_date": "2015-05-11",
+ "awd_max_amd_letter_date": "2015-05-11",
+ "awd_abstract_narration": "Software vulnerabilities are an important vector for malware delivery. The software updating mechanisms, responsible for deploying the vulnerability patches, are in a race with the\u00a0cyber attackers seeking to exploit the vulnerabilities. Moreover, these updating mechanisms have multiple, potentially conflicting, design goals, as they must quickly deploy patches on\u00a0millions of hosts worldwide, must not overburden the users, and must avoid breaking dependencies in the deployment environment.\u00a0\r\n\r\nThis project aims to model the dynamics of vulnerable host populations, in order to assess the practical barriers for current software updating mechanisms and the conflicts among\u00a0their security and reliability goals. Using real-world data sets of update deployment events, the research studies the decay of vulnerable host populations empirically to identify\u00a0deployment-specific factors that delay updates. Building on these insights, the project develops parameterized analytical models for update deployment, and uses these models to\u00a0quantify the trade-offs between reliability and security when updating software. The models provide principled methods for reasoning about the properties of software updates in\u00a0the presence of multiple design goals and enable improvements in software updating mechanisms by exploring a large design space. The researchers are disseminating the results from this\u00a0project by organizing workshops on data-driven security, by releasing data sets with augmented information about software vulnerabilities, and by collaborating with industry partners\u00a0to evaluate the proposed techniques in real-world settings.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Tudor",
+   "pi_last_name": "Dumitras",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tudor Dumitras",
+   "pi_email_addr": "tdumitra@umiacs.umd.edu",
+   "nsf_id": "000654912",
+   "pi_start_date": "2015-05-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Maryland, College Park",
+  "inst_street_address": "3112 LEE BUILDING",
+  "inst_street_address_2": "",
+  "inst_city_name": "COLLEGE PARK",
+  "inst_state_code": "MD",
+  "inst_state_name": "Maryland",
+  "inst_phone_num": "3014056269",
+  "inst_zip_code": "207425100",
+  "inst_country_name": "United States",
+  "cong_dist_code": "04",
+  "st_cong_dist_code": "MD04",
+  "org_lgl_bus_name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+  "org_prnt_uei_num": "NPU8ULVAAS23",
+  "org_uei_num": "NPU8ULVAAS23"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Maryland College Park",
+  "perf_str_addr": "3425 A.V. Williams Building",
+  "perf_city_name": "College Park",
+  "perf_st_code": "MD",
+  "perf_st_name": "Maryland",
+  "perf_zip_code": "207423255",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": null,
+  "perf_st_cong_dist": "MD",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7434",
+   "pgm_ref_txt": "CNCI"
+  },
+  {
+   "pgm_ref_code": "8228",
+   "pgm_ref_txt": "CISE Resrch Initiatn Initiatve"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 170340.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><!--?xml version=\"1.0\" encoding=\"UTF-8\"?--></p>\n<div>Security vulnerabilities left unpatched in the wild, despite the availability of software updates that can fix these bugs, allow hackers to compromise hosts on a global scale, as demonstrated in 2017 by the WannaCry worm. The funded research resulted in several advances for understanding the practical barriers against effective patching and the role that patching delays play in increasing the risk of cyber attacks.</div>\n<div></div>\n<div>First, we measured the daily patching rates for 1,593 vulnerabilities, over a five-year period. This represents the largest corpus of patch deployment measurements, which led to several new insights. For example, our measurements showed that, while patches are usually released on the dates when these vulnerabilities are disclosed, or soon after, the patch deployment rates vary widely across hosts and across vulnerabilities. We also identified several factors that contribute to the patching delays; for example, we found that user decisions play an important role, even for applications that receive software updates automatically. Our large scale measurement provided the basis for two additional tasks investigating the properties of software updates in a broader security context.</div>\n<div></div>\n<div>Second, we developed two analytical models describing the software updating process. The first model quantifies the longevity of software vulnerabilities in the wild, by capturing the end&shy; user behavior in delaying software updates and by separating the impact of user and vendor behavior on the vulnerability states of hosts. The second model allows us to infer which vulnerabilities are exploited in the wild, starting from the intuition that variations in the patching rates for different vulnerabilities indicate which vulnerabilities present a higher risk of exploitation.</div>\n<div></div>\n<div>Third, we investigated what stops users from installing the patches as soon as they are released. In doing so, we identified subtle biases in how users make patching decisions, by systematically comparing self-reported behaviors, collected through online surveys, with the behaviors recorded in our measurement corpus. For example, users systematically underestimate how quickly they would apply a patch. However, this systematic relationship breaks down when survey respondents are required to notice and act on minor details of experimental manipulations, such as the content of update messages.</div>\n<div></div>\n<div>As a broader impact, we are collaborating with industry partners who are interested in adopting our analytical models to assess cyber risk objectively, by relying on empirical data rather than on expert opinions. Our models can also be applied for developing cyber policies in an evidence-based fashion and for risk modeling in cyber insurance. Our results on the users&rsquo; patching behavior have broader implications on understanding security-related behaviors, and they suggest that certain insights from self-report security data can translate to real-world environments, after applying a systematic correction.</div>\n<div></div>\n<div>On the educational impact side, this project generated data used in several semester-long projects from a graduate security class taught at UMD. These projects exposed students to the impact of patching on security and provided an opportunity&nbsp;to incorporate experimentation and empirical methods in our security curriculum.&nbsp;</div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/29/2018<br>\n\t\t\t\t\tModified by: Tudor&nbsp;Dumitras</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nSecurity vulnerabilities left unpatched in the wild, despite the availability of software updates that can fix these bugs, allow hackers to compromise hosts on a global scale, as demonstrated in 2017 by the WannaCry worm. The funded research resulted in several advances for understanding the practical barriers against effective patching and the role that patching delays play in increasing the risk of cyber attacks.\n\nFirst, we measured the daily patching rates for 1,593 vulnerabilities, over a five-year period. This represents the largest corpus of patch deployment measurements, which led to several new insights. For example, our measurements showed that, while patches are usually released on the dates when these vulnerabilities are disclosed, or soon after, the patch deployment rates vary widely across hosts and across vulnerabilities. We also identified several factors that contribute to the patching delays; for example, we found that user decisions play an important role, even for applications that receive software updates automatically. Our large scale measurement provided the basis for two additional tasks investigating the properties of software updates in a broader security context.\n\nSecond, we developed two analytical models describing the software updating process. The first model quantifies the longevity of software vulnerabilities in the wild, by capturing the end&shy; user behavior in delaying software updates and by separating the impact of user and vendor behavior on the vulnerability states of hosts. The second model allows us to infer which vulnerabilities are exploited in the wild, starting from the intuition that variations in the patching rates for different vulnerabilities indicate which vulnerabilities present a higher risk of exploitation.\n\nThird, we investigated what stops users from installing the patches as soon as they are released. In doing so, we identified subtle biases in how users make patching decisions, by systematically comparing self-reported behaviors, collected through online surveys, with the behaviors recorded in our measurement corpus. For example, users systematically underestimate how quickly they would apply a patch. However, this systematic relationship breaks down when survey respondents are required to notice and act on minor details of experimental manipulations, such as the content of update messages.\n\nAs a broader impact, we are collaborating with industry partners who are interested in adopting our analytical models to assess cyber risk objectively, by relying on empirical data rather than on expert opinions. Our models can also be applied for developing cyber policies in an evidence-based fashion and for risk modeling in cyber insurance. Our results on the users? patching behavior have broader implications on understanding security-related behaviors, and they suggest that certain insights from self-report security data can translate to real-world environments, after applying a systematic correction.\n\nOn the educational impact side, this project generated data used in several semester-long projects from a graduate security class taught at UMD. These projects exposed students to the impact of patching on security and provided an opportunity to incorporate experimentation and empirical methods in our security curriculum. \n\n \n\n\t\t\t\t\tLast Modified: 08/29/2018\n\n\t\t\t\t\tSubmitted by: Tudor Dumitras"
+ }
+}

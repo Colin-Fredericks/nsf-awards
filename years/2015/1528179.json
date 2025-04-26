@@ -1,0 +1,105 @@
+{
+ "awd_id": "1528179",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CSR: Small: Automatic Storage and Network Contention Management for Large-scale High-performance Computing Systems",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032925197",
+ "po_email": "mmcclure@nsf.gov",
+ "po_sign_block_name": "Marilyn McClure",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2015-08-12",
+ "awd_max_amd_letter_date": "2015-08-12",
+ "awd_abstract_narration": "High performance computing is essential to science, industry, and the environment, from resource exploration to the design of the next generation of consumer electronics. These high performance computer systems are among the most complex and expensive computer systems and require that their resources be used in the most efficient manner. Many of the applications that utilize high performance computing are data-intensive, and storage system performance is a crucial aspect of system performance. However, storage systems are notoriously sensitive to contention caused by competition among storage clients for limited bandwidth and disk access. This is a significant problem for shared storage systems. \r\n\r\nThis project provides an automatic storage contention alleviation and reduction system (ASCAR) for large-scale high-performance storage to increase bandwidth utilization and fairness of resource allocation. ASCAR uses machine learning methods combined with several heuristics to discover the fittest control strategy. It is a highly scalable and fully automatic storage contention and congestion management system, which can improve the efficiency of both legacy and new systems, with no need to change either server hardware/software or existing applications. ASCAR regulates I/O traffic from the client side using a rule based algorithm. It employs a shared-nothing design and requires no runtime coordination between clients or with a central coordinator whatsoever, because runtime coordination is slow and unscalable. The effectiveness of ASCAR relies on the quality of traffic control. The research team has designed a prototype algorithm, the SHAred-nothing Rule Producer (SHARP), which produces rules in an unsupervised manner by systematically exploring the solution space of possible designs. Starting from one initial rule, SHARP uses heuristics similar to random-restart hill climbing to find the optimal parameters without the need for an exhaustive search. ASCAR monitors the workloads running on the system and uses several heuristics to pick up the fittest rules. \r\n\r\nIt is clear that computer systems are getting ever more sophisticated, and human-lead empirical-based approach towards system optimization is not the most efficient way to realize the full potential of these modern, complex, high performance computing systems. This research brings machine learning, artificial intelligence, and big data methods to systems research and could lead to a very low cost I/O performance increase for a wide range of systems.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Darrell",
+   "pi_last_name": "Long",
+   "pi_mid_init": "D",
+   "pi_sufx_name": "",
+   "pi_full_name": "Darrell D Long",
+   "pi_email_addr": "darrell@cs.ucsc.edu",
+   "nsf_id": "000470073",
+   "pi_start_date": "2015-08-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Santa Cruz",
+  "inst_street_address": "1156 HIGH ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "SANTA CRUZ",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "8314595278",
+  "inst_zip_code": "950641077",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "CA19",
+  "org_lgl_bus_name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "VXUFPE4MCZH5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Santa Cruz",
+  "perf_str_addr": "1156 High St.",
+  "perf_city_name": "Santa Cruz",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "950641077",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "CA19",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "735400",
+   "pgm_ele_name": "CSR-Computer Systems Research"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7354",
+   "pgm_ref_txt": "COMPUTER SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><div class=\"page\" title=\"Page 1\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><span>The CAPES project has produced several milestones in the field of systems performance enhancement, and opened up many avenues of investigation towards improving other aspects of distributed systems. Our first milestone is the CAPES project, which takes periodic measurements of a target computer system&rsquo;s state, and trains a deep neural network to modify a system&rsquo;s current parameter values in order to maximize performance. The CAPES software is minimally intrusive, and can be deployed into a production system to collect training data and suggest tuning actions during the system&rsquo;s daily operation. Our evaluation of a prototype on a Lustre file system demonstrated an increase in I/O throughput up to 45%. The CAPES project proved a key aspect of our project&rsquo;s work: that machine learning based performance enhancement can play a key part in improving performance. Our work with CAPES revealed two key aspects about improving large computer systems: one, many of these systems collect data in a manner that overwhelms AI modeling techniques with useless data; two, modeling the effects of storage and cache in order to predict how the demand for data changes can lead to the prevention of performance slowdowns.</span></p>\n<p><span>Hence, the second milestone of the CAPES project is the WinnowML framework. This framework ingests a neural network architecture provided by the user, examines a large dataset about a computer system, and automatically explores the data within it to determine what data should be analyzed to optimize accuracy and training time. Doing so, WinnowML helps an analyst produce AI models with high accuracy, thereby upgrading predictive models that improve performance. We compared WinnowML against common data analysis methods for two different datasets, the CERN EOS logs for regression and the Backblaze dataset for classification. Experimentally, we demonstrate that WinnowML outperforms common feature selection techniques (such as Principal Component Analysis) by up to 2X.</span></p>\n<p><span>With this framework, our third milestone was Geomancy, an application of both AI-enhanced system tuning and accurate modeling of a system&rsquo;s demand for storage resources. Using a combination of machine learning techniques suitable for temporal modeling, Geomancy determines when and where a performance bottleneck may happen due to changing demand on the system. When it detects an impending performance slowdown, Geomancy suggests changes in the layout of the data that is demanded to mitigate or prevent the slowdown from happening. Our approach to optimizing throughput offers benefits for storage systems, such as avoiding potential bottlenecks, and increasing overall I/O throughput from 11% to 30%.</span></p>\n<p><span>We will disseminate the results by submitting two conference papers. The WinnowML project will be submitted to SIGmetrics 2020 (with results as early as March 31 2020) and the Geomancy project has been submitted to ISPASS 2020 (2020 IEEE International Symposium on Performance Analysis of Systems and Software) with results as early as January 14 2020.</span></p>\n</div>\n</div>\n</div>\n</div><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/04/2019<br>\n\t\t\t\t\tModified by: Darrell&nbsp;D&nbsp;Long</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\n\n\n\nThe CAPES project has produced several milestones in the field of systems performance enhancement, and opened up many avenues of investigation towards improving other aspects of distributed systems. Our first milestone is the CAPES project, which takes periodic measurements of a target computer system\u2019s state, and trains a deep neural network to modify a system\u2019s current parameter values in order to maximize performance. The CAPES software is minimally intrusive, and can be deployed into a production system to collect training data and suggest tuning actions during the system\u2019s daily operation. Our evaluation of a prototype on a Lustre file system demonstrated an increase in I/O throughput up to 45%. The CAPES project proved a key aspect of our project\u2019s work: that machine learning based performance enhancement can play a key part in improving performance. Our work with CAPES revealed two key aspects about improving large computer systems: one, many of these systems collect data in a manner that overwhelms AI modeling techniques with useless data; two, modeling the effects of storage and cache in order to predict how the demand for data changes can lead to the prevention of performance slowdowns.\n\nHence, the second milestone of the CAPES project is the WinnowML framework. This framework ingests a neural network architecture provided by the user, examines a large dataset about a computer system, and automatically explores the data within it to determine what data should be analyzed to optimize accuracy and training time. Doing so, WinnowML helps an analyst produce AI models with high accuracy, thereby upgrading predictive models that improve performance. We compared WinnowML against common data analysis methods for two different datasets, the CERN EOS logs for regression and the Backblaze dataset for classification. Experimentally, we demonstrate that WinnowML outperforms common feature selection techniques (such as Principal Component Analysis) by up to 2X.\n\nWith this framework, our third milestone was Geomancy, an application of both AI-enhanced system tuning and accurate modeling of a system\u2019s demand for storage resources. Using a combination of machine learning techniques suitable for temporal modeling, Geomancy determines when and where a performance bottleneck may happen due to changing demand on the system. When it detects an impending performance slowdown, Geomancy suggests changes in the layout of the data that is demanded to mitigate or prevent the slowdown from happening. Our approach to optimizing throughput offers benefits for storage systems, such as avoiding potential bottlenecks, and increasing overall I/O throughput from 11% to 30%.\n\nWe will disseminate the results by submitting two conference papers. The WinnowML project will be submitted to SIGmetrics 2020 (with results as early as March 31 2020) and the Geomancy project has been submitted to ISPASS 2020 (2020 IEEE International Symposium on Performance Analysis of Systems and Software) with results as early as January 14 2020.\n\n\n\n\n\n\t\t\t\t\tLast Modified: 12/04/2019\n\n\t\t\t\t\tSubmitted by: Darrell D Long"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1449626",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: EAGER: Collaborative Research: Mapping Software Analysis Problems to Efficient and Accurate Constraints",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927991",
+ "po_email": "namla@nsf.gov",
+ "po_sign_block_name": "Nina Amla",
+ "awd_eff_date": "2014-08-01",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 74999.0,
+ "awd_amount": 74999.0,
+ "awd_min_amd_letter_date": "2014-07-10",
+ "awd_max_amd_letter_date": "2014-07-10",
+ "awd_abstract_narration": "Techniques for finding faults in software systems, such as crashes, security vulnerabilities, and deadlocks, have become increasingly powerful over the past two decades.  This is due in no small part to the development of efficient automated satisfiability solvers. The interest in applying these solvers to an ever wider class of software analysis applications has pushed solvers to their limits. As a result, analysis developers are currently forced to approximate analysis?s queries to make use of existing solvers.  Because of this software analyses can mistakenly diagnose an error, miss reporting a true error, and suffer unnecessarily poor performance. This research seeks to establish accuracy as an important missing dimension of solver support and its success will lead to broader and more cost-effective use of solvers to produce high-quality software.\r\n\r\nThis project is the first to systematically explore and link the accuracy requirements of a software analysis to the accuracy provided by a solver. This project does this by exploring approaches to specify the accuracy requirements of solver clients and detect, recover and report solution accuracy for integer and string constraints.  These capabilities are being implemented in an existing solver interface framework, called Green, which is applied to perform symbolic execution of Java programs, using Symbolic Pathfinder.  The project will evaluate the extent to this approach simplifies client analysis development, enables clients to use a variety of solvers - even those that do not perfectly match accuracy requirements, and improves analysis performance.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Matthew",
+   "pi_last_name": "Dwyer",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Matthew Dwyer",
+   "pi_email_addr": "md3cn@virginia.edu",
+   "nsf_id": "000103915",
+   "pi_start_date": "2014-07-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Nebraska-Lincoln",
+  "inst_street_address": "2200 VINE ST # 830861",
+  "inst_street_address_2": "",
+  "inst_city_name": "LINCOLN",
+  "inst_state_code": "NE",
+  "inst_state_name": "Nebraska",
+  "inst_phone_num": "4024723171",
+  "inst_zip_code": "685032427",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "NE01",
+  "org_lgl_bus_name": "BOARD OF REGENTS OF THE UNIVERSITY OF NEBRASKA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HTQ6K6NJFHA6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Nebraska-Lincoln",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "NE",
+  "perf_st_name": "Nebraska",
+  "perf_zip_code": "685880115",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "NE01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7916",
+   "pgm_ref_txt": "EAGER"
+  },
+  {
+   "pgm_ref_code": "8206",
+   "pgm_ref_txt": "Formal Methods and Verification"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 74999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project explored the use of constraint solving techniques as a basis for modern program analyses. &nbsp; The work on this project led to two findings. &nbsp;</p>\n<p>&nbsp;</p>\n<p>First, there is a class of program analyses, called data flow analyses, that are widely used both to find defects in software systems and to improve the efficiency of their execution. &nbsp;Historically, these data flow analyses have been hand-crafted for the most part. &nbsp;Slow progress over the past three decades has allowed for parts of their implementation to be synthesized automatically. &nbsp; In the past decade, the problem of fully automating their implementation has been proposed. &nbsp;In this project, we took another step in automating the synthesis of efficient and correct-by-construction data flow analyses for an important class of problems.</p>\n<p>Second, there have been two important trends in the past decade in program analysis. &nbsp;Increasingly researchers are building scalable infrastructure that permits the analysis of large-scale software systems and then sharing access to that infrastructure in the hopes of accelerating research progress. &nbsp; At the same time the research community has required a substantially higher burden of evidence that a proposed technique actually improves on the state of the art. &nbsp;In principle, these are both positive trends. &nbsp; In this project we studied the challenges created by these trends. &nbsp;Specifically, that researchers tend to reuse infrastructure \"as is\" and in doing so they may accidentally bias their research &nbsp;results in ways that are hard to detect, but which may lead them to draw false conclusions about the benefits of a proposed technique. &nbsp; Our study of the Klee symbolic execution infrastructure helps to remind the community of the degree of care that must be taken to control for confounding factors when experimenting with program analysis techniques that build on largscale infrastructure.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/30/2016<br>\n\t\t\t\t\tModified by: Matthew&nbsp;Dwyer</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project explored the use of constraint solving techniques as a basis for modern program analyses.   The work on this project led to two findings.  \n\n \n\nFirst, there is a class of program analyses, called data flow analyses, that are widely used both to find defects in software systems and to improve the efficiency of their execution.  Historically, these data flow analyses have been hand-crafted for the most part.  Slow progress over the past three decades has allowed for parts of their implementation to be synthesized automatically.   In the past decade, the problem of fully automating their implementation has been proposed.  In this project, we took another step in automating the synthesis of efficient and correct-by-construction data flow analyses for an important class of problems.\n\nSecond, there have been two important trends in the past decade in program analysis.  Increasingly researchers are building scalable infrastructure that permits the analysis of large-scale software systems and then sharing access to that infrastructure in the hopes of accelerating research progress.   At the same time the research community has required a substantially higher burden of evidence that a proposed technique actually improves on the state of the art.  In principle, these are both positive trends.   In this project we studied the challenges created by these trends.  Specifically, that researchers tend to reuse infrastructure \"as is\" and in doing so they may accidentally bias their research  results in ways that are hard to detect, but which may lead them to draw false conclusions about the benefits of a proposed technique.   Our study of the Klee symbolic execution infrastructure helps to remind the community of the degree of care that must be taken to control for confounding factors when experimenting with program analysis techniques that build on largscale infrastructure.\n\n\t\t\t\t\tLast Modified: 09/30/2016\n\n\t\t\t\t\tSubmitted by: Matthew Dwyer"
+ }
+}

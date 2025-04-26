@@ -1,0 +1,114 @@
+{
+ "awd_id": "2313033",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "OAC Core: The Best of Both Worlds: Deep Neural Operators as Preconditioners for Physics-Based Forward and Inverse Problems",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922656",
+ "po_email": "vchandol@nsf.gov",
+ "po_sign_block_name": "Varun Chandola",
+ "awd_eff_date": "2023-09-01",
+ "awd_exp_date": "2026-08-31",
+ "tot_intn_awd_amt": 600000.0,
+ "awd_amount": 600000.0,
+ "awd_min_amd_letter_date": "2023-07-26",
+ "awd_max_amd_letter_date": "2023-07-26",
+ "awd_abstract_narration": "Many physical systems across all areas of science, engineering, medicine, and defense are modeled with high accuracy by partial differential equations (PDEs) and solved on advanced computing systems. Often the ultimate goal is to repeatedly solve the PDEs to explore parameter uncertainties. Settings in which this arises are inverse problems (inferring uncertain parameters of a model from data), optimal experimental design (determining the optimal data acquisition to learn the most about the model), optimal design (finding the optimal configuration of a system to maximize performance), and optimal control (determining the optimal operation of a system to achieve a desired behavior). These problems are often characterized by high dimensional uncertain parameter spaces, since the parameters typically represent initial conditions, boundary conditions, material properties, or source terms and vary in space and/or time. As a result, the PDEs often have to be solved thousands or even millions of times to adequately represent uncertainties in the parameters. When the systems that are modeled involve coupled multiple physics or behavior occurring on multiple space and time scales, repeated solution of the PDE models becomes prohibitive, even on the latest supercomputers. The development of deep neural networks in recent years shows promise in overcoming the intractability of repeated solution of the PDE models, by learning the relationships between the input parameters and the outputs of interest (e.g., temperature, velocity, pressure, stress, electric field, magnetic field, chemical species). Once trained on PDE solution data, the networks can evaluate the outputs for any given inputs in milliseconds, compared to hours or days to solve the PDE models themselves. However, despite much progress in the development of these so-called neural network surrogates, they typically deliver just 1-2 digits of accuracy, which is not sufficient to replace the PDE solver. Instead, this project is developing hybrids of neural network surrogates and PDE models that combine the best properties of each: the accuracy of the PDEs with the speed of the neural networks. The impact is that many problems in technology, health, the environment, and society that were not amenable to complex model-based inference and decision making will now become tractable. The algorithms developed in this project are being released as open-source software so that a broad community of researchers and practitioners can apply them to a spectrum of scientific and engineering problems. In addition, the surrogate methods developed in this project are being incorporated into a popular graduate course on inverse problems taught at University of Texas, Austin.\r\n\r\nNeural network approximations of high fidelity PDE solutions, i.e., neural operators, have gained popularity in recent years due to their ease of implementation, adaptability to varied settings, and seeming ability to mitigate the curse of dimensionality. Significant recent research has attempted to establish \"universal approximation\" properties of these surrogates for various classes of maps. While theory suggests that neural operators can in principle achieve arbitrary accuracy, realizing this in practice remains a significant challenge. The reasons for this include the enormous costs of generating sufficient training data, and confounding relations between statistical sampling errors, approximation errors, and nonconvexity of the training problem. Often neural operators can achieve just 1-2 digits of accuracy relative to high fidelity PDE solvers, with little hope of further reducing this accuracy. On the other hand, high fidelity PDE models (particularly conservation and balance laws) are often known with very high confidence and high precision is necessary due to sensitivity of PDE solutions to small perturbations in the inputs. The modest accuracies of neural operators are often insufficient for the demands of inference, control, and decision making for critical systems. This project is developing hybrids of neural operators and high fidelity PDE models to realize the best features of each, by retaining accuracy via the PDE residual and speed via use of the neural operator as a preconditioner. The project targets linear and nonlinear parametric neural preconditioners for PDEs, and neural preconditioners for Metropolized Langevin methods to accelerate the solution of Bayesian inverse problems. A further advantage of using neural operators as preconditioners is that they map well onto GPU architectures.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Omar",
+   "pi_last_name": "Ghattas",
+   "pi_mid_init": "N",
+   "pi_sufx_name": "",
+   "pi_full_name": "Omar N Ghattas",
+   "pi_email_addr": "omar@ices.utexas.edu",
+   "nsf_id": "000249850",
+   "pi_start_date": "2023-07-26",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Thomas",
+   "pi_last_name": "O'Leary-Roseberry",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Thomas O'Leary-Roseberry",
+   "pi_email_addr": "tom.olearyroseberry@utexas.edu",
+   "nsf_id": "000868938",
+   "pi_start_date": "2023-07-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Texas at Austin",
+  "inst_street_address": "110 INNER CAMPUS DR",
+  "inst_street_address_2": "",
+  "inst_city_name": "AUSTIN",
+  "inst_state_code": "TX",
+  "inst_state_name": "Texas",
+  "inst_phone_num": "5124716424",
+  "inst_zip_code": "787121139",
+  "inst_country_name": "United States",
+  "cong_dist_code": "25",
+  "st_cong_dist_code": "TX25",
+  "org_lgl_bus_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "V6AFQPN18437"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Texas at Austin",
+  "perf_str_addr": "110 INNER CAMPUS DR",
+  "perf_city_name": "AUSTIN",
+  "perf_st_code": "TX",
+  "perf_st_name": "Texas",
+  "perf_zip_code": "787121139",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "25",
+  "perf_st_cong_dist": "TX25",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "090Y00",
+   "pgm_ele_name": "OAC-Advanced Cyberinfrast Core"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "026Z",
+   "pgm_ref_txt": "NSCI: National Strategic Computing Initi"
+  },
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002324DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2023,
+   "fund_oblg_amt": 600000.0
+  }
+ ],
+ "por": null
+}

@@ -1,0 +1,109 @@
+{
+ "awd_id": "1414590",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "EAPSI: Synchronizing cell excitation and collection for deep-brain imaging",
+ "cfda_num": "47.079",
+ "org_code": "01090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anne Emig",
+ "awd_eff_date": "2014-06-01",
+ "awd_exp_date": "2015-05-31",
+ "tot_intn_awd_amt": 5070.0,
+ "awd_amount": 5070.0,
+ "awd_min_amd_letter_date": "2014-06-03",
+ "awd_max_amd_letter_date": "2014-06-03",
+ "awd_abstract_narration": "Optical imaging has had a tremendous impact on biological research and medical applications and procedures. Among the various imaging techniques, multiphoton fluorescence microscopy (MPM) has been used to image at significant depths within the brain. MPM uses a laser source to excite fluorescent molecules tagged to specific cells. When these molecules are excited, they emit light of a certain color that can be collected to produce an image. The goal of this research is to increase imaging speed and quality by synchronizing the excitation of the fluorescent molecules with the collection of the emitted light. By synchronizing the excitation and collection, the light is more efficiently collected, enabling faster imaging speed with better image quality. This project aims to build the synchronization system and will be conducted in collaboration with Dr. Tzu-Ming Liu at the National Taiwan University in Taiwan. Dr. Liu's group specializes in high-speed imaging and has developed and tested high-speed synchronization systems.\r\n\r\nSynchronizing the laser source and collection is advantageous for imaging deep within scattering materials such as brain. Currently, imaging depth is limited by the sample's thermal damage threshold, corresponding to a maximum allowable average power. For deeper imaging, the peak power must be increased. Now, to remain below the damage threshold, the repetition rate of the laser source must be decreased, reducing the imaging speed. With synchronization, only a few pulses per pixel (~5) are required to produce a clear image, compared to ~100 pulses per pixel without synchronization. With fewer pulses per pixel required to produce an image, this synchronization system will enable faster deep-brain imaging. This NSF EAPSI award is funded in collaboration with the National Science Council of Taiwan.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OISE",
+ "org_div_long_name": "Office of International Science and Engineering",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Dylan",
+   "pi_last_name": "Heberle",
+   "pi_mid_init": "A",
+   "pi_sufx_name": "",
+   "pi_full_name": "Dylan A Heberle",
+   "pi_email_addr": "",
+   "nsf_id": "000657999",
+   "pi_start_date": "2014-06-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Heberle                 Dylan          A",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "Ithaca",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "",
+  "inst_zip_code": "148506231",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "NY19",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "National Taiwan University",
+  "perf_str_addr": null,
+  "perf_city_name": "Taipei",
+  "perf_st_code": "",
+  "perf_st_name": "RI REQUIRED",
+  "perf_zip_code": "",
+  "perf_ctry_code": "TW",
+  "perf_cong_dist": "",
+  "perf_st_cong_dist": "",
+  "perf_ctry_name": "Taiwan",
+  "perf_ctry_flag": "0"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "731600",
+   "pgm_ele_name": "EAPSI"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5924",
+   "pgm_ref_txt": "TAIWAN"
+  },
+  {
+   "pgm_ref_code": "5978",
+   "pgm_ref_txt": "EAST ASIA AND PACIFIC PROGRAM"
+  },
+  {
+   "pgm_ref_code": "7316",
+   "pgm_ref_txt": "EAPSI"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 5070.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Through the National Science Foundation Eastern Asia and Pacific Institutes (NSF EAPSI) and Ministry of Science and Technology Summer Institutes in Taiwan (MOST SIT) programs, I collaborated with Dr. Liu's group at the National Taiwan University Molecular Imaging Center to build a synchronized data acquisition system for multiphoton microscopy (MPM). In MPM, high-resolution images are obtained by exciting fluorescent proteins or dyes in the focal volume of a laser source. Currently, imaging depth is limited by a sample's thermal damage threshold and signal-to-noise ratio (SNR). The thermal damage threshold corresponds to a maximum allowable average power. To increase imaging depth or speed and remain below the damage threshold, the peak power of each pulse must be increased while the repetition rate is decreased. Thus, to scan at a significant depth and practical speed, each pixel must consist of only a few pulses per pixel (typically less than 5 pulses/pixel). A synchronized image acquisition system is needed to ensure that the number of pulses per pixel is constant and that signal collection is concurrent with the excitation laser source.</p>\n<p>&nbsp;</p>\n<p>The acquisition system built during the collaboration consisted of a Terasic field-programmable gate array (FPGA) and an analog-to-digital converter (ADC). The system uses a clock signal generated from the laser source to synchronize the scanning mirrors and the data acquisition. To program the FPGA, I learned how to use Quartus II software and Verilog hardware description language. Once the device was programmed, it was tested using SignalTap II Logic Analyzer and implemented in Dr. Liu's setup to confirm proper operation. Currently, I am working to integrate the acquisition system into the microscopy setups in Xu Research Lab at Cornell University. When the system is implemented, it will be tested by comparing the SNR and maximum obtainable imaging depths for <em>in vivo</em> brain imaging using synchronous and asynchronous data acquisition.</p>\n<p>&nbsp;</p>\n<p>A synchronized image acquisition system can advance neuroscience research and medical imaging by improving imaging depth and speed in research and clinical settings. Deep-brain imaging is vital to brain-activity mapping and studying biological phenomena. By implementing this data acquisition system, MPM will become a more practical high-speed imaging technique for medical and scientific applications.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 02/28/2015<br>\n\t\t\t\t\tModified by: Dylan&nbsp;A&nbsp;Heberle</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThrough the National Science Foundation Eastern Asia and Pacific Institutes (NSF EAPSI) and Ministry of Science and Technology Summer Institutes in Taiwan (MOST SIT) programs, I collaborated with Dr. Liu's group at the National Taiwan University Molecular Imaging Center to build a synchronized data acquisition system for multiphoton microscopy (MPM). In MPM, high-resolution images are obtained by exciting fluorescent proteins or dyes in the focal volume of a laser source. Currently, imaging depth is limited by a sample's thermal damage threshold and signal-to-noise ratio (SNR). The thermal damage threshold corresponds to a maximum allowable average power. To increase imaging depth or speed and remain below the damage threshold, the peak power of each pulse must be increased while the repetition rate is decreased. Thus, to scan at a significant depth and practical speed, each pixel must consist of only a few pulses per pixel (typically less than 5 pulses/pixel). A synchronized image acquisition system is needed to ensure that the number of pulses per pixel is constant and that signal collection is concurrent with the excitation laser source.\n\n \n\nThe acquisition system built during the collaboration consisted of a Terasic field-programmable gate array (FPGA) and an analog-to-digital converter (ADC). The system uses a clock signal generated from the laser source to synchronize the scanning mirrors and the data acquisition. To program the FPGA, I learned how to use Quartus II software and Verilog hardware description language. Once the device was programmed, it was tested using SignalTap II Logic Analyzer and implemented in Dr. Liu's setup to confirm proper operation. Currently, I am working to integrate the acquisition system into the microscopy setups in Xu Research Lab at Cornell University. When the system is implemented, it will be tested by comparing the SNR and maximum obtainable imaging depths for in vivo brain imaging using synchronous and asynchronous data acquisition.\n\n \n\nA synchronized image acquisition system can advance neuroscience research and medical imaging by improving imaging depth and speed in research and clinical settings. Deep-brain imaging is vital to brain-activity mapping and studying biological phenomena. By implementing this data acquisition system, MPM will become a more practical high-speed imaging technique for medical and scientific applications.\n\n\t\t\t\t\tLast Modified: 02/28/2015\n\n\t\t\t\t\tSubmitted by: Dylan A Heberle"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1824365",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Deep Inference - Artificial Intelligence for Structural Estimation",
+ "cfda_num": "47.075",
+ "org_code": "04050000",
+ "po_phone": "7032927280",
+ "po_email": "nlutz@nsf.gov",
+ "po_sign_block_name": "Nancy Lutz",
+ "awd_eff_date": "2018-09-15",
+ "awd_exp_date": "2020-08-31",
+ "tot_intn_awd_amt": 82384.0,
+ "awd_amount": 82384.0,
+ "awd_min_amd_letter_date": "2018-08-10",
+ "awd_max_amd_letter_date": "2018-08-10",
+ "awd_abstract_narration": "In order to evaluate the effect of economic policies such as extended health care coverage or changes in the minimum wage, economists use structural models which powerfully describe the mechanism at work, but estimating structural models is typically challenging.  A main tool for estimating such structural models is inference via simulation.  For different parametrizations of the model, synthetic data is generated via the model, and the parameters generating data that most closely resembles observed data are used as estimates. Recent modern artificial intelligence methods such as deep learning for image recognition are based on this same principle. These methods have been achieving impressive results over the past years. Therefore, this research takes advantage of such powerful tools in modern pattern recognition for structural estimation in economics. \r\n\r\nThis research considers a set-up where individual outcomes are a known function of exogenous variables and an error whose distribution is known up to a finite dimensional vector of parameters. The goal is to estimate the finite dimensional parameter. The investigators adopt the generative adversarial network approach (GANs) to find the parameter value such that given a discriminator, a device that can accurately distinguish data generated using the model from real data, is unable to do so when the data is generated according to such parameter value. The method developed in this research differs from other simulation-based minimum distance estimators in that the distance is adaptive. That is, the discriminator learns the features of the data that are best at distinguishing real from synthetic data as opposed to hard-coding what features of the data to match. This adaptability property has proven powerful in pattern recognition tasks. In structural estimation, adaptability can translate into alleviating the curse of dimensionality, and obtaining parameters that are able to more closely match entire distributions of data, as opposed to a set of pre-specified moments. This estimation framework should be useful in applications were distributional effects and heterogeneity are first order to evaluate the effect of a particular policy.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "SBE",
+ "org_dir_long_name": "Directorate for Social, Behavioral and Economic Sciences",
+ "div_abbr": "SES",
+ "org_div_long_name": "Division of Social and Economic Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Guillaume",
+   "pi_last_name": "Pouliot",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Guillaume Pouliot",
+   "pi_email_addr": "guillaumepouliot@uchicago.edu",
+   "nsf_id": "000768188",
+   "pi_start_date": "2018-08-10",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Chicago",
+  "inst_street_address": "5801 S ELLIS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHICAGO",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "7737028669",
+  "inst_zip_code": "606375418",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "IL01",
+  "org_lgl_bus_name": "UNIVERSITY OF CHICAGO",
+  "org_prnt_uei_num": "ZUE9HKT2CLC9",
+  "org_uei_num": "ZUE9HKT2CLC9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "The University of Chicago",
+  "perf_str_addr": "6054 South Drexel Avenue",
+  "perf_city_name": "Chicago",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "606372612",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "IL01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "132000",
+   "pgm_ele_name": "Economics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "1320",
+   "pgm_ref_txt": "ECONOMICS"
+  },
+  {
+   "pgm_ref_code": "9179",
+   "pgm_ref_txt": "GRADUATE INVOLVEMENT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0118",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001819DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2018,
+   "fund_oblg_amt": 82384.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project aimed at proposing a method which allows for likelihood free inference, in a way akin to that in which a simulated method of moment method does so, but where the difference between true and synthetic data is measured by the ease with which a classifier can tell the two apart.&nbsp;</p>\n<p>The project was successful in producing its promised deliverables.&nbsp; First, an analytical proof of concept was produced, showing the efficiency of the method in the oracle case in which the discriminator takes on its limiting value.&nbsp; This was published in an AEA paper and proceeding.</p>\n<p>We also produced theory accounting for the sampling of the discriminator, and which implements the estimator by revisiting the application of a structural generative model from a famous applied paper.&nbsp; The theory shows that the method is efficient when well specified.&nbsp; The application and simulations show that, in small samples, the method makes a better use of information than competing approaches such as the simulated method of moments, which was used in the original applied paper.&nbsp;&nbsp;</p>\n<p>The software implementing the method and to be made available for distribution is almost complete.&nbsp; We are hopeful it will have a good impact on the practice of structural model estimation.&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/20/2021<br>\n\t\t\t\t\tModified by: Guillaume&nbsp;Pouliot</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project aimed at proposing a method which allows for likelihood free inference, in a way akin to that in which a simulated method of moment method does so, but where the difference between true and synthetic data is measured by the ease with which a classifier can tell the two apart. \n\nThe project was successful in producing its promised deliverables.  First, an analytical proof of concept was produced, showing the efficiency of the method in the oracle case in which the discriminator takes on its limiting value.  This was published in an AEA paper and proceeding.\n\nWe also produced theory accounting for the sampling of the discriminator, and which implements the estimator by revisiting the application of a structural generative model from a famous applied paper.  The theory shows that the method is efficient when well specified.  The application and simulations show that, in small samples, the method makes a better use of information than competing approaches such as the simulated method of moments, which was used in the original applied paper.  \n\nThe software implementing the method and to be made available for distribution is almost complete.  We are hopeful it will have a good impact on the practice of structural model estimation. \n\n \n\n\t\t\t\t\tLast Modified: 05/20/2021\n\n\t\t\t\t\tSubmitted by: Guillaume Pouliot"
+ }
+}

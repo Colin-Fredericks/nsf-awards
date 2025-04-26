@@ -1,0 +1,105 @@
+{
+ "awd_id": "1017366",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF:  Smal:   k-Greedy Drawing of Graphs and Their Applications",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Dmitri Maslov",
+ "awd_eff_date": "2010-10-01",
+ "awd_exp_date": "2014-09-30",
+ "tot_intn_awd_amt": 104694.0,
+ "awd_amount": 104694.0,
+ "awd_min_amd_letter_date": "2010-07-30",
+ "awd_max_amd_letter_date": "2010-07-30",
+ "awd_abstract_narration": "Routing is one of the most important algorithmic problems in networking. Traditional routing is done by constructing routing tables via routing protocols. Such a solution is space inefficient and it requires considerable setup overhead, which makes it infeasible for some networks such as wireless sensor networks. Recently, geometric routing has been proposed as an alternative approach. Geometric routing often uses virtual coordinates of the nodes to compute routing paths. The virtual coordinates of the vertices are computed by running graph drawing algorithms on them. The simplest geometric routing is greedy routing, in which a vertex simply forwards messages to a neighbor that is closer to the destination. The first problem for greedy routing is its theoretical applicability. In order for greedy routing to always succeed, for every pair of vertices u and v in the network, there must be a distance-decreasing path from u to v. Unfortunately, not every graph can be drawn so that distance-decreasing paths exist between every pair of vertices. The second problem for greedy routing is its practical feasibility: the virtual coordinates in a greedy drawing have to be succinct. The combination of the two problems is a significant hurdle for the applicability of greedy routing. The aim of this project is to tackle these greedy routing problems by introducing and studying a new notion of graph drawing: k-geometric embedding, in which each node of a network can be mapped into up to k virtual locations in the target metric space. For two nodes u and v in the network, the smallest distance among all their virtual locations is defined as the distance of these two nodes. In particular, this project will study k-greedy drawing, which is defined to be a k-geometric embedding in which distance-decreasing paths always exist.\r\n\r\nThe intellectual merits of this research include the following: (i) the new concepts will open a new area of graph drawing and strengthen the connection between graph drawing and network routing; (ii) the theory developed will make greedy routing feasible for more kinds of networks. Consequently, greedy routing may become a truly practical alternative. The broader impacts of this research include the following: (i) the results obtained from this research will have impact on graph theory, graph drawing, and geometric routing, especially greedy routing; (ii) the research results will be incorporated into computer science education.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Huaming",
+   "pi_last_name": "Zhang",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Huaming Zhang",
+   "pi_email_addr": "hzhang@cs.uah.edu",
+   "nsf_id": "000149957",
+   "pi_start_date": "2010-07-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Alabama in Huntsville",
+  "inst_street_address": "301 SPARKMAN DR NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "HUNTSVILLE",
+  "inst_state_code": "AL",
+  "inst_state_name": "Alabama",
+  "inst_phone_num": "2568242657",
+  "inst_zip_code": "358051911",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "AL05",
+  "org_lgl_bus_name": "THE UNIVERSITY OF ALABAMA IN HUNTSVILLE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HB6KNGVNJRU1"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Alabama in Huntsville",
+  "perf_str_addr": "301 SPARKMAN DR NW",
+  "perf_city_name": "HUNTSVILLE",
+  "perf_st_code": "AL",
+  "perf_st_name": "Alabama",
+  "perf_zip_code": "358051911",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "AL05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "792600",
+   "pgm_ele_name": "ALGORITHMS"
+  },
+  {
+   "pgm_ele_code": "915000",
+   "pgm_ele_name": "EPSCoR Co-Funding"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 104694.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project aims to study routing algorithms through k-greedy drawings of networks (modeled as graphs). The central idea is to assign up to k locations to a node of a graph G in a metric space or a semi-metric space. By doing so, the graph G is embedded into the metric space or the semi-metric space, except that each node may exists in up to k locations. For each node of G, the k locations of the node are called the virtual coordinates of the node. Since the network is embedded into a metric or a semi-metric space, the virtual distance between any two nodes u and v of G can be defined as the smallest distances of the virtual locations of u and v in the metric or the semi-metric space. A drawing is a k-greedy drawing if for any nodes u and v of G, there is a neighbor w of u such that the virtual distance between w and v is less that the virtual distance between u and v. Therefore, for any two nodes u and v, there is a virtual distance decreasing path connecting them. Once a k-greedy drawing of G is given, then one can use a virtual distance decreasing path as the routing path for any two nodes. Hence, a greedy routing algorithm of a graph G follows naturally from a k-greedy drawing of G. &nbsp;</p>\n<p>There are two contradicting goals in finding greedy drawings for a graph. The first goal is the succinctness of the virtual coordinates for each node. Namely, one wants to use as less memory as possible to store the virtual coordinates. So this goal suggests using as few virtual coordinates as possible. The second goal is to reduce the stretch factors for the greedy routing algorithm, where the stretch factor is defined as the worst ratio of the hopping length of the routing path, as per the routing algorithm, for any two nodes against the length of a shortest path between them. This goal suggests that the virtual coordinates need to carry as much information as possible so that a better routing path can be found. Hence, this goal may require more virtual coordinates.</p>\n<p>For goal one, we proved that for any graph containing a 3-connected planar graph as a subgraph, there is a 3-greedy drawing, where each virtual location is a single positive integer ranging from 1 to 2n-1. So it is very succinct. Since it is a greedy drawing, a greedy routing algorithm can be established accordingly. In addition, our greedy drawing and greedy routing algorithm runs in linear time.</p>\n<p>For goal two, we focused on reducing stretch factors for greedy routing algorithms based on k-greedy drawings. We developed a greedy drawing algorithm of a triangulated polygon, such that the induced greedy routing algorithm is optimal (i.e., it always find the shortest path). However, the problem of designing greedy routing algorithm with constant stretch factors for general networks remains open. &nbsp;&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 10/31/2014<br>\n\t\t\t\t\tModified by: Huaming&nbsp;Zhang</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project aims to study routing algorithms through k-greedy drawings of networks (modeled as graphs). The central idea is to assign up to k locations to a node of a graph G in a metric space or a semi-metric space. By doing so, the graph G is embedded into the metric space or the semi-metric space, except that each node may exists in up to k locations. For each node of G, the k locations of the node are called the virtual coordinates of the node. Since the network is embedded into a metric or a semi-metric space, the virtual distance between any two nodes u and v of G can be defined as the smallest distances of the virtual locations of u and v in the metric or the semi-metric space. A drawing is a k-greedy drawing if for any nodes u and v of G, there is a neighbor w of u such that the virtual distance between w and v is less that the virtual distance between u and v. Therefore, for any two nodes u and v, there is a virtual distance decreasing path connecting them. Once a k-greedy drawing of G is given, then one can use a virtual distance decreasing path as the routing path for any two nodes. Hence, a greedy routing algorithm of a graph G follows naturally from a k-greedy drawing of G.  \n\nThere are two contradicting goals in finding greedy drawings for a graph. The first goal is the succinctness of the virtual coordinates for each node. Namely, one wants to use as less memory as possible to store the virtual coordinates. So this goal suggests using as few virtual coordinates as possible. The second goal is to reduce the stretch factors for the greedy routing algorithm, where the stretch factor is defined as the worst ratio of the hopping length of the routing path, as per the routing algorithm, for any two nodes against the length of a shortest path between them. This goal suggests that the virtual coordinates need to carry as much information as possible so that a better routing path can be found. Hence, this goal may require more virtual coordinates.\n\nFor goal one, we proved that for any graph containing a 3-connected planar graph as a subgraph, there is a 3-greedy drawing, where each virtual location is a single positive integer ranging from 1 to 2n-1. So it is very succinct. Since it is a greedy drawing, a greedy routing algorithm can be established accordingly. In addition, our greedy drawing and greedy routing algorithm runs in linear time.\n\nFor goal two, we focused on reducing stretch factors for greedy routing algorithms based on k-greedy drawings. We developed a greedy drawing algorithm of a triangulated polygon, such that the induced greedy routing algorithm is optimal (i.e., it always find the shortest path). However, the problem of designing greedy routing algorithm with constant stretch factors for general networks remains open.   \n\n\t\t\t\t\tLast Modified: 10/31/2014\n\n\t\t\t\t\tSubmitted by: Huaming Zhang"
+ }
+}

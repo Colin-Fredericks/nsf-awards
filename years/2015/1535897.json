@@ -1,0 +1,101 @@
+{
+ "awd_id": "1535897",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AitF: EXPL: Collaborative Research: Approximate Discrete Programming for Real-Time Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tracy Kimbrel",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 200000.0,
+ "awd_amount": 200000.0,
+ "awd_min_amd_letter_date": "2015-07-30",
+ "awd_max_amd_letter_date": "2015-07-30",
+ "awd_abstract_narration": "Discrete programming (DP) deals with optimization problems involving variables that range over a discrete (e.g., integer-valued) solution space. DP is an important tool in a variety of practical applications including digital communications, operations research, power grid optimization, and computer vision. While discrete programs are typically solved offline by sophisticated software using powerful computers, DP has recently emerged as an important tool in applications requiring real-time processing in embedded systems with stringent area, cost, and power constraints. Since existing DP solvers entail prohibitive complexity and power consumption when implemented on existing embedded hardware, novel algorithms and hardware architectures are necessary to unlock the potential of DP in real-time applications. This project fuses optimization theory, numerical methods, and circuit design to develop fast algorithms and suitable hardware architectures for real-time DP in embedded systems. Besides a thorough theoretical analysis of the proposed methods, the project includes extensive software and hardware benchmarking to reveal the efficacy of real-time DP in practice. To bridge the ever-growing gap between recent advances in numerical optimization and hardware design, the project also includes the development of undergraduate and graduate courses that build upon the vertically-integrated research approach of this project, in addition to offering summer research internships (REUs) to introduce young scientists to the field of discrete programming.\r\n\r\nThe project develops a set of computationally efficient and hardware-aware algorithms and corresponding dedicated very-large scale integration (VLSI) architectures that enable DP for real-time embedded systems.  The proposed DP algorithms rely on a variety of algorithmic transformations, ranging from semidefinite and infinity-norm-based relaxations to exact variable-splitting methods and non-convex approximations. These disparate approaches offer a wide range of tradeoffs between solution quality and hardware implementation complexity. The project studies these fundamental tradeoffs, as well as the effects of finite-precision arithmetic in VLSI, from both a theoretical and practical perspective. To carry out this investigation, three dedicated VLSI architectures will be developed that exploit the inherent parallelism of the proposed algorithms. These architectures target (i) data detection in multi-antenna (MIMO) wireless systems that is the key bottleneck in next-generation communication systems, (ii) signal recovery problems in hyperspectral imaging, and (iii) phase retrieval problems from x-ray crystallography. By investigating the domain-specific performance and complexity of various numerical solvers in a variety of conditions and hardware configurations, the project will reveal the efficacy and limits of DP for a broad range of real-time applications beyond the ones studied in this project.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Christoph",
+   "pi_last_name": "Studer",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Christoph Studer",
+   "pi_email_addr": "studer@cornell.edu",
+   "nsf_id": "000637010",
+   "pi_start_date": "2015-07-30",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Cornell University",
+  "inst_street_address": "341 PINE TREE RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "ITHACA",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "6072555014",
+  "inst_zip_code": "148502820",
+  "inst_country_name": "United States",
+  "cong_dist_code": "19",
+  "st_cong_dist_code": "NY19",
+  "org_lgl_bus_name": "CORNELL UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "G56PUALJ3KT5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Cornell University",
+  "perf_str_addr": "331 Rhodes Hall",
+  "perf_city_name": "Ithaca",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "148533801",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "19",
+  "perf_st_cong_dist": "NY19",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "723900",
+   "pgm_ele_name": "Algorithms in the Field"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "013Z",
+   "pgm_ref_txt": "AitF EXPL Projects"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 200000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span id=\"docs-internal-guid-b0baf9f9-7fff-366b-7a81-dd2c8a515ad4\"> </span></p>\n<p dir=\"ltr\"><span>The goals of this project are in the development of new algorithms, analysis of theoretical properties, and implementation of hardware prototypes that compute approximate solutions to high-dimensional discrete programs. Before this project, it was commonly believed that approximate or relaxation-based methods for discrete programming exhibit prohibitive complexity, which prevents their deployment in practical systems or achieve poor solution quality. However, the reference algorithms and hardware designs developed in this project have demonstrated that relatively large discrete programs can be solved at high throughput, low area, and low power, while achieving best-in-class solution accuracy. Specifically, the PIs have developed three distinct algorithm frameworks for approximately solving a wide range of discrete program classes: (i) triangular approximate semidefinite relaxation (TASER), (ii) biconvex relaxation (BCR), and (iii) l-infinity-norm relaxation. In addition, theoretical results addressing convergence properties and solution quality have been devised. To demonstrate the efficacy of these algorithm frameworks in real-world applications, the PIs have developed reference very-large scale integration (VLSI) designs for next-generation wireless communication systems, including near-maximum-likelihood data detection, joint channel estimation and data detection, and precoding for low-resolution multi-antenna transmitters. These reference hardware designs achieve best-in-class throughput, area, and power, while surpassing the performance of existing algorithms in wireless systems. Furthermore, t</span><span>he algorithm frameworks </span><span>developed in this project have been applied to a range of applications in other fields, such as imaging, signal processing, computer vision, and machine learning.</span></p>\n<p dir=\"ltr\"><strong>Broader Impacts</strong></p>\n<p dir=\"ltr\"><span>The PIs have been actively collaborating with industry partners in the areas of field-programmable gate arrays and wireless network infrastructure. In the ever-growing area of wireless systems, the achieved results have the potential to enable higher data rates or more devices (or sensors) connected to the base stations. In addition, some of the developed methods enables base-station designs that consume orders of magnitude lower power than traditional solutions. On the mobile handheld side, the developed methods enable the solution to combinatorial data detection problems at significantly lower power and with fewer errors; this has an immediate impact on a society that becomes increasingly interested in energy efficiency computing. The achieved results have also potential benefit for people in areas of underserved communication infrastructure as they enable reliable communication over longer distances.&nbsp;&nbsp;</span></p>\n<p dir=\"ltr\"><span>The PIs have integrated undergraduate students directly into the research of this project and have included results in new communications and optimization courses at Cornell University and University of Maryland. In addition, the project outreach activities culminated in a week-long research activity for underrepresented minority (URM) high-school students under Cornell?s CATALYST Academy, in which the students were developing an acoustic wireless communication system.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 01/10/2020<br>\n\t\t\t\t\tModified by: Christoph&nbsp;Studer</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n \nThe goals of this project are in the development of new algorithms, analysis of theoretical properties, and implementation of hardware prototypes that compute approximate solutions to high-dimensional discrete programs. Before this project, it was commonly believed that approximate or relaxation-based methods for discrete programming exhibit prohibitive complexity, which prevents their deployment in practical systems or achieve poor solution quality. However, the reference algorithms and hardware designs developed in this project have demonstrated that relatively large discrete programs can be solved at high throughput, low area, and low power, while achieving best-in-class solution accuracy. Specifically, the PIs have developed three distinct algorithm frameworks for approximately solving a wide range of discrete program classes: (i) triangular approximate semidefinite relaxation (TASER), (ii) biconvex relaxation (BCR), and (iii) l-infinity-norm relaxation. In addition, theoretical results addressing convergence properties and solution quality have been devised. To demonstrate the efficacy of these algorithm frameworks in real-world applications, the PIs have developed reference very-large scale integration (VLSI) designs for next-generation wireless communication systems, including near-maximum-likelihood data detection, joint channel estimation and data detection, and precoding for low-resolution multi-antenna transmitters. These reference hardware designs achieve best-in-class throughput, area, and power, while surpassing the performance of existing algorithms in wireless systems. Furthermore, the algorithm frameworks developed in this project have been applied to a range of applications in other fields, such as imaging, signal processing, computer vision, and machine learning.\nBroader Impacts\nThe PIs have been actively collaborating with industry partners in the areas of field-programmable gate arrays and wireless network infrastructure. In the ever-growing area of wireless systems, the achieved results have the potential to enable higher data rates or more devices (or sensors) connected to the base stations. In addition, some of the developed methods enables base-station designs that consume orders of magnitude lower power than traditional solutions. On the mobile handheld side, the developed methods enable the solution to combinatorial data detection problems at significantly lower power and with fewer errors; this has an immediate impact on a society that becomes increasingly interested in energy efficiency computing. The achieved results have also potential benefit for people in areas of underserved communication infrastructure as they enable reliable communication over longer distances.  \nThe PIs have integrated undergraduate students directly into the research of this project and have included results in new communications and optimization courses at Cornell University and University of Maryland. In addition, the project outreach activities culminated in a week-long research activity for underrepresented minority (URM) high-school students under Cornell?s CATALYST Academy, in which the students were developing an acoustic wireless communication system.\n\n\t\t\t\t\tLast Modified: 01/10/2020\n\n\t\t\t\t\tSubmitted by: Christoph Studer"
+ }
+}

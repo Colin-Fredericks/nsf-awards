@@ -1,0 +1,101 @@
+{
+ "awd_id": "1329593",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "CPS: Breakthrough: Safe Protocols in Cyber-Physical Systems (CPS)",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "David Corman",
+ "awd_eff_date": "2013-10-01",
+ "awd_exp_date": "2017-09-30",
+ "tot_intn_awd_amt": 457207.0,
+ "awd_amount": 457207.0,
+ "awd_min_amd_letter_date": "2013-09-09",
+ "awd_max_amd_letter_date": "2013-09-09",
+ "awd_abstract_narration": "The objective of this research is to prove that cyber-physical systems are safe before they are deployed. The approaches the research investigates are extensions of approaches used to test communications protocols. The problems with cyber-physical systems are that 1) they are much more complicated than communications protocols,  2) time is a more critical component of these systems, and 3) in a competitive environment there are likely to be many implementations that must interoperate.\r\n\r\nThe complexity of communications protocols is reduced by using a layered architecture. Each layer provides a well defined service to the next layer. This research is developing multi-dimensional architectures that reflect the different ways that the cyber-physical system interacts with the physical world. The techniques are evaluated on a driver-assisted merge protocol.  An architecture for the merge protocol has four dimensions organized as stacks for communications, external sensors, vehicle monitoring and control, and timing.  This architecture will also be useful during standardization.\r\n\r\nTiming increases verification complexity by increasing the number of potential execution paths. The research conducted in this project explores how to reduce the number of paths by synchronizing clocks and using simultaneous operations. This approach is reasonable because of the timing accuracy now available with GPS. A two step verification process is used that creates an unambiguous model of the cyber-physical system, first proving that the model is safe, then checking that each implementation conforms to the model.  This reduces the number and cost of tests for a three-party merge protocol.  Specifically, assuming there are N implementation versions for different manufacturers and models, this approach reduces the number of necessary interaction tests, which would be cubic in N, to a single model verification and N conformance tests.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Nicholas",
+   "pi_last_name": "Maxemchuk",
+   "pi_mid_init": "F",
+   "pi_sufx_name": "",
+   "pi_full_name": "Nicholas F Maxemchuk",
+   "pi_email_addr": "nick@ee.columbia.edu",
+   "nsf_id": "000154268",
+   "pi_start_date": "2013-09-09",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Columbia University",
+  "inst_street_address": "615 W 131ST ST",
+  "inst_street_address_2": "MC 8741",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2128546851",
+  "inst_zip_code": "100277922",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "NY13",
+  "org_lgl_bus_name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "F4N1QNPB95M4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Columbia University",
+  "perf_str_addr": "",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100276902",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "NY13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7918",
+   "pgm_ref_txt": "CYBER-PHYSICAL SYSTEMS (CPS)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 457207.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Intelligent, collaborative vehicles communicate with one another, using previously agreed upon protocols. Intelligent, autonomous vehicles operate independent of other vehicles and may modify their operations as they learn. In an earlier work we demonstrated that collaborative vehicles can significantly increase the capacity of a highway by using intelligent braking and cruise control. The improvement in capacity is a function of the fraction of the vehicles that can communicate, and can result in the highway supporting several times the current number of vehicles during a rush hour.</p>\n<p>&nbsp;</p>\n<p>Our objective in this project was to use techniques developed at Bell labs in the 1990&rsquo;s, for communications protocols, to prove that a protocol will not cause accidents, and that protocols implemented by different manufacturers will operate together. The techniques restrict the operations performed by the protocols to those that can be defined by a finite state machine (FSM). In the 1990&rsquo;s we developed a probabilistic verification technique that allowed us to test the most likely sequences that the protocol will execute and bound the untested sequences. We used the rural Chinese Postman Algorithm to generate a short test sequence that guarantees that an implementation correctly performs all of the operations specified by a protocol.</p>\n<p>&nbsp;</p>\n<p>These techniques cannot be applied directly to collaborative vehicles because the new protocols are much more complicated than the communications protocols and have critical time dependencies. We applied the techniques by defining a multiple stack architecture for the vehicle protocols and using a synchronized clock.</p>\n<p>&nbsp;</p>\n<p>&nbsp;The multiple stack architecture has a separate stack for each interaction with the physical world. The lowest layer of each stack defines the interaction with the physical world, and the intelligent protocols in each layer use the capabilities provided by the lower layer, similar to the communications protocols used in the Internet. The verification and testing techniques are only applied to the intelligent protocols, and are applied separately to the protocols in each layer assuming that the lower layers have already been tested.</p>\n<p>&nbsp;</p>\n<p>Protocols that use synchronized clocks are possible because the timing accuracy provided by GPS and crystal oscillators is finer than required by the physical movement of a vehicle. Synchronized clocks allow us to specify events that occur simultaneously. This reduces the number of protocol paths that must be considered. When events occur in multiple vehicles, we no longer have to consider which event occurred first. Simple FSM&rsquo;s do not model time, by using synchronized clocks and scheduling messages to the FSM&rsquo;s, we can remove time from the FSM&rsquo;s. We have also defined two protocols that use synchronized clocks to obtain new characteristics. The first is a broadcast protocol that quickly informs all of the participants when any participant leaves the group. The second is a lock protocol, in which vehicles cannot remain locked because vehicles have left a group without releasing their lock.</p>\n<p>&nbsp;</p>\n<p>In the final year we began to attack the problem of malicious users who send messages and try to cause harm. Messages are divided into classes, data messages that transmit information such as sensor readings, and control messages that change the state of the FSM. For instance, in a simple merge protocol, a control message may move a vehicle into a state where it believes that it is safe to merge between two vehicles in an adjacent lane. We modified the merge protocol so that all sensor measurements are performed by at least two vehicles. We modified the verification package to test the protocol when a malicious vehicle can send any sequence of the messages defined by the finite state machine. This assumption results in many more high probability events. We were able to verify that a malicious user would not cause an accident in the simple merge protocol by modifying the protocol so that an unexpected message caused a vehicle to leave the collaborative mode and enter the autonomous driving mode. Previously, unexpected messages were discarded and the vehicle remained in the same state. The protocol modification reduced the number of sequences that were tested.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/04/2017<br>\n\t\t\t\t\tModified by: Nicholas&nbsp;F&nbsp;Maxemchuk</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nIntelligent, collaborative vehicles communicate with one another, using previously agreed upon protocols. Intelligent, autonomous vehicles operate independent of other vehicles and may modify their operations as they learn. In an earlier work we demonstrated that collaborative vehicles can significantly increase the capacity of a highway by using intelligent braking and cruise control. The improvement in capacity is a function of the fraction of the vehicles that can communicate, and can result in the highway supporting several times the current number of vehicles during a rush hour.\n\n \n\nOur objective in this project was to use techniques developed at Bell labs in the 1990?s, for communications protocols, to prove that a protocol will not cause accidents, and that protocols implemented by different manufacturers will operate together. The techniques restrict the operations performed by the protocols to those that can be defined by a finite state machine (FSM). In the 1990?s we developed a probabilistic verification technique that allowed us to test the most likely sequences that the protocol will execute and bound the untested sequences. We used the rural Chinese Postman Algorithm to generate a short test sequence that guarantees that an implementation correctly performs all of the operations specified by a protocol.\n\n \n\nThese techniques cannot be applied directly to collaborative vehicles because the new protocols are much more complicated than the communications protocols and have critical time dependencies. We applied the techniques by defining a multiple stack architecture for the vehicle protocols and using a synchronized clock.\n\n \n\n The multiple stack architecture has a separate stack for each interaction with the physical world. The lowest layer of each stack defines the interaction with the physical world, and the intelligent protocols in each layer use the capabilities provided by the lower layer, similar to the communications protocols used in the Internet. The verification and testing techniques are only applied to the intelligent protocols, and are applied separately to the protocols in each layer assuming that the lower layers have already been tested.\n\n \n\nProtocols that use synchronized clocks are possible because the timing accuracy provided by GPS and crystal oscillators is finer than required by the physical movement of a vehicle. Synchronized clocks allow us to specify events that occur simultaneously. This reduces the number of protocol paths that must be considered. When events occur in multiple vehicles, we no longer have to consider which event occurred first. Simple FSM?s do not model time, by using synchronized clocks and scheduling messages to the FSM?s, we can remove time from the FSM?s. We have also defined two protocols that use synchronized clocks to obtain new characteristics. The first is a broadcast protocol that quickly informs all of the participants when any participant leaves the group. The second is a lock protocol, in which vehicles cannot remain locked because vehicles have left a group without releasing their lock.\n\n \n\nIn the final year we began to attack the problem of malicious users who send messages and try to cause harm. Messages are divided into classes, data messages that transmit information such as sensor readings, and control messages that change the state of the FSM. For instance, in a simple merge protocol, a control message may move a vehicle into a state where it believes that it is safe to merge between two vehicles in an adjacent lane. We modified the merge protocol so that all sensor measurements are performed by at least two vehicles. We modified the verification package to test the protocol when a malicious vehicle can send any sequence of the messages defined by the finite state machine. This assumption results in many more high probability events. We were able to verify that a malicious user would not cause an accident in the simple merge protocol by modifying the protocol so that an unexpected message caused a vehicle to leave the collaborative mode and enter the autonomous driving mode. Previously, unexpected messages were discarded and the vehicle remained in the same state. The protocol modification reduced the number of sequences that were tested.\n\n\t\t\t\t\tLast Modified: 11/04/2017\n\n\t\t\t\t\tSubmitted by: Nicholas F Maxemchuk"
+ }
+}

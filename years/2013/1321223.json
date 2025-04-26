@@ -1,0 +1,101 @@
+{
+ "awd_id": "1321223",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "TC: Small: Collaborative Research: Exploiting Network Dynamics for Secret Key Generation",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jeremy Epstein",
+ "awd_eff_date": "2012-11-01",
+ "awd_exp_date": "2015-08-31",
+ "tot_intn_awd_amt": 175886.0,
+ "awd_amount": 175886.0,
+ "awd_min_amd_letter_date": "2013-01-24",
+ "awd_max_amd_letter_date": "2013-01-24",
+ "awd_abstract_narration": "Key management in wireless networks is a very challenging problem because of the unreliable transmission medium, the lack of network infrastructure, and stringent energy and complexity limitations at terminals. Recently, there has been increased interest in exploiting physical layer dynamics to generate keys. However, existing schemes exploit only the channel dynamics in the point-to-point channel or basic small wireless systems, but not other rich dynamics inherent to multiuser wireless networks. Furthermore, current studies focus mainly on the pairwise key agreement problem, and did not address issues arising from user interactions in networks.  This project develops practical key generation schemes for large scale networks, which 1) fully exploit rich opportunities inherent to network dynamics, and 2) properly address issues arising from interaction among multiple users in networks. Topics including unicast and/or multicast key generation, oblivious relay-assisted key generation, and secret sharing among multiple users are investigated. The goal of this project is to design transmission protocols and algorithms that have engineering impact and practical feasibility. Furthermore, these protocols and algorithms are implemented and tested on a testbed. This project also has strong education components. In addition to providing thesis topics for graduate students, this project provides hands-on lab opportunities for undergraduate education on communication security. \r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Lifeng",
+   "pi_last_name": "Lai",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Lifeng Lai",
+   "pi_email_addr": "lflai@ucdavis.edu",
+   "nsf_id": "000541215",
+   "pi_start_date": "2013-01-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Worcester Polytechnic Institute",
+  "inst_street_address": "100 INSTITUTE RD",
+  "inst_street_address_2": "",
+  "inst_city_name": "WORCESTER",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "5088315000",
+  "inst_zip_code": "016092280",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "MA02",
+  "org_lgl_bus_name": "WORCESTER POLYTECHNIC INSTITUTE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "HJNQME41NBU4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Worcester Polytechnic Institute",
+  "perf_str_addr": "100 Institute Road",
+  "perf_city_name": "Worcester",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "016092247",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "MA02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779500",
+   "pgm_ele_name": "TRUSTWORTHY COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0111",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001112DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2011,
+   "fund_oblg_amt": 175886.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The goal of this project is to develop novel schemes to generate secret keys from physical layer resources for upper-layer applications and other security primitives.</p>\n<p>In the first line of work, we propose a new graph-based framework for the design of secret key generation schemes. Under this framework, we connect various key generation problems to network flow in graphs problems and explore powerful tools in graph theory for the design of low-complexity key generation schemes. Our schemes have two components: local key generation and global key propagation. In the local key generation, we use point-to-point source coding with side information to establish pairwise keys, from which we construct a graph with the capacity of each edge being the key rate of the corresponding point-to-point local key. In the global key propagation, secret keys are delivered to users in the network using various network flow algorithms. We consider two scenarios: the generation of single group key and the simultaneous generation of multiple keys. For the group key establishment problem, in which a group key is established for a group of users in the network, we propose a network coding based global key propagation approach. This approach has a lower complexity and better performance than existing approaches. In the multi-key generation problem, one is required to generate multiple keys simultaneously for different pairs of users, we propose a multi-commodity flow based global key propagation approach. We show that the proposed approach is optimal for the case of generating two keys. For the general case of generating more than two keys, we show that the sum rate of the proposed scheme is larger than an upper bound characterized our work divided by a constant.</p>\n<p>In another line of work, we investigate how to handle issues associated with the presence of active attackers for the problem of key generation over a non-authenticated public channel, in which Eve is active and can intercept, modify and falsify messages exchanged over the non-authenticated public channel. There is a remarkable &ldquo;all or nothing&rdquo; result by Maurer and Wolf: if a so called &ldquo;simulatability condition&rdquo; does not hold, the key capacity over the non-authenticated public channel will be the same as that of the case with a passive Eve, while the key capacity over the non-authenticated channel will be zero if the simulatabilitycondition holds. However, two questions remain open since 2003: 1) For a given joint probability mass function (PMF), are there efficient algorithms (polynomial complexity algorithms) for checking whether the simulatability condition holds or not?; and 2) If the simulatability condition holds, are there efficient algorithms for finding the corresponding attack strategy? In our work, we answer these two open questions affirmatively. In particular, for a given joint PMF, we construct a linear programming (LP) problem and show that the simulatability condition holds if and only if the optimal value obtained from the constructed LP is zero. Furthermore, we construct another LP and show that the minimizer of the newly constructed LP is a valid attack strategy. Both LPs canbe solved with a polynomial complexity. As the result, the understanding of the key generation problems over the non-authenticated public channel is more complete.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/23/2015<br>\n\t\t\t\t\tModified by: Lifeng&nbsp;Lai</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this project is to develop novel schemes to generate secret keys from physical layer resources for upper-layer applications and other security primitives.\n\nIn the first line of work, we propose a new graph-based framework for the design of secret key generation schemes. Under this framework, we connect various key generation problems to network flow in graphs problems and explore powerful tools in graph theory for the design of low-complexity key generation schemes. Our schemes have two components: local key generation and global key propagation. In the local key generation, we use point-to-point source coding with side information to establish pairwise keys, from which we construct a graph with the capacity of each edge being the key rate of the corresponding point-to-point local key. In the global key propagation, secret keys are delivered to users in the network using various network flow algorithms. We consider two scenarios: the generation of single group key and the simultaneous generation of multiple keys. For the group key establishment problem, in which a group key is established for a group of users in the network, we propose a network coding based global key propagation approach. This approach has a lower complexity and better performance than existing approaches. In the multi-key generation problem, one is required to generate multiple keys simultaneously for different pairs of users, we propose a multi-commodity flow based global key propagation approach. We show that the proposed approach is optimal for the case of generating two keys. For the general case of generating more than two keys, we show that the sum rate of the proposed scheme is larger than an upper bound characterized our work divided by a constant.\n\nIn another line of work, we investigate how to handle issues associated with the presence of active attackers for the problem of key generation over a non-authenticated public channel, in which Eve is active and can intercept, modify and falsify messages exchanged over the non-authenticated public channel. There is a remarkable \"all or nothing\" result by Maurer and Wolf: if a so called \"simulatability condition\" does not hold, the key capacity over the non-authenticated public channel will be the same as that of the case with a passive Eve, while the key capacity over the non-authenticated channel will be zero if the simulatabilitycondition holds. However, two questions remain open since 2003: 1) For a given joint probability mass function (PMF), are there efficient algorithms (polynomial complexity algorithms) for checking whether the simulatability condition holds or not?; and 2) If the simulatability condition holds, are there efficient algorithms for finding the corresponding attack strategy? In our work, we answer these two open questions affirmatively. In particular, for a given joint PMF, we construct a linear programming (LP) problem and show that the simulatability condition holds if and only if the optimal value obtained from the constructed LP is zero. Furthermore, we construct another LP and show that the minimizer of the newly constructed LP is a valid attack strategy. Both LPs canbe solved with a polynomial complexity. As the result, the understanding of the key generation problems over the non-authenticated public channel is more complete.\n\n\t\t\t\t\tLast Modified: 11/23/2015\n\n\t\t\t\t\tSubmitted by: Lifeng Lai"
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "awd_id": "1218277",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "III: Small: Optimization Techniques for Scalable Semantic Web Data Processing in the Cloud",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Maria Zemankova",
+ "awd_eff_date": "2012-09-01",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 446942.0,
+ "awd_amount": 446942.0,
+ "awd_min_amd_letter_date": "2012-08-18",
+ "awd_max_amd_letter_date": "2013-07-11",
+ "awd_abstract_narration": "The use of cloud-based data processing platforms is an increasingly attractive alternative for large-scale data processing. There is active investigation into their use for various types of processing tasks on large-scale unstructured and structured data. However, due to an increased interest in many communities to enable more automatic sharing and exchange of data on the Web using Semantic Web techniques, there is a rapid surge in the availability of very large, real-world, Semantic Web datasets. Such data are semi-structured and have more complex processing requirements than relational data processing due to the fine-grained modeling of data and also the need for inferencing during processing. Consequently, existing optimization techniques for cloud data processing platforms which often adapt relational processing optimization techniques do not address the needs of such workloads. Further, such techniques do not adequately account for the nuances of cloud runtime platforms such as Hadoop e.g., dataflow length as a cost metric, no a-priori existence of indexes and statistics.       \r\n\r\nThis project contributes insight into query optimization requirements for Semantic Web data processing on Map Reduce platforms. Its contributions include a novel Nested TripleGroup data model and Algebra (NTGA), algebraic and dynamic cost query optimization techniques; inter and intra-work sharing techniques, data representation formats and system architecture issues of integrating Semantic Web optimization techniques into frameworks such as Apache Pig. The impact of this project will cut across the increasing range of communities that are aggressively adopting Semantic Web tenets such as, scientific, business, government and other general-purpose communities. \r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Kemafor",
+   "pi_last_name": "Anyanwu Ogan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Kemafor Anyanwu Ogan",
+   "pi_email_addr": "kogan@ncsu.edu",
+   "nsf_id": "000176916",
+   "pi_start_date": "2012-08-18",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "North Carolina State University",
+  "inst_street_address": "2601 WOLF VILLAGE WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "RALEIGH",
+  "inst_state_code": "NC",
+  "inst_state_name": "North Carolina",
+  "inst_phone_num": "9195152444",
+  "inst_zip_code": "276950001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "NC02",
+  "org_lgl_bus_name": "NORTH CAROLINA STATE UNIVERSITY",
+  "org_prnt_uei_num": "U3NVH931QJJ3",
+  "org_uei_num": "U3NVH931QJJ3"
+ },
+ "perf_inst": {
+  "perf_inst_name": "North Carolina State University",
+  "perf_str_addr": "Campus Box 7514, 2701 Sullivan D",
+  "perf_city_name": "Raleigh",
+  "perf_st_code": "NC",
+  "perf_st_name": "North Carolina",
+  "perf_zip_code": "276957001",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "NC02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0112",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001213DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2012,
+   "fund_oblg_amt": 169991.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 276951.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>The goal of this project was to investigate novel query optimization techniques for scalable processing of queries on Semantic Networks in the Cloud. Our line of investigation departed from the mainstream by introducing a new data model called a </span><span style=\"font-size: small;\"><span style=\"font-family: Times New Roman;\"><em><span>Nested TripleGroup model </span></em><span>and a corresponding query algebra - </span><em><span>Nested TripleGroup Algebra (NTGA), </span></em><span>which were conceived to deal specifically with the nuances of labeled graph models like RDF. A key focus was developing optimizations for transforming what are typically very complex queries (sometimes several hundreds of join operations for ontological queries) into more efficient expressions. This was achieved by developing rewritings to NTGA expressions which are special classes of second order terms, enabling more succinct and efficient expressions than the classic first order relational expressions. The issue of efficiency was with respect to processing in the Cloud - usually MapReduce, which creates large amount of network data shuffling, disk I/O and cpu costs for complex queries requiring multiple operation cycles.<br />Once NTGA was established as a foundation for query processing, the rest of our efforts focused on </span><em><span>developing query rewriting techniques for different classes of graph pattern</span></em><span>, analytical and some basic classes of ontological<br />queries into NTGA expressions. Evaluation results showed that query plans based on NTGA expressions significantly outperform state of the art when processing on Map Reduce platforms. &nbsp;</span></span></span></p>\n<p><span style=\"font-family: Times New Roman; font-size: small;\">&nbsp;</span></p>\n<p><span><span>To further advance these benefits, we investigated how to </span><span><span style=\"font-family: Times New Roman; font-size: small;\">autonomically</span></span><span><br /><span style=\"font-family: Times New Roman; font-size: small;\">and efficiently impose some structure on the otherwise semi-structured RDF data </span><span style=\"font-family: Times New Roman; font-size: small;\">model. The absence of structure in a data model imposes some limits on query </span><span style=\"font-family: Times New Roman; font-size: small;\">optimization possibilities. We therefore developed a </span></span><span style=\"font-size: small;\"><span style=\"font-family: Times New Roman;\"><em><span>typing model, R Typing</span></em><span>, on top of the NTG data model which is induced automatically from a given data set and does not require a schema to be modeled by users prior to data ingestion. Correspondingly, the query rewriting framework was extended to support rewriting into expressions with R-Type terms. More interestingly, the typing opened up opportunities for new classes of query optimizations - Type-based and semantic query optimizations. These classes of optimizations exploit data type and integrity constraint rules to simplify query expressions. The simplification is made possible by identifying subexpressions within a query expression that can be deemed superfluous given the domain knowledge already represented as integrity constraints. The RDF data<br />model does not support integrity constraints but allows the representation of<br />domain knowledge as ontologies. Ontological axioms specify semantic relations between concepts and relations in a domain. However, they do not necessarily constrain data models in the same way that integrity constraints do. Consequently, new techniques for how to exploit such domain knowledge in query optimization were developed. This resulted in </span><em><span>novel query and data rewriting strategies</span></em><span>.<br /></span><strong><span>&nbsp;</span></strong></span></span></span></p>\n<p><span><span>The outcomes of our efforts is documented in several research publications,<br />including conference publications, a conference tutorial, a conference demo,<br />book chapter and magazine article. All are available from the project website <a href=\"https://research.csc.ncsu.edu/coul/RAPID+/publication.html\"><span style=\"color: #0000ff;\">https://research.csc.ncsu.edu/coul/RAPID+/publication.html</span></a>.</span></span></p>\n<p><span><span>Besides the </span></span><span><span>conceptual and foundational developments of this project, significant </span></span><span><span>implementation advancements were also made. A system that implemented new query </span></span><span><span>operators, query compilation, query execution and storage and indexing of RDF </span></span><span><span>data in the Cloud based on the NTGA and R-Type models were implemented as an </span></span>e<span><span>xtension of the Apache Pig project. Comprehensive evaluations against other </span></span><span><span>Cloud-based processing platforms showed over 500X performance improvement in </span></span><span><span>some cases. &nbsp;The code is currently hosted on NCSU's github repository h</span></span><a href=\"https://github.ncsu.edu/hkim22/semstorm\"><span><span>ttps://github.ncsu.edu/hkim22/semstorm</span></span></a><span><span>) &nbsp;and is being staged for general public release. </span></span></p>\n<p><span><span>&nbsp;</span></span></p>\n<p><span>Our research efforts were closely integrated with teaching and supported two doctoral dissertations. Those Ph.D students were employed upon graduation at Lawrence Berkeley National Laboratory (LBNL) and Microsoft respectively. There were several MS independent study projects as well, which translated to employment after graduation at companies like MapR and Ebay. </span></p>\n<p><strong>&nbsp;</strong><em>&nbsp;</em></p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/27/2017<br>\n\t\t\t\t\tModified by: Kemafor&nbsp;Anyanwu-Ogan</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe goal of this project was to investigate novel query optimization techniques for scalable processing of queries on Semantic Networks in the Cloud. Our line of investigation departed from the mainstream by introducing a new data model called a Nested TripleGroup model and a corresponding query algebra - Nested TripleGroup Algebra (NTGA), which were conceived to deal specifically with the nuances of labeled graph models like RDF. A key focus was developing optimizations for transforming what are typically very complex queries (sometimes several hundreds of join operations for ontological queries) into more efficient expressions. This was achieved by developing rewritings to NTGA expressions which are special classes of second order terms, enabling more succinct and efficient expressions than the classic first order relational expressions. The issue of efficiency was with respect to processing in the Cloud - usually MapReduce, which creates large amount of network data shuffling, disk I/O and cpu costs for complex queries requiring multiple operation cycles.\nOnce NTGA was established as a foundation for query processing, the rest of our efforts focused on developing query rewriting techniques for different classes of graph pattern, analytical and some basic classes of ontological\nqueries into NTGA expressions. Evaluation results showed that query plans based on NTGA expressions significantly outperform state of the art when processing on Map Reduce platforms.  \n\n \n\nTo further advance these benefits, we investigated how to autonomically\nand efficiently impose some structure on the otherwise semi-structured RDF data model. The absence of structure in a data model imposes some limits on query optimization possibilities. We therefore developed a typing model, R Typing, on top of the NTG data model which is induced automatically from a given data set and does not require a schema to be modeled by users prior to data ingestion. Correspondingly, the query rewriting framework was extended to support rewriting into expressions with R-Type terms. More interestingly, the typing opened up opportunities for new classes of query optimizations - Type-based and semantic query optimizations. These classes of optimizations exploit data type and integrity constraint rules to simplify query expressions. The simplification is made possible by identifying subexpressions within a query expression that can be deemed superfluous given the domain knowledge already represented as integrity constraints. The RDF data\nmodel does not support integrity constraints but allows the representation of\ndomain knowledge as ontologies. Ontological axioms specify semantic relations between concepts and relations in a domain. However, they do not necessarily constrain data models in the same way that integrity constraints do. Consequently, new techniques for how to exploit such domain knowledge in query optimization were developed. This resulted in novel query and data rewriting strategies.\n \n\nThe outcomes of our efforts is documented in several research publications,\nincluding conference publications, a conference tutorial, a conference demo,\nbook chapter and magazine article. All are available from the project website https://research.csc.ncsu.edu/coul/RAPID+/publication.html.\n\nBesides the conceptual and foundational developments of this project, significant implementation advancements were also made. A system that implemented new query operators, query compilation, query execution and storage and indexing of RDF data in the Cloud based on the NTGA and R-Type models were implemented as an extension of the Apache Pig project. Comprehensive evaluations against other Cloud-based processing platforms showed over 500X performance improvement in some cases.  The code is currently hosted on NCSU's github repository https://github.ncsu.edu/hkim22/semstorm)  and is being staged for general public release. \n\n \n\nOur research efforts were closely integrated with teaching and supported two doctoral dissertations. Those Ph.D students were employed upon graduation at Lawrence Berkeley National Laboratory (LBNL) and Microsoft respectively. There were several MS independent study projects as well, which translated to employment after graduation at companies like MapR and Ebay. \n\n  \n\n \n\n\t\t\t\t\tLast Modified: 11/27/2017\n\n\t\t\t\t\tSubmitted by: Kemafor Anyanwu-Ogan"
+ }
+}

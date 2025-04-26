@@ -1,0 +1,105 @@
+{
+ "awd_id": "2133487",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SaTC: CORE: Small: Concolic-Execution-Centric Fuzzing",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2022-02-01",
+ "awd_exp_date": "2025-01-31",
+ "tot_intn_awd_amt": 500000.0,
+ "awd_amount": 500000.0,
+ "awd_min_amd_letter_date": "2022-01-24",
+ "awd_max_amd_letter_date": "2022-01-24",
+ "awd_abstract_narration": "In software security, it is imperative to discover vulnerabilities in software and patch them before attackers exploit them. Fuzzing, which tests a target program with mutated inputs, is an effective technique for vulnerability discovery. Whitebox fuzzing (also known as concolic execution) collects detailed runtime information such as path constraints to precisely determine which input bytes to change and how to change them. Unfortunately, concolic execution has not been widely used, because of its low efficiency, lack of scalability, and unsatisfactory usability. This project aims to bring vulnerability discovery capability to the next level by significantly improving the efficiency, scalability, and usability of concolic execution, and designing a fuzzing system with concolic execution being the central component. The proposed research, if successful, can push vulnerability-discovery research to another level: finding vulnerabilities much faster than before, and finding vulnerabilities that are otherwise impossible to find using the existing techniques. As a result, more vulnerabilities can be patched before attackers find and exploit them, improving the security and quality of software systems. \r\n\r\nThis project aims to develop: (1) a fast binary-code concolic execution engine, which significantly improves the efficiency of concolic execution for binary code by automatically switching between concrete mode and symbolic mode; (2) dual concolic execution, which combines source-code concolic execution and binary-code concolic execution to achieve best efficiency and usability simultaneously; and (3) a new hybrid fuzzing framework, in which concolic execution plays a central role, in terms of whether or not to flip a branch, which testcase to select next, and which testcases are discarded or synchronized with the other fuzzers.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Heng",
+   "pi_last_name": "Yin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Heng Yin",
+   "pi_email_addr": "heng@cs.ucr.edu",
+   "nsf_id": "000546221",
+   "pi_start_date": "2022-01-24",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Riverside",
+  "inst_street_address": "200 UNIVERSTY OFC BUILDING",
+  "inst_street_address_2": "",
+  "inst_city_name": "RIVERSIDE",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "9518275535",
+  "inst_zip_code": "925210001",
+  "inst_country_name": "United States",
+  "cong_dist_code": "39",
+  "st_cong_dist_code": "CA39",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "MR5QC5FCAVH5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Riverside",
+  "perf_str_addr": "Research & Economic Development",
+  "perf_city_name": "RIVERSIDE",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "925219800",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "39",
+  "perf_st_cong_dist": "CA39",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "806000",
+   "pgm_ele_name": "Secure &Trustworthy Cyberspace"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "025Z",
+   "pgm_ref_txt": "SaTC: Secure and Trustworthy Cyberspace"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "",
+   "app_name": "",
+   "app_symb_id": "",
+   "fund_code": "01002223DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2022,
+   "fund_oblg_amt": 500000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Modern software powers nearly every aspect of our daily lives, from phones and vehicles to critical infrastructure and national defense systems. With such widespread reliance on complex software, ensuring that it works correctly and securely is more important than ever. This project developed and advanced a powerful software testing technique known as concolic-execution-centric fuzzing, aiming to make software testing faster, more efficient, and more precise.</p>\r\n<p>The project had three main goals:</p>\r\n<ol>\r\n<li>Develop a fast concolic execution engine for binary code, improving how efficiently software is tested at the machine code level.</li>\r\n<li>Create a dual concolic execution system, combining source-code and binary-code testing to achieve both ease of use and speed.</li>\r\n<li>Design a new fuzzing framework, where concolic execution actively guides decisions like which code paths to explore and which test inputs to prioritize.</li>\r\n</ol>\r\n<p>The project resulted in the folllowing key research accomplishments:</p>\r\n<ol>\r\n<li>Fast Binary-Code Concolic Execution Engine &ndash; SymFit. We developed a prototype engine, SymFit, that significantly improves the speed of concolic execution for binary programs. Traditionally, concolic execution focuses on symbolic reasoning, but we found that the overhead of concrete execution was a major bottleneck. SymFit addresses this by optimizing how the engine handles common concrete instructions, resulting in performance that matches or exceeds current tools. When evaluated against real applications, SymFit not only ran faster but also improved the speed of identifying and categorizing software crashes. This work was published at USENIX Security 2024.</li>\r\n<li>Dual Concolic Execution &ndash; SymFusion. &nbsp;Recompiling large software just to test it is often impractical, especially when third-party components are involved. Our second contribution, SymFusion, tackles this by blending two approaches: static instrumentation (used when recompilation is possible) and dynamic instrumentation (used when it's not). This hybrid system lets developers test performance-critical parts of their software efficiently, while still supporting full program analysis. SymFusion showed strong performance across multiple real-world applications and was published in ASE 2022.</li>\r\n<li>Smarter Testcase Scheduling and Branch-Flipping &ndash; Marco. &nbsp;As testing systems scale, efficient scheduling and input selection become essential to avoid wasting time on unproductive code paths. Our final contribution, Marco, brings intelligence to this process. It evaluates branches based on their potential to reveal new software behavior, using a global view of the program&rsquo;s logic. Tested on over 30 programs from Google's Fuzzbench and other major benchmarks, Marco outperformed current tools&mdash;continuing to find new bugs even after others had plateaued. This work was published in ICSE 2024.</li>\r\n</ol>\r\n<p>Beyond academic innovation, this project made a broad impact:</p>\r\n<ol>\r\n<li>Education and Training: Students were deeply involved in all aspects of the research, gaining real-world experience in cybersecurity and software testing</li>\r\n<li>Open Tools and Data: We released our tools and benchmarks publicly, enabling others in academia and industry to adopt or build on our work.</li>\r\n<li>Real-World Relevance: These tools are especially valuable for testing security-critical software in areas like finance, healthcare, and infrastructure, where undetected bugs could lead to serious consequences.</li>\r\n</ol>\r\n<p>This project advanced the state of the art in software testing through a concolic-execution-centric approach&mdash;combining rigorous symbolic analysis with smart, scalable execution strategies. Our tools SymFit, SymFusion, and Marco each represent significant steps toward more reliable and secure software, and their public availability ensures ongoing impact beyond the life of the project.</p><br>\n<p>\n Last Modified: 04/24/2025<br>\nModified by: Heng&nbsp;Yin</p></div>\n<div class=\"porSideCol\"\n></div>\n</div>\n",
+  "por_txt_cntn": "\n\nModern software powers nearly every aspect of our daily lives, from phones and vehicles to critical infrastructure and national defense systems. With such widespread reliance on complex software, ensuring that it works correctly and securely is more important than ever. This project developed and advanced a powerful software testing technique known as concolic-execution-centric fuzzing, aiming to make software testing faster, more efficient, and more precise.\r\n\n\nThe project had three main goals:\r\n\r\nDevelop a fast concolic execution engine for binary code, improving how efficiently software is tested at the machine code level.\r\nCreate a dual concolic execution system, combining source-code and binary-code testing to achieve both ease of use and speed.\r\nDesign a new fuzzing framework, where concolic execution actively guides decisions like which code paths to explore and which test inputs to prioritize.\r\n\r\n\n\nThe project resulted in the folllowing key research accomplishments:\r\n\r\nFast Binary-Code Concolic Execution Engine  SymFit. We developed a prototype engine, SymFit, that significantly improves the speed of concolic execution for binary programs. Traditionally, concolic execution focuses on symbolic reasoning, but we found that the overhead of concrete execution was a major bottleneck. SymFit addresses this by optimizing how the engine handles common concrete instructions, resulting in performance that matches or exceeds current tools. When evaluated against real applications, SymFit not only ran faster but also improved the speed of identifying and categorizing software crashes. This work was published at USENIX Security 2024.\r\nDual Concolic Execution  SymFusion. Recompiling large software just to test it is often impractical, especially when third-party components are involved. Our second contribution, SymFusion, tackles this by blending two approaches: static instrumentation (used when recompilation is possible) and dynamic instrumentation (used when it's not). This hybrid system lets developers test performance-critical parts of their software efficiently, while still supporting full program analysis. SymFusion showed strong performance across multiple real-world applications and was published in ASE 2022.\r\nSmarter Testcase Scheduling and Branch-Flipping  Marco. As testing systems scale, efficient scheduling and input selection become essential to avoid wasting time on unproductive code paths. Our final contribution, Marco, brings intelligence to this process. It evaluates branches based on their potential to reveal new software behavior, using a global view of the programs logic. Tested on over 30 programs from Google's Fuzzbench and other major benchmarks, Marco outperformed current toolscontinuing to find new bugs even after others had plateaued. This work was published in ICSE 2024.\r\n\r\n\n\nBeyond academic innovation, this project made a broad impact:\r\n\r\nEducation and Training: Students were deeply involved in all aspects of the research, gaining real-world experience in cybersecurity and software testing\r\nOpen Tools and Data: We released our tools and benchmarks publicly, enabling others in academia and industry to adopt or build on our work.\r\nReal-World Relevance: These tools are especially valuable for testing security-critical software in areas like finance, healthcare, and infrastructure, where undetected bugs could lead to serious consequences.\r\n\r\n\n\nThis project advanced the state of the art in software testing through a concolic-execution-centric approachcombining rigorous symbolic analysis with smart, scalable execution strategies. Our tools SymFit, SymFusion, and Marco each represent significant steps toward more reliable and secure software, and their public availability ensures ongoing impact beyond the life of the project.\t\t\t\t\tLast Modified: 04/24/2025\n\n\t\t\t\t\tSubmitted by: HengYin\n"
+ }
+}

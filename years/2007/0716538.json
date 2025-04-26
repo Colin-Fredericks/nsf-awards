@@ -1,0 +1,154 @@
+{
+ "awd_id": "0716538",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "CT-ISG: Alternate representation of NIDS/NIPS signatures for fast matching",
+ "cfda_num": "47.070",
+ "org_code": "05050000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Jeremy Epstein",
+ "awd_eff_date": "2007-07-15",
+ "awd_exp_date": "2012-06-30",
+ "tot_intn_awd_amt": 350000.0,
+ "awd_amount": 350000.0,
+ "awd_min_amd_letter_date": "2007-07-25",
+ "awd_max_amd_letter_date": "2009-08-14",
+ "awd_abstract_narration": "Proposal: 0715358\r\nCristina Estan\r\nUniversity of Wisconsin\r\nCT-ISG: Alternate Representation of NIDS/NIPS signatures for fast matching\r\n\r\n\r\nNetwork intrusion prevention systems (IPSes) play an important role in\r\nprotecting computers against attacks originating from the\r\nnetwork. Signature matching is a performance-critical operation that\r\neach IPS must perform: after storing a reassembled TCP-level byte\r\nstream or a field of a higher level protocol in a buffer, the IPS\r\nneeds to decide whether it matches any of the signatures that describe\r\nknown attacks. This project investigates methods for representing\r\nsignatures that allow fast matching, require little memory, and can\r\nsupport complex signatures expressed as regular expressions.\r\n\r\nCurrently used representations, such as deterministic finite-state\r\nautomata (DFAs) and non-deterministic finite-state automata (NFAs),\r\nhave severe drawbacks. In general, DFAs enable fast matching but are\r\nspace inefficient and NFAs are concise but are slow to match\r\nagainst. Solutions based on multiple DFAs have intermediary matching\r\nspeeds and memory requirements. One of the core reasons why such\r\nsolutions provide unfavorable speed versus memory tradeoffs is the\r\nstate-space explosion problem.\r\n\r\nThis project focuses on a novel signature representation that\r\nneutralizes statespace explosion: extended finite automata\r\n(XFAs). XFAs extend DFAs with a few bytes of \"\"scratch memory\"\" used to\r\nstore bits which record auxiliary information during the matching, or\r\ncounters which record progress. When an accepting state is reached,\r\nthe scratch memory is checked and a match is declared only if it holds\r\nsuitable values. Preliminary results on signature sets from Snort and\r\nCisco IPS show that compared to solutions using multiple DFAs, XFAs\r\ncan be 10 times smaller and at the same time 5 times faster in\r\nsoftware.\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CNS",
+ "org_div_long_name": "Division Of Computer and Network Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Somesh",
+   "pi_last_name": "Jha",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Somesh Jha",
+   "pi_email_addr": "jha@cs.wisc.edu",
+   "nsf_id": "000205526",
+   "pi_start_date": "2009-08-14",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Former Principal Investigator",
+   "pi_first_name": "Cristian",
+   "pi_last_name": "Estan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Cristian Estan",
+   "pi_email_addr": "estan@cs.wisc.edu",
+   "nsf_id": "000148884",
+   "pi_start_date": "2007-07-25",
+   "pi_end_date": "2009-08-14"
+  },
+  {
+   "pi_role": "Former Co-Principal Investigator",
+   "pi_first_name": "Somesh",
+   "pi_last_name": "Jha",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Somesh Jha",
+   "pi_email_addr": "jha@cs.wisc.edu",
+   "nsf_id": "000205526",
+   "pi_start_date": "2007-07-25",
+   "pi_end_date": "2009-08-14"
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Wisconsin-Madison",
+  "inst_street_address": "21 N PARK ST STE 6301",
+  "inst_street_address_2": "",
+  "inst_city_name": "MADISON",
+  "inst_state_code": "WI",
+  "inst_state_name": "Wisconsin",
+  "inst_phone_num": "6082623822",
+  "inst_zip_code": "537151218",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "WI02",
+  "org_lgl_bus_name": "UNIVERSITY OF WISCONSIN SYSTEM",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "LCLSJAGTNZQ7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Wisconsin-Madison",
+  "perf_str_addr": "21 N PARK ST STE 6301",
+  "perf_city_name": "MADISON",
+  "perf_st_code": "WI",
+  "perf_st_name": "Wisconsin",
+  "perf_zip_code": "537151218",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "WI02",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "737100",
+   "pgm_ele_name": "CYBER TRUST"
+  },
+  {
+   "pgm_ele_code": "779500",
+   "pgm_ele_name": "TRUSTWORTHY COMPUTING"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0107",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0107",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0108",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000809DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0109",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01000910DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2007,
+   "fund_oblg_amt": 150000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2008,
+   "fund_oblg_amt": 100000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2009,
+   "fund_oblg_amt": 100000.0
+  }
+ ],
+ "por": null
+}

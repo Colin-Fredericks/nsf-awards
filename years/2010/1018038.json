@@ -1,0 +1,109 @@
+{
+ "awd_id": "1018038",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:  Small:  Dynamic Detection of Heap-Based Bugs",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2010-09-01",
+ "awd_exp_date": "2014-08-31",
+ "tot_intn_awd_amt": 484949.0,
+ "awd_amount": 484949.0,
+ "awd_min_amd_letter_date": "2010-07-23",
+ "awd_max_amd_letter_date": "2010-07-23",
+ "awd_abstract_narration": "Identifying bugs in software continues to be a challenging, but essential problem to solve. One particularly difficult task is ensuring the integrity of large-scale data structures stored in memory. Existing bug-finding techniques, such as static analysis of the code, have not been effective on this problem, especially for complex and highly dynamic software, such as web applications.\r\n\r\nThis project explores a new technique for checking data structures dynamically as the program executes. Dynamic checking is effective and precise, but must be efficient in order to avoid significantly slowing program execution. The key idea in this work is to piggyback checking on the garbage collector, which already periodically visits all data structures in the program. An efficient and precise tool for detecting data structure errors could be widely deployed to improve the reliability of critical software infrastructure.\r\n\r\nThe project consists of three specific avenues of research. The first involves developing a declarative language for expressing dynamic data structure properties, building on existing techniques from static analysis and verification. The second investigates the class of properties that can be checked during a single pass of the garbage collector. The third builds on the machinery of concurrent garbage collection, allowing heap checks to proceed concurrently with the application on available extra CPU cores.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Samuel",
+   "pi_last_name": "Guyer",
+   "pi_mid_init": "Z",
+   "pi_sufx_name": "",
+   "pi_full_name": "Samuel Z Guyer",
+   "pi_email_addr": "sguyer@cs.tufts.edu",
+   "nsf_id": "000091427",
+   "pi_start_date": "2010-07-23",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Tufts University",
+  "inst_street_address": "80 GEORGE ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "MEDFORD",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6176273696",
+  "inst_zip_code": "021555519",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MA05",
+  "org_lgl_bus_name": "TRUSTEES OF TUFTS COLLEGE",
+  "org_prnt_uei_num": "WL9FLBRVPJJ7",
+  "org_uei_num": "WL9FLBRVPJJ7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Tufts University",
+  "perf_str_addr": "80 GEORGE ST",
+  "perf_city_name": "MEDFORD",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "021555519",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794300",
+   "pgm_ele_name": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  },
+  {
+   "pgm_ref_code": "9215",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0110",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001011DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2010,
+   "fund_oblg_amt": 484949.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The overall goal of this project is to develop a family of new tools to help programmers find and diagnose software errors. Bugs continue to be a huge problem with major consequences for our society as we increasingly depend on software to run everything from commerce to cars. Over the last 10 to 15 years computer science researchers have developed a wide array of tools and techniques that help programmers build better software. The problem is so difficult, though, that no single approach is likely to solve the entire problem. Existing tools have focused on trying to find bugs in software by analyzing the source code. While valuable, these tools are not good at finding problems in a program's data -- they do not involve running the program, so there is no actual data to check.<br /><br />We have developed three techniques that excel at finding problems in data structures. Our tools consist of small pieces of extra code that are added to existing programs to monitor their behavior. Programmers use a kind of mathematical logic to describe concisely how the data should look. The tool code runs alongside the program code and ensures that data integrity is preserved.<br /><br />One of our central contributions is the invention of a way to make program monitoring very cheap (almost no extra cost) by piggybacking on an existing component that is present in many systems -- the garbage collector. Ordinarily, verifying the integrity of a program's data (especially large programs, like server applications) is very expensive and can slow programs down significantly. We noticed that garbage collectors already do much of this work: they visit all the data in a program looking for unused memory that can be recycled. Our programming monitors reside inside the garbage collector and perform a little bit of extra work on each data item that the garbage collector inspects.</p>\n<p>Over the course of the project we developed three approaches to program monitoring using the garbage collector. The first, called <span><span>GC</span></span> Assertions, provides a simple and efficient way for programmers to specify and check basic program properties. The second introduces a rich language for expressing more complex program properties and a way to translate this language into efficient program checking code. The third approach uses parallelism to speed up program monitoring using the extra processing power available on many of today's chips. This system performs program checking while the program is running, without interrupting it at all. The key challenge in this work is coordinating the monitor code with the program code so that they don't interfere with each other.<br /><br />All three systems were implemented and tested on real programs -- open source applications and systems that are widely used. We believe that these ideas could be readily adopted in commercial systems and have a significant impact on software reliability at a low cost.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/29/2014<br>\n\t\t\t\t\tModified by: Samuel&nbsp;Z&nbsp;Guyer</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe overall goal of this project is to develop a family of new tools to help programmers find and diagnose software errors. Bugs continue to be a huge problem with major consequences for our society as we increasingly depend on software to run everything from commerce to cars. Over the last 10 to 15 years computer science researchers have developed a wide array of tools and techniques that help programmers build better software. The problem is so difficult, though, that no single approach is likely to solve the entire problem. Existing tools have focused on trying to find bugs in software by analyzing the source code. While valuable, these tools are not good at finding problems in a program's data -- they do not involve running the program, so there is no actual data to check.\n\nWe have developed three techniques that excel at finding problems in data structures. Our tools consist of small pieces of extra code that are added to existing programs to monitor their behavior. Programmers use a kind of mathematical logic to describe concisely how the data should look. The tool code runs alongside the program code and ensures that data integrity is preserved.\n\nOne of our central contributions is the invention of a way to make program monitoring very cheap (almost no extra cost) by piggybacking on an existing component that is present in many systems -- the garbage collector. Ordinarily, verifying the integrity of a program's data (especially large programs, like server applications) is very expensive and can slow programs down significantly. We noticed that garbage collectors already do much of this work: they visit all the data in a program looking for unused memory that can be recycled. Our programming monitors reside inside the garbage collector and perform a little bit of extra work on each data item that the garbage collector inspects.\n\nOver the course of the project we developed three approaches to program monitoring using the garbage collector. The first, called GC Assertions, provides a simple and efficient way for programmers to specify and check basic program properties. The second introduces a rich language for expressing more complex program properties and a way to translate this language into efficient program checking code. The third approach uses parallelism to speed up program monitoring using the extra processing power available on many of today's chips. This system performs program checking while the program is running, without interrupting it at all. The key challenge in this work is coordinating the monitor code with the program code so that they don't interfere with each other.\n\nAll three systems were implemented and tested on real programs -- open source applications and systems that are widely used. We believe that these ideas could be readily adopted in commercial systems and have a significant impact on software reliability at a low cost.\n\n\t\t\t\t\tLast Modified: 11/29/2014\n\n\t\t\t\t\tSubmitted by: Samuel Z Guyer"
+ }
+}

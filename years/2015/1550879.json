@@ -1,0 +1,109 @@
+{
+ "awd_id": "1550879",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF: Small: Collaborative Research:Concurrent Programming with Composable Transactional Objects",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2015-04-21",
+ "awd_exp_date": "2017-06-30",
+ "tot_intn_awd_amt": 240853.0,
+ "awd_amount": 240853.0,
+ "awd_min_amd_letter_date": "2015-07-15",
+ "awd_max_amd_letter_date": "2015-07-15",
+ "awd_abstract_narration": "SHF: Small: Collaborative Research: Concurrent Programming with Composable Transactional Objects\r\n\r\nWith multicore architectures becoming increasingly prevalent, the problem of constructing scalable and efficient concurrent software has attracted increasing attention.  There has been growing interest programming models that allow programmers to demarcate regions of thread code---so-called transactions---that should appear to occur atomically, when viewed from the perspective of other threads.\r\n\r\nThe premise of this project is that current, monolithic software transactional memory (STM) designs are inherently too inefficient and permit too little parallelism.  Instead we propose a very different approach: a library of customized concurrent data structures that can be composed, through a very light-weight run-time, to form transactions.  Each data structure is optimized to exploit the semantics of its type.  The intellectual merits are the development of new type-specific synchronization and recovery algorithms, along with formal tools to reason about their correctness.  These ideas will be embodied in a novel concurrency library and verification toolkit, which will be used to construct benchmarks and applications.  The boarder impacts involve incorporating concurrency into education and the potential to benefit society through higher performing, more reliable, and less expensive software.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Eric",
+   "pi_last_name": "Koskinen",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Eric Koskinen",
+   "pi_email_addr": "eric.koskinen@stevens.edu",
+   "nsf_id": "000608272",
+   "pi_start_date": "2015-07-15",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Yale University",
+  "inst_street_address": "150 MUNSON ST",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW HAVEN",
+  "inst_state_code": "CT",
+  "inst_state_name": "Connecticut",
+  "inst_phone_num": "2037854689",
+  "inst_zip_code": "065113572",
+  "inst_country_name": "United States",
+  "cong_dist_code": "03",
+  "st_cong_dist_code": "CT03",
+  "org_lgl_bus_name": "YALE UNIV",
+  "org_prnt_uei_num": "FL6GV84CKN57",
+  "org_uei_num": "FL6GV84CKN57"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Yale University",
+  "perf_str_addr": "",
+  "perf_city_name": "",
+  "perf_st_code": "CT",
+  "perf_st_name": "Connecticut",
+  "perf_zip_code": "065103209",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "03",
+  "perf_st_cong_dist": "CT03",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779800",
+   "pgm_ele_name": "Software & Hardware Foundation"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 240853.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><span>With multicore architectures becoming increasingly prevalent, the problem of constructing scalable and efficient concurrent software has attracted increasing attention. There has been growing interest programming models that allow programmers to demarcate regions of thread code---so-called transactions---that should appear to occur atomically, when viewed from the perspective of other threads.</span><br /><br /><span>The premise of this project was that current, monolithic software transactional memory (STM) designs were inherently too inefficient and permit too little parallelism. We instead took a very different approach: a library of customized concurrent data structures that can be composed, through a very light-weight run-time, to form transactions. Each data structure is optimized to exploit the semantics of its type.</span><br /><br /><span>The key outcomes of this project were:</span></p>\n<ul>\n<li>We designed, implemented, and ran preliminary tests on the Proust transactional framework, a novel way to integrate libaries of transactional objects on top of a software transactional memory system.</li>\n<li>We developed a novel method for reasoning about the correctness of a wide range of transactional memory algorithms and implementations (published in PLDI 2015).</li>\n<li>We designed, implemented, and tested a novel application of transactional object libraries in the form of a proposal to add concurrent execution to \"smart contracts\" used by cryptocurrencies such as Ethereum. Experimental results (published in PODC 2017) show that the latency of executing and verifying smart contracts can be substantially reduced using our techniques.</li>\n<li>Our work on the Proust framework shows that one can substantially increase concurrency for selected data types using this framewor (described in a PODC 2017 brief announcement).</li>\n<li>We developed a novel form of synchronization called Corrective Synchronization, as opposed to optimistic &amp; pessimistic forms of synchronization. &nbsp;We developed, implemented, and tested novel methods that combine abstract interpretation with a dynamic runtime to automatically perform corrective synchronization. Our work (published in VMCAI 2017) showed that corrective synchronization can achieve better performance than optimistic or pessimistic synchronization under some workloads.</li>\n<li>Our work influenced and contributed to other research activities (e.g. published in PLDI 2014 and EC2 2015).</li>\n</ul>\n<p><span>Finally, the boarder impacts involved incorporating concurrency into education and the potential to benefit society through higher performing, more reliable, and less expensive software.</span></p><br>\n<p>\n\t\t\t\t      \tLast Modified: 09/14/2017<br>\n\t\t\t\t\tModified by: Eric&nbsp;Koskinen</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nWith multicore architectures becoming increasingly prevalent, the problem of constructing scalable and efficient concurrent software has attracted increasing attention. There has been growing interest programming models that allow programmers to demarcate regions of thread code---so-called transactions---that should appear to occur atomically, when viewed from the perspective of other threads.\n\nThe premise of this project was that current, monolithic software transactional memory (STM) designs were inherently too inefficient and permit too little parallelism. We instead took a very different approach: a library of customized concurrent data structures that can be composed, through a very light-weight run-time, to form transactions. Each data structure is optimized to exploit the semantics of its type.\n\nThe key outcomes of this project were:\n\nWe designed, implemented, and ran preliminary tests on the Proust transactional framework, a novel way to integrate libaries of transactional objects on top of a software transactional memory system.\nWe developed a novel method for reasoning about the correctness of a wide range of transactional memory algorithms and implementations (published in PLDI 2015).\nWe designed, implemented, and tested a novel application of transactional object libraries in the form of a proposal to add concurrent execution to \"smart contracts\" used by cryptocurrencies such as Ethereum. Experimental results (published in PODC 2017) show that the latency of executing and verifying smart contracts can be substantially reduced using our techniques.\nOur work on the Proust framework shows that one can substantially increase concurrency for selected data types using this framewor (described in a PODC 2017 brief announcement).\nWe developed a novel form of synchronization called Corrective Synchronization, as opposed to optimistic &amp; pessimistic forms of synchronization.  We developed, implemented, and tested novel methods that combine abstract interpretation with a dynamic runtime to automatically perform corrective synchronization. Our work (published in VMCAI 2017) showed that corrective synchronization can achieve better performance than optimistic or pessimistic synchronization under some workloads.\nOur work influenced and contributed to other research activities (e.g. published in PLDI 2014 and EC2 2015).\n\n\nFinally, the boarder impacts involved incorporating concurrency into education and the potential to benefit society through higher performing, more reliable, and less expensive software.\n\n\t\t\t\t\tLast Modified: 09/14/2017\n\n\t\t\t\t\tSubmitted by: Eric Koskinen"
+ }
+}

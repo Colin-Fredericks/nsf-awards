@@ -1,0 +1,108 @@
+{
+ "awd_id": "1337242",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "XPS: DSD: Adaptive Stream-Processing Compilers for a Messy World",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2013-09-15",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 745594.0,
+ "awd_amount": 745594.0,
+ "awd_min_amd_letter_date": "2013-09-12",
+ "awd_max_amd_letter_date": "2013-09-12",
+ "awd_abstract_narration": "Stream processing is an increasingly important application domain; a significant portion of the data-deluge beleaguering society takes the form of real-time data, ranging from scientific data to tweets.  Fortunately, in the last decade, a variety of stream-processing languages have sprung up, including WaveScope, StreamIt, Feldspar, and others.  While these languages enable stream-processing programs (which take the form of flow-graphs of stream operators) to execute automatically and efficiently on multicores and small clusters of machines, they optimize assuming an unchanging streaming workload and cannot handle dynamic conditions found in many realistic streaming situations, such as inside modern networks.\r\n\r\nThis proposal pursues a more adaptive approach: fast, incremental compilation and recompilation of subgraphs of a stream-processing flow-graph to support dynamic placement and optimization policies while retaining high performance.  The goal is to allow streaming applications to start instantly and in parallel, or restart if the program changes, while adapting to predictable features of the environment over time including streams of constant rate.  Existing just-in-time (JIT) compilers for languages such as JavaScript are a mature technology, but a new body of techniques are needed to apply the more radical optimizations of stream compilers in a dynamic context.  This project aims to develop these techniques and evaluate them in a specific application domain: high-speed in-network processing.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Ryan",
+   "pi_last_name": "Newton",
+   "pi_mid_init": "R",
+   "pi_sufx_name": "",
+   "pi_full_name": "Ryan R Newton",
+   "pi_email_addr": "rrnewton@purdue.edu",
+   "nsf_id": "000596232",
+   "pi_start_date": "2013-09-12",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Douglas",
+   "pi_last_name": "Swany",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Douglas M Swany",
+   "pi_email_addr": "swany@iu.edu",
+   "nsf_id": "000347755",
+   "pi_start_date": "2013-09-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Indiana University",
+  "inst_street_address": "107 S INDIANA AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "BLOOMINGTON",
+  "inst_state_code": "IN",
+  "inst_state_name": "Indiana",
+  "inst_phone_num": "3172783473",
+  "inst_zip_code": "474057000",
+  "inst_country_name": "United States",
+  "cong_dist_code": "09",
+  "st_cong_dist_code": "IN09",
+  "org_lgl_bus_name": "TRUSTEES OF INDIANA UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "YH86RTW2YVJ4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Indiana University",
+  "perf_str_addr": "150 S. Woodlawn, Lindley 230",
+  "perf_city_name": "Bloomington",
+  "perf_st_code": "IN",
+  "perf_st_name": "Indiana",
+  "perf_zip_code": "474057104",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "09",
+  "perf_st_cong_dist": "IN09",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "828300",
+   "pgm_ele_name": "Exploiting Parallel&Scalabilty"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 745594.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>&nbsp; &nbsp;This project developed a new body of techniques relevant to implementing high-performance stream-processing systems.&nbsp; Stream-processing systems benefit from optimazitions that involve radical transformations of program logic: for example, fusing adjacent processing steps (operators in a flow-graph).&nbsp; Such program transformations work best if informed by measurements of realistic workloads, i.e. profiling information.&nbsp; In streaming, the needs for profile-driven compilation differ, however, from compilers for traditional applications.&nbsp; It is not sufficient to use techniques that sample the program position based on a timer (gprof, perf, etc).<br />&nbsp; &nbsp;Rather, in the streaming domain, instrumentation-based profiling is necessary: modifying the program at runtime to record statistics on its own behavior.&nbsp; Using instrumentation, it becomes possible to (1) measure the exact time to process an element of an input stream in a particular stage, and (2) precisely measure the quantity of data that flows between consecutive stages.&nbsp; These measurements characterize the flow-graph and drive subsequent optimizations.<br />&nbsp; &nbsp;The challenge was that existing technology for runtime modification of programs on contemporary processors was sharply limited.&nbsp; These technologies inject \"probes\" into existing programs (function calls not originally present in the binary), but we sought the ability to both rapidly toggle probes on and off, and for probes themselves to be inexpensive to execute.&nbsp; Unfortunately, previous techniques involved either expensive operating-system involvement on every probe invocation, or they required pausing all application threads (e.g. 64 threads on a 64-core processor), in order to toggle even a single probe on or off.<br />&nbsp; &nbsp;Thus, over the course of this project, we developed a new technique for runtime modification of binary programs running on x86_64 processors (presented in PLDI'16 and PLDI'17).&nbsp; Our approach was the first to allow rapid toggling of probes in a multithreaded application, without involving the operating system (OS) or pausing the application threads that are not being probed.&nbsp; We introduced the novel technique of \"instruction punning\", where we avoid modifying an entire instruction (which may cross a cache-line boundary), and instead only modify the front part of the instruction to a \"jump\" while reinterpreting the preexisting back part of the instruction as part of the jump target address.<br />&nbsp; &nbsp;Using our rapid-toggling probes, it becomes possible to build a profiling infrastructure that is \"always on\" (i.e. in production, not just for in the software development phase), and which adaptively limits its own overhead.&nbsp; The adaptive approach works simply by turning off probes after a certain number of invocations, to bound that amount of overhead incurred by a particular probe.&nbsp; This always-on, adaptive profiling is especially well suited to long-running stream-processing applications, which may need to recompile, and reoptimize themselves to best take advantage of changing workloads.</p>\n<div></div>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/01/2018<br>\n\t\t\t\t\tModified by: Ryan&nbsp;R&nbsp;Newton</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n   This project developed a new body of techniques relevant to implementing high-performance stream-processing systems.  Stream-processing systems benefit from optimazitions that involve radical transformations of program logic: for example, fusing adjacent processing steps (operators in a flow-graph).  Such program transformations work best if informed by measurements of realistic workloads, i.e. profiling information.  In streaming, the needs for profile-driven compilation differ, however, from compilers for traditional applications.  It is not sufficient to use techniques that sample the program position based on a timer (gprof, perf, etc).\n   Rather, in the streaming domain, instrumentation-based profiling is necessary: modifying the program at runtime to record statistics on its own behavior.  Using instrumentation, it becomes possible to (1) measure the exact time to process an element of an input stream in a particular stage, and (2) precisely measure the quantity of data that flows between consecutive stages.  These measurements characterize the flow-graph and drive subsequent optimizations.\n   The challenge was that existing technology for runtime modification of programs on contemporary processors was sharply limited.  These technologies inject \"probes\" into existing programs (function calls not originally present in the binary), but we sought the ability to both rapidly toggle probes on and off, and for probes themselves to be inexpensive to execute.  Unfortunately, previous techniques involved either expensive operating-system involvement on every probe invocation, or they required pausing all application threads (e.g. 64 threads on a 64-core processor), in order to toggle even a single probe on or off.\n   Thus, over the course of this project, we developed a new technique for runtime modification of binary programs running on x86_64 processors (presented in PLDI'16 and PLDI'17).  Our approach was the first to allow rapid toggling of probes in a multithreaded application, without involving the operating system (OS) or pausing the application threads that are not being probed.  We introduced the novel technique of \"instruction punning\", where we avoid modifying an entire instruction (which may cross a cache-line boundary), and instead only modify the front part of the instruction to a \"jump\" while reinterpreting the preexisting back part of the instruction as part of the jump target address.\n   Using our rapid-toggling probes, it becomes possible to build a profiling infrastructure that is \"always on\" (i.e. in production, not just for in the software development phase), and which adaptively limits its own overhead.  The adaptive approach works simply by turning off probes after a certain number of invocations, to bound that amount of overhead incurred by a particular probe.  This always-on, adaptive profiling is especially well suited to long-running stream-processing applications, which may need to recompile, and reoptimize themselves to best take advantage of changing workloads.\n\n\n \n\n\t\t\t\t\tLast Modified: 05/01/2018\n\n\t\t\t\t\tSubmitted by: Ryan R Newton"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "awd_id": "1426703",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "NRI: Collaborative Research: Efficient Algorithms for Contact-Aware State Estimation",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032924768",
+ "po_email": "jyang@nsf.gov",
+ "po_sign_block_name": "Jie Yang",
+ "awd_eff_date": "2014-08-15",
+ "awd_exp_date": "2018-07-31",
+ "tot_intn_awd_amt": 400000.0,
+ "awd_amount": 400000.0,
+ "awd_min_amd_letter_date": "2014-08-11",
+ "awd_max_amd_letter_date": "2014-08-11",
+ "awd_abstract_narration": "This project addresses the difficult theoretical, computational, and applied challenges required to exploit a deep mathematical relationship between recent advances in machine perception/estimation algorithms and recent advances in algorithms for planning/controlling systems undergoing frictional contact.  It explores the immediate applications of these algorithms to perception, robotic object manipulation and parts assembly, and humanoid robots performing complex, multi-contact, whole-body maneuvers. In order to showcase the generality of approach, and simultaneously reach out to the important under-represented minority population, the research team employs a new hands-on short-course curriculum in which students apply the proposed algorithms to predict the outcome of games using visual tracking. The course is being developed in partnership with the MIT Office of Minority Education (OME).\r\n\r\nThe project brings together expertise in simultaneous localization and mapping (SLAM), robot manipulation, robotic automation, legged robots, and optimization and nonlinear control, leading to a cross-fertilization of ideas and techniques.  The research team exploits sparsity in the complementarity formulations of contact in Lagrangian dynamics.  The project explores a new algebraic approach to nonlinear estimator design. The project produces new theorems, new algorithms, and experimental results on real robots.  The project also represents a new partnership with our industrial collaborator, ABB Robotics. The developed algorithms facilitate a broad range of new applications in which perception and control systems monitor and manipulate physical interactions with the world.  From palm-sized smart devices to environmental monitoring, sensors are becoming ubiquitous; to reach their full potential these sensor networks must be able to reason about contact - the basic building block of physical interaction.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Kaess",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael Kaess",
+   "pi_email_addr": "kaess@cmu.edu",
+   "nsf_id": "000663709",
+   "pi_start_date": "2014-08-11",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Carnegie-Mellon University",
+  "inst_street_address": "5000 FORBES AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "PITTSBURGH",
+  "inst_state_code": "PA",
+  "inst_state_name": "Pennsylvania",
+  "inst_phone_num": "4122688746",
+  "inst_zip_code": "152133815",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "PA12",
+  "org_lgl_bus_name": "CARNEGIE MELLON UNIVERSITY",
+  "org_prnt_uei_num": "U3NKNFLNQ613",
+  "org_uei_num": "U3NKNFLNQ613"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Carnegie-Mellon University",
+  "perf_str_addr": "5000 Forbes Ave",
+  "perf_city_name": "Pittsburgh",
+  "perf_st_code": "PA",
+  "perf_st_name": "Pennsylvania",
+  "perf_zip_code": "152133815",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "PA12",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "801300",
+   "pgm_ele_name": "NRI-National Robotics Initiati"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "8086",
+   "pgm_ref_txt": "Natl Robotics Initiative (NRI)"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 400000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>We have explored efficient algorithms for state estimation when a robot makes contact with the world, for example a robot arm touching an object it wants to pick up. The use of touch has been underutilized at least partially because suitable mathematical tools for state estimation under contact are lacking. While many good algorithms exist for contact-less state estimation, once contact constraints are added, some of the underlying assumptions of these methods are violated. In particular a common underlying assumption for state estimation is that the uncertain state can be well approximated by a Gaussian probability distribution. However, contact introduces a number of complications that violate the Gaussian assumption: Near an edge, contact could be with one of two surfaces, the underlying surface model is often uncertain, or the contact measurement itself might be wrong.<br /><br />Our work has focused on three main areas: a complete system for state estimation with contact with a robot arm, better inference algorithms for the encountered optimization problems, and mapping of an environment so that we know where the contact surfaces are. For our complete system we chose particle filters for the state estimation because it can approximate fairly arbitrary probability distributions. The novelty of our approach is in how the state can be restricted to lie on a known surface under contact, and how the particle filter can still operate efficiently even for the fairly high degrees of freedom of a robot arm.<br /><br />For the second part we have developed novel optimization algorithms that are more suitable for the non-Gaussian inference problems arising from contact. One novel algorithm is using a nonparametric representation of the state, which allows approximation of arbitrary probability distributions, but is computationally expensive. The other novel inference algorithm we introduced is more efficient and addresses the special case of tracking multiple Gaussian hypotheses, such as when there is uncertainty as to whether the arm is in contact, or if there are multiple possible contact surfaces.<br /><br />For the third part we create maps of the surrounding of a robot. One approach we introduced uses a traditional volumetric representation created from an RGB-D camera mounted on a robot arm. The other approach provides a novel way to map planar surfaces in a mathematically simple way that is highly efficient. Beyond a local scene, we have expanded this line of work to be able to cover large scale models, and with the optional help of an inertial sensor, provide a robust solution to mapping and localization indoors at building scale.<br /><br />For robots to be able to operate in uncertain environments, unlike very controlled factory environments, in the future will allow for a wide range of new applications, from household robots to care for the elderly. We hope that our work can serve as one stone in the foundation towards such applications. The research was carried out by five PhD students and published in 2 journal papers and 11 peer reviewed conference papers and presented at conferences and other universities. To make our work more accessible to the research community we have also written a 100+ page survey article summarizing over 10 years of research that underlie the new inference algorithms developed here. The article also serves as basis for a new graduate level course at Carnegie Mellon University that has already been taken by 166 graduate students over the past 3 years.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 04/14/2019<br>\n\t\t\t\t\tModified by: Michael&nbsp;Kaess</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nWe have explored efficient algorithms for state estimation when a robot makes contact with the world, for example a robot arm touching an object it wants to pick up. The use of touch has been underutilized at least partially because suitable mathematical tools for state estimation under contact are lacking. While many good algorithms exist for contact-less state estimation, once contact constraints are added, some of the underlying assumptions of these methods are violated. In particular a common underlying assumption for state estimation is that the uncertain state can be well approximated by a Gaussian probability distribution. However, contact introduces a number of complications that violate the Gaussian assumption: Near an edge, contact could be with one of two surfaces, the underlying surface model is often uncertain, or the contact measurement itself might be wrong.\n\nOur work has focused on three main areas: a complete system for state estimation with contact with a robot arm, better inference algorithms for the encountered optimization problems, and mapping of an environment so that we know where the contact surfaces are. For our complete system we chose particle filters for the state estimation because it can approximate fairly arbitrary probability distributions. The novelty of our approach is in how the state can be restricted to lie on a known surface under contact, and how the particle filter can still operate efficiently even for the fairly high degrees of freedom of a robot arm.\n\nFor the second part we have developed novel optimization algorithms that are more suitable for the non-Gaussian inference problems arising from contact. One novel algorithm is using a nonparametric representation of the state, which allows approximation of arbitrary probability distributions, but is computationally expensive. The other novel inference algorithm we introduced is more efficient and addresses the special case of tracking multiple Gaussian hypotheses, such as when there is uncertainty as to whether the arm is in contact, or if there are multiple possible contact surfaces.\n\nFor the third part we create maps of the surrounding of a robot. One approach we introduced uses a traditional volumetric representation created from an RGB-D camera mounted on a robot arm. The other approach provides a novel way to map planar surfaces in a mathematically simple way that is highly efficient. Beyond a local scene, we have expanded this line of work to be able to cover large scale models, and with the optional help of an inertial sensor, provide a robust solution to mapping and localization indoors at building scale.\n\nFor robots to be able to operate in uncertain environments, unlike very controlled factory environments, in the future will allow for a wide range of new applications, from household robots to care for the elderly. We hope that our work can serve as one stone in the foundation towards such applications. The research was carried out by five PhD students and published in 2 journal papers and 11 peer reviewed conference papers and presented at conferences and other universities. To make our work more accessible to the research community we have also written a 100+ page survey article summarizing over 10 years of research that underlie the new inference algorithms developed here. The article also serves as basis for a new graduate level course at Carnegie Mellon University that has already been taken by 166 graduate students over the past 3 years.\n\n\t\t\t\t\tLast Modified: 04/14/2019\n\n\t\t\t\t\tSubmitted by: Michael Kaess"
+ }
+}

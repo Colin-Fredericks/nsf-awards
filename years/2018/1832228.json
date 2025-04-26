@@ -1,0 +1,105 @@
+{
+ "awd_id": "1832228",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "AF: Small: Sublinear Algorithms for Real Data",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tracy Kimbrel",
+ "awd_eff_date": "2017-08-24",
+ "awd_exp_date": "2019-05-31",
+ "tot_intn_awd_amt": 135941.0,
+ "awd_amount": 135941.0,
+ "awd_min_amd_letter_date": "2018-03-13",
+ "awd_max_amd_letter_date": "2018-03-13",
+ "awd_abstract_narration": "The area of sublinear algorithms aims to establish algorithmic foundations for processing big data. What global properties of the data can we understand while reading only a small portion of it? What if the data is noisy? Can we quickly restore a corrupted data point while ensuring some global property of the data? This project focuses specifically on sublinear algorithms for real-valued numeric data and on real-world challenges associated with it.\r\n\r\nEffectively exploiting big data can provide significant societal benefits. This project has the potential to change how real-valued data is processed and analyzed, and how privacy of sensitive datasets is handled. In addition, this project includes educational activities designed to ensure the work's broader impact and to improve workforce training. They include advising and mentoring graduate students; continuing to build a strong theoretical foundations group at Penn State; including the results of the proposed research in the PI's graduate course on sublinear algorithms; widely disseminating the results of this research and, more broadly, algorithmic and computational ideas via talks and publications; and fostering diversity by providing mentoring and educational activities targeted at women in computer science and mathematics.\r\n\r\nWhile there are established and successful lines of research in sublinear algorithms and property testing on Boolean functions, codes (and, more generally, algebraic properties), graphs, and discrete distributions, several recent applications of sublinear algorithms require working with real data. These include the study of Lipschitz functions with applications to data privacy and the study of submodular functions with applications to economics. To achieve their full potential, sublinear algorithms need to be able to handle real-valued data. The aim of this project is to lay the foundations for this area of study. This will require the development of new tools and will open up new connections and new areas of application.  The research activities are grouped into three parts: 1. testing and local reconstruction of Lipschitz functions with applications to data privacy; 2. new measures for accuracy guarantees, with the focus on L_p metrics; and 3. new models for data access.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Sofya",
+   "pi_last_name": "Raskhodnikova",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Sofya Raskhodnikova",
+   "pi_email_addr": "sofya@bu.edu",
+   "nsf_id": "000165867",
+   "pi_start_date": "2018-03-13",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Trustees of Boston University",
+  "inst_street_address": "1 SILBER WAY",
+  "inst_street_address_2": "",
+  "inst_city_name": "BOSTON",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "6173534365",
+  "inst_zip_code": "022151703",
+  "inst_country_name": "United States",
+  "cong_dist_code": "07",
+  "st_cong_dist_code": "MA07",
+  "org_lgl_bus_name": "TRUSTEES OF BOSTON UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "THL6A6JLE1S7"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Trustees of Boston University",
+  "perf_str_addr": "881 Commonwealth Ave",
+  "perf_city_name": "Boston",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "022151300",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "07",
+  "perf_st_cong_dist": "MA07",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "779600",
+   "pgm_ele_name": "Algorithmic Foundations"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7926",
+   "pgm_ref_txt": "ALGORITHMS"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 135941.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The project aimed to develop algorithmic foundations of big data analysis, with a focus on real-valued data. The goal of the project was a systematic investigation of real-valued data in the context of sublinear algorithms. Sublinear algorithms provide approximate insights into big data by examining only a tiny portion of it, using clever algorithmic insights and randomness to decide what to read. The project developed models for studying sublinear computation in the presence of adversarial erasures in the data, designed sublinear algorithms for many problems in this model, and invented new techniques for algorithm design and understanding limitations of algorithms that have to work with erasures.&nbsp;</p>\n<p><br />One simple special case of a problem solved by this project is the following: You are given a list of n numbers, with a large fraction of numbers erased (or hidden, say, for privacy reasons). You can read each of n locations and find out the number at that location or the fact that it is hidden. How many locations do you have to read to figure out whether the non-erased portion of the list is sorted or far from sorted (in the sense that many locations need to be changed to make it sorted)? We designed an algorithm that solves this problem with high probability after reading only about log(n) numbers. This algorithm is exponentially faster in n than reading the entire list.</p>\n<p>This project provided similarly efficient erasure-resilient algorithms for many problems and developed ways of thinking about dealing with erasures in the input. It demonstrated that there are problems, which can be solved without erasures very efficiently, but require reading the entire input in the presence of erasures. It also showed that there are problems that can be solved very efficiently in the presence of erasures, but require reading a large fraction of the input in the presence of errors in the input. These separations were obtained via in a novel connection between erasure-resilient algorithms and error-correcting codes and lead to new results in that area.</p>\n<p>The conducted research addresses challenges of big data from the perspective of algorithmic foundations. It has the potential to change how real-valued data is processed and analyzed. Four graduate students participated in this project and received support from the award. The investigator provided training and mentoring to these students and initiated many educational activities aimed at middle school students, especially targeting increasing participation of women in computer science and mathematics.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 06/26/2019<br>\n\t\t\t\t\tModified by: Sofya&nbsp;Raskhodnikova</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe project aimed to develop algorithmic foundations of big data analysis, with a focus on real-valued data. The goal of the project was a systematic investigation of real-valued data in the context of sublinear algorithms. Sublinear algorithms provide approximate insights into big data by examining only a tiny portion of it, using clever algorithmic insights and randomness to decide what to read. The project developed models for studying sublinear computation in the presence of adversarial erasures in the data, designed sublinear algorithms for many problems in this model, and invented new techniques for algorithm design and understanding limitations of algorithms that have to work with erasures. \n\n\nOne simple special case of a problem solved by this project is the following: You are given a list of n numbers, with a large fraction of numbers erased (or hidden, say, for privacy reasons). You can read each of n locations and find out the number at that location or the fact that it is hidden. How many locations do you have to read to figure out whether the non-erased portion of the list is sorted or far from sorted (in the sense that many locations need to be changed to make it sorted)? We designed an algorithm that solves this problem with high probability after reading only about log(n) numbers. This algorithm is exponentially faster in n than reading the entire list.\n\nThis project provided similarly efficient erasure-resilient algorithms for many problems and developed ways of thinking about dealing with erasures in the input. It demonstrated that there are problems, which can be solved without erasures very efficiently, but require reading the entire input in the presence of erasures. It also showed that there are problems that can be solved very efficiently in the presence of erasures, but require reading a large fraction of the input in the presence of errors in the input. These separations were obtained via in a novel connection between erasure-resilient algorithms and error-correcting codes and lead to new results in that area.\n\nThe conducted research addresses challenges of big data from the perspective of algorithmic foundations. It has the potential to change how real-valued data is processed and analyzed. Four graduate students participated in this project and received support from the award. The investigator provided training and mentoring to these students and initiated many educational activities aimed at middle school students, especially targeting increasing participation of women in computer science and mathematics.\n\n \n\n\t\t\t\t\tLast Modified: 06/26/2019\n\n\t\t\t\t\tSubmitted by: Sofya Raskhodnikova"
+ }
+}

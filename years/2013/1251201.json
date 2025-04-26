@@ -1,0 +1,105 @@
+{
+ "awd_id": "1251201",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "BIGDATA: Small: DCM: Open Flow Enabled Hadoop over Local and Wide  Area Clusters",
+ "cfda_num": "47.070",
+ "org_code": "05090000",
+ "po_phone": "7032922247",
+ "po_email": "rchadduc@nsf.gov",
+ "po_sign_block_name": "Robert Chadduck",
+ "awd_eff_date": "2013-06-01",
+ "awd_exp_date": "2017-05-31",
+ "tot_intn_awd_amt": 749806.0,
+ "awd_amount": 749806.0,
+ "awd_min_amd_letter_date": "2013-06-07",
+ "awd_max_amd_letter_date": "2013-06-07",
+ "awd_abstract_narration": "BigData: Small: DCM: Open Flow Enabled Hadoop over Local and Wide Area Clusters\r\nRobert L. Grossman\r\nUniversity of Chicago\r\n\r\nIn the recent years, data intensive programming using Hadoop and MapReduce has become more and more important.  As normally deployed, Hadoop's implementation of MapReduce in a multi-rack cluster is dependent upon the top of the rack switches and of the aggregator switches connecting multiple racks.  To use Hadoop effectively at scale across many racks requires expensive network switches and routers that are complex to configure and to maintain.\r\n\r\nSoftware defined networks using OpenFlow have proven in many cases to offer good performance at lower cost and to be simpler to manage.  The first goal of this proposal is to contribute to the development of a new version of Hadoop called Hadoop-OFP.  The basic idea of Hadoop-OFP is to integrate OpenFlow enabled switches with Hadoop: to i) improve performance; ii) lower the cost of the hardware required; and iii) simplify the management of the cluster.  \r\n\r\nLarge data flows are also a critical component of data intensive computing.  Unfortunately, setting up networks to manage large data flows can be challenging.  A second goal of this proposal is to develop a tool that can configure OpenFlow enabled networks to handle more efficiently the large data flows that arise with data intensive computing.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "OAC",
+ "org_div_long_name": "Office of Advanced Cyberinfrastructure (OAC)",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Robert",
+   "pi_last_name": "Grossman",
+   "pi_mid_init": "L",
+   "pi_sufx_name": "",
+   "pi_full_name": "Robert L Grossman",
+   "pi_email_addr": "rgrossman1@uchicago.edu",
+   "nsf_id": "000278293",
+   "pi_start_date": "2013-06-07",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Chicago",
+  "inst_street_address": "5801 S ELLIS AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "CHICAGO",
+  "inst_state_code": "IL",
+  "inst_state_name": "Illinois",
+  "inst_phone_num": "7737028669",
+  "inst_zip_code": "606375418",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "IL01",
+  "org_lgl_bus_name": "UNIVERSITY OF CHICAGO",
+  "org_prnt_uei_num": "ZUE9HKT2CLC9",
+  "org_uei_num": "ZUE9HKT2CLC9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Chicago",
+  "perf_str_addr": "5801 South Ellis Avenue",
+  "perf_city_name": "Chicago",
+  "perf_st_code": "IL",
+  "perf_st_name": "Illinois",
+  "perf_zip_code": "606375418",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "01",
+  "perf_st_cong_dist": "IL01",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "770100",
+   "pgm_ele_name": "DATA INTEROPERABILITY NETWORKS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "8083",
+   "pgm_ref_txt": "Big Data Science &Engineering"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 749806.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Although scientists are producing more and more data, making discoveries from this data grows harder each year as the amount of data grows and as it becomes scattered among more and more repositories.&nbsp; One of the approaches for addressing this problem is a data commons. A data commons co-locates data, storage and computing infrastructure with commonly used software tools, services and applications for managing, integrating, analyzing and sharing data to create an open interoperable resource for a scientific research community.&nbsp; Data commons may be developed using a variety of software frameworks, including Hadoop, Spark and using the software services available from cloud computing platforms.</p>\n<p>In practice, the performance of a data commons is often limited by the network.&nbsp; One way to improve the performance of a network supporting a data commons is to use traffic engineering. By traffic engineering (or traffic management), we mean optimizing the performance of a network by dynamically analyzing, predicting and regulating the behavior of data transmitted over the network.&nbsp; For example, we can regulate behavior using network devices, such as switches or routers, by dynamically changing the internal configurations of the device based upon our predictions.&nbsp;One technology that provides this capability is software defined networking (SDN).</p>\n<p>In this project, we designed and developed software and performed experimental studies to examine two questions:</p>\n<p>Question 1. Can software defined networks be used to reduce network bottlenecks so as to improve the performance of Hadoop and related frameworks supporting data commons operating within a data center?</p>\n<p>Question 2. Can software defined networks be used to support data commons over wide area networks connecting two or more data centers?</p>\n<p>When multiple researchers use a data commons for data intensive computing, they compete for the fixed bandwidth available on the network supporting the data commons.&nbsp; For example, multiple users may be downloading large files or accessing and analyzing large datasets. This is an example of user contention. One standard approach is to assign different jobs different priorities.&nbsp; The priorities can be assigned in a number of different ways.&nbsp; &nbsp;From our experimental studies involving user contention in a data commons supporting software defined networking, we found in certain cases we could use traffic management to reduce the time to finish high priority downloads or data accesses by approximately 60%, while only degrading lower priority jobs by approximately 2%.</p>\n<p>An important practical problem when using Hadoop-based data commons is importing new data into the data commons.&nbsp; From our experimental studies involving the Hadoop-based data commons, we found in certain cases we could use traffic management to reduce the time needed to import data into the Hadoop Distributed File System (HDFS) by approximately 50% while other applications continued as usual.&nbsp;</p>\n<p>These two results address Question 1 in part.</p>\n<p>We also explored using software defined networks to support data intensive computing over geographically distributed data.&nbsp;&nbsp; In particular a SDN exchange point or SDX is a software application that can be deployed at Internet exchange points to provide SDN abstractions to those services and applications that use the exchange point.&nbsp;&nbsp; In this project, we performed experimental studies where a data commons accesses geographically distributed data using a SDX.&nbsp; We found using a SDX simplified the process of setting up, monitoring and tearing down wide area high performance application specific optical network paths (or lambdas) connecting data centers from multiple network domains to a data commons.&nbsp; &nbsp;This activity addresses Question 3 in part.</p>\n<p>Data commons are emerging as an important component of cyberinfrastructure supporting data science.&nbsp; To summarize, in this project, we showed that software defined networking looks like a promising technology for improving the performance of data commons.</p>\n<p>During the project, we trained two post-doctoral fellows and provided a research experience for an undergraduate.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 08/30/2017<br>\n\t\t\t\t\tModified by: Robert&nbsp;L&nbsp;Grossman</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nAlthough scientists are producing more and more data, making discoveries from this data grows harder each year as the amount of data grows and as it becomes scattered among more and more repositories.  One of the approaches for addressing this problem is a data commons. A data commons co-locates data, storage and computing infrastructure with commonly used software tools, services and applications for managing, integrating, analyzing and sharing data to create an open interoperable resource for a scientific research community.  Data commons may be developed using a variety of software frameworks, including Hadoop, Spark and using the software services available from cloud computing platforms.\n\nIn practice, the performance of a data commons is often limited by the network.  One way to improve the performance of a network supporting a data commons is to use traffic engineering. By traffic engineering (or traffic management), we mean optimizing the performance of a network by dynamically analyzing, predicting and regulating the behavior of data transmitted over the network.  For example, we can regulate behavior using network devices, such as switches or routers, by dynamically changing the internal configurations of the device based upon our predictions. One technology that provides this capability is software defined networking (SDN).\n\nIn this project, we designed and developed software and performed experimental studies to examine two questions:\n\nQuestion 1. Can software defined networks be used to reduce network bottlenecks so as to improve the performance of Hadoop and related frameworks supporting data commons operating within a data center?\n\nQuestion 2. Can software defined networks be used to support data commons over wide area networks connecting two or more data centers?\n\nWhen multiple researchers use a data commons for data intensive computing, they compete for the fixed bandwidth available on the network supporting the data commons.  For example, multiple users may be downloading large files or accessing and analyzing large datasets. This is an example of user contention. One standard approach is to assign different jobs different priorities.  The priorities can be assigned in a number of different ways.   From our experimental studies involving user contention in a data commons supporting software defined networking, we found in certain cases we could use traffic management to reduce the time to finish high priority downloads or data accesses by approximately 60%, while only degrading lower priority jobs by approximately 2%.\n\nAn important practical problem when using Hadoop-based data commons is importing new data into the data commons.  From our experimental studies involving the Hadoop-based data commons, we found in certain cases we could use traffic management to reduce the time needed to import data into the Hadoop Distributed File System (HDFS) by approximately 50% while other applications continued as usual. \n\nThese two results address Question 1 in part.\n\nWe also explored using software defined networks to support data intensive computing over geographically distributed data.   In particular a SDN exchange point or SDX is a software application that can be deployed at Internet exchange points to provide SDN abstractions to those services and applications that use the exchange point.   In this project, we performed experimental studies where a data commons accesses geographically distributed data using a SDX.  We found using a SDX simplified the process of setting up, monitoring and tearing down wide area high performance application specific optical network paths (or lambdas) connecting data centers from multiple network domains to a data commons.   This activity addresses Question 3 in part.\n\nData commons are emerging as an important component of cyberinfrastructure supporting data science.  To summarize, in this project, we showed that software defined networking looks like a promising technology for improving the performance of data commons.\n\nDuring the project, we trained two post-doctoral fellows and provided a research experience for an undergraduate.\n\n\t\t\t\t\tLast Modified: 08/30/2017\n\n\t\t\t\t\tSubmitted by: Robert L Grossman"
+ }
+}

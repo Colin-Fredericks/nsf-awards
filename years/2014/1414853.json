@@ -1,0 +1,117 @@
+{
+ "awd_id": "1414853",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Fellowship Award",
+ "awd_titl_txt": "EAPSI: Transitioning between solutions in computational problems",
+ "cfda_num": "47.079",
+ "org_code": "01090000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Anne Emig",
+ "awd_eff_date": "2014-06-01",
+ "awd_exp_date": "2015-05-31",
+ "tot_intn_awd_amt": 5070.0,
+ "awd_amount": 5070.0,
+ "awd_min_amd_letter_date": "2014-05-29",
+ "awd_max_amd_letter_date": "2014-05-29",
+ "awd_abstract_narration": "Problems as diverse as jaguar conservation, power grid management, Internet backbone routing, and pen-and-paper puzzles can be abstracted and mathematically formulated as computational 'reconfiguration problems'. As a concrete example, consider establishing patrols for art gallery guards such that all the art is always being observed and the guards transition between two desired configurations. Techniques from theoretical computer science have been applied to determine efficient ways to solve broad classes of these types of problems and demonstrate that, in many instances, they cannot be solved efficiently. This project aims to develop efficient algorithms for constrained cases that still have potential real-world applicability. This research will be conducted in collaboration with Professor Ryuhei Uehara, a world expert on reconfiguration problems, at the Japan Advanced Institute of Science and Technology.\r\n\r\nSliding Token is a well studied reconfiguration problem in which an instance is a graph and two independent sets of the same size on that graph, and one is tasked with deciding if there is a sequence of independent sets, each differing from the next by removing one vertex and replacing it with a neighbor. Sliding Token is PSPACE-complete on perfect graphs but was recently shown be efficiently decidable for proper interval graphs, trivially perfect graphs, and caterpillars. This research will focus on finding efficient algorithms or hardness proofs for Sliding Token and similar reconfiguration problems on trees, chordal graphs, interval graphs, and similar very structured graph families. Progress on this line of research will hopefully lead to a characterization of the graph properties that tend to make reconfiguration problems intractable. This NSF EAPSI award is funded in collaboration with the Japan Society for the Promotion of Science.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "O/D",
+ "org_dir_long_name": "Office Of The Director",
+ "div_abbr": "OISE",
+ "org_div_long_name": "Office of International Science and Engineering",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Eli",
+   "pi_last_name": "Fox-Epstein",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Eli Fox-Epstein",
+   "pi_email_addr": "",
+   "nsf_id": "000659817",
+   "pi_start_date": "2014-05-29",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Fox-Epstein             Eli",
+  "inst_street_address": "",
+  "inst_street_address_2": "",
+  "inst_city_name": "Providence",
+  "inst_state_code": "RI",
+  "inst_state_name": "Rhode Island",
+  "inst_phone_num": "",
+  "inst_zip_code": "029063802",
+  "inst_country_name": "United States",
+  "cong_dist_code": "01",
+  "st_cong_dist_code": "RI01",
+  "org_lgl_bus_name": "",
+  "org_prnt_uei_num": "",
+  "org_uei_num": ""
+ },
+ "perf_inst": {
+  "perf_inst_name": "Japan Advanced Institute of Science and Technology",
+  "perf_str_addr": null,
+  "perf_city_name": "Nomi",
+  "perf_st_code": "",
+  "perf_st_name": "RI REQUIRED",
+  "perf_zip_code": "",
+  "perf_ctry_code": "JA",
+  "perf_cong_dist": "",
+  "perf_st_cong_dist": "",
+  "perf_ctry_name": "Japan",
+  "perf_ctry_flag": "0"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "731600",
+   "pgm_ele_name": "EAPSI"
+  },
+  {
+   "pgm_ele_code": "915000",
+   "pgm_ele_name": "EPSCoR Co-Funding"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "5921",
+   "pgm_ref_txt": "JAPAN"
+  },
+  {
+   "pgm_ref_code": "5978",
+   "pgm_ref_txt": "EAST ASIA AND PACIFIC PROGRAM"
+  },
+  {
+   "pgm_ref_code": "7316",
+   "pgm_ref_txt": "EAPSI"
+  },
+  {
+   "pgm_ref_code": "9150",
+   "pgm_ref_txt": "EXP PROG TO STIM COMP RES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 5070.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>Combinatorial Reconfiguration is a relatively new area of theoretical computer science that studies the transition between specific solutions to a problem given certain constraints.</p>\n<p>As a contrived example, imagine one has deployed a number of robotic sensors in some configuration. One wishes to relocate some sensors to form a different configuration but does not want to disrupt the sensors' operation. One can move one sensor at a time, and due to the nature of the sensors, if any two of them get too close together, their operation is disrupted. Can one actually accomplish the reconfiguration goal?</p>\n<p>This project studied a formalization of this example called Sliding Token. Understanding simple problems like this is necessary to develop powerful techniques required to solve more realistic reconfiguration problems.</p>\n<p>As even Sliding Token is computationally intractable in the general case, we studied the problem on highly structured, restricted instances. We found very efficient algorithms on some of these structured instances and developed some general techniques that will hopefully continue to lead to algorithms on more general instances.</p>\n<p>The field of combinatorial reconfiguration grows in size and importance, the impact of this project will become more clear. As of now, work during this award has produced a paper, several manuscripts in or near submission, and several conference talks. As demonstrated by the attendence at the recent CoRe2015 (the first workshop on combinatorial reconfiguration), the field is international and highly collaborative. This award has already sparked collaboration spanning four nations.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 03/01/2015<br>\n\t\t\t\t\tModified by: Eli&nbsp;Fox-Epstein</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nCombinatorial Reconfiguration is a relatively new area of theoretical computer science that studies the transition between specific solutions to a problem given certain constraints.\n\nAs a contrived example, imagine one has deployed a number of robotic sensors in some configuration. One wishes to relocate some sensors to form a different configuration but does not want to disrupt the sensors' operation. One can move one sensor at a time, and due to the nature of the sensors, if any two of them get too close together, their operation is disrupted. Can one actually accomplish the reconfiguration goal?\n\nThis project studied a formalization of this example called Sliding Token. Understanding simple problems like this is necessary to develop powerful techniques required to solve more realistic reconfiguration problems.\n\nAs even Sliding Token is computationally intractable in the general case, we studied the problem on highly structured, restricted instances. We found very efficient algorithms on some of these structured instances and developed some general techniques that will hopefully continue to lead to algorithms on more general instances.\n\nThe field of combinatorial reconfiguration grows in size and importance, the impact of this project will become more clear. As of now, work during this award has produced a paper, several manuscripts in or near submission, and several conference talks. As demonstrated by the attendence at the recent CoRe2015 (the first workshop on combinatorial reconfiguration), the field is international and highly collaborative. This award has already sparked collaboration spanning four nations.\n\n\t\t\t\t\tLast Modified: 03/01/2015\n\n\t\t\t\t\tSubmitted by: Eli Fox-Epstein"
+ }
+}

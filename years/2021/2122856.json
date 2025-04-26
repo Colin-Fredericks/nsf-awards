@@ -1,0 +1,109 @@
+{
+ "awd_id": "2122856",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Mechanics-Based Algorithms for Sampling, Control, and Learning in Non-Convex Domains",
+ "cfda_num": "47.041",
+ "org_code": "07030000",
+ "po_phone": "7032922576",
+ "po_email": "mcanova@nsf.gov",
+ "po_sign_block_name": "Marcello Canova",
+ "awd_eff_date": "2021-09-01",
+ "awd_exp_date": "2024-08-31",
+ "tot_intn_awd_amt": 335337.0,
+ "awd_amount": 335337.0,
+ "awd_min_amd_letter_date": "2021-07-26",
+ "awd_max_amd_letter_date": "2021-07-26",
+ "awd_abstract_narration": "This grant will fund research that enables smart devices to adapt automatically to novel situations, with reliable guarantees of safe and efficient behavior, thereby promoting the progress of science and advancing the national prosperity and health. In the near future, a large portion of the population will rely on devices such as self-driving cars and smart medical implants that make safety-critical decisions without human intervention. In these devices, it is not possible for engineers to manually prescribe all the behaviors that will arise during operation. A self-driving car must steer reliably in unfamiliar road conditions. A neural stimulator for seizure suppression must be personalized to the individual patient.  To enable deployment of highly autonomous smart devices on a large scale, these devices must be able to learn appropriate behaviors by themselves. Currently, most learning algorithms for real-world automated systems lack provable guarantees for safety and performance. The methods devised in this project will overcome this limitation, benefitting applications in transportation, healthcare, and home automation. The development of remotely controllable physical experiments will help make principles of control and automated learning accessible to high school and undergraduate students.\r\n\r\nThis research aims to make fundamental contributions to the development of a model-based reinforcement learning methodology that guarantees stability and near-optimal performance for a wide class of unknown nonlinear stochastic systems. It achieves this outcome by addressing two unresolved challenges for existing learning methods: 1) a lack of provable guarantees for convergence to desired probability distributions and to global optima of the corresponding non-convex optimization problems, and 2) the lack of stability guarantees or need for initial stabilizing controllers. The research will leverage new insights on non-smooth stochastic processes to quantitatively bound convergence of solutions around global optima for a collection of algorithms derived from mechanics. Stabilizing controllers for nonlinear stochastic systems will be obtained by a novel variation on the policy iteration method, without requiring an initial stabilizing controller. The work will contribute to a rigorous understanding of algorithms for sampling, optimization, and learning for non-convex losses in non-convex domains, as well as methods of control policy evaluation, stability verification, and optimization.\r\n\r\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "ENG",
+ "org_dir_long_name": "Directorate for Engineering",
+ "div_abbr": "CMMI",
+ "org_div_long_name": "Division of Civil, Mechanical, and Manufacturing Innovation",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Andrew",
+   "pi_last_name": "Lamperski",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Andrew Lamperski",
+   "pi_email_addr": "alampers@umn.edu",
+   "nsf_id": "000690426",
+   "pi_start_date": "2021-07-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Minnesota-Twin Cities",
+  "inst_street_address": "2221 UNIVERSITY AVE SE STE 100",
+  "inst_street_address_2": "",
+  "inst_city_name": "MINNEAPOLIS",
+  "inst_state_code": "MN",
+  "inst_state_name": "Minnesota",
+  "inst_phone_num": "6126245599",
+  "inst_zip_code": "554143074",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MN05",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF MINNESOTA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "KABJZBBJ4B54"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Minnesota-Twin Cities",
+  "perf_str_addr": "200 Union Street SE, Keller Hall",
+  "perf_city_name": "Minneapolis",
+  "perf_st_code": "MN",
+  "perf_st_name": "Minnesota",
+  "perf_zip_code": "554550170",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MN05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "756900",
+   "pgm_ele_name": "Dynamics, Control and System D"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "030E",
+   "pgm_ref_txt": "CONTROL SYSTEMS"
+  },
+  {
+   "pgm_ref_code": "034E",
+   "pgm_ref_txt": "Dynamical systems"
+  },
+  {
+   "pgm_ref_code": "8024",
+   "pgm_ref_txt": "Complex Systems"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0121",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01002122DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2021,
+   "fund_oblg_amt": 335337.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><strong>Intellectual Merit</strong></p>\r\n<p><span style=\"text-decoration: underline;\">Convergence Constrained Langevin Algorithms</span>: Langevin algorithms simulate particle motion in a potential energy landscape subject to random forces and dissipation. They are used in optimization, machine learning, and probabilistic sampling. For optimization and machine learning applications, they can escape from undesirable local minima, which can trap more traditional algorithms, such as gradient descent.&nbsp;</p>\r\n<p>A major outcome of this project has been a method to analyze Langevin algorithms with constraints. Constraints are widely used in optimization algorithms and naturally arise in probabilistic sampling. This project gave the first quantitative convergence guarantees for Langevin algorithms with constraints and potential energy landscapes with multiple local minima.</p>\r\n<p><span style=\"text-decoration: underline;\">Neural Network Theory</span>: A goal of the project was to utilize mechanics-based algorithms for reinforcement learning. Reinforcement learning is used for training systems such as self-driving cars and large language models, and often utilizes neural networks.</p>\r\n<p>To bridge the gap between mechanics-based algorithms and neural networks, we showed that a simple randomized algorithm can be utilized to approximate smooth functions with neural networks arbitrarily well. This result, in turn, enables rigorous justification of several common uses of neural networks in reinforcement learning and control.&nbsp;</p>\r\n<p><span style=\"text-decoration: underline;\">Spectral Analysis of Time Series Data</span>: While analyzing Langevin algorithms for applications to time series data, we devised analytic tools that are applicable more broadly. Using these methods, we derived the first non-asymptotic (i.e. finite data) error bounds on some widely used spectral estimation methods. Spectral estimation is a common task for analyzing data from acoustics and neuroscience.&nbsp;</p>\r\n<p><strong>Broader Impact</strong></p>\r\n<p><span style=\"text-decoration: underline;\">Education and Training: </span>This project supported the mentorship of three PhD students. Two have graduated and obtained full-time jobs in the aerospace and robotics industries, respectively, while the third is anticipated to graduate soon. All students received training in scientific research, writing, and presentation.&nbsp;</p>\r\n<p><span style=\"text-decoration: underline;\">Outreach</span>: During the summers, we conducted Python programming tutorials attended by diverse groups of high school students. These tutorials gave hands-on experience with concepts ranging from programming fundamentals to techniques from artificial intelligence, robotics, and control systems.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;\">\r\n<p><strong>Intellectual Merit</strong></p>\r\n<p><span style=\"text-decoration: underline;\">Convergence Constrained Langevin Algorithms</span>: Langevin algorithms simulate the movement of particles in a potential energy landscape subject to random forces and viscous dissipation. They have been adapted for the use in optimization, machine learning, and probabilistic sampling. For optimization and machine learning applications, in particular, they have been shown to escape from undesirable local minima, which can trap more traditional algorithms, such as gradient descent.&nbsp;</p>\r\n<p>One of the major outcomes of this project has been a methodology to analyze Langevin algorithms with constraints. These constraints simulate the effect of the particles bouncing off walls. Constraints are widely used in optimization algorithms, but prior to the work in this project, Langevin algorithms with non-convex losses (e.g. potential energy functions with multiple local minima) had not been analyzed. We give quantitative bounds on the convergence to global minima for optimization and learning, and bounds on distance from desired distributions for probabilistic sampling. For machine learning applications, we prove the convergence bounds in the presence of external data, including data that can have dependencies over time, which is typical for time series data from diverse areas such as neuroscience, weather, and economics.&nbsp;</p>\r\n<p><span style=\"text-decoration: underline;\">Algorithmic Approximation Theory for Neural Networks</span>: A goal of the project was to utilize Langevin algorithms, and related mechanics-based algorithms for applications in reinforcement learning and control, where the algorithm improves its decision-making capabilities over time based on experience. Reinforcement learning is used for training systems such as self-driving cars and large language models. The reinforcement learning algorithms, in turn, are typically built upon neural networks.</p>\r\n<p>To bridge the gap between Langevin methods and neural networks, we solved several problems in neural network theory. In particular, we showed that a simple randomized algorithm can be utilized to approximate smooth functions with neural networks arbitrarily well. This result, in turn, enables rigorous justification of several common uses of neural networks in reinforcement learning and control.&nbsp;</p>\r\n<p><span style=\"text-decoration: underline;\">Spectral Analysis of Time Series Data</span>: In the process of analyzing Langevin algorithms for applications to time series data, we devised analytic tools that are applicable for time series analysis beyond Langevin methods. These methods, in particular, enabled new error bounds of several common spectral estimation methods. Spectral estimation is a common task for analyzing data from acoustics, vibrations, and neuroscience. Despite their wide use, most analytic methods focus on the limiting case of an infinite amount of data. Work in this project gave the first non-asymptotic (i.e. for finite data) error bounds for some common spectral estimation algorithms.&nbsp;</p>\r\n<p><strong>Broader Impact</strong></p>\r\n<p><span style=\"text-decoration: underline;\">Rigorous Justification for Common Algorithms</span>: Several of the results in this project enable the first rigorous guarantees of the performance of commonly used algorithms. These algorithms have potential applications in wide areas from medicine to robotics. However, often, the lack of rigorous justification can limit their deployment.&nbsp;</p>\r\n<p><span style=\"text-decoration: underline;\">Education, Training, and Outreach</span>:</p>\r\n</div><br>\n<p>\n Last Modified: 01/16/2025<br>\nModified by: Andrew&nbsp;Lamperski</p></div>\n<div class=\"porSideCol\"\n><div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls onePhoto\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2025/2122856/2122856_10753297_1736807302677_reflection_final--rgov-214x142.png\" original=\"/por/images/Reports/POR/2025/2122856/2122856_10753297_1736807302677_reflection_final--rgov-800width.png\" title=\"Escaping Local Minima\"><img src=\"/por/images/Reports/POR/2025/2122856/2122856_10753297_1736807302677_reflection_final--rgov-66x44.png\" alt=\"Escaping Local Minima\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Trajectories of the constrained Langevin algorithm escape from the high-energy local minimum and travel to the global minimum, while reflecting off the boundary.</div>\n<div class=\"imageCredit\">Andrew Lamperski</div>\n<div class=\"imagePermisssions\">Royalty-free (unrestricted use)</div>\n<div class=\"imageSubmitted\">Andrew&nbsp;Lamperski\n<div class=\"imageTitle\">Escaping Local Minima</div>\n</div>\n</li><li>\n<a href=\"/por/images/Reports/POR/2025/2122856/2122856_10753297_1736893913510_importanceTest--rgov-214x142.png\" original=\"/por/images/Reports/POR/2025/2122856/2122856_10753297_1736893913510_importanceTest--rgov-800width.png\" title=\"Neural Network Approximations\"><img src=\"/por/images/Reports/POR/2025/2122856/2122856_10753297_1736893913510_importanceTest--rgov-66x44.png\" alt=\"Neural Network Approximations\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">We proved that smooth functions can be approximated to arbitrary with neural networks accuracy using a simple randomized algorithm.</div>\n<div class=\"imageCredit\">Andrew Lamperski</div>\n<div class=\"imagePermisssions\">Royalty-free (unrestricted use)</div>\n<div class=\"imageSubmitted\">Andrew&nbsp;Lamperski\n<div class=\"imageTitle\">Neural Network Approximations</div>\n</div>\n</li></ul>\n</div>\n</div></div>\n</div>\n",
+  "por_txt_cntn": "\n\nIntellectual Merit\r\n\n\nConvergence Constrained Langevin Algorithms: Langevin algorithms simulate particle motion in a potential energy landscape subject to random forces and dissipation. They are used in optimization, machine learning, and probabilistic sampling. For optimization and machine learning applications, they can escape from undesirable local minima, which can trap more traditional algorithms, such as gradient descent.\r\n\n\nA major outcome of this project has been a method to analyze Langevin algorithms with constraints. Constraints are widely used in optimization algorithms and naturally arise in probabilistic sampling. This project gave the first quantitative convergence guarantees for Langevin algorithms with constraints and potential energy landscapes with multiple local minima.\r\n\n\nNeural Network Theory: A goal of the project was to utilize mechanics-based algorithms for reinforcement learning. Reinforcement learning is used for training systems such as self-driving cars and large language models, and often utilizes neural networks.\r\n\n\nTo bridge the gap between mechanics-based algorithms and neural networks, we showed that a simple randomized algorithm can be utilized to approximate smooth functions with neural networks arbitrarily well. This result, in turn, enables rigorous justification of several common uses of neural networks in reinforcement learning and control.\r\n\n\nSpectral Analysis of Time Series Data: While analyzing Langevin algorithms for applications to time series data, we devised analytic tools that are applicable more broadly. Using these methods, we derived the first non-asymptotic (i.e. finite data) error bounds on some widely used spectral estimation methods. Spectral estimation is a common task for analyzing data from acoustics and neuroscience.\r\n\n\nBroader Impact\r\n\n\nEducation and Training: This project supported the mentorship of three PhD students. Two have graduated and obtained full-time jobs in the aerospace and robotics industries, respectively, while the third is anticipated to graduate soon. All students received training in scientific research, writing, and presentation.\r\n\n\nOutreach: During the summers, we conducted Python programming tutorials attended by diverse groups of high school students. These tutorials gave hands-on experience with concepts ranging from programming fundamentals to techniques from artificial intelligence, robotics, and control systems.\r\n\n\n\r\n\r\n\n\nIntellectual Merit\r\n\n\nConvergence Constrained Langevin Algorithms: Langevin algorithms simulate the movement of particles in a potential energy landscape subject to random forces and viscous dissipation. They have been adapted for the use in optimization, machine learning, and probabilistic sampling. For optimization and machine learning applications, in particular, they have been shown to escape from undesirable local minima, which can trap more traditional algorithms, such as gradient descent.\r\n\n\nOne of the major outcomes of this project has been a methodology to analyze Langevin algorithms with constraints. These constraints simulate the effect of the particles bouncing off walls. Constraints are widely used in optimization algorithms, but prior to the work in this project, Langevin algorithms with non-convex losses (e.g. potential energy functions with multiple local minima) had not been analyzed. We give quantitative bounds on the convergence to global minima for optimization and learning, and bounds on distance from desired distributions for probabilistic sampling. For machine learning applications, we prove the convergence bounds in the presence of external data, including data that can have dependencies over time, which is typical for time series data from diverse areas such as neuroscience, weather, and economics.\r\n\n\nAlgorithmic Approximation Theory for Neural Networks: A goal of the project was to utilize Langevin algorithms, and related mechanics-based algorithms for applications in reinforcement learning and control, where the algorithm improves its decision-making capabilities over time based on experience. Reinforcement learning is used for training systems such as self-driving cars and large language models. The reinforcement learning algorithms, in turn, are typically built upon neural networks.\r\n\n\nTo bridge the gap between Langevin methods and neural networks, we solved several problems in neural network theory. In particular, we showed that a simple randomized algorithm can be utilized to approximate smooth functions with neural networks arbitrarily well. This result, in turn, enables rigorous justification of several common uses of neural networks in reinforcement learning and control.\r\n\n\nSpectral Analysis of Time Series Data: In the process of analyzing Langevin algorithms for applications to time series data, we devised analytic tools that are applicable for time series analysis beyond Langevin methods. These methods, in particular, enabled new error bounds of several common spectral estimation methods. Spectral estimation is a common task for analyzing data from acoustics, vibrations, and neuroscience. Despite their wide use, most analytic methods focus on the limiting case of an infinite amount of data. Work in this project gave the first non-asymptotic (i.e. for finite data) error bounds for some common spectral estimation algorithms.\r\n\n\nBroader Impact\r\n\n\nRigorous Justification for Common Algorithms: Several of the results in this project enable the first rigorous guarantees of the performance of commonly used algorithms. These algorithms have potential applications in wide areas from medicine to robotics. However, often, the lack of rigorous justification can limit their deployment.\r\n\n\nEducation, Training, and Outreach:\r\n\t\t\t\t\tLast Modified: 01/16/2025\n\n\t\t\t\t\tSubmitted by: AndrewLamperski\n"
+ }
+}

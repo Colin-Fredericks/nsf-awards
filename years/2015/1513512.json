@@ -1,0 +1,125 @@
+{
+ "awd_id": "1513512",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "III: Medium: Collaborative Research: Algorithms and Cyberinfrastructure for High-Precision Automated Quality Control of Hydro-Meteo Sensor Networks",
+ "cfda_num": "47.070",
+ "org_code": "05020000",
+ "po_phone": "7032927347",
+ "po_email": "sspengle@nsf.gov",
+ "po_sign_block_name": "Sylvia Spengler",
+ "awd_eff_date": "2015-09-01",
+ "awd_exp_date": "2019-08-31",
+ "tot_intn_awd_amt": 363471.0,
+ "awd_amount": 363471.0,
+ "awd_min_amd_letter_date": "2015-08-21",
+ "awd_max_amd_letter_date": "2016-09-22",
+ "awd_abstract_narration": "Advances in sensor technology are greatly expanding the range of quantities that can be measured while simultaneously reducing the cost. However, deployed sensors drift out of calibration and fail, so every sensor network requires quality control (QC) procedures to promptly detect these failures. Existing QC methods rely on human experts to carefully examine the data, which means that when the number of sensors in a network doubles, the number of experts must double too. This project will develop algorithms and software to increase the level of automation in sensor QC so that a smaller number of experts can manage a much larger network of sensors. The methods will be tested on weather data from Oklahoma (the Oklahoma Mesonet), Oregon (the Andrews Long-Term Ecological Network site), the US (the Earth Networks \"WeatherBug\" network), and sub-Saharan Africa (the TAHMO project), and if the methods are found to work well, they will be deployed in these networks at at the CUAHSI Water Data Center. Accurate weather data could significantly increase the productivity of farms and improve food security, particularly in Africa.\r\n\r\nThe project will develop an open-source standards-compliant system, SENSOR-DX, that implements automated data QC. Existing probabilistic QC methods assume that correct sensor readings are jointly Gaussian and readings from broken sensors obey a uniform distribution. These assumptions lead to many QC mistakes. This project will develop a new approach in which novel nonparametric anomaly detection algorithms analyze the sensor data. Correct sensor readings have low anomaly scores, while broken sensor readings have high scores; both follow parametric distributions. Probabilistic methods can therefore model the distribution of the resulting anomaly scores instead of the joint distribution of the original sensor readings and infer (probabilistically) whether each sensor is working correctly.  To enhance the fault-detection capability of the anomaly detection algorithms, the raw sensor data will be detrended and assembled into multiple views that highlight various correlations among sensor values. The project will develop a novel View-Anomaly-Diagnosis (VAD) framework in which anomaly detection algorithms are applied to the tuples in each view, and then the anomaly scores are combined via a probabilistic diagnostic model to infer which sensors are broken and which are functioning correctly. The project will study how good the detrending models need to be in order to enhance the accuracy of anomaly detection. The new anomaly detection algorithms are based on a new anomaly detection principle: \"anomaly detection by overfitting\". Existing methods fit a statistical model to \"normal\" behavior and then identify data points that do not fit well (\"are underfit\") and mark them as anomalies. The new principle measures how easy it is to \"overfit\" a statistical model that separates candidate anomalies from the rest of the data. The project will develop new algorithms based on this principle and understand how they relate to existing methods of anomaly detection by underfitting.  The VAD framework will be implemented in the SENSOR-DX system: a series of Kepler workflows that provide support for connecting a new sensor network, training the detrending and anomaly detection models, performing real-time anomaly detection, and repairing bad sensor readings using predictive models. SENSOR-DX will also support semantic matching of new sensor data streams by extending the EnvThs controlled vocabulary thesaurus.\r\n\r\nFor further information see the project web site at http://tahmo.org/sensor-dx",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "IIS",
+ "org_div_long_name": "Division of Information & Intelligent Systems",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Michael",
+   "pi_last_name": "Piasecki",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Michael Piasecki",
+   "pi_email_addr": "mpiasecki@ccny.cuny.edu",
+   "nsf_id": "000321434",
+   "pi_start_date": "2015-08-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "CUNY City College",
+  "inst_street_address": "160 CONVENT AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2126505418",
+  "inst_zip_code": "100319101",
+  "inst_country_name": "United States",
+  "cong_dist_code": "13",
+  "st_cong_dist_code": "NY13",
+  "org_lgl_bus_name": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "L952KGDMSLV5"
+ },
+ "perf_inst": {
+  "perf_inst_name": "CUNY City College",
+  "perf_str_addr": "160 Convent Avenue",
+  "perf_city_name": "New York City",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100319101",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "13",
+  "perf_st_cong_dist": "NY13",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "723100",
+   "pgm_ele_name": "CYBERINFRASTRUCTURE"
+  },
+  {
+   "pgm_ele_code": "736400",
+   "pgm_ele_name": "Info Integration & Informatics"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7231",
+   "pgm_ref_txt": "CYBERINFRASTRUCTURE"
+  },
+  {
+   "pgm_ref_code": "7364",
+   "pgm_ref_txt": "INFO INTEGRATION & INFORMATICS"
+  },
+  {
+   "pgm_ref_code": "7924",
+   "pgm_ref_txt": "MEDIUM PROJECT"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0116",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001617DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 117978.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2016,
+   "fund_oblg_amt": 245493.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This collaborative project with partners at Oregon State University set out to develop an automated Hydro Meteorological&nbsp;Data quality system based on statistical approaches rather than deterministic. While Oregon State University took the lead working on the QA concepts, The City of New York task was to implement a software framework, named SensorDX, in which these new concepts could be deployed together with supporting systems such as ticketing and time series visualization. Another objective was to package the system and make it available for download and inclusion to other hydro climate networks deployed elsewhere.</p>\n<p>Besides the QA assessment component, the system consists of components to aid data network managers in not only identifying ?bad? data and flagging it, but also triggering maintenance action, for example to send technicians out into the field to clean, repair, or swap out sensors. To aid in making decisions for maintenance the system features a Dashboard (with amp support from <a href=\"https://openstreetmap.org/\">https://OpenStreetMap.org</a>) and a Ticketing System that allows managers to track issues and also a Visualization Subsystem for the time series data to better identify faulty data. It accepts various forms of documentation such as a written report and images taken at a station that can be attached to tickets so technicians and managers can make an educated decision on what to do with a problematic station.</p>\n<p>The system is currently deployed within the Trans-African HydroMeteorological Observatory (TAHMO) which is an ideal testing ground as the sysem continues to be further developed using a real world setting. Current development tasks include the automation of the statistical QC procedures which eventually will also include a Fault Inbox subsystem in which failures or instances requiring attention are flagged and managers are automatically informed. The current version of the system has been made publicly available on the GitHub platform (<a href=\"https://github.com/SensorDX/issue_tracker\">https://github.com/SensorDX/issue_tracker</a>) together with information on how to install and also videos that show the system at work.&nbsp;</p>\n<p>The system currently works with data collected on METER.com servers; this is because many of the weather stations are from METER, and also interfaces with the Observations Data Model (ODM) implementation developed by CUAHSI (a previously funded NSF effort). Plans are also underway to establish the system within the Oklahoma Mesonet a large network of hydro climatic weather stations that is well appointed and maintained. Eventually, SensorDX is expected to feature a selection of different interfaces that can connect to databases and APIs other than that offered by&nbsp; METER and CUAHSI?s ODM.</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/14/2019<br>\n\t\t\t\t\tModified by: Michael&nbsp;Piasecki</p>\n</div>\n<div class=\"porSideCol\">\n<div class=\"each-gallery\">\n<div class=\"galContent\" id=\"gallery0\">\n<div class=\"photoCount\" id=\"photoCount0\">\n\t\t\t\t\t\t\t\t\tImages (<span id=\"selectedPhoto0\">1</span> of <span class=\"totalNumber\"></span>)\t\t\n\t\t\t\t\t\t\t\t</div>\n<div class=\"galControls\" id=\"controls0\"></div>\n<div class=\"galSlideshow\" id=\"slideshow0\"></div>\n<div class=\"galEmbox\" id=\"embox\">\n<div class=\"image-title\"></div>\n</div>\n</div>\n<div class=\"galNavigation\" id=\"navigation0\">\n<ul class=\"thumbs\" id=\"thumbs0\">\n<li>\n<a href=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573748459196_SensorDX-SMS-Dashboard--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573748459196_SensorDX-SMS-Dashboard--rgov-800width.jpg\" title=\"SensorDX Dashboard\"><img src=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573748459196_SensorDX-SMS-Dashboard--rgov-66x44.jpg\" alt=\"SensorDX Dashboard\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The image shows the initial landing page, the Dashboard.</div>\n<div class=\"imageCredit\">Rene Midouin, Michael Piasecki</div>\n<div class=\"imagePermisssions\">Public Domain</div>\n<div class=\"imageSubmitted\">Michael&nbsp;Piasecki</div>\n<div class=\"imageTitle\">SensorDX Dashboard</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573748587806_SensorDX-SMS-Ticketing--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573748587806_SensorDX-SMS-Ticketing--rgov-800width.jpg\" title=\"SensorDX Ticketing System\"><img src=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573748587806_SensorDX-SMS-Ticketing--rgov-66x44.jpg\" alt=\"SensorDX Ticketing System\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">The images a number of open tickets in the system which can be ticked and assigned to individual technicians in the field</div>\n<div class=\"imageCredit\">Rene Midouin, Michael Piasecki</div>\n<div class=\"imageSubmitted\">Michael&nbsp;Piasecki</div>\n<div class=\"imageTitle\">SensorDX Ticketing System</div>\n</div>\n</li>\n<li>\n<a href=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573749276231_SensorDX-SMS-KeniaDashboard--rgov-214x142.jpg\" original=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573749276231_SensorDX-SMS-KeniaDashboard--rgov-800width.jpg\" title=\"SensorDX Map View of Kenia Stations\"><img src=\"/por/images/Reports/POR/2019/1513512/1513512_10390290_1573749276231_SensorDX-SMS-KeniaDashboard--rgov-66x44.jpg\" alt=\"SensorDX Map View of Kenia Stations\"></a>\n<div class=\"imageCaptionContainer\">\n<div class=\"imageCaption\">Shown are cluster balloons for the TAHMO stations deployed in Kenia. Further zooming expands these with OpenStreetMap layers underlain for geographic context.</div>\n<div class=\"imageCredit\">Michael Piasecki</div>\n<div class=\"imageSubmitted\">Michael&nbsp;Piasecki</div>\n<div class=\"imageTitle\">SensorDX Map View of Kenia Stations</div>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "por_txt_cntn": "\nThis collaborative project with partners at Oregon State University set out to develop an automated Hydro Meteorological Data quality system based on statistical approaches rather than deterministic. While Oregon State University took the lead working on the QA concepts, The City of New York task was to implement a software framework, named SensorDX, in which these new concepts could be deployed together with supporting systems such as ticketing and time series visualization. Another objective was to package the system and make it available for download and inclusion to other hydro climate networks deployed elsewhere.\n\nBesides the QA assessment component, the system consists of components to aid data network managers in not only identifying ?bad? data and flagging it, but also triggering maintenance action, for example to send technicians out into the field to clean, repair, or swap out sensors. To aid in making decisions for maintenance the system features a Dashboard (with amp support from https://OpenStreetMap.org) and a Ticketing System that allows managers to track issues and also a Visualization Subsystem for the time series data to better identify faulty data. It accepts various forms of documentation such as a written report and images taken at a station that can be attached to tickets so technicians and managers can make an educated decision on what to do with a problematic station.\n\nThe system is currently deployed within the Trans-African HydroMeteorological Observatory (TAHMO) which is an ideal testing ground as the sysem continues to be further developed using a real world setting. Current development tasks include the automation of the statistical QC procedures which eventually will also include a Fault Inbox subsystem in which failures or instances requiring attention are flagged and managers are automatically informed. The current version of the system has been made publicly available on the GitHub platform (https://github.com/SensorDX/issue_tracker) together with information on how to install and also videos that show the system at work. \n\nThe system currently works with data collected on METER.com servers; this is because many of the weather stations are from METER, and also interfaces with the Observations Data Model (ODM) implementation developed by CUAHSI (a previously funded NSF effort). Plans are also underway to establish the system within the Oklahoma Mesonet a large network of hydro climatic weather stations that is well appointed and maintained. Eventually, SensorDX is expected to feature a selection of different interfaces that can connect to databases and APIs other than that offered by  METER and CUAHSI?s ODM.\n\n \n\n\t\t\t\t\tLast Modified: 11/14/2019\n\n\t\t\t\t\tSubmitted by: Michael Piasecki"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "awd_id": "1319587",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:  Small:  Architecting Stacked DRAM as Gigascale Cache, or Fast Memory, or Both",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "Tao Li",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2013-08-26",
+ "awd_max_amd_letter_date": "2013-08-26",
+ "awd_abstract_narration": "As the computing industry steps into the many-core regime, the main memory system has\r\nbecome one of the key bottlenecks that limits both performance and scalability. To address these\r\nchallenges, the memory industry is developing 3D-stacked DRAM technology. Die stacking can\r\nprovide lower latency, much higher bandwidth, and significantly reduced energy dissipation.\r\nUnfortunately, stacked memory is unlikely to have sufficient capacity to completely replace\r\ntraditional DRAM. Therefore, future memory systems will likely use stacked memory in\r\ncombination with off-chip DRAM, either architecting stacked DRAM as a giga-scale cache or as\r\nheterogeneous main memory. However, to fully utilize the potential of stacked memory, the\r\nsystem architecture must make choices that exploit the unique latency and bandwidth\r\ncharacteristics offered by stacked DRAM. For example, simply applying traditional \"well-understood\"\r\ncache designs and memory designs to stacked DRAM results in low performance\r\nand poor bandwidth utilization.\r\n\r\nThis project first looks at caching organizations and management strategies for stacked DRAM\r\nthat are tailored to exploit latency and bandwidth properties of 3D stacking. It then looks at\r\nmemory organizations that can incorporate stacked memory as part of memory address space,\r\nwithout relying on OS support to exploit temporal locality and still perform memory\r\nmanagement at fine granularity. Finally, this project investigates morphable architectures that can\r\ndynamically reconfigure the stacked DRAM between cache structure and main memory, in order\r\nto conserve power and optimize performance depending on the workload requirements. The\r\nresearch solutions in this study will thus help future systems obtain an order of magnitude\r\nimprovement in both bandwidth and energy-efficiency from the effective use of memory\r\nstacking.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Moinuddin",
+   "pi_last_name": "Qureshi",
+   "pi_mid_init": "K",
+   "pi_sufx_name": "",
+   "pi_full_name": "Moinuddin K Qureshi",
+   "pi_email_addr": "moin@gatech.edu",
+   "nsf_id": "000611206",
+   "pi_start_date": "2013-08-26",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institue of Technology",
+  "perf_str_addr": "225 North Avenue, NW",
+  "perf_city_name": "Atlanta",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794100",
+   "pgm_ele_name": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7941",
+   "pgm_ref_txt": "COMPUTER ARCHITECTURE"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>GOAL:</p>\n<p>This project was aimed at developing cache and memory designs that are suitable for incorporating 3D-memory in the computer memory hierarchy.&nbsp; The size of the cache based on 3D memory is about two-to-three orders of magnitude larger than the on-chip cache.&nbsp;</p>\n<p>&nbsp;</p>\n<p>INTELLECTUAL MERITS:</p>\n<p>This proposal developed novel and comprehensive solutions to efficiently use 3D memories, in particular:</p>\n<p>1. The CAMEO design, published at MICRO 2014, provides the ability to have 3D capacity be part of OS-visible space, while still have the transparency and fine-granularity of hardware-managed cache.</p>\n<p>2. The BEAR proposal, published at ISCA 2015, showed how to reduce the bandwidth consumed by cache management operations to improve the effectiveness of DRAM caches.</p>\n<p>3. The CANDY proposal, published at MICRO 2016, enabled the use of DRAM caches in multi-node systems in a coherent way.&nbsp;</p>\n<p>4. The DICE proposal, published at ISCA 2017, showed how to effectively compress DRAM caches to provide higher memory bandwidth</p>\n<p>5. The BATMAN proposal, published at MEMSYS 2017, showed how to manage the 3D cache/memory to maximize system bandwidth instead of hit-rate.</p>\n<p>&nbsp;</p>\n<p>OTHER STUDIES ENABLED BY THE GRANT:</p>\n<p>In addition to the above studies, the project was also responsible for partially funding activities&nbsp;in the area of memory system design and memory reliability, including the following publications:</p>\n<p>1. A publication at DSN 2015, on Variable Retention Time Aware Multi-Rate Refresh (AVATAR)</p>\n<p>2. Another publication at DSN 2015, on morphable ECC to reduce DRAM refresh</p>\n<p>3. A publication at HPCA 2016, on low-cost interlinked sub-array design for DRAM.</p>\n<p>4. A publication at ISCA 2016, on exposing on-die error detection information for strong memory reliability</p>\n<p>&nbsp;</p>\n<p>BROADER IMPACTS:</p>\n<p>1.&nbsp; The project was responsible for supporting three PhD students and training them in the field of computer system design</p>\n<p>2. Two PhD students have graduated and have joined Google and IBM Research</p>\n<p>3. Significant interest from the Intel KNL team on the solutions developed as part of this research, so high likelihood of technology transfer</p>\n<p>4. The studies have been incorporated into the course \"Advanced Memory Systems\"</p>\n<p>5.&nbsp; The PI has given talk on \"Architecting 3D Memory Systems\" at more than a dozen institutions, in both academia and industry to reach out to a wider audience</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 11/30/2017<br>\n\t\t\t\t\tModified by: Moinuddin&nbsp;K&nbsp;Qureshi</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nGOAL:\n\nThis project was aimed at developing cache and memory designs that are suitable for incorporating 3D-memory in the computer memory hierarchy.  The size of the cache based on 3D memory is about two-to-three orders of magnitude larger than the on-chip cache. \n\n \n\nINTELLECTUAL MERITS:\n\nThis proposal developed novel and comprehensive solutions to efficiently use 3D memories, in particular:\n\n1. The CAMEO design, published at MICRO 2014, provides the ability to have 3D capacity be part of OS-visible space, while still have the transparency and fine-granularity of hardware-managed cache.\n\n2. The BEAR proposal, published at ISCA 2015, showed how to reduce the bandwidth consumed by cache management operations to improve the effectiveness of DRAM caches.\n\n3. The CANDY proposal, published at MICRO 2016, enabled the use of DRAM caches in multi-node systems in a coherent way. \n\n4. The DICE proposal, published at ISCA 2017, showed how to effectively compress DRAM caches to provide higher memory bandwidth\n\n5. The BATMAN proposal, published at MEMSYS 2017, showed how to manage the 3D cache/memory to maximize system bandwidth instead of hit-rate.\n\n \n\nOTHER STUDIES ENABLED BY THE GRANT:\n\nIn addition to the above studies, the project was also responsible for partially funding activities in the area of memory system design and memory reliability, including the following publications:\n\n1. A publication at DSN 2015, on Variable Retention Time Aware Multi-Rate Refresh (AVATAR)\n\n2. Another publication at DSN 2015, on morphable ECC to reduce DRAM refresh\n\n3. A publication at HPCA 2016, on low-cost interlinked sub-array design for DRAM.\n\n4. A publication at ISCA 2016, on exposing on-die error detection information for strong memory reliability\n\n \n\nBROADER IMPACTS:\n\n1.  The project was responsible for supporting three PhD students and training them in the field of computer system design\n\n2. Two PhD students have graduated and have joined Google and IBM Research\n\n3. Significant interest from the Intel KNL team on the solutions developed as part of this research, so high likelihood of technology transfer\n\n4. The studies have been incorporated into the course \"Advanced Memory Systems\"\n\n5.  The PI has given talk on \"Architecting 3D Memory Systems\" at more than a dozen institutions, in both academia and industry to reach out to a wider audience\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n\t\t\t\t\tLast Modified: 11/30/2017\n\n\t\t\t\t\tSubmitted by: Moinuddin K Qureshi"
+ }
+}

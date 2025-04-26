@@ -1,0 +1,101 @@
+{
+ "awd_id": "1320621",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Collaborative Research: Scalable and accurate direct solvers for integral equations on surfaces",
+ "cfda_num": "47.049",
+ "org_code": "03040000",
+ "po_phone": null,
+ "po_email": "",
+ "po_sign_block_name": "rosemary renaut",
+ "awd_eff_date": "2013-08-01",
+ "awd_exp_date": "2016-07-31",
+ "tot_intn_awd_amt": 219999.0,
+ "awd_amount": 219999.0,
+ "awd_min_amd_letter_date": "2013-07-14",
+ "awd_max_amd_letter_date": "2013-07-14",
+ "awd_abstract_narration": "The goal of the proposed research is to develop faster and more accurate algorithms for computing approximate solutions to a broad class of equations  that  model physical phenomena such as heat transport, deformation of elastic bodies, scattering of electromagnetic waves, and many others. The task of solving such equations is frequently the most time consuming part of computational simulations, and is the part that determines which problems can be modeled computationally, and which cannot. Dealing with complicated shapes (e.g.  scattering from complex geometry or flow through channels of complicated shape) adds difficulty to the computational task.\r\n\r\nTechnically speaking, most existing large-scale numerical algorithms for solving partial differential and integral equations on complex geometries are based on so called \"iterative methods\" which construct a sequence of approximate solutions that gradually approach the exact solution. The proposed research seeks to develop \"direct methods\" for solving  equations. A \"direct method\" computes the unknown data from the given data in one shot.  When available, direct methods are often preferred to iterative ones since they are more robust, and  can be used in a \"black-box\" way.  As a result these are  more suitable for incorporation in general purpose software, and in many cases work for important problems that cannot be solved with existing iterative methods. The reason that they are today typically not used is that existing direct methods for many problems are often prohibitively expensive. However, recent results by the PIs and other researchers have proven that it is possible to construct direct methods that are competitive in terms of speed with the very fastest existing iterative solvers. The new algorithms will be applied to the simulation of fluid flows and biomolecular simulations, and their performance will be demonstrated by the execution of simulations on complex geometries.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Denis",
+   "pi_last_name": "Zorin",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Denis Zorin",
+   "pi_email_addr": "dzorin@mrl.nyu.edu",
+   "nsf_id": "000270109",
+   "pi_start_date": "2013-07-14",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "New York University",
+  "inst_street_address": "70 WASHINGTON SQ S",
+  "inst_street_address_2": "",
+  "inst_city_name": "NEW YORK",
+  "inst_state_code": "NY",
+  "inst_state_name": "New York",
+  "inst_phone_num": "2129982121",
+  "inst_zip_code": "100121019",
+  "inst_country_name": "United States",
+  "cong_dist_code": "10",
+  "st_cong_dist_code": "NY10",
+  "org_lgl_bus_name": "NEW YORK UNIVERSITY",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "NX9PXMKW5KW8"
+ },
+ "perf_inst": {
+  "perf_inst_name": "New York University",
+  "perf_str_addr": "251 Mercer Street",
+  "perf_city_name": "New York",
+  "perf_st_code": "NY",
+  "perf_st_name": "New York",
+  "perf_zip_code": "100121019",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "10",
+  "perf_st_cong_dist": "NY10",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9263",
+   "pgm_ref_txt": "COMPUTATIONAL SCIENCE & ENGING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 219999.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p><br />The main contributions of this projected include advances in the algorithms and software for integral equations, including equations on &nbsp;two-dimensional domains, surfaces in three dimensions and volumes bounded by surfaces, as well as applications of such solvers to &nbsp;biological flow problems.<br />A range of common physical problems (electric field and heat distribution computations, small-deformation elasticity, certain types of flows, e.g., capillary flows, can be formulated and discretized as integral equations. When available, this type of discretizations offer many advantages in &nbsp;accuracy and robustness. These advantages are particularly pronounced in the case of moving boundaries: these methods eliminate most of the need for meshing the domain, a standard step in solvers which is often most time-consuming and prone to failure.<br />At the same time, a key element for applying integral equations in practice is availability of efficient solvers for inversion of resulting &nbsp;dense systems of algebraic equations; existing solvers are less mature and available, compared to solvers for sparse systems (i.e., systems with mostly zero elements). For integral equations, most solvers are iterative, thanks to one of the key properties of these formulations: unlike PDE discretizations, the number of iterations required is usually small, and does notchange if a larger problem is solved. &nbsp;However, in many important cases (for example, for problems with complex boundaries, with different boundary parts in close proximity), the number of iterations still can be high. &nbsp;In the sparse case, these problems are common and are handled by a different type of solvers: either direct solvers or iterative solvers with preconditioning which can be thought of as a generalization of both. &nbsp;For the integral equation case, there were relatively few efforts to develop solvers of this type, especially solvers of optimal complexity, which is needed for scalability.<br />Intellectual merit. &nbsp;The outcomes of this project include:1. We completed the development the and released the code for an optimal direct solver for integral equations in the plane, based on a two-level compression scheme for matrices. For larger problems, this solver significantly outperforms existing ones.<br />2. We developed a new preconditioned iterative solver, based on &nbsp;quantized tensor-train hierarchical compression of integral equation matrices. &nbsp;For volume and boundary integrals in simple geometries, it can actually converge in one iteration, yielding a practical fast O(N) direct solver. For boundary integrals in complex geometries, we show that a low accuracy approximation can be reliably used as a &nbsp;preconditioner. The distinctive feature of this solver is its remarkably low, compared to other solvers memory cost, which is sublinear in the number of variables in terms of additional storage required, so for large systems.<br />3. We have developed another important component of integral equation solvers for complex geometries, a new quadrature scheme for computing the integrals involved. &nbsp;Integrals involved in the equations typically have singular or close to singular integrands, requiring special quadratures for integrating these. A recent approach called quadrature-by-expansion (QBX) has demonstrated that these difficulties can be circumvented, but requires analysis specific to each kernel. We developed a general-purpose approach, &nbsp;relying solely on point evaluations, which we demonstrated to work (in two dimensions) for a range of equations. This approach also considerably simplifies the requirements for mathematical surface/curve descriptions that can be used by the solver.&nbsp;We have developed estimates for the accuracy of this quadrature method &nbsp;in the case of Laplace and Yukawa potentials.<br />4. We have &nbsp;worked to extend our software for simulation of flows with immersed deformable membranes (vesicles, cells etc) based on solving integral equations, to address several issues related to singular and nearly-singular integrals. &nbsp;Near-collisions, common in dense suspensions, remained one of the weak spots in our previous work; as a part of this project, we have worked to integrate a more accurate quadrature, and contact constraints The latter aspects is very important, for lowering the computational cost of the method. As a result, we are able to model high density suspensions of cells, at a far lower (order of magnitude or more) than was previously possible.&nbsp;<br />Jointly with applied mathematicians studying cell division processes, &nbsp;we worked to scale up the code for modeling filaments in Stokes flow inside a cell, to investigate two important questions in the mechanics of cell division: (i) the effect of confinement on the hydrodynamic mobility of microtubule asters; and (ii) the dynamics of the positioning of mitotic spindle in complex cell geometries.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 07/24/2017<br>\n\t\t\t\t\tModified by: Denis&nbsp;Zorin</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\n\nThe main contributions of this projected include advances in the algorithms and software for integral equations, including equations on  two-dimensional domains, surfaces in three dimensions and volumes bounded by surfaces, as well as applications of such solvers to  biological flow problems.\nA range of common physical problems (electric field and heat distribution computations, small-deformation elasticity, certain types of flows, e.g., capillary flows, can be formulated and discretized as integral equations. When available, this type of discretizations offer many advantages in  accuracy and robustness. These advantages are particularly pronounced in the case of moving boundaries: these methods eliminate most of the need for meshing the domain, a standard step in solvers which is often most time-consuming and prone to failure.\nAt the same time, a key element for applying integral equations in practice is availability of efficient solvers for inversion of resulting  dense systems of algebraic equations; existing solvers are less mature and available, compared to solvers for sparse systems (i.e., systems with mostly zero elements). For integral equations, most solvers are iterative, thanks to one of the key properties of these formulations: unlike PDE discretizations, the number of iterations required is usually small, and does notchange if a larger problem is solved.  However, in many important cases (for example, for problems with complex boundaries, with different boundary parts in close proximity), the number of iterations still can be high.  In the sparse case, these problems are common and are handled by a different type of solvers: either direct solvers or iterative solvers with preconditioning which can be thought of as a generalization of both.  For the integral equation case, there were relatively few efforts to develop solvers of this type, especially solvers of optimal complexity, which is needed for scalability.\nIntellectual merit.  The outcomes of this project include:1. We completed the development the and released the code for an optimal direct solver for integral equations in the plane, based on a two-level compression scheme for matrices. For larger problems, this solver significantly outperforms existing ones.\n2. We developed a new preconditioned iterative solver, based on  quantized tensor-train hierarchical compression of integral equation matrices.  For volume and boundary integrals in simple geometries, it can actually converge in one iteration, yielding a practical fast O(N) direct solver. For boundary integrals in complex geometries, we show that a low accuracy approximation can be reliably used as a  preconditioner. The distinctive feature of this solver is its remarkably low, compared to other solvers memory cost, which is sublinear in the number of variables in terms of additional storage required, so for large systems.\n3. We have developed another important component of integral equation solvers for complex geometries, a new quadrature scheme for computing the integrals involved.  Integrals involved in the equations typically have singular or close to singular integrands, requiring special quadratures for integrating these. A recent approach called quadrature-by-expansion (QBX) has demonstrated that these difficulties can be circumvented, but requires analysis specific to each kernel. We developed a general-purpose approach,  relying solely on point evaluations, which we demonstrated to work (in two dimensions) for a range of equations. This approach also considerably simplifies the requirements for mathematical surface/curve descriptions that can be used by the solver. We have developed estimates for the accuracy of this quadrature method  in the case of Laplace and Yukawa potentials.\n4. We have  worked to extend our software for simulation of flows with immersed deformable membranes (vesicles, cells etc) based on solving integral equations, to address several issues related to singular and nearly-singular integrals.  Near-collisions, common in dense suspensions, remained one of the weak spots in our previous work; as a part of this project, we have worked to integrate a more accurate quadrature, and contact constraints The latter aspects is very important, for lowering the computational cost of the method. As a result, we are able to model high density suspensions of cells, at a far lower (order of magnitude or more) than was previously possible. \nJointly with applied mathematicians studying cell division processes,  we worked to scale up the code for modeling filaments in Stokes flow inside a cell, to investigate two important questions in the mechanics of cell division: (i) the effect of confinement on the hydrodynamic mobility of microtubule asters; and (ii) the dynamics of the positioning of mitotic spindle in complex cell geometries.\n\n \n\n \n\n\t\t\t\t\tLast Modified: 07/24/2017\n\n\t\t\t\t\tSubmitted by: Denis Zorin"
+ }
+}

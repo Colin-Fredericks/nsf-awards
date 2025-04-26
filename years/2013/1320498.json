@@ -1,0 +1,117 @@
+{
+ "awd_id": "1320498",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "SHF:Small: Accurate and Computationally Efficient Predictors of Java Memory Resource Consumption",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927885",
+ "po_email": "abanerje@nsf.gov",
+ "po_sign_block_name": "Anindya Banerjee",
+ "awd_eff_date": "2013-09-01",
+ "awd_exp_date": "2017-08-31",
+ "tot_intn_awd_amt": 450000.0,
+ "awd_amount": 450000.0,
+ "awd_min_amd_letter_date": "2013-08-12",
+ "awd_max_amd_letter_date": "2013-08-12",
+ "awd_abstract_narration": "The Java programming language is widely-used and of great commercial and economic significance. It is favored in part because it features automatic management of the computer memory resources it uses, simplifying such management for the programmer.  Memory management in Java (and other managed languages) has reached a plateau in cost and effectiveness because most current techniques are tuned based on a small number of coarse-grained measures gathered while programs run.  Substantial improvement might be gained from using more accurate estimation of current and near-future memory use to drive better memory management decisions.  This would reduce the time, memory, and energy requirements to run Java programs. This is of significance to the full range of Java applications from small embedded systems through laptops and desktops to large servers.  There is therefore an urgent need for techniques to derive better online predictors of Java memory use.\r\n\r\nThe long-term goal of the research program this award will support is to substantially improve memory allocation and garbage collection effectiveness by using better online predictors to drive more sophisticated allocator and collector decisions.  The objective of this particular project is to develop machine learning techniques that induce accurate and computationally efficient predictors of characteristics of Java memory allocation that influence memory manager performance.  Examples include predicting the volume of objects that become \"garbage\" (can be reclaimed and reused for future allocations), as well as objects that will be in use for a long time and will not become garbage soon.  The approach is to learn models that predict memory usage based on features compiled from observable run-time events like calls to particular methods or allocations of certain objects. Data to learn models will be obtained from analysis of detailed program execution traces. Features will be selected that are both informative of memory use and computable with low space and time overheads.  Programs will then be modified to compute these features as they run, and real-time predictive models will be used to predict future memory usage as programs execute.  These predictions will be used to improve memory management performance.  This will be accomplished by, for example, improving the timing of garbage collection so that it occurs at points during program execution that result in higher memory reclamation with lower effort.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "J Eliot",
+   "pi_last_name": "Moss",
+   "pi_mid_init": "B",
+   "pi_sufx_name": "",
+   "pi_full_name": "J Eliot B Moss",
+   "pi_email_addr": "moss@cs.umass.edu",
+   "nsf_id": "000261930",
+   "pi_start_date": "2013-08-12",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Benjamin",
+   "pi_last_name": "Marlin",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "Benjamin M Marlin",
+   "pi_email_addr": "marlin@cs.umass.edu",
+   "nsf_id": "000611228",
+   "pi_start_date": "2013-08-12",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Massachusetts Amherst",
+  "inst_street_address": "101 COMMONWEALTH AVE",
+  "inst_street_address_2": "",
+  "inst_city_name": "AMHERST",
+  "inst_state_code": "MA",
+  "inst_state_name": "Massachusetts",
+  "inst_phone_num": "4135450698",
+  "inst_zip_code": "010039252",
+  "inst_country_name": "United States",
+  "cong_dist_code": "02",
+  "st_cong_dist_code": "MA02",
+  "org_lgl_bus_name": "UNIVERSITY OF MASSACHUSETTS",
+  "org_prnt_uei_num": "VGJHK59NMPK9",
+  "org_uei_num": "VGJHK59NMPK9"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Massachusetts Amherst",
+  "perf_str_addr": "140 Governors Dr",
+  "perf_city_name": "Amherst",
+  "perf_st_code": "MA",
+  "perf_st_name": "Massachusetts",
+  "perf_zip_code": "010039264",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "02",
+  "perf_st_cong_dist": "MA02",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "794300",
+   "pgm_ele_name": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "7923",
+   "pgm_ref_txt": "SMALL PROJECT"
+  },
+  {
+   "pgm_ref_code": "7943",
+   "pgm_ref_txt": "PROGRAMMING LANGUAGES"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 450000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>The vast majority of modern software applications running on smart phones, desktop computers, and servers are written in computer languages where the internal working memory used by a running application is automatically managed. This means that a piece of software (called a memory manager) automatically determines when items stored in memory are no longer needed by the application, and then frees the associated memory space so it can be re-used. This process of reclaiming and reusing memory space has come to be called \"garbage collection\" in the programming languages community.</p>\n<p>The use of automatic memory management allows applications to be developed faster and at lower cost, but typically results in decreased performance along several other dimensions. First, running the memory manager requires searching the memory space for unneeded items, which results in computational overhead, slowing down the application whose memory is being managed. Second, since the memory manager cannot be run constantly, there is always some volume of memory space that is currently unneeded, but has not yet been reclaimed by the memory manager. This means that the memory footprint for a running program can be larger than is necessary at any given point in time, which reduces the number of programs that can run concurrently. This is a particular concern on resource constrained platforms like smart phones, as well as in shared resource settings like cloud computing centers.</p>\n<p>This project investigated the extent to which it is possible to improve the performance of memory managed computer programs, using the Java programming language as a test bed. For a variety of reasons, exactly when the memory manager runs affects the resulting time and space overheads. Running too often wastes computation. Not running often enough wastes space.&nbsp;</p>\n<p>The overall goal of this research was to develop ways to reduce these costs by optimizing the collection process according to an individual program's behavior. Our approach to this problem used methods from artificial intelligence and machine learning to infer patterns in program activity that could be used to inform decisions of when the collector should run to minimize total costs. However, assessing how efficient such an approach is requires knowing more about what the best possible garbage collection cost might be.</p>\n<p>The major outcome of this project is an after-the-fact analysis procedure that can compute what the best garbage collection cost is for a particular run of a particular program.&nbsp; Furthermore, it tells us exactly when the collector should have been run to obtain this best cost.&nbsp; The outcome is remarkable in that previously it was suspected that this would be impractical to compute, requiring one to explore every possible pattern of when to run the collector, but we found that the problem could be solved in much less time, which may make it possible to train machine learning programs to provide improved collector policies customized to the behavior of a particular program.</p>\n<p>We further found that for some program runs, existing simple policies perform very close to optimal, while there is useful room for improvement in a number of other cases.&nbsp; Also, we found that it is in the nature of the problem that while reductions in computer running time may not be that large (collection times typically less than 10% of total time were observed), the space savings can be substantial and thus might lead to the ability to perform more computation within a given amount of memory.</p>\n<p>The project also explored automated real-time detection of which phase of execution (startup, shutdown, different intermediate processing steps) a program is in while it is running.&nbsp; We developed a machine learning-based method that achieved high accuracy at low cost computational cost. The project further showed that this idea can be applied to adjust the speed of processors so as to give substantial reduction in energy consumed while balancing how long it takes to run a program. This analysis can also be used to inform garbage collection schedules by allowing collection policies to depend on inferred program phase.</p>\n<p>In summary, the intellectual merit of this project is in knowledge gained about improving automatic memory management for Java and similar programming languages, as well as in the development of the data analytic techniques used to derive this knowledge. The broader impacts include the potential to reduce the time, memory, and energy required to run computer programs, which may have significant impacts in resource constrained computing settings. Finally, the project provided interdisciplinary training in machine learning and programming languages for two PhD students, both of whom are well into their doctoral dissertation work.</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 12/04/2017<br>\n\t\t\t\t\tModified by: J. Eliot&nbsp;B&nbsp;Moss</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThe vast majority of modern software applications running on smart phones, desktop computers, and servers are written in computer languages where the internal working memory used by a running application is automatically managed. This means that a piece of software (called a memory manager) automatically determines when items stored in memory are no longer needed by the application, and then frees the associated memory space so it can be re-used. This process of reclaiming and reusing memory space has come to be called \"garbage collection\" in the programming languages community.\n\nThe use of automatic memory management allows applications to be developed faster and at lower cost, but typically results in decreased performance along several other dimensions. First, running the memory manager requires searching the memory space for unneeded items, which results in computational overhead, slowing down the application whose memory is being managed. Second, since the memory manager cannot be run constantly, there is always some volume of memory space that is currently unneeded, but has not yet been reclaimed by the memory manager. This means that the memory footprint for a running program can be larger than is necessary at any given point in time, which reduces the number of programs that can run concurrently. This is a particular concern on resource constrained platforms like smart phones, as well as in shared resource settings like cloud computing centers.\n\nThis project investigated the extent to which it is possible to improve the performance of memory managed computer programs, using the Java programming language as a test bed. For a variety of reasons, exactly when the memory manager runs affects the resulting time and space overheads. Running too often wastes computation. Not running often enough wastes space. \n\nThe overall goal of this research was to develop ways to reduce these costs by optimizing the collection process according to an individual program's behavior. Our approach to this problem used methods from artificial intelligence and machine learning to infer patterns in program activity that could be used to inform decisions of when the collector should run to minimize total costs. However, assessing how efficient such an approach is requires knowing more about what the best possible garbage collection cost might be.\n\nThe major outcome of this project is an after-the-fact analysis procedure that can compute what the best garbage collection cost is for a particular run of a particular program.  Furthermore, it tells us exactly when the collector should have been run to obtain this best cost.  The outcome is remarkable in that previously it was suspected that this would be impractical to compute, requiring one to explore every possible pattern of when to run the collector, but we found that the problem could be solved in much less time, which may make it possible to train machine learning programs to provide improved collector policies customized to the behavior of a particular program.\n\nWe further found that for some program runs, existing simple policies perform very close to optimal, while there is useful room for improvement in a number of other cases.  Also, we found that it is in the nature of the problem that while reductions in computer running time may not be that large (collection times typically less than 10% of total time were observed), the space savings can be substantial and thus might lead to the ability to perform more computation within a given amount of memory.\n\nThe project also explored automated real-time detection of which phase of execution (startup, shutdown, different intermediate processing steps) a program is in while it is running.  We developed a machine learning-based method that achieved high accuracy at low cost computational cost. The project further showed that this idea can be applied to adjust the speed of processors so as to give substantial reduction in energy consumed while balancing how long it takes to run a program. This analysis can also be used to inform garbage collection schedules by allowing collection policies to depend on inferred program phase.\n\nIn summary, the intellectual merit of this project is in knowledge gained about improving automatic memory management for Java and similar programming languages, as well as in the development of the data analytic techniques used to derive this knowledge. The broader impacts include the potential to reduce the time, memory, and energy required to run computer programs, which may have significant impacts in resource constrained computing settings. Finally, the project provided interdisciplinary training in machine learning and programming languages for two PhD students, both of whom are well into their doctoral dissertation work.\n\n\t\t\t\t\tLast Modified: 12/04/2017\n\n\t\t\t\t\tSubmitted by: J. Eliot B Moss"
+ }
+}

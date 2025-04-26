@@ -1,0 +1,120 @@
+{
+ "awd_id": "1255861",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "Collaborative Research: Software Canaries",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927843",
+ "po_email": "sabasu@nsf.gov",
+ "po_sign_block_name": "Sankar Basu",
+ "awd_eff_date": "2013-04-01",
+ "awd_exp_date": "2016-03-31",
+ "tot_intn_awd_amt": 90000.0,
+ "awd_amount": 90000.0,
+ "awd_min_amd_letter_date": "2012-12-21",
+ "awd_max_amd_letter_date": "2015-06-16",
+ "awd_abstract_narration": "As transistors get smaller, they become increasingly susceptible to variations in their timing characteristics. One way to deal with possible variations is to assume worst-case characteristics during hardware design. Unfortunately, the power and performance costs of worst-case design are becoming prohibitive. Consequently, processor designers have sought more aggressive design styles that permit better-than-worst-case operation. One such approach uses \"canary circuits\" that indicate when a processor is on the verge of unsafe operation due to variations. This research investigates \"software canaries\" - software routines that exercise the most susceptible circuits of a processor to determine an aggressive safe operating point. Software canaries enable all the benefits of hardware canary circuits, without the corresponding hardware overhead. More importantly, they may provide additional benefits as they can track aging and temperature - variations that may be indistinguishable to hardware canary circuits. Furthermore, unlike hardware canary circuits, they allow identifying the most aggressive operating point on a per application basis. This research focuses on exploring the benefits of software canaries, developing use cases, developing techniques for building software canaries for different microarchitectures, and developing microarchitecture and system support needed to support software-canary-based execution.\r\n\r\nThe broader impact of the research lies in enabling computing systems with significantly lower energy consumption by selecting aggressive operating points. Other specific impacts include development of open source tools that may be used for further work by other research groups, and a greater discussion of variations and energy efficiency in graduate and undergraduate coursework.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "John",
+   "pi_last_name": "Sartori",
+   "pi_mid_init": "M",
+   "pi_sufx_name": "",
+   "pi_full_name": "John M Sartori",
+   "pi_email_addr": "jsartori@umn.edu",
+   "nsf_id": "000624650",
+   "pi_start_date": "2012-12-21",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of Minnesota-Twin Cities",
+  "inst_street_address": "2221 UNIVERSITY AVE SE STE 100",
+  "inst_street_address_2": "",
+  "inst_city_name": "MINNEAPOLIS",
+  "inst_state_code": "MN",
+  "inst_state_name": "Minnesota",
+  "inst_phone_num": "6126245599",
+  "inst_zip_code": "554143074",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "MN05",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF MINNESOTA",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "KABJZBBJ4B54"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of Minnesota-Twin Cities",
+  "perf_str_addr": "200 Union St SE",
+  "perf_city_name": "Minneapolis",
+  "perf_st_code": "MN",
+  "perf_st_name": "Minnesota",
+  "perf_zip_code": "554550160",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "MN05",
+  "perf_ctry_name": "United States",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "808100",
+   "pgm_ele_name": "Failure Resistant Systems(FRS)"
+  }
+ ],
+ "pgm_ref": null,
+ "app_fund": [
+  {
+   "app_code": "0113",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001314DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0114",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001415DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  },
+  {
+   "app_code": "0115",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "040100",
+   "fund_code": "01001516DB",
+   "fund_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "fund_symb_id": "040100"
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2013,
+   "fund_oblg_amt": 48000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2014,
+   "fund_oblg_amt": 21000.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2015,
+   "fund_oblg_amt": 21000.0
+  }
+ ],
+ "por": {
+  "por_cntn": "<div class=\"porColContainerWBG\">\n<div class=\"porContentCol\"><p>This project has enabled significant energy reduction in computing systems through&nbsp;<strong>cross-layer failure resistance mechanisms</strong> called&nbsp;<strong>software canaries</strong>&nbsp;that test for timing slack on the critical paths in a processor to enable safe and energy-efficient better-than-worst-case operation through adaptation to static and dynamic variations. Our accomplishments include the following.</p>\n<ul>\n<li>We have demonstrated how to design      software canaries. This involves creating software-based path delay fault      testing routines that have the ability to test for timing slack on the      critical paths of a processor.</li>\n<li>We have explored the ability of software      canaries to enable adaptation to different types of static and dynamic      variations. Software canaries can enable adaptation to all types of      variations except for fast-changing local voltage variations.</li>\n<li>We have created microarchitectural and      system support for software canary-based execution.</li>\n<li>We have evaluated the critical path      coverage of software canaries for different processor microarchitecture      and design styles and shown that software canaries can achieve high      coverage of potentially-critical paths while maintaining low runtime      overhead. </li>\n<li>We have created and compared software      canaries that target static and dynamic critical path distributions. We      showed that significant additional energy savings are possible from      exploiting workload-dependent dynamic timing slack.</li>\n<li>We have created a toolchain for      automatically inferring and synthesizing software canaries. </li>\n<li>We have explored using software canaries      for error localization. </li>\n<li>We have created open source tools that provide      a baseline&nbsp;and foundation for further work in this area by      other&nbsp;research groups.</li>\n<li>We have supervised research projects      related to energy efficiency and failure resistance in graduate and      undergraduate coursework. We have also trained graduate and undergraduate      researchers in this project.</li>\n<li>The products of this project have spawned      additional work on power reduction and energy efficiency for ultra-low-power      processors. Areas of followup work that leverage the products of this      project already include novel power gating and peak power reduction      techniques.</li>\n</ul>\n<p>&nbsp;</p><br>\n<p>\n\t\t\t\t      \tLast Modified: 05/03/2016<br>\n\t\t\t\t\tModified by: John&nbsp;M&nbsp;Sartori</p>\n</div>\n<div class=\"porSideCol\"></div>\n</div>",
+  "por_txt_cntn": "\nThis project has enabled significant energy reduction in computing systems through cross-layer failure resistance mechanisms called software canaries that test for timing slack on the critical paths in a processor to enable safe and energy-efficient better-than-worst-case operation through adaptation to static and dynamic variations. Our accomplishments include the following.\n\nWe have demonstrated how to design      software canaries. This involves creating software-based path delay fault      testing routines that have the ability to test for timing slack on the      critical paths of a processor.\nWe have explored the ability of software      canaries to enable adaptation to different types of static and dynamic      variations. Software canaries can enable adaptation to all types of      variations except for fast-changing local voltage variations.\nWe have created microarchitectural and      system support for software canary-based execution.\nWe have evaluated the critical path      coverage of software canaries for different processor microarchitecture      and design styles and shown that software canaries can achieve high      coverage of potentially-critical paths while maintaining low runtime      overhead. \nWe have created and compared software      canaries that target static and dynamic critical path distributions. We      showed that significant additional energy savings are possible from      exploiting workload-dependent dynamic timing slack.\nWe have created a toolchain for      automatically inferring and synthesizing software canaries. \nWe have explored using software canaries      for error localization. \nWe have created open source tools that provide      a baseline and foundation for further work in this area by      other research groups.\nWe have supervised research projects      related to energy efficiency and failure resistance in graduate and      undergraduate coursework. We have also trained graduate and undergraduate      researchers in this project.\nThe products of this project have spawned      additional work on power reduction and energy efficiency for ultra-low-power      processors. Areas of followup work that leverage the products of this      project already include novel power gating and peak power reduction      techniques.\n\n\n \n\n\t\t\t\t\tLast Modified: 05/03/2016\n\n\t\t\t\t\tSubmitted by: John M Sartori"
+ }
+}

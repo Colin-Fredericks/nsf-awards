@@ -1,0 +1,110 @@
+{
+ "awd_id": "9706353",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Standard Grant",
+ "awd_titl_txt": "Local Plus Global Adaptivity in Moving Node Finite Element  Methods",
+ "cfda_num": "47.049",
+ "org_code": "03040100",
+ "po_phone": "7032924488",
+ "po_email": "jwang@nsf.gov",
+ "po_sign_block_name": "Junping Wang",
+ "awd_eff_date": "1997-07-15",
+ "awd_exp_date": "2002-06-30",
+ "tot_intn_awd_amt": 70680.0,
+ "awd_amount": 70680.0,
+ "awd_min_amd_letter_date": "1997-08-01",
+ "awd_max_amd_letter_date": "2001-10-11",
+ "awd_abstract_narration": "9706353  Keith Miller      Miller plans to work on local plus global adaptivity for moving node  finite element methods. He plans first (in collaboration with Neil  Carlson of Purdue) to combine the local adaptivity of 2-D gradient-weighted  Moving Finite Elements (through the continuous movement of its nodes) with  an improved global adaptivity (through addition, deletion and reconnection  of nodes, based upon enriched geometric criteria and upon local error  estimates). Here they are building upon their longstanding and fruitful  collaboration in developing the GWMFE method. This method is especially  suited to problems which develop sharp moving fronts, especially problems  where one needs to resolve the fine-scale structure of the fronts. GWMFE  does an extremely fine job of moving its nodes around locally to resolve  the sharp features of the solution, but clearly global adaptivity is  needed if we are to have truly robust and flexible codes. Here they  would be making fundamental changes and additions to the partial global  adaptivity introduced by Miller's student Kuprat in his thesis of '92,  which added so greatly to the robustness of the method. Miller plans  second to develop a revised GWMFE with streamline diffusion; this should  correct some problems which the present method has on certain steady-state  convection problems in which the GWMFE grid drifts downstream with the  flow rather than coming to a steady-state. This revised GWMFE works  extremely well in 1-D; success in extending it to multidimensions would  be a significant advance for slow-transient and near steady-state fluid  computations.    Finite element (FE) methods with a triangular grid in 2-D typically compute  a piecewise linear approximation to the solution of a partial differential  equation (PDE) or system of PDEs; that is, the graph of the approximate  solution is an evolving surface with planar triangular faces. For standard  FE methods the grid is specified and fixed; however, for the GWMFE method  the grid is  allowed to deform and the nodes of the grid decide for  themselves how to move. On problems with sharp moving fronts the nodes can   thus automatically concentrate in the front and move with it. In this way  one attains high resolution in the critical regions of the solution  while using far fewer nodes and far larger time steps than with standard  methods. Examples are the highly nonlinear diffusion of doped arsenic  ions in the manufacture of silicon chips, the drift-diffusion equations  for the nanosecond evolution of holes, electrons and voltages as a  semiconductor device switches states, and the \"black oil\" equations  for flooding of oil reservoirs. The GWMFE method has been strikingly  successful on these and many other problems even within the constraints  of a logically-fixed grid; that is, the grid deforms automatically, but  the number and interconnections of its nodes remain fixed. However, a  logically-fixed grid is inadequate for many important problems and it is  apparent that the efficiency and robustness of the method can be  greatly enhanced by adding global adaptivity (the insertion and deletion  of nodes as needed). This requires a good deal of code development,  but the combination of local plus global adaptivity in GWMFE should  yield a combined method which is accurate and robust, which uses far   fewer nodes, and which thereby renders efficiently computable important  classes of problems with moving sharp features which are presently  inaccessible to numerical computation.",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "MPS",
+ "org_dir_long_name": "Directorate for Mathematical and Physical Sciences",
+ "div_abbr": "DMS",
+ "org_div_long_name": "Division Of Mathematical Sciences",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Keith",
+   "pi_last_name": "Miller",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Keith Miller",
+   "pi_email_addr": "kmiller@math.berkeley.edu",
+   "nsf_id": "000366641",
+   "pi_start_date": "1997-08-01",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "University of California-Berkeley",
+  "inst_street_address": "1608 4TH ST STE 201",
+  "inst_street_address_2": "",
+  "inst_city_name": "BERKELEY",
+  "inst_state_code": "CA",
+  "inst_state_name": "California",
+  "inst_phone_num": "5106433891",
+  "inst_zip_code": "947101749",
+  "inst_country_name": "United States",
+  "cong_dist_code": "12",
+  "st_cong_dist_code": "CA12",
+  "org_lgl_bus_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+  "org_prnt_uei_num": "",
+  "org_uei_num": "GS3YEVSS12N6"
+ },
+ "perf_inst": {
+  "perf_inst_name": "University of California-Berkeley",
+  "perf_str_addr": "1608 4TH ST STE 201",
+  "perf_city_name": "BERKELEY",
+  "perf_st_code": "CA",
+  "perf_st_name": "California",
+  "perf_zip_code": "947101749",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "12",
+  "perf_st_cong_dist": "CA12",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "127100",
+   "pgm_ele_name": "COMPUTATIONAL MATHEMATICS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9148",
+   "pgm_ref_txt": "TOOLS & TECHNOL FOR MANUFACTURING DESIGN"
+  },
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  },
+  {
+   "pgm_ref_code": "MANU",
+   "pgm_ref_txt": "MANUFACTURING"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0197",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0197",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 1997,
+   "fund_oblg_amt": 70680.0
+  }
+ ],
+ "por": null
+}

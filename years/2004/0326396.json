@@ -1,0 +1,198 @@
+{
+ "awd_id": "0326396",
+ "agcy_id": "NSF",
+ "tran_type": "Grant",
+ "awd_istr_txt": "Continuing Grant",
+ "awd_titl_txt": "ITR:  Collaborative Research:  Morphable Software Services:  Self-Modifying Programs for Distributed Embedded Systems",
+ "cfda_num": "47.070",
+ "org_code": "05010000",
+ "po_phone": "7032927841",
+ "po_email": "sgreensp@nsf.gov",
+ "po_sign_block_name": "Sol Greenspan",
+ "awd_eff_date": "2003-10-01",
+ "awd_exp_date": "2008-09-30",
+ "tot_intn_awd_amt": 1033775.0,
+ "awd_amount": 1045775.0,
+ "awd_min_amd_letter_date": "2003-10-03",
+ "awd_max_amd_letter_date": "2006-10-31",
+ "awd_abstract_narration": "Future embedded system applications and infrastructures will be\r\nincreasingly dynamic. Moreover, the devices used in such infrastructures\r\nwill vary widely, from sensors and embedded devices, to handhelds, to high end\r\nserver systems, all of which interact continuously in order to collect,\r\ncollate, and deliver information from where it is produced to where it is\r\nneeded. This project addresses the dynamic nature of distributed embedded\r\nsystems, by developing new information technologies that integrate across\r\nmultiple areas of Computer Science, including computer architecture, operating\r\nand real-time systems, compilers, and middleware. The key intent is to create\r\nmorphable embedded services, that is, services that continuously self-modify\r\nand adapt in order to meet dynamic application needs and environmental/resource\r\nconstraints, including power budgets, end-to-end quality of service (QoS) guarantees\r\n(e.g., timing constraints), and security constraints.\r\n\r\nThere are many Useful examples of morphable services. In limited forms, they\r\nare already present in today's cellphone platforms, for instance, where end users\r\ndynamically download new rings or acquire new games (possibly displacing existing\r\nones), etc. Service morphing, however, goes much beyond such configuration\r\ncapabilities. Imagine a cellphone, for example, which dynamically morphs into\r\nan portable wand, using its sensing (e.g., its built-in camera) and\r\ncommunication abilities (e.g., by interacting with other nearby phones)\r\nto guide its owner out of a disaster site. Then, in contrast to such\r\nfunctionality-centric morphing, consider this cellphone drawing on the\r\npower of nearby server systems (or other phones) to provide suitable levels\r\nof service to its user, despite the fact that its power is running low. This\r\ncan be done, for instance, by dynamically offloading services onto other\r\nplatforms, by (re)partitioning services across the device and cooperating server\r\nsystems, and/or by deploying more power-efficient and perhaps, less graphics-capable\r\nservice code to the phone itself. Another interesting aspect of our work is its\r\nability to go beyond performance and power as the only critical elements of future\r\nsystems. With our approach, for instance, compiler methods and middleware can be used\r\nto enhance information security rather than system performance. This can be done\r\nby scattering critical application state to reduce its exposure to\r\nexternal intrusions. As a result, information security can become an integral\r\nelement of the QoS needs of applications.\r\n\r\nA concrete example of security-focused service morphing is to `scatter'\r\ncritical and vulnerable values across multiple cooperating distributed\r\nplatforms and to `assemble' them only to the extent needed by the application\r\nunder compiler control. Moreover, when the last use of the `assembled'\r\nvalue is complete, the `assembled' value is destroyed. Each use of an `assembled' value is verified by compiler-generated code that authenticates it. For example, consider the use of last four digits of the social security number\r\nused for authenticating a transaction. The entire social security number will\r\nnever be stored in a memory location as a value (that could be hacked into).\r\nThe value will be scattered in a form known only to the compiler which it will\r\nthen use to `assemble' the value just in time only for the extent of the use.\r\n\r\nThe different service morphing techniques to be developed in this research\r\ninclude dynamic component (re)deployment, (re)specialization, and (re)partitioning.\r\nSuch actions are supported by system-level mechanisms that efficiently carry the\r\nperformance, usage, and requirements information needed for runtime component morphing,\r\nprincipally addressing components' processing and communication actions.\r\nThe intent is for self-modifying components to be able to acquire runtime\r\ninformation about current resource availabilities and Quality of Service\r\ndemands. While developing these software technologies, we will concurrently\r\nexplore new application-specific techniques and methods that take advantage\r\nof morphable software services, targeting remote sensing and autonomous robotics\r\napplications. Finally, while most of our work will utilize current embedded\r\nsystems platforms, using XScale boards, we will also consider how to\r\nfurther improve hardware platforms to better enable morphable services.\r\nSuch work essentially broadens the optimization space in which morphable\r\nservices are able to operate.\r\n\r\nOur technical approach integrates across multiple CS disciplines, by exploiting,\r\nfor instance, detailed knowledge about computer architecture (e.g., power usage\r\nrelated to memory footprint) to develop compiler techniques that dynamically generate\r\ncode with functionality and the performance/power profiles more suitable to\r\ncurrent application needs. Compiler-level and architectural knowledge is maintained\r\nas meta-information at the middleware level, and lightweight middleware dynamically\r\ndeploys newly morphed code to target platforms. Kernel-level mechanisms collect and\r\ndistribute the resource information needed for such actions. They also help integrate\r\nthe application-level with the system-level actions being taken, the latter being\r\nparticularly important when satisfying certain end-to-end constraints\r\n(e.g., timing or power constraints) desired by distributed embedded applications.\r\n\r\nA key goal of this research is to demonstrate the importance and utility of\r\nmorphable services for critical applications. This implies the need to\r\njointly develop application techniques and ideas with morphable service technologies.\r\nBy grounding our research in a challenging application domain, autonomous robots used in\r\nemergency management situations, our technological solutions must ``close the loop'',\r\nintegrating system-level information about resource constraints, with\r\nmiddleware-level options to morph services, with application-level opportunities\r\nfor making tradeoffs and choices about how to best meet current requirements.\r\nThe result are systems in which changed application needs result in new code\r\nmodules deployed and specialized to meet these needs, jointly with changes in\r\nunderlying system configurations and properties. In other words, applications and\r\nsystems are continuously `morphed' to best match end user requirements.\r\n\r\nA concrete example of extending application-level research to exploit\r\nservice morphing is to extend mission-centric notions of `value' in autonomous\r\nrobots. In robotics, `value' captures an individual robot's contribution to a mission\r\nundertaken by a robot team, and `value' helps a robot determine its next actions.\r\nOur new research will extend these solutions: instead of considering only\r\nmovement alternatives, the robots will also consider the `values' of\r\nother activities like communication, computation and observation. This approach\r\ndepends significantly on other components of this proposal, namely QoS\r\nmanagement and cooperative service morphing, so that the communication links\r\navailable to a robot team and the CPU power needed for interpreting distributed\r\nsensor inputs can be deployed appropriately.\r\n\r\n",
+ "awd_arra_amount": 0.0,
+ "dir_abbr": "CSE",
+ "org_dir_long_name": "Directorate for Computer and Information Science and Engineering",
+ "div_abbr": "CCF",
+ "org_div_long_name": "Division of Computing and Communication Foundations",
+ "awd_agcy_code": "4900",
+ "fund_agcy_code": "4900",
+ "pi": [
+  {
+   "pi_role": "Principal Investigator",
+   "pi_first_name": "Karsten",
+   "pi_last_name": "Schwan",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Karsten Schwan",
+   "pi_email_addr": "schwan@cc.gatech.edu",
+   "nsf_id": "000216799",
+   "pi_start_date": "2003-10-03",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Calton",
+   "pi_last_name": "Pu",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Calton Pu",
+   "pi_email_addr": "calton@cc.gatech.edu",
+   "nsf_id": "000432066",
+   "pi_start_date": "2003-10-03",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Santosh",
+   "pi_last_name": "Pande",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Santosh Pande",
+   "pi_email_addr": "santosh@cc.gatech.edu",
+   "nsf_id": "000253802",
+   "pi_start_date": "2003-10-03",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Greg",
+   "pi_last_name": "Eisenhauer",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Greg Eisenhauer",
+   "pi_email_addr": "eisen@cc.gatech.edu",
+   "nsf_id": "000313459",
+   "pi_start_date": "2003-10-03",
+   "pi_end_date": null
+  },
+  {
+   "pi_role": "Co-Principal Investigator",
+   "pi_first_name": "Tucker",
+   "pi_last_name": "Balch",
+   "pi_mid_init": "",
+   "pi_sufx_name": "",
+   "pi_full_name": "Tucker Balch",
+   "pi_email_addr": "tucker@cc.gatech.edu",
+   "nsf_id": "000267564",
+   "pi_start_date": "2003-10-03",
+   "pi_end_date": null
+  }
+ ],
+ "inst": {
+  "inst_name": "Georgia Tech Research Corporation",
+  "inst_street_address": "926 DALNEY ST NW",
+  "inst_street_address_2": "",
+  "inst_city_name": "ATLANTA",
+  "inst_state_code": "GA",
+  "inst_state_name": "Georgia",
+  "inst_phone_num": "4048944819",
+  "inst_zip_code": "303186395",
+  "inst_country_name": "United States",
+  "cong_dist_code": "05",
+  "st_cong_dist_code": "GA05",
+  "org_lgl_bus_name": "GEORGIA TECH RESEARCH CORP",
+  "org_prnt_uei_num": "EMW9FC8J3HN4",
+  "org_uei_num": "EMW9FC8J3HN4"
+ },
+ "perf_inst": {
+  "perf_inst_name": "Georgia Institute of Technology",
+  "perf_str_addr": "225 NORTH AVE NW",
+  "perf_city_name": "ATLANTA",
+  "perf_st_code": "GA",
+  "perf_st_name": "Georgia",
+  "perf_zip_code": "303320002",
+  "perf_ctry_code": "US",
+  "perf_cong_dist": "05",
+  "perf_st_cong_dist": "GA05",
+  "perf_ctry_name": "",
+  "perf_ctry_flag": "1"
+ },
+ "pgm_ele": [
+  {
+   "pgm_ele_code": "164000",
+   "pgm_ele_name": "Information Technology Researc"
+  },
+  {
+   "pgm_ele_code": "168700",
+   "pgm_ele_name": "ITR MEDIUM (GROUP) GRANTS"
+  }
+ ],
+ "pgm_ref": [
+  {
+   "pgm_ref_code": "9216",
+   "pgm_ref_txt": "ADVANCED SOFTWARE TECH & ALGOR"
+  },
+  {
+   "pgm_ref_code": "9218",
+   "pgm_ref_txt": "BASIC RESEARCH & HUMAN RESORCS"
+  },
+  {
+   "pgm_ref_code": "9251",
+   "pgm_ref_txt": "REU SUPP-Res Exp for Ugrd Supp"
+  },
+  {
+   "pgm_ref_code": "HPCC",
+   "pgm_ref_txt": "HIGH PERFORMANCE COMPUTING & COMM"
+  }
+ ],
+ "app_fund": [
+  {
+   "app_code": "0104",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0104",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0105",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0105",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0106",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0106",
+   "fund_name": "",
+   "fund_symb_id": ""
+  },
+  {
+   "app_code": "0107",
+   "app_name": "NSF RESEARCH & RELATED ACTIVIT",
+   "app_symb_id": "490100",
+   "fund_code": "app-0107",
+   "fund_name": "",
+   "fund_symb_id": ""
+  }
+ ],
+ "oblg_fy": [
+  {
+   "fund_oblg_fiscal_yr": 2004,
+   "fund_oblg_amt": 243525.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2005,
+   "fund_oblg_amt": 265148.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2006,
+   "fund_oblg_amt": 263248.0
+  },
+  {
+   "fund_oblg_fiscal_yr": 2007,
+   "fund_oblg_amt": 273854.0
+  }
+ ],
+ "por": null
+}
